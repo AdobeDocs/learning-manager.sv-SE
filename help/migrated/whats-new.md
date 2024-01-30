@@ -1,7 +1,7 @@
 ---
 title: Nyheter i den här versionen
 description: Läs om de nya funktionerna och förbättringarna i Adobe Learning Manager
-source-git-commit: 95ab7a13a7f3e9815785134bc1d1675c002ab64b
+source-git-commit: 655c94f0faaa6c025e07b11d3d9bfac4f221f899
 workflow-type: tm+mt
 source-wordcount: '2364'
 ht-degree: 0%
@@ -170,11 +170,48 @@ Om Användarbehörighet eller Alla användargrupper har valts och anpassad admin
 
 En anpassad administratör kan komma åt följande rapporter enligt det definierade omfånget:
 
-| Rapportera | Tillgänglig | Omfång |
+<table>
+    <tbody>
+        <tr>
+            <td>
+    <p style="text-align: left;"><b>Rapportera</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>Tillgänglig</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>Omfång</b></p></td>
+        </tr>
+    <tr>
+   <td>
+    <p>Verifieringskedja för innehåll</p></td>
+   <td>
+    <p>Ja</p></td>
+   <td>
+    <p>Komplett katalog</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Verifieringskedja för användare</p></td>
+   <td>
+    <p>Ja</p></td>
+   <td>
+    <p>Fullständig användare</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Inloggningsåtkomst</p></td>
+   <td>
+    <p>Ja</p></td>
+   <td>
+    <p>Fullständig användare</p></td>
+  </tr>
+    </tbody>
+</table>
+
+<!--| Report | Available | Scope |
 |--- |--- |
-| Verifieringskedja för innehåll | Ja | Fullständig katalog |
-| Verifieringskedja för användare | Ja | Fullständig användare |
-| Inloggningsåtkomst | Ja | Fullständig användare |
+| Content Audit Trail | Yes | Full Catalog |
+| User Audit Trail | Yes | Full User |
+|Login Access | Yes | Full User |-->
 
 ## Förbättrad anslutningsintegrering
 
