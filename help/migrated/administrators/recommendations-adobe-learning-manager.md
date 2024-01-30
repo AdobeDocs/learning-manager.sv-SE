@@ -46,7 +46,7 @@ Den nya rekommendationsmotorn i Adobe Learning Manager förenklar det administra
 
 Det finns främst tre arbetsflöden som är involverade i konfigurationen av den nya rekommendationsmotorn:
 
-* Administratör
+* Admin
 * Författare
 * Elev
 

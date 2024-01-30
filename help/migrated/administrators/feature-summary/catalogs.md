@@ -214,7 +214,7 @@ Alla ändringar som görs för utbildningsobjekt i ägarapplikationen överförs
   </tr>
   <tr>
    <td>
-    <p><strong>Tecken</strong></p></td>
+    <p><strong>Utmärkelsetecken</strong></p></td>
    <td>
     <p>Namn och utfasning av märket</p></td>
   </tr>
@@ -297,7 +297,7 @@ Kataloger kan delas med elever i din organisation genom att använda användargr
 1. Öppna en katalog och klicka på **[!UICONTROL Share Internally]**.
 1. Klicka på uppe till höger på sidan om du vill lägga till elever **[!UICONTROL Add]**.
 1. På fliken **[!UICONTROL User Groups]** dialog, börja lägga till elever.
-1. Klicka **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]**.
 
 När en elev loggar in på Learning Manager har hen visat katalogerna som delades med honom/henne.
 

@@ -6,7 +6,7 @@ contentowner: nluke
 source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
 workflow-type: tm+mt
 source-wordcount: '299'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -60,7 +60,7 @@ Problemet uppstår om:
 
    * Eleven är inte en del av katalogen
 
-     Dela katalogen genom att klicka på **[!UICONTROL Add]** och lägg till användargruppen som användaren ingår i. Klicka **[!UICONTROL Save]**.
+     Dela katalogen genom att klicka på **[!UICONTROL Add]** och lägg till användargruppen som användaren ingår i. Klicka på **[!UICONTROL Save]**.
 
      ![](assets/cp-add-user-group.png)
 

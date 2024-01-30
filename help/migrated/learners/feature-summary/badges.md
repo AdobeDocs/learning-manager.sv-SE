@@ -1,7 +1,7 @@
 ---
 description: Lär dig visa och hämta utmärkelsetecken med Learning Manager-elevappen.
 jcr-language: en_us
-title: Tecken
+title: Utmärkelsetecken
 contentowner: manochan
 source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
 workflow-type: tm+mt
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 
 
-# Tecken
+# Utmärkelsetecken
 
 Lär dig visa och hämta utmärkelsetecken med Learning Manager-elevappen.
 
-## Tecken {#Badges-1}
+## Utmärkelsetecken {#Badges-1}
 
 Utmärkelsetecken är ett mått på prestation som din medarbetare kan tjäna på att ha slutfört en kurs. I Adobe Learning Manager introduceras ett av de senaste e-utbildningskoncepten som heter Badges. Yrkesverksamma över hela världen använder dessa utmärkelsetecken som en representation av en viss färdighet eller en utbildningsinsats.
 
@@ -79,6 +79,6 @@ Processen att uppdatera sidan kallas manuell ombakning. I det här fallet laddas
 
 ## Vanliga frågor {#frequentlyaskedquestions}
 
-**1). Hur laddar man ner Badge som elev?**
+**1. Hur laddar man ner Badge som elev?**
 
 På märkessidan kan du ladda ned ett märke som en bild eller i PDF-format. Välj en kompetens eller en kurs och klicka på antingen **PDF** eller **Tecken**.

@@ -66,7 +66,7 @@ När du klickar ytterligare på antalet registreringar, framsteg eller slutföra
 
 *Visa registrerings-/slutförandedatum, förfallodatum och gjorda framsteg*
 
-## Vyn Utbildningar {#learningsview}
+## Utbildningsvy {#learningsview}
 
 Utbildningsvyn visar antalet registreringar, framsteg och slutföranden för ett utbildningsobjekt.
 
@@ -122,7 +122,7 @@ När du klickar ytterligare på värdena i kolumnen för kompatibel, säker dead
 
 *Visa framsteg för kurser*
 
-## Vyn Utbildningar {#LearningsView-1}
+## Utbildningsvy {#LearningsView-1}
 
 I vyn Efterlevnadsstatus för utbildningar visas listan med utbildningsobjekt och motsvarande antal teammedlemmar som är kompatibla, inom en säker deadline, har en kommande deadline eller är icke-kompatibla.
 

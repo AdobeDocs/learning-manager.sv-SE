@@ -3,7 +3,7 @@ jcr-language: en_us
 title: Mappa kompetens med kompetensdomäner
 description: Om du vill automatiskt välja ett inlägg som har publicerats av en användare av den AI-aktiverade kurateringsmotorn för en viss kompetensdomän, måste användarens företag ha sina anpassade färdigheter för att kunna mappas till de kunskapsdomäner som stöds och som finns i Learning Manager LMS.
 contentowner: kuppan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 3d5cc91c8973385b5b13244df026667009fc88f7
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -41,7 +41,7 @@ När en administratör skapar en kompetens kan hen koppla den till de mest relev
 * Affärsprocess
 * Utbildning
 * Design
-* Analytics
+* Analyser
 * Försäljning
 
 Följ stegen nedan om du vill lägga till en kompetensdomän:

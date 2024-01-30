@@ -6,7 +6,7 @@ contentowner: nluke
 source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -54,7 +54,7 @@ Utför stegen nedan om du vill kontrollera om en instruktör har lagts till i ku
 
    Ingen instruktör har tilldelats den här sessionen.
 
-1. Klicka **[!UICONTROL Edit]**. Lägg till den instruktör som godkänner filöverföringen.
+1. Klicka på **[!UICONTROL Edit]**. Lägg till den instruktör som godkänner filöverföringen.
 
    ![](assets/assign-instructor.png)
 

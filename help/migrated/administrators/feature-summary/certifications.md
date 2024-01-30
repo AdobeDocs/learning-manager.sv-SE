@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
 workflow-type: tm+mt
 source-wordcount: '967'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ Som administratör kan du skapa ett certifieringsprogram som antingen är intern
    1. Klicka **[!UICONTROL All]** för att visa certifieringarna i alla lägen.
    1. Sortera och visa listan med certifieringar i stigande eller fallande ordning eller baserat på det datum du uppdaterade dem.
 
-1. Klicka **[!UICONTROL Add]**.
+1. Klicka på **[!UICONTROL Add]**.
 
    En ny certifieringssida visas.
 
@@ -53,7 +53,7 @@ Som administratör kan du skapa ett certifieringsprogram som antingen är intern
    <td>Sista datum för certifieringen. Ange ett numeriskt värde.</td>
   </tr>
   <tr>
-   <td>Text</td>
+   <td>Typ</td>
    <td>
     <p>Typ av certifiering:</p>
     <ul>
@@ -108,7 +108,7 @@ Välj de kurser som ska läggas till i certifieringen från **[!UICONTROL Course
 Håll muspekaren över varje kursruta och klicka på + för att lägga till dem i certifieringen. Klicka **[!UICONTROL Preview]** för att visa kursen som elev innan du lägger till den.
 
 1. Klicka **[!UICONTROL Curriculum]** för att visa/verifiera listan över kurser som du har lagt till.
-1. Klicka **[!UICONTROL Publish]**.
+1. Klicka på **[!UICONTROL Publish]**.
 
 ## Mappning av kursinstanser för certifieringar {#courseinstancemappingforcertifications}
 

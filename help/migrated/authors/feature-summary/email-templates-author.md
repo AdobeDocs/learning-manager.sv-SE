@@ -5,7 +5,7 @@ title: E-postmallar
 source-git-commit: fda58bc18bee6d21ee904a442884e4759587d053
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -46,7 +46,7 @@ Du kan också välja att inte skicka e-postmeddelanden för vissa händelser gen
    Följande variabler är tillgängliga:
 
    * LPName
-   * LPCompletionDeadline
+   * Deadline för slutförande av LP
    * Elevnamn
    * LearnerEmail
    * Kursnamn

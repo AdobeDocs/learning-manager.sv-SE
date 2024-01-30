@@ -47,7 +47,7 @@ Om det behövs kan du göra vissa hanteringsanvändare mer sekretessbelagda. Kon
 
 Sekretessinställningar kan användas för både interna och externa användare.
 
-1. Klicka **[!UICONTROL Gamification]** > **[!UICONTROL Settings]** > **[!UICONTROL Confidentiality Settings]**.
+1. Klicka på **[!UICONTROL Gamification]** > **[!UICONTROL Settings]** > **[!UICONTROL Confidentiality Settings]**.
 
 ![](assets/confidentiality-settings.png)
 
@@ -92,7 +92,7 @@ Administratörer kan konfigurera spelifieringspunkter för elever genom att föl
    En sida visas med en lista över nivåer av brons, silver, guld och platina och de poäng som krävs för att uppnå varje nivå. En lista över aktiviteter och motsvarande punkter visas.
 1. Klicka på Redigera-ikonen bredvid varje uppgift för att ställa in punkterna.
 1. Ändra frekvensen för aktiviteter som att slutföra ett visst antal kurser per månad, kvartal eller år.
-1. Klicka **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]**.
 
 ## Uppgifter {#tasks}
 

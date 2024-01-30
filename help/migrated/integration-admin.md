@@ -1,18 +1,18 @@
 ---
 jcr-language: en_us
-title: Integreringsadministratör
-description: Integreringsadministratör
+title: Integreringsadmin
+description: Integreringsadmin
 preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
 
 
-# Integreringsadministratör
+# Integreringsadmin
 
 <table> 
  <tbody>

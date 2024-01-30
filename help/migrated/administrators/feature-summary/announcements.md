@@ -5,7 +5,7 @@ description: Ett meddelande är ett multimediemeddelande (text, bild eller video
 source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
 workflow-type: tm+mt
 source-wordcount: '997'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -19,12 +19,12 @@ Administratören kan skicka meddelanden till elever för att informera dem om en
 
 Det finns fyra typer av meddelanden:
 
-* Avisering
-* Masthead
+* Meddelande
+* Redaktionsruta
 * Rekommendation
-* Mejl
+* E-post
 
-## Avisering {#notification}
+## Meddelande {#notification}
 
 1. Du som är administratör klickar på Meddelanden i den vänstra rutan.
 1. Klicka på Lägg till längst upp till höger på sidan.
@@ -46,12 +46,12 @@ Det finns fyra typer av meddelanden:
    * Välj leveranstid för meddelandet.
 
 1. Välj **[!UICONTROL On a date]** om du vill schemalägga ett meddelande till ett senare datum och klicka i textområdet intill. En kalender visas där du kan välja startdatum. Välj slutdatum på samma sätt.
-1. Klicka **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]**.
 1. Klicka på inställningsikonen bredvid ett meddelande på fliken Utkast och klicka sedan på Skicka.
 
 Om den bifogade filen är stor kan det ta en stund att överföra den. När du har klickat på Spara visas ett popup-fönster med ett meddelande eftersom överföringen bearbetas. Du får ett meddelande när bilagan har överförts.
 
-## Masthead {#masthead}
+## Redaktionsruta {#masthead}
 
 När du väljer detta alternativ kommer de mediefiler du väljer att visas på elevens startsida. Masthead fungerar som en uppmaning till handling för de elever den är avsedd för.
 
@@ -129,7 +129,7 @@ På fliken Schemalagd kan du visa alla meddelanden som är schemalagda för sän
 
 På fliken Skickat kan du visa alla meddelanden som redan sänds.
 
-## Som e-post
+## Som mejl
 
 Använd det här alternativet för att skicka riktade ad hoc-e-postmeddelanden till elever i en vald användargrupp eller till elever som har registrerat sig för specifik utbildning.
 
@@ -146,4 +146,4 @@ Använd det här alternativet för att skicka riktade ad hoc-e-postmeddelanden t
    * Välj en användargrupp ELLER
    * Välj en kurs. Om kursen har flera instanser kan du välja önskad instans.
 
-1. Klicka **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]**.

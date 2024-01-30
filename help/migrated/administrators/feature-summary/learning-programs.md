@@ -140,7 +140,7 @@ Administratörer kan markera ett utbildningsprogram som slutfört med det altern
    Inställningen **[!UICONTROL Learners]** sidan öppnas med listan över registrerade elever.
 
 1. Markera en/flera/alla elever för att markera LP-slutförande med kryssrutan som finns för varje elev.
-1. Klicka **[!UICONTROL Users]** > **[!UICONTROL Action]** > **[!UICONTROL Mark completion]**.
+1. Klicka på **[!UICONTROL Users]** > **[!UICONTROL Action]** > **[!UICONTROL Mark completion]**.
 
    Om LP:n har flera kurser kommer alla kurser att markeras som fullständiga.
 
@@ -154,7 +154,7 @@ Uppdatera ordningen på kurserna i ett utbildningsprogram
 
 1. En lista över kurskort som är associerade med utbildningsprogrammet visas. Klicka **[!UICONTROL Edit]** längst upp till höger på sidan.
 1. Du kan ändra ordningen på listan genom att klicka på och dra varje kurskort till rätt plats.
-1. Klicka **[!UICONTROL Republish]**.
+1. Klicka på **[!UICONTROL Republish]**.
 
 ## Redigera ett publicerat utbildningsprogram {#editingapublishedlearningprogram}
 

@@ -22,11 +22,11 @@ Learning Manager erbjuder ett Salesforce-programpaket. När de har installerats 
 
 1. Logga in på ditt Learning Manager-administratörskonto som integrationsadministratör.
 1. Klicka **[!UICONTROL Applications]** > **[!UICONTROL Featured Apps]**.
-1. Klicka **[!UICONTROL Salesforce]**.
+1. Klicka på **[!UICONTROL Salesforce]**.
 1. Anteckna program-ID (kallas även klient-ID ) och klienthemligheten som nämns i beskrivningen på sidan Salesforce-program.
 1. Klicka **[!UICONTROL Approve]** och programmet måste godkännas.
 1. Klicka **[!UICONTROL Developer Resources]** > **[!UICONTROL Access Tokens for Testing and Development]**.
-1. I avsnittet Hämta OAuth-kod måste klient-ID:et och omfånget vara inställt på - admin:read,admin:write. Klicka **[!UICONTROL Submit]**.
+1. I avsnittet Hämta OAuth-kod måste klient-ID:et och omfånget vara inställt på - admin:read,admin:write. Klicka på **[!UICONTROL Submit]**.
 1. Ange klient-ID och klienthemlighet i Hämta uppdateringstoken. Klicka **[!UICONTROL Submit]** och anteckna uppdateringstoken.
 
 ### Skapa konto i Salesforce-program
@@ -73,7 +73,7 @@ Om du vill installera paketet måste du först ta bort det befintliga paketet i 
 
 1. Klicka på i det övre högra hörnet på sidan **[!UICONTROL Setup]**.
 1. in **Snabbsökning**, sök efter Inställningar för fjärrplats.
-1. Klicka **[!UICONTROL New Remote Site]**.
+1. Klicka på **[!UICONTROL New Remote Site]**.
 1. Ange uppgifterna:
 
    1. **Namn på fjärrplats:** Ange ett namn du vill använda.
@@ -85,7 +85,7 @@ Om du vill installera paketet måste du först ta bort det befintliga paketet i 
 
 1. Klicka på i det övre högra hörnet **Konfiguration**.
 1. Sök efter anpassade meddelanden.
-1. Klicka **[!UICONTROL New]**.
+1. Klicka på **[!UICONTROL New]**.
 1. Ange följande uppgifter:
 
    1. **Anpassat aviseringsnamn:** LearningManagerNotification
@@ -93,7 +93,7 @@ Om du vill installera paketet måste du först ta bort det befintliga paketet i 
 
 1. Välj båda **Skrivbord** och **Mobil** som kanaler som stöds.
 
-1. Klicka **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]**.
 1. Följ stegen nedan för att aktivera push-meddelanden för mobila enheter:
 
    1. Installera Salesforce-mobilappen i din mobiltelefon.
@@ -104,7 +104,7 @@ Om du vill installera paketet måste du först ta bort det befintliga paketet i 
 ### Avinstallera Learning Manager från Salesforce
 
 1. Gå till Installerade paket i Salesforce-programmet.
-1. Klicka **[!UICONTROL Uninstall]**.
+1. Klicka på **[!UICONTROL Uninstall]**.
 
 ## Konfigurera Learning Manager för Salesforce-användare
 

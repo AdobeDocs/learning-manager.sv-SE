@@ -38,7 +38,7 @@ Learning Manager API:er använder OAuth 2.0 Framework för att autentisera och a
 
 **Tillvägagångssätt**
 
-**1). Konfigurera ditt program**
+**1. Konfigurera ditt program**
 
 Du kan konfigurera programmet med klient-ID och klienthemlighet och använda rätt slutpunkter. När du har registrerat programmet kan du hämta clientId och clientSecret. Get URL bör användas i webbläsare eftersom det autentiserar Learning Manager-användare med deras förkonfigurerade konton som SSO, Adobe ID och så vidare.
 
@@ -221,7 +221,7 @@ I följande tabell beskrivs olika element i objektmodellen för Learning Manager
    <td>
     <p>4)      </p></td>
    <td>
-    <p>intygande</p></td>
+    <p>certifiering</p></td>
    <td>
     <p>Certifiering tilldelas elever baserat på framgångsrikt slutförande av kurser. Kurser krävs i applikationen innan du använder certifieringar. </p></td>
   </tr>
@@ -478,7 +478,7 @@ id\
 språkområde\
 loginUrl\
 logoUrl\
-namn\
+name\
 underdomän\
 themeData\
 timeZoneCode
@@ -496,7 +496,7 @@ uiLocales(localizationMetadata)
 **Attribut**
 id\
 imageUrl\
-namn\
+name\
 tillstånd
 
 +++
@@ -511,7 +511,7 @@ id\
 isDefault\
 isInternallySearch\
 isListable\
-namn\
+name\
 tillstånd
 
 +++
@@ -528,7 +528,7 @@ namn
 
 **Attribut**
 färg\
-namn\
+name\
 poäng
 
 +++
@@ -682,7 +682,7 @@ InstructorNames\
 isDefault\
 språkområde\
 läge\
-namn\
+name\
 onlyQuiz\
 reportingInfo\
 reportingType\
@@ -695,7 +695,7 @@ seatLimit
 **Attribut**
 beskrivning\
 id\
-namn\
+name\
 tillstånd
 
 **Relationer**
@@ -709,7 +709,7 @@ levels(skillsLevel)
 id\
 jämn\
 maxCredits\
-namn\
+name\
 **Relationer**
 märket (badge)\
 färdighet (kompetens)
@@ -725,10 +725,10 @@ contentLocale\
 mejl\
 fält\
 id\
-namn\
+name\
 intjänade poäng\
 profil\
-roller\
+|||ROLE|||\
 tillstånd\
 timeZoneCode\
 uiLocale
@@ -783,7 +783,7 @@ modelIds\
 modelNames\
 modelTypes\
 läsa\
-roll
+||ROLE||
 
 +++
 

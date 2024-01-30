@@ -5,7 +5,7 @@ description: Arbetsstöd är ett arkiv med utbildningsinnehåll som är tillgän
 source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
 workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ Författare kan skapa arbetsstöd för elever. Använd arbetsstöd för att ge e
    Videor, PDF, pptx och docx är de filformat som stöds för överföring. Project-zip-filer eller interaktivt innehåll stöds inte för överföring.
 
 1. Ange varaktigheten i minuter för arbetsstödet.
-1. Klicka **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]**.
 
    Arbetsstödet publiceras.
 

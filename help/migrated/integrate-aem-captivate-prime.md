@@ -41,7 +41,7 @@ Installera Learning Manager-innehållspaketet med hjälp av AEM Package Manager:
 1. Klicka på knappen **Överför paket**.
 
 1. Klicka **[!UICONTROL Browse]** och överför innehållspaketet.
-1. Klicka **[!UICONTROL Upload]**.
+1. Klicka på **[!UICONTROL Upload]**.
 1. När paketet har överförts installerar du innehållspaketet genom att markera det och klicka på **[!UICONTROL Install]**.
 
    ![](assets/install-package.jpg)
@@ -52,7 +52,7 @@ AEM-administratören behöver en uppdateringstoken från Learning Manager-kontot
 
 1. Godkänn AEM Sites-programmet som visas.
 
-   Klicka **[!UICONTROL Applications]** > **[!UICONTROL Featured Apps]** > **[!UICONTROL Adobe Experience Manager - Sites]**.
+   Klicka på **[!UICONTROL Applications]** > **[!UICONTROL Featured Apps]** > **[!UICONTROL Adobe Experience Manager - Sites]**.
 
    ![](assets/launch-aem.jpg)
 
@@ -78,8 +78,8 @@ För widgetkonfiguration behöver AEM-skaparen bara den uppdateringstoken som ti
 
 Du kan också ange flera kontokonfigurationer på flera sidor.
 
-1. Klicka **[!UICONTROL Tools]** > **[!UICONTROL Cloud Services]** > **[!UICONTROL Captivate Learning Manager Widget Configuration]**.
-1. Klicka **[!UICONTROL Create]**.
+1. Klicka på **[!UICONTROL Tools]** > **[!UICONTROL Cloud Services]** > **[!UICONTROL Captivate Learning Manager Widget Configuration]**.
+1. Klicka på **[!UICONTROL Create]**.
 1. Ange uppdateringstoken här. Förbered de andra inställningarna.
 1. Värdnamn bör ändras till &quot;learningmanagereu&quot; för EU-regioner.
 1. Spara och stäng konfigurationen.

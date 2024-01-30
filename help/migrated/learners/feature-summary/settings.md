@@ -119,7 +119,7 @@ Ett sammanfattningsmeddelande består av följande avsnitt:
 
 ## Vanliga frågor {#frequentlyaskedquestions}
 
-**1). Hur laddar man ner en elevs betygsutdrag som elev?**
+**1. Hur laddar man ner en elevs betygsutdrag som elev?**
 
 I det övre högra hörnet klickar du på **[!UICONTROL user profile]** > **[!UICONTROL Profile Settings]**. Klicka på i dialogrutan som visas **Hämta mitt utbildningstranskribering (XLS)**.
 

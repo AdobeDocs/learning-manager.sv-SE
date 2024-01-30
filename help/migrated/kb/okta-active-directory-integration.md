@@ -25,13 +25,13 @@ Adobe Learning Manager stöder identitetsleverantörs- (IdP) och tjänsteleveran
 ## Skapa ett program i OKTA
 
 1. Logga in som administratör på Okta AD.
-1. Klicka **[!UICONTROL Applications]**. Då öppnas Application Store i Okta.
+1. Klicka på **[!UICONTROL Applications]**. Då öppnas Application Store i Okta.
 
    ![](assets/cp-application-store.png)
 
    *Visa appbutik i Okta*
 
-1. Klicka **[!UICONTROL Create App Integration]**.
+1. Klicka på **[!UICONTROL Create App Integration]**.
 
    ![](assets/cp-app-integrations.png)
 
@@ -115,7 +115,7 @@ Gör som följer för att visa den URL och metadatafil som initierats av IdP/SP:
    1. Identitetsleverantörens utfärdare är enhets-id:t.
    1. Kopiera all text som finns under **Valfritt** område.
    1. Öppna ett nytt anteckningsblock och klistra in den kopierade texten.
-   1. Klicka **[!UICONTROL File]** > **[!UICONTROL Save as]** > **[!UICONTROL filename.xml]**. Detta blir metadatafilen.
+   1. Klicka på **[!UICONTROL File]** > **[!UICONTROL Save as]** > **[!UICONTROL filename.xml]**. Detta blir metadatafilen.
 
    ![](assets/cp-saml-integration-step4.png)
 

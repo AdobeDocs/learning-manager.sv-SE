@@ -4,7 +4,7 @@ description: Skapa anpassade upplevelser i den inbyggda versionen av Adobe Learn
 source-git-commit: 86c80607e2f50e6abf6d64fd7a916ef5b024b837
 workflow-type: tm+mt
 source-wordcount: '706'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -121,8 +121,8 @@ Du kan hämta den här rapporten på två sätt.
 
    Rapporten innehåller följande fält:
 
-   * Tilläggsnamn
-   * Startpunkt
+   * Namn på förlängning
+   * Poäng för tillämpning
    * Etikett
    * Öppna i URL
    * Omfång

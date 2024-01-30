@@ -1,6 +1,6 @@
 ---
 jcr-language: en_us
-title: Aviseringar
+title: Meddelanden
 description: Aviseringsfunktionen gäller alla användare av Adobe Learning Manager. Men varje användare baserat på sin roll får olika typer av meddelanden i olika scenarier.
 contentowner: manochan
 source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 
 
-# Aviseringar
+# Meddelanden
 
 Aviseringsfunktionen gäller alla användare av Adobe Learning Manager. Men varje användare baserat på sin roll får olika typer av meddelanden i olika scenarier. Alla aviseringar och meddelanden till användare visas i popup-dialogrutan Aviseringar.
 

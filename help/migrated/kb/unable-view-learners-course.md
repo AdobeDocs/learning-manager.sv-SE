@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
 workflow-type: tm+mt
 source-wordcount: '196'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -35,10 +35,10 @@ Om en elev är registrerad via ett högre utbildningsobjekt (utbildningsprogram 
 Du kan kontrollera den här informationen i rapporten Utbildningsbevis. Följ stegen nedan för att generera en elevbetygsutdrag:
 
 1. Logga in som administratör.
-1. Klicka **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Learner Transcript]**.
+1. Klicka på **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Learner Transcript]**.
 
 1. Ange namnet på **[!UICONTROL Learner]** och ange **[!UICONTROL Date]** intervall.
 1. Expandera avsnittet **[!UICONTROL Advanced Options]** och välj alternativet **[!UICONTROL Enable module level information]**.
-1. Klicka **[!UICONTROL Generate]**.
+1. Klicka på **[!UICONTROL Generate]**.
 
    På elevens betygsutdrag kan du se vilket högre utbildningsobjekt eleven är registrerad via.

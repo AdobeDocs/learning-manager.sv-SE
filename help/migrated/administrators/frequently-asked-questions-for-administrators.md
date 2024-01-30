@@ -273,7 +273,7 @@ Med Adobe Learning Manager kan du registrera externa avdelningsmedlemmar eller a
    Dialogrutan Lägg till användare visas.
 
 1. Lägg till profilnamnet, chefens e-postadress, tilldelade platser, utgångsinformation. Du kan också lägga till en bild i den externa profilen.
-1. Klicka **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]**.
 
 Administratören kan kopiera registreringsadressen och skicka den till den externa registreringsgruppen. De externa användarna kan registrera sig, logga in på Learning Manager-programmet och få tillgång till sina kurser.
 

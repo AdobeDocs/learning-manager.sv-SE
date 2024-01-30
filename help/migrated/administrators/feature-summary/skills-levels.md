@@ -195,7 +195,7 @@ Lägg till en CSV-fil som består av instruktörers kunskaper. Dessa kompetenser
 1. I det övre högra hörnet på skärmen väljer du **[!UICONTROL Add]** > **[!UICONTROL Assign skills to instructor]**.
 1. Överför en CSV-fil. Kolumnerna i CSV-filen är:
 
-   * Kompetensnamn
+   * Kompetensens namn
    * Kompetensnivå
    * Instruktörens e-postadress eller instruktörens UUID
 

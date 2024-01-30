@@ -176,6 +176,6 @@ Elevstatus på Nivå visas längst upp till höger på sidan i en cirkel, på si
 
 ## Vanliga frågor {#frequentlyaskedquestions}
 
-**1). Hur ser man resultattavlan som en elev?**
+**1. Hur ser man resultattavlan som en elev?**
 
 I elevappen klickar du på **[!UICONTROL Social Learning]**. Den sociala resultattavlan visas längst ned till höger på sidan.

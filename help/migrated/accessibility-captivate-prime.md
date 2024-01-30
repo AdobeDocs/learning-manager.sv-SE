@@ -225,7 +225,7 @@ Använd kommandot `kbd Tab`för att navigera bland elementen på sidan. Använd 
 1. Detta är de kontroller som visas oberoende av innehållstyp:
 
    * Innehållsförteckning
-   * Anmärkningar
+   * Anteckningar
    * Spela upp/Pausa
    * Helskärm
    * Stäng-knapp

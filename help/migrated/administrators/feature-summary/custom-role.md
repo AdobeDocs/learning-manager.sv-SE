@@ -6,7 +6,7 @@ contentowner: dvenkate
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '2156'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -115,7 +115,7 @@ Följ stegen nedan för att bevilja olika behörigheter till katalogerna:
         </tr>
         <tr>
           <td>
-          <p>Registrera</p></td>
+          <p>Registrera dig</p></td>
           <td>
           <p>Beviljar behörighet att endast registrera för utbildningsobjektet.</p></td>
         </tr>
@@ -290,7 +290,7 @@ När en användare tilldelas en roll med en specifik enhet kan det finnas fall d
    <td>Rå</td>
   </tr>
   <tr>
-   <td>Registrera</td>
+   <td>Registrera dig</td>
    <td>Alla förluster (kurs, arbetsstöd, utbildningsprogram, certifiering)</td>
    <td>Användare<br>
      Utbildningsplan</td>
@@ -344,7 +344,7 @@ När en användare tilldelas en roll med en specifik enhet kan det finnas fall d
   <tr>
    <td>Skapa</td>
    <td>Spelifiering</td>
-   <td>Varumärkning</td>
+   <td>Varumärke</td>
    <td>Skriva</td>
   </tr>
   <tr>
@@ -369,7 +369,7 @@ När en användare tilldelas en roll med en specifik enhet kan det finnas fall d
   </tr>
   <tr>
    <td>*</td>
-   <td>Varumärkning</td>
+   <td>Varumärke</td>
    <td>Inställning</td>
    <td>Läs</td>
   </tr>
@@ -461,7 +461,7 @@ En administratör kan aktivera spelifieringsrapporter för en anpassad användar
 1. I dialogrutan **[!UICONTROL Feature Privileges: Core Features]** aktiverar du alternativet **[!UICONTROL Full Control]** för kategorin **[!UICONTROL Reports]**.
 
 1. I avsnittet **[!UICONTROL Users]** väljer du den användare som ska tilldelas den nyligen skapade anpassade rollen.
-1. Klicka **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]**.
 
 När en användare loggar in som anpassad administratör och klickar på **[!UICONTROL Reports]** i den vänstra rutan visas utskrifterna, som visas nedan:
 

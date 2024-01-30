@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -50,4 +50,4 @@ Använd filteralternativen som visas i ögonblicksbilden nedan för att hitta ku
 
 1. Ange kriterier för slutförande av VC-kursen. Kriterier för slutförande är den procentandel av den totala längden på kursen som en elev måste delta i för att anses vara slutförd. Till exempel, längden på kursen är 1 timme. Om du anger 50 % som kriterium för slutförande, anses kursen vara slutförd för eleven om en elev deltar i kursen även under 30 minuter.
 
-1. Klicka **[!UICONTROL Done]**.
+1. Klicka på **[!UICONTROL Done]**.

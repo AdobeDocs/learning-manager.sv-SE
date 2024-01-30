@@ -36,7 +36,7 @@ Författare kan skapa virtuella klassrumskurser med Adobe Connect när kurser sk
    *Välj instruktören i listan*
 
 1. Ange kriterier för slutförande av VC-kursen. Kriterier för slutförande är den procentandel av den totala längden på kursen som en elev måste delta i för att anses vara slutförd. Till exempel, längden på kursen är 1 timme. Om du anger 50 % som kriterium för slutförande, anses kursen vara slutförd för eleven om en elev deltar i kursen även under 30 minuter.
-1. Klicka **[!UICONTROL Done]**.
+1. Klicka på **[!UICONTROL Done]**.
 
 ## Delade mallar i Adobe Connect {#sharedtemplatesofadobeconnect}
 

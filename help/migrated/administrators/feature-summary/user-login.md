@@ -3,7 +3,7 @@ jcr-language: en_us
 title: Användarinloggning
 description: Användarinloggning för Adobe Learning Manager
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 0%

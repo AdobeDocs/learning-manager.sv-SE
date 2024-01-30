@@ -6,7 +6,7 @@ preview: true
 source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
 workflow-type: tm+mt
 source-wordcount: '2206'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -60,7 +60,7 @@ Du måste ha administratörsbehörighet för integrering för att kunna utföra 
 
 **Vi kan ta Shaleens hjälp här för att skapa en bild.**
 
-1. Förutsättning
+1. Förkunskapskrav
 1. Utvärdering av det befintliga innehållet och användardata
 1. Exportera och mappa data från befintligt LMS
 1. Konfigurera FTP- och BOX-mappar för migrering
@@ -70,7 +70,7 @@ Du måste ha administratörsbehörighet för integrering för att kunna utföra 
 
 
 
-### Förutsättning {#prerequisite}
+### Förkunskapskrav {#prerequisite}
 
 Innan du startar migreringsprocessen måste du utföra följande krav:
 
@@ -121,7 +121,7 @@ Kontrollera att varje .csv-fil innehåller data för varje fält i det föreskri
    <th width="7%" valign="top"><p><strong>Nej.</strong></p></th> 
    <th width="29%" valign="top"><p><strong>Excel-bladnamn</strong></p></th> 
    <th width="31%" valign="top"><p><strong>Beskrivning av innehåll</strong></p></th> 
-   <th width="31%" valign="top"><p><strong>Anmärkningar</strong></p></th> 
+   <th width="31%" valign="top"><p><strong>Anteckningar</strong></p></th> 
   </tr> 
   <tr> 
    <td><p>1</p></td> 

@@ -6,7 +6,7 @@ contentowner: kuppan
 source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
 workflow-type: tm+mt
 source-wordcount: '3018'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -283,7 +283,7 @@ Du kan inte hämta ett inlägg i enhetsappen än. Den här funktionen blir snart
   </tr>
   <tr>
    <td>
-    <p>Videofilmer</p></td>
+    <p>Video</p></td>
    <td>
     <p>wmv, f4v, asf, 3gp, 3g2, avi, mov, h264, m4v, mp4, MPEG, mpg</p></td>
   </tr>
@@ -348,7 +348,7 @@ Endast vissa användare har behörighet att utföra vissa uppgifter. Följande t
    <td>
     <p>2</p></td>
    <td>
-    <p>Lägg till i min berättelse</p></td>
+    <p>Lägg till i min story</p></td>
    <td>
     <p>En story är en samling med innehåll som har kuraterts av en användare. Användarna kan ställa in synligheten för innehållet på Privat eller Offentlig.</p></td>
   </tr>
@@ -364,7 +364,7 @@ Endast vissa användare har behörighet att utföra vissa uppgifter. Följande t
    <td>
     <p>4</p></td>
    <td>
-    <p>Radera</p></td>
+    <p>Ta bort</p></td>
    <td>
     <p>Alternativet Ta bort tar bort inlägget efter att användaren har bekräftat.</p></td>
   </tr>
@@ -460,7 +460,7 @@ Följ stegen nedan om du vill lägga till ett inlägg i en story:
   </tr>
   <tr>
    <td>
-    <p><b>Radera</b></p></td>
+    <p><b>Ta bort</b></p></td>
    <td>
     <p>Ja</p></td>
    <td>
@@ -518,7 +518,7 @@ Om det inte finns några relevanta tavlor för inlägget när du skapar ett inl�
 
 <!--![](assets/board-options-09.png)-->
 
-## Dela i sociala medier {#sharetosocial}
+## Dela socialt {#sharetosocial}
 
 Dela i sociala medier är ett bokmärke som gör det möjligt för användare att dela sina onlinelärdomar, som webbsidor och bloggar, direkt på den sociala sidan som ett inlägg. Mer information finns i [Dela till social utbildning](share-to-social.md).
 
@@ -629,7 +629,7 @@ Elever kan också se de färdigheter som de har utsetts till ämnesområdesexper
 
 Elevens sida visar också elevens **kuraterade stories**, **senaste aktiviteter** och **följda personer** av dem.
 
-## Aviseringar {#notifications}
+## Meddelanden {#notifications}
 
 När ett inlägg godkänns eller avvisas av SME får användaren ett meddelande som kan ses genom att klicka på aviseringsikonen i det övre högra hörnet av fönstret. Användare kan visa meddelanden Social utbildning och Formell utbildning.
 

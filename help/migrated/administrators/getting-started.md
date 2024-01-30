@@ -65,7 +65,7 @@ Dina företagselever kan få sömlös erfarenhet av att komma åt Learning Manag
 
 Programadministratören för Learning Manager på din organisation måste konfigurera eller konfigurera vissa funktioner innan du börjar implementera dem för dina elever.
 
-### Varumärkning {#branding}
+### Varumärke {#branding}
 
 En organisation kan vilja visa företagslogotypen i Learning Manager-programmet, ha en egen domän i URL:en, visa organisationsnamnet och visa färgscheman som matchar en organisations varumärke. Med Learning Manager kan organisationer använda alla dessa funktioner. Om du vill anpassa inställningar och använda ditt eget varumärke klickar du på avsnittet Varumärke i den vänstra rutan. Klicka på Redigera bredvid alla dessa alternativ och anpassa efter dina behov. Se [Hjälp för varumärken och teman](feature-summary/themes.md) för mer information.
 
@@ -99,7 +99,7 @@ Meddelanden kan vara användbara för användare i ett system för hantering av 
 
 Som standard är meddelandena aktiverade i Learning Manager-programmet. Du kan stänga av aviseringar i det här skedet om du inte vill meddela dina anställda i organisationen.
 
-### Tecken {#badges}
+### Utmärkelsetecken {#badges}
 
 Utmärkelsetecken är ett mått på prestation som din medarbetare kan tjäna på att ha slutfört en kurs. Yrkesverksamma över hela världen använder dessa utmärkelsetecken som en representation av en viss färdighet eller en utbildningsinsats. Du kan skapa en samling utmärkelsetecken så att du kan tilldela eleverna dem när utbildningsinnehållet är klart. Om du vill börja skapa märken kan du klicka på **[!UICONTROL Badges]** i den vänstra rutan. Se  [Hjälp för märken](feature-summary/badges.md) för mer information.
 
@@ -199,7 +199,7 @@ Automatisera elevernas registrering till utbildningsobjekt med hjälp av utbildn
 
 #### Utbildningsplaner (baserat på utlösare) {#learningplansbasedontriggers}
 
-Du kan använda utbildningsplaner för att automatiskt tilldela kurser, utbildningsprogram eller certifieringar till elever baserat på förekomsten av vissa händelser. Till exempel,
+Du kan använda utbildningsplaner för att automatiskt tilldela kurser, utbildningsprogram eller certifieringar till elever baserat på förekomsten av vissa händelser. Exempel:
 
 * Ny användare läggs till
 * Användare ändrar användargrupp

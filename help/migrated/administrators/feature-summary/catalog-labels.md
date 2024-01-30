@@ -36,7 +36,7 @@ Gör så här för att lägga till katalogetiketter:
 
    ![](assets/add-labels.png)
 
-1. Klicka **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]**.
 1. När du sparar etiketten visas den på sidan Katalogetiketter. Du kan välja om du vill göra det till ett obligatoriskt värde eller inte.
 
    ![](assets/catalog-label.png)

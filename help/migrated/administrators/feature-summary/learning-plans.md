@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '1400'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -121,7 +121,7 @@ Nästa avsnitt representerar de utlösare där alternativet **[!UICONTROL Unenro
 
 ![](assets/image045.png)
 
-## På ett visst datum {#onaspecificdate}
+## På ett specifikt datum {#onaspecificdate}
 
 1. Välj det datum då elever ska avregistreras.
 1. Lägg till en eller flera användargrupper. Om flera grupper väljs utlöses planen på datumet och avregistrerar användarna, som ingår i de valda grupperna.
@@ -134,7 +134,7 @@ Nästa avsnitt representerar de utlösare där alternativet **[!UICONTROL Unenro
 
 ## Redigera en utbildningsplan {#editalearningplan}
 
-När du har skapat en utbildningsplan kan administratören redigera/uppdatera utbildningsplanen när som helst. Klicka på utbildningsplanens namn och ändra värdena i **[!UICONTROL Edit Learning Plan]** popup-dialogruta som visas. Klicka **[!UICONTROL Save]**.
+När du har skapat en utbildningsplan kan administratören redigera/uppdatera utbildningsplanen när som helst. Klicka på utbildningsplanens namn och ändra värdena i **[!UICONTROL Edit Learning Plan]** popup-dialogruta som visas. Klicka på **[!UICONTROL Save]**.
 
 ## Aktivera en utbildningsplan {#enablealearningplan}
 

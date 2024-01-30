@@ -216,7 +216,7 @@ Du kan utforska och förhandsgranska kursen och se om den passar dina utbildning
 ![](assets/content-marketplace-learner.gif)
 *Förhandsgranska innehåll på marknaden*
 
-## Innehållsnav
+## Materialnav
 
 Med innehållsnav kan administratörer och ämnesområdesexperter (SME) välja ut spellistor som krävs från elevappen. När formuläret har valts ut kan administratörer hämta det och dela det med försäljningsagenten i Adobe.
 

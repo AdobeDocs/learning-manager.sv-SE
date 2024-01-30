@@ -156,7 +156,7 @@ Anpassa dina webbsidor med hjälp av webbplatsen AEM-referenser och de tillgäng
 
 1. Starta din AEM-instans.
 1. Klicka på Webbplatser och öppna konfigurationssidan.
-1. Klicka **[!UICONTROL Learning Site]** > **[!UICONTROL Language Masters]** > **[!UICONTROL English]**. Alla webbsidor i projektet ingår i mappen.
+1. Klicka på **[!UICONTROL Learning Site]** > **[!UICONTROL Language Masters]** > **[!UICONTROL English]**. Alla webbsidor i projektet ingår i mappen.
 
    ![](assets/list-webpages.png)
    *Visa alla webbsidor*

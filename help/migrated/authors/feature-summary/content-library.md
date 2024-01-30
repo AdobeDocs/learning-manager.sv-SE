@@ -62,7 +62,7 @@ Tabellen nedan visar vilken typ av interaktiva och statiska filtyper som du kan 
    <td>
     <p> </p></td>
    <td>
-    <p>Videofilmer</p></td>
+    <p>Video</p></td>
    <td>
     <p>mp4, wmv, 3gp, 3g2, 3gp2, asf, avi, f4v h264, mpe, mpeg, mpg, mpg2, m4v, mov, wmv</p></td>
   </tr>
@@ -300,7 +300,7 @@ Flytta innehållet i en gemensam mapp till en privat mapp genom att
 
    *Flytta markerat innehåll till en mapp*
 
-1. Välj mappen dit du vill flytta innehållet. Klicka **[!UICONTROL Move]**.
+1. Välj mappen dit du vill flytta innehållet. Klicka på **[!UICONTROL Move]**.
 
 ## Kopiera innehåll till en mapp {#copycontenttofolder}
 

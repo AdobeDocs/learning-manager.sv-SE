@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
 workflow-type: tm+mt
 source-wordcount: '4415'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -138,7 +138,7 @@ Så här skickar du e-postmeddelanden på instansnivå till registrerade elever:
 Excel-filen innehåller kalkylblad för varje instans. Ett kalkylblad består av följande fält:
 
 * Elever
-* Mejl
+* E-post
 * Unikt användar-ID
 * Kursnamn
 * LO unikt ID
@@ -157,7 +157,7 @@ Excel-filen innehåller kalkylblad för varje instans. Ett kalkylblad består av
 * Antal besök
 * Besöksdatum
 * Tidsstämplar (tidszonen UTC)
-* Använd tid (min)
+* Använd tid (i minuter)
 
 >[!NOTE]
 >
@@ -600,7 +600,7 @@ Elever kan enkelt använda enhetsappen Adobe Learning Manager för att skanna re
 
 1. Klicka **[!UICONTROL Courses]** från avsnittet Utbildning på den vänstra navigeringspanelen.
 1. Välj en kurs > **[!UICONTROL View course]**.
-1. Klicka **[!UICONTROL Instances]** > **[!UICONTROL More]** > **[!UICONTROL QR code]**.
+1. Klicka på **[!UICONTROL Instances]** > **[!UICONTROL More]** > **[!UICONTROL QR code]**.
 
    <!--![](assets/admin-instance-edit.png)-->
 

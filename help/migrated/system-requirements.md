@@ -193,7 +193,7 @@ Vi rekommenderar att du importerar stora filer *user.csv* filer med det automati
  <tbody>
   <tr>
    <td>
-    <p><strong>Tecken</strong></p></td>
+    <p><strong>Utmärkelsetecken</strong></p></td>
    <td>
     <p>"png", "jpg", "jpeg", "gif"</p></td>
   </tr>

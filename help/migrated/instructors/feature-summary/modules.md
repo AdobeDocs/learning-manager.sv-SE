@@ -168,4 +168,4 @@ Följ stegen nedan om du vill lägga till poäng och kommentarer för aktivitets
    ![](assets/editing-scores-andcomments.png)
    *Redigera poäng och kommentarer*
 
-1. Klicka **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]**.

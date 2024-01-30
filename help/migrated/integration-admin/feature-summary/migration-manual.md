@@ -5,7 +5,7 @@ title: Migreringshandbok
 source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
 workflow-type: tm+mt
 source-wordcount: '3687'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -69,7 +69,7 @@ Organisationen kan börja använda Learning Manager LMS tillsammans med det äld
 Du kan bara migrera innehåll för följande utbildningsobjekt:
 
 * Modul
-* Tecken
+* Utmärkelsetecken
 * Kurs
 * Modulversion
 * Kursinstans
@@ -142,7 +142,7 @@ Nedan hittar du specifikationerna för CSV-standardfiler som du kan använda fö
    <th>
     <p><b>Innehållsbeskrivning</b></p></th>
    <th>
-    <p>Anmärkningar</p></th>
+    <p>Anteckningar</p></th>
   </tr>
   <tr>
    <td>
@@ -421,7 +421,7 @@ Det är mycket viktigt att du planerar ditt migreringsprojekt. Vi rekommenderar 
 
 **Skapa FTP-konto**
 
-Klicka **[!UICONTROL Request for CSV FTP folder]**. En popup-dialogruta visas där du uppmanas att ange e-post-ID. Gå igenom onlineinstruktionerna och skapa ett FTP-konto. När du har skapat kontot kan du visa migreringsprojektet och sprintprojektmapparna i FTP.
+Klicka på **[!UICONTROL Request for CSV FTP folder]**. En popup-dialogruta visas där du uppmanas att ange e-post-ID. Gå igenom onlineinstruktionerna och skapa ett FTP-konto. När du har skapat kontot kan du visa migreringsprojektet och sprintprojektmapparna i FTP.
 
 En exempelögonblicksbild av projektfiler och mappen FTP visas nedan som referens.
 
@@ -480,11 +480,11 @@ Gå igenom förutsättningarna för migreringsprocessen innan du börjar med mig
    ![](assets/create-project.png)
    *Skapa FTP-mapp*
 
-   Ange projektnamnet, projekttaggen, kurskatalogen och beskrivningen för ditt migreringsprojekt. Klicka **[!UICONTROL Create]**.
+   Ange projektnamnet, projekttaggen, kurskatalogen och beskrivningen för ditt migreringsprojekt. Klicka på **[!UICONTROL Create]**.
 
    Migreringsdataobjekten identifieras med den här migreringsprojekttaggen. Om du inte har någon specifik kurskatalog väljer du standardkatalogen i listrutan. Alla kurser som du migrerar med ett migreringsprojekt inkluderas i katalogen som du väljer i det här skedet. Om du inte väljer någon katalog kommer alla migrerade kurser att bli en del av standardkatalogen.
 
-1. Sidan Konfiguration av utskrift visas som i följande ögonblicksbild. Du måste skapa ett språng som en del av migreringsprojektet. Välj Sprintnamn och en kort beskrivning av sprinten. Du kan välja Ja om du vill migrera innehåll som en del av det här steget. Klicka **[!UICONTROL Next]**.
+1. Sidan Konfiguration av utskrift visas som i följande ögonblicksbild. Du måste skapa ett språng som en del av migreringsprojektet. Välj Sprintnamn och en kort beskrivning av sprinten. Du kan välja Ja om du vill migrera innehåll som en del av det här steget. Klicka på **[!UICONTROL Next]**.
 
    ![](assets/users-modified-sprint.png)
    *Sprintmigrering*

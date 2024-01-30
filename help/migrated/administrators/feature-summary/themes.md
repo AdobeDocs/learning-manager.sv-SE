@@ -18,7 +18,7 @@ Färgteman och varumärken i Learning Manager
 
 Med Learning Manager kan du ändra utseendet på appen för att matcha din organisations krav på varumärken.
 
-## Varumärkning {#branding}
+## Varumärke {#branding}
 
 Klicka **[!UICONTROL Branding]** i den vänstra rutan om du vill uppdatera ditt organisationsnamn ändrar du underdomänen samt loggstilar och teman. Klicka **[!UICONTROL Edit]** ändra innehållet bredvid varje ämne.
 

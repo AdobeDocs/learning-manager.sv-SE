@@ -6,7 +6,7 @@ contentowner: jayakarr
 source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
 workflow-type: tm+mt
 source-wordcount: '1826'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -246,6 +246,6 @@ Elevens betygsutdrag visar även kolumnerna- **[!UICONTROL Module Duration]** oc
 | Antal kompetenser varje användare har | Antal kompetenser som uppnåtts av eleven |
 | Antal kompetenser som behöver fräschas upp | Antal elever vars kompetens behöver fräschas upp |
 | Andel efterlevnad | Förloppsprocenten för den tilldelade kompetensen |
-| Inbäddad bana | Dessa rader visar namnet på det inbäddade utbildningsprogrammet. |
+| Inbäddad väg | Dessa rader visar namnet på det inbäddade utbildningsprogrammet. |
 | Inbäddat väg-ID | Dessa rader visar ID:n för det inbäddade utbildningsprogrammet |
 | Inbäddad sökväg för språk | Dessa rader visar det språk som utbildningsprogrammet skapades med. |

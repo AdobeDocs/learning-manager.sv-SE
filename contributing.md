@@ -2,7 +2,7 @@
 source-git-commit: 705de17630a5db7f43536f870e8760a4d22427e6
 workflow-type: tm+mt
 source-wordcount: '281'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 # Bidragsgivande
@@ -13,7 +13,7 @@ Nedan följer ett antal riktlinjer som du kan följa när du bidrar till det hä
 
 ## Uppförandekod
 
-Detta projekt följer Adobe [uppförandekod](code-of-conduct.md). Genom att delta förväntas du upprätthålla den här koden. Rapportera oacceptabla beteenden till
+Detta projekt följer Adobes [uppförandekod](code-of-conduct.md). Genom att delta förväntas du upprätthålla den här koden. Rapportera oacceptabla beteenden till
 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Dokumentation för medverkande

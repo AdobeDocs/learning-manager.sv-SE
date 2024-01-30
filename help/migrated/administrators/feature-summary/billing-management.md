@@ -52,7 +52,7 @@ Du kan köpa en prenumeration för högst 3 500 elever genom en enskild betalnin
 
    Årsprenumerationsavgiften beräknas utifrån antalet användare som läggs till för prenumerationen. Om till exempel fyra användare läggs till beräknas årsavgiften med uttrycket 4 användare X$4X$12, vilket returnerar $192.
 
-   Klicka **[!UICONTROL Proceed]**.
+   Klicka på **[!UICONTROL Proceed]**.
 
    *Granska uppskattningen*
 

@@ -98,7 +98,7 @@ Du kan välja den här metoden för att lägga till interna användare om antale
 1. På fliken **[!UICONTROL Administrator Home]** sida, klicka på **[!UICONTROL **Användare**]**i det vänstra navigeringsfönstret.
 1. Klicka **[!UICONTROL ** Lägg till **>**&#x200B;Överför en CSV-fil **.]**
 1. Klicka på i dialogrutan **[!UICONTROL ** Importera **.]**
-1. Bläddra till den plats där du har sparat CSV-filen. Klicka **[!UICONTROL Open]**.
+1. Bläddra till den plats där du har sparat CSV-filen. Klicka på **[!UICONTROL Open]**.
 1. Importera CSV-filen och mappa innehållet i CSV-filen till programetiketterna. Det här steget gäller endast när du överför CSV-filen för första gången.
 1. Klicka på **[!UICONTROL **Spara**]** för att spara mappningen.
 1. Klicka på **[!UICONTROL **Lägg till**]**för att överföra den CSV-fil som redan är mappad till programdata.
@@ -137,7 +137,7 @@ Förutom att lägga till interna användare i grupp kan du även lägga till anv
 1. I dialogrutan **[!UICONTROL Add User]** anger du namnet på medarbetaren i dialogrutan **[!UICONTROL Profile Name]** område.
 1. I dialogrutan **[!UICONTROL Manager's Name]** anger du namnet på medarbetarens chef.
 1. Om du vill kan du lägga till profilbilden för den anställde med hjälp av **[!UICONTROL Add Image]** område.
-1. Klicka **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]**.
 
    ![](assets/adding-users-throughself-registration-step6.png)
 
@@ -172,7 +172,7 @@ Att lägga till enskilda användare är den tredje metoden för att lägga till 
 
    ![](assets/add-single-usersincaptivateprime-step3.png)
 
-1. Klicka **[!UICONTROL Add]**.
+1. Klicka på **[!UICONTROL Add]**.
 1. Systemet visar ett meddelande om att användaren har lagts till. Användaren får en verifieringslänk i angivet e-post-ID. Användaren kan klicka på den här länken för att aktivera sitt konto och börja komma åt Learning Manager.
 
    ![](assets/add-single-usersincaptivateprime-step5.png)

@@ -2,7 +2,7 @@
 source-git-commit: 705de17630a5db7f43536f870e8760a4d22427e6
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 # Contribute-artikel
@@ -11,7 +11,7 @@ Vi tar emot bidrag från vår community och från medarbetare i Adobe utanför d
 
 ## Uppförandekod för öppen källkod från Adobe
 
-Detta projekt har antagit [Uppförandekod för öppen källkod från Adobe](code-of-conduct.md) eller [.NET Foundation uppförandekod](https://dotnetfoundation.org/code-of-conduct). Mer information finns i [Bidragsgivande](contributing.md) artikel.
+Detta projekt har antagit [Adobe Open Source Code of Conduct](code-of-conduct.md) eller [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). Mer information finns i artikeln [Contributing](contributing.md).
 
 ## Om dina bidrag till innehåll från Adobe
 

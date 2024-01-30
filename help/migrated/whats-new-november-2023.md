@@ -4,7 +4,7 @@ description: Läs om de nya funktionerna och förbättringarna i november 2023-v
 source-git-commit: 1b0a89bf14ed4e48c3da925686d5e2becd94e320
 workflow-type: tm+mt
 source-wordcount: '2365'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -109,7 +109,7 @@ I Adobe Learning Manager är endast betygsutdrag för inlärning och spelifierin
             <td>
     <p style="text-align: left;"><b>Rapportera</b></p></td>
    <td>
-    <p style="text-align: left;"><b>Tillgänglig</b></p></td>
+    <p style="text-align: left;"><b>Tillgängligt</b></p></td>
    <td>
     <p style="text-align: left;"><b>Omfång</b></p></td>
         </tr>
@@ -168,7 +168,7 @@ Om Användarbehörighet eller Alla användargrupper har valts och anpassad admin
 
 En anpassad administratör kan komma åt följande rapporter enligt det definierade omfånget:
 
-| Rapportera | Tillgänglig | Omfång |
+| Rapportera | Tillgängligt | Omfång |
 |--- |--- |
 | Verifieringskedja för innehåll | Ja | Fullständig katalog |
 | Verifieringskedja för användare | Ja | Fullständig användare |

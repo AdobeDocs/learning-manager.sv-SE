@@ -694,7 +694,7 @@ Mer information finns i [***Utbildningsvägar***](../administrators/feature-summ
 ### Andra ändringar
 
 * Nytt Salesforce-program
-* Innehållsnav
+* Materialnav
 * Rapportera ändringar
 * Sammanfattningsrapport för session
 * Ändringar i innehållsförteckning för spelare
@@ -2455,7 +2455,7 @@ Utgivningsdatum: 6 december 2016.
 Som en del av den här uppdateringen erbjuder Learning Manager en slutpunkt [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning> Managerapi/v1/#!/user/patch_users_id) för att uppdatera användare i ett program. Du kan komma åt den här API-slutpunkten i administratörsrollen. Med **** här slutpunkten kan du uppdatera följande information om Learning Manager-användare:
 
 * Namn
-* Mejl
+* E-post
 * Profil
 * Roll
 * Chef

@@ -550,7 +550,7 @@ Gör det möjligt för eleven att ge feedback på varje instansnivå av funktion
 
 I den här versionen måste du skicka avsnitt, prequisiteConstraints, equipsiteLOs, subLOs, additionalResources, additionalLOs, instanser, catalogLabels till learningObject uttryckligen.
 
-Till exempel,
+Exempel:
 
 `enforcedFields[learningObject]=prerequisiteLOs,instances`
 

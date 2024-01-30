@@ -4,7 +4,7 @@ description: Kärnan i rekommendationsmotorn drivs av Learning Managers nya kurs
 source-git-commit: 40f6732147b7babeb1f11ce52045e6baf6338ce1
 workflow-type: tm+mt
 source-wordcount: '1411'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -43,7 +43,7 @@ Den nya rekommendationsmotorn i Adobe Learning Manager förenklar det administra
 
 Det finns främst tre arbetsflöden som är involverade i konfigurationen av den nya rekommendationsmotorn:
 
-* Administratör
+* Admin
 * Författare
 * Elev
 
@@ -57,7 +57,7 @@ Administratörer får ett guidat arbetsflöde i Learning Manager för att optima
 
    *Markera alternativet Recommendations*
 
-1. Klicka **[!UICONTROL Upgrade]**.
+1. Klicka på **[!UICONTROL Upgrade]**.
 
    ![Uppgradera till det nya systemet](assets/image784236.png)
 
@@ -73,7 +73,7 @@ Administratörer får ett guidat arbetsflöde i Learning Manager för att optima
    ![Skapa parametrarna](assets/image43406.png)
    *Skapa parametrar för rekommendation*
 
-1. Klicka **[!UICONTROL Add more values]**.
+1. Klicka på **[!UICONTROL Add more values]**.
 1. Lägg till produkterna. Skriv namnet på en produkt och tryck på Enter.
 
    Du måste lägga till minst två produkter för att komma igång med.
@@ -86,7 +86,7 @@ Administratörer får ett guidat arbetsflöde i Learning Manager för att optima
    ![lägg till roller](assets/image156786.png)
    *Lägg till rollerna*
 
-1. Klicka **[!UICONTROL Continue]**.
+1. Klicka på **[!UICONTROL Continue]**.
 
    Produkterna och rollerna finns nu i listan över parametrar.
 

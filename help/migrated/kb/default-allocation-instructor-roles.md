@@ -7,7 +7,7 @@ preview: true
 source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -36,7 +36,7 @@ Skapa anpassade användargrupper för att filtrera användarrollerna som är til
 
    ![](assets/instructor-disable-all.png)
 
-1. Gå till **Användare** > **Användargrupp**. Klicka **[!UICONTROL Add]**.
+1. Gå till **Användare** > **Användargrupp**. Klicka på **[!UICONTROL Add]**.
 
    ![](assets/instructor-usergroups.png)
 
@@ -59,6 +59,6 @@ Skapa anpassade användargrupper för att filtrera användarrollerna som är til
 
    ![](assets/instructor-bulk-ug.png)
 
-1. Klicka **[!UICONTROL Actions]** > **[!UICONTROL Remove Role]** > **[!UICONTROL Remove Instructor]**.
+1. Klicka på **[!UICONTROL Actions]** > **[!UICONTROL Remove Role]** > **[!UICONTROL Remove Instructor]**.
 
 Se till att alla e-postutlösare som inaktiverades i steg 2 återaktiveras när de är klara.

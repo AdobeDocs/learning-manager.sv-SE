@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '3738'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -123,7 +123,7 @@ Aktivera eller inaktivera följande inställningar:
     <p><a id="filter-panels"></a>Kontrollera vilka filterpaneler som är tillgängliga för användare i elevappen för att förfina deras sökresultat. Alternativen är följande:</p>
     <ul>
      <li>Kataloger</li>
-     <li>Text</li>
+     <li>Typ</li>
      <li>Format</li>
      <li>Varaktighet</li>
      <li>Kompetenser</li>
@@ -256,7 +256,7 @@ Aktivera eller inaktivera följande inställningar:
    <td height="19">Kataloger</td>
   </tr>
   <tr>
-   <td height="19">Text</td>
+   <td height="19">Typ</td>
   </tr>
   <tr>
    <td height="19">Format</td>
@@ -445,12 +445,12 @@ utbildningsplan\
 Arbetsstöd\
 Katalog\
 Kompetens\
-Tecken\
+Utmärkelsetecken\
 Meddelande\
 Mitt lärande\
 Resultattavla\
 Effektivitet\
-Förutsättning\
+Förkunskapskrav\
 Förarbete\
 Kärninnehåll\
 Testning\
@@ -562,7 +562,7 @@ Lägg till följande:
 
 Du kan även lägga till platsen med hjälp av en CSV-fil. CSV-filen måste innehålla fälten:
 
-* namn
+* name
 * information
 * url
 * seatlimit

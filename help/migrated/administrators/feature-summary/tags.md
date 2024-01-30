@@ -48,7 +48,7 @@ Du kan sortera taggarna baserat på användning eller alfabetisk ordning i **[!U
 
    Semikolon eller kommatecken får inte ingå i taggnamnet.  Observera att taggar utan semikolon och visning av felmeddelanden när du använder sådana taggar som en del av en LO inte hanteras för migreringsscenarier.
 
-1. Klicka **[!UICONTROL Replace]**.
+1. Klicka på **[!UICONTROL Replace]**.
 
 ## Lägg till taggar {#appendtags}
 
@@ -60,7 +60,7 @@ Om åtgärden Lägg till används för taggar läggs den nya/befintliga taggen t
 
    Semikolon eller kommatecken får inte ingå i taggnamnet. Om det används visar Prime ett felmeddelande. Observera att taggar utan semikolon och visning av felmeddelanden när du använder sådana taggar som en del av en LO inte hanteras för migreringsscenarier.
 
-1. Klicka **[!UICONTROL Append]**.
+1. Klicka på **[!UICONTROL Append]**.
 
 ## Inställningar {#settings}
 

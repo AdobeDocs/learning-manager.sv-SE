@@ -250,7 +250,7 @@ Vänta i 60 minuter för att ändringarna ska börja gälla.
 Administratören kan anpassa titeln och undertiteln som visas i rubrikbilden på Social Learning-startsidan. Oavsett vad administratören bestämmer sig för att ange som titel och undertitel finns samma funktioner på elevens startsida för social utbildning.
 
 1. I Admin-programmet klickar du på **[!UICONTROL Social Learning]** > **[!UICONTROL Settings]**.
-1. Klicka **[!UICONTROL Customize]**.
+1. Klicka på **[!UICONTROL Customize]**.
 1. Ändra banderollbilden. Bildens mått måste vara minst **1 600 px X 240 px**.
 1. Växla alternativet för att dölja eller visa **[!UICONTROL Know More]** -länken på banderollen.
 1. Ange rubriken och underrubriken i fälten som anges nedan:
@@ -315,7 +315,7 @@ Administratören kan visa aktivitetspoäng, antal inlägg, anslagstavlor, använ
    <td>
     <p>1</p></td>
    <td>
-    <p>Kompetensnamn</p></td>
+    <p>Kompetensens namn</p></td>
    <td>
     <p>Visar namn på kompetenser som används i Social utbildning.</p></td>
   </tr>
@@ -369,7 +369,7 @@ Baserat på de färdigheter som oftast används av slutanvändare av Learning Ma
 +++Lista över kompetensdomäner som används av kurateringssystemet för Learning Manager
 
 1. Redovisning
-1. Analytics
+1. Analyser
 1. Affärsetik
 1. Affärsrätt
 1. Affärsprocess

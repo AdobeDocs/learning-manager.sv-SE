@@ -5,7 +5,7 @@ description: Ett meddelande är ett multimediemeddelande (text, bild eller video
 source-git-commit: ed7e28720cf521b629333dc48e530e0aa16b0ae1
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

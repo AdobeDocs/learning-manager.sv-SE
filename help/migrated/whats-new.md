@@ -4,7 +4,7 @@ description: Läs om de nya funktionerna och förbättringarna i Adobe Learning 
 source-git-commit: 655c94f0faaa6c025e07b11d3d9bfac4f221f899
 workflow-type: tm+mt
 source-wordcount: '2364'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -111,7 +111,7 @@ I Adobe Learning Manager är endast betygsutdrag för inlärning och spelifierin
             <td>
     <p style="text-align: left;"><b>Rapportera</b></p></td>
    <td>
-    <p style="text-align: left;"><b>Tillgänglig</b></p></td>
+    <p style="text-align: left;"><b>Tillgängligt</b></p></td>
    <td>
     <p style="text-align: left;"><b>Omfång</b></p></td>
         </tr>
@@ -176,7 +176,7 @@ En anpassad administratör kan komma åt följande rapporter enligt det definier
             <td>
     <p style="text-align: left;"><b>Rapportera</b></p></td>
    <td>
-    <p style="text-align: left;"><b>Tillgänglig</b></p></td>
+    <p style="text-align: left;"><b>Tillgängligt</b></p></td>
    <td>
     <p style="text-align: left;"><b>Omfång</b></p></td>
         </tr>

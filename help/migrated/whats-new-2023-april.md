@@ -176,7 +176,7 @@ Mer information finns i [Checklista för observation](/help/migrated/authors/fea
 
 Sökresultaten är även kategoriserade som:
 
-* Senaste sökningar av dig
+* Senaste sökningar utförda av dig
 * Populära sökningar i din organisation
 
 Sökfunktionen har även förbättrats för elever. Elever kan nu använda dubbla citattecken, plus operatorerna &quot;+&quot; och &quot;-&quot; för att hitta relevanta resultat snabbare och få en sökliknande upplevelse i Google.

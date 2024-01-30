@@ -6,7 +6,7 @@ contentowner: jayakarr
 source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -39,7 +39,7 @@ Klicka på fliken Återkallat om du vill visa indraget arbetsstöd. Du kan åter
 1. Klicka på inställningsikonen intill ett arbetsstöd på fliken Publicerat.
 
 
-1. Klicka **[!UICONTROL Manage Assignment]**.
+1. Klicka på **[!UICONTROL Manage Assignment]**.
 
    Inställningen **[!UICONTROL Enroll Learners]** visas.
 
@@ -49,7 +49,7 @@ Klicka på fliken Återkallat om du vill visa indraget arbetsstöd. Du kan åter
 
 1. I dialogrutan **[!UICONTROL Learners]** , börja skriva namnet på eleverna och välj eleverna från rullgardinsmenyn. Du kan också hitta elever per namn, profil och så vidare.
 1. Klicka **[!UICONTROL Add].**
-1. Klicka **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]**.
 
 ## Vanliga frågor {#frequentlyaskedquestions}
 
@@ -67,6 +67,6 @@ in **[!UICONTROL Published]** klickar du på inställningsikonen nära ett arbet
 
 +++Hur drar man tillbaka ett arbetsstöd?
 
-in **[!UICONTROL Published]** klickar du på inställningsikonen nära ett arbetsstöd. Klicka **[!UICONTROL Withdraw]**. Arbetsstödet visas nu inte längre på fliken Publicerat. Klicka på fliken Återkallat om du vill visa det återkallade arbetsstödet.
+in **[!UICONTROL Published]** klickar du på inställningsikonen nära ett arbetsstöd. Klicka på **[!UICONTROL Withdraw]**. Arbetsstödet visas nu inte längre på fliken Publicerat. Klicka på fliken Återkallat om du vill visa det återkallade arbetsstödet.
 
 +++

@@ -120,7 +120,7 @@ Inställningen **[!UICONTROL Enable Learners to Choose instances (Flexible Learn
 
 *Instanser för utbildningsväg*
 
-## Aviseringar
+## Meddelanden
 
 Det finns tre alternativ:
 

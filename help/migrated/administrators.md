@@ -7,7 +7,7 @@ preview: true
 source-git-commit: 0fabd369e70e15ba22fead0177a24aafd851d88d
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 * [Elevens betygsutdrag](/help/migrated/administrators/feature-summary/learner-transcripts.md)
 * [Spelifiering](administrators/feature-summary/gamification.md)
 * [Lägg till användare/användargrupper](administrators/feature-summary/add-users-user-groups.md)
-* [Tecken](administrators/feature-summary/badges.md)
+* [Utmärkelsetecken](administrators/feature-summary/badges.md)
 * [Faktureringshantering](administrators/feature-summary/billing-management.md)
 * [Kataloger](administrators/feature-summary/catalogs.md)
 * [Certifieringar](administrators/feature-summary/certifications.md)

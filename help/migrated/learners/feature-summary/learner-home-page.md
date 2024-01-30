@@ -24,7 +24,7 @@ När administratören har aktiverat fördjupad layout hälsas eleven, efter att 
 
 Baserat på om en widget har aktiverats ser eleven följande:
 
-## Masthead {#masthead}
+## Redaktionsruta {#masthead}
 
 Har en video- eller bildkarusell med en inbäddad URL. Inställningen [Administratören kan överföra vilken bild eller video som helst](../../administrators/feature-summary/announcements.md#masthead) mediefil som ett masthead och ange dess synlighet för en grupp elever.
 
@@ -60,7 +60,7 @@ Som elev kan du filtrera kurskatalogen enligt dessa nivåer:
 
 * Nybörjare
 * Mellannivå
-* Avancerat
+* Avancerad
 
 Välj ett alternativ så kan du sedan se kurskatalogen efter valet.
 

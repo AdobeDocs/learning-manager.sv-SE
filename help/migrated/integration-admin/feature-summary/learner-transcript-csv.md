@@ -7,7 +7,7 @@ preview: true
 source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
 workflow-type: tm+mt
 source-wordcount: '2997'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -111,7 +111,7 @@ Kolumnerna i Elevens betygsutdrag innehåller olika delar av information som gä
    <td valign="middle"><p>Utbildningsprogrammets, certifieringens eller kursens namn</p></td> 
   </tr> 
   <tr> 
-   <td valign="middle"><p><b>Text</b></p></td> 
+   <td valign="middle"><p><b>Typ</b></p></td> 
    <td valign="middle">Töm aldrig</td> 
    <td valign="middle"><p>Typen av utbildningsobjekt som användaren registrerades till.</p></td> 
   </tr> 
@@ -216,7 +216,7 @@ Kolumnerna i Elevens betygsutdrag innehåller olika delar av information som gä
    <td height="38" width="728">Den senaste maximala quiz-poängen som är möjlig för modulen. Kan vara tomt om eleven inte har försökt utföra quiz eller om innehållet inte har något quiz.</td> 
   </tr> 
   <tr> 
-   <td height="38" width="283"><b>Högsta quiz-poäng</b></td> 
+   <td height="38" width="283"><b>Högsta quizpoäng</b></td> 
    <td height="38" width="283">Kan vara tomt</td> 
    <td height="38" width="728">Högsta quiz-poäng som eleven fått vid flera försök. Kan vara tomt om eleven inte har försökt utföra quiz eller innehållet inte har något quiz i det eller admin / instruktör inte har tilldelat någon poäng.</td> 
   </tr> 
@@ -231,7 +231,7 @@ Kolumnerna i Elevens betygsutdrag innehåller olika delar av information som gä
    <td height="19" width="728">Det totala antalet försök som hittills har gjorts av eleven för denna modul.</td> 
   </tr> 
   <tr> 
-   <td height="19" width="283"><b>Maximalt antal tillåtna försök</b></td> 
+   <td height="19" width="283"><b>Max antal tillåtna försök</b></td> 
    <td height="19" width="283">Kan vara tomt</td> 
    <td height="19" width="728">Det maximala antalet tillåtna försök för eleven att konsumera modulen.</td> 
   </tr> 
@@ -308,7 +308,7 @@ Kolumnerna i Elevens betygsutdrag innehåller olika delar av information som gä
    <th>Beskrivning</th> 
   </tr> 
   <tr> 
-   <td height="19" width="264">Text</td> 
+   <td height="19" width="264">Typ</td> 
    <td height="19" width="253">Alla, utbildningsprogram, certifikat, kurs.</td> 
    <td height="19" width="412">LO-typen som utbildningssammanfattningstabellen ska visa data för.</td> 
   </tr> 
@@ -359,7 +359,7 @@ Kolumnerna i Elevens betygsutdrag innehåller olika delar av information som gä
 
 | Kolumnnamn | Typ av värde | Beskrivning |
 |---|---|---|
-| Text | Alla, utbildningsprogram, certifikat, kurs. | LO-typen som utbildningssammanfattningstabellen ska visa data för. |
+| Typ | Alla, utbildningsprogram, certifikat, kurs. | LO-typen som utbildningssammanfattningstabellen ska visa data för. |
 | Grupperbart fält (profil) | Töm aldrig | Profilen som utbildningssammanfattningen ska visa data för. |
 | Chefens namn | Töm aldrig | Chefens namn, vars underordnade data för LO-engagemang ska visas i tabellen Sammanfattning av utbildning. |
 | Radetiketter | Töm aldrig | Elevnamnet med listan över LO-elever är registrerat i. |
@@ -373,11 +373,11 @@ Kolumnerna i Elevens betygsutdrag innehåller olika delar av information som gä
 
 | Kolumnnamn | Typ av värde | Beskrivning |
 |---|---|---|
-| Text | Alla, utbildningsprogram, certifikat, kurs. | LO-typen som utbildningssammanfattningstabellen ska visa data för. |
+| Typ | Alla, utbildningsprogram, certifikat, kurs. | LO-typen som utbildningssammanfattningstabellen ska visa data för. |
 | Radetiketter (vänster sidokolumn) | Töm aldrig | Elevnamnet med listan över LO-elever är registrerat i. |
 | Radetiketter (vänster sidokolumn) | Töm aldrig | Elevnamnet med listan över LO-elever är registrerat i. |
 
-### Kompetensbetygsättning
+### Betygsutdrag för kompetensen
 
 | .Kolumnnamn | Typ av värde | Beskrivning |
 |---|---|---|
@@ -389,8 +389,8 @@ Kolumnerna i Elevens betygsutdrag innehåller olika delar av information som gä
 | Kompetensnivå | Töm aldrig | Tilldelad kompetensnivå till eleven. |
 | Poäng som krävs | Töm aldrig | Totala poäng som krävs av eleven för att uppnå kompetensen. |
 | Intjänade poäng | Töm aldrig | Totala poäng som erhållits av eleven för kompetensen. |
-| Andel slutfört | Töm aldrig | Förloppsprocent för att uppnå kompetensen. |
-| Tilldelat datum (tidszonen UTC) | Töm aldrig | Datum då kompetensen tilldelades eleven. |
+| Andel slutförd | Töm aldrig | Förloppsprocent för att uppnå kompetensen. |
+| Tilldelat datum (UTC-tidszon) | Töm aldrig | Datum då kompetensen tilldelades eleven. |
 | Uppnått datum (tidszonen UTC) | Töm aldrig | Datum då eleven uppnådde kompetensen. |
 | användarstatus | Töm aldrig | Elevens användarstatus: Aktiv/Borttagen/Avstängd. |
 | Grupperbart aktivt fält | Kan vara tomt | För varje grupperbart aktivt fält i kontot kommer det att finnas en kolumn, där kolumnnamnet är det för aktivt fält och värdet kommer att vara det specifika värdet som eleven har för det fältet. |

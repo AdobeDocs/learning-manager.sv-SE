@@ -176,11 +176,11 @@ Learning Manager erbjuder ett Salesforce-programpaket. När de har installerats 
 
 1. Logga in på ditt Learning Manager-administratörskonto som integrationsadministratör.
 1. Klicka **[!UICONTROL Applications]** > **[!UICONTROL Featured Apps]**.
-1. Klicka **[!UICONTROL Salesforce]**.
+1. Klicka på **[!UICONTROL Salesforce]**.
 1. Anteckna program-ID (kallas även klient-ID ) och klienthemligheten som nämns i beskrivningen på sidan Salesforce-program.
 1. Klicka **[!UICONTROL Approve]** och programmet måste godkännas.
 1. Klicka **[!UICONTROL Developer Resources]** > **[!UICONTROL Access Tokens for Testing and Development]**.
-1. I avsnittet Hämta OAuth-kod måste klient-ID:et och omfånget vara inställt på - admin:read,admin:write. Klicka **[!UICONTROL Submit]**.
+1. I avsnittet Hämta OAuth-kod måste klient-ID:et och omfånget vara inställt på - admin:read,admin:write. Klicka på **[!UICONTROL Submit]**.
 1. Ange klient-ID och klienthemlighet i Hämta uppdateringstoken. Klicka **[!UICONTROL Submit]** och anteckna uppdateringstoken.
 
 ### Skapa konto i Salesforce-program
@@ -201,7 +201,7 @@ Om du vill installera paketet måste du först ta bort det befintliga paketet i 
 1. Starta [URL till Learning Manager-paket](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WOQ).
 1. I dialogrutan **Inloggning** sida, klicka på **[!UICONTROL Use Custom Domain]**.
 1. Ange paketets URL och klicka på **[!UICONTROL Continue]**. Alternativet Installera endast för administratörer måste vara markerat på installationssidan. Ändra inte det här alternativet.
-1. Klicka **[!UICONTROL Install]**. När paketet har installerats klickar du på **[!UICONTROL Done]**. Du kommer till sidan Installerade paket och kan se Adobe Learning Manager-installationspaketet.
+1. Klicka på **[!UICONTROL Install]**. När paketet har installerats klickar du på **[!UICONTROL Done]**. Du kommer till sidan Installerade paket och kan se Adobe Learning Manager-installationspaketet.
 1. Gå till Appstartaren (bredvid Konfiguration) och sök efter Adobe Learning Manager.
 1. Om du vill konfigurera programmet klickar du på **[!UICONTROL Configure]**.
 1. Klicka **[!UICONTROL New]** och lägg till följande information:
@@ -216,7 +216,7 @@ Om du vill installera paketet måste du först ta bort det befintliga paketet i 
 
 1. Klicka på i det övre högra hörnet på sidan **[!UICONTROL Setup]**.
 1. in **[!UICONTROL Quick Find]**, sök efter Inställningar för fjärrplats.
-1. Klicka **[!UICONTROL New Remote Site]**.
+1. Klicka på **[!UICONTROL New Remote Site]**.
 1. Ange uppgifterna:
 
    * **Namn på fjärrplats:** Ange ett namn du vill använda.
@@ -228,7 +228,7 @@ Om du vill installera paketet måste du först ta bort det befintliga paketet i 
 
 1. Klicka på i det övre högra hörnet **[!UICONTROL Setup]**.
 1. Sök efter anpassade meddelanden.
-1. Klicka **[!UICONTROL New]**.
+1. Klicka på **[!UICONTROL New]**.
 1. Ange följande uppgifter:
 
    1. **Anpassat aviseringsnamn:** LearningManagerNotification
@@ -236,7 +236,7 @@ Om du vill installera paketet måste du först ta bort det befintliga paketet i 
 
 1. Välj båda **Skrivbord** och **Mobil** som kanaler som stöds.
 
-1. Klicka **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]**.
 1. Följ stegen nedan för att aktivera push-meddelanden för mobila enheter:
 
    1. Installera Salesforce-mobilappen i din mobiltelefon.
@@ -247,7 +247,7 @@ Om du vill installera paketet måste du först ta bort det befintliga paketet i 
 ### Avinstallera Learning Manager från Salesforce
 
 1. Gå till Installerade paket i Salesforce-programmet.
-1. Klicka **[!UICONTROL Uninstall]**.
+1. Klicka på **[!UICONTROL Uninstall]**.
 
 ## Konfigurera Learning Manager för Salesforce-användare
 
@@ -641,7 +641,7 @@ GetAbstract-kopplingen används av företagskunder på getAbstract.com, som vill
    * Klicka på Redigera och redigera dina inloggningsuppgifter. Om du vill ångra dina uppdateringar av fältet klickar du på Återställ
    * Klicka på Aktivera schema för att schemalägga synkroniseringen. Du kan ange starttid och datum och sedan ange frekvensen för synkroniseringsschemat i dagar. Du kan till exempel aktivera synkronisering var tredje dag.
 
-1. Klicka **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]**.
 
    Konfigurationen sparas och anslutningen getAbstract för ditt konto läggs till.
 
@@ -1241,7 +1241,7 @@ LinkedIn Learning Connector används av företagskunder på LinkedIn.com som vil
    >
    >Företagsadministratören kan skapa ett nytt program från LinkedIn Learning Admin-portalen för att hämta appnyckeln och den hemliga nyckeln .
 
-1. Klicka **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]**.
 
    Konfigurationen sparas och LinkedIn Learning-anslutningen för ditt konto läggs till. Du kan nu klicka på **[!UICONTROL Manage Connections]** från startsidan och redigera din konfiguration när som helst.
 
@@ -1610,7 +1610,7 @@ Förutsättningar för att upprätta en ADFS-anslutning:
    ![](assets/register-app.png)
    *Ange programmets namn*
 
-   Klicka **[!UICONTROL Register]**.
+   Klicka på **[!UICONTROL Register]**.
 
 1. I den högra rutan väljer du **[!UICONTROL Certificates and Secrets]**.
 
@@ -1686,7 +1686,7 @@ Förutsättningar för att upprätta en ADFS-anslutning:
 
 1. Ange det klient-ID och den klienthemlighet du fick tidigare på konfigurationssidan för ADFS i Adobe Learning Manager.
 
-   Klicka **[!UICONTROL Connect]**.
+   Klicka på **[!UICONTROL Connect]**.
 
 1. Logga in på **portal.azure.com**. Värdena fylls i fälten Klient-ID och Primär domän.
 
@@ -1759,7 +1759,7 @@ Följ de här stegen om du vill ta bort en etablerad miniOrange-anslutning.
    >
    >Endast Adobe-värdbaserade anslutningskonton stöds i Learning Manager. Exempel: &#39;.adobeconnect.com&#39;.
 
-1. Klicka **[!UICONTROL Integrate]**.
+1. Klicka på **[!UICONTROL Integrate]**.
 
    När du har autentiserat e-post-ID visar Learning Manager meddelandet eftersom Connect har integrerats. Du kan börja visa dina virtuella klassrumskurser automatiskt med Adobe Connect.
 
@@ -2017,7 +2017,7 @@ Exportera utbildningsmetadata från Adobe Learning Manager till datahämtnings- 
 
    *Ange anslutning och domännamn*
 
-1. Klicka **[!UICONTROL Connect]**. Bas-URL:en och hämtnings-URL:en genereras.
+1. Klicka på **[!UICONTROL Connect]**. Bas-URL:en och hämtnings-URL:en genereras.
 
    ![](assets/base-url.png)
 
@@ -2117,7 +2117,7 @@ När en författare har angett priserna för olika kurser, utbildningsvägar ell
 
 1. Välj datum.
 
-1. Klicka **[!UICONTROL Execute]**. När genomförandet är klart kommer alla kurser eller utbildningsvägar som har ett pris att flyttas till Adobe Commerce. Eleven kan sedan köpa kursen från Learning Manager.
+1. Klicka på **[!UICONTROL Execute]**. När genomförandet är klart kommer alla kurser eller utbildningsvägar som har ett pris att flyttas till Adobe Commerce. Eleven kan sedan köpa kursen från Learning Manager.
 
 ### Native Learning Manager med Adobe Commerce
 

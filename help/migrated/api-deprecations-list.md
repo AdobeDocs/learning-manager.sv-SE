@@ -36,7 +36,7 @@ Följande tabell visar hastighets- och sprängningsgränser för API:erna.
         <th>Antal begäranden - antal begäranden</th>
     </tr>
     <tr>
-        <td>Administratör</td>
+        <td>Admin</td>
         <td>5</td>
         <td>5</td>
     </tr>
@@ -46,7 +46,7 @@ Följande tabell visar hastighets- och sprängningsgränser för API:erna.
         <td>5</td>
     </tr>
     <tr>
-        <td>Search</td>
+        <td>Sök</td>
         <td>50</td>
         <td>5</td>
     </tr>

@@ -5,7 +5,7 @@ hidefromtoc: true
 source-git-commit: 1da0911a4d0c2ae5cb01bbb2b7955675b0dfcdde
 workflow-type: tm+mt
 source-wordcount: '1994'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -78,10 +78,10 @@ Du kan visa och dölja olika spelarinställningar och alternativ baserat på inn
 Du kan ändra följande alternativ:
 
 * Växla innehållsförteckning
-* Anmärkningar
+* Anteckningar
 * Språk
 * Hastighet
-* Bildtext
+* Undertext
 * Volym
 * Uppspelningskontroller
 
@@ -106,7 +106,7 @@ Denna rapport består av följande fält:
 * Tidpunkt för utlöst mejl (tidszonen UTC)
 * Tidpunkt för senaste händelsestatus (tidszonen UTC)
 * Leveransstatus
-* Mottagarens e-postadress
+* Mottagarmejl
 * Avsändarens användar-ID
 * Ämne för mejlet
 * Enhetstyp
@@ -298,7 +298,7 @@ Body required for revoking oauth cookie only
 
 I den här versionen har vi gjort några API:er offentliga.
 
-| API | Text | Beskrivning |
+| API | Typ | Beskrivning |
 |---|---|---|
 | /social/search | GET | Sök i sociala medier. |
 | /tillkännagivanden | GET | Få detaljerad information om tillkännagivandet på masthead som tilldelats eleven. |

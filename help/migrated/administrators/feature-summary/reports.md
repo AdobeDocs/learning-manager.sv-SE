@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
 workflow-type: tm+mt
 source-wordcount: '6225'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -104,7 +104,7 @@ Administratören kan &quot;skicka&quot; en standardlista över efterlevnadsutbil
    ![](assets/select-training.png)
    *Välj utbildning att dela med chefer*
 
-1. Klicka **[!UICONTROL Share]**.
+1. Klicka på **[!UICONTROL Share]**.
 
 Utbildningen delas nu med den angivna chefen.
 
@@ -116,7 +116,7 @@ Klicka på i listan över delade utbildningar **[!UICONTROL View]**. Du kan se u
 
 1. Om du vill dra tillbaka utbildningen från en chef klickar du på **[!UICONTROL Withdraw]**.
 
-1. Klicka **[!UICONTROL Proceed]**. Detta drar tillbaka tidigare delad utbildning från chefens efterlevnadstavla.
+1. Klicka på **[!UICONTROL Proceed]**. Detta drar tillbaka tidigare delad utbildning från chefens efterlevnadstavla.
 
 ## Kontrollpaneler för användaraktivitet {#useractivitydashboards}
 
@@ -256,7 +256,7 @@ Utbildningsrapporten har ytterligare två kolumner:
 
 1. Genomsnittlig stjärnrankning för en kurs.
 1. Antal elever som har betygsatt kursen.
-1. Inbäddad bana
+1. Inbäddad väg
 1. Inbäddat väg-ID
 1. Inbäddat kurs-ID
 
@@ -268,7 +268,7 @@ Utbildningsrapporten har ytterligare två kolumner:
 >
 >För båda rapporterna (Utbildningsinnehåll, Användaraktivitet) kan du konfigurera högst 10 användargrupper. Det kan ta upp till 24 timmar för bearbetningen att slutföras och göra de nyligen konfigurerade filtren tillgängliga.
 
-## Rapporter för kontrollpanelen {#dashboardreports}
+## Tavelrapporter {#dashboardreports}
 
 En kontrollpanel är en samling rapporter. Rapporter kan grupperas i en kontrollpanel enligt ditt val.
 
@@ -276,7 +276,7 @@ En kontrollpanel är en samling rapporter. Rapporter kan grupperas i en kontroll
 
 Inställningen **[!UICONTROL Sample Reports]** för att visa några indikativa rapporter som baseras på exempeldatapunkter. Utforska dessa rapporter och få en uppfattning om olika typer av funktionsrika rapporter som du kan generera med hjälp av dina kontodata.
 
-## Rapporter för kontrollpanelen {#DashboardReports-1}
+## Tavelrapporter {#DashboardReports-1}
 
 Klicka på fliken Tavla för att se alla tavlor som du har skapat. Från **[!UICONTROL View Dashboard]** I listrutan kan du välja standardtavlan eller en kontrollpanel som du har skapat.
 
@@ -578,12 +578,12 @@ Nedan visas de rapporttyper som är tillgängliga för hämtning.
 
 * Kursrapporter
 * Elevens betygsutdrag
-* Meddelanderapport
+* Notisrapport
 * Arbetsstödsrapport
 * Verifieringskedja för innehåll
 * Verifieringskedja för användare
 * Rapport över inloggning/åtkomst
-* Transkribering av spelifiering
+* Spelifieringsutdrag
 
 ## Elevens betygsutdrag {#learnertranscripts}
 
@@ -662,7 +662,7 @@ Den extraherade rapporten innehåller information om följande:
 
 Gör något av följande för att hämta en rapport:
 
-* Öppna  **[!UICONTROL Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Job Aid Reports]**. Inställningen **[!UICONTROL Generating Report Request]** visas. Klicka **[!UICONTROL Ok]**.
+* Öppna  **[!UICONTROL Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Job Aid Reports]**. Inställningen **[!UICONTROL Generating Report Request]** visas. Klicka på **[!UICONTROL Ok]**.
 * Öppna **[!UICONTROL Job Aid]** > **[!UICONTROL Actions]** > **[!UICONTROL Export Report]**.
 
 ![](assets/job-aids.png)
@@ -693,19 +693,19 @@ Om du väljer det här alternativet hämtas information om alla arbetsstöd i sy
 
 Den hämtade rapporten består av följande fält:
 
-* Namn på arbetsstöd
+* Arbetsstödsnamn
 * Språk
 * ID
-* Text
+* Typ
 * Varaktighet (minuter)
-* Tillstånd
-* Publiceringsdatum (tidszonen UTC)
+* Status
+* Datum för publicering (tidszonen UTC)
 * Skapad per namn
-* Skapad per e-post
+* Skapad per mejl
 * Skapat av unikt användar-ID
 * Katalog(er)
 * Utbildningsväg(ar)
-* Kurser
+* Kurs(er)
 * Tagg(ar)
 * Kompetens(er)
 
@@ -715,14 +715,14 @@ Registreringsrapporten innehåller information om användarregistrering och anna
 
 Den hämtade rapporten består av följande fält:
 
-* Namn på arbetsstöd
-* Text
-* Tillstånd
+* Arbetsstödsnamn
+* Typ
+* Status
 * Datum registrerad (tidszonen UTC)
 * Datum för slutförande (tidszonen UTC)
 * Nedladdningsdatum (tidszonen UTC)
 * Elevnamn
-* Mejl
+* E-post
 * Unikt användar-ID
 * Chefens namn
 * Mejladress till chef
@@ -917,7 +917,7 @@ Den hämtade csv-filen innehåller följande fält:
 * Antal registreringar
 
 * Sessionstyp
-* Väntelistegräns
+* Väntlistegräns
 * Antal väntelistor
 * Mejladress till användare på väntelistan
 
@@ -981,8 +981,8 @@ Rapporten innehåller följande:
 * Utbildningselement
 * Slutförandedatum
 * Påminnelse om utbildningselement
-* scope-catalog
-* scope-userGroup
+* Omfång – katalog
+* Omfång – användargrupp
 
 ## Vanliga frågor {#frequentlyaskedquestions}
 

@@ -5,7 +5,7 @@ user-guide-description: Dokumentation för Adobe Learning Manager
 source-git-commit: 4e36c95d9186e36746ca2aeaf09b9ac0336881f1
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 0%
    * [AI-baserad rekommendation om kurser](ai-based-recommendations.md)
    * [Spelifiering](administrators/feature-summary/gamification.md)
    * [Anpassa elevens startsida](administrators/feature-summary/customize-learner-homepage.md)
-   * [Tecken](administrators/feature-summary/badges.md)
+   * [Utmärkelsetecken](administrators/feature-summary/badges.md)
    * [Färgteman](administrators/feature-summary/themes.md)
    * [Elevens betygsutdrag](administrators/feature-summary/learner-transcripts.md)
    * [Väntelista och närvarohantering](administrators/feature-summary/waitlist-attendance-management.md)
@@ -63,7 +63,7 @@ ht-degree: 0%
    * [E-postmallar](administrators/feature-summary/email-templates.md)
    * [Integrering med Adobe Connect](administrators/feature-summary/adobeconnect-integration.md)
    * [Inställningar](administrators/feature-summary/settings.md)
-   * [Aviseringar](administrators/feature-summary/user-notifications.md)
+   * [Meddelanden](administrators/feature-summary/user-notifications.md)
    * [Användare av iPad- och Android-surfplattor](administrators/feature-summary/ipad-android-tablet-users.md)
    * [Komma igång som administratör](administrators/feature-summary/getting-started.md)
    * [Rensa användare](administrators/feature-summary/purge-users.md)
@@ -113,7 +113,7 @@ ht-degree: 0%
    * [Utbildningsprogram](learners/feature-summary/learning-programs.md)
    * [Certifieringar](learners/feature-summary/certifications.md)
    * [Arbetsstöd](learners/feature-summary/job-aids.md)
-   * [Tecken](learners/feature-summary/badges.md)
+   * [Utmärkelsetecken](learners/feature-summary/badges.md)
    * [Kompetenser och nivåer](learners/feature-summary/skills-levels.md)
    * [Spelifiering](learners/feature-summary/gamification.md)
    * [Användarmeddelanden](learners/feature-summary/user-notifications.md)

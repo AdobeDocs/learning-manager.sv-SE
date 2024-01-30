@@ -7,7 +7,7 @@ preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '62'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 * [Komma igång](learners/feature-summary/getting-started-learner.md)
 * [Salesforce-program](learners/feature-summary/sfdc-app.md)
 * [Spelifiering](learners/feature-summary/gamification.md)
-* [Tecken](learners/feature-summary/badges.md)
+* [Utmärkelsetecken](learners/feature-summary/badges.md)
 * [Kataloger](learners/feature-summary/catalogs.md)
 * [Certifieringar](learners/feature-summary/certifications.md)
 * [Kurser](learners/feature-summary/courses.md)

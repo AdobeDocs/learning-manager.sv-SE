@@ -33,7 +33,7 @@ Följ stegen nedan för att skapa en kurs:
 
    Som författare kan du se beskrivningen av modulerna när du lägger till modulen i en kurs.
 
-1. För att göra din kurs tillgänglig på andra språk klickar du på Lägg till nytt språk från det övre vänstra hörnet på sidan. Välj det eller de språk som du vill göra kursen tillgänglig på. Klicka **[!UICONTROL Save]**. Mer information finns i [Lägg till innehåll för olika språk](/help/migrated/authors/feature-summary/content-library.md).
+1. För att göra din kurs tillgänglig på andra språk klickar du på Lägg till nytt språk från det övre vänstra hörnet på sidan. Välj det eller de språk som du vill göra kursen tillgänglig på. Klicka på **[!UICONTROL Save]**. Mer information finns i [Lägg till innehåll för olika språk](/help/migrated/authors/feature-summary/content-library.md).
 1. **Ändra kursinställningar**-
 
    1. Välj en färdighet för kursen på sidan Kursinställningar. Välj önskad kompetens i listrutan Kompetens. I listrutan Nivå väljer du sedan önskad nivå.
@@ -52,7 +52,7 @@ Följ stegen nedan för att skapa en kurs:
 
 1. Logga in på Adobe Learning Manager som författare eftersom det bara är författare som har behörighet att skapa kurser. På sidan Komma igång klickar du på **[!UICONTROL Create Courses]**.
 1. På fliken **Kursöversikt** -sidan, ange namnet på kursen. Ange nu en kort beskrivning av kursen som visas på kurskortet. Beskrivningen får innehålla högst 140 tecken. Ange sedan den detaljerade översikten för kursen som visas på sidan Kursinformation. Beskrivningen får inte överstiga 1 500 tecken.
-1. För att göra din kurs tillgänglig på andra språk klickar du på Lägg till nytt språk från det övre vänstra hörnet på sidan. Välj det eller de språk som du vill göra kursen tillgänglig på. Klicka **[!UICONTROL Save]**. Mer information finns i [Lägg till innehåll för olika språk](/help/migrated/authors/feature-summary/content-library.md).
+1. För att göra din kurs tillgänglig på andra språk klickar du på Lägg till nytt språk från det övre vänstra hörnet på sidan. Välj det eller de språk som du vill göra kursen tillgänglig på. Klicka på **[!UICONTROL Save]**. Mer information finns i [Lägg till innehåll för olika språk](/help/migrated/authors/feature-summary/content-library.md).
 1. **Ändra kursinställningar**-
 
    1. Välj en färdighet för kursen på sidan Kursinställningar. Välj önskad kompetens i listrutan Kompetens. I listrutan Nivå väljer du sedan önskad nivå.
@@ -142,7 +142,7 @@ Du kan tilldela spelifieringspoäng på kurs- och kursinstansnivåerna. På så 
 
 En författare kan bestämma om han eller hon vill aggregera utbildningsresurserna på nivån Utbildningsplan eller låta dem stanna på nivån för en enskild kurs.
 
-Som författare väljer du **[!UICONTROL Learning Path]** > **[!UICONTROL Settings]**. Klicka **[!UICONTROL Edit]**.
+Som författare väljer du **[!UICONTROL Learning Path]** > **[!UICONTROL Settings]**. Klicka på **[!UICONTROL Edit]**.
 
 I dialogrutan **[!UICONTROL Resources]** , kryssrutan Visa resurser för ingående kurs sammansatt på nivån Utbildningsväg, när den är aktiverad visar huruvida resurser på kursnivå ska visas på nivån Utbildningsväg.
 
@@ -150,7 +150,7 @@ I dialogrutan **[!UICONTROL Resources]** , kryssrutan Visa resurser för ingåen
 >
 >På sidan Inställningar för en utbildningsväg kan en administratör också aktivera det här alternativet, som visar resurser på kursnivån som skulle visas på nivån Utbildningsväg.
 
-## Schemaläggningsassistenten
+## Schemaläggningsassistent
 
 Hantera konflikter vid bokning av instruktörer och klassrum. Om du vill veta vid vilken tidpunkt och vilket datum en instruktör är tillgänglig innan du tilldelar honom till kursen ska du använda schemaläggningsassistenten.
 
@@ -390,7 +390,7 @@ Nu kan du lägga till modulerna Innehåll, Förarbete och Testa. **Innehåll** m
 
 Följ stegen nedan om du vill lägga till en innehållsmodul:
 
-1. Klicka **[!UICONTROL Add Modules]**. Det finns fyra alternativ för att lägga till moduler. Det första alternativet är att lägga till moduler i eget tempo. Det här är modulerna som du skapar och lägger till i modulbiblioteket i Adobe Learning Manager. Det andra alternativet är att konfigurera det virtuella klassrummet. Den tredje är att konfigurera en klassrumsmodul och den fjärde är Aktivitetsmodul.
+1. Klicka på **[!UICONTROL Add Modules]**. Det finns fyra alternativ för att lägga till moduler. Det första alternativet är att lägga till moduler i eget tempo. Det här är modulerna som du skapar och lägger till i modulbiblioteket i Adobe Learning Manager. Det andra alternativet är att konfigurera det virtuella klassrummet. Den tredje är att konfigurera en klassrumsmodul och den fjärde är Aktivitetsmodul.
 
    ![](assets/select-module-type.png)
 
@@ -502,7 +502,7 @@ Välj en eller flera instruktörer som ska utvärdera eleven.
 
 Om du har något att kommentera eller en anteckning kan du även lägga till det i **Kommentar till instruktör** textfält.
 
-Nu lägger du till checklistefrågorna. Klicka **[!UICONTROL Add]**. Du kan bara lägga till högst 150 frågor.
+Nu lägger du till checklistefrågorna. Klicka på **[!UICONTROL Add]**. Du kan bara lägga till högst 150 frågor.
 
 ![](assets/add-checklist-questions.png)
 
@@ -871,7 +871,7 @@ Utför stegen nedan:
 
 1. Logga in som elev.
 1. Öppna kursen som du har slutfört.
-1. Klicka **[!UICONTROL Revisit]**.
+1. Klicka på **[!UICONTROL Revisit]**.
 
 +++
 

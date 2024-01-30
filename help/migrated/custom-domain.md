@@ -32,7 +32,7 @@ Du skulle till exempel vilja anpassa din domän så att dina användare får sam
 Funktionen Anpassad domän är tillgänglig till en extra kostnad. Kontakta din Customer Success Manager för mer information.
 
 * För elevrollen börjar domänen med `https://cdn.<customer_custom_domain>/` Till exempel, `https://cdn.elearningstage1.cpdomaintest.in/`
-* För alla andra roller börjar domänen med `https://<customer_custom_domain>/`. Till exempel, `https://elearningstage1.cpdomaintest.in/`
+* För alla andra roller börjar domänen med `https://<customer_custom_domain>/`. Exempel: `https://elearningstage1.cpdomaintest.in/`
 
 `<customer_custom_domain>` är den anpassningsbara delen.
 

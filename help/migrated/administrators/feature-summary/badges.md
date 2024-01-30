@@ -1,18 +1,18 @@
 ---
 jcr-language: en_us
-title: Tecken
+title: Utmärkelsetecken
 description: Utmärkelsetecken är ett mått på prestation som din medarbetare kan tjäna på att ha slutfört en kurs. I Adobe Learning Manager introduceras ett av de senaste e-utbildningskoncepten som heter Badges. Yrkesverksamma över hela världen använder dessa utmärkelsetecken som en representation av en viss färdighet eller en utbildningsinsats.
 contentowner: manochan
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
 
-# Tecken
+# Utmärkelsetecken
 
 Utmärkelsetecken är ett mått på prestation som din medarbetare kan tjäna på att ha slutfört en kurs. I Adobe Learning Manager introduceras ett av de senaste e-utbildningskoncepten som heter Badges. Yrkesverksamma över hela världen använder dessa utmärkelsetecken som en representation av en viss färdighet eller en utbildningsinsats.
 

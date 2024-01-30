@@ -101,7 +101,7 @@ För befintliga konton är alternativet **Integrerande** kommer att **AV**. Det 
   </tr>
   <tr>
    <td>
-    <p>Masthead</p></td>
+    <p>Redaktionsruta</p></td>
    <td>
     <p><b>Vad är ett Masthead och hur anpassar jag Elevens Masthead? </b><br></p>
     <p>Det är en välkommen banner för elever. Banderollen kan vara en bild eller en video. Du kan rikta in masthead på specifika användargrupper och en elev visar Masthead så fort han/hon landar på hemsidan. En användargrupp kan se flera hero images eller videoklipp enligt den målplan som administratören har angett. </p>
@@ -136,7 +136,7 @@ För befintliga konton är alternativet **Integrerande** kommer att **AV**. Det 
   </tr>
   <tr>
    <td>
-    <p>Social utbildning</p></td>
+    <p>Socialt lärande</p></td>
    <td>
     <p>Visar aktiviteter och inlägg från användare som tillhör samma användaromfattning som eleven. </p></td>
   </tr>

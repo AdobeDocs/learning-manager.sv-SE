@@ -194,7 +194,7 @@ Om du vill skapa en ny inspelning från gallerifönstret klickar du på **Spela 
 
 Om du vill redigera eller ta bort en fil från galleriet klickar du på de tre punkterna längst ned i filen och väljer ett alternativ i popup-listan.
 
-## Aviseringar {#notifications}
+## Meddelanden {#notifications}
 
 Meddelanden i Learning Manager visas i meddelandefönstret oavsett om eleven är inloggad på webbprogrammet Learning Manager. Meddelanden innehåller inlägg eller tavlor som användare har skapat, följer eller har deltagit i. Om du klickar på meddelandet dirigeras användaren till webbplatsen för Learning Manager Social Learning.
 

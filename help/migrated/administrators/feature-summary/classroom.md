@@ -71,7 +71,7 @@ in **[!UICONTROL Admin app]** > **[!UICONTROL Settings]** > **[!UICONTROL Classr
 
 CSV-filen använder dessa fält för att lagra information om en eller flera klassrumsplatser:
 
-* namn
+* name
 * information
 * url
 * seatLimit

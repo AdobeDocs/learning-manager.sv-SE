@@ -38,7 +38,7 @@ Följ stegen nedan för att kontrollera kursen som innehåller en utfasad instan
 
 1. När du har listat ut kursinstansen som har fasats ut klickar du på **[!UICONTROL Courses]** > **[!UICONTROL Open the course]**.
 
-1. Klicka **[!UICONTROL Instances]**. I den utgångna instansen klickar du på **[!UICONTROL Edit]** och redigera sedan slutförandedatumet till ett framtida datum som du vill att instansen ska gå i pension till.
+1. Klicka på **[!UICONTROL Instances]**. I den utgångna instansen klickar du på **[!UICONTROL Edit]** och redigera sedan slutförandedatumet till ett framtida datum som du vill att instansen ska gå i pension till.
 
    ![](assets/completion-date.png)
 

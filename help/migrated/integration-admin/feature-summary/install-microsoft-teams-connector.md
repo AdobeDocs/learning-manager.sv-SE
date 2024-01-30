@@ -65,7 +65,7 @@ Du kan använda Microsoft Teams-anslutning om du har Office 365 E3 eller Office 
 1. Gå till  [Microsoft Azure®-portal](https://portal.azure.com/).
 1. Logga in med Microsoft E5-kontot som du skapade i föregående avsnitt.
 1. Sök efter **Azure Active Directory**.
-1. Klicka **[!UICONTROL App Registrations]**.
+1. Klicka på **[!UICONTROL App Registrations]**.
 1. Klicka **[!UICONTROL New Registration]**, ange följande uppgifter och registrera ansökan:
 
    1. **Namn** - Valfritt namn.
@@ -90,10 +90,10 @@ Observera klientsekretessen, som kommer att användas ytterligare under integrer
 1. Gå till  [Microsoft Azure Portal](https://portal.azure.com/).
 1. Logga in med Microsoft E5 som du skapade tidigare.
 1. Sök efter **Azure Active Directory**.
-1. Klicka **[!UICONTROL App Registrations]**.
+1. Klicka på **[!UICONTROL App Registrations]**.
 1. Klicka på programmet som du skapade i föregående avsnitt.
-1. Klicka **[!UICONTROL API permissions]**.
-1. Klicka **[!UICONTROL Add a permission]**.
+1. Klicka på **[!UICONTROL API permissions]**.
+1. Klicka på **[!UICONTROL Add a permission]**.
 1. Välj **[!UICONTROL Microsoft Graph]** > **[!UICONTROL Application permissions]** och lägg till följande behörigheter:
 
    1. Chat.Read.All
@@ -103,7 +103,7 @@ Observera klientsekretessen, som kommer att användas ytterligare under integrer
    1. OnlineMeetings.ReadWrite.All
    1. User.Read.All
 
-1. Klicka **[!UICONTROL Grant admin access for Adobe]**.
+1. Klicka på **[!UICONTROL Grant admin access for Adobe]**.
 1. Klicka **[!UICONTROL App roles]** > **[!UICONTROL Create app role]**.
 1. Ange följande värden:
 
@@ -152,7 +152,7 @@ Detta gör det möjligt för kontakten att få tillgång till Microsoft Teams on
 1. Besök [https://admin.microsoft.com/#/homepage](https://admin.microsoft.com/#/homepage).
 1. Klicka **[!UICONTROL Users]** > **[!UICONTROL Active Users]**.
 1. Klicka **[!UICONTROL More actions for Users]** för de användare som du vill ge åtkomst till Microsoft Teams.
-1. Klicka **[!UICONTROL Manage Product Licenses]**.
+1. Klicka på **[!UICONTROL Manage Product Licenses]**.
 1. Aktivera licens för Office 365 E5 utan ljudkonferenser.
 
 ## Spela in en session

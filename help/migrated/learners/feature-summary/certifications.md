@@ -24,7 +24,7 @@ Elever kan ta upp de certifieringar som tilldelas dem av organisationens adminis
 
    Dessa certifikat kan hämtas från utanför din organisation. Din organisation rekommenderar att du accepterar dessa certifieringar och skickar in bevis.
 
-1. Internt
+1. Intern
 
    Dessa intyg kan erhållas genom att man genomför vissa kurser som föreskrivs som en del av kursplanen. Din organisation utfärdar dessa certifieringar efter slutförandet.
 

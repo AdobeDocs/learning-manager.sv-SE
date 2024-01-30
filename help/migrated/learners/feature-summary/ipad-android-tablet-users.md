@@ -116,7 +116,7 @@ Det finns vissa funktioner som inte stöds i appen Mobile Immersive. Dessa är:
 | **Område** | **Stöds inte** |
 |---|---|
 | Tavla | SKAPA TAVLA, REDIGERA TAVLA, KOPIERA URL , TA BORT , RAPPORT, SORTERA , FILTER |
-| Post | Frågetyp efter skapande, redigera , flera bilagor till inlägget, kopiera webbadressen, fäst högst upp |
+| Inlägg | Frågetyp efter skapande, redigera , flera bilagor till inlägget, kopiera webbadressen, fäst högst upp |
 | Kommentar/svar | Redigera, Markera som rätt svar, Överför bild/video/ljud i kommentar eller svar |
 | Media | Spela in ljud; överför bara ljudfil |
 | Annat | Meddelanden, postvy, resultattavla för sociala nätverk, personer jag följer, användarprofil |
@@ -301,7 +301,7 @@ Följande skärm visas.
   </tr>
   <tr>
    <td>
-    <p>Videofilmer</p></td>
+    <p>Video</p></td>
    <td>
     <p>wmv, f4v, asf, 3gp, 3g2, avi, mov, h264, m4v, mp4, MPEG, mpg</p></td>
   </tr>
@@ -460,7 +460,7 @@ Ladda upp valfri fil och klicka på **Skicka** knapp.
   </tr>
   <tr>
    <td>
-    <p>Videofilmer</p></td>
+    <p>Video</p></td>
    <td>
     <p>wmv, f4v, asf, 3gp, 3g2, avi, mov, h264, m4v, mp4, MPEG, mpg</p></td>
   </tr>

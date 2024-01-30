@@ -29,7 +29,7 @@ I Adobe Learning Manager kan du utföra följande uppgifter:
 
 Administratörer kan lägga till användare på tre sätt:
 
-* Internt
+* Intern
 * Extern
 * Användargrupper
 
@@ -365,7 +365,7 @@ Följ de här stegen om du vill lägga till anpassade värden:
 
 1. Välj det värde som ska läggas till från **[!UICONTROL Select Field]** rullgardinsmenyn.
 1. Ange nya värden i **[!UICONTROL New Value]** område.
-1. Klicka **[!UICONTROL Done]**.
+1. Klicka på **[!UICONTROL Done]**.
 1. Klicka på Spara i det övre högra hörnet för att **[!UICONTROL Save]** ändringar.
 
 **Externa användare**
@@ -586,7 +586,7 @@ Om du vill att elever bara ska se de aktiva fält som inte har fyllts i av dem f
 
 1. Klicka **[!UICONTROL Settings]** och aktivera alternativet **[!UICONTROL Show only unfilled fields on Learner login]**.
 
-1. Klicka **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]**.
 
 +++
 
@@ -598,7 +598,7 @@ Du kan begränsa urvalet för elever så att de bara kan välja de värden som �
 1. I avsnittet **[!UICONTROL Configure fields]** klickar du på **[!UICONTROL Modify Values]**.
 
 1. Aktivera alternativet **[!UICONTROL Restrict Selection]**.
-1. Klicka **[!UICONTROL Done]**.
+1. Klicka på **[!UICONTROL Done]**.
 
 +++
 

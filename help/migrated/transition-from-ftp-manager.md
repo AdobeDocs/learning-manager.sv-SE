@@ -149,14 +149,14 @@ Andra autentiseringssätt är via SSH-nycklar:
 
 Klistra in din offentliga nyckel i textrutan för att använda befintliga SSH-nycklar. Klicka på Anslut/Spara.
 
-Om du vill skapa nya SSH-nycklar klickar du på&#x200B;**[!UICONTROL Generate SSH Key]**&quot;. Den privata nyckeln hämtas. Klicka **[!UICONTROL Connect/Save]**.
+Om du vill skapa nya SSH-nycklar klickar du på&#x200B;**[!UICONTROL Generate SSH Key]**&quot;. Den privata nyckeln hämtas. Klicka på **[!UICONTROL Connect/Save]**.
 
 ![generera ssh-nyckel](assets/ssh-key.png)
 *Generera SSH-nyckel*
 
 Mappa detaljerna. Välj inloggningstyp som nyckelfil. Välj filen med den privata nyckeln.
 
-Klicka **[!UICONTROL Connect]**.
+Klicka på **[!UICONTROL Connect]**.
 
 ## Vad händer efter att ExaVault har utfasats
 

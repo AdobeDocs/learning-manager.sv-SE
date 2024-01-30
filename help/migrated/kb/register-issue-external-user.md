@@ -6,7 +6,7 @@ contentowner: nluke
 source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
 workflow-type: tm+mt
 source-wordcount: '317'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ Externa elever kan inte registrera sig till en profil.
 
 ## Fel
 
-Mejl-ID är redan registrerat. Använd en annan e-postadress.
+Mejl-ID är redan registrerat. Använd en annan mejladress.
 
 ![](assets/cp-register-profile.png)
 
