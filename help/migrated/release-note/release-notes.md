@@ -3,7 +3,7 @@ description: Läs om de nya funktionerna och förbättringarna i Adobe Learning 
 jcr-language: en_us
 title: Sammanfattning av nya funktioner
 contentowner: jayakarr
-source-git-commit: 253cc73b4ee1cf4a11a82a5716611133d68d2031
+source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
 workflow-type: tm+mt
 source-wordcount: '26177'
 ht-degree: 0%
@@ -1345,7 +1345,7 @@ Mer information finns i  [***Nyheter i augusti 2020-versionen av Adobe Learning 
 
 **Meddelanden**
 
-* Om ett meddelande innehåller taggen `<a>`, meddelandet skapas inte som förväntat.
+* Om ett meddelande innehåller taggen <a>, meddelandet skapas inte som förväntat.
 
 **Konto**
 
