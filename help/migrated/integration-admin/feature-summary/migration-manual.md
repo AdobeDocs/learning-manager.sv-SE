@@ -2,9 +2,9 @@
 description: Referenshandbok för integrationsadministratörer som vill migrera ett befintligt LMS till Learning Manager LMS
 jcr-language: en_us
 title: Migreringshandbok
-source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
+source-git-commit: 76eae1c8bc6f2afde9ea6c9433300e8af9cfdda8
 workflow-type: tm+mt
-source-wordcount: '3687'
+source-wordcount: '3628'
 ht-degree: 1%
 
 ---
@@ -419,11 +419,11 @@ Innan du börjar med migreringsproceduren är det viktigt att tänka på följan
 
 Det är mycket viktigt att du planerar ditt migreringsprojekt. Vi rekommenderar att du delar upp dina projekt i flera sprintar och tydligt anger vad du vill flytta i varje sprint. Det kan till och med vara en god idé att göra en viss validering efter varje sprint för att känna sig säker på de data som migreras i den sprinten, i stället för en stor valideringsfas i slutet av projektet. Innan du börjar skriva ut som en del av ditt migreringsprojekt måste du överföra data- och CSV-innehållsfiler i FTP- respektive Box-servrar. Om du inte har några konton för anpassad FTP och Box kan du skapa dem.
 
-**Skapa FTP-konto**
+<!--**Create FTP account**-->
 
-Klicka på **[!UICONTROL Request for CSV FTP folder]**. En popup-dialogruta visas där du uppmanas att ange e-post-ID. Gå igenom onlineinstruktionerna och skapa ett FTP-konto. När du har skapat kontot kan du visa migreringsprojektet och sprintprojektmapparna i FTP.
+<!--Click **[!UICONTROL Request for CSV FTP folder]**. A pop-up dialog appears prompting you to enter your e-mail id. Go through online instructions and create an FTP account. As soon as you create your account, you can view your migration project and sprint project folders in FTP. 
 
-En exempelögonblicksbild av projektfiler och mappen FTP visas nedan som referens.
+A sample snapshot of project files and folder of FTP is shown below for your reference. -->
 
 <!--![](assets/exavault-migration-upload-folders.png)-->
 
