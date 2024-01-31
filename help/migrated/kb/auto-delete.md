@@ -3,7 +3,7 @@ jcr-language: en_us
 title: Användaren tas bort automatiskt i Learning Manager
 description: En användare raderas från Learning Manager, men administratören har aldrig utfört någon sådan åtgärd.
 contentowner: nluke
-source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
+source-git-commit: 3242a293fc4b2707044e11c342c984cbfb2fc434
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## Problem
 
-En användare raderas från Learning Manager, men administratören har aldrig utfört någon sådan åtgärd.
+A **användare** raderas från Learning Manager, men administratören har aldrig utfört någon sådan åtgärd.
 
 ## Orsak
 
