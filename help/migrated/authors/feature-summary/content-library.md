@@ -2,7 +2,7 @@
 description: Lär dig skapa innehåll som följer kurser i din egen takt.
 jcr-language: en_us
 title: Innehållsbibliotek
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+source-git-commit: 5a8f1af4af180e04fced782ff58111269e005a20
 workflow-type: tm+mt
 source-wordcount: '3105'
 ht-degree: 0%
@@ -147,7 +147,7 @@ Innehållsbiblioteket underhåller också versioner av det överförda innehåll
 1. I fältet Beskrivning anger du beskrivningen för innehållet. Kontrollera att den beskrivning du vill ange är meningsfull. Teckengränsen är 245 tecken.
 1. Om du vill lägga till innehållet klickar du på Lägg till innehållsfil och överför resursfilen. När du lägger till innehåll för flera språk kan du inte kombinera statiskt och interaktivt innehåll i en enda grupp. Antingen ska allt ditt innehåll på alla språk vara statiskt, eller så ska allt innehåll vara interaktivt.
 
-* [Filtyper som stöds](content-library.md#supported)*
+* [Filtyper som stöds](content-library.md#supported)
 
   Det interaktiva innehållet kan vara ett SCORM-, AICC- eller Captivate-publicerat projekt. Filen måste vara en zip-fil.
 
