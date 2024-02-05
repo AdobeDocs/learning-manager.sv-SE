@@ -728,7 +728,7 @@ id\
 name\
 intjänade poäng\
 profil\
-ROLE\
+roller\
 tillstånd\
 timeZoneCode\
 uiLocale
@@ -783,7 +783,7 @@ modelIds\
 modelNames\
 modelTypes\
 läsa\
-ROLE
+roll
 
 +++
 
