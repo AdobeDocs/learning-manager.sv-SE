@@ -3,9 +3,9 @@ description: Lär dig mer om kontoinställningarna för Learning Manager som du 
 jcr-language: en_us
 title: Inställningar
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 063f0f469d40a929d109624c3303ba26f5dd1ad3
 workflow-type: tm+mt
-source-wordcount: '3738'
+source-wordcount: '3762'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,15 @@ ht-degree: 1%
 Lär dig mer om kontoinställningarna för Learning Manager som du kan konfigurera som administratör.
 
 Du kan ändra dina profilinställningar för administratörer och uppdatera dina kontoinställningar. Visa din profilinformation, lägg till/ändra ett profilfoto och ändra **[!UICONTROL About me]** innehåll. Uppdatera företagsinformationen, konfigurera inloggningsmetoder för användare och konfigurera anslutningsintegrering via kontoinställningar.
+
+## Konfigurera Adobe Learning Manager
+
+Den här utbildningen beskriver grunderna i inställningar på kontonivå.
+
+[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)
+
+
+Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
 
 ## Kontoinställningar {#accountsettings}
 
