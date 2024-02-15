@@ -3,9 +3,9 @@ description: Läs mer om de rapporter som är kopplade till administratörsrolle
 jcr-language: en_us
 title: Rapporter
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+source-git-commit: 275e019d077104445e7f5489e6cd07ac9f3c9084
 workflow-type: tm+mt
-source-wordcount: '6225'
+source-wordcount: '6286'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,14 @@ Genereringsprocessen för rapporter är densamma för både Administratör och C
 Rapporter sammanställs i en kontrollpanel. En rapport måste finnas inuti en kontrollpanel. A **[!UICONTROL Default Dashboard]** finns som standard på sidan Rapporter. Alla rapporter som läggs till av dig placeras på den här standardkontrollpanelen. Om du vill lägga till rapporter i enskilda kontrollpaneler använder du listrutepilen och väljer **[!UICONTROL Add Report]**. Mer information om hur du skapar kontrollpaneler finns i avsnittet Kontrollpaneler på den här sidan.
 
 ## Instrumentpaneler med utbildningssammanfattning {#dashboards}
+
+### Generera kontrollpanelsrapporter
+
+I den här utbildningen får du lära dig hur du genererar kontrollpanelsrapporter från databasen.
+
+[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R3B5NPDN&amp;mv=display&amp;mv2=display#/course/8318854)
+
+Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
 
 Se en sammanfattande rapport över alla utbildningsaktiviteter i plattformen. På den här sidan visas följande sammanfattningsinformation för den valda rotanvändarens team och externa profiler. Du kan även välja Tidsintervall:
 
@@ -502,6 +510,14 @@ Om det finns flera chefer som rapporterar till dig kan du visa rapporterna snabb
 >De chefsvärden som du använder för att visa rapporten är tillfälliga. Den här vyn av rapporten hämtas inte när du väljer hämtningsalternativet. Den här vyn är bara tillfällig vy.
 
 ## Visa kursrapporter {#viewcoursereports}
+
+### Generera kursrapporter
+
+I den här utbildningen får du lära dig hur du exporterar kursrapporter och konfigurerar e-postprenumerationer för rapporterna.
+
+[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R726NKNM&amp;mv=display&amp;mv2=display#/course/8318904)
+
+Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
 
 Du kan visa rapporterna för varje kurs genom att följa stegen nedan:
 
