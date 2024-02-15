@@ -3,9 +3,9 @@ description: Händelserna i din utbildningsaktivitet utlöser e-postmeddelanden 
 jcr-language: en_us
 title: E-postmallar
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 91066c86891f8efbd34fc96178decdd9ee120d1e
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1419'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,16 @@ Learning Manager-programmet skickar e-postmeddelanden till flera roller för anv
 Du som är administratör kan anpassa e-postmallar genom att lägga till eller ändra innehåll och skicka meddelanden till användare för olika händelser som utlöses av elever, chefer och författare.
 
 Administratörer kan också välja att inte skicka e-postmeddelanden för vissa händelser.
+
+## Introduktion till e-postmallar
+
+I den här utbildningen får du lära dig anpassa enskilda e-postmallar och anpassa inställningar på kurs- och kontonivå för e-postmallar.
+
+[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QYL4NT4P&amp;mv=display&amp;mv2=display#/course/8318925)
+
+<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
+
+Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
 
 ## Konfigurera e-postmallar {#configureemailtemplates}
 
