@@ -3,7 +3,7 @@ description: Lär dig lägga till användare eller användargrupper i Learning M
 jcr-language: en_us
 title: Lägga till användare och skapa användargrupper
 contentowner: manochan
-source-git-commit: abe225ed932f3d0fe8e2d39f8aea5d93cef57c73
+source-git-commit: 9b7966d3dd88e61dc1b2467a9469b12b8bda4afc
 workflow-type: tm+mt
 source-wordcount: '3830'
 ht-degree: 0%
@@ -25,8 +25,6 @@ I den här utbildningen får du lära dig hur du skapar en användargrupp efter 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
 [![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
-
-
 
 Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
 
