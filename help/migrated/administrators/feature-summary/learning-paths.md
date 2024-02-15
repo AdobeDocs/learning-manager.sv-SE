@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Utbildningsvägar
 description: Skapa utbildningsplaner för administratörer i Learning Manager.
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: f3e751215d0bcf65be4fbca59d5373011f195366
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1889'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,14 @@ Administratörer är ofta intresserade av att bygga upp en detaljerad kursplan m
 Det är här utbildningsvägen kommer in i bilden. En utbildningsväg är en resa som en elev måste gå igenom för att behärska ett ämne över tid. Elever har kontroll över sin utbildningserfarenhet och kan förvärva och behålla kunskaper i egen takt på ett effektivare sätt.
 
 Till exempel när nya anställda anställs utbildar en organisation om policyer och förfaranden, kultur, historia och så vidare. I en utbildningsväg anges kurserna utifrån de anställdas behov, så att de anställda kan registrera sig för kurserna enligt den utbildningsväg som har angetts för dem. du väljer, och du kan registrera användare på den här sökvägen så att de kan gå vidare från kurs till kurs.
+
+## Skapa och konfigurera utbildningsvägar
+
+I den här utbildningen får du lära dig skapa en utbildningsväg, lägga till en kurs i den, publicera och dra in en utbildningsväg och konfigurera instanser inom en utbildningsväg.
+
+[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QQ42P2LR&amp;mv=display&amp;mv2=display#/course/8318919)
+
+Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
 
 ## Fördelar med en utbildningsväg
 
