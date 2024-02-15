@@ -3,9 +3,9 @@ description: Lär dig lägga till användare eller användargrupper i Learning M
 jcr-language: en_us
 title: Lägga till användare och skapa användargrupper
 contentowner: manochan
-source-git-commit: 25c618a8f288562e3dd409d6ec666f33ac715e46
+source-git-commit: abe225ed932f3d0fe8e2d39f8aea5d93cef57c73
 workflow-type: tm+mt
-source-wordcount: '3832'
+source-wordcount: '3830'
 ht-degree: 0%
 
 ---
@@ -24,30 +24,9 @@ I den här utbildningen får du lära dig hur du skapar en användargrupp efter 
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
-<style>
-   button {
-    background-color: #1373E6; /* Blue */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 30px;
-}
+[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
 
-button:hover {
-  background-color: #008CBA;
-  color: white;
-}
-</style>
 
-<a href="https://learningmanager.adobe.com/app/learner?accountId=98632#/course/7555694">
-   <button type="button">Starta utbildning</button>
-</a>
-
-<br/>
 
 Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
 
@@ -70,30 +49,7 @@ Administratörer kan lägga till användare på tre sätt:
 
 Lägg till interna elever i Adobe Learning Manager med ett enda användaralternativ.
 
-<style>
-   button {
-    background-color: #1373E6; /* Blue */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 30px;
-}
-
-button:hover {
-  background-color: #008CBA;
-  color: white;
-}
-</style>
-
-<a href="https://learningmanager.adobe.com/app/learner?accountId=98632#/course/7555534">
-   <button type="button">Starta utbildning</button>
-</a>
-
-<br/>
+[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QGMZPB2T&amp;mv=display&amp;mv2=display#/course/7555534)
 
 Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
 
