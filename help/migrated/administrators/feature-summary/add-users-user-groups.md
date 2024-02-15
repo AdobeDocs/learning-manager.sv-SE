@@ -3,9 +3,9 @@ description: Lär dig lägga till användare eller användargrupper i Learning M
 jcr-language: en_us
 title: Lägga till användare och skapa användargrupper
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 25c618a8f288562e3dd409d6ec666f33ac715e46
 workflow-type: tm+mt
-source-wordcount: '3755'
+source-wordcount: '3832'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,39 @@ ht-degree: 0%
 Lär dig lägga till användare eller användargrupper i Learning Manager-programmet.
 
 <!--![](assets/user-mgmt-new.png)-->
+
+## Hantera användargrupper
+
+I den här utbildningen får du lära dig hur du skapar en användargrupp efter namn, e-post-ID:n och kombinerar flera automatiskt genererade användargrupper.
+
+<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
+
+<style>
+   button {
+    background-color: #1373E6; /* Blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+button:hover {
+  background-color: #008CBA;
+  color: white;
+}
+</style>
+
+<a href="https://learningmanager.adobe.com/app/learner?accountId=98632#/course/7555694">
+   <button type="button">Starta utbildning</button>
+</a>
+
+<br/>
+
+Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
 
 ## Översikt {#overview}
 
@@ -35,11 +68,43 @@ Administratörer kan lägga till användare på tre sätt:
 
 ## Lägg till en enskild användare {#addasingleuser}
 
+Lägg till interna elever i Adobe Learning Manager med ett enda användaralternativ.
+
+<style>
+   button {
+    background-color: #1373E6; /* Blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+button:hover {
+  background-color: #008CBA;
+  color: white;
+}
+</style>
+
+<a href="https://learningmanager.adobe.com/app/learner?accountId=98632#/course/7555534">
+   <button type="button">Starta utbildning</button>
+</a>
+
+<br/>
+
+Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
+
 Om du vill lägga till användare
 
 1. Logga in på Adobe Learning Manager som administratör.
 1. På startsidan klickar du på **[!UICONTROL Add Users]**. På den här sidan kan du lägga till en enskild användare eller flera användare åt gången med en CSV-fil. Du kan även skapa en självregistreringslänk för interna medarbetare eller skapa en extern elevprofil.
 1. Om du vill lägga till en enskild användare klickar du på **[!UICONTROL Add]** i det övre högra hörnet och välja alternativet **[!UICONTROL Single User]**.
+
+1. Om du vill lägga till en enskild användare klickar du på **[!UICONTROL Add]** i det övre högra hörnet och välja alternativet **En användare**.
+
 
    ![](assets/single-user.png)
    *Lägg till en enskild intern användare*
@@ -54,6 +119,7 @@ Om du vill lägga till användare
 ## Lägga till användare i grupp {#addusersinbulk}
 
 Vanligtvis arbetar de flesta organisationer med ett HR-hanteringssystem (HRMS) som upprätthåller alla medarbetarposter, t.ex. utnämning, plats, datum för anslutning eller medarbetarhierarki. Du kan exportera dessa data i CSV-format. Importera en CSV-fil genom att följa stegen nedan:
+
 
 1. Klicka **[!UICONTROL Add]** i det övre högra hörnet och väljer alternativet **[!UICONTROL Upload a CSV]**.
 
@@ -153,7 +219,10 @@ Typer av aktiva fält:
 
 Du kan även göra det möjligt för anställda i organisationen att registrera sig som elever på Adobe Learning Manager-kontot utan att ta hjälp av dig som administratör. Administratören kan skapa en länk för självregistrering och dela med de anställda, som kan registrera sig ytterligare för Learning Manager med sina inloggningsuppgifter för Adobe.
 
-Klicka på i det övre högra hörnet på sidan **[!UICONTROL Add]** och välja **[!UICONTROL Self-Registration]**.
+
+
+Klicka på i det övre högra hörnet på sidan **[!UICONTROL Add]** och välj **[!UICONTROL Self-Registration]**.
+
 
 ![](assets/self-registration.png)
 *Skapa länk för att registrera dig som elev*
@@ -209,7 +278,9 @@ Följ stegen nedan för att registrera externa användare:
    *Registrera externa användare*
 
 1. Klicka på i det övre högra hörnet på sidan **[!UICONTROL Add]**.
-1. På fliken **[!UICONTROL Add External Registration Profile]** dialogrutan lägger du till följande information:
+
+1. På fliken **Lägg till extern registreringsprofil** dialogrutan lägger du till följande information:
+
 
    * Partnerorganisationens profilnamn.
    * E-postadressen till partnerorganisationens chef.
@@ -306,7 +377,9 @@ Förutom automatiskt genererade grupper kan du även skapa egna grupper. Om du v
 
 1. Ange gruppens namn och beskrivning.
 1. Ange användarnamn eller profil i sökfältet när du skriver och välj från listrutan för att lägga till användare.
-1. Klicka på för att lägga till fler elever **[!UICONTROL Add More Users].**
+
+1. Klicka på för att lägga till fler elever **[!UICONTROL Add More Users]**.
+
 1. Om du vill skapa användargruppen klickar du på **[!UICONTROL Save]**.
 
 Denna anpassade grupp skapas nu och läggs till i profilen. De användargrupper du skapar är dynamiska till sin natur. Om nya användare läggs till med liknande attribut läggs de automatiskt till i användargruppen.
@@ -322,11 +395,13 @@ Om du till exempel vill konfigurera en utbildningsplan så att alla användare s
 
 ## Avancerade inställningar {#advancedsettings}
 
-## Datakällor {#datasources}
+### Datakällor {#datasources}
 
 Du kan använda den här funktionen när du vill importera/synkronisera användarna eller utbildningsdata från organisationens databas till Learning Manager-programmet. Du kan även ställa in frekvensen för den här synkroniseringen.
 
+
 Klicka **[!UICONTROL Data Sources]** i den vänstra rutan under **[!UICONTROL Advanced]** -sektionen.
+
 
 ![](assets/data-sources-add-users.png)
 
@@ -336,11 +411,11 @@ Välj typ av datakälla på menyn **[!UICONTROL Source]** väljer du uppdatering
 
 Du kan lägga till flera datakällor.
 
-## Aktiva fält {#activefields}
+### Aktiva fält {#activefields}
 
 Med den här funktionen kan administratörer lägga till fler aktiva fält utöver dem som har tillhandahållits under användarregistreringen.
 
-Klicka **Aktiva fält** tillgänglig på sidan Användare. Elever kan bara välja mellan de värden som anges i anpassade värden.
+Klicka **[!UICONTROL Active Fields]** tillgänglig på sidan Användare. Elever kan bara välja mellan de värden som anges i anpassade värden.
 
 ![](assets/active-fields.png)
 *Aktiva fält*
@@ -429,6 +504,7 @@ Det händer att en användare inte vill mappa ett aktivt fält till ett fält so
 
 Lägg till valfritt fält som en del av din användarinformation och klicka på **[!UICONTROL Save]**. När du har lagt till fälten kan du även kontrollera tillgängligheten för fälten i **[!UICONTROL Edit users]** dialog.
 
+
 När du har lagt till fälten kan du se att de fält som är markerade med ett bockmärke kommer från datakällan eller CSV, som nämns i ögonblicksbilden nedan. Administratören kan redigera dessa källfält genom att aktivera eller inaktivera fälten.
 
 **Värden för aktiva fält i Learning Manager**
@@ -461,7 +537,7 @@ Användare kan bara välja bland fördefinierade fält för CSV-fält om **[!UIC
 
 ## Importera loggar {#importlogs}
 
-I det här området kan du visa CSV-importhistoriken för de användare som administratören har lagt till med hjälp av funktionen massimport. Du kan också klicka på **Lägg till** i det övre högra hörnet på sidan för att lägga till användare med funktionen för CSV-överföring.
+I det här området kan du visa CSV-importhistoriken för de användare som administratören har lagt till med hjälp av funktionen massimport. Du kan också klicka på **[!UICONTROL Add]** i det övre högra hörnet på sidan för att lägga till användare med funktionen för CSV-överföring.
 
 ## Aktiva fält med flera värden
 
@@ -548,7 +624,7 @@ Följ stegen nedan om du vill redigera en användare:
 
 ![](assets/edit-user-data.png)
 
-I dialogrutan **[!UICONTROL Edit User]** dialogrutan uppdaterar du fälten därefter. Klicka på för att spara ändringarna **[!UICONTROL Save]**.
+I dialogrutan **Redigera användare** dialogrutan uppdaterar du fälten därefter. Klicka på för att spara ändringarna **[!UICONTROL Save]**.
 
 +++
 
@@ -595,8 +671,6 @@ Om du vill att elever bara ska se de aktiva fält som inte har fyllts i av dem f
 Du kan begränsa urvalet för elever så att de bara kan välja de värden som är fördefinierade och inte ange några slumpmässiga värden. Följ stegen nedan:
 
 1. Klicka **[!UICONTROL Users]** > **[!UICONTROL Active Fields]**.
-1. I avsnittet **[!UICONTROL Configure fields]** klickar du på **[!UICONTROL Modify Values]**.
-
 1. Aktivera alternativet **[!UICONTROL Restrict Selection]**.
 1. Klicka på **[!UICONTROL Done]**.
 
