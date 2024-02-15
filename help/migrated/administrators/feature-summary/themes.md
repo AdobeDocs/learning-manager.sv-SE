@@ -3,9 +3,9 @@ description: Färgteman och varumärken i Learning Manager
 jcr-language: en_us
 title: Färgteman
 contentowner: jayakarr
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 5fd6f5bff1a2863239f1ff5a1625147d0e26119d
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '862'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,14 @@ ht-degree: 0%
 Färgteman och varumärken i Learning Manager
 
 Med Learning Manager kan du ändra utseendet på appen för att matcha din organisations krav på varumärken.
+
+## Anpassa användargränssnittet
+
+I den här utbildningen kommer du att utforska sätt att anpassa utseendet på gränssnittet så att det matchar en organisations krav på varumärke.
+
+[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QBWYPFSV&amp;mv=display&amp;mv2=display#/course/8318823)
+
+Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
 
 ## Varumärke {#branding}
 
