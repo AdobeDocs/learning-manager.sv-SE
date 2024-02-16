@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Användarhandbok för programutvecklare
 description: Learning Manager V1 API är nu föråldrat. V1 API:erna slutar fungera från och med 28 februari 2021. Vi rekommenderar att du använder V2 API:er för att interagera med Learning Manager.
 contentowner: jayakarr
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+source-git-commit: efb9772aac1359601ae988d9a081d395786b44fe
 workflow-type: tm+mt
-source-wordcount: '3276'
+source-wordcount: '3380'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,10 @@ ht-degree: 0%
 
 # Användarhandbok för programutvecklare
 
-Learning Manager V1 API är nu föråldrat. V1 API:erna slutar fungera från och med 28 februari 2021. Vi rekommenderar att du använder V2 API:er för att interagera med Learning Manager.
+>[!NOTE]
+>
+>Learning Manager V1 API är nu föråldrat. Vi rekommenderar att du använder V2 API:er för att interagera med Learning Manager.
+
 
 ## Översikt {#overview}
 
@@ -29,6 +32,10 @@ Med Learning Manager API kan utvecklare skapa fristående program som utökar fu
 Learning Manager API baseras på REST-principer och visar viktiga element i Learning Manager-objektmodellen för programutvecklare via HTTP. Innan du känner till detaljerna för API-slutpunkterna och HTTP-metoderna kan utvecklare bekanta sig med de olika Learning Manager-objekten, deras attribut och inbördes relationer. När modellerna har förståtts är det bra att ha en grundläggande förståelse för strukturen hos API-begäranden och -svar, och några vanliga programmeringstermer som vi använder generellt i hela API:et.
 
 Mer information om de olika API-slutpunkterna och -metoderna finns i  [API-dokumentation för Learning Manager](https://learningmanager.adobe.com/docs/primeapi/v2/).
+
+>[!IMPORTANT]
+>
+>Med Adobe Learning Manager Learners API:er kan du skapa en anpassad utbildningsupplevelse för dina användare. Användningen av dessa API:er kräver en giltig användartoken och ska bara användas i arbetsflöden där det finns en helt licensierad/registrerad elev. De ska inte användas, som det är, för någon form av datahämtning för att stödja icke-inloggade användare/delade användare eller andra sådana fall. Ej inloggade användningsfall kräver särskild hantering. Kontakta lösningsarkitektteamet om du har frågor om hur dessa API:er ska användas och se till att en lösningsarkitekt har testat en lösning innan du driftsätter den.
 
 ## API-autentisering {#apiauthentication}
 
@@ -763,7 +770,7 @@ dateStart\
 inskriven\
 id\
 månad\
-fjärdedel
+kvartal
 
 **Relationer**
 containerLO(learningObject)\
