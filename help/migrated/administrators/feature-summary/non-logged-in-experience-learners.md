@@ -1,9 +1,9 @@
 ---
 title: Ej inloggad för elever
 description: Adobe Learning Manager-startportalen har stöd för ett icke-loggat sätt att komma åt utbildningswebbplatsen. När det här läget är aktiverat kan elever upptäcka och komma åt utbildningswebbplatsen och kolla in olika kurser och tillgängligt innehåll. Den icke-inloggade upplevelsen gör att elever kan bläddra bland kurser utan att vara inloggade på en portal.
-source-git-commit: efb9772aac1359601ae988d9a081d395786b44fe
+source-git-commit: 956c119a5650b535a906157dc4d36f2ff075cf01
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
@@ -24,10 +24,17 @@ Utbildningen kan sedan exporteras från kontakten.
 
 Administratören kan ändra och konfigurera startsidan, som är avsedd för icke-inloggade användare.
 
+## Elevens API
+
+Adobe Learning Manager - Med elevs-API:er kan du skapa en anpassad utbildningsupplevelse för dina användare. Användningen av dessa API:er kräver en giltig användartoken och ska bara användas i arbetsflöden där det finns en helt licensierad/registrerad elev.
+
 >[!IMPORTANT]
 >
->Med Adobe Learning Manager Learners API:er kan du skapa en anpassad utbildningsupplevelse för dina användare. Användningen av dessa API:er kräver en giltig användartoken och ska bara användas i arbetsflöden där det finns en helt licensierad/registrerad elev. De ska inte användas, som det är, för någon form av datahämtning för att stödja icke-inloggade användare/delade användare eller andra sådana fall. Ej inloggade användningsfall kräver särskild hantering. Kontakta lösningsarkitektteamet om du har frågor om hur dessa API:er ska användas och se till att en lösningsarkitekt har testat en lösning innan du driftsätter den.
+>De ska inte användas, som det är, för någon form av datahämtning för att stödja icke-inloggade användare/delade användare eller andra sådana fall.
 
+De användningsfall som inte är inloggade kräver särskild hantering.
+
+**Kontakta lösningsarkitektteamet om du har några frågor om hur dessa API:er ska användas och se till att en lösningsarkitekt har testat en lösning innan du driftsätter den**.
 
 ## Öppna alternativen för startsidan
 

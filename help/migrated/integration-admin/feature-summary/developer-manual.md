@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Användarhandbok för programutvecklare
 description: Learning Manager V1 API är nu föråldrat. V1 API:erna slutar fungera från och med 28 februari 2021. Vi rekommenderar att du använder V2 API:er för att interagera med Learning Manager.
 contentowner: jayakarr
-source-git-commit: efb9772aac1359601ae988d9a081d395786b44fe
+source-git-commit: 956c119a5650b535a906157dc4d36f2ff075cf01
 workflow-type: tm+mt
-source-wordcount: '3380'
+source-wordcount: '3382'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,17 @@ Learning Manager API baseras på REST-principer och visar viktiga element i Lear
 
 Mer information om de olika API-slutpunkterna och -metoderna finns i  [API-dokumentation för Learning Manager](https://learningmanager.adobe.com/docs/primeapi/v2/).
 
+## Elevens API
+
+Adobe Learning Manager - Med elevs-API:er kan du skapa en anpassad utbildningsupplevelse för dina användare. Användningen av dessa API:er kräver en giltig användartoken och ska bara användas i arbetsflöden där det finns en helt licensierad/registrerad elev.
+
 >[!IMPORTANT]
 >
->Med Adobe Learning Manager Learners API:er kan du skapa en anpassad utbildningsupplevelse för dina användare. Användningen av dessa API:er kräver en giltig användartoken och ska bara användas i arbetsflöden där det finns en helt licensierad/registrerad elev. De ska inte användas, som det är, för någon form av datahämtning för att stödja icke-inloggade användare/delade användare eller andra sådana fall. Ej inloggade användningsfall kräver särskild hantering. Kontakta lösningsarkitektteamet om du har frågor om hur dessa API:er ska användas och se till att en lösningsarkitekt har testat en lösning innan du driftsätter den.
+>De ska inte användas, som det är, för någon form av datahämtning för att stödja icke-inloggade användare/delade användare eller andra sådana fall.
+
+De användningsfall som inte är inloggade kräver särskild hantering.
+
+**Kontakta lösningsarkitektteamet om du har några frågor om hur dessa API:er ska användas och se till att en lösningsarkitekt har testat en lösning innan du driftsätter den**.
 
 ## API-autentisering {#apiauthentication}
 
