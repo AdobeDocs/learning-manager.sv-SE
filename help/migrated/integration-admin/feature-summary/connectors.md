@@ -3,9 +3,9 @@ description: Lär dig integrera olika kopplingar i Learning Manager
 jcr-language: en_us
 title: Anslutningar för Learning Manager
 contentowner: jayakarr
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+source-git-commit: 3ed216c1754d8393647e50892ab9ca4d122099f6
 workflow-type: tm+mt
-source-wordcount: '15680'
+source-wordcount: '15698'
 ht-degree: 0%
 
 ---
@@ -2112,6 +2112,11 @@ Kursen eller utbildningsvägen kan inte köpas förrän data har synkroniserats 
 ### Exportera kurser till Adobe Commerce
 
 När en författare har angett priserna för olika kurser, utbildningsvägar eller certifieringar exporterar du som integrationsadministratör kurserna, utbildningsvägarna eller certifieringarna till Adobe Commerce.
+
+>[!NOTE]
+>
+>I mars 2024-utgåvan av Adobe Learning Manager har vi infört stöd för [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
+
 
 1. Klicka **[!UICONTROL Export Training Metadata]** > **[!UICONTROL On Demand]**.
 
