@@ -3,9 +3,9 @@ description: Lär dig mer om att rensa användardata i Learning Manager.
 jcr-language: en_us
 title: Rensa användare
 contentowner: dvenkate
-source-git-commit: 53c1a5283295b56424d697bc26c5db31c2edca0f
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '873'
 ht-degree: 2%
 
 ---
@@ -27,6 +27,16 @@ Använd funktionen Rensa användare för att ta bort användarens personliga ide
 * Om instruktörer rensas tas de bort från sessionerna. Administratören måste ersätta/lägga till instruktörer för sådana sessioner.
 * När du rensar en användare i Learning Manager tas användaren inte bort från externa program (system från tredje part eller andra program som du har skrivit). Kontakta externa programägare för att få användarna borttagna från sådana program.
 * Om en rensad användare hänvisas till i konfigurationsinställningarna för en anslutning inaktiveras anslutningen. Anslutningen måste konfigureras om av administratören för att kunna återupptas.
+
+### Hantera användare
+
+I den här utbildningen får du lära dig tilldela och ta bort roller, skicka ett välkomstmeddelande via e-post och ta bort och rensa användare.
+
+[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4X3B8VJ2&amp;mv=display&amp;mv2=display#/course/7555586)
+
+Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
+
+## Så här rensar du användare
 
 Gör så här för att rensa användare:
 

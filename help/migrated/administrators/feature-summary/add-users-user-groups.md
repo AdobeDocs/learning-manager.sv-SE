@@ -3,9 +3,9 @@ description: Lär dig lägga till användare eller användargrupper i Learning M
 jcr-language: en_us
 title: Lägga till användare och skapa användargrupper
 contentowner: manochan
-source-git-commit: 9b7966d3dd88e61dc1b2467a9469b12b8bda4afc
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '3830'
+source-wordcount: '3848'
 ht-degree: 0%
 
 ---
@@ -155,13 +155,21 @@ Välj en användare i listan med användare och klicka på användaren. På anv�
 ![](assets/edit-user.png)
 *Dialogrutan Redigera användare*
 
-## Arbetsflöden för aktiva fält och aktiva fältvärden bevarar skiftlägeskänslighet
+## Aktiva fält
 
-I den här versionen bevarar Learning Manager användarattributets skiftlägeskänslighet och dess värde. **Till exempel**&#x200B;är skiftlägeskänsligheten för ett användarattribut &#39;location&#39; och dess värde som &#39;PARIS&#39; bevaras och visas på samma sätt. Om det uppstår problem kan administratören nu redigera attributnamnet och attributvärdena för att korrigera eventuella skiftlägeskänslighetsfel.
+### Hantera användarattribut
+
+I den här utbildningen får du lära dig hur du lägger till, anpassar och konfigurerar aktiva fält.
+
+[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=55KD8M1Z&amp;mv=display&amp;mv2=display#/course/7555741)
+
+Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
+
+I Adobe Learning Manager bevaras skiftlägeskänsligheten för användarattributet och dess värde. **Till exempel**&#x200B;är skiftlägeskänsligheten för ett användarattribut &#39;location&#39; och dess värde som &#39;PARIS&#39; bevaras och visas på samma sätt. Om det uppstår problem kan administratören nu redigera attributnamnet och attributvärdena för att korrigera eventuella skiftlägeskänslighetsfel.
 
 Administratören kan göra detta genom att gå till **[!UICONTROL Admin app]** > **[!UICONTROL Users]** > **[!UICONTROL User groups]** och klicka på gruppnamnet.
 
-Administratören kan lägga till och uppdatera tillåtna attributvärden för en elev via användargränssnittet.
+En administratör kan lägga till och uppdatera tillåtna attributvärden för en elev via användargränssnittet.
 
 Typer av aktiva fält:
 

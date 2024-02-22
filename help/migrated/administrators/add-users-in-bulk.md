@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Lägga till användare i grupp
 description: Lär dig lägga till flera användare åt gången.
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,15 @@ ht-degree: 0%
 
 # Lägga till användare i grupp
 
-Ja, du kan lägga till flera användare åt gången genom att följa stegen nedan:
+I den här utbildningen får du lära dig hur du lägger till användare i grupp via en CSV-fil.
+
+[![knapp](feature-summary/assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=51TC8QS1&amp;mv=display&amp;mv2=display#/course/7555555)
+
+Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
+
+## Lägga till flera användare
+
+Du kan lägga till flera användare samtidigt genom att följa stegen nedan:
 
 1. Klicka **[!UICONTROL Users]** i den vänstra rutan i Administratörsinloggning och klicka sedan på **[!UICONTROL Add]** > **[!UICONTROL Upload a csv]**. En popup-dialogruta visas.
 

@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Anpassa elevens startsida
 description: En administratör kan anpassa elevens startsida och göra den mer modern, innehållsdriven och anpassad för en elev.
 contentowner: saghosh
-source-git-commit: 2dd741a9e0e49986df34bd415ea57f9e64f3b26a
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1158'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,17 @@ ht-degree: 0%
 
 En administratör kan anpassa elevens startsida och göra den mer modern, innehållsdriven och anpassad för en elev.
 
-Det anpassade tillvägagångssättet erbjuder ett widgetat sätt att bygga en Elevstartsida, som organisationens administratör kan konfigurera i administratörens användargränssnitt på ett WYSIWYG-sätt.
+Det anpassade tillvägagångssättet erbjuder ett widgetbaserat sätt att bygga en elevstartsida, som organisationens administratör kan konfigurera i administratörens användargränssnitt på ett WYSIWYG-sätt.
 
 Upplevelsen drivs av en personlig utbildningsrekommendation från en AI-driven algoritm som analyserar innehåll från tredje part för branschens färdigheter, införlivar kollegial aktivitet och elevernas intresseområden med hjälp av explicita och implicita data.
+
+### Anpassa elevens startsida
+
+Under den här utbildningen kommer du att utforska sätt att anpassa elevens startsida.
+
+[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4SC98Z83&amp;mv=display&amp;mv2=display#/course/8318825)
+
+Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
 
 ## Konfigurera elevens startsida {#configurethelearnerhomepage}
 

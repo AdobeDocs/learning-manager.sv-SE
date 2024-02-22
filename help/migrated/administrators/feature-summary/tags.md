@@ -3,9 +3,9 @@ description: Lär dig hantera taggar i Learning Manager.
 jcr-language: en_us
 title: Taggar
 contentowner: dvenkate
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,14 @@ Administratörer kan nu hantera taggar i Learning Manager. Använd bättre taggn
 Listan med utbildningsobjekt som är associerade med taggen kan visas genom att klicka på antalet bredvid varje tagg. Listan visar antalet kurser, utbildningsprogram, certifikat, arbetsstöd och innehållsgrupper. Klicka på något av dessa alternativ för att visa listan.
 
 Du kan sortera taggarna baserat på användning eller alfabetisk ordning i **[!UICONTROL Sort By]** alternativ.
+
+## Introduktion till taggar
+
+Denna utbildning lär dig lägga till, redigera, ersätta, lägga till och ta bort taggar. Du får också lära dig ändra behörighetsinställningar och använda taggfilter.
+
+[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=5S7K7ZCT&amp;mv=display&amp;mv2=display#/course/8318920)
+
+Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
 
 ## Lägg till/ta bort/redigera taggar {#adddeleteedittags}
 
