@@ -3,37 +3,37 @@ jcr-language: en_us
 title: API-borttagningar i Adobe Learning Manager
 description: I takt med att API:erna i Adobe Learning Manager utvecklas omorganiseras eller uppgraderas API:er regelbundet. När API:er utvecklas blir det gamla API:t inaktuellt och så småningom borttaget. Den här sidan innehåller information som du behöver känna till när du migrerar från föråldrade API-versioner till nyare och stabilare API-versioner.
 contentowner: saghosh
-source-git-commit: 83fdd06aed823a50458d50c8ac240d56af873a6d
+source-git-commit: 24c886fcd9448b7f1d71526794a3c46a0f91d017
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
 
 
-# API-borttagningar i Adobe Learning Manager
+# Borttagningar och ändringar av API i Adobe Learning Manager
 
 ## API-borttagningar i mars 2024-versionen av Adobe Learning Manager
 
-### Ändringar i hastighetsbegränsningar
+<!-- ### Changes in Rate Limits
 
-I nästa utgåva av Adobe Learning Manager har vi infört gränser för API-hastigheter för nya konton. För befintliga konton är det bara API:erna för administratörer som är hastighetsbegränsade. Efter 90 dagar (cirka 3 månader) kommer vi att omstrukturera hastighetsgränser för alla API:er, men befintliga konton kommer att vitlistas enligt aktuell användning. Befintliga konton måste gå tillbaka till sin användning av elevens API.
+With the next release of Adobe Learning Manager, we're restructuring API rate limits for new accounts. For existing accounts, only the Admin APIs will be rate-limited. After 90 days (about 3 months), we will restructure rate limits for all APIs, but existing accounts will be whitelisted according to current usage. Existing accounts need to revisit their learner API usage. 
 
-Om nya konton vill höja hastighetsgränserna måste de kontakta ALM:s kundteam.
+For new accounts, if they want to increase the rate limits, they must contact the Customer Success team of ALM. 
 
-#### Vilka API:er är hastighetsbegränsade
+#### Which APIs will be rate limited 
 
-För nya konton kommer alla API:er för administratörer, elever och sökningar att ha hastighetsbegränsningar och spricka.
+For new accounts, all Admin, Learner, and Search APIs will have rate limits and burst enforced.  
 
-Frekvens eller sprängningsgräns för API avser det maximala antalet begäranden som får göras till ett API i en kort sekvens inom en begränsad tidsram.
+The API burst rate or burst limit refers to the maximum number of requests allowed to be made to an API in a short burst within a limited timeframe. 
 
-Följande tabell visar hastighets- och sprängningsgränser för API:erna.
+The following table lists the rate and burst limits for the APIs.
 
 <table>
     <tr>
         <th>API</th>
-        <th>Antal begäranden - v/min</th>
-        <th>Antal begäranden - antal begäranden</th>
+        <th>Number of requests-RPM</th>
+        <th>Number of requests-Burst</th>
     </tr>
     <tr>
         <td>Admin</td>
@@ -41,16 +41,17 @@ Följande tabell visar hastighets- och sprängningsgränser för API:erna.
         <td>5</td>
     </tr>
     <tr>
-        <td>Elev</td>
+        <td>Learner</td>
         <td>20</td>
         <td>5</td>
     </tr>
     <tr>
-        <td>Sök</td>
+        <td>Search</td>
         <td>50</td>
         <td>5</td>
     </tr>
 </table>
+-->
 
 ### Ändringar av förskjutningsgränser
 
