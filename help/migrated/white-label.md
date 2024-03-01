@@ -1,19 +1,19 @@
 ---
 jcr-language: en_us
 title: API-borttagningar i Adobe Learning Manager
-description: Vit märkning är en metod att byta namn på en app eller tjänst med ditt eget varumärke och anpassa den som om du vore den ursprungliga skaparen. I Adobe Learning Manager kan du använda vit etikettering i mobilappen så att du kan byta varumärke på appen och göra den tillgänglig för dina användare under ditt eget varumärke.
+description: Vit märkning är ett sätt att ommärka en app eller tjänst med ditt eget varumärke och anpassa den som om du var den ursprungliga upphovsmannen. I Adobe Learning Manager kan du använda vit etikett på mobilappen, så att du kan märka om appen och göra den tillgänglig för dina användare under ditt eget varumärke.
 contentowner: saghosh
-source-git-commit: c5ad960861adada9bf65c462d883d1d85ef53ee9
+source-git-commit: 959df7fd0a32bc09082d3de877213084b9d458fd
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
 
 
-# Vit märkning i mobilappen Adobe Learning Manager
+# Vitmärkning i mobilappen Adobe Learning Manager
 
-Mobilappen Adobe Learning Manager har nu stöd för vit märkning, vilket innebär att du nu kan släppa appen under ditt eget varumärke.
+Mobilappen Adobe Learning Manager har nu stöd för vit etikettering, vilket innebär att du nu kan släppa appen under din egen varumärke.
 
 ## Hur du ska börja förbereda för att starta ett program med vit etikett
 
@@ -33,7 +33,7 @@ Vit märkning är en metod att byta namn på en app eller tjänst med ditt eget 
 
 ## Vad kan anpassas
 
-Följande kan anpassas:
+Du kan anpassa följande:
 
 ### Fält
 
@@ -49,7 +49,7 @@ Följande kan anpassas:
 
    <td>
 
-    <p>ID för ditt konto. Observera att den vita etiketterade appen inte är tillgänglig för studerande som tillhör något annat konto.</p></td>
+    <p>ID för ditt konto. Observera att det vitmärkta programmet inte är tillgängligt för elever som tillhör något annat konto.</p></td>
 
   </tr>
 
@@ -69,11 +69,11 @@ Följande kan anpassas:
 
   <td>
 
-  <p>Appnamn</p></td>
+  <p>Programnamn</p></td>
 
   <td>
 
-  <p>Namnet som du vill använda för programmet.</p></td>
+  <p>Namnet som du vill använda för appen.</p></td>
 
   </tr>
 
@@ -93,11 +93,11 @@ Följande kan anpassas:
 
   <td>
 
-  <p>Internt programnamn</p></td>
+  <p>Internt appnamn</p></td>
 
   <td>
 
-  <p>Namnet som operativsystemet identifierar programmet med. Det format som vanligtvis används är- com.'<company-name>"."<product-name>`.</p></td>
+  <p>Namnet som operativsystemet identifierar appen med. Det format som vanligtvis används är: com.company-name.product-name.</p></td>
 
   </tr>
 
@@ -109,7 +109,7 @@ Följande kan anpassas:
 
   <td>
 
-  <p>Ge appen ett annat namn om dina användare använder iOS. Vi rekommenderar att du använder samma namn för både iOS och Android.</p></td>
+  <p>Namnge programmet på ett annat sätt om användarna använder iOS. Vi rekommenderar att du använder samma namn för både iOS och Android.</p></td>
 
   </tr>
 
@@ -121,7 +121,7 @@ Följande kan anpassas:
 
   <td>
 
-  <p>Appikonen som png. Den här ikonen visas i din app. Formatet som ska namnges är `<account-id>`_appIcon.png.</p></td>
+  <p>Appikonen som png. Den här ikonen visas i ditt program. Formatet som ska namnges är account-id_appIcon.png.</p></td>
 
   </tr>
 
@@ -133,7 +133,7 @@ Följande kan anpassas:
 
   <td>
 
-  <p>Ange en bild (png) som visas när användarna startar programmet på programmets välkomstskärm. Formatet som ska namnges är `<account-id>`_splashIcon.png.</p></td>
+  <p>Ange en bild (png) som visas när användarna startar programmet för att visa programmets välkomstskärm. Formatet som ska namnges är account-id_splashIcon.png.</p></td>
 
   </tr>
 
@@ -145,7 +145,9 @@ Följande kan anpassas:
 
   <td>
 
-  <p>Integreringsadministratören för ditt konto tillhandahåller informationen medan du registrerar programmet. Integreringsadministratören måste använda följande:<ul><li>"elev:läs,elev:skriv" som roll.</li><li>`<internal app name>`://omdirigera som omdirigerings-URL. </li></ul> </p></td>
+  <p>Integreringsadministratören för ditt konto tillhandahåller informationen medan du registrerar programmet. Integreringsadministratören måste använda följande: * elev:läs,elev:skriv som roll * internt program name://redirect som omdirigerings-URL
+
+  </p></td>
 
   </tr>
 
@@ -157,7 +159,7 @@ Följande kan anpassas:
 
   <td>
 
-  <p>Den URL som är värd för organisationens logotyp. Ange en innehållslänk som kontologotyp. URL-adressen måste vara webbkodad.</p></td>
+  <p>Den URL som är värd för organisationens logotyp. Ange en innehållslänk som kontologotyp. Webbadressen måste vara webbkodad.</p></td>
 
   </tr>
 
@@ -165,11 +167,11 @@ Följande kan anpassas:
 
   <td>
 
-  <p>App Store-id för appen (iOS)</p></td>
+  <p>Appbutikens ID för appen (iOS)</p></td>
 
   <td>
 
-  <p>Det ID som krävs för att implementera force update. Appen måste veta att den studerande bör omdirigeras till App Store för att kunna uppdatera appen.</p></td>
+  <p>Det ID som krävs för att implementera force-uppdateringen. Appen måste veta att eleven ska omdirigeras till appbutiken för att uppdatera appen.</p></td>
 
   </tr>
 
@@ -216,23 +218,23 @@ Mer information finns på följande länkar:
 
 ### Certifikat för push-meddelanden i iOS
 
-Ett push-meddelandecertifikat är en kryptografisk autentiseringsuppgift inom iOS-apputveckling som utfärdas av Apple och som gör det möjligt för en server att på ett säkert sätt skicka push-meddelanden till en iOS-enhet via Apple Push Notification Service (APN:er).
+I iOS apputveckling är ett certifikat för push-meddelanden en kryptografisk autentiseringsuppgift som utfärdas av Apple och som gör att en server säkert kan skicka push-meddelanden till en iOS-enhet via Apple Push Notification-tjänst (APN).
 
-Certifikatet garanterar säker kommunikation mellan servern (eller leverantören) och Apple APN-filer när push-meddelanden skickas till iOS-enheter.
+Certifikatet säkerställer säker kommunikation mellan servern (eller leverantören) och Apple APN:er när push-meddelanden skickas till iOS-enheter.
 
 Både Android och iOS använder Firebase Cloud Messaging (FCM) som tjänst för att skicka push-meddelanden till enheter.
 
-### Så här genererar du certifikatet i iOS
+### Så här genererar du certifikatet på iOS
 
 Följ proceduren:
 
-1. Generera eller hämta **Certifikat för push-meddelanden** och privat nyckel (.p12). Mer information finns i [Utvecklardokument för Apple](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns).
+1. Generera eller hämta **Push-meddelandecertifikat** och privat nyckel (.p12). Mer information finns i [Utvecklardokument för Apple](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns).
 
 1. Installera p12-filen när filen har hämtats. Använd lösenordet för att installera i **Åtkomst till nyckelringen**.
 
 1. Gå till **Mina certifikat** och exportera certifikatet. Se till att du väljer MIME-typen .cer.
 
-1. När p12-filen och cer-filen är tillgängliga kör du följande kommandon:
+1. Kör följande kommandon när du har p12-filen och CER-filen tillgängliga:
 
 ```
 - openssl pkcs12 -in privatekey.p12 -out myapnappkey.pem -nodes –clcerts
@@ -242,9 +244,9 @@ Följ proceduren:
 - openssl s_client -connect gateway.sandbox.push.apple.com:2195 -cert myapnsappcert.pem -key myapnappkey.pem 
 ```
 
-Om du kan ansluta till servern är certifikatet som du har skapat giltigt. Kopiera värdena för certifikatet och den privata nyckeln från filen myapnappkey.pem.
+Om du kan ansluta till servern är certifikatet du har skapat giltigt. Kopiera certifikatet och värdena för den privata nyckeln från filen myapnappkey.pem.
 
-1. Kontakta CSM-teamet och be dem lägga till filerna i SNS-tjänsterna på AWS. Användarna måste registrera posten i SNS-tjänsten för push-meddelandet, vilket kräver att de delar de certifikat som genereras ovan för validering.
+1. Kontakta CSM-teamet och få filerna tillagda i SNS-tjänsterna på AWS. Användare måste få posten registrerad i SNS-tjänsten för push-meddelandet, vilket kräver att de delar certifikaten som genereras ovan för validering.
 
 >[!NOTE]
 >
@@ -255,11 +257,11 @@ Om du kan ansluta till servern är certifikatet som du har skapat giltigt. Kopie
 
 ### Android
 
-[Lägg till projektet](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) i Firebase och hämta ***google-services.json*** -fil.
+[Lägg till projektet](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) i Firebase och hämta ***google-services.json*** fil.
 
 ### iOS
 
-[Lägg till projektet](https://firebase.google.com/docs/ios/setup) till Firebase och hämta ***GoogleService-Info.plist*** -fil.
+[Lägg till projektet](https://firebase.google.com/docs/ios/setup) till Firebase och hämta ***GoogleService-Info.plist*** fil.
 
 ## Generera signerade binärfiler
 
@@ -292,7 +294,7 @@ När du har genererat binärfilerna överför du dem till Play Store eller App S
 
 ## Hur tillämpar jag ändringarna?
 
-Kunden skickar de nödvändiga resurserna och filerna till CSM-teamet. CSM-teamet fyller sedan i [formulär](https://forms.office.com/r/bJRRaRBvSh) med de ändringar som krävs och bifogar de nödvändiga resurserna. Teamet granskar och informerar sedan konstruktionsteamen om ändringarna. Teknikteamet kommer sedan att generera ett bygge och dela det med CSM-teamet.
+Kunden skickar de nödvändiga resurserna och filerna till CSM-teamet. CSM-teamet fyller sedan i [form](https://forms.office.com/r/bJRRaRBvSh) har gjort de ändringar som krävs och bifogar de mediefiler som krävs. Teamet kommer då att granska och informera teknikerteamen om ändringarna. Teknikteamet kommer sedan att generera ett bygge och dela det med CSM-teamet.
 
 CSM-teamet delar bygget med kunden.
 
