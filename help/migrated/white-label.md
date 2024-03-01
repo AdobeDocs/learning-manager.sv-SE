@@ -1,19 +1,19 @@
 ---
 jcr-language: en_us
 title: API-borttagningar i Adobe Learning Manager
-description: Vit märkning är ett sätt att ommärka en app eller tjänst med ditt eget varumärke och anpassa den som om du var den ursprungliga upphovsmannen. I Adobe Learning Manager kan du använda vit etikett på mobilappen, så att du kan märka om appen och göra den tillgänglig för dina användare under ditt eget varumärke.
+description: Vit märkning är en metod att byta namn på en app eller tjänst med ditt eget varumärke och anpassa den som om du vore den ursprungliga skaparen. I Adobe Learning Manager kan du använda vit etikettering i mobilappen så att du kan byta varumärke på appen och göra den tillgänglig för dina användare under ditt eget varumärke.
 contentowner: saghosh
-source-git-commit: 959df7fd0a32bc09082d3de877213084b9d458fd
+source-git-commit: 7bd9877aa32c78988a5195116d2a0f25ded05c90
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
 
 
-# Vitmärkning i mobilappen Adobe Learning Manager
+# Vit märkning i mobilappen Adobe Learning Manager
 
-Mobilappen Adobe Learning Manager har nu stöd för vit etikettering, vilket innebär att du nu kan släppa appen under din egen varumärke.
+Mobilappen Adobe Learning Manager har nu stöd för vit märkning, vilket innebär att du nu kan släppa appen under ditt eget varumärke.
 
 ## Hur du ska börja förbereda för att starta ett program med vit etikett
 
@@ -93,11 +93,11 @@ Du kan anpassa följande:
 
   <td>
 
-  <p>Internt appnamn</p></td>
+  <p>Internt programnamn</p></td>
 
   <td>
 
-  <p>Namnet som operativsystemet identifierar appen med. Det format som vanligtvis används är: com.company-name.product-name.</p></td>
+  <p>Namnet som operativsystemet identifierar programmet med. Det format som vanligtvis används är: com.company-name.product-name.</p></td>
 
   </tr>
 
@@ -105,7 +105,7 @@ Du kan anpassa följande:
 
   <td>
 
-  <p>Internt appnamn-iOS</p></td>
+  <p>Internt programnamn - iOS</p></td>
 
   <td>
 
@@ -133,7 +133,7 @@ Du kan anpassa följande:
 
   <td>
 
-  <p>Ange en bild (png) som visas när användarna startar programmet för att visa programmets välkomstskärm. Formatet som ska namnges är account-id_splashIcon.png.</p></td>
+  <p>Ange en bild (png) som visas när användarna startar programmet på programmets välkomstskärm. Formatet som ska namnges är account-id_splashIcon.png.</p></td>
 
   </tr>
 
@@ -159,7 +159,7 @@ Du kan anpassa följande:
 
   <td>
 
-  <p>Den URL som är värd för organisationens logotyp. Ange en innehållslänk som kontologotyp. Webbadressen måste vara webbkodad.</p></td>
+  <p>Den URL som är värd för organisationens logotyp. Ange en cpcontent-länk som kontologotyp. Webbadressen måste vara webbkodad.</p></td>
 
   </tr>
 
@@ -218,17 +218,17 @@ Mer information finns på följande länkar:
 
 ### Certifikat för push-meddelanden i iOS
 
-I iOS apputveckling är ett certifikat för push-meddelanden en kryptografisk autentiseringsuppgift som utfärdas av Apple och som gör att en server säkert kan skicka push-meddelanden till en iOS-enhet via Apple Push Notification-tjänst (APN).
+Ett push-meddelandecertifikat är en kryptografisk autentiseringsuppgift inom iOS-apputveckling som utfärdas av Apple och som gör det möjligt för en server att på ett säkert sätt skicka push-meddelanden till en iOS-enhet via Apple Push Notification Service (APN:er).
 
-Certifikatet säkerställer säker kommunikation mellan servern (eller leverantören) och Apple APN:er när push-meddelanden skickas till iOS-enheter.
+Certifikatet garanterar säker kommunikation mellan servern (eller leverantören) och Apple APN-filer när push-meddelanden skickas till iOS-enheter.
 
 Både Android och iOS använder Firebase Cloud Messaging (FCM) som tjänst för att skicka push-meddelanden till enheter.
 
-### Så här genererar du certifikatet på iOS
+### Så här genererar du certifikatet i iOS
 
 Följ proceduren:
 
-1. Generera eller hämta **Push-meddelandecertifikat** och privat nyckel (.p12). Mer information finns i [Utvecklardokument för Apple](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns).
+1. Generera eller hämta **Certifikat för push-meddelanden** och privat nyckel (.p12). Mer information finns i [Utvecklardokument för Apple](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns).
 
 1. Installera p12-filen när filen har hämtats. Använd lösenordet för att installera i **Åtkomst till nyckelringen**.
 
@@ -294,11 +294,11 @@ När du har genererat binärfilerna överför du dem till Play Store eller App S
 
 ## Hur tillämpar jag ändringarna?
 
-Kunden skickar de nödvändiga resurserna och filerna till CSM-teamet. CSM-teamet fyller sedan i [form](https://forms.office.com/r/bJRRaRBvSh) har gjort de ändringar som krävs och bifogar de mediefiler som krävs. Teamet kommer då att granska och informera teknikerteamen om ändringarna. Teknikteamet kommer sedan att generera ett bygge och dela det med CSM-teamet.
+Skickar de nödvändiga resurserna och filerna till CSM-teamet. CSM-teamet fyller sedan i [form](https://forms.office.com/r/bJRRaRBvSh) har gjort de ändringar som krävs och bifogar de mediefiler som krävs. Teamet kommer då att granska och informera teknikerteamen om ändringarna. Teknikteamet kommer sedan att skapa en version och dela den med CSM-teamet.
 
 CSM-teamet delar bygget med kunden.
 
-## Vad som inte kan anpassas
+## Vad kan inte anpassas
 
 - Skärmen Uppdatera lösenord
 - Skapa en kontoskärm
