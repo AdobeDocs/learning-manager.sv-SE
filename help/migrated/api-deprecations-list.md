@@ -3,9 +3,9 @@ jcr-language: en_us
 title: API-borttagningar i Adobe Learning Manager
 description: I takt med att API:erna i Adobe Learning Manager utvecklas omorganiseras eller uppgraderas API:er regelbundet. När API:er utvecklas blir det gamla API:t inaktuellt och så småningom borttaget. Den här sidan innehåller information som du behöver känna till när du migrerar från föråldrade API-versioner till nyare och stabilare API-versioner.
 contentowner: saghosh
-source-git-commit: 24c886fcd9448b7f1d71526794a3c46a0f91d017
+source-git-commit: 01cdcd816fe101af55adf0902f4e3660a1a098ce
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ Anledningen till att vi tar bort flaggan för Elevers API:er är att åsidosätt
 
 Framöver kommer följande Elev-API att sluta fungera eftersom det har åsidosättningsflaggan.
 
-<code>https://captivateprime.adobe.com/primeapi/v2/users?page[utjämna]=0&amp;sida[gräns]=10&amp;sort=id&amp;override=TRUE</code>
+_/primeapi/v2/users?page[utjämna]=0&amp;sida[gräns]=10&amp;sort=id&amp;override=TRUE_
 
 ### API-ändringar för nya kompetensbaserade rekommendationer
 
