@@ -3,9 +3,9 @@ description: Läs om de nya funktionerna och förbättringarna i mars 2024-utgå
 jcr-language: en_us
 title: Sammanfattning av nya funktioner
 contentowner: jayakarr
-source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
+source-git-commit: 80530741702f2658e76b4dc4cf94a4b09cc616e2
 workflow-type: tm+mt
-source-wordcount: '3102'
+source-wordcount: '3105'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Visa [Flera anpassade varumärken](administrators/feature-summary/themes.md#mult
 
 ### Admin - sidor för kurs eller utbildningsväg
 
-Om ett stort antal elever är registrerade på kursen, till exempel fler än 50 000, visas listan med elever inte. Du kan antingen söka efter en elev i *Sök elever* sökfältet eller välj **Hämta** länk ovanför sökfältet för att hämta listan över elever.
+Om ett stort antal elever är registrerade på kursen, till exempel fler än 50 000, visas listan med elever inte. Du kan antingen söka efter en elev i *Sök elever* sökfältet eller välj **Hämta** längst upp i sökfältet för att hämta listan över elever.
 
 ### Admin - sidan Elever
 
