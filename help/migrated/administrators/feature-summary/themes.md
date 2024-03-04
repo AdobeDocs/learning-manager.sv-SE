@@ -3,9 +3,9 @@ description: Färgteman och varumärken i Learning Manager
 jcr-language: en_us
 title: Färgteman
 contentowner: jayakarr
-source-git-commit: bab53a170e74a9825bb8530bbf1b64b06e6a1cf7
+source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ I dialogrutan **[!UICONTROL Primary color]** -väljaren kan du välja den färg 
 
 Om du vill anpassa väljer du tematyp i den vänstra rutan och klickar på rutorna bredvid varumärkets färg och sidopanelens ikonfärger. Klicka på sidofältet i sidofältets ljusstyrka, dra framåt eller bakåt för att justera ljusstyrkan. Titta på förhandsvisningen i bilderna ovan när du ändrar dessa alternativ.
 
-Klicka **[!UICONTROL Reset Theme]** för att återställa temats ursprungliga inställningar. Klicka **[!UICONTROL Save]** efter att du slutfört ändringarna.
+Klicka **[!UICONTROL Reset Theme]** om du vill återställa temats originalinställningar. Klicka **[!UICONTROL Save]** efter att du slutfört ändringarna.
 
 **Direktförhandsvisning**
 
@@ -85,6 +85,39 @@ Klicka **[!UICONTROL Live Preview]** längst ned till vänster i avsnittet Teman
 Välj önskat tema i listrutan, justera inställningarna och klicka på **[!UICONTROL Preview]** för att se ändringarna direkt i programmet. Nu kan du gå igenom alla funktioner i programmet och bevittna ändringarna. Du kan också ändra dina roller när du går igenom förhandsvisning i realtid. När du är nöjd med ändringarna kan du återgå till popup-funktionen för förhandsvisning av live-tema och klicka på **[!UICONTROL Apply Theme]**.
 
 Medan du förhandsgranskar ändringarna live visas popup-fönstret för direktförhandsgranskning av tema fortfarande längst ned på skärmen. Du kan välja att minimera popup-fönstret.
+
+## Flera varumärken {#multiple-branding}
+
+Så här implementerar du flera varumärken:
+
+1. I Admin-appen väljer du **Varumärkning** i den vänstra rutan.
+1. Välj **Redigera** i avsnittet Flera varumärken.
+1. Välj växlingsknappen och aktivera den.
+
+### Interna användare
+
+1. Välj ett aktivt fält i listrutan.
+1. Baserat på urvalet kan du ändra organisationens namn och ladda upp en ny logotyp för användarna.
+
+### Externa användare
+
+1. Välj ett aktivt fält i listrutan.
+1. Baserat på urvalet kan du ändra organisationens namn och ladda upp en ny logotyp för användarna.
+
+>[!NOTE]
+>
+>Interna användare kan ha aktiva fält som Externa användare (t.ex. måste administratören lägga till flera varumärken för interna användare och externa användare separat genom att välja aktiva fältvärden separat.)
+
+#### Viktiga saker att observera
+
+* En administratör kan lägga till varumärket i flera nivåer för det här aktiva fältvärdet och den externa användaren kan logga in med olika mekanismer (SSO Single (Okta, Mini Orange), Social inloggning) och kontrollera om varumärket används.
+* En extern användare har ett aktivt fält och ett aktivt fältvärde som den interna användaren: Även om det delas måste det anges separat i det flera varumärket av administratören. När det har tillämpats kan externa användare logga in med olika mekanismer (SSO Single (Okta, Mini Orange), Social inloggning) och kontrollera om varumärket kan användas.
+* En extern användare som flyttas från en profil till en annan: Om den externa användaren flyttas från en profil till en annan påverkas inte det aktiva fältvärdet för användaren, såvida inte det aktiva fältvärdet redigeras/tas bort av administratören eller den externa användaren när denne loggar in eller registrerar sig
+
+>[!NOTE]
+>
+>När flera varumärken anges för både interna och externa användare, med samma aktiva fältnamn, med samma aktiva fältvärde men olika konfiguration. I det här fallet rekommenderar vi att kunderna använder samma konfigurationsinställning (logotyp, tema, organisationsnamn) för att undvika diskrepans.
+
 
 ## Anpassa ditt konto {#customize}
 
