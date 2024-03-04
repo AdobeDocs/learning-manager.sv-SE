@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation för Adobe Learning Manager
-source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
+source-git-commit: 6d313e62b029f50aa77950e00b97f5c278c03b53
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '590'
 ht-degree: 8%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 8%
    * [Content Marketplace](administrators/feature-summary/content-marketplace.md)
    * [Rapporter](administrators/feature-summary/reports.md)
    * [Utbildningsvägar](administrators/feature-summary/learning-paths.md)
-   * [Utbildningsprogram](administrators/feature-summary/learning-programs.md)
+   * [Utbildningsplaner](administrators/feature-summary/learning-plans.md)
    * [Hantera order och fakturering för Learning Manager](administrators/feature-summary/billing-management.md)
    * [Arbetsstöd](administrators/feature-summary/job-aids.md)
    * [Certifieringar](administrators/feature-summary/certifications.md)
@@ -81,6 +81,7 @@ ht-degree: 8%
    * [Inbyggd utbyggbarhet](administrators/feature-summary/native-extensibility.md)
    * [Flera registreringar](administrators/feature-summary/multiple-enrollment.md)
    * [Ej inloggad för elever](administrators/feature-summary/non-logged-in-experience-learners.md)
+   * [Utbildningsprogram](administrators/feature-summary/learning-programs.md)
 * Integreringsadministratör {#integration}
    * [Migreringshandbok](integration-admin/feature-summary/migration-manual.md)
    * [Anslutningar för Learning Manager](integration-admin/feature-summary/connectors.md)
