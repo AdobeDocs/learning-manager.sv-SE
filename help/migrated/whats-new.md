@@ -3,9 +3,9 @@ description: Läs om de nya funktionerna och förbättringarna i mars 2024-utgå
 jcr-language: en_us
 title: Sammanfattning av nya funktioner
 contentowner: jayakarr
-source-git-commit: 2cd495d86c4652068df7235567b11706928a5754
+source-git-commit: b4121fa6d064131c0e63e32bc4ee74b06946c08e
 workflow-type: tm+mt
-source-wordcount: '3259'
+source-wordcount: '3261'
 ht-degree: 0%
 
 ---
@@ -272,11 +272,13 @@ Instruktörer kan nu filtrera filansökningar från elever baserat på status, s
 
 Visa [Inlämningsstatus](instructors/feature-summary/learners.md#filter-file-submissions) för mer information.
 
-### Förbättringar av checklista
+## Förbättringar av checklista
+
+### Obligatorisk checklista
 
 I nuvarande version av Adobe Learning Manager tilläts förloppet för en checklista även om en granskare har markerat modulerna som Misslyckade. I den här versionen kan en författare konfigurera för att förhindra förloppet för en elev som inte uppfyller checklistan.
 
-#### Omprövning av checklista
+### Omprövning av checklista
 
 I samma arbetsflöde kan du som författare omvärdera en elev som har misslyckats med en checklista. Välj **Aktivera** i avsnittet Utvärdering när du skapar en checklista.
 
