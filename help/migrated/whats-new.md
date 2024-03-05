@@ -3,9 +3,9 @@ description: Läs om de nya funktionerna och förbättringarna i mars 2024-utgå
 jcr-language: en_us
 title: Sammanfattning av nya funktioner
 contentowner: jayakarr
-source-git-commit: 80530741702f2658e76b4dc4cf94a4b09cc616e2
+source-git-commit: 557293ac1c57790044d5e15d5da8e8caf3ca46c3
 workflow-type: tm+mt
-source-wordcount: '3105'
+source-wordcount: '3125'
 ht-degree: 0%
 
 ---
@@ -425,6 +425,10 @@ I den här versionen kommer jobb-API att behålla inloggningsåtkomstrapporten u
 ```
 
 Om du försöker hämta **Inloggningsåtkomst** rapport som sträcker sig längre än fem kvartal visas ett felmeddelande. Ett liknande felmeddelande visas om du försöker hämta **Användargranskning** som sträcker sig längre än sex månader.
+
+### Föråldrade API:er
+
+Visa [API-borttagningar i Adobe Learning Manager](api-deprecations-list.md) en kumulativ lista över alla inaktuella API:er i produkten.
 
 ## Fel som är åtgärdade i den här uppdateringen {#bug-fixes}
 
