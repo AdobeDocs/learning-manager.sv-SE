@@ -2,9 +2,9 @@
 description: Referenshandbok för integrationsadministratörer som vill migrera ett befintligt LMS till Learning Manager LMS
 jcr-language: en_us
 title: Migreringshandbok
-source-git-commit: 76eae1c8bc6f2afde9ea6c9433300e8af9cfdda8
+source-git-commit: fc6ebb67037c5c75f1b3b66bcf5a23b08532b3bb
 workflow-type: tm+mt
-source-wordcount: '3628'
+source-wordcount: '3601'
 ht-degree: 1%
 
 ---
@@ -15,19 +15,9 @@ ht-degree: 1%
 
 Referenshandbok för integrationsadministratörer som vill migrera ett befintligt LMS till Learning Manager LMS
 
-## Översikt {#overview}
+<!-- ## Overview {#overview} -->
 
-<table>
- <tbody>
-  <tr>
-   <td><img src="assets/migration.jpg"></td>
-   <td>
-    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> är en molnbaserad lösning som fokuserar på elever och självbetjäning för hantering av inlärning. Adobe gör det möjligt för företag med det befintliga systemet för hantering av inlärning (LMS) att migrera organisationens utbildningsdata och utbildningsinnehåll till Learning Manager LMS-programmet. </p></td>
-  </tr>
- </tbody>
-</table>
-
-### Användningsscenario {#usagescenario}
+## Användningsscenario {#usagescenario}
 
 I allmänhet har stora företag sina interna system för hantering av inlärning eller en leverantör som tillhandahåller äldre system för hantering av inlärning. LMS består av företagets utbildningsinnehåll och utbildningsdata. Om du är ett företag när du köper Learning Manager kanske du vill flytta ditt befintliga LMS-innehåll och -data till Learning Manager så att du kan dra nytta av fördelarna med modernt och intuitivt LMS utan att förlora någon av organisationens gamla data.
 
@@ -388,7 +378,11 @@ Nedan hittar du specifikationerna för CSV-standardfiler som du kan använda fö
 </table>
 
 Learning Manager stöder endast datum- och tidsvärden i UTF 8- och 32-bitarsformat. Du kan få fel under migreringen om du nämner datum i CSV-filer med ett ogiltigt datum som 2038-07-17T08:53:21.000Z eller 1980-04-17T08:13:25,322 Z
-[sample-csvs.zip](assets/sample-csvs.zip) [csv_fications.zip](assets/csv-specifications.zip)Du måste vara medveten om följande beroenden av CSV-filer under importen:
+
+* [sample-csvs.zip](assets/sample-csvs.zip)
+* [csv_fications.zip](assets/csv-specifications.zip)
+
+Du måste vara medveten om följande beroenden av CSV-filer under importen:
 
 * module_version.csv är beroende av module.csv
 * course_instance.csv är beroende av course.csv
@@ -536,6 +530,11 @@ Nedan hittar du specifikationerna för CSV-standardfiler som du kan använda fö
 
 4-user_course_grades.xlsx-innehåller beskrivningar av metadata som krävs för retrofit_user_course_grades.csv-filen.
 [csv-fications.zip](assets/csv-specifications.zip)
+
+>[!NOTE]
+>
+>UUID (Universally Unique Id) är också en kolumn i CSV-filen för migrering.
+
 
 ## Felsöka migreringsproblem {#troubleshootingmigrationissues}
 
