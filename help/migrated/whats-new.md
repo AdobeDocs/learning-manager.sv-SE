@@ -3,9 +3,9 @@ description: Läs om de nya funktionerna och förbättringarna i mars 2024-utgå
 jcr-language: en_us
 title: Sammanfattning av nya funktioner
 contentowner: jayakarr
-source-git-commit: 557293ac1c57790044d5e15d5da8e8caf3ca46c3
+source-git-commit: 2cd495d86c4652068df7235567b11706928a5754
 workflow-type: tm+mt
-source-wordcount: '3125'
+source-wordcount: '3259'
 ht-degree: 0%
 
 ---
@@ -276,13 +276,33 @@ Visa [Inlämningsstatus](instructors/feature-summary/learners.md#filter-file-sub
 
 I nuvarande version av Adobe Learning Manager tilläts förloppet för en checklista även om en granskare har markerat modulerna som Misslyckade. I den här versionen kan en författare konfigurera för att förhindra förloppet för en elev som inte uppfyller checklistan.
 
-Mer information finns i [Förbättringar av checklista](authors/feature-summary/courses.md#mandatory-checklist) i Adobe Learning Manager.
+#### Omprövning av checklista
+
+I samma arbetsflöde kan du som författare omvärdera en elev som har misslyckats med en checklista. Välj **Aktivera** i avsnittet Utvärdering när du skapar en checklista.
+
+Visa [Skapa en checklista](authors/feature-summary/courses.md#checklist-fail) för mer information.
 
 ## Andra förbättringar
 
-### Ändringar i checklistan
+### Sessionsrelaterade e-postmeddelanden
 
-När du skapar en checklista kan du välja **Obligatorisk checklista** -kryssrutan. Detta förhindrar modulen eller kursen att fortsätta om en elev misslyckas med checklistan.
+I tidigare versioner av Adobe Learning Manager kunde en elev inte skicka sessionsrelaterade e-postmeddelanden, sessionsdetaljerna har uppdaterats, sessionsinbjudan och sessionspåminnelse när:
+
+* Elever har slutfört en kurs,
+* Nya sessioner läggs till i en kurs eller
+* Befintliga sessioner har ändrats.
+
+Följande är de nya ändringarna i mars 2024-utgåvan av Adobe Learning Manager:
+
+* Sessionsdetaljerna har uppdaterats och inbjudan till session (för elev och instruktör)
+   * För framtida sessioner, e-post för **Sessionsdetaljer har uppdaterats**, **Sessionsinbjudan** för registrerade elever och aktuella instruktörer kommer att fasas ut. För tidigare sessioner, e-postmeddelanden för **Sessionsdetaljer har uppdaterats** och **Sessionsinbjudan** för registrerade elever och aktuella instruktörer förblir oförändrade.
+* E-postpåminnelse (för administratör och elev)
+   * Endast för framtida sessioner **Sessionspåminnelse** e-postmeddelanden kommer att skickas.
+
+>[!NOTE]
+>
+>E-postmeddelandena beror inte på om sessionen och kursen har slutförts.
+
 
 ### Ändringar i referenswebbplats för AEM
 
