@@ -3,9 +3,9 @@ description: Läs om de nya funktionerna och förbättringarna i mars 2024-utgå
 jcr-language: en_us
 title: Sammanfattning av nya funktioner
 contentowner: jayakarr
-source-git-commit: b4121fa6d064131c0e63e32bc4ee74b06946c08e
+source-git-commit: 9258eb87b77618d4862749c7e3ae4b52adc67d0c
 workflow-type: tm+mt
-source-wordcount: '3261'
+source-wordcount: '3332'
 ht-degree: 0%
 
 ---
@@ -351,6 +351,12 @@ Visa vit etikettering i [Mobilappen Adobe Learning Manager](white-label.md) för
 ### Appklassificering
 
 En elev kan ge feedback på Adobe Learning Manager-appen för att ytterligare förbättra appupplevelsen. Om eleven ger fyra stjärnor eller mer visas ett popup-fönster där eleven uppmanas att betygsätta appen i Play Store eller App Store.
+
+### Bluejeans har nått sitt slut i februari 2024
+
+Vi vill informera dig om att Bluejeans har nått sitt slut (EOL) på Februari 2024. Efter februari 2024 kommer Bluejeans inte längre att få uppdateringar eller support. Våra CSAM- och supportteam hjälper dig med eventuella frågor eller funderingar under övergångsperioden.
+
+Visa [Anslutningar i Adobe Learning Manager](integration-admin/feature-summary/connectors.md) för mer information om hur du konfigurerar anslutningar.
 
 ## API-ändringar i den här versionen
 
