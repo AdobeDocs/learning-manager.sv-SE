@@ -3,9 +3,9 @@ description: Lär dig integrera olika kopplingar i Learning Manager
 jcr-language: en_us
 title: Anslutningar för Learning Manager
 contentowner: jayakarr
-source-git-commit: 3ed216c1754d8393647e50892ab9ca4d122099f6
+source-git-commit: c48b620ad075708d1e85fe49ed16bb4805bfbbc0
 workflow-type: tm+mt
-source-wordcount: '15698'
+source-wordcount: '14885'
 ht-degree: 0%
 
 ---
@@ -964,50 +964,50 @@ Konfigurera en miniOrange-anslutning genom att kontakta Learning Manager CSM-tea
 
 Följ de här stegen om du vill ta bort en etablerad miniOrange-anslutning.
 
-## Videokonferensanslutningar (Bluejeans Meetings and Zoom) {#bluejeansconnector}
+<!---## Video conferencing connectors (Bluejeans Meetings and Zoom) {#bluejeansconnector}
 
-Du kan nu integrera Learning Manager med BlueJeans- och Zoom-anslutningar och använda dem för att vara värd för klasser.  Med kontakten kan du ställa in videokonferensmöten/-klasser med eleverna.
+You can now integrate Learning Manager with BlueJeans and Zoom connectors and use them to host classes.  The connector enables you to set up video conferencing meetings/classes with the learners.
 
-Följ de här stegen för att konfigurera och använda anslutningen.
+To set up and use the connector, follow these steps.
 
-1. På startsidan för Learning Manager håller du pekaren över miniatyrbilden för BlueJeans/Zoom. En meny visas. Klicka  **[!UICONTROL Connect]** -alternativet på menyn.
+1. In Learning Manager  home page , hover the mouse over the BlueJeans/Zoom thumbnail. A menu appears. Click  **[!UICONTROL Connect]** option from the menu.
 
    ![](assets/connectors.png)
 
-   *Zoomkopplingspanel*
+   *Zoom connector tile*
 
-1. Sidan BlueJeans/ Zoom connector öppnas. Ange information om kontot i respektive fält för att integrera och synkronisera användarflödet. Du kan få information från administratören för ditt anslutningskonto.
+1. The BlueJeans/ Zoom connector page opens. Enter the details of your account into respective fields to integrate and synchronize the user feed. You can get the details from the administrator of your connector account.
 
    ![](assets/bluejeans-connecotrpage.png)
-   *Anslut till BlueJeans/ Zoom*
+   *Connect to BlueJeans/ Zoom*
 
    >[!NOTE]
    >
-   >Elever som aktiverar kopplingen ska använda samma e-post-ID som används för ditt konto för Learning Manager för att möjliggöra återkoppling av användare till Learning Manager.
+   >As a learner, while enabling the connector, use the same email id used for your Learning Manager account to enable user feeds back into Learning Manager.
 
-1. När anslutningen är etablerad skapar du som författare en VC-kurs med BlueJeans/ Zoom som konferenssystem.
+1. Once the connection is established, as an Author, create a VC course with BlueJeans/ Zoom as the conferencing system.
 
    ![](assets/vc.jpg)
+   
+   *Create a VC course*
 
-   *Skapa en VC-kurs*
-
-1. Administratörer, chefer och elever kan registrera elever för kursen som skapats. Vid registreringen får eleven ett e-postmeddelande. Eleven kan logga in på sitt Learning Manager-konto för att visa programinformationen och ta kursen.
-1. När kursen är slutförd skickas slutrapporten till Learning Manager. Administratören kan se slutföranderapporten för att kontrollera elevernas närvaro och poäng.
+1. Administrators, managers, and learners can enroll learners  to  the created course. Upon enrollment, the learner receives an email. The learner can sign in to their Learning Manager account to view the program details and take the course.
+1. When the course is complete, the completion report is sent to Learning Manager. The administrator can see the completion report to check the attendance and score of the learners.
 
    ![](assets/attendence-and-scoringreport.png)
-   *Närvaro- och poängrapport*
+   *Attendance and scoring report*
 
-### Skapa en OAuth-app för zoomserver till server
+### Create a zoom server-to-server OAuth app
 
-När du skapar en OAuth-app för zoomserver-till-server som ska användas i Adobe Learning Manager måste du lägga till omfattningar som krävs av Adobe Learning Manager när du skapar anslutningen.
+When you create a Zoom Server-to-Server OAuth app to be used in Adobe Learning Manager, you must add scopes required by Adobe Learning Manager while creating the connection.
 
-Adobe Learning Manager kräver omfånget nedan och omfånget måste väljas i OAuth-appen.
+Adobe Learning Manager requires the scopes below and the scopes must be selected in the OAuth app.
 
-* Visa alla användarmöten/möten:read:admin
-* Visa och hantera alla användarmöten/möten:write:admin
-* Visa rapportdata/rapport:read:admin
-* Visa all användarinformation/användare:read:admin
-* Visa information om användare och hantera användare/användare:write:admin
+* View all user meetings /meeting:read:admin
+* View and manage all user meetings /meeting:write:admin
+* View report data /report:read:admin
+* View all user information /user:read:admin
+* View users' information and manage users /user:write:admin-->
 
 ## Koppling till ruta {#boxconnector}
 
@@ -1918,56 +1918,56 @@ Exportera data från Learning Manager-händelser till en Marketo Engage-instans.
 * Egenregistrering
 * Färdighet
 
-## BlueJeans Events {#bj-events}
+<!--## BlueJeans Events {#bj-events}
 
-BlueJeans Events-anslutning kopplar Learning Manager- och BlueJeans-system för att automatisera datasynkronisering. Med den här anslutningen kan du:
+BlueJeans Events connector connects Learning Manager and BlueJeans systems to automate data synchronization. Using this connector, you can:
 
-* **Konfigurera virtuella sessioner med BlueJeans Events:** Konfigurera en ny aktivitet i BlueJeans och konfigurera en VC-session i Learning Manager genom att välja lämplig BlueJeans-händelse. Datum- och tidsinformation hämtas automatiskt från BlueJeans-evenemangen.
-* **Automatisk synkronisering av slutförande av användare:** Med en automatiserad synkroniseringsprocess för slutförande av användare kan Learning Manager-administratören hämta slutförandeposter för BlueJeans-händelser automatiskt.
+* **Set up virtual sessions using BlueJeans Events:** Configure a new event in BlueJeans and setup a VC session in Learning Manager by selecting the appropriate BlueJeans event. Date and time details are picked automatically from the BlueJeans events.
+* **Automated User Completion Syncing:** An Automated user completion syncing process allows the Learning Manager Administrator to fetch completion records for BlueJeans events automatically.
 
-Den här nya anslutningen kräver en separat uppsättning autentiseringsuppgifter för att konfigurera anslutningen. Autentiseringsuppgifterna för den befintliga BlueJeans Meetings-anslutningen fungerar inte för BlueJeans Events-anslutningen.
+This new connector requires a separate set of credentials to configure the connector. The credentials of the existing BlueJeans Meetings connector will not work for BlueJeans Events connector.
 
-![](assets/bj-event-connector.png)
-*Autentiseringsuppgifter för BlueJeans Event Connector*
+![](assets/bj-event-connector.png) 
+*Credentials for BlueJeans Event Connector*
 
-### Arbetsflöde {#workflow}
+### Workflow {#workflow}
 
-1. BlueJeans-evenemangsmoderatorn skapar en händelse inifrån BlueJeans.
-1. Författaren skapar BlueJeans händelsekurs med hjälp av BlueJeans händelse URL, som skapas i framtida datum.
-1. Eftersom BlueJeans händelser har en liknande titel för flera händelser, författaren måste lägga till händelsen deltagare URL till rummet namn, så att han / hon kan välja lämplig händelse.
+1. The BlueJeans Event moderator creates an event from within BlueJeans.
+1. The author creates BlueJeans event course using the BlueJeans event url, which is created in future dates.
+1. Since BlueJeans events have a similar title for multiple events, the author must append the event attendee url to the room name, so that he/she can choose the appropriate event.
 
-   Formatet för att ange händelse-URL: ***händelsenamn - URL för deltagare i händelsen***
+   The format to enter event url: ***event name--event attendee url***
 
-   I dynamiska rum fungerar det ungefär som i Adobe Connect.
+   For Dynamic rooms, the behavior is similar to that of Adobe Connect.
 
    ![](assets/bj-eventname.png)
-   *Konfiguration av BlueJeans Events*
+   *BlueJeans Events configuration*
 
-1. När författaren anger BlueJeans händelse-URL fylls datum och tid i automatiskt.
-1. Lägg till en instruktör till händelsen. Instruktören får nu utökade behörigheter som presentatör vid ett BlueJeans-evenemang.
+1. Once the author enters the BlueJeans event url, the date and time will be auto populated.
+1. Add an instructor to the event. The instructor will now have elevated privileges as a Presenter in a BlueJeans event.
 
-Administratörer, chefer och elever kan registrera elever för kursen som skapats. Vid registreringen får eleven ett e-postmeddelande. Eleven kan logga in på sitt Learning Manager-konto för att visa programinformationen och ta kursen.
+Administrators, managers, and learners can enroll learners to the created course. Upon enrollment, the learner receives an email. The learner can sign in to their Learning Manager account to view the program details and take the course.
 
-När kursen är slutförd utlöses slutföranderapporten efter en schemalagd varaktighet. Administratören kan se slutföranderapporten för att kontrollera elevernas närvaro och poäng.
+When the course is complete, the completion report gets triggered after a scheduled duration. The administrator can see the completion report to check the attendance and score of the learners.
 
-Om BlueJeans Event-moderatorn aktiverar inspelningen under sessionen, efter att sessionen är slut, är inspelningen tillgänglig i elevappen.
+If the BlueJeans Event moderator enables the recording during the session, after session ends, the recording is available in the learner app.
 
 ![](assets/bluejeans-event-configure.png)
-*Konfiguration av BlueJeans Events*
+*BlueJeans Events configuration*
 
-När du aktiverar kryssrutan **Hämta händelser som skapats av andra användare** kan du sedan lägga till listan över BlueJeans-händelseskapare i **Ytterligare händelseskapare** område. I programmet Författare är det bara händelser som skapas av dessa användare som är sökbara via fältet Nästa.
+When you enable the check-box **Fetch Events created by the other users**, you can then add the list of BlueJeans event creators in the **Additional Event Creators** field. In the Author app, only events created by these users are searchable via the type-ahead field.
 
-Om **Ytterligare händelseskapare** Om fältet lämnas tomt är alla händelser som har skapats i BlueJeans tillgängliga för sökning i skaparappen.
+If the **Additional Event Creators** field is left blank, all events created in BlueJeans will be available for searching in the Author App.
 
-Författaren väljer sedan en händelse i listan med tillgängliga händelser i appen Författare. Dessutom kan författaren lägga till instruktörer till händelsen. Dessa instruktörer i Learning Manager skulle bli presentatörer inom BlueJeans evenemang.
-
->[!NOTE]
->
->Alla användare måste tillhöra samma företag i BlueJeans Events-appen.
+The Author, in the Author app, then selects an event from the list of available events. In addition, the Author can add instructors to the event. These instructors in Learning Manager would become the presenters within BlueJeans events.
 
 >[!NOTE]
 >
->Vi har lagt till en cachelagringsmekanism som förbättrar den övergripande användarupplevelsen. Det gäller när du väljer ytterligare händelseskapare. I det här läget hämtas händelserna första gången när en författare söker efter en händelse. Cachen kvarstår i 30 minuter så att författarna vet hur länge de måste vänta för att hämta de nya händelserna.
+>All users must belong to the same enterprise in BlueJeans Events App.
+
+>[!NOTE]
+>
+>We've added a caching mechanism that improves the overall user experience. It is applicable when you select additional event creators. In this mode, the events are fetched the first time when an author searches for an event. The cache persists for 30 mins so that authors know how long they must wait to fetch the new events.-->
 
 ## Microsoft Teams Connector
 
