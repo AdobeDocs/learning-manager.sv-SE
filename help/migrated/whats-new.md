@@ -3,9 +3,9 @@ description: Läs om de nya funktionerna och förbättringarna i mars 2024-utgå
 jcr-language: en_us
 title: Sammanfattning av nya funktioner
 contentowner: jayakarr
-source-git-commit: 9258eb87b77618d4862749c7e3ae4b52adc67d0c
+source-git-commit: c58ebebeb671bdb47a752b8f3a9ab673a638dd80
 workflow-type: tm+mt
-source-wordcount: '3332'
+source-wordcount: '3528'
 ht-degree: 0%
 
 ---
@@ -274,13 +274,32 @@ Visa [Inlämningsstatus](instructors/feature-summary/learners.md#filter-file-sub
 
 ## Förbättringar av checklista
 
-### Obligatorisk checklista
+I mars 2024-utgåvan av Adobe Learning Manager har följande förbättringar gjorts i arbetsflödet för checklistan:
 
-I nuvarande version av Adobe Learning Manager tilläts förloppet för en checklista även om en granskare har markerat modulerna som Misslyckade. I den här versionen kan en författare konfigurera för att förhindra förloppet för en elev som inte uppfyller checklistan.
+### Tillåt inte förlopp när en checklista misslyckas
+
+När du skapar en checklista kan en författare välja **Aktivera** i avsnittet Obligatorisk checklista. Detta förhindrar en elev från att fortsätta i modulen om hen inte uppfyller checklistan. De kan bara fortsätta om de klarar checklistan.
+
+Checklistegranskarna, dvs. instruktörer eller chefer, kan sedan kontrollera checklistans status. Granskare kan också granska en elevs checklista i fel ordning.
 
 ### Omprövning av checklista
 
-I samma arbetsflöde kan du som författare omvärdera en elev som har misslyckats med en checklista. Välj **Aktivera** i avsnittet Utvärdering när du skapar en checklista.
+När du skapar en checklista kan en författare välja **Aktivera** i avsnittet om omprövning. Om du gör det kan en chef eller instruktör utvärdera en elev på nytt tills de godkänns i checklistan.
+
+Om modulen är obligatorisk är kryssrutan för ny utvärdering markerad som standard.
+
+En instruktör eller chef kan också ändra statusen för en checklista från Misslyckad till Godkänd när omutvärdering är aktiverad.
+
+På sidan Checklista kan en instruktör se antalet elever i läget Väntande. Du som är instruktör kan utvärdera en elev och godkänna eller underkänna den. Om en elev är i ett misslyckat tillstånd kan du bara visa checklistan när omvärdering inte är aktiverad.
+
+Detta innebär att **Aktivera** kryssrutan markerades inte i avsnittet Utvärdering när checklistan skapades. Om den här kryssrutan är markerad kan du se knappen Visa/omutvärdera på sidan Checklista för instruktör.
+
+Genom att välja knappen kan du omvärdera en elev och markera den som godkänd eller ej godkänd.
+
+>[!NOTE]
+>
+>Båda dessa funktioner - omvärdering och att göra checklistan obligatorisk - gäller endast nya moduler. När en kurs har publicerats kan den inte slås på/av.
+
 
 Visa [Skapa en checklista](authors/feature-summary/courses.md#checklist-fail) för mer information.
 
