@@ -3,7 +3,7 @@ description: Lär dig integrera olika kopplingar i Learning Manager
 jcr-language: en_us
 title: Anslutningar för Learning Manager
 contentowner: jayakarr
-source-git-commit: 4c102f932a09071996b551d352426edd681e7e9b
+source-git-commit: dfed4c72476066aa2446542f3cc50c01fbe8e02b
 workflow-type: tm+mt
 source-wordcount: '14984'
 ht-degree: 0%
@@ -774,7 +774,7 @@ Administratören kan konfigurera schemaläggningsuppgifter enligt organisationen
 
 >[!NOTE]
 >
->   Learning Manager använder version 28.1 av Workday API.
+>   Learning Manager använder version 40.1 av Workday API.
 
 
 ![](assets/configure-connector.png)
