@@ -4,7 +4,7 @@ title: Importera kompetenser från externa källor
 description: Importera kompetenser från innehållsleverantörer, t.ex. LinkedIn och Go1, genom att använda respektive kopplingar.  De importerade kunskaperna läggs till i de administratörsdefinierade kunskaperna i Learning Manager och kommer att vara tillgängliga för författare under arbetsflödet för att skapa kursen.
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: b6228ff242d9fe483de8ea31d7a40935405bda90
+source-git-commit: fb2d642c90fa36d3db15d7da99fe9c97908ce0e8
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Följ stegen i proceduren för att aktivera kunskapsimport i kontot.
 1. I dialogrutan **Import av kompetenser** -sektionen väljer du **Aktivera**. Om detta är aktiverat kan du välja en extern källa som du vill importera **Kompetenser**. Kunskaperna för befintliga utbildningsresurser importeras till databasen för kompetenser en gång under den första körningen. För all efterföljande import av utbildningsresurser importeras kunskaperna till kunskapsdatabasen endast för nyligen importerade objekt.
 1. Välj en innehållsleverantör i listrutan.
 
-Som administratör kan du bara importera en kompetens som källa.
+Du som är administratör kan bara importera en kompetens som källa.
 
 ### Standardkompetensnivå
 

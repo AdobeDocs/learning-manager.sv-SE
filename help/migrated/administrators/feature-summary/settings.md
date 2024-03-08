@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Inställningar
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: b6228ff242d9fe483de8ea31d7a40935405bda90
+source-git-commit: fb2d642c90fa36d3db15d7da99fe9c97908ce0e8
 workflow-type: tm+mt
-source-wordcount: '3930'
+source-wordcount: '3932'
 ht-degree: 1%
 
 ---
@@ -438,7 +438,7 @@ Aktivera eller inaktivera följande inställningar:
 
 >[!NOTE]
 >
->När inställningen för kompetensimport är aktiverad kan kontolayouten inte ändras till Klassisk, d.v.s. övergången till Klassiskt konto inaktiveras efter **Import av kompetens** alternativet är aktiverat.
+>När inställningen för kompetensimport har aktiverats kan kontolayouten inte växlas till den klassiska vyn, d.v.s. att växla till klassiskt konto inaktiveras efter **Import av kompetens** alternativet är aktiverat.
 
 
 ## AI-baserad rekommendation
