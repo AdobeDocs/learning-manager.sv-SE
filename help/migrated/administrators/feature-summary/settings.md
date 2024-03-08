@@ -3,14 +3,13 @@ description: Lär dig mer om kontoinställningarna för Learning Manager som du 
 jcr-language: en_us
 title: Inställningar
 contentowner: manochan
-source-git-commit: 063f0f469d40a929d109624c3303ba26f5dd1ad3
+exl-id: a563d955-f67e-4218-88df-625cde673601
+source-git-commit: 3047145d9f6940c2d941fdf2c8e878369c858b0f
 workflow-type: tm+mt
-source-wordcount: '3762'
+source-wordcount: '3927'
 ht-degree: 1%
 
 ---
-
-
 
 # Inställningar
 
@@ -421,10 +420,26 @@ Aktivera eller inaktivera följande inställningar:
    <td>
     <p>Instruktörshantering<br></p></td>
    <td>
-    <p>Aktivera den här inställningen om du vill begränsa listan över instruktörer som kan väljas när klassrumssessioner/virtuella klassrumssessioner skapas. Alla användare med behörighet som instruktör kan endast tilldelas som instruktör till en session. Den här begränsningen gäller inte migreringsarbetsflöden.<br></p></td>
+    <p>Aktivera den här inställningen om du vill begränsa listan över instruktörer som kan väljas när klassrumssessioner/virtuella klassrumssessioner skapas. Alla användare med behörighet som instruktör kan endast tilldelas som instruktör till en session. Den här begränsningen gäller inte migreringsarbetsflöden.<br></p>
+  </td>
+  <tr>
+    <td>
+      <p>Import av kompetenser</p>
+    </td>
+    <td>
+      <p>Om det här alternativet är aktiverat kan du välja en extern källa för att importera kompetenser. Kunskaperna för befintliga utbildningsresurser importeras till databasen för kompetenser en gång under den första körningen. För all efterföljande import av utbildningsresurser importeras kunskaperna till kunskapsdatabasen endast för nyligen importerade objekt.
+      När alternativet har aktiverats går åtgärden inte att ångra. Du kan inte inaktivera eller byta till en annan källa senare.
+      </p>
+    </td>
+  </tr>
   </tr>
  </tbody>
 </table>
+
+>[!NOTE]
+>
+>När inställningen för kompetensimport har aktiverats kan inte kontolayouten ändras till Klassisk. t.ex. Växling till klassiskt konto är inaktiverat efter att färdighetsimport har aktiverats.
+
 
 ## AI-baserad rekommendation
 
@@ -578,6 +593,13 @@ Du kan även lägga till platsen med hjälp av en CSV-fil. CSV-filen måste inne
 * region
 
 <!--![Add classroom locations](assets/add-classroom-csv.png)-->
+
+### Inställningar {#admin-classroom-settings}
+
+Välj **Redigera** ändra följande:
+
+* **Tillåt författare att skapa platser**: När det här alternativet är aktiverat visas alla platser som har skapats av författare under fliken &quot;Alla platser&quot;. Elever kan också se de här platserna under Katalog- och kalenderfilter.
+* **Tillåt att författare ändrar och tar bort platser**: När funktionen är aktiverad kan författare ändra och ta bort alla klassrumsplatser. Författarnas ändringar kommer att återspeglas på alla plattformar, inklusive rapporter.
 
 ## Vanliga frågor {#frequentlyaskedquestions}
 
