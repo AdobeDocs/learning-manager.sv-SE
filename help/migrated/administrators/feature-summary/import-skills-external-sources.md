@@ -4,9 +4,9 @@ title: Importera kompetenser från externa källor
 description: Importera kompetenser från innehållsleverantörer, t.ex. LinkedIn och Go1, genom att använda respektive kopplingar.  De importerade kunskaperna läggs till i de administratörsdefinierade kunskaperna i Learning Manager och kommer att vara tillgängliga för författare under arbetsflödet för att skapa kursen.
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: 3047145d9f6940c2d941fdf2c8e878369c858b0f
+source-git-commit: b6228ff242d9fe483de8ea31d7a40935405bda90
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,13 @@ Standardkompetensnivån är en och tillgodoräknandet är 10 efter att kunskaper
 
 Du kan inte redigera namnet på kompetensen, beskrivningen och lägga till nivåer i externa kompetenser. Du kan dock lägga till domän, märken och redigera krediter.
 
-#### Rapportera ändringar
+#### Rapportering
 
-Vi har lagt till en ny kolumn **Källa** med values- internal, LinkedIn Learning, Go1, som anger källan till kunskapsimport.
+Kolumnen **Källa** med values- internal, LinkedIn Learning, Go1, som anger källan till kunskapsimport.
 
 De nyligen tillagda kunskaperna kommer att vara överst.
 
-På sidan Kursinställning har vi lagt till en ny kolumn **Tilldelad av** innehåller värden, intern och innehållsleverantör.
+På sidan Kursinställningar visas kolumnen **Tilldelad av** innehåller värden, intern och innehållsleverantör.
 
 
 ## Arbetsflöde för integreringsadministratör
