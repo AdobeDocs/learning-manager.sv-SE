@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Kataloger
 description: Kataloger är en samling utbildningar - kurser, utbildningsprogram och certifieringar. Använd kataloger för att ge elever tillgång till en anpassad uppsättning utbildningar. Du kan koppla inlärning till en katalog när du skapar en ny katalog.
 contentowner: manochan
-source-git-commit: 192e68c115b7d38682e4214c0f8d14fa91e4bd3c
+exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '2341'
+source-wordcount: '2373'
 ht-degree: 0%
 
 ---
-
-
 
 # Kataloger
 
@@ -132,6 +131,14 @@ Du kan även radera flera kataloger.
 En administratör kan dela katalogerna med interna användare i en organisation eller med externa användare. Delning är dock exklusivt. Med andra ord kan en internt delad katalog inte delas med externa grupper och vice versa.
 
 Kurser, utbildningsprogram, arbetsstöd och certifieringar är de utbildningsobjekt som stöds i en katalog som du vill dela.
+
+### Dela kataloger
+
+Denna utbildning lär dig dela kataloger med interna användargrupper och externa Adobe Learning Manager-konton.
+
+[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
+
+Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
 
 ## Dela katalogen internt {#int}
 
@@ -340,4 +347,3 @@ När du har skapat katalogetiketter kan du använda dem på specifika kataloger 
 Inaktivera standardkatalogen och aktivera endast katalogen som skapades och beviljades åtkomst till externa användare.
 
 +++
-

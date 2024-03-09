@@ -3,14 +3,13 @@ description: Det här dokumentet består av hjälp med att skapa kursmoduler, in
 jcr-language: en_us
 title: Skapa kursmoduler, instanser och utbildningsprogram
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: aba7417b-26a0-4160-878c-5814f84e5155
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '4415'
+source-wordcount: '4475'
 ht-degree: 1%
 
 ---
-
-
 
 # Skapa kursmoduler, instanser och utbildningsprogram
 
@@ -23,6 +22,16 @@ Författare skapar kurser. Elever kan gå kurserna och administratörer kan spå
 Författare skapar kurser. Elever följer sedan kurserna och administratörer kan spåra elevernas resultat baserat på kursförbrukningen. Administratörer kan se kurser som skapats av författare och utföra vissa aktiviteter som förklaras i det här avsnittet. Administratörer kan skapa unika utbildningsprogram med en fördefinierad uppsättning kurser för elever.
 
 ## Skapa instans av en kurs {#createinstanceofacourse}
+
+### Hantera instanser
+
+I den här utbildningen får du lära dig redigera instansinformation och instansegenskaper.
+
+[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)
+
+Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
+
+### Skapa en instans
 
 När en författare har skapat en kurs kan du skapa instanser av kursen. Genom att skapa instanser av en kurs kan du erbjuda samma kurs till dina elever vid olika tidsperioder. Elever kan välja vilken instans som helst och registrera sig. Du kan konfigurera varje instans så att den har sin egen uppsättning med utmärkelsetecken, feedback och andra inställningar.
 
@@ -105,6 +114,14 @@ Så här skickar du e-postmeddelanden på instansnivå till registrerade elever:
 1. När du har klickat **[!UICONTROL Save]** visas ett bekräftelsemeddelande om att meddelandet har skapats. Klicka på för att publicera meddelandet **[!UICONTROL Publish Now]**.
 
    ![Meddelandet har skapats](assets/announcement-successful.png)
+
+### Registrera elever på kurser
+
+Under den här utbildningen kommer du att lära dig hur du registrerar, avregistrerar och återregistrerar elever.
+
+[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PC1PQFJQ&amp;mv=display&amp;mv2=display#/course/8318916)
+
+Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
 
 ### Registrera elever i olika instanser
 

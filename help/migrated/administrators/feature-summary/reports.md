@@ -3,14 +3,13 @@ description: Läs mer om de rapporter som är kopplade till administratörsrolle
 jcr-language: en_us
 title: Rapporter
 contentowner: manochan
-source-git-commit: 275e019d077104445e7f5489e6cd07ac9f3c9084
+exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '6286'
+source-wordcount: '6408'
 ht-degree: 2%
 
 ---
-
-
 
 # Rapporter
 
@@ -580,6 +579,14 @@ När du skapar ett kollegialt konto och alternativet Dela katalog inte har valts
 
 Du kan få dina favoritrapporter via e-post genom att prenumerera på dem.
 
+### Konfigurera e-postprenumerationer
+
+I den här utbildningen får du lära dig konfigurera e-postprenumerationer för rapporter från instrumentpanelen.
+
+[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PLHRQ62N&amp;mv=display&amp;mv2=display#/course/8318927)
+
+Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
+
 in **[!UICONTROL Reports]** klickar du på  **[!UICONTROL Subscription]** -fliken. Sidan Rapportprenumeration visas.
 
 Du väljer rapportnamnet i listrutan genom att börja skriva rapportnamnet i fältet Rapporter. Välj hur ofta du vill skicka e-post i listrutan. Du kan lägga till e-postmeddelandets ämne och ange ett alternativt e-post-ID.
@@ -600,6 +607,7 @@ Nedan visas de rapporttyper som är tillgängliga för hämtning.
 * Verifieringskedja för användare
 * Rapport över inloggning/åtkomst
 * Spelifieringsutdrag
+* Verifieringskedja för spelifiering
 
 ## Elevens betygsutdrag {#learnertranscripts}
 
@@ -841,6 +849,33 @@ Administratörer kan hämta transkribering av spelifiering i CSV-format. Du kan 
 
    När administratören återställer spelifieringen återställs alla poäng för eleven därefter.
 
+## Verifieringskedjan för spelifiering {#gamification-audit-trail}
+
+Den här rapporten innehåller historik och orsaker till att elever fick spelifieringspoäng för varje regel.
+
+### Hämta rapporten
+
+1. Välj URL för granskningsspår för spelifiering.
+1. På fliken **Verifieringskedja för spelifiering** väljer du datumintervall.
+1. Välj **Generera**.
+
+Rapporten hämtas i CSV-format. Filen innehåller följande kolumner:
+
+* Namn
+* Email/UUID,
+* Status
+* Åtgärd
+* poäng,
+* Balansera poäng
+* Regel/uppgift
+* regel/uppgift underuppgift,
+* Regel/uppgiftsinformation
+* typ,
+* Namn,
+* Instansens NameDate har uppnåtts (tidszonen UTC)
+* Regel/aktivitetens starttid
+* Regel/sluttid för aktivitet
+
 ## Rapport över registrering och avregistrering {#enrollmentandunenrollmentreport}
 
 Administratörer och chefer kan extrahera en rapport över elever som har registrerats och avregistrerats. Som administratör kan du se någon av eleven, administratören eller chefen som har registrerats eller avregistrerats från en instans av en kurs, ett utbildningsprogram eller en certifiering och exportera rapporten. Medan du som är chef kan du bara hämta en rapport om dina teammedlemmar. Som chef kan du inte se raderade elever eller ditt namn i chefsappen som en registrerad eller oregistrerad elev.
@@ -900,7 +935,7 @@ Rapporten innehåller följande fält:
 ![](assets/more-options.png)
 *Ytterligare alternativ*
 
-## Sammanfattningsrapport för session
+## Sammanfattningsrapport för session {#session-summary-report}
 
 Sessionssammanfattningsrapporten innehåller alla sessioner som är planerade för en elev inom ett visst datum.
 
@@ -925,17 +960,17 @@ Den hämtade csv-filen innehåller följande fält:
 * Platsantal
 * Plats
 * Instansnamn
-
 * Kursnamn
 * Kurs-ID
 * Instruktörens namn
 * Mejladress till instruktör
 * Antal registreringar
-
 * Sessionstyp
 * Väntlistegräns
 * Antal väntelistor
 * Mejladress till användare på väntelistan
+* Information om platsen
+* Platsens region
 
 ## Rapport över instruktörsanvändning
 
