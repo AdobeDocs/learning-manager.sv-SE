@@ -3,14 +3,13 @@ description: Läs om de nya funktionerna och förbättringarna i mars 2024-utgå
 jcr-language: en_us
 title: Sammanfattning av nya funktioner
 contentowner: jayakarr
-source-git-commit: c58ebebeb671bdb47a752b8f3a9ab673a638dd80
+exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
+source-git-commit: e1ef2082329a061fc8297a791c080185488b165b
 workflow-type: tm+mt
-source-wordcount: '3528'
+source-wordcount: '3600'
 ht-degree: 0%
 
 ---
-
-
 
 # Sammanfattning av nya funktioner {#new-features-summary}
 
@@ -376,6 +375,14 @@ En elev kan ge feedback på Adobe Learning Manager-appen för att ytterligare f�
 Vi vill informera dig om att Bluejeans har nått sitt slut (EOL) på Februari 2024. Efter februari 2024 kommer Bluejeans inte längre att få uppdateringar eller support. Våra CSAM- och supportteam hjälper dig med eventuella frågor eller funderingar under övergångsperioden.
 
 Visa [Anslutningar i Adobe Learning Manager](integration-admin/feature-summary/connectors.md) för mer information om hur du konfigurerar anslutningar.
+
+### Ändringar i rapporten om inloggningsåtkomst
+
+Rapporten för inloggningsåtkomst kommer bara att vara tillgänglig för de senaste fem kvartalen. Om någon integrationsadministratör begär hämtning på begäran av den enhetliga exporten med **Inloggningsåtkomst** Om den är markerad visas ett felmeddelande i Adobe Learning Manager. Andra rapporter påverkas dock inte.
+
+### ADFS-ändringar
+
+Fälten Anställningstyp och Anställds-ID från ADFS är nu tillgängliga i Adobe Learning Manager, baserat på mappningarna.
 
 ## API-ändringar i den här versionen
 
