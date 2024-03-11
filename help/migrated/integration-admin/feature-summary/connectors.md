@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Anslutningar för Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: d857ee5d17156e47d20deba22ae88739f82ac3e8
+source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
 workflow-type: tm+mt
-source-wordcount: '14984'
+source-wordcount: '15044'
 ht-degree: 0%
 
 ---
@@ -1946,15 +1946,22 @@ Mer information finns i  [**Installera Microsoft Teams-anslutning i Adobe Learni
 
 ## Åtkomst till utbildningsdata
 
+
+>[!IMPORTANT]
+>
+>Den här specifika funktionen är bara tillgänglig om Adobe Learning Manager säljs som ett tillägg till Adobe Experience Manager. Kursdatan skulle vara inaktuell om 24 timmar.
+
+
 >[!NOTE]
 >
->**Den här specifika funktionen är bara tillgänglig om Adobe Learning Manager säljs som ett tillägg till Adobe Experience Manager.**
+>Avsnittet belyser hur infrastrukturen fungerar men för att bygga en fjärradministrerad eller AEM-baserad icke-inloggad upplevelse, kontakta oss. Vi kommer att föreslå rätt tillvägagångssätt grund din användning fall. Den här funktionen är inte tillgänglig för tillfället som självbetjäning.
+
 
 Anslutningen för utbildningsdataåtkomst gör att ditt AEM Sites-baserade, skräddarsydda användargränssnitt kan hämta och återge utbildningsinformation till elever och gör det enklare och snabbare att söka.
 
 Kopplingen exporterar utbildningsmetadata till en datalagrings- och hämtningslösning. Sedan kan du konfigurera ditt AEM Sites-baserade gränssnitt för att använda dessa två tjänster till att hämta utbildningsdata, återge webbsidor och ge eleverna tillgång till optimerade sökfunktioner för utbildning.
 
-Ett gränssnitt som inte är inloggat i AEM Sites kan till exempel använda de exporterade metadata som är till hjälp vid sökning, bläddring och åtkomst till utbildningssidor som visar utbildningsinformation
+Artikeln belyser hur infrastrukturen fungerar men för att bygga en fjärradministrerad eller AEM-baserad icke-inloggad upplevelse, kontakta oss. Vi kommer att föreslå rätt tillvägagångssätt grund din användning fall. Den här funktionen är inte tillgänglig för tillfället som självbetjäning.
 
 Aktivera den här anslutningen för att skapa och återge dina AEM Sites-baserade webbsidor och leverera anpassade upplevelser till dina elever från AEM, där kursinformationen hämtas med hjälp av ett offentligt API (Headless LMS).
 

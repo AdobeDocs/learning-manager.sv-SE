@@ -1,9 +1,10 @@
 ---
 title: Ej inloggad för elever
 description: Adobe Learning Manager-startportalen har stöd för ett icke-loggat sätt att komma åt utbildningswebbplatsen. När det här läget är aktiverat kan elever upptäcka och komma åt utbildningswebbplatsen och kolla in olika kurser och tillgängligt innehåll. Den icke-inloggade upplevelsen gör att elever kan bläddra bland kurser utan att vara inloggade på en portal.
-source-git-commit: 956c119a5650b535a906157dc4d36f2ff075cf01
+exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
+source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ Adobe Learning Manager - Med elevs-API:er kan du skapa en anpassad utbildningsup
 
 >[!IMPORTANT]
 >
->De ska inte användas, som det är, för någon form av datahämtning för att stödja icke-inloggade användare/delade användare eller andra sådana fall.
+>De ska inte användas, som det är, för någon form av datahämtning för att stödja icke-inloggade användare/delade användare eller andra sådana fall. Kontakta oss om du vill bygga upp en fjärradministrerad eller AEM-baserad icke-inloggad upplevelse. Vi kommer att föreslå det rätta tillvägagångssättet utifrån era krav.
 
 De användningsfall som inte är inloggade kräver särskild hantering.
 
