@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Anslutningar för Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
+source-git-commit: 59d5e166747b332833ca68344691008670219366
 workflow-type: tm+mt
-source-wordcount: '15044'
+source-wordcount: '15135'
 ht-degree: 0%
 
 ---
@@ -745,6 +745,12 @@ Med Exportera användarkompetens kan användare exportera användarfärdigheter 
 >[!NOTE]
 >
 >Kompetenser från flera Learning Manager-konton kan inte exporteras samtidigt med samma Workday-konto.
+
+#### Viktiga saker att observera
+
+* Se till att UUID, e-postadress och namnet på medarbetaren är unikt i flera Workday-integreringar. Felaktiga värden resulterar i ett anslutningsfel.
+* UUID-fältet när det har fyllts i via Workday på kan inte tas bort av en LMS-administratör som riktas mot klienten. Om du vill ändra värdet kan du kontakta Adobe Learning Manager-introduktions- eller supportteamet.
+* Alternativet Användarrensning kanske inte heller fungerar eftersom användarrensning endast stöder att 50 användare rensas per körning. Var extremt försiktig när du överför användare via UUID:n.
 
 ### Tidsplanering {#Scheduling-1}
 
