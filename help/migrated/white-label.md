@@ -1,15 +1,15 @@
 ---
 jcr-language: en_us
-title: API-borttagningar i Adobe Learning Manager
+title: Vit märkning i mobilappen Adobe Learning Manager
 description: Vit märkning är en metod att byta namn på en app eller tjänst med ditt eget varumärke och anpassa den som om du vore den ursprungliga skaparen. I Adobe Learning Manager kan du använda vit etikettering i mobilappen så att du kan byta varumärke på appen och göra den tillgänglig för dina användare under ditt eget varumärke.
 contentowner: saghosh
-source-git-commit: 7bd9877aa32c78988a5195116d2a0f25ded05c90
+exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
+source-git-commit: 8fe01ca3c0e11d5d62645f4fa7695fce504e0da2
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
-
 
 # Vit märkning i mobilappen Adobe Learning Manager
 
