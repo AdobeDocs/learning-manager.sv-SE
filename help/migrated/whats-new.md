@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Sammanfattning av nya funktioner
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: e1ef2082329a061fc8297a791c080185488b165b
+source-git-commit: 08721247d60f3c35f04aa4434c6b0a795be59b2e
 workflow-type: tm+mt
-source-wordcount: '3600'
+source-wordcount: '3661'
 ht-degree: 0%
 
 ---
@@ -365,6 +365,23 @@ I den här versionen ändras statusen till **Ännu ej betygsatt**.
 Mobilappen Adobe Learning Manager har nu stöd för vit märkning, vilket innebär att du nu kan släppa appen under ditt eget varumärke.
 
 Visa vit etikettering i [Mobilappen Adobe Learning Manager](white-label.md) för mer information.
+
+### Ny kolumn i CSV-migreringsfiler
+
+I den här versionen finns en ny kolumn (valfritt), uniqueLoId, i följande migrerings-CSV-filer.
+
+* certification.csv
+* course.csv
+* learning_program.csv
+
+Kolumnen uniqueLoId gäller inte CSV-filen för arbetsstöd.
+
+>[!IMPORTANT]
+>
+>Kolumnvärdena måste vara unika för hela kontot. Du kan inte använda samma värde med en kurs eller certifiering.
+
+Hämta CSV-filerna från [Migreringshandbok](integration-admin/feature-summary/migration-manual.md#csv-specifications-and-sample-csvs).
+
 
 ### Appklassificering
 
