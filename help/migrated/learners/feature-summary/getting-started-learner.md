@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Komma igång som elev
 description: Gå igenom de viktigaste utbildningsvägarna i Adobe Learning Manager på sidan Komma igång.
 contentowner: manochan
-source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
+exl-id: e8f8dced-0772-415f-8021-6c1b63fec7a0
+source-git-commit: bd050c0b0cf2bb7da66d0f2ce3af1cf0d8be4f64
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 0%
 
 ---
-
-
 
 # Komma igång som elev
 
@@ -26,7 +25,7 @@ När du har loggat in som elev i Learning Manager-webbprogrammet kan du se följ
 
 **Mitt lärande**: Du kan visa och klicka på utbildningsobjekten efter typ och deadline. Klicka på cirkeln i widgeten Min utbildning för att direkt gå till typen av utbildningsobjekt eller för att visa utbildningsobjekten per deadline.
 
-**Mina kunskaper**: Du kan också visa kompetensöversikten längst upp till höger på sidan. Referens  [kompetenskarta](skills-levels.md)för mer information.
+**Mina kunskaper**: Du kan också visa kompetensöversikten längst upp till höger på sidan. Referens  [kompetenskarta](skills-levels.md) för mer information.
 
 **Widget för utbildningsobjekt**: Detta visas under Min utbildning och användarens utbildningsobjekt visas. Under Min utbildning kan du visa alla  [kurser](courses.md),  [utbildningsprogram](learning-programs.md) och  [certifieringar](certifications.md) som är registrerade av dig eller tilldelade dig. Du kan börja använda ett utbildningsobjekt direkt eller gå tillbaka till ett utbildningsobjekt med den här widgeten.
 
