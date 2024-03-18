@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Sammanfattning av nya funktioner
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 08721247d60f3c35f04aa4434c6b0a795be59b2e
+source-git-commit: 42d595e167663cb368e3597cfc4d9a49313ff46d
 workflow-type: tm+mt
 source-wordcount: '3661'
 ht-degree: 0%
@@ -368,7 +368,7 @@ Visa vit etikettering i [Mobilappen Adobe Learning Manager](white-label.md) för
 
 ### Ny kolumn i CSV-migreringsfiler
 
-I den här versionen finns en ny kolumn (valfritt), uniqueLoId, i följande migrerings-CSV-filer.
+I den här versionen finns en ny, valfri kolumn, uniqueLoId, i följande migrerings-CSV-filer.
 
 * certification.csv
 * course.csv
