@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Sammanfattning av nya funktioner
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 898103cd6cda48bf4303c660b6c635d3208deca5
+source-git-commit: df56839b761ec3ab5354b5ea84b805608c36451c
 workflow-type: tm+mt
 source-wordcount: '3666'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Läs om de nya funktionerna och förbättringarna i mars 2024-versionen av Adobe
 
 ### Importera kompetenser från externa källor
 
-Importera kompetenser från innehållsleverantörer, t.ex. LinkedIn och Go1, genom att använda respektive kopplingar. Denna förbättring är en del av målet mot Learning Managers förmåga att integrera med externa Skills Clouds och Talent Management Systems. De importerade kunskaperna läggs till i de administratörsdefinierade kunskaperna i Learning Manager och kommer att vara tillgängliga för författare under arbetsflödet för att skapa kursen. Förbättringar har också gjorts i kompetenssökningsfunktionen på hela plattformen för att ge en bättre sökupplevelse när kontot har ett stort antal färdigheter.
+Importera kunskaper från innehållsleverantörer, till exempel LinkedIn och Go1, genom att använda respektive kopplingar. Denna förbättring är en del av målet mot Learning Managers förmåga att integrera med externa Skills Clouds och Talent Management Systems. De importerade kunskaperna läggs till i de administratörsdefinierade kunskaperna i Learning Manager och kommer att vara tillgängliga för författare under arbetsflödet för att skapa kursen. Förbättringar har också gjorts i kompetenssökningsfunktionen på hela plattformen för att ge en bättre sökupplevelse när kontot har ett stort antal färdigheter.
 
 Visa [Importera kompetenser](administrators/feature-summary/import-skills-external-sources.md) för att få veta mer.
 
