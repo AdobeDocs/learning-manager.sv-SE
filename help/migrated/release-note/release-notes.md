@@ -1,16 +1,15 @@
 ---
-description: Läs om de nya funktionerna och förbättringarna i Adobe Learning Manager
+description: Versionsinformation om Adobe Learning Manager
 jcr-language: en_us
-title: Sammanfattning av nya funktioner
+title: Versionsinformation om Adobe Learning Manager
 contentowner: jayakarr
-source-git-commit: 35dc1f0880793a3f26ee70a3e9993d7520866b44
+exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
+source-git-commit: adf75b7f451e7977f6b5ccd3550dc26d33162d66
 workflow-type: tm+mt
-source-wordcount: '26177'
+source-wordcount: '26202'
 ht-degree: 0%
 
 ---
-
-
 
 # Sammanfattning av nya funktioner
 
@@ -24,13 +23,22 @@ ht-degree: 0%
  </tbody>
 </table>-->
 
-+++Uppdatering 95: November 2023-versionen av Adobe Learning Manager
++++Uppdatering 96: Mars 2024-versionen av Adobe Learning Manager
 
 **Utgivningsdatum:** 18 november 2023
 
 ## Nyheter i den här versionen
 
 Visa [Nyheter i Adobe Learning Manager](/help/migrated/whats-new.md) för mer information.
++++
+
++++Uppdatering 95: November 2023-versionen av Adobe Learning Manager
+
+**Utgivningsdatum:** 18 november 2023
+
+## Nyheter i den här versionen
+
+Visa [Nyheter i Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/whats-new-november-2023) för mer information.
 +++
 
 +++Uppdatering 94
