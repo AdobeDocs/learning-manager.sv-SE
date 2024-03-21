@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Anslutningar för Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 04ebf3d2c894588767ab80855325f77acfcc5a85
+source-git-commit: 70d0d6acbcb84ea49539e3a295277cbc342b3246
 workflow-type: tm+mt
-source-wordcount: '15127'
+source-wordcount: '15103'
 ht-degree: 0%
 
 ---
@@ -1559,89 +1559,89 @@ Förutsättningar för att upprätta en ADFS-anslutning:
 
 ## Så här registrerar du din ansökan {#stepstoregisteryourapplication}
 
-1. Klicka på Azure Active Directory. Klicka **[!UICONTROL Add]** > **[!UICONTROL App registration]**.
+* Klicka på Azure Active Directory. Klicka **[!UICONTROL Add]** > **[!UICONTROL App registration]**.
 
-   <!--![](assets/add-app-registration.png)-->
-   *Lägg till appregistrering*
+  <!--![](assets/add-app-registration.png)-->
+  <!-- *Add app registration*-->
 
-1. Ange programmets namn.
+* Ange programmets namn.
 
-   <!--![](assets/register-app.png)-->
-   *Ange programmets namn*
+  <!--![](assets/register-app.png)-->
+  <!--*Enter the name of the application*-->
 
-   Klicka på **[!UICONTROL Register]**.
+  Klicka på **[!UICONTROL Register]**.
 
-1. I den högra rutan väljer du **[!UICONTROL Certificates and Secrets]**.
+* I den högra rutan väljer du **[!UICONTROL Certificates and Secrets]**.
 
-   <!--![](assets/add-client-secret.png)-->
+  <!--![](assets/add-client-secret.png)-->
 
-   *Välj Certifikat och hemligheter*
+  <!--*Select Certificates and Secrets*-->
 
-1. Lägg till en klienthemlighet.
+* Lägg till en klienthemlighet.
 
-   <!--![](assets/add-description.png)-->
+  <!--![](assets/add-description.png)-->
 
-   *Lägg till en klienthemlighet*
+  <!--*Add a client secret*-->
 
-1. Lägg till en beskrivning till hemligheten och ange att den ska vara 24 månader.
+* Lägg till en beskrivning till hemligheten och ange att den ska vara 24 månader.
 
-<!-- ![](assets/copy-values.png)-->
+  <!-- ![](assets/copy-values.png)-->
 
-*Lägg till beskrivning*
+  <!--*Add description*-->
 
-1. Kopiera värdet och hemligheten till exempelvis anteckningsblock.
+* Kopiera värdet och hemligheten till exempelvis anteckningsblock.
 
-<!-- ![](assets/copy-secret.png)-->
+  <!-- ![](assets/copy-secret.png)-->
 
-*Kopiera värde och hemlig nyckel*
+  <!--*Copy value and secret key*-->
 
-1. Välj **API-behörigheter**.
+* Välj **API-behörigheter**.
 
-   <!--![](assets/click-api-permission.png)-->
+  <!--![](assets/click-api-permission.png)-->
 
-<!-- *Left pane containing API Permissions*-->
+  <!-- *Left pane containing API Permissions*-->
 
-1. Välj **Lägg till behörigheter**. Aktivera också alternativet **Bevilja administratörsgodkännande**.
+* Välj **Lägg till behörigheter**. Aktivera också alternativet **Bevilja administratörsgodkännande**.
 
-   ![](assets/add-permission.png)
+  ![](assets/add-permission.png)
 
-   *Lägg till behörigheter*
+  *Lägg till behörigheter*
 
-1. Välj **Microsoft Graph**.
+* Välj **Microsoft Graph**.
 
-   <!--![](assets/ms-graph.png)-->
+  <!--![](assets/ms-graph.png)-->
 
-   <!--*Select Microsoft Graph*-->
+  <!--*Select Microsoft Graph*-->
 
-1. Välj **Programbehörigheter**.
+* Välj **Programbehörigheter**.
 
-   ![](assets/request-api-permission.png)
+  ![](assets/request-api-permission.png)
 
-   *Välj programbehörigheter*
+  *Välj programbehörigheter*
 
-1. Sök efter *katalog* och välj **Läs katalogdata**.
+* Sök efter *katalog* och välj **Läs katalogdata**.
 
-   ![](assets/read-directory-data.png)
+  ![](assets/read-directory-data.png)
 
-   *Välj Läs katalogdata*
+  *Välj Läs katalogdata*
 
-1. Enter *användare* som söktermen.
+* Enter *användare* som söktermen.
 
-   ![](assets/search-user.png)
+  ![](assets/search-user.png)
 
-   *Ange söktermen*
+  *Ange söktermen*
 
-1. Välj **Läs alla användares fullständiga profiler**.
+* Välj **Läs alla användares fullständiga profiler**.
 
-   ![](assets/select-read-all.png)
+  ![](assets/select-read-all.png)
 
-   *Välj Läs alla användares fullständiga profiler*
+  *Välj Läs alla användares fullständiga profiler*
 
-1. Välj **Lägg till behörigheter**.
+* Välj **Lägg till behörigheter**.
 
-   <!--![](assets/select-add-permission.png)-->
+  <!--![](assets/select-add-permission.png)-->
 
-<!-- *Select Add Permissions*-->
+  <!-- *Select Add Permissions*-->
 
 ### Konfigurationssida för ADFS
 
