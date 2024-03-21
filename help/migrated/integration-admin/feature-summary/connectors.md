@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Anslutningar för Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 36dbde96fc325056f6944c625f68b6699b83a05b
+source-git-commit: 04ebf3d2c894588767ab80855325f77acfcc5a85
 workflow-type: tm+mt
-source-wordcount: '15135'
+source-wordcount: '15127'
 ht-degree: 0%
 
 ---
@@ -1599,7 +1599,7 @@ Förutsättningar för att upprätta en ADFS-anslutning:
 
    <!--![](assets/click-api-permission.png)-->
 
-   *Vänster fönster som innehåller API-behörigheter*
+<!-- *Left pane containing API Permissions*-->
 
 1. Välj **Lägg till behörigheter**. Aktivera också alternativet **Bevilja administratörsgodkännande**.
 
@@ -1611,7 +1611,7 @@ Förutsättningar för att upprätta en ADFS-anslutning:
 
    <!--![](assets/ms-graph.png)-->
 
-   *Markera Microsoft Graph*
+   <!--*Select Microsoft Graph*-->
 
 1. Välj **Programbehörigheter**.
 
@@ -1641,7 +1641,9 @@ Förutsättningar för att upprätta en ADFS-anslutning:
 
    <!--![](assets/select-add-permission.png)-->
 
-   *Välj Lägg till behörigheter*
+<!-- *Select Add Permissions*-->
+
+### Konfigurationssida för ADFS
 
 1. Ange det klient-ID och den klienthemlighet du fick tidigare på konfigurationssidan för ADFS i Adobe Learning Manager.
 
