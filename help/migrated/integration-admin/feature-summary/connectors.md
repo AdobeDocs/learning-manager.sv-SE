@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Anslutningar för Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 59d5e166747b332833ca68344691008670219366
+source-git-commit: 36dbde96fc325056f6944c625f68b6699b83a05b
 workflow-type: tm+mt
 source-wordcount: '15135'
 ht-degree: 0%
@@ -1561,43 +1561,43 @@ Förutsättningar för att upprätta en ADFS-anslutning:
 
 1. Klicka på Azure Active Directory. Klicka **[!UICONTROL Add]** > **[!UICONTROL App registration]**.
 
-   ![](assets/add-app-registration.png)
+   <!--![](assets/add-app-registration.png)-->
    *Lägg till appregistrering*
 
 1. Ange programmets namn.
 
-   ![](assets/register-app.png)
+   <!--![](assets/register-app.png)-->
    *Ange programmets namn*
 
    Klicka på **[!UICONTROL Register]**.
 
 1. I den högra rutan väljer du **[!UICONTROL Certificates and Secrets]**.
 
-   ![](assets/add-client-secret.png)
+   <!--![](assets/add-client-secret.png)-->
 
    *Välj Certifikat och hemligheter*
 
 1. Lägg till en klienthemlighet.
 
-   ![](assets/add-description.png)
+   <!--![](assets/add-description.png)-->
 
    *Lägg till en klienthemlighet*
 
 1. Lägg till en beskrivning till hemligheten och ange att den ska vara 24 månader.
 
-   ![](assets/copy-values.png)
+<!-- ![](assets/copy-values.png)-->
 
-   *Lägg till beskrivning*
+*Lägg till beskrivning*
 
 1. Kopiera värdet och hemligheten till exempelvis anteckningsblock.
 
-   ![](assets/copy-secret.png)
+<!-- ![](assets/copy-secret.png)-->
 
-   *Kopiera värde och hemlig nyckel*
+*Kopiera värde och hemlig nyckel*
 
 1. Välj **API-behörigheter**.
 
-   ![](assets/click-api-permission.png)
+   <!--![](assets/click-api-permission.png)-->
 
    *Vänster fönster som innehåller API-behörigheter*
 
@@ -1609,7 +1609,7 @@ Förutsättningar för att upprätta en ADFS-anslutning:
 
 1. Välj **Microsoft Graph**.
 
-   ![](assets/ms-graph.png)
+   <!--![](assets/ms-graph.png)-->
 
    *Markera Microsoft Graph*
 
@@ -1639,7 +1639,7 @@ Förutsättningar för att upprätta en ADFS-anslutning:
 
 1. Välj **Lägg till behörigheter**.
 
-   ![](assets/select-add-permission.png)
+   <!--![](assets/select-add-permission.png)-->
 
    *Välj Lägg till behörigheter*
 
