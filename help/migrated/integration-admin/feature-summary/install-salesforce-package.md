@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Installera Salesforce-paket
 description: Learning Manager erbjuder ett Salesforce-programpaket. När de har installerats och konfigurerats i SFDC kan säljpersonal utföra sin utbildningsverksamhet inom SFDC-portalen. Med den här appen kan SFDC-användare utforska nya utbildningar, visa rekommendationer och konsumera dem direkt i SFDC-portalen. Användarna får också meddelandena som skickas av administratörer i form av mastheads direkt i appen inom SFDC-portalen.
 contentowner: saghosh
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
+source-git-commit: 970c5f46d6af49bfcca09f88f3d0ece1168fe442
 workflow-type: tm+mt
 source-wordcount: '946'
 ht-degree: 0%
 
 ---
-
-
 
 # Installera Salesforce-paket
 
@@ -48,7 +47,7 @@ Om du vill installera paketet måste du först ta bort det befintliga paketet i 
 >
 >Adobe Learning Manager-appen stöds bara i Salesforce Lightning-vyn.
 
-1. Starta  [URL till Learning Manager-paket](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftest.salesforce.com%2Fpackaging%2FinstallPackage.apexp%3Fp0%3D04t1k0000008YWn&amp;data=04%7C01%7Ckillamse%40adobe.com%7Cf588f553fc694d2edee108d9a5c74711%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C637723097572585825%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=mhYKVdwvS4F7WPruy0Kvw%2FsqgWxzTQpaZJyEACu8CNw%3D&amp;reserved=0).
+1. Starta  [URL till Learning Manager-paket](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LRvP).
 1. I dialogrutan **Inloggning** sida, klicka på **[!UICONTROL Use Custom Domain]**.
 
 1. Ange paketets URL och klicka på **[!UICONTROL Continue]**. Alternativet Installera endast för administratörer måste vara markerat på installationssidan. Ändra inte det här alternativet.
