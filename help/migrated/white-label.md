@@ -4,9 +4,9 @@ title: Vit märkning i mobilappen Adobe Learning Manager
 description: Vit märkning är en metod att byta namn på en app eller tjänst med ditt eget varumärke och anpassa den som om du vore den ursprungliga skaparen. I Adobe Learning Manager kan du använda vit etikettering i mobilappen så att du kan byta varumärke på appen och göra den tillgänglig för dina användare under ditt eget varumärke.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 5e4008c0811305db86e94f8105ae778fa2cfac83
+source-git-commit: b649255ce7b3f3e0676f785003d3af60c50520a0
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1177'
 ht-degree: 0%
 
 ---
@@ -201,20 +201,35 @@ Du kan anpassa följande:
 
 </table>
 
+>[!NOTE]
+>
+>Ange informationen i dina CSAM-filer så att de kan lägga till den i din anpassade binära app.
 
-#### Uppdatera webbplatsassociation
+
+#### Uppdatera webbplatsassociationen för att hantera anpassade djuplänkar
 
 Om du använder en anpassad domän eller Learning Manager\*.adobe.com som värd behöver du inte vidta några åtgärder. Men om du använder en anpassad lösning eller ett specifikt värdnamn för webbadresserna ska du lägga till platsassociationsfilerna.
 
+>[!CAUTION]
+>
+>Om filerna inte finns där fungerar inte djuplänkarna. Se till att filerna finns.
+
+
 Mer information finns på följande länkar:
 
-- [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
+* [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
+* [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
 
-- [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
+## Generera push-meddelanden
 
-## Generera certifikat för push-meddelanden
+Det krävs två olika mekanismer för att skicka push-meddelanden till Android- och iOS-program.
 
-### Certifikat för push-meddelanden i iOS
+* Generera certifikat för push-meddelanden för iOS.
+* För Android anger du en servernyckel som genereras från Firebase-projektet.
+
+Följ anvisningarna nedan för att konfigurera projekten i Firebase:
+
+### Push-aviseringar på iOS
 
 Ett push-meddelandecertifikat är en kryptografisk autentiseringsuppgift inom iOS-apputveckling som utfärdas av Apple och som gör det möjligt för en server att på ett säkert sätt skicka push-meddelanden till en iOS-enhet via Apple Push Notification Service (APN:er).
 
@@ -244,16 +259,22 @@ Följ proceduren:
 
 Om du kan ansluta till servern är certifikatet du har skapat giltigt. Kopiera certifikatet och värdena för den privata nyckeln från filen myapnappkey.pem.
 
-1. Kontakta CSM-teamet och få filerna tillagda i SNS-tjänsterna på AWS. Användare måste få posten registrerad i SNS-tjänsten för push-meddelandet, vilket kräver att de delar certifikaten som genereras ovan för validering.
+### Push-meddelanden på Android
+
+Skapa ett projekt i Firebase och dela servernyckeln med CSAM.
+
+Kontakta CSM-teamet och få filerna tillagda i SNS-tjänsterna på AWS. Användare måste få posten registrerad i SNS-tjänsten för push-meddelandet, vilket kräver att de delar certifikaten som genereras ovan för validering.
 
 >[!NOTE]
 >
 >För Android måste användaren ange servernyckeln från det Firebase-projekt som de skapar för Android för att lägga till posten i SNS-tjänsten.
 
 
-## Lägg till projektet i Firebase
+## Skapa projekt i Firebase
 
 ### Android
+
+Återanvänd samma projekt som du skapade i stegen ovan för push-meddelanden.
 
 [Lägg till projektet](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) i Firebase och hämta ***google-services.json*** fil.
 
@@ -261,19 +282,24 @@ Om du kan ansluta till servern är certifikatet du har skapat giltigt. Kopiera c
 
 [Lägg till projektet](https://firebase.google.com/docs/ios/setup) till Firebase och hämta ***GoogleService-Info.plist*** fil.
 
+>[!IMPORTANT]
+>
+>Skicka filerna till Adobe Learning Manager CSAM-teamet för att inkludera i bygget av din app-binär fil.
+
+
 ## Generera signerade binärfiler
 
 ### iOS
 
 ```
-sh""" xcodebuild -exportArchive -archivePath ./mobile-app-embedding-immersive/build/ios/archive/Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist ./deviceAppBuildScripts/${ExportFile} 
+sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist {ExportFile} 
 
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
 ```
 
 >[!NOTE]
 >
->Du behöver XCode 14.2 eller senare för att skapa de signerade binärfilerna.
+>Du behöver XCode 15.2 eller senare för att skapa de signerade binärfilerna.
 
 
 ## Android
@@ -298,5 +324,5 @@ CSM-teamet delar bygget med kunden.
 
 ## Vad kan inte anpassas
 
-- Skärmen Uppdatera lösenord
-- Skapa en kontoskärm
+* Skärmen Uppdatera lösenord
+* Skapa en kontoskärm
