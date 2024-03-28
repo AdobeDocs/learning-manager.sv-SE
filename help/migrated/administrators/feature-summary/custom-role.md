@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Anpassade roller
 description: Med funktionen Utbildningsvägar kan du definiera anpassade roller och tilldela specifika ansvarsområden till en uppsättning användare. Med den här funktionen kan du tilldela ansvar utanför personens befintliga roll.
 contentowner: dvenkate
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
+source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
 workflow-type: tm+mt
-source-wordcount: '2156'
+source-wordcount: '2155'
 ht-degree: 1%
 
 ---
-
-
 
 # Anpassade roller
 
@@ -142,16 +141,16 @@ En användare med en anpassad roll kan:
 * Visa bara innehåll från de kataloger som han/hon har åtkomst till.
 * Få åtkomst till valfritt utbildningsobjekt baserat på behörigheterna för katalogen som utbildningsobjektet ingår i.
 
-Du som är administratör kan:
+  Du som är administratör kan:
 
 * Välj mer än en katalog för en anpassad roll.
 * Ändra behörigheterna för en katalog när som helst.
 * Ta bort katalogerna från ett omfång som du inte längre vill ge behörighet till.
 * Bevilja implicit skrivbehörighet till en katalog när du beviljar behörighet till den.
 
-Tabellen nedan visar hur behörigheter beviljas.
+  Tabellen nedan visar hur behörigheter beviljas.
 
-<table>
+  <table>
     <tbody>
      <tr>
       <td>
@@ -222,17 +221,17 @@ Tabellen nedan visar hur behörigheter beviljas.
      </tr>
     </tbody>
    </table>
-1). **Användare:** Använd det här alternativet om du vill avgöra vilka användare som tilldelas den här rollen. Du kan välja en eller flera användare med sökrutan.
+1. **Användare:** Använd det här alternativet om du vill ange vilka användare som tilldelas den här rollen. Du kan välja en eller flera användare med sökrutan.
 
-**Lägg till användare i CSV-överföring med anpassade roller:** Om du vill lägga till användare via en CSV-uppdatering lägger du till en CustomRole-kolumn i CSV-filen som administratören använde för att importera användare. Ange användarens roll under kolumnen Anpassad roll för de användare som du vill tilldela en anpassad roll till. Ladda upp CSV-filen genom att klicka på  **[!UICONTROL Add > Upload a CSV]**.
+   **Lägg till användare i CSV-överföring med anpassade roller:** Om du vill lägga till användare via en CSV-uppdatering lägger du till en CustomRole-kolumn i CSV-filen som administratören använde för att importera användare. Ange användarens roll under kolumnen Anpassad roll för de användare som du vill tilldela en anpassad roll till. Ladda upp CSV-filen genom att klicka på  **[!UICONTROL Add > Upload a CSV]**.
 
-CustomRole columnNote:
+   CustomRole columnNote:
 
 * Du kan inte söka efter användargrupper.
 * Du kan inte söka efter användare som redan har administratörsrollen tilldelad.
 * Om du tilldelar en ny anpassad roll till en användare åsidosätts användarens tidigare anpassade roll.
 
-<!--![](assets/users.png)-->
+  <!--![](assets/users.png)-->
 
 * En anpassad administratör med behörighet till inställningar kan konfigurera schemat för synkronisering eller synkronisering av användare från datakälla även om de inte har behörighet till användarentiteten.
 * Om en anpassad administratör har behörighet i användarentiteten kan hen tilldela sig själv administratörsrollen och bli standardadministratör.

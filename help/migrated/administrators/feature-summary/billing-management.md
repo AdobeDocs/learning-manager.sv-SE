@@ -3,14 +3,13 @@ description: Hantera Learning Manager-fakturering, gör beställningar med hjäl
 jcr-language: en_us
 title: Hantera order och fakturering för Learning Manager
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
 source-wordcount: '1703'
 ht-degree: 0%
 
 ---
-
-
 
 # Hantera order och fakturering för Learning Manager
 

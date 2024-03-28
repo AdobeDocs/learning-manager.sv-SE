@@ -3,14 +3,13 @@ description: Spelifiering är ett sätt att använda spelteknik och spelmekanik 
 jcr-language: en_us
 title: Spelifiering
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 0%
 
 ---
-
-
 
 # Spelifiering
 
@@ -76,7 +75,7 @@ Om du vill återställa elevens poäng och konfiguration klickar du på Återst�
 
 ## Inaktivera spelifiering {#disablegamification}
 
-Klicka [!UICONTROL **Spelifiering**] > [!UICONTROL **Spelifieringsfunktion**]. Detta gör att du kan aktivera funktionen för spelifiering och resultattavlan separat för dina elever. Välj mellan Aktivera för interna elever och Aktivera för externa elever enligt kraven och klicka på OK. Alla punkter bibehålls när du aktiverar spelifieringen igen.
+Klicka [!UICONTROL **Spelifiering**] > **[!UICONTROL Settings]** > [!UICONTROL **Spelifieringsfunktion**]. Detta gör att du kan aktivera funktionen för spelifiering och resultattavlan separat för dina elever. Välj mellan Aktivera för interna elever och Aktivera för externa elever enligt kraven och klicka på OK. Alla punkter bibehålls när du aktiverar spelifieringen igen.
 
 ![](assets/gamification-feature.png)
 

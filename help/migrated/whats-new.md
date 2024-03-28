@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Sammanfattning av nya funktioner
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 8dcfdc7336e5be7f327626d2973671ca56ec58ce
+source-git-commit: 1bdbabfd0b2e365c713d9beb393e7413cd15a9fd
 workflow-type: tm+mt
 source-wordcount: '3764'
 ht-degree: 0%
@@ -261,6 +261,7 @@ På sidan Admin väljer du **Administratör** > **Kompetenser** > **Kompetens** 
 ## Ändringar i skapandet av klassrum
 
 Baserat på [Administratörsinställningar](administrators/feature-summary/classroom.md#classroom-settings)kan du som författare [skapa, ändra och ta bort platser](administrators/feature-summary/classroom.md#add-classroom-location).
+
 >[!NOTE]
 >
 >När du lägger till plats- och katalogetiketter visas en automatiskt ifylld lista med platser och katalogetiketter för författare (på sidan för att skapa kurs) och administratörer (på instanssidan).

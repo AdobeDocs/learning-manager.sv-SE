@@ -3,14 +3,13 @@ description: Du som är administratör kan aktivera, inaktivera och övervaka ak
 jcr-language: en_us
 title: Övervaka och moderera social utbildning som administratör
 contentowner: kuppan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 83f0b494-d129-4fdf-a204-b5efeaaa168a
+source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
 workflow-type: tm+mt
 source-wordcount: '3512'
 ht-degree: 0%
 
 ---
-
-
 
 # Övervaka och moderera social utbildning som administratör
 
@@ -265,9 +264,9 @@ Det finns några andra alternativ:
 * **[!UICONTROL Replicate]:** Med denna kommandoknapp upprepas överskriften och underrubriken över alla språk.
 * **[!UICONTROL Reset]:** Klicka på den här kommandoknappen om du vill återställa de ursprungliga titlarna och underrubrikerna.
 
-På startsidan för Social utbildning visas informationen från administratören som sidhuvud.
+  På startsidan för Social utbildning visas informationen från administratören som sidhuvud.
 
-<!--![](assets/banner-learner.png)-->
+  <!--![](assets/banner-learner.png)-->
 
 ## Trender {#trends}
 

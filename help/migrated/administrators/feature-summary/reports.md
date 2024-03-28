@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Rapporter
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '6408'
+source-wordcount: '6402'
 ht-degree: 2%
 
 ---
@@ -46,7 +46,7 @@ Om det finns interna rotnivåhanterare visas de efter varandra.
 
 Alla externa profiler visas efter interna profiler (interna rotnivåanvändare).
 
-Om en extern profil har en chef visas chefshierarkin i **[!UICONTROL Showing Data For]** listruta. - Användaren kommer att listas i chefshierarkin på sidan med all information (utbildningssammanfattning, efterlevnad och kompetensstatus)
+Om en extern profil har en chef visas chefshierarkin i **[!UICONTROL Showing Data For]** listruta. Användaren listas i chefshierarkin på sidan med all information (utbildningssammanfattning, efterlevnad och kompetensstatus)
 
 I annat fall visas alla enskilda användaruppgifter i listan.
 
@@ -58,9 +58,9 @@ Om du vill se mer detaljerad information om registreringar av olika interna team
 När du klickar på en registrering kan du se eleverna för varje chef och registrering till vilka utbildningsobjekt. Du kan också se förloppet och slutförandet för varje elev.
 
 ![](assets/learners-for-a-manager.png)
-*AEE-elever som har tilldelats en chef*
+*elever som tilldelats en chef*
 
-Klicka på ett team och exportera dess rapport som en CSV. En administratör kan exportera rapporten för valfri användargrupp eller enskild användare genom att välja Användargruppen eller enskild användare och sedan exportera information från listrutan Åtgärd.
+Klicka på ett team och exportera dess rapport som en CSV. En administratör kan exportera rapporten för valfri användargrupp eller enskild användare genom att välja användargruppen eller den enskilda användaren och sedan exportera information från **[!UICONTROL Action]** listruta.
 
 Du kan också se ett stapeldiagram över kompetenser som pågår och har uppnåtts. Du kan lägga till/ta bort kompetenser som du vill ha med i diagrammet.
 
@@ -69,7 +69,7 @@ Du kan också se ett stapeldiagram över kompetenser som pågår och har uppnåt
 
 I den slutliga visualiseringen kan du kontrollera elevers efterlevnadsstatus och vidta lämpliga åtgärder.
 
-Dessutom kan en administratör visa enskilda utbildningsdata på efterlevnadstavlan.
+Dessutom kan en administratör visa enskilda utbildningsdata i **[!UICONTROL Compliance Dashboard]**.
 
 Administratören har till exempel identifierat tre utbildningar för att spåra efterlevnad. Learning Manager tillhandahåller ögonblicksbilden av kompatibilitet för alla tre utbildningarna samtidigt.
 
@@ -617,7 +617,7 @@ Elevens betygsutdrag i Excel-rapporter visar kolumnerna Obligatoriska krediter o
 
 Du som är administratör kan hämta rapporter för kurser. Gör så här:
 
-1. Öppna **[!UICONTROL Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Course Reports]**.
+1. Öppna **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Course Reports]**.
 1. Inställningen **[!UICONTROL Course Report]** visas. Välj kursen som du vill hämta rapporten för och klicka på **[!UICONTROL Show]**.
 
    ![](assets/course-reports.png)
@@ -657,13 +657,13 @@ Administratörer kan skapa rapporter över alla meddelanden som skickas. Rapport
 
 Gör något av följande för att hämta en rapport:
 
-1. Öppna **[!UICONTROL Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Announcements Report]**. Inställningen **[!UICONTROL Generating Report Request]** dialogrutan öppnas. Klicka på OK.
+1. Öppna **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Announcements Report]**. Inställningen **[!UICONTROL Generating Report Request]** dialogrutan öppnas. Klicka på OK.
 1. [!UICONTROL **Meddelanden**] > [!UICONTROL **Åtgärder**] > [!UICONTROL **Exportera rapport**].
 
    ![](assets/announcements.png)
    *Meddelanderapport*
 
-1. Du kan extrahera en rapport för ett specifikt meddelande genom att klicka på Exportera rapport under ikonen för inställningar.
+1. Du kan extrahera en rapport för ett specifikt meddelande genom att klicka på **[!UICONTROL Export Report]** under ikonen för inställningar.
 
    ![](assets/announcements-specific-report.png)
    *Rapport för specifika meddelanden*
@@ -686,7 +686,7 @@ Den extraherade rapporten innehåller information om följande:
 
 Gör något av följande för att hämta en rapport:
 
-* Öppna  **[!UICONTROL Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Job Aid Reports]**. Inställningen **[!UICONTROL Generating Report Request]** visas. Klicka på **[!UICONTROL Ok]**.
+* Öppna  **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Job Aid Reports]**. Inställningen **[!UICONTROL Generating Report Request]** visas. Klicka på **[!UICONTROL Ok]**.
 * Öppna **[!UICONTROL Job Aid]** > **[!UICONTROL Actions]** > **[!UICONTROL Export Report]**.
 
 ![](assets/job-aids.png)

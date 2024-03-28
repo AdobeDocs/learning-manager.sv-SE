@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Skapa kursmoduler, instanser och utbildningsprogram
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '4475'
+source-wordcount: '4478'
 ht-degree: 1%
 
 ---
@@ -53,6 +53,7 @@ Om du vill skapa en instans
    * Klicka **[!UICONTROL Show More Options]** om du vill visa andra alternativ för tidsgräns.
    * **[!UICONTROL Enrollment Deadline]:** Detta är det datum då en elev förväntas registrera sig för ett utbildningsobjekt vid egenregistrering.
    * **[!UICONTROL Unenrollment Deadline]:** Du kan välja att begränsa avregistrering av eleven själv genom att ha en deadline för avregistrering.
+   * **[!UICONTROL Timezone]:** Sök i och välj sedan **[!UICONTROL Timezone]** i listrutan.
 
    En administratör kan besluta att ha tidsgränser för slutförande av en kurs eller ett utbildningsprogram baserat på behov. Vi rekommenderar dock att du har en för klassrums-/virtuella klassrumsbaserade utbildningar.
 
@@ -99,13 +100,13 @@ Så här återställer du en utfasad instans till ett aktiveringsläge:
 
 Så här skickar du e-postmeddelanden på instansnivå till registrerade elever:
 
-1. På sidan Instanser väljer du alternativen för en instans och klickar sedan på **[!UICONTROL Email Enrolled Learners]**.
+1. På fliken **[!UICONTROL Instances]** -sidan, väljer alternativ för en instans och klickar sedan på **[!UICONTROL Email Enrolled Learners]**.
 
 ![e-postmeddelanden på instansnivå](assets/adhoc-email.png)
 
 *E-post till elever som har registrerat sig för instansen*
 
-1. I dialogrutan Skapa meddelande väljer du Skriv som e-post. Ange ämne, skriv meddelandet och klicka på Spara. Utbildningen väljs ut automatiskt.
+1. På fliken **[!UICONTROL Create Announcement]** väljer du Skriv som E-post. Ange ämne, skriv meddelandet och klicka på **[!UICONTROL Save]**. Utbildningen väljs ut automatiskt.
 
    ![Skapa meddelande som e-post](assets/email-announcement.png)
 
@@ -178,7 +179,7 @@ Excel-filen innehåller kalkylblad för varje instans. Ett kalkylblad består av
 
 >[!NOTE]
 >
->Obs! Om du aktiverar multiregistrering läggs flera rader till i elevens betygsrapport för varje kurs (en rad för varje instans).
+>Om du aktiverar multiregistrering läggs flera rader till i elevens betygsrapport för varje kurs (en rad för varje instans).
 >
 >Om du har ställt in rapporteringsautomatisering som endast förutser en rad per kurs måste du göra de nödvändiga justeringarna av rapporteringsautomatiseringen innan du aktiverar funktionen Flerregistrering.
 

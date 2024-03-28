@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Utmärkelsetecken
 description: Utmärkelsetecken är ett mått på prestation som din medarbetare kan tjäna på att ha slutfört en kurs. I Adobe Learning Manager introduceras ett av de senaste e-utbildningskoncepten som heter Badges. Yrkesverksamma över hela världen använder dessa utmärkelsetecken som en representation av en viss färdighet eller en utbildningsinsats.
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: c056e5d0-d646-4d15-979d-bae57c627eab
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 1%
 
 ---
-
-
 
 # Utmärkelsetecken
 
@@ -26,7 +25,7 @@ Administratörer kan skapa utmärkelsetecken för elever på följande sätt:
    >
    >Som standard finns det en lista med några exempelmärken.
 
-1. Klicka **[!UICONTROL Add Badge]** längst upp till höger på sidan. Dialogrutan Lägg till utmärkelsetecken visas.
+1. Klicka **[!UICONTROL Add]** längst upp till höger på sidan. Dialogrutan Lägg till utmärkelsetecken visas.
 
    ![](assets/add-badge1.png)
 

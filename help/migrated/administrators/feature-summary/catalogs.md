@@ -4,7 +4,7 @@ title: Kataloger
 description: Kataloger är en samling utbildningar - kurser, utbildningsprogram och certifieringar. Använd kataloger för att ge elever tillgång till en anpassad uppsättning utbildningar. Du kan koppla inlärning till en katalog när du skapar en ny katalog.
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
 source-wordcount: '2373'
 ht-degree: 0%
@@ -220,31 +220,31 @@ Alla ändringar som görs för utbildningsobjekt i ägarapplikationen överförs
    <td>
     <p><strong>Utbildningsprogram</strong></p></td>
    <td>
-    <p>namn, beskrivning och andra fält på LP-objekt utom badgeId, tas ur bruk</p></td>
+    <p>Namn, beskrivning och andra fält på LP-objekt utom badgeId, tas ur bruk</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>Certifiering</strong></p></td>
    <td>
-    <p>alla egenskaper för certifieringsobjektet utom badgeId, återkallar certifiering</p></td>
+    <p>Alla egenskaper för certifieringsobjekt utom badgeId, återkallar certifiering</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>Utmärkelsetecken</strong></p></td>
    <td>
-    <p>Namn och utfasning av märket</p></td>
+    <p>Namn och utfasning av utmärkelsetecken</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>Kategori </strong></p></td>
    <td>
-    <p>Namn, beskrivning, färg och utfasning av kategori, tillägg av ny nivå</p></td>
+    <p>Kategorins namn, beskrivning, färg och utfasning, tillägg av ny nivå</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>Arbetsstöd</strong></p></td>
    <td>
-    <p>alla egenskaper för JobAid-objektet</p></td>
+    <p>Alla egenskaper för JobAid-objektet</p></td>
   </tr>
   <tr>
    <td>

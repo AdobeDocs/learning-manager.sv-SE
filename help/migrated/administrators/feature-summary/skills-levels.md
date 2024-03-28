@@ -3,14 +3,13 @@ description: Skapa, tilldela och ändra kunskaper och nivåer.
 jcr-language: en_us
 title: Skapa och ändra kompetenser och nivåer
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: b1461900-43e8-4e9d-bef1-a55c44d3bc8b
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
 source-wordcount: '1673'
 ht-degree: 0%
 
 ---
-
-
 
 # Skapa och ändra kompetenser och nivåer
 
@@ -32,7 +31,7 @@ Du som är administratör kan göra följande:
 
 Följ stegen nedan för att lägga till en kompetens:
 
-1. I den vänstra rutan klickar du på **[!UICONTROL Skills]**. Ge kompetensen ett namn och en beskrivning.
+1. I den vänstra rutan väljer du **[!UICONTROL Skills]** > **[!UICONTROL Add]** > **[!UICONTROL Add SKills]**. Ge kompetensen ett namn och en beskrivning.
 
    ![](assets/add-skill-name-anddescription.png)
 

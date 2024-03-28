@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Utbildningsvägar
 description: Skapa utbildningsplaner för administratörer i Learning Manager.
 contentowner: saghosh
-source-git-commit: f3e751215d0bcf65be4fbca59d5373011f195366
+exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
 source-wordcount: '1889'
 ht-degree: 0%
 
 ---
-
-
 
 # Utbildningsvägar
 
@@ -132,9 +131,9 @@ Inställningen **[!UICONTROL Enable Learners to Choose instances (Flexible Learn
 
 Det finns tre alternativ:
 
-1. **[!UICONTROL All Levels Courses and Learning Paths (selected by default)]:** Eleven får meddelanden om ofullständiga kurser oavsett nivå i utbildningsvägen.
+1. **[!UICONTROL All Skill Levels Courses and Learning Paths (selected by default)]:** Eleven får meddelanden om ofullständiga kurser oavsett nivå i utbildningsvägen.
 1. **[!UICONTROL Root Learning Path]:** Eleven får meddelanden om ofullständiga kurser som tillhör en överordnad utbildningsväg.
-1. **[!UICONTROL Learning Path and first level child only]:** Eleven får meddelanden om ofullständiga kurser som är det första underordnade objektet till en överordnad utbildningsväg.
+1. **[!UICONTROL Learning Path + first Skill Level children only]:** Eleven får meddelanden om ofullständiga kurser som är det första underordnade objektet till en överordnad utbildningsväg.
 
 Meddelandepåminnelserna utlöses baserat på alternativet. Som standard används alternativet **[!UICONTROL All Levels Courses and Learning Paths]** har aktiverats för en instans.
 

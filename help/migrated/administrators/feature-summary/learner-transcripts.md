@@ -3,14 +3,13 @@ description: Hämta elevens betygsutdrag och hantera rapporter med Learning Mana
 jcr-language: en_us
 title: Elevens betygsutdrag
 contentowner: jayakarr
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: f88ad02c-6d36-41e7-9d83-0ebc70d98d63
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1826'
+source-wordcount: '1824'
 ht-degree: 2%
 
 ---
-
-
 
 # Elevens betygsutdrag
 
@@ -22,7 +21,7 @@ Med Adobe Learning Manager kan administratörer i en organisation generera utskr
 
 1. För att generera elevens betygsutdrag klickar du på **[!UICONTROL Reports]** i den vänstra rutan i Administratörsinloggning.
 
-   Administratören går till fliken Excel-rapporter i dialogrutan **[!UICONTROL Reports]** sidan.
+   Administratören navigerar till **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** flik i **[!UICONTROL Reports]** sidan.
 
 1. Klicka på länken **[!UICONTROL Learner Transcripts]**.
 

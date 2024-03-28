@@ -3,14 +3,13 @@ description: Lär dig lägga till användare eller användargrupper i Learning M
 jcr-language: en_us
 title: Lägga till användare och skapa användargrupper
 contentowner: manochan
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
 source-wordcount: '3848'
 ht-degree: 0%
 
 ---
-
-
 
 # Lägga till användare och skapa användargrupper
 
@@ -610,7 +609,7 @@ När du lägger till en extern användare visas **[!UICONTROL Add External Regis
 
 +++Hur skapar man anpassade användargrupper?
 
-Klicka **[!UICONTROL Users]** > **[!UICONTROL User Groups]** och på sidan Användargrupper klickar du på **[!UICONTROL Add]**. I dialogrutan Lägg till användargrupp lägger du till användare både enskilt och som team.
+Klicka **[!UICONTROL Users]** > **[!UICONTROL User Groups]** och på sidan Användargrupper klickar du på **[!UICONTROL Add]**. I dialogrutan Lägg till användargrupp lägger du till användarna både enskilt och som ett team.
 
 ![](assets/custom-user-group.png)
 

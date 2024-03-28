@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation för Adobe Learning Manager
-source-git-commit: fc77dad8f39d6d29c8ec74eb5ba137bf12ab7f8c
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '588'
 ht-degree: 8%
 
 ---
@@ -69,7 +69,6 @@ ht-degree: 8%
    * [Inställningar](administrators/feature-summary/settings.md)
    * [Meddelanden](administrators/feature-summary/user-notifications.md)
    * [Användare av iPad- och Android-surfplattor](administrators/feature-summary/ipad-android-tablet-users.md)
-   * [Komma igång som administratör](administrators/feature-summary/getting-started.md)
    * [Rensa användare](administrators/feature-summary/purge-users.md)
    * [Taggar](administrators/feature-summary/tags.md)
    * [INNEHÅLLSKATALOG FÖR LEARNING MANAGER](administrators/feature-summary/content-catalogs.md)

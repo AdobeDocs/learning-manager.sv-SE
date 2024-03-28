@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Lägg till klassrumsplatser
 description: Administratörer kan nu konfigurera ett bibliotek med klassrumsplatser. För varje klassrumsplats kan administratörerna ange metadata som omfattar platsnamn, platsgräns samt ytterligare information, t.ex. plats-URL. Författare och administratörer kan sedan använda dessa förkonfigurerade klassrumsplatser för att ställa in instruktörsledda utbildningshändelser (klassrumsmoduler).
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 51a1e38f-d4e2-4c19-bbf7-6696505c0dfd
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1174'
 ht-degree: 0%
 
 ---
-
-
 
 # Klassrum
 
@@ -26,13 +25,14 @@ Du kan lägga till en klassrumsplats med användargränssnittet:
 
 1. Klicka på i administratörsprogrammet (gränssnittet för administratörsroller). **[!UICONTROL Settings]** > **[!UICONTROL Classroom Locations]**.
 
-1. Klicka på **[!UICONTROL Add More]** knapp.
+1. Klicka **[!UICONTROL Add]** > **[!UICONTROL New Location]**.
 
 1. I dialogrutan **[!UICONTROL Classroom Location]** i dialogrutan anger du följande information:
 
-   * Ange kommandot **[!UICONTROL Classroom Location Name]**. Använd ett unikt namn. Annars visas ett felmeddelande i Learning Manager.
+   * Ange kommandot **[!UICONTROL Location Name]**. Använd ett unikt namn. Annars visas ett felmeddelande i Learning Manager.
    * Ange platsbeskrivningen i rutan **[!UICONTROL Location Information]** område. Det här fältet är valfritt.
    * Ange kommandot **[!UICONTROL Location URL]**. Eleven kan se den här informationen i klassrumsinformationen. URL-adressen kan också vara en URL-adress för mappningsplatsen om det behövs. Det här är ett valfritt fält.
+   * Ange och välj **[!UICONTROL Location Region]**. Det här fältet är valfritt.
    * Ange antalet lediga platser i **[!UICONTROL Seat Limit]** område. Detta anger klassrummets kapacitet. Detta värde kan ändras när du skapar den faktiska lärarledda utbildningsevenemanget.
 
    ![](assets/add-classroom-location.png)
@@ -59,6 +59,8 @@ Dialogrutan visar information om varje session, inklusive namnet på sessionen, 
 
 Inställningen **[!UICONTROL Future Sessions]** fältvisning **nolla** när klassrummet inte används för någon session eller när klassrummet är associerat med tidigare sessioner.
 
+**[!UICONTROL Seat Limit]** - Visar klassrummets kapacitet.
+
 **Plats-URL** - URL som du angav när du skapade klassrumsplatsen.
 
 **Platsinformation** - Klassrumsinformationen som du angav när du skapade klassrummet.
@@ -67,7 +69,7 @@ Inställningen **[!UICONTROL Future Sessions]** fältvisning **nolla** när klas
 
 Du kan också lägga till en eller flera klassrumsplatser genom att importera en CSV-fil som innehåller klassrumsinformationen.
 
-in **[!UICONTROL Admin app]** > **[!UICONTROL Settings]** > **[!UICONTROL Classroom Locations]** klickar du på **[!UICONTROL Import Locations CSV]** knapp. Bläddra till den plats som innehåller CSV-filen och välj filen.
+in **[!UICONTROL Admin app]** > **[!UICONTROL Settings]** > **[!UICONTROL Classroom Locations]** > **[!UICONTROL Add]** klickar du på **[!UICONTROL Bulk import locations]** knapp. Bläddra till den plats som innehåller CSV-filen och välj filen.
 
 CSV-filen använder dessa fält för att lagra information om en eller flera klassrumsplatser:
 
