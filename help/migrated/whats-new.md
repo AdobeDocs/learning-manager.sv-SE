@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Sammanfattning av nya funktioner
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: df56839b761ec3ab5354b5ea84b805608c36451c
+source-git-commit: 8dcfdc7336e5be7f327626d2973671ca56ec58ce
 workflow-type: tm+mt
-source-wordcount: '3666'
+source-wordcount: '3764'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Om ett stort antal elever är registrerade på kursen, till exempel fler än 50 
 
 ### Admin - sidan Elever
 
-När du söker efter en användare visas **Hämta elev** och **Exportera** alternativ hämta samma rapport. Under tiden kan du när du söker efter en användargrupp hämta filtrerade användare från den användargruppen. När du söker i en användargrupp visas **Hämta elevlista** ändringar i **Hämta rensningslista för användargrupp** Inställningen **Exportera** -alternativet hämtar hela listan igen.
+När du söker efter en användare visas **Hämta elev** och **Exportera** alternativ hämta samma rapport. Under tiden kan du när du söker efter en användargrupp hämta filtrerade användare från den användargruppen. När du söker i en användargrupp visas **Hämta elevlista** ändringar i **Hämta elevlista för användargrupp** Inställningen **Exportera** -alternativet hämtar hela listan igen.
 
 ### Administratör - sidan Användare
 
@@ -230,11 +230,24 @@ Om antalet användare i en användargrupp är stort kan **Status** listrutan vis
 I den här versionen har vi förbättrat sökfunktionen. Sökresultaten hämtas inte bara utifrån metadata utan också semantisk och innehållsrik sökning för att få resultat baserade på precision, aktuell information och relevant innehåll.
 
 Ändringen gäller följande:
+
 * Katalog och Min utbildningssida: hovringsåtgärden för kurs, utbildningsväg och certifiering har tagits bort.
 * Utseendet på sökfältet.
 * Filtertaggar har lagts till i utbildningsappen.
 
 Kontakta CSAM-teamet för Adobe Learning Manager för att aktivera sökfunktionerna.
+
+## Ändringar i användargränssnittet {#ui-changes}
+
+### Sida för att skapa kurs
+
+När du mappar kurserna till en kompetensnivå visas listan med kompetenser med sökförst. Med andra ord, sök färdigheter, och du kommer att se en lista över färdigheter som matchar söktermen.
+
+### Användargrupper
+
+#### Admin - sidan Elever
+
+När du söker efter en användare visas **Hämta elev** och **Exportera** alternativ hämta samma rapport. Under tiden kan du när du söker efter en användargrupp hämta filtrerade användare från den användargruppen. När du söker i en användargrupp visas **Hämta elevlista** ändringar i **Hämta elevlista för användargrupp** Inställningen **Exportera** -alternativet hämtar hela listan igen.
 
 ## Ändringar i rapporter
 
