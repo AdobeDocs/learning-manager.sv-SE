@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Sammanfattning av nya funktioner
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 1bdbabfd0b2e365c713d9beb393e7413cd15a9fd
+source-git-commit: 5828af43214a643b64153ed33c2858c13d9aca10
 workflow-type: tm+mt
 source-wordcount: '3764'
 ht-degree: 0%
@@ -245,7 +245,7 @@ När du mappar kurserna till en kompetensnivå visas listan med kompetenser med 
 
 ### Användargrupper
 
-#### Admin - sidan Elever
+#### Administratör: sidan Elever
 
 När du söker efter en användare visas **Hämta elev** och **Exportera** alternativ hämta samma rapport. Under tiden kan du när du söker efter en användargrupp hämta filtrerade användare från den användargruppen. När du söker i en användargrupp visas **Hämta elevlista** ändringar i **Hämta elevlista för användargrupp** Inställningen **Exportera** -alternativet hämtar hela listan igen.
 
