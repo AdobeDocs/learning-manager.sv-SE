@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Användarhandbok för programutvecklare
 description: Learning Manager V1 API är nu föråldrat. V1 API:erna slutar fungera från och med 28 februari 2021. Vi rekommenderar att du använder V2 API:er för att interagera med Learning Manager.
 contentowner: jayakarr
-source-git-commit: 956c119a5650b535a906157dc4d36f2ff075cf01
+exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '3382'
 ht-degree: 0%
 
 ---
-
-
 
 # Användarhandbok för programutvecklare
 

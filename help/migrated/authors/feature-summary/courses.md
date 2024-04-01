@@ -3,14 +3,13 @@ description: Läs den här artikeln om du vill lära dig hur du skapar kurser, c
 jcr-language: en_us
 title: Skapa, ändra och publicera kurser
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '6741'
 ht-degree: 0%
 
 ---
-
-
 
 # Skapa, ändra och publicera kurser
 
@@ -70,6 +69,7 @@ Följ stegen nedan för att skapa en kurs:
    OBS! Detta aktiveras bara när Adobe Commerce-anslutningen har konfigurerats.
 
 1. Aktivera kryssrutan om du vill ge elever möjlighet att avregistrera sig själva från din kurs **Elever kan avregistrera sig själva**.
+
 1. **Instanskonfiguration**
 
    Om du aktiverar det här alternativet kan elever som är i läget Pågår besöka andra instanser och registrera sig där. En elev kan sedan behålla förloppet i föregående instans.
@@ -898,4 +898,3 @@ Mer information finns i [avsnitt om flera försök](courses.md#Allowmultipleatte
 Nej, innehållet som laddas upp i Learning Manager är en publicerad zip-fil och är inte källfilen. Även om innehållet hämtas kan det därför inte redigeras i ett redigeringsverktyg. Du behöver en källfil för att redigera innehållet.
 
 +++
-

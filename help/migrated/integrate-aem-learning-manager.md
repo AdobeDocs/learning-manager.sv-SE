@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Integrera Learning Manager med AEM
 description: Learning Manager är ett system för hantering av inlärning med ett inbyggt system för hantering av utbildningsinnehåll. Användarna hanterar sitt utbildningsinnehåll genom att ladda upp det till Learning Manager så att Learning Manager utför versionshantering, allokering till kurser, definierar synligheten för elever , spårar förbrukning och rapporterar tillbaka till administratörer.
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
-
-
 
 # Integrera Learning Manager med AEM
 

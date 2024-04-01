@@ -1,7 +1,8 @@
 ---
 title: Nyheter i den här versionen
 description: Läs om de nya funktionerna och förbättringarna i november 2023-versionen av Adobe Learning Manager.
-source-git-commit: 1b0a89bf14ed4e48c3da925686d5e2becd94e320
+exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '2365'
 ht-degree: 1%
@@ -168,11 +169,48 @@ Om Användarbehörighet eller Alla användargrupper har valts och anpassad admin
 
 En anpassad administratör kan komma åt följande rapporter enligt det definierade omfånget:
 
-| Rapportera | Tillgängligt | Omfång |
+<table>
+    <tbody>
+        <tr>
+            <td>
+    <p style="text-align: left;"><b>Rapportera</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>Tillgängligt</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>Omfång</b></p></td>
+        </tr>
+    <tr>
+   <td>
+    <p>Verifieringskedja för innehåll</p></td>
+   <td>
+    <p>Ja</p></td>
+   <td>
+    <p>Fullständig katalog</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Verifieringskedja för användare</p></td>
+   <td>
+    <p>Ja</p></td>
+   <td>
+    <p>Fullständig användare</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Inloggningsåtkomst</p></td>
+   <td>
+    <p>Ja</p></td>
+   <td>
+    <p>Fullständig användare</p></td>
+  </tr>
+    </tbody>
+</table>
+
+<!--| Report | Available | Scope |
 |--- |--- |
-| Verifieringskedja för innehåll | Ja | Fullständig katalog |
-| Verifieringskedja för användare | Ja | Fullständig användare |
-| Inloggningsåtkomst | Ja | Fullständig användare |
+| Content Audit Trail | Yes | Full Catalog |
+| User Audit Trail | Yes | Full User |
+|Login Access | Yes | Full User |-->
 
 ## Förbättrad anslutningsintegrering
 

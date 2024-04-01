@@ -4,7 +4,7 @@ title: Anpassade roller
 description: Med funktionen Utbildningsvägar kan du definiera anpassade roller och tilldela specifika ansvarsområden till en uppsättning användare. Med den här funktionen kan du tilldela ansvar utanför personens befintliga roll.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '2155'
 ht-degree: 1%
@@ -221,6 +221,7 @@ En användare med en anpassad roll kan:
      </tr>
     </tbody>
    </table>
+
 1. **Användare:** Använd det här alternativet om du vill ange vilka användare som tilldelas den här rollen. Du kan välja en eller flera användare med sökrutan.
 
    **Lägg till användare i CSV-överföring med anpassade roller:** Om du vill lägga till användare via en CSV-uppdatering lägger du till en CustomRole-kolumn i CSV-filen som administratören använde för att importera användare. Ange användarens roll under kolumnen Anpassad roll för de användare som du vill tilldela en anpassad roll till. Ladda upp CSV-filen genom att klicka på  **[!UICONTROL Add > Upload a CSV]**.

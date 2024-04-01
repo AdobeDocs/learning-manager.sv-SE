@@ -3,14 +3,13 @@ description: Läs den här artikeln om du vill veta hur du visar och utför kurs
 jcr-language: en_us
 title: Kurser
 contentowner: manochan
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '2730'
 ht-degree: 0%
 
 ---
-
-
 
 # Kurser
 
@@ -170,7 +169,7 @@ Först efter att ha registrerat sig till en kurs kan en elev ge stjärnfeedback 
 
 En elev kommer att kunna välja en viss stjärna (av 5) och skicka in betyget. Eleven kan också redigera valet genom att klicka på en annan stjärna. När du har skickat visas meddelandet Tack för din feedback.
 
-Om eleven vill skicka återkopplingen kan han/hon göra det genom att klicka på meddelandet. Knappen **Skicka **återaktiveras. En elev kan ge stjärnbetyg flera gånger efter registrering till en kurs. Det senaste betyget kommer alltid att beaktas.
+Om eleven vill skicka återkopplingen kan han/hon göra det genom att klicka på meddelandet. Inställningen **Skicka** knappen återaktiveras. En elev kan ge stjärnbetyg flera gånger efter registrering till en kurs. Det senaste betyget kommer alltid att beaktas.
 
 När eleven ger ett betyg, det genomsnittliga stjärnbetyget och antalet elever som har gett stjärngraderingarna i **Kursöversikt** sidan.
 
@@ -211,7 +210,7 @@ Alla filter och andra alternativ visas i videon nedan.
 
 ### Förhandsgranska innehåll
 
-Du kan utforska och förhandsgranska kursen och se om den passar dina utbildningsbehov. Klicka på knappen **Förhandsgranska **och se kursförhandsgranskningen. Förhandsgranskningen är tillgänglig i två minuter.
+Du kan utforska och förhandsgranska kursen och se om den passar dina utbildningsbehov. Klicka på **Förhandsgranska** och se förhandsgranskningen av kursen. Förhandsgranskningen är tillgänglig i två minuter.
 
 ![](assets/content-marketplace-learner.gif)
 *Förhandsgranska innehåll på marknaden*
@@ -272,7 +271,7 @@ Som elev kan du interagera med andra elever och dina instruktörer på fliken Di
 
 När du klickar på fliken Diskussioner kan du se befintliga inlägg och kommentarer för kursen. Om du redan har registrerat dig till kursen kan du också börja skriva inlägg eller kommentarer så att andra användare kan se dem. När du har skrivit meddelandet klickar du på Publicera. Ditt inlägg måste innehålla minst 10 tecken.
 
-Inlägget visas omedelbart på fliken Diskussioner. Du kan sortera inläggen som Newset First eller Oldest First och ta bort inläggen som du skrev. Även efter att du avregistrerat dig från kursen kan du fortfarande se alla inlägg och ta bort inläggen som du skrev.
+Inlägget visas omedelbart på fliken Diskussioner. Du kan sortera inläggen som Nyast först eller Äldst först och ta bort de inläggen som du skrev. Även efter att du avregistrerat dig från kursen kan du fortfarande se alla inlägg och ta bort inläggen som du skrev.
 
 ![](assets/learner-discussion.png)
 *Visa deltagardiskussioner*
