@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Anslutningar för Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: ec8d204ba7d85fab84c7d1db4a1ba741f363566c
 workflow-type: tm+mt
-source-wordcount: '15103'
+source-wordcount: '15372'
 ht-degree: 0%
 
 ---
@@ -919,54 +919,54 @@ Konfigurera en miniOrange-anslutning genom att kontakta Learning Manager CSM-tea
 
 1. Du får en avisering när importen är klar. Om du vill visa eller redigera importloggen klickar du på **[!UICONTROL Users > Import log.]**
 
-#### Ta bort en anslutning {#deleteaconnection}
+<!-- #### Delete a connection {#deleteaconnection}
 
-Följ de här stegen om du vill ta bort en etablerad miniOrange-anslutning.
+To delete an established  miniOrange  connection, follow these steps. -->
 
-<!---## Video conferencing connectors (Bluejeans Meetings and Zoom) {#bluejeansconnector}
+## Zoomkoppling {#zoom-connector}
 
-You can now integrate Learning Manager with BlueJeans and Zoom connectors and use them to host classes.  The connector enables you to set up video conferencing meetings/classes with the learners.
+Du kan integrera Learning Manager med Zoom-anslutningar och använda dem för att vara värd för klasser.  Med kontakten kan du ställa in videokonferensmöten/-klasser med eleverna.
 
-To set up and use the connector, follow these steps.
+Följ de här stegen för att konfigurera och använda anslutningen.
 
-1. In Learning Manager  home page , hover the mouse over the BlueJeans/Zoom thumbnail. A menu appears. Click  **[!UICONTROL Connect]** option from the menu.
+1. På startsidan för Learning Manager håller du pekaren över zoomminiatyrbilden. En meny visas. Klicka  **[!UICONTROL Connect]** -alternativet på menyn.
 
-   ![](assets/connectors.png)
+   <!-- ![](assets/connectors.png)
 
-   *Zoom connector tile*
+   *Zoom connector tile* -->
 
-1. The BlueJeans/ Zoom connector page opens. Enter the details of your account into respective fields to integrate and synchronize the user feed. You can get the details from the administrator of your connector account.
+1. Sidan Zoomkoppling öppnas. Ange information om kontot i respektive fält för att integrera och synkronisera användarflödet. Du kan få information från administratören för ditt anslutningskonto.
 
-   ![](assets/bluejeans-connecotrpage.png)
-   *Connect to BlueJeans/ Zoom*
+   <!-- ![](assets/bluejeans-connecotrpage.png)
+   *Connect to BlueJeans/ Zoom* -->
 
    >[!NOTE]
    >
-   >As a learner, while enabling the connector, use the same email id used for your Learning Manager account to enable user feeds back into Learning Manager.
+   >Elever som aktiverar kopplingen ska använda samma e-post-ID som används för ditt konto för Learning Manager för att möjliggöra återkoppling av användare till Learning Manager.
 
-1. Once the connection is established, as an Author, create a VC course with BlueJeans/ Zoom as the conferencing system.
+1. När anslutningen upprättats kan du som författare skapa en VC-kurs med Zoom som konferenssystem.
 
-   ![](assets/vc.jpg)
+   <!-- ![](assets/vc.jpg)
    
-   *Create a VC course*
+   *Create a VC course* -->
 
-1. Administrators, managers, and learners can enroll learners  to  the created course. Upon enrollment, the learner receives an email. The learner can sign in to their Learning Manager account to view the program details and take the course.
-1. When the course is complete, the completion report is sent to Learning Manager. The administrator can see the completion report to check the attendance and score of the learners.
+1. Administratörer, chefer och elever kan registrera elever för kursen som skapats. Vid registreringen får eleven ett e-postmeddelande. Eleven kan logga in på sitt Learning Manager-konto för att visa programinformationen och ta kursen.
+1. När kursen är slutförd skickas slutrapporten till Learning Manager. Administratören kan se slutföranderapporten för att kontrollera elevernas närvaro och poäng.
 
    ![](assets/attendence-and-scoringreport.png)
-   *Attendance and scoring report*
+   *Närvaro- och poängrapport*
 
-### Create a zoom server-to-server OAuth app
+### Skapa en OAuth-app för zoomserver till server
 
-When you create a Zoom Server-to-Server OAuth app to be used in Adobe Learning Manager, you must add scopes required by Adobe Learning Manager while creating the connection.
+När du skapar en OAuth-app för zoomserver-till-server som ska användas i Adobe Learning Manager måste du lägga till omfattningar som krävs av Adobe Learning Manager när du skapar anslutningen.
 
-Adobe Learning Manager requires the scopes below and the scopes must be selected in the OAuth app.
+Adobe Learning Manager kräver omfånget nedan och omfånget måste väljas i OAuth-appen.
 
-* View all user meetings `/meeting:read:admin`
-* View and manage all user meetings `/meeting:write:admin`
-* View report data `/report:read:admin`
-* View all user information `/user:read:admin`
-* View users' information and manage users `/user:write:admin`-->
+* Visa alla användarmöten `/meeting:read:admin`
+* Visa och hantera alla användarmöten `/meeting:write:admin`
+* Visa rapportdata `/report:read:admin`
+* Visa all användarinformation `/user:read:admin`
+* Visa användarinformation och hantera användare `/user:write:admin`
 
 ## Koppling till ruta {#boxconnector}
 
