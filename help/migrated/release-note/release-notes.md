@@ -145,7 +145,7 @@ En ny rapport över instruktörsutnyttjande, rapport över utbildningsomgångar,
 
 **Stöd för hybridsessioner**
 
-Adobe Learning Manager stöder nu möjligheten att skapa hybridsessioner med instruktörsledd utbildning (ILT). Virtuella ILT-sessioner kan skapas med valfri platsinformation så att elever kan närvara vid sessionen personligen även om de är tillgängliga på platsen.
+Adobe Learning Manager stöder nu möjligheten att skapa hybridsessioner med handledarledd utbildning (ILT). Virtuella ILT-sessioner kan skapas med valfri platsinformation så att elever kan närvara vid sessionen personligen även om de är tillgängliga på platsen.
 
 **Bättre framstegsspårning för klassrums- och virtuell ILT**
 
@@ -153,7 +153,7 @@ Klassrums- och virtuella ILT-moduler ger nu möjlighet att rapportera en elevs q
 
 **Adobe Learning Manager-app för Microsoft Teams**
 
-Den nya Adobe Learning Manager-appen på Microsoft Teams är utformad för att främja lärande i arbetsflödet och öka inlärningen i samhället. Elever kommer att kunna komma åt utbildningsinnehåll inom plattformen Microsoft Teams utan att behöva växla till en webbläsare. Kontakta din CSAM för betaversionen av Adobe Learning Manager-appen på MS Teams.
+Den nya Adobe Learning Manager-appen på Microsoft Teams är utformad för att främja lärande i arbetsflödet och öka inlärningen i samhället. Elever kommer att kunna komma åt utbildningsinnehåll inom plattformen Microsoft Teams utan att behöva växla till en webbläsare. Kontakta din CSAM för betaversionen av Adobe Learning Manager-programmet på MS Teams.
 
 ### Fel som är åtgärdade i den här uppdateringen
 
@@ -214,10 +214,10 @@ Den nya Adobe Learning Manager-appen på Microsoft Teams är utformad för att f
 Ingenting händer när du klickar på aviseringarna på fliken Aktivitet i programmet på iPhone 14.
 * I MS Teams-programmet visar Learning Manager-meddelanden (slutförda, registrerade, deadline och försenade) inte kursens status och namn på fliken Aktivitet.
 * Ett popup-fönster med XML-innehåll visas när integreringsadministratören inte godkänner MS Teams-programmet.
-* Användargränssnittsspråket i Adobe Learning Manager-appen på MS Teams ändras ibland inte som förväntat när språket ändras.
+* Användargränssnittsspråket i Adobe Learning Manager-programmet på MS Teams ändras ibland inte som förväntat när språket ändras.
 * Du kan inte interagera med det första meddelandet när fokus är inom iFrame (flikarna Hem och Katalog).
 
-**Begränsningar för mobilappen Adobe Learning Manager**
+**Begränsningar med Adobe Learning Manager-mobilappen**
 
 * Visa offlineinnehåll.
 * Rutnäts-/listvy på sidan Katalog/Min utbildning.
@@ -379,7 +379,7 @@ För Länkad i utbildningskontakt finns en ny kryssruta som introduceras där el
 
 ### Nyheter i den här versionen
 
-November 2022-utgåvan av Adobe Learning Manager består av följande:
+November 2022-versionen av Adobe Learning Manager består av följande:
 
 * Konfiguration av flera SSO
 * Stöd för funktioner som inte är inloggade
@@ -389,7 +389,7 @@ November 2022-utgåvan av Adobe Learning Manager består av följande:
 
 Mer information finns i [Nyheter i november 2022-versionen av Adobe Learning Manager](/help/migrated/whats-new-2022-november.md).
 
-**Obs!** I november 2022-versionen av Adobe Learning Manager kommer Zoom att fasas ut [JWT-autentisering senast juni 2023](https://marketplace.zoom.us/docs/guides/auth/jwt/). Zoomanslutningen med JWT fortsätter därför att fungera till det angivna datumet, men vi rekommenderar att användarna skapar OAuth-appen Server-till-Server för att ersätta funktionaliteten i sina konton. Alla nya anslutningar har Zoom OAuth-autentisering som standard.
+**Obs!** Med november 2022-versionen av Adobe Learning Manager kommer Zoom att fasas ut [JWT-autentisering senast juni 2023](https://marketplace.zoom.us/docs/guides/auth/jwt/). Zoomanslutningen med JWT fortsätter därför att fungera till det angivna datumet, men vi rekommenderar att användarna skapar OAuth-appen Server-till-Server för att ersätta funktionaliteten i sina konton. Alla nya anslutningar har Zoom OAuth-autentisering som standard.
 
 ### Fel som är åtgärdade i den här uppdateringen
 
@@ -468,11 +468,11 @@ Mer information finns i [Nyheter i november 2022-versionen av Adobe Learning Man
 * HTML-kod visas när elever kontrollerar sina meddelanden, vilket har negativ inverkan på upplevelsen.
 * På instrumentpanelen visas inlärningstiden felaktigt som noll timmar.
 
-## UPPDATERING: Adobe Learning Manager kommer att döpas om till Adobe Learning Manager
+## UPPDATERING: Adobe Learning Manager kommer att profileras om till Adobe Learning Manager
 
 Det här är en uppdatering om en kommande ändring och hjälper dig att förbereda dig för den.
 
-**Adobe Learning Manager som en produkt kommer att varumärkesprofileras om till Adobe Learning Manager i juli 2022**. Detta är en strategisk ansträngning som görs för att mer exakt återspegla anpassningen av produkten med vissa affärsprioriteringar.
+**Adobe Learning Manager kommer att profileras om till Adobe Learning Manager i juli 2022**. Detta är en strategisk ansträngning som görs för att mer exakt återspegla anpassningen av produkten med vissa affärsprioriteringar.
 
 Produktteamet vidtar alla åtgärder för att säkerställa att din användning av plattformen inte påverkas. Du kan fortsätta använda produkten som vanligt. Plattformens administratörer kan märka det nya varumärkesnamnet på vissa skärmar i juli.
 
@@ -515,7 +515,7 @@ en [instans](https://learningmanagerapac.adobe.com/acapindex.html) Learning Mana
 
 ### Vad stöds
 
-Adobe Learning Manager India-instansen är i nivå med andra instanser som EU:s och USA:s regioner när det gäller funktionsförmåga. Det finns några funktioner som inte stöds i Indien instans. Dessa är:
+Adobe Learning Manager India-instansen är i nivå med andra instanser som EU:s och USA:s när det gäller funktionsförmåga. Det finns några funktioner som inte stöds i Indien instans. Dessa är:
 
 * Kreditkortsbetalning för köp av platser
 * Creative Cloud innehållskatalog
