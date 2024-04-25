@@ -2,14 +2,13 @@
 description: Lär dig skapa innehåll som följer kurser i din egen takt.
 jcr-language: en_us
 title: Innehållsbibliotek
-source-git-commit: 5a8f1af4af180e04fced782ff58111269e005a20
+exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
+source-git-commit: 0a096888ab9913bb38391f9dc7b21fad3d90e91d
 workflow-type: tm+mt
-source-wordcount: '3105'
+source-wordcount: '3088'
 ht-degree: 0%
 
 ---
-
-
 
 # Innehållsbibliotek
 
@@ -115,21 +114,26 @@ Som nämnts i föregående avsnitt kan du lägga till både interaktivt och stat
 
 ## Lägga till statiskt innehåll {#addstaticcontent}
 
-1. Klicka på Innehållsbibliotek i den vänstra rutan när du har loggat in som författare och klicka på Lägg till.
+1. Välj **[!UICONTROL Content Library]** i den vänstra rutan när du har loggat in som **Författare** och välj **[!UICONTROL Add]** > **[!UICONTROL Content]**.
 
-   Du kan också klicka på Skapa innehåll på sidan Komma igång.
+>[!NOTE]
+>
+>Markering **[!UICONTROL Add]** visar två alternativ. **[!UICONTROL Content]** och **[!UICONTROL Quiz]**: Se [Skapa ett quiz](content-library.md#createaquiz) för mer information.
 
-1. I fältet Namn anger du ett namn på det innehåll som du vill överföra.
-1. I fältet Beskrivning anger du beskrivningen för innehållet. Kontrollera att den beskrivning du vill ange är meningsfull. Teckengränsen är 400 tecken.
-1. Om du vill lägga till innehållet klickar du på Lägg till innehållsfil och överför resursfilen. När du lägger till innehåll för flera språk kan du inte kombinera statiskt och interaktivt innehåll i en enda grupp. Antingen ska allt ditt innehåll på alla språk vara statiskt, eller så ska allt innehåll vara interaktivt.
+
+Du kan också välja **[!UICONTROL Create Content]** från **[!UICONTROL Getting Started]** sidan.
+
+1. I dialogrutan **[!UICONTROL Name]** skriver du namnet på det innehåll som du vill överföra.
+1. I dialogrutan **[!UICONTROL Description]** skriver du beskrivningen för innehållet. Kontrollera att den beskrivning du vill ange är meningsfull. Teckengränsen är 400 tecken.
+1. Om du vill lägga till innehållet väljer du **[!UICONTROL Add Content File]** och överför resursfilen. När du lägger till innehåll för flera språk kan du inte kombinera statiskt och interaktivt innehåll i en enda grupp. Antingen ska allt ditt innehåll på alla språk vara statiskt, eller så ska allt innehåll vara interaktivt.
 
    Om du vill ersätta innehållet kan du ersätta ett statiskt innehåll med ett annat statiskt innehåll. Detsamma gäller interaktivt innehåll.
 
-1. I fältet Varaktighet kan du välja att ange den förväntade tid en elev skulle tillbringa i modulen. Varaktigheten anges i minuter.
+1. I dialogrutan **[!UICONTROL Duration]** kan du välja att ange den förväntade tid en elev skulle tillbringa i modulen. Varaktigheten anges i minuter.
 
-   Utbildningstiden som eleven lagt ner beräknas baserat på den varaktighet som angetts om eleven har markerat en kurs som slutförd. Om eleven förbrukar innehållet i spelaren läggs tiden i spelaren till i inlärningstiden. Om den faktiska innehållstiden är kortare än den angivna varaktigheten händer ingenting eftersom spelaren alltid respekterar innehållstiden för visning.
+   Utbildningstiden som eleven lagt ner beräknas baserat på den varaktighet som angetts om eleven har markerat en kurs som slutförd. Om eleven förbrukar innehållet i spelaren läggs tiden i spelaren till inlärningstiden. Om den faktiska innehållstiden är kortare än den angivna varaktigheten händer ingenting eftersom spelaren alltid respekterar innehållstiden för visning.
 
-1. I fältet Innehållstaggar anger du taggarna för det överförda innehållet så att innehållet kan identifieras.
+1. I dialogrutan **[!UICONTROL Tags]** -fältet, anger du taggarna för det överförda innehållet så att det går att identifiera innehållet.
 
    En författare kan använda dessa taggar för att söka efter innehållet när han eller hon lägger till innehållet i kursen.
 
@@ -139,23 +143,25 @@ Innehållsbiblioteket underhåller också versioner av det överförda innehåll
 
 ## Lägga till interaktivt innehåll {#addinteractivecontent}
 
-1. Klicka på Innehållsbibliotek i den vänstra rutan när du har loggat in som författare och klicka på Lägg till.
+1. Välj **[!UICONTROL Content Library]** i den vänstra rutan när du har loggat in som **Författare** och välj **[!UICONTROL Add]** > **[!UICONTROL Content]**.
 
-   Du kan också klicka på Skapa innehåll på sidan Komma igång.
+>[!NOTE]
+>
+>Markering **[!UICONTROL Add]** visar två alternativ. **[!UICONTROL Content]** och **[!UICONTROL Quiz]**: Se [Skapa ett quiz](content-library.md#createaquiz) för mer information.
 
-1. I fältet Namn anger du ett namn på det innehåll som du vill överföra.
-1. I fältet Beskrivning anger du beskrivningen för innehållet. Kontrollera att den beskrivning du vill ange är meningsfull. Teckengränsen är 245 tecken.
-1. Om du vill lägga till innehållet klickar du på Lägg till innehållsfil och överför resursfilen. När du lägger till innehåll för flera språk kan du inte kombinera statiskt och interaktivt innehåll i en enda grupp. Antingen ska allt ditt innehåll på alla språk vara statiskt, eller så ska allt innehåll vara interaktivt.
+Du kan också välja **[!UICONTROL Create Content]** från **[!UICONTROL Getting Started]** sidan.
+
+1. I dialogrutan **[!UICONTROL Name]** skriver du namnet på det innehåll som du vill överföra.
+1. I dialogrutan **[!UICONTROL Description]** skriver du beskrivningen för innehållet. Kontrollera att den beskrivning du vill ange är meningsfull. Teckengränsen är 245 tecken.
+1. Om du vill lägga till innehållet väljer du **[!UICONTROL Add Content File]** och överför resursfilen. När du lägger till innehåll för flera språk kan du inte kombinera statiskt och interaktivt innehåll i en enda grupp. Antingen ska allt ditt innehåll på alla språk vara statiskt, eller så ska allt innehåll vara interaktivt.
 
 * [Filtyper som stöds](content-library.md#supported)
 
   Det interaktiva innehållet kan vara ett SCORM-, AICC- eller Captivate-publicerat projekt. Filen måste vara en zip-fil.
 
-  Du kan också lägga till HTML-innehåll som har genererats från Captivate, Presenter eller Presenter Video Express.
+Du kan också lägga till HTML-innehåll som har genererats från Captivate, Presenter eller Presenter Video Express.
 
-[Filtyper som stöds](content-library.md#supported)
-
-1. Learning Manager stöder bildtexter för videoinnehåll som laddats upp i Learning Manager. Nu kan användarna ladda upp filen som innehåller bildtexter tillsammans med videofilen.
+1. **Learning Manager** har stöd för bildtexter för videoinnehåll som har laddats upp i Learning Manager. Nu kan användarna ladda upp filen som innehåller bildtexter tillsammans med videofilen.
 
    Därefter kan eleverna visa bildtexterna under uppspelningen av videomodulen.
 
@@ -163,11 +169,11 @@ Innehållsbiblioteket underhåller också versioner av det överförda innehåll
 
    Bildtextstöd är tillgängligt för videoinnehåll som laddas upp i innehållsbiblioteket i Learning Manager.
 
-   När du som författare laddar upp ett video- eller ljudinnehåll kan du även ladda upp .vtt-filen som innehåller bildtexterna.
+   När du som författare laddar upp ett video- eller ljudinnehåll kan du även ladda upp VTT-filen som innehåller bildtexterna.
 
    Undertexterna visas sedan i Fluidic-spelaren. Bildtexterna är också kompatibla med [WCAG2.0-standarder](https://www.w3.org/TR/WCAG20/).
 
-   När du lägger till ett videoinnehåll i biblioteket kan du också lägga till vtt-filen, som **måste** vara en giltig fil.
+   När du lägger till ett videoinnehåll i biblioteket kan du också lägga till VTT-filen, som måste vara en giltig fil.
 
    ![](assets/webvtt.png)
 
@@ -185,44 +191,44 @@ Innehållsbiblioteket underhåller också versioner av det överförda innehåll
 
    När du har lagt till detta innehåll i en kurs och när du förhandsgranskar kursen som elev kan du se bildtexterna på videon.
 
-   I spelaren växlar du knappen CC i Fluidic-spelaren för att visa eller dölja bildtexterna.
+   I spelaren växlar du CC-knappen på fluidic-spelaren för att visa eller dölja bildtexterna.
 
    Samma åsikt finns i **elevapp** samt i **Förgranska som elev**.
 
-   När du **lägga till, uppdatera eller ta bort** får du ett meddelande i vtt-filen.
+   När du **lägga till, uppdatera eller ta bort** VTT-filen får du ett meddelande.
 WebVTT-stöd är inte tillgängligt för:
 
    1. Videomeddelanden.
-   1. Video spelas upp i utbildningsinnehållet. Det här drivs av innehållet.
+   1. Video spelas upp i e-utbildningsinnehållet. Det här drivs av innehållet.
    1. Videon har laddats upp i Social utbildning.
    1. Video skapad i Learning Manager-datorprogram.
    1. Videoinnehåll som skapats via migreringsprocessen.
    1. Videouppspelning i mobilappen i offlineläge.
 
-1. I fältet Varaktighet kan du välja att ange den förväntade tid en elev skulle tillbringa i modulen. Varaktigheten anges i minuter.
-1. I fältet Innehållstaggar anger du taggarna för det överförda innehållet så att innehållet kan identifieras.
+1. I dialogrutan **[!UICONTROL Duration]** kan du välja att ange den förväntade tid en elev skulle tillbringa i modulen. Varaktigheten anges i minuter.
+1. I dialogrutan **[!UICONTROL Tags]** skriver du taggarna för det överförda innehållet så att innehållet kan identifieras.
 
 ### Stöd för delad katalog
 
 Om ett säljarkonto delar en katalog som innehåller kurserna och kurserna innehåller modulerna, ljudet eller videon med undertexterna måste kurserna fungera på samma sätt i köparkontot.
 
-Modulpropageringen ska fungera korrekt från säljare till inköpskonto. Detta kan inkludera - redigera/ta bort/lägga till vtt-filen i modulen.
+Modulspridning bör fungera korrekt från säljare till inköpskonto. Det kan vara redigering/radering/tillägg av VTT-filen i modulen.
 
-När du har överfört innehållet kan du se ett meddelande genom att klicka på klockikonen överst till höger på sidan. Varje gång du ändrar ett innehåll och överför det på nytt visas ett meddelande. Om du gör ändringarna får du bara meddelandet, inte andra författare.
+När du har överfört innehållet kan du se ett meddelande genom att välja **Klocka** längst upp till höger på sidan. Varje gång du ändrar ett innehåll och överför det på nytt visas ett meddelande. Om du gör ändringarna får du bara meddelandet, inte andra författare.
 
-## Skapa ett quiz
+## Skapa ett quiz {#createaquiz}
 
-Skapa utvärderingar i Adobe Learning Manager med det nya verktyget för att skapa quiz på sidan Innehållsbibliotek. De utvärderingar som skapas blir en del av innehållsbiblioteket och kan läggas till i en &quot;gemensam&quot; mapp för återanvändning av kurser.
+Skapa utvärderingar i Adobe Learning Manager med det nya verktyget för att skapa quiz på **[!UICONTROL Content Library]** sidan. Bedömningarna blir en del av **Innehållsbibliotek** och kan läggas till i en &quot;gemensam&quot; mapp för att kursen ska kunna återanvändas.
 
-1. Välj Innehållsbibliotek på den vänstra panelen.
+1. Välj **[!UICONTROL Content Library]** i panelen till vänster.
 1. I det övre högra hörnet på skärmen väljer du **Lägg till > Quiz**.
-1. Skriv frågeformulärets namn och beskrivning på sidan Skapa quiz.
-1. I avsnittet Quiz-innehåll väljer du **Lägg till quiz-fråga**.
-1. Välj frågetyp i dialogrutan Quiz-fråga. Det finns tre typer av frågor:
+1. I dialogrutan **[!UICONTROL Create Quiz]** skriver du frågesportens namn och beskrivning.
+1. I dialogrutan **[!UICONTROL Quiz Content]** -sektionen väljer du **Lägg till quiz-fråga**.
+1. I dialogrutan **[!UICONTROL Quiz question]** väljer du typ av fråga. Det finns tre typer av frågor:
    * Flervalsfråga
    * Sant eller falskt
    * Fyll i tomrummet
-1. Ange frågan och välj rätt svar.
+1. Skriv frågan och välj rätt svar.
 1. Ange poängen för frågeformuläret.
 1. Markera kryssrutan om du vill att frågan ska besvaras korrekt för att bli godkänd **Obligatoriskt att svara rätt för att klara testet**.
 1. Välj **Spara och stäng**.
@@ -248,11 +254,11 @@ När en administratör har skapat innehållsmapparna kan du som författare öve
 
 Exempelvis vill myndigheter ha full kontroll över innehållet och någon som förbiser innehållet måste ha tillgång till allt innehåll. Samtidigt måste innehållsskapare i byråer endast ha tillgång till sitt eget innehåll, och i vissa fall till någon annans innehåll.
 
-Innehållsbibliotek med befintligt innehåll (dvs. innehåll som laddas upp innan innehållsmappar konfigureras) definieras som **mappen Gemensamma filer**. Mappen kan inte tas bort eller dras tillbaka. Innehåll som ingår i mappen Offentlig är tillgängligt för alla typer av författare. När Innehållsmappar har konfigurerats bör standardförfattare och anpassade författare välja mappen där innehållet ska placeras när nytt innehåll överförs.
+Innehållsbibliotek med befintligt innehåll (dvs. innehåll som laddas upp innan innehållsmappar konfigureras) definieras som **mappen Gemensamma filer**. Mappen kan inte tas bort eller dras tillbaka. Innehåll som ingår i en gemensam mapp är tillgängligt för alla typer av författare. När Innehållsmappar har konfigurerats bör standardförfattare och anpassade författare välja mappen där innehållet ska placeras när nytt innehåll överförs.
 
 >[!NOTE]
 >
->Gemensamma och privata mappar utesluter varandra. Det innebär att innehåll **kan inte** vara associerad med mappen Offentlig och Privat samtidigt. Det kan antingen kopplas till mappen Gemensamma mappar, **eller** den kan kopplas till en eller flera privata mappar när som helst.
+>Gemensamma och privata mappar utesluter varandra. Det innebär att innehåll **kan inte** vara associerad med gemensamma och privata mappar samtidigt. Det kan antingen kopplas till mappen Gemensamma mappar, **eller** den kan kopplas till en eller flera privata mappar när som helst.
 
 När du lägger till ett innehåll kan du välja mappen där innehållet ska placeras.
 
@@ -294,13 +300,13 @@ Flytta innehållet i en gemensam mapp till en privat mapp genom att
 
    *Visa allt uppladdat innehåll*
 
-1. Välj det innehåll som du vill flytta det till en mapp. Klicka sedan på **[!UICONTROL Actions]** > **[!UICONTROL Organize Content]** > **[!UICONTROL Move Content to Folder]**.
+1. Välj det innehåll som du vill flytta det till en mapp. Välj sedan **[!UICONTROL Actions]** > **[!UICONTROL Organize Content]** > **[!UICONTROL Move Content to Folder]**.
 
    ![](assets/move-content-to-folder.png)
 
    *Flytta markerat innehåll till en mapp*
 
-1. Välj mappen dit du vill flytta innehållet. Klicka på **[!UICONTROL Move]**.
+1. Välj mappen dit du vill flytta innehållet. Välj **[!UICONTROL Move]**.
 
 ## Kopiera innehåll till en mapp {#copycontenttofolder}
 
@@ -326,14 +332,14 @@ Innehållet kan avlänkas från en angiven mapp **ENDAST** om den även är kopp
 
 ## Lägg till innehåll för olika språk {#addcontentfordifferentlanguages}
 
-1. Om du vill lägga till innehåll för olika språk klickar du på **Lägg till nytt språk** och välja önskade språk. Med det här tillvägagångssättet kan du lägga till flerspråkigt stöd för ditt innehåll.
+1. Om du vill lägga till innehåll för olika språk väljer du **Lägg till nytt språk** och välja önskade språk. Med det här tillvägagångssättet kan du lägga till flerspråkigt stöd för ditt innehåll.
 
    ![](assets/add-new-languagetab.png)
 
    *Lägga till ett nytt språk för ett innehåll*
 
 1. Upprepa processen för överföring av innehåll för de nya språken.
-1. Om du vill ta bort ett språk klickar du på fliken Lägg till nytt språk och avmarkerar markeringen.
+1. Om du vill ta bort ett språk markerar du rutan **[!UICONTROL Add New Language]** och rensar markeringen.
 
    När du har gjort ändringarna klickar du på Spara. I biblioteket är det nya innehållet nu tillgängligt för konsumtion.
 
@@ -456,7 +462,7 @@ Observera att befintliga kurser som använder innehållet, som har tagits bort f
 
 ## Vanliga frågor {#frequentlyaskedquestions}
 
-+++ Hur laddar man upp ett SCORM-innehåll i Adobe Learning Manager?
++++ Hur överför jag ett SCORM-innehåll i Adobe Learning Manager?
 
 Skapa en SCORM-kompatibel e-kurs i ett valfritt verktyg, till exempel Adobe Captivate, och publicera innehållet som en zip-fil. Ladda sedan upp zip-filen i katalogen i Learning Manager och ange kriterier för slutförande och slutförande.
 +++
