@@ -4,9 +4,9 @@ title: Lägg till klassrumsplatser
 description: Administratörer kan nu konfigurera ett bibliotek med klassrumsplatser. För varje klassrumsplats kan administratörerna ange metadata som omfattar platsnamn, platsgräns samt ytterligare information, t.ex. plats-URL. Författare och administratörer kan sedan använda dessa förkonfigurerade klassrumsplatser för att ställa in instruktörsledda utbildningshändelser (klassrumsmoduler).
 contentowner: saghosh
 exl-id: 51a1e38f-d4e2-4c19-bbf7-6696505c0dfd
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 8cb8a95812c97b0b59a2ae5188500cfafe09bd27
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1232'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,18 @@ Inställningen **[!UICONTROL Future Sessions]** fältvisning **nolla** när klas
 
 **Platsinformation** - Klassrumsinformationen som du angav när du skapade klassrummet.
 
+### Redigera klassrumsplatser
+
+Följ stegen nedan om du vill redigera klassrumsplatser:
+
+1. I Admin-programmet (gränssnittet för administratörsroller) väljer du **[!UICONTROL Settings]** > **[!UICONTROL Classroom Locations]**.
+
+1. Håll pekaren över den önskade klassrumsplatsen som du vill redigera.
+
+1. Välj **[!UICONTROL Edit Classroom Location]** -ikonen.
+
+1. Ändra klassrumsplatsen och välj **[!UICONTROL Save]**.
+
 ## Lägga till klassrum med CSV
 
 Du kan också lägga till en eller flera klassrumsplatser genom att importera en CSV-fil som innehåller klassrumsinformationen.
@@ -76,6 +88,7 @@ CSV-filen använder dessa fält för att lagra information om en eller flera kla
 * name
 * information
 * url
+* region
 * seatLimit
 
 Du kan anpassa rubrikerna.
@@ -86,7 +99,7 @@ När systemet har importerat CSV-filen läggs platserna till i biblioteket.
 
 ## Sök efter klassrum
 
-En författare eller administratör kan börja skriva platsnamnet för att se relevanta resultat som börjar visas. En författare eller administratör kan sedan välja en plats bland de visade resultaten. Om ingen plats visas i skrivhuvudets resultat kan användaren fortfarande lägga till namnet på den nya klassrumsplatsen. Observera att det här platsnamnet som skapats med arbetsflödet för att skapa session inte läggs till i platsbiblioteket som skapats av administratören.
+Om du vill söka efter klassrum väljer du den virtuella klassrumskursen och går sedan till **[!UICONTROL Instances]** > **[!UICONTROL Sessions]**. En författare eller administratör kan börja skriva platsnamnet för att se relevanta resultat som börjar visas. De kan sedan välja en plats bland de visade resultaten. Om ingen plats visas i resultatet före typen kan användaren fortfarande lägga till namnet på den nya klassrumsplatsen. Observera att det här platsnamnet som skapats med arbetsflödet för att skapa session inte läggs till i platsbiblioteket som skapats av administratören.
 
 När ett klassrum läggs till anger utbildningsplattformen även om klassrummet redan har bokats för den angivna tidsperioden. Det ger även alternativa tider slots som förslag. Det innebär att författaren kan justera mötestiden om han eller hon bestämmer sig för att använda samma plats i klassrummet.
 
@@ -94,21 +107,39 @@ När ett klassrum läggs till anger utbildningsplattformen även om klassrummet 
 
 *Sök efter klassrum*
 
-## Begränsa till förbestämd lista över instruktörer
-
-För närvarande kan användarna lägga till en registrerad användare som instruktör när de skapar en klassrums- eller virtuell klassrumssession. Den här funktionen ändras inte i den här versionen.
-
-Administratörer har nu dock ytterligare ett alternativ för att ytterligare kontrollera vem som tilldelas som instruktör på utbildningsplattformen. Detta förhindrar att en ny instruktör oavsiktligt läggs till när en session skapas.
-
 ## Administratör
 
-En administratör kan välja **[!UICONTROL Instructor Management]** alternativ (tillgängligt under **[!UICONTROL Admin app]** > **[!UICONTROL Settings]** > **[!UICONTROL General]**) för att säkerställa att endast de användare som är förbestämda instruktörer kan läggas till som instruktörer för en session.
+Du som är administratör kan hantera instruktörer och kursinstanser.
 
-För att konfigurera en instruktör kan administratörer välja **[!UICONTROL MANAGE]** > **[!UICONTROL Users]** för att öppna sidan för användarhantering väljer du en användare och tilldelar sedan instruktörsrollen till användaren (med **[!UICONTROL Actions]** > **[!UICONTROL Assign Role]**).
+### Konfigurera instruktörer:
+
+I Admin-appen, under **[!UICONTROL Settings]** > **[!UICONTROL General]** kan administratörer hitta **[!UICONTROL Instructor Management]** alternativ. Den här funktionen ser till att endast förhandsgodkända användare som tilldelats som instruktörer kan läggas till för att genomföra sessioner.
+
+Så här tilldelar du en instruktör:
+
+1. Gå till **[!UICONTROL Getting Started]** sidan och välja **[!UICONTROL Users]** i den vänstra rutan.
+
+1. Välj den användare du vill använda.
+
+1. Tilldela användaren instruktörsrollen genom att välja **[!UICONTROL Actions]** > **[!UICONTROL Assign Role]**.
+
+### Avbryta sessioner:
+
+På fliken **[!UICONTROL Course Instance]** -sidan, kan administratörer avbryta en eller flera sessioner. När sessioner avbryts tar systemet bort alla sessionsdetaljer men behåller platsbegränsningen.
+
+Dessutom kan administratörer:
+
+* **[!UICONTROL View Enrollment]**: Få information om registrerade elever och elever på väntelistan för varje session.
+* **[!UICONTROL Unenroll Learners]**: Ta bort elever från en kurs med avbrutna sessioner utan att ändra deras registreringsstatus.
+* **[!UICONTROL Attendance Management]**: Markera närvaro för sessioner, även om sessionerna avbryts.
+* **[!UICONTROL Course Completion]**: Administratörer kan markera en kurs som slutförd även om sessioner har avbrutits.
+* **[!UICONTROL Rescheduling]**: Schemalägg annullerade sessioner för senare datum och lägg till en instruktör under omplaneringen.
+
+Observera att elever fortsätter att vara registrerade för utbildningsinstansen efter uppsägningen. Deras registreringsstatus förblir oförändrad, till exempel bekräftad registrering, väntelista och väntande chefsgodkännande. Detta är användbart eftersom administratören kan ställa in och boka om den avbrutna sessionen i framtiden.
 
 ## Författare
 
-Om administratören väljer alternativet **[!UICONTROL Instructor Management]** kan en författare endast söka efter och lägga till användare med instruktörsrollen i klassrumssessioner, virtuella klassrumssessioner, checklistor och modulerna för filinlämning.
+Om administratören väljer **[!UICONTROL Instructor Management]** kan en författare endast söka efter och lägga till användare med instruktörsrollen i klassrumssessioner, virtuella klassrumssessioner, checklistor och modulerna för filinlämning.
 
 Dessutom kan en författare:
 
@@ -120,6 +151,16 @@ När en administratör har aktiverat **[!UICONTROL Instructor Management]** kan 
 >[!NOTE]
 >
 >Detta gäller inte när du migrerar sessioner med CSV-filen för sessioner. I det här fallet kan en användare som inte har instruktörsrollen läggas till som instruktör.
+
+På fliken **[!UICONTROL Course Instance]** kan en författare avbryta en eller flera sessioner. När sessioner avbryts tar systemet bort alla sessionsdetaljer men behåller platsbegränsningen.
+
+Därför kan en författare använda **[!UICONTROL Cancel Session]** länkar för att avbryta en eller flera klassrumssessioner eller virtuella klassrumssessioner som är tillgängliga i samma eller olika kursinstanser.
+
+## Begränsa till förbestämd lista över instruktörer
+
+För närvarande kan användarna lägga till en registrerad användare som instruktör när de skapar en klassrums- eller virtuell klassrumssession. Den här funktionen ändras inte i den här versionen.
+
+Administratörer har nu dock ytterligare ett alternativ för att ytterligare kontrollera vem som tilldelas som instruktör på utbildningsplattformen. Detta förhindrar att en ny instruktör oavsiktligt läggs till när en session skapas.
 
 ## Avbryt befintlig session
 
@@ -149,24 +190,3 @@ Systemet rensar också följande information efter att en session har avbrutits:
 * URL för virtuellt klassrum
 * Plats/plats har lagts till i sessionen
 * Väntelistegräns tillagd av instruktören
-
-## Administratör
-
-På fliken **[!UICONTROL Course Instance]** kan en administratör avbryta en eller flera sessioner. När administratören avbryter en session rensar systemet alla sessionsdetaljer utom platsbegränsningen.
-
-Dessutom kan en administratör:
-
-* Visa registrerade elever och elever på väntelistan för en session.
-* Avregistrera elever från en kurs med en eller flera avbrutna sessioner.
-* Markera närvaro för sessioner som har annullerats.
-* Markera en kurs som slutförd som innehåller en eller flera avbrutna sessioner.
-* Schemalägg om en session som avbröts.
-* Lägg till en instruktör till en annullerad session när du schemalägger den på nytt.
-
-Observera att även efter uppsägningen fortsätter elever som är registrerade i utbildningsinstansen att vara registrerade. Deras registreringsstatus - inklusive bekräftad registrering, väntelista och väntande chefsgodkännande - ändras inte. Detta är användbart eftersom administratören kan ställa in och schemalägga om den annullerade sessionen i framtiden.
-
-## Författare
-
-På fliken **[!UICONTROL Course Instance]** kan en författare avbryta en eller flera sessioner. När författaren avbryter en session rensas alla sessionsdetaljer utom platsbegränsningen.
-
-Därför kan en författare använda **[!UICONTROL Cancel Session]** länkar för att avbryta en eller flera klassrumssessioner eller virtuella klassrumssessioner som är tillgängliga i samma eller olika kursinstanser.
