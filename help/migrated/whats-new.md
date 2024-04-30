@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Sammanfattning av nya funktioner
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 5828af43214a643b64153ed33c2858c13d9aca10
+source-git-commit: 68c5bad63c997162d5a8bab3003543d89e3959ad
 workflow-type: tm+mt
-source-wordcount: '3764'
+source-wordcount: '3861'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Om antalet användare i användargruppen är färre än 10 000 kan du utföra en
 
 ### Admin - sidan Certifieringar
 
-Om det finns ett stort antal användare som är registrerade för en certifiering i de aktuella versionerna av Adobe Learning Manager kan du inte visa de oregistrerade eleverna sedan **Status** Listrutan är inaktiverad.
+Om det finns ett stort antal användare som är registrerade för en certifiering i de nuvarande versionerna av Adobe Learning Manager kan du inte visa de oregistrerade eleverna sedan **Status** Listrutan är inaktiverad.
 
 Om antalet registrerade användare är stort i den här versionen av Adobe Learning Manager kommer **Status** listrutan visar bara två alternativ- **Registrerad** och **Avregistrerad**. Alternativet **Registrerad** är markerat som standard. Om du **Avregistrerad** visas listan med avregistrerade elever.
 
@@ -235,7 +235,7 @@ I den här versionen har vi förbättrat sökfunktionen. Sökresultaten hämtas 
 * Utseendet på sökfältet.
 * Filtertaggar har lagts till i utbildningsappen.
 
-Kontakta CSAM-teamet för Adobe Learning Manager för att aktivera sökfunktionerna.
+Kontakta Adobe Learning Manager CSAM-team om du vill aktivera sökfunktionerna.
 
 ## Ändringar i användargränssnittet {#ui-changes}
 
@@ -287,7 +287,7 @@ Visa [Inlämningsstatus](instructors/feature-summary/learners.md#filter-file-sub
 
 ## Förbättringar av checklista
 
-I mars 2024-utgåvan av Adobe Learning Manager har följande förbättringar gjorts i arbetsflödet för checklistan:
+I mars 2024-versionen av Adobe Learning Manager har följande förbättringar gjorts i arbetsflödet för checklistan:
 
 ### Tillåt inte förlopp när en checklista misslyckas
 
@@ -326,7 +326,7 @@ I tidigare versioner av Adobe Learning Manager kunde en elev inte skicka session
 * Nya sessioner läggs till i en kurs eller
 * Befintliga sessioner har ändrats.
 
-Följande är de nya ändringarna i mars 2024-utgåvan av Adobe Learning Manager:
+De nya ändringarna är följande i mars 2024-utgåvan av Adobe Learning Manager:
 
 * Sessionsdetaljerna har uppdaterats och inbjudan till session (för elev och instruktör)
    * För framtida sessioner, e-post för **Sessionsdetaljer har uppdaterats**, **Sessionsinbjudan** för registrerade elever och aktuella instruktörer kommer att fasas ut. För tidigare sessioner, e-postmeddelanden för **Sessionsdetaljer har uppdaterats** och **Sessionsinbjudan** för registrerade elever och aktuella instruktörer förblir oförändrade.
@@ -370,15 +370,15 @@ Om en elev, precis som med webbappen, misslyckas med att checka in ett Salesforc
 
 ### Ändringar i Connect VC
 
-I nuvarande versioner av Adobe Learning Manager är en elev markerad **Inte närvarat** när de är registrerade för en Connect VC-session, men inte uppfyllde slutförandevillkoren.
+I aktuella versioner av Adobe Learning Manager är en elev markerad **Inte närvarat** när de är registrerade för en Connect VC-session, men inte uppfyllde slutförandevillkoren.
 
 I den här versionen ändras statusen till **Ännu ej betygsatt**.
 
 ### Vit märkning i Adobe Learning Manager
 
-Mobilappen Adobe Learning Manager har nu stöd för vit märkning, vilket innebär att du nu kan släppa appen under ditt eget varumärke.
+Adobe Learning Manager-mobilappen stöder nu vit märkning, vilket innebär att du nu kan släppa appen under ditt eget varumärke.
 
-Visa vit etikettering i [Mobilappen Adobe Learning Manager](white-label.md) för mer information.
+Visa vit etikettering i [Adobe Learning Manager-mobilapp](white-label.md) för mer information.
 
 ### Ny kolumn i CSV-migreringsfiler
 
@@ -388,7 +388,21 @@ I den här versionen finns en ny, valfri kolumn, uniqueLoId, i följande migreri
 * course.csv
 * learning_program.csv
 
-Kolumnen uniqueLoId gäller inte CSV-filen för arbetsstöd.
+>[!NOTE]
+>
+>Inställningen **uniqueLoId** -kolumnen är valfri.
+
+
+Om du migrerar för att uppdatera en befintlig kurs eller utbildningsplan eller certifiering ska kursen eller utbildningsplanen eller certifieringen med **uniqueLOId** s läggas till i skaparappen.
+
+När du migrerar måste du uppdatera **uniqueLOId** värden i CSV-filerna för kurs eller utbildningsplan eller certifiering trots att det är en valfri kolumn.
+
+Om **uniqueLoId** kolumnen har inte lagts till innan migreringen utfördes vid uppdatering av befintlig kurs eller utbildningsplan eller certifiering med **uniqueLOId** s, därefter efter migreringen **uniqueLOId** värden åsidosätts med NULL-värden.
+
+>[!NOTE]
+>
+>Kolumnen uniqueLoId gäller inte CSV-filen för arbetsstöd.
+
 
 >[!IMPORTANT]
 >
@@ -399,7 +413,7 @@ Hämta CSV-filerna från [Migreringshandbok](integration-admin/feature-summary/m
 
 ### Appklassificering
 
-En elev kan ge feedback på Adobe Learning Manager-appen för att ytterligare förbättra appupplevelsen. Om eleven ger fyra stjärnor eller mer visas ett popup-fönster där eleven uppmanas att betygsätta appen i Play Store eller App Store.
+En elev kan ge feedback om Adobe Learning Manager-appen för att ytterligare förbättra appupplevelsen. Om eleven ger fyra stjärnor eller mer visas ett popup-fönster där eleven uppmanas att betygsätta appen i Play Store eller App Store.
 
 ### Bluejeans har nått sitt slut i februari 2024
 
@@ -409,7 +423,7 @@ Visa [Anslutningar i Adobe Learning Manager](integration-admin/feature-summary/c
 
 ### Ändringar i rapporten om inloggningsåtkomst
 
-Rapporten för inloggningsåtkomst kommer bara att vara tillgänglig för de senaste fem kvartalen. Om någon integrationsadministratör begär hämtning på begäran av den enhetliga exporten med **Inloggningsåtkomst** Om den är markerad visas ett felmeddelande i Adobe Learning Manager. Andra rapporter påverkas dock inte.
+Rapporten för inloggningsåtkomst kommer bara att vara tillgänglig för de senaste fem kvartalen. Om någon integrationsadministratör begär hämtning på begäran av den enhetliga exporten med **Inloggningsåtkomst** Om det här alternativet är markerat visas ett felmeddelande i Adobe Learning Manager. Andra rapporter påverkas dock inte.
 
 ### ADFS-ändringar
 
