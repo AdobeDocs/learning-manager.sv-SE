@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Lägga till användare och skapa användargrupper
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 11bdb71c7d584a69ce1bb5acafa7dbcebcdbfe85
 workflow-type: tm+mt
 source-wordcount: '3848'
 ht-degree: 0%
@@ -15,15 +15,22 @@ ht-degree: 0%
 
 Lär dig lägga till användare eller användargrupper i Learning Manager-programmet.
 
+
 <!--![](assets/user-mgmt-new.png)-->
 
 ## Hantera användargrupper
 
-I den här utbildningen får du lära dig hur du skapar en användargrupp efter namn, e-post-ID:n och kombinerar flera automatiskt genererade användargrupper.
+>[!INFO]
+>
+>I den här utbildningen får du lära dig hur du skapar en användargrupp efter namn, e-post-ID:n och kombinerar flera automatiskt genererade användargrupper.<br><br>
+[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
+
+
+<!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
-[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
+<!--[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
 
 Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
 
@@ -197,7 +204,7 @@ När du har klickat **[!UICONTROL Save]**, en URL genereras, vilken du kan dela 
 
 ## Registrera externa elever {#enrollexternallearners}
 
-I Adobe Learning Manager kan du också skapa registreringslänkar för externa partner eller byråer med begränsad åtkomst till ditt konto och ge dem utbildningsmaterial.
+I Adobe Learning Manager kan du även skapa registreringslänkar för externa partner eller byråer med begränsad åtkomst till ditt konto och ge dem utbildningsmaterial.
 
 Det finns några skillnader mellan interna och externa registreringar.
 
@@ -325,7 +332,7 @@ Om du vill komma åt användargrupper klickar du på **[!UICONTROL User Groups]*
 ![](assets/user-groups.png)
 *Skapa användargrupper*
 
-Det finns två grupptyper i Adobe Learning Manager, Anpassad och Autogenererad. När du lägger till elever på ditt konto skapas vissa grupper automatiskt utifrån deras gemensamma egenskaper.
+Det finns två grupptyper i Adobe Learning Manager, Anpassad och Automatiskt genererad. När du lägger till elever på ditt konto skapas vissa grupper automatiskt utifrån deras gemensamma egenskaper.
 
 Klicka på fliken om du vill se automatiskt skapade grupper **[!UICONTROL Auto-generated]**.
 
