@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Inställningar
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: b72a838ede9fb299e5735539931fba2b85f59ef1
+source-git-commit: fbab332b92dd6d017c2517d7df09a4c37ce3f6bf
 workflow-type: tm+mt
-source-wordcount: '3939'
+source-wordcount: '3932'
 ht-degree: 1%
 
 ---
@@ -22,11 +22,6 @@ Du kan ändra dina profilinställningar för administratörer och uppdatera dina
 Den här utbildningen beskriver grunderna i inställningar på kontonivå.
 
 [![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)
-
->[!NOTE]
->
->Det här är en exempelknapp <br>[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)</br>
-
 
 
 Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
