@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Lägga till användare och skapa användargrupper
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 11bdb71c7d584a69ce1bb5acafa7dbcebcdbfe85
+source-git-commit: 82a327fa4a472f58319528a11e427549bd4bd728
 workflow-type: tm+mt
 source-wordcount: '3848'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Lär dig lägga till användare eller användargrupper i Learning Manager-progra
 
 >[!INFO]
 >
->I den här utbildningen får du lära dig hur du skapar en användargrupp efter namn, e-post-ID:n och kombinerar flera automatiskt genererade användargrupper.<br><br>
+>I den här utbildningen får du lära dig hur du skapar en användargrupp efter namn, e-post-ID:n och kombinerar flera automatiskt genererade användargrupper.<br/><br/>
 [![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
 
 
