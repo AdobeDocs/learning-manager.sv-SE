@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Sammanfattning av nya funktioner
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 68c5bad63c997162d5a8bab3003543d89e3959ad
+source-git-commit: e21eb23c9b99ef5737ca105edede0eea7186ed02
 workflow-type: tm+mt
 source-wordcount: '3861'
 ht-degree: 0%
@@ -401,7 +401,7 @@ Om **uniqueLoId** kolumnen har inte lagts till innan migreringen utfördes vid u
 
 >[!NOTE]
 >
->Kolumnen uniqueLoId gäller inte CSV-filen för arbetsstöd.
+>Kolonnen. **uniqueLoId**, är inte tillämplig på CSV-filen för arbetsstöd.
 
 
 >[!IMPORTANT]
