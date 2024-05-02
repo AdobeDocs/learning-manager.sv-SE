@@ -2,9 +2,10 @@
 title: Nyheter i den här versionen (juli 2023)
 description: Läs om de nya funktionerna och förbättringarna i Adobe Learning Manager
 hidefromtoc: true
-source-git-commit: c55f9448082c9971c065eec95b59992db95e53dc
+exl-id: c6f192b6-f377-47b2-9151-516ac8179543
+source-git-commit: f9b8fbb8ae2ac1a197ccc3e7766a645c7d9e8078
 workflow-type: tm+mt
-source-wordcount: '2050'
+source-wordcount: '2057'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 Adobe Learning Manager har infört ett nytt och moderniserat rekommendationssystem för kurser. Den här rekommendationsfunktionen använder AI-algoritmer och användares intressen som Produkter, Roller och Nivåer för att ge personliga innehållsrekommendationer.
 
-Mer information finns i [Recommendations i Adobe Learning Manager](recommendations-adobe-learning-manager.md).
+Mer information finns i [RECOMMENDATIONS i ADOBE LEARNING MANAGER](recommendations-adobe-learning-manager.md).
 
 ## Flera registreringar
 
@@ -59,7 +60,7 @@ Den här ändringen kommer även att ersätta ExaVault-anslutningen, som inte l�
 
 ## Påminnelser i Outlook för klassrumssessioner och virtuella sessioner
 
-Klassrums- och virtuella klassrumssessioner som har skapats från Adobe Learning Manager och har lagts till i elevens Outlook-kalender stöder nu påminnelser från Outlook konsekvent (på liknande sätt som mötespåminnelser i Outlook).
+Klassrums- och virtuella klassrumssessioner som har skapats från Adobe Learning Manager och har lagts till i elevens Outlook-kalender stöder nu påminnelser från Outlook på ett konsekvent sätt (som mötespåminnelser i Outlook).
 
 ## Förbättringar av tilldelning av kunskaper till kurser
 
@@ -141,7 +142,7 @@ Flera förbättringar har implementerats för att förbättra tillgängligheten,
 
 ## Stöd för mobilappar
 
-I nästa stora version kommer Adobe Learning Manager-mobilappen bara att stödja de tre senaste mobilversionerna av operativsystemet.
+I nästa stora version kommer Adobe Learning Manager-mobilappen bara att stödja de tre senaste mobiloperativsystemsversionerna.
 
 ## Innehåll på LinkedIn
 
@@ -530,7 +531,11 @@ Ordstam är processen att reducera ett ord till dess grundform. Detta garanterar
 
 I den här versionen har vi lagt till ordstam för engelska språk, som omfattar följande varianter - en_US, en_AU, en_GB.
 
-Attributet ordstamsigenkänning anger om ordstamsigenkänning krävs i sökresultaten. Detta är som standard inställt på Falskt
+Attributet ordstamsigenkänning anger om ordstamsigenkänning krävs i sökresultaten. Detta är som standard inställt på False.
+
+API-frågeparametrar:
+
+matchType=phrase_and_match stemmed=true
 
 ### Borttagning av V1-slutpunkter
 
