@@ -3,7 +3,7 @@ title: Nyheter i den här versionen (juli 2023)
 description: Läs om de nya funktionerna och förbättringarna i Adobe Learning Manager
 hidefromtoc: true
 exl-id: c6f192b6-f377-47b2-9151-516ac8179543
-source-git-commit: f9b8fbb8ae2ac1a197ccc3e7766a645c7d9e8078
+source-git-commit: ebf4ea065ba799b957b8ce275fd1690f18b26556
 workflow-type: tm+mt
 source-wordcount: '2057'
 ht-degree: 0%
@@ -535,7 +535,8 @@ Attributet ordstamsigenkänning anger om ordstamsigenkänning krävs i sökresul
 
 API-frågeparametrar:
 
-matchType=phrase_and_match stemmed=true
+* matchType=phrase_and_match
+* stemmed=true
 
 ### Borttagning av V1-slutpunkter
 
