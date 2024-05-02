@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: Arbetsstöd
 description: Arbetsstöd är ett arkiv med utbildningsinnehåll som är tillgängligt för elever utan några registrerings- eller slutförandekriterier. Elever kan hänvisa till dessa arbetsstöd för att få hjälp med att utföra någon aktivitet eller uppgift i en organisation.
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: c8e925ee-2e40-4a71-9b8e-42a1b49d01bc
+source-git-commit: c006f4e231a2249acb53fdd915f0130fbed200f8
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '588'
 ht-degree: 1%
 
 ---
-
-
 
 # Arbetsstöd
 
@@ -35,6 +34,19 @@ Författare kan skapa arbetsstöd för elever. Använd arbetsstöd för att ge e
 1. Klicka på **[!UICONTROL Save]**.
 
    Arbetsstödet publiceras.
+
+## Lägg till arbetsstöd på olika språk {#addcontentfordifferentlanguages}
+
+1. Om du vill lägga till arbetsstödet på olika språk väljer du **Lägg till nytt språk** och välja önskade språk. Med det här tillvägagångssättet kan du lägga till flerspråkigt stöd för ditt innehåll.
+
+   ![](assets/add-new-languagetab.png)
+
+   *Lägga till ett nytt språk för ett innehåll*
+
+1. Upprepa processen för uppladdning av arbetsstöd för de nya språken.
+1. Om du vill ta bort ett språk väljer du fliken Lägg till nytt språk och avmarkerar markeringen.
+
+   När du har gjort ändringarna väljer du Spara.
 
 ## Typer av arbetsstöd som stöds {#typesofsupportedjobaids}
 

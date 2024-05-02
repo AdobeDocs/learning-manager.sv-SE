@@ -3,9 +3,9 @@ description: Lär dig skapa innehåll som följer kurser i din egen takt.
 jcr-language: en_us
 title: Innehållsbibliotek
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: c1231f48c87c14f7b3acd23b0c0d5e93f0cc692c
+source-git-commit: c006f4e231a2249acb53fdd915f0130fbed200f8
 workflow-type: tm+mt
-source-wordcount: '3086'
+source-wordcount: '3189'
 ht-degree: 0%
 
 ---
@@ -234,7 +234,20 @@ Skapa utvärderingar i Adobe Learning Manager med det nya verktyget för att ska
 1. Lägg till logotyp och bakgrund i frågeformuläret.
 1. I det övre högra hörnet på sidan väljer du **Publish**.
 
-Frågeformuläret läggs till i innehållsbiblioteket. Precis som allt annat innehåll i innehållsbiblioteket kan du ta bort ett frågeformulär och ta bort det.
+Följ de här stegen om du vill lägga till frågeformulär på olika språk:
+
+1. Om du vill lägga till frågeformuläret för olika språk väljer du **Lägg till nytt språk** och välja önskade språk. Med det här tillvägagångssättet kan du lägga till flerspråkigt stöd för ditt innehåll.
+
+   ![](assets/add-new-languagetab.png)
+
+   *Lägga till ett nytt språk för ett innehåll*
+
+1. Upprepa processen för överföring av innehåll för de nya språken.
+1. Om du vill ta bort ett språk markerar du rutan **[!UICONTROL Add New Language]** och rensar markeringen.
+
+   När du har gjort ändringarna klickar du på **[!UICONTROL Save]**. I biblioteket är det nya innehållet nu tillgängligt för konsumtion.
+
+Frågeformuläret läggs till i **[!UICONTROL Content Library]**. Precis som allt annat innehåll i innehållsbiblioteket kan du ta bort ett frågeformulär och ta bort det.
 
 
 ## Lägg till i mapp {#add-folder}
@@ -430,6 +443,11 @@ Gör så här om du vill ta innehåll ur bruk:
 * Välj Åtgärd > Ta bort.
 
 Innehåll som används i något utbildningsobjekt påverkas inte. Elever kan fortfarande komma åt innehållet.
+
+>[!NOTE]
+>
+>Du kan också lägga till innehåll från **[!UICONTROL Retired]** avsnitt, navigera till **[!UICONTROL Content Library]** > **[!UICONTROL Retired]** och välj **[!UICONTROL Add Content]**. Mer information finns i [Lägga till statiskt innehåll](content-library.md#addstaticcontent).
+
 
 ## Återpublicera utfasat innehåll {#republishretiredcontent}
 
