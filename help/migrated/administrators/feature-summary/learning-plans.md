@@ -3,13 +3,13 @@ description: Skapa utbildningsplaner för administratörer i Learning Manager.
 jcr-language: en_us
 title: Utbildningsplaner
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 99e3d2f5-0bf0-4f4e-8874-8136af7c592a
+source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1565'
 ht-degree: 1%
 
 ---
-
 
 # Utbildningsplaner
 
@@ -36,35 +36,47 @@ Om du vill skapa en utbildningsplan måste du logga in som administratör.
 
 1. I dialogrutan **[!UICONTROL Occurs when]** listrutan väljer du önskad händelse. Alternativen bestämmer när en elev tar kursen. När du har valt typ av evenemang väljer du lämplig utbildning, kurser, utbildningsprogram eller certifiering.
 
-   **Obs!** Både administratörer och författare kan skapa händelser för automatisk registrering.
+>[!NOTE]
+>
+> Både administratörer och författare kan skapa händelser för automatisk registrering.
 
-   Händelserna är:
 
-   **1 - Ny elev läggs till:** När en ny användare eller anställd ansluter sig till organisationen.
+Händelserna är:
 
-   ![](assets/new-learner-is-added.png)
+**1 - Ny elev läggs till:** När en ny användare eller anställd ansluter sig till organisationen.
 
-   **2 - Eleven läggs till i en grupp:** När en ny användare eller anställd går med i en grupp.  Ange och välj användargruppen i listrutan som den här händelsen gäller. Du kan välja flera grupper. Du kan också tilldela den här händelsen till alla befintliga medlemmar i dessa grupper genom att välja alternativet.
+![](assets/new-learner-is-added.png)
 
-   ![](assets/learner-gets-addedtoagroup.png)
+**2 - Eleven läggs till i en grupp:** När en ny användare eller anställd går med i en grupp.  Ange och välj användargruppen i listrutan som den här händelsen gäller. Du kan välja flera grupper. Du kan också tilldela den här händelsen till alla befintliga medlemmar i dessa grupper genom att välja alternativet.
 
-   Den här utbildningsplanen är särskilt utformad för ***Custom- Groupe*** användare. Skriv namnet på gruppen i fältet och välj gruppen eller grupperna med hjälp av sökningstypen framåt.
+![](assets/learner-gets-addedtoagroup.png)
 
-   **3 - Eleven slutför ett utbildningsobjekt:** Händelsen utlöses när en elev slutför ett utbildningsobjekt som kurs, utbildningsprogram och så vidare. Välj utbildningsobjektet som den här händelsen gäller för. Välj slutförandestatus för händelsen. Du kan även välja den användargrupp som eleven tillhör. Ange antalet dagar som denna händelse utlöses efter att utbildningsobjektet har slutförts. Välj alternativet om du vill tilldela denna händelse till befintliga användare som redan har slutfört utbildningsobjektet.
+Den här utbildningsplanen är särskilt utformad för ***Custom- Groupe*** användare. Skriv namnet på gruppen i fältet och välj gruppen eller grupperna med hjälp av sökningstypen framåt.
 
-   ![](assets/learner-completealearningobject.png)
+**3 - Eleven tas bort från en grupp:** Händelsen utlöses när en användare eller elev tas bort från en grupp. Ange och välj användargruppen i listrutan som den här händelsen gäller. Du kan välja flera grupper.
 
-   **4 - Eleven uppnår en färdighetsnivå:** Ange kompetensnamnet och välj kompetensnivå. Du kan också välja den användargrupp som denna elev tillhör. Det är valfritt. Ange antalet dagar som den här händelsen ska utlösas när kompetensen har uppnåtts. Välj alternativet om du vill tilldela denna händelse till befintliga elever som redan har uppnått denna kompetens.
+![](assets/learner-removed-from-group.png)
 
-   ![](assets/learner-achievesaskilllevel.png)
 
-   Ange dessutom antalet dagar efter vilka utbildningsplanen måste tilldelas eleverna.
+**4 - Eleven slutför en kurs/utbildningsväg/certifiering:** Händelsen utlöses när en elev slutför ett utbildningsobjekt som kurs, utbildningsprogram och så vidare. Välj utbildningsobjektet som den här händelsen gäller för. Välj slutförandestatus för händelsen. Du kan även välja den användargrupp som eleven tillhör. Ange antalet dagar som denna händelse utlöses efter att utbildningsobjektet har slutförts. Välj alternativet om du vill tilldela denna händelse till befintliga användare som redan har slutfört utbildningsobjektet.
 
-   ![](assets/assign-learning.png)
+![](assets/learner-completealearningobject.png)
 
-   **5 - På ett visst datum:** När händelserna måste inträffa på ett visst datum. Välj det datum då händelsen måste tilldelas. Välj de användargrupper som händelsen ska tilldelas automatiskt till. Välj de instanser som ska tilldelas och om du vill kan du ange efter hur många dagar händelsen måste utlösas.
+**5 - Eleven misslyckas med en modul i en kurs:** Händelsen utlöses när en elev misslyckas med ett utbildningsobjekt som kurs, utbildningsprogram och så vidare. Välj utbildningsobjektet som den här händelsen gäller för. Du kan också välja den användargrupp som denna elev tillhör.
 
-   ![](assets/on-a-specific-date.png)
+![](assets/learner-fails-module.png)
+
+**4 - Eleven uppnår en färdighetsnivå:** Ange kompetensnamnet och välj kompetensnivå. Du kan också välja den användargrupp som denna elev tillhör. Det är valfritt. Ange antalet dagar som den här händelsen ska utlösas när kompetensen har uppnåtts. Välj alternativet om du vill tilldela denna händelse till befintliga elever som redan har uppnått denna kompetens.
+
+![](assets/learner-achievesaskilllevel.png)
+
+Ange dessutom antalet dagar efter vilka utbildningsplanen måste tilldelas eleverna.
+
+![](assets/assign-learning.png)
+
+**5 - På ett visst datum:** När händelserna måste inträffa på ett visst datum. Välj det datum då händelsen måste tilldelas. Välj de användargrupper som händelsen ska tilldelas automatiskt till. Välj de instanser som ska tilldelas och om du vill kan du ange efter hur många dagar händelsen måste utlösas.
+
+![](assets/on-a-specific-date.png)
 
 1. För alla händelser kan du välja instansen från **[!UICONTROL Instance]** listruta. Du kan även välja instanser av den tilldelade utbildningen för valfri händelse.
 
@@ -83,6 +95,8 @@ När en utbildningsplan läggs till kan administratören avregistrera användare
 I Admin-programmet klickar du på **[!UICONTROL Learning Plans]** > **[!UICONTROL Add]**.
 
 Nästa avsnitt representerar de utlösare där alternativet **[!UICONTROL Unenroll from Training]** har lagts till.
+
+![](assets/unenroll-courses.png)
 
 ## Eleven tas bort från en grupp {#learnergetsremovedfromagroup}
 
@@ -103,6 +117,14 @@ Nästa avsnitt representerar de utlösare där alternativet **[!UICONTROL Unenro
    1. Instans- och slutförandedatum gäller inte i det här fallet.
 
 ![](assets/image040.png)
+
+## Eleven blir underkänd på en kursmodul
+
+1. Lägg till en eller flera användargrupper. Om flera grupper väljs utlöses planen när en elev misslyckas med den angivna utbildningen.
+1. Välj åtgärden som **[!UICONTROL Unenroll from training]**.
+
+   1. Administratören kan välja de utbildningar som användaren ska avregistreras från när de läggs till i användargruppen.
+   1. Instans- och slutförandedatum gäller inte i det här fallet.
 
 ## Eleven läggs till i en grupp {#learnergetsaddedtoagroup}
 
@@ -134,7 +156,12 @@ Nästa avsnitt representerar de utlösare där alternativet **[!UICONTROL Unenro
 
 ## Redigera en utbildningsplan {#editalearningplan}
 
-När du har skapat en utbildningsplan kan administratören redigera/uppdatera utbildningsplanen när som helst. Klicka på utbildningsplanens namn och ändra värdena i **[!UICONTROL Edit Learning Plan]** popup-dialogruta som visas. Klicka på **[!UICONTROL Save]**.
+När du har skapat en utbildningsplan kan administratören redigera/uppdatera utbildningsplanen när som helst. Om du vill redigera väljer du namnet på utbildningsplanen och ändrar värdena i **[!UICONTROL Edit Learning Plan]** popup-dialogruta som visas.  Välj **[!UICONTROL Save]**.
+
+>[!NOTE]
+>
+>Du kan inte ändra **[!UICONTROL Occurs when]** alternativ i **[!UICONTROL Edit Learning Plan]** pop-up.
+
 
 ## Aktivera en utbildningsplan {#enablealearningplan}
 

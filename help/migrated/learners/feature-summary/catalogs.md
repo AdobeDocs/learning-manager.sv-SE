@@ -3,14 +3,13 @@ description: Lär dig använda kataloger i Learning Manager för att se berätti
 jcr-language: en_us
 title: Kataloger
 contentowner: manochan
-source-git-commit: b77a43100521aa35096c6a6b4d417630cb9293b3
+exl-id: 5e62995c-6471-47e9-9e6c-06ac5c5586bc
+source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
-
-
 
 # Kataloger
 
@@ -22,7 +21,7 @@ Elever kan se alla tilldelade och berättigade utbildningsobjekt (utbildningspro
 
 Du kan filtrera listan över utbildningsobjekt genom att använda kunskaper och typen av utbildningsobjekt (tempo, blandning, klassrum, virtuellt klassrum, aktivitet) . Du kan också filtrera med alternativen i den vänstra rutan: efter utbildningsobjekt, kompetens och slutförandestatus.
 
-Använd sökfältet längst upp på sidan för att ange namnen på dina välbekanta utbildningsobjekt.
+Använd sökfältet längst upp på sidan för att ange namnen på dina välbekanta utbildningsobjekt. Elever kan växla mellan stödraster och listvyn genom att välja detta ![](assets/icon-list.png) -ikonen.
 
 ![](assets/catalogs.png)
 *Visa kataloger*

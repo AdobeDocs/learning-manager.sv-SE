@@ -3,16 +3,16 @@ jcr-language: en_us
 title: Arbetsstöd
 description: Arbetsstöd är ett arkiv med utbildningsinnehåll som är tillgängligt för elever utan några registrerings- eller slutförandekriterier. Elever kan hänvisa till dessa arbetsstöd för att få hjälp med att utföra någon aktivitet eller uppgift i en organisation.
 exl-id: c8e925ee-2e40-4a71-9b8e-42a1b49d01bc
-source-git-commit: c006f4e231a2249acb53fdd915f0130fbed200f8
+source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '582'
 ht-degree: 1%
 
 ---
 
 # Arbetsstöd
 
-Arbetsstöd är ett arkiv med utbildningsinnehåll som är tillgängligt för elever utan några registrerings- eller slutförandekriterier. Elever kan hänvisa till dessa arbetsstöd för att få hjälp med att utföra någon aktivitet eller uppgift i en organisation.
+**Arbetsstöd** är ett arkiv med utbildningsinnehåll som är tillgängligt för elever utan några registrerings- eller slutförandekriterier. Elever kan hänvisa till dessa arbetsstöd för att få hjälp med att utföra någon aktivitet eller uppgift i en organisation.
 
 Arbetsstöd kan konsumeras oberoende av eller tillsammans med kursförbrukning i Learning Manager.
 
@@ -20,9 +20,9 @@ Författare kan skapa arbetsstöd för elever. Använd arbetsstöd för att ge e
 
 ## Skapa arbetsstöd {#createjobaid}
 
-1. Klicka på Arbetsstöd i den vänstra rutan vid författarens inloggning.
-1. Klicka på Skapa längst upp till höger på sidan som visas.
-1. Ange namn, beskrivning och taggar. Välj kunskaper och tillhörande nivåer. Välj innehållet som privat om du inte vill att andra författare ska få tillgång till arbetsstödet för tilldelning till sina respektive kurser.
+1. Vid inloggning av författare väljer du **[!UICONTROL Job Aids]** i den vänstra rutan.
+1. Välj **[!UICONTROL Create]** längst upp till höger på sidan som visas.
+1. Skriv namn, beskrivning och taggar. Välj kunskaper och tillhörande nivåer. Välj innehållet som privat om du inte vill att andra författare ska få tillgång till arbetsstödet för tilldelning till sina respektive kurser.
 
    Endast befintlig kompetens kan användas för arbetsstöd. Kompetenser är inte obligatoriska.
 
@@ -44,7 +44,7 @@ Författare kan skapa arbetsstöd för elever. Använd arbetsstöd för att ge e
    *Lägga till ett nytt språk för ett innehåll*
 
 1. Upprepa processen för uppladdning av arbetsstöd för de nya språken.
-1. Om du vill ta bort ett språk väljer du fliken Lägg till nytt språk och avmarkerar markeringen.
+1. Om du vill ta bort ett språk markerar du rutan **[!UICONTROL Add New Language]** och rensar markeringen.
 
    När du har gjort ändringarna väljer du Spara.
 
