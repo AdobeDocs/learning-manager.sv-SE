@@ -3,14 +3,13 @@ description: Lär dig skapa certifieringar, registrera elever och redigera publi
 jcr-language: en_us
 title: Certifieringar
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 406d1c33-aac3-47e1-9b32-83874976ce54
+source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '994'
 ht-degree: 2%
 
 ---
-
-
 
 # Certifieringar
 
@@ -103,6 +102,10 @@ Som administratör kan du skapa ett certifieringsprogram som antingen är intern
  </tbody>
 </table>
 
+Välj nivå för produkter, roller och roller i **[!UICONTROL Recommend for]** -avsnittet för att föreslå den här utbildningsvägen för användare som har uttryckt intresse för dessa produkter och roller.
+
+![](assets/recommend-for.png)
+
 Välj de kurser som ska läggas till i certifieringen från **[!UICONTROL Courses]** > **[!UICONTROL Catalog]** -fliken.
 
 Håll muspekaren över varje kursruta och klicka på + för att lägga till dem i certifieringen. Klicka **[!UICONTROL Preview]** för att visa kursen som elev innan du lägger till den.
@@ -165,6 +168,8 @@ En certifiering kan redigeras av en administratör vid publicerat tillstånd. I 
 Om du vill redigera en publicerad certifiering klickar du på certifieringskortet och sedan på **[!UICONTROL Edit]** längst upp till höger på sidan.
 
 När du redigerar avsnitt i en certifiering och måste flytta från sidan, måste du publicera certifieringen igen. Du får en dialogruta där du ombeds att publicera certifieringen.
+
+![](assets/edit-a-certificate.png)
 
 ## Prenumeration {#subscription}
 

@@ -4,9 +4,9 @@ title: Utbildningsvägar
 description: Skapa utbildningsplaner för administratörer i Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
 workflow-type: tm+mt
-source-wordcount: '1889'
+source-wordcount: '1916'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,10 @@ Du kan lägga till färdigheter och tilldela ett utmärkelsetecken till utbildni
 ![](assets/add-skills.png)
 
 Tilldela ett utmärkelsetecken till utbildningsvägen. Välj ett märke i listan med tillgängliga märken.
+
+Välj nivå för produkter, roller och roller i **[!UICONTROL Recommend for]** -avsnittet för att föreslå den här utbildningsvägen för användare som har uttryckt intresse för dessa produkter och roller.
+
+![](assets/recommend-for.png)
 
 Välj sekvenstyp för avsnitten och utbildningen som Beställd eller Osorterad beroende på dina önskemål.
 

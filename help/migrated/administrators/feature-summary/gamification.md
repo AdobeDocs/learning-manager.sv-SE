@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Spelifiering
 contentowner: manochan
 exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1624'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Spelifiering är ett sätt att använda spelteknik och spelmekanik i icke-spelko
 
 ## Översikt {#overview}
 
-Med Learning Manager kan du använda ett strukturellt spelifieringslager på innehållet för att engagera elever och motivera dem att uppnå sina utbildningsmål. Det gör det möjligt för eleverna att få poäng för olika utbildningsaktiviteter och uppnå brons-, silver-, guld- och platinanivåer.
+I Adobe Learning Manager finns en funktion som kallas spelifiering som är utformad för att engagera elever och främja inlärning genom interaktiva spelelement. Det uppmuntrar önskade elevbeteenden genom belöningar och gör det möjligt för elever att tjäna poäng och tävla mot sina kollegor. Den här funktionen förbättrar användarengagemanget och motivationen på utbildningsplattformen.
 
 Som standard är vissa exempelspelifieringspunkter och data tillgängliga för användare för att förstå mönstret. Du kan ändra punkterna på motsvarande sätt.
 
@@ -32,57 +32,6 @@ Följ stegen nedan för att komma åt inställningarna:
 1. Logga in som administratör och klicka på i den vänstra rutan **[!UICONTROL Gamification]**.
 1. När du skapar ett nytt Learning Manager-konto är spelifiering inaktiverat som standard. Klicka på för att aktivera den **[!UICONTROL Enable]** längst upp till höger på sidan.
 
-## Administratörsåtgärder {#administratoractions}
-
-Administratören kan skapa en lista över konfidentiella användare, återställa spelifieringspunkter och inaktivera/aktivera spelifieringsfunktionen för elever. Klicka på listrutan Åtgärder i det övre högra hörnet på sidan för att visa åtgärderna som visas i ögonblicksbilden nedan.
-
-![](assets/gamification-actions.png)
-
-*Spelifieringsalternativ för en administratör*
-
-## Sekretessinställningar {#confidentialitysettings}
-
-Om det behövs kan du göra vissa hanteringsanvändare mer sekretessbelagda. Konfidentiella användares spelifieringsaktiviteter är inte synliga för andra elever i resultatlistan.
-
-Sekretessinställningar kan användas för både interna och externa användare.
-
-1. Klicka på **[!UICONTROL Gamification]** > **[!UICONTROL Settings]** > **[!UICONTROL Confidentiality Settings]**.
-
-![](assets/confidentiality-settings.png)
-
-*Visa sekretessinställningar*
-
-1. Klicka på kryssrutan bredvid Användarnamn bland användarna i listan och klicka på Dölj om du vill göra användaren konfidentiell.
-
-   >[!NOTE]
-   >
-   >Du kan identifiera konfidentiella användare i listan med användare genom att markera kryssrutan vid användarnamnet.
-
-1. Klicka på fliken Konfidentiella användare för att visa listan över konfidentiella användare. Som standard visas de inte. Klicka på rullgardinsikonen för att visa listan.
-1. Markera kryssrutan vid användarnamnet i listan Konfidentiella användare och klicka på Lägg till för att ta bort användarna från listan Konfidentiella.
-
-## Återställ spelifiering {#resetgamification}
-
-Du kan återställa elevens spelifieringspoäng och även återställa konfigurationsinställningarna. Om du väljer att återställa användarpoäng raderas alla poäng som användarna tjänat in och återställs till noll. Om du väljer att återställa användarpoäng och konfigurationsinställningar återställs alla standardpunkter som har tilldelats nivåer och uppgifter till noll.
-
-Återställ spelifieringsinställningar kan användas för både interna och externa användare.
-
-Om du vill återställa elevens poäng och konfiguration klickar du på Återställ spelifiering och väljer ett alternativ efter dina behov. Du kan välja mellan att återställa elevpoäng och att återställa elevpoäng och konfigurationsinställningarna. När du har valt klickar du på OK.
-
-![](assets/reset-gamification.png)
-
-*Återställ spelifieringspunkterna*
-
-## Inaktivera spelifiering {#disablegamification}
-
-Klicka [!UICONTROL **Spelifiering**] > **[!UICONTROL Settings]** > [!UICONTROL **Spelifieringsfunktion**]. Detta gör att du kan aktivera funktionen för spelifiering och resultattavlan separat för dina elever. Välj mellan Aktivera för interna elever och Aktivera för externa elever enligt kraven och klicka på OK. Alla punkter bibehålls när du aktiverar spelifieringen igen.
-
-![](assets/gamification-feature.png)
-
-*Inaktivera spelifiering*
-
-Du kan inaktivera spelifiering för både interna och externa användare.
-
 ## Ställ in punkter {#setuppoints}
 
 Administratörer kan konfigurera spelifieringspunkter för elever genom att följa stegen nedan:
@@ -92,6 +41,8 @@ Administratörer kan konfigurera spelifieringspunkter för elever genom att föl
 1. Klicka på Redigera-ikonen bredvid varje uppgift för att ställa in punkterna.
 1. Ändra frekvensen för aktiviteter som att slutföra ett visst antal kurser per månad, kvartal eller år.
 1. Klicka på **[!UICONTROL Save]**.
+
+![](assets/set-up-points.png)
 
 ## Uppgifter {#tasks}
 
@@ -177,9 +128,15 @@ Möjliga scenarier för vidareutbildning på nivåer inom en viss kompetens:
 >
 >Tidsperioden gäller inte för den här uppgiften. Om elever uppnår en högre nivå och sedan uppnår en lägre nivå av en kompetens får de poäng endast för den högre nivån.
 
+**För referens**
+
+Denna uppgift gäller för elever som hänvisar tillbaka till sin slutförda kurs inom N dagar efter slutförande.
+
+Möjligt scenario: När en elev hänvisar till den slutförda kursen inom 30 dagar efter slutförandet får han eller hon 50 poäng.
+
 **Poäng för tidigt slutförande**
 
-Denna uppgift är tillämplig för elever när de blir de första N eleverna att slutföra kursen.
+Denna uppgift är tillämplig för elever som hänvisar tillbaka till en bokmärkt kurs inom N dagar för att slutföra kursen.
 
 Möjligt scenario:\
 När en elev blir en av de första tio eleverna som slutför kursen får han/hon 100 poäng.
@@ -190,6 +147,87 @@ Denna uppgift är tillämplig för elever när de slutför en kurs inom ett viss
 
 Möjligt scenario:\
 När en elev slutför en kurs inom 10 dagar i början av kursen får hen 100 poäng.
+
+**Övergripande elev**
+
+Den här uppgiften gäller för elever som konsumerar valfritt utbildningsmaterial som förarbete, resurser och arbetsstöd per månad.
+
+Möjliga scenarier:
+
+1. När en elev slutför en utbildning per månad får hen 20 poäng.
+1. När en elev slutför två utbildningar per månad får hen 40 poäng.
+1. När en elev slutför tre utbildningar per månad får hen 80 poäng.
+
+**Enhetlig utbildning**
+
+Den här uppgiften gäller elever som deltar i utbildningsaktiviteter under ett visst antal dagar per vecka, månad eller kvartal. Aktiviteter omfattar användning av utbildningsinnehåll, nedladdning av resurser och arbetsstöd.
+
+Möjliga scenarier:
+
+1. När elever ägnar sig åt att lära sig under en dag varje vecka får de 20 poäng.
+1. När elever ägnar sig åt utbildningsaktiviteter under två dagar varje vecka får de 40 poäng.
+1. När elever ägnar sig åt att lära sig under en dag varje vecka får de 80 poäng.
+
+**Feedback**
+
+Detta gäller elever som ger feedback på kurser.
+
+Möjliga scenarier:
+
+1. För startfeedback får de 20 poäng.
+1. För reaktionsfeedback får de 20 poäng.
+1. För chefsfeedback får de 20 poäng.
+
+## Administratörsåtgärder {#administratoractions}
+
+Administratören kan skapa en lista över konfidentiella användare, återställa spelifieringspunkter och inaktivera/aktivera spelifieringsfunktionen för elever. Välj **[!UICONTROL Settings]** på sidan med spelifiering för att se åtgärderna som visas i ögonblicksbilden nedan.
+
+![](assets/gamification-actions.png)
+
+*Spelifieringsalternativ för en administratör*
+
+## Sekretessinställningar {#confidentialitysettings}
+
+Om det behövs kan du göra vissa hanteringsanvändare mer sekretessbelagda. Konfidentiella användares spelifieringsaktiviteter är inte synliga för andra elever i resultatlistan.
+
+Sekretessinställningar kan användas för både interna och externa användare.
+
+1. Klicka på **[!UICONTROL Gamification]** > **[!UICONTROL Settings]** > **[!UICONTROL Confidentiality Settings]**.
+
+![](assets/confidentiality-settings.png)
+
+*Visa sekretessinställningar*
+
+1. Klicka på kryssrutan bredvid Användarnamn bland användarna i listan och klicka på Dölj om du vill göra användaren konfidentiell.
+
+   >[!NOTE]
+   >
+   >Du kan identifiera konfidentiella användare i listan med användare genom att markera kryssrutan vid användarnamnet.
+
+1. Klicka på fliken Konfidentiella användare för att visa listan över konfidentiella användare. Som standard visas de inte. Klicka på rullgardinsikonen för att visa listan.
+1. Markera kryssrutan vid användarnamnet i listan Konfidentiella användare och klicka på Lägg till för att ta bort användarna från listan Konfidentiella.
+
+## Återställ spelifiering {#resetgamification}
+
+Du kan återställa elevens spelifieringspoäng och även återställa konfigurationsinställningarna. Om du väljer att återställa användarpoäng raderas alla poäng som användarna tjänat in och återställs till noll. Om du väljer att återställa användarpoäng och konfigurationsinställningar återställs alla standardpunkter som har tilldelats nivåer och uppgifter till noll.
+
+Återställ spelifieringsinställningar kan användas för både interna och externa användare.
+
+Om du vill återställa elevens poäng och konfiguration klickar du på Återställ spelifiering och väljer ett alternativ efter dina behov. Du kan välja mellan att återställa elevpoäng och att återställa elevpoäng och konfigurationsinställningarna. När du har valt klickar du på OK.
+
+![](assets/reset-gamification.png)
+
+*Återställ spelifieringspunkterna*
+
+## Inaktivera spelifiering {#disablegamification}
+
+Klicka [!UICONTROL **Spelifiering**] > **[!UICONTROL Settings]** > [!UICONTROL **Spelifieringsfunktion**]. Detta gör att du kan aktivera funktionen för spelifiering och resultattavlan separat för dina elever. Välj mellan Aktivera för interna elever och Aktivera för externa elever enligt kraven och klicka på OK. Alla punkter bibehålls när du aktiverar spelifieringen igen.
+
+![](assets/gamification-feature.png)
+
+*Inaktivera spelifiering*
+
+Du kan inaktivera spelifiering för både interna och externa användare.
 
 ## spelifiering på gruppnivå {#grouplevelgamification}
 
