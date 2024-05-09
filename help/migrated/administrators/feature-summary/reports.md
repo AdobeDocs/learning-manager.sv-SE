@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Rapporter
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
 workflow-type: tm+mt
-source-wordcount: '6402'
+source-wordcount: '6678'
 ht-degree: 2%
 
 ---
@@ -23,107 +23,17 @@ Genereringsprocessen för rapporter är densamma för både Administratör och C
 
 Rapporter sammanställs i en kontrollpanel. En rapport måste finnas inuti en kontrollpanel. A **[!UICONTROL Default Dashboard]** finns som standard på sidan Rapporter. Alla rapporter som läggs till av dig placeras på den här standardkontrollpanelen. Om du vill lägga till rapporter i enskilda kontrollpaneler använder du listrutepilen och väljer **[!UICONTROL Add Report]**. Mer information om hur du skapar kontrollpaneler finns i avsnittet Kontrollpaneler på den här sidan.
 
-## Instrumentpaneler med utbildningssammanfattning {#dashboards}
+## Typer av rapporter {#typesofreports}
 
-### Generera kontrollpanelsrapporter
+Adobe Learning Manager har stöd för fyra huvudtyper av rapporter: slutförande, tidsåtgång, kompetens och effektivitet. Du kan använda följande rapporttyper för att generera rapporter om fler än 300 varianter:
 
-I den här utbildningen får du lära dig hur du genererar kontrollpanelsrapporter från databasen.
-
-[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R3B5NPDN&amp;mv=display&amp;mv2=display#/course/8318854)
-
-Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
-
-Se en sammanfattande rapport över alla utbildningsaktiviteter i plattformen. På den här sidan visas följande sammanfattningsinformation för den valda rotanvändarens team och externa profiler. Du kan även välja Tidsintervall:
-
-* Utbildningssammanfattning i form av registreringar, vyer och slutföranden
-* Viktigaste kompetenserna
-* Sammanfattning av efterlevnad
-
-![](assets/summary-charts.png)
-*Sammanfattningsdiagram*
-
-Om det finns interna rotnivåhanterare visas de efter varandra.
-
-Alla externa profiler visas efter interna profiler (interna rotnivåanvändare).
-
-Om en extern profil har en chef visas chefshierarkin i **[!UICONTROL Showing Data For]** listruta. Användaren listas i chefshierarkin på sidan med all information (utbildningssammanfattning, efterlevnad och kompetensstatus)
-
-I annat fall visas alla enskilda användaruppgifter i listan.
-
-Om du vill se mer detaljerad information om registreringar av olika interna team klickar du på **[!UICONTROL Learning Summary Details]**.
-
-![](assets/learning-sunnarydetails.png)
-*Sammanfattning av utbildning*
-
-När du klickar på en registrering kan du se eleverna för varje chef och registrering till vilka utbildningsobjekt. Du kan också se förloppet och slutförandet för varje elev.
-
-![](assets/learners-for-a-manager.png)
-*elever som tilldelats en chef*
-
-Klicka på ett team och exportera dess rapport som en CSV. En administratör kan exportera rapporten för valfri användargrupp eller enskild användare genom att välja användargruppen eller den enskilda användaren och sedan exportera information från **[!UICONTROL Action]** listruta.
-
-Du kan också se ett stapeldiagram över kompetenser som pågår och har uppnåtts. Du kan lägga till/ta bort kompetenser som du vill ha med i diagrammet.
-
-![](assets/skill-status-stackedbarchart.png)
-*Skivstatusstaplat stapeldiagram*
-
-I den slutliga visualiseringen kan du kontrollera elevers efterlevnadsstatus och vidta lämpliga åtgärder.
-
-Dessutom kan en administratör visa enskilda utbildningsdata i **[!UICONTROL Compliance Dashboard]**.
-
-Administratören har till exempel identifierat tre utbildningar för att spåra efterlevnad. Learning Manager tillhandahåller ögonblicksbilden av kompatibilitet för alla tre utbildningarna samtidigt.
-
-Nu kan en administratör klicka på valfri utbildning och snabbt se efterlevnad för den valda utbildningen.
-
-![](assets/compliance-dashboard.png)
-*Visa efterlevnadstavla*
-
-Du kan också se efterlevnadsstatusen för varje internt team.
-
-Klicka på länken **[!UICONTROL Compliance Status Details]** längst ned i visualiseringen.
-
-Du kan se att antalet elever i teamet för ett team bryter mot eller följer utbildningsefterlevnaden.
-
-![](assets/compliance-statusofateam.png)
-*Efterlevnadsstatus för ett team*
-
-## Dela utbildning med chefer
-
-Learning Manager erbjuder efterlevnadstavla till alla administratörer och chefer. Chefer tycker att det är mycket användbart att följa hur deras teammedlemmar följer en viss utbildning. Samtidigt vill administratörer att alla chefer ska lägga till efterlevnadsutbildningar på sin kontrollpanel och spåra dem.
-
-I Learning Manager **[!UICONTROL Share with Managers]** Med arbetsflödet kan administratörer dela utbildning med chefer så att de kan läggas till i en chefs efterlevnadstavla. Chefer behöver alltså inte vidta några åtgärder och kan börja spåra efterlevnad omedelbart.
-
-En administratör kan dela en uppsättning utbildningskurser med chefer enskilt eller med en grupp. Denna delning kan hjälpa en chef att enkelt följa hur hans/hennes team följer den angivna utbildningen.
-
-Administratören kan &quot;skicka&quot; en standardlista över efterlevnadsutbildning som ska visas på chefens efterlevnadstavla.
-
-### Dela utbildning
-
-1. in **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**, bläddrar nedåt och klickar på fliken **[!UICONTROL Share with Managers]**.
-
-   ![](assets/share-with-managers.png)
-   *Dela utbildning med chefer*
-
-1. Om du vill lägga till utbildning eller flera utbildningar klickar du på **[!UICONTROL Share more]**.
-
-1. I dialogrutan **[!UICONTROL Share with Managers]** väljer du utbildningarna och cheferna.
-
-   ![](assets/select-training.png)
-   *Välj utbildning att dela med chefer*
-
-1. Klicka på **[!UICONTROL Share]**.
-
-Utbildningen delas nu med den angivna chefen.
-
-### Visa utbildning
-
-Klicka på i listan över delade utbildningar **[!UICONTROL View]**. Du kan se utbildningen som är tilldelad en chef eller vissa chefer.
-
-### Dra in utbildning
-
-1. Om du vill dra tillbaka utbildningen från en chef klickar du på **[!UICONTROL Withdraw]**.
-
-1. Klicka på **[!UICONTROL Proceed]**. Detta drar tillbaka tidigare delad utbildning från chefens efterlevnadstavla.
+* Statistik för kursleverans för elever
+* Effektivitetsrapport för kurser
+* Rapport över elevens kompetens
+* Statistik för registrering i utbildningsprogram för elever
+* Utbildningstid som elever lagt ner
+* Antal elever
+* Slutförande av certifiering
 
 ## Kontrollpaneler för användaraktivitet {#useractivitydashboards}
 
@@ -137,7 +47,7 @@ Kontrollpanelen för användaraktivitet visar aktiviteten för användare på ko
 
 * **Rapport över använd utbildningstid:** Den här rapporten innehåller information om den utbildningstid som används i plattformen varje dag. Månadsvis rapport finns också tillgänglig.
 
-## Registrerade användare {#registeredusers}
+### Registrerade användare {#registeredusers}
 
 Learning Manager registrerar antalet användare som registreras i systemet varje vecka. Administratörer kan se den här rapporten för att få en uppfattning om det registrerade antalet användare den dagen i veckan. Det registrerade antalet ändras inte om det en gång förvarats under en vecka. Därför är historiskt registrerat antal inte relaterat till den aktuella uppsättningen elever i systemet.
 
@@ -156,18 +66,18 @@ Den här rapporten visar antalet elever som är aktiva på utbildningsplattforme
 
 Det månatliga aktiva antalet när det har räknats och lagrats i en månad ändras inte. Därför är det historiska antal som visas inte relaterat till den aktuella uppsättningen elever i systemet.
 
-## Användarbesök {#uservisits}
+### Användarbesök {#uservisits}
 
 Den här rapporten visar det totala antalet elever som har tillgång till systemet under en dag- eller månadsperiod. Att bläddra på utbildningsplattformen utan att använda något lärande anses också som att &quot;komma åt&quot; utbildningsplattformen. Detta hjälper administratören att förstå den totala mängden användare som har åtkomst till systemet. Den första månaden skapar Learning Manager en post med det totala antalet användare som har tillgång till plattformen under föregående månad. Det registrerar även användargruppsinformation för dessa användare.
 
-Endast de användargrupper som konfigurerats av administratören registreras. Detta gör att administratörerna kan tillämpa filter på användargrupper även för historiska månadsdata. Observera att om konfigurationen av användargrupper ändras och Learning Manager inte har registrerat data för denna användargrupp under tidigare månader kan inte Learning Manager visa data för dessa nykonfigurerade användargrupper under de föregående månaderna.
+Endast de användargrupper som har konfigurerats av administratören registreras. Detta gör att administratörerna kan tillämpa filter på användargrupper även för historiska månadsdata. Observera att om konfigurationen av användargrupper ändras och Learning Manager inte har registrerat data för den här användargruppen under tidigare månader så kan inte Learning Manager visa data för den här nyligen konfigurerade användargruppen under de föregående månaderna.
 
 Den här rapporten innehåller användare som använder plattformen med alla format som webben, mobilappen, fjärradministrerade anpassade lösningar och så vidare. Användningsdiagrammet för enhetsappen anger endast de användare som använder plattformen med Learning Managers enhetsapp. Detta hjälper administratörer att identifiera användningen av mobilappen i sina konton.
 
 ![](assets/user-visit-report.png)
 *Besöksrapport för användare*
 
-## Rapport över använd utbildningstid {#learningtimespentreport}
+### Rapport över använd utbildningstid {#learningtimespentreport}
 
 Här visas ett linjediagram med två axlar som visar den totala inlärningstiden för alla elever under en 12-månadersperiod. Den andra axeln representerar mediantid för att lära sig för en individ.
 
@@ -194,14 +104,14 @@ Det valda filtret för datum och användargrupp används i alla relevanta diagra
 
 På instrumentpanelen för utbildningsinnehåll finns insikter om utbildningar som är tillgängliga på plattformen. Du kan visa populära utbildningar eller spåra alla tillgängliga utbildningar.
 
-## Utbildningsrapport {#trainingsreport}
+### Utbildningsrapport {#trainingsreport}
 
 Den här rapporten innehåller information om det totala antalet utbildningar som är tillgängliga på plattformen (i publicerat skick) per månad under månad. Det ger en antydan om antalet utbildningar som erbjuds över tiden.
 
 ![](assets/training-report.png)
 *Utbildningsrapport*
 
-## Aktiv utbildningsrapport {#activetrainingsreport}
+### Aktiv utbildningsrapport {#activetrainingsreport}
 
 Den här rapporten innehåller information om utbildningarna som är aktiva inom det valda tidsintervallet. Aktiva utbildningar är utbildningar som registreras, visas i spelare eller slutförs inom angiven tid.
 
@@ -275,17 +185,622 @@ Utbildningsrapporten har ytterligare två kolumner:
 >
 >För båda rapporterna (Utbildningsinnehåll, Användaraktivitet) kan du konfigurera högst 10 användargrupper. Det kan ta upp till 24 timmar för bearbetningen att slutföras och göra de nyligen konfigurerade filtren tillgängliga.
 
-## Tavelrapporter {#dashboardreports}
+## Instrumentpaneler med utbildningssammanfattning {#dashboards}
 
-En kontrollpanel är en samling rapporter. Rapporter kan grupperas i en kontrollpanel enligt ditt val.
+### Generera kontrollpanelsrapporter
 
-## Exempelrapporter {#samplereports}
+>[!INFO]
+>
+>I den här utbildningen får du lära dig hur du genererar kontrollpanelsrapporter från databasen.<br><br>[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R3B5NPDN&amp;mv=display&amp;mv2=display#/course/8318854)</br></br>
+
+
+Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
+
+Se en sammanfattande rapport över alla utbildningsaktiviteter i plattformen. På den här sidan visas följande sammanfattningsinformation för den valda rotanvändarens team och externa profiler. Du kan även välja Tidsintervall:
+
+* Utbildningssammanfattning i form av registreringar, vyer och slutföranden
+* Viktigaste kompetenserna
+* Sammanfattning av efterlevnad
+
+![](assets/summary-charts.png)
+*Sammanfattningsdiagram*
+
+Om det finns interna rotnivåhanterare visas de efter varandra.
+
+Alla externa profiler visas efter interna profiler (interna rotnivåanvändare).
+
+Om en extern profil har en chef visas chefshierarkin i **[!UICONTROL Showing Data For]** listruta. Användaren listas i chefshierarkin på sidan med all information (utbildningssammanfattning, efterlevnad och kompetensstatus)
+
+I annat fall visas alla enskilda användaruppgifter i listan.
+
+Om du vill se mer detaljerad information om registreringar av olika interna team klickar du på **[!UICONTROL Learning Summary Details]**.
+
+![](assets/learning-sunnarydetails.png)
+*Sammanfattning av utbildning*
+
+När du klickar på en registrering kan du se eleverna för varje chef och registrering till vilka utbildningsobjekt. Du kan också se förloppet och slutförandet för varje elev.
+
+![](assets/learners-for-a-manager.png)
+*elever som tilldelats en chef*
+
+Klicka på ett team och exportera dess rapport som en CSV. En administratör kan exportera rapporten för valfri användargrupp eller enskild användare genom att välja användargruppen eller den enskilda användaren och sedan exportera information från **[!UICONTROL Action]** listruta.
+
+Du kan också se ett stapeldiagram över kompetenser som pågår och har uppnåtts. Du kan lägga till/ta bort kompetenser som du vill ha med i diagrammet.
+
+![](assets/skill-status-stackedbarchart.png)
+*Skivstatusstaplat stapeldiagram*
+
+I den slutliga visualiseringen kan du kontrollera elevers efterlevnadsstatus och vidta lämpliga åtgärder.
+
+Dessutom kan en administratör visa enskilda utbildningsdata i **[!UICONTROL Compliance Dashboard]**.
+
+Administratören har till exempel identifierat tre utbildningar för att spåra efterlevnad. Learning Manager tillhandahåller ögonblicksbilden av kompatibilitet för alla tre utbildningarna samtidigt.
+
+Nu kan en administratör klicka på valfri utbildning och snabbt se efterlevnad för den valda utbildningen.
+
+![](assets/compliance-dashboard.png)
+*Visa efterlevnadstavla*
+
+Du kan också se efterlevnadsstatusen för varje internt team.
+
+Klicka på länken **[!UICONTROL Compliance Status Details]** längst ned i visualiseringen.
+
+Du kan se att antalet elever i teamet för ett team bryter mot eller följer utbildningsefterlevnaden.
+
+![](assets/compliance-statusofateam.png)
+*Efterlevnadsstatus för ett team*
+
+### Dela utbildning med chefer
+
+Learning Manager erbjuder efterlevnadstavla till alla administratörer och chefer. Chefer tycker att det är mycket användbart att följa hur deras teammedlemmar följer en viss utbildning. Samtidigt vill administratörer att alla chefer ska lägga till efterlevnadsutbildningar på sin kontrollpanel och spåra dem.
+
+I Learning Manager **[!UICONTROL Share with Managers]** Med arbetsflödet kan administratörer dela utbildning med chefer så att de kan läggas till i en chefs efterlevnadstavla. Chefer behöver alltså inte vidta några åtgärder och kan börja spåra efterlevnad omedelbart.
+
+En administratör kan dela en uppsättning utbildningskurser med chefer enskilt eller med en grupp. Denna delning kan hjälpa en chef att enkelt följa hur hans/hennes team följer den angivna utbildningen.
+
+Administratören kan &quot;skicka&quot; en standardlista över efterlevnadsutbildning som ska visas på chefens efterlevnadstavla.
+
+### Dela utbildning
+
+1. in **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**, bläddrar nedåt och klickar på fliken **[!UICONTROL Share with Managers]**.
+
+   ![](assets/share-with-managers.png)
+   *Dela utbildning med chefer*
+
+1. Om du vill lägga till utbildning eller flera utbildningar klickar du på **[!UICONTROL Share more]**.
+
+1. I dialogrutan **[!UICONTROL Share with Managers]** väljer du utbildningarna och cheferna.
+
+   ![](assets/select-training.png)
+   *Välj utbildning att dela med chefer*
+
+1. Klicka på **[!UICONTROL Share]**.
+
+Utbildningen delas nu med den angivna chefen.
+
+### Visa utbildning
+
+Klicka på i listan över delade utbildningar **[!UICONTROL View]**. Du kan se utbildningen som är tilldelad en chef eller vissa chefer.
+
+### Dra in utbildning
+
+1. Om du vill dra tillbaka utbildningen från en chef klickar du på **[!UICONTROL Withdraw]**.
+
+1. Klicka på **[!UICONTROL Proceed]**. Detta drar tillbaka tidigare delad utbildning från chefens efterlevnadstavla.
+
+## Anpassade rapporter
+
+Administratörer kan generera specifika rapporter med den anpassade mallen som är tillgänglig i **[!UICONTROL Reports]** -sektionen.
+
+### Exempelrapporter {#samplereports}
 
 Inställningen **[!UICONTROL Sample Reports]** för att visa några indikativa rapporter som baseras på exempeldatapunkter. Utforska dessa rapporter och få en uppfattning om olika typer av funktionsrika rapporter som du kan generera med hjälp av dina kontodata.
 
-## Tavelrapporter {#DashboardReports-1}
+### Rapporter för kontrollpanelen {#dashboardreports}
 
-Klicka på fliken Tavla för att se alla tavlor som du har skapat. Från **[!UICONTROL View Dashboard]** I listrutan kan du välja standardtavlan eller en kontrollpanel som du har skapat.
+En kontrollpanel är en samling rapporter. Rapporter kan grupperas i en kontrollpanel enligt ditt val. Klicka på fliken Tavla för att se alla tavlor som du har skapat. Från **[!UICONTROL View Dashboard]** I listrutan kan du välja standardtavlan eller en kontrollpanel som du har skapat.
+
+### Excel-rapporter {#excelreports}
+
+Inställningen **[!UICONTROL Excel Reports]** på fliken kan du exportera rapporter i XLS-filformat.
+
+Nedan visas de rapporttyper som är tillgängliga för hämtning.
+
+* Kursrapporter
+* Elevens betygsutdrag
+* Notisrapport
+* Arbetsstödsrapport
+* Verifieringskedja för innehåll
+* Verifieringskedja för användare
+* Rapport över inloggning/åtkomst
+* Spelifieringsutdrag
+* Verifieringskedja för spelifiering
+
+### Elevens betygsutdrag {#learnertranscripts}
+
+Elevens betygsutdrag i Excel-rapporter visar kolumnerna Obligatoriska krediter och intjänade poäng i decimaltal.
+
+### Kursrapporter {#coursereports}
+
+Du som är administratör kan hämta rapporter för kurser. Gör så här:
+
+1. Öppna **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Course Reports]**.
+1. Inställningen **[!UICONTROL Course Report]** visas. Välj kursen som du vill hämta rapporten för och klicka på **[!UICONTROL Show]**.
+
+   ![](assets/course-reports.png)
+   *Kursrapporter*
+
+1. Du omdirigeras till kurssidan. Du kan exportera quiz-poäng per användare och per fråga baserat på varje registrering genom att välja den specifika registreringstypen.
+1. Välj **[!UICONTROL Export Quiz Score]** för att exportera rapporten. A **[!UICONTROL Generating Report Request]** visas. Klicka **[!UICONTROL OK]** för att bekräfta.
+
+   ![](assets/generating-reportrequest.png)
+   *Genererar rapportförfrågan*
+
+   >[!NOTE]
+   >
+   >Den exporterade quiz-poängrapporten innehåller poänginformationen för varje försök om alternativet Flera försök är konfigurerat för modulen.
+
+### Elevens betygsutdrag {#LearnerTranscripts-1}
+
+Med Adobe Learning Manager kan administratörer i en organisation generera utskrifter som är kopplade till elever. Elevens betygsrapport innehåller följande:
+
+1. Elevens betygsutdrag: instrumentpanel för utbildningsaktivitet
+1. Kompetens: instrumentpanel för kompetens
+1. Efterlevnadstavla
+
+Elevens betygsutdrag i Excel-rapporter visar kolumnerna Obligatoriska krediter och intjänade poäng i decimaltal.
+
+Mer information om hur du genererar rapporter om elevens betygsutdrag finns i [Elevens betygsutdrag](learner-transcripts.md).
+
+### Meddelanderapporter {#announcementsreports}
+
+Administratörer kan skapa rapporter över alla meddelanden som skickas. Rapporten innehåller information om:
+
+* Meddelandetyp
+* Meddelandenamn
+* Meddelandedatum
+* Tillstånd för tillkännagivandet
+* Elevnamn
+
+Gör något av följande för att hämta en rapport:
+
+1. Öppna **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Announcements Report]**. Inställningen **[!UICONTROL Generating Report Request]** dialogrutan öppnas. Klicka på OK.
+1. [!UICONTROL **Meddelanden**] > [!UICONTROL **Åtgärder**] > [!UICONTROL **Exportera rapport**].
+
+   ![](assets/announcements.png)
+   *Meddelanderapport*
+
+1. Du kan extrahera en rapport för ett specifikt meddelande genom att klicka på **[!UICONTROL Export Report]** under ikonen för inställningar.
+
+   ![](assets/announcements-specific-report.png)
+   *Rapport för specifika meddelanden*
+
+### Arbetsstödsrapport {#jobaidsreport}
+
+Arbetsstöd är utbildningsinnehåll som en elev kan komma åt utan att behöva registrera sig för ett specifikt utbildningsobjekt som en kurs eller ett utbildningsprogram. Administratörer kan extrahera och ladda ner Job Aids-rapporten.
+
+Den extraherade rapporten innehåller information om följande:
+
+* Namn
+* Typ av arbetsstöd
+* Status för arbetsstöd (offentliggjort eller återkallat)
+* Registreringsdatum
+* Datum för slutförande
+* Nedladdningsdatum
+* Elevnamn
+* Chefens namn
+* Skapad av
+
+Gör något av följande för att hämta en rapport:
+
+* Öppna  **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Job Aid Reports]**. Inställningen **[!UICONTROL Generating Report Request]** visas. Klicka på **[!UICONTROL Ok]**.
+* Öppna **[!UICONTROL Job Aid]** > **[!UICONTROL Actions]** > **[!UICONTROL Export Report]**.
+
+![](assets/job-aids.png)
+*Arbetsstödsrapport*
+
+* Du kan även extrahera en rapport för ett specifikt arbetsstöd genom att klicka på **[!UICONTROL Export Report]** under ikonen för inställningar.
+
+![](assets/job-aid-specific-download.png)
+*Rapport om specifikt arbetsstöd*
+
+### Arbetsstödsrapport
+
+När du har valt **[!UICONTROL Job Aids Report]** I listan visas två alternativ:
+
+![rapport om arbetsstöd](assets/job-aids-new.png)
+*Ladda ned rapport om arbetsstöd för användarregistrering*
+
+**Alla arbetsstöd**: Om antalet arbetsstöd i kontot är färre än 10 miljoner, kommer den genererade rapporten att innehålla registreringsinformation för alla arbetsstöd. Detta är standardvalet. Om antalet rader överstiger 10 miljoner visas ett fel och du måste välja de nödvändiga arbetsstöden manuellt.
+
+**Utvalda arbetsstöd**: Om du väljer det här alternativet kan du ange de arbetsstöd som du vill generera rapporten för. Du kan välja högst tio arbetsstöd. Adobe Learning Manager kontrollerar om arbetsstödet överstiger 10 miljoner.
+
+![registrera dig för arbetsstödsrapport](assets/job-aids-2-new.png)
+*Välj arbetsstöd*
+
+**Arbetsstödsrapport**
+
+Om du väljer det här alternativet hämtas information om alla arbetsstöd i systemet tillsammans med metadata och utbildning.
+
+Den hämtade rapporten består av följande fält:
+
+* Arbetsstödsnamn
+* Språk
+* ID
+* Typ
+* Varaktighet (minuter)
+* Status
+* Datum för publicering (tidszonen UTC)
+* Skapad per namn
+* Skapad per mejl
+* Skapat av unikt användar-ID
+* Katalog(er)
+* Utbildningsväg(ar)
+* Kurs(er)
+* Tagg(ar)
+* Kompetens(er)
+
+**Registreringsrapport för arbetsstöd**
+
+Registreringsrapporten innehåller information om användarregistrering och annan information.
+
+Den hämtade rapporten består av följande fält:
+
+* Arbetsstödsnamn
+* Typ
+* Status
+* Datum registrerad (tidszonen UTC)
+* Datum för slutförande (tidszonen UTC)
+* Nedladdningsdatum (tidszonen UTC)
+* Elevnamn
+* E-post
+* Unikt användar-ID
+* Chefens namn
+* Mejladress till chef
+* Unikt användar-ID för chef
+* Tilldelad efter namn
+* Tilldelad per e-post
+* Tilldelat av unikt användar-ID
+* Skapad per namn
+* Skapad per e-post
+* Skapat av unikt användar-ID
+* Jobbkod
+* Nytt fält
+* Profil
+
+### Verifieringskedjan för innehåll {#contentaudittrailreports}
+
+Använd kommandot **[!UICONTROL Content Audit Trail]** rapportgenerator för att generera en rapport över alla ändringar och redigeringar av en kurs under dess livslängd i systemet. Följande information hämtades i den genererade rapporten.
+
+* Objekt-id
+* Objektnamn
+* Objekttyp
+* Ändringstyp
+* Beskrivning
+* Refererat objekt-ID
+* Refererat objektnamn
+* Ändrat per användarnamn
+* Ändrad av användar-ID
+* Ändringsdatum (tidszonen UTC)
+
+Information om metadata hämtas inte i den genererade rapporten.
+
+Följ de här stegen för att generera en granskningsrapport för kursspår.
+
+1. Välj **[!UICONTROL Report]** > **[!UICONTROL Excel reports]** > **[!UICONTROL Course Audit Trail]**. Inställningen **[!UICONTROL Content Audit Trail]** visas.
+
+   ![](assets/course-audit-trial.png)
+   *Verifieringskedja för kurs*
+
+1. Välj kursen, utbildningsprogrammet och certifieringen som du vill hämta rapporten för. Om det inte anges hämtas alla rapporter som standard.
+1. Välj ett datumintervall för rapporten och klicka på **[!UICONTROL Generate]**.
+1. Rapporten skapas och du meddelas att innehållsgranskningsrapporten är klar. Du kan hämta rapporten.
+
+### Verifieringskedjan för användare {#useraudittrailreports}
+
+Verifieringskedjan för användare visar livscykeln för användare, användargrupper och självregistreringsprofiler. Tillägg av användare, borttagning, ändring i chef, registreras. Skapande och radering av självregistreringsprofiler registreras. Du kan även pausa och återuppta självregistreringen.
+
+Du kan lägga till, aktivera, inaktivera, pausa och återuppta för externa profiler medan du kan lägga till, ta bort, pausa och återuppta för egenregistrering. CSV-uppladdningar hämtas också.
+
+1. Välj  **[!UICONTROL Report > Excel report > User Trail]**. Dialogrutan Verifieringskedja för användare visas.
+1. Dialogrutan Verifieringskedja för användare visas. Välj datumintervallet på snabbmenyn. Du kan antingen välja att generera rapport för den senaste veckan, den senaste månaden eller välja anpassat datum.
+
+   ![](assets/user-audit-trail.png)
+   *Verifieringskedja för användare*
+
+1. Klicka **[!UICONTROL Generate]** för att generera rapporten.
+
+Det finns två filter på **[!UICONTROL User Audit Trail Report]** dialog.
+
+**Filter för datumintervall:** Välj det datumintervall som du vill generera rapporten för. Det finns tre alternativ:
+
+* Senaste veckan
+* Senaste månaden
+* Anpassat datum
+
+Välj elevfilter: Sök efter en användare eller användargrupp.
+
+Den exporterade rapporten innehåller data för de användare som uppfyller båda de angivna sökkriterierna.
+
+![](assets/user-audit-trail.png)
+*Verifieringskedja för användare*
+
+>[!NOTE]
+>
+>När en kompetens tilldelas eller tas bort kan kompetensen spåras för användargranskningsrapporten för både tilldelade och borttagna.
+
+### RAPPORT ÖVER TILLÄGGSKONFIGURATION
+
+Den här rapporten innehåller information om konfigurationsinformationen för alla tillagda interna tillägg, inklusive deras aktiveringstillstånd. Lär dig hur du hämtar tilläggsrapporten finns i [Hämta tilläggsrapport](native-extensibility.md#download-extension-report).
+
+### xAPI-aktivitetsrapport
+
+Den här rapporten innehåller data för alla xAPI-satser som har registrerats och genererats under xAPI-aktivitetsmoduler.
+
+Hämta den här rapporten genom att följa stegen nedan:
+
+1. Välj  **[!UICONTROL Report > Excel report > xAPI Activity Report]**. Dialogrutan xAPI-aktivitetsrapport visas.
+1. Välj datumintervallet på snabbmenyn. Du kan antingen välja att generera rapport för den senaste veckan, den senaste månaden eller välja anpassat datum.
+1. Välj elever och aktivitet i listrutan.
+1. Välj **[!UICONTROL Generate]** för att generera rapporten.
+
+### Spelifieringsrapporter {#gamification}
+
+Administratörer kan hämta transkribering av spelifiering i CSV-format. Du kan antingen hämta rapporten för enskilda användare eller användargrupper. Användarnamn, användarens e-postadress, användarens UUID, det totala antalet gjorda användarpoäng, uppdelning av insamlade poäng, namnet på de grupper som användaren spelar i, namnet på chefen och aktiva fältvärden hämtas i rapporten. Administratörer kan använda den här rapporten för att utvärdera och förstå användarrankningar på organisationsnivå eller för en viss grupp.
+
+1. Välj Rapport > Excel-rapport > Spelifieringsrapport.
+
+   ![](assets/gamification.png)
+   *Spelifieringsrapport*
+
+1. Dialogrutan Transkribering av spelifiering visas. Välj elever genom att använda deras namn, profil, användargrupper, e-post-ID eller UUID.
+
+   ![](assets/gamification-transcriptsdialog.png)
+   *Dialogrutan Transkribering av spelifiering*
+
+1. Klicka  **[!UICONTROL Generate]** för att generera rapporten.
+
+   När du har genererat rapporten för en elev måste du kunna exportera aktuell och uppnådd information för alla användare (interna, externa eller borttagna) på kontot. Du kan också kontrollera datumen för de nivåer som en elev uppnått:
+
+   * Brons har uppnåtts datum
+   * Silver har uppnåtts datum
+   * Guld har uppnåtts datum
+   * Platina har uppnåtts datum
+
+   Dessa kolumner innehåller de datum då nivån uppnåddes för första gången. Kolumnen **[!UICONTROL Current Level]** visar elevens aktuella nivå.
+
+   När administratören återställer spelifieringen återställs alla poäng för eleven därefter.
+
+### Verifieringskedjan för spelifiering {#gamification-audit-trail}
+
+Den här rapporten innehåller historik och orsaker till att elever fick spelifieringspoäng för varje regel.
+
+### Hämta rapporten
+
+1. Välj URL för granskningsspår för spelifiering.
+1. På fliken **Verifieringskedja för spelifiering** väljer du datumintervall.
+1. Välj **Generera**.
+
+Rapporten hämtas i CSV-format. Filen innehåller följande kolumner:
+
+* Namn
+* Email/UUID,
+* Status
+* Åtgärd
+* poäng,
+* Balansera poäng
+* Regel/uppgift
+* regel/uppgift underuppgift,
+* Regel/uppgiftsinformation
+* typ,
+* Namn,
+* Instansens NameDate har uppnåtts (tidszonen UTC)
+* Regel/aktivitetens starttid
+* Regel/sluttid för aktivitet
+
+### Rapport över registrering och avregistrering {#enrollmentandunenrollmentreport}
+
+Administratörer och chefer kan extrahera en rapport över elever som har registrerats och avregistrerats. Som administratör kan du se någon av eleven, administratören eller chefen som har registrerats eller avregistrerats från en instans av en kurs, ett utbildningsprogram eller en certifiering och exportera rapporten. Medan du som är chef kan du bara hämta en rapport om dina teammedlemmar. Som chef kan du inte se raderade elever eller ditt namn i chefsappen som en registrerad eller oregistrerad elev.
+
+Hämta en rapport genom att följa dessa steg: Öppna  **[!UICONTROL Course/ Learning program/ Certification]** > **[!UICONTROL Learners]** > **[!UICONTROL Action]** > **[!UICONTROL Export report]**.
+
+![](assets/unenrollment.png)
+*Avregistreringsrapport*
+
+### Feedbackrapport {#feedback-report}
+
+Som administratör kan du nu hämta både elevfeedback (L1) och chefsfeedback (L3) för valda utbildningar under en angiven period.
+
+Du kan exportera data från användargränssnittet eller via PowerBI-anslutningen för mer djupgående analys.
+
+Feedback-rapporter om L1 och L3 ger ett alternativ för att hämta en konsoliderad feedback-rapport för L1- och L3-svaren för valda utbildningar för en **ett år** intervall eller för upp till 10 Valda utbildningar för valfritt datumintervall.
+
+Logga in som administratör och klicka på **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** och i listan med rapporter klickar du på **[!UICONTROL Feedback Report]**.
+
+![](assets/download-feedbackreport.png)
+*Hämta feedbackrapporten*
+
+Om du klickar på Hämta efter att du har valt filtren visas ett meddelande om att du vill hämta rapporten i CSV-format.
+
+Den hämtade rapporten innehåller information som utbildningsnamn och -typ, instansnamn, elevnamn och e-postadress, typ av feedback: L1 eller L3, datum för feedback som har skickats för nya data.
+
+För befintliga data före den här funktionsimplementeringen visas LO-slutförandedatum, LO-slutförandedatum, L1-feedbackfråga Faktisk text och text i klassrum i egen takt i olika kolumner, L1-feedback respektive svar, chefens namn och e-postadress, L3-feedbackvärde och inlämningsdatum, Aktiva fält.
+
+Du kan också exportera data från användargränssnittet eller till Power BI, som stöder alla utbildningar för alla datumintervall för mer djupgående analyser
+
+### Utbildningsrapport {#training-report}
+
+Learning Manager stöder utbildningsrapport som gör det möjligt för administratörer att hämta utbildningsinformation och tillhörande metadata som författare, publiceringsdatum, färdigheter, katalogetiketter osv.
+
+I Admin-programmet klickar du på **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Trainings Report]**.
+
+Du kan hämta rapporter för följande:
+
+* Valda utbildningar (gräns 10) - väljer en eller flera utbildningar (upp till 10) från valfri katalog
+* Utbildningar i valda kataloger (gräns 5) - (katalogval kommer att finnas tillgängligt upp till fem kataloger)
+* Alla utbildningar - (alla utbildningar på kontot)
+
+![](assets/download-trainingreport.png)
+*Hämta utbildningsrapport*
+
+I avsnittet Avancerade alternativ finns följande alternativ:
+
+* Inkludera kursmappningar med utbildningsprogram/certifiering
+* Inkludera modulnivåinformation
+
+När du har valt filtren och klickar på Hämta får du ett meddelande om att hämta rapporten i CSV-format.
+
+Rapporten innehåller följande fält:
+
+*Katalognamn, Utbildningstyp, Utbildnings-ID, Utbildningens unika ID, Utbildningsnamn, Underordnade utbildningar, Moduler, Utbildningens eller modulens längd, Format, Utbildningens status, Kompetens, Författare, Senast publicerat datum, Senast slutfört datum, Instruktörer Registreringsantal, Antal påbörjade, Antal slutförda, Gen. L1-poäng, Gen. L2-poäng, Avg L2-poäng mottagna, Antal mottagna svar, L3-svar. och taggar.*
+
+![](assets/more-options.png)
+*Ytterligare alternativ*
+
+### Sammanfattningsrapport för session {#session-summary-report}
+
+Sessionssammanfattningsrapporten innehåller alla sessioner som är planerade för en elev inom ett visst datum.
+
+Detta gör att administratören kan exportera alla virtuella sessionsdetaljer och klassrumssessionsdetaljer som faller under det angivna datumintervallet. Administratören kan också exportera sessionsrapporten för specifika utbildningar eller instruktörer.
+
+Det hjälper även administratören att förstå de sessioner som planeras varje månad och identifiera instruktörernas schema och de sessioner som redan har levererats.
+
+Som administratör klickar du på **[!UICONTROL Custom Reports]** > **[!UICONTROL Session Summary Report]**.
+
+Välj datumintervall och utbildning eller instruktör för en sammanfattning i dialogrutan som följer.
+
+![](assets/session-summary-report.png)
+*Sammanfattningsrapport för session*
+
+Den hämtade csv-filen innehåller följande fält:
+
+* Startdatum och -tid
+* Slutdatum och sluttid
+
+* Modulnamn
+* Sessionens varaktighet (i minuter)
+* Platsantal
+* Plats
+* Instansnamn
+* Kursnamn
+* Kurs-ID
+* Instruktörens namn
+* Mejladress till instruktör
+* Antal registreringar
+* Sessionstyp
+* Väntlistegräns
+* Antal väntelistor
+* Mejladress till användare på väntelistan
+* Information om platsen
+* Platsens region
+
+### Rapport över instruktörsanvändning
+
+Den här rapporten visar den tid (i minuter) som en instruktör tilldelar sessioner varje dag. Rapporten kan laddas ned under tre månader från det valda startdatumet.
+
+Hämta rapporten genom att klicka på **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Instructor Utilization Report]**.
+
+Välj en instruktör eller flera instruktörer och datumintervallet.
+
+![Hämta användningsrapport för instruktör](assets/utilization-report.png)
+*Hämta användningsrapport för instruktör*
+
+Den hämtade rapporten innehåller följande fält:
+
+* Instruktörens namn
+* Instruktörs-ID
+* Kompetensnivå
+* Datum som kolumner. Om instruktören används på ett datum visas antalet sessioner. Om instruktören inte används på en dag visas värdet noll.
+
+Rapporten innehåller poster för tre månader från den valda månaden.
+
+Lämna fältet Instruktör tomt om du vill hämta poster för alla instruktörer.
+
+En anpassad administratör med behörighet att generera rapporter kan också hämta den här rapporten.
+
+### Verifieringskedjan för användare - rapport
+
+Den här rapporten innehåller information om elever som bytte instans, &quot;från instans&quot; till &quot;instans&quot;, växlade efter tid, datum osv.
+
+Välj elever eller en användargrupp.
+
+Hämta rapporten genom att klicka på **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL User Audit Trail Report]**.
+
+![Hämta rapport över verifieringskedja för användare](assets/user-audit-report.png)
+
+*Hämta rapport över verifieringskedja för användare*
+
+### Rapport över utbildningsplan
+
+Den här rapporten innehåller information om alla utbildningsplaner i ett konto, t.ex. relaterade användargrupper, status och utlösarinformation.
+
+Rapporten innehåller följande:
+
+* Utbildningsplanens namn
+* Text (inträffar när)
+* Utbildning (slutförd)
+* Kompetens (uppnådd)
+* Datum (på datum)
+* Åtgärd
+* Status, skapad av
+* Skapandedatum
+* Senast ändrad den
+* Användargrupp (gäller för)
+* Användargrupp (lägg till)
+* Registrera dig efter
+* Typ(er) av utbildningselement
+* Utbildningselement
+* Instanser av utbildningselement
+* Utbildningselement
+* Slutförandedatum
+* Påminnelse om utbildningselement
+* Omfång – katalog
+* Omfång – användargrupp
+
+## E-postprenumerationer {#emailsubscriptions}
+
+Du kan få dina favoritrapporter via e-post genom att prenumerera på dem.
+
+### Konfigurera e-postprenumerationer
+
+>[!INFO]
+>
+>I den här utbildningen får du lära dig konfigurera e-postprenumerationer för rapporter från instrumentpanelen.<br><br>[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PLHRQ62N&amp;mv=display&amp;mv2=display#/course/8318927)</br></br>
+
+
+Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
+
+in **[!UICONTROL Reports]** klickar du på  **[!UICONTROL Subscription]** -fliken. Sidan Rapportprenumeration visas.
+
+Du väljer rapportnamnet i listrutan genom att börja skriva rapportnamnet i fältet Rapporter. Välj hur ofta du vill skicka e-post i listrutan. Du kan lägga till e-postmeddelandets ämne och ange ett alternativt e-post-ID.
+
+Du kan redigera och radera prenumerationer.
+
+## Historiska rapporter
+
+Historikrapporter i Adobe Learning Manager (ALM) hänvisar till de rapporter som samlar historiska data och aktiviteter inom utbildningsplattformen. Dessa rapporter ger insikter om tidigare elevaktiviteter, utbildningsinnehåll, användargruppers prestanda och andra relevanta data. De historiska rapporterna gör det möjligt för administratörer att spåra, övervaka och analysera utbildningsinitiativs framsteg och effektivitet över tid.
+
+### Rapporter om kursåtkomst
+
+Rapporter om kursåtkomst ger information om varje kurs återbesök.
+
+Hämta den här rapporten genom att följa stegen nedan:
+
+1. Gå till **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Historic Reports]**.
+1. Välj **[!UICONTROL Course Access Report]**. Dialogrutan Generera rapportbegäran öppnas.
+1. Välj år och kvartal i listrutan.
+1. Välj **[!UICONTROL Generate]**.
+
+### Rapporter om inloggning/åtkomst
+
+Inloggnings-/åtkomstrapporterna ger information om användarinloggningar och åtkomst. Du kan skapa en rapport med tre månaders data åt gången.
+
+Hämta den här rapporten genom att följa stegen nedan:
+
+1. Gå till **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Historic Reports]**.
+1. Välj **[!UICONTROL Login/Access report]**. Dialogrutan Generera rapportbegäran öppnas.
+1. Välj år och kvartal i listrutan.
+1. Välj **[!UICONTROL Generate]**.
 
 ## Skapa en kontrollpanel {#createadashboard}
 
@@ -473,18 +988,6 @@ Du kan också skapa anpassade användargrupper med funktionen Lägg till använd
 
 Välj alternativet för användarattribut i x-axeln och välj attributet på menyn **markera** bredvid den. Om du vill skapa en anpassad användargruppsrapport baserad på dessa attribut måste du också välja lämplig användargrupp i filtret.
 
-## Typer av rapporter {#typesofreports}
-
-Adobe Learning Manager stöder fyra huvudtyper av rapporter såsom slutförande, tidsåtgång, färdigheter och effektivitet. Du kan använda följande rapporttyper för att generera rapporter om fler än 300 varianter:
-
-* Statistik för kursleverans för elever
-* Effektivitetsrapport för kurser
-* Rapport över elevens kompetens
-* Statistik för registrering i utbildningsprogram för elever
-* Utbildningstid som elever lagt ner
-* Antal elever
-* Slutförande av certifiering
-
 ## Visa rapporter {#viewingreports}
 
 På sidan Rapporter kan du visa alla rapporter. Du kan minimera varje rapport genom att klicka på minusikonen (-) längst upp till höger i varje rapport. Klicka på ikonen (+) för att visa din rapport igen.
@@ -512,9 +1015,10 @@ Om det finns flera chefer som rapporterar till dig kan du visa rapporterna snabb
 
 ### Generera kursrapporter
 
-I den här utbildningen får du lära dig hur du exporterar kursrapporter och konfigurerar e-postprenumerationer för rapporterna.
+>[!INFO]
+>
+>I den här utbildningen får du lära dig hur du exporterar kursrapporter och konfigurerar e-postprenumerationer för rapporterna.<br><br>[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R726NKNM&amp;mv=display&amp;mv2=display#/course/8318904)</br></br>
 
-[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R726NKNM&amp;mv=display&amp;mv2=display#/course/8318904)
 
 Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
 
@@ -574,466 +1078,6 @@ När du skapar ett kollegialt konto och alternativet Dela katalog inte har valts
    >[!NOTE]
    >
    >Chefer kan inte visa kollegiala rapporter.
-
-## E-postprenumerationer {#emailsubscriptions}
-
-Du kan få dina favoritrapporter via e-post genom att prenumerera på dem.
-
-### Konfigurera e-postprenumerationer
-
-I den här utbildningen får du lära dig konfigurera e-postprenumerationer för rapporter från instrumentpanelen.
-
-[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PLHRQ62N&amp;mv=display&amp;mv2=display#/course/8318927)
-
-Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
-
-in **[!UICONTROL Reports]** klickar du på  **[!UICONTROL Subscription]** -fliken. Sidan Rapportprenumeration visas.
-
-Du väljer rapportnamnet i listrutan genom att börja skriva rapportnamnet i fältet Rapporter. Välj hur ofta du vill skicka e-post i listrutan. Du kan lägga till e-postmeddelandets ämne och ange ett alternativt e-post-ID.
-
-Du kan redigera och radera prenumerationer.
-
-## Excel-rapporter {#excelreports}
-
-Inställningen **[!UICONTROL Excel Reports]** på fliken kan du exportera rapporter i XLS-filformat.
-
-Nedan visas de rapporttyper som är tillgängliga för hämtning.
-
-* Kursrapporter
-* Elevens betygsutdrag
-* Notisrapport
-* Arbetsstödsrapport
-* Verifieringskedja för innehåll
-* Verifieringskedja för användare
-* Rapport över inloggning/åtkomst
-* Spelifieringsutdrag
-* Verifieringskedja för spelifiering
-
-## Elevens betygsutdrag {#learnertranscripts}
-
-Elevens betygsutdrag i Excel-rapporter visar kolumnerna Obligatoriska krediter och intjänade poäng i decimaltal.
-
-## Kursrapporter {#coursereports}
-
-Du som är administratör kan hämta rapporter för kurser. Gör så här:
-
-1. Öppna **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Course Reports]**.
-1. Inställningen **[!UICONTROL Course Report]** visas. Välj kursen som du vill hämta rapporten för och klicka på **[!UICONTROL Show]**.
-
-   ![](assets/course-reports.png)
-   *Kursrapporter*
-
-1. Du omdirigeras till kurssidan. Du kan exportera quiz-poäng per användare och per fråga baserat på varje registrering genom att välja den specifika registreringstypen.
-1. Välj **[!UICONTROL Export Quiz Score]** för att exportera rapporten. A **[!UICONTROL Generating Report Request]** visas. Klicka **[!UICONTROL OK]** för att bekräfta.
-
-   ![](assets/generating-reportrequest.png)
-   *Genererar rapportförfrågan*
-
-   >[!NOTE]
-   >
-   >Den exporterade quiz-poängrapporten innehåller poänginformationen för varje försök om alternativet Flera försök är konfigurerat för modulen.
-
-## Elevens betygsutdrag {#LearnerTranscripts-1}
-
-Med Adobe Learning Manager kan administratörer i en organisation generera utskrifter som är kopplade till elever. Elevens betygsrapport innehåller följande:
-
-1. Elevens betygsutdrag: instrumentpanel för utbildningsaktivitet
-1. Kompetens: instrumentpanel för kompetens
-1. Efterlevnadstavla
-
-Elevens betygsutdrag i Excel-rapporter visar kolumnerna Obligatoriska krediter och intjänade poäng i decimaltal.
-
-Mer information om hur du genererar rapporter om elevens betygsutdrag finns i [Elevens betygsutdrag](learner-transcripts.md).
-
-## Meddelanderapporter {#announcementsreports}
-
-Administratörer kan skapa rapporter över alla meddelanden som skickas. Rapporten innehåller information om:
-
-* Meddelandetyp
-* Meddelandenamn
-* Meddelandedatum
-* Tillstånd för tillkännagivandet
-* Elevnamn
-
-Gör något av följande för att hämta en rapport:
-
-1. Öppna **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Announcements Report]**. Inställningen **[!UICONTROL Generating Report Request]** dialogrutan öppnas. Klicka på OK.
-1. [!UICONTROL **Meddelanden**] > [!UICONTROL **Åtgärder**] > [!UICONTROL **Exportera rapport**].
-
-   ![](assets/announcements.png)
-   *Meddelanderapport*
-
-1. Du kan extrahera en rapport för ett specifikt meddelande genom att klicka på **[!UICONTROL Export Report]** under ikonen för inställningar.
-
-   ![](assets/announcements-specific-report.png)
-   *Rapport för specifika meddelanden*
-
-## Arbetsstödsrapport {#jobaidsreport}
-
-Arbetsstöd är utbildningsinnehåll som en elev kan komma åt utan att behöva registrera sig för ett specifikt utbildningsobjekt som en kurs eller ett utbildningsprogram. Administratörer kan extrahera och ladda ner Job Aids-rapporten.
-
-Den extraherade rapporten innehåller information om följande:
-
-* Namn
-* Typ av arbetsstöd
-* Status för arbetsstöd (offentliggjort eller återkallat)
-* Registreringsdatum
-* Datum för slutförande
-* Nedladdningsdatum
-* Elevnamn
-* Chefens namn
-* Skapad av
-
-Gör något av följande för att hämta en rapport:
-
-* Öppna  **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Job Aid Reports]**. Inställningen **[!UICONTROL Generating Report Request]** visas. Klicka på **[!UICONTROL Ok]**.
-* Öppna **[!UICONTROL Job Aid]** > **[!UICONTROL Actions]** > **[!UICONTROL Export Report]**.
-
-![](assets/job-aids.png)
-*Arbetsstödsrapport*
-
-* Du kan även extrahera en rapport för ett specifikt arbetsstöd genom att klicka på **[!UICONTROL Export Report]** under ikonen för inställningar.
-
-![](assets/job-aid-specific-download.png)
-*Rapport om specifikt arbetsstöd*
-
-### Arbetsstödsrapport
-
-När du har valt **[!UICONTROL Job Aids Report]** I listan visas två alternativ:
-
-![rapport om arbetsstöd](assets/job-aids-new.png)
-*Ladda ned rapport om arbetsstöd för användarregistrering*
-
-**Alla arbetsstöd**: Om antalet arbetsstöd i kontot är färre än 10 miljoner, kommer den genererade rapporten att innehålla registreringsinformation för alla arbetsstöd. Detta är standardvalet. Om antalet rader överstiger 10 miljoner visas ett fel och du måste välja de nödvändiga arbetsstöden manuellt.
-
-**Utvalda arbetsstöd**: Om du väljer det här alternativet kan du ange de arbetsstöd som du vill generera rapporten för. Du kan välja högst tio arbetsstöd. Adobe Learning Manager kontrollerar om antalet arbetsstöd överstiger 10 miljoner.
-
-![registrera dig för arbetsstödsrapport](assets/job-aids-2-new.png)
-*Välj arbetsstöd*
-
-**Arbetsstödsrapport**
-
-Om du väljer det här alternativet hämtas information om alla arbetsstöd i systemet tillsammans med metadata och utbildning.
-
-Den hämtade rapporten består av följande fält:
-
-* Arbetsstödsnamn
-* Språk
-* ID
-* Typ
-* Varaktighet (minuter)
-* Status
-* Datum för publicering (tidszonen UTC)
-* Skapad per namn
-* Skapad per mejl
-* Skapat av unikt användar-ID
-* Katalog(er)
-* Utbildningsväg(ar)
-* Kurs(er)
-* Tagg(ar)
-* Kompetens(er)
-
-**Registreringsrapport för arbetsstöd**
-
-Registreringsrapporten innehåller information om användarregistrering och annan information.
-
-Den hämtade rapporten består av följande fält:
-
-* Arbetsstödsnamn
-* Typ
-* Status
-* Datum registrerad (tidszonen UTC)
-* Datum för slutförande (tidszonen UTC)
-* Nedladdningsdatum (tidszonen UTC)
-* Elevnamn
-* E-post
-* Unikt användar-ID
-* Chefens namn
-* Mejladress till chef
-* Unikt användar-ID för chef
-* Tilldelad efter namn
-* Tilldelad per e-post
-* Tilldelat av unikt användar-ID
-* Skapad per namn
-* Skapad per e-post
-* Skapat av unikt användar-ID
-* Jobbkod
-* Nytt fält
-* Profil
-
-### Verifieringskedjan för innehåll {#contentaudittrailreports}
-
-Använd kommandot **[!UICONTROL Content Audit Trail]** rapportgenerator för att generera en rapport över alla ändringar och redigeringar av en kurs under dess livslängd i systemet. Följande information hämtades i den genererade rapporten.
-
-* Objekt-id
-* Objektnamn
-* Objekttyp
-* Ändringstyp
-* Beskrivning
-* Refererat objekt-ID
-* Refererat objektnamn
-* Ändrat per användarnamn
-* Ändrad av användar-ID
-* Ändringsdatum (tidszonen UTC)
-
-Information om metadata hämtas inte i den genererade rapporten.
-
-Följ de här stegen för att generera en granskningsrapport för kursspår.
-
-1. Välj **[!UICONTROL Report]** > **[!UICONTROL Excel reports]** > **[!UICONTROL Course Audit Trail]**. Inställningen **[!UICONTROL Content Audit Trail]** visas.
-
-   ![](assets/course-audit-trial.png)
-   *Verifieringskedja för kurs*
-
-1. Välj kursen, utbildningsprogrammet och certifieringen som du vill hämta rapporten för. Om det inte anges hämtas alla rapporter som standard.
-1. Välj ett datumintervall för rapporten och klicka på **[!UICONTROL Generate]**.
-1. Rapporten skapas och du meddelas att innehållsgranskningsrapporten är klar. Du kan hämta rapporten.
-
-## Verifieringskedjan för användare {#useraudittrailreports}
-
-Verifieringskedjan för användare visar livscykeln för användare, användargrupper och självregistreringsprofiler. Tillägg av användare, borttagning, ändring i chef, registreras. Skapande och radering av självregistreringsprofiler registreras. Du kan även pausa och återuppta självregistreringen.
-
-Du kan lägga till, aktivera, inaktivera, pausa och återuppta för externa profiler medan du kan lägga till, ta bort, pausa och återuppta för egenregistrering. CSV-uppladdningar hämtas också.
-
-1. Välj  **[!UICONTROL Report > Excel report > User Trail]**. Dialogrutan Verifieringskedja för användare visas.
-1. Dialogrutan Verifieringskedja för användare visas. Välj datumintervallet på snabbmenyn. Du kan antingen välja att generera rapport för den senaste veckan, den senaste månaden eller välja anpassat datum.
-
-   ![](assets/user-audit-trail.png)
-   *Verifieringskedja för användare*
-
-1. Klicka **[!UICONTROL Generate]** för att generera rapporten.
-
-Det finns två filter på **[!UICONTROL User Audit Trail Report]** dialog.
-
-**Filter för datumintervall:** Välj det datumintervall som du vill generera rapporten för. Det finns tre alternativ:
-
-* Senaste veckan
-* Senaste månaden
-* Anpassat datum
-
-Välj elevfilter: Sök efter en användare eller användargrupp.
-
-Den exporterade rapporten innehåller data för de användare som uppfyller båda de angivna sökkriterierna.
-
-![](assets/user-audit-trail.png)
-*Verifieringskedja för användare*
-
->[!NOTE]
->
->När en kompetens tilldelas eller tas bort kan kompetensen spåras för användargranskningsrapporten för både tilldelade och borttagna.
-
-## Spelifieringsrapporter {#gamification}
-
-Administratörer kan hämta transkribering av spelifiering i CSV-format. Du kan antingen hämta rapporten för enskilda användare eller användargrupper. Användarnamn, användarens e-postadress, användarens UUID, det totala antalet gjorda användarpoäng, uppdelning av insamlade poäng, namnet på de grupper som användaren spelar i, namnet på chefen och aktiva fältvärden hämtas i rapporten. Administratörer kan använda den här rapporten för att utvärdera och förstå användarrankningar på organisationsnivå eller för en viss grupp.
-
-1. Välj Rapport > Excel-rapport > Spelifieringsrapport.
-
-   ![](assets/gamification.png)
-   *Spelifieringsrapport*
-
-1. Dialogrutan Transkribering av spelifiering visas. Välj elever genom att använda deras namn, profil, användargrupper, e-post-ID eller UUID.
-
-   ![](assets/gamification-transcriptsdialog.png)
-   *Dialogrutan Transkribering av spelifiering*
-
-1. Klicka  **[!UICONTROL Generate]** för att generera rapporten.
-
-   När du har genererat rapporten för en elev måste du kunna exportera aktuell och uppnådd information för alla användare (interna, externa eller borttagna) på kontot. Du kan också kontrollera datumen för de nivåer som en elev uppnått:
-
-   * Brons har uppnåtts datum
-   * Silver har uppnåtts datum
-   * Guld har uppnåtts datum
-   * Platina har uppnåtts datum
-
-   Dessa kolumner innehåller de datum då nivån uppnåddes för första gången. Kolumnen **[!UICONTROL Current Level]** visar elevens aktuella nivå.
-
-   När administratören återställer spelifieringen återställs alla poäng för eleven därefter.
-
-## Verifieringskedjan för spelifiering {#gamification-audit-trail}
-
-Den här rapporten innehåller historik och orsaker till att elever fick spelifieringspoäng för varje regel.
-
-### Hämta rapporten
-
-1. Välj URL för granskningsspår för spelifiering.
-1. På fliken **Verifieringskedja för spelifiering** väljer du datumintervall.
-1. Välj **Generera**.
-
-Rapporten hämtas i CSV-format. Filen innehåller följande kolumner:
-
-* Namn
-* Email/UUID,
-* Status
-* Åtgärd
-* poäng,
-* Balansera poäng
-* Regel/uppgift
-* regel/uppgift underuppgift,
-* Regel/uppgiftsinformation
-* typ,
-* Namn,
-* Instansens NameDate har uppnåtts (tidszonen UTC)
-* Regel/aktivitetens starttid
-* Regel/sluttid för aktivitet
-
-## Rapport över registrering och avregistrering {#enrollmentandunenrollmentreport}
-
-Administratörer och chefer kan extrahera en rapport över elever som har registrerats och avregistrerats. Som administratör kan du se någon av eleven, administratören eller chefen som har registrerats eller avregistrerats från en instans av en kurs, ett utbildningsprogram eller en certifiering och exportera rapporten. Medan du som är chef kan du bara hämta en rapport om dina teammedlemmar. Som chef kan du inte se raderade elever eller ditt namn i chefsappen som en registrerad eller oregistrerad elev.
-
-Hämta en rapport genom att följa dessa steg: Öppna  **[!UICONTROL Course/ Learning program/ Certification]** > **[!UICONTROL Learners]** > **[!UICONTROL Action]** > **[!UICONTROL Export report]**.
-
-![](assets/unenrollment.png)
-*Avregistreringsrapport*
-
-## Feedbackrapport {#feedback-report}
-
-Som administratör kan du nu hämta både elevfeedback (L1) och chefsfeedback (L3) för valda utbildningar under en angiven period.
-
-Du kan exportera data från användargränssnittet eller via PowerBI-anslutningen för mer djupgående analys.
-
-Feedback-rapporter om L1 och L3 ger ett alternativ för att hämta en konsoliderad feedback-rapport för L1- och L3-svaren för valda utbildningar för en **ett år** intervall eller för upp till 10 Valda utbildningar för valfritt datumintervall.
-
-Logga in som administratör och klicka på **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** och i listan med rapporter klickar du på **[!UICONTROL Feedback Report]**.
-
-![](assets/download-feedbackreport.png)
-*Hämta feedbackrapporten*
-
-Om du klickar på Hämta efter att du har valt filtren visas ett meddelande om att du vill hämta rapporten i CSV-format.
-
-Den hämtade rapporten innehåller information som utbildningsnamn och -typ, instansnamn, elevnamn och e-postadress, typ av feedback: L1 eller L3, datum för feedback som har skickats för nya data.
-
-För befintliga data före den här funktionsimplementeringen visas LO-slutförandedatum, LO-slutförandedatum, L1-feedbackfråga Faktisk text och text i klassrum i egen takt i olika kolumner, L1-feedback respektive svar, chefens namn och e-postadress, L3-feedbackvärde och inlämningsdatum, Aktiva fält.
-
-Du kan också exportera data från användargränssnittet eller till Power BI, som stöder alla utbildningar för alla datumintervall för mer djupgående analyser
-
-## Utbildningsrapport {#training-report}
-
-Learning Manager stöder utbildningsrapport som gör det möjligt för administratörer att hämta utbildningsinformation och tillhörande metadata som författare, publiceringsdatum, färdigheter, katalogetiketter osv.
-
-I Admin-programmet klickar du på **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Trainings Report]**.
-
-Du kan hämta rapporter för följande:
-
-* Valda utbildningar (gräns 10) - väljer en eller flera utbildningar (upp till 10) från valfri katalog
-* Utbildningar i valda kataloger (gräns 5) - (katalogval kommer att finnas tillgängligt upp till fem kataloger)
-* Alla utbildningar - (alla utbildningar på kontot)
-
-![](assets/download-trainingreport.png)
-*Hämta utbildningsrapport*
-
-I avsnittet Avancerade alternativ finns följande alternativ:
-
-* Inkludera kursmappningar med utbildningsprogram/certifiering
-* Inkludera modulnivåinformation
-
-När du har valt filtren och klickar på Hämta får du ett meddelande om att hämta rapporten i CSV-format.
-
-Rapporten innehåller följande fält:
-
-*Katalognamn, Utbildningstyp, Utbildnings-ID, Utbildningens unika ID, Utbildningsnamn, Underordnade utbildningar, Moduler, Utbildningens eller modulens längd, Format, Utbildningens status, Kompetens, Författare, Senast publicerat datum, Senast slutfört datum, Instruktörer Registreringsantal, Antal påbörjade, Antal slutförda, Gen. L1-poäng, Gen. L2-poäng, Avg L2-poäng mottagna, Antal mottagna svar, L3-svar. och taggar.*
-
-![](assets/more-options.png)
-*Ytterligare alternativ*
-
-## Sammanfattningsrapport för session {#session-summary-report}
-
-Sessionssammanfattningsrapporten innehåller alla sessioner som är planerade för en elev inom ett visst datum.
-
-Detta gör att administratören kan exportera alla virtuella sessionsdetaljer och klassrumssessionsdetaljer som faller under det angivna datumintervallet. Administratören kan också exportera sessionsrapporten för specifika utbildningar eller instruktörer.
-
-Det hjälper även administratören att förstå de sessioner som planeras varje månad och identifiera instruktörernas schema och de sessioner som redan har levererats.
-
-Som administratör klickar du på **[!UICONTROL Custom Reports]** > **[!UICONTROL Session Summary Report]**.
-
-Välj datumintervall och utbildning eller instruktör för en sammanfattning i dialogrutan som följer.
-
-![](assets/session-summary-report.png)
-*Sammanfattningsrapport för session*
-
-Den hämtade csv-filen innehåller följande fält:
-
-* Startdatum och -tid
-* Slutdatum och sluttid
-
-* Modulnamn
-* Sessionens varaktighet (i minuter)
-* Platsantal
-* Plats
-* Instansnamn
-* Kursnamn
-* Kurs-ID
-* Instruktörens namn
-* Mejladress till instruktör
-* Antal registreringar
-* Sessionstyp
-* Väntlistegräns
-* Antal väntelistor
-* Mejladress till användare på väntelistan
-* Information om platsen
-* Platsens region
-
-## Rapport över instruktörsanvändning
-
-Den här rapporten visar den tid (i minuter) som en instruktör tilldelar sessioner varje dag. Rapporten kan laddas ned under tre månader från det valda startdatumet.
-
-Hämta rapporten genom att klicka på **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Instructor Utilization Report]**.
-
-Välj en instruktör eller flera instruktörer och datumintervallet.
-
-![Hämta användningsrapport för instruktör](assets/utilization-report.png)
-*Hämta användningsrapport för instruktör*
-
-Den hämtade rapporten innehåller följande fält:
-
-* Instruktörens namn
-* Instruktörs-ID
-* Kompetensnivå
-* Datum som kolumner. Om instruktören används på ett datum visas antalet sessioner. Om instruktören inte används på en dag visas värdet noll.
-
-Rapporten innehåller poster för tre månader från den valda månaden.
-
-Lämna fältet Instruktör tomt om du vill hämta poster för alla instruktörer.
-
-En anpassad administratör med behörighet att generera rapporter kan också hämta den här rapporten.
-
-## Verifieringskedjan för användare - rapport
-
-Den här rapporten innehåller information om elever som bytte instans, &quot;från instans&quot; till &quot;instans&quot;, växlade efter tid, datum osv.
-
-Välj elever eller en användargrupp.
-
-Hämta rapporten genom att klicka på **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL User Audit Trail Report]**.
-
-![Hämta rapport över verifieringskedja för användare](assets/user-audit-report.png)
-
-*Hämta rapport över verifieringskedja för användare*
-
-## Rapport över utbildningsplan
-
-Den här rapporten innehåller information om alla utbildningsplaner i ett konto, t.ex. relaterade användargrupper, status och utlösarinformation.
-
-Rapporten innehåller följande:
-
-* Utbildningsplanens namn
-* Text (inträffar när)
-* Utbildning (slutförd)
-* Kompetens (uppnådd)
-* Datum (på datum)
-* Åtgärd
-* Status, skapad av
-* Skapandedatum
-* Senast ändrad den
-* Användargrupp (gäller för)
-* Användargrupp (lägg till)
-* Registrera dig efter
-* Typ(er) av utbildningselement
-* Utbildningselement
-* Instanser av utbildningselement
-* Utbildningselement
-* Slutförandedatum
-* Påminnelse om utbildningselement
-* Omfång – katalog
-* Omfång – användargrupp
 
 ## Vanliga frågor {#frequentlyaskedquestions}
 

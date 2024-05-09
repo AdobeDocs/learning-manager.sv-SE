@@ -3,59 +3,15 @@ jcr-language: en_us
 title: Systemkrav
 description: Systemkrav för Adobe Learning Manager
 contentowner: dvenkate
-source-git-commit: 1b90528ec5675c67dcc9b8d86f2a5b8b82f7f5e4
+exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
+source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
 
-
 # Systemkrav för Adobe Learning Manager
-
-## Windows {#windows}
-
-Microsoft Windows 7, 8, 10 (endast 64-bitarsversioner).
-
-## macOS {#macos}
-
-macOS X 10.12, 10.13, 10.14, 10.15
-
-## RAM
-
-8 GB RAM.
-
-## Visa
-
-Lägsta upplösning som stöds - 1 024 x 720.
-
-## Diskutrymme
-
-Minst 5 GB ledigt hårddiskutrymme.
-
-## Inspelning
-
-* Mikrofon krävs för ljudinspelning.
-* Webbkamera krävs för videoinspelning.
-
-## Övrigt
-
-En aktiv internetanslutning och ett elevkonto för Adobe Learning Manager krävs för att använda programmet.
-
-## Webbläsarspecifikationer
-
-Startsidan för den uppslukande layouten stöds inte i IE 11-webbläsare.
-
-* Google Chrome version 43 och senare.
-* De senaste versionerna av Edge, Safari (version 13 och senare) och Firefox.
-* Internet Explorer version 11 och senare
-
-## Rekommenderad storlek på bilder {#recommendedsizeofimages}
-
-* Maskin: 1 280 × 360 px.
-* Bild på katalogkortet: 280 x 100 px
-* Utbildningskortets storlek: 300 × 240 px
-* Social banderoll: 1 600 × 240 px
 
 ## Skrivbord
 
@@ -114,6 +70,25 @@ En mikrofon krävs för ljudinspelning, och en webbkamera krävs för videoinspe
 >[!NOTE]
 >
 >Learning Manager-mobilappen stöder bara elevrollen.
+
+## Övrigt
+
+En aktiv internetanslutning och ett Adobe Learning Manager-elevkonto krävs för att använda programmet.
+
+## Webbläsarspecifikationer
+
+Startsidan för den uppslukande layouten stöds inte i IE 11-webbläsare.
+
+* Google Chrome version 43 och senare.
+* De senaste versionerna av Edge, Safari (version 13 och senare) och Firefox.
+* Internet Explorer version 11 och senare
+
+## Rekommenderad storlek på bilder {#recommendedsizeofimages}
+
+* Maskin: 1 280 × 360 px.
+* Bild på katalogkortet: 280 x 100 px
+* Utbildningskortets storlek: 300 × 240 px
+* Social banderoll: 1 600 × 240 px
 
 ## Största innehållsstorlek {#maximumcontentsize}
 

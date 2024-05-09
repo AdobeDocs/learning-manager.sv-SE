@@ -4,9 +4,9 @@ title: Kataloger
 description: Kataloger är en samling utbildningar - kurser, utbildningsprogram och certifieringar. Använd kataloger för att ge elever tillgång till en anpassad uppsättning utbildningar. Du kan koppla inlärning till en katalog när du skapar en ny katalog.
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
 workflow-type: tm+mt
-source-wordcount: '2373'
+source-wordcount: '2397'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Så här skapar du en katalog:
    *Skapa en katalog*
 
    Du kan lägga till flera kurser i katalogen.
-
+1. Du kan filtrera kurserna efter kunskaper, roller och språk. Den valda kursen rekommenderas till elever som är intresserade av dessa färdigheter och roller.
 1. Spara ändringarna. Gå tillbaka till listan med kataloger och klicka på den nya katalogen i listan.
 1. På sidan för den nya katalogen, i den vänstra rutan, klicka på **[!UICONTROL Content]**.
 
@@ -134,7 +134,7 @@ Kurser, utbildningsprogram, arbetsstöd och certifieringar är de utbildningsobj
 
 ### Dela kataloger
 
-Denna utbildning lär dig dela kataloger med interna användargrupper och externa Adobe Learning Manager-konton.
+Den här utbildningen lär dig dela kataloger med interna användargrupper och externa Adobe Learning Manager-konton.
 
 [![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
 
