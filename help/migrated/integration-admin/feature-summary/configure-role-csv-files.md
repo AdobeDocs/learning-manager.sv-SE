@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Hantera anpassade roller via CSV-filer
 description: Integreringsadministratören kan lägga till flera anpassade roller till sitt konto i grupp via CSV och tilldela olika användare samma roller. Detta tillvägagångssätt automatiserar processen för att skapa anpassade roller.
 contentowner: saghosh
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+exl-id: fce2f457-2834-491a-8331-64086f5a51b5
+source-git-commit: 0d318715e120b20b27f4876ad47868bef47bdb7c
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '899'
 ht-degree: 1%
 
 ---
-
-
 
 # Hantera anpassade roller via CSV-filer
 
@@ -18,7 +17,7 @@ Integreringsadministratören kan lägga till flera anpassade roller till sitt ko
 
 Du kan konfigurera roller via FTP- och Box-anslutningarna för Learning Manager.
 
-När du har loggat in på ditt Box- eller ExaVault-lagringskonto kan integreringsadministratören lägga till följande CSV-filer i kontot:
+När du har loggat in på ditt Box-lagringskonto kan integreringsadministratören lägga till följande CSV-filer i kontot:
 
 * role.csv
 * user_role.csv
@@ -26,7 +25,8 @@ När du har loggat in på ditt Box- eller ExaVault-lagringskonto kan integrering
 Kom igång genom att hämta CSV-filerna och ändra värdena enligt dina krav.
 
 **role.csv**
-[Exempelfil - role.csv](assets/role.csv) [Exempelfil - user_role.csv](assets/user-role.csv)
+* Exempelfil: [role.csv](assets/role.csv)
+* Exempelfil: [user_role.csv](assets/user_role.csv)
 
 <table>
  <tbody>
