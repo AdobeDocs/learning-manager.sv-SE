@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Skapa kursmoduler, instanser och utbildningsprogram
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: d13c8ffc2168d51cc6961ad8d502de36955024b7
 workflow-type: tm+mt
 source-wordcount: '4478'
 ht-degree: 1%
@@ -25,9 +25,10 @@ Författare skapar kurser. Elever följer sedan kurserna och administratörer ka
 
 ### Hantera instanser
 
-I den här utbildningen får du lära dig redigera instansinformation och instansegenskaper.
+>[!INFO]
+>
+>I den här utbildningen får du lära dig redigera instansinformation och instansegenskaper.<br><br>[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)</br></br>
 
-[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)
 
 Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
 
@@ -612,7 +613,7 @@ När du utför en sökning är alternativet Avregistrera > Massutskick i listrut
 
 Administratörer i Adobe Learning Manager kan dela QR-koderna med elever för att snabbt registrera sig för kursen. De tre olika QR-koderna används för att markera &quot;registrering&quot;, &quot;slutförande&quot; eller &quot;registrering och slutförande&quot; för en kurs.
 
-Elever kan enkelt använda enhetsappen Adobe Learning Manager för att skanna respektive QR-kod.
+Elever kan helt enkelt skanna den aktuella QR-koden med Adobe Learning Manager-enhetsappen.
 
 **Gör så här för att hämta QR-koden**:
 
@@ -638,7 +639,7 @@ Kursens livscykel ser normalt ut så här:
 
 **Utfasad** - Efter att ha publicerat en kurs kan en författare flytta den till ett utfasat tillstånd om han inte vill att kursen ska visas i kurskatalogen för elever. Du kan publicera om eller radera en kurs i det här tillståndet.
 
-**Raderat** - En kurs under borttaget tillstånd är när den tas bort helt från Adobe Learning Manager-appen. Kurser kan bara tas bort av författare när de har statusen utkast. Du kan också ta bort kurser från utfasat tillstånd.
+**Raderat** - En kurs i borttaget tillstånd är när den tas bort helt från Adobe Learning Manager-programmet. Kurser kan bara tas bort av författare när de har statusen utkast. Du kan också ta bort kurser från utfasat tillstånd.
 
 ![](assets/lifecycle-03.png)
 
