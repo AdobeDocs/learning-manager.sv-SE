@@ -1,19 +1,19 @@
 ---
 jcr-language: en_us
 title: API-borttagningar i Adobe Learning Manager
-description: I takt med att API:erna i Adobe Learning Manager utvecklas omorganiseras eller uppgraderas API:er regelbundet. När API:er utvecklas blir det gamla API:t inaktuellt och så småningom borttaget. Den här sidan innehåller information som du behöver känna till när du migrerar från föråldrade API-versioner till nyare och stabilare API-versioner.
+description: I takt med att API:erna i Adobe Learning Manager utvecklas organiseras och uppgraderas API:er regelbundet. När API:er utvecklas blir det gamla API:t inaktuellt och så småningom borttaget. Den här sidan innehåller information som du behöver känna till när du migrerar från föråldrade API-versioner till nyare och stabilare API-versioner.
 contentowner: saghosh
-source-git-commit: 01cdcd816fe101af55adf0902f4e3660a1a098ce
+exl-id: 0fe9a3cb-9114-42d6-81ae-1a4f28c984fa
+source-git-commit: dd0b8aecbe54d6aecf17e4d9acec5769e7302ecd
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
 
-
 # Borttagningar och ändringar av API i Adobe Learning Manager
 
-## API-borttagningar i mars 2024-versionen av Adobe Learning Manager
+## API-utfasningar i mars 2024-versionen av Adobe Learning Manager
 
 <!-- ### Changes in Rate Limits
 
@@ -113,7 +113,7 @@ I nästa version av Adobe Learning Manager cachelagras slutpunkterna completionC
 
 ### Sortera på namn
 
-I nästa version av Adobe Learning Manager kommer namn och -namn att tas bort i sorteringsfältet för följande API:er:
+I nästa version av Adobe Learning Manager kommer namn och -name att tas bort i sorteringsfältet för följande API:er:
 
 * GET /userGroups/{userGroupId}/users
 * GET/användare
@@ -123,7 +123,7 @@ I nästa version av Adobe Learning Manager kommer namn och -namn att tas bort i 
 >Sortera efter namn och -name kommer att tas bort för alla befintliga och nya konton.
 
 
-## API-borttagningar i november 2023-versionen av Adobe Learning Manager
+## API-utfasningar i november 2023-versionen av Adobe Learning Manager
 
 ### Åsidosättningsflagga
 
@@ -145,6 +145,11 @@ Den kollegiala gruppen blir nu ett konto, och eleverna ser en sträng som visar 
 
 ### Ändringar i aviseringsrapporten
 
-I tidigare versioner av Adobe Learning Manager saknades filter för meddelanderapporten. Adobe Learning Manager har hämtat alla aviseringar på kontot.
+I tidigare versioner av Adobe Learning Manager hade meddelanderapporten inga filter. Adobe Learning Manager har hämtat alla meddelanden på kontot.
 
 I november 2023-versionen har vi lagt till ett datumfilter som du kan använda för att hämta meddelandena inom en angiven period.  Du kan dock bara hämta rapporten för de senaste sex månaderna.
+
+### Borttagning av höga förskjutningsvärden i slutpunkten GET/användare
+
+För att förbättra systemprestanda och hantera resursutnyttjande mer effektivt har Adobe utfasat höga motvärden i slutpunkten GET/användare för både **ADMIN** och **ELEV** omfattningar. Vi rekommenderar att du använder **Jobb-API** för att hämta poster med ett förskjutningsvärde.
+
