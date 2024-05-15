@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: Meddelanden
 description: Ett meddelande är ett multimediemeddelande (text, bild eller video) som en administratör skickar till en viss grupp användare.
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 313ac2c6-05c0-4941-8d71-9c664099bb5c
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1000'
 ht-degree: 1%
 
 ---
-
-
 
 # Meddelanden
 
@@ -29,6 +28,11 @@ Det finns fyra typer av meddelanden:
 1. Du som är administratör klickar på Meddelanden i den vänstra rutan.
 1. Klicka på Lägg till längst upp till höger på sidan.
 1. Välj alternativet i listrutan Typ **Som-meddelande**.
+
+![](assets/as-notofocation.png)
+
+*Anpassa meddelandet*
+
 1. Lägg till meddelandet för meddelandet i fältet Meddelande. Här kan du också lägga till en URL-adress för meddelanden. Du måste dock lägga till URL-adressen i HTML-formuläret.
 
    Till exempel,  `code <a href="http://www.w3schools.com" target="_blank">Visit W3Schools</a>.`

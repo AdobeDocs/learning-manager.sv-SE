@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Skapa kursmoduler, instanser och utbildningsprogram
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: d13c8ffc2168d51cc6961ad8d502de36955024b7
+source-git-commit: dee0b611b2c3bae05bfabfb7a6df82b8bcb81b6c
 workflow-type: tm+mt
-source-wordcount: '4478'
+source-wordcount: '4524'
 ht-degree: 1%
 
 ---
@@ -96,6 +96,18 @@ Så här återställer du en utfasad instans till ett aktiveringsläge:
    *Återställa en instans*
 
 1. Instansen återställs nu till ett aktivt läge.
+
+## Ta bort en instans
+
+Administratörer kan ta bort instansen med **Ta bort denna instans** -alternativet omedelbart efter skapandet. Du kan inte ta bort instanser om det finns en session länkad till den eller om det finns elever som är registrerade till den.
+
+![](assets/delete-this-instance.png)
+
+*Ta bort en instans*
+
+>[!NOTE]
+>
+>Du kan inte ta bort standardinstansen.
 
 ## Skicka e-postmeddelanden på instansnivå
 

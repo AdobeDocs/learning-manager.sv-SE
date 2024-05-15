@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Spelifiering
 contentowner: manochan
 exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
-source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1627'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,8 @@ Administratörer kan konfigurera spelifieringspunkter för elever genom att föl
 1. Klicka på **[!UICONTROL Save]**.
 
 ![](assets/set-up-points.png)
+
+*Ställ in punkter*
 
 ## Uppgifter {#tasks}
 
@@ -103,7 +105,7 @@ Möjliga scenarier för elever att registrera sig för kurser utöver de tilldel
 
 Denna uppgift är tillämplig när elever slutför ett visst antal kompetenser. Administratören kan välja den här uppgiften för att uppmuntra elever att få så många kompetenser som möjligt.
 
-Möjliga scenarier för förkovran i kompetenser:
+Möjliga scenarier för vidareutbildning i kompetenser:
 
 1. När en elev uppnår en kompetens får hen 100 poäng.
 1. När en elev uppnår två kompetenser får denne 300 poäng.

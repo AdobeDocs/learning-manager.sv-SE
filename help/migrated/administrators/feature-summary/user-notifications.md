@@ -1,20 +1,19 @@
 ---
 jcr-language: en_us
 title: Meddelanden
-description: Aviseringsfunktionen gäller alla användare av Adobe Learning Manager. Men varje användare baserat på sin roll får olika typer av meddelanden i olika scenarier.
+description: Meddelandefunktionen gäller alla användare av Adobe Learning Manager. Men varje användare baserat på sin roll får olika typer av meddelanden i olika scenarier.
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 27eb3830-ff4f-44e6-9f63-096d9444378e
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
 
-
-
 # Meddelanden
 
-Aviseringsfunktionen gäller alla användare av Adobe Learning Manager. Men varje användare baserat på sin roll får olika typer av meddelanden i olika scenarier. Alla aviseringar och meddelanden till användare visas i popup-dialogrutan Aviseringar.
+Meddelandefunktionen gäller alla användare av Adobe Learning Manager. Men varje användare baserat på sin roll får olika typer av meddelanden i olika scenarier. Alla aviseringar och meddelanden till användare visas i popup-dialogrutan Aviseringar.
 
 ## Åtkomstmeddelanden {#accessnotifications}
 
@@ -42,7 +41,11 @@ Ett exempel på meddelandefönster för administratörsrollen visas i följande 
 
 Det här popup-fönstret visar markeringar av alla meddelanden tillsammans med tidpunkten för förekomsten och en rullningslist. Du kan ta reda på antalet senaste meddelanden baserat på det markerade numret högst upp på aviseringsikonen. Om det till exempel finns fem senaste meddelanden efter din föregående inloggning, kan du se siffran 5 visas ovanpå aviseringsikonen. Dessa siffror försvinner när du läser alla de senaste meddelandena.
 
-Klicka **[!UICONTROL Show all notifications]** längst ned i popup-fönstret för meddelanden för att visa alla meddelanden på en separat sida.
+Klicka **[!UICONTROL Show all notifications]** längst ned i popup-fönstret för meddelanden för att visa alla meddelanden på en separat sida. På sidan aviseringar kan du se följande:
+
+* **Alla meddelanden**: Visa alla meddelanden här
+* **Väntar**: Visa väntande meddelanden här
+* **Diskussion**: Sök efter kurser för att se vilka diskussioner som förs.
 
 ## Ställ in eskaleringsmeddelanden för flera nivåer {#setupmultilevelescalationnotifications}
 

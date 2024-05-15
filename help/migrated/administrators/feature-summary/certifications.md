@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Certifieringar
 contentowner: manochan
 exl-id: 406d1c33-aac3-47e1-9b32-83874976ce54
-source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '998'
 ht-degree: 2%
 
 ---
@@ -106,6 +106,8 @@ Välj nivå för produkter, roller och roller i **[!UICONTROL Recommend for]** -
 
 ![](assets/recommend-for.png)
 
+*Rekommendation*
+
 Välj de kurser som ska läggas till i certifieringen från **[!UICONTROL Courses]** > **[!UICONTROL Catalog]** -fliken.
 
 Håll muspekaren över varje kursruta och klicka på + för att lägga till dem i certifieringen. Klicka **[!UICONTROL Preview]** för att visa kursen som elev innan du lägger till den.
@@ -170,6 +172,8 @@ Om du vill redigera en publicerad certifiering klickar du på certifieringskorte
 När du redigerar avsnitt i en certifiering och måste flytta från sidan, måste du publicera certifieringen igen. Du får en dialogruta där du ombeds att publicera certifieringen.
 
 ![](assets/edit-a-certificate.png)
+
+*Redigera ett certifikat*
 
 ## Prenumeration {#subscription}
 

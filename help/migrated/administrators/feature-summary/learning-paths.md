@@ -4,9 +4,9 @@ title: Utbildningsvägar
 description: Skapa utbildningsplaner för administratörer i Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1916'
+source-wordcount: '1275'
 ht-degree: 0%
 
 ---
@@ -49,17 +49,27 @@ I dialogrutan **[!UICONTROL Learning Path]** sida, klicka på **[!UICONTROL Add]
 
 *Lägg till en ny utbildningsväg*
 
+I dialogrutan **Registreringstyp** alternativ, välj **Egenregistrering** eller **Administratörsregistrering**.
+
+>[!NOTE]
+>
+>Om du väljer kommandot **Administratörsregistrering** får eleverna bara se kurser som är nominerade av chefen eller godkända av chefen. Eleverna kan inte se utbildningsvägen i rekommendationsavsnittet.
+
 När du har skapat utbildningsvägen väljer du den nyligen skapade utbildningsvägen och lägger till kurserna i sökvägen.
 
 Du kan lägga till färdigheter och tilldela ett utmärkelsetecken till utbildningsvägen. Om du vill lägga till en kompetens väljer du den kompetens eller de färdigheter som krävs från **[!UICONTROL Pick a Skill]** listruta. Välj även nivån för kompetensen eller kompetenserna.
 
 ![](assets/add-skills.png)
 
+*Lägg till en kompetens*
+
 Tilldela ett utmärkelsetecken till utbildningsvägen. Välj ett märke i listan med tillgängliga märken.
 
 Välj nivå för produkter, roller och roller i **[!UICONTROL Recommend for]** -avsnittet för att föreslå den här utbildningsvägen för användare som har uttryckt intresse för dessa produkter och roller.
 
 ![](assets/recommend-for.png)
+
+*Rekommendation*
 
 Välj sekvenstyp för avsnitten och utbildningen som Beställd eller Osorterad beroende på dina önskemål.
 
@@ -141,6 +151,20 @@ Det finns tre alternativ:
 
 Meddelandepåminnelserna utlöses baserat på alternativet. Som standard används alternativet **[!UICONTROL All Levels Courses and Learning Paths]** har aktiverats för en instans.
 
+## Prenumerationer
+
+Du kan prenumerera på de enskilda utbildningsvägarna för att få omfattande data inklusive quizpoäng och elevstatus direkt till din inkorg.
+
+Följ stegen nedan:
+
+1. Gå till valfri utbildningsväg > Prenumerationer.
+1. Välj Lägg till mer.
+1. Välj information och skriv det e-post-ID som ska ta emot rapporterna.
+
+![](assets/subscriptions.png)
+
+*Prenumerera på enskild utbildningsväg*
+
 ## Viktig anmärkning
 
 Observera att den befintliga funktionen i utbildningsprogrammen kommer att döpas om till Utbildningsväg omedelbart efter lanseringen. Om du vill fortsätta att kalla det för utbildningsprogram rekommenderar vi att du använder funktionen Terminologier för att tillämpa önskad terminologi. På så sätt kan du konsumera för att använda ordet Utbildningsprogram.
@@ -151,76 +175,76 @@ Elever kan fortsätta att använda utbildningsprogram (som nu kallas utbildnings
 
 Inställningen **[!UICONTROL Settings]** > **[!UICONTROL General]** sidan har ett nytt alternativ för att aktivera utbildningsvägar. Om det här alternativet är aktiverat kan du lägga till kurser och utbildningsprogram på en utbildningsväg. Du kan inte ändra alternativet när det har aktiverats.
 
-## Annan information om utbildningsväg
+<!-- ## Other Learning Path-related details 
 
-### Alternativet Utbildningsväg är inaktiverat/avmarkerat i Administratörsinställningar
+### Learning Path option is disabled/unchecked in Admin Settings
 
-**Konton som använder inbyggda webbappar**
+**Accounts using Native Web apps**
 
-**Elever**
+**Learners**
 
-* Som standard kommer elever att märka en ändring i terminologi från &quot;Utbildningsprogram&quot; till Utbildningsväg. Detta har gjorts för att göra gränssnittet mer intuitivt. Om du inte vill ha den här ändringen läser du punkterna nedan.
+* By default, learners will notice a change in terminology from "Learning Program" to Learning Path". This has been done to make the interface more intuitive. If you do not want this change, refer to the below points.  
 
-* Den här ändringen visas dock inte i användargränssnittet om du redan har använt funktionen &quot;Anpassad terminologi&quot; för att ersätta terminologin &quot;Utbildningsprogram&quot; med anpassad text.
-* Om du inte har använt funktionen Anpassad terminologi ännu men nu vill behålla &quot;Utbildningsprogram&quot; som terminologi kan du göra det via funktionen &quot;Anpassad terminologi&quot; efter lanseringen.
+* This change however will not be reflected in the UI if you have already used the 'Custom Terminology" function to replace the terminology "Learning Programs" with some custom text. 
+* In case you had not used the Custom Terminology function yet but now wish to retain "Learning Programs" as the terminology, you can do so via the 'Custom Terminology' feature post the release.
 
-* Det övergripande kosmetiska utseendet och känslan hos tidigare utbildningsprogram kommer att uppdateras till ett mer visuellt rikt utseende och känsla.
+* The overall cosmetic look and feel of erstwhile 'Learning Programs' will get updated to a more visually rich look and feel.
 
-**Författare och administratörer**
+**Authors and Admins**
 
-* Terminologin i programmen Admin/Author är densamma som för elever.
-* Gränssnittet för författare och administratörer att skapa och uppdatera de tidigare objekten för utbildningsprogrammet uppdateras nu till det nya gränssnittet. Det finns ingen förlust av funktionalitet, bara att användargränssnittet för att göra åtgärden kommer att vara mycket mer intuitivt. Dessa ändringar av användargränssnittet kommer att återspeglas i ditt konto, även om du har valt att inte aktivera utökade funktioner för utbildningsvägen utan att förlora funktionalitet.
+* The terminology within the Admin/Author apps is the same as that of learners.
+* The UI for Authors and Admins to create, update the erstwhile 'Learning Program' objects will now be updated to the new UI. There is no loss of functionality, just that the User Interface to do the operation will be much more intuitive. These UI changes will reflect in your account, even if you have chosen not to enable 'Extended Features of Learning Path', with no loss in functionality. 
 
-* Observera att eventuella befintliga objekt för utbildningsprogrammet inte kommer att ändras så att det inte påverkar elever (förutom den terminologi som anges ovan). Författare/administratörer kan märka av en standardgruppering som kallas för &quot;Avsnitt&quot; i deras befintliga objekt, vilket inte skulle ha någon väsentlig inverkan vad funktionen beträffar. Författare/administratörer kan också se ytterligare funktioner som Kompetens, Arbetsstöd osv. Men eftersom du inte har använt det ännu kommer det inte att påverka elevsidan förrän du faktiskt börjar använda det.
+* Note that any existing Learning Program objects will not change so there is no impact on learners (other than the terminology point noted above). Authors/Admins might notice a default grouping called "Section" within their existing objects, which would be of no material impact as far as functionality goes. Authors/Admins will also see added functionalities like Skills, Job Aids etc. But as you haven't used it yet, it will not create any impact on the learner side till you actually start using it.
 
-**Rapportering**
+**Reporting**
 
-* Om du inte aktiverar alternativet Utbildningsväg sker inga ändringar i elevens betygsrapportstruktur på grund av utbildningsvägen. Men som tidigare meddelats (se tabellen som delats i tidigare meddelande); en ny kolumn läggs till längst till höger i elevens betygsutdrag omedelbart efter utgivningen.
+* If you do not enable the option, Learning Path , there are no changes in the Learner Transcript report structure due to Learning Path. But as communicated in earlier notice (refer to the table shared in earlier communication); one new column will get added to the extreme right of the Learner Transcript immediately after the release.
 
-**Konton som använder fjärradministrerat LMS**
+**Accounts using Headless LMS**
 
-**Elever**
+**Learners**
 
-* Det finns inga ändringar för elever i det fjärradministrerade gränssnittet. Även API:er som används för att generera rapporterna ändras inte omedelbart.
+* There are no changes for learners in headless interface. APIs as well that are used to generate the reports does not have immediate changes. 
 
-**Författare och administratörer**
+**Authors and Admins**
 
-* Samma ändringar som för Författare/Administratörer ovan.
+* Same changes as that of Authors/Admins stated above.
 
-**Rapportering**
+**Reporting**
 
-* Samma förändringar som den som redovisades ovan.
+* Same changes as that of Reporting stated above.
 
-### Alternativet Utbildningsvägar är aktiverat/markerat i Administratörsinställningar
+### Learning Paths option is enabled/checked in Admin Settings
 
-**Konton som använder inbyggda webbappar**
+**Accounts using Native Web apps**
 
-**Elever**
+**Learners**
 
-* Samma ändringar som för elever när alternativet är inaktiverat.
-* När du börjar använda de utökade funktionerna i Utbildningsvägar kan elever ha nytta av att se mer detaljerade vägar med inbäddade vägar och avsnitt, Kompetenser och utmärkelsetecken som intjänas vid slutförande av utbildningsvägen, resurser på utbildningsnivå och andra fördelar.
+* Same changes as that of Learners when the option is disabled.
+* As you start using the extended functionality of Learning Paths, Learners will benefit from seeing more elaborate paths with embedded paths and sections, Skills and badges being earned on path completion, resources at path level, and other benefits.
 
-**Författare och administratörer**
+**Authors and Admins**
 
-* Samma ändringar som för Författare och Administratörer när alternativet är inaktiverat.
+* Same changes as that of Authors and Admins when the option is disabled.
 
-* Användarna får mer funktionalitet när de skapar avancerade banor. Du kan definiera kompetensnivåer som en elev automatiskt ska uppnå när banan är slutförd (du behöver inte fokusera på aritmetiken för tillskrivningarna för nivåerna). Resurser kan läggas till på sökvägsnivå (inte möjligt för närvarande). Områden kan skapas där varje område har möjlighet att ha X av Y-alternativ. Du kan bädda in en utbildningsväg i en annan utbildningsväg (en hierarkinivå stöds)
+* Users will get more functionality in crafting elaborate paths. You can define Skill-Levels that would automatically be achieved by a learner on completion of path (not have to focus on the arithmetic of Credits for the levels). Resources can be added at the path level (Not possible as of today). Sections can be created with each section having the ability to have X of Y options. One can embed a Learning Path within another Learning Path (one level of hierarchy supported)
 
-**Rapportering**
+**Reporting**
 
-* Några nya kolumner kommer att läggas till i strukturerna &quot;Elevens betygsutdrag&quot; och &quot;Innehållsrapport&quot; för att införliva den nya funktionen att bädda in banor i banor. Detta kan påverka den integrationskod som du kan ha skrivit för att exportera dessa data till ditt anpassade datalager/din anpassade databas utanför Learning Manager. Denna information lämnas i tabellen i tidigare meddelande.
+* A few new columns will get added to the 'Learner Transcript' and 'Content Report' structures to incorporate the new feature of embedding of paths within paths. This may impact integration code that you may have written to export this data to your custom data warehouse/DB outside Learning Manager. This information is communicated in the table provided in earlier communication.
 
-**Konton som använder fjärradministrerat LMS**
+**Accounts using Headless LMS**
 
-**Elever**
+**Learners**
 
-* Det finns ingen förändring för dina elever, om du inte gör ändringar i din fjärradministrerade LMS-implementering, eftersom de API:er som du har byggt ditt fjärradministrerade gränssnitt på inte kommer att ändras.
-* Om du börjar använda de utökade funktionerna i utbildningsvägar genom att skapa nya utbildningsvägar måste du dock göra ändringar i den fjärradministrerade LMS-implementeringen för att återspegla dem i elevappen. Med Learning Manager API:er kan du göra det.
+* There is no change for your learners, unless you make changes to your headless LMS implementation, as the APIs on which you have built your headless interface will not be changing.
+* If you do start using the extended features of Learning Paths by creating new Learning Paths, however you will have to make changes to the headless LMS implementation to reflect those on your learner app. The Learning Manager APIs will allow you to do that.
 
-**Författare och administratörer**
+**Authors and Admins**
 
-* Samma ändringar som för Författare/Administratörer ovan.
+* Same changes as that of Authors/Admins stated above.
 
-**Rapportering**
+**Reporting**
 
-* Samma förändringar som den som redovisades ovan.
+* Same changes as that of Reporting stated above. -->
