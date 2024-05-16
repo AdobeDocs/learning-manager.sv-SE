@@ -2,7 +2,7 @@
 title: Övergång från FTP-hanteraren i Adobe
 description: Adobe Learning Manager stöder en ny anslutning med AWS Transfer-familjens SFTP-protokoll. Du kan ersätta en FTP-klient med öppen källkod med Adobe FTP Manager.
 exl-id: c5674e61-9e3d-45e5-9f3c-e0aa15ec2dac
-source-git-commit: 521b71f87545c513f844b6e216fa3ffc1fac95a0
+source-git-commit: 566716404c1cff34108e39014e14416d65088a80
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%
@@ -172,5 +172,3 @@ Om en migrering pågår stänger du den aktuella utskriften som använder Exavau
 
 * Mappning av kurs-ID görs i det aktuella projektet för kurser som migreras från externa äldre system till Adobe Learning Manager. Du kan bara göra det om du vill uppdatera samma kurser i samma projekt. När du har stängt projektet kan du inte ändra dess information.
 * För API-baserade migreringsprojekt där du inte får stänga ett projekt.
-
-<!--[ALM Whitepaper](assets/alm-security-whitepaper.pdf) -->
