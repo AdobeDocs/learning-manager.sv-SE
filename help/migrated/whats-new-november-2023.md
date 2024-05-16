@@ -2,7 +2,7 @@
 title: Nyheter i den här versionen
 description: Läs om de nya funktionerna och förbättringarna i november 2023-versionen av Adobe Learning Manager.
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: 2d74bc46e8b4aa5f443e34dc48929a807c1d8924
+source-git-commit: eed6dd4d31a62d10a6b2901c48f14e3f4fe571d8
 workflow-type: tm+mt
 source-wordcount: '2365'
 ht-degree: 1%
@@ -324,5 +324,3 @@ Mer information om aktuella och tidigare versioner av Learning Manager-webbappen
 * [Juli 2023-utgåvan](whats-new-2023-july.md)
 * [April 2023-utgåvan](whats-new-2023-april.md)
 * [November 2022-utgåvan](whats-new-2022-november.md)
-
-<!-- [ALM Whitepaper](assets/alm-security-whitepaper.pdf) -->

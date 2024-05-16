@@ -3,14 +3,13 @@ description: Läs vidare för att lära dig mer om vanliga frågor för instrukt
 jcr-language: en_us
 title: Vanliga frågor för instruktörer
 contentowner: shhivkum
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 1120516c-461a-498d-a5ae-cacc1e87e081
+source-git-commit: fe51f56d0528b469ea13f3fb780886d6dd6f2e3d
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
 
 ---
-
-
 
 # Vanliga frågor för instruktörer
 
@@ -49,4 +48,3 @@ Ja, en författare kan tilldela flera instruktörer för en enda modul. I det h�
 Instruktörer kan bara visa och redigera information om de sessioner som du har tilldelats. Du kan inte ändra sessionen eller deltagarlistan för andra sessioner.
 
 +++
-
