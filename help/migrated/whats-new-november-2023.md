@@ -2,7 +2,7 @@
 title: Nyheter i den här versionen
 description: Läs om de nya funktionerna och förbättringarna i november 2023-versionen av Adobe Learning Manager.
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: 2d74bc46e8b4aa5f443e34dc48929a807c1d8924
 workflow-type: tm+mt
 source-wordcount: '2365'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 ## Moderniserat användargränssnitt
 
-Användargränssnittet i Adobe Learning Manager har uppdaterats en hel del för att ge dig en renare och modernare upplevelse. Landningssidorna för administratörs- och författarrollerna har förnyats och gränssnittstemauppdateringar har gjorts för alla roller. Inga ändringar har dock gjorts av placeringen av menyer, knappar eller länkar, och du hittar dem exakt där de fanns tidigare.
+Användargränssnittet i Adobe Learning Manager har uppdaterats några gånger för att ge en renare och modernare upplevelse. Landningssidorna för administratörs- och författarrollerna har förnyats och gränssnittstemauppdateringar har gjorts för alla roller. Inga ändringar har dock gjorts av placeringen av menyer, knappar eller länkar, och du hittar dem exakt där de fanns tidigare.
 
 Temauppdateringarna tillämpas automatiskt på konton som använder standardtemat. Uppdateringarna av användargränssnittstemat påverkar inte konton som har gjort ändringar för att använda ett anpassat tema. Sådana konton måste växla tillbaka till standardtemat för att få de nya temauppdateringarna.
 
@@ -60,13 +60,13 @@ Visa [Skapa ett quiz](/help/migrated/authors/feature-summary/content-library.md)
 
 ### Rapport över ändringar i anmälan till arbetsstöd
 
-I tidigare versioner av Adobe Learning Manager hade registreringsrapporten för arbetsstöd inga filter. Adobe Learning Manager hämtade alla data för ett konto.
+I tidigare versioner av Adobe Learning Manager hade registreringsrapporten för arbetsstöd inga filter. Adobe Learning Manager har hämtat alla data för ett konto.
 
 I den här versionen har vi lagt till en listruta i dialogrutan Arbetsstödsrapport.
 
 ### Ändringar i aviseringsrapporten
 
-I tidigare versioner av Adobe Learning Manager saknades filter för meddelanderapporten. Adobe Learning Manager har hämtat alla aviseringar på kontot.
+I tidigare versioner av Adobe Learning Manager hade meddelanderapporten inga filter. Adobe Learning Manager har hämtat alla meddelanden på kontot.
 
 I den här versionen har vi lagt till ett datumfilter som du kan använda för att hämta meddelandena inom en angiven period.  Du kan dock bara hämta rapporten för de senaste sex månaderna.
 
@@ -78,7 +78,7 @@ Du kan hämta rapporten från **[!UICONTROL Reports]** > **[!UICONTROL Custom Re
 
 ### Ändringar i elevens betygsutdrag
 
-I tidigare versioner av Adobe Learning Manager fanns de borttagna användarna om en anpassad administratör hade en användaromfattning. I den här versionen kommer utbildningsbeviset att innehålla de borttagna användarna om den anpassade administratören antingen har användaromfånget eller åtkomst till alla användargrupper.
+Om en anpassad administratör hade en användaromfattning i tidigare versioner av Adobe Learning Manager innehöll utbildningsbeviset de borttagna användarna. I den här versionen kommer utbildningsbeviset att innehålla de borttagna användarna om den anpassade administratören antingen har användaromfånget eller åtkomst till alla användargrupper.
 
 ### Ändringar i närvarorapport
 
@@ -102,7 +102,7 @@ Den kollegiala gruppen blir nu ett konto, och eleverna ser en sträng som visar 
 
 Anpassade administratörer har nu mer paritet med administratörsroller när det gäller åtkomst till rapporter. Administratörer kommer att kunna konfigurera rapporteringsåtkomst med bättre kontroll.
 
-I Adobe Learning Manager är endast betygsutdrag för inlärning och spelifiering tillgängliga för en anpassad administratör. I den här versionen kan en anpassad administratör få åtkomst till alla anpassade rapporter utom xAPI- och e-postrapporter, som fortfarande bara är tillgängliga för administratören. Åtkomsten till alla rapporter regleras av den katalog och det användaromfång som den anpassade administratören har. Det finns få rapporter som bara är tillgängliga med full omfattning. De är:
+I Adobe Learning Manager är endast transkribering av inlärning och spelifiering tillgänglig för en anpassad administratör. I den här versionen kan en anpassad administratör få åtkomst till alla anpassade rapporter utom xAPI- och e-postrapporter, som fortfarande bara är tillgängliga för administratören. Åtkomsten till alla rapporter regleras av den katalog och det användaromfång som den anpassade administratören har. Det finns få rapporter som bara är tillgängliga med full omfattning. De är:
 
 <table>
     <tbody>
@@ -230,7 +230,7 @@ Administratörer kan endast söka efter chefer i kontrollpanelsrapporter.
 
 ## Begränsa bearbetning av äldre kontrollpanelsrapporter
 
-När en administratör försöker rita upp en kontrollpanelsrapport och rapporten tar för lång tid att rita (mer än 2,5 min), visar Adobe Learning Manager följande meddelande:
+När en administratör försöker rita upp en kontrollpanelsrapport och rapporten tar för lång tid att rita (mer än 2,5 min) visas följande meddelande i Adobe Learning Manager:
 
 ![äldre rapportbild](assets/error-message.png)
 *Felmeddelande när rapporten tar för lång tid*
@@ -253,7 +253,7 @@ Om arbetsstödsrapporten överskrider 10 miljoner som skapats med jobb-API:t i d
 
 ### Meddelande om raderat inlägg
 
-I tidigare versioner av Adobe Learning Manager kunde du fortfarande komma åt kursen, certifieringen eller utbildningsplanen genom att gå till dess meddelande, om någon kurs, certifiering eller utbildningsplan har raderats och dess meddelande finns.
+I tidigare versioner av Adobe Learning Manager kan du fortfarande komma åt kursen, certifieringen eller utbildningsplanen genom att besöka meddelandet om att en kurs, certifiering eller utbildningsplan har raderats och att meddelandet finns.
 
 I den här versionen ser vi till att ett raderat inlägg inte längre är tillgängligt. Om du anger id:t i /posts/{id} API, och ID:t för inlägget är inte längre tillgängligt, visar API:t meddelandet &quot;Hittar inte inlägg för den angivna resursen&quot;.
 
@@ -273,7 +273,7 @@ Framöver kommer följande Elev-API att sluta fungera eftersom det har åsidosä
 
 ### Markera resultat
 
-I den kommande versionen av Adobe Learning Manager, till exempel, i /search API, ändrar vi standardvärdet för highlightResults till false.
+I den kommande versionen av Adobe Learning Manager, till exempel i /search API, ändrar vi standardvärdet för highlightResults till false.
 
 Dessutom ändrar vi standardvärdet för snippetTypes till courseName. Om du gör det markeras bara kursnamnen i sökningen om highlightResults är True.
 
@@ -305,7 +305,7 @@ Mer information om aktuella och tidigare versioner av Learning Manager-webbappen
 * En elev kan inte delta i LinkedIn-kurser i MS Teams-appen.
 * Registrerings-API returnerar inte registreringarna i en Flex-utbildningsplan eller inbäddad utbildningsplan som förväntat.
 * I mobilappen visas namnen på en kurs, certifiering eller utbildningsplan med gemener.
-* I tidigare versioner av Adobe Learning Manager kunde du fortfarande komma åt kursen, certifieringen eller utbildningsplanen genom att gå till dess meddelande, om någon kurs, certifiering eller utbildningsplan har raderats och dess meddelande finns. I den här versionen ser vi till att ett raderat inlägg inte längre är tillgängligt. Om du anger id:t i /posts/{id} API, och ID:t för inlägget är inte längre tillgängligt, visar API:t meddelandet &quot;Hittar inte inlägg för den angivna resursen&quot;.
+* I tidigare versioner av Adobe Learning Manager kan du fortfarande komma åt kursen, certifieringen eller utbildningsplanen genom att besöka meddelandet om att en kurs, certifiering eller utbildningsplan har raderats och att meddelandet finns. I den här versionen ser vi till att ett raderat inlägg inte längre är tillgängligt. Om du anger id:t i /posts/{id} API, och ID:t för inlägget är inte längre tillgängligt, visar API:t meddelandet &quot;Hittar inte inlägg för den angivna resursen&quot;.
 * I elevens API visas inte fältet Deadline för slutförande i svaret från registrerings-API:t.
 * I Hämta registrerings-API för elever visas registreringsinformationen även efter att du har angett ett felaktigt instans-ID.
 
@@ -324,3 +324,5 @@ Mer information om aktuella och tidigare versioner av Learning Manager-webbappen
 * [Juli 2023-utgåvan](whats-new-2023-july.md)
 * [April 2023-utgåvan](whats-new-2023-april.md)
 * [November 2022-utgåvan](whats-new-2022-november.md)
+
+<!-- [ALM Whitepaper](assets/alm-security-whitepaper.pdf) -->
