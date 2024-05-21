@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Skapa kursmoduler, instanser och utbildningsprogram
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: dee0b611b2c3bae05bfabfb7a6df82b8bcb81b6c
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '4524'
+source-wordcount: '4611'
 ht-degree: 1%
 
 ---
@@ -206,6 +206,14 @@ För att skicka e-postmeddelanden måste en administratör uttryckligen välja e
 ![](assets/escalation-notification.png)
 
 *Ange eskaleringsnivå*
+
+## Väntelista
+
+Väntelisteavsnittet gör det möjligt för elever att väntelista sig till klassrumskurser när antalet platser är begränsade, baserat på den ordning i vilken de registrerat sig. Administratörer kan hantera detta genom att välja elever på väntelistan och tilldela platser utöver den ursprungliga gränsen. När en plats har tilldelats av administratören registreras eleven omedelbart till kursen.
+
+## Diskussionstavla
+
+Funktionen Diskussionstavla gör att eleverna kan se kursdiskussionerna. Du som är administratör kan ta bort alla kommentarer efter behov. Administratörer kan aktivera det här alternativet under kursinställningar.
 
 ## Kursmoderering {#coursemoderation}
 

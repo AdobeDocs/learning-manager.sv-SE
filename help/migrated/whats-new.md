@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Sammanfattning av nya funktioner
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: e21eb23c9b99ef5737ca105edede0eea7186ed02
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '3861'
+source-wordcount: '3903'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,18 @@ ht-degree: 0%
 # Sammanfattning av nya funktioner {#new-features-summary}
 
 Läs om de nya funktionerna och förbättringarna i mars 2024-versionen av Adobe Learning Manager.
+
+Utforska några av de senaste Adobe Learning Manager-funktionerna, till exempel:
+
+1. Importera kompetenser från externa källor
+1. Stöd för flera varumärken
+1. Modul för omvärdering av checklista-aktivitet
+1. Vitmärkt app för mobil inlärning
+
+>[!NOTE]
+>
+>Kolla in det här [webbseminarium](https://learningmanager.adobe.com/app/learner?accountId=98632#/course/9212121) om du vill läsa mer om de nya funktionerna i den här versionen
+
 
 ## Nyheter i den här versionen {#whatsnewandchanged}
 

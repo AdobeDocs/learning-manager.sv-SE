@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Anpassa elevens startsida
 description: En administratör kan anpassa elevens startsida och göra den mer modern, innehållsdriven och anpassad för en elev.
 contentowner: saghosh
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1157'
 ht-degree: 0%
 
 ---
-
-
 
 # Anpassa elevens startsida
 
@@ -85,7 +84,7 @@ Det här aktiveras och tonas ned om alternativet för fördjupad upplevelse väl
 
 ![](assets/option-immersive.png)
 
-*Val för klassisk upplevelse*
+*Inställningar för elevstartsida*
 
 Den uppslukande layouten är standard för alla nya konton. Layouten styrs av widgetar som en administratör kan aktivera eller inaktivera. Beroende på hur widgetarna är placerade återspeglas detta på elevens startsida.
 
@@ -244,7 +243,7 @@ På fliken **Allmänt** -sidan har du följande alternativ:
    <td>
     <p>Anpassa</p></td>
    <td>
-    <p>Med Adobe Learning Manager kan du anpassa ditt konto för att ge dina användare en rikare upplevelse.<br></p></td>
+    <p>Med Adobe Learning Manager kan du anpassa ditt konto så att dina användare får en bättre upplevelse.<br></p></td>
   </tr>
   <tr>
    <td>
