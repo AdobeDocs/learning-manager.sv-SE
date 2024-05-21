@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Anslutningar för Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: ec8d204ba7d85fab84c7d1db4a1ba741f363566c
+source-git-commit: f7333304fe42b0b05ed342bb2f41822f15da909d
 workflow-type: tm+mt
-source-wordcount: '15372'
+source-wordcount: '15390'
 ht-degree: 0%
 
 ---
@@ -152,6 +152,10 @@ Så här skapar du objekten:
 1. Byt namn på namnen på de anpassade objekten i Salesforce.
 1. Markera händelserna och klicka på **[!UICONTROL Save]**.
 
+>[!NOTE]
+>
+>Kontrollera att systemadministratörsåtkomst har beviljats för alla aktiva fält som har lagts till efter paketinstallationen.
+
 **Länka händelser med:** Välj vilket område du vill exportera - Användare eller Kontakt. Om du väljer kontaktobjektet skapas användare som finns i Learning Manager men inte i Salesforce, i Salesforce.
 
 ![](assets/link-events.png)
@@ -195,12 +199,12 @@ Om du vill installera paketet måste du först ta bort det befintliga paketet i 
 
 >[!NOTE]
 >
->Adobe Learning Manager-appen stöds bara i Salesforce Lightning-vyn.
+>Adobe Learning Manager-programmet stöds bara i Salesforce Lightning-vyn.
 
 1. Starta [URL till Learning Manager-paket](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WOQ).
 1. I dialogrutan **Inloggning** sida, klicka på **[!UICONTROL Use Custom Domain]**.
 1. Ange paketets URL och klicka på **[!UICONTROL Continue]**. Alternativet Installera endast för administratörer måste vara markerat på installationssidan. Ändra inte det här alternativet.
-1. Klicka på **[!UICONTROL Install]**. När paketet har installerats klickar du på **[!UICONTROL Done]**. Du kommer till sidan Installerade paket och kan se Adobe Learning Manager-installationspaketet.
+1. Klicka på **[!UICONTROL Install]**. När paketet har installerats klickar du på **[!UICONTROL Done]**. Du kommer till sidan Installerade paket där du kan se det installerade Adobe Learning Manager-paketet.
 1. Gå till Appstartaren (bredvid Konfiguration) och sök efter Adobe Learning Manager.
 1. Om du vill konfigurera programmet klickar du på **[!UICONTROL Configure]**.
 1. Klicka **[!UICONTROL New]** och lägg till följande information:
@@ -379,12 +383,12 @@ Med alternativet Importera intern användare kan du importera användare från e
 
 När anslutningen har upprättats kan du mappa kolumnerna i CSV-filer. Den placeras i FTP-mappen till motsvarande attribut för Learning Manager. Det här steget är obligatoriskt.
 
-1. På sidan Mappattribut kan du till vänster se förväntade kolumner i Learning Manager och till höger kan du se CSV-kolumnnamnen. Inledningsvis, på höger sida, kan du se en tom ruta. Importera CSV-mallar genom att klicka **Välj fil**.
-1. I steget ovan fylls den högra listrutan för val i med alla CSV-kolumnnamn. Välj rätt kolumnnamn som mappas till Learning Manager-kolumnnamnet.
+1. På sidan Mappattribut kan du till vänster se förväntade kolumner i Learning Manager och till höger kan du se CSV-kolumnnamnen. Inledningsvis, på höger sida, kan du se en tom ruta. Importera valfri mall-CSV genom att klicka på **Välj fil**.
+1. Ovanstående steg fyller i den högra sidans listruta med alla CSV-kolumnnamn. Välj lämpligt kolumnnamn som mappar till Utbildningshanterarens kolumnnamn.
 
    >[!NOTE]
    >
-   >Fältet Chef måste mappas till ett fält av typen e-postadress. Det är obligatoriskt att mappa alla kolumner innan kopplingen kan användas.
+   >Fältet Hanterare måste mappas till ett fält av typen e-postadress. Det är obligatoriskt att mappa alla kolumner innan kopplingen kan användas.
 
 1. Klicka **[!UICONTROL Save]** efter att mappningen har slutförts.
 
@@ -632,11 +636,11 @@ GetAbstract-kopplingen används av företagskunder på getAbstract.com, som vill
 
    ![](assets/getabstractschedulepage.png)
 
-   *Konfigurera getAbstract-anslutningen för Learning Manager*
+   *Konfigurera getAbstract-kopplingen för Learning Manager*
 
 1. Klicka på Konfigurera i den vänstra rutan. Gör något av följande:
 
-   * Visa eller redigera informationen för ditt konto och synkroniseringsschemat från det här fönstret. Markera kryssrutan Aktivera anslutning om du vill aktivera det här kontot.
+   * Visa eller redigera information om ditt konto och synkroniseringsschemat från det här fönstret. Markera kryssrutan Aktivera anslutning om du vill aktivera det här kontot.
    * Klicka på Redigera och redigera dina inloggningsuppgifter. Om du vill ångra dina uppdateringar av fältet klickar du på Återställ
    * Klicka på Aktivera schema för att schemalägga synkroniseringen. Du kan ange starttid och datum och sedan ange frekvensen för synkroniseringsschemat i dagar. Du kan till exempel aktivera synkronisering var tredje dag.
 
@@ -749,7 +753,7 @@ Med Exportera användarkompetens kan användare exportera användarfärdigheter 
 #### Viktiga saker att observera
 
 * Se till att UUID, e-postadress och namnet på medarbetaren är unikt i flera Workday-integreringar. Felaktiga värden resulterar i ett anslutningsfel.
-* UUID-fältet när det har fyllts i via Workday på kan inte tas bort av en LMS-administratör som riktas mot klienten. Om du vill ändra värdet kan du kontakta Adobe Learning Manager-introduktions- eller supportteamet.
+* UUID-fältet när det har fyllts i via Workday på kan inte tas bort av en LMS-administratör som riktas mot klienten. Om du vill ändra värdet kan du kontakta Adobe Learning Manager registrerings- eller supportteam.
 * Alternativet Användarrensning kanske inte heller fungerar eftersom användarrensning endast stöder att 50 användare rensas per körning. Var extremt försiktig när du överför användare via UUID:n.
 
 ### Tidsplanering {#Scheduling-1}
@@ -808,7 +812,7 @@ Du kan använda Workday-anslutning för att integrera Learning Manager och Workd
 
 Innan du importerar användare måste användarattributen från Learning Manager och Workday mappas. På sidan Översikt anger du mappattributen med alternativet Interna användare under Importera.
 
-Ange inloggningsuppgifterna för Adobe Learning Manager under kolumnen Adobe Learning Manager. Använd listrutorna för att välja rätt inloggningsuppgifter för kolumnerna under Workday.
+Ange Adobe Learning Manager-inloggningsuppgifterna under kolumnen Adobe Learning Manager. Använd listrutorna för att välja rätt inloggningsuppgifter för kolumnerna under Workday.
 
 >[!NOTE]
 >
@@ -827,7 +831,7 @@ Workday har fyra hierarkinivåer medan Learning Manager har två. De fyra nivåe
 
 +++Lista över Workday-attribut som stöds
 
-wd:User_ID wd:Worker_ID manager wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.@wd:Formatted_Name wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.@wd:Formatted_Name wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:Prefix_Data.wd:Title_Descriptor wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:Prefix_Data.wd:Title_Descriptor wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:First_Name wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:Last_Name wd:Personal_Data.wd:Name_Data wd:Legal_Name_Data.wd:Name_Detail_Data.wd:First_Name wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:Last_Name wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.@wd:Formatted_Address wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Postal_Code wd:Personal_Data.wd:Contact_Data.wd:Email_Address_Data.0.wd:Email_Address wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Country_Region_Descripd tor wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.@wd:Formatted_Phone wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:Country_ISO_Code wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:International_Phone_Code wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:Phone_Number:Personal_Data.wd:Primary_Nationality_Reference.wd:ID.1.$ wd:Personal_Data.wd:Gender_Reference.wd:ID.1.$ wd:Personal_Data.wd:Identification_Data.wd:National_ID.0.wd:National_ID_Data.wd:ID wd:Personal_Data.wd:Identification_Data.wd:Custom_ID.0.wd:Custom_ID_Data.wd:ID:User_Account_Data.wd:Default_Display_Language_Reference.wd:ID.1.$ wd:Role_Data.wd:Organization_Role_Data.wd:Organization_Role.0.wd:Organization_Role_Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Position_Title wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Title wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary Data.wd:Name wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.@wd:Formatted_Address wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Classification_Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Group_Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Work_Space__Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Family_Reference.0.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Name wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Reference.wd:ID.2.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Worker_Type_Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.@wd:Formatted_Address wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Management_Level_Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Status_Data.wd:Active wd:Employment_Data.wd:Worker_Status_Data.wd:Active_Status_Date wd:Employment_Data.wd:Worker_Status_Data.wd:Hire_Date wd:Employment_Data.wd:Worker_Status_Data.wd:Original_Hire_Date Employment_Data.wd:Worker_Status_Data.wd:Reretired wd:Employment_Data.wd:Worker_Status_Data.wd:Retirement_Date wd:Employment_Data.wd:Worker_Status_Data.wd:Terminated wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Date:Employment_Data.wd:Worker_Status_Data.wd:Termation_Last_Day_of_Work wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Code wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Name wd:Organization_Data.wd:Worker_Organization Data.0.wd:Organization_Data.wd:Organization_Type_Reference.wd:ID.1.$ wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Subtype_Reference.wd:ID.1.$ wd:Qualification_Data.wd:Education.0.wd:School_Name wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Job_Title wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Company wd:Management_Chain_Data.wd Worker_Supervisory_Management_Chain_Data.wd:Management_Chain_Data.0.wd:Manager.Employee_ID Primary Work Email wd:Organization_Type_Reference_Cost_Centre_ID wd:Organization_Type_Reference_Cost_Center_Name wd:Organization_Type_Reference_Company wd:Organization_Subtype_Reference_Department wd:Organization_Subtype_Reference_ID wd:Integration_Field_Override_Data.3.wd:Value wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Descriptor wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Reference.wd:ID.2.$ wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Municipal
+wd:User_ID wd:Worker_ID manager wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.@wd:Formatted_Name wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.@wd:Formatted_Name wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:Prefix_Data.wd:Title_Descriptor wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:Prefix_Data.wd:Title_Descriptor wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:First_Name wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:Last_Name wd:Personal_Data.wd:Name_Data wd:Legal_Name_Data.wd:Name_Detail_Data.wd:First_Name wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:Last_Name wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.@wd:Formatted_Address wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Postal_Code wd:Personal_Data.wd:Contact_Data.wd:Email_Address_Data.0.wd:Email_Address wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Country_Region_Descripd tor wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.@wd:Formatted_Phone wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:Country_ISO_Code wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:International_Phone_Code wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:Phone_Number:Personal_Data.wd:Primary_Nationality_Reference.wd:ID.1.$ wd:Personal_Data.wd:Gender_Reference.wd:ID.1.$ wd:Personal_Data.wd:Identification_Data.wd:National_ID.0.wd:National_ID_Data.wd:ID wd:Personal_Data.wd:Identification_Data.wd:Custom_ID.0.wd:Custom_ID_Data.wd:ID:User_Account_Data.wd:Default_Display_Language_Reference.wd:ID.1.$ wd:Role_Data.wd:Organization_Role_Data.wd:Organization_Role.0.wd:Organization_Role_Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Position_Title wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Title wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary Data.wd:Name wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.@wd:Formatted_Address wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Classification_Reference.wd:ID.1.$ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Group_Reference.wd:ID.1.$:WD:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Work_Space_Reference.wd:ID.1.$:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Family_Reference.0.wd:ID.1.$:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Name wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Reference.wd:ID.1.$:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Reference.wd:ID.2.$:wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Worker_Type_Reference.wd:ID.1.$:wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.@wd:Formatted_Address wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Management_Level_Reference.wd:ID.1.$:Employment_Data.wd:Worker_Status_Data.wd:Active:Employment_Data.wd:Worker_Status_Data.wd:Active_Status_Date wd:Employment_Data.wd:Worker_Status_Data.wd:Hire_Date:Employment_Data.wd:Worker_Status_Data.wd:Original_Hire_Date:Employment_Data.wd:Worker_Status_Data.wd:Indragen wd:Employment_Data.wd:Worker_Status_Data.wd:Retirement_Date wd:Employment_Data.wd:Worker_Status_Data.wd:Terminated wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Date:Employment_Data.wd d:Worker_Status_Data.wd:Termination_Last_Day_of_Work wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Code wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Name wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Type_Reference.wd:ID.1.$:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Subtype_Reference.wd:ID.1.$ wd:Qualification_Data.wd:Education.0.wd:School_Name wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Job_Title wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Company wd:Management_Chain_Data.wd Worker_Supervisory_Management_Chain_Data.wd:Management_Chain_Data.0.wd:Manager.Employee_ID Primary Work Email wd:Organization_Type_Reference_Cost_Centre_ID wd:Organization_Type_Reference_Cost_Center_Name wd:Organization_Type_Reference_Company wd:Organization_Subtype_Reference_Department wd:Organization_Subtype_Reference_ID wd:Integration_Field_Override_Data.3.wd:Value wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Descriptor wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Reference.wd:ID.2.$ wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Municipal
 
 +++
 
@@ -958,7 +962,7 @@ Följ de här stegen för att konfigurera och använda anslutningen.
 
 ### Skapa en OAuth-app för zoomserver till server
 
-När du skapar en OAuth-app för zoomserver-till-server som ska användas i Adobe Learning Manager måste du lägga till omfattningar som krävs av Adobe Learning Manager när du skapar anslutningen.
+När du skapar ett OAuth-program för zoomserver-till-server som ska användas i Adobe Learning Manager måste du lägga till de omfång som krävs av Adobe Learning Manager när du skapar anslutningen.
 
 Adobe Learning Manager kräver omfånget nedan och omfånget måste väljas i OAuth-appen.
 
@@ -1423,7 +1427,7 @@ Du kan exportera listan och sedan använda Power BI för att analysera rapporten
 
 ### Hämta Power BI-mallar {#template}
 
-Learning Manager innehåller också färdiga Power BI-mallar. De här mallarna ger bättre analysmöjligheter för kontoadministratörer i Adobe Learning Manager.
+Learning Manager innehåller också färdiga Power BI-mallar. De här mallarna ger bättre analysmöjligheter för Adobe Learning Manager-kontoadministratörer.
 
 Du kan enkelt hämta mallarna, exportera relevanta rapporter och rityterapporter med de här tillgängliga mallarna.
 
@@ -1645,7 +1649,7 @@ Förutsättningar för att upprätta en ADFS-anslutning:
 
 ### Konfigurationssida för ADFS
 
-1. Ange det klient-ID och den klienthemlighet du fick tidigare på konfigurationssidan för ADFS i Adobe Learning Manager.
+1. Ange det Klient-ID och den Klienthemlighet som du skaffade tidigare på ADFS-konfigurationssidan i Adobe Learning Manager.
 
    Klicka på **[!UICONTROL Connect]**.
 
@@ -1655,11 +1659,11 @@ Förutsättningar för att upprätta en ADFS-anslutning:
 
 #### Mappningsattribut
 
-Integreringsadministratören kan välja ADFS-attribut och mappa dem till motsvarande attribut som går att gruppera i Learning Manager. När mappningen är klar används samma mappning för efterföljande användarimporter. Det kan konfigureras om om om administratören vill ha en annan mappning för importerande användare.
+Integrationsadministratören kan välja ADFS-attribut och mappa dem till motsvarande grupperbara attribut i Learning Manager. När mappningen är klar används samma mappning i efterföljande användarimporter. Den kan konfigureras om administratören vill ha en annan mappning för att importera användare.
 
 #### Automatiserad användarimport
 
-Importprocessen för användare gör att Learning Manager-administratören kan hämta information om anställda från ADFS och importera dem till Learning Manager automatiskt.
+Importprocessen gör att administratören för Learning Manager kan hämta personalinformation från ADFS och importera dem till Learning Manager automatiskt.
 
 #### Filtrera användare
 
@@ -1862,7 +1866,7 @@ I Marketo finns det två databastyper:
 
 Kolumnmappning används för att skapa lead-databas. Leads är användare som du har exporterat från användarrapporten.
 
-Fälten från användarrapporten visas under kolumnen Adobe Learning Manager. Fälten under kolumnen Marketo är vad Marketo tillhandahåller. Med båda kolumnerna kan du mappa valfritt fält i Learning Manager till det från Marketo. Från en Learning Manager-kolumn ansluter du till en relaterad kolumn från Marketo. När du har anslutit kolumnerna skapas en lead-databas.
+Fälten i användarrapporten visas under kolumnen Adobe Learning Manager. Fälten under kolumnen Marketo är vad Marketo tillhandahåller. Med båda kolumnerna kan du mappa valfritt fält i Learning Manager till det från Marketo. Från en Learning Manager-kolumn ansluter du till en relaterad kolumn från Marketo. När du har anslutit kolumnerna skapas en lead-databas.
 
 Du kan sedan visa alla exporterade användare i Marketo.
 
@@ -1957,7 +1961,7 @@ Mer information finns i  [**Installera Microsoft Teams-anslutning i Adobe Learni
 
 >[!IMPORTANT]
 >
->Den här specifika funktionen är bara tillgänglig om Adobe Learning Manager säljs som ett tillägg till Adobe Experience Manager. Kursdatan skulle vara inaktuell om 24 timmar.
+>Den här funktionen är bara tillgänglig om Adobe Learning Manager säljs som ett tillägg till Adobe Experience Manager. Kursdatan skulle vara inaktuell om 24 timmar.
 
 
 >[!NOTE]
@@ -1975,9 +1979,9 @@ Aktivera den här anslutningen för att skapa och återge dina AEM Sites-baserad
 
 ### Konfigurera anslutningen
 
-Använd Training Data Access-anslutningen för att integrera ditt Adobe Learning Manager-konto med datalagrings- och hämtningstjänsten samt sökaktiveringssystemet för att göra det möjligt för ditt AEM Sites-baserade gränssnitt att hämta utbildningsdata, återge webbsidor och ge eleverna optimerade sökfunktioner för utbildning.
+Använd Training Data Access-anslutningen för att integrera ditt Adobe Learning Manager-konto med datalagrings- och hämtningstjänsten samt sökaktiveringssystemet för att göra det möjligt för ditt AEM Sites-baserade gränssnitt att hämta utbildningsdata, återge webbsidor och ge eleverna tillgång till optimerade sökfunktioner för utbildning.
 
-Exportera utbildningsmetadata från Adobe Learning Manager till datahämtnings- och sökaktiveringstjänsterna. Du kan även skapa ett schema för att automatisera dessa exporter.
+Exportera utbildningsmetadata från Adobe Learning Manager till datahämtnings- och sökaktiveringstjänster. Du kan även skapa ett schema för att automatisera dessa exporter.
 
 1. Ange anslutningens namn och ett giltigt domännamn.
 
@@ -2020,7 +2024,7 @@ När en elev klickar på Kurs eller Certifikat eller utbildningsväg öppnas sid
 
 >[!NOTE]
 >
->Den här specifika funktionen är bara tillgänglig om Adobe Learning Manager säljs som ett tillägg till Adobe Experience Manager.
+>Den här funktionen är bara tillgänglig om Adobe Learning Manager säljs som ett tillägg till Adobe Experience Manager.
 
 >[!NOTE]
 >
@@ -2030,7 +2034,7 @@ Adobe Learning Manager erbjuder nu integrering med Adobe Commerce, en plattform 
 
 Adobe Commerce är en utbyggbar och skalbar handelslösning som gör att du kan skapa handelsupplevelser i flera kanaler för B2B- och B2C-kunder på en enda plattform. Använd Adobe Commerce-anslutningen för att koppla ditt Adobe Learning Manager-konto till Adobe Commerce och förverkliga e-handelsfunktionerna på utbildningsplattformen.
 
-Aktivera den här anslutningen och använd Adobe Commerce-funktionerna för att tillhandahålla utbildningserbjudanden i form av betalutbildning. Observera att du måste köpa Adobe Commerce separat innan du kan integrera programmet med Adobe Learning Manager via denna anslutning.
+Aktivera den här anslutningen och använd Adobe Commerce-funktionerna för att tillhandahålla utbildningserbjudanden i form av betalutbildning. Tänk på att du måste köpa Adobe Commerce separat innan du kan integrera det med Adobe Learning Manager via den här anslutningen.
 
 Kopplingen integreras med Adobe Commerce genom att skicka utbildningsdata till handelsplattformen, vilket sedan gör det möjligt för elever att göra en betalning och köpa utbildning.
 
@@ -2126,7 +2130,7 @@ Genom integreringen av Adobe Commerce stöder Adobe Learning Manager inköp och 
 
 De främsta målen med denna integration är följande:
 
-* Användarna kan generera intäkter genom att sälja kurser på Adobe Learning Manager eller på ett Headless-utbildningsgränssnitt.
+* Användarna kan generera intäkter genom att sälja kurser på Adobe Learning Manager eller i ett Headless-utbildningsgränssnitt.
 * Gör det möjligt att integrera Adobe Commerce med plattformen och sälja kurser med Learning Managers inbyggda app och AEM.
 * Tillåt Learning Managers kunder att erbjuda formellt lärande i form av betalda kurser.
 * Gör det möjligt för elever att förhandsgranska kurser innan de bestämmer sig för att köpa utbildningen.
