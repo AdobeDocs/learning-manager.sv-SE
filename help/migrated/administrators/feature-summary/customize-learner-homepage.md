@@ -4,9 +4,9 @@ title: Anpassa elevens startsida
 description: En administratör kan anpassa elevens startsida och göra den mer modern, innehållsdriven och anpassad för en elev.
 contentowner: saghosh
 exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
-source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
+source-git-commit: f09c93374673a3da92199d5bbc858f934d6cbba2
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1139'
 ht-degree: 0%
 
 ---
@@ -137,6 +137,12 @@ För befintliga konton är alternativet **Integrerande** kommer att **AV**. Det 
   </tr>
   <tr>
    <td>
+    <p>Registreringar som visar deadline</p></td>
+   <td>
+    <p>Visar registreringar som är försenade, har kommande deadlines eller är på rätt spår. </p></td>
+  </tr>
+  <tr>
+   <td>
     <p>Spelifiering</p></td>
    <td>
     <p>Visar resultattavlan baserat på utbildningsaktiviteter.</p></td>
@@ -159,24 +165,24 @@ För befintliga konton är alternativet **Integrerande** kommer att **AV**. Det 
       <p>För det andra kan administratören också avgöra om rekommendationerna börjar gälla omedelbart eller vid ett visst datum.</p></li>
     </ul></td>
   </tr>
-  <tr>
+  <!--<tr>
    <td>
-    <p>Rekommendation baserat på intresseområde</p></td>
+    <p>Recommendation based on area of interest</p></td>
    <td>
-    <p>Visar utbildningsobjekt baserat på elevens valda intresseområde. Rekommendationen drivs av en maskininlärningsalgoritm.</p></td>
-  </tr>
+    <p>Displays Learning Objects based on the learner's chosen area of interest. The recommendation is driven by a Machine Learning algorithm.</p></td>
+  </tr>-->
   <tr>
    <td>
     <p>Bläddra efter katalog<br></p></td>
    <td>
     <p>Visar kataloger som paneler på startsidan. </p></td>
   </tr>
-  <tr>
+  <!--<tr>
    <td>
-    <p>Rekommendation baserat på kollegas uppgift<br></p></td>
+    <p>Recommendation based on peer activity<br></p></td>
    <td>
-    <p>Visar utbildning baserat på vad en elevs kollegor tar. Detta drivs återigen av en maskininlärningsalgoritm.</p></td>
-  </tr>
+    <p>Displays training based on what a learner's peers are taking. This is again driven by a Machine Learning algorithm.</p></td>
+  </tr>-->
  </tbody>
 </table>
 
@@ -277,3 +283,8 @@ På fliken **Allmänt** -sidan har du följande alternativ:
   </tr>
  </tbody>
 </table>
+
+>[!NOTE]
+>
+>Inställningarna Elevens startsida, Utbildningstyp och Rekommendationsomfång för det nya kontot kommer inte att visas.
+
