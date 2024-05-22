@@ -4,9 +4,9 @@ title: API-borttagningar i Adobe Learning Manager
 description: I takt med att API:erna i Adobe Learning Manager utvecklas organiseras och uppgraderas API:er regelbundet. När API:er utvecklas blir det gamla API:t inaktuellt och så småningom borttaget. Den här sidan innehåller information som du behöver känna till när du migrerar från föråldrade API-versioner till nyare och stabilare API-versioner.
 contentowner: saghosh
 exl-id: 0fe9a3cb-9114-42d6-81ae-1a4f28c984fa
-source-git-commit: dd0b8aecbe54d6aecf17e4d9acec5769e7302ecd
+source-git-commit: 670d0477b246af2a0257e41eca799817e391b348
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -59,15 +59,13 @@ På grund av att ett stort antal poster har hämtats av förskjutningsvärdet oc
 
 Om du behöver fler poster använder du **GET jobb** API.
 
-Ändringen av förskjutningsgränser gäller för alla nya kunder. För befintliga kunder gäller 90-dagarsregeln.
+<!--### Exclude paths 
 
-### Exkludera sökvägar
+At present, Learning Manager APIs follow a graph data structure, which allows you to fetch data by traversing the API model through includes. Even though you could traverse an API up to seven levels, fetching the data using a single API call is computationally expensive. 
 
-För närvarande följer Learning Manager API:er en diagramdatastruktur, som gör att du kan hämta data genom att gå igenom API-modellen via inkluderingar. Även om du kan gå igenom ett API upp till sju nivåer, är det datormässigt dyrt att hämta data med ett enda API-anrop.
+We recommend that all existing and new customers make small calls multiple times instead of one large call. This approach will prevent unwanted data from being loaded in the call. 
 
-Vi rekommenderar att alla befintliga och nya kunder ringer små samtal flera gånger i stället för ett stort samtal. På så sätt förhindrar du att oönskade data läses in i samtalet.
-
-Vi vill upprätthålla dessa restriktioner för nya konton och upprätthålla en tillåtelselista över befintliga konton.
+We want to enforce these restrictions on new accounts and maintain a whitelist of existing accounts.-->
 
 #### Vilka sökvägar är inaktuella
 
@@ -99,17 +97,17 @@ Följande sökvägar har tagits bort:
    * Ny bana:
       * instance.subLoInstances
 
-### Antal ändringar av instanssammanfattning
+<!--### Instance summary count changes 
 
-För närvarande hämtar du antalet alla möjliga instanser i LO Summary-slutpunkten. För en kurs kan du till exempel visa antalet registreringar och väntelistor i svaret på **GET /learningObjects/{loId}/instanser/{loInstanceId}/summary**. Du kan sedan visa completionCount och enrollmentCount i svaret. Om kursen är VC eller klassrum kan du även se platsbegränsningen och väntelistan.
+Currently, in the LO summary endpoint, you fetch the number of all possible instances. For example, for a course, you can view the number of enrollments and waitlists in the response for **GET /learningObjects/{loId}/instances/{loInstanceId}/summary**. You can then view the completionCount and enrollmentCount in the response. If the course is a VC or classroom, you can also view its seat limit and waitlist limit. 
 
-Processen för att hämta antal slutförda och registreringar är beräkningskrävande, därför görs beräkningen på begäran. Om data inte finns i cacheminnet läses de in igen, vilket är beräkningsintensivt. Om det finns många användare som registrerar sig för en kurs är antalet stora och påverkar effektivt CPU-prestandan.
+The process of retrieving the completion and enrollment counts is computationally expensive, therefore the calculation is done on a request basis. If the data is not present in the cache, the data is reloaded, which is computationally intensive. If there are many users enrolling in a course, the counts will be large, and effectively impacts CPU performance. 
 
-I nästa version av Adobe Learning Manager cachelagras slutpunkterna completionCount, enrollmentCount, seatLimit och waitlistCount i slutpunkten för LO-instanssammanfattningen. Den cachelagrade informationen kvarstår tills det finns ändringar i registreringar eller avregistreringar. För antal som överskrider 1 000 registreringar antar vi de uppskattade antalet och ogiltigförklarar resultaten för alla befintliga och nya konton.
+In the next release of Adobe Learning Manager, in the LO Instance summary endpoint, the completionCount, enrollmentCount, seatLimit, and waitlistCount are cached. The cached information persists till there are changes in enrollments or unenrollments. For counts exceeding 1000 enrollments, we'll assume the estimated counts, and invalidate the results for all existing and new accounts.
 
 >[!NOTE]
 >
->För antal, till exempel completionCount, enrollmentCount, seatLimit och waitlistCount, som överstiger 1000, är det lämpligt att tolka dem som uppskattningar snarare än exakta siffror, eftersom dessa hämtas från cachen.
+>For counts, such as, completionCount, enrollmentCount, seatLimit, and waitlistCount exceeding1000, it's advisable to interpret them as estimates rather than precise figures, as these will be retrieved from cache.-->
 
 ### Sortera på namn
 
