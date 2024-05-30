@@ -1,19 +1,19 @@
 ---
 jcr-language: en_us
 title: Vit märkning i mobilappen Adobe Learning Manager
-description: Vit märkning är en metod att byta namn på en app eller tjänst med ditt eget varumärke och anpassa den som om du vore den ursprungliga skaparen. I Adobe Learning Manager kan du använda vit etikettering i mobilappen så att du kan byta varumärke på appen och göra den tillgänglig för dina användare under ditt eget varumärke.
+description: Vit märkning är en metod att byta namn på en app eller tjänst med ditt eget varumärke och anpassa den som om du vore den ursprungliga skaparen. I Adobe Learning Manager kan du använda vit etikettering i mobilappen så att du kan byta varumärke på appen och göra den tillgänglig för användarna under ditt eget varumärke.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
+source-git-commit: 73d908674e6c32dafa4f9502634c42ec73fc3b6c
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
 
 # Vit märkning i mobilappen Adobe Learning Manager
 
-Mobilappen Adobe Learning Manager har nu stöd för vit märkning, vilket innebär att du nu kan släppa appen under ditt eget varumärke.
+Adobe Learning Manager-mobilappen stöder nu vit märkning, vilket innebär att du nu kan släppa appen under ditt eget varumärke.
 
 ## Hur du ska börja förbereda för att starta ett program med vit etikett
 
@@ -29,7 +29,7 @@ Gör så här för att distribuera och hantera ditt eget program med vita etiket
 
 ## Översikt
 
-Vit märkning är en metod att byta namn på en app eller tjänst med ditt eget varumärke och anpassa den som om du vore den ursprungliga skaparen. I Adobe Learning Manager kan du använda vit etikettering i mobilappen så att du kan byta varumärke på appen och göra den tillgänglig för dina användare under ditt eget varumärke.
+Vit märkning är en metod att byta namn på en app eller tjänst med ditt eget varumärke och anpassa den som om du vore den ursprungliga skaparen. I Adobe Learning Manager kan du använda vit etikettering i mobilappen så att du kan byta varumärke på appen och göra den tillgänglig för användarna under ditt eget varumärke.
 
 ## Vad kan anpassas
 
@@ -121,7 +121,7 @@ Du kan anpassa följande:
 
   <td>
 
-  <p>Appikonen som png. Den här ikonen visas i ditt program. Formatet som ska namnges är account-id_appIcon.png.</p></td>
+  <p>Appikonen som png. Den här ikonen visas i ditt program. Formatet som ska namnges är account-id_appIcon.png. Appikonens dimensioner är 512 × 512 pixlar.</p></td>
 
   </tr>
 
@@ -133,7 +133,7 @@ Du kan anpassa följande:
 
   <td>
 
-  <p>Ange en bild (png) som visas när användarna startar programmet på programmets välkomstskärm. Formatet som ska namnges är account-id_splashIcon.png.</p></td>
+  <p>Ange en bild (png) som visas när användarna startar programmet på programmets välkomstskärm. Formatet som ska namnges är account-id_splashIcon.png. De kvadratiska välkomstskärmarna är 1 052 × 1 052 pixlar och de cirkelbaserade välkomstskärmarna är 768 x 768 pixlar.</p></td>
 
   </tr>
 
@@ -284,7 +284,7 @@ Kontakta CSM-teamet och få filerna tillagda i SNS-tjänsterna på AWS. Använda
 
 >[!IMPORTANT]
 >
->Skicka filerna till Adobe Learning Manager CSAM-teamet för att inkludera i bygget av din app-binär fil.
+>Skicka filerna till Adobe Learning Manager CSAM-teamet som ska inkludera i bygget av den binära appfilen.
 
 
 ## Generera signerade binärfiler
