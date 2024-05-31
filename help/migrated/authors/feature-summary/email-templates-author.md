@@ -2,14 +2,13 @@
 description: Läs den här artikeln om du vill veta hur du konfigurerar e-postmallar för händelser som rör alla utbildningsobjekt.
 jcr-language: en_us
 title: E-postmallar
-source-git-commit: fda58bc18bee6d21ee904a442884e4759587d053
+exl-id: 3b17f889-52be-4073-ab91-7c76dd79f1d2
+source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 2%
+source-wordcount: '475'
+ht-degree: 1%
 
 ---
-
-
 
 # E-postmallar
 
@@ -21,11 +20,13 @@ Du som är författare kan anpassa e-postmallar genom att lägga till eller änd
 
 Du kan också välja att inte skicka e-postmeddelanden för vissa händelser genom att inaktivera alternativet för e-postmall.
 
-## Ange e-postmeddelanden {#settingemailnotifications}
+## Konfigurera e-postmeddelanden {#settingemailnotifications}
 
-1. I programmet Författare klickar du på utbildningsobjektet som du vill konfigurera e-postmallen för. Till exempel Kurser.
+1. I programmet Författare väljer du utbildningsobjektet som du vill konfigurera e-postmallen för. Till exempel Kurser.
+
 1. På sidan Utbildningsobjekt klickar du på kursen, certifieringen eller utbildningsprogrammet som du vill konfigurera e-postinställningarna för.
-1. Klicka på E-postmallar på informationssidan för utbildningsobjekt.
+
+1. På informationssidan för utbildningsobjekt väljer du **E-postmallar** > **Alla mallar**. Det finns e-postmallar för **Standardinstans** och **Aktuell kurs**. Du kan växla mellan dem med hjälp av listrutan i det övre högra hörnet.
 
    Du kan se listan över mallar som är tillgängliga för det utbildningsobjekt du har valt.
 
@@ -68,3 +69,11 @@ Du kan också välja att inte skicka e-postmeddelanden för vissa händelser gen
 Om cirkeln i aviseringsknappen vid varje händelsenamn finns intill Ja (med blå skugga som bakgrund) aktiveras aviseringen. Om det är i gråton och cirkeln finns bredvid Nej inaktiveras meddelandet.
 
 När du konfigurerar en e-postmall på kursnivån har den företräde framför inställningarna på administratörsnivå för just den kursen.
+
+## Inställningar för e-postmall
+
+Författaren kan ange följande i inställningarna för e-postmallen:
+
+* **E-postbanderoll**: Gör att du kan ändra e-postbanderollen.
+
+* **E-postsignatur**: Gör att du kan lägga till eller redigera e-postsignaturen.

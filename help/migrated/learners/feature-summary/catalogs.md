@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Kataloger
 contentowner: manochan
 exl-id: 5e62995c-6471-47e9-9e6c-06ac5c5586bc
-source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
+source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
@@ -19,14 +19,14 @@ Lär dig använda kataloger i Learning Manager för att se berättigade utbildni
 
 Elever kan se alla tilldelade och berättigade utbildningsobjekt (utbildningsprogram, kurser och certifieringar) i **Standardkatalog**. Dessa utbildningsobjekt är unika för varje elev baserat på hans/hennes roll, beteckning, användargrupp, profil och så vidare.
 
-Du kan filtrera listan över utbildningsobjekt genom att använda kunskaper och typen av utbildningsobjekt (tempo, blandning, klassrum, virtuellt klassrum, aktivitet) . Du kan också filtrera med alternativen i den vänstra rutan: efter utbildningsobjekt, kompetens och slutförandestatus.
+Du kan sortera utbildningsobjekten baserat på olika kategorier som Produkter, Jobbroller, Typer, Tid som behövs, Kompetenser och Nyckelord. Du kan också filtrera med alternativen i den vänstra rutan: efter utbildningsobjekt, kompetens och slutförandestatus.
 
 Använd sökfältet längst upp på sidan för att ange namnen på dina välbekanta utbildningsobjekt. Elever kan växla mellan stödraster och listvyn genom att välja detta ![](assets/icon-list.png) -ikonen.
 
 ![](assets/catalogs.png)
 *Visa kataloger*
 
-En elev kan filtrera utbildningen utifrån utbildningsformatet, till exempel Klassrum, Egen takt eller Virtuellt klassrum. Dessutom kan eleven även filtrera utbildningarna utifrån utbildningens längd. Filter för kompetensnivåer som redan är tillgängliga kan nu aktiveras/inaktiveras av administratören.
+<!--As a learner, you can  filter training based on the format of training, for example, Classroom, Self-paced, or Virtual Classroom. In addition, the learner can also filter the trainings based on Training Duration. Skill Levels filter which is already available, can now be enabled/disabled by Administrator. -->
 
 ![](assets/image014.png)
 
