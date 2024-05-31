@@ -4,9 +4,9 @@ title: Importera kompetenser från externa källor
 description: Importera kompetenser från innehållsleverantörer, t.ex. LinkedIn och Go1, genom att använda respektive kopplingar.  De importerade kunskaperna läggs till i de administratörsdefinierade kunskaperna i Learning Manager och kommer att vara tillgängliga för författare under arbetsflödet för att skapa kursen.
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: fb2d642c90fa36d3db15d7da99fe9c97908ce0e8
+source-git-commit: 64d63c46fc0f9e5daada1eb391e720dc45fbab89
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -21,16 +21,20 @@ Följ stegen i proceduren för att aktivera kunskapsimport i kontot.
 
 1. I Admin-programmet väljer du **Inställningar** i den vänstra rutan.
 1. Välj **Allmänt**.
-1. I dialogrutan **Import av kompetenser** -sektionen väljer du **Aktivera**. Om detta är aktiverat kan du välja en extern källa som du vill importera **Kompetenser**. Kunskaperna för befintliga utbildningsresurser importeras till databasen för kompetenser en gång under den första körningen. För all efterföljande import av utbildningsresurser importeras kunskaperna till kunskapsdatabasen endast för nyligen importerade objekt.
+1. I dialogrutan **Import av kompetenser** -sektionen väljer du **Aktivera**. Om det här alternativet är aktiverat kan du välja en extern källa för att importera kunskaper. När de har aktiverats för all efterföljande import av utbildningsresurser importeras kunskaperna till kunskapsdatabasen för nyligen importerade objekt. Kunskaperna för befintliga utbildningsresurser kan importeras till kunskapsdatabasen en gång och för att köra den första körningen ska du kontakta din CSM.
 1. Välj en innehållsleverantör i listrutan.
 
-Du som är administratör kan bara importera en kompetens som källa.
+Du som är administratör kan bara importera kunskaper från en kompetenskälla.
 
 ### Standardkompetensnivå
 
 Standardkompetensnivån är en och tillgodoräknandet är 10 efter att kunskaperna har migrerats. Administratören kan ändra krediten senare.
 
 Du kan inte redigera namnet på kompetensen, beskrivningen och lägga till nivåer i externa kompetenser. Du kan dock lägga till domän, märken och redigera krediter.
+
+### Standardkursfärdigheter och -poäng
+
+När du har importerat kunskaper läggs de till i utbildningsresurserna som importerats från källan som valdes som kunskapskälla. Om din kompetenskälla till exempel var LinkedIn Learning har alla utbildningsresurser som importeras från LinkedIn Learning de färdigheter som den tillhandahåller. När de importeras till utbildningsresurser ger varje utbildningsresurs automatiskt 10 krediter. Kontakta din CSM om du vill ändra detta.
 
 #### Rapportering
 
