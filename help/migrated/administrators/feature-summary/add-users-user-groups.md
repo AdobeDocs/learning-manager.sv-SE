@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Lägga till användare och skapa användargrupper
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 06b75b0ab591b7045ec3cc7e8b1c20b36e3de649
+source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
 workflow-type: tm+mt
-source-wordcount: '3864'
+source-wordcount: '3898'
 ht-degree: 0%
 
 ---
@@ -78,6 +78,14 @@ Om du vill lägga till användare
 1. Om du vill lägga till den nya användaren i Learning Manager klickar du på **[!UICONTROL Add]**. När användaren har lagts till får användaren ett bekräftelsemeddelande. Eleven aktiverar sedan kontot och börjar använda Learning Manager. Detta arbetsflöde är användbart om du behöver lägga till ett begränsat antal elever i ditt konto för Learning Manager. Men om du planerar att registrera alla anställda i en stor organisation kan du lägga till dem i ett enda försök. Mer information finns i nästa avsnitt.
 
 ## Lägga till användare i grupp {#addusersinbulk}
+
+### Hantera användare
+
+I den här utbildningen får du lära dig tilldela och ta bort roller, skicka ett välkomstmeddelande via e-post och ta bort och rensa användare.
+
+[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4X3B8VJ2&amp;mv=display&amp;mv2=display#/course/7555586)
+
+Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
 
 Vanligtvis arbetar de flesta organisationer med ett HR-hanteringssystem (HRMS) som upprätthåller alla medarbetarposter, t.ex. utnämning, plats, datum för anslutning eller medarbetarhierarki. Du kan exportera dessa data i CSV-format. Importera en CSV-fil genom att följa stegen nedan:
 
