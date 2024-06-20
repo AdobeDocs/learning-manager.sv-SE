@@ -4,9 +4,9 @@ title: Vit märkning i mobilappen Adobe Learning Manager
 description: Vit märkning är en metod att byta namn på en app eller tjänst med ditt eget varumärke och anpassa den som om du vore den ursprungliga skaparen. I Adobe Learning Manager kan du använda vit etikettering i mobilappen så att du kan byta varumärke på appen och göra den tillgänglig för användarna under ditt eget varumärke.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 73d908674e6c32dafa4f9502634c42ec73fc3b6c
+source-git-commit: c056c126a61f16198d42b3a73a3b009a58bd641c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Gör så här för att distribuera och hantera ditt eget program med vita etiket
 
 1. Tilldela en teknisk resurs som kan:
 
-* Genererar certifikatfiler för push-meddelanden.
-* Signera programmets binärfiler som tillhandahålls av ALM-teamet.
-* Ladda upp och hantera publiceringsprocessen. Publiceringsprocessen kräver kommunikation mellan apphanteraren och app/play store-team om att din app följer alla publiceringsriktlinjer. Från ALM får du en helt kompatibel app binär.
+   * Genererar certifikatfiler för push-meddelanden.
+   * Signera programmets binärfiler som tillhandahålls av ALM-teamet.
+   * Ladda upp och hantera publiceringsprocessen. Publiceringsprocessen kräver kommunikation mellan apphanteraren och app/play store-team om att din app följer alla publiceringsriktlinjer. Från ALM får du en helt kompatibel app binär.
 
 ## Översikt
 
@@ -39,165 +39,211 @@ Du kan anpassa följande:
 
 <table>
 
-    <tbody>
-
-    <tr>
-
-   <td>
-
-    <p>Konto-ID</p></td>
-
-   <td>
-
-    <p>ID för ditt konto. Observera att det vitmärkta programmet inte är tillgängligt för elever som tillhör något annat konto.</p></td>
-
-  </tr>
+ <tbody>
 
   <tr>
 
    <td>
 
-    <p>Ytterligare konto-ID</p></td>
+    <p>Konto-ID</p>
+
+   </td>
 
    <td>
 
-    <p>Lägg till flera konton (underdomäner) om du vill. Lägg till underdomänerna som kommaavgränsade utan mellanslag. Till exempel acc01,acc02,acc03 och så vidare.<br> <b>Obs!</b> Du måste lägga till konto-ID när du anger underdomänerna.</br> </p></td>
+    <p>ID för ditt konto. Observera att det vitmärkta programmet inte är tillgängligt för elever som tillhör något annat konto.</p>
+
+   </td>
 
   </tr>
 
   <tr>
 
-  <td>
+   <td>
 
-  <p>Programnamn</p></td>
+    <p>Ytterligare konto-ID</p>
 
-  <td>
+   </td>
 
-  <p>Namnet som du vill använda för appen.</p></td>
+   <td>
 
-  </tr>
+    <p>Lägg till flera konton (underdomäner) om du vill. Lägg till underdomänerna som kommaavgränsade utan mellanslag. Till exempel acc01,acc02,acc03 och så vidare.<br> <b>Obs!</b> Du måste lägga till konto-ID när du anger underdomänerna.</br> </p>
 
-  <tr>
-
-  <td>
-
-  <p>Kortnamn för app</p></td>
-
-  <td>
-
-  <p>I fall där namnet på appen är långt ska du ge den ett kort namn som visas på enheten.</p></td>
-
-  </tr>
-
-   <tr>
-
-  <td>
-
-  <p>Internt programnamn</p></td>
-
-  <td>
-
-  <p>Namnet som operativsystemet identifierar programmet med. Det format som vanligtvis används är: com.company-name.product-name.</p></td>
+   </td>
 
   </tr>
 
   <tr>
 
-  <td>
+   <td>
 
-  <p>Internt programnamn - iOS</p></td>
+    <p>Programnamn</p></td>
 
-  <td>
+   <td>
 
-  <p>Namnge programmet på ett annat sätt om användarna använder iOS. Vi rekommenderar att du använder samma namn för både iOS och Android.</p></td>
+    <p>Namnet som du vill använda för appen.</p>
 
-  </tr>
-
-  <tr>
-
-  <td>
-
-  <p>Appikon</p></td>
-
-  <td>
-
-  <p>Appikonen som png. Den här ikonen visas i ditt program. Formatet som ska namnges är account-id_appIcon.png. Appikonens dimensioner är 512 × 512 pixlar.</p></td>
+   </td>
 
   </tr>
 
   <tr>
 
-  <td>
+   <td>
 
-  <p>Appstartskärm</p></td>
+    <p>Kortnamn för app</p>
 
-  <td>
+   </td>
 
-  <p>Ange en bild (png) som visas när användarna startar programmet på programmets välkomstskärm. Formatet som ska namnges är account-id_splashIcon.png. De kvadratiska välkomstskärmarna är 1 052 × 1 052 pixlar och de cirkelbaserade välkomstskärmarna är 768 x 768 pixlar.</p></td>
+   <td>
 
-  </tr>
+    <p>I fall där namnet på appen är långt ska du ge den ett kort namn som visas på enheten.</p>
 
-  <tr>
-
-  <td>
-
-  <p>Klient-ID och Klienthemlighet</p></td>
-
-  <td>
-
-  <p>Integreringsadministratören för ditt konto tillhandahåller informationen medan du registrerar programmet. Integreringsadministratören måste använda detta:<ul><li>elev:läsa,elev:skriva som roll</li><li>internt program name://redirect som omdirigerings-URL</li></ul></p></td>
+   </td>
 
   </tr>
 
   <tr>
 
-  <td>
+   <td>
 
-  <p>Kontologotyp</p></td>
+    <p>Internt programnamn</p></td>
 
-  <td>
+   <td>
 
-  <p>Den URL som är värd för organisationens logotyp. Ange en cpcontent-länk som kontologotyp. Webbadressen måste vara webbkodad.</p></td>
+    <p>Namnet som operativsystemet identifierar programmet med. Det format som vanligtvis används är: com.company-name.product-name.</p>
 
-  </tr>
-
-  <tr>
-
-  <td>
-
-  <p>Appbutikens ID för appen (iOS)</p></td>
-
-  <td>
-
-  <p>Det ID som krävs för att implementera force-uppdateringen. Appen måste veta att eleven ska omdirigeras till appbutiken för att uppdatera appen.</p></td>
-
-  </tr>
-
-   <tr>
-
-  <td>
-
-  <p>Google Play Store-id för appen (Android)</p></td>
-
-  <td>
-
-  <p>Det ID som krävs för att implementera force-uppdateringen.</p></td>
+   </td>
 
   </tr>
 
   <tr>
 
-  <td>
+   <td>
 
-  <p>Värdnamn för djuplänkning</p></td>
+    <p>Internt programnamn - iOS</p>
 
-  <td>
+   </td>
 
-  <p>Använd Learning Manager om du vill vara värd för dina djuplänkar. Om du vill använda ett annat värdnamn som en djuplänk anger du värddatorns URL. Exempel: learningmanager.adobe.com.</p></td>
+   <td>
+
+    <p>Namnge programmet på ett annat sätt om användarna använder iOS. Vi rekommenderar att du använder samma namn för både iOS och Android.</p>
+
+   </td>
 
   </tr>
 
-    </tbody>
+  <tr>
+
+   <td>
+
+    <p>Appikon</p>
+
+   </td>
+
+   <td>
+
+    <p>Appikonen som png. Den här ikonen visas i ditt program. Formatet som ska namnges är account-id_appIcon.png. Appikonens dimensioner är 512 × 512 pixlar.</p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>Appstartskärm</p></td>
+
+   <td>
+
+    <p>Ange en bild (png) som visas när användarna startar programmet på programmets välkomstskärm. Formatet som ska namnges är account-id_splashIcon.png. De kvadratiska välkomstskärmarna är 1 052 × 1 052 pixlar och de cirkelbaserade välkomstskärmarna är 768 x 768 pixlar.</p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>Klient-ID och Klienthemlighet</p>
+
+   </td>
+
+   <td>
+
+    <p>Integreringsadministratören för ditt konto tillhandahåller informationen medan du registrerar programmet. Integreringsadministratören måste använda detta:<ul><li>elev:läsa,elev:skriva som roll</li><li>internt program name://redirect som omdirigerings-URL</li></ul></p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>Kontologotyp</p>
+
+   </td>
+
+   <td>
+
+    <p>Den URL som är värd för organisationens logotyp. Ange en cpcontent-länk som kontologotyp. Webbadressen måste vara webbkodad.</p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>Appbutikens ID för appen (iOS)</p>
+
+   </td>
+
+   <td>
+
+    <p>Det ID som krävs för att implementera force-uppdateringen. Appen måste veta att eleven ska omdirigeras till appbutiken för att uppdatera appen.</p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>Google Play Store-id för appen (Android)</p>
+
+   </td>
+
+   <td>
+
+    <p>Det ID som krävs för att implementera force-uppdateringen.</p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>Värdnamn för djuplänkning</p>
+
+   </td>
+
+   <td>
+
+    <p>Använd Learning Manager om du vill vara värd för dina djuplänkar. Om du vill använda ett annat värdnamn som en djuplänk anger du värddatorns URL. Exempel: learningmanager.adobe.com.</p>
+
+   </td>
+
+  </tr>
+
+ </tbody>
 
 </table>
 
@@ -261,16 +307,31 @@ Om du kan ansluta till servern är certifikatet du har skapat giltigt. Kopiera c
 
 ### Push-meddelanden på Android
 
-Skapa ett projekt i Firebase och dela servernyckeln med CSAM.
+För Android måste användaren ange filen services.json från Firebase-projektet för att lägga till posten i SNS-tjänsten.
 
-Kontakta CSM-teamet och få filerna tillagda i SNS-tjänsterna på AWS. Användare måste få posten registrerad i SNS-tjänsten för push-meddelandet, vilket kräver att de delar certifikaten som genereras ovan för validering.
+Skapa ett projekt i Firebase och dela filen services.json till CSM-teamet. Denna fil behövs för tokenbaserad post i SNS. Observera att servernyckeln inte längre används. Se [Skapa projekt i Firebase](#create-project-in-firebase).
 
->[!NOTE]
->
->För Android måste användaren ange servernyckeln från det Firebase-projekt som de skapar för Android för att lägga till posten i SNS-tjänsten.
+Gör så här för att hämta filen services.json:
 
+1. Logga in på **Firebase** konsol.
+1. Gå till **Projektinställningar** och välj **Cloud Messaging**.
+1. Sök **Firebase Cloud Messaging API** och välj **Hantera tjänstkonton**.
+1. I dialogrutan **Tjänstkonton** -sidan, väljer du **Tjänstkonton** i panelen till vänster.
+1. Hitta din projektpost och välj **Hantera information** åtgärder.
 
-## Skapa projekt i Firebase
+   >[!NOTE]
+   >
+   >   Projektposten kommer att ha formatet &lt;-accountname->@appspot.gserviceaccount.com.
+
+1. Gå till **Tangenter** och välja **Lägg till nyckel**.
+1. Om det inte finns någon nyckel väljer du **Skapa ny nyckel** och välj **JSON** som nyckeltyp. JSON-filen genereras och hämtas.
+1. Om det redan finns en nyckel väljer du **Ladda upp befintlig nyckel**, klistra in nyckeln och överför den. JSON-filen genereras och hämtas.
+
+<!-- Set up a project in Firebase and share the server key with the CSAM.-->
+
+Kontakta CSM-teamet och dela JSON-filen för att lägga till posten till SNS-tjänsterna på AWS. Användare måste få posten registrerad i SNS-tjänsten för push-meddelandet, vilket kräver att de delar certifikaten som genereras ovan för validering.
+
+## Skapa projekt i Firebase {#create-project-in-firebase}
 
 ### Android
 
