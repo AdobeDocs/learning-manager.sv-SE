@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: Installera Salesforce-paket
-description: Learning Manager erbjuder ett Salesforce-programpaket. När de har installerats och konfigurerats i SFDC kan säljpersonal utföra sin utbildningsverksamhet inom SFDC-portalen. Med den här appen kan SFDC-användare utforska nya utbildningar, visa rekommendationer och konsumera dem direkt i SFDC-portalen. Användarna får också meddelandena som skickas av administratörer i form av mastheads direkt i appen inom SFDC-portalen.
+description: Learning Manager erbjuder ett Salesforce-apppaket. När de har installerats och konfigurerats i SFDC kan försäljningsanställda utföra sina utbildningsaktiviteter i SFDC-portalen. Den här appen gör det möjligt för SFDC-användare att utforska nya utbildningar, visa rekommendationer och konsumera dem direkt i SFDC-portalen. Användare får också meddelanden som skickas av administratörer i form av toppannonser direkt i appen i SFDC-portalen.
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: 970c5f46d6af49bfcca09f88f3d0ece1168fe442
+source-git-commit: dffa765061b35d4559388e4120e51943768c8db8
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
@@ -15,29 +15,29 @@ ht-degree: 0%
 
 ## Översikt
 
-Learning Manager erbjuder ett Salesforce-programpaket. När de har installerats och konfigurerats i SFDC kan säljpersonal utföra sin utbildningsverksamhet inom SFDC-portalen. Med den här appen kan SFDC-användare utforska nya utbildningar, visa rekommendationer och konsumera dem direkt i SFDC-portalen. Användarna får också meddelandena som skickas av administratörer i form av mastheads direkt i appen inom SFDC-portalen.
+Learning Manager erbjuder ett Salesforce-apppaket. När de har installerats och konfigurerats i SFDC kan försäljningsanställda utföra sina utbildningsaktiviteter i SFDC-portalen. Den här appen gör det möjligt för SFDC-användare att utforska nya utbildningar, visa rekommendationer och konsumera dem direkt i SFDC-portalen. Användare får också meddelanden som skickas av administratörer i form av toppannonser direkt i appen i SFDC-portalen.
 
 ### Konfigurera i Learning Manager-appen
 
-1. Logga in på ditt Learning Manager-administratörskonto som integrationsadministratör.
-1. Klicka **[!UICONTROL Applications]** > **[!UICONTROL Featured Apps]**.
+1. Logga in på ditt Learning Manager Admin-konto som Integration Admin.
+1. Klicka på **[!UICONTROL Applications]** > **[!UICONTROL Featured Apps]**.
 1. Klicka på **[!UICONTROL Salesforce]**.
-1. Anteckna program-ID (kallas även klient-ID ) och klienthemligheten som nämns i beskrivningen på sidan Salesforce-program.
-1. Klicka **[!UICONTROL Approve]** och programmet måste godkännas.
-1. Klicka **[!UICONTROL Developer Resources]** > **[!UICONTROL Access Tokens for Testing and Development]**.
-1. I avsnittet Hämta OAuth-kod måste klient-ID:et och omfånget vara inställt på - admin:read,admin:write. Klicka på **[!UICONTROL Submit]**.
-1. Ange klient-ID och klienthemlighet i Hämta uppdateringstoken. Klicka **[!UICONTROL Submit]** och anteckna uppdateringstoken.
+1. På sidan Salesforce-appen noterar du program-ID:t (även kallat klient-ID) och klienthemligheten som nämns i beskrivningen.
+1. Klicka på **[!UICONTROL Approve]** och din app måste godkännas.
+1. Klicka på **[!UICONTROL Developer Resources]** > **[!UICONTROL Access Tokens for Testing and Development]**.
+1. I avsnittet Hämta OAuth-kod måste klient-ID:t och omfånget anges till - admin:read,admin:write. Klicka på **[!UICONTROL Submit]**.
+1. I Hämta uppdateringstoken anger du klient-ID och klienthemlighet. Klicka **[!UICONTROL Submit]** och anteckna uppdateringstoken.
 
-### Skapa konto i Salesforce-program
+### Skapa konto i Salesforce-appen
 
-1. Skapa ett konto på registreringssidan för Salesforce. Du måste skapa ett Salesforce-konto i en utvecklar- eller enterprise-version.  [URL för utvecklarregistrering](https://developer.salesforce.com/signup). Se till att du använder e-post-ID för att registrera dig för Salesforce som du har använt för Learning Manager.
-1. Verifiera ditt konto via e-postmeddelandet.
+1. Skapa ett konto på registreringssidan för Salesforce. Du måste skapa ett Salesforce-konto i utvecklar- eller företagsutgåvan.  [Webbadress för](https://developer.salesforce.com/signup) registrering för utvecklare. Se till att du måste använda e-post-ID:t för att registrera dig för Salesforce som du använde för Learning Manager.
+1. Verifiera ditt konto via verifieringsmailet.
 1. Skapa ett lösenord och logga in på Salesforce.
-1. Observera Salesforce-URL:en efter inloggning (till exempel site.lightning.force.com)
+1. Notera Salesforce-url:en efter inloggning (t.ex. site.lightning.force.com)
 
-### Installera Learning Manager-paket
+### Installera Learning Manager-paketet
 
-Om du vill installera paketet måste du först ta bort det befintliga paketet i Salesforce. Innan du avinstallerar måste du aktivera inställningarna, som visas nedan. Att tillämpa dessa inställningar är obligatoriskt, annars kan du inte installera paketet.
+Om du vill installera paketet måste du först ta bort det befintliga paketet i Salesforce. Innan du avinstallerar måste du aktivera inställningarna, som visas nedan. Det är obligatoriskt att använda dessa inställningar, annars kommer du inte att kunna installera paketet.
 
 ![](assets/uninstall-package.png)
 
@@ -45,73 +45,85 @@ Om du vill installera paketet måste du först ta bort det befintliga paketet i 
 
 >[!NOTE]
 >
->Adobe Learning Manager-appen stöds bara i Salesforce Lightning-vyn.
+>Adobe Learning Manager-appen stöds endast i Salesforce Lightning-vyn.
 
-1. Starta  [URL till Learning Manager-paket](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LRvP).
-1. I dialogrutan **Inloggning** sida, klicka på **[!UICONTROL Use Custom Domain]**.
+1. Starta url:en  [för](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LRvP) Learning Manager-paketet.
+1. På inloggningssidan **** klickar du på **[!UICONTROL Use Custom Domain]**.
 
-1. Ange paketets URL och klicka på **[!UICONTROL Continue]**. Alternativet Installera endast för administratörer måste vara markerat på installationssidan. Ändra inte det här alternativet.
-1. Klicka **INShög**. När paketet har installerats klickar du på **[!UICONTROL Done]**. Du kommer till sidan Installerade paket och kan se Adobe Learning Manager-installationspaketet.
+1. Ange paketets URL och klicka på **[!UICONTROL Continue]**. Installationssidan måste ha alternativet Installera endast för administratörer markerat. Ändra inte det här alternativet.
+1. Klicka på **Install**. När paketet är installerat klickar du på **[!UICONTROL Done]**. Du dirigeras till sidan Installerade paket och du kan se det installerade Adobe Learning Manager-paketet.
 
-1. Gå till Appstartaren (bredvid Konfiguration) och sök efter Adobe Learning Manager.
-1. Om du vill konfigurera programmet klickar du på **[!UICONTROL Configure]**.
+1. Gå till startprogrammet (bredvid Inställningar) och sök efter Adobe Learning Manager.
+1. Konfigurera appen genom att klicka på **[!UICONTROL Configure]**.
 1. Klicka **[!UICONTROL New]** och lägg till följande information:
 
-   * **Konfiguration:** Ange ett namn du vill använda.
-   * **Klient-ID**: Ange värdet som du fick från det första avsnittet.
-   * **Klienthemlighet:** Ange värdet som du fick från det första avsnittet.
-   * **RefreshToken:** Ange värdet som du fick från det första avsnittet.
-   * **LearningManagerBaseURL:** URL till webbplatsen där Learning Manager finns.
+   * **Config:** Ange ett namn som du väljer.
+   * **ClientID:** Ange det värde som du fick från det första avsnittet.
+   * **ClientSecret:** Ange det värde som du fick från det första avsnittet.
+   * **RefreshToken:** Ange det värde som du fick från det första avsnittet.
+   * **LearningManagerBaseURL:** URL:en till den webbplats där Learning Manager finns.
    * **Inaktivera omdirigering:** Inaktivera omdirigering till elevens startsida i Learning Manager.
 
 >[!NOTE]
 >
->Du kan bara skapa en enda konfiguration. Om du försöker lägga till en annan konfiguration visas ett felmeddelande. Konfigurationen mappar Salesforce-kontot med elevkontot.
+>Du kan bara skapa en enda konfiguration. Om du försöker lägga till en annan konfiguration visas ett felmeddelande. Konfigurationen mappar Salesforce-kontot med Learner-kontot.
 
-### Lägg till fjärrplatsinställningar
+### Lägg till inställningar för fjärrplats
 
-1. Klicka på i det övre högra hörnet på sidan **[!UICONTROL Setup]**.
-1. in **Snabbsökning**, sök efter Inställningar för fjärrplats.
+1. I det övre högra hörnet på sidan klickar du på **[!UICONTROL Setup]**.
+1. I **Snabbsökning** söker du efter Inställningar för fjärrplats.
 1. Klicka på **[!UICONTROL New Remote Site]**.
-1. Ange uppgifterna:
+1. Ange detaljerna:
 
-   1. **Namn på fjärrplats:** Ange ett namn du vill använda.
-   1. **URL för fjärrwebbplats:** URL till webbplatsen där Learning Manager finns.
+   1. **Namn på fjärrplats:** Ange ett namn som du väljer.
+   1. **URL för fjärrplats:** URL:en för den webbplats där Learning Manager finns.
 
 1. Starta Learning Manager.
 
-### Aktivera meddelanden för Learning Manager-appen
+### Lägg till Adobe-domänen i Salesforce betrodda URL:er
 
-1. Klicka på i det övre högra hörnet **Konfiguration**.
-1. Sök efter anpassade meddelanden.
+Så här lägger du till Adobe-domänen i betrodda URL:er:
+
+1. I Salesforce-konsolen går du till **[!UICONTROL Setup]** > **[!UICONTROL Quick Find]**.
+1. Sök efter **[!UICONTROL Trusted URLs]** och välj **[!UICONTROL New Trusted URL]**.
+1. Skriv ett namn i **[!UICONTROL API Name]** fältet.
+1. Lägg till URL:en som `{}.adobe.com{*}`.
+1. Markera alla kryssrutor i **CSP-direktiv** och spara ändringarna.
+1. Redigera uppdateringstoken för Salesforce-appen och spara den.
+1. Starta om Salesforce-appen.
+
+### Aktivera aviseringar för Learning Manager-appen
+
+1. I det övre högra hörnet klickar du på **Inställningar**.
+1. Sök efter anpassade aviseringar.
 1. Klicka på **[!UICONTROL New]**.
-1. Ange följande uppgifter:
+1. Ange följande information:
 
-   1. **Anpassat aviseringsnamn:** LearningManagerNotification
+   1. **Namn på anpassad avisering:** LearningManagerNotification
    1. **API-namn:** LearningManagerNotification
 
-1. Välj båda **Skrivbord** och **Mobil** som kanaler som stöds.
+1. Välj både **Dator** och **Mobil** som kanaler som stöds.
 
 1. Klicka på **[!UICONTROL Save]**.
-1. Följ stegen nedan för att aktivera push-meddelanden för mobila enheter:
+1. För att aktivera push-meddelanden för mobila enheter, följ stegen nedan:
 
    1. Installera Salesforce-mobilappen i din mobiltelefon.
-   1. Logga in på programmet med dina inloggningsuppgifter.
-   1. Gå till **Konfiguration** > **Inställningar för meddelandeleverans**.
+   1. Logga in på appen med dina inloggningsuppgifter.
+   1. Gå till **Inställningar** > **inställningar för** meddelandeleverans.
    1. Lägg till Salesforce för iOS och Android.
 
 ### Avinstallera Learning Manager från Salesforce
 
-1. Gå till Installerade paket i Salesforce-programmet.
+1. I Salesforce-appen går du till Installerade paket.
 1. Klicka på **[!UICONTROL Uninstall]**.
 
 ## Konfigurera Learning Manager för Salesforce-användare
 
-Learning Manager-programmet är också tillgängligt för användare som finns på alla Salesforce-konton. Salesforce-administratören kan lägga till användare baserat på profilerna. Salesforce-profilerna liknar dem i Learning Manager. Det kan till exempel gälla Administratör, Integreringsadministratör, Instruktör och så vidare. Salesforce-administratören kan också skapa en anpassad profil.
+Learning Manager-appen är också tillgänglig för användare som finns i alla Salesforce-konton. Salesforce-administratören kan lägga till användare baserat på profilerna. Salesforce-profilerna liknar vad de är i Learning Manager. Till exempel Administratör, Integrationsadministratör, Instruktör och så vidare. Salesforce-administratören kan också skapa en anpassad profil.
 
 ### Profil
 
-Som Salesforce-administratör kan du antingen tilldela användare profilerna eller skapa en anpassad profil.
+Som Salesforce-administratör kan du antingen tilldela profilerna till användare eller skapa en anpassad profil.
 
 >[!NOTE]
 >
@@ -119,26 +131,26 @@ Som Salesforce-administratör kan du antingen tilldela användare profilerna ell
 
 ![](assets/create-profile.png)
 
-*Tilldela en elev en profil*
+*Tilldela en profil till en elev*
 
-När du lägger till en elev måste du tilldela eleven en specifik profil. Gå sedan till den profilen och ge den åtkomst som krävs.
+När du lägger till en elev måste du tilldela en specifik profil till eleven. Gå sedan till den profilen och bevilja den åtkomst som krävs.
 
-För att elever ska kunna se Learning Manager-appen måste du aktivera den för alla elever.
+För att elever ska kunna se Learning Manager-appen måste du aktivera appen för alla elever.
 
-Nästa steg är att ge behörighet för åtkomst till Learning Manager-appen.
+Nästa steg är att ge behörighet att komma åt Learning Manager-appen.
 
 ![](assets/permission-set.png)
 
-*Lägg till behörigheter för att komma åt Learning Manager-appen*
+*Lägga till behörigheter för att få åtkomst till Learning Manager-appen*
 
-När du installerar paketet skapas en ny behörighetsgrupp, **Användare av Adobe Learning Manager**. Gå till behörighetsgruppen och lägg sedan till användarna.
+När du installerar paketet skapas en ny behörighetsgrupp, **Adobe Learning Manager User**. Gå till behörighetsgruppen och lägg sedan till användarna.
 
-Välj användare och tilldela behörigheter i enlighet med detta. Eleverna kan nu komma åt Learning Manager-appen.
+Välj användare och tilldela behörigheterna därefter. Eleverna kan nu komma åt appen Learning Manager.
 
-Välj sedan en profil, till exempel en standardprofil för en användare, och klicka på profilen. Klicka **[!UICONTROL Edit]** och i **Anpassade appinställningar** -avsnittet, aktivera kryssrutan **Adobe Learning Manager**. Detta gör programmet tillgängligt för användaren.
+Välj nu en profil, till exempel Standardprofil för en användare, och klicka på profilen. Klicka på **[!UICONTROL Edit]** och markera kryssrutan **Adobe Learning Manager** i **avsnittet Anpassade appinställningar**. Detta gör appen tillgänglig för användaren.
 
-I dialogrutan **Anpassade flikinställningar** avsnitt i **Startsida för elev** listruta väljer du alternativet **[!UICONTROL Default On]**.
+I avsnittet Inställningar för **anpassad flik** i **listrutan Startsida** väljer du alternativet **[!UICONTROL Default On]**.
 
-Du måste göra programmet synligt för alla profiler.
+Du måste göra appen synlig för alla profiler.
 
-Klicka **[!UICONTROL Save]** och eleverna som tillhör alla profiler får tillgång till Learning Manager-appen.
+Klicka och **[!UICONTROL Save]** eleverna som tillhör alla profiler kommer åt Learning Manager-appen.

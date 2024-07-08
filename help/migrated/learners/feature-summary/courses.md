@@ -1,204 +1,208 @@
 ---
-description: Läs den här artikeln om du vill veta hur du visar och utför kurser i Learning Manager. Delta i diskussioner och ge feedback.
+description: Läs den här artikeln om du vill veta hur du visar och använder kurser i Learning Manager. Delta i diskussioner och ge feedback.
 jcr-language: en_us
 title: Kurser
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: 76d84364ce037a81d77e3e2fa3f68fdef7ff411d
 workflow-type: tm+mt
-source-wordcount: '2730'
+source-wordcount: '2750'
 ht-degree: 0%
 
 ---
 
 # Kurser
 
-Läs den här artikeln om du vill veta hur du visar och utför kurser i Learning Manager. Delta i diskussioner och ge feedback.
+Läs den här artikeln om du vill veta hur du visar och använder kurser i Learning Manager. Delta i diskussioner och ge feedback.
 
-Författare skapar kurser. Elever kan gå kurserna och administratörer kan spåra elevers resultat baserat på kursförbrukningen.
+Författare skapar kurser. Elever kan delta i kurserna och administratörer kan spåra elevernas prestationer baserat på kursförbrukning.
 
 ## Översikt {#overview}
 
-Med Adobe Learning Manager kan elever komma åt kurser, utbildningsprogram och certifieringar. Elever kan bläddra igenom alla tillgängliga kurser genom att använda katalogen eller registrera sig för kurser de väljer. Elever kan visa alla registrerade kurser och de kurser som har tilldelats dem på fliken Utbildning.
+Adobe Learning Manager gör det möjligt för elever att få tillgång till kurser, utbildningsprogram och certifieringar. Elever kan bläddra igenom alla tillgängliga kurser genom att använda katalogen eller anmäla sig själva till kurser som de väljer. Elever kan se alla inskrivna kurser och de kurser som tilldelats dem på fliken Lärande.
 
 >[!NOTE]
 >
->Elever kan även installera Learning Manager iPad-appen från Apple Store och Learning Manager Android-appen från Google Play och få tillgång till kurser på mobila enheter. Alla elevrollfunktioner finns också i appen. Elever kan också gå kurser offline och få smidig åtkomst när de är online. Se  [Användare av iPad- och Android-surfplattor](ipad-android-tablet-users.md) för mer information.
+>Eleverna kan också installera Learning Manager, iPad-appen från Apple Store och Learning Manager-Android-appen från Google Play och få tillgång till kurser på mobila enheter. Alla funktioner för elevroller är också tillgängliga i appen. Elever kan också ta kurser offline och få en sömlös åtkomst efter att ha gått online. Se funktionen för  [användare av](ipad-android-tablet-users.md) iPad och Android-surfplattor för mer information.
 
 ## Visa kurser {#viewingcourses}
 
-Du kan visa en lista över alla tillgängliga kurser som en elev. Klicka på Mitt lärande på startsidan eller i den vänstra rutan för att visa alla kurser som du har registrerat dig för.
+Som elev kan du se en lista över alla tillgängliga kurser. Klicka på Min utbildning på startsidan eller i den vänstra rutan för att se alla kurser som du har anmält dig till.
 
 ![](assets/view-courses.png)
 *Visa tilldelade kurser*
 
-Om du inte har startat kursen än kan du klicka på Start bredvid kursen. Om du redan har börjat använda kursen kan du klicka på knappen Fortsätt.
+Om du ännu inte har startat kursen kan du klicka på Start-knappen bredvid kursen. Om du redan har börjat konsumera kursen kan du klicka på knappen Fortsätt.
 
-Klicka på knappen Besök igen bredvid kursen för att visa en slutförd kurs.
+Om du vill visa en slutförd kurs klickar du på knappen Gå tillbaka bredvid kursen.
 
-Det kan finnas flera instanser av en kurs. Klicka på kursnamnet för att visa informationen. I den högra rutan kan du se deadline datum för varje instans av kursen.
+Det kan finnas flera instanser av en kurs. Klicka på kursens namn för att visa detaljerna. I den högra rutan kan du se deadlinedatumet för varje instans av kursen.
 
 ![](assets/learner-course2.png)
-*Visa en slutförd kurs*
+*Visa en avslutad kurs*
 
-## Kurseffektivitet {#courseeffectiveness}
+## Kursens effektivitet {#courseeffectiveness}
 
-Poäng för kurseffektivitet hjälper eleverna att hämta upp kurserna med mest effektiva poäng för sina utbildningsbehov. Kursens effektivitet utvärderas för att förstå nyttan av en kurs för eleven. Den beräknas utifrån den feedback som tagits emot av antalet användare av en viss kurs. Om andelen elever som ger feedback är högre är kursens effektivitet hög.
+Kursens effektivitetspoäng hjälper eleverna att plocka upp de kurser som har de mest effektiva poängen för deras inlärningsbehov. Kursens effektivitet utvärderas för att förstå hur användbar en kurs är för eleven. Den beräknas utifrån den feedback som mottagits av antalet användare för en viss kurs. Om andelen elever som ger feedback är högre är kursens effektivitetsbetyg högt.
 
-Det är en kombination av resultat från elevfeedback på kursinnehållet, quizresultaten för en elev och chefens feedback som utvärderar en elev baserat på lärdomar från kursen.
+Det är en kombination av resultat från elevernas feedback på kursinnehållet, kursquizresultaten för en elev och chefens feedback som utvärderar en elev baserat på lärdomar från kursen.
 
-Från sidan Kurser kan en elev se kurseffektiviteten på kursens miniatyrbilder som visas på ögonblicksbilden nedan. Du ser betyget för denna kurs som 14.
+Från sidan Kurser kan en elev se kursens effektivitetsbetyg på kursminiatyrerna som visas i ögonblicksbilden nedan. Du kan se betyget för den här kursen som 14.
 
 ![](assets/learner-cour-eff-tag1.png)
 
-*Visa bedömning av kurseffektivitet*
+*Visa betyg för kursens effektivitet*
 
-Klicka på värdet för kurseffektivitet för att se detaljerna om kurseffektivitet. Ett popup-fönster visas enligt nedan.
+Om du vill se information om bedömningen av kursens effektivitet klickar du på värdet för kursens effektivitet. Ett popup-fönster visas som visas nedan.
 
 ![](assets/learner-course-effectivenss1.png)
-*Visa kurseffektivitet*
+*Visa kursens effektivitet*
 
-Klicka på nedåtpilen i det nedre högra hörnet av popup-fönstret för att se hur beräkningarna av kurseffektivitet görs.
+Klicka på nedåtpilen längst ned till höger i popup-fönstret för att se hur beräkningar av kurseffektivitet görs.
 
 ![](assets/course-effectiveness-calculations.png)
-*Beräkning av kurseffektivitet*
+*Beräkning av kursens effektivitet*
 
-## Söka efter kurser och utbildningsprogram {#searchingcoursesandlearningprograms}
+## Söka kurser och utbildningsprogram {#searchingcoursesandlearningprograms}
 
-Adobe Learning Manager gör det enklare för dig att snabbt hitta de kurser du väljer. Du kan söka efter dina kurser på följande sätt:
+Adobe Learning Manager gör det enklare för dig att snabbt hitta de kurser du vill ha. Du kan söka efter dina kurser på följande sätt:
 
-1. Klicka på sökikonen som visas i det övre högra hörnet. Ett sökfält visas. Skriv namnet på kursen/utbildningsprogrammet eller några nyckelord som är associerade med dina kurser. Du kan söka efter kurser med hjälp av metadata, anteckningar, färdigheter, utmärkelsetecken eller taggar. Taggar är sökbara i sökfältet, vilket innebär att taggarna visas i sökfältet när du skriver.
+1. Klicka på sökikonen som visas i det övre högra hörnet. Ett sökfält visas. Skriv in namnet på kursen/utbildningsprogrammet eller eventuella nyckelord som är kopplade till dina kurser. Du kan söka efter kurser med hjälp av metadata, anteckningar, färdigheter, emblem eller taggar. Taggar är sökbara i sökfältet, vilket innebär att taggarna visas i sökfältet medan du skriver.
 1. Eleven kan förfina sökresultaten på katalogsidan med hjälp av typ, färdigheter, taggar och status.
 
-Du kan sortera kurserna efter relevans, namn eller publiceringsdatum genom att klicka på Sortera efter och välja i listrutan.
+Du kan sortera kurserna efter relevans, namn eller publiceringsdatum genom att klicka på Sortera efter och välja från rullgardinsmenyn.
 
-På sökresultatsidan kan du filtrera kurserna enligt **varaktighet** av kurserna och **formatera** kurser. Detta ger dig större flexibilitet när du söker efter kurser och säkerställer att du hittar de kurser som passar dig.
+På sökresultatsidan kan du filtrera kurserna enligt kursernas **längd** och kursernas **format** . Detta ger dig större flexibilitet när du söker kurser och säkerställer att du hittar de kurser som passar dig.
 
-## Registrering till kurser {#enrollingforcourses}
+## Anmälan till kurser {#enrollingforcourses}
 
-Elever registreras till kurser på följande tre möjliga sätt:
+Elever är inskrivna på kurser på följande tre möjliga sätt:
 
-1. Administratören/chefen registrerar vissa elever för obligatoriska kurser baserat på organisationens behov.
-1. Chefen nominerar några kurser till sina teammedlemmar. Du får ett meddelande med möjlighet att godkänna eller avslå kursen/utbildningsprogrammet. När en elev accepterar nomineringen registreras hen till kursen/utbildningsprogrammet.
-1. Elever kan direkt registrera sig för ett kurs-/utbildningsprogram:
+1. Administratören/chefen anmäler vissa elever till obligatoriska kurser baserat på organisationens behov.
+1. Chefen nominerar några kurser till sina teammedlemmar. Du får ett meddelande med möjlighet att acceptera eller avvisa kursen/utbildningsprogrammet. När elever accepterar nominering är de inskrivna på kursen/inlärningsprogrammet.
+1. Elever kan anmäla sig direkt till en kurs/ett utbildningsprogram:
 
-   1. Om kurs-/utbildningsprogrammet är av självregistreringstyp registreras eleven omedelbart.
-   1. Om kursen/utbildningsprogrammet är av chefsgodkänd typ, rör sig eleven till **väntande godkännande** tillstånd. Efter chefens godkännande registreras eleven till kursen.
-   1. Om elever registrerar sig för en kurs på väntelistan (om det finns klassrum) måste de vänta tills någon hoppar av kursen eller tills administratören godkänner dem för kursen.
+   1. Om kursen/utbildningsprogrammet är av självregistreringstyp blir eleven inskriven omedelbart.
+   1. Om kursen/utbildningsprogrammet är av typen som godkänts av chefen går eleven in i **ett väntande** godkännandetillstånd. Efter chefens godkännande är eleven inskriven på kursen.
+   1. Om elever anmäler sig till en redan väntelista kurs (om det finns ett klassrum) måste de vänta tills någon hoppar av kursen eller tills administratören godkänner dem för kursen.
 
-Elever kan registrera sig själva till en stor lista med kurser baserat på deras val. Fliken Kurser visar alla dina registrerade/tilldelade kurser.
+Elever kan anmäla sig till en bred lista med kurser baserat på deras val. Fliken Kurser visar alla dina inskrivna/tilldelade kurser.
 
-Du kan dock välja att gå igenom någon av kurserna som listas under katalog genom att föra musen över den och klicka på Utforska. Sidan Registrera visas. Klicka på Registrera dig längst upp till höger på sidan för att inkludera listan Kurser.
+Du har dock möjlighet att gå igenom någon av kurserna som listas under katalogen genom att föra musen över den och klicka på Utforska. Sidan Registrera visas. Klicka på Anmäl dig längst upp till höger på sidan för att inkludera kursen i kurslistan.
 
-Det kan finnas flera instanser/sessioner till ett kurs-/utbildningsprogram. Klicka i katalogen på namnet för kurs-/utbildningsprogrammet för att se detaljerna. Du kan se registrera dig för instansen kurs/utbildningsprogram baserat på deadline för varje instans av kursen/utbildningsprogrammet.
+Det kan finnas flera instanser/sessioner i en kurs/ett utbildningsprogram. I katalogen klickar du på kursens/utbildningsprogrammets panelnamn för att visa informationen. Du kan se hur du kan anmäla dig till kursen/utbildningsprograminstansen baserat på deadlinedatumet för varje instans av kursen/utbildningsprogrammet.
 
-**Registrera intresse för kurser**
+**Anmäl intresse för kurser**
 
-Du kan registrera dig för att visa intresse för alla klassrumskurser som inte har några planerade sessioner. Du får ett meddelande när kurssessionen börjar för att gå med i kursen.
+Du kan registrera dig för att anmäla intresse för alla klassrumskurser som inte har några planerade sessioner. Du får ett meddelande när kurstillfället börjar för att ansluta till kursen.
 
-## Arbetsflöde som elev
+>[!NOTE]
+>
+>Eleverna bör se ett konfliktmeddelande om de anmäler sig till två olika sessioner samtidigt eller överlappande tider.
 
-Som elev får du betygsätta en kurs endast efter registrering. Du kan se de genomsnittliga stjärngraderingarna för någon kurs på **Startsida** sida, **Mitt lärande** sida och **Katalog**.
+## Arbetsflöde som en elev
 
-1. Logga in som **Elev**. Detta laddar **Startsida**.
+Som elev kommer du endast att få betygsätta en kurs efter registrering. Du kan se de genomsnittliga stjärnbetygen för alla kurser på startsidan **,** sidan Min utbildning **och** katalogen ****.
 
-1. Sök efter en kurs genom att ange kursnamnet i sökfältet. Alternativt kan du välja från den visade kurslistan genom att klicka på **Mitt lärande** eller **Katalog** från den vänstra rutan.
+1. Logga in som en **elev**. Detta laddar **startsidan**.
 
-1. Klicka på när du har valt en kurs **[!UICONTROL Enroll]**.
+1. Sök efter en kurs genom att ange kursens namn i sökfältet. Alternativt kan du välja från den visade kurslistan genom att klicka på **Min utbildning** eller **Katalog** i den vänstra rutan.
+
+1. När du har valt en kurs klickar du på **[!UICONTROL Enroll]**.
 
    ![](assets/cp-sr-enroll.png)
-   *Registrera dig för en kurs*
+   *Anmäl dig till en kurs*
 
-1. Välj antalet stjärnor för att betygsätta en bana därefter, där 1 är minst och 5 är bäst. Klicka sedan på **[!UICONTROL Submit]**.
+1. Välj antalet stjärnor för att betygsätta en kurs därefter, där 1 är minst och 5 är bäst. Klicka sedan på **[!UICONTROL Submit]**.
 
    ![](assets/cp-sr-srsubmitt.png)
    *Skicka in kursbetyg*
 
-   En elev kan skicka in feedback igen genom att ange stjärnbetyg flera gånger, eftersom det senaste betyget anses vara.
+   En elev kan skicka in återkopplingen igen genom att ge stjärnbetyg flera gånger, eftersom det senaste betyget beaktas.
 
-1. Ett bekräftelsemeddelande visas efter överföringen.
+1. Ett bekräftelsemeddelande visas efter att du har skickat in det.
 
    ![](assets/cp-sr-dm.png)
-   *Bekräftelsemeddelande för feedback*
+   *Meddelande om bekräftelse av feedback*
 
-   Om du vill skicka återkopplingen på nytt kan du göra det genom att klicka på meddelandet. När betyget har skickats visas meddelandet i tre sekunder och därefter visas betyget. Om du vill ändra klassificeringen kan du välja en annan stjärna och skicka in.
+   Om du vill skicka feedback på nytt kan du göra det genom att klicka på meddelandet. När betyget har skickats visas meddelandet i tre sekunder och sedan visas betyget. Om du vill ändra betyget kan du välja en annan stjärna och skicka in.
 
-Kurserna kan sorteras utifrån de angivna medelpoängen. Du kan sortera fallen från listrutan Sortera efter i det övre högra hörnet som finns i **Katalog**.
+Kurser kan sorteras baserat på de genomsnittliga betyg som tillhandahålls. Du kan sortera ärendena från rullgardinsmenyn Sortera efter i det övre högra hörnet, som finns i **Katalog**.
 
-## Gå en kurs {#consumingnbspacourse}
+## Att gå en kurs {#consumingnbspacourse}
 
-När du har registrerat dig till en kurs kan du börja med kursen genom att klicka på Starta på kursen. Du kan även klicka på **[!UICONTROL Courses]** i **[!UICONTROL Learning]** -fliken. Välj en kurs som du vill börja gå.
+När du har anmält dig till en kurs kan du börja gå kursen genom att klicka på Starta på kursen. Alternativt kan du klicka **[!UICONTROL Courses]** på i **[!UICONTROL Learning]** fliken. Välj en kurs som du vill börja gå.
 
-Om du inte har startat en kurs än klickar du på knappen Start bredvid kurstiteln.
+Om du ännu inte har startat en kurs klickar du på Start-knappen bredvid kurstiteln.
 
-Du kan visa alla moduler för kursen i ett webbläsarfönster.
+Du kan se alla moduler för kursen i ett webbläsarfönster.
 
-**Spelarfunktioner**
+**Spelarens funktioner**
 
-**INNEHÅLL** - När du påbörjar en kurs visar spelaren en innehållsförteckning för kursen i den vänstra rutan i fönstret. Du kan klicka på varje ämne och navigera till det direkt.
+**TOC** - När du startar en kurs visar spelaren en innehållsförteckning för den specifika kursen i den vänstra rutan i fönstret. Du kan klicka på varje ämne och navigera direkt till det.
 
-**Bokmärken** - Om någon av kursmodulerna har en modulinnehållsförteckning kan ämnen i modulen innehållsförteckning bokmärkas för att hänvisa senare. När en post är bokmärkt visas en bandikon bredvid posten för innehållsförteckningen. Du kan ta bort bokmärken genom att klicka på menyfliksområdet igen.
+**Bokmärken** - Om någon av kursmodulerna har en modulens innehållsförteckning kan ämnen i modulens innehållsförteckning bokmärkas så att du kan hänvisa till dem senare. När du är bokmärkt visas en menyfliksikon bredvid innehållsförteckningsposten. Bokmärken kan tas bort genom att klicka på menyfliksområdet igen.
 
-**Anmärkningar** - Det finns en bestämmelse om att anteckningarna ska registreras medan du påbörjar kursen. När anteckningarna har spelats in kan du spara och ladda ned dem som PDF eller skicka dem med e-post till andra registrerade elevers e-postadresser. När du klickar på Spara får du ett alternativ för att välja platsen där du vill spara den som PDF-fil.
+**Anteckningar** - Det finns möjlighet att spela in anteckningar medan du går kursen. När du har spelat in anteckningarna kan du spara och ladda ner dem som PDF eller e-posta anteckningarna till e-post-ID för alla registrerade elever. När du klickar på Spara får du möjlighet att välja plats för att spara den som PDF-fil.
 
 ![](assets/notes.png)
 
 *Gör kursanteckningar*
 
-**Undertexter** - För Adobe Captivate-utvecklade kurser, om undertexterna är aktiverade under kursutvecklingen, kan eleven visa undertexterna. Klicka på CC längst ned i spelaren. Alternativet för undertextning är endast tillgängligt för innehåll från HTML med Captivate 8.0.2. För alla andra typer av moduler visas inte alternativet CC på uppspelningsfältet.
+**Undertexter** - För Adobe Captivate-utvecklade kurser kan eleven se undertexterna om undertexterna är aktiverade under kursutvecklingen. Klicka på CC längst ned i spelaren. Alternativet för dold textning är endast tillgängligt för HTML-innehåll i Captivate 8.0.2. För alla andra typer av moduler visas inte CC-alternativet i uppspelningsfältet.
 
-**Besök kursen igen** - Du kan återkomma till en kurs i två lägen under två möjliga scenarier:
+**Gå tillbaka till kurs** - Du kan gå tillbaka till en kurs i två lägen under två möjliga scenarier:
 
-* Klicka på Besök igen när kursen är i fullständigt läge.
-* Klicka på Fortsätt medan kursen är i ofullständigt läge.
+* Klicka på Gå tillbaka när kursen är i fullständigt tillstånd.
+* Klicka på Fortsätt när kursen är i ofullständigt tillstånd.
 
-**Helskärm** Klicka på helskärmsikonen längst ned till höger i spelaren för att visa kursen i helskärmsläge.
+**Helskärm:** Klicka på ikonen för helskärmsläge längst ned till höger i spelaren för att visa banan i helskärmsläge.
 
-**Navigeringsknappar** Du kan klicka på uppåt- och nedåtpilarna för att flytta mellan bilderna i PDF-, docx- och pptx-innehåll. Bildpilar kan användas för att flytta till nästa avsnitt för alla typer av innehåll.
+**Navigeringsknappar** Du kan klicka på upp-/nedpilarna för att flytta över bilder i pdf-, docx- och pptx-innehåll. Bildpilar kan användas för att gå till nästa ämnen för alla typer av innehåll.
 
-**Stäng kursen** Klicka på stängningsikonen (x) längst upp till höger i spelaren för att avsluta kursen.
+**Stäng banan** Klicka på stängningsikonen (x) längst upp till höger i spelaren för att avsluta kursen.
 
-*När du har lämnat kursen kan du återkomma till den genom att klicka på knappen Återbesök på kursbeskrivningssidan.*
+*När du har lämnat kursen kan du gå tillbaka till kursen genom att klicka på knappen Gå tillbaka till kursen på sidan med kursbeskrivningen.*
 
-## Stjärngradering
+## Betyg av stjärnor
 
-Först efter att ha registrerat sig till en kurs kan en elev ge stjärnfeedback på kursen. På sidan Kursöversikt för en kurs kan eleven betygsätta kursen som stjärnor (1-lägsta, 5-högsta).
+Först efter att ha anmält sig till en kurs kan en elev ge en stjärnåterkoppling till kursen. På sidan Kursöversikt för en kurs kan eleven betygsätta kursen som stjärnor (1-lägst, 5-högst).
 
 ![](assets/star-rating.png)
-*Ge stjärnrankning som feedback*
+*Ge stjärnbetyg som feedback*
 
-En elev kommer att kunna välja en viss stjärna (av 5) och skicka in betyget. Eleven kan också redigera valet genom att klicka på en annan stjärna. När du har skickat visas meddelandet Tack för din feedback.
+En elev kommer att kunna välja en viss stjärna (av 5) och skicka in betyget. Eleven kan också redigera markeringen genom att klicka på en annan stjärna. När du har skickat in visas ett meddelande om tack för din feedback.
 
-Om eleven vill skicka återkopplingen kan han/hon göra det genom att klicka på meddelandet. Inställningen **Skicka** knappen återaktiveras. En elev kan ge stjärnbetyg flera gånger efter registrering till en kurs. Det senaste betyget kommer alltid att beaktas.
+Om eleven vill skicka in återkopplingen igen kan han/hon göra det genom att klicka på meddelandet. Knappen **Skicka** återaktiveras. En elev kan ge stjärnbetyg flera gånger efter att ha anmält sig till en kurs. Det senaste betyget kommer alltid att beaktas.
 
-När eleven ger ett betyg, det genomsnittliga stjärnbetyget och antalet elever som har gett stjärngraderingarna i **Kursöversikt** sidan.
+När eleven har gett ett betyg, det genomsnittliga stjärnbetyget och antalet elever som har angett stjärnbetygen visas på **sidan Kursöversikt** .
 
 ![](assets/course-overview.png)
-*Kursöversikt*
+*Översikt över kursen*
 
-Den här funktionen är inaktiverad för alla befintliga konton. Administratörer kan aktivera det från Inställningar. Först därefter visas stjärngraderingar för eleverna.
+För alla befintliga konton är den här funktionen inaktiverad. Administratörer kan aktivera det från Inställningar. Först då kommer stjärnbetyg att visas för eleverna.
 
-## Content Marketplace
+## Marknadsplats för innehåll
 
-Alternativet Content Marketplace finns i den vänstra rutan i elevappen. När du klickar på alternativet kan du se alla kurser/hela katalogen och utvalda spellistor.
+Alternativet Content Marketplace finns i den vänstra rutan i Learner-appen. När du klickar på alternativet kan du se alla kurser/Hela katalogen och kurerade spellistor.
 
-På sidan nedan kan du se de kurser som finns i hela katalogen. Varje kurs visar dess längd och det bredare ämne den tillhör. Du kan välja ämne från filtret till vänster på sidan.
+På sidan nedan kan du se de kurser som finns i hela katalogen. Varje kurs visar sin varaktighet och det bredare ämne den tillhör. Du kan välja ämne från filtret till vänster på sidan.
 
 Du kan förhandsgranska en kurs i exakt två minuter.
 
 ![](assets/catalog.png)
-*Förhandsgranska kurs på marknadsplatsen*
+*Förhandsgranskningskurs på Marketplace*
 
-När administratören bjuder in dig att utforska och förhandsgranska ett brett utbud av kurser visas ett meddelande.
+När administratören bjuder in dig att utforska och förhandsgranska ett brett utbud av kurser ser du en avisering.
 
-En elev kan uttrycka sitt intresse för en hel katalog eller en kurerad spellista i **Kurerad spellista** -sektionen.
+Som elev kan du anmäla intresse för en hel katalog eller en utvald spellista i avsnittet **Kurerad spellista** .
 
 ![](assets/curated-playlist.png)
-*Visa kurerad spellista*
+*Visa handplockad spellista*
 
-När du har uttryckt ditt intresse för en kurs/utbildning registreras intresset och administratören kan sedan hämta posten.
+När du har anmält ditt intresse för en kurs/utbildning registreras intresset och administratören kan sedan hämta posten.
 
-I elevappen har alla administratörer tillgång till Content Marketplace. Om åtkomsten återkallas av administratören kan eleverna inte se fliken Content Marketplace.
+I Learner-appen har alla administratörer tillgång till Content Marketplace. Om åtkomsten återkallas av administratören kan eleverna inte se fliken Content Marketplace.
 
 Elever som har bjudits in av administratören kan utforska Content Marketplace.
 
@@ -210,71 +214,71 @@ Alla filter och andra alternativ visas i videon nedan.
 
 ### Förhandsgranska innehåll
 
-Du kan utforska och förhandsgranska kursen och se om den passar dina utbildningsbehov. Klicka på **Förhandsgranska** och se förhandsgranskningen av kursen. Förhandsgranskningen är tillgänglig i två minuter.
+Du kan utforska och förhandsgranska kursen och se om kursen passar dina inlärningsbehov. Klicka på **knappen Förhandsgranska** och se förhandsgranskningen av kursen. Förhandsgranskningen är tillgänglig i två minuter.
 
 ![](assets/content-marketplace-learner.gif)
-*Förhandsgranska innehåll på marknaden*
+*Förhandsgranska innehåll på marknadsplatsen*
 
 ## Materialnav
 
-Med innehållsnav kan administratörer och ämnesområdesexperter (SME) välja ut spellistor som krävs från elevappen. När formuläret har valts ut kan administratörer hämta det och dela det med försäljningsagenten i Adobe.
+Content Hub gör det möjligt för administratörer och ämnesexperter (SMF) att lista nödvändiga spellistor från learner-appen. När administratörerna har valts ut kan de hämta formuläret för inköpsbegäran och dela det med Adobes försäljningsagent.
 
-En administratör kan bjuda in små och medelstora företag att välja ut den spellista som de är intresserade av.
+En administratör kan bjuda in små och medelstora företag att göra en lista över den spellista som de är intresserade av.
 
-Innehållsnav är tillgänglig i elevrollen för alla administratörer. Administratörer gör det möjligt för små och medelstora företag att välja ut den spellista som de är intresserade av att köpa.
+Content Hub är tillgängligt i rollen Elev för alla administratörer. Administratörerna gör det möjligt för små och medelstora företag att göra en lista över den spellista som de är intresserade av att köpa.
 
-Sidan Innehållsnav är alltid synlig för administratörer i deras elevroll eftersom den gör det möjligt för dem att enkelt välja ut spellistor. Administratörer kan göra den här sidan tillgänglig för begränsade ämnesexperter på deras konto så att du lättare kan välja ut rätt spellista. Gå till sidan Företagsutbildning på administratörssidan och vidta åtgärder för att ge åtkomst.
+Sidan Content Hub är synlig för administratörer i deras elevroll hela tiden eftersom den gör det möjligt för dem att enkelt lista spellistor. För att hjälpa dig att välja rätt spellista kan administratörer göra den här sidan tillgänglig för ett begränsat antal ämnesexperter på deras konto. Gå till sidan Företagsutbildning på administratörssidan och vidta åtgärder för att ge åtkomst.
 
 ![](assets/content-hub.gif)
 
-## Välj kursinstans {#choosecourseinstance}
+## Välj kursomgång {#choosecourseinstance}
 
-Om du är en elev som är registrerad i en kursinstans för vilken sessionen har upphört kan du nu växla till en annan session för att göra framsteg. Detta kan endast göras om LP-skivan är flexibel.
+Om du är en elev som är inskriven i en kursomgång där sessionen har löpt ut kan du nu växla till en annan session för att göra framsteg. Detta kan endast göras om LP-skivan är flexibel.
 
-Gör så här för att ändra kursinstans:
+För att ändra kursomgång, följ dessa steg:
 
-1. Öppna Kataloger > Utbildningsprogram.
+1. Öppna Kataloger > utbildningsprogram.
 
    ![](assets/learning-program200s.jpg)
    *Välj ett utbildningsprogram*
 
-1. Använd alternativknapparna för att välja om du vill visa alla kurser eller kurser med omarkerade instanser. Observera att om eleven har slutfört instansen kan hen inte växla till en annan instans.
+1. Använd radioknapparna för att välja om du vill visa alla kurser eller kurser med omarkerade instanser. Observera att om eleven har slutfört klassen kan han inte växla till en annan instans.
 
    ![](assets/radio-buttons.jpg)
    *Visa alla kurser eller kurser med omarkerade instanser*
 
-1. Instanslistrutan för kursen visar de tillgängliga instanserna. Välj instansen i listrutan.
+1. I rullgardinsmenyn för instanser för kursen visas de tillgängliga instanserna. Välj instansen i listrutan.
 
    ![](assets/instance-drop-down.png)
    *Välj en instans*
 
 1. Om du vill använda den markerade instansen klickar du på **[!UICONTROL Update Enrollment]**. Alternativet Uppdatera registrering är tillgängligt längst upp till höger på sidan.
 
-   Den nyligen valda instansen registreras. Om en elev är registrerad på en kursinstans som är en del av en annan LO och han uppdaterar kursinstansen som är en del av det flexibla utbildningsprogrammet, kommer han automatiskt att avregistreras från de andra utbildningsobjekten efter en varning.
+   Den nyligen valda instansen registreras. Om en elev är inskriven på en kursomgång som är en del av en annan LO, och uppdaterar kursomgången som är en del av det flexibla Learning Program, kommer han automatiskt att avregistreras från de andra lärobjekten efter en varning.
 
-## Slutföra en kurs {#completingacourse}
+## Att slutföra en kurs {#completingacourse}
 
-En elev kan fylla i erforderligt antal moduler i en kurs för att slutföra kursen. Kriterierna för slutförande av kursen beror på hur många moduler som författaren har angett som obligatoriska. När du registrerar dig för en kurs med ett minimikrav för slutförande kan du se slutförandevillkoren i den högra rutan på sidan Kurs.
+Som elev kan du slutföra det antal moduler som krävs i en kurs för att slutföra kursen. Kursens slutförandekriterier beror på hur många moduler som har ställts in som obligatoriska av författaren. När du anmäler dig till en kurs med ett minimikriterium för slutförande kan du se slutförandekriterierna i den högra rutan på sidan Kurs.
 
 ![](assets/learner-xoutofy.png)
-*Visa slutförandevillkor*
+*Visa kriterier för slutförande*
 
-Om till exempel en specifik kurs har slutförandekriteriet som en av två moduler, innebär slutförandet av endast en modul att du har slutfört kursen. I det här fallet visar förloppsindikatorn 100 % slutföringsläge när du slutför den första modulen.
+Till exempel, om en specifik kurs har slutförandekriterierna som en av två moduler, markerar slutförandet av bara en modul att du slutför den kursen. I det här fallet, när du slutför den första modulen, visar förloppsindikatorn 100 % slutförandetillstånd.
 
-Om modulerna ställs in enligt författarens ordning, måste du slutföra det önskade antalet moduler i den sekventiella ordningen från och med först. Om modulerna är osorterade kan du slutföra det angivna antalet moduler i valfri ordning.
+Om modulerna är inställda som de ordnas av författaren måste du slutföra det antal moduler som krävs i sekventiell ordning med början från början. Om modulerna inte är sorterade kan du slutföra det angivna antalet moduler i valfri ordning.
 
-Efter att ha avslutat en kurs med erforderligt antal moduler kan du, om du vill slutföra de valfria modulerna, återkomma till kursen.
+När du har slutfört en kurs med det antal moduler som krävs kan du gå tillbaka till kursen om du vill slutföra de valfria modulerna.
 
 ## Visa och delta i diskussioner {#viewingandpariticpatingindiscussions}
 
-Som elev kan du interagera med andra elever och dina instruktörer på fliken Diskussion. Du kan visa inläggen för alla kurser som du visar eller registrerar dig för. Om en administratör har aktiverat diskussioner för en kurs kan du visa fliken Diskussion bredvid fliken Anteckningar för kursen.
+Som elev kan du interagera med andra elever och dina lärare med hjälp av fliken Diskussion. Du kan visa inläggen för alla kurser som du visar eller anmäler dig till. Om en administratör har aktiverat diskussioner för en kurs kan du visa fliken Diskussion bredvid fliken Anteckningar för den kursen.
 
-När du klickar på fliken Diskussioner kan du se befintliga inlägg och kommentarer för kursen. Om du redan har registrerat dig till kursen kan du också börja skriva inlägg eller kommentarer så att andra användare kan se dem. När du har skrivit meddelandet klickar du på Publicera. Ditt inlägg måste innehålla minst 10 tecken.
+När du klickar på fliken Diskussioner kan du se de befintliga inläggen och kommentarerna för den kursen. Om du redan har skrivit in dig på kursen kan du även börja skriva inlägg eller kommentarer så att andra användare kan se dem. När du har skrivit meddelandet klickar du på Publicera. Ditt inlägg måste innehålla minst 10 tecken.
 
-Inlägget visas omedelbart på fliken Diskussioner. Du kan sortera inläggen som Nyast först eller Äldst först och ta bort de inläggen som du skrev. Även efter att du avregistrerat dig från kursen kan du fortfarande se alla inlägg och ta bort inläggen som du skrev.
+Inlägget syns direkt på fliken Diskussioner. Du kan sortera inläggen som Nyaste först eller Äldst först och ta bort de inlägg som du har skrivit. Även efter att du har avregistrerat dig från kursen kan du fortfarande se alla inlägg och ta bort inläggen som du har skrivit.
 
 ![](assets/learner-discussion.png)
-*Visa deltagardiskussioner*
+*Visa deltagarnas diskussioner*
 
 Fliken Diskussion är inte aktiverad för externa användare.
 
@@ -283,15 +287,15 @@ Fliken Diskussion är inte aktiverad för externa användare.
 
 ## Kursens livscykel {#courselifecycle}
 
-Kursens livscykel ser normalt ut så här:
+En typisk kurslivscykel ser ut så här:
 
-**Utkast** - När en författare har skapat en kurs och sparat den. I det här läget är kursen inte tillgänglig för elever ännu.
+**Utkast** - När en författare slutför skapandet av en kurs och sparar den. I det här läget är kursen ännu inte tillgänglig för elever.
 
-**Publicerat** - När en författare har slutfört publiceringen av en kurs. I det här läget är kursen tillgänglig så att elever kan registrera sig.
+**Publicerad** - När en författare slutför publiceringen av en kurs. I detta läge är kursen tillgänglig för elever att anmäla sig.
 
-**Utfasad** - Efter att ha publicerat en kurs kan en författare flytta den till ett utfasat tillstånd om han inte vill att kursen ska visas i kurskatalogen för elever.
+**Tillbakadragen** – När en författare har publicerat en kurs kan han eller hon flytta den till ett tillbakadraget läge om han eller hon inte vill att kursen ska visas i kurskatalogen för elever.
 
-**Raderat** - En kurs under borttaget tillstånd är när den tas bort helt från Adobe Learning Manager-appen. Kurser kan bara tas bort av författare när de är i utkastläge eller utfasade tillstånd.
+**Borttagen** - En kurs i borttaget läge är när den tas bort helt från Adobe Learning Manager-programmet. Kurser kan endast tas bort av författare när de är i statusen Utkast eller Tillbakadragen.
 
 ![](assets/lifecycle-03.png)
-*Översikt över en kurs livscykel*
+*Översikt över en kurss livscykel*

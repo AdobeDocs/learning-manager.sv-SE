@@ -1,34 +1,33 @@
 ---
-description: Läs den här artikeln för att lära dig hur du hämtar Learning Manager-elevappen för smartphones och surfplattor. Lär dig att delta i kurser med din mobila enhet eller surfplatta.
+description: Läs den här artikeln för att veta hur du laddar ner Learning Manager Learner-appen för smartphones och surfplattor. Lär dig hur du använder kurser med din mobil eller surfplatta.
 jcr-language: en_us
-title: Elevapp för mobiler och surfplattor
+title: Learner App för mobiler och surfplattor
 contentowner: manochan
-source-git-commit: ed7e28720cf521b629333dc48e530e0aa16b0ae1
+exl-id: 94c2b54c-a5e2-4262-bc3c-bd21d52e1f09
+source-git-commit: de57d96488851c31c380b34672767a803379842e
 workflow-type: tm+mt
-source-wordcount: '2635'
+source-wordcount: '2702'
 ht-degree: 0%
 
 ---
 
+# Learner App för mobiler och surfplattor
 
-
-# Elevapp för mobiler och surfplattor
-
-Läs den här artikeln för att lära dig hur du hämtar Learning Manager-elevappen för smartphones och surfplattor. Lär dig att delta i kurser med din mobila enhet eller surfplatta.
+Läs den här artikeln för att veta hur du laddar ner Learning Manager Learner-appen för smartphones och surfplattor. Lär dig hur du använder kurser med din mobil eller surfplatta.
 
 ## Översikt {#overview}
 
-Learning Manager-appen för elever är tillgänglig för både Android-telefonanvändare och iPhone-användare. Gå till antingen Google Play Store (Android OS) eller iTunes (macOS) och hämta Learning Manager-appen.
+Learning Manager-appen för elever är tillgänglig för både Android-telefonanvändare och iPhone-användare. Gå till antingen Google Play Store (Android OS) eller iTunes (macOS) och ladda ner appen Learning Manager.
 
-När du har hämtat och installerat programmet loggar du in på programmet med dina elevautentiseringsuppgifter. När du öppnar Learning Manager-mobilappen visas följande skärm som standard.
+När du har laddat ner och installerat den här appen loggar du in på appen med dina inloggningsuppgifter. När du öppnar mobilappen för utbildningshanteraren visas följande skärm som standard.
 
 ![](assets/1.png)
 
-*Startsidan för Learning Manager-appen*
+*Startsidan för appen Learning Manager*
 
-## Startsida {#homepage}
+## Hemsida {#homepage}
 
-För alla konton som har alternativet Immersive Layout aktiverat finns det en helt ny startsida som stöder konfigurationen för immersiv layout. Startsidan är organiserad som en lista med kort för följande:
+För alla konton som har alternativet Avancerad layout aktiverat finns det en helt ny startsida som stöder konfigurationen av Avancerad layout. Startsidan är organiserad som en lista med kort för följande:
 
 | ![](assets/image002.png) | ![](assets/image005.png) |
 |---|---|
@@ -40,35 +39,35 @@ För alla konton som har alternativet Immersive Layout aktiverat finns det en he
 
 *Elevens sociala flöde*
 
-## Feedback {#feedbackrating}
+## Feedback betyg {#feedbackrating}
 
-Learning Manager uppmanar eleven att ge feedback om sin upplevelse av mobilappen. Denna feedback visas en gång i månaden och ger användarna tillräckligt med tidsintervall för att uppleva appen och sedan ge feedback.
+Learning Manager uppmanar eleven att ge feedback om sin upplevelse av mobilappen. Den här feedbacken visas en gång i månaden och ger tillräckligt med tidsintervall för att användarna ska kunna uppleva appen och sedan ge feedback.
 
 <!--
 | ![](assets/image013.png) | ![](assets/image014.png)|
 |---|---|
 -->
 
-Befintliga användare bör se feedback-popup när de stänger spelaren för första gången efter att ha uppdaterat appen till den senaste versionen.
+För befintliga användare bör de se popup-fönstret för feedback när de stänger spelaren för första gången efter att ha uppdaterat appen till den senaste versionen.
 
-Observera att feedbacksamlingen är anonym och endast visas för användare som har aktiverat alternativet **Dela användningsdata** via en konfiguration i appinställningarna.
+Observera att feedbackinsamlingen är anonym och endast visas för användare som har aktiverat alternativet **Dela användningsdata** via en konfiguration i Appinställningar.
 
-## Ladda ned utmärkelsetecken {#downloadbadge}
+## Ladda ner emblem {#downloadbadge}
 
-Elever kan ladda ner sina märken i PDF- och bildformat. I avsnittet Användarprofil bläddrar du ned och klickar på en länk för att hämta ett märke. Det hämtade märket sparas i standardmappen för enheter. Med appen kan du öppna mappen eller filen direkt efter att hämtningen har slutförts.
+Eleverna kan ladda ner sina märken i PDF- och bildformat. I avsnittet Användarprofil bläddrar du nedåt och klickar på en länk för att ladda ned ett märke. Det nedladdade märket sparas i standardmappen för enheten. Appen låter dig öppna mappen eller filen direkt efter att nedladdningen är klar.
 
 | ![](assets/image016.png) |
 |---|
 
-*Hämta ett utmärkelsetecken*
+*Ladda ned ett märke*
 
 ## Mobil webbresponsiv layout {#responsive}
 
-En helt responsiv mobil webbupplevelse som ser till att eleverna använder sina enheter för att delta i utbildning även om de inte har installerat mobilappen.
+En helt responsiv mobil webbupplevelse som säkerställer att eleverna använder sina enheter för att konsumera utbildning även om de inte har installerat mobilappen.
 
-När du först loggar in i elevappen via webbläsaren på din enhet visas elevappen i form av en mobilvänlig, responsiv layout.
+När du först loggar in på elevappen via webbläsaren på din enhet visas elevappen i form av en mobilvänlig, responsiv layout.
 
-Det responsiva användargränssnittsstödet för mobilwebben är endast tillgängligt om ett konto **är endast konfigurerad för djup layout**. Det responsiva användargränssnittet är **inte tillgängligt för klassisk layout**.
+Stödet för det mobila webbresponsiva användargränssnittet är endast tillgängligt när ett konto **endast är konfigurerat för integrerande layout**. Det responsiva användargränssnittet är **inte tillgängligt för klassisk layout**.
 
 <!--
 <table>
@@ -91,150 +90,157 @@ Det responsiva användargränssnittsstödet för mobilwebben är endast tillgän
 </table>
 -->
 
-## Funktioner utan stöd i en uppslukande mobil upplevelse {#unsupportedfeaturesinmobileimmersiveexperience}
+## Ladda ner prompt i ALM web
+
+När användare öppnar en ALM-länk eller använder ALM-webben på sina mobila enheter bör de se en uppmaning som ber dem att ladda ner appen för en bättre upplevelse.
+
+![](assets/download-prompt.png)
+_Ladda ner ALM-appen_
+
+## Funktioner som inte stöds i en integrerad mobilupplevelse {#unsupportedfeaturesinmobileimmersiveexperience}
 
 Följande arbetsflöden visas i den klassiska upplevelsen för en elev:
 
 * Flera försök
 * Flexi LP
-* Scenarier för filöverföring
+* Scenarier för filuppladdning
 * Ge L1-feedback
 
 Andra appfunktioner som inte stöds är:
 
-* Social app: en elev omdirigeras till den klassiska upplevelsen om han/hon klickar på den sociala widgeten på startsidan
+* Social App: En elev omdirigeras till klassisk upplevelse om han/hon klickar på Social widget på startsidan
 * Profilinställningar/Redigera profil
-* Visa utmärkelsetecken/kompetenser
-* Resultattavla: En elev omdirigeras till den klassiska upplevelsen om han klickar på Leaderboard-widgeten på startsidan
-* Ladda ned arbetsstöd.
-* Filteralternativ i Sök.
+* Visa märke/färdigheter
+* Topplista: En elev omdirigeras till klassisk upplevelse om han klickar på topplistewidgeten på startsidan
+* Ladda ner Job Aids.
+* Filtrera alternativ i Sök.
 
-Social utbildning har nu stöd för integrerande mobilupplevelser på webben.
+Social inlärning har nu stöd för mobila uppslukande webbupplevelser.
 
-Det finns vissa funktioner som inte stöds i appen Mobile Immersive. Dessa är:
+Det finns vissa funktioner som inte stöds Mobile Immersive App. Dessa är:
 
 | **Område** | **Stöds inte** |
 |---|---|
-| Tavla | SKAPA TAVLA, REDIGERA TAVLA, KOPIERA URL , TA BORT , RAPPORT, SORTERA , FILTER |
-| Inlägg | Frågetyp efter skapande, redigera , flera bilagor till inlägget, kopiera webbadressen, fäst högst upp |
-| Kommentar/svar | Redigera, Markera som rätt svar, Överför bild/video/ljud i kommentar eller svar |
-| Media | Spela in ljud; överför bara ljudfil |
-| Annat | Meddelanden, postvy, resultattavla för sociala nätverk, personer jag följer, användarprofil |
+| Tavla | Skapa anslagstavla, redigera anslagstavla, kopiera URL , ta bort , rapportera, sortera, filtrera |
+| Inlägg | Omröstningstyp: Skapa inlägg, Redigera, Flera bilagor till inlägget, Kopiera URL, Fäst överst |
+| Kommentar/ Svar | Redigera, markera som rätt svar, ladda upp bild/video/ljud i kommentar eller svar |
+| Media | Fånga ljud; Endast uppladdning av ljudfil |
+| Annat | Meddelanden, Inläggsvisning, Social topplista, Personer jag följer, Användarprofil |
 
-## Gör det möjligt för elever att ladda ned arbetsstöd {#download-job-aid}
+## Gör det möjligt för elever att ladda ner Job Aid {#download-job-aid}
 
-I mobilläget kan en elev ladda ned ett arbetsstöd. Tryck **Inställningar** och tryck sedan på **Kataloger**. Hämta ett arbetsstöd från listan som visas.
+I det mobila uppslukande läget kan en elev ladda ner ett jobbhjälpmedel. Tryck på **Inställningar** och sedan på **Kataloger**. Ladda ner ett Jobbhjälpmedel från listan som visas.
 
 | ![](assets/image018.jpg) |
 |---|
 
-*Ladda ned arbetsstöd*
+*Ladda ner ett jobbstöd*
 
-## Gör det möjligt för elever att ladda ned elevens betygsutdrag {#download-learner-transcript}
+## Gör det möjligt för elever att ladda ner Learner Transcript {#download-learner-transcript}
 
-I mobilläget kan en elev ladda ned elevens betygsutdrag.
+I det mobila uppslukande läget kan en elev ladda ner Learner Transcripts.
 
 | ![](assets/image021.jpg) | ![](assets/image022.jpg) |
 |---|---|
 
-*Ladda ned elevens betygsutdrag*
+*Ladda ner Learner Transcripts*
 
-## Visa utmärkelsetecken och kunskaper {#viewbadgesandskills}
+## Visa emblem och färdigheter {#viewbadgesandskills}
 
-**Visa utmärkelsetecken, kompetenser och spelifieringspunkter**
+**Visa märken, färdigheter och spelifieringspoäng**
 
-Standardskärmen visar de utmärkelsetecken, färdigheter och spelifieringspunkter du nyligen har uppnått precis under din profilinformation. Om du använder en telefon visas de utmärkelsetecken du nyligen har använt. Svep åt höger för att se mer information.
+Standardskärmen visar dina nyligen uppnådda märken, färdigheter och spelifieringspoäng precis under din profilinformation. Om du använder en telefon visas de nyligen uppnådda märkena. Svep åt höger för att se mer information.
 
-**Mina väntande utbildningar**
+**Mina väntande lärdomar**
 
-Som standard visas de kurser du är registrerad för på skärmen. I mundiagrammet visas utbildningarna som är försenade, utbildningar som närmar sig deadline och utbildningar på rätt spår.
+Som standard visar skärmen de kurser som du är inskriven på. Ringdiagrammet visar den försenade inlärningen, lärdomar som närmar sig deadline och lärdomar som är på rätt spår.
 
-Tryck på en kurs för att visa information om kursen, ditt slutförandedatum (i aktuella fall). Du kan antingen fortsätta eller gå tillbaka till kursen från den här skärmen, beroende på din slutförandestatus.
+Tryck på en kurs för att visa information om kursen och ditt slutdatum (om tillämpligt). Du kan antingen fortsätta eller gå tillbaka till kursen från den här skärmen, beroende på din slutförandestatus.
 
 ![](assets/2.png)
 
-*Visa väntande utbildningar*
+*Visa väntande inlärningar*
 
 **Visa kataloger**
 
-Tryck på ikonen bredvid bokikonen längst ned på skärmen. Du kan omedelbart se katalogen med alla tillhörande utbildningsobjekt. Du kan välja att visa dem i stödrasterlayouten eller välja den detaljerade vyn. Välj rekommendationer för att se kursrekommendationer baserat på din utbildningshistorik.
+Tryck på ikonen bredvid bokikonen längst ned på skärmen. Du kan visa katalogen direkt med alla associerade lärobjekt. Du kan välja att visa dem i rutnätslayout eller välja den detaljerade vyn. Välj rekommendationer för att se kursrekommendationer baserat på din inlärningshistorik.
 
 ![](assets/4.png)
 
 *Visa kursrekommendationer*
 
-## Sortera och filtrera utbildningsobjekt {#sortandfilterlearningobjects}
+## Sortera och filtrera lärobjekt {#sortandfilterlearningobjects}
 
 **Sortering och filtrering**
 
-Klicka på sorteringsikonen längst upp till höger på skärmen Kurser eller katalog för att sortera utbildningsobjekten i bokstavsordning (stigande eller fallande) eller efter publiceringsdatum. Du kan även filtrera utbildningsobjekten efter typ, slutförandestatus, kunskaper eller taggar. Tryck på och markera filtret och tryck på Använd för att använda filtret.
+Klicka på sorteringsikonen längst upp till höger på kurs- eller katalogskärmen för att sortera lärobjekten i alfabetisk ordning (stigande eller fallande) eller efter publiceringsdatum. Du kan också filtrera lärobjekten efter typ, slutförandestatus, färdigheter eller efter taggar. Tryck och välj filtret och tryck på Använd för att tillämpa filtret.
 
 **Använda sökfunktionen**
 
-Längst upp till höger på mobilskärmen kan du se en sökikon. Tryck på den ikonen för att söka efter utbildningsobjekt med kursmetadata, unikt ID, färdigheter med mera.
+Längst upp till höger på telefonens skärm kan du se en sökikon. Tryck på den ikonen för att söka efter lärobjekt med hjälp av kursmetadata, unikt ID, färdigheter och så vidare.
 
 **Hantera profil, inställningar och aviseringar**
 
-Tryck ![](assets/hamburger.jpg) -menyn i det övre vänstra hörnet av skärmen för att visa din profil, meddelanden samt kontoinställningar.
+Tryck på ![](assets/hamburger.jpg) menyn längst upp till vänster på skärmen för att visa din profil, aviseringar och kontoinställningar.
 
-På den här menyn kan du även skanna QR-koden för att markera närvaro för kurser.
+Den här menyn låter dig också skanna QR-koden för att markera närvaro för kurser.
 
-Allt du behöver göra är att trycka på **Skanna QR-kod** och skanna koden.
+Allt du behöver göra är att trycka på **alternativet Skanna QR-kod** och skanna koden.
 
-**Offlineförbrukning av kurser**
+**Offline-konsumtion av kurser**
 
-När du utför hämtade kurser medan du är online kommer Learning Manager åt den hämtade kursen i stället för att göra serversamtal.
+När du använder nedladdade kurser medan du är online kommer Learning Manager att komma åt den nedladdade kursen istället för att göra serveranrop.
 
 ## Skanna QR-koden för att registrera dig {#qrcode}
 
-Du kan skanna en QR-kod och registrera dig för en kurs. När utbildningsadministratören har genererat en QR-kod kan du skanna QR-koden från appen och bli registrerad i en kurs.
+Du kan skanna en QR-kod och anmäla dig till en kurs. När utbildningsadministratören har genererat en QR-kod kan du skanna QR-koden från appen och bli inskriven på en kurs.
 
-1. Skanna QR-koden genom att trycka på ![](assets/hamburger.jpg) längst upp till vänster på skärmen.
-1. Tryck **Skanna QR-kod**.
+1. För att skanna QR-koden, tryck på ![](assets/hamburger.jpg) i det övre vänstra hörnet av skärmen.
+1. Tryck på **Skanna QR-kod**.
 
-Med QR-funktionen för skanning kan en elev utföra en av åtgärderna som nämns nedan beroende på vilken QR-kod som genereras av utbildningsadministratören:
+QR-funktionen för skanning gör det möjligt för en elev att utföra en av de åtgärder som nämns nedan beroende på vilken QR-kod som genereras av inlärningsadministratören:
 
-* **Registrering:** Det gör att eleven kan registrera sig till en kurs genom att skanna QR-koden.
+* **Inskrivning:** Detta gör det möjligt för eleven att anmäla sig till en kurs genom att skanna QR-koden.
 * **Slutförande:** Detta gör det möjligt för eleven att markera kursen som slutförd genom att skanna QR-koden.
-* **Registrering och slutförande:** Detta gör det möjligt för eleven att registrera sig och markera slutförande samtidigt genom att skanna QR-koden.
-* **Ange närvaro:** Det gör att eleven kan markera närvaro för en viss session genom att skanna QR-koden.
+* **Inskrivning och slutförande:** Detta gör det möjligt för eleven att registrera sig och markera slutförande samtidigt genom att skanna QR-koden.
+* **Markera närvaro:** Detta gör det möjligt för eleven att markera närvaro för en viss session genom att skanna QR-koden.
 
-## Byta namn på utbildningsobjekt {#renaminglearningobjects}
+## Byta namn på lärobjekt {#renaminglearningobjects}
 
-Administratörer kan byta namn på utbildningsobjektens terminologi. Om du vill byta namn finns mer information i [Byta namn på utbildningsobjekt](../../administrators/feature-summary/settings.md#main-pars_header_1570157145).
+Administratörer kan byta namn på Terms för inlärningsobjekt. Information om hur du byter namn finns i [Byta namn på lärobjekt](../../administrators/feature-summary/settings.md#main-pars_header_1570157145).
 
-## Socialt lärande {#socialmobile}
+## Social inlärning {#socialmobile}
 
-Följande funktioner stöds inte i den här uppdateringen. Du kan inte:
+I den här uppdateringen stöds inte följande funktioner. Du kan inte:
 
-* Skapa eller följ en tavla.
+* Skapa eller följ en anslagstavla.
 * Kopiera en URL till ett inlägg.
-* Lägg till inlägg som story eller lägg till som favorit eller fäst högst upp.
-* Se en resultattavla för sociala medier.
+* Lägg till inlägg som händelse eller lägg till som inlägg som favorit eller fäst högst upp.
+* Visa en social topplista.
 
-Social utbildning är en plattform i Learning Manager-mobilappen som engagerar användare att dela idéer och meningsfulla insikter i en informell miljö. Det är en metod som kompletterar idén med traditionellt lärande.
+Socialt lärande är en plattform i mobilappen Learning Manager, som engagerar användare att dela idéer och meningsfulla insikter i en informell miljö. Det är en metodik som kompletterar idén om traditionellt lärande.
 
-Med social utbildning kan användarna använda expertisen runt dem för att få korrekt och koncis information. Elever kan snabbt använda den informationen för att slutföra en uppgift och uppnå ett mål.
+Social inlärning gör det möjligt för användare att använda expertisen runt omkring dem för att få korrekt och kortfattad information. Eleverna kan snabbt tillämpa den informationen för att slutföra en uppgift och uppnå ett mål.
 
-Med mobilappen kan användare interagera med varandra genom att dela innehåll och få validering för det delade innehållet.
+Med hjälp av mobilappen kan användare interagera med varandra genom att dela innehåll och få validering för det delade innehållet.
 
-På den här plattformen kan du dela olika typer av innehåll: video, ljud, skärmbild, text, fråga och enkät. Användare kan också dela sina onlinelärdomar med andra användare.
+På den här plattformen är de olika typerna av innehåll som kan delas video, ljud, skärmdump, text, fråga och omröstning. Användare kan också dela sina onlineinlärningar med sina kamrater.
 
-Den här funktionen är bara tillgänglig i enhetsappen när administratören aktiverar **Social utbildning** för kontot.
+Den här funktionen är endast tillgänglig i enhetsappen när administratören aktiverar **Social Learning** för kontot.
 
-## Starta social utbildning i appen {#launchsociallearningontheapp}
+## Starta socialt lärande i appen {#launchsociallearningontheapp}
 
-När du startar programmet trycker du på **Social** -ikonen.
+När du startar appen trycker du på ikonen Socialt ****.
 
 ![](assets/home.png)
 
-*Visa social utbildning*
+*Visa social inlärning*
 
-## Skapa ett inlägg på en tavla {#createapostinaboard}
+## Skapa ett inlägg på en anslagstavla {#createapostinaboard}
 
-Precis som alla andra sociala plattformar kan du i Learning Manager-mobilappen skapa ett inlägg på en tavla, så att alla elever som ingår i samma tavla kan se ditt inlägg, kommentera och lägga upp en fil tillsammans med kommentaren.
+Precis som på alla andra sociala plattformar kan du skapa ett inlägg på en anslagstavla i mobilappen Learning Manager, så att alla elever som är med på samma anslagstavla kan se ditt inlägg, kommentera och ladda upp en fil tillsammans med kommentaren.
 
-Skapa ett inlägg genom att trycka på ![lägg till ikon](/help/migrated/learners/feature-summary/assets/prime-add.png) längst ned till höger på skärmen.
+För att skapa ett inlägg, tryck på ![ikonen för att lägga till ikon](/help/migrated/learners/feature-summary/assets/prime-add.png) längst ned till höger på skärmen.
 
 Följande skärm visas.
 
@@ -248,13 +254,13 @@ Följande skärm visas.
    <td>
     <p><img src="assets/prime-write-1.png" alt=""></p></td>
    <td>
-    <p>Skriv ett inlägg eller klistra in en URL.</p></td>
+    <p>Skriv ett inlägg eller klistra in en webbadress.</p></td>
   </tr>
   <tr>
    <td>
     <p><img src="assets/prime-camera.png" alt=""></p></td>
    <td>
-    <p>Ta en bild med din mobilkamera och överför den med ditt inlägg.</p></td>
+    <p>Ta en bild med din mobilkamera och ladda upp den med ditt inlägg.</p></td>
   </tr>
   <tr>
    <td>
@@ -272,7 +278,7 @@ Följande skärm visas.
    <td>
     <p><img src="assets/prime-upload.png" alt=""></p></td>
    <td>
-    <p>Ladda upp dokument eller filer på tavlan.</p></td>
+    <p>Ladda upp ett dokument eller en fil på anslagstavlan.</p></td>
   </tr>
   <tr>
    <td>
@@ -284,7 +290,7 @@ Följande skärm visas.
    <td>
     <p><img src="assets/prime-poll.png" alt=""> </p></td>
    <td>
-    <p>Skapa en enkät med ditt inlägg.</p></td>
+    <p>Skapa en omröstning med ditt inlägg.</p></td>
   </tr>
  </tbody>
 </table>
@@ -295,7 +301,7 @@ Följande skärm visas.
  <tbody>
   <tr>
    <td>
-    <p><strong>Innehållstyp</strong></p></td>
+    <p><strong>Typ av innehåll</strong></p></td>
    <td>
     <p><strong>Tillägg</strong></p></td>
   </tr>
@@ -326,135 +332,136 @@ Följande skärm visas.
  </tbody>
 </table>
 
-När du har skapat ett inlägg väljer du tavlan där du vill lägga upp inlägget. Tryck på Välj tavla och sök efter den önskade tavlan.
+När du har skapat ett inlägg väljer du den anslagstavla där du vill ladda upp inlägget. Tryck på Välj anslagstavla och sök efter önskad anslagstavla.
 
-När du har skapat ett inlägg trycker du på Publicera och publicerar din kommentar så att andra elever kan se ditt inlägg.
+När du har skapat ett inlägg trycker du på Lägg upp och lägger upp din kommentar så att andra elever kan se ditt inlägg.
 
-I mobilappen kan du inte skapa en anslagstavla. För att skapa en anslagstavla måste du logga in på webbappen som elev. Mer information om hur du skapar en anslagstavla finns i Social utbildning i [Learning Manager](/help/migrated/learners/feature-summary/social-learning-web-user.md).
+I mobilappen kan du inte skapa en anslagstavla. För att skapa en anslagstavla måste du logga in på webbappen som elev. Mer information om hur du skapar en anslagstavla finns i Social inlärning i [Learning Manager](/help/migrated/learners/feature-summary/social-learning-web-user.md).
 
 ## Åtgärder som kan utföras på ett inlägg {#actionsthatcanbeperformedonapost}
 
-* Kommentera ett inlägg och utifrån behörigheten, visa inlägg på en tavla.
-* Redigera eller ta bort kommentarer på en tavla.
+* Kommentera ett inlägg och baserat på behörigheten, visa inlägg på en anslagstavla.
+* Redigera eller ta bort kommentarer på en anslagstavla.
 * Redigera eller ta bort ett inlägg baserat på behörigheter.
-* Rapportera ett missbruk av ett inlägg om det kränker deras integritet eller om innehållet är olämpligt. När ett inlägg har rapporterats skickas ett meddelande till administratören för anslagstavlan och moderatorer för vidare åtgärder.
+* Anmäl missbruk av ett inlägg om det kränker deras integritet eller om innehållet är olämpligt. När ett inlägg har anmälts skickas en notifikation till forumadministratören och moderatorerna för vidare åtgärder.
 * Gilla  ![](assets/prime-like.png)  eller ogilla  ![](assets/prime-dislike.png)   ett inlägg.
 * Gilla  ![](assets/prime-like.png) eller ogilla ![](assets/prime-dislike.png) en kommentar.
 
-## Skapa ett inlägg på andra tavlor {#createapostinotherboards}
+## Skapa ett inlägg på andra anslagstavlor {#createapostinotherboards}
 
-Du kan även skapa ett inlägg i andra tavlor.
+Du kan också skapa ett inlägg på andra anslagstavlor.
 
-Tryck **Alla tavlor** och du kan se aktiviteterna på tavlan som utförs av andra elever.
+Tryck på **Alla tavlor** så kan du se de aktiviteter på tavlan som utförs av andra elever.
 
 ![](assets/all-boards-1.png)
 
-*Visa alla tavlans aktiviteter*
+*Visa alla styrelseaktiviteter*
 
-Navigera till önskad tavla och publicera din kommentar.
+Navigera till önskad anslagstavla och skriv din kommentar.
 
-## Dela media på en tavla {#sharemedia}
+## Dela media på en anslagstavla {#sharemedia}
 
 <!--![](assets/cp-prime-share.png)-->
 
-Dela bilder, dokument eller ljud- eller videofiler till en anslagstavla så att andra styrelseledamöter kan se ditt inlägg och starta en interaktion. Om du vill dela medier
+Dela bilder, dokument eller ljud- eller videofiler på en anslagstavla så att andra forummedlemmar kan se ditt inlägg och starta en interaktion. För att dela media,
 
-1. Öppna den mediefil som du vill dela.
-1. Tryck på knappen Dela och välj Learning Manager.
-1. Välj den anslagstavla där du vill dela mediet.
-1. Tryck **Post**.
+1. Öppna mediefilen som du vill dela.
+1. Tryck på dela-knappen och välj Utbildningshanterare.
+1. Välj den anslagstavla där du vill dela media.
+1. Tryck på **Publicera**.
 
-Du kan också lägga upp innehåll från en extern app, till exempel dela en kommentar från Reddit eller Quora.
+Du kan också lägga upp innehåll från en extern app, till exempel kan du dela en kommentar från Reddit eller Quora.
 
-## Överför resurser i externt certifikat som bevis på slutförande {#externalcert}
+## Ladda upp resurser i ett externt certifikat som bevis på slutförande {#externalcert}
 
 Följ stegen nedan:
 
-1. Logga in på enhetsprogrammet med dina elevautentiseringsuppgifter.
-1. Sök efter det certifikat som skaparen har skapat.
+1. Logga in på enhetsappen med dina inloggningsuppgifter.
+1. Sök efter certifikatet som författaren har skapat.
 1. I listan över externa certifikat väljer du det certifikat som krävs och registrerar dig för certifikatet.
-1. Tryck **Bevis på slutförande** och ladda upp en fil, till exempel en PDF-fil eller en bild.
+1. Tryck på **Bevis på slutförande** och ladda upp en fil, till exempel en pdf eller en bild.
 
    | ![](assets/screenshot-3.png) | ![](assets/screenshot-4.png) |
    |---|---|
-   *Ladda upp bevis på slutförande*
 
-1. När du har överfört en fil går du till fliken **Skicka**. Ett bekräftelsemeddelande visas.
+*Ladda upp bevis på slutförande*
+
+1. När du har laddat upp en fil klickar du på **Skicka**. Ett bekräftelsemeddelande visas.
 
 **Ladda upp en fil**
 
-1. När du har överfört en fil trycker du på **Skicka**.
+1. När du har laddat upp en fil trycker du på **Skicka**.
 
-   Du kan endast ladda upp en fil som bevis på slutförande. När du försöker överföra flera filer visas följande meddelande:
+   Du kan bara ladda upp en fil som bevis på att den är klar. När du försöker ladda upp flera filer visas följande meddelande:
 
-   **Ändringarna du har gjort kommer att gå förlorade. Vill du fortsätta?**
+   **De ändringar du har gjort kommer att gå förlorade. Vill du fortsätta?**
 
-1. Statusen ändras till **Väntar på godkännande** visas i orange färg.
+1. Statusen ändras till **Väntar på godkännande**, som visas i en orange färg.
 
-   Du kan inte visa eller hämta den överförda filen i mobilappen.
+   Du kan inte visa eller ladda ner den uppladdade filen i mobilappen.
 
-När chefen har godkänt överföringen ändras statusen till **Godkänt**, som färgats i grönt.
+När chefen har godkänt inlämningen ändras statusen till **Godkänd**, färgad i grönt.
 
-Om chefen avslår ansökan ändras statusen till **Avvisat**, röd.
+Om chefen avvisar inlämningen ändras statusen till **Avvisad**, färgad i rött.
 
 | ![](assets/screenshot-7.png) | ![](assets/screenshot-9.png) | ![](assets/screenshot-8.png) |
 |---|---|---|
 
-*Visa inlämningsstatus*
+*Visa status för inlämning*
 
-Efter avslaget får du ladda upp en fil som bevis på slutförandet.
+Efter avslag får du ladda upp en fil som bevis på att den är klar.
 
-* Du kan bara skicka en fil när statusen är **Väntande ansökan och avvisat**.
-* Du kan inte skicka en fil när statusen är **Väntar på godkännande och godkänd**.
+* Du kan bara skicka en fil när statusen är **Väntar på att skickas och Avvisad**.
+* Du kan inte skicka en fil när statusen är **Väntar på godkännande och Godkänd**.
 
-## Gå på kurser från LinkedIn Learning {#linkedin}
+## Gå kurser från LinkedIn Learning {#linkedin}
 
-Learning Manager har redan stöd för LinkedIn Learning-kurser på utbildningsplattformen. Nu kan elever gå sådan LinkedIn Learning-kurs i Learning Manager-mobilappen. Sök efter en kurs i enhetsappen och starta sedan kursen.
+Learning Manager har redan stöd för LinkedIn Learning-kurser inom lärplattformen. Nu kan eleverna delta i sådana LinkedIn Learning-kurser i mobilappen Learning Manager. I enhetsappen söker du efter en kurs och startar sedan kursen.
 
-Om du redan har LinkedIn-programmet installerat kommer kursen att öppnas i programmet, annars öppnas kursen i standardwebbläsaren, där du måste logga in med dina LinkedIn-inloggningsuppgifter.
+Om du redan har LinkedIn-appen installerad kommer kursen att öppnas i appen, eller så öppnas kursen i standardwebbläsaren, där du måste logga in med dina LinkedIn-uppgifter.
 
-Om du går kursen via LinkedIn-appen kommer dina framsteg inte att spåras i Learning Manager. Därför rekommenderar vi att kursen startas i webbläsaren i stället för i LinkedIn Learning-appen.
+Om du går kursen via LinkedIn-appen kommer dina framsteg inte att spåras i Learning Manager. Därför rekommenderas det att kursen startas i webbläsaren istället för LinkedIn Learning-appen.
 
 >[!NOTE]
 >
->Du kan bara delta i kurserna om du har en aktiv internetuppkoppling.
+>Du kan bara gå kurserna om du har en aktiv internetuppkoppling.
 
 | ![](assets/start-course.jpg) | ![](assets/enroll-course.jpg) | ![](assets/sign-in.jpg) |
 |---|---|---|
 
-*Registrera dig för kurser i LinkedIn Learning*
+*Anmäl dig till kurser i LinkedIn Learning*
 
-Utbildningstiden som tillbringas i LinkedIn-utbildningskurser meddelas av LinkedIn content/LinkedIn-plattformen till utbildningsplattformen Learning Manager.
+Inlärningstid som tillbringas i LinkedIn Learning-kurser kommuniceras av LinkedIn-innehållet/LinkedIn-plattformen till Learning Manager-lärplattformen.
 
-Om LinkedIn Learning inte skickar utbildningstiden kan den inte registreras på vår utbildningsplattform. I så fall är den inlärningstid som Learning Manager visar noll.
+Om LinkedIn learning inte skickar inlärningstiden kan den inte registreras av vår lärplattform. I sådana fall är den inlärningstid som visas av Learning Manager noll.
 
-## Skicka fil för klassrums- och aktivitetsmoduler {#submitfile}
+## Skicka in fil för klassrum och aktivitetsmoduler {#submitfile}
 
-En elev kan skicka in filer som bevis på att kursen är slutförd till instruktören. Instruktören kan sedan godkänna eller avslå ditt bidrag baserat på innehållet i filen.
+Som elev kan du skicka in filer till din lärare som bevis på att du har slutfört kursen. Läraren kan sedan godkänna eller avvisa din inlämning, baserat på innehållet i filen.
 
 En författare kan bara skapa klassrums- och aktivitetsmoduler som en elev kan använda i mobilappen.
 
-När eleven har startat en kurs kan eleven se statusen **Insändning av fil** som väntar tillsammans med länken för att ladda upp filen, på skärmen, som visas i skärmbilden nedan.
+När eleven har startat en kurs kan eleven se statusen **Filinlämning** som väntande tillsammans med länken för att ladda upp filen på skärmen, som visas i skärmdumpen nedan.
 
 ![](assets/pending-approval.png)
 
-*Status för inskickad fil*
+*Status för inlämning av filer*
 
-För att ladda upp filen, klicka på **Överför fil**.
+Om du vill ladda upp filen klickar du på **Ladda upp fil**.
 
-Ladda upp valfri fil och klicka på **Skicka** knapp.
+Ladda upp en fil och klicka på **knappen Skicka** .
 
 ![](assets/upload-file.png) ![](assets/pending-file-approval.png)
 
 *Skicka en fil*
 
-## Filtyper som stöds för överföring {#supportedfiletypesforupload}
+## Filtyper som stöds för uppladdning {#supportedfiletypesforupload}
 
 <table>
  <tbody>
   <tr>
    <td>
-    <p><b>Innehållstyp</b></p></td>
+    <p><b>Typ av innehåll</b></p></td>
    <td>
     <p><b>Tillägg</b></p></td>
   </tr>
@@ -485,49 +492,53 @@ Ladda upp valfri fil och klicka på **Skicka** knapp.
  </tbody>
 </table>
 
-## Godkännande eller avvisande av ansökan {#approvalorrejectionofsubmission}
+## Godkännande eller avslag på inlämning {#approvalorrejectionofsubmission}
 
-När du har överfört filen ändras statusen till **Väntar på godkännande.**. Instruktören visar sedan listan med [väntande ansökningar](/help/migrated/instructors/feature-summary/learners.md) och godkänner eller avvisar inskickningen via instruktörens webbapp.
+När du har laddat upp filen ändras statusen till **Väntar på godkännande.**. Läraren visar sedan listan över [väntande inlämningar](/help/migrated/instructors/feature-summary/learners.md) och godkänner eller avvisar inlämningen via instruktörens webbapp.
 
-När instruktören godkänner inlämningen ändras status i elevens mobilapp till **Godkänt**.
+När läraren godkänner inlämningen ändras statusen i Learner-mobilappen till **Godkänd**.
 
 <!--![](assets/approved.jpg)-->
 
-När instruktören avslår ansökan ändras statusen i elevens mobilapp till **Avvisat**.
+När läraren avvisar inlämningen ändras statusen i Learner-mobilappen till **Avvisad**.
 
 <!--![](assets/rejected.jpg)-->
 
-Klicka på länken om du vill skicka filen igen **Överför fil**.
+Om du vill skicka in filen igen klickar du på länken **Ladda upp fil**.
 
 ## Learning Manager för iPad och surfplattor {#captivateforipadandtablets}
 
-När du har loggat in som elev i Learning Manager-appen på en iPad- eller Android-surfplatta kan du se följande **Startsida** skärmen:
+När du har loggat in som elev i Learning Manager-appen på iPad eller Android-surfplatta kan du se följande **startskärm** :
 
 <!--![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)-->
 
-Gå till utbildnings- och katalogfunktionerna genom att trycka på **Meny** och väljer lämpligt alternativ.
+Om du vill navigera till inlärnings- och katalogfunktioner trycker du på **rullgardinsmenyn Meny** och väljer lämpligt alternativ.
 
 <!--![](assets/menu-ipad.png)-->
 
-Du kan visa uppsättningen med kurser i en listvy i stället för vyn med rutor/kort.
+Du har möjlighet att visa uppsättningen med kurser i en listvy istället för sida vid sida/kortvy.
 
-## Åtkomst till appen offline {#accesstheappoffline}
+## Få tillgång till appen offline {#accesstheappoffline}
 
-Du kan komma åt Learning Manager-appen offline på iPad och Android-surfplattor. Du kan hämta kurser och utbildningsprogram. Gå kurser, konsumera utbildningsprogrammen i offlineläge och synkronisera innehållet med onlineappen när du ansluter till nätverket.
+Du kan komma åt Learning Manager-appen offline på iPad och Android-surfplattor. Du kan ladda ner kurser och utbildningsprogram. Ta kurser, konsumera inlärningsprogrammen i offlineläge och synkronisera innehållet tillbaka med onlineappen när du ansluter till nätverket.
 
-1. Tryck **Meny** listrutan högst upp och tryck på **Utbildning** alternativ. En lista över alla tillgängliga kurser visas sida vid sida.
-1. Tryck på hämtningsikonen längst ned på varje panel för utbildningsobjekt för att hämta utbildningsinnehållet.
+1. Tryck på **rullgardinsmenyn Meny** högst upp och tryck på **Inlärningsalternativ** . En lista över alla tillgängliga kurser visas i rutor.
+1. Tryck på nedladdningsikonen längst ned på varje lärobjektsruta för att ladda ned utbildningsinnehållet.
 
    ![](assets/download-cards.png)
 
-   *Hämta innehållet*
+   *Ladda ner innehållet*
 
-   Ett meddelande om enhetens nätverksstatus visas i ett fält högst upp i appen.
+   En uppmaning visas i ett fält högst upp i appen som anger enhetens nätverksstatus.
 
-   * Rött fält anger att nätverket inte är tillgängligt för enheten.
-   * Gröna fältet indikerar nätverket är tillbaka online.
+   * Röd stapel indikerar att nätverket inte är tillgängligt för enheten.
+   * Grön stapel indikerar att nätverket är online igen.
 
-Användaren kan växla tillbaka till online-läge genom att klicka på **visa onlinematerial** i det gröna fältet. Innehåll i enheten synkroniseras när användaren växlar till onlineläge.
+Användaren kan växla tillbaka till onlineläge genom att klicka på **knappen Visa onlineinnehåll** i det gröna fältet. Innehållet i enheten synkroniseras när användaren växlar till onlineläge.
+
+## Stöd för kundvagn med flera artiklar på mobil uppslukande
+
+Elever kan nu lägga till flera kurser, utbildningsvägar eller certifieringar i kundvagnen och köpa dem tillsammans. Visa [kundvagn med flera artiklar i ALM](/help/migrated/learners/feature-summary/multi-item-cart.md)
 
 <!--## Track device storage {#trackdevicestorage}
 

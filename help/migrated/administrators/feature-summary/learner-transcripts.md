@@ -1,52 +1,52 @@
 ---
-description: Hämta elevens betygsutdrag och hantera rapporter med Learning Manager.
+description: Ladda ned elevutskrifter och hantera rapporter med hjälp av Learning Manager.
 jcr-language: en_us
-title: Elevens betygsutdrag
+title: Avskrifter från elever
 contentowner: jayakarr
 exl-id: f88ad02c-6d36-41e7-9d83-0ebc70d98d63
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: de57d96488851c31c380b34672767a803379842e
 workflow-type: tm+mt
 source-wordcount: '1824'
 ht-degree: 2%
 
 ---
 
-# Elevens betygsutdrag
+# Avskrifter från elever
 
-Hämta elevens betygsutdrag och hantera rapporter med Learning Manager.
+Ladda ned elevutskrifter och hantera rapporter med hjälp av Learning Manager.
 
-Med Adobe Learning Manager kan administratörer i en organisation generera utskrifter som är kopplade till elever.
+Adobe Learning Manager gör det möjligt för administratörer i en organisation att generera avskrifter som är kopplade till elever.
 
-## Generera elevbetygsutdrag {#generatelearnertranscripts}
+## Generera avskrifter från elever {#generatelearnertranscripts}
 
-1. För att generera elevens betygsutdrag klickar du på **[!UICONTROL Reports]** i den vänstra rutan i Administratörsinloggning.
+1. För att generera elevutskrifter, klicka på **[!UICONTROL Reports]** den vänstra rutan i Administratörsinloggning.
 
-   Administratören navigerar till **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** flik i **[!UICONTROL Reports]** sidan.
+   Administratören navigerar **[!UICONTROL Custom Reports]** till fliken > **[!UICONTROL Excel Reports]** på **[!UICONTROL Reports]** sidan.
 
 1. Klicka på länken **[!UICONTROL Learner Transcripts]**.
 
-   Inställningen **[!UICONTROL Learner Transcript]** historiksidan visas med meddelandet- **Inga elevbetygsutdrag har genererats än** eller en lista över hämtningar som har utlösts efter implementering av historiksida för utbildningsutdrag.
+   Historiksidan **[!UICONTROL Learner Transcript]** visas med meddelandet - **Inga Learner Transcripts har genererats ännu** eller en lista över nedladdningar som har utlösts efter implementering av Learning Transcripts historiksida.
 
    <!--[](assets/learner-transcripts.png)-->
 
-   Dialogrutan Elevens betygsutdrag visas. Välj det datumintervall som du vill att transkriptionen ska genereras för.
+   En dialogruta för avskrifter av elever visas. Välj det datumintervall som du vill att utskriften ska genereras för.
 
    >[!NOTE]
    >
-   >Som standard är från-startdatum elevens registreringsdatum och till-datum är alltid det aktuella datumet. Du kan bara ändra startdatumet från när du behöver informationen.
+   >Som standard är startdatumet elevens registreringsdatum och till-datumet är alltid det aktuella datumet. Du kan bara ändra startdatumet från när du behöver data.
 
-1. Välj namnen på eleverna i **[!UICONTROL Select Learners]** och klicka på **[!UICONTROL Generate].**
+1. Välj elevernas namn i fältet **[!UICONTROL Select Learners]** och klicka på **[!UICONTROL Generate].**
 1. Du kan välja en enskild elev eller grupper av elever. Om du vill lägga till fler än en elev klickar du på **[!UICONTROL Add More Learners]**.
 
    ![](assets/add-learners-lt.png)
 
    *Lägg till fler elever*
 
-1. Du kan välja specifika kataloger genom att markera kryssrutan. Betygsutdrag laddas bara ned för de angivna katalogerna. Du kan välja specifika kataloger genom att välja katalogen från **[!UICONTROL Select Catalogs]** listruta.
+1. Du kan välja specifika kataloger genom att markera kryssrutan. Avskrift laddas endast ned för de angivna katalogerna. Du kan välja specifika kataloger genom att välja katalogen i **[!UICONTROL Select Catalogs]** listrutan.
 
    ![](assets/select-catalogs-lt.png)
 
-1. När du exporterar elevens betygsutdrag finns det ett alternativ, **[!UICONTROL Enrollment Status]**. Den här listrutan innehåller följande alternativ:
+1. När du exporterar Learner Transcripts finns det ett alternativ, **[!UICONTROL Enrollment Status]**. Den här listrutan innehåller följande alternativ:
 
    * Markera allt
    * Slutfört
@@ -58,162 +58,162 @@ Med Adobe Learning Manager kan administratörer i en organisation generera utskr
 
    *Välj katalogen*
 
-1. Du kan också hämta utskrifter för elever som har tagits bort från ett konto.
+1. Du kan också ladda ner utskrifter för elever som har tagits bort från ett konto.
 
-   För att ladda ner elevens betygsutdrag för raderade användare, klicka på **[!UICONTROL Advanced Options]** och aktivera kryssrutan **[!UICONTROL Include data of Deleted Learners]**.
+   För att ladda ner elevutskrifter av raderade användare, klicka på pilen **[!UICONTROL Advanced Options]** och aktivera kryssrutan **[!UICONTROL Include data of Deleted Learners]**.
 
    ![](assets/data-deleted-learners.png)
 
-   *Hämta elevbetygsutdrag för raderade elever*
+   *Ladda ner Learner Transcripts av raderade elever*
 
-1. Du kan välja att hämta modulnivåinformation i elevens betygsutdrag genom att aktivera alternativet &quot;**[!UICONTROL Enable module level information]**&quot; kryssrutan. I det här fallet hämtas modulnamn och den tid som tillbringas på varje modul som en del av transkriptionen om det här alternativet är aktiverat.
-1. Du kan välja att hämta kompetensdata och sammanfattningar genom att aktivera alternativet &quot;**[!UICONTROL Include skills data and summary sheets]**&quot; kryssrutan.
+1. Du kan välja att ladda ner information på modulnivå i Learner-utskriften genom att markera kryssrutan &quot;**[!UICONTROL Enable module level information]**&quot;. I det här fallet hämtas modulnamn och den tid som spenderas på varje modul som en del av avskriften om det här alternativet är aktiverat.
+1. Du kan välja att ladda ner kompetensdata och sammanfattningsblad genom att aktivera kryssrutan &quot;**[!UICONTROL Include skills data and summary sheets]**&quot;.
 
-   Betygsutdrag genereras och hämtas till din dator som .csv-filer när kunskapsdata inte ingår. Om kryssrutan Kunskapsdata är aktiverad genereras och hämtas betygsfiler.
+   Transkriptioner genereras och laddas ner till din dator som .zip filer när kompetensdata inte finns med. Om kryssrutan Kompetensdata är aktiverad genereras och laddas utskrifter ner .xls filer.
 
-## Generera elevens betygsutdrag med kopiera och klistra in
+## Generera Learner-utskrift med hjälp av copy-paste
 
-Att hämta elevens betygsutdrag blir en omständlig process eftersom det bara kan erhållas för en elev eller användargrupp en i taget. Med funktionen för att kopiera och klistra in kan du här kopiera listan över elevens e-postadresser och klistra in den på en gång.
+Att hämta Learner-utskrifter blir en tråkig process eftersom det bara kan erhållas för en elev eller användargrupp en i taget. Här, med copy-paste-funktionen kan du kopiera listan över Learner e-post-ID och klistra in den på en gång.
 
-1. Logga in som **[!UICONTROL Administrator]** eller **[!UICONTROL Manager]**.
-1. Gå till **[!UICONTROL Reports]** under **[!UICONTROL Manage]**, laddar det **[!UICONTROL User Activity]** sidan.
-1. Klicka **[!UICONTROL Custom Reports]** i den vänstra rutan och välj **[!UICONTROL Learner Transcripts]** från listan.
-1. På fliken **[!UICONTROL Learner Transcripts]** sida, klicka på **[!UICONTROL Generate New]** i det övre vänstra hörnet.
-1. Välj önskade datum genom att klicka på **[!UICONTROL Select date range]** Listrutan. Klicka **[!UICONTROL Email IDs]** för att ange den kopierade listan med unika e-postadresser.
+1. Logga in som en **[!UICONTROL Administrator]** eller **[!UICONTROL Manager]**.
+1. Gå till **[!UICONTROL Reports]** under **[!UICONTROL Manage]**, den laddar **[!UICONTROL User Activity]** sidan.
+1. Klicka **[!UICONTROL Custom Reports]** på i den vänstra rutan och välj **[!UICONTROL Learner Transcripts]** från listan.
+1. **[!UICONTROL Learner Transcripts]** På sidan klickar du på **[!UICONTROL Generate New]** knappen i det övre vänstra hörnet.
+1. Välj önskade datum genom att klicka på i **[!UICONTROL Select date range]** rullgardinsmenyn. Klicka på **[!UICONTROL Email IDs]** tabbtangenten för att ange den kopierade listan med unika e-post-ID:n.
 
    ![](assets/cp-copy-paste-feature.png)
 
-   *Kopiera och klistra in e-post-ID*
+   *Kopiera och klistra in e-post-ID:n*
 
-1. Användning **[!UICONTROL Validate Email Ids]** för att verifiera om det angivna ID:t är korrekt.
+1. Används **[!UICONTROL Validate Email Ids]** för att kontrollera om det angivna id:t är korrekt.
 
    ![](assets/cp-learnertran-gdpr.png)
 
-   *Validera e-post-ID:n*
+   *Verifiera e-post-ID:n*
 
-   Om det angivna e-post-ID:t är felaktigt markeras det i rött tillsammans med ett valideringsmeddelande enligt ovan.
+   Om det angivna e-post-ID:t är felaktigt, skulle det markeras i rött tillsammans med ett valideringsmeddelande enligt ovan.
 
-   **[!UICONTROL Generate]** Knappen är inte tillgänglig om inte alla angivna e-post-ID:n är korrekta.
+   **[!UICONTROL Generate]** Knappen kommer inte att vara tillgänglig om inte alla angivna e-post-ID:n är korrekta.
 
    ![](assets/cp-copy-paste-generate.png)
 
-   *Generera elevens betygsutdrag*
+   *Generera elevavskrifter*
 
-1. Klicka **[!UICONTROL Generate]** knapp för att generera elevens betygsutdrag för alla nämnda e-postadresser. Du får ett bekräftelsemeddelande enligt nedan om att skapa en rapport.
+1. Klicka på **[!UICONTROL Generate]** knappen för att generera Learner Transcripts för alla nämnda e-post-ID:n. Du kommer att få ett bekräftelsemeddelande enligt nedan som anger rapportgenerering.
 
    ![](assets/cp-copy-paste-gmessage.png)
 
-   *Bekräftelsemeddelande för rapporten som genereras*
+   *Bekräftelsemeddelande om att rapporten genereras*
 
-   Generering av elevbetygsutdrag kan kombineras för e-post-ID som anges under båda **[!UICONTROL Users]** och **[!UICONTROL Email IDs]** -fliken.
+   Generera elevutskrifter kan kombineras för e-post-ID:n som anges under båda **[!UICONTROL Users]** och-fliken **[!UICONTROL Email IDs]** .
 
-## Historik över nedladdningar av elevbetygsutdrag {#ltdownload}
+## Nedladdningar av Elevens historia {#ltdownload}
 
-På fliken **[!UICONTROL Learner Transcript]** för att skapa en rapport när du klickar på **[!UICONTROL Generate New]** visas dialogrutan Elevens betygsutdrag.
+På nedladdningssidan **[!UICONTROL Learner Transcript]** , för att generera en rapport, när du klickar på **[!UICONTROL Generate New]** knappen, visas dialogrutan Elevutskrifter.
 
 ![](assets/history-lt.png)
 
-*Generera en rapport över alla elevens betygsutdrag*
+*Generera en rapport över alla Learner Transcripts*
 
-Klicka **[!UICONTROL Advanced Options]** och expandera panelen.
+Klicka och **[!UICONTROL Advanced Options]** expandera panelen.
 
-Välj användarna och katalogen de tillhör. När du har klickat på **[!UICONTROL Generate]** visas en dialogruta som anger den ungefärliga tiden det tar att hämta rapporten. Klicka på för att generera rapporten **[!UICONTROL Generate]**.
+Välj användarna och den katalog de tillhör. När du har klickat på **[!UICONTROL Generate]** knappen visas en dialogruta som nämner den ungefärliga tid det tar att ladda ned rapporten. Skapa rapporten genom att klicka på **[!UICONTROL Generate]**.
 
 ![](assets/download-learnertranscripts.png)
 
 *Välj knappen Generera*
 
-Betygsutdraget genereras i bakgrunden och du kan fortsätta med dina uppgifter i Learning Manager. När transkriptionen har skapats kan du hämta den från listan.
+Transkriptionen genereras i bakgrunden och du kan fortsätta med dina uppgifter i Learning Manager. När utskriften har genererats kan du ladda ner utskriften från listan.
 
-Administratörer kan visa alla utskrifter som genereras av någon i systemet.
+Som administratör kan du se alla utskrifter som genereras av någon i systemet.
 
 ![](assets/download-history.png)
 
-*Visa nedladdningshistorik*
+*Visa historik över nedladdningar*
 
-Nedladdningslistan innehåller följande attribut:
+Nedladdningslistan visar följande attribut:
 
-* **Elever:** De elever/elevgrupper vars utskrifter ska laddas ned.
-* **Ytterligare data som ingår:** Beroende på vilka ytterligare dataadministratörer som vill hämta från alternativet Avancerat i det modala fönstret Lägg till elevens betygsutdrag
-* **Status:** Hämtat, ställt i kö eller pågår.
-* **Från** och **till**: Varaktighet för de utskrifter som ska laddas ned.
-* **Filter som används:** Om du har tillämpat filtren för registreringsstatus.
-* **Genererat av:** Användar-id för den Learning Manager-användare som begärde hämtningen.
-* **Status:** Hämtat, ställt i kö eller pågår.
+* **Elever:** De elever/elevgrupper vars utskrifter ska laddas ner.
+* **Ytterligare data som ingår:** Beror på vilka ytterligare data administratören vill ladda ner från det avancerade alternativet i modalen Lägg till elevutskrift
+* **Status:** Nedladdad, i kö eller pågående.
+* **Från** och **Till**: Varaktighet för de utskrifter som ska laddas ner.
+* **Tillämpade filter:** Om du har tillämpat filtren för registreringsstatus.
+* **Genererad av:** Användar-ID för den Learning Manager-användare som har begärt nedladdningen.
+* **Status:** Nedladdad, i kö eller pågående.
 
-Du kan avbryta hämtningen när som helst. Om ett jobb avbryts av administratören skickar Learning Manager ett meddelande i appen till den användare som utlöste elevens betygsutdrag.
+Du kan avbryta nedladdningen när som helst. Om ett jobb avbryts av administratören skickar Learning Manager ett meddelande i appen till den användare som utlöste elevutskriften.
 
 ![](assets/queued-status.png)
 
-*Nedladdningskö för elevens betygsutdrag*
+*Kö för nedladdning av avskrift av elever*
 
-Du kan **annullera** när som helst hämta. Om ett jobb avbryts skickar Learning Manager ett meddelande i appen till den användare som har avbrutit jobbet.
+Du kan **avbryta** nedladdningen när som helst. Om ett jobb avbryts skickar Learning Manager ett meddelande i appen till den användare som har avbrutit jobbet.
 
-## Data för raderade elever {#dataofdeletedlearners}
+## Uppgifter om raderade elever {#dataofdeletedlearners}
 
-Du kan inkludera raderade elevers data i listan Elevens betygsutdrag. I dialogrutan Elevens betygsutdrag aktiverar du alternativet **[!UICONTROL Include data of Deleted Learners]**.
+Du kan inkludera data om raderade elever i listan Learner Transcript. I dialogrutan Elevavskrifter aktiverar du alternativet **[!UICONTROL Include data of Deleted Learners]**.
 
-När du har aktiverat alternativet och klickat **[!UICONTROL Generate]**, de borttagna elevdatafunktionerna på nedladdningssidan för Elevens betygsutdrag enligt nedan:
+Efter att ha aktiverat alternativet och klickat på **[!UICONTROL Generate]**, visas de raderade elevernas data på nedladdningssidan för Learner Transcript, som visas nedan:
 
 ![](assets/deleted-learnersondownloadpage.png)
 
-*Visa data för borttagna elever*
+*Visa data för borttagna learbers*
 
 ## Anpassa kolumner {#customize-columns-lt}
 
-En administratör kan anpassa de kolumner som exporteras i en elevens betygsrapport. Administratörer, anpassade administratörer och chefer kan konfigurera kolumnerna innan rapporten exporteras.
+En administratör kan anpassa kolumnerna som exporteras i en Learner Transcript-rapport. Administratörer, anpassade administratörer och chefer kan konfigurera kolumnerna innan de exporterar rapporten.
 
-På fliken **[!UICONTROL Learner Transcripts]** dialogrutan klickar du på **[!UICONTROL Advanced Options]**. I dialogrutan **[!UICONTROL Configure Export Format]** markerar du de kolumner som du vill exportera.
+I dialogrutan **[!UICONTROL Learner Transcripts]** klickar du på **[!UICONTROL Advanced Options]**. I avsnittet **[!UICONTROL Configure Export Format]** väljer du de kolumner som du vill exportera.
 
 ![](assets/image024.png)
 
 *Anpassa kolumner som ska exporteras*
 
-Anpassning är endast tillåtet när en användare hämtar elevens betygsutdrag i .CSV-format. När den laddas ner i .XLSX-format kommer valet av kolumninställning inte att följas och alla standardkolumner kommer att exporteras.
+Anpassning tillåts endast när en användare laddar ned Learner Transcript i . CSV-format. När du laddar ner i . XLSX-format kommer valet av kolumnpreferens inte att respekteras och alla standardkolumner kommer att exporteras.
 
-## Elevens filinnehåll i betygsutdrag {#learnertranscriptfilecontent}
+## Innehåll i avskriftsfilen för elever {#learnertranscriptfilecontent}
 
-En vanlig betygsfil för elever består av sex Excel-ark i en enda fil. Elevens betygsblad ger en övergripande inblick i data inklusive antalet elever som är inblandade per kurs, deras färdigheter, slutförandeprocenten baserad på kurs eller elev och en efterlevnadstavla. Följande instrumentpaneler är tillgängliga i elevutskrifter:
+En typisk avskriftsfil för elever består av sex excelark i en enda fil. Elevavskriftsbladen ger en övergripande inblick i data, inklusive antalet elever som är involverade per kurs, deras färdigheter, slutförandeprocenten baserat på kurs eller elev och en instrumentpanel för efterlevnad. Följande är de instrumentpaneler som är tillgängliga i elevutskrifter:
 
-**Elevens betygsutdrag**
+**Transkribering av elever**
 
-I Excel-bladet för elevbetygsutdrag, tillsammans med profilinformation om eleven, finns information om utbildningsobjektets förbrukning, t.ex. registreringsdatum, startdatum, uppnådd grad och erhållna quizpoäng. Om kurser ingår i något utbildningsprogram listas de separat, bortsett från enskilda uppgifter om kursens förbrukning.
+I excel-arket för elevutskrifter, tillsammans med profilinformation om eleven, tillhandahålls information om konsumtion av inlärningsobjekt, t.ex. inskrivningsdatum, startdatum, uppnått betyg, erhållet resultat från frågesport. Om kurser är en del av ett utbildningsprogram listas de separat förutom information om individuell kurskonsumtion.
 
-**1 - Tavla för utbildningsaktivitet**
+**1- Instrumentpanel för inlärningsaktivitet**
 
-På den här LO-specifika instrumentpanelen kan du se antalet elever för varje kurs, utbildningsprogram eller certifiering. Du kan visa förloppsindikatorn för elever för ett visst utbildningsobjekt. Denna tabell visar data som antal elever som har slutfört kursen eller utbildningsprogrammet, elever under utveckling och elevens förfallodatum.
+I den här LO-specifika instrumentpanelen kan du se antalet elever för varje kurs, utbildningsprogram eller certifiering. Du kan visa förloppsbladet för elever för ett visst lärobjekt. Det här bladet visar data som antalet elever som har slutfört kursen eller utbildningsprogrammet, pågående elever och elevernas inlämningsdatum.
 
-Användarnas förlopp för den specifika kursen beräknas baserat på inmatningsfälten där du anger tröskelvärdena för förfallodatum och förloppsprocent. Om du till exempel anger 7 dagar och 70 % som värden i inmatningsfältet visas kursförloppet för kurser som förfaller om 7 dagar och för kurser som har mer än 70 % förlopp. Du kan också ändra tidsperioden i tabellen, där ändrade data visas automatiskt på kontrollpanelen.
+Användarnas framsteg för den specifika kursen beräknas baserat på inmatningsfälten där du anger inlämningsdatum och tröskelvärden för framstegsprocent. Om du till exempel anger 7 dagar och 70 % som värden i inmatningsfältet, visas kursförloppet för kurser som ska avslutas om 7 dagar och för kurser som har mer än 70 % förlopp. Du kan också ändra tidsperioden i det här bladet, där ändrade data automatiskt visas i den här instrumentpanelen.
 
-**2 - Tavla för utbildningsaktivitet**
+**2 - Instrumentpanel för läraktivitet**
 
-Utbildningstavlan visar data för en specifik användare. På den här instrumentpanelen kan du se de kurser, utbildningsprogram eller certifieringar som en viss användare har registrerat sig för. Tabellen visar även data om vilka utbildningsobjekt användaren har slutfört, vilka utbildningsobjekt som pågår och kommande inlämningsdatum för användaren.
+Den här instrumentpanelen för utbildning visar data för en specifik användare. Från den här instrumentpanelen kan du se de kurser, utbildningsprogram eller certifieringar som en viss användare har registrerat sig för. Tabellen visar också data om vilka lärobjekt som användaren har slutfört, vilka lärobjekt som pågår och kommande inlämningsdatum för användaren.
 
-Användarnas förlopp för varje kurs beräknas utifrån de indata som du anger. Det vill säga värdena för förfallodatum och förloppsprocent. Om du till exempel anger 7 dagar och 70 % som värden i inmatningsfältet visas användarens förlopp för olika kurser som förfaller om 7 dagar och för kurser som har mer än 70 % förlopp.
+Användarnas framsteg för varje kurs beräknas baserat på de indata som du anger. Det vill säga förfallodatum och procentvärden för förlopp. Om du till exempel anger 7 dagar och 70 % som värden i inmatningsfältet, visas användarens framsteg för olika kurser som ska lämnas in om 7 dagar och för kurser som har mer än 70 % framsteg.
 
-**Kompetens**
+**Färdighet**
 
-I kompetensbladet anges färdighetsnamn, kompetensnivå, nödvändiga krediter, intjänade poäng, slutförandeprocent och andra profiluppgifter. Nedan hittar du ett exempel på en ögonblicksbild av Excel-sidan för kompetens.
+I kompetensbladet anges kompetensnamn, färdighetsnivå, nödvändiga poäng, intjänade poäng, slutförandeprocent och annan profilinformation. Ett exempel på en ögonblicksbild av excel-arket för färdigheter finns nedan som referens.
 
 ![](assets/skills-learner-transcript.png)
 
-*Exempel på Excel-sidan för kompetenser*
+*Exempel på Excel-arket för färdigheter*
 
-**1 - Tavla för kompetens**
+**1- Instrumentpanel för färdigheter**
 
-På den här instrumentpanelen kan du se om din organisation är utrustad med olika färdigheter. För en specifik kompetens kan du kontrollera antalet användare i en organisation som förväntas ha denna kompetens kontra antalet som faktiskt har kompetensen. Kontrollpanelen anger även vilka användare som måste uppdatera sina kunskaper. Detta värde beräknas utifrån de indata som du anger i inmatningsfältet. Om du till exempel anger 50 dagar som indata visar kontrollpanelen data om användare som behöver uppdatera sina kunskaper efter 50 dagar.
+I den här instrumentpanelen kan du se om din organisation är utrustad på olika färdigheter. För en specifik färdighet kan du kontrollera antalet användare i en organisation som ska ha den här färdigheten jämfört med antalet som faktiskt har kompetensen. Den här instrumentpanelen anger också de användare som måste uppdatera sina kunskaper. Det här värdet beräknas baserat på de indata som du anger i fältet Indata. Om du till exempel anger 50 dagar som indata tillhandahåller instrumentpanelen data om användare som behöver uppdatera sina kunskaper efter 50 dagar.
 
-**2- Kompetenstavla**
+**2- Instrumentpanel för färdigheter**
 
-Denna tavla för kompetenser är mer användarspecifik. Du kan filtrera en eller flera användare och visa deras kunskapsnivå som en kontrollpanel. Detta blad kan hjälpa chefer och administratörer att spåra hur skickliga varje elev är jämfört med hur skickliga de förväntas vara. Instrumentpanelen för kompetens belyser också de elever som måste uppdatera sina färdigheter. Elevens uppdateringslista beräknas utifrån antalet dagar som du anger i inmatningsfältet.
+Den här instrumentpanelen för färdigheter är mer användarspecifik. Du kan filtrera en specifik användare eller flera användare och visa deras kompetensnivå som en instrumentpanel. Det här bladet kan hjälpa chefer och administratörer att spåra hur skicklig varje elev är jämfört med hur skicklig de förväntas vara. Skill dashboard kastar också ljus över eleverna som måste fräscha upp sina färdigheter. Uppdateringslistan för elever beräknas baserat på antalet dagar som du anger i inmatningsfältet.
 
-**Efterlevnadstavla**
+**Instrumentpanel för efterlevnad**
 
-Efterlevnadstavlan består av två delar - efterlevnadsrapport per användare och efterlevnadsrapport per utbildning. För den användarbaserade rapporten kan du använda efterlevnadstavlan för att spåra användare som har kommande förfallodatum för viktiga efterlevnadsinitiativ. För den utbildningsbaserade rapporten kan du filtrera på utbildningsprogram eller certifiering.
+Instrumentpanelen för efterlevnad består av två delar – efterlevnadsrapport per användare och efterlevnadsrapport per utbildning. För den användarbaserade rapporten kan du använda instrumentpanelen för efterlevnad för att spåra användare som har kommande förfallodatum för viktiga efterlevnadsinitiativ. För den utbildningsbaserade rapporten kan du filtrera efter utbildningsprogram eller certifiering.
 
-Filtrera efter inlämningsdatum för att visa relevanta data för båda efterlevnadsrapporterna.
+För båda efterlevnadsrapporterna filtrerar du efter förfallodatum för att visa lämpliga data.
 
-### Kolumner med tid och datum i avskriften {#datetime}
+### Kolumnerna Tid och datum i utskriften {#datetime}
 
 Värdena i följande kolumner har minuter avrundade till närmaste minut och sekunder till 00:
 
@@ -223,28 +223,28 @@ Värdena i följande kolumner har minuter avrundade till närmaste minut och sek
 
 ![](assets/time-columns-in-thetranscript.png)
 
-*Kolumner för tid och datum på Excel-bladet*
+*Kolumnerna Tid och datum i Excel-arket*
 
-### Modulens varaktighet och ID-kolumner i transkriptet {#moduledurationandidcolumnsinthetranscript}
+### Modulens varaktighet och ID-kolumner i avskriften {#moduledurationandidcolumnsinthetranscript}
 
-Elevens betygsutdrag visar även kolumnerna- **[!UICONTROL Module Duration]** och **[!UICONTROL ID]**.
+Learner Transcript visar även kolumnerna- **[!UICONTROL Module Duration]** och **[!UICONTROL ID]**.
 
 ![](assets/lt-id-duration.png)
 
-*Modulens varaktighet och ID-kolumner i transkriptet*
+*Modulens varaktighet och ID-kolumner i avskriften*
 
-### ÖVRIGA kolumner i utskriften {#ModuledurationandIDcolumnsinthetranscript-1}
+### ANDRA kolumner i avskriften {#ModuledurationandIDcolumnsinthetranscript-1}
 
-| **Kolumn** | **Beskrivning** |
+| **Spalt** | **Beskrivning** |
 |---|---|
-| Efter | Antal elever som uppnådde kompetensen före det angivna (värde) antalet dagar som behöver fräschas upp |
-| Kompetens | De kompetensnamn som tilldelas elever |
-| Chefens namn | Chefsnamnet vars underordnade data om kompetenssammanslagning ska visas i registret Kompetenssammanfattning |
-| Radetiketter | Elevens namn med listan över tilldelade kompetenser |
-| Antal kompetenser varje användare ska ha | Antal kompetenser som har tilldelats eleven |
-| Antal kompetenser varje användare har | Antal kompetenser som uppnåtts av eleven |
-| Antal kompetenser som behöver fräschas upp | Antal elever vars kompetens behöver fräschas upp |
-| Andel efterlevnad | Förloppsprocenten för den tilldelade kompetensen |
+| Efter | Antal elever som uppnådde färdigheten före det angivna (värde) antalet dagar som behöver uppdateras |
+| Kompetens | Färdighetsnamnen som tilldelas elever |
+| Chefens namn | Chefens namn vars underordnade kompetensuppgifter ska visas i tabellen Kompetenssammanfattning |
+| Radetiketter | Elevens namn med listan över tilldelade färdigheter |
+| Antal kompetenser varje användare ska ha | Antal färdigheter som tilldelats eleven |
+| Antal kompetenser varje användare har | Antal färdigheter som uppnåtts av eleven |
+| Antal kompetenser som behöver fräschas upp | Antal elever vars färdigheter behöver uppdateras |
+| Andel efterlevnad | Procentandelen framsteg för den tilldelade färdigheten |
 | Inbäddad väg | Dessa rader visar namnet på det inbäddade utbildningsprogrammet. |
-| Inbäddat väg-ID | Dessa rader visar ID:n för det inbäddade utbildningsprogrammet |
-| Inbäddad sökväg för språk | Dessa rader visar det språk som utbildningsprogrammet skapades med. |
+| Inbäddat väg-ID | De här raderna visar ID:n för det inbäddade utbildningsprogrammet |
+| Inbäddad sökväg för språk | Dessa rader visar det språk som inlärningsprogrammet skapades på. |
