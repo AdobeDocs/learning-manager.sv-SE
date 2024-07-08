@@ -4,9 +4,9 @@ title: Installera Salesforce-paket
 description: Learning Manager erbjuder ett Salesforce-apppaket. När de har installerats och konfigurerats i SFDC kan försäljningsanställda utföra sina utbildningsaktiviteter i SFDC-portalen. Den här appen gör det möjligt för SFDC-användare att utforska nya utbildningar, visa rekommendationer och konsumera dem direkt i SFDC-portalen. Användare får också meddelanden som skickas av administratörer i form av toppannonser direkt i appen i SFDC-portalen.
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: dffa765061b35d4559388e4120e51943768c8db8
+source-git-commit: fb946ae98dce45156e2f4c1cf992319405403ea9
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Så här lägger du till Adobe-domänen i betrodda URL:er:
 1. I Salesforce-konsolen går du till **[!UICONTROL Setup]** > **[!UICONTROL Quick Find]**.
 1. Sök efter **[!UICONTROL Trusted URLs]** och välj **[!UICONTROL New Trusted URL]**.
 1. Skriv ett namn i **[!UICONTROL API Name]** fältet.
-1. Lägg till URL:en som `{}.adobe.com{*}`.
+1. Skriv `*.adobe.com` in i URL-fältet.
 1. Markera alla kryssrutor i **CSP-direktiv** och spara ändringarna.
 1. Redigera uppdateringstoken för Salesforce-appen och spara den.
 1. Starta om Salesforce-appen.
