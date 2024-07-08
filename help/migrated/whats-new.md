@@ -1,16 +1,16 @@
 ---
 description: Läs mer om de nya funktionerna och förbättringarna i juli 2024-versionen av Adobe Learning Manager
 jcr-language: en_us
-title: Vad är nytt i den här versionen
-source-git-commit: 7be69e68f3b8970e090c8eccd25771cd2e5e99f1
+title: Sammanfattning av nya funktioner
+source-git-commit: 7e3b19d29b9de23ea489c5651ef0aef1d4ec3005
 workflow-type: tm+mt
-source-wordcount: '2148'
+source-wordcount: '2156'
 ht-degree: 1%
 
 ---
 
 
-# Vad är nytt i den här versionen {#whatsnewandchanged}
+# Sammanfattning av nya funktioner {#new-features-summary}
 
 Läs mer om de nya funktionerna och förbättringarna i juli 2024-versionen av Adobe Learning Manager.
 
@@ -77,7 +77,7 @@ Med den icke-inloggade upplevelsen kan du skapa en realtidsupplevelse för icke-
 
 ### Vad ändras i den här versionen
 
-Kunder kan köpa en premiumplan för att skapa dessa mycket skalbara icke-inloggade upplevelser. Den här icke-loggade [upplevelsen, som drivs av Training Data Access](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access), ger realtidsdata om platsgränser, upptagna platser, gränser för väntelistor och antal väntelistor med hjälp av Adobe Learning Manager API:er. Kunder kan använda dessa API:er för att erbjuda icke-inloggade elever sök- och filtreringsfunktioner och en fullständig kurssammanfattning.
+Kunder kan köpa en premiumplan för att skapa dessa mycket skalbara icke-inloggade upplevelser. Den här icke-loggade [upplevelsen, som drivs av Training Data Access](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access), ger realtidsdata om platsgränser, upptagna platser, gränser för väntelistor och antal väntelistor med hjälp av Adobe Learning Manager API:er. Kunder kan använda dessa API:er för att erbjuda icke-inloggade elever sök- och filtreringsfunktioner och en fullständig kurssammanfattning. Mer information om API:erna finns i den här artikeln [Icke-inloggade API:er](/help/migrated/integration-admin/feature-summary/non-logged-in-apis.md) .
 
 >[!NOTE]
 >
@@ -337,4 +337,4 @@ Visa [systemkrav för](/help/migrated/system-requirements.md) Adobe Learning Man
 ## Tidigare versioner av Adobe Learning Manager
 
 * [Version från mars 2024](/help/migrated/whats-new-march-2024.md)
-* [Version från november 2024](/help/migrated/whats-new-november-2023.md)
+* [Version från november 2023](/help/migrated/whats-new-november-2023.md)
