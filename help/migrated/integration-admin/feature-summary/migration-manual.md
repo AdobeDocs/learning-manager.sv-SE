@@ -1,55 +1,55 @@
 ---
-description: Referenshandbok för integrationsadministratörer som vill migrera ett befintligt LMS till Adobe Learning Manager LMS.
+description: Referenshandbok för integreringsadministratörer som vill migrera ett befintligt LMS till Adobe Learning Manager LMS.
 jcr-language: en_us
-title: Handbok för migrering
+title: Migreringshandbok
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 7be69e68f3b8970e090c8eccd25771cd2e5e99f1
+source-git-commit: 899ef06789f818e0286589263ebb5fad0c90c9d2
 workflow-type: tm+mt
 source-wordcount: '3604'
 ht-degree: 1%
 
 ---
 
-# Handbok för migrering
+# Migreringshandbok
 
-Referensmanual för integrationsadministratörer som vill migrera ett befintligt LMS till Learning Manager LMS
+Referenshandbok för integrationsadministratörer som vill migrera ett befintligt LMS till Learning Manager LMS
 
 <!-- ## Overview {#overview} -->
 
-## Scenario för användning {#usagescenario}
+## Användningsscenario {#usagescenario}
 
-I allmänhet har stora företag sitt interna LMS eller någon leverantör som tillhandahåller äldre Learning Management System. LMS består av ditt företags utbildningsinnehåll och utbildningsdata. När du som företag köper Learning Manager kanske du vill flytta ditt befintliga LMS-innehåll och data till Learning Manager så att du kan dra nytta av fördelarna med ett modernt och intuitivt LMS utan att förlora någon av organisationens äldre data.
+I allmänhet har stora företag sina interna system för hantering av inlärning eller en leverantör som tillhandahåller äldre system för hantering av inlärning. LMS består av företagets utbildningsinnehåll och utbildningsdata. Om du är ett företag när du köper Learning Manager kanske du vill flytta ditt befintliga LMS-innehåll och -data till Learning Manager så att du kan dra nytta av fördelarna med modernt och intuitivt LMS utan att förlora någon av organisationens gamla data.
 
-Learning Manager tillhandahåller de verktyg och specifikationer som krävs så att organisationens integrationsadministratör kan konfigurera och utföra migreringsuppgifterna.
+Learning Manager tillhandahåller de verktyg och specifikationer som behövs för att din organisations integrationsadministratör ska kunna konfigurera och utföra migreringsuppgifterna.
 
-Från och med idag kan en organisations administratörer komma åt migreringsfunktionen i Learning Manager genom att kontakta Adobes supportteam. Om du vill aktivera migreringsfunktionen på ditt konto kan du kontakta Adobe Learning Manager-supportteamet.
+Från och med idag kan migreringsfunktionen i Learning Manager nås av en organisations administratörer genom att kontakta Adobe supportteam. Om du vill aktivera migreringsfunktionen för ditt konto kan du kontakta Adobe Learning Manager supportteam.
 
-## Migreringsprocessen {#apidescription}
+## Migreringsprocess {#apidescription}
 
-Förutsättningar för migrering, viktiga steg som ingår i migreringsprocessen, migreringssprintar, specifikationer, migreringssteg för data och innehåll förklaras i det här avsnittet på följande sätt:
+Förutsättningar för migrering, viktiga steg som rör migreringsprocessen, migreringspurter, specifikationer, migrering av data och innehåll förklaras i det här avsnittet enligt följande:
 
-### Förutsättningar {#prerequisites}
+### Krav {#prerequisites}
 
-Learning Manager-teamet förväntar sig att följande uppgifter utförs av organisationens integrationsadministratörer innan migreringsprocessen påbörjas:
+Learning Manager-teamet förväntar sig att följande uppgifter utförs av organisationens integrationsadministratörer innan migreringsprocessen inleds:
 
-* Integrationsadministratören extraherar data och innehåll från det befintliga LMS:et och omvandlar data till de filformat som definieras av Learning Manager.
-* Learning Manager stöder inte import av användare som en del av migreringsprocessen och förväntar sig att organisationen importerar användare med hjälp av anslutningsappar. Adobe Systems förväntar sig att dessa anslutningar konfigureras före migreringsprocessen. Mer information finns i hjälpen](connectors.md) för [Learning Manager-anslutningsappar.
+* Integreringsadministratören extraherar data och innehåll från det befintliga LMS-systemet och omvandlar data till de filformat som definierats av Learning Manager.
+* Learning Manager stöder inte import av användare som en del av migreringsprocessen och förväntar sig att organisationen importerar användare med hjälp av kopplingar. Adobe Systems förväntar sig att dessa anslutningar är konfigurerade före migreringsprocessen. Se [Hjälp för Learning Manager-anslutningar](connectors.md) för mer information.
 
-Learning Manager rekommenderar att administratörer kan prova migreringsprocessen i ett utvärderingskonto innan de migrerar data och innehåll till produktionsmiljön för Learning Manager.
+Learning Manager rekommenderar att administratörer kan testa migreringsprocessen på ett testkonto innan de migrerar data och innehåll till Learning Manager-produktionsmiljön.
 
 ### Viktiga steg i migreringsprocessen {#keystepsofmigrationprocess}
 
-De viktigaste stegen för att migrera innehåll och data från ett befintligt LMS till Learning Manager är följande:
+De viktigaste stegen när du migrerar innehåll och data från ett befintligt LMS till Learning Manager är följande:
 
-1. Integrationsadministratören eller partnern utvärderar befintliga LMS-data och innehåll som behöver migreras.
-1. Integrationsadministratören utvärderar de verktyg och specifikationer som Learning Manager tillhandahåller för att mata in data och innehåll.
-1. Integrationsadministratören skriver kod eller utför manuellt arbete för att exportera träningsdata och innehåll från det äldre LMS:et baserat på den funktionalitet som tillhandahålls av det äldre LMS:et.
-1. När träningsdata och innehåll är tillgängligt analyserar och mappar integrationsadministratören data och innehåll så att de matchar migreringsspecifikationerna för Learning Manager.
-1. Integrationsadministratören använder de verktyg som tillhandahålls av Learning Manager för att migrera i följande ordning:
+1. Integreringsadministratören eller integrationspartnern utvärderar befintliga LMS-data och innehåll som behöver migreras.
+1. Integration Administrator utvärderar de verktyg och specifikationer som Learning Manager tillhandahåller för att hämta data och innehåll.
+1. Integreringsadministratören skriver kod eller utför manuellt arbete för att exportera utbildningsdata och innehåll från det äldre LMS baserat på de funktioner som tillhandahålls av det äldre LMS.
+1. När utbildningsdata och -innehåll är tillgängliga analyserar och mappar integrationsadministratören data och innehåll för att matcha migreringsspecifikationerna för Learning Manager.
+1. Integreringsadministratören använder verktygen som tillhandahålls av Learning Manager för att migrera i följande ordning:
 
    1. Överför eleverna till Learning Manager
    1. Överför utbildningsinnehåll till Learning Manager och
-   1. Överför slutligen träningsdata till Learning Manager.
+   1. Till sist överför vi utbildningsdata till Learning Manager.
 
 Organisationen kan börja använda Learning Manager LMS tillsammans med det äldre innehållet.
 
@@ -60,66 +60,64 @@ Du kan bara migrera innehåll för följande utbildningsobjekt:
 * Modul
 * Utmärkelsetecken
 * Kurs
-* Modulens version
-* Kurstillfälle
-* Delkurs
+* Modulversion
+* Kursinstans
+* Kursmodul
 * Kompetenser
-* Kompetensnivå
-* Färdighet kurs
+* Färdighet
+* Kompetenskurs
 * Certifiering
-* Certifiering kurs
-* Åtagande om certifiering
+* Certifieringskurs
+* Bekräfta certifiering
 * Utbildningsprogram
-* Kurs i utbildningsprogram
-* Instans av utbildningsprogram
-* Kurstillfälle för utbildningsprogram
+* kurs i utbildningsprogram
+* Instans för utbildningsprogram
+* Kursinstans för utbildningsprogram
 * Arbetsstöd
-* Version för jobbstöd
-* Kurs i arbetsstöd
-* Kompetens inom arbetsstöd
+* Version av arbetsstöd
+* Arbetsstödskurs
+* Arbetsstödskunskaper
 * Registrering
-* Registrering av certifiering
-* Registrering för utbildningsprogram
-* Registrering av jobbstöd
-* Betyg på användarkurs
+* Registrering till certifiering
+* Registrering till utbildningsprogram
+* Arbetsstödsregistrering
+* Kursens betygsättning
 
+### Viktiga begrepp inom migrering {#keyconceptsofmigration}
 
+Några av de viktigaste begreppen i migreringsprocessen för Learning Manager förklaras kort så här:
 
-### Viktiga begrepp inom migration {#keyconceptsofmigration}
+**Migreringsprojekt**
 
-Några av de viktigaste begreppen i migreringsprocessen för Learning Manager förklaras kortfattat för din snabbreferens, enligt följande:
+I Learning Manager består ett migreringsprojekt av en eller flera sprintar. Du kan också ha flera migreringsprojekt för ditt konto. Migreringsprocessen i Learning Manager börjar med att skapa ett migreringsprojekt.
 
-**Projekt för migrering**
+**Sprint**
 
-I Learning Manager består ett migreringsprojekt av en eller flera sprintar. Du kan också ha flera migreringsprojekt för ditt konto. Migreringsprocessen i Learning Manager börjar med att du skapar ett migreringsprojekt.
+En Sprint i migreringsprocessen för Learning Manager definierar en uppsättning migreringsobjekt som du har valt att migrera från det befintliga LMS:et. Ett migreringsobjekt kan vara en kursmodul, elevposter eller ett antal kurser. Du kan ha flera utbildningsdataobjekt i en sprint. Du kan utföra migreringsjobb i varje sprint.
 
-**Sprinta**
+**Sprint Runs**
 
-En sprint i migreringsprocessen för Learning Manager definierar en uppsättning migreringsobjekt som du har valt att migrera från det befintliga LMS:et. Ett migreringsobjekt kan vara en kursmodul, elevposter eller en uppsättning kurser. Du kan ha flera inlärningsdataobjekt i en sprint. Du kan köra migreringsjobb i varje sprint.
+Sprint Run är processen att starta ett Sprint-migreringsjobb. Du kan stoppa sprinten när som helst under en körning.
 
-**Sprintlöpningar**
+**Sprint Re-run**
 
-Sprint Run är en process för att starta ett Sprint-migreringsjobb. Du kan stoppa sprintkörningen när som helst under en körning.
-
-**Repriser av sprintar**
-
-Du kan köra en migreringssprint igen när den har slutförts när som helst. Den här situationen med omkörning eller omkörning av en sprint inträffar när du vill lägga till data i ett sprintobjekt och migrera dem till programmet igen eller korrigera felen i CSV:er.
+Du kan köra ett migreringsspurt igen när som helst efter att det har slutförts. Den här situationen med rekörning eller rekörning av en sprint inträffar när du vill lägga till data i ett sprintobjekt och migrera det till programmet igen eller korrigera felen i CSV-filer.
 
 **CSV-specifikation**
 
-Learning Manager ger dig en uppsättning [standardspecifikationer för](migration-manual.md#main-pars_header_140933605) CSV. Det bästa sättet är att gå igenom dessa CSV-specifikationer innan du börjar med migreringsprocessen. Integrationsadministratören för din organisation kan analysera de befintliga dataformaten och mappa dem så att de matchar de CSV-mallobjekt som tillhandahålls av Learning Manager.
+Learning Manager innehåller en uppsättning [CSV-standardspecifikationer](migration-manual.md#main-pars_header_140933605). Det bästa sättet är att gå igenom dessa CSV-specifikationer innan du börjar migrera. Integreringsadministratören för din organisation kan analysera de befintliga dataformaten och mappa dem så att de matchar de CSV-mallobjekt som Learning Manager tillhandahåller.
 
 **Taggar för migreringsprojekt**
 
-Adobe Systems rekommenderar att du använder en uppsättning nyckelord som taggar för att enkelt identifiera dina migreringsprojekt i Learning Manager-programmet. Med de här taggarna kan du identifiera dina projekt internt i Learning Manager-programmet vid en viss tidpunkt.
+Adobe Systems rekommenderar att du använder en uppsättning nyckelord som taggar för att identifiera dina migreringsprojekt enkelt i Learning Manager-programmet. Med hjälp av dessa taggar kan du identifiera dina projekt internt i Learning Manager-appen vid valfri tidpunkt.
 
 **Innehållslös modul**
 
-Med Learning Manager kan du ladda upp en modul utan innehåll. Adobe Systems betraktar det som en innehållslös modul i Learning Manager. I ett scenario där du vill migrera en del av äldre data från ditt befintliga LMS utan att behöva något innehåll kan du ladda upp den module_version.csv filen utan URL-referens.
+Med Learning Manager kan du ladda upp en modul utan innehåll. Adobe Systems ser den som en innehållslös modul i Learning Manager. I ett scenario där du vill migrera en del av den äldre informationen från ditt befintliga LMS utan behov av något innehåll, kan du överföra filen module_version.csv utan URL-referens.
 
-## CSV-specifikationer och exempel på CSV:er {#csv}
+## CSV-specifikationer och CSV-exempelfiler {#csv}
 
-Nedan hittar du de standardspecifikationer för CSV som du kan använda för att mappa med dina befintliga LMS-migreringsdata. Klicka på csv-specifications och sample-csvs för att ladda ned zip-filer. Den nedladdade csv-specifications.zip innehåller sju Excel-arkfiler. Dessa excel-arkfiler är specifikationer med beskrivningar för att du ska förstå hur du fyller i de .csv filerna. Motsvarande .csv filer ska innehålla data för varje fält i det föreskrivna formatet enligt beskrivningen i dessa .xlsx filer.
+Nedan hittar du specifikationerna för CSV-standardfiler som du kan använda för att mappa med befintliga LMS-migreringsdata. Klicka på csv-specifikationer och exempel-csv:er för att hämta zip-filer. Den hämtade csv-fications.zip innehåller sju Excel-arkfiler. De här Excel-arkfilerna är specifikationer med beskrivningar som hjälper dig att förstå hur du fyller upp .csv-filerna. Motsvarande .csv-filer ska innehålla data för varje fält i det föreskrivna format som förklaras i dessa .xlsx-filer.
 
 <table border="1" cellspacing="0" cellpadding="0" width="100%">
  <tbody>
@@ -129,7 +127,7 @@ Nedan hittar du de standardspecifikationer för CSV som du kan använda för att
    <th>
     <p><b>Filnamn</b></p></th>
    <th>
-    <p><b>Beskrivning av innehåll</b></p></th>
+    <p><b>Innehållsbeskrivning</b></p></th>
    <th>
     <p>Anteckningar</p></th>
   </tr>
@@ -159,7 +157,7 @@ Nedan hittar du de standardspecifikationer för CSV som du kan använda för att
    <td>
     <p>Metadata för course.csv</p></td>
    <td>
-    <p>Nämn ett författarnamn för en viss kurs eftersom flera författarnamn ibland inte visas korrekt i applikationen efter migreringen. </p></td>
+    <p>Nämn ett författarnamn för en viss kurs eftersom flera författarnamn ibland inte visas korrekt i programmet efter migreringen. </p></td>
   </tr>
   <tr>
    <td>
@@ -169,7 +167,7 @@ Nedan hittar du de standardspecifikationer för CSV som du kan använda för att
    <td>
     <p>Metadata för module_version.csv</p></td>
    <td>
-    <p>Se till att du anger URL-sökvägen till Box-kontomappen där du laddade upp innehållet. </p></td>
+    <p>Se till att du anger URL-sökvägen till Box-kontomappen där du överförde innehållet. </p></td>
   </tr>
   <tr>
    <td>
@@ -188,7 +186,7 @@ Nedan hittar du de standardspecifikationer för CSV som du kan använda för att
    <td>
     <p>Metadata för session.csv</p></td>
    <td>
-    <p>Se till att varje post i sessionens csv är kopplad till minst en modul för klassrum/virtuellt klassrum</p></td>
+    <p>Se till att alla poster i CSV-filen för sessionen är kopplade till minst en klassrums-/virtuell klassrumsmodul</p></td>
   </tr>
   <tr>
    <td>
@@ -205,25 +203,25 @@ Nedan hittar du de standardspecifikationer för CSV som du kan använda för att
    <td>
     <p>skill.xlsx</p></td>
    <td>
-    <p>Metadata för skill.csv</p></td>
+    <p>Metadata för skills.csv</p></td>
    <td> </td>
   </tr>
   <tr>
    <td>
     <p>9</p></td>
    <td>
-    <p>skill_level.xlsx</p></td>
+    <p>skills_level.xlsx</p></td>
    <td>
-    <p>Metadata för skill_level.csv</p></td>
+    <p>Metadata för skills_level.csv</p></td>
    <td> </td>
   </tr>
   <tr>
    <td>
     <p>10</p></td>
    <td>
-    <p>skill_course.xlsx</p></td>
+    <p>skills_course.xlsx</p></td>
    <td>
-    <p>Metadata för skill_course.csv</p></td>
+    <p>Metadata för skills_course.csv</p></td>
    <td> </td>
   </tr>
   <tr>
@@ -297,7 +295,7 @@ Nedan hittar du de standardspecifikationer för CSV som du kan använda för att
    <td>
     <p>Metadata för job_aid.csv</p></td>
    <td>
-    <p>Varje job_aid som migreras måste ha en eller flera job_aid versioner.</p></td>
+    <p>Varje migrerat job_aid kräver en eller flera versioner av job_aid.</p></td>
   </tr>
   <tr>
    <td>
@@ -371,26 +369,26 @@ Nedan hittar du de standardspecifikationer för CSV som du kan använda för att
     <p><br>
       Metadata för user_course_grade.csv</p></td>
    <td>
-    <p>Ange de obligatoriska uppgifterna i .csv-filen även om de inte är obligatoriska. Utan den här informationen kan det hända att Learning Manager-programmet inte återspeglar några data även om .csv bearbetas för migrering. sample-csvs.zip fil innehåller sju .csv filer med liknande namngivningskonvention som ovan.</p></td>
+    <p>Ange nödvändiga elevdata i .csv-filen även om de inte är obligatoriska. Utan den här informationen kanske programmet Learning Manager inte återspeglar några data, även om .csv-filen bearbetas för migrering. Filen sample-csvs.zip innehåller sju .csv-filer med liknande namngivningsregler som ovan.</p></td>
   </tr>
   <tr>
    <td>
     <p>27</p></td>
    <td>
-    <p>user_skill.xlsx</p></td>
+    <p>user_skills.xlsx</p></td>
    <td>
     <p><br>
-      Metadata för user_skill.csv</p></td>
+      Metadata för user_skills.csv</p></td>
    <td>
     <p> </p></td>
   </tr>
  </tbody>
 </table>
 
-Learning Manager har endast stöd för datum- och tidsvärden i UTF 8- och 32-bitarsformat. Du kan få fel under migreringen om du nämner datum i CSV-filer med ett datum utanför intervallet som 2038-07-17T08:53:21.000Z eller 1980-04-17T08:13:25.322Z.
+Learning Manager stöder endast datum- och tidsvärden i UTF 8- och 32-bitarsformat. Du kan få fel under migreringen om du nämner datum i CSV-filer med ett ogiltigt datum som 2038-07-17T08:53:21.000Z eller 1980-04-17T08:13:25,322 Z
 
 * [sample-csvs.zip](assets/sample-csvs.zip)
-* [csv_specifications.zip](assets/csv-specifications.zip)
+* [csv_fications.zip](assets/csv-specifications.zip)
 
 Du måste vara medveten om följande beroenden av CSV-filer under importen:
 
@@ -401,8 +399,8 @@ Du måste vara medveten om följande beroenden av CSV-filer under importen:
 * session.csv är beroende av course.csv och module.csv
 * enrollment.csv är beroende av course.csv
 * user_course_grade.csv är beroende av course.csv och module.csv
-* skill_course.csv är beroende av course.csv
-* skill_level.csv är beroende av skill.csv
+* skills_course.csv är beroende av course.csv
+* skills_level.csv är beroende av skills.csv
 * learning_program_instance.csv är beroende av learning_program och learning_program_course.csv
 * learning_program_course.csv är beroende av learning_program.csv
 * learning_program_enrollment.csv är beroende av learning_program och learning_program_instance.csv
@@ -411,19 +409,17 @@ Du måste vara medveten om följande beroenden av CSV-filer under importen:
 * certification_commit.csv är beroende av certification.csv och certification_course.csv
 * certification_enrollment.csv är beroende av certification.csv, certification_course.csv och certification_enrollment.csv
 
+## Migreringsprocessen {#migrationprocedure}
 
+Innan du börjar med migreringsproceduren är det viktigt att tänka på följande:
 
-## Förfarande vid migrering {#migrationprocedure}
-
-Innan du börjar med migreringsproceduren är det viktigt att notera följande punkter:
-
-* Endast ett migreringsprojekt kan vara aktivt på ett konto vid en viss tidpunkt. I ett projekt kan endast en sprint vara aktiv vid en viss tidpunkt.
-* Du kan inte ångra en körning som redan är i migreringsprocessen. Du kan dock använda det befintliga borttagningsalternativet i varje funktion i Learning Manager för att ångra migrering av data eller innehåll.
-* Så snart migreringsprojektet startar flyttas det till tillståndet &quot;Under migrering&quot;. Under migreringen kan ingen annan roll än integrationsadministratörsrollen logga in på Learning Manager.
+* Endast ett migreringsprojekt kan vara aktivt på ett konto vid en viss tidpunkt. Inom ett projekt kan endast en sprint vara aktiv vid en given tidpunkt.
+* Du kan inte ångra en körning som redan pågår i migreringsprocessen. Du kan dock använda det befintliga borttagningsalternativet i varje funktion i Learning Manager för att ångra migrering av data eller innehåll.
+* Så snart migreringsprojektet inleds hamnar det i ett tillstånd av &quot;Under migration&quot;. Under migreringen kan ingen annan roll än integrationsadministratörsrollen logga in på Learning Manager.
 
 ### Skapa FTP- och Box-konton {#creatingftpandboxaccounts}
 
-Det är mycket viktigt att planera migreringsprojektet. Vi rekommenderar att du delar upp dina projekt i flera sprintar och tydligt identifierar vad du vill migrera i varje sprint. Det kan till och med vara en bra idé att göra en viss validering efter varje sprint för att känna sig säker på de data som migreras i den sprinten, i stället för en stor valideringsfas i slutet av projektet. Innan du startar sprinten som en del av migreringsprojektet måste du ladda upp CSV-filer för data och innehåll på FTP- respektive Box-servrar. Om du inte har konton för Custom FTP och Box kan du skapa dem.
+Det är mycket viktigt att du planerar ditt migreringsprojekt. Vi rekommenderar att du delar upp dina projekt i flera sprintar och tydligt anger vad du vill flytta i varje sprint. Det kan till och med vara en god idé att göra en viss validering efter varje sprint för att känna sig säker på de data som migreras i den sprinten, i stället för en stor valideringsfas i slutet av projektet. Innan du börjar skriva ut som en del av ditt migreringsprojekt måste du överföra data- och CSV-innehållsfiler i FTP- respektive Box-servrar. Om du inte har några konton för anpassad FTP och Box kan du skapa dem.
 
 <!--**Create FTP account**-->
 
@@ -435,156 +431,156 @@ A sample snapshot of project files and folder of FTP is shown below for your ref
 
 **Skapa Box-konto**
 
-Skapa en mapp för uppladdning av innehåll på ett liknande sätt som när du skapar FTP-mappen. Klicka på Migrering i den vänstra rutan och klicka på Begär en mapp för innehållsuppladdning längst ned på sidan som visas.
+Skapa en mapp för innehållsöverföring i en liknande process som följer för att skapa FTP-mappar. Klicka på Migrering i den vänstra rutan och klicka på Begär en mapp för överföring av innehåll längst ned på sidan som visas.
 
-Du skulle få ett e-postmeddelande från Box med en länk till den delade mappen. Om du inte har ett box-konto klickar du på Registrera dig och skapar ett konto. Inloggningsinstruktioner skickas till e-post-ID för integrationsadministratören.
+Du skulle få ett e-postmeddelande från Box med en länk till den delade mappen. Om du inte har ett Box-konto klickar du på Registrera dig och skapar ett konto. Inloggningsinstruktioner skickas till e-post-ID för integreringsadministratören.
 
-**Ladda upp data (.csv filer) till FTP-mappar eller Box-mappar**
+**Överför data (.csv-filer) till FTP- eller Box-mappar**
 
-Att skapa ett FTP- eller Box-konto är en förutsättning innan du skapar ett migreringsprojekt. Så i det här skedet kan du skapa ett migreringsprojekt och sprint i Learning Manager-applikationen.  Se avsnittet Migreringsprocedur **för** data och innehåll på den här sidan för att skapa ett migreringsprojekt.
+Du måste skapa ett FTP- eller Box-konto innan du skapar ett migreringsprojekt. Så i det här skedet kan du skapa ett migreringsprojekt och Sprint i Learning Manager-programmet.  Se **Förfarande för migrering av data och innehåll** på den här sidan om du vill skapa ett migreringsprojekt.
 
-I FTP- eller Box-kontot klickar du på projektmappens namn och sedan på sprintnamnet. I sprintmappen kan du ladda upp de .csv datafiler som du tänker migrera. För att ladda upp, klicka på Ladda upp filer knappen högst upp i FTP eller Box server och släpp de .csv filerna. Ett exempel på en ögonblicksbild efter uppladdning till FTP visas nedan som referens.
+I FTP- eller Box-kontot klickar du på namnet på projektmappen och sedan på namnet på utskriftsbilden. I mappen sprint kan du överföra de .csv-datafiler som du tänker migrera. Om du vill överföra klickar du på knappen Överför filer högst upp i FTP- eller Box-servern och släpper .csv-filerna. En exempelögonblicksbild efter överföring till FTP visas nedan som referens.
 
 <!--![](assets/exavault-upload.png)-->
 
-Du kan gå tillbaka till migreringsprojektet för Learning Manager, klicka på **[!UICONTROL Refresh]** och visa alla .csv datatyper som visas i din migreringssprint.
+Du kan komma tillbaka till migreringsprojektet för Learning Manager, klicka på **[!UICONTROL Refresh]** och visa alla .csv-datatyper som anges i migreringsprofilen.
 
-**Ladda upp utbildningsinnehåll till innehållsmappar**
+**Överföra utbildningsinnehåll till innehållsmappar**
 
-Ladda upp utbildningsinnehållet från ditt befintliga LMS till ditt Box-konto. Om du redan har skapat migreringsprojektet och sprinten fyller Box-kontot i migreringsprojektet och sprintnamnet. Du kan ladda upp innehållet i samma sökväg. Se avsnittet Migreringsprocedur **för** data och innehåll på den här sidan för att skapa ett migreringsprojekt.
+Överför utbildningsinnehållet för ditt befintliga LMS till ditt Box-konto. Om du redan har skapat migreringsprojektet och sprintar fylls migreringsprojektet och sprintnamnet i Box-kontot. Du kan överföra innehållet på samma sökväg. Se **Förfarande för migrering av data och innehåll** på den här sidan om du vill skapa ett migreringsprojekt.
 
-Du kan dra och släppa innehållsfilerna eller klicka och **[!UICONTROL Upload]** välja filerna från skrivbordet. Om filstorleken på ditt innehåll är enorm kan du uppleva en viss fördröjning när du laddar upp filerna. Beroende på filens storlek varierar den tid det tar att ladda upp filerna till ditt Box-konto.
+Du kan dra och släppa innehållsfilerna eller klicka på **[!UICONTROL Upload]** och välj filerna från skrivbordet. Om filstorleken för ditt innehåll är stor kan du uppleva en viss fördröjning vid överföring av filerna. Beroende på filens storlek varierar den tid det tar att överföra filerna till ditt Box-konto.
 
-Ett exempel på en ögonblicksbild av Box-kontot efter att du har laddat upp innehåll till det visas nedan som referens:
+En exempelögonblicksbild av Box-kontot efter att ha överfört innehåll till det visas nedan som referens:
 
 ![](assets/box-account.png)
 
 *Filer i Box-konto*
 
-När filerna har laddats upp till ditt Box-konto ser du till att du nämner den relativa sökvägen till den här Box-innehållsfilen i module_version.csv filen. Det här är ett obligatoriskt steg för att du ska kunna ange sökvägen till modulinnehållet.
+När filerna har överförts till ditt Box-konto ser du till att du nämner den relativa sökvägen för Boxs innehållsfil i module_version.csv -filen. Det här är ett obligatoriskt steg där du måste ange sökvägen till modulinnehållet.
 
-När du har loggat in på FTP- och Box-servrarna och laddat upp innehållet visas CSV-platserna som visas i ögonblicksbilden nedan i Learning Manager.
+När du har loggat in på FTP- och Box-servrarna och överfört innehållet, visas CSV-platserna som i ögonblicksbilden nedan i Learning Manager.
 
 ![](assets/after-setup.jpg)
 
 *CSV-platser i Box-konto*
 
-## Procedur för migrering av data och innehåll {#dataandcontentmigrationprocedure}
+## Förfarande för migrering av data och innehåll {#dataandcontentmigrationprocedure}
 
-Proceduren för att migrera företagets LMS-data och innehåll till Learning Manager förklaras på följande sätt:
+Proceduren för att migrera dina Enterprise LMS-data och -innehåll till Learning Manager beskrivs nedan:
 
-Gå igenom förutsättningarna för migreringsprocessen innan du börjar med migreringen. Se avsnittet CSV-specifikationer [och exempel på CSV:er](migration-manual.md#main-pars_header_140933605) på den här sidan och förbered CSV:erna för data- och innehållsmigrering.
+Gå igenom förutsättningarna för migreringsprocessen innan du börjar med migreringen. Se [CSV-specifikationer och CSV-exempelfiler](migration-manual.md#main-pars_header_140933605) på den här sidan och förbereda CSV-filerna för data- och innehållsmigrering.
 
-1. Logga in på Learning Manager-applikationen som integrationsadministratör och klicka på **[!UICONTROL Migration]** i den vänstra rutan.
+1. Logga in på Learning Manager-programmet som integrationsadministratör och klicka på **[!UICONTROL Migration]** i den vänstra rutan.
 
-   Startsidan för migreringsprojekt visas. Om din organisation redan har skapat migreringsprojekt kan du visa en lista över alla migreringsprojekt på den här sidan.
+   Startsidan för Migreringsprojekt visas. Om din organisation redan har skapat migreringsprojekt kan du visa listan över alla migreringsprojekt på den här sidan.
 
-1. Klicka på **[!UICONTROL New]** längst upp till höger på sidan för att skapa ett migreringsprojekt. Du kan också klicka **[!UICONTROL Create a migration project]** på länken på sidan för att skapa ett migreringsprojekt. Sidan Skapa ett migreringsprojekt visas.
+1. Klicka **[!UICONTROL New]** skapa ett migreringsprojekt i det övre högra hörnet på sidan. Du kan också klicka på **[!UICONTROL Create a migration project]** för att skapa ett migreringsprojekt. Sidan Skapa ett migreringsprojekt visas.
 
-   Om du inte redan har skapat en FTP-mapp kommer du att uppmanas att skapa en FTP-mapp på kontot. Det här är ett obligatoriskt steg innan du börjar skapa ett migreringsprojekt.
+   Om du inte redan har skapat en FTP-mapp kommer du att uppmanas att skapa en FTP-mapp i kontot. Det här är ett obligatoriskt steg innan du börjar skapa ett migreringsprojekt.
 
    ![](assets/create-project.png)
    *Skapa FTP-mapp*
 
-   Ange projektnamn, projekttagg, kurskatalog och beskrivning för migreringsprojektet. Klicka på **[!UICONTROL Create]**.
+   Ange projektnamnet, projekttaggen, kurskatalogen och beskrivningen för ditt migreringsprojekt. Klicka på **[!UICONTROL Create]**.
 
-   Dina migreringsdataobjekt identifieras med hjälp av den här taggen för migreringsprojekt. Om du inte har någon specifik kurskatalog väljer du standardkatalogen i rullgardinsmenyn. Alla kurser som du migrerar med hjälp av ett migreringsprojekt kommer att ingå i katalogen som du väljer i det här skedet. Om du inte väljer någon katalog kommer alla migrerade kurser att vara en del av standardkatalogen.
+   Migreringsdataobjekten identifieras med den här migreringsprojekttaggen. Om du inte har någon specifik kurskatalog väljer du standardkatalogen i listrutan. Alla kurser som du migrerar med ett migreringsprojekt inkluderas i katalogen som du väljer i det här skedet. Om du inte väljer någon katalog kommer alla migrerade kurser att bli en del av standardkatalogen.
 
-1. Konfigurationssidan för sprint visas som du ser i följande ögonblicksbild. Du måste skapa en sprint som en del av migreringsprojektet. Välj Sprintnamn och ge en kort beskrivning av sprinten. Du kan välja Ja om du vill migrera innehåll som en del av den här sprinten. Klicka på **[!UICONTROL Next]**.
+1. Sidan Konfiguration av utskrift visas som i följande ögonblicksbild. Du måste skapa ett språng som en del av migreringsprojektet. Välj Sprintnamn och en kort beskrivning av sprinten. Du kan välja Ja om du vill migrera innehåll som en del av det här steget. Klicka på **[!UICONTROL Next]**.
 
    ![](assets/users-modified-sprint.png)
-   *Migrering av sprint*
+   *Sprintmigrering*
 
-   Markera kryssrutan med rubriken **Användare har lagts till eller ändrats sedan den senaste körningen** för att synkronisera listan över användare med Learning Manager-programmet. Om du migrerar innehåll och data till Learning Manager-programmet kanske detta inte krävs. Men om det finns en tidsfördröjning mellan din tidigare sprintmigrering till den senaste sprintmigreringen är det bästa sättet att du väljer att synkronisera listan över användare. Det här steget gör att Learning Manager-databasen kan synkroniseras med dina LMS-användare.
+   Markera kryssrutan med titeln **Användare har lagts till eller ändrats sedan den senaste körningen**, för att synkronisera listan över användare med Learning Manager-programmet. Om du migrerar innehåll och data till Learning Manager-appen kanske detta inte krävs. Men om det finns ett tidsintervall mellan din tidigare spurtmigrering till den senaste spurtmigreringen är det bästa praxis att du väljer att synkronisera användarlistan. Det här steget gör att Learning Manager-databasen kan synkroniseras med dina LMS-användare.
 
-   Det här synkroniseringssteget rekommenderas när enrollment.csv och user_course_grade.csv migreras. Det här steget gör det möjligt för Learning Manager-databasen att vara synkroniserad med din migreringsdatabas och säkerställer att alla användare vars poster som ska migreras i Sprint är tillgängliga i Migreringsdatabasen.
+   Det här synkroniseringssteget rekommenderas när enrollment.csv och user_course_grade.csv migreras. Det här steget gör att Learning Manager-databasen kan synkroniseras med din migreringsdatabas och säkerställer att alla användare vars poster ska migreras i Sprint är tillgängliga i migreringsdatabasen.
 
-1. Du kan starta Sprint-migreringen med dina uppladdade data och innehåll. Klicka på **[!UICONTROL Refresh]** länken innan du startar sprintkörningen för att synkronisera FTP- och innehållsmapparna med Learning Manager-applikationen.
+1. Du kan starta Sprintmigreringen med dina överförda data och ditt innehåll. Klicka **[!UICONTROL Refresh]** länk innan du startar Sprint Run för att synka FTP- och innehållsmappar med Learning Manager-programmet.
 
    ![](assets/sprint1-filesupload.png)
-   *Starta sprintmigrering*
+   *Starta migrering av sprint*
 
-   Klicka på **[!UICONTROL Start]** längst upp till höger på sidan. Du kan klicka **[!UICONTROL Stop]** när som helst under sprintmigreringsprocessen för att avbryta sprintmigreringen.
+   Klicka **[!UICONTROL Start]** längst upp till höger på sidan. Du kan klicka **[!UICONTROL Stop]** när som helst under Sprint-migreringsprocessen för att avbryta sprint-migreringen.
 
-   Migreringsstatus visas för vart och ett av sprintdataobjekten och innehållet. Kontrollera antalet lyckade och misslyckade objekt som en del av migreringssprintkörningen.
+   Migreringsstatusen visas för alla utskriftsdataobjekt och -innehåll. Kontrollera antalet lyckade och misslyckade objekt som en del av migreringspurten.
 
-   Om du laddar upp modulinnehåll kontrollerar du att sökvägen till innehållsmappen anges i module_version.csv. Om du missar det här steget kan du stöta på fel under migreringen. Om du till exempel laddar upp innehåll i en modul i egen takt, till exempel videor, måste du ange en relativ Box URL-sökväg i module_version.csv. För Aktivitetsmodulinnehåll kan du ange URL-namnet.
+   Om du överför modulinnehåll kontrollerar du att sökvägen till innehållsmappen finns i module_version.csv. Om du missar det här steget kan du stöta på fel under migreringen. Om du till exempel överför innehåll i moduler, som videor, i egen takt måste du ange en relativ sökväg till Box-URL i module_version.csv. För innehåll i modulen Aktivitet kan du ange URL-namnet.
 
-   Ett exempel på en ögonblicksbild av förloppsdialogrutan finns nedan som referens. Som du ser i ögonblicksbilden kan du visa antalet poster som bearbetas för varje migreringsdataobjekt tillsammans med status för lyckade och misslyckade objekt. Klicka på Ladda ned felposter mot de misslyckade objekten för att ladda ned och visa felloggarna. Du kan åtgärda problemen i CSV och ladda upp igen i FTP.
+   En ögonblicksbild av förloppsdialogrutan visas nedan som referens. Som visas i ögonblicksbilden kan du visa antalet poster som har bearbetats för varje migreringsdataobjekt tillsammans med status för slutförda och misslyckade objekt. Klicka på Hämta felloggar vid de misslyckade objekten för att hämta och visa felloggarna. Du kan åtgärda problemen i CSV-filen och överföra dem igen via FTP.
 
    ![](assets/sample-sprint-progress-status.png)
-   *Visa sprintförlopp*
+   *Visa utskriftsförlopp*
 
-   Klicka på Sprintlista i den vänstra rutan om du vill visa en lista över alla sprintar i ett migreringsprojekt. Du kan visa en lista över alla sprintar, antalet körningar som du har kört för varje sprint, startdatum, varaktighet och slutförandestatus enligt exempelbilden nedan.
+   Klicka på Sprint list i den vänstra rutan om du vill visa listan över alla sprintar i ett migreringsprojekt. Du kan se en lista över alla sprintar, antalet sprintar du utförde för varje sprint, startdatum, varaktighet och slutförandestatus enligt exemplet nedan.
 
    ![](assets/sprint-list.png)
-   *Visa lista över sprintar*
+   *Visa lista med utskrifter*
 
-1. När du har laddat upp de senast uppdaterade CSV:erna kan du klicka på Kör igen i det övre högra hörnet på sidan. Kör om bearbetar alla dataobjekt en gång till och ignorerar de objekt som inte har några ändringar. När du är nöjd med migreringen av dataobjekt i en sprint kan du markera vårmigreringen som slutförd genom att klicka på knappen högst upp på sidan. Du kan starta en ny sprint med fler dataobjekt senare. När en sprint har markerats som slutförd kan du inte köra den igen. På samma sätt kan du ha valfritt antal sprintar i ett migreringsprojekt. När du är nöjd med migreringsstatusen för alla sprintar kan du markera migreringsprojektet som slutfört genom att klicka på **länken Markera projekt som slutfört** på sidan Sprintlista.
+1. När du har överfört de senast uppdaterade CSV-filerna kan du klicka på Kör igen längst upp till höger på sidan. Alla dataobjekt bearbetas igen och de objekt som inte har ändrats ignoreras. När du är nöjd med migreringen av dataobjekt i en sprint kan du markera vårmigreringen som slutförd genom att klicka på knappen högst upp på sidan. Du kan starta en ny spurt med fler dataobjekt senare. När en utskrift har markerats som slutförd kan du inte köra den igen. På samma sätt kan du i ett migreringsprojekt ha valfritt antal sprintar. När du är nöjd med migreringsstatusen för alla sprintar kan du markera migreringsprojektet som slutfört genom att klicka på **Markera projekt som slutfört** på sidan Sprint List.
 
-   Innan du markerar migreringsprojektet som slutfört måste du se till att alla sprintar i projektet är klara. När du har markerat migreringsprojektet som slutfört kan du inte gå tillbaka och skapa några sprintar i projektet eller göra några ändringar i projektet. Du måste skapa ett annat migreringsprojekt och lägga till sprintar i det.
+   Innan du markerar migreringsprojektet som slutfört måste du se till att alla sprintar i projektet är slutförda. När du har markerat migreringsprojektet som slutfört kan du inte gå tillbaka och skapa sprintar i det projektet eller göra ändringar i det. Du måste skapa ett annat migreringsprojekt och lägga till sprints.
 
-## Verifiering av migrering {#registration}
+## Migreringsverifiering {#registration}
 
-När du har migrerat utbildningsdata och innehåll från organisationens äldre LMS kan du verifiera importerade data och innehåll med hjälp av olika funktioner för utbildningsobjekt. Du kan till exempel logga in på Learning Manager-applikationen som administratör och verifiera tillgängligheten för importerade moduler och kursdata och innehåll.
+När du har migrerat utbildningsdata och -innehåll från organisationens äldre LMS kan du verifiera importerade data och innehåll med hjälp av olika funktioner i utbildningsobjekt. Du kan till exempel logga in som administratör på Learning Manager-programmet och kontrollera tillgängligheten för importerade moduler och kursdata och -innehåll.
 
-## Eftermontering vid migrering {#retrofittinginmigration}
+## Eftermontering i migrering {#retrofittinginmigration}
 
-Med den här integreringsfunktionen kan du anpassa historiska data för ett lärobjekt i efterhand från en äldre lärplattform till en aktiv kurs som har skapats i Learning Manager.
+Med den här integreringsfunktionen kan du anpassa historiska data för ett utbildningsobjekt från ett äldre system för hantering av inlärning till en aktiv kurs som skapas i Learning Manager.
 
-Nedan hittar du de standardspecifikationer för CSV som du kan använda för att mappa med dina befintliga LMS-migreringsdata. Klicka på csv-specifications och sample-csvs för att ladda ned zip-filer. Den nedladdade csv-specifications.zip innehåller fyra Excel-arkfiler. Dessa excel-arkfiler är specifikationer med beskrivningar för att du ska förstå hur du fyller i de .csv filerna. Motsvarande .csv filer ska innehålla data för varje fält i det föreskrivna formatet enligt beskrivningen i dessa .xlsx filer.
+Nedan hittar du specifikationerna för CSV-standardfiler som du kan använda för att mappa med befintliga LMS-migreringsdata. Klicka på csv-specifikationer och exempel-csv:er för att hämta zip-filer. Den hämtade csv-fications.zip innehåller fyra Excel-arkfiler. De här Excel-arkfilerna är specifikationer med beskrivningar som hjälper dig att förstå hur du fyller upp .csv-filerna. Motsvarande .csv-filer ska innehålla data för varje fält i det föreskrivna format som förklaras i dessa .xlsx-filer.
 
-1-enrollment.xlsx innehåller beskrivningar av metadata som krävs för retrofit_enrollment.csv fil.
+1-enrollment.xlsx-innehåller beskrivningar av metadata som krävs för retrofit_enrollment.csv-filen.
 
-2-certification_enrollment.xlsx innehåller beskrivningar av metadata som krävs för retrofit_certification_enrollment.csv fil.
+2-certification_enrollment.xlsx-innehåller beskrivningar av metadata som krävs för retrofit_certification_enrollment.csv-filen.
 
-3-learning_program_enrollment.xlsx innehåller beskrivningar av metadata som krävs för retrofit_learning_program_enrollment.csv fil.
+3-learning_program_enrollment.xlsx-innehåller beskrivningar av metadata som krävs för filen retrofit_learning_program_enrollment.csv.
 
-4-user_course_grades.xlsx innehåller beskrivningar av metadata som krävs för retrofit_user_course_grades.csv fil.
-[csv-specifications.zip](assets/csv-specifications.zip)
+4-user_course_grades.xlsx-innehåller beskrivningar av metadata som krävs för retrofit_user_course_grades.csv-filen.
+[csv-fications.zip](assets/csv-specifications.zip)
 
 >[!NOTE]
 >
->UUID (Universally Unique Id) är också en kolumn i migrerings-csv-filen.
+>UUID (Universally Unique Id) är också en kolumn i CSV-filen för migrering.
 
 
 ## Felsöka migreringsproblem {#troubleshootingmigrationissues}
 
-[Klicka här](../../kb/troubleshooting-migration.md) för att lära dig mer om lösningen/lösningen på de problem som integrationsadministratörer står inför när de migrerar data och innehåll från sitt befintliga LMS till Learning Manager-applikationen.
+[Klicka här](../../kb/troubleshooting-migration.md) för att lära dig mer om hur du löser de problem som integrationsadministratörer möter när de migrerar data och innehåll från sina befintliga LMS till Learning Manager-programmet.
 
 ## Tips för användarhantering {#usermanagement}
 
-I det här avsnittet hittar du några av tipsen för att förstå hur användare betraktas och hanteras i Learning Manager. Dessa koncept skulle hjälpa dig att hantera användarna bättre när du använder CSV-import, anslutningsprogram och migreringsfunktioner i Learning Manager.
+I det här avsnittet hittar du några av tipsen som hjälper dig att förstå hur användare beaktas och hanteras i Learning Manager. Dessa koncept skulle hjälpa dig att hantera användarna bättre när du använder CSV-import, kopplingar och migreringsfunktioner i Learning Manager.
 
-## ID:n för utbildningschef {#captivateprimeids}
+## ID för Learning Manager {#captivateprimeids}
 
-Learning Manager tillhandahåller två typer av unika ID:n för användare:
+I Learning Manager finns två typer av unika ID:n för användare:
 
-* E-post-ID
-* UUID (universellt unikt id)
+* Mejl-ID
+* UUID (universellt unikt ID)
 
-Learning Manager stöder UUID för att ge organisationer flexibilitet när det gäller att kontrollera användarkonton. Om du som administratör har UUID för användare i ett konto kan du ändra e-post-ID:n för användare för det kontot.
+Learning Manager har stöd för UUID för att ge organisationer flexibilitet när det gäller att kontrollera användarkonton. Om du som administratör har ett UUID för användare på ett konto kan du ändra e-postadresserna för användarna för det kontot.
 
 **Användningsscenario för UUID i en organisation**
 
-Tänk dig ett scenario där en anställd A ansluter sig till ett företag som heter Learning Manager som entreprenör. Under avtalsperioden får Learning Manager-företaget inte tillhandahålla företagets e-post-ID som```A@example.com```, istället kan företaget endast överväga den anställdes personliga e-postkonto, säg. ```A@gmail.com``` Efter att ha fullgjort 6 månaders kontraktsperiod, om samma anställd A går med i Learning Manager som heltidsanställd, kanske Learning Manager vill ändra sitt e-post-ID till sitt företags e-post-ID: ```A@example.com```.
+Tänk dig ett scenario där en anställd A går med i ett företag som heter Learning Manager, som uppdragstagare. Under avtalsperioden kan Learning Manager-företaget inte tillhandahålla företagets e-post-ID som ```A@example.com```kan företaget i stället endast överväga den anställdes personliga e-postkonto, till exempel ```A@gmail.com```. Efter att ha slutfört sex månaders avtalstid kan Learning Manager vilja ändra sitt e-post-id till företagets e-post-id om samma anställd A går med i Learning Manager som heltidsanställd: ```A@example.com```.
 
-Att ha UUID-åtkomst till användarkontot kommer att gynna företagets Learning Manager i ovan nämnda scenario. Learning Manager-företaget kan enkelt ersätta det personliga e-post-ID:t för anställd A med ett officiellt e-post-ID. Den anställdes poster som är relevanta för det här kontot påverkas inte av den här ändringen.
+Om du har UUID-åtkomst till användarkontot kan företaget Learning Manager dra nytta av ovanstående scenario. Learning Manager-företaget kan enkelt ersätta den personliga e-post-id för medarbetare A med ett officiellt e-post-id. Medarbetarens poster som är relevanta för det här kontot påverkas inte av den här ändringen.
 
-## Identifiering av en användare {#singleuseridentification}
+## Identifiering av en enskild användare {#singleuseridentification}
 
-Learning Manager identifierar och kommer ihåg hur en enskild användare läggs till i den, till exempel med hjälp av självregistrering, med hjälp av CSV-uppladdning eller en enskild användare som läggs till med hjälp av användargränssnittet eller med hjälp av API.
+Learning Manager identifierar och kommer ihåg hur en enskild användare läggs till i den, t.ex. genom självregistrering, med CSV-uppladdning, eller en enskild användare som lagts till med hjälp av användargränssnittet eller med API.
 
-* Om en enskild användare läggs till med hjälp av användargränssnittet (UI) eller via API:et kan du ta bort en sådan typ av enskilda användare med hjälp av användargränssnittet eller via API.
-* Du kan uppdatera enskilda användare med hjälp av CSV-uppladdningsprocessen, men du måste komma ihåg att dessa enskilda användare behandlas som CSV-användare och att CSV-arbetsflödena gäller för sådana användare.
+* Om en enskild användare läggs till med hjälp av användargränssnittet eller API:et kan du ta bort en sådan typ av enskilda användare med hjälp av användargränssnittet eller API:et.
+* Du kan uppdatera enskilda användare med CSV-uppladdningsprocessen, men du måste komma ihåg att dessa enskilda användare behandlas som CSV-användare och att CSV-arbetsflödena gäller sådana användare.
 
-## Tilldela rollen Chef {#assigningmanagerrole}
+## Tilldela chefsroll {#assigningmanagerrole}
 
-Du kan inte tilldela en chefsroll direkt till någon användare i Learning Manager. En användare X kan bara bli Learning Manager Manager när du anger ett Manager-attribut för en användare (t.ex. Y) i det kontot som X.
+Du kan inte tilldela en chefsroll direkt till någon användare i Learning Manager. En användare X kan bara bli en Learning Manager-hanterare när du anger ett Manager-attribut för en användare (till exempel Y) i kontot som X.
 
-I ett scenario där X är chef för användare, till exempel A, B och C, om X lämnar organisationen måste du se till att attributet Chef för A, B och C är inställt på den nya chefen. Alternativt kan du också ange attributet Manager för dessa användare som ROOT tillfälligt och tilldela med det nya Manager-namnet senare.
+I ett scenario där X är chef för användare, till exempel A, B och C, måste du se till att chefsattributet för A, B och C är inställt på den nya chefen om X lämnar organisationen. Du kan också ställa in chefsattributet för dessa användare som ROOT tillfälligt och tilldela med det nya chefsnamnet senare.
 
 Mer information om det här avsnittet finns i följande hjälpinnehåll:
 
-* [Vanliga frågor och svar om att ladda upp CSV-filer](/help/migrated/administrators/add-users-in-bulk.md)
-* [Funktionshjälp om hur du lägger till användare](/help/migrated/administrators/feature-summary/add-users-user-groups.md)
+* [Vanliga frågor om överföring av CSV-filer](/help/migrated/administrators/add-users-in-bulk.md)
+* [Funktionshjälp för att lägga till användare](/help/migrated/administrators/feature-summary/add-users-user-groups.md)

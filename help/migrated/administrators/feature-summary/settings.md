@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Inställningar
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: fbab332b92dd6d017c2517d7df09a4c37ce3f6bf
+source-git-commit: c62701848790d39a16826b11919f69c48a96e38a
 workflow-type: tm+mt
-source-wordcount: '3932'
+source-wordcount: '3793'
 ht-degree: 1%
 
 ---
@@ -483,24 +483,6 @@ Blandat\
 Klassrum\
 Virtuellt klassrum\
 Aktivitet
-
-Följ de här stegen om du vill byta namn på terminologin.
-
-1. Som administratör klickar du på **[!UICONTROL Settings]** > **[!UICONTROL General]** > **[!UICONTROL Product Terminology]**. Alternativet för produktterminologi öppnas.
-
-   ![](assets/product-terminology.png)
-
-   *Byt namn på produktterminologi*
-
-1. Ändringar kan göras genom att ladda upp en modifierad produktterminologimall genom att hämta CSV-exempelfilen. Om du vill hämta CSV-exempelfilen klickar du på **[!UICONTROL Download here]** alternativ.
-1. Den hämtade CSV-filen innehåller namnet på objekten i kolumn A. I kolumn B väljer du det namn som du vill ge objektet. Observera att du måste uppdatera singular- och pluralformen av namnet avgränsat med en (|).
-1. Du kan välja att ändra en eller flera rader. Du kan antingen behålla de oförändrade raderna eller ta bort dem från CSV-filen innan du överför dem.
-1. Överför den ändrade CSV-filen och klicka på **[!UICONTROL Save]**. Learning Manager uppdateras och återspeglar dina ändringar.
-1. Om du vill återställa till standardterminologier klickar du på **[!UICONTROL Reset Product Terminology]**.
-
-   ![](assets/with-reset-option.png)
-
-   *Återställ produktterminologierna*
 
 ## Profilinställningar {#profilesettings}
 

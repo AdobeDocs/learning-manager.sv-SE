@@ -4,9 +4,9 @@ title: Hantera anpassade roller via CSV-filer
 description: Integreringsadministratören kan lägga till flera anpassade roller till sitt konto i grupp via CSV och tilldela olika användare samma roller. Detta tillvägagångssätt automatiserar processen för att skapa anpassade roller.
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: 5f2b5fb60856b77b53edaea014639087eb1a8fcf
+source-git-commit: f328076016d8c41455cad71f00d1dc9a1531e007
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '897'
 ht-degree: 1%
 
 ---
@@ -19,14 +19,16 @@ Du kan konfigurera roller via FTP- och Box-anslutningarna för Learning Manager.
 
 När du har loggat in på ditt Box-lagringskonto kan integreringsadministratören lägga till följande CSV-filer i kontot:
 
+* user.csv
 * role.csv
 * user_role.csv
 
 Kom igång genom att hämta CSV-filerna och ändra värdena enligt dina krav.
 
-**role.csv**
 * Exempelfil: [role.csv](assets/role.csv)
 * Exempelfil: [user_role.csv](assets/user_role.csv)
+
+**role.csv**
 
 <table>
  <tbody>
@@ -147,10 +149,10 @@ Om några katalognamn eller användargruppsnamn anges i CSV-filen åsidosätts d
 
 I ditt Box-konto väljer du **Importera > Användare > internt** och ladda upp filerna role.csv och user_role.csv.
 
-* CSV-filerna för anpassade roller måste kopieras i mappen &quot;import->user->internal->user_role&quot;
-* CSV-filen för användare måste kopieras i mappen &quot;import->user->internal&quot;
+* Role.csv och user_role.csv måste kopieras till mappen **Importera** > **användare** > **intern** > **user_role**.
+* user.csv måste kopieras i mappen **Importera** > **användare** > **intern**.
 
-Båda CSV-filerna måste endast överföras via Box eller FTP och kan inte överföras via användargränssnittet.
+Båda CSV-filerna måste endast överföras via Box och kan inte överföras via användargränssnittet.
 
 >[!NOTE]
 >
