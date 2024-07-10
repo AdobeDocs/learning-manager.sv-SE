@@ -1,11 +1,11 @@
 ---
-description: Läs den här artikeln när du vill veta hur du ställer in terminologier på användargränssnittet.
+description: Adobe Learning Manager använder en standarduppsättning av terminologier i användargränssnittet. Administratörer kan ändra terminologin så att den passar organisationens behov.
 jcr-language: en_us
 title: Produktterminologi
 contentowner: chandrum
-source-git-commit: c62701848790d39a16826b11919f69c48a96e38a
+source-git-commit: b48e97151c95c55db72f91a2b187189c786d43ae
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,5 @@ Terminologierna återställs till sina ursprungliga namn.
 Terminologiändringarna gäller inte för
 
 * E-postmallar (**[!UICONTROL Admin]** > **[!UICONTROL Email Templates]**)
-
 * Rapporter (**[!UICONTROL Admin]** > **[!UICONTROL Reports]**)
 
