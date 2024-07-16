@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Inställningar
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: c62701848790d39a16826b11919f69c48a96e38a
+source-git-commit: a0dcc5b0a0a9f1ef0248c1e853067c1cc57b60e1
 workflow-type: tm+mt
-source-wordcount: '3793'
+source-wordcount: '3552'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,9 @@ ht-degree: 1%
 
 Lär dig mer om kontoinställningarna för Learning Manager som du kan konfigurera som administratör.
 
-Du kan ändra dina profilinställningar för administratörer och uppdatera dina kontoinställningar. Visa din profilinformation, lägg till/ändra ett profilfoto och ändra **[!UICONTROL About me]** innehåll. Uppdatera företagsinformationen, konfigurera inloggningsmetoder för användare och konfigurera anslutningsintegrering via kontoinställningar.
+Du kan ändra dina profilinställningar för administratörer och uppdatera dina kontoinställningar. Visa din profilinformation, lägg till/ändra profilfoto och ändra **[!UICONTROL About me]**-innehåll. Uppdatera företagsinformationen, konfigurera inloggningsmetoder för användare och konfigurera anslutningsintegrering via kontoinställningar.
+
+![](assets/settings-admin.png)
 
 ## Konfigurera ditt Adobe Learning Manager
 
@@ -24,26 +26,26 @@ Den här utbildningen beskriver grunderna i inställningar på kontonivå.
 [![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)
 
 
-Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
+Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
 
 ## Kontoinställningar {#accountsettings}
 
-Om du vill uppdatera organisationens kontoinställningar klickar du på **[!UICONTROL Settings]** i den vänstra rutan.
+Klicka på **[!UICONTROL Settings]** i den vänstra rutan om du vill uppdatera organisationens kontoinställningar.
 
 **Grundläggande information (företagsinformation)**
 
-Klicka **[!UICONTROL Change]** på sidan och redigera inställningar för land, tidszon, språk och räkenskapsår.
+Klicka på **[!UICONTROL Change]** på sidan och redigera inställningar för land, tidszon, språkinställning och räkenskapsår.
 
-**Konfigurera kontaktadministratör**
+**Konfigurera kontaktadministratören**
 
-Om du vill lägga till eller ändra supportadministratörernas e-postadresser för din organisation kan du konfigurera genom att klicka på **[!UICONTROL General]** i den vänstra rutan. Klicka **[!UICONTROL Change]** i närheten av **[!UICONTROL Support Email ID]** och lägg till e-postadresserna. E-postmeddelande skickas till dessa administratörer när eleven klickar **[!UICONTROL Contact Admin]** längst ned på sidan.
+Om du vill lägga till eller ändra supportadministratörernas e-postadresser för din organisation kan du konfigurera genom att klicka **[!UICONTROL General]** i den vänstra rutan. Klicka på **[!UICONTROL Change]** bredvid **[!UICONTROL Support Email ID]** och lägg till e-postadresserna. Ett e-postmeddelande skickas till de här administratörerna när eleven klickar på **[!UICONTROL Contact Admin]** i sidfoten.
 
 Lägg till ytterligare e-postadresser med semikolon som avgränsare.
 
-**Inloggningsmetoder** - Administratörer kan välja läge som interna eller externa användare kan använda för att få åtkomst till kontot.
+**Inloggningsmetoder** - Administratörer kan välja i vilket läge interna eller externa användare kan komma åt kontot.
 
-* **Interna användare:** För interna användare kan du ställa in Adobe ID eller enkel inloggning som inloggningsläge.
-* **Externa användare:** För externa användare kan du ange Adobe ID eller Single Sign-On eller Learning Manager-ID.
+* **Interna användare:** Du kan ange Adobe ID eller enkel inloggning som inloggningsläge för interna användare.
+* **Externa användare:** Du kan ange Adobe ID eller Single Sign-On eller Learning Manager-ID för externa användare.
 
 Om du väljer, Learning Manager ID, kan externa användare logga in på detta konto efter att ha skapat sitt användarnamn och lösenord för Learning Manager.
 
@@ -55,7 +57,7 @@ Du kan komma åt Learning Manager-programmet med Adobe ID eller genom att använ
 
 **Feedback**
 
-Klicka **[!UICONTROL Feedback]** i den vänstra rutan för att ställa in frågeformuläret för att få feedback från elever efter att ha slutfört en kurs. Se [hjälpinnehåll för kurser](courses.md) om att skapa feedback om L1 och L3.
+Klicka på **[!UICONTROL Feedback]** i den vänstra rutan för att ställa in frågeformuläret och få feedback från elever efter att ha slutfört en kurs. Se [Hjälpinnehåll för kursfunktioner](/help/migrated/administrators/feature-summary/courses.md#add-l1-and-l3-feedback) om hur du skapar feedback om L1 och L3.
 
 **Flera försök**
 
@@ -69,7 +71,7 @@ Om du markerar kryssrutan Flera försök kan skaparna ange Flera försök för i
 
 **Kursmoderering**
 
-Klicka **[!UICONTROL General]** i den vänstra rutan och välj alternativet Kursmoderering för att aktivera funktionen Kursmoderering. Mer information om den här funktionen finns i [Kursmoderering](courses.md#main-pars_header_1879001177).
+Klicka på **[!UICONTROL General]** i den vänstra rutan och välj alternativet Kursmoderering för att aktivera funktionen Kursmoderering. Mer information om funktionen finns i [Kursmoderering](courses.md#main-pars_header_1879001177).
 
 **Diskussionstavla**
 
@@ -81,7 +83,7 @@ Klicka på instrumentpanelen i den vänstra rutan. På den här sidan kan du vä
 
 **Adobe Connect**
 
-Klicka **[!UICONTROL Adobe Connect]** i den vänstra rutan för att konfigurera Adobe Connect-kontot som värd för virtuella klassrumssessioner. Mer information finns i  [Adobe Connect](adobeconnect-integration.md) hjälp med funktioner.
+Klicka på **[!UICONTROL Adobe Connect]** i den vänstra rutan för att konfigurera Adobe Connect-kontot som värd för virtuella klassrumssessioner. Mer information finns i [Funktionshjälp för Adobe Connect](adobeconnect-integration.md).
 
 ## Allmänna inställningar {#general}
 
@@ -139,7 +141,7 @@ Aktivera eller inaktivera följande inställningar:
      <li>Taggar</li>
     </ul>
     <p>När eleven startar elevappen kan eleven i avsnitten Min utbildning och Katalog se filtren i sina respektive paneler.</p>
-    <p><b>Obs! </b>Filtren <b>Format </b>och <b>Varaktighet </b>är avstängda som standard och visas inte för eleverna direkt efter releasen. Administratören bör aktivera dem. <br></p></td>
+    <p><b>Obs! </b>Filtren <b>Format </b>och <b>Varaktighet </b> är avstängda som standard och visas inte för eleverna direkt efter releasen. Administratören bör aktivera dem. <br></p></td>
   </tr>
   <tr>
    <td>Visa kataloglista</td>
@@ -159,7 +161,7 @@ Aktivera eller inaktivera följande inställningar:
   </tr>
   <tr>
    <td><a id="autodelete"></a>Ta bort interna användare automatiskt</td>
-   <td>Om det här alternativet är aktiverat raderas interna användare automatiskt om de inte har tillgång till systemet på ett visst antal dagar. Den här funktionen är tillämplig på användare som bara har rollen <b>Elev</b>. Användarna måste kontakta administratören för att återställa åtkomsten.<br></td>
+   <td>Om det här alternativet är aktiverat raderas interna användare automatiskt om de inte har tillgång till systemet på ett visst antal dagar. Den här funktionen gäller användare som bara har rollen <b>Elev</b>. Användarna måste kontakta administratören för att återställa åtkomsten.<br></td>
   </tr>
   <tr>
    <td>Visa katalogetiketter</td>
@@ -174,18 +176,18 @@ Aktivera eller inaktivera följande inställningar:
    <td>
     <p>En administratör kan aktivera eller inaktivera att skicka ett e-postmeddelande till elever. Administratören kan också styra frekvensen för de e-postmeddelanden som skickas.</p>
     <ul>
-     <li>För <b>aktiva konton</b>, sammanfattningsmeddelanden inaktiveras som standard, vilket administratören kan aktivera manuellt.</li>
-     <li>För <b>testversionskonton</b>, alternativet för sammanfattningsmeddelanden förblir inaktiverat och administratören kan inte aktivera det.</li>
+     <li>För <b>aktiva konton</b> inaktiveras sammanfattningsmeddelanden som standard, vilket administratören kan aktivera manuellt.</li>
+     <li>För <b>testkonton</b> förblir alternativet för sammanfattningsmeddelanden inaktiverat och administratören kan inte aktivera alternativet.</li>
     </ul>
     <p>Om funktionen är avaktiverad gäller följande:</p>
     <ul>
-     <li>Alternativet <b>Sammandragsmeddelande</b> inaktiveras.</li>
+     <li>Alternativet <b>Sammandrag av e-post</b> inaktiveras.</li>
      <li>En elev kan inte se användarinställningen för e-postsammandragsprenumeration.</li>
     </ul>
     <p> Om funktionen är aktiverad gäller följande:</p>
     <ul>
      <li>Administratören kan aktivera och ändra alternativet för e-postsammanfattning.</li>
-     <li>Från <b>Profilinställningar </b>på elevappen kan en elev (som inte finns på DND-listan) välja att prenumerera/avbryta prenumerationen på sammanfattningsmeddelandet.</li>
+     <li>Från <b>Profilinställningarna </b> i elevappen kan en elev (inte i DND-listan) välja att prenumerera/avbryta prenumerationen på sammanfattningsmeddelandet.</li>
     </ul></td>
   </tr>
   <tr>
@@ -198,14 +200,14 @@ Aktivera eller inaktivera följande inställningar:
     <p>Lägg till länkar eller e-postadresser som visas som sidfötter. Du kan lägga till högst tre sidfotslänkar.</p>
     <p>Så här anpassar du länkarna i sidfoten:</p>
     <ol>
-     <li>Klicka <b>Lägg till mer</b>, anger du namn och URL-adress eller e-post-ID i de angivna fälten. Ange http:// eller https:// som prefix för URL:en.</li>
-     <li>Om du vill låta ändringen överlappa alla språk klickar du på <b>Replikering</b>. Detta säkerställer att alla språk får namnet och URL-adressen.</li>
-     <li>Klicka på för att spara ändringarna <b>Spara</b>. Du kan se ett popup-meddelande som bekräftar ändringen. När du har klickat på OK fylls sidfoten i med de nya länkarna.</li>
+     <li>Klicka på <b>Lägg till fler</b>, ange namn och URL eller e-post-ID i de angivna fälten. Ange http:// eller https:// som prefix för URL:en.</li>
+     <li>Klicka på <b>Replikera</b> om du vill låta ändringen överlappa alla språk. Detta säkerställer att alla språk får namnet och URL-adressen.</li>
+     <li>Klicka på <b>Spara</b> för att spara ändringarna. Du kan se ett popup-meddelande som bekräftar ändringen. När du har klickat på OK fylls sidfoten i med de nya länkarna.</li>
     </ol>
     <p>Dessutom kan du:</p>
     <ul>
-     <li>Klicka på <b>Återställ</b> för att återställa standardvärdena i <b>Hjälp</b> och <b>Kontakta administratören</b> fält.</li>
-     <li>Anpassa länken i sidfoten för alla språk. Klicka på <b>Språk</b> Välj språk och lägg till <b>Namn</b> och <b>URL</b> i angivna fält. När du har sparat ändringarna visas de uppdaterade länkarna i sidfoten.<br></li>
+     <li>Klicka på ikonen <b>Återställ</b> om du vill återställa standardvärdena i fälten <b>Hjälp</b> och <b>Kontakta administratören</b>.</li>
+     <li>Anpassa länken i sidfoten för alla språk. Klicka på rullgardinsmenyn <b>Språk</b>, välj språk och lägg till <b>Namn</b> och <b>URL</b> i de angivna fälten. När du har sparat ändringarna visas de uppdaterade länkarna i sidfoten.<br></li>
     </ul></td>
   </tr>
   <tr>
@@ -217,7 +219,7 @@ Aktivera eller inaktivera följande inställningar:
      <li>Tidszonsinställning på kontonivå</li>
     </ul>
     <p>Elevens betygsutdrag som har hämtats med Job API hämtar också data i den valda tidszonen.</p>
-    <p><b>Obs! </b>Ingen ändring förväntas i elevens betygsutdrag som standard omedelbart efter utgivningen. Administratörer kan konfigurera den här inställningen från Admin &gt; Inställningar &gt; Allmänt &gt; Tidszon för rapport.</p></td>
+    <p><b>Obs! </b>Ingen ändring förväntas i elevens betygsutdrag som standard direkt efter utgivningen. Administratörer kan konfigurera den här inställningen från Admin &gt; Inställningar &gt; Allmänt &gt; Tidszon för rapport.</p></td>
   </tr>
  </tbody>
 </table>
@@ -397,13 +399,13 @@ Aktivera eller inaktivera följande inställningar:
     <p>Visa gradering</p></td>
    <td>
     <ul>
-     <li>Om alternativet <b>Kurseffektivitet</b> Om det här alternativet är aktiverat kan eleverna bara se värdet av kurseffektiviteten.</li>
-     <li>Om alternativet <b>Stjärngradering</b> Om det här alternativet är aktiverat kan eleverna bara visa det genomsnittliga stjärnbetyget och antalet elever som har betygsatt kursen.<br></li>
+     <li>Om alternativet <b>Kurseffektivitet</b> är aktiverat kan eleverna bara se värdet av kursens effektivitet.</li>
+     <li>Om alternativet <b>Stjärngradering</b> är aktiverat kan eleverna bara visa det genomsnittliga stjärnbetyget och antalet elever som har graderat kursen.<br></li>
     </ul>
     <p>Den här funktionen är endast tillgänglig för kurser. Stjärngradering stöds inte för utbildningsprogram eller certifikat.<br><br><b>Obs! </b>Den här ändringen påverkar endast elevappen. </p>
     <p>I alla andra appar (administratör, författare, chef, anpassad administratör, anpassad författare) påverkar inte ändringar i inställningarna (stjärngradering/kurseffektivitet/inaktivera bildstjärngradering). </p>
-    <p>För nya konton <b>Visa stjärngraderingar</b> -sektionen har möjlighet att <b>Stjärngradering</b> aktiverat som standard.</p>
-    <p>För befintliga konton, om kontot tidigare hade möjlighet <b>Kurseffektivitet</b> aktiverat, sedan <b>Visa stjärngraderingar</b> kommer att aktiveras med alternativet Kurseffektivitet valt. Om alternativet <b>Kurseffektivitet</b>s är inaktiverad, sedan <b>Visa stjärngraderingar</b> -avsnittet inaktiveras också. När <b>Visa stjärngraderingar</b> -avsnittet är aktiverat, alternativet <b>Stjärngradering</b> aktiveras som standard.</p></td>
+    <p>För nya konton kommer avsnittet <b>Visa stjärngraderingar</b> att ha alternativet <b>Stjärngradering</b> aktiverat som standard.</p>
+    <p>Om alternativet <b>Kurseffektivitet</b> har aktiverats för befintliga konton aktiveras avsnittet <b>Visa betyg</b> med alternativet Kurseffektivitet valt. Om alternativet <b>Kurseffektivitet</b>s är inaktiverat kommer avsnittet <b>Visa klassificeringar</b> också att inaktiveras. När avsnittet <b>Visa stjärngraderingar</b> är aktiverat kommer alternativet <b>Stjärngradering</b> att vara aktiverat som standard.</p></td>
   </tr>
  </tbody>
 </table>
@@ -414,7 +416,7 @@ Aktivera eller inaktivera följande inställningar:
    <td>
     <p>Utbildningsvägar</p></td>
    <td>
-    <p>Om alternativet <b>Aktivera utökade funktioner i utbildningsvägen</b> Om det här alternativet är aktiverat kan administratörer inkludera utbildningsvägar i utbildningsvägar och kombinera dessa utbildningsvägar med kurser. Alternativet är oåterkalleligt.<br></p></td>
+    <p>Om alternativet <b>Aktivera utökade funktioner i utbildningsvägen</b> är aktiverat kan administratörer inkludera utbildningsvägar i utbildningsvägar och kombinera dessa med kurser. Alternativet är oåterkalleligt.<br></p></td>
   </tr>
   <tr>
    <td>
@@ -438,22 +440,7 @@ Aktivera eller inaktivera följande inställningar:
 
 >[!NOTE]
 >
->När inställningen för kompetensimport har aktiverats kan kontolayouten inte växlas till den klassiska vyn, d.v.s. att växla till klassiskt konto inaktiveras efter **Import av kompetens** alternativet är aktiverat.
-
-
-## AI-baserad rekommendation
-
-Learning Manager innehåller en helt ny elevstartsida, som är modern, mer innehållsdriven och anpassad efter en elevs önskemål. AI-baserade utbildningsrekommendationer syftar till att öka elevernas engagemang och identifiera och åtgärda brister i inlärningen.
-
-Rekommendationsalgoritmen är utformad för att ta in flera indatakällor, inklusive branschdata om jobbroller, titlar och beskrivningar som Adobe har hämtat från sina partner. Dessa data används sedan för att träna Adobe AI-algoritmer så att Learning Manager kan ta fram en karta som kopplar branschanpassade färdigheter till jobbtitlar och/eller beteckningar. Detta blir sedan en inmatning till rekommendationsalgoritmen
-
-Learning Manager använder sedan ämnesmodelleringsalgoritmer för att analysera utbildningsinnehållet inom ett konto och mappa dem till kunskaperna.
-
-Learning Manager använder peer-aktivitetsdata som en annan signal för att driva rekommendationsalgoritmen på ett personligt sätt. Aktiviteter som registrering, slutförande och eventuell uttrycklig feedback från elever används här.
-
-Dessutom använder Learning Manager explicit och implicit information som samlas in från enskilda elever för att ytterligare anpassa rekommendationer. En elev kommer att kunna ange sina intresseområden uttryckligen genom registreringar och Learning Manager kommer att få denna information implicit baserat på hur eleven slutligen går igenom utbildningarna.
-
-Slutligen kommer administratören även att kunna påverka rekommendationsalgoritmen med hjälp av elevattribut som Learning Manager ska titta på när kollegiala grupper definieras, och även genom att faktiskt markera utbildningar för specifika användargrupper.
+>När inställningen för kompetensimport har aktiverats kan inte kontolayouten växlas till klassisk vy, d.v.s. växling till klassiskt konto inaktiveras efter att alternativet **Kompetensimport** har aktiverats.
 
 ## Byta namn på utbildningsobjekt {#renaminglearningobjects}
 
@@ -487,9 +474,9 @@ Aktivitet
 ## Profilinställningar {#profilesettings}
 
 1. Klicka på rullgardinspilen i det övre högra hörnet bredvid ditt foto/konto och välj **[!UICONTROL Profile Settings]**.
-1. I dialogrutan kan du lägga till/ändra ett foto genom att hålla muspekaren över det och klicka på **[!UICONTROL Edit]** i profilfotoområdet.
-1. Lägg till/ändra **[!UICONTROL About]** innehåll genom att klicka **[!UICONTROL Edit]** i närheten av den.
-1. Klicka **[!UICONTROL Save].**
+1. I popup-dialogrutan kan du lägga till/ändra ett foto genom att hålla muspekaren över det och klicka på **[!UICONTROL Edit]** i profilfotoområdet.
+1. Lägg till/ändra **[!UICONTROL About]**-innehåll genom att klicka på **[!UICONTROL Edit]** bredvid det.
+1. Klicka på **[!UICONTROL Save].**
 
 ## Innehållsmapp {#content-folder}
 
@@ -497,11 +484,11 @@ Learning Manager stöder privata innehållsmappar. En administratör kan konfigu
 
 Administratörer kan konfigurera innehållsmappar. Först när innehållsmappar har konfigurerats blir de synliga för författare och kan placera innehållet i en eller flera mappar.
 
-Om du vill lägga till en innehållsmapp klickar du på **[!UICONTROL Settings]** > **[!UICONTROL Content Folder]**.
+Om du vill lägga till en innehållsmapp klickar du på **[!UICONTROL Settings]** > **[!UICONTROL Content Folder]** i administratörsappen.
 
 ![](assets/manage-content-folders.png)
 
-*Ändra inställningar för innehållsmapp*
+*Ändra inställningar för innehållsmappen*
 
 ### Mapp
 
@@ -509,7 +496,7 @@ En mapp är en innehållsdatabas, som är en delmängd av hela innehållsbibliot
 
 * Det är bara en administratör som kan skapa, redigera eller ta bort en mapp.
 * En administratör kan kontrollera åtkomsten till mappar som en del av definitionen av roller endast för anpassade administratörer.
-* Innehåll **måste alltid associeras med minst en mapp**. Till att börja med kommer allt innehåll att vara kopplat till den gemensamma mappen, som senare kan ändras.
+* Innehållet **måste alltid associeras med minst en mapp**. Till att börja med kommer allt innehåll att vara kopplat till den gemensamma mappen, som senare kan ändras.
 * Innehållet kan kopplas till flera mappar när det skapas, vilket också blir möjligt genom en kopiering
 * Alla mappnamn måste vara unika i kontot, annars uppstår ett fel när en mapp namnges.
 
@@ -532,7 +519,7 @@ Den här mappen kan inte ingå i en konfigurerbar rolldefinition. Att inte ha en
 
 **Lägg till en mapp**
 
-Lägg till en mapp genom att klicka på **[!UICONTROL Add]** längst upp till höger i fönstret.
+Om du vill lägga till en mapp klickar du på **[!UICONTROL Add]** i fönstrets övre högra hörn.
 
 **Ta bort en mapp**
 
@@ -578,23 +565,24 @@ Du kan även lägga till platsen med hjälp av en CSV-fil. CSV-filen måste inne
 
 ### Inställningar {#admin-classroom-settings}
 
-Välj **Redigera** ändra följande:
+Välj **Redigera** för att ändra följande:
 
-* **Tillåt författare att skapa platser**: När det här alternativet är aktiverat visas alla platser som har skapats av författare under fliken &quot;Alla platser&quot;. Elever kan också se de här platserna under Katalog- och kalenderfilter.
-* **Tillåt att författare ändrar och tar bort platser**: När funktionen är aktiverad kan författare ändra och ta bort alla klassrumsplatser. Författarnas ändringar kommer att återspeglas på alla plattformar, inklusive rapporter.
+* **Tillåt författare att skapa platser**: När det här alternativet är aktiverat listas alla platser som har skapats av författare under fliken Alla platser. Elever kan också se de här platserna under Katalog- och kalenderfilter.
+* **Tillåt författare att ändra och ta bort platser**:
+När funktionen är aktiverad kan författare ändra och ta bort alla klassrumsplatser. Författarnas ändringar kommer att återspeglas på alla plattformar, inklusive rapporter.
 
 ## Vanliga frågor {#frequentlyaskedquestions}
 
 +++Hur skapar man olika mappar för innehållsbiblioteket?
 
-Klicka **[!UICONTROL Settings]** > **[!UICONTROL Content Folder]**. Lägg till en mapp genom att klicka på **[!UICONTROL Add]** I det övre högra hörnet och i dialogrutan anger du mappens namn och beskrivning.
+Klicka på **[!UICONTROL Settings]** > **[!UICONTROL Content Folder]**. Om du vill lägga till en mapp klickar du på **[!UICONTROL Add]** i det övre högra hörnet och anger mappens namn och beskrivning i dialogrutan.
 
 Administratörer kan konfigurera innehållsmappar. Först när innehållsmappar har konfigurerats blir de synliga för författare och kan placera innehållet i en eller flera mappar.
 
-Mer information finns i avsnittet om [Innehållsmapp](settings.md#content-folder).
+Mer information finns i avsnittet om [mappen Innehåll](settings.md#content-folder).
 +++
 
 +++Hur lägger man till räkenskapsår för kontot?
 
-in **[!UICONTROL Settings]** > **[!UICONTROL Basic Info]** klickar du på **[!UICONTROL Change]**. Från **[!UICONTROL Financial year starts from]** Välj månad i listrutan.
+Klicka på **[!UICONTROL Change]** i **[!UICONTROL Settings]** > **[!UICONTROL Basic Info]**. Välj månad i listrutan **[!UICONTROL Financial year starts from]**.
 +++

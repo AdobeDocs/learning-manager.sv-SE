@@ -4,14 +4,14 @@ jcr-language: en_us
 title: Skapa kursmoduler, instanser och utbildningsprogram
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: f328076016d8c41455cad71f00d1dc9a1531e007
+source-git-commit: a0dcc5b0a0a9f1ef0248c1e853067c1cc57b60e1
 workflow-type: tm+mt
 source-wordcount: '4717'
 ht-degree: 1%
 
 ---
 
-# Skapa kursmoduler, instanser och utbildningsprogram
+# Skapa kursmoduler, instanser och utbildningsvägar
 
 Det här dokumentet består av hjälp med att skapa kursmoduler, instanser och kurser för administratörsrollen.
 
@@ -30,7 +30,7 @@ Författare skapar kurser. Elever följer sedan kurserna och administratörer ka
 >I den här utbildningen får du lära dig redigera instansinformation och instansegenskaper.<br><br>[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)</br></br>
 
 
-Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
+Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
 
 ### Skapa en instans
 
@@ -38,23 +38,23 @@ När en författare har skapat en kurs kan du skapa instanser av kursen. Genom a
 
 Om du vill skapa en instans
 
-1. I webbappen Administratör klickar du på **[!UICONTROL Courses]** i den vänstra rutan.
-1. Välj den kurs som krävs i listan över kurser och klicka på **[!UICONTROL View Course]**.
+1. Klicka på **[!UICONTROL Courses]** i den vänstra rutan i webbapplikationen Administratör.
+1. Välj önskad kurs i listan över kurser och klicka på **[!UICONTROL View Course]**.
 
    ![](assets/view-course.png)
 
    *Visa en kurs*
 
-1. Skapa instanser genom att klicka på **[!UICONTROL Instances]** i den vänstra rutan. Varje kurs har en instans som standard. Du kan antingen ändra standardinstansen eller lägga till instanser. Du kan inte ta bort kursinstansen.
+1. Klicka på **[!UICONTROL Instances]** i den vänstra rutan om du vill skapa instanser. Varje kurs har en instans som standard. Du kan antingen ändra standardinstansen eller lägga till instanser. Du kan inte ta bort kursinstansen.
 1. Om du vill skapa en instans klickar du på **[!UICONTROL Add New Instance]** i det övre högra hörnet av kursinformationen. En ny instans av kursen visas.
 1. Ange instansens egenskaper:
 
-   * I dialogrutan **[!UICONTROL Instance Name]** -fältet anger du namnet på den instans som du vill associera med kursen. Se till att du använder ett unikt namn för instansen.
+   * I fältet **[!UICONTROL Instance Name]** anger du namnet på den instans som du vill associera med kursen. Se till att du använder ett unikt namn för instansen.
    * Ange deadline för slutförande för instansen. Eleverna måste få statusen slutförd för kursen senast detta datum.
-   * Klicka **[!UICONTROL Show More Options]** om du vill visa andra alternativ för tidsgräns.
-   * **[!UICONTROL Enrollment Deadline]:** Detta är det datum då en elev förväntas registrera sig för ett utbildningsobjekt vid egenregistrering.
+   * Klicka på **[!UICONTROL Show More Options]** om du vill visa andra alternativ för deadline.
+   * **[!UICONTROL Enrollment Deadline]:** Det här är det datum då en elev förväntas registrera sig för ett utbildningsobjekt vid egenregistrering.
    * **[!UICONTROL Unenrollment Deadline]:** Du kan välja att begränsa avregistrering av eleven själv genom att ha en deadline för avregistrering.
-   * **[!UICONTROL Timezone]:** Sök i och välj sedan **[!UICONTROL Timezone]** i listrutan.
+   * **[!UICONTROL Timezone]:** Sök och välj sedan **[!UICONTROL Timezone]** i listrutan.
 
    En administratör kan besluta att ha tidsgränser för slutförande av en kurs eller ett utbildningsprogram baserat på behov. Vi rekommenderar dock att du har en för klassrums-/virtuella klassrumsbaserade utbildningar.
 
@@ -66,12 +66,12 @@ Om du vill skapa en instans
 
 ![](assets/properties-of-aninstance.png)
 
-*Visa instansens egenskaper*
+*Visa egenskaper för instansen*
 
-1. **Moduler:** Antalet moduler som har skapats av kursförfattaren
+1. **Moduler:** Antalet moduler som har skapats av författaren till kursen
 1. **Elever registrerade:** Antalet elever som har registrerats för kursen av administratören.
 1. **Sessioner:** Antalet virtuella klassrums- och klassrumsmoduler i kursen.
-1. **Feedback har aktiverats:** Visar om L1-, L2- och L3-feedback har aktiverats för den här kursen.
+1. **Feedback aktiverad:** Visar om L1-, L2- och L3-feedback har aktiverats för den här kursen.
 
 >[!NOTE]
 >
@@ -85,9 +85,9 @@ Utför stegen nedan om du vill ta en instans ur bruk.
 
    ![](assets/retire-an-instance.png)
 
-   *Ta bort en instans*
+   *Ta en instans ur bruk*
 
-1. Klicka på fliken om du vill söka efter alla utfasade instanser **[!UICONTROL Retired]** på sidan Instanser.
+1. Klicka på fliken **[!UICONTROL Retired]** på sidan Instanser om du vill söka efter alla utfasade instanser.
 
 ### Återställa en instans {#restoreaninstance}
 
@@ -97,13 +97,13 @@ Så här återställer du en utfasad instans till ett aktiveringsläge:
 
    ![](assets/restore-an-instance.png)
 
-   *Återställa en instans*
+   *Återställ en instans*
 
 1. Instansen återställs nu till ett aktivt läge.
 
 ### Ta bort en instans
 
-Administratörer kan ta bort instansen med **Ta bort denna instans** -alternativet omedelbart efter skapandet. Du kan inte ta bort instanser om det finns en session länkad till den eller om det finns elever som är registrerade till den.
+Administratörer kan ta bort instansen med alternativet **Ta bort den här instansen** direkt efter skapandet. Du kan inte ta bort instanser om det finns en session länkad till den eller om det finns elever som är registrerade till den.
 
 ![](assets/delete-this-instance.png)
 
@@ -117,19 +117,19 @@ Administratörer kan ta bort instansen med **Ta bort denna instans** -alternativ
 
 Så här skickar du e-postmeddelanden på instansnivå till registrerade elever:
 
-1. På fliken **[!UICONTROL Instances]** -sidan, väljer alternativ för en instans och klickar sedan på **[!UICONTROL Email Enrolled Learners]**.
+1. Välj alternativ för valfri instans på sidan **[!UICONTROL Instances]** och klicka sedan på **[!UICONTROL Email Enrolled Learners]**.
 
 ![e-postmeddelanden på instansnivå](assets/adhoc-email.png)
 
-*E-post till elever som har registrerat sig för instansen*
+*Skicka e-post till elever som har registrerat sig för instansen*
 
-1. På fliken **[!UICONTROL Create Announcement]** väljer du Skriv som E-post. Ange ämne, skriv meddelandet och klicka på **[!UICONTROL Save]**. Utbildningen väljs ut automatiskt.
+1. I dialogrutan **[!UICONTROL Create Announcement]** väljer du Skriv som e-post. Ange ämne, skriv meddelandet och klicka på **[!UICONTROL Save]**. Utbildningen väljs ut automatiskt.
 
    ![Skapa meddelande som e-post](assets/email-announcement.png)
 
    *Skapa meddelande som e-post*
 
-1. När du har klickat **[!UICONTROL Save]** visas ett bekräftelsemeddelande om att meddelandet har skapats. Klicka på för att publicera meddelandet **[!UICONTROL Publish Now]**.
+1. När du har klickat på **[!UICONTROL Save]** visas ett bekräftelsemeddelande om att meddelandet har skapats. Klicka på **[!UICONTROL Publish Now]** för att publicera meddelandet.
 
    ![Meddelandet har skapats](assets/announcement-successful.png)
 
@@ -139,7 +139,7 @@ Under den här utbildningen kommer du att lära dig hur du registrerar, avregist
 
 [![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PC1PQFJQ&amp;mv=display&amp;mv2=display#/course/8318916)
 
-Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
+Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
 
 ### Registrera elever i olika instanser
 
@@ -149,9 +149,9 @@ Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
 
    ![Registrera elever](assets/enroll-learners-new.png)
 
-   *Kursen Publish*
+   *Publish kursen*
 
-1. I dialogrutan [!UICONTROL **Registrera elever**] dialogrutan kan du:
+1. I dialogrutan [!UICONTROL **Registrera elever**] kan du:
 
    * Välj en instans för att registrera en elev från listrutan Välj instans.
    * Välj användaren eller användargrupperna eller båda i fältet Inkludera elever.
@@ -160,9 +160,9 @@ Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
 
 1. Välj **[!UICONTROL Proceed]**.
 
-   ![gå vidare](assets/proceed.png)
+   ![fortsätt](assets/proceed.png)
 
-   *Fortsätt till att registrera elever*
+   *Fortsätt till registrering av elever*
 
 ### Visa registreringsrapport för en instans
 
@@ -203,7 +203,7 @@ Excel-filen innehåller kalkylblad för varje instans. Ett kalkylblad består av
 ### Hantera elevlista för en kurs {#managelearnerslistforacourse}
 
 1. Klicka på kursnamnet på kursens miniatyrbild.
-1. I den vänstra rutan klickar du på **[!UICONTROL Learners]**.
+1. Klicka på **[!UICONTROL Learners]** i den vänstra rutan.
 
 ![](assets/courses-learners.png)
 
@@ -211,20 +211,20 @@ Excel-filen innehåller kalkylblad för varje instans. Ett kalkylblad består av
 
 Du kan utföra följande åtgärder från sidan Elever:
 
-* Välj den elev som du vill ta bort och klicka på [!UICONTROL **Åtgärder**] > [!UICONTROL **Ta bort**].
-* Markera den elev vars närvaro du vill markera och klicka på [!UICONTROL **Åtgärder**] > [!UICONTROL **Markera som slutfört**].
+* Markera eleven du vill ta bort och klicka på [!UICONTROL **Åtgärder**] > [!UICONTROL **Ta bort**].
+* Markera den elev vars närvaro du vill markera och klicka på [!UICONTROL **Åtgärder**] > [!UICONTROL **Markera som slutförd**].
 
-Klicka på för att tillåta elever att återställa en modul och konsumera den igen [!UICONTROL **Återställ**]. Klicka på Ja i dialogrutan som visas för att bekräfta återställningen. Moduler som har slutförts kan inte återställas. Endast felaktiga eller ofullständiga moduler kan återställas.
+Klicka på [!UICONTROL **Återställ**] om du vill att eleverna ska kunna återställa en modul och konsumera modulen igen. Klicka på Ja i dialogrutan som visas för att bekräfta återställningen. Moduler som har slutförts kan inte återställas. Endast felaktiga eller ofullständiga moduler kan återställas.
 
-Du kan också exportera elevlistan i ett Excel-ark. För att exportera listan över elever klickar du på [!UICONTROL **Åtgärder**] > [!UICONTROL **Exportera**].
+Du kan också exportera elevlistan i ett Excel-ark. Om du vill exportera elevlistan klickar du på [!UICONTROL **Åtgärder**] > [!UICONTROL **Exportera**].
 
 >[!NOTE]
 >
->Om det finns flera instanser för en kurs visas elevlistan i Excel på varje flik separat. Elevlistan består av elevnamn, status och urvalskriterier. Elevstatus kan **Inte påbörjad**, eller **Pågår**, eller **Slutfört**.
+>Om det finns flera instanser för en kurs visas elevlistan i Excel på varje flik separat. Elevlistan består av elevnamn, status och urvalskriterier. Elevstatus kan vara **Inte påbörjat**, **Pågår** eller **Slutfört**.
 
 ### Exportera elever i väntande godkännandetillstånd
 
-En administratör, chef eller anpassad administratör kan exportera data för elever som har statusen Väntande på registrering till godkännande. Du kan exportera data via **Kurs > Elev** och klicka på listrutan Åtgärd.
+En administratör, chef eller anpassad administratör kan exportera data för elever som har statusen Väntande på registrering till godkännande. Du kan exportera data via fliken **Kurs > Elev** och klicka på listrutan Åtgärd.
 
 Alternativet finns när ingen elev är registrerad/väntar på godkännande av chefsgodkänd kurs och en tom rapport genereras. Du kan också exportera när elever är i väntande tillstånd för godkännande, registreringsläge, väntande tillstånd och avregistrerat tillstånd.
 
@@ -240,9 +240,9 @@ Väntelisteavsnittet gör det möjligt för elever att väntelista sig till klas
 
 För alla klassrum och VC-kurser kan du ladda ned listan över elever som har deltagit i denna kurs, för alla instanser.
 
-På sidan med kursinformation klickar du på **[!UICONTROL Attendance and Scoring]** i den högra rutan.
+Klicka på **[!UICONTROL Attendance and Scoring]** i den högra rutan på sidan med kursinformation.
 
-I det övre högra hörnet på sidan klickar du på **[!UICONTROL Actions]** listruta. Klicka sedan på alternativet **[!UICONTROL Export Learner List (PDF)]**.
+Klicka på rullgardinsmenyn **[!UICONTROL Actions]** i det övre högra hörnet på sidan. Klicka sedan på alternativet **[!UICONTROL Export Learner List (PDF)]**.
 
 ![](assets/export-list-of-learners.png)
 
@@ -257,7 +257,7 @@ När du hämtar PDF kan du se tidszonen (i UTC) som användes när kursen skapad
 Du kan lägga till L1- och L3-feedbackalternativ medan du skapar kurserna:
 
 1. Klicka på Kurser i den vänstra rutan när du har loggat in som administratör. Lista över alla kurser visas på höger sida.
-1. Klicka på den kursruta som du vill lägga till feedback om L1 eller L3 för
+1. Klicka på den kursruta som du vill lägga till feedback om L1 eller L3 för.
 1. Klicka på instance default (standardinställning) i den vänstra rutan.
 1. Klicka på växlingsknappen för cirkel på bredvid L1- eller L3-feedback för att aktivera den.
 1. Lägg till L3-feedbackfrågan i textområdet under L3-frågan.
@@ -282,11 +282,11 @@ Om de två obligatoriska frågorna av någon anledning inte har någon text visa
 >
 >Det räcker inte att du aktiverar dessa inställningar på utbildningsprograminstansen. Du måste också aktivera dessa inställningar på nivån Kursinstans för varje kurs i Utbildningsprogrammet.
 
-Om du aktiverar standardsidan för instanser **[!UICONTROL Make All Questions Mandatory]**, ärver alla nya instanser som skapas därefter dessa inställningar.
+Om du aktiverar **[!UICONTROL Make All Questions Mandatory]** på sidan Standardinställningar för instans ärvs dessa inställningar av alla nya instanser som skapas därefter.
 
 ![](assets/instance-defaults-makeallquestionsmandatory.png)
 
-*Visa sidan Standardinställningar för instans*
+*Visa sidan för instansstandardvärden*
 
 ### L1-feedback på kursnivå {#l1-feedback-course-level}
 
@@ -294,9 +294,9 @@ I tidigare versioner av Learning Manager kunde en administratör aktivera L1-fee
 
 I den här versionen av Learning Manager kan administratören skicka feedback om L1 för alla kurser som ingår i utbildningsprogrammet. Administratören måste se till att L1-feedback är aktiverad för alla kurser på kursinstansnivå.
 
-1. Om du vill aktivera L1-feedback för varje kurs klickar du på i Admin-appen **[!UICONTROL Learning Programs]** > **[!UICONTROL View Learning Program]**.
+1. Klicka på **[!UICONTROL Learning Programs]** > **[!UICONTROL View Learning Program]** i Admin-appen för att aktivera L1-feedback för varje kurs.
 
-1. Klicka **[!UICONTROL Instances]** > **[!UICONTROL L1 Feedback Enabled]**.
+1. Klicka på **[!UICONTROL Instances]** > **[!UICONTROL L1 Feedback Enabled]**.
 
 1. Aktivera alternativet **[!UICONTROL Enable for Each Course]**.
 
@@ -318,7 +318,7 @@ Quizrapporter hjälper till att utvärdera en elevs resultat efter slutförande 
 
 Learning Manager underlättar för närvarande inlärning i 13 gränssnittsspråk och 32 innehållsspråk. Även om det här alternativet är elevvänligt och underlättar för oss att stödja våra globala elever är det besvärligt för administratörer att hämta rapporter som de försöker hämta på olika platser.
 
-Quiz-rapporter, visa data på olika språk förutsatt att kursen erbjuds på flera språk. Hittills har rapporter som skapats av Admin visat svar under varandra oberoende av vilket språk frågeformuläret användes på. **Till exempel**, om en användare har gjort ett quiz på nederländska kan administratören bara visa de quiz-rapporter som användare på nederländska försöker sig på åt gången. Administratören som har valt engelska som gränssnittsspråk kunde inte visa rapporter för alla användare samtidigt, oavsett språket som användes.
+Quiz-rapporter, visa data på olika språk förutsatt att kursen erbjuds på flera språk. Hittills har rapporter som skapats av Admin visat svar under varandra oberoende av vilket språk frågeformuläret användes på. **Exempel**: Om en användare har gjort ett frågeformulär på nederländska kan administratören bara visa de frågeformulärsrapporter som användare på nederländska försöker sig på åt gången. Administratören som har valt engelska som gränssnittsspråk kunde inte visa rapporter för alla användare samtidigt, oavsett språket som användes.
 
 Detta korrigeras nu eftersom administratören nu kan visa alla rapporter på respektive språk som eleven försökt alla på en gång, oavsett vilken innehållsplats som valts. Quiz-försök på olika språk läggs till som ytterligare kolumner i frågeformulärsrapporten.
 
@@ -330,19 +330,19 @@ En administratör kommer att kunna aktivera L1-feedback för nyligen skapade kur
 
 Om detta är aktiverat kommer feedback för alla nya utbildningar och nya instanser att vara aktiverad som standard. Om en författare/administratör besöker instansen, standardvärden och stänger av den manuellt, respekteras instansen.
 
-Om du vill aktivera L1-feedback klickar du på **[!UICONTROL Settings]** > **[!UICONTROL Feedback]**.
+Om du vill aktivera L1-feedback klickar du på **[!UICONTROL Settings]** > **[!UICONTROL Feedback]** i Admin-appen.
 
 ![](assets/l1-feedback-settings.png)
 
 *Visa sidan Feedback-inställningar*
 
-Klicka **[!UICONTROL Edit]** i det övre högra hörnet och aktivera L1-feedback.
+Klicka på **[!UICONTROL Edit]** i det övre högra hörnet och växla alternativet för att aktivera L1-feedback.
 
-När en författare skapar en kurs visas på sidan Instans i Admin-programmet **[!UICONTROL L1 feedback]** aktiveras automatiskt för den nya kursen.
+När en författare skapar en kurs aktiveras **[!UICONTROL L1 feedback]** automatiskt för den nya kursen på instanssidan i Admin-appen.
 
 <!--![](assets/l1-feedback-enabled.png)-->
 
-Du kan också inaktivera L1-feedback genom att växla knappen **[!UICONTROL Enable]** som visas nedan:
+Du kan också inaktivera L1-feedback genom att växla alternativet **[!UICONTROL Enable]**, som visas nedan:
 
 ![](assets/disable-l1-feedback.png)
 
@@ -358,7 +358,7 @@ När du har aktiverat L1-feedback kan du visa alternativen som visas på följan
 
 ![](assets/l1-feedback-desc-questions.png)
 
-*Lägg till beskrivande frågor för L1- och L3-feedback*
+*Lägg till beskrivande frågor för feedback om L1 och L3*
 
 Om du vill att frågeformuläret ska visas för eleven omedelbart efter slutförandet av kursen kan du välja alternativet.
 
@@ -366,7 +366,7 @@ Nedan visas ett urval av L1-frågeformuläret som referens. Elever kan se fråge
 
 ![](assets/l1-output.png)
 
-*Ett exempel på frågor om feedback på kurs*
+*Frågor om feedback på en exempelkurs*
 
 När du har aktiverat L3-feedback kan du visa alternativen som visas på ögonblicksbilden nedan:
 
@@ -386,16 +386,16 @@ Nedan visas ett urval av L3-frågeformuläret som referens. Elever kan se fråge
 
 Du kan ställa in L1- och L3-feedbackfrågeformulär och även ställa in påminnelser på kontonivå.
 
-1. Klicka **[!UICONTROL Settings]** och därefter **[!UICONTROL Feedback]** i den vänstra rutan när du har loggat in som administratör.\
+1. Klicka på **[!UICONTROL Settings]** och sedan på **[!UICONTROL Feedback]** i den vänstra rutan när du har loggat in som administratör.\
    Sidan med feedbackinställningar visas med två flikar: **[!UICONTROL L1 Feedback]** och **[!UICONTROL L3 Feedback]**.\
-   **[!UICONTROL L1 Feedback]** -fliken består av en lista med standardvärden **[!UICONTROL L1 feedback]** frågeformulär för klassrumskurser och kurser i egen takt tillsammans med påminnelseinställningar. in **[!UICONTROL L3 Feedback]** -fliken kan du visa standardinställningarna för L3-feedback och påminnelser.
+   Fliken **[!UICONTROL L1 Feedback]** består av en lista med standardekät **[!UICONTROL L1 feedback]** för klassrumskurser och kurser i egen takt tillsammans med påminnelseinställningar. På fliken **[!UICONTROL L3 Feedback]** kan du visa standardinställningarna för L3-feedback och påminnelser.
 
 1. Klicka på Redigera längst upp till höger på sidan om du vill ändra den befintliga enkäten.\
-   in **[!UICONTROL L1 Feedback]** kan du aktivera/inaktivera varje fråga genom att klicka på växlingsknappen Ja/Nej.\
-   in **[!UICONTROL L3 Feedback]** kan du ändra standardsatsen för feedback.\
-   Klicka **[!UICONTROL Add New Reminder]** längst ned på sidan och välja när påminnelserna ska skickas.
+   På fliken **[!UICONTROL L1 Feedback]** kan du aktivera/inaktivera varje fråga genom att klicka på växlingsknappen Ja/Nej.\
+   På fliken **[!UICONTROL L3 Feedback]** kan du ändra standardsatsen för feedback.\
+   Klicka på **[!UICONTROL Add New Reminder]** längst ned på sidan och välj när påminnelserna ska skickas.
 
-1. Klicka **[!UICONTROL Save]** längst upp till höger på sidan.
+1. Klicka på **[!UICONTROL Save]** längst upp till höger på sidan.
 
 I L1-feedback kan du se två uppsättningar frågeformulär tillsammans med en standardfråga. Det första frågeformuläret avser kurser i egen takt som också kan användas för aktivitetsbaserade kurser. Andra uppsättningen enkäter kan användas för kurser av typen klassrum och virtuellt klassrum.
 
@@ -415,7 +415,7 @@ Funktionen Diskussionstavla gör att eleverna kan se kursdiskussionerna. Du som 
 
 När en författare lägger till, uppdaterar eller tar bort moduler och återpublicerar en kurs får alla administratörer ett meddelande om detta. Administratörer kan sedan visa ändringarna, jämföra det gamla och det nya innehållet genom att klicka på länken och godkänna eller avslå ändringarna.
 
-Om du vill aktivera Kursmoderering klickar du på **[!UICONTROL Settings]** > **[!UICONTROL General]**. Välj **[!UICONTROL Course Moderation]** för att aktivera funktionen.
+Klicka på **[!UICONTROL Settings]** > **[!UICONTROL General]** för att aktivera kursmoderering. Markera kryssrutan **[!UICONTROL Course Moderation]** för att aktivera funktionen.
 
 ![](assets/2.png)
 
@@ -431,7 +431,7 @@ Om det finns flera författare som uppdaterar samma kurs kommer den senaste elle
 
 ## Exportera checklistedata {#export-checklist-data}
 
-Öppna en kurs som innehåller en checklista från listan över kurser. I den vänstra rutan visas ett alternativ **[!UICONTROL Checklist]**.
+Öppna en kurs som innehåller en checklista från listan över kurser. I den vänstra rutan visas alternativet **[!UICONTROL Checklist]**.
 
 ![](assets/export-checklist.png)
 
@@ -440,9 +440,9 @@ Om det finns flera författare som uppdaterar samma kurs kommer den senaste elle
 Klicka på alternativet och utför följande på kurssidan:
 
 1. Markera instansen och modulen.
-1. Klicka **[!UICONTROL Actions]** > **[!UICONTROL Export]** och exportera sedan checklisterapporten för eleven.
+1. Klicka på **[!UICONTROL Actions]** > **[!UICONTROL Export]** och exportera sedan elevens checklisterapport.
 
-På fliken **[!UICONTROL Checklist]** kan instruktören exportera checklisterapporten från **[!UICONTROL Actions]** listruta.
+På sidan **[!UICONTROL Checklist]** kan en instruktör exportera checklisterapporten från listrutan **[!UICONTROL Actions]**.
 
 CSV-rapporten innehåller följande fält:
 
@@ -463,11 +463,11 @@ När du laddar ned en rapport efter att du har valt ett statusfilter, kommer den
 
 ## Visa kurser {#viewingcourses}
 
-Du som är administratör kan visa en lista över alla tillgängliga kurser.   Klicka **[!UICONTROL Courses]** i den vänstra rutan för att visa listan över kurser med sök- och filtreringsalternativ. Du kan också visa kursens effektivitetsprocent för varje kurs på kursens miniatyrbilder.
+Du som är administratör kan visa en lista över alla tillgängliga kurser.   Klicka på **[!UICONTROL Courses]** i den vänstra rutan för att visa listan över kurser med alternativ för sökning och filter. Du kan också visa kursens effektivitetsprocent för varje kurs på kursens miniatyrbilder.
 
 >[!NOTE]
 >
->Du kan ta en kurs ur bruk efter att den har konsumerats av elever eller när du vill lägga till en viss kurs efter publicering. Du kan endast dra in en kurs när den är i publicerat tillstånd. Du kan visa en lista över alla utfasade kurser genom att klicka på **[!UICONTROL Retired]** -fliken.
+>Du kan ta en kurs ur bruk efter att den har konsumerats av elever eller när du vill lägga till en viss kurs efter publicering. Du kan endast dra in en kurs när den är i publicerat tillstånd. Du kan visa en lista över alla utfasade kurser genom att klicka på fliken **[!UICONTROL Retired]**.
 
 ## Visa quiz-poäng {#viewquizscores}
 
@@ -480,13 +480,13 @@ Välj instanstypen från rullgardinsmenyn för att visa poängen baserat på var
 
 ## Standardinstans
 
-Administratörer kan ställa in standardmärken, inställningar för spelifiering och påminnelser i **[!UICONTROL Default Instance]** sidan. Om du vill ändra standardinstansinställningarna väljer du **[!UICONTROL Default Instance]** > **[!UICONTROL Edit]**.
+Administratörer kan ange standardmärken, inställningar för spelifiering och påminnelser på sidan **[!UICONTROL Default Instance]**. Om du vill ändra standardinstansinställningarna väljer du **[!UICONTROL Default Instance]** > **[!UICONTROL Edit]**.
 
 * **[!UICONTROL Badge]**: Välj standardmärken i listrutan.
-* **[!UICONTROL Gamification]**: Konfigurera spelifieringsinställningar, inklusive poäng för slutförande, tidig slutförande och slutförande. Administratörer har möjlighet att välja inställningar på kontonivå eller anpassa spelifieringspunkterna för denna instans.
+* **[!UICONTROL Gamification]**: Konfigurera inställningar för spelifiering, inklusive poäng för slutförande, tidig slutförande och slutförande. Administratörer har möjlighet att välja inställningar på kontonivå eller anpassa spelifieringspunkterna för denna instans.
 * **[!UICONTROL L1 Reaction Feedback]**: Aktivera fördefinierade frågor för elevfeedback efter slutförande av kursen, med alternativ för att göra frågor obligatoriska.
 ***[!UICONTROL  L3 Behaviour Change Feedback]**: Aktivera feedbackfrågor för elevens chef när kursen har slutförts.
-***[!UICONTROL  Reminder Settings]**: Ställ in och hantera påminnelser för deadlines, med alternativ för eskalering.
+***[!UICONTROL  Reminder Settings]**: Ställ in och hantera påminnelser om deadlines med alternativ för eskalering.
 
 ### Ange eskaleringsnivå {#escalation}
 
@@ -497,13 +497,13 @@ För att skicka e-postmeddelanden måste en administratör uttryckligen välja e
 
 ![](assets/escalation-notification.png)
 
-*Ange eskaleringsnivå*
+*Ställ in eskaleringsnivå*
 
 ## Förhandsgranska kurser {#previewcourses}
 
-Administratören kan förhandsgranska kurser genom att klicka på **[!UICONTROL Preview as learner]** när du visar kursmodulerna.
+Administratören kan förhandsgranska kurser genom att klicka på alternativet **[!UICONTROL Preview as learner]** medan kursmodulerna visas.
 
-1. Klicka **[!UICONTROL Courses]** i den vänstra rutan när du har loggat in som administratör.
+1. Klicka på **[!UICONTROL Courses]** i den vänstra rutan när du har loggat in som administratör.
 1. Klicka på en kursruta i listan över kurser på sidan.
 1. Klicka på Förhandsgranska som elev i den vänstra rutan och klicka på modulnamnet på sidan för att förhandsgranska kursmodulen i spelaren.
 
@@ -556,7 +556,7 @@ Administratören registrerar vissa elever för obligatoriska kurser enligt organ
 
 >[!NOTE]
 >
->Administratören kan ta bort registrerade elever för en kurs genom att klicka på rullgardinspilen på elevsidan och genom att klicka **[!UICONTROL Actions]** > **[!UICONTROL Remove]**.
+>Administratören kan ta bort registrerade elever för en kurs genom att klicka på rullgardinspilen på sidan Elever och genom att klicka på **[!UICONTROL Actions]** > **[!UICONTROL Remove]**.
 
 ![](assets/enroll-learners.png)
 
@@ -582,7 +582,7 @@ Välj de användargrupper och enskilda elever (med e-post-ID eller namn) som du 
 
 +++Mejl-ID
 
-Kopiera och klistra in e-post-id för elever som du vill registrera, separerade med semikolon, kommatecken eller radavstånd. Använd kommandot **[!UICONTROL Validate Email Ids]** alternativ för att validera posterna. Alla ogiltiga poster visas markerade med rött. Ta bort eller korrigera dessa poster och fortsätt genom att klicka på **[!UICONTROL Proceed.]**
+Kopiera och klistra in e-post-id för elever som du vill registrera, separerade med semikolon, kommatecken eller radavstånd. Använd alternativet **[!UICONTROL Validate Email Ids]** för att validera posterna. Alla ogiltiga poster visas markerade med rött. Ta bort eller korrigera dessa poster och fortsätt genom att klicka på **[!UICONTROL Proceed.]**
 
 ![](assets/email-id-option.png)
 
@@ -598,11 +598,11 @@ Dialogrutan Sammanfattning visas med antalet användare från inkluderingsuppsä
 
 Som administratör eller chef kan du lägga till kommentarer när du registrerar elever för en kurs. Du kan nämna ytterligare information om kohorten av användare som registreras. Dessa data exporteras i kursrapporter.
 
-Kommentaren är **inte** visas för eleven.
+Kommentaren visas **inte** för eleven.
 
 När en administratör genererar elevens kursrapport visas eventuella kommentarer i rapporten. Dialogrutan Sammanfattning visas med antalet användare från inkluderingsuppsättningen, exkluderingsuppsättningen och användare som redan är registrerade i kursinstansen.
 
-På fliken **[!UICONTROL Enroll Learners]** dialogrutan expanderar du alternativet **[!UICONTROL Advanced Options]**. I dialogrutan **[!UICONTROL Additional Comment]** -fältet, anger du önskad kommentar.
+I dialogrutan **[!UICONTROL Enroll Learners]** expanderar du alternativet **[!UICONTROL Advanced Options]**. Ange den obligatoriska kommentaren i fältet **[!UICONTROL Additional Comment]**.
 
 ![](assets/comment-for-learner.png)
 
@@ -622,7 +622,7 @@ När du skriver för en elev eller en användargrupp i sökfältet hittas en ell
 
 Processen gör att du kan hitta vad du letar efter på ett mycket snabbare och mindre besvärligt sätt än att utföra ett antal sökningar i en rad.
 
-Elever eller användargrupper visas i alla instanser efter en sökning. För varje elev visas instansen där eleven är registrerad i **[!UICONTROL Instance]** -kolumnen.
+Elever eller användargrupper visas i alla instanser efter en sökning. För varje elev visas instansen där eleven är registrerad i kolumnen **[!UICONTROL Instance]**.
 
 ![](assets/search-result.png)
 
@@ -633,7 +633,7 @@ Med hjälp av funktionen för framförläsning kan du:
 * Visa alla registrerade användare, oavsett instans.
 * Visa alla användargrupper som har en eller flera registrerade användare.
 
-När en sökning har utförts kan du inte filtrera elever efter instanser. Alternativet att välja en instans från **[!UICONTROL Select Instance]** Listrutan är inaktiverad.
+När en sökning har utförts kan du inte filtrera elever efter instanser. Alternativet att välja en instans i listrutan **[!UICONTROL Select Instance]** är inaktiverat.
 
 Med sökresultaten kan du dessutom välja en elev eller användargrupp och utföra följande åtgärder:
 
@@ -649,9 +649,9 @@ Administratörer i Adobe Learning Manager kan dela QR-koderna med elever för at
 
 Elever kan helt enkelt skanna den aktuella QR-koden med Adobe Learning Manager-enhetsappen.
 
-**Gör så här för att hämta QR-koden**:
+**Så här hämtar du QR-koden**:
 
-1. Klicka **[!UICONTROL Courses]** från avsnittet Utbildning på den vänstra navigeringspanelen.
+1. Klicka på **[!UICONTROL Courses]** i avsnittet Utbildning på den vänstra navigeringspanelen.
 1. Välj en kurs > **[!UICONTROL View course]**.
 1. Klicka på **[!UICONTROL Instances]** > **[!UICONTROL More]** > **[!UICONTROL QR code]**.
 
@@ -667,17 +667,17 @@ Elever kan helt enkelt skanna den aktuella QR-koden med Adobe Learning Manager-e
 
 Kursens livscykel ser normalt ut så här:
 
-**Utkast** - När en författare har skapat en kurs och sparat den. I det här läget är kursen inte tillgänglig för elever ännu. Du kan radera en kurs i det här tillståndet.
+**Utkast** - när en författare har skapat en kurs och sparat den. I det här läget är kursen inte tillgänglig för elever ännu. Du kan radera en kurs i det här tillståndet.
 
-**Publicerat** - När en författare har slutfört publiceringen av en kurs. I det här läget är kursen tillgänglig så att elever kan registrera sig.
+**Publicerad** - när en författare har slutfört publiceringen av en kurs. I det här läget är kursen tillgänglig så att elever kan registrera sig.
 
-**Utfasad** - Efter att ha publicerat en kurs kan en författare flytta den till ett utfasat tillstånd om han inte vill att kursen ska visas i kurskatalogen för elever. Du kan publicera om eller radera en kurs i det här tillståndet.
+**Utfasad** - Efter att ha publicerat en kurs kan en författare flytta den till ett utfasat tillstånd om han eller hon inte vill att kursen ska visas i kurskatalogen för elever. Du kan publicera om eller radera en kurs i det här tillståndet.
 
-**Raderat** - En kurs i borttaget tillstånd är när den tas bort helt från Adobe Learning Manager-programmet. Kurser kan bara tas bort av författare när de har statusen utkast. Du kan också ta bort kurser från utfasat tillstånd.
+**Borttaget** - En kurs under borttaget tillstånd tas bort helt från Adobe Learning Manager-programmet. Kurser kan bara tas bort av författare när de har statusen utkast. Du kan också ta bort kurser från utfasat tillstånd.
 
 ![](assets/lifecycle-03.png)
 
-*Arbetsflöde för en kurscykel*
+*Arbetsflöde i en kurscykel*
 
 ## Meddelandeinställningar {#notificationsettings}
 
@@ -687,11 +687,11 @@ Som administratör kan du justera aviseringsinställningarna. Mer information fi
 
 +++Hur återställer jag modulen som administratör?
 
-Välj elev eller elev eller en grupp på sidan Elever för en kurs genom att klicka på **[!UICONTROL Actions]** > **[!UICONTROL Reset Modules]**.
+Klicka på **[!UICONTROL Actions]** > **[!UICONTROL Reset Modules]** på sidan Elever för en kurs, välj eleven eller eleverna eller en grupp.
 
 ![](assets/reset-modules.png)
 
-*Visa alternativ för att återställa moduler*
+*Visningsalternativ för att återställa moduler*
 
 När du har klickat på alternativet återställs status för moduler för alla valda elever. Modulerna som slutförs återställs inte.
 
