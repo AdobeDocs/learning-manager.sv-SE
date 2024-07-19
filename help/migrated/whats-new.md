@@ -1,10 +1,10 @@
 ---
-description: Läs mer om de nya funktionerna och förbättringarna i juli 2024-versionen av Adobe Learning Manager
+description: Läs om de nya funktionerna och förbättringarna i juli 2024-versionen av Adobe Learning Manager
 jcr-language: en_us
 title: Sammanfattning av nya funktioner
-source-git-commit: 7e3b19d29b9de23ea489c5651ef0aef1d4ec3005
+source-git-commit: b27bacab34c39dc99f72ff77819b89e16aca2d5f
 workflow-type: tm+mt
-source-wordcount: '2156'
+source-wordcount: '2218'
 ht-degree: 1%
 
 ---
@@ -12,42 +12,43 @@ ht-degree: 1%
 
 # Sammanfattning av nya funktioner {#new-features-summary}
 
-Läs mer om de nya funktionerna och förbättringarna i juli 2024-versionen av Adobe Learning Manager.
+Läs om de nya funktionerna och förbättringarna i juli 2024-versionen av Adobe Learning Manager.
 
-## Förbättring av instrumentpanelen för efterlevnad
+## Förbättring av efterlevnadstavlan
 
-### Vad är en instrumentpanel för efterlevnad? {#whatiscompliancedashboard}
+### Vad är en efterlevnadstavla? {#whatiscompliancedashboard}
 
-Med **[!UICONTROL Compliance Dashboard]** Adobe **Learning Manager** kan chefer övervaka och övervaka elevernas framsteg mot sina utbildningsmål. De kan kontrollera om teammedlemmarna håller deadlines och hänger med i sin inlärningsprocess, vilket hjälper till att säkerställa efterlevnad. Administratören kan konfigurera instrumentpanelen för efterlevnad och dela med cheferna.
+Med **[!UICONTROL Compliance Dashboard]** i **Adobe Learning Manager** kan chefer övervaka och övervaka elevernas framsteg mot utbildningsmålen. De kan kontrollera om teammedlemmarna håller tidsgränserna och håller sig à jour med utbildningsprocessen, vilket hjälper till att säkerställa efterlevnad. Administratören kan konfigurera efterlevnadstavlan och dela den med cheferna.
 
-Om du vill komma åt instrumentpanelen för efterlevnad i Admin-appen väljer du **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**.
+Välj **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]** för att öppna efterlevnadstavlan i Admin-appen.
 
-### Vad ändras i versionen?
+### Vad ändras i versionen
 
-Med den förbättrade instrumentpanelen för efterlevnad kan administratörer och chefer visa kurser, utbildningsvägar eller certifieringar av efterlevnadstyp som är relaterade till deras specifika kategori (till exempel försäljning, marknadsföring och juridik). Administratörer kan kategorisera anpassade efterlevnadskurser i specifika kategorier. Anpassade efterlevnadskategorier drivs av katalogetiketter.  Administratörer kan skapa en kursinstrumentpanel och dela den med chefer. Chefer kan sedan visa samma instrumentpanel på sina respektive instanser. Förbättringar har också gjorts i användargränssnittet för instrumentpanelen för efterlevnad och e-postmeddelanden om efterlevnad.![](assets/compliance-dashboard-admin.png)
+Med den förbättrade efterlevnadstavlan kan administratörer och chefer se efterlevnadskurser, utbildningsvägar eller certifieringar som gäller deras specifika kategori (till exempel försäljning, marknadsföring och juridisk information). Administratörer kan kategorisera anpassade efterlevnadskurser i specifika kategorier. Anpassade kompatibilitetskategorier drivs av katalogetiketter.  Administratörer kan skapa en kursinstrumentpanel och dela den med chefer. Chefer kan sedan visa samma kontrollpanel i sina respektive instanser. Förbättringar har också gjorts i användargränssnittet på efterlevnadstavlan och i e-postmeddelanden om efterlevnad.
+![](assets/compliance-dashboard-admin.png)
 
 #### Arbetsflöde
 
-Här är stegen för att använda den förbättrade instrumentpanelen för efterlevnad:
+Så här använder du den förbättrade efterlevnadstavlan:
 
 | Roll | Uppgift | Ytterligare information |
 |---|---|---|
-| Admin | Skapa anpassade efterlevnadsetiketter | Mer information finns i den här artikeln[: Skapa anpassade efterlevnadsetiketter](/help/migrated/administrators/feature-summary/reports.md#compliance-dashboard) |
-| Författare | Lägg till dessa etiketter i kursen | Mer information finns i den här artikeln [Lägga till efterlevnadsetiketter i en kurs/utbildningsväg/certifiering](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification) . |
-| Admin | Skapa instrumentpanelen med efterlevnadskursen och dela den med chefer | Mer information finns i den här artikeln [: Skapa och dela en instrumentpanel](/help/migrated/administrators/feature-summary/reports.md#create-and-share-a-compliance-dashboard) för efterlevnad. |
-| Chef | Visa instrumentpanelen för efterlevnad | Mer information finns i den här artikeln [Efterlevnadsstatus](/help/migrated/managers/feature-summary/manager-dashboard.md#compliance-status) |
+| Admin | Skapa anpassade kompatibilitetsetiketter | Se den här artikeln [Skapa anpassade kompatibilitetsetiketter](/help/migrated/administrators/feature-summary/reports.md#compliance-dashboard) för mer information |
+| Författare | Lägg till de här etiketterna i kursen | Se den här artikeln [Lägg till kompatibilitetsetiketter till kurs/utbildningsväg/certifiering](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification) för mer information. |
+| Admin | Skapa instrumentpanelen med efterlevnadskursen och dela den med chefer | Se den här artikeln [Skapa och dela en efterlevnadstavla](/help/migrated/administrators/feature-summary/reports.md#create-and-share-a-compliance-dashboard) för mer information. |
+| Chef | Visa efterlevnadstavlan | Se den här artikeln [Efterlevnadsstatus](/help/migrated/managers/feature-summary/manager-dashboard.md#compliance-status) för mer information |
 
-## Förnyelse av användargränssnittet för elever
+## Modernisering av elevens användargränssnitt
 
 >[!IMPORTANT]
 >
->Det nya användargränssnittet för elever kommer att släppas i faser.
+>Det nya elevgränssnittet kommer att släppas i faser.
 
-Learner **UI** har uppdaterats med en mer elegant och modern design. Sidorna **[!UICONTROL Learner Home]**, **[!UICONTROL My Learning]**, **[!UICONTROL Catalog]** och **[!UICONTROL Course Overview]** landningssidorna får ett nytt och modernt utseende. Kurskorten har också fått en ny design för att visa detaljer på ett modernt sätt. Om du håller muspekaren över ett kurskort visas kursbeskrivning och publiceringsdatum.
+**Elevens användargränssnitt** har uppdaterats med en mer elegant och modern design. Startsidorna för **[!UICONTROL Learner Home]**, **[!UICONTROL My Learning]**, **[!UICONTROL Catalog]** och **[!UICONTROL Course Overview]** får ett nytt och modernt utseende. Kurskorten har också en ny design för att visa detaljer på ett modernt sätt. Om du håller pekaren över ett kurskort visas kursbeskrivningen och publiceringsdatumet.
 
 >[!NOTE]
 >
->Det förnyade användargränssnittet gäller endast för den integrerande layouten. Dessa ändringar stöds inte på mobilwebben eller i appen ännu och kommer att uppdateras i en framtida version.
+>Det omarbetade användargränssnittet gäller endast den uppslukande layouten. Dessa ändringar stöds inte på mobilwebben eller appen ännu och kommer att uppdateras i en framtida version.
 
 ![](assets/old-ui.png)
 _Gammalt användargränssnitt_
@@ -59,124 +60,124 @@ _Nytt användargränssnitt_
 
 **Modernisera utseende och känsla**
 
-De nya uppfräschade visuella elementen ligger i linje med moderna designtrender, vilket gör att produkten ser intuitiv och tilltalande ut. Detta inkluderar en ny toppannons, sidopanel och widgetar med modernt utseende.
+De nya, uppdaterade visuella elementen följer moderna designtrender och gör att produkten ser intuitiv och tilltalande ut. Detta inkluderar en ny masthead, sidopanel och moderna widgetar.
 
 **Förbättrad användarupplevelse**
 
-Deltagarna kommer nu att se en liknande kortvy på följande sidor: Startsida, Katalog, Min inlärning och Kursöversikt som erbjuder en enhetlig upplevelse.
+Eleverna kommer nu att se en liknande kortvy på följande sidor: Startsida , Katalog, Min utbildning och Sida med kursöversikt som erbjuder en enhetlig upplevelse.
 
-Se [startsidan](/help/migrated/learners/feature-summary/learner-home-page.md) för Learner för mer information.
+Gå till [elevens startsida](/help/migrated/learners/feature-summary/learner-home-page.md) om du vill ha mer information.
 
-**Ändringar av kurspubliceringsdatum**
+**Ändringar av datum för kursens publicering**
 
-Med den här förbättringen kommer publiceringsdatumen för LinkedIn- och Go1-kurser som importeras till Adobe Learning Manager att vara de faktiska publiceringsdatumen på LinkedIn och Go1. Du kan också se de faktiska publiceringsdatumen för LinkedIn- och Go1-kurserna i användargränssnittet. Visa [kurskort](/help/migrated/learners/feature-summary/learner-home-page.md#course-cards) för mer information.
+Med den här förbättringen blir publiceringsdatumen för LinkedIn- och Go1-kurser som importeras till Adobe Learning Manager de faktiska publiceringsdatumen på LinkedIn och Go1. Du kan även se de faktiska publiceringsdatumen för LinkedIn- och Go1-kurserna i användargränssnittet. Mer information finns i [kurskort](/help/migrated/learners/feature-summary/learner-home-page.md#course-cards).
 
-## Uppdateringar av icke-inloggade upplevelser
+## Uppdateringar av icke-inloggad upplevelse
 
-Med den icke-inloggade upplevelsen kan du skapa en realtidsupplevelse för icke-inloggade kunder. Detta fungerar som en målsida för deras marknadsföringskampanjer, vilket ger tillräckligt med information för att uppmuntra till registreringar.
+Med den icke-inloggade upplevelsen kan du skapa en realtidsupplevelse för kunder som inte är inloggade. Detta fungerar som en startsida för deras marknadsföringskampanjer och ger tillräckligt med information för att uppmuntra registreringar.
 
 ### Vad ändras i den här versionen
 
-Kunder kan köpa en premiumplan för att skapa dessa mycket skalbara icke-inloggade upplevelser. Den här icke-loggade [upplevelsen, som drivs av Training Data Access](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access), ger realtidsdata om platsgränser, upptagna platser, gränser för väntelistor och antal väntelistor med hjälp av Adobe Learning Manager API:er. Kunder kan använda dessa API:er för att erbjuda icke-inloggade elever sök- och filtreringsfunktioner och en fullständig kurssammanfattning. Mer information om API:erna finns i den här artikeln [Icke-inloggade API:er](/help/migrated/integration-admin/feature-summary/non-logged-in-apis.md) .
+Kunder kan köpa en premiumplan för att bygga upp den här mycket skalbara, icke-inloggade upplevelsen. Den här icke-loggade upplevelsen, som drivs av [Åtkomst till utbildningsdata](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access), ger realtidsdata om platsgränser, platser upptagna, väntelistegränser och väntelisteantal med Adobe Learning Manager API:er. Kunder kan använda dessa API:er för att erbjuda icke-inloggade elever sök- och filtreringsfunktioner och en fullständig kurssammanfattning. Läs den här artikeln [Icke-inloggade API:er](/help/migrated/integration-admin/feature-summary/non-logged-in-apis.md) om du vill ha mer information om API:erna.
 
 >[!NOTE]
 >
 >Kontakta supportteamet eller CSAM för att köpa premiumplanen.
 
-## Stöd för flera lagerhållningsenheter (SKU:er)
+## Stöd för flera lagringsenheter (SKU:er)
 
-Elever kan nu lägga till flera kurser, utbildningsvägar eller certifieringar i kundvagnen och köpa dem tillsammans.
+Elever kan nu lägga till flera kurser, utbildningsvägar eller certifieringar i vagnen och köpa dem tillsammans.
 
-### Vad ändras i versionen?
+### Vad ändras i versionen
 
-Tidigare kunde eleverna bara köpa en kurs i taget. I den här versionen av **Adobe Learning Manager** kan de köpa flera kurser, utbildningsvägar eller certifieringar samtidigt med hjälp av kundvagnen.
+Tidigare kunde eleverna bara köpa en kurs i taget. I den här versionen av **Adobe Learning Manager** kan de köpa flera kurser, utbildningsvägar eller certifieringar samtidigt med kundvagn.
 
-Den här funktionen är endast tillgänglig i elevapparna (befintligt användargränssnitt, nytt användargränssnitt för elever och mobil integrerande app).
+Den här funktionen är bara tillgänglig i elevapparna (befintligt användargränssnitt, nytt elevanvändargränssnitt och appen för uppslukande mobiler).
 
-Visa [kundvagn med flera artiklar i ALM](/help/migrated/learners/feature-summary/multi-item-cart.md)
+Visa [Flerartikelvagn i ALM](/help/migrated/learners/feature-summary/multi-item-cart.md)
 
 ## Stöd för HTML5-innehåll i Fluidic Player
 
-**Adobe Learning Manager** har nu stöd för att överföra HTML5-innehåll som en .zip fil till innehållsbiblioteket. När dessa filer har laddats upp kan de inkluderas som moduler i en kurs. Författare kan också definiera slutförandekriterier för HTML5-moduler i egen takt, vilket gör det möjligt att antingen fylla i markerade elever eller automatiskt slutföra dem vid start.
+**Adobe Learning Manager** stöder nu överföring av HTML5-innehåll som en .zip-fil till innehållsbiblioteket. När filerna har överförts kan de inkluderas som moduler i en kurs. Dessutom kan författare definiera slutförandekriterierna för HTML5-moduler i egen takt, så att antingen elevmarkerade slutföranden eller slutföranden kan ske automatiskt vid lanseringen.
 
 ### Vad ändras i den här versionen
 
-Adobe Learning Manager har nu stöd för HTML5-innehåll i kurser i egen takt. Författare kan lägga till HTML5-innehåll som en .zip-fil i innehåll i egen takt. Eleverna kan visa HTML5-innehållet i Fluidic Player. Med den nya funktionen kan eleverna nu markera kursen som slutförd direkt i Fluidic Player för kurser i egen takt. Se [Lägg till HTML5-filtyp i innehållsbiblioteket](/help/migrated/authors/feature-summary/content-library.md#add-html5-file-type-in-the-content-library) för mer information.
+Adobe Learning Manager stöder nu innehåll som stöds av HTML5 i kurser i egen takt. Författare kan lägga till HTML5-innehåll som en .zip-fil i innehåll de själva har skapat. Elever kan se HTML5-innehåll i Fluidic-spelaren. Med den nya funktionen kan elever nu markera kursen som slutförd direkt i Fluidic Player för kurser i egen takt. Mer information finns i [Lägg till filtypen HTML5 i innehållsbiblioteket](/help/migrated/authors/feature-summary/content-library.md#add-html5-file-type-in-the-content-library).
 
-Med den nya förbättringen kommer kursen med den externa länken automatiskt att markeras som slutförd när URL:en besöks, så länge författaren har ställt in slutförandekriterierna till det nya alternativet **[!UICONTROL On Launching content]**. Det nya alternativet **[!UICONTROL Completion Criteria]** har lagts till på sidan Aktivitetsmodul där författaren kan ställa in ifyllnadskriterier för de externa länkarna. Se [Lägg till HTML-länk i aktivitetsmodulen](/help/migrated/authors/feature-summary/courses.md#add-html-link-in-the-activity-module) för mer information.
+Med den nya förbättringen markeras kursen med den externa länken automatiskt som slutförd när URL:en besöks, förutsatt att författaren har angett slutförandevillkoren som det nya alternativet **[!UICONTROL On Launching content]**. Det nya alternativet **[!UICONTROL Completion Criteria]** har lagts till på sidan Aktivitetsmodul där författaren kan ange slutförandevillkor för de externa länkarna. Se länken [Lägg till HTML i aktivitetsmodulen](/help/migrated/authors/feature-summary/courses.md#add-html-link-in-the-activity-module) om du vill ha mer information.
 
 ![](assets/completion-criteria-activity-module.png)
-_Alternativ för slutförandekriterium-Aktivitetsmodul_
+_Slutförandekriterier, alternativ-aktivitetsmodul_
 
-## Försenade push-notiser för kurser i mobilappen
+## Kursens försenade push-meddelanden i mobilappen
 
-Eleverna kommer att få push-meddelanden när de missar en kursdeadline. Med den här nya förbättringen har eleverna nu möjlighet att antingen skjuta upp en påminnelse i 24 timmar eller bli påminda nästa vecka för varje försenad påminnelse de får. Detta gäller endast för försenade anmälningar om tidsfrist. Visa [Schemalägg push-meddelandet](/help/migrated/learners/feature-summary/user-notifications.md#schedule-the-push-notification)
+Elever får push-meddelanden när de missar en deadline för kursen. Med den här nya förbättringen har eleverna nu möjlighet att antingen sova på en påminnelse i 24 timmar eller bli påminda nästa vecka för varje försenad påminnelse de får. Det här gäller bara för meddelanden om försenade meddelanden. Visa [Schemalägg push-meddelandet](/help/migrated/learners/feature-summary/user-notifications.md#schedule-the-push-notification)
 
 ## API-ändringar i den här versionen
 
 ### API för sökning
 
-Sök-API:et innehåller följande ändringar:
+API:et för sökning innehåller följande ändringar:
 
-Elever kan söka efter taggar i katalogfilter med hjälp av API:et ```GET /search``` . Elever kan söka efter taggarna genom att välja ```tag``` som ett värde för ```filter.loTypes``` parameter.
+Elever kan söka efter taggar i katalogfilter med API:et ```GET /search```. Elever kan söka efter taggarna genom att välja ```tag``` som värde för parametern ```filter.loTypes```.
 
 **Exempel på curl**
 
 ```
-curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 5a858f23924f4feafa38ae8d6c4d97b6' 'https://example.com/primeapi/v2/search?page[limit]=10&query=Business&autoCompleteMode=true&filter.loTypes=tag&sort=relevance&filter.ignoreEnhancedLP=true&matchType=phrase&persistSearchHistory=true&stemmed=false&highlightResults=true'
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/search?page[limit]=10&query=Business&autoCompleteMode=true&filter.loTypes=tag&sort=relevance&filter.ignoreEnhancedLP=true&matchType=phrase&persistSearchHistory=true&stemmed=false&highlightResults=true'
 ```
 
-De nya filtren, tillgänglig plats, tillgänglig väntelista och tidsintervallfilter har lagts till i följande API:er: ```GET /search``` och `GET /learningObjects`.
+De nya filtren, tillgängliga platser, tillgängliga väntelistor och tidsintervallfilter har lagts till i följande API:er: ```GET /search``` och `GET /learningObjects`.
 
-De nya filtren `filter.session.includeEnrollmentDeadline` har lagts till i följande API.```GET /search```
+De nya filtren `filter.session.includeEnrollmentDeadline` har lagts till i följande API ```GET /search```.
 
-### API för konto
+### Konto-API
 
-Den nya kolumnen `custom_injections`, , och `complianceLabelDefaultID` har lagts till i API:et för att hämta kontodata för användarslutpunkten ```GET /account``` `showComplianceLabel`.
+Den nya kolumnen `custom_injections`, `showComplianceLabel` och `complianceLabelDefaultID` har lagts till i API:et ```GET /account``` för att hämta kontodata för användarslutpunkten.
 
-### API för lärobjekt
+### API för utbildningsobjekt
 
-Följande ändringar har gjorts i API:t för utbildningsobjekt i den här uppdateringen:
+Nedan visas de ändringar som gjorts i API för utbildningsobjekt i den här uppdateringen:
 
-Det nya svarets äldre författar-ID och annan information som läggs till under `authorDetails` i API:t `GET /learningObjects` . Dessutom har ett nytt filter, `filter.authors`, lagts till för att filtrera äldre författare och deras kurser.
+Det nya, äldre författar-ID:t för svaret och annan information har lagts till under `authorDetails` i API:t `GET /learningObjects`. Dessutom har ett nytt filter, `filter.authors`, lagts till för att filtrera äldre författare och deras kurser.
 
-Det nya attributet som anropas `effectivenessIndex` hjälper dig att få information om kursens effektivitet.
+Det nya attributet `effectivenessIndex` hjälper dig att få information om kurseffektivitet.
 
 **Exempel på curl**
 
 ```
 curl --location 'https://example.com/primeapi/v2/learningObjects/course%3A9790045?enforcedFields%5BlearningObject%5D=effectivenessData' \
 --header 'Accept: application/vnd.api+json' \
---header 'Authorization: oauth 598665ab5c8a99bea0e774d9faf7f3ca'
+--header 'Authorization: oauth <oauth_token>'
 ```
 
-Det nya svaret `whoShouldTake`, som ger information om vem som ska gå den här kursen, har lagts till i följande API:er: `POST /learningObjects/query`, `GET /learningObjects/{id}`, och `GET /learningObjects`.
+Det nya svaret `whoShouldTake`, som innehåller information om vem som ska delta i kursen, har lagts till i följande API:er: `POST /learningObjects/query`, `GET /learningObjects/{id}` och `GET /learningObjects`.
 
 **Exempel på curl**
 
 ```
-curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 28a83fb8c87579af8ebc4434cc80f0c0' 'https://example.com/primeapi/v2/learningObjects/course%3A1131255' 
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/learningObjects/course%3A1131255' 
 ```
 
-Det nya svaret `waitlistLimit`, som ger information om begränsning av väntelista, har lagts till i API:et `GET /learningObjects` .
+Det nya svaret `waitlistLimit`, som innehåller information om väntelistebegränsning, har lagts till i API:et `GET /learningObjects`.
 
-Det nya svaret `count` , som ger det totala antalet inlärningsobjekt, har lagts till i API: `GET/ learningObjects` erna och `POST/ learningObjects/query`.
+Det nya svaret `count` som ger det totala antalet utbildningsobjekt har lagts till i API:erna `GET/ learningObjects` och `POST/ learningObjects/query`.
 
-De nya svaren, `catalogFieldId` och `fieldValueId` har lagts till under `catalogLabels` i `GET/ learningObjects` API.
+De nya svaren `catalogFieldId` och `fieldValueId` har lagts till under `catalogLabels` i `GET/ learningObjects` API.
 
-Elever kan hämta katalogetikettvärdena i API:et `GET /preview/learningObjects`.
+Elever kan få katalogetikettsvärden i API:t `GET /preview/learningObjects`.
 
-### Nytt API för att få antal på marknadsplatsen
+### Nytt API för att få marknadsplatsantal
 
-I den här versionen har ett nytt API `GET /search/marketplace/count` lagts till. Detta hjälper dig att få räkningen på de tillgängliga inlärningsobjekten på innehållsmarknaden.
+I den här versionen har ett nytt API, `GET /search/marketplace/count`, lagts till. Detta hjälper dig att se hur många utbildningsobjekt som är tillgängliga på Content Marketplace.
 
 **Exempel på curl**
 
 ```
-curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth d8631c7b0e3b5d2ae00422ef30aaecfc' 'https://example.com/primeapi/v2/search/marketplace/count?query=course'
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/search/marketplace/count?query=course'
 ```
 
-**Exempel på svar**
+**Exempelsvar**
 
 ```
 {
@@ -184,11 +185,11 @@ curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization:
 }
 ```
 
-### API för instans av utbildningsobjekt
+### Instans-API för utbildningsobjekt
 
-Följande ändringar har gjorts i API:t för inlärningsobjektsinstansen i den här uppdateringen:
+Nedan visas de ändringar som har gjorts i instans-API för utbildningsobjekt i den här uppdateringen:
 
-I den här versionen har en ny nyckel med namnet `gamificationEnabled` lagts till i API:et för inlärningsobjektsinstansen `GET /learningObjects/{loId}/instances/{loInstanceId}`.
+I den här versionen har en ny nyckel med namnet `gamificationEnabled` lagts till i utbildningsobjektets instans-API `GET /learningObjects/{loId}/instances/{loInstanceId}`.
 
 **Exempel på curl**
 
@@ -196,7 +197,7 @@ I den här versionen har en ny nyckel med namnet `gamificationEnabled` lagts til
 curl --location 'http://example.com/acapapi/primeapi/v2/learningObjects/learningProgram:12756/instances/learningProgram:12756_15644' 
 ```
 
-Det nya `gamificationSettings` attributet till ovanstående API för att få information om Gamification-inställningarna. Till exempel: `GET /learningObjects/{loId}/instances/{loInstanceId}/gamificationSettings`.
+Det nya `gamificationSettings`-attributet till ovanstående API för att få information om spelifieringsinställningarna. Exempel: `GET /learningObjects/{loId}/instances/{loInstanceId}/gamificationSettings`.
 
 **Exempel på curl**
 
@@ -204,34 +205,43 @@ Det nya `gamificationSettings` attributet till ovanstående API för att få inf
 curl --location 'http://example.com/acapapi/primeapi/v2/learningObjects/learningProgram:103852/instances/learningProgram:103852_103526/gamificationSettings'
 ```
 
-Det nya `leaderboard` attributet till ovanstående API för att få information om Gamification-inställningarna. Till exempel: `GET /learningObjects/{loId}/instances/{loInstanceId}/leaderboard`.
+Det nya `leaderboard`-attributet till ovanstående API för att få information om spelifieringsinställningarna. Exempel: `GET /learningObjects/{loId}/instances/{loInstanceId}/leaderboard`.
 
 **Exempel på curl**
 
 ```
 curl --location 'https://example.com/primeapi/v2/learningObjects/learningProgram:106339/instances/learningProgram:106339_105775/leaderboard' \
 --header 'Accept: application/vnd.api+json' \
---header 'Authorization: oauth de4b5ee6efdd42375130db27ff503dd4'
+--header 'Authorization: oauth <oauth_token>'
 ```
 
-### Ändringar av offsetgränser
+### Ändring i sorteringsbeteende för datum och -datum
 
-För att förbättra systemprestanda och hantera resursutnyttjande mer effektivt har Adobe tagit bort höga förskjutningsvärden i slutpunkten GET /users för både ADMIN- och LEARNER-omfången. Vi rekommenderar att du använder jobb-API:et för att hämta posterna med ett förskjutningsvärde.
+API:er som stöder sortering efter datum och -datum visar resultat baserat på publiceringsdatumet för alla utbildningsobjekt, förutom utbildningsväg. Utbildningsvägen kommer fortfarande att visas baserat på datumet **effectiveModified**. Den här ändringen visas i följande API:er:
 
-### Inaktuella API:er
+* GET /learningObjects
+* GET/sökning
+* POST /learningObjects/query
+* POST /search/query
 
-Visa [API-utfasningar i Adobe Learning Manager](/help/migrated/api-deprecations-list.md) för en kumulativ lista över alla inaktuella API:er i produkten.
+### Ändringar av förskjutningsgränser
+
+För att förbättra systemprestanda och hantera resursutnyttjande mer effektivt har Adobe utfasat höga motvärden i slutpunkten GET/användare för både ADMIN- och ELEVER-omfång. Vi rekommenderar att du använder Jobb-API:et för att hämta poster med ett motvärde.
+
+### Föråldrade API:er
+
+Visa [API-borttagningar i Adobe Learning Manager](/help/migrated/api-deprecations-list.md) om du vill ha en kumulativ lista över alla inaktuella API:er i produkten.
 
 ## Ändringar i rapporteringen
 
-### Instrumentpanel för efterlevnad
+### Efterlevnadstavla
 
-I den här versionen har rapporten Instrumentpanel för efterlevnad två nya kolumner:
+I den här versionen har efterlevnadstavlans rapport två nya kolumner:
 
 * Status
 * Typ av krav
 
-Detta är ett tillägg till de redan befintliga kolumnerna:
+Detta gäller utöver de befintliga kolumnerna:
 
 * Användarnamn
 * Mejladress till användare
@@ -242,99 +252,99 @@ Detta är ett tillägg till de redan befintliga kolumnerna:
 * Slutförandedatum (tidszonen UTC)
 * Status %
 
-### Rapport om träning
+### Utbildningsrapport
 
-Träningsrapporten i Admin > Reports > anpassade rapporter **och jobb-API:** et **brukade ha kolumner som kallades** Skill(s)**och** Tag(s)**.********** Dessa kolumner har nu bytt namn till **Färdigheter** och **Taggar**.
+Utbildningsrapporten i **Admin** > **Rapporter** > **Anpassade rapporter** och **Jobb-API** brukade ha kolumner som kallas **Kompetenser** och **Taggar**. Kolumnerna har nu bytt namn till **Kompetenser** och **Taggar**.
 
-### Rapport om innehållsgranskning
+### Granskningsrapport för innehåll
 
-I den här versionen innehåller rapporten **[!UICONTROL Content Audit Trail]** nu följande nya attribut i kolumnen Ändringstyp:
+I den här versionen innehåller **[!UICONTROL Content Audit Trail]**-rapporten nu följande nya attribut i kolumnen för ändringstyp:
 
 * Lägg till användargrupp
 * Ta bort användargrupp
-* Lägg till anpassad etikett
+* LÄGG TILL ANPASSAD ETIKETT
 * Ta bort anpassad etikett
 * Lägg till delad katalog
 * Ta bort delad katalog
 * Uppdatering av delad katalog
 
-## Bugg åtgärdad i den här uppdateringen
+## Fel åtgärdat i den här uppdateringen
 
-**Inlämning av aktivitet**
+**Aktivitetsöverföring**
 
-* Det går inte att ladda upp en fil igen till modulen för aktivitetssändning med ett fel 500 i nätverksanropet.
+* Försök att överföra en fil på nytt till modulen för aktivitetsöverföring misslyckas med felet 500 i nätverksanropet.
 
-**Application Programming Interface**
+**API**
 
 * Det går inte att skapa ett Connect VC-möte om flera instruktörer har samma e-postadress.
-* När du har registrerat dig för en utbildningsväg visar MS Teams VC en felaktig URL på översiktssidan.
-* Den försignerade URL:en för användarrapporten som tillhandahålls som en del av jobb-API-svaret upphör att gälla efter sex timmar.
-* När du genererar en inskrivningsrapport för en kurs visas ett felaktigt kursnamn i kolumnen Kursnamn.
-* Migreringsarbetaren misslyckas med att skicka det unika lo-ID:t när han eller hon anropar bulk-API:et för kursen, men id:t tas bort.
-* När en kurs ingår i en specifik katalog som en användare har åtkomst till (medan standardkatalogen är inaktiverad), trots inställningen som hindrar oregistrerade elever från att se kursen, kan du fortfarande hämta kursens metadata via learningobject/id-slutpunkten.
+* Efter registrering till utbildningsvägen visar MS Teams VC en felaktig URL på sidan Översikt.
+* Den försignerade URL som användarrapporten tillhandahåller som en del av Job API-svaret upphör att gälla efter sex timmar.
+* När du genererar en registreringsrapport för en kurs visar kolumnen Kursnamn ett felaktigt kursnamn.
+* Migreringsarbetaren kan inte skicka det unika logg-ID:t när API:t anropas för kursen, men ID:t tas bort.
+* När en kurs inkluderas i en specifik katalog som en användare har åtkomst till (medan standardkatalogen är inaktiverad), trots inställningen som förhindrar avregistrerade elever från att visa kursen, kan du fortfarande hämta kursens metadata via utbildningsobjektet/ID-slutpunkten.
 * Kunskapsfiltret fungerar inte som förväntat när skillname har kommatecken i namnet i API:et GET /learningObject.
-* Det finns inkonsekvens i tidsstämpelmetadata för filen i datakvarhållningsarbetaren för SFTP.
-* Om en anslutningsapp tas bort och konfigureras om verkar projektets migreringsstatus vara stängd.
-* Träningsrapporten har &quot;Tag(s)&quot; som kolumnrubrik i stället för &quot;Tags&quot;.
-* Exporten av Commerce-anslutningsprogrammet misslyckas om katalogen är inaktiverad och om någon av de exporterade kurserna bara är en del av den inaktiverade katalogen.
+* Det finns inkonsekvens i tidsstämpelmetadata för filen i datalagringsarbetaren för SFTP.
+* Om en anslutning tas bort och konfigureras om verkar projektmigreringsstatusen vara stängd.
+* Utbildningsrapporten har &quot;Tagg(er)&quot; som kolumnrubrik i stället för &quot;Taggar&quot;.
+* Export av Commerce-kopplingen misslyckas om katalogen är inaktiverad och om någon av de exporterade kurserna bara är en del av den inaktiverade katalogen.
 
-**Intygande**
+**Certifiering**
 
-* Ibland misslyckas det att registrera en användare på nytt för en återkommande certifiering.
+* Ibland misslyckas omregistrering av en användare till en återkommande certifiering.
 
 **Anpassad roll**
 
-* I vissa fall, när en anpassad administratör försöker byta till en instruktörsroll, visas fel 403 förbjudet.
+* I vissa fall när en anpassad administratör försöker växla till en instruktörsroll visas inte Fel 403.
 
-**E-postmall och avisering**
+**E-postmall och meddelande**
 
-* När en session har avbrutits skickas inte e-postmeddelandena till den sista uppsättningen lärare när lärarna tas bort från sessionen.
-* Organisatören får inga e-postmeddelanden för MS Teams efter att ha skapat en virtuell instruktörsledd utbildning. Först efter att kursen är publicerad och e-postmallar är aktiverade utlöses e-postmeddelandena.
-* Ibland består en e-postmall av ett felaktigt datumformat och översättning.
+* E-postmeddelanden skickas inte till den sista uppsättningen instruktörer när instruktörerna tas bort från sessionen när en session avbryts.
+* Organisatören får inga e-postmeddelanden om MS Teams efter att ha skapat en virtuell instruktörsledd utbildning. E-postmeddelanden aktiveras först när kursen har publicerats och e-postmallar har aktiverats.
+* Ibland består en e-postmall av ett felaktigt datumformat och en felaktig översättning.
 
 **Elev**
 
-* När en elev är inskriven i flera instanser av en kurs och du laddar ner närvarorapporten innehåller rapporten felaktig information.
-* En användare kan se en annan användares privata inlägg om de läggs till i en offentlig händelse.
-* I vissa fall kan du inte avregistrera elever från en certifiering. Ett felmeddelande visas när du försöker avregistrera dig.
+* När en elev är registrerad i flera instanser av en kurs och du hämtar närvarorapporten innehåller rapporten felaktig information.
+* En användare kan visa en annan användares privata inlägg om de läggs till i en offentlig story.
+* I vissa fall kan du inte avregistrera elever från en certifiering. Ett felmeddelande visas vid försök att avregistrera.
 * En certifiering markeras som slutförd även efter att en administratör har markerat den som slutförd efter att ha valt endast en kurs.
 * En administratör kan inte markera en VC som slutförd om sessionens sluttid ändras till ett tidigare datum.
-* Rapporten Sessionsnärvaro visas som &quot;Ej närvarande&quot; för elever som står på en väntelista.
+* Sessionens närvarorapport visas som &quot;Närvarat inte&quot; för elever som finns på väntelistan.
 
-**App för elever**
+**Elevapp**
 
-* När du har laddat ner kursanteckningarna som PDF visas anteckningarna slumpmässigt. De följer inte ordern.
+* När du har hämtat kursanteckningarna som PDF visas anteckningarna slumpmässigt. De följer inte ordningen.
 
 **Utbildningsväg**
 
-* När du har valt en färdighet i en utbildningsväg visas inte listrutan som förväntat när du markerar textfältet.
+* När du har valt en kompetens i en utbildningsväg visas inte listrutan som förväntat när du väljer textfältet.
 * I vissa fall kan du inte ta bort kunskaper från en utbildningsväg.
 
 **Utbildningsprogram**
 
-* Om ett flexibelt utbildningsprogram har många kurser slutförs inte utbildningsplanen även om en administratör har markerat den som slutförd.
-* Kolumnen last_modified_by i registreringsrapporten uppdateras inte när en elev byter instans.
+* Om ett flexibelt utbildningsprogram har många kurser slutförs inte utbildningsplanen även efter att en administratör har godkänt den som slutförd.
+* Kolumnen last_modified_by i registreringsrapporten uppdateras inte när en elev ändrar instanser.
 
 **Rapport**
 
-* I vissa fall kan en administratör inte exportera träningsrapporten.
-* När ett SCORM-innehåll innehåller frågor eller svar som är längre än 32 767 tecken kan du inte ladda ner kursquizrapporten i Excel.
-* När du har valt Återställ Gamification återställs inte datumet för uppnådd nivå.
+* I vissa fall kan en administratör inte exportera utbildningsrapporten.
+* Om ett SCORM-innehåll innehåller frågor eller svar som överskrider 32 767 tecken kan du inte hämta frågeformulärsrapporten för kursen i Excel.
+* När du har valt Återställ spelifiering återställs inte datumet för uppnådd nivå.
 
-**Söka**
+**Sök**
 
-* För närvarande, efter att ha exporterat alla användargrupper, finns även borttagna användargrupper i utdata.
-* På grund av tillfälliga sökproblem kan du inte söka efter en certifiering.
+* När alla användargrupper har exporterats visas för närvarande borttagna användargrupper även i utdata.
+* På grund av återkommande sökproblem kan du inte söka efter en certifiering.
 
 ## Känt problem i den här versionen
 
-Den mobila offlinespelaren läser inte in HTML5-innehållet.
+Mobile Offline-spelaren läser inte in HTML5-innehållet.
 
 ## Systemkrav
 
-Visa [systemkrav för](/help/migrated/system-requirements.md) Adobe Learning Manager.
+Visa [Systemkrav för Adobe Learning Manager](/help/migrated/system-requirements.md).
 
-## Tidigare versioner av Adobe Learning Manager
+## Tidigare utgåvor av Adobe Learning Manager
 
-* [Version från mars 2024](/help/migrated/whats-new-march-2024.md)
-* [Version från november 2023](/help/migrated/whats-new-november-2023.md)
+* [Marsversionen 2024](/help/migrated/whats-new-march-2024.md)
+* [November 2023-utgåvan](/help/migrated/whats-new-november-2023.md)
