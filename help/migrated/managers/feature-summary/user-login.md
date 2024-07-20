@@ -3,14 +3,13 @@ description: Användaren loggar in som chef i Learning Manager.
 jcr-language: en_us
 title: Användarinloggning
 contentowner: manochan
-source-git-commit: 7f34a1781e009b8255530111e3cbec4df3ed28c1
+exl-id: 6e0c00fd-7964-43d9-ba95-3617dbc14f0f
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%
 
 ---
-
-
 
 # Användarinloggning
 
@@ -18,7 +17,7 @@ Användaren loggar in som chef i Learning Manager.
 
 När du använder Adobe Learning Manager för första gången måste du skapa ditt konto genom att följa stegen nedan:
 
-1. Starta Adobe Learning Manager med hjälp av den säkra länken du fick via välkomstmeddelandet från administratören.
+1. Starta Adobe Learning Manager med hjälp av den säkra länken som du fick via ett välkomstmeddelande från administratören.
 
    Inloggningsskärmen visas.
 

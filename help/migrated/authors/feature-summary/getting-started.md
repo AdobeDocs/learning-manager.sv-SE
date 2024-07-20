@@ -1,7 +1,7 @@
 ---
 jcr-language: en_us
 title: Komma igång som författare
-description: Gå igenom de viktigaste redigeringsfunktionerna i Adobe Learning Manager på sidan Komma igång.
+description: Använd Kom igång -sidan för att gå igenom de viktigaste redigeringsfunktionerna i Adobe Learning Manager.
 contentowner: manochan
 source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
 workflow-type: tm+mt

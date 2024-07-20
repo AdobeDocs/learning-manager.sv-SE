@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## Nyheter i den här versionen
 
-Visa [Nyheter i Adobe Learning Manager](/help/migrated/whats-new.md) för mer information.
+Mer information finns i [Nyheter i Adobe Learning Manager](/help/migrated/whats-new.md).
 +++
 
 +++Uppdatering 95: November 2023-versionen av Adobe Learning Manager
@@ -38,7 +38,7 @@ Visa [Nyheter i Adobe Learning Manager](/help/migrated/whats-new.md) för mer in
 
 ## Nyheter i den här versionen
 
-Visa [Nyheter i Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/whats-new-november-2023) för mer information.
+Mer information finns i [Nyheter i Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/whats-new-november-2023).
 +++
 
 +++Uppdatering 94
@@ -67,7 +67,7 @@ I den här versionen av Adobe Learning Manager introducerar vi flerregistrering 
 
 ### Borttagning av Exavault-anslutning
 
-Denna version av Adobe Learning Manager kommer att innehålla en ny anslutning som kommer att använda AWS Transfer familjs SFTP-protokoll.
+Den här versionen av Adobe Learning Manager kommer att innehålla en ny anslutning som använder SFTP-protokollet för AWS Transfer-familjen.
 
 Mer information finns i [Nyheter i juli 2023-versionen av Adobe Learning Manager](/help/migrated/whats-new-2023-july.md).
 +++
@@ -76,11 +76,11 @@ Mer information finns i [Nyheter i juli 2023-versionen av Adobe Learning Manager
 
 **Utgivningsdatum:** 23 juni 2023
 
-**Fel som är åtgärdade i den här uppdateringen**
+**Fel har åtgärdats i den här uppdateringen**
 
 * När du har slutfört en modul utlöses inte Grade API automatiskt, vilket resulterar i att den gröna bockmarkeringen inte visas som förväntat i användargränssnittet.
 * När du har slutfört några moduler på en utbildningsväg eller ett certifikat visas inte den gröna bockmarkeringen som indikerar att slutförandet lyckades som förväntat.
-* Adobe Learning Manager startar inte som förväntat efter att en användar-CSV med felaktiga fält har laddats upp.
+* Adobe Learning Manager startar inte som förväntat efter att en användar-CSV med felaktiga fält har överförts.
 * Ett varningsmeddelande om hur du kontaktar administratören visar också andra e-postadresser.
 * Alla utmärkelsetecken som en elev tjänat in visas inte i svaret.
 * Under användarregistreringen måste ett användarnamn med &quot; &quot; accepteras.
@@ -104,7 +104,7 @@ Mer information finns i [Nyheter i juli 2023-versionen av Adobe Learning Manager
 
 ### Fel som är åtgärdade i den här uppdateringen
 
-* Play Butikens mobilappsbeskrivning Adobe Learning Manager säger felaktigt att en elev kan koppla från en kurs.
+* Play Butikens beskrivning av Adobe Learning Manager-mobilappen säger felaktigt att en elev kan koppla från en kurs.
 * Det uppstod problem när du migrerade innehåll (module_version.csv och course_module.csv) från LinkedIn till Adobe Learning Manager.
 * Om ett konto är i inaktivt läge och skapades för mer än tre år sedan, tas alla användare av kontot bort med GDPR oavsett användarstatus.
 * När du ställer in väntelistegränsen på noll i en session i instruktörsappen och sparar sessionen visar användargränssnittet felaktigt Inte tillämpligt i stället för noll.
@@ -114,7 +114,7 @@ Mer information finns i [Nyheter i juli 2023-versionen av Adobe Learning Manager
 
 +++Uppdatering 90
 
-**Utgivningsdatum:** 04 april 2023
+**Utgivningsdatum:** 4 april 2023
 
 ### Fel som har åtgärdats i den här uppdateringen
 
@@ -123,7 +123,7 @@ SAML-inloggning misslyckas om SSO-inloggnings-URL:en innehåller entity_id.
 
 +++Uppdatering 89: Mars 2023-versionen av Adobe Learning Manager
 
-**Utgivningsdatum:** 01 april 2023
+**Utgivningsdatum:** 1 april 2023
 
 ### Nyheter i den här uppdateringen
 
@@ -131,15 +131,15 @@ SAML-inloggning misslyckas om SSO-inloggnings-URL:en innehåller entity_id.
 
 Flera förbättringar har gjorts av lärarledd utbildning (ILT). Viktiga förbättringar: möjlighet att filtrera klassrumssessioner baserat på plats, möjlighet att växla instanser (VILT) utan att förlora framsteg, en ny &quot;schemaläggningsassistent&quot; för att hantera konflikter vid bokning av instruktörer och klassrum, möjlighet att bifoga &quot;Kompetenser&quot; till instruktörer och välja instruktörer baserat på kunskaper.
 
-**Förbättringar av checklistan för observationer**:
+**Förbättringar av checklistan för observation**:
 
 Författare kan nu välja &quot;Manager&quot; och &quot;Store Manager&quot; som observatör för checklistor. Chefer kan visa och slutföra checklistorna i chefsgränssnittet utan att behöva växla roll till en instruktör. Ett meddelande skickas till en chef när en checklista har tilldelats honom/henne.
 
-**Använd valfri app/smartphone-kamera för att skanna QR-koder i Learning Manager**
+**Använd valfri app/smartphone-kamera för att skanna QR-koder för Learning Manager**
 
 Elever kan nu använda valfri QR-kodskanningsapp eller sin smartphone-kamera för att skanna de QR-koder som genereras av Learning Manager för registrering av kurser, slutförande och mycket mer.
 
-**Förbättrade rapporter**
+**Förbättrad rapportering**
 
 En ny rapport över instruktörsutnyttjande, rapport över utbildningsomgångar, rapport över arbetsstöd och andra rapporteringsförbättringar.
 
@@ -147,11 +147,11 @@ En ny rapport över instruktörsutnyttjande, rapport över utbildningsomgångar,
 
 Adobe Learning Manager stöder nu möjligheten att skapa hybridsessioner med handledarledd utbildning (ILT). Virtuella ILT-sessioner kan skapas med valfri platsinformation så att elever kan närvara vid sessionen personligen även om de är tillgängliga på platsen.
 
-**Bättre framstegsspårning för klassrums- och virtuell ILT**
+**Bättre framstegsspårning för klassrums- och virtuella ILT**
 
 Klassrums- och virtuella ILT-moduler ger nu möjlighet att rapportera en elevs quiz-status (godkänt eller underkänt) tillsammans med närvarostatusen. Därför kan både närvaro och frågesportframgång övervägas för att avgöra elevens framsteg.
 
-**Adobe Learning Manager-app för Microsoft Teams**
+**Adobe Learning Manager-program för Microsoft Teams**
 
 Den nya Adobe Learning Manager-appen på Microsoft Teams är utformad för att främja lärande i arbetsflödet och öka inlärningen i samhället. Elever kommer att kunna komma åt utbildningsinnehåll inom plattformen Microsoft Teams utan att behöva växla till en webbläsare. Kontakta din CSAM för betaversionen av Adobe Learning Manager-programmet på MS Teams.
 
@@ -167,7 +167,7 @@ Den nya Adobe Learning Manager-appen på Microsoft Teams är utformad för att f
 * I appen Författare överskrider titeln på kursen (om den är lång) sidgränserna när en kurs skapas.
 * Ibland läggs en kurs till, även om ingen författare har valts.
 
-**Rapporter för kontrollpanelen**
+**Rapporter från instrumentpanelen**
 
 * Verktygstips visas som bra när gränssnittsspråket är engelska, men ger ett konsolfel när gränssnittsspråket är annorlunda.
 * Byt namn på &quot;Obligatoriskt&quot; till &quot;Obligatoriskt&quot; i elevtavlan.
@@ -192,7 +192,7 @@ Den nya Adobe Learning Manager-appen på Microsoft Teams är utformad för att f
 
 * Namnet på kursen visas inte i widgeten Arbetsstöd.
 
-**Förlagsverksamhet**
+**Publicerar**
 
 * Modulbeskrivningen som lagts till i Adobe Captivate visas inte i Learning Manager när modulen publiceras i ALM.
 
@@ -207,7 +207,7 @@ Den nya Adobe Learning Manager-appen på Microsoft Teams är utformad för att f
 * En åtkomstpost skapas när en OAuth-uppdateringstoken genereras för borttagna användare.
 * LO API returnerar felaktigt loFormat, eftersom förarbetsmoduler övervägdes för att beräkna kurstypen tillsammans med kärninnehållet.
 
-**Kända problem i den här uppdateringen**
+**Kända fel i den här uppdateringen**
 
 * Knappen Dela i elevkatalogen fungerar inte som förväntat på Safari-webbläsaren, mobilappen och iPad MS Teams-appen.
 * Meddelanden visas inte på fliken Aktivitet när programmet har tagits bort från andra datorer.
@@ -217,7 +217,7 @@ Ingenting händer när du klickar på aviseringarna på fliken Aktivitet i progr
 * Användargränssnittsspråket i Adobe Learning Manager-programmet på MS Teams ändras ibland inte som förväntat när språket ändras.
 * Du kan inte interagera med det första meddelandet när fokus är inom iFrame (flikarna Hem och Katalog).
 
-**Begränsningar med Adobe Learning Manager-mobilappen**
+**Begränsningar för Adobe Learning Manager-mobilappen**
 
 * Visa offlineinnehåll.
 * Rutnäts-/listvy på sidan Katalog/Min utbildning.
@@ -247,7 +247,7 @@ Vi har optimerat bearbetningen av utbildningsplaner för stora konton. Genom att
 ## Fel som har åtgärdats i den här uppdateringen
 
 * En elev får inte e-postmeddelandet om annullering av session om CR/VC-modulen tas bort från den registrerade kursen.
-* Ändra GetNotificationData från GET till POST. Felet uppstod i det ursprungliga genomförandet. **IllegalArgumentException: huvudet för begäran är för stort**, som ledde till misslyckade aviseringar.
+* Ändra GetNotificationData från GET till POST. Den ursprungliga implementeringen genererade felet **IllegalArgumentException: Huvudet för begäran är för stort**, vilket ledde till misslyckade aviseringar.
 +++
 
 +++Uppdatering: 86
@@ -293,7 +293,7 @@ Du kan visa en rapport över alla återförsök och återbesök av en elev för 
 
 **API för modulåterställning**
 
-En administratör kan nu återställa en modul med hjälp av API:et för modulåterställning. Mer information finns i [API-referens för Adobe Learning Manager](https://captivateprime.adobe.com/docs/primeapi/v2/).
+En administratör kan nu återställa en modul med hjälp av API:et för modulåterställning. Mer information finns i [Adobe Learning Manager API-referens](https://captivateprime.adobe.com/docs/primeapi/v2/).
 
 **E-postmall**
 
@@ -324,9 +324,9 @@ För några e-postmallar kan du nu lägga till en förutsättning i mallen.
 
 **Ny kolumn**
 
-en ny kolumn, **unenrollmentAllowed**, har lagts till i course.xlsx. Hämta filen från den här handboken.
+En ny kolumn, **unenrollmentAllowed**, har lagts till i course.xlsx. Hämta filen från den här handboken.
 
-**LinkedIn-utbildningskontakt**
+**LinkedIn-utbildningskoppling**
 
 För Länkad i utbildningskontakt finns en ny kryssruta som introduceras där eleven kan avregistrera sig på sidan Filter. Mer information finns i [LinkedIn Learning Connector](/help/migrated/integration-admin/feature-summary/connectors.md).
 
@@ -371,11 +371,11 @@ För Länkad i utbildningskontakt finns en ny kryssruta som introduceras där el
 * Användare identifierades felaktigt när de gick med i Zoom/BJ VC-sessioner.
 +++
 
-+++Uppdatering 81 - november 2022-versionen av Adobe Learning Manager
++++Uppdatering 81 - november 2022-utgåvan av Adobe Learning Manager
 
-**Utgivningsdatum:** 05 november 2022
+**Utgivningsdatum:** 5 november 2022
 
-**Obs!** I den här versionen av Adobe Learning Manager kan användare med inaktiva konton inte längre komma åt sina konton via underdomäner. Du kommer åt kontona med hjälp av konto-ID:t eller genom att använda sidan acapindex.html och ange e-post-ID:t.
+**Obs!** Med den här versionen av Adobe Learning Manager kan användare med inaktiva konton inte längre komma åt sina konton via underdomäner. Du kommer åt kontona med hjälp av konto-ID:t eller genom att använda sidan acapindex.html och ange e-post-ID:t.
 
 ### Nyheter i den här versionen
 
@@ -387,9 +387,9 @@ November 2022-versionen av Adobe Learning Manager består av följande:
 * Anpassning av spelare
 * Personifiering av elev och chef
 
-Mer information finns i [Nyheter i november 2022-versionen av Adobe Learning Manager](/help/migrated/whats-new-2022-november.md).
+Mer information finns i [Nyheter i Adobe Learning Manager i november 2022-versionen](/help/migrated/whats-new-2022-november.md).
 
-**Obs!** Med november 2022-versionen av Adobe Learning Manager kommer Zoom att fasas ut [JWT-autentisering senast juni 2023](https://marketplace.zoom.us/docs/guides/auth/jwt/). Zoomanslutningen med JWT fortsätter därför att fungera till det angivna datumet, men vi rekommenderar att användarna skapar OAuth-appen Server-till-Server för att ersätta funktionaliteten i sina konton. Alla nya anslutningar har Zoom OAuth-autentisering som standard.
+**Obs!** I november 2022-versionen av Adobe Learning Manager kommer Zoom att ta bort [JWT-autentisering senast juni 2023](https://marketplace.zoom.us/docs/guides/auth/jwt/). Zoomanslutningen med JWT fortsätter därför att fungera till det angivna datumet, men vi rekommenderar att användarna skapar OAuth-appen Server-till-Server för att ersätta funktionaliteten i sina konton. Alla nya anslutningar har Zoom OAuth-autentisering som standard.
 
 ### Fel som är åtgärdade i den här uppdateringen
 
@@ -452,7 +452,7 @@ Mer information finns i [Nyheter i november 2022-versionen av Adobe Learning Man
 
 * Om du har en kurs som innehåller en modul med en förhandsgranskning och sedan använder ett API för att hämta resurserna från kursen, kommer svaret inte att innehålla några data från plats, contentZipUrl och contentStructureInfoUrl.
 * Felaktigt svar efter att en XAPI-begäran har skickats från Swagger-dokumentet där domännamnet är LearningManager.
-* I /boards/{id}/posts API-svar visas egenskapen &quot;post.attributes.myPoll&quot; som ett tomt objekt.
+* I API-svaret för /boards/{id}/posts visas egenskapen &quot;post.attributes.myPoll&quot; som ett tomt objekt.
 * I vissa fall är knappen Lägg till i kundvagn inaktiverad för icke-inloggade användare för vissa kurser eller utbildningsvägar.
 * Felaktig underdomän-URL på varumärkessidan.
 +++
@@ -461,7 +461,7 @@ Mer information finns i [Nyheter i november 2022-versionen av Adobe Learning Man
 
 **Utgivningsdatum:** 24 maj 2022
 
-**Problem som har åtgärdats i den här uppdateringen:**
+**Problem som har korrigerats i den här uppdateringen:**
 
 * Nya kurser respekterar inte sekvensen i Salesforce-programmet. Om du ändrar ordningsföljden visas inte kursen i avsedd ordning.
 * När du har ändrat inställningarna på den klassiska startsidan och sparat dem sparas inte ändringarna som förväntat. Detta händer ibland.
@@ -478,16 +478,16 @@ Produktteamet vidtar alla åtgärder för att säkerställa att din användning 
 
 Som en del av den här ändringen påverkas åtkomst-URL:erna för Learning Manager.
 
-Till exempel, om åtkomst-URL:en för ditt konto är `https://learningmanager.adobe.com/XYZ`, kommer den nya URL:en att `https://learningmanager.adobe.com/XYZ`.
+Om till exempel åtkomst-URL:en för ditt konto är `https://learningmanager.adobe.com/XYZ` kommer den nya URL:en att vara `https://learningmanager.adobe.com/XYZ`.
 
 Alla befintliga URL:er fortsätter att fungera.
 
-Slutför den här åtgärden genom att samarbeta med din organisations IT-avdelning. För mer information kan du kontakta oss på `learningmanagersupport@adobe.com`.
+Slutför den här åtgärden genom att samarbeta med din organisations IT-avdelning. Kontakta oss på `learningmanagersupport@adobe.com` om du vill ha mer information.
 +++
 
 +++Uppdatering 76
 
-**Utgivningsdatum:** den 20 april 2022
+**Utgivningsdatum:** 20 april 2022
 
 * Korrigeringar av produktterminologier i några instrumentpanelsrapporter.
 * Ett dubbelt snedstreck (&quot;//&quot;) i URL:en för en slutpunkt resulterade i valideringsfel.
@@ -511,7 +511,7 @@ Slutför den här åtgärden genom att samarbeta med din organisations IT-avdeln
 
 ### Översikt
 
-en [instans](https://learningmanagerapac.adobe.com/acapindex.html) Learning Manager kommer nu att ligga på AWS i Mumbai (ap-South-1). För kunder som använder den här Indien-instansen kommer användarens personligt identifierade information (PII) och användarens utbildningsposter endast att lagras i Indien-regionen.
+En [instans](https://learningmanagerapac.adobe.com/acapindex.html) av Learning Manager kommer nu att finnas på AWS i Mumbai (ap-South-1). För kunder som använder den här Indien-instansen kommer användarens personligt identifierade information (PII) och användarens utbildningsposter endast att lagras i Indien-regionen.
 
 ### Vad stöds
 
@@ -526,7 +526,7 @@ Adobe Learning Manager India-instansen är i nivå med andra instanser som EU:s 
 
 **Hur skiljer sig den här instansen i Mumbai från andra AWS-miljöer?**
 
-Det är ingen skillnad. Instansen i Mumbai är densamma som [AWS, USA](http://learningmanager.adobe.com/) eller [AWS](http://learningmanagereu.adobe.com/) instanser. Den här instansen finns i Indien och alla utbildningsposter och användardata finns kvar i Indien. Följande funktioner stöds inte i Indien-instansen:
+Det är ingen skillnad. Instansen i Mumbai är densamma som [AWS US](http://learningmanager.adobe.com/)- eller [AWS EU](http://learningmanagereu.adobe.com/)-instanser. Den här instansen finns i Indien och alla utbildningsposter och användardata finns kvar i Indien. Följande funktioner stöds inte i Indien-instansen:
 
 * Kreditkortsbetalning för köp av platser
 * Creative Cloud innehållskatalog
@@ -603,7 +603,7 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 
 * En instruktör kunde inte se elevens bidrag om inlämningens filnamn innehöll specialtecken. Det här är nu åtgärdat.
 
-**Rapportera**
+**Rapport**
 
 * En administratör kunde inte hämta rapporten över kursregistrering om den innehåller en elev som är indirekt registrerad för denna kurs via en flexibel utbildningsväg men som ännu inte har valt en instans för denna kurs i utbildningsvägen. Problemet har nu åtgärdats.
 * När rapporter ordnades om i instrumentpanelen för rapporter för administratörs- och chefsroller bevarades inte rapportens status. Problemet har nu åtgärdats.
@@ -621,7 +621,7 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 * Spelaren visade inget varningsmeddelande när användaren försökte hoppa moduler i en beställd kurs som hade AICC-typ av moduler. Det här är nu åtgärdat.
 * För vissa förvärvade kurser med videomoduler i fjärradministrerad LMS fungerar inte uppspelning för vissa användare. Problemet har åtgärdats nu.
 
-**Kontrollpanel för chef**
+**Chefens instrumentpanel**
 
 * En chef kunde inte exportera rapporten för sitt direkta team från chefens kontrollpanels sida för teamkunskaper. Problemet har nu åtgärdats.
 
@@ -655,9 +655,9 @@ Utgivningsdatum: 17 november 2021
 
 Learning Manager erbjuder efterlevnadstavla till alla administratörer och chefer. Chefer tycker att det är mycket användbart att följa hur deras teammedlemmar följer en viss utbildning. Samtidigt vill administratörer att alla chefer ska lägga till efterlevnadsutbildningar på sin kontrollpanel och spåra dem.
 
-I Learning Manager **Dela med chefer** Med arbetsflödet kan administratörer dela utbildning med chefer så att de kan läggas till i en chefs efterlevnadstavla. Chefer behöver alltså inte vidta några åtgärder och kan börja spåra efterlevnad omedelbart.
+I Learning Manager tillåter arbetsflödet **Dela med chefer** administratörer att dela utbildning med chefer så att de kan läggas till i en chefs efterlevnadstavla. Chefer behöver alltså inte vidta några åtgärder och kan börja spåra efterlevnad omedelbart.
 
-Mer information finns i  [**Dela utbildning med chefer**](../administrators/feature-summary/reports.md#share_training_managers).
+Mer information finns i [**Dela utbildning med chefer**](../administrators/feature-summary/reports.md#share_training_managers).
 
 ### Fel som är åtgärdade i den här uppdateringen
 
@@ -679,21 +679,21 @@ Utgivningsdatum: 28 oktober 2021
 ### Fel som är åtgärdade i den här uppdateringen
 
 * I vissa fall återspeglas inte information om en utbildningsväg i elevens betygsutdrag.
-* Texten i **Markera slutförande** dialogrutan uppdateras och visar att åtgärden är oåterkallelig.
+* Texten i dialogrutan **Markera slutförande** uppdateras för att återspegla att åtgärden är oåterkallelig.
 * I vissa fall returnerade API:t för utbildningsobjekt metadatafel.
 +++
 
 +++Uppdatering 69 - Oktober 2021-versionen av Learning Manager
 
-**Utgivningsdatum:** 09 oktober 2021
+**Utgivningsdatum:** 9 oktober 2021
 
 ### Utbildningsväg
 
-Inställningen **Oktober 2021-versionen av Adobe Learning Manager** introducerar konceptet utbildningsvägar.
+I versionen av Adobe Learning Manager **från** oktober 2021 introduceras konceptet utbildningsvägar.
 
 >[!NOTE]
 >
->Inställningen **Inställningar > Allmänt** sidan har ett nytt alternativ för att aktivera utökade funktioner i utbildningsvägar. Om det här alternativet är aktiverat kan du lägga till utbildningsvägar i en annan utbildningsväg. Du kan inte ändra alternativet när det har aktiverats.
+>Sidan **Inställningar > Allmänt** har ett nytt alternativ för att aktivera utökade funktioner för utbildningsvägar. Om det här alternativet är aktiverat kan du lägga till utbildningsvägar i en annan utbildningsväg. Du kan inte ändra alternativet när det har aktiverats.
 
 Utbildningsvägar ersätter vår befintliga funktion i utbildningsprogram. Tänk dig att utbildningsprogram får kraftfulla förbättringar utan att släppa befintliga funktioner. Dessutom profileras funktionen som en utbildningsväg.
 
@@ -714,7 +714,7 @@ Mer information finns i [***Nyheter i oktober 2021-versionen av Learning Manager
 ### Fel som är åtgärdade i den här uppdateringen
 
 * E-postmallar, till exempel Avregistrering från kurs, Avregistrering från utbildningsprogram eller Avregistrering från certifiering, återspeglar inte de senaste produktterminologierna enligt definitionen i CSV-filen. Nu kommer standardtexten i e-postmallar att stödja anpassade terminologier.
-* Användarspråket i Learning Manager stöds inte i arbetsflödet Publicera till Learning Manager. Om användarspråket är annorlunda sker Publicera till Learning Manager på engelska.
+* Användarspråket i Learning Manager stöds inte i arbetsflödet Publish to Learning Manager. Om användarspråket är annorlunda sker Publish till Learning Manager på engelska.
 * Om du lägger till många kataloger i en anpassad roll uppstår ett fel när du uppdaterar rollen. Nu utökas gränsen för antalet kataloger till 50 kataloger.
 * I vissa fall är utbildningar som har tagits bort fortfarande synliga i en katalog. Det här problemet uppstod bara i Admin-programmet och åtgärdas nu.
 * När chefsrollen ändras från en användare till en annan återspeglades chefsrollen från den tidigare användaren fortfarande i användargränssnittet. Det här är nu åtgärdat. Det här problemet fanns bara för externa användare och inte för interna användare.
@@ -779,14 +779,14 @@ Den här uppdateringen introducerar en ny instans av Azure.
 
 +++Uppdatering 66 - Augusti 2021-versionen av Learning Manager
 
-Inställningen **Augusti 2021** **utgivning av Adobe Learning Manager** fokuserar på att förbättra elevupplevelsen, rapportering och administrativa arbetsflöden. Några av högdagrarna:
+**Versionen av Adobe Learning Manager** från **augusti 2021** fokuserar på att förbättra elevupplevelsen, rapporteringen och de administrativa arbetsflödena. Några av högdagrarna:
 
-* **Content Marketplace:** Learning Manager erbjuder nu mer än 70000 kurser från olika områden, såsom teknik, hantering, ledarskap och så vidare.
-* **Förbättrat stöd för hjälpmedel:** Hjälpmedelsstödet för elevrollen förstärks via förbättrad tangentbordsnavigering, skärmläsarkapacitet och överensstämmelse med kontrastförhållanden.
-* **RTF-formatering:** Learning Manager erbjuder nu textredigering för beskrivningar i kurser, program, certifikat och arbetsstöd. Detta gör att användare kan ange beskrivningar i RTF-format, inklusive hyperlänkar, bilder och andra textformateringsalternativ, i motsats till vanlig text.
-* **Stjärngradering:** En elev kan nu betygsätta en kurs på en 5-gradig skala. En administratör kan välja mellan befintlig effektivitet eller 5-stjärnig.
-* **Badgr-integrering:** Elever kan nu auktorisera Learning Manager att automatiskt skicka utmärkelsetecken de har tjänat in i Learning Manager till sitt Badgr-konto, och därifrån kan de dela sina utmärkelsetecken i sina sociala nätverk.
-* **Exportera utbildningshändelser till Salesforce:** Learning Manager erbjuder nu möjligheten att exportera vissa specifika händelser i Learning Manager som nytt användartillägg, registrering och slutförande till en Salesforce-klient och tillhandahålla en möjlighet att länka dessa med lämpligt användarobjekt eller behörighetsobjekt i Salesforce.
+* **Content Marketplace:** Learning Manager erbjuder nu fler än 70000 kurser från olika domäner, till exempel teknik, hantering, ledarskap och så vidare.
+* **Förbättrat stöd för hjälpmedel:** Elevens hjälpmedelsstöd stärks genom förbättrad tangentbordsnavigering, skärmläsarkapacitet och överensstämmelse med kontrastförhållanden.
+* **RTF:** Learning Manager erbjuder nu textredigering för beskrivningar i kurser, program, certifikat och arbetsstöd. Detta gör att användare kan ange beskrivningar i RTF-format, inklusive hyperlänkar, bilder och andra textformateringsalternativ, i motsats till vanlig text.
+* **Stjärngradering:** En elev kan nu betygsätta en kurs på en skala med 5 punkter. En administratör kan välja mellan befintlig effektivitet eller 5-stjärnig.
+* **Badgr-integrering:** Elever kan nu auktorisera Learning Manager att automatiskt skicka utmärkelsetecken de har tjänat in i Learning Manager till sitt Badgr-konto, där de kan dela sina utmärkelsetecken i sina sociala nätverk.
+* **Exportera utbildningshändelser till Salesforce:** Learning Manager ger dig nu möjlighet att exportera vissa specifika händelser i Learning Manager, till exempel tillägg av nya användare, registrering och slutförande till en Salesforce-klient och ge möjlighet att länka dessa till rätt användarobjekt eller kontaktobjekt i Salesforce.
 
 Mer information finns i [***Nyheter och ändringar i augusti 2021-versionen av Learning Manager***](../whats-new.md).
 
@@ -812,7 +812,7 @@ Mer information finns i [***Nyheter och ändringar i augusti 2021-versionen av L
 * Möjlighet att återställa status för en kurs i ett utbildningsprogram och certifiering.
 * Om en CSV-fil innehåller aktiva fält med samma namn men med annan skiftlägeskänslighet skapas ett undantag i CSV-filen.
 
-**Annat**
+**Övrigt**
 
 * Alternativet att redigera poäng och kommentarer måste inaktiveras om ingen elev har valts eller om den valda elevens närvaro inte har angetts.
 * Värden i aktiva fält visas med små bokstäver i dialogrutan Redigera användare, även om användaren tidigare har lagt till värdena med stora bokstäver.
@@ -902,7 +902,7 @@ Utgivningsdatum: april 2021
 
 ### Fel som är åtgärdade i den här uppdateringen
 
-**Rapportera**
+**Rapport**
 
 * Om du efter att ha skapat en rapport söker efter en utfasad kurs kan du inte göra det.
 * Fel i en rapport sprids till andra. Till följd av detta ledde dessa rapporter till fel.
@@ -918,7 +918,7 @@ Utgivningsdatum: april 2021
 **Elevapp**
 
 * På sidan Certifieringsöversikt visar inte Extern certifiering den varaktighet som lagts till av en författare.
-* Lägg till alternativet **Alla** i filtret Kompetens.
+* Lägg till alternativet **Alla** i kompetensfiltret.
 * Elever fick flera sammandragsmeddelanden via e-post.
 * Antalet markerade rader motsvarar inte förväntningarna på en sida.
 
@@ -958,7 +958,7 @@ Utgivningsdatum: april 2021
 * Filer raderas från ftp om filerna uppdateras med samma namn.
 * Ett BlueJeans-evenemang stöder sidnumrering där antalet händelser är fler än 100.
 
-**Uppdatering av mobilapp 3.3 - mars 2021**
+**Uppdatering av mobilapp 3.3-mars 2021**
 
 Utgivningsdatum: 26 mars 2021
 
@@ -968,7 +968,7 @@ Captivate Learning Manager Mobile App update 3.3 introducerar en helt ny startsi
 
 Dessutom kan elever ladda ned sitt märke som PDF och en bild. Uppdateringen introducerar också ett popup-fönster med feedback, som gör att elever kan ge feedback om appen anonymt.
 
-Mer information finns i  [Enhetsprogram för Learning Manager](../learners/feature-summary/ipad-android-tablet-users.md).
+Mer information finns i [Enhetsappen för Learning Manager](../learners/feature-summary/ipad-android-tablet-users.md).
 
 Läs vidare och få veta mer.
 
@@ -1000,18 +1000,18 @@ Utgivningsdatum: 20 februari 2021
 * Importera användare från Salesforce-kontakter.
 * ... och många fler.
 
-Mer information finns i Nyheter i [Februari 2021-uppdateringen av Learning Manager](../whats-new.md).
+Mer information finns i Nyheter i uppdateringen av Learning Manager [februari 2021](../whats-new.md).
 
 ### Fel som är åtgärdade i den här uppdateringen {#bug-fixes}
 
 **Certifiering**
 
 * I vissa fall kunde en elev inte göra om ett försök till kurs, vilket ingår i en certifiering även om maximalt antal försök för kursen är inställt på oändligt. Problemet har nu åtgärdats.
-* I vissa fall kan en elev inte registrera sig för ett certifikat på grund av **Registrera** knappen inte är synlig som förväntat.
+* I vissa fall kan en elev inte registrera sig för ett certifikat eftersom knappen **Registrera** inte är synlig som förväntat.
 
 **Innehållsbibliotek**
 
-* Felaktig hjälp-URL på **Lägg till nytt innehåll** sidan. Rätt URL har uppdaterats.
+* Felaktig hjälp-URL på sidan **Lägg till nytt innehåll**. Rätt URL har uppdaterats.
 
 **Kurs**
 
@@ -1026,12 +1026,12 @@ Mer information finns i Nyheter i [Februari 2021-uppdateringen av Learning Manag
 **Administratör**
 
 * Kurser som är utfasade visas inte i sökresultaten som förväntat. Problemet har åtgärdats.
-* Administratören kunde inte söka efter utfasade kurser i **Administratörsapp** -> **Anpassade rapporter** -> **Excel-rapporter** -> **Kursrapporter**, som nu har åtgärdats.
+* Administratören kunde inte söka efter utfasade kurser i **Administratörsappen** -> **Anpassade rapporter** -> **Excel-rapporter** -> **Kursrapporter**, som nu har åtgärdats.
 
 * Att hämta en frågeformulärsrapport som Excel fungerar inte om filen innehåller elever som har slutfört utbildningarna före och efter innehållsuppdateringen. Problemet har åtgärdats.
 * En CSV-överföring misslyckas om de aktiva fälten innehåller specialtecken. Detta har åtgärdats.
 * I några få fall, när en elev gör ett frågeformulär som har skapats i Captivate, fångas inte svaren som de förväntas.
-* När du har skapat en prenumeration och försökt redigera prenumerationen kan du **Spara** och **Avbryt** knapparna visas inte som förväntat. Detta har åtgärdats.
+* När du har skapat en prenumeration och försökt redigera prenumerationen visas inte knapparna **Spara** och **Avbryt** som förväntat. Detta har åtgärdats.
 
 **Spelare**
 
@@ -1051,9 +1051,9 @@ Mer information finns i Nyheter i [Februari 2021-uppdateringen av Learning Manag
 
 * Vissa elever vars användarnamn innehåller specialtecken får inte e-postaviseringar som förväntat.
 * I den fördjupande vyn visas inte kommande VC-sessioner som förväntat i kalenderwidgeten.
-* I elevappen visas **Kompetens** filtret fungerade inte som förväntat. Problemet har åtgärdats.
+* Filtret **Kompetens** fungerade inte som förväntat i elevappen. Problemet har åtgärdats.
 
-**Search**
+**Sök**
 
 * I ett specifikt scenario kunde chefen inte söka efter en chefs användargrupp tidigare. Problemet har nu åtgärdats för rollen Chef.
 
@@ -1061,7 +1061,7 @@ Mer information finns i Nyheter i [Februari 2021-uppdateringen av Learning Manag
 
 * När du exporterar en användargruppsrapport som har fler än 500 användare matchar inte datavärdena och kolumnrubrikerna i rapporten, vilket nu är fastställt.
 * När administratören redigerar e-postsignaturer i e-postmallar och lägger till flera rader brukade han se html-taggar bara i administratörsgränssnittet. Problemet har åtgärdats nu.
-* in **Admin-programmet > Katalog > sök efter katalog**, du kan inte söka.
+* Du kan inte söka i **Admin App > Katalog > sök efter katalog**.
 
 **Användare**
 
@@ -1087,7 +1087,7 @@ Mer information finns i Nyheter i [Februari 2021-uppdateringen av Learning Manag
 
 * Vi har uppdaterat felmeddelandet som visas när autentiseringsuppgifterna för enkel inloggning har upphört att gälla.
 
-**API för Learning Manager**
+**Learning Manager-API**
 
 * GetLearningObject API returnerade felaktiga registreringsdata på grund av problem med cachelagring. Problemet har åtgärdats.
 * En VC-session visar nu mötets URL i fältet Plats i en mötesinbjudan.
@@ -1098,11 +1098,11 @@ Mer information finns i Nyheter i [Februari 2021-uppdateringen av Learning Manag
 
 ### Kända problem i den här uppdateringen {#known-issues}
 
-* När du använder **Varaktighet** filter i elevappen kanske innehållet och filtret inte är synkat om eleven använder något annat innehållsspråk och inte är en del av standardinstansen när det gäller registrering.
+* När du använder filtret **Varaktighet** i elevappen kanske innehållet och filtret inte är synkroniserade om eleven använder något annat innehållsspråk och inte är en del av standardinstansen när det gäller registrering.
 
 >[!NOTE]
 >
->Utbildningen &quot;**Varaktighet** och **Format**&quot; filter identifieras baserat på utbildningsinnehållet som är tillgängligt för standardinstansen och för kontots önskade språk.
+>Utbildningsfiltren **Varaktighet** och **Format** identifieras utifrån utbildningsinnehållet som är tillgängligt för standardinstansen och för kontots önskade språk.
 
 +++
 
@@ -1116,7 +1116,7 @@ Utgivningsdatum: 18 december 2020
 
 BlueJeans Events-anslutning kopplar Learning Manager- och BlueJeans-system för att automatisera datasynkronisering. Med den här anslutningen kan du:
 
-* **Konfigurera virtuella sessioner med BlueJeans Events:** Konfigurera en ny aktivitet i BlueJeans och konfigurera en VC-session i Learning Manager genom att välja lämplig BlueJeans-händelse. Datum- och tidsinformation hämtas automatiskt från BlueJeans-evenemangen.
+* **Konfigurera virtuella sessioner med BlueJeans-händelser:** Konfigurera en ny händelse i BlueJeans och konfigurera en VC-session i Learning Manager genom att välja lämplig BlueJeans-händelse. Datum- och tidsinformation hämtas automatiskt från BlueJeans-evenemangen.
 * **Automatisk synkronisering av slutförande av användare:** Med en automatiserad synkroniseringsprocess för slutförande av användare kan Learning Manager-administratören hämta slutförandeposter för BlueJeans-händelser automatiskt.
 
 Den här nya anslutningen kräver en separat uppsättning autentiseringsuppgifter för att konfigurera anslutningen.
@@ -1147,7 +1147,7 @@ Den här versionen fokuserar på följande:
 * LinkedIn Learning Enhancements
 * ... och många fler
 
-Mer information finns i  [***Nyheter i december 2020-versionen av Adobe Learning Manager***](../whats-new.md).
+Mer information finns i [***Nyheter i december 2020-versionen av Adobe Learning Manager***](../whats-new.md).
 
 ### Funktioner utan stöd i en uppslukande mobil upplevelse {#unsupportedfeaturesinmobileimmersiveexperience}
 
@@ -1185,8 +1185,8 @@ Utgivningsdatum: 23 september 2020
 
 **Innehållsbibliotek**
 
-* I innehållsbiblioteket tas inte innehållet i innehållshandboken bort när ett innehåll tas bort **Publicerat**-fliken. När du uppdaterar sidan visas inte längre det indragna innehållet.
-* När du skapar en innehållsmapp **Namn** fältet inte är markerat som obligatoriskt, vilket i själva verket är ett obligatoriskt fält.
+* Innehållet tas inte bort från fliken **Publicerat** i innehållsbiblioteket när ett innehåll tas bort. När du uppdaterar sidan visas inte längre det indragna innehållet.
+* När du skapar en innehållsmapp är fältet **Namn** inte markerat som obligatoriskt, vilket i själva verket är ett obligatoriskt fält.
 
 **Kundförfrågan**
 
@@ -1199,7 +1199,7 @@ Utgivningsdatum: 23 september 2020
 
 * Fel uppstod vid generering av elevens betygsutdrag på indonesiska.
 
-**Search**
+**Sök**
 
 * Du kan inte söka efter en specifik kurs. Detta har åtgärdats.
 
@@ -1213,7 +1213,7 @@ Utgivningsdatum: 25 augusti 2020
 
 Learning Manager har redan stöd för LinkedIn Learning-kurser på utbildningsplattformen. Nu kan elever gå sådan LinkedIn Learning-kurs i Learning Manager-mobilappen. Sök efter en kurs i enhetsappen och starta sedan kursen.
 
-Mer information finns i Gå på kurser från [***LinkedIn Learning***](../learners/feature-summary/ipad-android-tablet-users.md#linkedin).
+Mer information finns i Ta kurser från [***LinkedIn Learning***](../learners/feature-summary/ipad-android-tablet-users.md#linkedin).
 
 ### Push-meddelande om administratörsregistreringar {#pushnotificationforadminenrollments}
 
@@ -1259,12 +1259,12 @@ Den här versionen fokuserar på följande:
 * Ändringar i principer för datalagring
 * ... och många fler
 
-Mer information finns i  [***Nyheter i augusti 2020-versionen av Adobe Learning Manager***](../whats-new.md).
+Mer information finns i [***Nyheter i augusti 2020-versionen av Adobe Learning Manager***](../whats-new.md).
 
 ### Information om den här versionen {#notes}
 
 * Att generera ett elevintyg (~1 GB) tar mindre än 15 minuter.
-* I tidigare versioner av Learning Manager användes kolumnerna Quizpoäng och högsta quizpoäng för att ge poäng och maximala poäng i formatet 25/100. För att underlätta läsbarhet och analys exporteras quiz-poäng nu även som separata kolumner - **Quiz_score, Quiz_score_max, Highest_Quiz_score och Highest_Quiz_score_max**. Med hjälp av dem kan administratörer göra snabba beräkningar och analyser.
+* I tidigare versioner av Learning Manager användes kolumnerna Quizpoäng och högsta quizpoäng för att ge poäng och maximala poäng i formatet 25/100. För att förbättra läsbarhet och analys exporteras nu quiz-poäng som separata kolumner - **quiz-poäng, quiz_score_max, Highest_Quiz_score och Highest_Quiz_score_max**. Med hjälp av dem kan administratörer göra snabba beräkningar och analyser.
 
 ### Fel som är åtgärdade i den här uppdateringen {#bug-fixes-2}
 
@@ -1289,7 +1289,7 @@ Mer information finns i  [***Nyheter i augusti 2020-versionen av Adobe Learning 
 
 * Rapportfilterstatusen fungerar inte som förväntat när du försöker hämta en kontrollpanelrapport för certifiering.
 
-**Search**
+**Sök**
 
 * På katalogsidan för elever visas inga sökresultat när du försöker söka efter en kurs i dess anteckning.
 
@@ -1336,7 +1336,7 @@ Mer information finns i  [***Nyheter i augusti 2020-versionen av Adobe Learning 
 
 * Om du lägger till en borttagen elev i inmatningsrutan Välj elever och sedan aktiverar alternativet Inkludera data för borttagna elever i Avancerat när du genererar elevbetygsutdrag fungerar sidan oväntat.
 
-**Search**
+**Sök**
 
 * Du kan inte söka efter en kurs med dess anteckningar.
 
@@ -1353,7 +1353,7 @@ Mer information finns i  [***Nyheter i augusti 2020-versionen av Adobe Learning 
 
 **Meddelanden**
 
-* Om ett meddelande innehåller taggen `<a>`, meddelandet skapas inte som förväntat.
+* Om ett meddelande innehåller taggen `<a>` skapas inte meddelandet som förväntat.
 
 **Konto**
 
@@ -1367,7 +1367,7 @@ Mer information finns i  [***Nyheter i augusti 2020-versionen av Adobe Learning 
 
 ### Kända problem i den här uppdateringen {#known-issues-2}
 
-**Rapporter för kontrollpanelen**
+**Rapporter från instrumentpanelen**
 
 * När ett certifieringsprogram för utbildning raderas visar rapporten Aktiva utbildningar de kurser som finns i utbildningsprogrammet eller certifieringen, även om utbildningsprogrammet eller certifieringen inte har några registreringar.
 
@@ -1383,11 +1383,11 @@ Vi rekommenderar att du uppdaterar enhetsappen till den senaste versionen för a
 
 ### Nya och förbättrade funktioner {#newandenhancedfeatures}
 
-En administratör kan förmedla viktig information till alla användare av appen. Meddelanden kan vara av typen video eller bild eller ett enkelt textmeddelande. Med den här enhetsappen stöder vi nu meddelanden i enhetsappen. Ett nytt meddelande visas så snart appen har startats, så att eleverna inte missar viktig kommunikation som skickats av administratörerna. Elever kan läsa den direkt eller senare genom att gå till **Meddelanden** -fliken.
+En administratör kan förmedla viktig information till alla användare av appen. Meddelanden kan vara av typen video eller bild eller ett enkelt textmeddelande. Med den här enhetsappen stöder vi nu meddelanden i enhetsappen. Ett nytt meddelande visas så snart appen har startats, så att eleverna inte missar viktig kommunikation som skickats av administratörerna. Elever kan läsa den direkt eller senare genom att gå till fliken **Meddelanden**.
 
-När det finns något meddelande eller flera meddelanden, kan du se meddelandena i **Meddelanden** -sektionen.
+När det finns något meddelande eller flera meddelanden kan du se meddelandena i avsnittet **Meddelanden**.
 
-Tryck på för att se ett meddelande **Meddelanden**. Det senaste meddelandet visas på skärmen.
+Tryck på **Meddelanden** om du vill se ett meddelande. Det senaste meddelandet visas på skärmen.
 
 Om du vill se nästa meddelande trycker du på **Svep åt vänster för nästa**.
 
@@ -1395,7 +1395,7 @@ Om du vill se nästa meddelande trycker du på **Svep åt vänster för nästa**
 
 ![](assets/read-later.png)
 
-Om du inte vill läsa meddelandet i det ögonblicket, kan du alltid välja att läsa meddelandet senare. Tryck **Läs senare** på tillkännagivandet och tillkännagivandet går tillbaka till oläst tillstånd.
+Om du inte vill läsa meddelandet i det ögonblicket, kan du alltid välja att läsa meddelandet senare. Tryck på **Läs senare** i meddelandet så återgår meddelandet till det olästa läget.
 
 ### Fel som är åtgärdade i den här uppdateringen {#bugsfixedinthisupdate}
 
@@ -1445,7 +1445,7 @@ Här är några användningsfall som stöds i den här uppdateringen.
 * Konto-URL som visas i e-postmallarna.
 * Go-URL:er för Min utbildning och katalog.
 
-Dessutom kan valfri URL med domän *learningmanager.adobe.com* öppnas i enhetsappen.
+Dessutom öppnas alla URL:er med domänen *learningmanager.adobe.com* i enhetsappen.
 
 #### Överför resurser i externt certifikat som bevis på slutförande {#uploadassetsinexternalcertificateasproofofcompletion}
 
@@ -1453,7 +1453,7 @@ I den här uppdateringen kan en elev ladda upp tillgångar som bevis på slutfö
 
 En elev kan öppna ett externt certifikat och överföra mediefiler som pdf, text eller bildfiler.
 
-Mer information finns i  [***Överför resurser i ett externt certifikat***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
+Mer information finns i [***Överför resurser i det externa certifikatet***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problem som har åtgärdats i den här versionen {#issuesfixedinthisrelease}
 
@@ -1482,15 +1482,15 @@ Du kan skapa anpassade roller för utbildningsplaner som tillåter omfång för 
 
 Nu kan en administratör definiera eller begränsa omfattningen när han/hon ger åtkomst till hantering av utbildningsplaner.
 
-Mer information finns i [***Utbildningsplaner som omfattas av konfigurerbara roller***](../administrators/feature-summary/custom-role.md#scopeconfigure).
+Mer information finns i [***Utbildningsplaner med konfigurerbara roller***](../administrators/feature-summary/custom-role.md#scopeconfigure).
 
 ### Begränsa aktiva fält i rapporter {#restrictactivefieldsinreports}
 
-För aktiva fält har vi lagt till två nya alternativ - **Rapporteringsbar** och **Kan exporteras**.
+För aktiva fält har vi lagt till två nya alternativ - **Rapporteringsbart** och **Exporterbart**.
 
-För CSV-fält och manuellt tillagda fält om ett aktivt fält är markerat som **Rapporteringsbar** blir det aktiva fältet sökbart i ett filter i en kontrollpanelsrapport.
+Om ett aktivt fält har markerats som **Rapporteringsbart** för CSV-fält och manuellt tillagda fält blir det aktiva fältet sökbart i ett filter i en kontrollpanelrapport.
 
-Mer information finns i  [***Begränsa aktiva fält i rapporter***](../administrators/feature-summary/add-users-user-groups.md#restrictactivefields)***,***
+Mer information finns i [***Begränsa aktiva fält i rapporter***](../administrators/feature-summary/add-users-user-groups.md#restrictactivefields)***.***
 
 ### Visa beskrivning av innehållsmodul {#viewdescriptionofcontentmodule}
 
@@ -1506,7 +1506,7 @@ Du som är instruktör kan se sessions- och kursnamn i närvarovyn. Du kan håll
 
 Elever kan nu visa ett meddelande i fullständig vy i stället för i en listvy. Detta händer när eleven har ett oläst meddelande. Detta förbättrar elevernas upplevelse av att se meddelandet.
 
-Med Adobe Learning Manager kan du nu anpassa ditt konto för att ge dina användare en rikare upplevelse. Här är en lista över element som kan anpassas. Kontakt [Support för Learning Manager](mailto:learningmanagersupport@adobe.com)för att göra dessa ändringar.
+Med Adobe Learning Manager kan du nu anpassa ditt konto så att dina användare får en bättre upplevelse. Här är en lista över element som kan anpassas. Kontakta [Learning Manager-supporten](mailto:learningmanagersupport@adobe.com)för att göra dessa ändringar.
 
 * Färgerna på utbildningskortet.
 * Förloppsikon
@@ -1525,7 +1525,7 @@ Du kan också anpassa banderollen på en sida för social utbildning.
 
 Den här uppdateringen av Learning Manager innehåller API för följande åtgärder:
 
-**Ladda ned utmärkelsetecken PDF**
+**Ladda ned märket PDF**
 
 Denna uppdatering innehåller elevs-API:t som tillåter nedladdning av PDF i ett utmärkelsetecken.
 
@@ -1533,7 +1533,7 @@ Denna uppdatering innehåller elevs-API:t som tillåter nedladdning av PDF i ett
 
 Denna uppdatering innehåller elevs-API:t som tillåter nedladdning av elevens betygsutdrag.
 
-**Hämta frågeformulärsrapport**
+**Ladda ned frågeformulärsrapport**
 
 Den här uppdateringen innehåller Admin API som tillåter nedladdning av quiz-rapporter.
 
@@ -1558,7 +1558,7 @@ För närvarande kan bara administratörer lägga till användare på en lista S
 
 Mer information om API:er för Learning Manager finns här:
 
-* [***API-referens***](<https://learningmanager.adobe.com/docs/Learning> Managerapi/v2/)
+* [***API-referens***](<https://learningmanager.adobe.com/docs/Learning> ManagerAPI/v2/)
 * [***Användarhandbok för API-utvecklare***](<https://helpx.adobe.com/captivate-Learning> Manager/integration-admin/feature-summary/developer-manual.html)
 
 ### Problem som har åtgärdats i den här versionen {#Issuesfixedinthisrelease-1}
@@ -1566,7 +1566,7 @@ Mer information om API:er för Learning Manager finns här:
 * Bara användare som tillhör en viss användargrupp får meddelanden som är avsedda för dem. Andra användare får inte ta emot meddelanden.
 * Spelaren visar en laddande rotationsruta innan innehållet visas.
 * Användarmetadata i rapporter orsakar ett undantag för null-pekare.
-* När du lägger till en instruktör för en standardinstans för kursen Connect VC visas meddelandet *&quot;Ingen session för den här modulen&quot;* visas på sidan Kursinstans i appen Admin.
+* När du lägger till en instruktör för en standardinstans för kursen Connect VC visas meddelandet *&quot;Ingen session för den här modulen&quot;*, på sidan Kursinstans i Admin-appen.
 
 * Att exportera en elevtranskribering leder till oväntat beteende under en FTP-överföring.
 * Namnet på en författare visas felaktigt på kurser i ett utbildningsprogram.
@@ -1595,7 +1595,7 @@ I den här uppdateringen av Learning Manager kan du skapa en anpassad roll som o
 
 ### Förbättringar för sökning {#enhancementstosearch}
 
-**utbildningsplan**
+**Utbildningsplan**
 
 På sidan Utbildningsplaner för administratörer och författare finns det nu ett sökfält som du kan använda för att söka i alla utbildningsplaner.
 
@@ -1609,23 +1609,23 @@ I den här uppdateringen av Learning Manager kan du som administratör eller fö
 
 Detta gäller endast en elevprofil.
 
-På fliken **Katalog** och **Mitt lärande** sidor kan en elev använda ett filter på den vänstra panelen, till exempel **Kurser** eller **Utbildningsprogram** och klickar sedan på en kurs eller ett katalogobjekt.
+På sidorna **Katalog** och **Mitt lärande** kan en elev använda ett filter på den vänstra panelen, till exempel **Kurser** eller **Utbildningsprogram**, och sedan klicka på en kurs eller ett katalogobjekt.
 
 ![](assets/choose-learning-objects.png)
 
-När eleven kommer tillbaka till **Katalog** eller **Mitt lärande** sidor med webbläsarens tillbaka-knapp, behålls filtret. Filtret som en elev hade tillämpat tidigare återställs inte längre.
+När eleven kommer tillbaka till sidorna **Katalogen** eller **Min utbildning** med webbläsarens bakåtknapp bevaras filtret. Filtret som en elev hade tillämpat tidigare återställs inte längre.
 
 ### Styr synlighet för sökfilter {#controlvisibilityofsearchfilters}
 
 I tidigare versioner av Learning Manager har administratörer inte kontroll över synlighetsalternativen för ett katalogfilter, så att eleverna inte ser kunskaperna och taggarna. I den här versionen av Learning Manager kan administratören filtrera typer, färdigheter och taggar för en katalog.
 
-I dialogrutan **Inställningar** sida, för kategorin Visa filterpaneler, när du klickar på **[!UICONTROL Edit]** visas följande alternativ. Alternativen bestämmer vilka filterpaneler som är synliga för eleverna, så att de kan finjustera sökresultaten.
+På sidan **Inställningar**, för kategorin Visa filterpaneler, kan du se följande alternativ när du klickar på **[!UICONTROL Edit]**. Alternativen bestämmer vilka filterpaneler som är synliga för eleverna, så att de kan finjustera sökresultaten.
 
 Mer information finns i [***Visa filterpaneler***](../administrators/feature-summary/settings.md#filter-panels).
 
 ### Hämta QR-koden från Administratörsprogrammet {#downloadqrcodefromadministratorapp}
 
-I tidigare uppdateringar av Learning Manager stötte en anpassad administratör på problem när en QR-kod hämtades. I den här uppdateringen fick en anpassad administratör med åtkomst till **Alla elever** och tillstånd för **Kursregistrering** kan hämta QR-koden.
+I tidigare uppdateringar av Learning Manager stötte en anpassad administratör på problem när en QR-kod hämtades. I den här uppdateringen kan en anpassad administratör som hade åtkomst till **Alla elever** och behörighet för **kursregistrering** hämta QR-koden.
 
 QR-koden är fortfarande inte tillgänglig för användare med anpassade roller om de har behörighet för ett begränsat antal användare.
 
@@ -1643,7 +1643,7 @@ I den här versionen av Learning Manager har integreringen med Adobe Connect fö
 
 Learning Manager låter nu också elever gå in i anslutningsrummet för sin virtuella session med SSO-autentisering.
 
-Mer information finns i [***Beständigt rumsstöd i Adobe Connect***](../integration-admin/feature-summary/connectors.md#persistent).
+Mer information finns i [***Stöd för beständigt rum i Adobe Connect***](../integration-admin/feature-summary/connectors.md#persistent).
 
 ### Varning innan närvaro markeras om sessionens varaktighet är noll {#warningbeforemarkingattendanceifthesessiondurationiszero}
 
@@ -1652,7 +1652,7 @@ En författare eller en administratör kan skapa en session med varaktigheten 0.
 * startdatum och/eller slutdatum är tomma.
 * starttid och/eller sluttid är tomma.
 
-I den här uppdateringen **varningsmeddelande, som anger att sessionslängden är noll** visas för administratören eller chefen eller instruktören.
+I den här uppdateringen visas ett **varningsmeddelande för administratören eller chefen eller instruktören, med information om att sessionens varaktighet är noll**.
 
 ### Varning om en klassrumsmodul skapas utan att sessionsdata läggs till {#warningifaclassroommoduleiscreatedwithoutaddingsessiondata}
 
@@ -1664,7 +1664,7 @@ Om en författare skapar en kurs genom att lägga till en klassrums- eller VC-mo
 
 När en Administratör, en Hantera eller en Instruktör i något av ovanstående markerar närvaro eller slutförande blir värdena för sessionens startdatum och slutdatum lika, vilket innebär att värdet för använd utbildningstid visas som noll i ett Elevens betygsutdrag.
 
-I den här uppdateringen **varningsmeddelande som anger att sessionsdata är ofullständiga** visas för författaren.
+I den här uppdateringen visas ett **varningsmeddelande för författaren om att sessionsdata är ofullständiga**.
 
 ### Problem som har åtgärdats i den här versionen {#Issuesfixedinthisrelease-2}
 
@@ -1674,9 +1674,9 @@ I den här uppdateringen **varningsmeddelande som anger att sessionsdata är ofu
 * Om en Administratör lägger till ett inlägg på en extern tavla går kurateringsbegäran till ett internt SME, som har tilldelats den kompetensen.
 * En elev kan inte se knappen Start eller Fortsätt efter att ha registrerat sig för LinkedIn-kurser.
 
-**Mejl**
+**E-post**
 
-* När det fanns ett stort antal användare i en DND-lista via e-post, **Inställningar** sidan läses in mycket långsamt. I den här uppdateringen läggs sidnumreringen till i en lista över e-post-DND:er.
+* När det fanns ett stort antal användare i en DND-lista för e-post, lästes sidan **Inställningar** in mycket långsamt. I den här uppdateringen läggs sidnumreringen till i en lista över e-post-DND:er.
 * En instruktör får uppdateringar/e-post för sessioner som han/hon inte deltar i. I den här uppdateringen har detta åtgärdats.
 
 **Kompetenser**
@@ -1734,9 +1734,9 @@ En administratör kan ge särskilda behörigheter till en användargrupp, med vi
 
 **Ändringar i användargränssnittet**
 
-* I dialogrutan **Lägg till rapport** dialogen, **Tidsintervall** och **Filter** Väljare visas som separata avsnitt, som är komprimerade som standard. Mer information finns i [***Skapa rapporter***](../administrators/feature-summary/reports.md#report).
+* I dialogrutan **Lägg till rapport** visas väljarna **Tidsintervall** och **Filter** som separata avsnitt, som är komprimerade som standard. Mer information finns i [***Skapa rapporter***](../administrators/feature-summary/reports.md#report).
 
-* I dialogrutan **Lägg till rapport** för en användargrupp kan du använda sökningstypen för att välja en eller flera användargrupper. Mer information finns i [***Rapporter om användargrupper***](../administrators/feature-summary/reports.md#user-group-reporting).
+* I dialogrutan **Lägg till rapport** kan du för en användargrupp använda typbaserad sökning för att välja en eller flera användargrupper. Mer information finns i [***Rapporter om användargrupper***](../administrators/feature-summary/reports.md#user-group-reporting).
 
 **Ändringar i värden i tidskolumner**
 
@@ -1744,17 +1744,17 @@ I elevens betygsutdrag avrundas minuterna i tidskolumnerna till närmaste minut 
 
 ### Problem som har åtgärdats i den här versionen {#Issuesfixedinthisrelease-3}
 
-**Elevtavla**
+**Elevens tavla**
 
-* En utbildningskalender visade status **Session registrerad** även när en chef ännu inte hade godkänt registreringen. Nu rätt status **Väntar** visas för eleven tills chefen godkänner registreringen.
+* I en utbildningskalender visas statusen **Registrerad session** även när en chef ännu inte hade godkänt registreringen. Nu visas rätt status **Väntande** för eleven tills chefen godkänner registreringen.
 
-* I ett visst fall visade utbildningskalendern status för en session **Registrerad** även om eleven har slutfört en kurs.
+* I ett särskilt fall visade utbildningskalendern status **Registrerad** för en session trots att eleven har slutfört en kurs.
 
-**Kontrollpanel för chef**
+**Chefens instrumentpanel**
 
 * Chefer kunde inte spåra efterlevnadsutbildningar för sitt team om teammedlemmarna är registrerade via utbildningsplaner.
 
-**Search**
+**Sök**
 
 * I instruktörsvyn kunde du inte söka efter en elev.
 
@@ -1777,7 +1777,7 @@ Utgivningsdatum: 2 augusti 2019
 
 ### Nya och förbättrade funktioner {#Newandenhancedfeatures-5}
 
-**Åtskillnad mellan omfattning inom social utbildning för interna och externa användare** En administratör kan definiera separata omfång för interna och externa elever. Det finns två nya avsnitt för interna och externa användare. I båda avsnitten kan du definiera omfattningarna för elevgrupperna. För interna användare kan du definiera värden för användaregenskaperna. För externa användare kan du definiera den externa profilen där elever kan dela samma sociala område. Mer information finns i [***Omfångsinställningar***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings).  **Social-Begränsa skapandet av sociala tavlor** För att begränsa skapandet av tavlor för alla elever och för att moderera tavlorna effektivt, kan en administratör bevilja behörigheter att skapa tavlor för en utvald grupp användare. Administratören kan begränsa skapandet av en tavla till endast en vald grupp och inte alla elever som deltar i social utbildning. Mer information finns i [***Behörigheter för att skapa tavla***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission).  **Visa endast tomma aktiva fält för elever** En administratör kan välja att visa de aktiva fälten eller dölja fälten efter att värdena har fyllts i. Mer information finns i [***Användarvisning***](../administrators/feature-summary/add-users-user-groups.md#activefields).  **Interna användare tas bort under en viss tid efter inaktivitet** En administratör kan ange hur länge (i dagar) en intern elev raderas om eleven förblir inaktiv under den angivna tiden. Mer information finns i ***[Ta bort användare automatiskt](../administrators/feature-summary/settings.md#autodelete)***.  **Anpassa länkar i sidfoten** En administratör kan lägga till och anpassa länkar i sidfoten. Du kan anpassa länkarna för olika språkversioner. Den befintliga metoden för att lägga till länken Kontakta administratören i sidfoten finns även i **Sidfotslänkar** -sektionen. Mer information finns i [***Anpassa sidfotslänkar***](../administrators/feature-summary/settings.md#footer).
+**Separering av omfattning i social utbildning för interna och externa användare** En administratör kan definiera separata omfång för interna och externa elever. Det finns två nya avsnitt för interna och externa användare. I båda avsnitten kan du definiera omfattningarna för elevgrupperna. För interna användare kan du definiera värden för användaregenskaperna. För externa användare kan du definiera den externa profilen där elever kan dela samma sociala område. Mer information finns i [***Inställningar för omfång***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings).  **Skapa sociala tavlor** För att begränsa skapandet av tavlor för alla elever och för att moderera tavlorna effektivt kan en administratör bevilja behörigheter att skapa tavlor för en utvald grupp användare. Administratören kan begränsa skapandet av en tavla till endast en vald grupp och inte alla elever som deltar i social utbildning. Mer information finns i [***Behörigheter för att skapa tavla***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission).  **Visa endast tomma aktiva fält för elever** En administratör kan välja att visa de aktiva fälten eller dölja fälten efter att värdena har fyllts i. Mer information finns i [***Användarvisning***](../administrators/feature-summary/add-users-user-groups.md#activefields).  **Interna användare raderas under en angiven inaktivitetsperiod** En administratör kan ange varaktigheten (i dagar) inom vilken en intern elev raderas om eleven förblir inaktiv under den angivna tiden. Mer information finns i ***[Ta bort användare automatiskt](../administrators/feature-summary/settings.md#autodelete)***.  **Anpassa länkar i sidfoten** En administratör kan lägga till och anpassa länkar i sidfoten. Du kan anpassa länkarna för olika språkversioner. Den befintliga metoden för att lägga till länken Kontakta administratören i sidfoten finns även i avsnittet **Sidfotslänkar**. Mer information finns i [***Anpassa sidfotslänkar***](../administrators/feature-summary/settings.md#footer).
 
 ### Kända fel i den här versionen {#Knownissuesinthisrelease-2}
 
@@ -1793,13 +1793,13 @@ Utgivningsdatum: 24 juli 2019
 
 Android-användare:
 
-Den här uppdateringen innehåller även stöd för ändringar som krävs för att följa Google reviderade rekommendationer för att implementera push-meddelanden. Därför kommer du inte längre att få **aviseringar** om du använder version 2.7.4 eller tidigare.
+Den här uppdateringen innehåller även stöd för ändringar som krävs för att följa Google reviderade rekommendationer för att implementera push-meddelanden. Du kommer därför inte längre att få **meddelanden** om du använder version 2.7.4 eller tidigare.
 
 För att få meddelanden rekommenderar vi att du uppgraderar till version 2.8.
 
 ### Nya och förbättrade funktioner {#Newandenhancedfeatures-6}
 
-**Socialt lärande**
+**Social utbildning**
 
 Dela dina kunskaper med kollegor i form av användargenererat innehåll som publiceras på ämnesbaserade diskussionstavlor. Andra elever som är intresserade av liknande färdigheter kan följa dessa tavlor för att lära sig och även bidra till ämnet, som en plattform för sociala medier.
 
@@ -1836,7 +1836,7 @@ Utgivningsdatum: 20 juni 2019
 
 **Automatiskt urval av innehåll**
 
-Med social utbildning kan innehåll som publiceras av elever kurateras på två sätt, nämligen - **Ingen kuratering** och **Manuell kuratering**. I den här versionen förbättrar Adobe Learning Manager det sociala lärandet genom att tillhandahålla AI-aktiverade funktioner för automatisk kurering. När innehållet har publicerats analyseras det för att identifiera om det tillhör den kompetens som det har publicerats för. Baserat på konfidenspoängen antingen läggs innehållet upp live eller skickas för manuell kuratering. Mer information finns i *[** Automatisk kuratering **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+Med social utbildning kan innehåll som publiceras av elever kurateras på två sätt, nämligen - **Inget kurateringsverktyg** och **Manuell kuratering**. I den här versionen förbättrar Adobe Learning Manager social utbildning genom att tillhandahålla AI-aktiverade funktioner för automatisk kurering. När innehållet har publicerats analyseras det för att identifiera om det tillhör den kompetens som det har publicerats för. Baserat på konfidenspoängen antingen läggs innehållet upp live eller skickas för manuell kuratering. Mer information finns i *[** Automatisk kuratering **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mappa kompetens med kompetensdomäner**
 
@@ -1844,17 +1844,17 @@ Mappa kompetenser i kontot med de kompetensdomäner som finns i Learning Manager
 
 **CSV-specifikationer och CSV-exempelfiler**
 
-Uppdaterade CSV-specifikationer som du kan använda för att mappa befintliga LMS-migreringsdata. Använd de senaste hämtningsbara csv-specifikationerna och zip-filerna med csv-exempelfiler för att förstå det föreskrivna formatet för de data som ska anges. Mer information finns i  [***Migreringshandbok***.](../integration-admin/feature-summary/migration-manual.md)
+Uppdaterade CSV-specifikationer som du kan använda för att mappa befintliga LMS-migreringsdata. Använd de senaste hämtningsbara csv-specifikationerna och zip-filerna med csv-exempelfiler för att förstå det föreskrivna formatet för de data som ska anges. Mer information finns i [***Migreringshandbok***.](../integration-admin/feature-summary/migration-manual.md)
 
 ### Problem som har åtgärdats i den här versionen {#Issuesfixedinthisrelease-4}
 
-**API för Learning Manager**
+**Learning Manager-API**
 
-* När en extern POST läggs till med hjälp av API-profilmetoden *externalProfile* välkomstmeddelandet visas inte,.
+* När en extern POST läggs till med profilmetoden för API:t *externalProfile* visas inte välkomstmeddelandet.
 
-**Kontrollpanel för chef**
+**Chefens instrumentpanel**
 
-* När en chef valde alternativet **Det här kvartalet**, registrerings-, progressions- och slutförandeinformationen för ett utbildningsobjekt visas inte. I den här versionen visas nu dessa uppgifter som förväntat.
+* När en chef valde alternativet **Det här kvartalet** visades inte information om registrering, progression och slutförande för ett utbildningsobjekt. I den här versionen visas nu dessa uppgifter som förväntat.
 
 **Elever på väntelistan**
 
@@ -1882,7 +1882,7 @@ Utgivningsdatum: 30 maj 2019
 
 * Kompetenser stöder nu tilldelning av kreditvärden i decimalformat. Detta gör det möjligt för författare att tilldela decimalnivå kreditvärde till en viss kurs. Mer information finns i [***Decimalstöd***](../administrators/feature-summary/skills-levels.md#decimal).
 * Automatisera skapandet av anpassade roller. Mer information finns i [***Konfigurera roller via csv-filer***](../integration-admin/feature-summary/configure-role-csv-files.md).
-* Ansökningar som krävs för externa certifieringar och aktivitetsmoduler är nu valfria. Detta gör det möjligt för chefer och instruktörer att utvärdera utan ett bidrag. Mer information finns i [***Valfri inlämning***](../managers/feature-summary/learning-objects.md#optional).
+* Ansökningar som krävs för externa certifieringar och aktivitetsmoduler är nu valfria. Detta gör det möjligt för chefer och instruktörer att utvärdera utan ett bidrag. Mer information finns i [***Valfri överföring***](../managers/feature-summary/learning-objects.md#optional).
 * Hämta elevens betygsutdrag för raderade användare. Mer information finns i [***Elevens betygsutdrag***](../administrators/feature-summary/learner-transcripts.md).
 * Stöd för följande språk:
 
@@ -1896,7 +1896,7 @@ Utgivningsdatum: 30 maj 2019
 * Decimalstöd för kompetenspoäng stöds bara för engelska.
 * För koreanska, japanska och ryska visas inte värdet på sessionstidsmätaren som förväntat.
 
-**Problem som har åtgärdats i den här versionen**
+**Problem som har korrigerats i den här versionen**
 
 * Quizpoängen sparas inte för ett utbildningsprogram eller en certifiering på flikarna Närvaro och Poäng.
 * En administratör eller chef kan inte markera en extern certifiering som slutförd.
@@ -1910,15 +1910,15 @@ Utgivningsdatum: 30 maj 2019
 
 Utgivningsdatum: 26 april 2019
 
-* **Ändringar i användargränssnittet:** I appen kan du  ![](assets/hamburger.jpg) och  ![](assets/search-magnifying-glass-icon.png) alternativ visas nu överst.
+* **Ändringar i användargränssnittet:** Alternativen ![](assets/hamburger.jpg) och ![](assets/search-magnifying-glass-icon.png) visas nu överst i appen.
 
 ![](assets/1.png)
 
-* **Skanna QR-koden för att registrera dig:** QR-kodens funktioner har förbättrats. Förutom att stödja närvaromärkning med QR-kod kan du nu även registrera dig för en kurs och slutföra en kurs med QR-kod.
+* **Skanna QR-koden för att registrera dig:** QR-kodfunktionerna har förbättrats. Förutom att stödja närvaromärkning med QR-kod kan du nu även registrera dig för en kurs och slutföra en kurs med QR-kod.
 
-  För att registrera dig till en kurs och slutföra kursen kan du skanna en QR-kod som din administratör har tillhandahållit. Mer information om hur du skannar QR-koder i webbversionen av Learning Manager finns på  [***Skanna QR-kod***](<https://helpx.adobe.com/captivate-Learning> Manager/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse).
+  För att registrera dig till en kurs och slutföra kursen kan du skanna en QR-kod som din administratör har tillhandahållit. Mer information om hur du skannar QR-koder i webbversionen av Learning Manager finns i [***Skanna QR-kod***](<https://helpx.adobe.com/captivate-Learning> Manager/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse).
 
-* **Flera försök till kurs:** Med Learning Manager-appen kan eleven genomföra kurser med flera försök aktiverade. Mer information om hur du konfigurerar flera försök finns i  [***Flera försök***](<https://helpx.adobe.com/captivate-Learning> Manager/authors/feature-summary/courses.html#Multiattempts).
+* **Flera försök till kurs:** Med Learning Manager-appen kan eleven delta i kurser med flera försök aktiverade. Mer information om hur du konfigurerar flera försök finns i [***Flera försök***](<https://helpx.adobe.com/captivate-Learning> Manager/authors/feature-summary/courses.html#Multiattempts).
 
 +++
 
@@ -1997,7 +1997,7 @@ Prestandaförbättring
 
 Utgivningsdatum: 19 maj 2018.
 
-* I den här versionen av Adobe Learning Manager finns nya funktioner och förbättringar. Det ger dig möjlighet att skapa anpassade roller, lägga till katalogetiketter, möjlighet att rensa användare, hantera taggar, byta namn på utbildningsobjekt, Slack-integrering, nya anslutningsintegreringar, stöd för xAPI och mycket mer. Mer information om de nya funktionerna och förbättringarna finns i  [Sammanfattning av ny funktion](../whats-new.md#main-pars_text).
+* I den här versionen av Adobe Learning Manager finns det nya funktioner och förbättringar. Det ger dig möjlighet att skapa anpassade roller, lägga till katalogetiketter, möjlighet att rensa användare, hantera taggar, byta namn på utbildningsobjekt, Slack-integrering, nya anslutningsintegreringar, stöd för xAPI och mycket mer. Mer information om nya funktioner och förbättringar finns i [Sammanfattning av nya funktioner](../whats-new.md#main-pars_text).
 
 * Learning Manager är kompatibelt med GDPR. Mer information finns i [Learning Manager-kompatibilitet till GDPR](/help/migrated/kb/prime-gdpr.md).
 
@@ -2034,11 +2034,11 @@ Utgivningsdatum: 25 mars 2018
 
 Mars 2018-versionen av Adobe Learning Manager kommer med spännande nya funktioner och förbättringar. Den ger dig möjlighet att skapa rapporter över granskningsspår för användare och inloggnings-/åtkomstrapporter, ger elever möjlighet att välja kursinstanser, förbättringar av klassrum och virtuella klassrum och mycket mer. Den här versionen innehåller även felkorrigeringar och prestandaförbättringar.
 
-Mer information om nyheter i den här versionen finns på  [Nyheter i Adobe Learning Manager](../whats-new.md).
+Mer information om nyheterna i den här versionen finns i [Nyheter i Adobe Learning Manager](../whats-new.md).
 
 ### Känt problem {#KnownIssue-1}
 
-**Problem:** Om du öppnar vissa specifika utbildningsobjekt med Internet Explorer v11.1478.10586.0 kan det leda till att Learning Manager kraschar.
+**Problem:** Om du använder Internet Explorer v11.1478.10586.0 för att komma åt vissa specifika utbildningsobjekt kan Learning Manager krascha.
 
 **Tillfällig lösning:** Uppdatera webbläsaren Internet Explorer 11 till den senaste versionen genom att kontakta IT-teamet i din organisation.
 
@@ -2075,8 +2075,8 @@ I den här versionen av Learning Manager ingår prestandaoptimeringar för att f
 ### Förbättringar {#enhancements}
 
 * Upplev elastisk sökning när du söker efter kurser och användare i alla program. Detta inkluderar kurser, användare och sökning i användargrupper.
-* Stöd användning av Box-anslutning för att integrera Learning Manager med externa system för att automatisera datasynkronisering. Mer information finns i [Koppling till ruta](../integration-admin/feature-summary/connectors.md#main-pars_header_302653946).
-* Uppdaterade CSV-specifikationer som du kan använda för att mappa befintliga LMS-migreringsdata. Använd de senaste hämtningsbara csv-specifikationerna och zip-filerna med csv-exempelfiler för att förstå det föreskrivna formatet för de data som ska anges. Mer information finns i [Migreringshandbok.](../integration-admin/feature-summary/migration-manual.md)
+* Stöd användning av Box-anslutning för att integrera Learning Manager med externa system för att automatisera datasynkronisering. Mer information finns i [Boxanslutning](../integration-admin/feature-summary/connectors.md#main-pars_header_302653946).
+* Uppdaterade CSV-specifikationer som du kan använda för att mappa befintliga LMS-migreringsdata. Använd de senaste hämtningsbara csv-specifikationerna och zip-filerna med csv-exempelfiler för att förstå det föreskrivna formatet för de data som ska anges. Mer information finns i [Migreringshandboken.](../integration-admin/feature-summary/migration-manual.md)
 
 +++
 
@@ -2120,15 +2120,15 @@ Utgivningsdatum: 17 augusti 2017
 
 ### Problem åtgärdade {#IssuesFixed-3}
 
-**Kurs med flera modulversioner som återställs till den tidigare versionen vid borttagningsåtgärd.**
+**Kurs med flera modulversioner återställs till den tidigare versionen vid borttagning.**
 
 När en kurs har flera modulversionsposter för specifika moduler och modulen tas bort, återställs den till den tidigare versionen och raderas inte helt. Problemet har åtgärdats.
 
-**Ändringar av en delad kurs sprids inte om den sparas automatiskt genom att flyttas mellan flikar.**
+**Ändringar i en delad kurs sprids inte om den sparas automatiskt genom att flyttas mellan flikar.**
 
 Ändringar i en delad kurs kanske inte sprids till klientkontot om författaren i det överordnade kontot automatiskt sparar kursen genom att flytta till nästa flik. Problemet har åtgärdats.
 
-**Användarna kunde inte ändra tidsgränsen för instanser för en kurs med enbart aktivitet.**
+**Användare kunde inte ändra tidsgränsen för instanser för en kurs med enbart aktivitet.**
 
 Användarna kunde inte ändra deadline för en instans i aktivitetskurser eftersom den skulle återgå till det tidigare deadline. Problemet har åtgärdats.
 
@@ -2140,26 +2140,26 @@ När du tilldelar ett unikt ID till en kurs och tar bort det, kan du inte använ
 
 Om ett utbildningsprogram redan har registrerats som en del av en utbildningsplan kan det visas igen som en del av ett annat event i elevappen. Problemet har åtgärdats.
 
-**Eleven får påminnelsemeddelanden med deadline/sessionstid som angetts felaktigt.**
+**Eleven får e-postpåminnelser med felaktigt angivet deadline/sessionstid.**
 
 Elever fick ofta e-postmeddelanden med felaktiga påminnelser om deadline/sessionstid på grund av tidszonskorrigeringar. Problemet har åtgärdats.
 
-**Tidslinjen på resultattavlan för spelifiering visar externa elever om han eller hon konverteras från en extern till en intern.**
+**Tidslinjen på resultattavlan för spelifiering visar externa elever om han/hon konverteras från en extern till en intern.**
 
 En intern elevs tidslinje för resultattavlan för spelifiering kan visa en extern elev när denne konverteras från en extern till en intern elev. Problemet har åtgärdats.
 
-**UUID-fält för en elev visas i redigerbart format när du skapar en enskild användare och CSV-användare i ett UUID-aktiverat konto.**
+**UUID-fältet för en elev visas i redigerbart format när en enskild användare och CSV-användare skapas i ett UUID-aktiverat konto.**
 
 UUID-fältet visades för eleven när profilen slutfördes även när administratören har angett UUID för enskilda användare och CSV-användare. Problemet har åtgärdats.
 
-**Utbildningstiden som används fångas inte in i rapporter i vissa fall.**
+**I vissa fall registreras inte inlärningstiden i rapporter.**
 
 Data om använd inlärningstid visades inte i rapporter för en elev.
 
 * Om hans/hennes närvaro automatiskt markeras av systemet för anslutningsmoduler.
 * När en QR-kod skannas för CR- och VC-moduler med Learning Manager-enhetsprogram.
 
-**I den här versionen av Learning Manager introducerades även förbättringar och felkorrigeringar relaterade till enhetsspelare.**
+**I den här versionen av Learning Manager har det även införts förbättringar och felkorrigeringar för enhetsspelare.**
 
 * Frågor rörande slutförande av aktivitetsmoduler. Detta har åtgärdats.
 * När eleven spelar upp en video i stående läge kanske +10 och -10 knappar inte fungerar. Detta har åtgärdats
@@ -2212,7 +2212,7 @@ Med den här förbättringen kan du ange ett tidsintervall efter vilket använda
 
 Arbetsstöd är utbildningsinnehåll som en elev kan komma åt utan att behöva registrera sig för ett specifikt utbildningsobjekt som en kurs eller ett utbildningsprogram. Med den här förbättringen kan administratörer extrahera och hämta Job Aids-rapporten. Som administratör kan du även skapa en rapport över alla meddelanden som du har skickat. Administratörer och chefer kan också extrahera en rapport över elever som har avregistrerats.
 
-**Anslutningar för Learning Manager**
+**Anslutningar till Learning Manager**
 
 Du kan nu exportera användarfärdigheter till en FTP-plats för att integrera med alla externa system med hjälp av alternativet Dataexport. Du kan ange Anslutningsnamn för din integrering och välja om du vill importera interna användare eller exportera användarkunskaper genom att konfigurera dem eller hämta dem på begäran.
 
@@ -2226,7 +2226,7 @@ Du kan nu kopiera instans-URL:en genom att klicka på rullgardinspilen i det öv
 
 Användare fick ibland inte inbjudan till kalenderinbjudningar (.ics) när de registrerade sig för utbildningsprogram, certifikat med klassrum och anslutningssessioner. Problemet har åtgärdats. Användare får nu .ics-filer som bilagor som nämner sessionsinformationen tillsammans med registreringsmeddelandet.
 
-**Även om aktivitetsbeskrivningen är på flera språk visas den fortfarande på engelska**
+**Aktivitetsbeskrivningen visas fortfarande på engelska** även om den är på flera språk
 
 En användare vars språkinställning inte är engelsk kan fortfarande se beskrivningen av modulen Aktivitet på engelska. Problemet har åtgärdats.
 
@@ -2238,13 +2238,13 @@ Utgivningsdatum: 30 juni 2017
 
 ### Förbättringar {#Enhancements-2}
 
-**Stöd för flera utbildningsobjekt i utbildningsplan**
+**Stöd för flera utbildningsobjekt i utbildningsplanen**
 
-Du som är administratör eller författare kan nu tilldela flera utbildningsobjekt till en utbildningsplan. Om någon av utbildningsobjektets instans förfaller eller förfaller inaktiveras hela utbildningsplanen automatiskt. Med den här förbättringen kan du även söka **[!UICONTROL Completed Learning]** och **[!UICONTROL Assign Learning]** fält med unika ID för utbildningsobjekt.
+Du som är administratör eller författare kan nu tilldela flera utbildningsobjekt till en utbildningsplan. Om någon av utbildningsobjektets instans förfaller eller förfaller inaktiveras hela utbildningsplanen automatiskt. Med den här förbättringen kan du även söka i **[!UICONTROL Completed Learning]** och **[!UICONTROL Assign Learning]** fält med unika ID:n för utbildningsobjekt.
 
 **Tillgänglighet**
 
-I och med den här uppdateringen stöder Learning Manager Learner Experience nu Section 508 Standard of accessibility. Learning Manager är även kompatibelt med den senaste versionen av **[!UICONTROL JAWS]**. Den här funktionen stöds endast för elevtillämpningen. Använd Internet Explorer 11, Windows Chrome eller macOS Safari för att få tillgång till den här funktionen.
+I och med den här uppdateringen stöder Learning Manager Learner Experience nu Section 508 Standard of accessibility. Learning Manager är också kompatibelt med den senaste versionen av **[!UICONTROL JAWS]**. Den här funktionen stöds endast för elevtillämpningen. Använd Internet Explorer 11, Windows Chrome eller macOS Safari för att få tillgång till den här funktionen.
 
 ### Problem åtgärdade {#IssuesFixed-5}
 
@@ -2252,11 +2252,11 @@ I och med den här uppdateringen stöder Learning Manager Learner Experience nu 
 
 Deadline-påminnelser nämnde felaktigt antalet återstående dagar för elever i vissa tidszoner. Problemet har åtgärdats.
 
-**Problem med utbildningsprogram vid programinstans som upphört att gälla**
+**Problem med utbildningsprogram vid utgången programinstans**
 
 Det uppstod problem när moduler startades från utbildningsprogrammet om programinstansen har upphört att gälla. Detta ledde till att modulen inte fungerade och att elever inte kunde starta spelaren och besöka innehållet. Problemet har åtgärdats.
 
-**Översättningsproblem i elevtillämpningen**
+**Översättningsproblem i elevprogrammet**
 
 Learning Manager-användare har stött på vissa översättningsproblem i elevappen. De här problemen har åtgärdats.
 
@@ -2272,13 +2272,13 @@ Utgivningsdatum: 9 april 2017
 
 ### Nya funktioner {#newfeatures}
 
-En lista över nya funktioner och förbättringar i Learning Manager-versionen från april finns i [Nyheter.](../whats-new.md)
+En lista över nya funktioner och förbättringar i aprilutgåvan av Learning Manager finns i [Nyheter.](../whats-new.md)
 
 **Widget-baserad elevapp**
 
 Använd widgetar på startsidan för att hantera kurser, färdigheter och prestationer. Använd sökfältet för att utföra en sökning i hela ditt LMS som omfattar alla utbildningsobjekt, kataloger, kunskaper, anteckningar och diskussioner
 
-Mer information om den nya startsidan finns på  [Elevens startsida i Learning Manager](../learners/feature-summary/getting-started-learner.md).
+Mer information om den nya startsidan finns på [Elevens startsida i Learning Manager](../learners/feature-summary/getting-started-learner.md).
 
 **Administratörsinställningar för elevtavlan**
 
@@ -2288,7 +2288,7 @@ Som administratör kan du styra elevens startsida genom att aktivera och inaktiv
 
 Den nya Learning Manager-mobilappen låter elever använda appen för att registrera sig och genomföra kurser. Appen kan också användas för att hantera instrumentpaneler.
 
-Mer information om hur du använder Learning Manager i mobiler finns i  [Learning Manager-appen för mobiler](../learners/feature-summary/ipad-android-tablet-users.md#main-pars_header_1451175907).
+Mer information om hur du använder Learning Manager i mobiler finns i [Learning Manager-appen för mobiler](../learners/feature-summary/ipad-android-tablet-users.md#main-pars_header_1451175907).
 
 **Markera närvaro med QR-kod**
 
@@ -2298,17 +2298,17 @@ Använd QR-skanningskoden för att markera din närvaro för klassrumssessioner 
 
 Learning Manager introducerar nu instruktörer för moduler. Instruktörer kan hantera modulsessioner, inklusive tid, plats och platsgräns för de moduler som tilldelas dem.
 
-Detaljerad information om instruktörer finns i  [Instruktörer i Learning Manager](../instructors/feature-summary/getting-started.md#main-pars_header).
+Mer information om instruktörer finns i [Instruktörer i Learning Manager](../instructors/feature-summary/getting-started.md#main-pars_header).
 
 **Kollegialt konto**
 
 Om du är administratör kan du skapa kollegiala konton som du kan dela dina köpta platser med.
 
-Information om hur du skapar och hanterar kollegiala konton finns i  [Kollegiala konton](../administrators/feature-summary/peer-account.md#main-pars_text).
+Information om hur du skapar och hanterar kollegiala konton finns i [Peer-konton](../administrators/feature-summary/peer-account.md#main-pars_text).
 
 **Erbjudanden om kursekvivalenter**
 
-Användning **[!UICONTROL Add New Language]** när du lägger till en modul eller kurs för att göra den tillgänglig på flera språk och i flera format.
+Använd alternativet **[!UICONTROL Add New Language]** när du lägger till en modul eller kurs för att göra den tillgänglig på flera språk och i flera format.
 
 **Elevens betygsutdrag**
 
@@ -2318,7 +2318,7 @@ Learning Manager ger chefer och administratörer möjlighet att ladda ner transk
 
 Learning Manager har introducerat tre nya anslutningar i den här versionen, så att elever kan komma åt och konsumera kurser från följande innehållsleverantörer: Lynda.com, getAbstract och Harvard ManageMentor.
 
-Information om hur du konfigurerar och använder dessa anslutningar finns i  [Anslutningar](../integration-admin/feature-summary/connectors.md#main-pars_header).
+Information om hur du konfigurerar och använder dessa anslutningar finns i [Anslutningar](../integration-admin/feature-summary/connectors.md#main-pars_header).
 
 **Unikt ID för utbildningsobjekt**
 
@@ -2326,7 +2326,7 @@ När du skapar utbildningsobjekt kan nu författare och administratörer ange un
 
 **Diskussionstavla för elever**
 
-Använd diskussionstavlan i kurser för att interagera med kollegor och instruktörer. Som elev kan du se alla inlägg för kurser. Du kan dock endast ta bort de inlägg som du har angett. Mer information om diskussionstavla finns i  [Visa och delta i diskussioner](../learners/feature-summary/courses.md#main-pars_header_1772461149).
+Använd diskussionstavlan i kurser för att interagera med kollegor och instruktörer. Som elev kan du se alla inlägg för kurser. Du kan dock endast ta bort de inlägg som du har angett. Mer information om diskussionstavlan finns i [Visa och delta i diskussioner](../learners/feature-summary/courses.md#main-pars_header_1772461149).
 
 ### Förbättringar {#Enhancements-3}
 
@@ -2334,13 +2334,13 @@ Använd diskussionstavlan i kurser för att interagera med kollegor och instrukt
 
 Kriterierna för slutförande av utbildningsobjekt som kurser, certifieringar och utbildningsplaner kan ställas in så att eleverna bara behöver slutföra X av Y-moduler eller -kurser. Författare kan på samma sätt ange kriterier för slutförande av certifieringar och utbildningsplaner också.
 
-Mer information om den här funktionen finns i  [Kriterier för slutförande av kurs](../learners/feature-summary/courses.md#main-pars_image_1164377098).
+Mer information om funktionen finns i [Kriterier för slutförande av kurs](../learners/feature-summary/courses.md#main-pars_image_1164377098).
 
 **Kursmoderering**
 
 Administratörer får nu meddelanden när en författare redigerar eller uppdaterar moduler och återpublicerar en kurs.
 
-**Administratörsinställningar för att återställa moduler**
+**Administratörsinställningar för återställning av moduler**
 
 Nu kan administratörer konfigurera alternativet Återställ modul för att tillåta elever att återställa en misslyckad eller ofullständig kurs.
 
@@ -2356,7 +2356,7 @@ Administratörer kan nu skapa utbildningsplaner av typen På datum. Med utbildni
 
 Administratörer kan nu konfigurera och skicka kursspecifika registreringsmeddelanden via e-post till elever.
 
-**Meddelanden på notislappar**
+**Notislappar**
 
 Som administratör kan du nu aktivera funktionen Fästis för meddelanden.
 
@@ -2368,7 +2368,7 @@ Du kan lägga till URL-adresser som meddelanden genom att lägga till URL-adress
 
 Med Adobe Learning Manager kan du nu lägga till leveranstyper för dina kurser.
 
-**Förbättringar av roller för författare**
+**Förbättringar av författarrollen**
 
 Tidigare författare kunde bara skapa moduler och kurser. Nu har författarna även möjlighet att skapa certifieringar och utbildningsprogram för elever.
 
@@ -2420,7 +2420,7 @@ Felaktiga rapporter om elevens betygsutdrag genereras i Learning Manager när ku
 
 #### API-lager {#apilayer}
 
-Du stöter på ett fel när du försökte hämta modulversionsinformation med hjälp av AP/kurser/{coursesid}. Detta har nu åtgärdats.
+Du stöter på ett fel när du försökte hämta modulversionsinformation med AP/kurser/{coursesid}. Detta har nu åtgärdats.
 
 +++
 
@@ -2434,7 +2434,7 @@ Adobe gör det möjligt för företag att migrera sin organisations utbildningsd
 
 Learning Manager tillhandahåller de verktyg och mallar som behövs för att organisationens integrationsadministratör ska kunna konfigurera och utföra migreringsuppgifterna.
 
-Mer information om migreringsfunktionen finns i  [Hjälp om migreringshandbok](../integration-admin/feature-summary/migration-manual.md)
+Mer information om migreringsfunktionen finns i [Hjälp om migrering](../integration-admin/feature-summary/migration-manual.md)
 
 ### Förbättringar {#Enhancements-4}
 
@@ -2442,13 +2442,13 @@ Mer information om migreringsfunktionen finns i  [Hjälp om migreringshandbok](.
 
 Som administratör kan du nu lägga till specifika domännamn när du lägger till externa användare. När elever registrerar sig för kontot kan de ange e-postadresser enbart från dessa domännamn.
 
-Du kan också skicka verifieringslänkar till användarnas e-postmeddelanden när användare registrerar sig för kontot. Mer information om den här förbättringen finns i  [Lägg till användare/användargrupper](../administrators/feature-summary/add-users-user-groups.md#main-pars_header_1217981931).
+Du kan också skicka verifieringslänkar till användarnas e-postmeddelanden när användare registrerar sig för kontot. Mer information om den här förbättringen finns i [Lägg till användare/användargrupper](../administrators/feature-summary/add-users-user-groups.md#main-pars_header_1217981931).
 
 **Fluidic-spelare**
 
 Nu kan du ändra uppspelningshastigheten med Fluidic Player. Du kan välja mellan fem olika hastighetsvarianter. Fluidic Player kan också styra volyminställningarna när du går en kurs.
 
-Som elev kan du hoppa framåt eller bakåt 10 sekunder med de nya ikonerna på var sida om uppspelningsknappen i Fluidic-spelaren. Mer information om de här förbättringarna finns i  [Fluidic-spelare](../learners/feature-summary/fluidic-player.md).
+Som elev kan du hoppa framåt eller bakåt 10 sekunder med de nya ikonerna på var sida om uppspelningsknappen i Fluidic-spelaren. Mer information om dessa förbättringar finns i [Fluidic Player](../learners/feature-summary/fluidic-player.md).
 
 Förbättringarna i Fluidic Player gäller endast för video.
 
@@ -2460,7 +2460,7 @@ Utgivningsdatum: 6 december 2016.
 
 ### Förbättring {#enhancement}
 
-Som en del av den här uppdateringen erbjuder Learning Manager en slutpunkt [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning> Managerapi/v1/#!/user/patch_users_id) för att uppdatera användare i ett program. Du kan komma åt den här API-slutpunkten i administratörsrollen. Med **** här slutpunkten kan du uppdatera följande information om Learning Manager-användare:
+Som en del av den här uppdateringen tillhandahåller Learning Manager slutpunkten [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning> ManagerAPI/v1/#!/user/patch_users_id) för att uppdatera användare i ett program. Du kan komma åt den här API-slutpunkten i administratörsrollen. Med **** här slutpunkten kan du uppdatera följande information om Learning Manager-användare:
 
 * Namn
 * E-post
@@ -2472,7 +2472,7 @@ Som en del av den här uppdateringen erbjuder Learning Manager en slutpunkt [PAT
 
 **Fluidic-spelare**
 
-När du konsumerar en kurs som utvecklats i Captivate med hjälp av  `code cpQuizInfoStudentName` variabel visades elevnamnet inte som förväntat. Problemet har åtgärdats.
+När du läser en kurs som utvecklats i Captivate med variabeln `code cpQuizInfoStudentName` visas inte elevnamnet som förväntat. Problemet har åtgärdats.
 
 +++
 
@@ -2486,17 +2486,17 @@ Utgivningsdatum: 17 november 2016.
 
 Med funktionen Delad katalog kan administratörer över flera konton dela eller hämta kataloger med utbildningsobjekt. Som ett tillägg till den här funktionen för delad katalog stöder vi spridning av uppdateringarna av utbildningsobjekt som märken, färdigheter, moduler, kurser, utbildningsprogram, certifieringar och arbetsstöd.
 
-Mer information om den här funktionen finns  [Hjälp för delade kataloger](../administrators/feature-summary/catalogs.md#propagation)
+Mer information om den här funktionen finns i [Hjälp för delade kataloger](../administrators/feature-summary/catalogs.md#propagation)
 
 **Feedback om L1 och L3**
 
 * L1-feedbackdialogen visas så snart en elev har slutfört kursförbrukningen. Eleven får också ett meddelande om att L1-feedback har slutförts.
 * Ett alternativ för att lägga till beskrivande frågor har angetts i L1- och L3-feedbackfunktionen. Administratörer kan lägga till dessa beskrivande frågor för elever. Denna bestämmelse kompletterar standarduppsättningen med frågor som tillhandahålls av Learning Manager. Du kan lägga till två beskrivande frågor för L1-feedback och en beskrivande fråga för L3-feedback.\
-  Mer information om den här funktionen finns [Hjälp med beskrivande frågor om L1- och L3-feedback](../administrators/feature-summary/courses.md#descriptive)
+  Mer information om den här funktionen finns i [Beskrivande frågor om L1- och L3-feedback](../administrators/feature-summary/courses.md#descriptive)
 
 **Exportera användare**
 
-* På begäran av några stora företagsanvändare finns det ett nytt alternativ för att hämta listan över alla användare i Learning Manager-kontot. Klicka på i Administratörsinloggning **[!UICONTROL Users]** i den vänstra rutan och klicka på **[!UICONTROL Export user data]** för att ladda ned listan över användare som ett Excel-ark.
+* På begäran av några stora företagsanvändare finns det ett nytt alternativ för att hämta listan över alla användare i Learning Manager-kontot. I administratörsinloggningen klickar du på **[!UICONTROL Users]** i den vänstra rutan och klickar på **[!UICONTROL Export user data]** för att ladda ned listan över användare som ett Excel-ark.
 
 ### Problem åtgärdade {#Issuesfixed-1}
 
@@ -2557,9 +2557,9 @@ Utgivningsdatum: 12 oktober 2016.
 
 * När du konfigurerade ett lösenord under registreringen eller under återställningen visades inte felmeddelandet även om det angivna lösenordet inte följer lösenordsprincipen. Problemet har åtgärdats.
 
-**Kurseffektivitet**
+**Kursens effektivitet**
 
-* I elevrollen visades kurseffektivitet som en av de **Sortera på** filtreringsalternativ även när en administratör har inaktiverat kursens effektivitet för elever. Problemet har åtgärdats.
+* I elevrollen visades kurseffektivitet som ett av filtreringsalternativen för **Sortera efter** även när en administratör inaktiverade kurseffektiviteten för elever. Problemet har åtgärdats.
 
 **Certifieringar**
 
@@ -2567,7 +2567,7 @@ Utgivningsdatum: 12 oktober 2016.
 
 **Rapporter**
 
-* När en administratör försöker generera en certifieringsrapport med **Till dags dato** Som ett alternativ visades inte inaktiva användare i rapporten. Problemet har åtgärdats.
+* När en administratör försöker generera en certifieringsrapport med alternativet **Till dags dato** visas inte de inaktiva användarna i rapporten. Problemet har åtgärdats.
 * När en administratör klickar på länken Kursrapporter på fliken Rapporter > Mina rapporter visas en popup-dialogruta utan knappen Stäng. Problemet har åtgärdats.
 
 **Fluidic-spelare**
@@ -2614,7 +2614,7 @@ I den här uppdateringsversionen har vi åtgärdat några av de serverdelproblem
 ### Problem åtgärdade {#Issuesfixed-4}
 
 * Det uppstod ett problem med moduldataexport i elevutskrifter som resulterade i felaktiga exportdata. Problemet har åtgärdats.
-* Om en användare använder ett e-post-ID med fler än fyra tecken stöds det inte. Till exempel, om ett e-post-ID är <abcd@company.world> det stöddes inte eftersom tilläggsvärlden bestod av fler än fyra tecken. Vi har åtgärdat det för att stödja tillägget med mer än fyra tecken.
+* Om en användare använder ett e-post-ID med fler än fyra tecken stöds det inte. Exempel: Om ett e-post-ID är <abcd@company.world> stöds det inte eftersom tilläggets värld innehåller fler än fyra tecken. Vi har åtgärdat det för att stödja tillägget med mer än fyra tecken.
 
 +++
 
@@ -2624,7 +2624,7 @@ Utgivningsdatum: 1 september 2016.
 
 ### Förbättringar {#Enhancements-7}
 
-**Kurseffektivitet**
+**Kursens effektivitet**
 
 Nu kan administratörer anpassa funktionen för kurs- eller utbildningsprogrammets effektivitet för att dölja effektivitetspoängen från vyn Elever.
 
@@ -2692,8 +2692,8 @@ Som en del av den här uppdateringen har vi lagt till följande nya API:er för 
 1. Användare i DELETE
 1. GET användargrupper
 1. GET userGroups /{id}
-1. Användargrupper för DELETE /{id}/Användare
-1. POST userGroups /{id}/Användare
+1. DELETE userGroups /{id}/Users
+1. POST userGroups /{id}/Users
 1. GET /users/userId/userGroups
 
 Vi har också förbättrat den befintliga användarmodellen med följande tillägg:
@@ -2720,7 +2720,7 @@ Inloggnings-ID finns som ett nytt valfritt fält i Adobe Connect-integreringsins
 
 Sidan Kursinställningar i rollen Författare visades inte när en kompetens som är kopplad till den kursen togs bort av administratören. Problemet har åtgärdats.
 
-**Smart registreringsfunktion**
+**Smart registrerare**
 
 Sökfältet stödde inte specialtecken som indata och därför visades inte sökresultaten. Problemet har åtgärdats.
 
@@ -2732,7 +2732,7 @@ Utgivningsdatum: 11 augusti 2016.
 
 ### Förbättringar {#Enhancements-9}
 
-**Smart registreringsfunktion**
+**Smart registrerare**
 
 Sökmotorns prestanda har förbättrats för att ge användare mer exakta sökresultat.
 
@@ -2811,19 +2811,19 @@ Utgivningsdatum: 31 juli 2016.
 
 ## Nya funktioner och förbättringar {#newfeaturesandenhancements}
 
-En lista över nya funktioner och förbättringar i Learning Manager-versionen från juli finns i [Nyheter](../whats-new.md).
+En lista över nya funktioner och förbättringar i juliutgåvan av Learning Manager finns i [Nyheter](../whats-new.md).
 
 Vissa av förbättringsfunktionerna visas nedan som referens.
 
 **Elevens betygsutdrag**
 
-Learning Manager är en funktion som du kan använda för att generera betygsutdrag för elever i organisationens Learning Manager. Mer information finns i  [Hjälpinnehåll för funktionen Elevens betygsutdrag](../administrators/feature-summary/learner-transcripts.md).
+Learning Manager är en funktion som du kan använda för att generera betygsutdrag för elever i organisationens Learning Manager. Mer information finns i [Hjälpinnehåll för elevens betygsutdrag](../administrators/feature-summary/learner-transcripts.md).
 
 **Exportera utmärkelsetecken som PDF**
 
-Med Learning Manager kan du exportera dina märken som PDF-filer. Mer information finns i  [Innehåll i funktionen Märken](../administrators/feature-summary/badges.md).
+Med Learning Manager kan du exportera dina märken som PDF-filer. Mer information finns i [Funktionsinnehåll för märken](../administrators/feature-summary/badges.md).
 
-**Quiz-poäng för moduler**
+**Quizpoäng för moduler**
 
 Du kan lägga till quiz-poäng för modulerna Klassrum, Virtuellt klassrum och Aktivitet.
 
@@ -2835,18 +2835,18 @@ Du kan lägga till quiz-poäng för modulerna Klassrum, Virtuellt klassrum och A
 * När du har lagt till en extern användargrupp i Learning Manager kan du även pausa registreringen av externa användare. Du kan när som helst återkalla blockeringen (paus) genom att välja ett återupptagningsalternativ.
 * Nu kan du redigera elevernas namn och e-post-ID.
 
-**Egenregistrering**
+**Självregistrering**
 
 Elever kan även avregistrera sig själva från utbildningsobjekt som kurs, utbildningsprogram eller certifiering. Eleven kan dock inte avregistrera sig från ett utbildningsobjekt efter att ha slutfört ett utbildningsobjekt.
 
-**Använda utbildningsobjekt**
+**Förbrukande utbildningsobjekt**
 
 Nu kan administratörer markera en utbildningsaktivitet som slutförd för elever.
 
 **Rapporter**
 
 * Du kan prenumerera på rapporter om kurser, utbildningsprogram eller certifikat. Du kan även prenumerera på enskilda kursrapporter om data som quizpoäng och elevstatus. Prenumerationerna levereras till din mejladress såsom den registrerats i Learning Manager-kontot. Du kan också ändra detta e-post-ID.
-* När du exporterar rapporten om certifieringsregistrering skapas en ny kolumn med namnet **Inlämningsdatum** exporteras också. Kolumndata gör att administratörer kan se elever som har missat sina tidsgränser för förbrukning av utbildningsobjekt.
+* När du exporterar rapporten över certifieringsregistrering exporteras även en ny kolumn med namnet **Förfallodatum**. Kolumndata gör att administratörer kan se elever som har missat sina tidsgränser för förbrukning av utbildningsobjekt.
 
 **E-postmallar**
 
@@ -2876,7 +2876,7 @@ Utgivningsdatum: 10 juni 2016.
 
 ## Problemet har åtgärdats {#Issuefixed-1}
 
-Vissa kunder fick problem med att använda funktionen för enkel inloggning i Learning Manager. Problemet har åtgärdats genom att enhets-ID för Learning Manager refererats till en URL (<https://learningmanager.adobe.com>) i stället för ett nyckelord. Learning Manager följer SAML 2.0-specifikationen.
+Vissa kunder fick problem med att använda funktionen för enkel inloggning i Learning Manager. Problemet har åtgärdats genom att EntityId för Learning Manager refererats till en URL (<https://learningmanager.adobe.com>) i stället för ett nyckelord. Learning Manager följer SAML 2.0-specifikationen.
 
 +++
 
@@ -2903,14 +2903,14 @@ När externa elever besöker registreringssidan med hjälp av en extern profil-U
 
 **Förhandsgranska och publicera kurser**
 
-* I författarrollen, när du förhandsgranskar en kurs som har laddats upp från Captivate som ett SCORM+SWF-innehåll med `code $$cpQuizInfoStudentName$$` variabel, null-värde visades för variabel. Problemet har åtgärdats.
+* När du i författarrollen förhandsgranskar en kurs som laddats upp från Captivate som ett SCORM+SWF-innehåll med variabeln `code $$cpQuizInfoStudentName$$`, visas ett null-värde för variabeln. Problemet har åtgärdats.
 * När en presentatörskurs med titel som innehåller apostrof (&#39;) publiceras och visas i Learning Manager, brukade frågetecken (???) visas i innehållsförteckningen. Problemet har åtgärdats.
 
 **Certifieringar**
 
 * Om en certifiering är kopplad till en katalog och när certifieringen återkommer visas den i alla associerade kataloger. Tidigare fanns det vissa fall där användare inte kunde visa de återkommande certifieringarna i sina kataloger.
-* När du skapar certifieringar och en administratör anger **dagar för slutförande** ett värde som är större än eller lika med intygets giltighetstid visas ett varningsmeddelande. Tidigare visades inte varningsmeddelandet för administratörerna.
-* Certifieringen **giltighet** visas för användarna uttryckt i månader. Tidigare uppträdde basvärdet uttryckt i år.
+* Om en administratör anger värdet **dagar för slutförande**, vilket är större än eller lika med giltighetsperioden för certifieringen, när certifieringar skapas, visas ett varningsmeddelande. Tidigare visades inte varningsmeddelandet för administratörerna.
+* Certifieringens **giltighet** visas för användarna uttryckt i månader. Tidigare uppträdde basvärdet uttryckt i år.
 
 **Definiera utbildningsprogram**
 
@@ -2944,7 +2944,7 @@ Ett feedbackalternativ tillhandahålls i bekräftelsedialogrutan för kontoinakt
 * Listan över elever som exporteras misslyckades när en stor mängd användare är registrerade i ett utbildningsprogram. Problemet har åtgärdats.
 * När en kurs har två instanser med samma namn och instansnamnet är långt, skapades inte två kalkylblad i den exporterade Excel-filen. Problemet har åtgärdats.
 
-**Massregistrering**
+**Gruppregistrering**
 
 När ett stort antal elever är registrerade för utbildningsobjekt som utbildningsprogram, kurser, certifieringar, arbetsstöd och utbildningsplaner misslyckades registreringen. Problemet har åtgärdats.
 
@@ -2970,10 +2970,10 @@ Export av registreringsdata misslyckas om en av de registrerade eleverna tas bor
 
 **E-postmallar**
 
-* Ordet **partner,** som användes för att representera externa grupper,****&#x200B;är **** har tagits bort från brödtext och titel för e-postmallar. Externa grupper kallas inte nödvändigtvis partner.\
-  **Obs!** Den uppdaterade mallen visas inte om standardmallen redan har ändrats. Om du vill visa den uppdaterade mallen klickar du på&#x200B;**Återgå till original** i **Förhandsgranskning av mall** dialog.
+* Ordet **partners,** som användes för att representera externa grupper,**** tas bort **** från brödtext och titel för e-postmallar. Externa grupper kallas inte nödvändigtvis partner.\
+  **Obs!** Den uppdaterade mallen visas inte om standardmallen redan har ändrats. Om du vill visa den uppdaterade mallen klickar du på **Återgå till original** i dialogrutan **Mallförhandsvisning**.
 
-* Det går inte att klicka på URL:en i e-postmeddelandet som mottas av administratörer när **Profilen har skapats (självregistrering)** och **Profilen har skapats (extern/partner)** e-postmallar redigeras. Problemet har åtgärdats.
+* Det går inte att klicka på URL:en i e-postmeddelandet som mottas av administratörer när **Profilen har skapats (självregistrering)** och **Profilen har skapats (externa/partners)** e-postmallar har redigerats. Problemet har åtgärdats.
 
 +++
 
@@ -3001,7 +3001,7 @@ Learning Manager-programmet tillåter inte externa elever att logga in på progr
 
 **Certifieringar**
 
-Du kan förlänga certifieringarna uttryckt i månader genom att nämna värdet i **Giltighet** område. Tidigare var förnyelsen av certifieringen tillåten endast i fråga om år.
+Du kan förnya certifieringarna uttryckt i månader genom att nämna värdet i fältet **Giltighet**. Tidigare var förnyelsen av certifieringen tillåten endast i fråga om år.
 
 ### Problem åtgärdade {#Issuesfixed-12}
 
@@ -3009,35 +3009,35 @@ Du kan förlänga certifieringarna uttryckt i månader genom att nämna värdet 
 
 Vid administratörsinloggning fungerade inte sidnumreringen på sidan Meddelanden. Problemet har åtgärdats.
 
-**Utbildningsprogram och utbildningsplaner**
+**Utbildningsprogram och -planer**
 
-* Ett felmeddelande visades inte när en elev försöker hoppa över en beställd kursmodul i ett utbildningsprogram. Problemet har åtgärdats nu. Ett felmeddelande **Det går inte att hoppa över moduler** visas.
+* Ett felmeddelande visades inte när en elev försöker hoppa över en beställd kursmodul i ett utbildningsprogram. Problemet har åtgärdats nu. Felmeddelandet **Det går inte att hoppa över moduler** visas.
 * Kurserna lades inte till i utbildningsprogrammen när sidnumrering används i kurslistan. Problemet har åtgärdats.
-* **Utfasad** fliken visades två gånger i Utbildningsprogram > instanser. Problemet har åtgärdats.
+* Fliken **Utfasad** visades två gånger i Utbildningsprogram > instanser. Problemet har åtgärdats.
 
 **Arbetsstöd**
 
-* När en elev tar bort arbetsstöd från **Utbildning** flik, **Namn** sorteringen fungerade inte som förväntat förrän sidan uppdaterades. Problemet har åtgärdats.
+* När en elev tar bort arbetsstöd från fliken **Utbildning** fungerar inte sorteringen av **Namn** som förväntat förrän sidan uppdateras. Problemet har åtgärdats.
 
 * Om arbetsstöd ingår i flera kurser visas kurserna inte i listan Arbetsstöd. Problemet har åtgärdats.
 * Om en elev zoomar in eller ut webbläsaren fungerade inte sidnumreringen för arbetsstödslistan som förväntat. Problemet har åtgärdats.
 
-**Kurstagning**
+**Kursanvändning**
 
 * Om en elev zoomar in eller ut webbläsaren fungerade inte sidnumreringen för kurserna som förväntat. Problemet har åtgärdats.
 
 **Skapa kompetenser**
 
-I inloggningen för elever anger du knappbeskrivningen för färdighetsnamnet i **kompetensöversikt **har** **det fullständiga namnet visas ****. Problemet har åtgärdats.
+I inloggningen för elever visade verktygstipset för färdighetsnamn i **Kompetenskartan **var** **det fullständiga namnet visas****inte. Problemet har åtgärdats.
 
 **Lägg till externa partner**
 
-* Ett textmeddelande har inkluderats på registreringssidan för externa användare som **Användare måste först registrera sig och skapa användarnamn och lösenord för efterföljande inloggningar**.
+* Ett textmeddelande har inkluderats på registreringssidan för externa användare eftersom **Användare först måste registrera sig och skapa ett användarnamn och lösenord för efterföljande inloggningar**.
 
 **Användarmeddelanden**
 
-* När en extern elev klickar på **Öppna anteckningar** länk i Återbesök kurs e-postmeddelande, spelaren öppnas men anteckningspanelen fungerade inte. Problemet har åtgärdats.
-* När en extern elev försöker öppna förarbets- eller testmodulerna med **Öppna anteckningar** länk i E-postmeddelande om återbesök på kurs, anteckningarna var inte synliga. Problemet har åtgärdats.
+* När en extern elev klickar på länken **Öppna anteckningar** i E-postmeddelande om återbesök på kursen öppnas spelaren, men anteckningspanelen fungerade inte. Problemet har åtgärdats.
+* När en extern elev försöker öppna modulerna före eller under testet med hjälp av länken **Öppna anteckningar** i e-postavisering om återbesök på kursen var anteckningarna inte synliga. Problemet har åtgärdats.
 
 **Skapa kurser med moduler**
 
@@ -3057,7 +3057,7 @@ Utgivningsdatum: 15 mars 2016
 
 **Skapa kurser med moduler**
 
-* När du försöker skapa en ny instans för kurser från i Administratörsinloggning **Utfasad**-fliken, ett fel inträffade tidigare. Problemet har åtgärdats.
+* När du försöker skapa en ny instans för kurser från fliken **Pensionerade** i Administratörsinloggningen uppstod ett fel. Problemet har åtgärdats.
 * Vid administratörsinloggning av lokaliserat innehåll förvrängdes åtgärderna och skärmlayouterna för registrering när elever registrerades för kursinstans. Problemet har åtgärdats.
 * När en författare skapar klassrums- eller virtuella klassrumsmoduler visades kalenderns standardmånad som jan 2015. Problemet har som standard korrigerats för att återspegla det aktuella datumet.
 * När ett kursinstansnamn består av snedstreck framåt eller bakåt har exportåtgärden för elevlistan misslyckats. Problemet har åtgärdats.
@@ -3068,17 +3068,17 @@ När en elev hovrar med musen på ett videomeddelande ändras inte markören til
 
 **Användarmeddelanden**
 
-När en extern elev klickar på **Öppna anteckningar** länk i E-postavisering om återbesök på kursen, det fungerade inte. Problemet har åtgärdats nu. Den här länken öppnar spelaren med anteckningar, även om användaren inte är inloggad på Learning Manager.
+När en extern elev klickar på länken **Öppna anteckningar** i E-postavisering för återbesök på kursen fungerade det inte. Problemet har åtgärdats nu. Den här länken öppnar spelaren med anteckningar, även om användaren inte är inloggad på Learning Manager.
 
 **Stöd för franska och tyska**
 
 Hjälp-URL:erna i CSV-uppladdningsfunktionen gick över till engelskt hjälpinnehåll. Problemet har åtgärdats.
 
-**Förhandsgranska och publicera kurser**
+**Förhandsgranska och Publish-kurser**
 
 Vid författarinloggning fungerade inte innehållet när du förhandsgranskade Presenter 10- och 11 TinCan API-innehåll (SWF/HTML). Problemet har åtgärdats.
 
-**Anpassningsbar e-post**
+**Anpassningsbara e-postmeddelanden**
 
 Titelnamnen i e-postmallarna var inte lämpliga. Innehållet uppdateras i dessa malltitlar så att de blir läsbara.
 
@@ -3098,13 +3098,13 @@ Utgivningsdatum: 28 februari 2016.
 
 Arbetsstöd är ett arkiv med utbildningsinnehåll som är tillgängligt för elever utan några registrerings- eller slutförandekriterier. Elever kan hänvisa till dessa arbetsstöd för att få hjälp med att utföra någon aktivitet eller uppgift i en organisation. Administratören kan spåra antalet nedladdningar per arbetsstöd.
 
-Mer information om den här funktionen finns  [Hjälp med arbetsstöd](../learners/feature-summary/job-aids.md).
+Mer information om den här funktionen finns i [Hjälp för arbetsstöd](../learners/feature-summary/job-aids.md).
 
 ### Meddelanden
 
 Ett meddelande är ett multimediemeddelande (text, bild eller video) som en administratör kan skapa och sända till en viss grupp användare. Använd meddelanden för att motivera elever att gå vidare med utbildningar och därmed bygga upp en utbildningskultur.
 
-Mer information om den här funktionen finns  [Hjälp för meddelanden](../learners/feature-summary/announcements.md).
+Mer information om den här funktionen finns i [Hjälp med meddelanden](../learners/feature-summary/announcements.md).
 
 ### Tin Can API-stöd
 
@@ -3116,7 +3116,7 @@ Kontakta Adobe supportteam för mer information.
 
 Du kan skapa en utbildningsväg genom att tilldela en uppföljningskurs eller någon utbildningsaktivitet automatiskt.
 
-Händelser för utbildningsplaner har uppdaterats. Ett par nya händelser har lagts till. Se  [Utbildningsplaner](../learners/feature-summary/learning-programs.md) för mer information.
+Händelser för utbildningsplaner har uppdaterats. Ett par nya händelser har lagts till. Se [Utbildningsplaner](../learners/feature-summary/learning-programs.md) för mer information.
 
 ### Anteckningspåminnelse
 
@@ -3124,7 +3124,7 @@ Om du gör några anteckningar medan du slutför en kurs, påminner Learning Man
 
 ### spelifiering på gruppnivå
 
-Administratörer kan definiera omfattningen av spelifieringen genom att ändra omfångsinställningarna. Du kan välja att aktivera spelifiering bland liknande profilanvändare, grupper eller platser. Se  [Spelifiering](../learners/feature-summary/gamification.md) för mer information.
+Administratörer kan definiera omfattningen av spelifieringen genom att ändra omfångsinställningarna. Du kan välja att aktivera spelifiering bland liknande profilanvändare, grupper eller platser. Mer information finns i [spelifiering](../learners/feature-summary/gamification.md).
 
 ### Stöd för franska och tyska
 
@@ -3136,7 +3136,7 @@ Det finns betydande förbättringar av de befintliga funktionerna i Learning Man
 
 ### Importera CSV
 
-Om du tar bort användare kan du inte lägga till samma användare igen i programmet om du lägger till enskilda användare. Du kan dock lägga till den raderade användaren igen genom att ladda upp en CSV-fil. Det finns betydande ändringar av begränsningen för obligatoriska fält i funktionen för CSV-överföring. Se  [Vanliga frågor och svar om CSV](../administrators/add-users-in-bulk.md) för mer information.
+Om du tar bort användare kan du inte lägga till samma användare igen i programmet om du lägger till enskilda användare. Du kan dock lägga till den raderade användaren igen genom att ladda upp en CSV-fil. Det finns betydande ändringar av begränsningen för obligatoriska fält i funktionen för CSV-överföring. Se [Vanliga frågor och svar om CSV](../administrators/add-users-in-bulk.md) för mer information.
 
 ### Vyn Kurslista
 
@@ -3144,9 +3144,9 @@ Som standard kan du visa kurser som kort. En listvy har introducerats i den här
 
 ### Radera kurser
 
-Nu kan du radera kurser i utkast och utfasade steg. Se  [Kurser](../administrators/feature-summary/courses.md) för mer information. Om ett utbildningsobjekt tas bort tas även alla dess rapporteringsdata bort. Om en kurs tas bort och om den ingick i något annat utbildningsobjekt visas ett lämpligt meddelande för användaren.
+Nu kan du radera kurser i utkast och utfasade steg. Se [Kurser](../administrators/feature-summary/courses.md) om du vill ha mer information. Om ett utbildningsobjekt tas bort tas även alla dess rapporteringsdata bort. Om en kurs tas bort och om den ingick i något annat utbildningsobjekt visas ett lämpligt meddelande för användaren.
 
-**Utbildningsprogram och utbildningsplaner**
+**Utbildningsprogram och -planer**
 
 Du kan upprätthålla ordningen för att elever ska kunna delta i kurser i utbildningsprogram. Du kan ta bort utbildningsprogram i utkastfaser och utfasade faser. Om ett utbildningsobjekt tas bort tas även alla dess rapporteringsdata bort.
 
@@ -3154,7 +3154,7 @@ Du kan upprätthålla ordningen för att elever ska kunna delta i kurser i utbil
 
 Du kan ta bort certifieringar i utkaststadier och utfasade stadier. Om ett utbildningsobjekt tas bort tas även alla dess rapporteringsdata bort.
 
-**Effektivitetsklassificering för kurs**
+**Kursens effektivitet**
 
 Vid administratörsinloggning kan du exportera L1- och L3-feedbackdata för alla kurser.
 
@@ -3180,11 +3180,11 @@ När du har registrerat de externa eleverna på Learning Manager-kontot kan du �
 
 ### Problem åtgärdade {#Issuesfixed-14}
 
-**Elevers närvaro**
+**ELEVERS NÄRVARO**
 
 Närvaroblad i administratörsvyn visar medarbetarens fullständiga namn om det finns tillgängligt. Tidigare visades bara elevens förnamn.
 
-**Utbildningsprogram och utbildningsplaner**
+**Utbildningsprogram och -planer**
 
 Alla kurser i utbildningsprogrammen visas i förväntad ordning. Tidigare fanns det problem med ordningen på kurser i ett utbildningsprogram. Problemet har åtgärdats.
 
@@ -3194,7 +3194,7 @@ Om en befintlig självregistrerad användare försöker registrera sig igen med 
 
 **Rapporter**
 
-Om du vill att innehållet ska identifiera den tid som användaren lagt ned på att konsumera innehåll kan du identifiera det med en variabel, `code cmi.core.session_time`. Variabeln har inte angetts tidigare. Problemet har åtgärdats.
+Om du vill att innehållet ska identifiera den tid som användaren har lagt på att konsumera innehåll kan du identifiera det med en variabel, `code cmi.core.session_time`. Variabeln har inte angetts tidigare. Problemet har åtgärdats.
 
 **Skapa kurser med moduler**
 
@@ -3212,7 +3212,7 @@ Utgivningsdatum: 9 februari 2016.
 
 ## Utloggningsbeteende har uppdaterats {#signoutbehaviorupdated}
 
-När användarna klickar på **[!UICONTROL Sign Out]** i Learning Manager loggas de nu ut från Learning Manager-programmet och loggas också ut från sina Adobe ID.
+När användare klickar på **[!UICONTROL Sign Out]** i Learning Manager loggas de nu ut från Learning Manager-programmet och loggas också ut från sina Adobe ID:n.
 
 +++
 
@@ -3222,17 +3222,17 @@ Utgivningsdatum: 20 januari 2016.
 
 ### Förbättringar {#Enhancements-14}
 
-**Anpassningsbar e-post**
+**Anpassningsbara e-postmeddelanden**
 
 * Användare kan ändra sidfotsavsnittet i e-postmallarna. Du kan anpassa sidfoten i en e-postmall med den text du väljer. Den anpassade sidfoten används automatiskt för alla typer av e-postmallar.
 
-**Kurstagning**
+**Kursanvändning**
 
 * Resursobjekten i förhandsgranskningsläge för en kurs listas efter varandra på en ny rad. Tidigare fanns det tillfällen då resurserna i en kurs brukade visas bredvid varandra på en enda rad.
 
 **Direktlänk till utbildningsobjekt**
 
-* Du kan komma åt utbildningsobjekten (utom Certifiering) med hjälp av en direkt URL. Inställningen **[!UICONTROL Copy url]** alternativet visas på flikarna i utbildningsobjekt. Användarna kan klicka **[!UICONTROL Copy url]** och klistra in länken på en separat webbläsarsida för att få direkt åtkomst till utbildningsobjektet.
+* Du kan komma åt utbildningsobjekten (utom Certifiering) med hjälp av en direkt URL. Alternativet **[!UICONTROL Copy url]** visas i flikarna med utbildningsobjekt. Användarna kan klicka på **[!UICONTROL Copy url]** och klistra in länken på en separat webbläsarsida för att komma åt utbildningsobjektet direkt.
 
 **Skapa kurser med moduler**
 
@@ -3246,11 +3246,11 @@ Utgivningsdatum: 20 januari 2016.
 
 **Skapa katalog**
 
-* I administratörsrollen, när du skapar kataloger med **Lägg till utbildningsobjekt** visas inte utfasade kurser i listan över kurser.
+* När kataloger skapas med hjälp av dialogrutan **Lägg till utbildningsobjekt** i administratörsrollen visas inte de indragna kurserna i listan med kurser.
 
 **Andra korrigeringar**
 
-* I rollen Administratör visas elevernas fullständiga namn i **Elever** -fliken. Tidigare visades bara elevens förnamn.
+* I administratörsrollen visas elevernas fullständiga namn på fliken **Elever**. Tidigare visades bara elevens förnamn.
 
 +++
 
@@ -3260,7 +3260,7 @@ Utgivningsdatum: 13 januari 2016.
 
 ### Problem åtgärdade {#Issuesfixed-15}
 
-**Kurstagning**
+**Kursanvändning**
 
 * När du öppnar kursinnehåll visas alltid innehållsuppspelningsfältet på skärmen. Ett problem uppstod tidigare med innehållsuppspelningsfältet eftersom det brukade försvinna från skärmen ibland.
 * Om innehållet har en popup-dialogruta som visas med en uppmaning till användarna om de verkligen vill avsluta eller stanna kvar på sidan när de öppnar kursinnehåll, kommer användaren tillbaka till innehållet om du trycker på Stanna vid en sådan dialogruta. I vissa scenarier klickar du på vistelseknappen för att ta bort användaren från kursinnehållet.
@@ -3279,11 +3279,11 @@ Utgivningsdatum: 22 december 2015
 
 **Personlig tavla**
 
-* När du öppnar kurser, kataloger och utbildningsprogram i rollerna Administratör och Författare ändras ordningen på flikar till **Publicerat - Utkast - Alla - Utfasat**. Standardvalet är **Publicerat.**
+* När du använder kurser, kataloger och utbildningsprogram i rollerna Administratör och Författare ändras flikordningen till **Publicerad - Utkast - Alla - Indragen**. Standardvalet är **Publicerat.**
 
 ### Problem åtgärdade {#Issuesfixed-16}
 
-**Kurstagning**
+**Kursanvändning**
 
 * I elevrollen medan du utför en kurs, om spelaren är stängd med bakåtknappen i webbläsaren eller backstegstangenten i tangentbordet, registreras utbildningstid i rapporter. I vissa scenarier fanns det ett problem med att varaktigheten inte registrerades i rapporterna.
 
@@ -3297,7 +3297,7 @@ Utgivningsdatum: 22 december 2015
 
 **Skapa en anpassad katalog för användargruppen**
 
-* Vid användning **Lägg till utbildningsobjekt** i rollen Administratör kan du filtrera kurser, välja en kurs och lägga till med **Lägg till** längst ned i dialogrutan. I vissa fall kan **Lägg till** knappen visades inte för vissa användare.
+* När du använder dialogrutan **Lägg till utbildningsobjekt** i administratörsrollen kan du filtrera kurser, välja en kurs och lägga till med knappen **Lägg till** längst ned i dialogrutan. I vissa fall visades inte knappen **Lägg till** för vissa användare.
 
 +++
 
@@ -3347,7 +3347,7 @@ Utgivningsdatum: 9 december 2015
 
 * Välkomstmeddelandet som nya användare har fått visar hur viktigt det är att länka Adobe ID till Learning Manager-ID:t för att lyckas med inloggningen.
 
-**Anpassningsbar e-post**
+**Anpassningsbara e-postmeddelanden**
 
 * När du lägger till flera elever i klassrumskurserna som har sessioner som bilagor, fick vissa elever inga e-postmeddelanden. Problemet har åtgärdats.
 * E-postmeddelanden till elever angående registreringar av utbildningsobjekt och andra händelser innehåller det specifika namnet på utbildningsobjektet i e-postämnet.
@@ -3357,7 +3357,7 @@ Utgivningsdatum: 9 december 2015
 * Problemen relaterade till URL-länkar i e-postmallar har åtgärdats.
 * Stöd för
 
-   * Publicera på Learning Manager
+   * Publish till Learning Manager
    * Snabbare stöd för överföring av innehåll för CP 8-versionen (en CP803-korrigering krävs)
 
 +++
@@ -3378,7 +3378,7 @@ Utgivningsdatum: 26 oktober 2015.
 
 **Fakturering**
 
-* När en användare i rollen Administratör anger antal elever och klickar på **Beställ,** En dialogruta visas med information om månads- och årsprenumerationsavgifter per användare.
+* När en användare i rollen Administratör anger antal elever och klickar på **Beställ** visas en dialogruta med information om månads- och årsprenumerationsavgifter per användare.
 
 ### Problem åtgärdade {#Issuesfixed-19}
 
@@ -3419,7 +3419,7 @@ Utgivningsdatum: 28 september 2015
 
 ### Problem åtgärdade {#Issuesfixed-20}
 
-**Utbildningsprogram och utbildningsplaner**
+**Utbildningsprogram och -planer**
 
 * Elever kan registreras automatiskt till samma utbildningsprogram som en del av flera utbildningsplaner. Tidigare fanns det vissa undantag från det här arbetsflödet. Problemet har åtgärdats.
 

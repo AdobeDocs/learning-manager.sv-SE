@@ -3,14 +3,13 @@ description: Administratörer kan starta en personifierad session där de kan lo
 jcr-language: en_us
 title: Personifiering av elev och chef
 contentowner: saghosh
-source-git-commit: d59e748472c77527c22b286aea5412f776f6441b
+exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 0%
 
 ---
-
-
 
 # Personifiering av elev och chef {#impersonation-of-learner-and-manager}
 

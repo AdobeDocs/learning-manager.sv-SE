@@ -27,12 +27,12 @@ Vissa FTP-klienter som rekommenderas av AWS visas [här](https://docs.aws.amazon
 Du måste konfigurera den nya AWS-baserade FTP-anslutningen i integrationsadministratören.
 
 ![anslutningsbild](assets/alm-ftp.png)
-*Välj FTP-alternativet*
+*Välj FTP-alternativ*
 
 När du har anslutit kan du se sidan Anslutningsinformation.
 
 ![sidan med anslutningsinformation](assets/connection-name.png)
-*Visa sidan Anslutningsinformation*
+*Visa sidan med anslutningsinformation*
 
 Det finns tre autentiseringsalternativ:
 
@@ -46,10 +46,10 @@ Du har skapat en FTP-anslutning.
 
 ### Skapa autentisering med befintliga SSH-nycklar
 
-Om du redan har en SSH-nyckel klistrar du in den offentliga nyckeln i **[!UICONTROL FTP Public Key]** och klicka sedan på Anslut.
+Om du redan har en SSH-nyckel klistrar du in den offentliga nyckeln i fältet **[!UICONTROL FTP Public Key]** och klickar sedan på Anslut.
 
 ![SSH-nycklar](assets/ssh-keys.png)
-*Klistra in tangenterna*
+*Klistra in nycklarna*
 
 ### Skapa grundläggande autentisering med ett lösenord
 
@@ -66,7 +66,7 @@ Skapa anslutningen på en FTP-klient (rekommenderas i avsnittet tidigare) med de
 ### Exempel på testexport
 
 * I FTP-klienten ändrar du platsen för ExaVault FTP till den nya FTP-platsen. Den nya domänen är `http://almftp.adobelearningmanager.com/`.
-* Du måste också vitlista IP, `18.195.107.67`.
+* Du måste också godkänna IP-adressen `18.195.107.67`.
 * Efter autentiseringen måste du överföra och hämta några exempelfiler till och från den nya FTP-platsen med hjälp av externa FTP-klienter eller automatiseringsskript.
 * Du måste överföra data från den gamla platsen till den nya.
 * Datalagringsprincipen för kopplingen är fortfarande densamma. ExaVault har även stöd för vissa principer för datalagring utöver den officiella policyn. Sådana principer för datalagring kommer inte att vara tillgängliga för den nya anslutningen. Kontrollera om anslutningen använder datalagring utöver de officiellt stödda principerna.
@@ -83,7 +83,7 @@ Skapa anslutningen på en FTP-klient (rekommenderas i avsnittet tidigare) med de
 
 1. Anslut till ny ALM FTP-anslutning. Klicka på Anslut.
 
-   ![anslut bild](assets/connect-client.png)
+   ![Anslut bild](assets/connect-client.png)
    *Anslut till ny ALM FTP-anslutning*
 
 1. Om du vill ansluta via grundläggande autentisering via lösenord anger du domännamnet, FTP-användarnamnet och konfigurerar lösenordet som matchar kriterierna för lösenordsvalidering. Klicka på Anslut. Den nya FTP-anslutningen skapas och kan nås via valfri SFTP-klient.
@@ -96,7 +96,7 @@ Skapa anslutningen på en FTP-klient (rekommenderas i avsnittet tidigare) med de
    ![SFTP-klient](assets/sftp-client-install.png)
    *Anslut via SFTP-klienten*
 
-1. Klicka **[!UICONTROL New site]** för att skapa en ny plats. Byt namn på platsen efter behov.
+1. Klicka på **[!UICONTROL New site]** för att skapa en ny plats. Byt namn på platsen efter behov.
 
    ![ny webbplats](assets/new-site.png)
    *Skapa en webbplats*
@@ -124,11 +124,11 @@ Skapa anslutningen på en FTP-klient (rekommenderas i avsnittet tidigare) med de
    ![lösenord](assets/password.png)
    *Ange lösenord*
 
-   (Valfritt) Välj alternativet **[!UICONTROL Always trust this host]** för att lita på värden.
+   (Valfritt) Markera kryssrutan **[!UICONTROL Always trust this host]** om du vill lita på värden.
 
 1. Klicka på OK.
 
-   ![okänd värdnyckel](assets/unknown-host-key.png)
+   ![Okänd värdnyckel](assets/unknown-host-key.png)
    *Värdnyckel*
 
 1. Kontrollera status och förlopp för anslutningen högst upp.
@@ -140,7 +140,7 @@ Skapa anslutningen på en FTP-klient (rekommenderas i avsnittet tidigare) med de
    * Du kan dra och släppa filer.
    * Dubbelklicka på filen.
 
-   ![anslutningsstatus](assets/connection-status-progress.png)
+   ![Anslutningsstatus](assets/connection-status-progress.png)
    *Kontrollera anslutningsstatus*
 
 Du kan när som helst ändra och uppdatera autentiseringstypen.
@@ -149,9 +149,9 @@ Andra autentiseringssätt är via SSH-nycklar:
 
 Klistra in din offentliga nyckel i textrutan för att använda befintliga SSH-nycklar. Klicka på Anslut/Spara.
 
-Om du vill skapa nya SSH-nycklar klickar du på&#x200B;**[!UICONTROL Generate SSH Key]**&quot;. Den privata nyckeln hämtas. Klicka på **[!UICONTROL Connect/Save]**.
+Klicka på knappen **[!UICONTROL Generate SSH Key]** för att generera nya SSH-nycklar. Den privata nyckeln hämtas. Klicka på **[!UICONTROL Connect/Save]**.
 
-![generera ssh-nyckel](assets/ssh-key.png)
+![Generera ssh-nyckel](assets/ssh-key.png)
 *Generera SSH-nyckel*
 
 Mappa detaljerna. Välj inloggningstyp som nyckelfil. Välj filen med den privata nyckeln.

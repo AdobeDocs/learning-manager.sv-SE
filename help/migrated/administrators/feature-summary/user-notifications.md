@@ -41,10 +41,10 @@ Ett exempel på meddelandefönster för administratörsrollen visas i följande 
 
 Det här popup-fönstret visar markeringar av alla meddelanden tillsammans med tidpunkten för förekomsten och en rullningslist. Du kan ta reda på antalet senaste meddelanden baserat på det markerade numret högst upp på aviseringsikonen. Om det till exempel finns fem senaste meddelanden efter din föregående inloggning, kan du se siffran 5 visas ovanpå aviseringsikonen. Dessa siffror försvinner när du läser alla de senaste meddelandena.
 
-Klicka **[!UICONTROL Show all notifications]** längst ned i popup-fönstret för meddelanden för att visa alla meddelanden på en separat sida. På sidan aviseringar kan du se följande:
+Klicka på länken **[!UICONTROL Show all notifications]** längst ned i popup-fönstret för meddelanden om du vill visa alla meddelanden på en separat sida. På sidan aviseringar kan du se följande:
 
 * **Alla meddelanden**: Visa alla meddelanden här
-* **Väntar**: Visa väntande meddelanden här
+* **Väntande**: Visa väntande meddelanden här
 * **Diskussion**: Sök efter kurser för att se vilka diskussioner som förs.
 
 ## Ställ in eskaleringsmeddelanden för flera nivåer {#setupmultilevelescalationnotifications}
@@ -82,15 +82,15 @@ Eskalering av e-postmeddelanden när elever missar en deadline kan skickas till 
 
    *Ange påminnelser och eskaleringsdatum*
 
-1. Om eleven fortfarande inte lyckas slutföra kursen även efter eskalering till chefen, kan inställningarna eskalera till elevens skip manager. Klicka på ett datum efter den förlängda tidsgränsen, välj upprepning av påminnelser, antal dagar för schemat och välj **Chef och överhoppad chefsnivå** i **Eskalering** Listruta. Klicka på den blå bockmarkeringen för att spara aviseringsinställningarna.
+1. Om eleven fortfarande inte lyckas slutföra kursen även efter eskalering till chefen, kan inställningarna eskalera till elevens skip manager. Klicka på ett datum efter den utökade tidsgränsen, välj upprepning av påminnelser, antalet dagar för schemat och välj **Chef och överhoppad nivåhanterare** i listrutan **Eskalering**. Klicka på den blå bockmarkeringen för att spara aviseringsinställningarna.
 
    ![](assets/reminder-to-managerandskipmanager.png)
 
-   *Spara meddelandeinställningarna*
+   *Spara aviseringsinställningarna*
 
 ## Vanliga frågor {#frequentlyaskedquestions}
 
 +++Hur ställer du in påminnelsemeddelanden på instansen?
 
-Klicka på Meddelandeaviseringar för en instans. En kalender öppnas som anger den inställda tidsgränsen för kursen markerad med rött. Klicka på det markerade datumet för att se påminnelserna inställda för eleven. Ställ in påminnelserna som förklaras i det här [avsnitt](user-notifications.md#Setupmultilevelescalationnotifications).
+Klicka på Meddelandeaviseringar för en instans. En kalender öppnas som anger den inställda tidsgränsen för kursen markerad med rött. Klicka på det markerade datumet för att se påminnelserna inställda för eleven. Ställ in påminnelserna enligt beskrivningen i det här [avsnittet](user-notifications.md#Setupmultilevelescalationnotifications).
 +++

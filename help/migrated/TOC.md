@@ -144,7 +144,7 @@ ht-degree: 8%
    * [Elevens betygsutdrag](managers/feature-summary/learner-transcripts.md)
    * [Inställningar](managers/feature-summary/settings.md)
    * [Användare av iPad- och Android-surfplattor](managers/feature-summary/ipad-android-tablet-users.md)
-* Vanliga frågor {#faq}
+* Vanliga frågor och svar {#faq}
    * [Vanliga frågor för administratörer](administrators/frequently-asked-questions-for-administrators.md)
    * [Vanliga frågor för författare](authors/frequently-asked-questions-for-authors.md)
    * [Vanliga frågor för instruktörer](instructors/frequently-asked-questions-for-instructors.md)

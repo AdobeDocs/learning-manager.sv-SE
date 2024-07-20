@@ -3,24 +3,23 @@ jcr-language: en_us
 title: Användare av iPad- och Android-surfplattor
 description: Inställningar för användare med iPad- och Android-surfplattor
 contentowner: manochan
-source-git-commit: 53c1a5283295b56424d697bc26c5db31c2edca0f
+exl-id: 19abe9d6-b48e-4027-bb72-95d7c767c1ec
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 0%
 
 ---
 
-
-
 # Användare av iPad- och Android-surfplattor
 
-När du har loggat in som elev i Learning Manager-appen på en iPad- eller Google Nexus 9 Android-surfplatta kan du se följande **Startsida** skärmen:
+När du har loggat in som elev i Learning Manager-appen på iPad eller Google Nexus 9 Android-surfplattan kan du se följande **startskärm**:
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
 *Appens startskärm*
 
-Gå till utbildnings- och katalogfunktionerna genom att trycka på **Meny** och väljer lämpligt alternativ.
+Gå till utbildnings- och katalogfunktionerna genom att trycka på rullgardinsmenyn **Meny** och välja lämpligt alternativ.
 
 <!--![](assets/menu-ipad.png)-->
 
@@ -28,7 +27,7 @@ Gå till utbildnings- och katalogfunktionerna genom att trycka på **Meny** och 
 
 Du kan få tillgång till Learning Manager-appen offline i iPad och Google Nexus 9 Android-surfplattan. Hämta och gå kurser i offlineläge och synkronisera innehållet med onlineappen när du ansluter till nätverket.
 
-1. Tryck **Meny** listrutan högst upp och tryck på **Utbildning** alternativ. En lista över alla tillgängliga kurser visas sida vid sida.
+1. Tryck på rullgardinsmenyn **Meny** högst upp och tryck på alternativet **Utbildning**. En lista över alla tillgängliga kurser visas sida vid sida.
 1. Tryck på hämtningsikonen längst ned på varje panel för utbildningsobjekt för att hämta utbildningsinnehållet.
 
    <!--![](assets/download-ipad.png)-->

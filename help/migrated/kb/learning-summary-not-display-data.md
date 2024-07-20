@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Utbildningssammanfattning visar inte aktuella data
 description: Utbildningssammanfattning visar inte aktuella data i Adobe Learning Manager
 contentowner: saghosh
-source-git-commit: ec79aa3dd6225cc424721afb50702963c1b125eb
+exl-id: 97a3435e-c447-41dd-b71f-46b58a7131ac
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
 
 ---
-
-
 
 # Utbildningssammanfattning visar inte aktuella data
 

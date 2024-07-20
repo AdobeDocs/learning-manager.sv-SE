@@ -17,7 +17,7 @@ Skapa, tilldela och ändra kunskaper och nivåer.
 
 Kompetenskarta är en gruppering av kompetenser, kunskaper och egenskaper hos en anställd i en organisation. Dessa kompetenskartor hjälper företag/organisationer att ställa upp eller höja prestandaförväntningarna för sina anställda. Kompetenser gör att medarbetarna kan anpassa sitt beteende till organisationens förväntningar.
 
-Med Adobe Learning Manager kan du mappa prestanda för elever baserat på deras kunskapsuppsättningar med hjälp av kunskapskartan. När eleverna har slutfört vissa kurser kan de veta hur de ställer sig till varje färdighet genom att titta på färdighetskartorna.
+Med Adobe Learning Manager kan du kartlägga elevernas resultat utifrån deras kunskaper med hjälp av kompetensöversikten. När eleverna har slutfört vissa kurser kan de veta hur de ställer sig till varje färdighet genom att titta på färdighetskartorna.
 
 Det grundläggande syftet med kompetenser i Learning Manager LMS är att ge administratören ett verktyg som anpassar inlärningen till affärsmålen.
 
@@ -45,7 +45,7 @@ Följ stegen nedan för att lägga till en kompetens:
 
    *Lägg till en domän*
 
-1. Tilldela nivåerna till kompetensen. Lägg till en nivå genom att klicka på **[!UICONTROL Add]**.
+1. Tilldela nivåerna till kompetensen. Klicka på **[!UICONTROL Add]** om du vill lägga till en nivå.
 
    Du kan skapa och tilldela kompetenser till anställda. Det finns olika nivåer för färdigheter och varje nivå kräver ett visst antal poäng att förtjäna.
 
@@ -61,14 +61,14 @@ Följ stegen nedan för att lägga till en kompetens:
 
    Decimalstöd är bara tillgängligt på engelska.
 
-1. Välj ett märke för nivån. Från **[!UICONTROL Badge]** väljer du en bild som måste användas som ett märke för den nivån.
-1. Klicka på för att spara ändringarna **[!UICONTROL Save]**.
+1. Välj ett märke för nivån. I listrutan **[!UICONTROL Badge]** väljer du en bild som måste användas som ett märke för den nivån.
+1. Klicka på **[!UICONTROL Save]** för att spara ändringarna.
 
-   När kompetensen har skapats kan du hitta den nya kompetensen på **[!UICONTROL Skill]** sidan. Du kan också se domänerna och den korta beskrivningen av kompetensen. Du kan också visa nivåerna och krediterna som har tilldelats varje nivå.
+   När kompetensen har skapats kan du hitta den nya kompetensen på sidan **[!UICONTROL Skill]**. Du kan också se domänerna och den korta beskrivningen av kompetensen. Du kan också visa nivåerna och krediterna som har tilldelats varje nivå.
 
    ![](assets/list-of-skills.png)
 
-   *Visa lista över kompetenser*
+   *Visa listan över kompetenser*
 
 ## Tilldela kompetensen till elever {#assigntheskilltolearners}
 
@@ -76,7 +76,7 @@ Administratörer kan tilldela eleverna kunskaperna.
 
 När du har skapat dina färdigheter och sparat dem listas de på sidan Kunskaper. Nu kan du börja tilldela eleverna de här kunskaperna på följande sätt:
 
-1. På fliken **[!UICONTROL Skill]** klickar du på hyperlänken med antalet elever som har registrerats för kompetensen. För en nyskapad kompetens är antalet elever på alla nivåer noll.
+1. På sidan **[!UICONTROL Skill]** klickar du på hyperlänken med antalet elever som har registrerats för kompetensen. För en nyskapad kompetens är antalet elever på alla nivåer noll.
 
    ![](assets/number-of-learnersenrolledtoaskill.png)
 
@@ -84,7 +84,7 @@ När du har skapat dina färdigheter och sparat dem listas de på sidan Kunskape
 
    I det här exemplet lägger du till elever för nivå 1. Klicka på hyperlänken bredvid Nivå 1.
 
-1. I dialogrutan Elever klickar du på **[!UICONTROL Add Learners]**.
+1. Klicka på **[!UICONTROL Add Learners]** i dialogrutan Elever.
 
    ![](assets/add-learners.png)
 
@@ -96,9 +96,9 @@ När du har skapat dina färdigheter och sparat dem listas de på sidan Kunskape
 
    *Sök efter och lägg till elever*
 
-1. Klicka på för att spara ändringarna **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** för att spara ändringarna.
 
-   När du har tilldelat eleverna registreras alla elever i en användargrupp automatiskt till kompetensen som standard. Du kan få eleverna att välja bort automatisk registrering genom att klicka på **[!UICONTROL Auto Enroll]** knapp.
+   När du har tilldelat eleverna registreras alla elever i en användargrupp automatiskt till kompetensen som standard. Du kan få eleverna att välja bort automatisk registrering genom att klicka på knappen **[!UICONTROL Auto Enroll]**.
 
    ![](assets/turn-off-auto-enrollment.png)
 
@@ -106,13 +106,13 @@ När du har skapat dina färdigheter och sparat dem listas de på sidan Kunskape
 
    Enskilda elever kan registrera sig själva automatiskt eller kan registreras av administratören i ett utbildningsprogram.
 
-1. När du har klickat **[!UICONTROL Close]** kan du se det totala antalet elever som har tilldelats kompetensen du har skapat.
+1. När du har klickat på **[!UICONTROL Close]** kan du se det totala antalet elever som har tilldelats kompetensen som du har skapat.
 
    I det här exemplet finns två enskilda elever och tre elever i en användargrupp.
 
    ![](assets/learners-assignedtoaskill.png)
 
-   *Antal elever som har tilldelats en kompetens*
+   *Antal elever som tilldelats en kompetens*
 
 ## Tilldela kompetensen till en kurs {#assignskilltocourse}
 
@@ -122,7 +122,7 @@ När du har skapat kompetensen kan en författare skapa en kurs och tilldela kom
 
 *Tilldela en kurs kompetenser*
 
-När författaren publicerar kursen, på **[!UICONTROL Skill]** kan du se antalet kurser som är kopplade till en kompetensnivå, som ökas när du tilldelar kompetensen till en ny kurs.
+När författaren publicerar kursen kan du på sidan **[!UICONTROL Skill]** se antalet kurser som är kopplade till en kompetensnivå, som ökas när du tilldelar kompetensen till en ny kurs.
 
 ![](assets/skill-assigned-tothecourse.png)
 
@@ -138,7 +138,7 @@ När du skapar ett arbetsstöd kan en författare koppla en kompetensnivå till 
 
 *Skapa ett arbetsstöd*
 
-På fliken **[!UICONTROL Skill]** kan du se antalet arbetsstöd som är kopplade till den kompetensnivån.
+På sidan **[!UICONTROL Skill]** kan du se antalet arbetsstöd som är kopplade till den kunskapsnivån.
 
 ![](assets/job-aid-assignedtotheskill.png)
 
@@ -148,11 +148,11 @@ På fliken **[!UICONTROL Skill]** kan du se antalet arbetsstöd som är kopplade
 
 Sök efter valfri kompetens genom att skriva namnet på kompetensen och välja kompetensen från de tillgängliga alternativen. Sök framåt är också tillämpligt här.
 
-Du kan söka efter kunskaper i både **[!UICONTROL Active]** och **[!UICONTROL Retired]** delar av sidan Kompetenser.
+Du kan söka efter kompetenser i både avsnittet **[!UICONTROL Active]** och **[!UICONTROL Retired]** på sidan Kompetenser.
 
 ## Redigera en kompetens {#editaskill}
 
-På fliken **[!UICONTROL Skill]** klickar du på den kompetens du vill ändra. I dialogrutan **[!UICONTROL Edit Skill]** dialogrutan, göra nödvändiga ändringar, till exempel,
+Klicka på kompetensen som du vill ändra på sidan **[!UICONTROL Skill]**. Gör de ändringar som behövs i dialogrutan **[!UICONTROL Edit Skill]**, till exempel:
 
 * Lägga till eller ta bort en kompetensdomän.
 * Redigera kompetensens namn och beskrivning.
@@ -163,9 +163,9 @@ När du har gjort ändringarna klickar du på **[!UICONTROL Save]**.
 
 ## Ta bort en kompetens {#retireaskill}
 
-För att ta en kompetens ur bruk, på **[!UICONTROL Skill]** väljer du den kompetens som du vill ta ur bruk.
+Om du vill ta en kompetens ur bruk väljer du kompetensen som du vill ta ur bruk på sidan **[!UICONTROL Skill]**.
 
-Från **[!UICONTROL Actions]** i det övre högra hörnet på sidan klickar du på **[!UICONTROL Retire]**.
+Klicka på **[!UICONTROL Retire]** i menyn **[!UICONTROL Actions]** i det övre högra hörnet på sidan.
 
 När du tar en kompetens ur anspråk visas den inte längre på kursen.
 
@@ -173,17 +173,17 @@ När en kompetens pensioneras kan den inte kopplas till fler kurser eller arbets
 
 ## Återpublicera en kompetens {#republishaskill}
 
-När du har dragit tillbaka en kompetens visas den borttagna kompetensen i **[!UICONTROL Retired]** -fliken. På fliken visas en lista över alla kompetenser som har fasats ut.
+När du har dragit tillbaka en kompetens visas den borttagna kompetensen på fliken **[!UICONTROL Retired]**. På fliken visas en lista över alla kompetenser som har fasats ut.
 
-Om du vill återpublicera en utfasad kompetens väljer du kompetensen och **[!UICONTROL Actions]** meny, klicka på **[!UICONTROL Republish]**.
+Om du vill återpublicera en utfasad kompetens väljer du kompetensen och klickar på **[!UICONTROL Republish]** på menyn **[!UICONTROL Actions]**.
 
-Detta återställer kompetensen och du kan se kompetensen igen i **[!UICONTROL Active]** -fliken.
+Detta återställer kompetensen och du kan se kompetensen igen på fliken **[!UICONTROL Active]**.
 
 ## Ta bort en kompetens {#deleteaskill}
 
 Du kan bara ta bort en kompetens som har fasats ut tidigare.
 
-I dialogrutan **[!UICONTROL Retired]** -fliken, väljer du den kompetens som du vill ta bort och från **[!UICONTROL Actions]** meny, klicka på **[!UICONTROL Delete]**.
+Välj kompetensen som du vill ta bort på fliken **[!UICONTROL Retired]** och klicka sedan på **[!UICONTROL Delete]** på menyn **[!UICONTROL Actions]**.
 
 Du kan bara ta bort en kompetens som inte är kopplad till några elever, kurser eller arbetsstöd.
 
@@ -202,15 +202,15 @@ Lägg till en CSV-fil som består av instruktörers kunskaper. Dessa kompetenser
 
    Klicka på Spara.
 
-   ![Lägg till CSV-fil för instruktörsfärdigheter](assets/instructor-skills.png)
+   ![Lägg till CSV-fil med instruktörsfärdigheter](assets/instructor-skills.png)
 
-   *Lägga till instruktörsfärdigheter från en CSV*
+   *Lägg till instruktörsfärdigheter från en CSV*
 
 1. Ett bekräftelsemeddelande visas.
 
    Obs! Följande felmeddelande visas om CSV-filen innehåller felaktiga fält.
 
-   ![Felmeddelande om CSV har felaktiga fält](assets/error-csv-upload.png)
+   ![Felmeddelande om CSV innehåller felaktiga fält](assets/error-csv-upload.png)
 
    *Felmeddelande för felaktiga fält*
 
@@ -224,8 +224,8 @@ På sidan Kompetenser finns en kolumn som heter Instruktörer, som anger antalet
 
 ### Hämta CSV-filen för kompetenstilldelning
 
-1. På sidan Kompetenser klickar du på **[!UICONTROL Add]** > **[!UICONTROL Assign Skills to instructor]**.
-1. I dialogrutan klickar du **[!UICONTROL Previously Added Assignment]**.
+1. Klicka på **[!UICONTROL Add]** > **[!UICONTROL Assign Skills to instructor]** på sidan Kompetenser.
+1. Klicka på **[!UICONTROL Previously Added Assignment]** i dialogrutan.
 1. CSV-filen som du överförde senast hämtas.
 
 >[!NOTE]
@@ -257,7 +257,7 @@ Det vill säga när du registrerar en användargrupp på nytt för att starta au
 
 +++Hur tilldelar jag en kompetens till en kurs?
 
-Se avsnittet [Tilldela en kurs kompetenser](skills-levels.md#assignskilltocourse) för mer information om proceduren.
+Mer information om proceduren finns i avsnittet [Tilldela kompetenser till en kurs](skills-levels.md#assignskilltocourse).
 +++
 
 +++Hur ändrar jag en kompetensnivå?
@@ -271,14 +271,14 @@ Kompetenser kan knytas till slutförande av kursen när du skapar en kurs som f�
 
 ![](assets/course-skills.png)
 
-Om du vill aktivera märken för kursens slutförande går du till **[!UICONTROL Instances]** -avsnittet i appen Författare, aktivera det märke som krävs.
+Om du vill aktivera märken för slutförande av kursen aktiverar du det obligatoriska märket i avsnittet **[!UICONTROL Instances]** i appen Författare.
 +++
 
 +++Kan en administratör markera ett märke som slutfört även om märket visar &quot;Pågår&quot;?
 
-En administratör kan markera ett utbildningsobjekt som slutfört. Kompetens och utmärkelsetecken är kopplade till utbildningsobjektet och kan inte markeras **[!UICONTROL Complete]** separat.
+En administratör kan markera ett utbildningsobjekt som slutfört. Kompetens och utmärkelsetecken är associerade med utbildningsobjektet och de kan inte markeras **[!UICONTROL Complete]** separat.
 
-Med andra ord, för att uppnå märket, **ett måste slutföra det associerade utbildningsobjektet**.
+Om du vill uppnå utmärkelsetecknet måste **det associerade utbildningsobjektet** slutföras.
 +++
 
 ### Mer

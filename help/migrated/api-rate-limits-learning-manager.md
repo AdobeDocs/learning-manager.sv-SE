@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## Introduktion till hastighetsbegränsning {#introductiontoratelimiting}
 
-Adobe Learning Manager har en omfattande uppsättning REST API som hjälper kunder att skapa program som kan integreras med Learning Manager och till och med anpassade användarupplevelser och tillägg till arbetsflöden som hjälper deras företag.
+Adobe Learning Manager har en omfattande uppsättning REST API som hjälper kunder att skapa program som är integrerade med Learning Manager och till och med anpassade användarupplevelser och tillägg till arbetsflöden som hjälper deras företag.
 
 När ett API anropas finns delade datorresurser som används i Learning Manager-servrarna, och därför måste vi vara försiktiga och se till att applikationerna fungerar bra och inte äventyrar plattformens prestanda och tillgänglighetsegenskaper. Detta åstadkoms genom att införa begränsningar för hur API-klienter ringer samtal (frekvens och hastighet).
 
@@ -108,9 +108,9 @@ Vi har angett en slutpunkt där du kan kontrollera hur hastighetsbegränsning fu
 
 Du kan enkelt testa det här genom att trycka på den här slutpunkten med hastigheter under 5 varv/min och över 5 varv/min. Skriv kod för att hantera HTTPS-statuskoden 429 och baserat på informationen i svarsrubrikerna.
 
-För att göra det enkelt för dig kan kolla in detta exempel JavaScript kod som illustrerar detta. Klicka här [rulla med](https://jsfiddle.net/ACAPJS/9yv8zcmL/) och se hur koden fungerar.
+För att göra det enkelt för dig kan kolla in detta exempel JavaScript kod som illustrerar detta. Klicka på den här [fiolen](https://jsfiddle.net/ACAPJS/9yv8zcmL/) och se hur koden fungerar.
 
-Det här programmet kräver att du anger en programtoken för elevroll för ditt konto. Se [Användarhandbok för programutvecklare](https://captivateLearning Manager.adobe.com/docs/Learning ManagerAPI/v2/) för information om API-token och du kan använda Hjälp för token i avsnittet Utvecklarresurser i programmet Learning Manager Integration Admin för att generera token.
+Det här programmet kräver att du anger en programtoken för elevroll för ditt konto. Se [Användarhandboken för programutvecklare](https://captivateLearning Manager.adobe.com/docs/Learning Managerapi/v2/) för information om API-token och du kan använda Token Helper i avsnittet med utvecklarresurser i programmet Learning Manager Integration Admin för att generera token.
 
 Det här programmet gör 10 anrop till dummy API i en slinga, på en gång. Eftersom hastighetsgränsen är (5, 2) för dummy API, kommer hastighetsgränsen att överskridas efter de första 5+2 anropen som tas emot av Learning Manager, och du kommer att se ett framgångsrikt svar för dem.
 

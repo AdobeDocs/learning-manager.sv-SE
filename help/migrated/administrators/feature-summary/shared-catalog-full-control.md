@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: Aktivera fullständig kontroll över delad katalog
-description: Aktivera fullständig kontroll över den delade katalogen i Adobe Learning Manager
+description: Aktivera fullständig kontroll över en delad katalog i Adobe Learning Manager
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 231ba348-d777-4b13-98b0-06572b0ac7ed
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 0%
 
 ---
-
-
 
 # Aktivera fullständig kontroll över delad katalog
 
@@ -73,7 +72,7 @@ Liksom att bevilja fullständig katalogkontroll för kurser kan administratören
 
 ## Återställ kurs {#resetcourse}
 
-1. På det katalogkort som har en trasig länk klickar du på **[!UICONTROL Reset Course]**.
+1. Klicka på **[!UICONTROL Reset Course]** på det katalogkort som har en trasig länk.
 
 <!-- ![](assets/reset-course.png)-->
 
@@ -86,7 +85,7 @@ Liksom att bevilja fullständig katalogkontroll för kurser kan administratören
    Återställningen av katalogen går inte att ångra. Du kan inte ångra de ändringar du har gjort i katalogen.
 
 1. Acceptera ändringarna genom att klicka på Ja.
-1. I kurskatalogen kan du se att katalogen inte har meddelandet *Bruten länk* längre.
+1. I kurskatalogen kan du se att katalogen inte längre har meddelandet *Bruten länk*.
 
    När du visar kataloginformationen ser du att katalogen nu är återställd till sitt ursprungliga läge.
 
@@ -109,15 +108,15 @@ När du har klickat på knappen Lägg till igen visas ett bekräftelsemeddelande
 När administratören för det externa kontot har accepterat katalogen kan författaren nu lägga till kurser och utbildningsprogram.
 
 1. Du som är användare får ett meddelande om att katalogen nu är tillgänglig på ditt konto.
-1. Klicka på för att se listan över kurser **[!UICONTROL Courses]** i den vänstra navigeringsrutan. Du kan se alla kurser som du har skapat och delat med dig.
-1. Om du vill visa kursdetaljerna klickar du på **[!UICONTROL View Course]** på kurskortet.
+1. Klicka på **[!UICONTROL Courses]** i det vänstra navigeringsfönstret för att se listan över kurser. Du kan se alla kurser som du har skapat och delat med dig.
+1. Klicka på **[!UICONTROL View Course]** på kurskortet för att visa kursdetaljerna.
 
    <!--![](assets/view-course.png)-->
 
 1. På detaljsidan för kursen kan du se information om kursen och de delade modulerna. Om du vill lägga till en modul klickar du på Lägg till moduler. När du lägger till moduler till befintliga moduler visas de nya modulerna i slutet av de befintliga modulerna. Du kan när som helst ändra ordningsföljden för modulerna.
 1. När du har lagt till modulerna klickar du på Återpublicera.
 
-   När du har återpublicerat modulerna visas ett meddelande på katalogkortet *Bruten länk*.
+   När du har publicerat modulerna igen visas ett meddelande på katalogkortet, *Länk bruten*.
 
    Eftersom du har uppdaterat originalkatalogen med nya moduler finns inte längre den befintliga relationen med den förvärvade kursen.
 

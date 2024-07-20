@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Hantera order och fakturering för Learning Manager
 
-Kreditkortsbaserat köp är endast tillgängligt i [Region i USA](http://learningmanager.adobe.com/).
+Kreditkortsbaserat köp är endast tillgängligt i regionen [USA](http://learningmanager.adobe.com/).
 
 Hantera Learning Manager-fakturering, gör beställningar med hjälp av ett kreditkort, prenumererar med en inköpsorder eller via en aktiv användarplan varje månad.
 
-Adobe Learning Manager har en flexibel, kundvänlig och en av de bästa prismodellerna för att tillgodose ditt företags behov. Mer information finns i [Learning Manager](https://www.adobe.com/products/learningmanager.html) sidan.
+Adobe Learning Manager har en flexibel, kundvänlig och en av de bästa prismodellerna för att tillgodose ditt företags behov. Mer information finns på sidan [Learning Manager](https://www.adobe.com/products/learningmanager.html).
 
 Det är bara administratörerna i organisationen som kan hantera faktureringen.
 
@@ -27,13 +27,13 @@ Om du vill kontakta Adobe för mer information om Learning Manager-prenumeration
 
 Du kan köpa en prenumeration för högst 3 500 elever genom en enskild betalningsorder med kreditkort. Den första ordningen på kontot måste vara för minst 10 elever.
 
-1. I Administratörsprogrammet klickar du på **[!UICONTROL Billing]** i den vänstra navigeringsrutan.
+1. Klicka på **[!UICONTROL Billing]** i den vänstra navigeringsrutan i administratörsappen.
 
    ![](assets/billing.png)
 
-   *Starta fakturering för Adobe Learning Manager*
+   *Starta Adobe Learning Manager-fakturering*
 
-1. På fliken **[!UICONTROL Billing Information]** -sidan lägger du till antalet användare i **[!UICONTROL Add Users]** område. När du använder ett kreditkort för förbetalda prenumerationer kan du se antalet användare som du kan lägga till för prenumerationen. Antalet användare som du kan lägga till får inte överstiga antalet som nämns i avsnittet Återstår.1.
+1. Lägg till antalet användare i fältet **[!UICONTROL Add Users]** på sidan **[!UICONTROL Billing Information]**. När du använder ett kreditkort för förbetalda prenumerationer kan du se antalet användare som du kan lägga till för prenumerationen. Antalet användare som du kan lägga till får inte överstiga antalet som nämns i avsnittet Återstår.1.
 
    ![](assets/billing-page-to-manageyoursubscriptionandorders.png)
 
@@ -47,7 +47,7 @@ Du kan köpa en prenumeration för högst 3 500 elever genom en enskild betalnin
 
    ![](assets/pricing-estimate.png)
 
-   *Beställ*
+   *Gör en beställning*
 
    Årsprenumerationsavgiften beräknas utifrån antalet användare som läggs till för prenumerationen. Om till exempel fyra användare läggs till beräknas årsavgiften med uttrycket 4 användare X$4X$12, vilket returnerar $192.
 
@@ -67,8 +67,8 @@ Du kan köpa en prenumeration för högst 3 500 elever genom en enskild betalnin
 
    *Välj faktureringsland*
 
-1. Ange dina kontaktuppgifter, välj kreditkortstyp och ange uppgifter om kreditkortet. När du har angett de obligatoriska uppgifterna klickar du på **[!UICONTROL Complete Order]**.
-1. När du har beställt kan du klicka på fliken för att se de senast beställda paketen **[!UICONTROL Order History]** fliken på **[!UICONTROL Billing]** sidan.
+1. Ange dina kontaktuppgifter, välj kreditkortstyp och ange uppgifter om kreditkortet. Klicka på **[!UICONTROL Complete Order]** när du har angett de obligatoriska uppgifterna.
+1. Klicka på fliken **[!UICONTROL Order History]** på sidan **[!UICONTROL Billing]** för att se de paket som nyligen beställts.
 
    ![](assets/order-history.png)
 
@@ -80,23 +80,23 @@ Alla beställningar kan ha en av de fyra statusarna:
 
 **Aktiv:** En order är aktiv och användarna har registrerats.
 
-**Avstängd:** En order försätts i vänteläge i följande scenarier:
+**Avstängd:** En order flyttas till avstängt läge i följande scenarier:
 
 * Försenad betalning från kreditkortet
 * Kreditkortets utgångsdatum.
 * Betalningen avvisas för en återkommande betalningscykel.
 
-**Avbrutet initierat:** En ordning försätts i detta tillstånd när Learning Manager-administratören inaktiverar kontot. Ordern försätts sedan i ett annullerat tillstånd efter att annulleringsbekräftelsen på ordern har mottagits.
+**Avbrutet initierat:** En order försätts i det här tillståndet när Learning Manager-administratören inaktiverar kontot. Ordern försätts sedan i ett annullerat tillstånd efter att annulleringsbekräftelsen på ordern har mottagits.
 
 ## Uppdatera prenumerationsinformation {#updatesubscriptiondetails}
 
-1. Klicka på i listan med beställningar **[!UICONTROL Edit]**.
+1. Klicka på **[!UICONTROL Edit]** i listan med beställningar.
 
    ![](assets/update-subsciptiondetailsclickedit.png)
 
    *Uppdatera prenumerationsinformation*
 
-1. På sidan Prenumerationsinformation klickar du på **[!UICONTROL Edit Subscription]**.
+1. Klicka på **[!UICONTROL Edit Subscription]** på sidan Prenumerationsinformation.
 1. Välj det objekt du vill redigera:
 
    * Betalningssätt: Använd det här alternativet om du vill uppdatera betalningsinformation, till exempel kreditkort.
@@ -107,7 +107,7 @@ Alla beställningar kan ha en av de fyra statusarna:
 Så här avbryter du en beställning:
 
 1. Klicka på Fakturering i den vänstra rutan på sidan Administratör.
-1. På faktureringssidan väljer du **[!UICONTROL Actions]** > **[!UICONTROL Deactivate Account]**.
+1. På faktureringssidan väljer du **[!UICONTROL Actions]** > **[!UICONTROL Deactivate Account]** i det övre högra hörnet.
 1. När administratören inaktiverar kontot avbryts alla beställningar på kontot från nästa faktureringscykel.
 
 När ett konto inaktiveras av kunden försätts det i ett testläge under de kommande 30 dagarna. Kontoägaren får tre e-postpåminnelser om att återuppliva kontot. Om ägaren inte återaktiverar kontot kan ingen av användarna få tillgång till Learning Manager bortsett från ägaren.
@@ -116,7 +116,7 @@ När ett konto inaktiveras av kunden försätts det i ett testläge under de kom
 
 Du kan välja inköpsorderprocessen som ett alternativt betalningssätt. Organisationens konto måste registreras hos Adobe. Ditt organisationskonto debiteras för den här processen. Kontot debiteras utifrån en elevs aktiviteter. Endast aktiviteter på utbildningsobjektnivå debiteras. Så här gör du en beställning med inköpsorder:
 
-1. Skicka ett e-postmeddelande till [learningmanagersales@adobe.com](mailto:learningmanagersales@adobe.com) och ange antalet obligatoriska elever.
+1. Skicka ett e-postmeddelande till [learningmanagersales@adobe.com](mailto:learningmanagersales@adobe.com) och uppge antalet elever som krävs.
 1. Learning Manager-teamet skickar en aktiveringsnyckel till dig.
 1. Ange aktiveringsnyckeln på sidan Fakturering i administratörsprogrammet.
 1. Klicka på Aktivera längst upp till höger på sidan.
@@ -139,7 +139,7 @@ Ditt kreditkort om det har upphört att gälla. I inaktivt läge kan bara en adm
 
 Learning Manager-konto. Alla andra användare har inte åtkomst till kontot.
 
-* **Aktivering krävs** - Ditt konto går till detta läge när Learning Manager-administratören väljer att inaktivera kontot. Alla beställningar på det här kontot annulleras. Inkasseringen av betalning för dessa order sker inte från nästa faktureringsperiod. Kontots status förblir i det här tillståndet fram till dagen för den senaste faktureringsperioden. I det här läget kan alla användare fortsätta använda applikationen utan påverkan fram till slutet av den senaste återkommande betalningsdagen.
+* **Aktivering krävs** - Ditt konto försätts i det här tillståndet när Learning Manager-administratören väljer att inaktivera kontot. Alla beställningar på det här kontot annulleras. Inkasseringen av betalning för dessa order sker inte från nästa faktureringsperiod. Kontots status förblir i det här tillståndet fram till dagen för den senaste faktureringsperioden. I det här läget kan alla användare fortsätta använda applikationen utan påverkan fram till slutet av den senaste återkommande betalningsdagen.
 
 ## Avbryta en prenumeration {#Cancelasubscription-1}
 
@@ -178,7 +178,7 @@ Alla användare som utför följande åtgärder eller får slutföranden på gru
 
 ## Visa användningsinformation {#viewusagedetails}
 
-1. Om du vill visa antalet aktiva användare per månad klickar du på **[!UICONTROL View Usage Details]**.
+1. Klicka på **[!UICONTROL View Usage Details]** om du vill visa antalet aktiva användare per månad.
 
    ![](assets/report-request-usage.png)
 
@@ -192,13 +192,13 @@ Alla användare som utför följande åtgärder eller får slutföranden på gru
 
 ## Hämta användningsrapport {#downloadusagereport}
 
-Du kan även ladda ner data för antalet aktiva användare per månad och år. Klicka på för att hämta **[!UICONTROL Download Detailed Report]**.
+Du kan även ladda ner data för antalet aktiva användare per månad och år. Klicka på **[!UICONTROL Download Detailed Report]** för att hämta.
 
-På fliken **Generera rapportförfrågan** anger du de månader och år som krävs och klickar på **[!UICONTROL Generate]**.
+Ange månader och år i dialogrutan **Generera rapportförfrågan** och klicka på **[!UICONTROL Generate]**.
 
 ![](assets/generate-report-request.png)
 
-*Hämta rapport över aktiv användning*
+*Ladda ned aktiv användningsrapport*
 
 Om du stänger webbläsarfönstret kommer nedladdningen att påbörjas nästa gång du går in på Learning Manager.
 
@@ -212,14 +212,14 @@ Om du vill avbryta en aktiv prenumeration kontaktar du supportteamet för Learni
 
 +++Hur lägger man till/tar bort prenumerationer från ett konto?
 
-Lägg till antalet användare du vill köpa prenumerationer på om du vill lägga till dem i ett konto. Klicka sedan på i det övre högra hörnet **[!UICONTROL Place Order]**. Granska uppskattningen och klicka på **[!UICONTROL Proceed]**. Ange dina kontouppgifter och även dina kreditkortsuppgifter. Klicka sedan på för att köpa prenumerationerna **[!UICONTROL Complete Order]**.
+Lägg till antalet användare du vill köpa prenumerationer på om du vill lägga till dem i ett konto. Klicka sedan på **[!UICONTROL Place Order]** i det övre högra hörnet. Granska uppskattningen och klicka på **[!UICONTROL Proceed]**. Ange dina kontouppgifter och även dina kreditkortsuppgifter. Klicka sedan på **[!UICONTROL Complete Order]** för att köpa prenumerationerna.
 
 Om du vill ta bort en aktiv prenumeration kontaktar du Learning Manager-supportteamet.
 +++
 
 +++Hur ändrar jag ett kreditkort för prenumerationer?
 
-I dialogrutan **[!UICONTROL Order History]** för ett aktivt konto, klicka på **[!UICONTROL Edit]**. På sidan Prenumerationsinformation klickar du sedan på **[!UICONTROL Edit Subscription]**. Ange dina nya kreditkortsuppgifter och klicka på **[!UICONTROL Update Payment Method]**.
+Klicka på **[!UICONTROL Edit]** för ett aktivt konto på fliken **[!UICONTROL Order History]**. Klicka sedan på **[!UICONTROL Edit Subscription]** på sidan Prenumerationsinformation. Ange dina nya kreditkortsuppgifter och klicka på **[!UICONTROL Update Payment Method]**.
 
 ![](assets/credit-card-details.png)
 
@@ -230,9 +230,9 @@ I dialogrutan **[!UICONTROL Order History]** för ett aktivt konto, klicka på *
 
 Följ stegen nedan för att uppdatera faktureringsinformationen:
 
-1. Logga in som **Administratör** och klicka på **[!UICONTROL Billing]**.
-1. Klicka på i listan med beställningar **[!UICONTROL Edit]**.
-1. På sidan Prenumerationsinformation klickar du på **[!UICONTROL Edit Subscription]**.
+1. Logga in som **administratör** och klicka på **[!UICONTROL Billing]**.
+1. Klicka på **[!UICONTROL Edit]** i listan med beställningar.
+1. Klicka på **[!UICONTROL Edit Subscription]** på sidan Prenumerationsinformation.
 
 Välj det objekt du vill redigera:
 
@@ -247,8 +247,8 @@ Nej, du kan inte avbryta en prenumeration partiellt. Om du behöver minska antal
 
 +++Hur får jag en faktura för mina kreditkortsbetalningar?
 
-Kontakt [FastSpring](https://fastspring.com/) om du vill få en faktura för dina betalningar, på något av följande sätt:
+Kontakta [FastSpring](https://fastspring.com/) om du vill få en faktura för dina betalningar på något av följande sätt:
 
 * Skapa en tjänstförfrågan med FastSpring med hjälp av länken `https://questionacharge.com`.
-* Skicka ett e-postmeddelande till FastSpring den `orders@fastspring.com` begäran om fakturan.
+* Skicka ett e-postmeddelande till FastSpring den `orders@fastspring.com` med en begäran om fakturan.
 +++

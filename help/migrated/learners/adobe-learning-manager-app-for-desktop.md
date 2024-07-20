@@ -1,28 +1,27 @@
 ---
-description: Lär dig använda Adobe Learning Managers datorprogram för att skapa och förbättra innehåll som kan delas på social utbildning.
+description: Lär dig skapa och förbättra innehåll som kan delas på Social utbildning med Adobe Learning Manager datorprogram.
 jcr-language: en_us
 title: Adobe Learning Manager-datorprogram
 contentowner: kuppan
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: 3012ab23-e326-4e7c-b450-e33c046fd656
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1667'
 ht-degree: 0%
 
 ---
 
-
-
 # Adobe Learning Manager-datorprogram
 
-Lär dig använda Adobe Learning Managers datorprogram för att skapa och förbättra innehåll som kan delas på social utbildning.
+Lär dig skapa och förbättra innehåll som kan delas på Social utbildning med Adobe Learning Manager datorprogram.
 
-Datorprogrammet Adobe Learning Manager är främst avsett för elever som använder Learning Manager Social Learning. När appen har installerats på en dator kan elever skapa innehåll och lägga upp det på tavlor i Learning Manager för att underlätta informella, samarbetsinriktade och sociala inlärningar bland andra. Dessutom ser datorprogrammet till att elever får meddelanden om social utbildning på sina datorer, även om de inte nödvändigtvis är inloggade på Learning Managers webbprogram.
+Adobe Learning Manager-datorprogrammet är främst avsett för elever som använder Learning Manager Social Learning. När appen har installerats på en dator kan elever skapa innehåll och lägga upp det på tavlor i Learning Manager för att underlätta informella, samarbetsinriktade och sociala inlärningar bland andra. Dessutom ser datorprogrammet till att elever får meddelanden om social utbildning på sina datorer, även om de inte nödvändigtvis är inloggade på Learning Managers webbprogram.
 
 Elever kan skapa spännande innehåll som video, ljud och skärmbilder och dela dem med andra elever. Innehållet kan bokstavligen vara vad som helst - en programvarudemo eller genomgång, en presentation, en poddsändning eller en kommenterad skärmdump av något som kan delas.
 
-På webbsidan Learning Manager Social Learning klickar du på nytt inlägg och väljer Spela in video, eller spela in ljud, eller ta en skärmbild eller galleri för Learning Manager för att starta datorprogrammet. Mer information om social utbildning finns i [klicka här](feature-summary/social-learning-web-user.md).
+På webbsidan Learning Manager Social Learning klickar du på nytt inlägg och väljer Spela in video, eller spela in ljud, eller ta en skärmbild eller galleri för Learning Manager för att starta datorprogrammet. [Klicka här](feature-summary/social-learning-web-user.md) om du vill ha mer information om social utbildning.
 
-Om användarna inte har datorprogrammet kan du hämta det från skrivbordssidan för Adobe Learning Manager. Om du inte kan hämta, [klicka här](../kb/troubleshooting-issues-with-adobe-learning-manager-desktop-app.md).
+Om användarna inte har något datorprogram kan du hämta det från Adobe Learning Manager-datorsidan. Om du inte kan hämta [klickar du här](../kb/troubleshooting-issues-with-adobe-learning-manager-desktop-app.md).
 
 När användaren har installerat programmet måste han/hon logga in på det med sina inloggningsuppgifter för Learning Manager-eleven. Startsidan visas som nedanstående skärmbild.
 
@@ -42,18 +41,18 @@ Med datorprogrammet kan användaren spela in både webb och skärm.
 
 Gör följande för att göra en videoinspelning och publicera den på webbplattformen för social utbildning:
 
-1. Kontrollera att maskinvaru- och programvarukraven uppfylls. Se [Systemkrav](../system-requirements.md) för kännedom.
+1. Kontrollera att maskinvaru- och programvarukraven uppfylls. Mer information finns i [Systemkrav](../system-requirements.md).
 1. För att starta en inspelning från Social Learning väljer du ikonen för videoinspelningsposten (webb, skärm, båda) som öppnar datorprogrammet Learning Manager. I datorprogrammet med användaren inloggad kan innehållet skapas och sedan läggas upp.
 1. Om du vill börja spela in från datorprogrammet loggar du in på programmet med dina inloggningsuppgifter för Learning Manager som elev.
 1. Startsidan visas.
 1. För att skapa ett inlägg kan du välja ett av de tre alternativen på startsidan. När du vill öppna inspelningsfönstret klickar du på ikonen Spela in video.
 1. Enligt kravet kan du välja webbkamera, Skärm eller båda.
 
-   **Webbkamera** Webbkameran fångar berättaren som demonstrerar eller presenterar ett projekt eller program inklusive ljud. Välj webbkameraikonen bland ovanstående alternativ för att Live-fönstret ska visas.
+   **Webbkamera** Webbkameran fångar berättaren som demonstrerar eller presenterar ett projekt eller program, inklusive ljud. Välj webbkameraikonen bland ovanstående alternativ för att Live-fönstret ska visas.
 
    **Skärm** Spela in åtgärder som utförs på skärmen. När du väljer skärmikonen markeras skärmen med en postdialogruta i mitten av skärmen.
 
-   **Båda** Spelar in både berättarrösten och skärmens åtgärder. Genom att välja den sista ikonen markeras skärmen och användaren får ett Live-fönster tillsammans med den.
+   **Både** spelar in både berättarrösten och skärmens åtgärder. Genom att välja den sista ikonen markeras skärmen och användaren får ett Live-fönster tillsammans med den.
 
 1. Ange inställningar för inspelning.
 
@@ -63,12 +62,12 @@ Gör följande för att göra en videoinspelning och publicera den på webbplatt
 
    >[!NOTE]
    >
-   >Om användaren inte vill spela in ljud med skärm eller video väljer du **Ingen** alternativ i listrutan som visas när du klickar på ljudikonen.
+   >Om användaren inte vill spela in ljud med skärm eller video väljer du alternativet **Inget** i listrutan som visas när användaren klickar på ljudikonen.
    >
    >När användarna börjar spela in sin skärm eller sig själva visas ett popup-fönster där de ombeds bekräfta om de vill fortsätta spela in utan ljudstöd. Klicka på Ja för att fortsätta.
 
 1. Använd knappen Record för att börja spela in. Inspelningen börjar efter nedräkningen (3 sekunder).
-1. Klicka på knappen pausa eller återuppta för att pausa under inspelningen och återuppta sedan om det behövs. Om du vill redigera inspelningen läser du [Redigera en inspelning](adobe-learning-manager-app-for-desktop.md#Editing) och att publicera se [Publicera en inspelning](adobe-learning-manager-app-for-desktop.md#Publishing).
+1. Klicka på knappen pausa eller återuppta för att pausa under inspelningen och återuppta sedan om det behövs. Om du vill redigera inspelningen går du till [Redigera en inspelning](adobe-learning-manager-app-for-desktop.md#Editing) och om du vill publicera går du till [Publicera en inspelning](adobe-learning-manager-app-for-desktop.md#Publishing).
 
 ## Skapa ett ljud {#creatinganaudio}
 
@@ -82,8 +81,8 @@ Så här spelar du in ett ljud:
 1. Klicka på inspelningsknappen för att starta inspelningen.
 1. När användarna har spelat in ljudet klickar du på pausknappen för att stoppa inspelningen.
 1. Klicka på uppspelningsknappen om du vill förhandsgranska inspelningen.
-1. Om användarna vill spela in ytterligare ett ljud i samma fil klickar du på **[!UICONTROL Resume]**. När den önskade inspelningen är klar klickar du på **[!UICONTROL Next]** för att spara filen på önskad plats. Inspelningen sparas i appen Adobe Learning Manager för skrivbordsgalleri där användare kan se sina inspelningar och skärmdumpar.
-1. Om du vill redigera inspelningen läser du [Redigera en inspelning](adobe-learning-manager-app-for-desktop.md#Editing) och att publicera se [Publicera en inspelning](adobe-learning-manager-app-for-desktop.md#Publishing).
+1. Om användarna vill spela in ytterligare ljud i samma fil klickar du på **[!UICONTROL Resume]**. När den önskade inspelningen har uppnåtts klickar du på **[!UICONTROL Next]** för att spara filen på önskad plats. Inspelningen sparas i Adobe Learning Manager-appen för datorgalleri där användare kan visa sina inspelningar och skärmbilder.
+1. Om du vill redigera inspelningen går du till [Redigera en inspelning](adobe-learning-manager-app-for-desktop.md#Editing) och om du vill publicera går du till [Publicera en inspelning](adobe-learning-manager-app-for-desktop.md#Publishing).
 
 ## Skapa en skärmbild {#creatingascreenshot}
 
@@ -96,7 +95,7 @@ Så här tar du en skärmbild:
    *Capture a screenshot*-->
 
 1. Lägg till kommentarer i innehållet för att hjälpa andra elever att förstå och behålla presentationen eller det statiska innehållet bättre.
-1. Om du vill redigera skärmbilden [klicka här](adobe-learning-manager-app-for-desktop.md#Editing)och publicera en skärmbild [klicka här](adobe-learning-manager-app-for-desktop.md#Publishing).
+1. [Klicka här](adobe-learning-manager-app-for-desktop.md#Editing) om du vill redigera skärmbilden och publicera en skärmbild [klicka här](adobe-learning-manager-app-for-desktop.md#Publishing).
 
 ## Redigera en video, ett ljud och en skärmbild {#editing}
 
@@ -110,10 +109,10 @@ Kommentarer kan användas på videoinspelningar och skärmbilder för att marker
 >
 >I video kan användare bara kommentera högst upp på skärmen.
 
-* De olika kommentarer som kan väljas är **oval**, **raden**, **pil**, **höjdpunkt** och **text**.
+* De olika kommentarerna som kan väljas är **ellips**, **linje**, **pil**, **markering** och **text**.
 
 * Välj en färg för varje kommentar från färgpanelen i anteckningens egenskapspanel.
-* För **Text** väljer du följande egenskaper: teckensnitt, fet, kursiv, rubrik, justering, färg och bakgrundsfärg.
+* För **Text** väljer du följande egenskaper: Teckensnitt, Fet, Kursiv, Rubrik, Justering, Färg och Bakgrundsfärg.
 
 >[!NOTE]
 >
@@ -123,9 +122,9 @@ Kommentarer kan användas på videoinspelningar och skärmbilder för att marker
 
 Om du vill trimma eller ta bort delar av en video eller ett ljud som inte behövs använder du trimningsverktyget.
 
-Om du vill klippa klickar du på **[!UICONTROL Start Trim]** eller klicka på plusikonen på tidslinjen för att börja trimma. Klicka sedan på pausknappen på spelaren för att stoppa trimningen. Klicka på **[!UICONTROL Confirm]** för att slutföra beskärningen.
+Om du vill trimma klickar du på knappen **[!UICONTROL Start Trim]** eller på plusikonen på tidslinjen för att börja trimma. Klicka sedan på pausknappen på spelaren för att stoppa trimningen. Klicka på knappen **[!UICONTROL Confirm]** för att slutföra beskärningen.
 
-Du kan trimma inspelningar genom att ange tiden i **[!UICONTROL Start time]** och **[!UICONTROL End time]** inmatningsfält efter aktivering **[!UICONTROL Change Timing]**.
+Du kan trimma inspelningar genom att ange tiden i inmatningsfälten **[!UICONTROL Start time]** och **[!UICONTROL End time]** efter att du har aktiverat **[!UICONTROL Change Timing]**.
 
 ![](assets/start-trim-05.png)
 *Starta beskärning*
@@ -135,7 +134,7 @@ Du kan trimma inspelningar genom att ange tiden i **[!UICONTROL Start time]** oc
 
 ## Panorering och zoomning (alla videoinspelningar) {#panampzoomanyvideorecording}
 
-Panorering och zoomning kan bara utföras på **Båda** (webbkamera och skärm) videoinspelningar. Som standard är hela webbkameran eller skärmen markerad. Markera hörnhandtaget och dra för att markera den del av skärmen som ska visas eller fokuseras. Dubbelklicka på fönstret för helskärmsläge.
+Panorerings- och zoomningsåtgärder kan bara göras på **Både** (webbkamera och skärm) videoinspelningar. Som standard är hela webbkameran eller skärmen markerad. Markera hörnhandtaget och dra för att markera den del av skärmen som ska visas eller fokuseras. Dubbelklicka på fönstret för helskärmsläge.
 
 ![](assets/pan-zoom-artboard10.png)
 *Panorering och zoomning*
@@ -147,25 +146,25 @@ Välj varumärkesverktyget om du vill skapa ett unikt namn på en video tillsamm
 Så här lägger du till ett varumärke eller tema i en video:
 
 1. Klicka på varumärkesikonen i den vänstra navigeringspanelen i redigeringsfönstret.
-1. Välj en **Tema** från de angivna alternativen eller så kan användarna anpassa sitt eget tema genom att lägga till en **begynna**, **bakgrund,** och **slut** video från deras system.
+1. Välj ett **tema** från de angivna alternativen. Annars kan användarna anpassa sina egna teman genom att lägga till en **start**-, **bakgrund-**- och **end**-video från sina system.
 
    >[!NOTE]
    >
-   >Om du vill hämta fler teman klickar du på **Hämta fler resurser** knapp.
+   >Klicka på knappen **Hämta fler resurser** om du vill hämta fler teman.
 
-1. Lägg till en videotiteltext och välj en plats på **Visa vid** stödraster för att det ska visas.
+1. Lägg till en videotiteltext och välj en plats i rutnätet **Visa vid** för att den ska visas.
 
    >[!NOTE]
    >
    >Titeltext kan bara läggas till som en del av en varumärkesvideo. Ett tema krävs innan du ger en titel till varumärkesvideon.
 
 1. Lägg till ett presentatörsnamn och en presentatörstitel i videon om det behövs. Skriv en siffra inom tidsintervallet för videon i fältet Visa vid spelhuvud för det presentatörsnamn och den titel som ska visas när videon spelas upp.
-1. Lägg till en varumärkesikon på vänster eller höger sida av videoskärmen om det behövs. Klicka på för att välja en varumärkesikon **[!UICONTROL Select]** > **[!UICONTROL Browse from system]**.
+1. Lägg till en varumärkesikon på vänster eller höger sida av videoskärmen om det behövs. Klicka på **[!UICONTROL Select]** > **[!UICONTROL Browse from system]** om du vill välja en varumärkesikon.
 1. Klicka på uppspelningsknappen på förhandsgranskningsskärmen om du vill förhandsgranska videofilmen.
 
    ![](assets/branding-options.png)
 
-   *Varumärkning*
+   *Varumärken*
 
 ## Spela in ytterligare klipp (alla typer av video- och ljudinspelningar) {#recordingadditionalclipsalltypesofvideoandaudiorecordings}
 
@@ -175,22 +174,22 @@ Om du vill starta en ny inspelning klickar du på ikonen för att spela in ytter
 
 ## Publicera en videoinspelning, en ljudinspelning och skärmbild {#publishing}
 
-När alla ändringar och redigeringar är gjorda klickar du på **[!UICONTROL Share]** > skriv eller sök efter en **skicklighet eller tavla** som bäst hör samman med tjänsten > **Post**.
+När alla ändringar och redigeringar har gjorts klickar du på **[!UICONTROL Share]** > skriv eller sök efter en **kompetens eller tavla** som bäst relaterar till inlägget > **inlägg**.
 
 <!--![](assets/share-after-editing-07.png)-->
 *Publicera på webben*
 
 ## Bläddra i Learning Manager-skrivbordsgalleri {#browsingcaptivateprimedesktopgallery}
 
-Alla inspelningar och skärmbilder sparas i datorprogrammet Adobe Learning Manager. Om du vill bläddra bland dessa filer klickar du på **[!UICONTROL Gallery]** från den vänstra navigeringspanelen på startsidan.
+Alla inspelningar och skärmbilder sparas i Adobe Learning Manager-datorprogrammet. Om du vill bläddra bland dessa filer klickar du på **[!UICONTROL Gallery]** i den vänstra navigeringspanelen på startsidan.
 
 >[!NOTE]
 >
->Du kan även starta galleriet från Social utbildning genom att klicka på **Galleri för Learning Manager** när du skapar ett inlägg.
+>Du kan också starta galleriet från Social utbildning genom att klicka på ikonen **Learning Manager-galleri** när du skapar ett inlägg.
 
 I gallerifönstret skriver du namnet på den fil du letar efter i sökfältet.
 
-Om du vill skapa en ny inspelning från gallerifönstret klickar du på **Spela in ny** knapp.
+Om du vill skapa en ny inspelning från gallerifönstret klickar du på knappen **Spela in ny**.
 
 Om du vill redigera eller ta bort en fil från galleriet klickar du på de tre punkterna längst ned i filen och väljer ett alternativ i popup-listan.
 
@@ -198,15 +197,15 @@ Om du vill redigera eller ta bort en fil från galleriet klickar du på de tre p
 
 Meddelanden i Learning Manager visas i meddelandefönstret oavsett om eleven är inloggad på webbprogrammet Learning Manager. Meddelanden innehåller inlägg eller tavlor som användare har skapat, följer eller har deltagit i. Om du klickar på meddelandet dirigeras användaren till webbplatsen för Learning Manager Social Learning.
 
-Om du vill stänga av aviseringar klickar du på **[!UICONTROL Profile menu*]* > **[!UICONTROL Settings] > **[!UICONTROL Mute notifications]**.
+Stäng av ljudet genom att klicka på **[!UICONTROL Profile menu*]* > **[!UICONTROL Settings] > **[!UICONTROL Mute notifications]**.
 
-## Inställningar i datorprogrammet Adobe Learning Manager {#settingsinadobecaptivateprimedesktopapplication}
+## Inställningar i Adobe Learning Manager-datorprogrammet {#settingsinadobecaptivateprimedesktopapplication}
 
-I dialogrutan **Inställningar** ändrar du följande inställningar:
+Ändra följande inställningar på sidan **Inställningar**:
 
 Stäng av aviseringar, starta programmet automatiskt, uppdatera programmet automatiskt, aktivera produktförbättring.
 
-Användare kan också ändra galleriets plats genom att klicka på **Ändra** hyperlänk.
+Du kan också ändra galleriets plats genom att klicka på hyperlänken **Ändra**.
 
 ![](assets/app-settings.png)
-*Programinställningar för Adobe Learning Manager*
+*Inställningar för Adobe Learning Manager-program*

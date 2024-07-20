@@ -27,7 +27,7 @@ I den här utbildningen får du lära dig skapa en utbildningsväg, lägga till 
 
 [![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QQ42P2LR&amp;mv=display&amp;mv2=display#/course/8318919)
 
-Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
+Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
 
 ## Fördelar med en utbildningsväg
 
@@ -41,23 +41,23 @@ Utbildningsvägar gör att du enkelt och problemfritt kan få ett utbildningspro
 
 ## Lägg till en utbildningsväg i Learning Manager
 
-I Learning Manager, i Admin-programmet, klickar du på **[!UICONTROL Learning Path]** i den vänstra panelen.
+I Learning Manager, i Admin-appen, klickar du på **[!UICONTROL Learning Path]** i den vänstra panelen.
 
-I dialogrutan **[!UICONTROL Learning Path]** sida, klicka på **[!UICONTROL Add]**. Ange uppgifterna.
+Klicka på **[!UICONTROL Add]** på sidan **[!UICONTROL Learning Path]**. Ange uppgifterna.
 
 ![](assets/add-learning-path.png)
 
 *Lägg till en ny utbildningsväg*
 
-I dialogrutan **Registreringstyp** alternativ, välj **Egenregistrering** eller **Administratörsregistrering**.
+I alternativet **Registreringstyp** väljer du **Självregistrering** eller **Administratörsregistrering**.
 
 >[!NOTE]
 >
->Om du väljer kommandot **Administratörsregistrering** får eleverna bara se kurser som är nominerade av chefen eller godkända av chefen. Eleverna kan inte se utbildningsvägen i rekommendationsavsnittet.
+>Om du väljer alternativet **Administratörsregistrering** kommer eleverna bara att se kurser som har nominerats av chefen eller godkänts av chefen. Eleverna kan inte se utbildningsvägen i rekommendationsavsnittet.
 
 När du har skapat utbildningsvägen väljer du den nyligen skapade utbildningsvägen och lägger till kurserna i sökvägen.
 
-Du kan lägga till färdigheter och tilldela ett utmärkelsetecken till utbildningsvägen. Om du vill lägga till en kompetens väljer du den kompetens eller de färdigheter som krävs från **[!UICONTROL Pick a Skill]** listruta. Välj även nivån för kompetensen eller kompetenserna.
+Du kan lägga till färdigheter och tilldela ett utmärkelsetecken till utbildningsvägen. Om du vill lägga till en kompetens väljer du den kompetens eller de färdigheter som krävs från rullgardinsmenyn **[!UICONTROL Pick a Skill]**. Välj även nivån för kompetensen eller kompetenserna.
 
 ![](assets/add-skills.png)
 
@@ -65,7 +65,7 @@ Du kan lägga till färdigheter och tilldela ett utmärkelsetecken till utbildni
 
 Tilldela ett utmärkelsetecken till utbildningsvägen. Välj ett märke i listan med tillgängliga märken.
 
-Välj nivå för produkter, roller och roller i **[!UICONTROL Recommend for]** -avsnittet för att föreslå den här utbildningsvägen för användare som har uttryckt intresse för dessa produkter och roller.
+Välj nivå för produkter, roller och roller i avsnittet **[!UICONTROL Recommend for]** för att föreslå den här utbildningsvägen för användare som har uttryckt intresse för dessa produkter och roller.
 
 ![](assets/recommend-for.png)
 
@@ -75,33 +75,33 @@ Välj sekvenstyp för avsnitten och utbildningen som Beställd eller Osorterad b
 
 Om du väljer Beställd visas kurserna i samma sekvens som du skapade dem. Om du väljer Osorterad sker ingen sekvensering av kurserna. Elever kan slutföra kurserna i valfri ordning.
 
-Om du vill lägga till en kurs i utbildningsvägen klickar du på **[!UICONTROL Add Courses or Learning Paths]**.
+Klicka på **[!UICONTROL Add Courses or Learning Paths]** om du vill lägga till en kurs i utbildningsvägen.
 
 I dialogrutan som visas väljer du den utbildning som du vill lägga till för utbildningsvägen.
 
 ![](assets/choose-training.png)
 
-*Lägg till utbildning på utbildningsvägen*
+*Lägg till utbildning i utbildningsvägen*
 
 Du kan sortera kurserna ytterligare efter tilldelade kunskaper, ändrat datum och kursens effektivitet.
 
-Klicka på när du har valt kurser eller utbildningsväg **[!UICONTROL Save]**.
+Klicka på **[!UICONTROL Save]** när du har valt kurser eller utbildningsväg.
 
 Du kan göra detta i utbildningsvägen:
 
 **Skapa och konfigurera ett avsnitt:** Ett avsnitt skapas för att gruppera flera utbildningskurser som slutför ett område eller en väsentlig del av utbildningen. Varje avsnitt kan ha en titel. Varje avsnitt kan också markeras som Obligatoriskt med specifika krav på slutförande.
 
-**Gör kurserna obligatoriska i varje avsnitt:** Aktivera eller inaktivera kryssrutan Obligatorisk om du vill/inte vill göra utbildningarna obligatoriska inuti utbildningsvägen. Om du markerar kryssrutan kan du antingen göra alla utbildningar obligatoriska eller vissa av utbildningarna obligatoriska.
+**Gör kurserna obligatoriska i varje avsnitt:** Aktivera eller inaktivera kryssrutan Obligatorisk om du inte vill göra utbildningarna obligatoriska i utbildningsvägen. Om du markerar kryssrutan kan du antingen göra alla utbildningar obligatoriska eller vissa av utbildningarna obligatoriska.
 
 ![](assets/choose-mandatory.png)
 
 *Gör kurserna obligatoriska i varje avsnitt*
 
-**Arrangera om ordningen:** Du kan flytta kurserna uppåt eller nedåt och ändra deras ordning.
+**Ordna om ordningen:** Du kan flytta kurserna uppåt eller nedåt och ändra deras ordning.
 
 ![](assets/rearrange.png)
 
-*Arrangera om ordningen på utbildningen*
+*Arrangera om utbildningsordningen*
 
 **Ta bort en kurs:** Klicka på X på kurskortet och ta bort kursen från utbildningsvägen.
 
@@ -109,7 +109,7 @@ Du kan göra detta i utbildningsvägen:
 
 *Ta bort en kurs från utbildningsvägen*
 
-När du har gjort ändringarna klickar du på Publicera för att publicera utbildningsvägen.
+När du har gjort ändringarna klickar du på Publish för att publicera utbildningsvägen.
 
 ## Kapslad lutningsbana
 
@@ -127,15 +127,15 @@ I avsnittet Inställningar kan du lägga till de krav och de arbetsstöd som en 
 
 ![](assets/learing-path-settings.png)
 
-*Ändra inställningar för en utbildningsväg*
+*Ändra inställningarna för en utbildningsväg*
 
 ## Instanser
 
-Instanserna för utbildningsvägen visar ytterligare en ruta, **[!UICONTROL Learning Paths]**. Siffran visas i rutan. av utbildningsprogram som lagts till i en utbildningsväg.
+Utbildningsvägsinstanserna visar ytterligare en panel, **[!UICONTROL Learning Paths]**. Siffran visas i rutan. av utbildningsprogram som lagts till i en utbildningsväg.
 
-I dialogrutan **Kurser** kan du se kursinstanserna som är synliga för eleverna som är registrerade i denna instans.
+I panelen **Kurser** kan du se kursinstanserna som är synliga för eleverna som är registrerade i den här instansen.
 
-Inställningen **[!UICONTROL Enable Learners to Choose instances (Flexible Learning Path)]** kryssrutan är endast tillämplig på kurser. Alla underordnade utbildningsvägar får ett alternativ för att mappa en instans av ett utbildningsprogram med utbildningsvägen. Som standard är mappningen inställd på Standardinstans.
+Kryssrutan **[!UICONTROL Enable Learners to Choose instances (Flexible Learning Path)]** gäller bara kurser. Alla underordnade utbildningsvägar får ett alternativ för att mappa en instans av ett utbildningsprogram med utbildningsvägen. Som standard är mappningen inställd på Standardinstans.
 
 ![](assets/default-instance.png)
 
@@ -147,9 +147,9 @@ Det finns tre alternativ:
 
 1. **[!UICONTROL All Skill Levels Courses and Learning Paths (selected by default)]:** Eleven får meddelanden om ofullständiga kurser oavsett nivå i utbildningsvägen.
 1. **[!UICONTROL Root Learning Path]:** Eleven får meddelanden om ofullständiga kurser som tillhör en överordnad utbildningsväg.
-1. **[!UICONTROL Learning Path + first Skill Level children only]:** Eleven får meddelanden om ofullständiga kurser som är det första underordnade objektet till en överordnad utbildningsväg.
+1. **[!UICONTROL Learning Path + first Skill Level children only]:** Eleven får meddelanden om ofullständiga kurser som är den första underordnade till en överordnad utbildningsväg.
 
-Meddelandepåminnelserna utlöses baserat på alternativet. Som standard används alternativet **[!UICONTROL All Levels Courses and Learning Paths]** har aktiverats för en instans.
+Meddelandepåminnelserna utlöses baserat på alternativet. Som standard är alternativet **[!UICONTROL All Levels Courses and Learning Paths]** aktiverat för en instans.
 
 ## Prenumerationer
 
@@ -173,7 +173,7 @@ Utbildningsvägar ger dig en mängd funktioner. Vissa av dem är tillgängliga o
 
 Elever kan fortsätta att använda utbildningsprogram (som nu kallas utbildningsvägar) och författare/administratörer kan fortsätta att skapa dem också. För att dra nytta av de utökade funktionerna i utbildningsvägen som nämns ovan ska administratören aktivera inställningen enligt nedan. När den har aktiverats blir alla nya utökade funktioner i utbildningsvägen tillgängliga.
 
-Inställningen **[!UICONTROL Settings]** > **[!UICONTROL General]** sidan har ett nytt alternativ för att aktivera utbildningsvägar. Om det här alternativet är aktiverat kan du lägga till kurser och utbildningsprogram på en utbildningsväg. Du kan inte ändra alternativet när det har aktiverats.
+Sidan **[!UICONTROL Settings]** > **[!UICONTROL General]** har ett nytt alternativ för att aktivera utbildningsvägar. Om det här alternativet är aktiverat kan du lägga till kurser och utbildningsprogram på en utbildningsväg. Du kan inte ändra alternativet när det har aktiverats.
 
 <!-- ## Other Learning Path-related details 
 

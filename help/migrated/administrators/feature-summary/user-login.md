@@ -3,20 +3,19 @@ jcr-language: en_us
 title: Användarinloggning
 description: Användarinloggning för Adobe Learning Manager
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: c293c8b1-2a25-4b55-8715-43797049e17e
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 0%
 
 ---
 
-
-
 # Användarinloggning
 
 När du använder Adobe Learning Manager för första gången måste du skapa ditt konto genom att följa stegen nedan:
 
-1. Starta Adobe Learning Manager med hjälp av den säkra länken du fick via välkomstmeddelandet från administratören.\
+1. Starta Adobe Learning Manager med hjälp av den säkra länken som du fick via ett välkomstmeddelande från administratören.\
    Inloggningsskärmen visas.
 1. Klicka på Logga in.
 
@@ -25,7 +24,7 @@ När du använder Adobe Learning Manager för första gången måste du skapa di
 *Logga in på Adobe Learning Manager*
 
 1. Ange Adobe ID, lösenord och klicka på Logga in.\
-   Om du har glömt lösenordet klickar du på **[!UICONTROL Forgot password?]** länka och ange det e-post-ID som du använde för att skapa Adobe ID.
+   Om du har glömt lösenordet klickar du på länken **[!UICONTROL Forgot password?]** och anger e-postadressen som du använde för att skapa Adobe ID.
 
 1. Du kan också använda Enterprise ID genom att klicka på **[!UICONTROL Sign in with an Enterprise ID link]**.
 

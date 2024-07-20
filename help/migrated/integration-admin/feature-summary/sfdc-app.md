@@ -1,22 +1,21 @@
 ---
 jcr-language: en_us
 title: Learning Manager-app för Salesforce
-description: Salesforce är en av de mest populära CRM-lösningarna bland försäljnings- och marknadsföringsteam. Med hjälp av Adobe Learning Manager-appen i Salesforce kan du låta dess användare komma åt allt sina utbildningsinnehåll direkt från Salesforce-gränssnittet. Användare kan komma åt sitt tilldelade utbildningsinnehåll som kurser, utbildningsprogram, arbetsstöd och så vidare från Salesforce. Användarna kan också få meddelanden om sina registreringar och meddelanden från administratören.
+description: Salesforce är en av de mest populära CRM-lösningarna bland försäljnings- och marknadsföringsteam. Om du använder Adobe Learning Manager-programmet i Salesforce kan du ge användarna tillgång till allt utbildningsinnehåll direkt från Salesforce-gränssnittet. Användare kan komma åt sitt tilldelade utbildningsinnehåll som kurser, utbildningsprogram, arbetsstöd och så vidare från Salesforce. Användarna kan också få meddelanden om sina registreringar och meddelanden från administratören.
 contentowner: jayakarr
-source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
+exl-id: 2efdf01e-43fb-4377-9334-2727c5358c76
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
 
 ---
 
-
-
 # Learning Manager-app för Salesforce
 
 ## Översikt {#overview}
 
-Salesforce™ är en av de mest populära CRM-lösningarna bland försäljnings- och marknadsföringsteam. Med hjälp av Adobe Learning Manager-appen i Salesforce kan du låta dess användare komma åt allt sina utbildningsinnehåll direkt från Salesforce-gränssnittet. Användare kan komma åt sitt tilldelade utbildningsinnehåll som kurser, utbildningsprogram, arbetsstöd och så vidare från Salesforce. Användarna kan också få meddelanden om sina registreringar och meddelanden från administratören.
+Salesforce™ är en av de mest populära CRM-lösningarna bland försäljnings- och marknadsföringsteam. Om du använder Adobe Learning Manager-programmet i Salesforce kan du ge användarna tillgång till allt utbildningsinnehåll direkt från Salesforce-gränssnittet. Användare kan komma åt sitt tilldelade utbildningsinnehåll som kurser, utbildningsprogram, arbetsstöd och så vidare från Salesforce. Användarna kan också få meddelanden om sina registreringar och meddelanden från administratören.
 
 För närvarande är Salesforce-programmet inte tillgängligt eftersom godkännandet väntar från Salesforce App Exchange. Om du vill förhandsgranska betaversionen av programmet kontaktar du den kontoansvariga eller Learning Manager-supportteamet.
 
@@ -37,7 +36,7 @@ Lär dig att installera och konfigurera Learning Manager-appen för Salesforce g
 
 1. För att installera Learning Manager-appen i ditt Salesforce-konto ska du använda det installerbara paketet som tillhandahålls av din kontohanterare eller kundansvariga. Du måste ha administratörsbehörighet för Salesforce-kontot där du tänker installera programmet.
 
-1. Välj det alternativ som visas på ögonblicksbilden och klicka på **[!UICONTROL Install]**.
+1. Välj lämpligt alternativ för dig enligt bilden och klicka på **[!UICONTROL Install]**.
 
    ![](assets/install-options.png)
 
@@ -45,9 +44,9 @@ Lär dig att installera och konfigurera Learning Manager-appen för Salesforce g
 
    Om du väljer **Installera för specifika profiler** väljer du en eller flera profiler från listan.
 
-1. Klicka **[!UICONTROL Continue]** i popup-fönstret som verkar bekräfta åtkomst från tredje part.
+1. Klicka på **[!UICONTROL Continue]** på popup-fönstret som visas för att bekräfta åtkomst från tredje part.
 
-   Ett meddelande visas som bekräftar att appen har installerats korrekt. Klicka **Klar**.
+   Ett meddelande visas som bekräftar att appen har installerats korrekt. Klicka på **Klar**.
 
 ## Lägg till meddelandekomponent på startsidan {#addnotificationcomponenttothehomepage}
 
@@ -55,14 +54,14 @@ Learning Manager-teamet rekommenderar att Salesforce-administratören även läg
 
 Så lägger du till Learning Manager-meddelandekomponenten i layouten på startsidan:
 
-1. Klicka **[!UICONTROL Setup]** längst upp till höger. Alternativet för layout för startsida visas i den vänstra rutan som i ögonblicksbilden nedan.
+1. Klicka på **[!UICONTROL Setup]** i det övre högra hörnet. Alternativet för layout för startsida visas i den vänstra rutan som i ögonblicksbilden nedan.
 
    ![](assets/homepage-component.png)
 
-   *Välj layout för startsida*
+   *Välj layouter för startsidan*
 
 1. Välj önskad layout och klicka på **[!UICONTROL Edit]**.
-1. Markera Adobe Learning Manager-aviseringsalternativet som visas på sidan och klicka på **[!UICONTROL Next]**.
+1. Markera alternativet Adobe Learning Manager-aviseringar som visas på sidan och klicka på **[!UICONTROL Next]**.
 1. Välj ordning på komponenterna som visas i den vänstra rutan, förhandsgranska och klicka på **[!UICONTROL Save]**.
 
-För att lära dig instruktioner om hur du loggar in i Learning Manager-appen och använder den i Salesforce som elev, se [Hjälpinnehåll för Salesforce-program](../../learners/feature-summary/sfdc-app.md).
+Mer information om hur du loggar in i Learning Manager-appen och använder den i Salesforce som elev finns i [Hjälpinnehåll för Salesforce-appen](../../learners/feature-summary/sfdc-app.md).

@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Markeringsknappar visas inte i Learning Manager
 description: På grund av saknade alternativknappar kan en administratör inte tilldela eller ta bort roller, skicka ett välkomstmeddelande eller ta bort en användare.
 contentowner: nluke
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: d2c86f9f-3e79-4f1f-992e-f92873940061
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
 
 ---
-
-
 
 # Markeringsknappar visas inte i Learning Manager
 
@@ -28,14 +27,14 @@ Problemet uppstår på grund av felaktiga teman i kontot.
 
 ![](assets/radio-buttons.png)
 
-*Alternativknappar visas inte*
+*Alternativknappar syns inte*
 
 ## Upplösning
 
 Läs in temana igen och åtgärda alternativknapparnas utseende. Gör följande:
 
-1. Klicka på som administratör **[!UICONTROL Branding]**.
-1. I dialogrutan **Teman** avsnitt, klicka på **[!UICONTROL Edit].**
+1. Klicka på **[!UICONTROL Branding]** som administratör.
+1. Klicka på **[!UICONTROL Edit]i avsnittet** Teman **.**
 1. Välj ett tema och spara ändringarna.
 
    ![](assets/set-themes.png)

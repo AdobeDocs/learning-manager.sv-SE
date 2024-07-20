@@ -19,7 +19,7 @@ Läs den här artikeln och lär dig bädda in fluidic-spelaren i ett anpassat pr
 
 Företag kan nu ge sina elever en anpassad upplevelse även utanför Learning Manager. Med det offentliga API:t kan du hämta all information som rör utbildningsobjekt, elevregistreringar och utbildningsframsteg och visa dem på din webbplats. Vad som är viktigare är att du även kan bädda in fluidic-spelaren i Learning Manager på din webbplats, så att eleven kan konsumera innehållet direkt på webbplatsen. Fluidic-spelaren ger dig möjlighet att spela upp allt innehåll som Learning Manager stöder. När den är inbäddad på din egen webbplats har den exakt samma funktioner som när den används i Learning Manager.
 
-**Spela upp valfritt eLearning-innehåll[](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
+**Spela upp valfritt e-utbildningsinnehåll[](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
 
 Fluidic-spelaren spelar upp praktiskt taget alla typer av eLearning-innehåll på samma konsekventa och intuitiva sätt utan att det krävs plugin-program eller nedladdningar. Eleven kan starta innehållet och oavsett innehållets filtyp börjar uppspelningen.
 
@@ -45,14 +45,14 @@ Att skapa ett anpassat program för att bädda in fluidic-spelare på din webbpl
 
 ### 1. Skapa ett program i integrationsadministratören {#1createanapplicationinintegrationadmin}
 
-Det här steget krävs för att skapa ett program-/klient-ID och en program-/klienthemlighet som används för att hämta uppdateringstoken och åtkomsttoken. Mer information om hur du skapar ett program finns i  [Programutvecklingsprocess.](developer-manual.md#main-pars_header_994876235)
+Det här steget krävs för att skapa ett program-/klient-ID och en program-/klienthemlighet som används för att hämta uppdateringstoken och åtkomsttoken. Mer information om hur du skapar ett program finns i [Programutvecklingsprocess.](developer-manual.md#main-pars_header_994876235)
 
-1. Gå till **[!UICONTROL IntegrationAdmin]** app och öppna **[!UICONTROL Applications]**.
+1. Gå till appen **[!UICONTROL IntegrationAdmin]** och öppna **[!UICONTROL Applications]**.
 
 1. Välj **[!UICONTROL Register]** från sidans övre högra hörn.
-1. Inställningen **[!UICONTROL Register a new application]** öppnas. Fyll i de obligatoriska fälten.
-1. Om det anpassade programmet måste delas över flera konton väljer du **[!UICONTROL No]** i alternativfältet  **[!UICONTROL For this account only?]**
-1. Om du vill spara programmet och generera ditt program-id och din hemlighet, klickar du på **[!UICONTROL Save]**.
+1. Fönstret **[!UICONTROL Register a new application]** öppnas. Fyll i de obligatoriska fälten.
+1. Om det anpassade programmet måste delas över flera konton väljer du **[!UICONTROL No]** i alternativfältet **[!UICONTROL For this account only?]**
+1. Klicka på **[!UICONTROL Save]** om du vill spara programmet och generera ditt program-ID och din hemlighet.
 
 ### 2. Hämtar åtkomsttoken {#2retrievingaccesstoken}
 
@@ -75,13 +75,13 @@ client_id= <application_id>
 &email=<email_id>
 ```
 
-Här, **[!UICONTROL client id]** är det program-id som erhölls i steg 1.
-**[!UICONTROL redirect_url]** är redirect_url i steg 1.
-**[!UICONTROL state]** är några dummydata baserat på vilka vi måste filtrera omdirigerings-URL för att få OAuth-kod. Omfattningen är elevens omfattning som anges i steg 1.
-**[!UICONTROL response_typ]**e är alltid &quot;KOD&quot;.\
+Här är **[!UICONTROL client id]** det program-id som erhölls i steg 1.
+**[!UICONTROL redirect_url]** är redirect_url angivet i steg 1.
+**[!UICONTROL state]** är dummydata som vi måste filtrera omdirigerings-URL utifrån för att få OAuth-kod. Omfattningen är elevens omfattning som anges i steg 1.
+**[!UICONTROL response_typ]**e är alltid &quot;CODE&quot;.\
 **[!UICONTROL account]**är ett valfritt fält\
 **[!UICONTROL email]** är ett valfritt fält\
-&#42; Om både konto-ID och e-postadress anges kan användaren logga in på samma konto med ovanstående URL. Det här slutpunktsexemplet visas i filen index.html i exempelprogrammet.
+&#42; Om både konto-ID och e-postadress anges tillåter ovanstående URL användaren att logga in på samma konto. Det här slutpunktsexemplet visas i filen index.html i exempelprogrammet.
 
 * Hämta uppdateringstoken
 
@@ -120,7 +120,7 @@ I det tredje steget måste du använda åtkomsttoken för att hämta resurser fr
 
 Program från tredje part kan använda inbäddad spelare för att spela upp innehållet i ett utbildningsobjekt.
 
-**Öppna en kurs i inbäddad spelare**
+**Öppna en kurs i en inbäddad spelare**
 
 1. Skapa en inbäddad URL
 
@@ -167,7 +167,7 @@ Detta är en insats som måste göras av någon i ditt IT-team eller en extern k
 
 1. Ändra URL:en till den inbäddade spelaren för Learning Manager med parametrar som pekar på exakt det utbildningsobjekt som måste tas.
 
-   URL:  [https://learningmanager.adobe.com/app/player](https://cpcontents.adobe.com/public/embedplayer/index22fa615ec2baa034a22090c8cd4289fa.html)
+   URL: [https://learningmanager.adobe.com/app/player](https://cpcontents.adobe.com/public/embedplayer/index22fa615ec2baa034a22090c8cd4289fa.html)
 
 1. Använd någon av dessa parametrar för att starta en kurs:
 
@@ -179,7 +179,7 @@ Detta är en insats som måste göras av någon i ditt IT-team eller en extern k
 
 1. Använd åtkomsttoken som en obligatorisk parameter.
 
-   * access_token : Detta är säkerhetsparametern, använd den offentliga API-åtkomsttoken för oauth
+   * access_token : Detta är säkerhetsparametern, använd det offentliga API:et oauth   åtkomsttoken
 
    Du kan få din token genom att konfigurera din inbäddade fluidic-spelare i din integrationsadministratör. Du kan få din autentiseringstoken som du kan använda som din åtkomsttoken.
 
@@ -213,7 +213,7 @@ Detta är en insats som måste göras av någon i ditt IT-team eller en extern k
 
 Ändra URL:en till den inbäddade spelaren för Learning Manager med parametrar som pekar på exakt det utbildningsobjekt som måste tas.
 
-URL:  [https://learningmanager.adobe.com/app/player](https://learningmanager.adobe.com/app/player)
+URL: [https://learningmanager.adobe.com/app/player](https://learningmanager.adobe.com/app/player)
 
 Alla dessa parametrar kan användas för att starta en kurs:
 
@@ -224,7 +224,7 @@ Alla dessa parametrar kan användas för att starta en kurs:
 
 Obligatorisk parameter:
 
-* access_token : Detta är säkerhetsparametern, använd den offentliga API-åtkomsttoken för oauth
+* access_token : Detta är säkerhetsparametern, använd det offentliga API:et oauth   åtkomsttoken
 
 Gör API-anrop för Learning Manager för att hämta ovanstående parametrar. Dessa API-anrop görs av det program som ditt IT-team/din IT-konsult ska skriva och vara värd för på din webbplats.
 
@@ -234,6 +234,6 @@ API för Learning Manager V1 - [https://learningmanager.adobe.com/docs/primeapi/
 
 
 
-API för Learning Manager V2 -  [https://learningmanager.adobe.com/docs/primeapi/v2/](https://learningmanager.adobe.com/docs/primeapi/v2/)
+API för Learning Manager V2 - [https://learningmanager.adobe.com/docs/primeapi/v2/](https://learningmanager.adobe.com/docs/primeapi/v2/)
 
 

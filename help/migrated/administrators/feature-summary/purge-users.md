@@ -39,21 +39,21 @@ If you're unable to launch the training, write to <almacademy@adobe.com>.-->
 
 Gör så här för att rensa användare:
 
-1. Som administratör väljer du **[!UICONTROL Users]** från den vänstra rutan. Inställningen **[!UICONTROL Internal Users]** sidan öppnas.
-1. Ta bort de användare du vill ta bort. Markera en eller flera användare i kryssrutan om du vill ta bort. Öppna fönstret **[!UICONTROL Action]** och välja **[!UICONTROL Delete User.]**
-1. I den vänstra rutan väljer du **[!UICONTROL User Cleanup]**. Inställningen **[!UICONTROL User Cleanup]** visas med en lista över borttagna användare. Använd alternativknapparna för att välja vilken användare som ska rensas. Du kan bara ta bort en användare åt gången.
+1. Som administratör väljer du **[!UICONTROL Users]** i den vänstra rutan. Sidan **[!UICONTROL Internal Users]** öppnas.
+1. Ta bort de användare du vill ta bort. Markera en eller flera användare i kryssrutan om du vill ta bort. Öppna listrutan **[!UICONTROL Action]** och välj **[!UICONTROL Delete User.]**
+1. Välj **[!UICONTROL User Cleanup]** i den vänstra rutan. Sidan **[!UICONTROL User Cleanup]** visas med listan över borttagna användare. Använd alternativknapparna för att välja vilken användare som ska rensas. Du kan bara ta bort en användare åt gången.
 
    ![](assets/purge-1.png)
 
    *Välj en användare att rensa*
 
-1. Öppna fönstret **[!UICONTROL Actions]** och välja **[!UICONTROL Purge User]**.
+1. Öppna rullgardinsmenyn **[!UICONTROL Actions]** och välj **[!UICONTROL Purge User]**.
 
    ![](assets/purge-2.png)
 
    *Välj alternativet Rensa användare*
 
-1. En dialogruta visas där du får bekräfta åtgärden. När de har rensats tas alla användardata och utbildningsposter som är kopplade till den valda användaren bort permanent. När åtgärden har rensats kan den inte ångras. Bekräfta genom att klicka på **[!UICONTROL Purge]**.
+1. En dialogruta visas där du får bekräfta åtgärden. När de har rensats tas alla användardata och utbildningsposter som är kopplade till den valda användaren bort permanent. När åtgärden har rensats kan den inte ångras. Klicka på **[!UICONTROL Purge]** för att bekräfta.
 
    ![](assets/purge-3.png)
 
@@ -138,7 +138,7 @@ Du kan välja de första 50 användarna och rensa dem i en bild. Detta gör att 
    <td>Ja</td>
   </tr>
   <tr>
-   <td><strong>Rensa</strong> <strong>andra användare - icke-företagsanvändare (enskilda personer som inte är interna eller externa användare av Learning Manager)</strong></td>
+   <td><strong>Rensa</strong> <strong>andra användare - inte företag (personer som inte är interna eller externa Learning Manager-användare)</strong></td>
    <td> </td>
   </tr>
   <tr>
@@ -186,7 +186,7 @@ Du kan välja de första 50 användarna och rensa dem i en bild. Detta gör att 
 
 +++
 
-Learning Manager är nu GDPR-kompatibelt. Mer information om GDPR-kompatibilitet finns i  [Learning Manager-kompatibilitet till GDPR](../../kb/prime-gdpr.md).
+Learning Manager är nu GDPR-kompatibelt. Mer information om GDPR-kompatibilitet finns i [Learning Manager-kompatibilitet till GDPR](../../kb/prime-gdpr.md).
 
 ## Vanliga frågor {#frequentlyaskedquestions}
 

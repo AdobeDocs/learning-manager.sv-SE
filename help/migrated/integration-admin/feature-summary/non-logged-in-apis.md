@@ -1,5 +1,5 @@
 ---
-description: Lär dig mer om de icke-inloggade API:erna för att utveckla det huvudlösa gränssnittet.
+description: Lär dig mer om de icke-inloggade API:erna för att utveckla det fjärradministrerade gränssnittet.
 jcr-language: en_us
 title: Icke-inloggade API:er
 source-git-commit: 21e2a4a5e73fcbddb64e0afec0a896b315e38688
@@ -11,24 +11,24 @@ ht-degree: 0%
 
 # Icke-inloggade API:er
 
-Läs mer om Adobe Learning Manager API:er, som tillhandahåller data för headless-upplevelsen eller icke-inloggade i den här artikeln.
+Läs mer om Adobe Learning Manager API:er, som tillhandahåller data för fjärradministrerad eller icke-inloggad användning i den här artikeln.
 API för offentlig sökning
 
 ## API för offentlig sökning
 
-### Filtrera data med hjälp av offentlig ES
+### Filtrera data med Public ES
 
-Med API:et för offentlig sökning kan du hämta filterdata som kan användas med det grundläggande sök-API:et för att filtrera kurserna. Det här API:et innehåller alla filter som kan användas i sök-API:et.
+Med API:et för offentlig sökning kan du hämta de filterdata som kan användas med grundläggande sök-API:et för att filtrera kurserna. Detta API innehåller alla filter som kan användas i sök-API:et.
 
 **Exempel på curl**
 
-Använd GET-metoden för att göra följande begäran. Ersätt &lt;Base_URL> med din bas-URL i curl-kommandot nedan. &lt;/Base_URL> Du hittar den &lt;Base_URL> på anslutningssidan för åtkomst till träningsdata.&lt;/Base_URL>
+Använd GET-metoden för att göra följande begäran. Ersätt &lt;base_URL> med din bas-URL i kommandot curl nedan. Du hittar &lt;Base_URL> på sidan för anslutning till utbildningsdata.
 
 ```
 curl --location '<Base_URL>/filterableData'
 ```
 
-**Exempel på svar**
+**Exempelsvar**
 
 ```
 {
@@ -89,32 +89,32 @@ curl --location '<Base_URL>/filterableData'
 }
 ```
 
-**Alternativ för filter**
+**Filteralternativ**
 
 | Alternativ | Beskrivning |
 | --- | --- |
-| `loSkillLevels` | Den kunskapsnivå som krävs för att anmäla sig till kursen. |
+| `loSkillLevels` | Den kompetensnivå som krävs för att skriva in sig i kursen. |
 | `catalogNames` | Lista över tillgängliga katalognamn. |
-| `loType` | Typer av tillgängliga lärobjekt. |
-| `availability` | Tillgänglighet av platser och tillgänglighet på väntelista. |
-| `loSkillNames` | Kunskapsnamnen som läggs till i lärobjekten. |
-| `tags` | Taggarna som är associerade med lärobjekten. |
-| `authors` | Författarens namn på lärobjekten |
-| `duration` | Varaktigheten för inlärningsobjekten. |
-| `dateCreated` | Det datum då lärobjektet skapades. |
-| `sessionEndTime` | Tiden då sessionen avslutades. |
-| `averageRating` | Det genomsnittliga stjärnbetyget för inlärningsobjekten. |
+| `loType` | Typer av tillgängliga utbildningsobjekt. |
+| `availability` | Platstillgänglighet och väntelista. |
+| `loSkillNames` | Namnen på kunskaperna som har lagts till i utbildningsobjekten. |
+| `tags` | Taggar som är associerade med utbildningsobjekten. |
+| `authors` | Författarens namn på utbildningsobjekten |
+| `duration` | Utbildningsobjektens varaktighet. |
+| `dateCreated` | Det datum då utbildningsobjektet skapades. |
+| `sessionEndTime` | Den tidpunkt då sessionen avslutades. |
+| `averageRating` | Genomsnittlig stjärnrankning för utbildningsobjekt. |
 | `sessionStartTime` | Tiden då sessionen startade. |
-| `publishDate` | Publiceringsdatumet för lärobjektet. |
-| `ratingsCount` | Antalet betyg räknas för läroobjektet. |
+| `publishDate` | Utbildningsobjektets publiceringsdatum. |
+| `ratingsCount` | Antal betyg för utbildningsobjektet. |
 
 ### API för sökning
 
-Med det offentliga sök-API:et kan du hämta grundläggande sökdata med hjälp av angivna data.
+Med API:et för offentlig sökning kan du hämta grundläggande sökdata med hjälp av de tillhandahållna uppgifterna.
 
 **Exempel på curl**
 
-Använd POST-metoden för att göra följande begäran. Ersätt &lt;Base_URL> med din bas-URL i curl-kommandot nedan. &lt;/Base_URL> Du hittar den &lt;Base_URL> på anslutningssidan för åtkomst till träningsdata.&lt;/Base_URL>
+Använd POSTEN för att göra följande begäran. Ersätt &lt;base_URL> med din bas-URL i kommandot curl nedan. Du hittar &lt;Base_URL> på sidan för anslutning till utbildningsdata.
 
 ```
 curl --location '<Base_URL>/search?size=1000' \
@@ -166,7 +166,7 @@ curl --location '<Base_URL>/search?size=1000' \
 }'
 ```
 
-**Exempelsvar för API-anropet**
+**Exempelsvar från API-anropet**
 
 ```
 {
@@ -262,27 +262,27 @@ curl --location '<Base_URL>/search?size=1000' \
 }
 ```
 
-**Sorteringsalternativ i sök-API:et**
+**Sorteringsalternativ i API:et för sökning**
 
-Du kan välja följande sorteringsalternativ som ska tillämpas på resultaten.
+Du kan välja följande sorteringsalternativ som ska användas på resultaten.
 
 | Alternativ | Beskrivning |
 | --- | --- |
-| `duration` | Varaktigheten för lärobjektet. |
-| `publishDate` | Publiceringsdatumet för lärobjektet. |
-| `dateCreated` | Det datum då lärobjektet skapades. |
-| `name_en` | Namnet på lärobjektet. |
-| `averageRating` | Genomsnittligt stjärnbetyg från eleverna. |
-| `ratingsCount` | Antalet betyg räknas för läroobjektet. |
-| `relevance(default)` | De relevanta uppgifterna baseras på sökorden. |
+| `duration` | Utbildningsobjektets längd. |
+| `publishDate` | Utbildningsobjektets publiceringsdatum. |
+| `dateCreated` | Det datum då utbildningsobjektet skapades. |
+| `name_en` | Namnet på utbildningsobjektet. |
+| `averageRating` | Medelbetyg på stjärnor från eleverna. |
+| `ratingsCount` | Antal betyg för utbildningsobjektet. |
+| `relevance(default)` | Relevanta data är baserade på söknyckelorden. |
 
-### Hämta data om utbildningsobjekt med hjälp av API för offentlig sökning
+### Hämta data för utbildningsobjekt med API för offentlig sökning
 
-Med API:et för offentliga ES-inlärningsobjekt kan du hämta en lista över typer och ID:n för lärobjekt som är tillgängliga i det huvudlösa gränssnittet.
+Med Public ES Learning Object API kan du få en lista över typer och ID för utbildningsobjekt som är tillgängliga i det fjärradministrerade gränssnittet.
 
 **Exempel på curl**
 
-Använd GET-metoden för att göra följande begäran. Ersätt &lt;Base_URL> med din bas-URL i curl-kommandot nedan. &lt;/Base_URL> Du hittar den &lt;Base_URL> på anslutningssidan för åtkomst till träningsdata.&lt;/Base_URL>
+Använd GET-metoden för att göra följande begäran. Ersätt &lt;base_URL> med din bas-URL i kommandot curl nedan. Du hittar &lt;Base_URL> på sidan för anslutning till utbildningsdata.
 
 ```
 curl --location '<Base_URL>/learningObjectIds'
@@ -300,19 +300,19 @@ curl --location '<Base_URL>/learningObjectIds'
 }
 ```
 
-## API för kurssammanfattning
+## Sammanfattning av kurs-API
 
-Med API:et för kurssammanfattning kan du hämta detaljerad information om en specifik kurs.
+Med API:et för kurssammanfattning kan du hämta detaljerad information om en viss kurs.
 
 **Exempel på curl**
 
-Använd GET-metoden för att göra följande begäran. Ersätt &lt;Base_URL> med din bas-URL i curl-kommandot nedan. &lt;/Base_URL> Du hittar den &lt;Base_URL> på anslutningssidan för åtkomst till träningsdata. &lt;/Base_URL> Ersätt &lt;Course_ID> med det specifika kurs-ID:t.&lt;/Course_ID>
+Använd GET-metoden för att göra följande begäran. Ersätt &lt;base_URL> med din bas-URL i kommandot curl nedan. Du hittar &lt;Base_URL> på sidan för anslutning till utbildningsdata. Ersätt &lt;Course_ID> med det specifika kurs-ID:t.
 
 ```
 curl --location '<Base_URL>/loSummary?loId=course%3A<Course_ID>'
 ```
 
-**Exempelsvar för API-anropet**
+**Exempelsvar från API-anropet**
 
 ```
 {
@@ -339,17 +339,17 @@ curl --location '<Base_URL>/loSummary?loId=course%3A<Course_ID>'
 
 ## CDN JSON API för kursinformation
 
-Med CDN JSON API kan du hämta fullständig kursinformation om en specifik kurs.
+Med CDN JSON API kan du hämta den fullständiga kursinformationen om en specifik kurs.
 
-**Provcurl för kurs**
+**Exempelkurva för kurs**
 
-Använd GET-metoden för att göra följande begäran. Ersätt &lt;CDN_path> med din bas-URL i curl-kommandot nedan. &lt;/CDN_path> Du hittar den &lt;CDN_path> på anslutningssidan för åtkomst till träningsdata. &lt;/CDN_path> Ersätt &lt;Course_ID> med det specifika kurs-ID:t.&lt;/Course_ID>
+Använd GET-metoden för att göra följande begäran. Ersätt &lt;CDN_path> med din bas-URL i lockkommandot nedan. Du hittar &lt;CDN_path> på sidan för anslutningen för utbildningsdataåtkomst. Ersätt &lt;Course_ID> med det specifika kurs-ID:t.
 
 ```
 curl --location '<CDN_path_URL>/course/<Course_ID>.json'
 ```
 
-**Exempel på curl för utbildningsväg och certifiering**
+**Exempel på kurva för utbildningsväg och certifiering**
 
 ```
 curl --location '<CDN_path_URL>/learningProgram/<LearningProgram_ID>.json'
@@ -359,7 +359,7 @@ curl --location '<CDN_path_URL>/learningProgram/<LearningProgram_ID>.json'
 curl --location '<CDN_path_URL>/ certification /<Certification_ID>.json'
 ```
 
-**Exempelsvar för API-anropet**
+**Exempelsvar från API-anropet**
 
 ```
 {

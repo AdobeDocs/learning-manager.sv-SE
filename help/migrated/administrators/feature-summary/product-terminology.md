@@ -27,7 +27,7 @@ Med funktionen Produktterminologi kan du byta namn på dessa terminologier och v
 Följ stegen nedan för att ändra terminologin:
 
 1. Som administratör väljer du **[!UICONTROL Settings]** > **[!UICONTROL General]**.
-1. I dialogrutan **[!UICONTROL Product Terminology]**, välj **[!UICONTROL Edit]**.
+1. Välj **[!UICONTROL Edit]** i **[!UICONTROL Product Terminology]**.
 
    ![](assets/product-terminology-settings.png)
    _Produktterminologi_
@@ -48,10 +48,10 @@ Följ stegen nedan för att ändra terminologin:
 
 ## Överför den uppdaterade CSV-filen
 
-1. I dialogrutan **[!UICONTROL Product Terminology]** markerar du länken för att överföra CSV-filen.
+1. Välj länken för att överföra CSV-filen i avsnittet **[!UICONTROL Product Terminology]**.
 
    ![](assets/update-the-csv.png)
-   _Överför CSV-filen_
+   _Ladda upp CSV-filen_
 
 1. Överför den uppdaterade CSV-filen.
 1. Välj **[!UICONTROL Save]**.

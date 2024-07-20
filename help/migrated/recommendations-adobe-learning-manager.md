@@ -1,16 +1,15 @@
 ---
-title: Recommendations i Adobe Learning Manager
+title: RECOMMENDATIONS i ADOBE LEARNING MANAGER
 description: Kärnan i rekommendationsmotorn drivs av Learning Managers nya kursrankningsalgoritm. Algoritmen använder 50 miljoner datapunkter och fem års aggregerade utbildningsdata för miljontals användare för att rangordna kurser baserat på deras sannolikhet för registrering. Denna rankning säkerställer att de flesta registrerbara kurser visas i förväg för eleverna.
-source-git-commit: 40f6732147b7babeb1f11ce52045e6baf6338ce1
+exl-id: 42083095-60a0-4e20-9097-3344d290da1a
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1411'
 ht-degree: 2%
 
 ---
 
-
-
-# Recommendations i Adobe Learning Manager
+# RECOMMENDATIONS i ADOBE LEARNING MANAGER
 
 Adobe Learning Manager har infört ett nytt och moderniserat rekommendationssystem för kurser. Den här rekommendationsfunktionen använder AI-algoritmer och användares intressen som Produkter, Roller och Nivåer för att ge personliga innehållsrekommendationer.
 
@@ -22,7 +21,7 @@ Du måste aktivera funktionen i Admin-appen för att komma igång med den här f
 
 1. Ladda upp kursen och användardata (valfritt).
 1. Gör ändringarna live.
-1. När du har aktiverat och konfigurerat rekommendationerna överför du dem till Adobe Learning Manager för rekommendationer om hur du kan börja arbeta. Dessa data består av:
+1. När du har aktiverat och konfigurerat rekommendationerna överför du dem till Adobe Learning Manager för att få rekommendationer om hur du ska börja arbeta. Dessa data består av:
 
    * Kursdata
    * Användardata (valfritt)
@@ -39,7 +38,7 @@ Parametrarna är - **Produkter/ämnen**, **Roller** och **Nivåer**. Dessutom ka
 
 ## Konfigurera rekommendationssystemet
 
-Den nya rekommendationsmotorn i Adobe Learning Manager förenklar det administrationsarbetsflöde som krävs för att ställa in anpassade rekommendationer, eftersom data om produkter och roller som är kopplade till en kund/partner vanligtvis är tillgängliga för administratörer (till exempel från inköpsposter).
+Adobe Learning Manager nya rekommendationsmotor förenklar det administrationsarbetsflöde som krävs för att ställa in anpassade rekommendationer, eftersom data om produkter och roller som är kopplade till en kund/partner vanligtvis är tillgängliga för administratörer (till exempel från inköpsposter).
 
 Det finns främst tre arbetsflöden som är involverade i konfigurationen av den nya rekommendationsmotorn:
 
@@ -55,17 +54,17 @@ Administratörer får ett guidat arbetsflöde i Learning Manager för att optima
 
    ![Välj Recommendations i Admin-appen](assets/image831538.png)
 
-   *Markera alternativet Recommendations*
+   *Markera Recommendations-alternativet*
 
 1. Klicka på **[!UICONTROL Upgrade]**.
 
    ![Uppgradera till det nya systemet](assets/image784236.png)
 
-   *Välj alternativet Uppgradera*
+   *Välj uppgraderingsalternativ*
 
-1. Klicka **[!UICONTROL Proceed]** för att uppgradera till det nya rekommendationssystemet.
+1. Klicka på **[!UICONTROL Proceed]** för att uppgradera till det nya rekommendationssystemet.
 
-   ![Gå vidare till det nya systemet](assets/image521152.png)
+   ![Gå till det nya systemet](assets/image521152.png)
    *Välj knappen Fortsätt*
 
 1. Skapa rekommendationsparametrar för Produkter och Roller.
@@ -97,7 +96,7 @@ Administratörer får ett guidat arbetsflöde i Learning Manager för att optima
 
 Användarens intressedata, produkt, roller och nivåer måste överföras för att rekommendationerna ska fungera korrekt.
 
-**Alternativ för att överföra data**
+**Alternativ för dataöverföring**
 
 Funktionen för rekommendationer kan konfigureras. I stället för produkter/roller/nivåer kan du alltså använda ämnen/roller/nivå eller välja något av dessa alternativ: endast produkter/ämnen, endast roller, endast produkter/ämnen och roller, endast roller-nivåer eller endast produktnivåer.
 
@@ -152,13 +151,13 @@ Fyll i dessa CSV-filer och kontakta ditt kundframgångsteam för att hämta form
 När båda CSV-filerna har överförts klickar du på Go live. Detta kommer att göra det nya rekommendationssystemet synligt för eleverna.
 
 ![live](assets/computerdescription-automatically.png)
-*Se till att rekommendationerna sänds live*
+*Publicera rekommendationerna*
 
 Rekommendationssystemet är nu tillgängligt för dina elever.
 
 ## Redigera en parameter
 
-1. I listan med parametrar väljer du ikonen med tre punkter och väljer **[!UICONTROL Edit parameter name]**.
+1. Välj ikonen med tre punkter i listan med parametrar och välj **[!UICONTROL Edit parameter name]**.
 
    ![Redigera parameter](assets/edit-parameter.png)
 
@@ -169,17 +168,17 @@ Rekommendationssystemet är nu tillgängligt för dina elever.
 
 ## Ta bort en parameter
 
-1. I listan med parametrar väljer du ikonen med tre punkter och väljer **[!UICONTROL Delete parameter]**.
+1. Välj ikonen med tre punkter i listan med parametrar och välj **[!UICONTROL Delete parameter]**.
 
-![ta bort parameter](assets/delete-parameter.png)
+![Ta bort parameter](assets/delete-parameter.png)
 *Ta bort parametern*
 
 ## Sidan Kursinställningar
 
 På inställningssidan för en kurs visas rekommendationerna för Produkter och Roller. Elever kommer att rekommenderas denna kurs om de har uttryckt intresse för dessa Produkter och Roller.
 
-![ställa in bild](assets/course-settings-image.png)
-*Sidan Kursinställningar*
+![ställer in bild](assets/course-settings-image.png)
+*Sidan med kursinställningar*
 
 ## Elevvy
 
@@ -198,12 +197,12 @@ Eleverna kan se detta:
 
 När Recommendations har valts i den vänstra panelen ser eleven ett popup-fönster för att ställa in rekommendationerna.
 
-![konfigurera rekommendationer](assets/image575540.png)
-*Eleven ställer in rekommendationen*
+![konfigurationsrekommendationer](assets/image575540.png)
+*Eleven konfigurerar rekommendationen*
 
 När du klickar på Konfigurera Recommendations kommer eleven till popup-fönstret för produktval.
 
-![popup för produktval](assets/product-selection-popup.png)
+![popup-meny för produktval](assets/product-selection-popup.png)
 *Välj produkter*
 
 Sedan kan eleven välja rollen i nästa popup-fönster.
@@ -232,7 +231,7 @@ En elev kan se följande strimlor i appen:
 
 ### Kort på min utbildningsremsa
 
-![utbildningsremsa](assets/image770606.png)
+![kort för utbildningsremsa](assets/image770606.png)
 *Kort på utbildningsremsa*
 
 Varje kort har Gradering, Kortbild, Titel, Kompetens, Publiceringsdatum, Författare, Varaktighet, Förloppsindikator och knappen Fortsätt eller Utforska.
@@ -248,11 +247,11 @@ Det finns ingen förloppsindikator på kortet efter att en elev startat kursen. 
 
 ### Kort på super relevant remsa
 
-![super relevanta remsa kort](assets/super-relevant-cards.png)
+![superrelevanta strippkort](assets/super-relevant-cards.png)
 *Relevanta kort*
 
 Varje kort har betyg, kortbild, titel, kompetens, publiceringsdatum, författare, varaktighet, förloppsindikator och knappen Starta eller Utforska eller Fortsätt eller Besök igen.
 
 Det finns ingen förloppsindikator på kortet efter att en elev startat kursen.
 
-På menyn finns det två alternativ, **[!UICONTROL Save]** och **[!UICONTROL Don't recommend this]**. Om eleven klickar **[!UICONTROL Save]**, kursen sparas i remsan &quot;Sparat av mig&quot;. Om eleven klickar **[!UICONTROL Don't recommend this]** tas den rekommenderade utbildningen bort från listan.
+Det finns två alternativ på menyn, **[!UICONTROL Save]** och **[!UICONTROL Don't recommend this]**. Om eleven klickar på **[!UICONTROL Save]** sparas kursen i remsan Sparad av mig. Om eleven klickar på **[!UICONTROL Don't recommend this]** tas den rekommenderade utbildningen bort från listan.

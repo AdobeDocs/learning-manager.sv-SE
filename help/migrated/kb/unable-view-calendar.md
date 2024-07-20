@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Det gick inte att visa kalendern
 description: När en administratör försöker redigera förfallodatumet för en extern registreringsprofil och klickar på kalendern för att redigera förfallodatumet, visas inte kalendern.
 contentowner: saghosh
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: 1b7e5594-714a-4a1d-9b8f-d481c1b48cb5
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 3%
 
 ---
-
-
 
 # Det gick inte att visa kalendern
 
@@ -43,7 +42,7 @@ Problemet uppstår på grund av följande:
 
 1. Klicka på **[!UICONTROL Start]** > **[!UICONTROL Settings]** > **[!UICONTROL System]**.
 1. Klicka på **[!UICONTROL Display]**.
-1. Enligt **[!UICONTROL Scale and layout]** använder du listrutan. Ändra inställningarna till 100 %.
+1. Använd listrutan under avsnittet **[!UICONTROL Scale and layout]**. Ändra inställningarna till 100 %.
 
    ![](assets/scale-layout.png)
 

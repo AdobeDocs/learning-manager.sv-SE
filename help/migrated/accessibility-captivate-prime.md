@@ -17,7 +17,7 @@ I det här dokumentet beskrivs tillgänglighetsstödet i Learning Manager Learni
 
 Learning Manager följer W3C:s WCAG 2.1 Level A- och AA-tillgänglighetsstandarder för plattformen.
 
-Med elevrollen Adobe Learning Manager kan elever navigera på plattformen och dra nytta av följande viktiga tillgänglighetsfunktioner:
+Med rollen Adobe Learning Manager-elev kan elever navigera på plattformen och dra nytta av följande viktiga tillgänglighetsfunktioner:
 
 * Raster Reader
 * Tangentbord
@@ -26,7 +26,7 @@ Med elevrollen Adobe Learning Manager kan elever navigera på plattformen och dr
 
 ## Stöd för Screen Reader {#supportforscreenreaders}
 
-Adobe Learning Manager stöder skärmläsare som NVDA, JAWS och Voice-over på dator, Talkback och Voice-over på mobil, vilket gör det möjligt för elever att läsa upp texten på Learning Manager-plattformen och navigera därefter.
+Adobe Learning Manager har stöd för skärmläsare som NVDA, JAWS och Voice-over på dator, Talkback och Voice-over på mobil vilket gör det möjligt för elever att läsa upp texten på Learning Manager-plattformen och navigera därefter.
 
 Här är den kombination av skärmläsare och webbläsare som vi stöder på datorn:
 
@@ -195,7 +195,7 @@ Utbildningsrollen för Learning Manager stöder flera andra tillgänglighetsfunk
 
 1. Semantisk struktur till elevens rollsidor, inklusive rubrik, listmarkering, beskrivande titlar osv. tillhandahålls.
 1. Stöd för webbläsarzoomning upp till 200 % utan förlust av innehåll eller funktionalitet bibehålls genom elevrollen.
-1. Färgkontrast för text- och icke-textelement behålls i elevrollen. Använd kommandot [Klart](/help/migrated/administrators/feature-summary/themes.md) tema.
+1. Färgkontrast för text- och icke-textelement behålls i elevrollen. Använd temat [Intensiv](/help/migrated/administrators/feature-summary/themes.md) för en bättre upplevelse.
 1. Stöd för W3C:s WAI ARIA-designmönster för att upprätthålla konsekvens och bästa praxis i branschen.
 
 Mer information finns i:
@@ -207,21 +207,21 @@ Mer information finns i:
 
 Låt oss titta på hur tillgänglighetsfunktioner hjälper dig att navigera bland några viktiga funktioner för elever i Learning Manager.
 
-Använd kommandot `kbd Tab`för att navigera bland elementen på sidan. Använd kommandot `kbd Shift + Tab` för att vända navigeringsriktningen. Tangentbordsfokus anges med en blå kontur som visas runt ett element. En skärmläsare bör läsa upp texten för elementet i fråga.
+Använd `kbd Tab` för att navigera mellan elementen på sidan. Använd `kbd Shift + Tab` om du vill ändra navigeringsriktning. Tangentbordsfokus anges med en blå kontur som visas runt ett element. En skärmläsare bör läsa upp texten för elementet i fråga.
 
 ## Sök efter en utbildning i Learning Manager {#searchforatrainingincaptivateprime}
 
 1. Använd dessa tips för att navigera och nå sökrutan i det övre högra hörnet av startsidan.
 1. Skriv texten med tangentbordet. Sökresultatet visas.
-1. Använda tangentbordet `kbd Up/Down` pilar för att navigera genom resultaten eller träffen `kbd ENTER`om du vill visa alla resultat.
+1. Använd tangentbordspilarna `kbd Up/Down` för att navigera genom resultaten eller tryck på `kbd ENTER` för att se alla resultat.
 
-1. När utbildningen har identifierats, träffa `kbd ENTER`för att gå till utbildningssidan.
+1. Tryck på `kbd ENTER` när utbildningen har identifierats för att gå till utbildningssidan.
 
 ## Genomför en utbildning i Adobe Learning Manager {#consumeatraininginadobecaptivateprime}
 
-1. När en utbildning har identifierats ska du `kbd Tab`eller `kbd Shift + Tab` för att navigera till knappen Registrera dig/Starta. Knappstatus beror på din registreringsstatus för den utbildningen.
+1. När en utbildning har identifierats använder du `kbd Tab` eller `kbd Shift + Tab` för att gå till knappen Registrera/starta. Knappstatus beror på din registreringsstatus för den utbildningen.
 
-1. Träff `kbd ENTER`för att påbörja utbildningen.
+1. Tryck på `kbd ENTER` för att starta utbildningen.
 1. Detta är de kontroller som visas oberoende av innehållstyp:
 
    * Innehållsförteckning
@@ -238,9 +238,9 @@ Använd kommandot `kbd Tab`för att navigera bland elementen på sidan. Använd 
    * DOKUMENTINNEHÅLL - SIDNUMMER, UPPÅT, NEDÅT, ZOOMA IN, ZOOMA UT.
    * eLEARNING - knapp för undertext.
 
-1. Tryck på tangentbordskontroller `kbd Tab`eller `kbd Shift + Tab` för att navigera mellan kontrollerna och träffa `kbd ENTER`för att aktivera/inaktivera en kontroll.
+1. Tryck på tangentbordskontrollerna `kbd Tab` eller `kbd Shift + Tab` för att navigera mellan kontrollerna och tryck på `kbd ENTER` för att aktivera/inaktivera kontroller.
 
-1. För DOKUMENTTYP använder du pilkontroller som `kbd UP/DOWN` för att bläddra igenom dokumentet.
+1. Använd pilkontroller som `kbd UP/DOWN` för att bläddra i dokumentet för dokumenttypen.
 
 ## Tillgänglighetsstöd för specifika behov
 
@@ -250,7 +250,7 @@ Låt oss titta på de tillgänglighetsfunktioner som elever kan använda baserat
 
 * Använd undertexter som är tillgängliga i material som har skapats med Adobe Captivate-utvecklingsverktyget.
 * För videor kan författare koda videorna med text med stängd bildtext. Sådana videor har inbäddade undertexter och kan konsumeras av eleverna.
-* Learning Manager stöder möjligheten att ladda upp WebVTT-filer med stängd bildtext för videoinnehåll. Mer information finns i  [*Överför WebVTT-fil för textning till hörselskadade*](authors/feature-summary/content-library.md#webvtt).
+* Learning Manager stöder möjligheten att ladda upp WebVTT-filer med stängd bildtext för videoinnehåll. Mer information finns i [*Överför WebVTT-fil för textning till hörselskadade*](authors/feature-summary/content-library.md#webvtt).
 
 ### Blinda eller synskadade användare
 
@@ -260,13 +260,13 @@ Låt oss titta på de tillgänglighetsfunktioner som elever kan använda baserat
 
 ### Användare som har problem med färg
 
-Elevrollen Adobe Learning Manager strävar efter att ge användarna ett användargränssnitt som är tydligt och läsbart i enlighet med WCAG 2.1-standarder.
+Adobe Learning Manager elevroll strävar efter att ge användarna ett användargränssnitt som är tydligt och läsbart i enlighet med WCAG 2.1-standarder.
 
-För en bättre upplevelse på elevsidan använder du [Klart tema](/help/migrated/administrators/feature-summary/themes.md).
+Använd temat [Intensiv](/help/migrated/administrators/feature-summary/themes.md) för en bättre upplevelse på elevsidan.
 
 ### Användare med begränsad rörlighet och räckvidd
 
-Adobe Learning Manager fortsätter att fokusera på tillgänglighet och har planer på att förbättra de nuvarande funktionerna så att elever i systemet lättare kan navigera genom elevrollen.
+Adobe Learning Manager fortsätter att fokusera på tillgänglighet och har för avsikt att förbättra de nuvarande funktionerna så att elever i systemet lättare kan navigera genom elevrollen.
 
 ### Stöd för dold textning i videor
 

@@ -19,7 +19,7 @@ Att konfigurera ALM i MS Teams innebär tre steg och kräver hjälp från ALM-ad
 
 **ALM-administratör - integrationsadministratörsrollen godkänner teamappen**
 
-När integreringsadministratören har godkänt MS Teams-appen är Adobe Learning Manager-appen tillgänglig i MS Teams-appbutiken, och eleverna har tillgång till den. Appen kommer dock inte att ha meddelanden, tyst inloggning och appen kommer inte att vara fäst för eleverna i MS Teams.
+När integreringsadministratören har godkänt MS Teams-appen är Adobe Learning Manager-appen tillgänglig i MS Teams-appbutik och eleverna har tillgång till den. Appen kommer dock inte att ha meddelanden, tyst inloggning och appen kommer inte att vara fäst för eleverna i MS Teams.
 
 **Microsoft Azure-administratören godkänner behörigheten för ALM-appen i Azure-instrumentpanelen**
 
@@ -33,12 +33,12 @@ MS Teams-administratören i administrationscentret bör fästa ALM-appen hos all
 
 Följ stegen nedan:
 
-1. I programmet Integreringsadministratör väljer du **[!UICONTROL Applications]** > **[!UICONTROL Featured Apps]** och välj **[!UICONTROL ALM Teams app]**.
+1. I programmet Integreringsadministratör väljer du **[!UICONTROL Applications]** > **[!UICONTROL Featured Apps]** och väljer **[!UICONTROL ALM Teams app]**.
 
    ![](assets/featuredapps.jpg)
    *Välj ALM Teams-app*
 
-1. I det övre högra hörnet på skärmen väljer du **[!UICONTROL Approve]**.
+1. Välj **[!UICONTROL Approve]** längst upp till höger på skärmen.
 
    ![](assets/integration_admin_approval_form.jpg)
    *Välj Godkänn på sidan Programinställningar*
@@ -68,9 +68,9 @@ Följ stegen nedan:
 
    `https://login.microsoftonline.com/<tenantIdTobeReplaced>/oauth2/authorize?client_id=8d349d9f-bf59-4ece-8022-a41e87d81903&response_type=code&redirect_uri=https://learningmanager.adobe.com`
 
-1. I länken ovan ersätter du `<tenantIdTobeReplaced>` med klientorganisations-id:t tillgängligt på sidan Översikt nedan. Ange den nya URL:en.
+1. I länken ovan ersätter du `<tenantIdTobeReplaced>` med det klient-ID som är tillgängligt på sidan Översikt nedan. Ange den nya URL:en.
 
-1. Lägg till Adobe Learning Manager-appen i dina Azure-program.
+1. Lägg till Adobe Learning Manager-programmet i dina Azure-program.
 
    ![](assets/microsoft_azure_dashboard.jpg)
    *Lägg till i Azure*
@@ -85,7 +85,7 @@ Följ stegen nedan:
    ![](assets/microsoft_azure_ALMTeamsNonProdApp.jpg)
    *Visa fliken Behörigheter*
 
-1. Välj på fliken Behörigheter **[!UICONTROL Grant admin consent for MSFT]**&quot; för att ge behörigheter till ALM-teamprogram.
+1. Välj **[!UICONTROL Grant admin consent for MSFT]** på fliken Behörigheter för att ge ALM-teamprogram behörigheter.
 
    ![](assets/microsoft_azure_ALMTeamsNonProdApp_permissions.jpg)
    *Välj behörigheter*
@@ -107,18 +107,18 @@ Följ stegen nedan:
 1. Du som är administratör för MS Teams kan skapa en policy för att lägga till Teams-appen i elevens Teams-app i Admin Center.
 
    ![](assets/microsoft_teams_admin_center.png)
-   *Skapa en profil*
+   *Skapa en policy*
 
-1. Gå till avsnittet Konfigurera principer. Skapa en global profil och välj **[!UICONTROL Add apps]** i underavsnittet Fästa appar.
+1. Gå till avsnittet Konfigurera principer. Skapa en global policy och välj **[!UICONTROL Add apps]** i underavsnittet Fasta program.
 
    ![](assets/microsoft_teams_admin_center_add_installed_apps.png)
    *Lägg till principen*
 
-1. I följande dialogruta söker du efter **[!UICONTROL Adobe Learning Manager]** och lägg till programmet. Då läggs Adobe Learning Manager till i avsnittet Installerade appar.
+1. I dialogrutan som följer söker du efter **[!UICONTROL Adobe Learning Manager]** och lägger till programmet. Detta lägger till Adobe Learning Manager i avsnittet Installerade appar.
 
    ![](assets/microsoft_teams_admin_center_installed_apps.png)
    *Installera appen*
 
 1. Spara principen. Det gör att appen är tillgänglig för alla i organisationen.
 
-Administratörer kan också skapa en anpassad policy i stället för en global policy. Lägg till Adobe Learning Manager till den anpassade policyn och tillämpa sedan den anpassade policyn på endast de användare som behöver få tillgång till Adobe Learning Manager.
+Administratörer kan också skapa en anpassad policy i stället för en global policy. Lägg till Adobe Learning Manager i den anpassade policyn och tillämpa sedan den anpassade policyn på endast de användare som behöver få åtkomst till Adobe Learning Manager.

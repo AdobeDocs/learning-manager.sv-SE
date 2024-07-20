@@ -21,8 +21,8 @@ Med social utbildning kan elever studera var som helst och dela innehåll med si
 
 Gör så här för att aktivera och konfigurera funktionen för social utbildning:
 
-1. Klicka **[!UICONTROL Social Learning]** från den vänstra navigeringspanelen. Du omdirigeras till sidan Aktivitet.
-1. Aktivera **[!UICONTROL Social Learning]** -funktion med hjälp av **[!UICONTROL Enable]** på sidan Aktivitet om du aktiverar den för första gången. Annars kan du aktivera det från **[!UICONTROL Settings]** sidan.
+1. Klicka på **[!UICONTROL Social Learning]** i den vänstra navigeringspanelen. Du omdirigeras till sidan Aktivitet.
+1. Aktivera funktionen **[!UICONTROL Social Learning]** med knappen **[!UICONTROL Enable]** på sidan Aktivitet om du aktiverar den för första gången. Annars kan den aktiveras från sidan **[!UICONTROL Settings]**.
 
    En popup-dialogruta visas som skärmbilden nedan.
 
@@ -32,36 +32,36 @@ Gör så här för att aktivera och konfigurera funktionen för social utbildnin
 
 <!-- ![](assets/enable-social-learningfeatureinsettings.png) ![](assets/enable-social-learningdialog.png)-->
 
-Administratören kan konfigurera inställningar för social utbildning. Inställningarna inkluderar typer av innehållskurvor som **[!UICONTROL Manual-Only Curation]** och **[!UICONTROL No Curation]**. Omfångsinställningarna kan ställas in till ett annat omfång som användartypen (intern/extern) eller andra aktiva fält som finns på kontot. Administratören kan ange URL-sökvägen där eleverna kan hämta Adobe Learning Manager-datorprogrammet.
+Administratören kan konfigurera inställningar för social utbildning. Inställningarna innehåller typer av innehållskurvor som **[!UICONTROL Manual-Only Curation]** och **[!UICONTROL No Curation]**. Omfångsinställningarna kan ställas in till ett annat omfång som användartypen (intern/extern) eller andra aktiva fält som finns på kontot. Administratören kan ange URL-sökvägen där eleverna kan hämta Adobe Learning Manager-datorprogrammet.
 
 ### Kuratering av innehåll {#contentcuration}
 
 Eftersom social utbildning är ett informellt lärande, har den liknande funktioner som andra sociala medieplattformar. Människor tycker ofta att sociala medier är distraherande eftersom de ofta konsumerar irrelevant innehåll som påverkar deras produktivitet. Denna tanke kan tillgodoses genom moderering och kuratering av innehållet.
 
-**[!UICONTROL Manual-Only Curation]** och **[!UICONTROL No Curation]** Det finns två kurateringsalternativ som kan väljas av administratören.
+**[!UICONTROL Manual-Only Curation]** och **[!UICONTROL No Curation]** är två kurateringsalternativ som kan väljas av administratören.
 
-**[!UICONTROL Auto-assisted Manual Curation]:** Learning Manager har en artificiell intelligens-baserad automatisk kurateringsmotor som på ett intelligent sätt kan ta reda på kärnan i innehållet i alla format som senare kan serveras de önskade eleverna. Den kan också godkänna eller avvisa ett innehåll från att publiceras baserat på den angivna förtroendepoängen.
+**[!UICONTROL Auto-assisted Manual Curation]:** Learning Manager har en artificiell intelligens-baserad automatisk kurateringsmotor som på ett intelligent sätt kan ta reda på kärnan i innehållet i alla format som senare kan användas av önskade elever. Den kan också godkänna eller avvisa ett innehåll från att publiceras baserat på den angivna förtroendepoängen.
 
-Exempel: Adarsh är studerande och han har hittat en blogg som är intressant, så han publicerar den på Adobe Learning Manager plattform för socialt lärande. Posten skickas sedan till den AI-baserade Content Curation Engine, som förutser vilka färdigheter som finns i innehållet och jämför dessa färdigheter med motsvarande färdigheter i styrelsen. Om någon av kunskaperna matchar, bokförs innehållet, annars skickas det för manuell urval.
+Adarsh är till exempel elev och tyckte att en blogg var intressant, så han publicerar den på Adobe Learning Manager Social Learning-plattform. Inlägget matas sedan till den AI-drivna Content Curation Engine som förutsäger de färdigheter som finns i innehållet och jämför dessa färdigheter med de tillhörande styrelsekompetenserna. Om någon av kunskaperna matchar läggs innehållet upp på annat sätt så att det skickas för endast manuell kuratering.
 
-Den lägsta konfidensnivå som krävs för publicering är 50 %.
+Minsta konfidenspoäng som krävs för publicering är 50%.
 
-**[!UICONTROL Manual-Only Curation]:** Administratören kan aktivera inställningen Endast manuell kuratering för att kontrollera innehållets äkthet innan det publiceras. När inställningen för enbart manuell kurering är aktiverad går den till de största små och medelstora företagen (högst 3) för kurering. Baserat på det genomsnittliga svaret godkänns/avvisas posten i enlighet med detta. Om svaret är större än 50 procent avvisas inlägget direkt, annars avvisas det. Mer information om små och medelstora företag finns i [klicka här](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs).
+**[!UICONTROL Manual-Only Curation]:** Om du vill kontrollera innehållets äkthet innan det publiceras kan administratören aktivera inställningen för manuell kuratering. När inställningen Endast manuell kuratering har aktiverats går den till de bästa små och medelstora företagen (högst 3) för kuratering. Baserat på det genomsnittliga svaret godkänns/avvisas posten i enlighet med detta. Om svaret är större än 50 procent avvisas inlägget direkt, annars avvisas det. [Klicka här](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs) om du vill ha mer information om små och medelstora företag.
 
 
-I det nya omfånget får han/hon poäng för aktiviteter över flera nivåer.
+I den nya omfattningen får han/hon poäng för aktiviteter över hela linjen.
 
-I den sociala ledaren kan en användare se alla användare i sitt omfång tillsammans med andra användare.
+På de sociala ledartavlorna kan en användare se alla användare inom hans/hennes område tillsammans med speciella användare.
 
-Om du har tilldelats särskilda användarbehörigheter kan du se alla användare på kontot på din ledarkabin, oavsett användarnas omfång.
+Om du har fått särskilda användarbehörigheter kan du se alla användare på kontot på din resultattavla, oavsett användarnas omfång.
 
-Om särskilda användare blir små och medelstora företag genom att få tillräckligt många poäng, visas de i **[!UICONTROL Top Subject Matter Experts]** i den sociala ledarens styrelse.
+Om särskilda användare blir små och medelstora företag genom att få tillräckligt med poäng visas de i listan **[!UICONTROL Top Subject Matter Experts]** på den sociala resultattavlan.
 
 Vänta i 60 minuter för att ändringarna ska börja gälla.
 
 ### Omfångsinställningar {#scopesettings}
 
-I Social utbildning avgör ett omfång vilka tavlor du ser, som styr innehållets synlighet. Om en användare till exempel har ett omfång ***Vendor_A*** kan han eller hon endast se styrelser och tillhörande tjänster som har inrättats av andra som tillhör samma verksamhetsområde ***Vendor_A***.
+I Social utbildning avgör ett omfång vilka tavlor du ser, som styr innehållets synlighet. Om en användare har ett omfång, till exempel ***Vendor_A***, kan användaren bara se tavlor och tillhörande inlägg som har skapats av andra som tillhör samma omfång ***Vendor_A***.
 
 Detta gör att administratörerna kan ha en grupp användare, t.ex. leverantörer, partner eller avdelningar i en separat organisation.
 
@@ -71,15 +71,15 @@ Det finns separata avsnitt för att aktivera interna och externa användare.
 
 **Aktivera för interna elever**
 
-I det här avsnittet kan du välja användarkarakteristik för att definiera omfattningen av social utbildning för interna användare. Användare med samma egenskaper **värdera** dela samma område för social utbildning.
+I det här avsnittet kan du välja användarkarakteristik för att definiera omfattningen av social utbildning för interna användare. Användare med samma egenskaper **värde** delar samma område för social utbildning.
 
-Från **Användaregenskap** Välj önskat alternativ i listrutan.
+Välj önskat alternativ i listrutan **Användaregenskap**.
 
 ![](assets/choose-value-of-usercharacteristic.png)
 
 *Välj användaregenskaperna för att definiera omfånget*
 
-Som standard används alternativet **[!UICONTROL All Internal Users]** I listrutan Användaregenskap väljs alltid alternativet.
+Som standard är alternativet **[!UICONTROL All Internal Users]** i listrutan Användaregenskap alltid markerat.
 
 Du kan ange omfång för interna användare baserat på deras aktiva fält.
 
@@ -89,25 +89,25 @@ Använd en extern profil för att definiera utbildningens omfattning för extern
 
 ![](assets/choose-an-externalprofile.png)
 
-*Aktivera utrymme för externa elever*
+*Aktivera omfång för externa elever*
 
 Omfånget för externa användare baseras på deras externa profiler.
 
-Om du till exempel aktiverar från listan ovan **[!UICONTROL Acme Corp]**, alla elever som tillhör Acme Corp kan se tavlorna som de har skapat. Om du inaktiverar alternativet **Henry Cavill** Eleverna kan inte se någon tavla som har skapats av Henry Cavill.
+Om du till exempel aktiverar **[!UICONTROL Acme Corp]** kan alla elever som tillhör Acme Corp se tavlorna som de har skapat i listan ovan. Om du inaktiverar alternativet **Henry Cavill** kan eleverna inte se någon tavla som har skapats av Henry Cavill.
 
-Administratören kan bestämma synligheten för innehållet baserat på det aktiva fält som visas i **[!UICONTROL User characteristic]** område.
+Administratören kan bestämma synligheten för innehållet baserat på det aktiva fält som visas i fältet **[!UICONTROL User characteristic]**.
 
-Administratören kan till exempel ange omfånget till **[!UICONTROL User Type (Internal/External)]** användare. När omfånget ställs in på Användartyp är det innehåll som delas på den sociala utbildningsplattformen av en intern elev endast synligt för andra interna elever i organisationen och inte för externa användare och omvänt.
+Administratören kan till exempel ange omfattningen till **[!UICONTROL User Type (Internal/External)]** användare. När omfånget ställs in på Användartyp är det innehåll som delas på den sociala utbildningsplattformen av en intern elev endast synligt för andra interna elever i organisationen och inte för externa användare och omvänt.
 
 När en användaregenskap har valts av administratören kan hen begränsa funktionen för social utbildning till elever och elevgrupper genom att markera kryssrutan under fältet Användaregenskap. Klicka på värdefältet för att välja den eller de elevgrupper som du vill aktivera funktionen Social utbildning för.
 
 Som standard anges omfånget av **[!UICONTROL User Type]** som är interna eller externa elever.
 
-Om det aktiva fältet inte innehåller något värde visas **[!UICONTROL Value]** Listrutan med fält är inte synlig för administratören.
+Om det aktiva fältet inte innehåller något värde kommer listrutan **[!UICONTROL Value]** inte att vara synlig för administratören.
 
 <!--![](assets/scope-settings.png) ![](assets/scope-settings1-png.jpg)-->
 
-Användare kan också publicera sitt innehåll med hjälp av Adobe Learning Manager-datorprogrammet. Beroende på om du använder Mac eller Windows kan du klicka på länkarna för att hämta datorprogrammet och följa anvisningarna för att installera det på datorn. Om du har problem med installationen kan du [klicka här](../../kb/troubleshooting-issues-with-adobe-learning-manager-desktop-app.md).
+Användare kan också publicera sitt innehåll med hjälp av Adobe Learning Manager-datorprogrammet. Beroende på om du använder Mac eller Windows kan du klicka på länkarna för att hämta datorprogrammet och följa anvisningarna för att installera det på datorn. [Klicka här](../../kb/troubleshooting-issues-with-adobe-learning-manager-desktop-app.md) om du har installationsproblem.
 
 ### Hämta konfigurationer {#downloadconfigurations}
 
@@ -129,15 +129,15 @@ För att begränsa skapandet av tavlor för alla elever och för att moderera ta
 
 *Ange behörigheter för att skapa en tavla*
 
-Som standard används alternativet **[!UICONTROL All Learners]** har aktiverats.
+Som standard är alternativet **[!UICONTROL All Learners]** aktiverat.
 
 **[!UICONTROL All Learners]:** Om du väljer det här alternativet kan alla interna och externa användare skapa tavlor.
 
-**En grupp elever:** Om du väljer det här alternativet kan bara användare som har behörighet att skapa en tavla se **[!UICONTROL Create New Board]** länk i Social utbildning. Välj den användargrupp som måste ges behörighet att skapa en tavla. Du kan även lägga till både automatiskt genererade och anpassade användargrupper.
+**En grupp elever:** Om du väljer det här alternativet kan bara användare som har behörighet att skapa en tavla se länken **[!UICONTROL Create New Board]** i Social utbildning. Välj den användargrupp som måste ges behörighet att skapa en tavla. Du kan även lägga till både automatiskt genererade och anpassade användargrupper.
 
 <!--![](assets/grant-permissiontoausergroup.png)-->
 
-Användare som delar samma omfång kan bara se tavlan. För användare som inte har behörighet **[!UICONTROL Create New Board]** länken förblir osynlig.
+Användare som delar samma omfång kan bara se tavlan. För användare utan behörighet förblir länken **[!UICONTROL Create New Board]** osynlig.
 
 Vänta i 60 minuter för att ändringarna ska börja gälla.
 
@@ -147,11 +147,11 @@ En administratör kan ge särskilda behörigheter till en användargrupp, med vi
 
 Användargruppen kan antingen genereras automatiskt eller vara anpassad.
 
-En användare som har fått detta privilegium har tillgång till alla tavlor utom **privata tavlor**.
+En användare som har fått det här privilegiet har åtkomst till alla tavlor, förutom **privata tavlor**.
 
 ![](assets/special-users.png)
 
-*Bevilja speciella behörigheter*
+*Bevilja särskilda behörigheter*
 
 När administratören väljer en användargrupp har som standard alla användare i gruppen åtkomst till alla tavlor, oavsett användarens omfång. Alla användare med dessa utökade behörigheter kan visa och delta i alla interna och externa tavlor.
 
@@ -161,22 +161,22 @@ Om användaren inte har de SMF-poäng som krävs, överförs kurateringsbehörig
 
 I den nya omfattningen får han/hon poäng för aktiviteter över hela linjen.
 
-I den sociala ledaren kan en användare se alla användare i sitt omfång tillsammans med andra användare.
+På de sociala ledartavlorna kan en användare se alla användare inom hans/hennes område tillsammans med speciella användare.
 
-Om du har tilldelats särskilda användarbehörigheter kan du se alla användare på kontot på din ledarkabin, oavsett användarnas omfång.
+Om du har fått särskilda användarbehörigheter kan du se alla användare på kontot på din resultattavla, oavsett användarnas omfång.
 
-Om särskilda användare blir små och medelstora företag genom att få tillräckligt många poäng, visas de i **[!UICONTROL Top Subject Matter Experts]** i den sociala ledarens styrelse.
+Om särskilda användare blir små och medelstora företag genom att få tillräckligt med poäng visas de i listan **[!UICONTROL Top Subject Matter Experts]** på den sociala resultattavlan.
 
 Vänta i 60 minuter för att ändringarna ska börja gälla.
 
 ### Anpassa den sociala banderollen {#customize-social-banner}
 
-Administratören kan anpassa rubriken och underrubriken som visas på rubrikbilden på startsidan för Social Learning. Oavsett vad administratören bestämmer sig för att ange som titel och undertitel finns samma funktioner på elevens hemsida för social inlärning.
+Administratören kan anpassa titeln och undertiteln som visas i rubrikbilden på Social Learning-startsidan. Oavsett vad administratören bestämmer sig för att ange som titel och undertitel finns samma funktioner på elevens startsida för social utbildning.
 
-1. I appen Admin klickar du på **[!UICONTROL Social Learning]** > **[!UICONTROL Settings]**.
+1. Klicka på **[!UICONTROL Social Learning]** > **[!UICONTROL Settings]** i Admin-appen.
 1. Klicka på **[!UICONTROL Customize]**.
-1. Ändra banderollbilden. Bildens mått måste vara minst **1600 px x x 240 px**.
-1. Växla alternativ för att dölja eller visa **[!UICONTROL Know More]** på banderollen.
+1. Ändra banderollbilden. Bildens mått måste vara minst **1600 px X 240 px**.
+1. Växla alternativet för att dölja eller visa länken **[!UICONTROL Know More]** på banderollen.
 1. Ange rubriken och underrubriken i fälten som anges nedan:
 
    ![](assets/image012.png)
@@ -185,9 +185,9 @@ Administratören kan anpassa rubriken och underrubriken som visas på rubrikbild
 
 Det finns några andra alternativ:
 
-* **[!UICONTROL Language]:** I listrutan väljer du vilket språk titeln och undertiteln ska översättas till. Du kan också lägga till anpassad text för olika språk.
-* **[!UICONTROL Replicate]:** Med denna kommandoknapp upprepas överskriften och underrubriken över alla språk.
-* **[!UICONTROL Reset]:** Klicka på den här kommandoknappen om du vill återställa de ursprungliga titlarna och underrubrikerna.
+* **[!UICONTROL Language]:** Välj vilket språk rubriken och underrubriken ska översättas till i listrutan. Du kan också lägga till anpassad text för olika språk.
+* **[!UICONTROL Replicate]:** Klicka på den här knappen för att replikera titel och underrubrik på alla språk.
+* **[!UICONTROL Reset]:** Klicka på den här knappen om du vill återgå till den ursprungliga titeln och undertiteln.
 
   På startsidan för Social utbildning visas informationen från administratören som sidhuvud.
 
@@ -215,13 +215,13 @@ I automatiskt urval kan följande typer av innehåll användas:
 
 En administratör kan aktivera alternativet att välja ut innehåll automatiskt inifrån Administratörsappen.
 
-1. I den vänstra rutan i Admin-programmet klickar du på **[!UICONTROL Social Learning]**.
-1. På sidan klickar du på fliken **[!UICONTROL Settings]**.
+1. Klicka på **[!UICONTROL Social Learning]** i den vänstra rutan i Admin-programmet.
+1. Klicka på fliken **[!UICONTROL Settings]** på sidan.
 1. Aktivera alternativet **[!UICONTROL Auto-assisted Manual Curation]**.
 
    ![](assets/auto-curation.png)
 
-   *Välj alternativet Automatiskt assisterad manuell kuratering*
+   *Välj alternativet Automatisk handledning*
 
 När en användare överför ett innehåll på en tavla, skrapar en AI-baserad algoritm texten från innehållet och texten överförs sedan till kurateringsmotorn. Kurateringsmotorn försöker hitta de färdigheter som finns i innehållet.
 
@@ -231,11 +231,11 @@ När ett innehåll kurateras automatiskt får användaren ett meddelande om att 
 
 ![](assets/only-ai-based.png)
 
-*Flödesschema över kurateringsinställningar*
+*Flödesschema med kurateringsinställningar*
 
-Vi rekommenderar att administratören lägger till små och medelstora företag för färdigheter om kuratering endast manuellt är PÅ. Administratören kan lägga till små och medelstora företag genom att i förväg ge små och medelstora företag poäng till användare som har expertis på området. För att få veta mer om hur man kan ge poäng till små och medelstora företag,  [klicka här](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs).
+Vi rekommenderar att administratören lägger till små och medelstora företag för färdigheter om kuratering endast manuellt är PÅ. Administratören kan lägga till små och medelstora företag genom att i förväg ge små och medelstora företag poäng till användare som har expertis på området. [Klicka här](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs) om du vill veta mer om hur du ger poäng till små och medelstora företag.
 
-**Ingen kuratering:** Alla elevinlägg publiceras automatiskt utan någon innehållsmoderering.
+**Inget kurateringsnummer:** Alla elevens inlägg publiceras automatiskt utan någon innehållsmoderering.
 
 <!--![](assets/artboard-6-2x.png)-->
 
@@ -263,18 +263,18 @@ Om tavlans moderatorer inte svarar godkänns förfrågan automatiskt.
 
 Om den efter en dag inte når upp till 50 % skickas den till nästa grupp små och medelstora företag och upphör att gälla de tidigare obesvarade kurateringsansökningarna.
 
-Till exempel, På den första dagen skickas kurateringsbegäran till tre små och medelstora företag, och ett av dem godkänner den, två av dem svarade inte. Nästa dag går begäran om kuratering till nästa grupp med tre små och medelstora företag. På den här nivån finns det nu totalt fyra aktiva små och medelstora företag. Minst två SEM måste godkänna det för att kurateringen ska godkännas.(Om 2 godkänner och 2 avvisar, kommer det som når de första 50 procenten att tas.)
+Till exempel, På den första dagen skickas kurateringsbegäran till tre små och medelstora företag, och ett av dem godkänner den, två av dem svarade inte. Nästa dag går begäran om kuratering till nästa grupp med tre små och medelstora företag. På den här nivån finns det nu totalt fyra aktiva små och medelstora företag. Minst två SEM måste godkänna det för att kurateringen ska godkännas.(Om 2 godkänner och 2 avvisar, kommer det som når först 50% att tas.)
 
 +++
 
-+++Från vad jag ser är en moderator endast tilldelad (och är inte obligatoriskt) när någon skapar en ny styrelse - Hur är det till för en elev att tilldela en moderator till en styrelse om små och medelstora företag tilldelas den kompetens som en styrelse är kopplad till?
++++Från vad jag ser en &quot;moderator&quot; tilldelas endast (och det är inte obligatoriskt) när någon skapar en ny tavla - Vad är nyttan för en elev att tilldela en &quot;moderator&quot; till en tavla om små och medelstora företag kommer att tilldelas den kompetens som en styrelse är kopplad till?
 
-Följande är ansvarsområden för en moderator för styrelsen:
+Följande ansvar har en moderator för socialnämnden:
 
-* Möjlighet att redigera styrelsens namn, beskrivning, synlighetsinställningar och annan konfiguration.
+* Möjlighet att redigera kortnamn, beskrivning, inställningar för kortsynlighet och annan konfiguration.
 * Möjlighet att radera ett inlägg på tavlan om inlägget inte är lämpligt för publiken.
 * Moderator får meddelanden om att rapportera missbruk för tavlan.
-* Moderatorn får kurationsförfrågningar om inget litet eller medelstort företag finns närvarande i styrelsen.
+* Moderator får begäran om kuratering om inget litet eller medelstort företag är närvarande för styrelsen.
 
 +++
 
@@ -286,9 +286,9 @@ Små och medelstora företag läggs till/tilldelas baserat på kompetens, inte k
 
 +++Vad är skillnaden mellan en &quot;moderator&quot; för social utbildning och ett &quot;litet eller medelstort företag&quot; för social utbildning?
 
-**Moderatorer:** Sekundära ägare av styrelsen. De läggs till av skaparna medan styrelsen skapande av tavlan så att de kan styra tavlan i frånvaro av kreatör. Som standard är det moderatorn som skapar tavlan.
+**Moderatorer:** Sekundära ägare av tavlan. De läggs till av skaparna medan styrelsen skapande av tavlan så att de kan styra tavlan i frånvaro av kreatör. Som standard är det moderatorn som skapar tavlan.
 
-**SMF:** Ämnesområdesexperter är experter på särskilda färdigheter. Administratörer kan tilldela små och medelstora företag en viss kompetens för att välja ut innehåll för den kompetensen. Små och medelstora företag får ta emot kurateringsförfrågningar för styrelser som är kopplade till deras kompetens. Elever kan också bli små och medelstora företag genom att få poäng för små och medelstora företag.
+**Små och medelstora företag:** Ämnesämnesexperter är experter på specifika färdigheter. Administratörer kan tilldela små och medelstora företag en viss kompetens för att välja ut innehåll för den kompetensen. Små och medelstora företag får ta emot kurateringsförfrågningar för styrelser som är kopplade till deras kompetens. Elever kan också bli små och medelstora företag genom att få poäng för små och medelstora företag.
 
 +++
 
@@ -395,7 +395,7 @@ Administratören kan visa aktivitetspoäng, antal inlägg, anslagstavlor, använ
 
 ## Kompetensdomän {#skilldomain}
 
-Baserat på de färdigheter som främst används av slutanvändare av Learning Manager har Adobe Learning Manager kategoriserat en lista med 25 kompetensdomäner som används i det automatiska kurateringssystemet för att välja ut innehåll. Administratören måste mappa de konfigurerade företagskunskaperna till de kompetensdomäner som tillhandahålls av Prime. Mappningen av färdigheter kan göras från sidan Administratörskunskaper när du skapar en kompetens eller genom att ändra en befintlig kompetens. För mer information om hur du kartlägger eller lägger till en kompetens, [klicka här](skills-levels.md#Createaskillandalevel).
+Baserat på de färdigheter som främst används av slutanvändare av Learning Manager har Adobe Learning Manager kategoriserat en lista med 25 kompetensdomäner som används i det automatiska kurateringssystemet för att välja ut innehåll. Administratören måste mappa de konfigurerade företagskunskaperna till de kompetensdomäner som tillhandahålls av Prime. Mappningen av färdigheter kan göras från sidan Administratörskunskaper när du skapar en kompetens eller genom att ändra en befintlig kompetens. [Klicka här](skills-levels.md#Createaskillandalevel) om du vill ha mer information om hur du kartlägger eller lägger till en kompetens.
 
 +++Lista över kompetensdomäner som används av kurateringssystemet för Learning Manager
 
@@ -429,7 +429,7 @@ Baserat på de färdigheter som främst används av slutanvändare av Learning M
 
 ## Ämnesområdesexperter (SMF) {#subjectmatterexpertssmes}
 
-**Ämnesområdesexperter** är människor som har en betydande kunskap och expertis i en färdighet. en **SMF** spelar en viktig roll för social utbildning när administratören har angett kurateringsinställningarna som manuella eller när metoden för automatisk kuratering inte kan kuratera innehållet. Endast de tre översta små och medelstora företagen visas i kolumnen Små och medelstora företag.
+**Ämnesområdesexperter** är personer som har stor kunskap och expertis i en kompetens. Ett **litet eller medelstort företag** spelar en viktig roll för social utbildning när administratören har angett kurateringsinställningarna som manuella eller när automatisk kuratering inte kan kuratera innehållet. Endast de tre översta små och medelstora företagen visas i kolumnen Små och medelstora företag.
 
 ## Krav på små och medelstora företag {#requirementstobeansme}
 
@@ -439,19 +439,19 @@ Små och medelstora företag kan endast få status genom att få poäng för sm�
 
 Följ de här stegen om du vill lägga till små och medelstora företag i en kompetens:
 
-1. Klicka **[!UICONTROL Add SMEs]** eller **[!UICONTROL Modify SMEs]**.
+1. Klicka på **[!UICONTROL Add SMEs]** eller **[!UICONTROL Modify SMEs]**.
 
    ![](assets/add-smes-06.png)
 
    *Lägg till eller ändra SME*
 
-1. Klicka **[!UICONTROL Advanced Options]** i dialogrutan.
+1. Klicka på **[!UICONTROL Advanced Options]** i popup-dialogrutan.
 
    ![](assets/advanced-optionssmes.png)
 
-   *Dialogrutan Visa avancerade alternativ*
+   *Visa dialogrutan Avancerade alternativ*
 
-1. Sök efter användaren med kunskap om kompetensen. När användaren har hittats anger du det antal poäng du vill ge honom eller henne i rutan **Lägg till punkter** inmatningsruta.
+1. Sök efter användaren med kunskap om kompetensen. När användaren har hittats anger du antalet poäng du vill ge honom eller henne i inmatningsrutan **Lägg till punkter**.
 
    Om användaren redan har poäng läggs antalet nya poäng som användaren får till det aktuella antalet poäng.
 
@@ -461,15 +461,15 @@ Följ de här stegen om du vill lägga till små och medelstora företag i en ko
 
    *Lägg till poäng för en användare*
 
-1. Genom att **[!UICONTROL Enable Minimum SME Points]** kan du ange en gräns för hur många poäng en användare måste få för att visas som ett litet eller medelstort företag i listan Främsta små och medelstora företag. När tröskelvärdet väl har fastställts är små och medelstora företag med poäng som är mindre än eller lika med det lägsta poängvärdet inte med i förteckningen över små och medelstora företag.
+1. Genom att markera kryssrutan **[!UICONTROL Enable Minimum SME Points]** kan du ange en gräns för det minsta antalet poäng som en användare måste visa som ett litet eller medelstort företag i listan över de största små och medelstora företagen. När tröskelvärdet väl har fastställts är små och medelstora företag med poäng som är mindre än eller lika med det lägsta poängvärdet inte med i förteckningen över små och medelstora företag.
 
-   Om **[!UICONTROL Enable Minimum SME Points]** Om kryssrutan inte är markerad betraktas de tre översta användarna med de högsta poängen som små och medelstora företag för den särskilda kompetensen.
+   Om kryssrutan **[!UICONTROL Enable Minimum SME Points]** inte markeras kommer de tre översta användarna med de högsta poängen att betraktas som små och medelstora företag för just den kompetensen.
 
-1. Klicka **[!UICONTROL Save]** för att visa de ändringar som har gjorts.
+1. Klicka på knappen **[!UICONTROL Save]** om du vill visa ändringarna.
 
 ## SMF-punktsystem {#smepointsystem}
 
-**Små och medelstora företag tilldelas poäng på grundval av följande:**
+**Små och medelstora företag tilldelas poäng baserat på följande:**
 
 * 2 poäng ges till en användare varje gång en annan användare stödjer ett inlägg som skapats av honom / henne.
 * 2 poäng ges till en användare varje gång en annan användare uppdaterar sin kommentar.
@@ -478,19 +478,19 @@ Följ de här stegen om du vill lägga till små och medelstora företag i en ko
 
 ## Statuspoäng för små och medelstora företag baserat på kurateringsaktivitet {#smestatuspointsbasedoncurationactivity}
 
-**Små och medelstora företag tilldelas ett antal poäng som också baseras på kurateringsverksamhet för följande:**
+**Små och medelstora företag tilldelas ett antal poäng som också baseras på kurateringsaktiviteter för följande:**
 
 * När ett inlägg skickas för manuell kuratering eftersom den automatiska kurateringen inte är säker på om innehållet är relevant eller inte, får SME 5 poäng vid inlämning av moderering.
 
 ## Sociala aktiviteter för månatligt aktiva användare, faktureringsplan {#socialactivitiesformonthlyactiveusersbillingplan}
 
-Varje gång en användare skapar en ny social tavla, sociala inlägg eller sociala kommentarer, skulle det räknas som giltig aktivitet som räknas mot den **Användare med månatlig aktivering**(MAU) om kontot följer MAU:s faktureringsmodell. Mer information finns i [faktureringshantering](billing-management.md).
+Varje gång en användare skapar en ny anslagstavla för sociala medier, inlägg på sociala medier eller en social kommentar räknas den som giltig aktivitet som räknas av från MAU-planen (**Monthly Activation User**) om kontot följer MAU-faktureringsmodellen. Mer information finns i [faktureringshantering](billing-management.md).
 
 ## Vanliga frågor {#frequentlyaskedquestions}
 
 +++Hur möjliggör man social inlärning för externa elever?
 
-in **[!UICONTROL Social Learning]** > **[!UICONTROL Settings]**, i avsnittet Omfångsinställningar, aktivera alternativet **[!UICONTROL Enable for External learners]**. I listrutan väljer du en extern profil och definierar utbildningens omfattning för den profilen.
+Aktivera alternativet **[!UICONTROL Enable for External learners]** i avsnittet Omfångsinställningar i **[!UICONTROL Social Learning]** > **[!UICONTROL Settings]**. I listrutan väljer du en extern profil och definierar utbildningens omfattning för den profilen.
 
 ![](assets/social-scope-external-users.png)
 

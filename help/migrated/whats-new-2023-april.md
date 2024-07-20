@@ -2,7 +2,8 @@
 title: Nyheter i den här versionen (april 2023)
 description: Läs om de nya funktionerna och förbättringarna i Adobe Learning Manager
 hidefromtoc: true
-source-git-commit: 1da0911a4d0c2ae5cb01bbb2b7955675b0dfcdde
+exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '3158'
 ht-degree: 0%
@@ -13,9 +14,9 @@ ht-degree: 0%
 
 ## Adobe Learning Manager-app för Microsoft Teams
 
-Den nya Adobe Learning Manager-appen på Microsoft Teams är utformad för att främja lärande i arbetsflödet och öka inlärningen i samhället. Elever kommer att kunna komma åt utbildningsinnehåll inom plattformen Microsoft Teams utan att behöva växla till en webbläsare. Kontakta din CSAM för betaversionen av Adobe Learning Manager-appen på MS Teams.
+Den nya Adobe Learning Manager-appen på Microsoft Teams är utformad för att främja lärande i arbetsflödet och öka inlärningen i samhället. Elever kommer att kunna komma åt utbildningsinnehåll inom plattformen Microsoft Teams utan att behöva växla till en webbläsare. Kontakta din CSAM för betaversionen av Adobe Learning Manager-programmet på MS Teams.
 
-Mer information finns i [Adobe Learning Manager-app för Microsoft Teams](/help/migrated/adobe-learning-manager-app-microsoft-teams.md).
+Mer information finns i [Adobe Learning Manager-appen för Microsoft Teams](/help/migrated/adobe-learning-manager-app-microsoft-teams.md).
 
 ## Förbättringar av lärarledd utbildning (ILT)
 
@@ -26,7 +27,7 @@ Flera förbättringar har gjorts av lärarledd utbildning (ILT). Viktiga förbä
 * På sidan Kompetenser i appen Admin kan du överföra mappning av kompetensinstruktör.
 * På sidan Kompetenser finns en ny kolumn, Instruktörer. Kolumnen visar antalet instruktörer i förhållande till kompetensen. Om du klickar på siffran i kolumnen Instruktörer omdirigeras du till ett popup-fönster som visar antalet instruktörer som har tilldelats en kompetens.
 
-Mer information finns i [Tilldela kunskaper till instruktörer](/help/migrated/administrators/feature-summary/skills-levels.md#assign-skills-to-instructors).
+Mer information finns i [Tilldela kompetenser till instruktörer](/help/migrated/administrators/feature-summary/skills-levels.md#assign-skills-to-instructors).
 
 ![Instruktörs-CSV](assets/instructor-csv-new.png)
 
@@ -40,7 +41,7 @@ Mer information finns i [Schemaläggningsassistenten](/help/migrated/authors/fea
 
 ## Ny Adobe Learning Manager-mobilapp
 
-En helt ny mobilapp för Adobe Learning Manager för Android och iOS som ger elever smidig tillgång till utbildning var de än befinner sig. Appen gör det möjligt för elever att delta i utbildning på sina mobila enheter och återuppta den senare på sina datorer. Med stöd för aviseringar, filöverföringar, enkel bokmärkning och delning av utbildningsinnehåll, social utbildning med mera ger mobilappen eleverna extra flexibilitet och stöder just-in-time-utbildning.
+En helt ny Adobe Learning Manager-mobilapp för Android och iOS som ger elever smidig tillgång till utbildning var de än är. Appen gör det möjligt för elever att delta i utbildning på sina mobila enheter och återuppta den senare på sina datorer. Med stöd för aviseringar, filöverföringar, enkel bokmärkning och delning av utbildningsinnehåll, social utbildning med mera ger mobilappen eleverna extra flexibilitet och stöder just-in-time-utbildning.
 
 ![Ny gränssnittsbild för mobilkarta](assets/mobile-app.png)
 
@@ -56,7 +57,7 @@ Den nya mobilappen stöder följande viktiga funktioner i den här versionen:
 * Möjlighet att sortera och filtrera utbildningsobjekt på sidorna Katalog/Min utbildning
 * Möjlighet att bokmärka utbildningsobjekt (LO:er) - bokmärkta LO:er kommer att finnas tillgängliga i avsnittet &quot;Sparat av mig&quot; på elevens startsida.
 * Stöd för förbättrade LP-skivor
-* Möjlighet att ändra mobilgränssnittsspråket till ett språk som stöds av Adobe Learning Manager.
+* Möjlighet att ändra språk för mobilgränssnittet till något av de språk som stöds av Adobe Learning Manager.
 * Stöd för filuppladdning i externa certifieringar, CR/VC-sessioner och aktivitetsmoduler.
 * Möjlighet att skicka feedback om L1-kursen i appen.
 * Stöd för djuplänkar.
@@ -72,11 +73,11 @@ Den nya mobilappen stöder följande viktiga funktioner i den här versionen:
 * Du kan inte lägga till kompetenser på kompetenssidan i programmet.
 * Tar kurser offline.
 
-Mer information finns i [Mobilappen Adobe Learning Manager](/help/migrated/learners/feature-summary/ipad-android-tablet-users.md).
+Mer information finns i [Adobe Learning Manager-mobilappen](/help/migrated/learners/feature-summary/ipad-android-tablet-users.md).
 
 ## Använd valfri QR-kodskanningsapp för att skanna QR-koder för Learning Manager
 
-Adobe Learning Manager stöder nu ett mer användarintuitivt sätt att skanna QR-koder med hjälp av den inbyggda kameraappen utan att behöva hämta ett program som skannar en QR-kod.
+Adobe Learning Manager har nu stöd för ett mer användarintuitivt sätt att skanna QR-koder med hjälp av den inbyggda kameraappen utan att behöva hämta ett program som skannar en QR-kod.
 
 För att stödja det tidigare arbetsflödet, där du kunde skanna en QR-kod med ALM-appens meny, har vi i den här versionen tillhandahållit information om hur du byter till det nya arbetsflödet.
 
@@ -88,7 +89,7 @@ I den här versionen har vi uppdaterat rekommendationsremsan från en organisati
 
 Administratörer kan rikta vissa kurser eller utbildningar till elever baserat på elevernas profiler. Eleverna kan sedan söka efter kurser baserat på profilen de ingår i.
 
-**Vad har förändrats**
+**Vad har ändrats**
 
 Det finns ett alternativ på meddelandesidan som visar en elev varför denna kurs eller utbildning rekommenderades till dem.
 
@@ -103,7 +104,7 @@ Administratören har ett nytt alternativ som heter Grupper i Inställningar > Vi
 | Alternativet Grupper är aktiverat | <ul><li> Visar användargruppen på panelen tillsammans med länken till katalogsidan.</li><li> Användargruppen visas i katalogfiltret.</li></ul> | <ul><li>Namnet på användargruppen visas inte på panelen.</li><li>Användargruppen visas inte i katalogfiltret.</li></ul> |
 | Alternativet Grupper är inaktiverat | <ul><li>Visar namnet på användargruppen på kurspanelen som oformaterad text.</li><li>Användargruppen visas inte i katalogfiltret.</li></ul> | <ul><li>Kurspanelen visar inte texten eller namnet på användargruppen.</li><li>Användargruppen visas inte i katalogfiltret.</li></ul> |
 
-**Så här fungerar det**
+**Så fungerar det**
 
 Administratören skapar ett meddelande genom att lägga till kursen för valfri användargrupp och publicerar det.
 
@@ -123,7 +124,7 @@ Ibland vill du att en elev filtrerar en session i kalendern baserat på plats. E
 
 ![Lägg till klassrumsplatser](assets/add-classroom-locations.png)
 
-Mer information finns i [Lägg till klassrumsplatser](/help/migrated/administrators/feature-summary/settings.md#classroom-locations).
+Mer information finns i [Lägga till klassrumsplatser](/help/migrated/administrators/feature-summary/settings.md#classroom-locations).
 
 ### Kalenderwidget
 
@@ -133,9 +134,9 @@ En elev kan filtrera sessioner som har tilldelats dig efter plats. Gå till kale
 
 ![Sessioner i kalendern utan filter](assets/sessions-on-calendar-no-filters.png)
 
-![Filter tillämpade på platser](assets/location-filter-applied.png)
+![Filter tillämpas på platser](assets/location-filter-applied.png)
 
-![Sessioner i kalendern med platsfilter tillämpade](assets/session-with-location-filters-applied.png)
+![Sessioner i kalendern med tillämpade platsfilter](assets/session-with-location-filters-applied.png)
 
 Utbildningsplatsen visas nu på sidan Kursöversikt om platsen läggs till av författaren när kursen skapas.
 
@@ -221,7 +222,7 @@ En administratör kan växla instanserna för elever.
 
 ![växla instanser](assets/switch-instances.png)
 
-![växla instanser välj](assets/switch-instances-select.png)
+![byt instans välj](assets/switch-instances-select.png)
 
 Du kan inte växla instanser förrän någon instans av kursen har slutförts från eleven eller administratörsappen.
 
@@ -245,17 +246,17 @@ Efter att ha registrerat sig till utbildningsvägen eller certifieringen kan de 
 
 Verifieringskedjan för användare samlar information om elever som växlade instanser, &quot;från instans&quot; till &quot;instans&quot;, växlade efter tid, datum osv.
 
-![Visa rapport över verifieringskedja för användare](assets/user-audit-trail.png)
+![Visa rapport över granskningsspår för användare](assets/user-audit-trail.png)
 
-Mer information finns i [Verifieringskedjan för användare - rapport](/help/migrated/administrators/feature-summary/reports.md#useraudittrailreports).
+Mer information finns i [Rapport om granskningsspår för användare](/help/migrated/administrators/feature-summary/reports.md#useraudittrailreports).
 
 ### Rapport över instruktörsanvändning
 
 Den här rapporten visar den tid (i minuter) som en instruktör tilldelar sessioner varje dag. Rapporten kan laddas ned under tre månader från det valda startdatumet.
 
-Mer information finns i [Rapport över instruktörsanvändning](/help/migrated/administrators/feature-summary/reports.md#instructor-utilization-report).
+Mer information finns i [Rapport om instruktörsanvändning](/help/migrated/administrators/feature-summary/reports.md#instructor-utilization-report).
 
-![instruktörsanvändningsrapport](assets/instructor-utilization.png)
+![Instruktörsutnyttjanderapport](assets/instructor-utilization.png)
 
 ### Rapport om arbetsstöd
 
@@ -387,7 +388,7 @@ generateInstructorUtilisationReport-svar:
 } 
 ```
 
-Mer information finns i [API-referensdokument](https://captivateprime.adobe.com/docs/primeapi/v2/).
+Mer information finns i [API-referensdokumentet](https://captivateprime.adobe.com/docs/primeapi/v2/).
 
 ### Byte av elevinstans
 
@@ -417,17 +418,17 @@ Följande attribut ska läggas till:
 * InstructorSkills
 * InstructorSkillLevel
 
-**Slutpunkt**: GET /primeapi/v2/account /&lt;account_id>/instruktörskompetens/search
+**Slutpunkt**: GET /primeapi/v2/account /&lt;account_id>/Instructorskills/search
 
 ### ILT-ändringar
 
 | Beskrivning | Ny parameter/nytt svar | Slutpunkt |
 |--- |--- |--- |
 | Lista alla städer | filter.cityName=true/false | GET /primeapi/v2/data |
-| Sök efter och filtrera städer | filter.cityName=city_name<br>Har även stöd för en kommaavgränsad lista med städer |
+| Sök efter och filtrera städer | filter.cityName=city_name<br>Stöder även en kommaavgränsad lista med städer |
 | GET /primeapi/v2/search |
-| Information om returrum | include=room | GET /primeapi/v2/users/`<id>`/kalender |
-| Utbildningsobjekt för att filtrera städer | filter.cityName=city_name <br> Det finns även stöd för en kommaavgränsad lista med städer. | GET /primeapi/v2/learningObjects |
+| Information om returrum | include=room | GET /primeapi/v2/users/`<id>`/calendar |
+| Utbildningsobjekt för att filtrera städer | filter.cityName=city_name <br> har också stöd för en kommaavgränsad lista med städer. | GET /primeapi/v2/learningObjects |
 | Lägg till stadspanel | Svaret innehåller ett nytt attribut, filterPanelSetting=true/false. | GET /primeapi/v2/account |
 
 ### Elevsessioner som har en konflikt
@@ -461,7 +462,7 @@ En ny frågeparameter, filter.allSessions=false, för kalender-API:t. Standardv�
 
 ### Sökhistorik för elev
 
-**Search**
+**Sök**
 
 En ny frågeparameter, persistsSearchHistory. Standardvärdet är true, som behåller frågan om sökförslagen.
 
@@ -492,7 +493,7 @@ Du kan lägga till och ta bort externa användare till och från anpassade grupp
 
 POST /userGroups/{id}/users
 
-**Text**
+**Brödtext**
 
 ```javascript {line-numbers="true"}
 "data": [ 
@@ -507,7 +508,7 @@ POST /userGroups/{id}/users
 
 DELETE /userGroups/{id}/users
 
-**Text**
+**Brödtext**
 
 ```javascript {line-numbers="true"}
 "data": [  
@@ -520,7 +521,7 @@ DELETE /userGroups/{id}/users
 
 ### Meddelandeanvändargruppsfiltrering för förluster i elevappen
 
-* GETEN /användare/{userId}API:t för /userGroups har en ny parameter, filter.announcementGroupsOnly, som tar ett booleskt värde (true/false). Detta filtrerar endast användargrupper som administratören meddelar. Standardvärdet för den här parametern är false.
+* API:t GET /users/{userId}/userGroups har en ny parameter, filter.announcementGroupsOnly, som tar ett booleskt värde (true/false). Detta filtrerar endast användargrupper som administratören meddelar. Standardvärdet för den här parametern är false.
 * GET /learningObjects API har en ny parameter, filter.announcementGroups, som accepterar meddelandegrupp-ID:n för att filtrera resultat.
 * API:t för GET/sökning har en ny parameter, filter.announcementGroups, som accepterar meddelandegrupp-ID:n för att filtrera resultat.
 
@@ -635,7 +636,7 @@ Mer information om aktuella och tidigare versioner av Learning Manager-webbappen
 
 ## Felkorrigeringar
 
-Om du vill se de fel som är åtgärdade i den här uppdateringen, se [Buggar i fast lista](release-note/release-notes.md#bugs-fixed-in-this-release).
+Mer information om de fel som har åtgärdats i den här uppdateringen finns i listan över [korrigerade fel](release-note/release-notes.md#bugs-fixed-in-this-release).
 
 ## Systemkrav
 

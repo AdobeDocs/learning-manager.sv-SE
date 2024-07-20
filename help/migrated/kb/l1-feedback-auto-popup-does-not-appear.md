@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Automatiska popup-fönster för L1-feedback visas inte
 description: Så här löser du felet "L1-feedback automatisk popup visas inte"
 contentowner: saghosh
-source-git-commit: ec79aa3dd6225cc424721afb50702963c1b125eb
+exl-id: 47edcd7f-e332-4a75-a025-fd07737d0b70
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 0%
 
 ---
-
-
 
 # Automatiska popup-fönster för L1-feedback visas inte
 
@@ -34,8 +33,8 @@ Detta kan bero på följande:
 
 ## Upplösning
 
-1. Se till att alternativet &quot;Visa frågeformuläret omedelbart efter att kursen har slutförts&quot; är aktiverat i **Kurs** > **Instanser** > **Feedback om L1**.
+1. Se till att alternativet Visa frågeformuläret omedelbart efter att kursen har slutförts är aktiverat i **Kurs** > **Instanser** > **L1-feedback**.
    <!--![](assets/l1-feedback.png)-->
-1. Som administratör går du till **Inställningar > Feedback**. Kontrollera när påminnelsen har schemalagts. Om det är inplanerat **Efter kurs** slutförande, ändra alternativet till **På kurs** slutförande.
-1. Aktivera följande e-postmallar: **E-postmallar > Påminnelser och uppdateringar > Be eleven om feedback på kursen**. Om alternativet är inaktiverat ska du aktivera det och sedan testa.
+1. Som administratör går du till **Inställningar > Feedback**. Kontrollera när påminnelsen har schemalagts. Om det är schemalagt till **Efter att kursen** har slutförts ändrar du alternativet till **På kurs** slutförande.
+1. Aktivera följande e-postmallar: **E-postmallar > Påminnelser och uppdateringar > Begär feedback från elev för kurs**. Om alternativet är inaktiverat ska du aktivera det och sedan testa.
 1. Om stegen ovan inte fungerar tar du bort påminnelsen i **Admin > Inställningar > Feedback**. Skapa ett för Vid slutförande av kurs och ställ in upprepningen enligt kravet.

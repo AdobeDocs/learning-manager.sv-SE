@@ -3,14 +3,13 @@ description: Läs den här artikeln och lär dig hantera moduler som instruktör
 jcr-language: en_us
 title: Moduler
 contentowner: shhivkum
-source-git-commit: 2317aa899a82abe24d38c4e40a06df3646fde310
+exl-id: b81e7ee4-b25f-498d-a780-3ef897f38268
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 0%
 
 ---
-
-
 
 # Moduler
 
@@ -70,7 +69,7 @@ Instruktörer kan ladda upp resursfiler som uppdragsfiler eller presentationer f
 
 ## Inlämning av fil för aktivitetsmoduler {#filesubmissionforactivitymodules}
 
-Aktivitetsmodulen stöder arbetsflödet för inlämning av filer. Skapa som författare en aktivitetsmodul och välj  **[!UICONTROL File Submission]** alternativ. Detta ger eleverna möjlighet att skicka en fil.
+Aktivitetsmodulen stöder arbetsflödet för inlämning av filer. Skapa en aktivitetsmodul som författare och välj alternativet **[!UICONTROL File Submission]**. Detta ger eleverna möjlighet att skicka en fil.
 
 Dessa filer kan godkännas/avslås av modulens instruktörer. Modulen slutförs inte förrän instruktören har godkänt inskickningen.
 
@@ -79,14 +78,14 @@ Dessa filer kan godkännas/avslås av modulens instruktörer. Modulen slutförs 
 
 ## Modulen Utvärdera checklista {#evaluate-checklist-module}
 
-När eleven har gått kursen ser instruktören checklistmodulen på sidan Inlämningar/Checklistor i **Moduler**-sektionen. Den här sidan innehåller alla aktivitetschecklistmoduler tillsammans med aktivitetsinlämningsmoduler som ska granskas. För varje modul visas antalet elever för vilka utvärderingen ska göras.
+När eleven har gått kursen ser instruktören checklistmodulen på sidan Submissions/Checklists i avsnittet **Moduler**. Den här sidan innehåller alla aktivitetschecklistmoduler tillsammans med aktivitetsinlämningsmoduler som ska granskas. För varje modul visas antalet elever för vilka utvärderingen ska göras.
 
-På sidan nedan kan du visa moduler av typen **Ansökan** och **Checklista**. I det här exemplet använder vi modulen Checklista.
+På sidan nedan kan du visa moduler av typen **Insändning** och **Checklista**. I det här exemplet använder vi modulen Checklista.
 
 ![](assets/modules-list.png)
 *Visa en lista över moduler*
 
-Klicka på modulen Checklista. På fliken **Checklista** visas följande:
+Klicka på modulen Checklista. På sidan **Checklista** visas detta:
 
 * Namnet på modulen
 * Namnet på kursen
@@ -97,7 +96,7 @@ Klicka på modulen Checklista. På fliken **Checklista** visas följande:
 ![](assets/checklist-page.png)
 *Visa checklistesidan*
 
-För att utvärdera en elev klickar du på **[!UICONTROL Evaluate]** i **[!UICONTROL Checklist]** -kolumnen. Du kan också se att granskningens status är **Väntar**.
+Klicka på **[!UICONTROL Evaluate]** i kolumnen **[!UICONTROL Checklist]** för att utvärdera en elev. Du kan också se att statusen för granskningen är **Väntande**.
 
 Utvärdera eleven och klicka på **[!UICONTROL Submit]**. Du som är instruktör måste svara på alla utvärderingsfrågor.
 
@@ -112,7 +111,7 @@ En instruktör kan också visa de svar som skickats in av andra instruktörer i 
 
 Du kan exportera eleverna som en CSV baserat på det sökfilter som används.
 
-När instruktören utvärderar kursen med hjälp av checklistan ser eleven modulstatus som **Godkänt** och kursstatus som **Slutfört** eller modulstatusen som **Fel** och kursstatus som **Slutfört**.
+När instruktören har utvärderat kursen med checklistan ser eleven modulstatus som **Godkänt** och kursstatus som **Slutfört**, eller modulstatus som **Misslyckat**, och kursstatus som **Slutfört**.
 
 ## Kommentarer från instruktören för avvisande av en aktivitet {#rejection-comments}
 
@@ -127,17 +126,17 @@ Så här fungerar arbetsflödet:
    ![](assets/proof-of-completion.png)
    *Skicka in bevis på slutförande*
 
-1. Instruktören väljer sedan den aktivitetsmodul som är tilldelad honom/henne. På sidan Submissions för modulen, klickar instruktören på **Redigera**. Han/hon kan sedan ange kommentarerna för avvisande och aktivera alternativet Visa kommentar, så att eleven kan se kommentaren i meddelandet.
+1. Instruktören väljer sedan den aktivitetsmodul som är tilldelad honom/henne. Instruktören klickar på **Redigera** på sidan Submissions för modulen. Han/hon kan sedan ange kommentarerna för avvisande och aktivera alternativet Visa kommentar, så att eleven kan se kommentaren i meddelandet.
 
    ![](assets/enter-comments.png)
-   *Ange kommentarer för slutförande*
+   *Ange kommentarer om slutförande*
 
-1. Instruktören kan klicka **Avslå**. Status för inskickningen ändras till **Markerat för avvisande**.
+1. Instruktören kan klicka på **Avvisa**. Överföringens status ändras till **Markerad för avslag**.
 
    ![](assets/marked-for-rejection.png)
    *Avslå en ansökan*
 
-1. Efter inskickandet ändras statusen till **Avvisat**.
+1. Efter överföringen ändras statusen till **Avvisat**.
 
    ![](assets/rejected-status.png)
    *Visa avslagsstatus*
@@ -147,18 +146,18 @@ Så här fungerar arbetsflödet:
    ![](assets/notification-of-rejection.png)
    *Ta emot meddelande om avslag*
 
-För att passa ändringarna har Adobe uppdaterat e-postmallen för **Ansökan har avslagits**.
+För att anpassa Adobe har e-postmallen för **överföringen har avslagits** uppdaterats.
 
 ## Lägg till poäng och kommentarer för aktivitetsmoduler {#addscoresandcommentsforactivitymodules}
 
 Följ stegen nedan om du vill lägga till poäng och kommentarer för aktivitetsmoduler som har skickats för inlämning:
 
-1. I den vänstra rutan klickar du på **[!UICONTROL Learner]**.
+1. Klicka på **[!UICONTROL Learner]** i den vänstra rutan.
 
    ![](assets/learners.png)
    *Välj en elev*
 
-1. Klicka på på elevens sida **[!UICONTROL Actions]** > **[!UICONTROL Edit Scores & Comments]**.
+1. Klicka på **[!UICONTROL Actions]** > **[!UICONTROL Edit Scores & Comments]** på elevens sida.
 
    ![](assets/edit-scores-comments.png)
    *Lägg till kommentarer*

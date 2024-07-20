@@ -1,7 +1,7 @@
 ---
-description: Lär dig hur du använder det nya kundvagnsstödet i ALM för att köpa flera SKU:er.
+description: Lär dig använda den nya kundvagnssupporten i ALM för att köpa flera SKU:er.
 jcr-language: en_us
-title: Vagn med flera artiklar i ALM
+title: Flerartikelvagn i ALM
 source-git-commit: c4eb9a7c4fca73bc029f9afad1f3d48725779d30
 workflow-type: tm+mt
 source-wordcount: '225'
@@ -10,39 +10,39 @@ ht-degree: 0%
 ---
 
 
-# Vagn med flera artiklar i ALM
+# Flerartikelvagn i ALM
 
-Elever kan lägga till flera kurser, utbildningsvägar eller certifieringar i kundvagnen och köpa dem tillsammans. De kan använda kundvagnen för att köpa flera kurser, utbildningsvägar eller certifieringar samtidigt. Den här funktionen är endast tillgänglig i elevapparna, inklusive det befintliga användargränssnittet, det nya användargränssnittet för elever och den mobila integrerande appen.
+Elever kan lägga till flera kurser, utbildningsvägar eller certifieringar i vagnen och köpa dem tillsammans. De kan använda vagnen för att köpa flera kurser, utbildningsvägar eller certifieringar samtidigt. Den här funktionen är bara tillgänglig i elevapparna, inklusive det befintliga användargränssnittet, det nya elevanvändargränssnittet och appen för uppslukande mobiler.
 
-## Förutsättningar
+## Krav
 
-1. Administratören måste aktivera SKU-kundvagnen för flera objekt på inställningsmenyn.
-1. I administratörsappen navigerar du till **[!UICONTROL Settings]** > **[!UICONTROL General]** och väljer alternativet **[!UICONTROL Enable Multi Item SKU Cart]** .
+1. Administratören måste aktivera SKU-vagnen för flera objekt på menyn Inställningar.
+1. I administratörsappen går du till **[!UICONTROL Settings]** > **[!UICONTROL General]** och väljer alternativet **[!UICONTROL Enable Multi Item SKU Cart]**.
 
-Med det här alternativet kan eleverna köpa flera kurser samtidigt.
+Med det här alternativet kan elever köpa flera kurser samtidigt.
 
 ## Elever köper flera kurser
 
-Följ dessa steg för att köpa flera kurser:
+Följ de här stegen om du vill köpa flera kurser:
 
-1. I learner-appen går du till **[!UICONTROL Catalogs]** och väljer en betalkurs.
+1. Gå till **[!UICONTROL Catalogs]** i elevappen och välj en betald kurs.
 
    >[!NOTE]
    >
-   >Eleverna kan se kurspriset som visas på kurskortet.
+   >Elever kan se kurspriset som visas på kurskortet.
 
-1. Välj **[!UICONTROL Add to Cart]**. Kursen läggs till i din varukorg.
-1. Välj och lägg till flera betalkurser i varukorgen.
+1. Välj **[!UICONTROL Add to Cart]**. Kursen lägger till i din varukorg.
+1. Välj och lägg till flera betalda kurser i vagnen.
 1. Välj ikonen **[!UICONTROL Cart]** i det övre högra hörnet.
 
-   Det här alternativet omdirigerar dig till Magento-webbplatsen **** för att slutföra betalningen.
+   Det här alternativet dirigerar om dig till webbplatsen **Magento** för att slutföra betalningen.
 
    >[!NOTE]
    >
-   >Elever måste skapa ett **Magento-konto** med samma referenser som deras ALM-konto.
+   >Elever måste skapa ett **Magento**-konto med samma autentiseringsuppgifter som ALM-kontot.
 
 1. Välj betalningssätt och slutför betalningen.
 
-   Det här alternativet tar dig till sidan där du kan se de köpta kurserna **[!UICONTROL My Learning]** .
+   Med det här alternativet kommer du till sidan **[!UICONTROL My Learning]** där du kan se de köpta kurserna.
 
-1. Om du vill visa köphistoriken för ditt konto går du till **[!UICONTROL Profile]** > **[!UICONTROL Purchase History]**.
+1. Gå till **[!UICONTROL Profile]** > **[!UICONTROL Purchase History]** om du vill se inköpshistoriken för ditt konto.

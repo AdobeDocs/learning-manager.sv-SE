@@ -2,21 +2,21 @@
 title: Välkommen till användarhandboken för Adobe Learning Manager
 description: Läs om det senaste erbjudandet i Adobe Learning Manager (tidigare Adobe Captivate Prime). Börja från början och gå igenom varje del för sig eller vänd dig till i användarforumet när du arbetar med ett projekt.
 contentowner: dhv
-source-git-commit: 73a1fe972eb8d399dd9ae53b6b1128bb11561924
+exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 0%
 
 ---
 
-
 # Välkommen till användarhandboken för Adobe Learning Manager
 
-Läs vidare för att få veta vad som är det senaste erbjudandet i Adobe Learning Manager (tidigare Adobe Captivate Prime). Börja från början och gå igenom varje del för sig eller vänd dig till i användarforumet när du arbetar med ett projekt.
+Läs vidare för att få reda på vad som är det senaste erbjudandet i Adobe Learning Manager (tidigare Adobe Captivate Prime). Börja från början och gå igenom varje del för sig eller vänd dig till i användarforumet när du arbetar med ett projekt.
 
 ## Delta i konversationen {#jointheconversation}
 
-Gå till [Användarforum för Adobe Learning Manager](https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all) för att få inspiration och svar på de vanligaste frågorna.
+Gå till [Adobe Learning Manager användarforum](https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all) för att få inspiration och svar på de vanligaste frågorna.
 
 ## Populära ämnen {#populartopics}
 
@@ -43,7 +43,7 @@ Gå till [Användarforum för Adobe Learning Manager](https://community.adobe.co
     <img alt="anslutningsprogram" src="assets/prime-connector.jpeg">
     </a>
     <div>
-    <a href="integration-admin/feature-summary/connectors.md"><strong>Anslutningar för Learning Manager</strong></a>
+    <a href="integration-admin/feature-summary/connectors.md"><strong>Anslutningar till Learning Manager</strong></a>
     </div>
    </td>
    <td>

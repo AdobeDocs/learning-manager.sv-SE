@@ -3,14 +3,13 @@ description: Det här dokumentet innehåller grundläggande felsökningstips fö
 jcr-language: en_us
 title: Felsöka migreringsproblem
 contentowner: jayakarr
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: b9f17644-f237-4701-86e9-8496db941920
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '847'
 ht-degree: 0%
 
 ---
-
-
 
 # Felsöka migreringsproblem
 
@@ -40,7 +39,7 @@ Kontrollera att dina konton har skapats i FTP- och Box-tjänsterna. När du skap
 
 ### Fel visas för jobb med felposter {#failuresareshownforjobswitherrorrecords}
 
-1. Hämta felloggarna genom att klicka på **Hämta felposter** länk
+1. Hämta felloggarna genom att klicka på länken **Hämta felposter**
 1. Korrigera de ursprungliga CSV-filerna baserat på de rapporterade felen och
 1. Kör Sprinten igen med de ändrade CSV-filerna.
 
@@ -56,29 +55,29 @@ Det kan ta 10-15 minuter att sluta köra alla jobb när det är i läget Pågår
 
 ### Det går inte att skapa en utskrift eftersom knappen är inaktiverad {#unabletocreateasprintasthebuttonisdisabled}
 
-Se till att den aktuella utskrift är markerad som slutförd innan du skapar en utskrift. Klicka **[!UICONTROL Mark Sprint Complete]** längst upp på sidan för att slutföra en Sprint-migrering.
+Se till att den aktuella utskrift är markerad som slutförd innan du skapar en utskrift. Klicka på **[!UICONTROL Mark Sprint Complete]** högst upp på sidan för att slutföra en Sprint-migrering.
 
 ### Det går inte att markera ett migreringsprojekt som slutfört eftersom knappen är inaktiverad {#unabletomarkamigrationprojectascompleteasthebuttonisdisabled}
 
-Se till att aktuell Sprint är markerad som slutförd innan du markerar migreringsprojektets slutförande. Klicka **[!UICONTROL Mark Sprint Complete]** längst upp på sidan för att slutföra en Sprint-migrering.
+Se till att aktuell Sprint är markerad som slutförd innan du markerar migreringsprojektets slutförande. Klicka på **[!UICONTROL Mark Sprint Complete]** högst upp på sidan för att slutföra en Sprint-migrering.
 
 ## CSV-problem {#csvissues}
 
 ### module_version.csv filmigrering misslyckas och innehåll migreras inte ännu {#moduleversioncsvfilemigrationisfailingandcontentisnotmigratedyet}
 
-Se till att innehållet är tillgängligt i mappen Innehåll (Box-konto under det angivna migreringsprojektet, sprint-sökväg). Se också till att du har valt alternativet **Ja** för **Kommer du att migrera innehåll för det här trycket?** -frågan på den sida där sprinten skapas.
+Se till att innehållet är tillgängligt i mappen Innehåll (Box-konto under det angivna migreringsprojektet, sprint-sökväg). Se också till att du har valt alternativet **Ja** för **Kommer du att migrera innehåll för det här trycket?**-frågan på sidan för att skapa utskrift.
 
-Om du glömmer bort att markera **Ja**, och fortsätta vidare i denna sprint, sedan måste du vänta tills du slutför denna sprint. Skapa ytterligare ett spurt och se till att klicka **[!UICONTROL Yes]**.
+Om du glömmer att välja **Ja** och fortsätter i den här spurten måste du vänta tills du är klar med den här spurten. Skapa ytterligare en spurt och se till att klicka på **[!UICONTROL Yes]**.
 
 ### enrollment.csv- eller user_course_grade.csv-poster misslyckas med ett felmeddelande: Inte ett giltigt ID för Learning Manager {#enrollmentcsvorusercoursegradecsvrecordsfailwithanerrormessagenotavalidprimeid}
 
-Se till att e-post-id:t som tillhandahålls som en del av fälten userId, assignedByUserID tillhör giltiga Learning Manager-användare. Om inte, lägg till användaren, skapa en ny utskrift med **Synka användare** alternativet har valts. Om användaren inte ingår i organisationen lägger du till användaren som borttagen användare i Learning Manager med CSV-specifikationen Lägg till användare. En CSV-exempelspecifikation för att lägga till borttagna användare finns nedan som referens.
+Se till att e-post-id:t som tillhandahålls som en del av fälten userId, assignedByUserID tillhör giltiga Learning Manager-användare. Om inte kan du lägga till användaren och skapa en ny utskrift där alternativet **Synka användare** är markerat. Om användaren inte ingår i organisationen lägger du till användaren som borttagen användare i Learning Manager med CSV-specifikationen Lägg till användare. En CSV-exempelspecifikation för att lägga till borttagna användare finns nedan som referens.
 
-[Users.csv](assets/users.zip) Se **CSV-specifikationer och CSV-exempelfiler** avsnitt i [Migreringshandbok](../integration-admin/feature-summary/migration-manual.md) för att hämta alla CSV-specifikationer och CSV-exempelfiler.
+[Users.csv](assets/users.zip) Se avsnittet **CSV-specifikationer och CSV-exempelfiler** i [Migreringshandboken](../integration-admin/feature-summary/migration-manual.md) för att hämta alla CSV-specifikationer och CSV-exempelfiler.
 
 ### Kurser visas tomma eller felaktiga moduler spelas upp för en migrerad kurs {#coursesappearblankorincorrectmodulesplayforamigratedcourse}
 
-Se till att **moduleOrderInCourse** nyckelvärde för en kurs börjar med **0** och är i kontinuerlig ordning. Ordningen enligt courseModuleType ska vara PRETEST, TESTOUT, CONTENT
+Kontrollera att nyckelvärdet **moduleOrderInCourse** för en kurs börjar med **0** och är i kontinuerlig ordning. Ordningen enligt courseModuleType ska vara PRETEST, TESTOUT, CONTENT
 
 Se också till att två versioner av Activity, Classroom och VC inte är kopplade till den befintliga kursen.
 

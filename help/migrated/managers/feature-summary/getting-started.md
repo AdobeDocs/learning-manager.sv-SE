@@ -23,7 +23,7 @@ När du loggar in som manager visas popup-fönstret med en lista med videor.
 
 Bläddra igenom självstudievideosjälvstudiekurserna för att förstå de viktigaste funktionerna i din roll som chef. Om du inte vill att det här popup-fönstret ska visas vid inloggning kan du avaktivera det genom att klicka på Visa inte vid inloggning längst ned till höger i popup-fönstret.
 
-Klicka **[!UICONTROL Close Window]** för att stänga popup-fönstret.
+Klicka på **[!UICONTROL Close Window]** för att stänga popup-fönstret.
 
 ![](assets/welcome-videos.png)
 

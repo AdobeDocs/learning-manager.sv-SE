@@ -1,21 +1,21 @@
 ---
 jcr-language: en_us
-title: Referenspaket för Adobe Learning Manager (ALM-referensplats) för AEM Sites
-description: Adobe Learning Manager (ALM) integreras med Adobe Experience Manager-webbplatser (AEM). Detta gör att du kan skapa din egen webbplats och responsiva mobilgränssnitt för Adobe Learning Manager med minimal kodning ansträngning. Med denna integrering kan du skapa anpassade utbildningsupplevelser för dina användare.
+title: Adobe Learning Manager referenspaket för AEM Sites (ALM-referenswebbplats)
+description: Adobe Learning Manager (ALM) integreras med Adobe Experience Manager-webbplatser (AEM). Det gör att du kan skapa en egen webbplats och responsiva mobilgränssnitt för Adobe Learning Manager med minimal kodning. Med denna integrering kan du skapa anpassade utbildningsupplevelser för dina användare.
 contentowner: saghosh
-source-git-commit: 0ec031398f93c8396c0c9d49d172d62b2711481b
+exl-id: 937dfbd1-74a1-4a86-a9b2-29a44be267c6
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '2126'
 ht-degree: 0%
 
 ---
 
+# Adobe Learning Manager referenspaket för AEM Sites (ALM-referenswebbplats)
 
-# Referenspaket för Adobe Learning Manager (ALM-referensplats) för AEM Sites
+Adobe Learning Manager (ALM) integreras med Adobe Experience Manager-webbplatser (AEM). Det gör att du kan skapa en egen webbplats och responsiva mobilgränssnitt för Adobe Learning Manager med minimal kodning. Med denna integrering kan du skapa anpassade utbildningsupplevelser för dina användare.
 
-Adobe Learning Manager (ALM) integreras med Adobe Experience Manager-webbplatser (AEM). Detta gör att du kan skapa din egen webbplats och responsiva mobilgränssnitt för Adobe Learning Manager med minimal kodning ansträngning. Med denna integrering kan du skapa anpassade utbildningsupplevelser för dina användare.
-
-För att skapa en sådan upplevelse tillhandahåller ALM ett referenspaket för Adobe Learning Manager (ALM-referenspaket för webbplats) för AEM Sites i form av en ZIP-fil som du kan installera på din AEM Sites-instans.
+För att skapa en sådan upplevelse tillhandahåller ALM ett Adobe Learning Manager-referenspaket för webbplats (ALM-referenspaket för webbplats) för AEM Sites i form av en ZIP-fil som du kan installera på din AEM Sites-instans.
 
 Paketet innehåller webbsidesmallar och webbplatskomponenter från AEM Sites tillsammans med inbäddningsbara widgetar, t.ex. Utbildningskatalog, inbäddade widgetar, kalender och så vidare.
 
@@ -31,7 +31,7 @@ Installera ALM-referensplatspaket
 
 När du har skyddat AEM Sites-miljön måste du installera ALM-referenspaketet. Detta paket innehåller AEM-webbsidor och webbplatskomponenter som hjälper dig att konstruera utbildningsplattformen.
 
-Referenswebbplatspaketet finns på [**GitHub-databas**](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0).
+Referenswebbplatspaketet finns på [**GitHub-databasen**](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0).
 
 Mer information finns i filen VIKTIGT.
 
@@ -39,12 +39,12 @@ Mer information finns i filen VIKTIGT.
 
 När du har installerat AEM-webbplatspaketet måste du konfigurera ett ALM-program för att ansluta utbildningsportalen till AEM-webbplatsen.
 
-Detta scenario är tillämpligt när AEM används med [!DNL Adobe Learning Manager].
+Detta scenario gäller när AEM används med [!DNL Adobe Learning Manager].
 
 Följ stegen nedan:
 
-1. Som integrationsadministratör klickar du på **[!UICONTROL Applications]**.
-1. Om du vill skapa ett nytt program klickar du på i det övre högra hörnet på sidan **[!UICONTROL Register]**.
+1. Klicka på **[!UICONTROL Applications]** som integreringsadministratör.
+1. Om du vill skapa ett nytt program klickar du på **[!UICONTROL Register]** i det övre högra hörnet på sidan.
 1. Ange följande information på skärmen Registrera ett nytt program:
 
    1. Programnamn: Namnet på programmet som du skapar.
@@ -61,11 +61,11 @@ Anteckna programautentiseringsuppgifterna från skärmen.
 ![](assets/application-credentials.png)
 *Programautentiseringsuppgifter*
 
-Klicka på för att godkänna programmet. **[!UICONTROL Approve]**.
+Klicka på **[!UICONTROL Approve]** för att godkänna programmet.
 
 ## Hämta token
 
-1. Klicka på på fliken Utvecklarresurser **[!UICONTROL Access Tokens for Testing and Development]**.
+1. Klicka på **[!UICONTROL Access Tokens for Testing and Development]** på fliken Utvecklarresurser.
 
    ![](assets/access-tokens.png)
 
@@ -90,7 +90,7 @@ Klicka på för att godkänna programmet. **[!UICONTROL Approve]**.
 1. Klicka på Konfiguration av Adobe Learning Manager.
 
    ![](assets/alm-configuration.png)
-   *Välj konfiguration för Adobe Learning Manager*
+   *Välj Adobe Learning Manager-konfiguration*
 
 1. Klicka på Skapa > Konfigurationsmapp. Ge mappen ett namn.
 
@@ -102,19 +102,19 @@ Klicka på för att godkänna programmet. **[!UICONTROL Approve]**.
 1. Ange konfigurationsinformation.
 
    ![](assets/account-congiguration.png)
-   *Skapa konfigurationsmapp*
+   *Skapa konfigurationsmappen*
 
-   1. Läge för Adobe Learning Manager: Välj hur du vill att elever som är inloggade och inte inloggade ska få utbildningsupplevelsen.
-   1. URL till Adobe Learning Manager: Ange URL:en till ALM-instansen där utbildningstjänsterna finns.
+   1. Adobe Learning Manager-läge: Välj hur du vill att elever som är inloggade och inte är det ska lära sig.
+   1. Adobe Learning Manager-URL: Ange URL:en till ALM-instansen där utbildningstjänsterna finns.
    1. Konto-ID: ID för ALM-kontot.
    1. Klient-ID, Klienthemlighet och Författarens uppdateringstoken: Ange de autentiseringsuppgifter du fick när du skapade programmet i ALM.
-   1. Anpassning av Widget: Mer information finns i [Integrera med AEM](/help/migrated/integrate-aem-learning-manager.md) `.`
+   1. Anpassning av widget: Mer information finns i [Integrera med AEM](/help/migrated/integrate-aem-learning-manager.md) `.`
 
 1. Spara och stäng konfigurationen.
 
 ### AEM + Adobe Learning Manager (inloggade/ej inloggade användare)
 
-Med Adobe Learning Manager kan du nu visa upp dina produkter och din utbildning för befintliga och potentiella kunder och partners utan att behöva skapa eller logga in på konton. Den här funktionen hjälper dig att anpassa produkter och utbildningar genom att ge elever en snabb och enkel förhandsvisning av utbildningen, vilket hjälper till att framhäva och främja produktfunktioner. Därför kan du effektivt visa upp dina produkter och erbjudanden, särskilt för potentiella kunder och partners, vilket resulterar i ökad produktmedvetenhet. Enkel åtkomst och bättre åtkomlighet leder till ökat intresse, vilket hjälper till att driva utbildningsregistreringar och inlärningsanpassning.
+Med Adobe Learning Manager kan du nu visa upp dina produkter och utbildningar för befintliga och potentiella kunder och partner utan att behöva skapa eller logga in konton. Den här funktionen hjälper dig att anpassa produkter och utbildningar genom att ge elever en snabb och enkel förhandsvisning av utbildningen, vilket hjälper till att framhäva och främja produktfunktioner. Därför kan du effektivt visa upp dina produkter och erbjudanden, särskilt för potentiella kunder och partners, vilket resulterar i ökad produktmedvetenhet. Enkel åtkomst och bättre åtkomlighet leder till ökat intresse, vilket hjälper till att driva utbildningsregistreringar och inlärningsanpassning.
 
 Med hjälp av det här arbetsflödet kan en elev förhandsgranska en utbildning, få tillgång till utbildningsinformation eller söka efter utbildning utan att logga in på Adobe Learning Manager. Det här arbetsflödet gäller inte det inbyggda Learning Manager-gränssnittet (gäller ENDAST AEM Sites och andra fjärradministrerade gränssnitt).
 
@@ -132,18 +132,18 @@ Kopplingen exporterar utbildningsmetadata till en datalagrings- och hämtningsl�
 
 Aktivera den här anslutningen för att skapa och återge dina AEM Sites-baserade webbsidor och leverera anpassade upplevelser till dina elever både före och efter inloggningen. Aktivera den här anslutningen för att skapa och återge dina AEM Sites-baserade webbsidor och leverera anpassade upplevelser till dina elever både före och efter inloggningen.
 
-* CDN-bas-URL för Adobe Learning Manager - Ange bas-URL:en för CDN-tjänstsökvägen för datahämtning från anslutningssidan för utbildningsdataåtkomst.
+* Bas-URL för Adobe Learning Manager CDN - Ange bas-URL:en för CDN-tjänstsökvägen för datahämtning från anslutningssidan för utbildningsdataåtkomst.
 * Uppdateringstoken för administratör - Ange den uppdateringstoken som du fastställde i det tidigare avsnittet.
 * Bas-URL för utbildningsmetadata - ange bas-URL:en för sökaktiveringen och sökvägen till sökdatahämtningstjänsten från sidan Anslutning av utbildningsdata.
-* Registrera URL för Adobe Learning Manager - Ange den URL för självregistrering som genereras av kontots integreringsadministratör, som används av elever för att registrera sig för utbildning.
+* URL för Adobe Learning Manager-registrering - ange URL för självregistrering som genererats av kontots integreringsadministratör och som används av elever för att registrera sig för utbildning.
 
-### AEM + Adobe Learning Manager + Adobe Commerce (inloggade/icke inloggade användare)
+### AEM + Adobe Learning Manager + Adobe Commerce (inloggade/ej inloggade användare)
 
 Adobe Learning Manager tillhandahåller nu lösningar som hjälper dig att sömlöst integrera utbildningsplattformen med Adobe Commerce. Med den här versionen kan du enkelt ansluta dina inbyggda AEM-platsbaserade eller andra Headless Learning Manager-gränssnitt till Adobe Commerce. Med integreringen kan du förverkliga e-handelsmöjligheter inom utbildningsplattformen. Du kan nu erbjuda kunder och affärspartners betald utbildning samt enkelt möjliggöra inköp av utbildning i både inbyggda och icke-inbyggda Learning Manager-gränssnitt. En elev kan även förhandsgranska en utbildning, få tillgång till utbildningsinformation eller söka efter utbildning utan att logga in på Adobe Learning Manager.
 
 En användare kan använda det redan befintliga AEM-programmet och godkänna det i stället för att skapa ett.
 
-* CDN-bas-URL för Adobe Learning Manager - Ange bas-URL:en för CDN-tjänstsökvägen för datahämtning från anslutningssidan för Adobe Commerce.
+* Bas-URL för Adobe Learning Manager CDN - Ange bas-URL:en för CDN-tjänstsökvägen för datahämtning från anslutningssidan för Adobe Commerce.
 * Adobe Commerce-URL - Ange URL:en till den Adobe Commerce-instans du använder.
 * GraphQL-proxysökväg - Komponenterna för Learning Manager på klientsidan kommer åt Adobe Commerce GraphQL-slutpunkten direkt, och därför kan CORS-fel uppstå. För att undvika det här felet måste alla anrop antingen skickas från samma slutpunkt som AEM eller skickas via en proxy som lägger till CORS-rubriker.
 * Adobe Commerce-butiksnamn - Ange det Adobe Commerce-butiksnamn som du fastställde i det tidigare avsnittet.
@@ -183,11 +183,11 @@ Förutom de mallar du kan använda som tillhandahålls av referenspaketet för w
    ![](assets/page-properties.png)
    *Sidegenskaper*
 
-1. Om du vill skapa sidan klickar du på **[!UICONTROL Create]**.
+1. Klicka på **[!UICONTROL Create]** för att skapa sidan.
 
 1. Välj den nya sidan och klicka på **[!UICONTROL Edit]**.
 
-1. Infoga en komponent på sidan, till exempel **UTBILDNING - INNEHÅLL**.
+1. Infoga en komponent på sidan, till exempel **Utbildningsinnehåll**.
 
    ![](assets/learning-content.png)
    *Filtrera efter plats*
@@ -198,15 +198,15 @@ Förutom de mallar du kan använda som tillhandahålls av referenspaketet för w
 
 ALM-referenspaketet innehåller en plan för utbildningswebbplatsen som du kan använda för att skapa en webbplats för utbildningsplattformen. Med AEM-ritningar kan du skapa webbsidor direkt från AEM Sites-komponenter. Du behöver inte använda några mallar.
 
-1. Klicka på på AEM-startsidan **[!UICONTROL Sites]**.
+1. Klicka på **[!UICONTROL Sites]** på AEM-startsidan.
 
-1. Klicka **[!UICONTROL Create]** > **[!UICONTROL Site]**.
+1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Site]**.
 
 1. Klicka på Utskrift av utbildningswebbplats.
 
    ![](assets/learning-site-blueprint.png)
 
-   *Skapa webbplats från utkast*
+   *Skapa en webbplats från utkast*
 
 1. Klicka på Nästa.
 
@@ -221,7 +221,7 @@ ALM-referenspaketet innehåller en plan för utbildningswebbplatsen som du kan a
 
 Förutom att använda de inbyggda mallarna och skapa din webbplats från grunden med hjälp av WYSIWYG-komponenterna, kan du också skriva kod och bygga webbplatsen.
 
-Koden finns i [Referenswebbplats för GitHub-databas](https://github.com/adobe/adobe-learning-manager-reference-site) för att du ska komma igång.
+Koden finns i [GitHub-referensplatsen](https://github.com/adobe/adobe-learning-manager-reference-site) så att du kan komma igång.
 
 Huvuddelarna i mallen är:
 
@@ -248,11 +248,11 @@ Om du vill använda dessa nyligen tillagda Learning Manager-komponenter i ditt b
    *`<sly data-sly-use.configModel="com.adobe.learning.core.models.GlobalConfigurationModel"/>`*
    *`<meta name="cp-config" content="${configModel.config}" />`*
 
-   Föregående kod lägger till den mappade konfigurationen i metataggen på sidan, vilket krävs för att utbildningskomponenterna ska återges. Mer information finns i [Referenssiter för Adobe Learning Manager](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html).
+   Föregående kod lägger till den mappade konfigurationen i metataggen på sidan, vilket krävs för att utbildningskomponenterna ska återges. Mer information finns i [Adobe Learning Manager referenssiter](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html).
 
 1. Se till att du har mappat konfigurationen till webbprojektet.
 1. Öppna AEM Sites-mallen där du vill importera Learning Manager-komponenterna.
-1. På mallsidans redigerare går du till behållaren Tillåtna komponenter och väljer **integritetspolicy**.
+1. På mallsidans redigerare går du till behållaren Tillåtna komponenter och väljer **Policy**.
 1. På sidan Policy går du till Egenskaper > Tillåtna komponenter och väljer följande komponenter: Utbildning - innehåll, Utbildning - formulär och Utbildning - struktur
 
 Följande procedur gör att mallen kan uppfylla klientbiblioteksberoendena för de importerade Learning Manager-komponenterna.

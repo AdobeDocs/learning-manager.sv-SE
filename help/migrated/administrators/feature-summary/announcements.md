@@ -27,15 +27,15 @@ Det finns fyra typer av meddelanden:
 
 1. Du som är administratör klickar på Meddelanden i den vänstra rutan.
 1. Klicka på Lägg till längst upp till höger på sidan.
-1. Välj alternativet i listrutan Typ **Som-meddelande**.
+1. I listrutan Typ väljer du alternativet **Som meddelande**.
 
 ![](assets/as-notofocation.png)
 
-*Anpassa meddelandet*
+*Anpassa aviseringen*
 
 1. Lägg till meddelandet för meddelandet i fältet Meddelande. Här kan du också lägga till en URL-adress för meddelanden. Du måste dock lägga till URL-adressen i HTML-formuläret.
 
-   Till exempel,  `code <a href="http://www.w3schools.com" target="_blank">Visit W3Schools</a>.`
+   Till exempel `code <a href="http://www.w3schools.com" target="_blank">Visit W3Schools</a>.`
 
    När du anger att målet är tomt och en användare sedan klickar på meddelande-URL:en, öppnas länken i en ny flik. Om du inte anger målet öppnas länken i samma webbläsare.
 
@@ -49,7 +49,7 @@ Det finns fyra typer av meddelanden:
    * Gör meddelandet till ett klistermärke genom att markera kryssrutan Aktivera klisterlapp.
    * Välj leveranstid för meddelandet.
 
-1. Välj **[!UICONTROL On a date]** om du vill schemalägga ett meddelande till ett senare datum och klicka i textområdet intill. En kalender visas där du kan välja startdatum. Välj slutdatum på samma sätt.
+1. Välj **[!UICONTROL On a date]** om du vill schemalägga ett meddelande till ett senare datum och klicka på textområdet intill. En kalender visas där du kan välja startdatum. Välj slutdatum på samma sätt.
 1. Klicka på **[!UICONTROL Save]**.
 1. Klicka på inställningsikonen bredvid ett meddelande på fliken Utkast och klicka sedan på Skicka.
 
@@ -61,26 +61,26 @@ När du väljer detta alternativ kommer de mediefiler du väljer att visas på e
 
 ![](assets/masthead-announcement.png)
 
-*Anpassa masthead*
+*Anpassa maskhuvudet*
 
 1. Bläddra och välj en bild som ska representera maskhuvudet. Den rekommenderade storleken är 1 280 × 360 px.
 1. Välj den språkinställning som du vill lägga till en masthead till. Du måste välja en resurs i form av ett masthead för varje språk.
-1. I dialogrutan **[!UICONTROL Action Button]** lägger du till en URL-adress, så att elever som klickar på knappen på masthead omdirigeras till URL-adressen. Det här är ett valfritt fält.
+1. Lägg till en URL i fältet **[!UICONTROL Action Button]** så att eleverna omdirigeras till URL:en när de klickar på knappen på masthead. Det här är ett valfritt fält.
 1. Välj målanvändargrupperna eller målobjekten för utbildningen. Du kan bara välja en av dem för ett meddelande.
 
    Börja skriva användargruppens namn i textrutan och välj ett i listrutan. På samma sätt väljer du utbildningen genom att skriva objektnamnet i textrutan.
 
-1. I dialogrutan **[!UICONTROL Advanced Settings]** -avsnittet har du följande alternativ:
+1. I avsnittet **[!UICONTROL Advanced Settings]** finns följande alternativ:
 
-   * Klicka **[!UICONTROL Immediately]** om du vill att meddelandet ska läggas upp just då.
-   * Klicka **[!UICONTROL Never]** om du inte vill att ditt meddelande ska upphöra.
-   * Välj **[!UICONTROL Start]** och **[!UICONTROL End]** datum för tillkännagivandet.
+   * Klicka på **[!UICONTROL Immediately]** om du vill att meddelandet ska publiceras just då.
+   * Klicka på **[!UICONTROL Never]** om du inte vill att meddelandet ska upphöra.
+   * Välj datumen **[!UICONTROL Start]** och **[!UICONTROL End]** för meddelandet.
 
    ![](assets/advanced-settings.png)
 
-   *Ställ in tiden för att visa ett maskhuvud*
+   *Ställ in tiden för att visa en masthead*
 
-**Finns det någon gräns för hur många Masthead-meddelanden som får visas live?**
+**Finns det någon gräns för antalet aktiva Masthead-meddelanden?**
 
 Du kommer bara att se de senaste 10 Masthead tillkännagivanden.
 
@@ -102,13 +102,13 @@ När du väljer det här alternativet rekommenderas valfri utbildning till angiv
 
 1. I avsnittet Avancerade inställningar finns följande alternativ:
 
-   * Klicka **[!UICONTROL Immediately]** om du vill att meddelandet ska läggas upp just då.
-   * Klicka **[!UICONTROL Never]** om du inte vill att ditt meddelande ska upphöra.
-   * Välj **[!UICONTROL Start]** och **[!UICONTROL End]** datum för tillkännagivandet.
+   * Klicka på **[!UICONTROL Immediately]** om du vill att meddelandet ska publiceras just då.
+   * Klicka på **[!UICONTROL Never]** om du inte vill att meddelandet ska upphöra.
+   * Välj datumen **[!UICONTROL Start]** och **[!UICONTROL End]** för meddelandet.
 
    <!--![](assets/advanced-settings.png)-->
 
-När du klickar på **[!UICONTROL Save]**, du kan antingen publicera meddelandet direkt eller publicera det senare. Tills dess kommer tillkännagivandet att vara i ett utkast.
+När du klickar på **[!UICONTROL Save]** kan du antingen publicera meddelandet direkt eller publicera det senare. Tills dess kommer tillkännagivandet att vara i ett utkast.
 
 * Mastheads/Recommendations utlöser inga meddelanden.
 * Mastheads/Recommendations visas inte i meddelanderapporten.

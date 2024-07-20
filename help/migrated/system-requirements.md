@@ -65,7 +65,7 @@ En mikrofon krävs för ljudinspelning, och en webbkamera krävs för videoinspe
 
 >[!NOTE]
 >
->Mobilwebbläsaren stöder bara elevrollen i **integrerande layout**.
+>Mobilwebbläsaren stöder bara elevrollen i **uppslukande layout**.
 
 >[!NOTE]
 >
@@ -96,9 +96,9 @@ Den maximala filstorleken som kan överföras är 600 MB.
 
 >[!NOTE]
 >
->Om *user.csv* överskrider 100 MB. Om du importerar filen kan det leda till att webbläsaren fungerar på ett oväntat sätt. Problemet uppstår på grund av att minnet i webbläsaren tar slut.
+>Om storleken på filen *user.csv* överstiger 100 MB kan det hända att webbläsaren fungerar på ett oväntat sätt när du importerar filen. Problemet uppstår på grund av att minnet i webbläsaren tar slut.
 
-Vi rekommenderar att du importerar stora filer *user.csv* filer med det automatiska arbetsflödet Box/Exavault. Mer information finns i [Migrera filer](/help/migrated/integration-admin/feature-summary/migration-manual.md).
+Vi rekommenderar att du importerar stora *user.csv*-filer med det automatiska arbetsflödet Box/Exavault. Mer information finns i [Migrera filer](/help/migrated/integration-admin/feature-summary/migration-manual.md).
 
 
 ## Innehållsformat som stöds
@@ -309,7 +309,7 @@ Se till att följande externa domäner är tillåtelselistade om du använder n�
   </tr>
   <tr>
    <td>GetAbstracts-koppling</td>
-   <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.getabstract.com/en/" target="_blank">www.getabstract.com  </a></td>
+   <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.getabstract.com/en/" target="_blank">www.getabstract.com </a></td>
   </tr>
   <tr>
    <td>Box-anslutning</td>

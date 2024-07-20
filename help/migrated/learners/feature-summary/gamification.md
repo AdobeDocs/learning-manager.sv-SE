@@ -3,14 +3,13 @@ description: Engagera användare med hjälp av spelifieringstekniker i Learning 
 jcr-language: en_us
 title: Spelifiering
 contentowner: manochan
-source-git-commit: a8dec2a5e91b6d989a7fb9161e84fcb1f8de752d
+exl-id: ddbc29dd-2d7d-4a8e-84b6-3728fee4a43e
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1456'
 ht-degree: 0%
 
 ---
-
-
 
 # Spelifiering
 
@@ -28,20 +27,20 @@ Elever kan också se prestationsnivån baserat på de poäng de har tjänat in. 
 
 Leaderboard är en spelifieringsfunktion som fungerar som en resultattavla för att visa upp rankingpoäng av ledande konkurrenter. Elever kan se sina spelifieringspoäng med resultattavlan.
 
-Klicka på på elevens startsida **[!UICONTROL Gamification]** från den vänstra rutan. Klicka på länken Resultattavla för att se resultatlistan. Den här funktionen gör det möjligt för elever att förstå hur de klarar sig mot en viss gruppmedlem. Det visar också deras rankingposition i förhållande till andra medlemmar i laget.
+Klicka på **[!UICONTROL Gamification]** i den vänstra rutan på elevens startsida. Klicka på länken Resultattavla för att se resultatlistan. Den här funktionen gör det möjligt för elever att förstå hur de klarar sig mot en viss gruppmedlem. Det visar också deras rankingposition i förhållande till andra medlemmar i laget.
 
 Några av funktionerna i Leaderboard för elever:
 
 * Elever som är registrerade för en instans av ett utbildningsprogram kan se varandras poäng om spelifiering har aktiverats för den instansen.
-* Klicka **[!UICONTROL Add colleagues]** för att inkludera teammedlem som du vill jämföra med. Teammedlemmens profilbild läggs till i tidslinjens skala högst upp på resultatlistan. Tidslinjens skala visar punkterna i början och flyttar positionen åt höger när du uppnår fler punkter än teammedlemmarna. Du kan bara jämföra det med andra medlemmar i samma grupp.
-* **Användargrupper:** Du kan när som helst välja de teammedlemmars profiler som du vill jämföra din ranking med genom att använda **[!UICONTROL Rank Me With]** alternativ. I fältet Välj användargrupper skriver du in och väljer gruppen. Listan över alla teammedlemmar tillsammans med deras senaste poäng visas nedan. Både interna och externa användare kan se listan, men endast interna användare kan söka efter andra interna elever.
+* Klicka på **[!UICONTROL Add colleagues]** för att inkludera teammedlem som du vill jämföra med. Teammedlemmens profilbild läggs till i tidslinjens skala högst upp på resultatlistan. Tidslinjens skala visar punkterna i början och flyttar positionen åt höger när du uppnår fler punkter än teammedlemmarna. Du kan bara jämföra det med andra medlemmar i samma grupp.
+* **Användargrupper:** Du kan när som helst välja teammedlemmarnas profiler som du vill jämföra rankningen med genom att använda alternativet **[!UICONTROL Rank Me With]**. I fältet Välj användargrupper skriver du in och väljer gruppen. Listan över alla teammedlemmar tillsammans med deras senaste poäng visas nedan. Både interna och externa användare kan se listan, men endast interna användare kan söka efter andra interna elever.
 
 * I dialogrutan Personer runt din rang visas dessutom namnen på de teammedlemmar som är ovan, under eller på samma nivå som du.
 * När en extern användare konverteras till en intern användare uppdateras tidslinjen automatiskt.
 
 ## Poäng för konsekvent lärande
 
-Adobe Learning Manager introducerar en ny spelifieringsuppgift som uppmuntrar användare att använda utbildningsplattformen konsekvent och engagera sig i utbildningsaktiviteterna. För att stödja den här uppgiften kan administratören nu konfigurera en ny regel som tilldelar poäng om eleven utför utbildningsaktiviteter i 1, 2, 3 eller 4 dagar under en vecka, månad eller ett kvartal.
+Adobe Learning Manager introducerar en ny spelifieringsuppgift som uppmuntrar användare att använda utbildningsplattformen på ett konsekvent sätt och engagera sig i utbildningsaktiviteterna. För att stödja den här uppgiften kan administratören nu konfigurera en ny regel som tilldelar poäng om eleven utför utbildningsaktiviteter i 1, 2, 3 eller 4 dagar under en vecka, månad eller ett kvartal.
 
 Observera att spelifieringspoängen för denna regel tilldelas en gång var 24:e timme. Om en elev till exempel utför en utbildningsaktivitet idag klockan 08.00 Pacific Standard Time (PST) och har fått spelifieringspoäng för idag, kommer han eller hon imorgon endast att komma i fråga för spelifieringspoäng om han eller hon utför en utbildningsaktivitet någon gång efter klockan 08.00 PST.
 
@@ -55,13 +54,13 @@ Följande aktiviteter betraktas som utbildningsaktiviteter:
 * Kommentera instrumentpanelen för social utbildning.
 * Inlägg på instrumentpanel för social utbildning.
 
-**Spelifieringspunkter för att ge feedback om L1 och L3 och stjärnbetyg**
+**Spelifieringspunkter för att ge feedback och stjärnbetyg från L1 och L3**
 
-Adobe Learning Manager gör det nu möjligt för en administratör att aktivera ett spelifieringskriterium som tilldelar poäng till användare när de ger L1-feedback, L3-feedback och ett stjärnbetyg.
+Adobe Learning Manager låter nu en administratör aktivera ett spelifieringskriterium som tilldelar poäng till användare som ger L1-feedback, L3-feedback och ett stjärnbetyg.
 
 ![](assets/feedback-rating.png)
 
-*Visa feedback och betygsättning*
+*Visa feedback*
 
 Den här funktionen uppmuntrar användarna att aktivt ge feedback, vilket gynnar både elever och administratörer som nu bättre förstår elevens synvinkel och kan bättre utvärdera effektiviteten av en kurs.
 
@@ -178,4 +177,4 @@ Elevstatus på Nivå visas längst upp till höger på sidan i en cirkel, på si
 
 **1. Hur ser man resultattavlan som en elev?**
 
-I elevappen klickar du på **[!UICONTROL Social Learning]**. Den sociala resultattavlan visas längst ned till höger på sidan.
+Klicka på **[!UICONTROL Social Learning]** i den vänstra rutan i elevappen. Den sociala resultattavlan visas längst ned till höger på sidan.

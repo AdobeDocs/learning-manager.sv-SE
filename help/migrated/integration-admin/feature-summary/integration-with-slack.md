@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Learning Manager-integrering med Slack
 
-Vi har **borttagen** **Slack** som en koppling i Learning Manager. Du har inte längre åtkomst till Slack-anslutningen.
+Vi har **tagit bort** **Slack** som en koppling i Learning Manager. Du har inte längre åtkomst till Slack-anslutningen.
 
-Som användare av Slack kan du installera Adobe Learning Manager-appen från appkatalogen Slack till dina Slack-team och utforska Learning Manager-innehåll direkt från Slack. Du kan interagera med Primebot för att söka efter nya kurser, se rekommendationer och få meddelanden om kommande deadlines i Learning Manager. Du kan också registrera dig och gå direkt till din utbildning inifrån Slack.
+Som Slack-användare kan du installera Adobe Learning Manager-programmet från Slack-programkatalogen i dina Slack-team och utforska Learning Manager-innehåll direkt från Slack. Du kan interagera med Primebot för att söka efter nya kurser, se rekommendationer och få meddelanden om kommande deadlines i Learning Manager. Du kan också registrera dig och gå direkt till din utbildning inifrån Slack.
 
 Learning Manager-appen för Slack stöds inte i en Azure-instans av Learning Manager.
 
-## Installera Adobe Learning Manager-appen {#installingadobecaptivateprimeapp}
+## Installera Adobe Learning Manager-program {#installingadobecaptivateprimeapp}
 
 En elev kan installera appen CP Prime i sitt Slack-konto. Installera programmet genom att öppna programkatalogen i ditt Slack-konto och söka efter Learning Manager. Hämta och installera programmet. Om programmet inte godkänns på ditt konto kontaktar du din integreringsadministratör för godkännande. Om det redan har godkänts kan du logga in.
 
@@ -28,15 +28,15 @@ En elev kan installera appen CP Prime i sitt Slack-konto. Installera programmet 
 
 Följ de här stegen som integrationsadministratör för att godkänna behörigheten för en elev att använda Prime-programmet på Slack.
 
-1. Välj **[!UICONTROL Applications]** i den vänstra rutan och klicka på **[!UICONTROL Featured apps]** -fliken.
+1. Välj **[!UICONTROL Applications]** i den vänstra rutan och klicka på fliken **[!UICONTROL Featured apps]**.
 
    ![](assets/featuredapps.jpg)
 
-1. Klicka på **[!UICONTROL Slack]** panel > sidan Slack-integrering öppnas. Klicka **[!UICONTROL Approve]** i det övre högra hörnet för att godkänna programmet.
+1. Klicka på panelen **[!UICONTROL Slack]** > sidan Slack-integrering öppnas. Klicka på **[!UICONTROL Approve]** i det övre högra hörnet för att godkänna programmet.
 
    ![](assets/approval.png)
 
-1. Gå tillbaka till **[!UICONTROL Applications]** sidan. När Slack har godkänts ska det upptas i **[!UICONTROL External Apps]** -fliken.
+1. Gå tillbaka till sidan **[!UICONTROL Applications]**. När Slack har godkänts ska det visas på fliken **[!UICONTROL External Apps]**.
 1. Elever kan nu logga in på sitt primära konto med hjälp av Slack.
 
 ## Primebot-funktioner {#primebotfunctionalities}
@@ -49,7 +49,7 @@ Du kan nu börja interagera med Primeboten. Här är funktionerna i roboten.
 
 Följande underkommandon finns:
 
-/prime find `<query>` - söka efter kurser, certifieringar etc.
+/prime find `<query>` - sök efter kurser, certifieringar osv.
 
 /prime rekommenderar - visa rekommendationer
 
@@ -63,7 +63,7 @@ Följande underkommandon finns:
 
 /prime-kataloger - visa kataloger
 
-/prime bjud in - [Endast administratör] bjud in Slack-användare i det nuvarande teamet att testa primebot
+/prime-inbjudan - [Endast administratör] bjud in Slack-användare i det nuvarande teamet att testa PrimeBot
 
 /prime profile- visa profil
 
@@ -73,7 +73,7 @@ Följande underkommandon finns:
 
 2 - Rekommendera
 
-Du kan prova en fras som `show my recommendations` för att få en personlig lista över rekommenderade kurser, certifieringar och utbildningsprogram från ditt Adobe Learning Manager-konto.
+Du kan testa en fras som `show my recommendations` för att få en personlig lista över rekommenderade kurser, certifieringar och utbildningsprogram från ditt Adobe Learning Manager-konto.
 
 3 - Sökning
 

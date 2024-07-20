@@ -1,5 +1,5 @@
 ---
-description: Läs mer om de nya funktionerna och förbättringarna i mars 2024-versionen av Adobe Learning Manager
+description: Läs om de nya funktionerna och förbättringarna i mars 2024-utgåvan av Adobe Learning Manager
 jcr-language: en_us
 title: Sammanfattning av nya funktioner
 contentowner: jayakarr
@@ -13,55 +13,55 @@ ht-degree: 0%
 
 # Sammanfattning av nya funktioner {#new-features-summary}
 
-Lär dig mer om de nya funktionerna och förbättringarna i mars 2024-versionen av Adobe Learning Manager.
+Läs om de nya funktionerna och förbättringarna i mars 2024-versionen av Adobe Learning Manager.
 
-Utforska några av de senaste funktionerna i Adobe Learning Manager, till exempel:
+Utforska några av de senaste Adobe Learning Manager-funktionerna, till exempel:
 
-1. Importera kunskaper från externa källor
+1. Importera kompetenser från externa källor
 1. Stöd för flera varumärken
-1. Checklista för omvärdering-aktivitetsmodul
-1. Vitmärkt app för mobilt lärande
+1. Modul för omvärdering av checklista-aktivitet
+1. Vitmärkt app för mobil inlärning
 
 >[!NOTE]
 >
->Kolla in det här [webbseminariet](https://learningmanager.adobe.com/app/learner?accountId=98632#/course/9212121) för att lära dig mer om de nya funktionerna i den här versionen.
+>Titta på det här [webbseminariet](https://learningmanager.adobe.com/app/learner?accountId=98632#/course/9212121) om du vill veta mer om de nya funktionerna i den här versionen.
 
 
-## Vad är nytt i den här versionen {#whatsnewandchanged}
+## Nyheter i den här versionen {#whatsnewandchanged}
 
-### Importera kunskaper från externa källor
+### Importera kompetenser från externa källor
 
-Importera kunskaper från innehållsleverantörer, till exempel LinkedIn och Go1, med hjälp av respektive anslutningsprogram. Den här förbättringen är en del av målet mot Learning Managers förmåga att integrera med externa Skills Clouds och Talent Management Systems. De importerade färdigheterna läggs till i de administratörsdefinierade färdigheterna i Learning Manager och är tillgängliga för författare när du skapar kursen. Förbättringar har också gjorts av färdighetssökningsfunktionen på plattformen för att ge en bättre sökupplevelse när kontot har ett stort antal färdigheter.
+Importera kunskaper från innehållsleverantörer, till exempel LinkedIn och Go1, genom att använda respektive kopplingar. Denna förbättring är en del av målet mot Learning Managers förmåga att integrera med externa Skills Clouds och Talent Management Systems. De importerade kunskaperna läggs till i de administratörsdefinierade kunskaperna i Learning Manager och kommer att vara tillgängliga för författare under arbetsflödet för att skapa kursen. Förbättringar har också gjorts i kompetenssökningsfunktionen på hela plattformen för att ge en bättre sökupplevelse när kontot har ett stort antal färdigheter.
 
-Visa [importkunskaper](administrators/feature-summary/import-skills-external-sources.md) om du vill veta mer.
+Visa [Importera kompetenser](administrators/feature-summary/import-skills-external-sources.md) om du vill veta mer.
 
-### Anpassat varumärke
+### Anpassad varumärkning
 
-Du kommer nu att kunna anpassa vissa gränssnittselement – organisationsnamnet, logotypen och användargränssnittstemat baserat på de användargrupper som är tillgängliga i kontot. En organisation med flera avdelningar kan till exempel ställa in en anpassad logotyp och ett UI-tema som ska visas för varje avdelning.
+Du kan nu anpassa vissa användargränssnittselement - organisationsnamnet, logotypen och användargränssnittstemat baserat på de användargrupper som är tillgängliga på kontot. En organisation med flera avdelningar kan till exempel ställa in en anpassad logotyp och ett användargränssnittstema som ska visas för varje avdelning.
 
 >[!NOTE]
 >
->Den här funktionen för flera varumärken gäller inte för Admins vy. De kommer alltid att se varumärkesprofilering på organisationsnivå i sitt konto. Detta beror på att det här är en funktion som riktar sig till eleverna, och administratörer kanske inte vill ha den på sitt konto.
+>Funktionen för flera varumärken gäller inte administratörsvyn. De ser alltid varumärken på organisationsnivå i sina konton. Det beror på att det här är en funktion som är riktad till elever och att administratörer kanske inte vill ha den på sina konton.
 
-Visa [Flera anpassade varumärken](administrators/feature-summary/themes.md#multiple-branding) för mer information.
+Visa [Flera anpassade varumärken](administrators/feature-summary/themes.md#multiple-branding) om du vill ha mer information.
 
 
 ## Ändringar för konton med stor användarbas
 
-### Admin- Kurs- eller utbildningsvägssidor
+### Admin - sidor för kurs eller utbildningsväg
 
-Om ett stort antal elever är inskrivna på kursen, till exempel fler än 50 000, visas inte listan över elever. Du kan antingen söka efter en elev i *sökfältet Sök elever* eller välja länken **Ladda ner** högst upp i sökfältet för att ladda ner listan över elever.
+Om ett stort antal elever är registrerade på kursen, till exempel fler än 50 000, visas listan med elever inte. Du kan antingen söka efter en elev i sökfältet *Sök elever* eller välja länken **Hämta** längst upp i sökfältet för att hämta listan över elever.
 
-### Sidan Admin- Elever
+### Admin - sidan Elever
 
-När du söker efter en användare laddar **alternativen Ladda ner elev** och **Exportera** ner samma rapport. Under tiden, när du söker efter en användargrupp, kan du nu ladda ner filtrerade användare från den användargruppen. När du söker i en användargrupp,
-Alternativet Ladda **ned elevlista** ändras till **Ladda ned elevlista för användargrupp** Alternativet **Exportera** laddar ned hela listan igen.
+När du söker efter en användare hämtar alternativen **Hämta elev** och **Exportera** samma rapport. Under tiden kan du när du söker efter en användargrupp hämta filtrerade användare från den användargruppen. När du söker i en användargrupp
+**Hämta elevlistan** ändras till **Hämta elevlistan för användargruppen** Alternativet **Exportera** hämtar hela listan igen.
 
-### Sidan Admin- Användare
+### Administratör - sidan Användare
 
 #### Interna användare
 
-Om antalet användare till exempel överstiger 50 000 visas ett meddelande om att ladda ned data för en mer detaljerad analys senare. Sökfältet är nu framträdande och visar en användare i formatet *Namn, e-post | UUID*.
+Om antalet användare överstiger t.ex. 50 000 visas ett meddelande om att hämta data för en mer detaljerad analys senare. Sökfältet är nu framträdande och visar en användare i formatet *Namn, e-post | UUID*.
 
 >[!NOTE]
 >
@@ -69,45 +69,45 @@ Om antalet användare till exempel överstiger 50 000 visas ett meddelande om at
 
 #### Externa användare
 
-För externa användare gäller samma beteende. Om antalet användare är stort kan du ladda ner användarna och även hämta uppgifter om en användare efter en sökning i formatet *Namn, e-post | UUID*.
+För externa användare gäller samma beteende. Om antalet användare är stort kan du hämta användarna och även hämta information om en användare efter en sökning i formatet *Namn, e-post | UUID*.
 
 #### Sidan Användarrensning
 
-På sidan Användarrensning har vi tagit bort sorteringsfunktionen **för borttagna användare för Datum borttagen**. Du kan bara sortera på UUID:erna.
+På sidan Användarrensning har vi tagit bort sorteringsfunktionen **Datum borttagen** för borttagna användare. Du kan bara sortera på UUID:n.
 
-### Sidor för admin-instans
+### Admin - instanssidor
 
 #### Kurs eller utbildningsväg
 
-Om antalet inskrivningar är stort visas inte antalet elever i Adobe Learning Manager. Istället kommer det att finnas en ikon som du kan välja och se antalet elever och navigera till sidan Elever.
+Om antalet registreringar är stort visar Adobe Learning Manager inte antalet elever. Istället kommer det att finnas en ikon, som du kan välja och visa antalet elever och gå till sidan Elever.
 
-Antalet elever kommer att visas som ett ungefärligt värde. Till exempel, om antalet elever är fler än 50 000, kommer värdet att visas som 50K+.
+Antalet elever visas som ett ungefärligt värde. Om antalet elever till exempel är fler än 50 000 visas värdet som 50K+.
 
-### Admin- L1/L3 sidor
+### Admin - L1/L3-sidor
 
-Om antalet kursinskrivningar är stort på L1 Feedback-sidan visas inte listan över elever. I stället kan du exportera listan över användare för en mer detaljerad analys senare.
+Om antalet kursregistreringar är stort på sidan L1-feedback visas listan med elever inte. Du kan i stället exportera användarlistan för en mer detaljerad analys senare.
 
-Sökningen har stöd för förskrivning och resultaten är begränsade till den valda instansen.
+Sökningen stöder kommande text och resultaten är begränsade till den markerade instansen.
 
-#### Sidan Närvaro och poängsättning
+#### Närvaro och poäng
 
-När du söker efter en användare på sidan körs sökningen över alla tillgängliga instanser. Resultatet är dock för den valda instansen.
+När du söker efter en användare på sidan utförs sökningen i alla tillgängliga instanser. Resultatet är för den markerade instansen.
 
-Om du söker efter en användargrupp på sidan Närvaro och antalet användare överstiger 10 000 i användargruppen oavsett registrering, kan du bara utföra åtgärder på gruppnivå. Du kommer inte att kunna visa listan över användare.
+Om du på sidan Närvaro söker efter en användargrupp och antalet användare överstiger 10 000 i användargruppen oavsett registrering, kan du bara utföra åtgärder på gruppnivå. Du kan inte se listan över användare.
 
-Om antalet användare i användargruppen är färre än 10 000 kan du utföra enskilda åtgärder på användarnivå tillsammans med åtgärder på gruppnivå. I det här fallet inaktiveras inte listan över användare.
+Om antalet användare i användargruppen är färre än 10 000 kan du utföra enskilda åtgärder på användarnivå tillsammans med åtgärder på gruppnivå. I det här fallet är listan över användare inte inaktiverad.
 
-### Sidan Admin- Certifieringar
+### Admin - sidan Certifieringar
 
-Om det finns ett stort antal användare som är registrerade för en certifiering i aktuella versioner av Adobe Learning Manager kan du inte visa de oregistrerade eleverna eftersom **listrutan Status** är inaktiverad.
+Om det finns ett stort antal användare som är registrerade för en certifiering i de aktuella versionerna av Adobe Learning Manager kan du inte visa avregistrerade elever eftersom listrutan **Status** är inaktiverad.
 
-Om antalet registrerade användare är stort i den här versionen av Adobe Learning Manager visas bara två alternativ i **listrutan Status** : **Registrerad** och **Avregistrerad**. Alternativet **Registrerad** är markerat som standard. Om du väljer **Avregistrerad** visas listan över inskrivna elever.
+Om antalet registrerade användare är stort i den här versionen av Adobe Learning Manager visas bara två alternativ i listrutan **Status** - **Registrerade** och **Avregistrerade**. Alternativet **Registrerad** är valt som standard. Om du väljer **Avregistrerade** visas listan med avregistrerade elever.
 
-#### Ändringar i användargrupp
+#### Ändringar i användargrupper
 
-Om antalet användare i användargruppen är färre än till exempel 50 000 **visar listrutan Status** alla alternativ – Certifierad, Tilldelad och Upphör att gälla.
+Om antalet användare i användargruppen är färre än, till exempel 50 000, visas alla alternativ i listrutan **Status** - Certifierad, Tilldelad och Utgående.
 
-Om antalet användare i en användargrupp är stort **visar rullgardinsmenyn Status** bara två alternativ - **Registrerade** och **Avregistrerade**, enligt den nya designen.
+Om antalet användare i en användargrupp är stort visas bara två alternativ i listrutan **Status** - **Registrerade** och **Avregistrerade**, enligt den nya designen.
 
 ### Jämförelsetabell
 
@@ -115,110 +115,110 @@ Om antalet användare i en användargrupp är stort **visar rullgardinsmenyn Sta
     <tbody>
         <tr>
             <td><b>Sida</b></td>
-            <td><b>Före ändring av tröskelvärden</b></td>
-            <td><b>Efter ändring av tröskelvärde</b></td>
+            <td><b>Före tröskeländring</b></td>
+            <td><b>Efter tröskeländring</b></td>
         </tr>
         <tr>
-            <td>Admin- Kursomgång</td>
-            <td>Instanser visas som utformade med följande:
+            <td>Admin - kursinstans</td>
+            <td>Instanser visas som om de vore utformade med följande:
             <ul>
                 <li>Moduler</li>
-                <li>Inskrivna elever</li>
+                <li>Elever registrerade</li>
                 <li>Sessioner</li>
                 <li>Utmärkelsetecken</li>
                 <li>L1-feedback aktiverad</li>
                 <li>Aviseringar</li>
-                <li>Poäng för spelifiering</li>
+                <li>Spelifieringspunkter</li>
                 <li>QR-kod</li>
                 <li>Tillägg för utbildningsväg</li>
             </ul>
             <td>
                 <ul>
-                    <li>Om antalet registreringar överskrider det fördefinierade tröskelvärdet kommer ALM inte att visa antalet. det kommer att ersätta räkningen med en ikon, som när du klickar på visar det faktiska antalet elever och en länk som tar dig till sidan Elever.</li>
-                    <li>Antalet anmälningar kommer att visas i ett ungefärligt format. Till exempel, om antalet är mer än 50 000, kommer antalet att visas som 50K+ på kursnivå.</li>
+                    <li>Om antalet registreringar överskrider det på förhand angivna tröskelvärdet visar ALM inte antalet utan ersätter antalet med en ikon som visar det faktiska antalet elever och en länk för att ta dig till sidan Elever när du klickar på den.</li>
+                    <li>Antalet registreringar visas i ungefärligt format. Om siffran till exempel är högre än 50 000 visas antalet som 50 K+ på kursnivån.</li>
                 </ul>
             </td>
         </tr>
         <tr>
-            <td>Sidan Admin- Elever</td>
+            <td>Admin - sidan Elever</td>
             <td>
                     <ul>
-                        <li>Listan över elever visas för varje instans.</li>
-                        <li>Du kan söka efter en användare eller användargrupp som är inskriven på en kurs.</li>
-                        <li>Den exporterade rapporten består inte av något filter för användargrupp.</li>
+                        <li>Listan med elever visas för varje instans.</li>
+                        <li>Du kan söka efter en användare eller användargrupp som är registrerad på en kurs.</li>
+                        <li>Den exporterade rapporten innehåller inget filter för användargrupp.</li>
                     </ul>
             </td>
             <td>
                 <ul>
-                    <li>Valet av instans är inaktiverat.</li>
-                    <li>Ladda ned elevlista laddar också ned samma data förutom i ett fall. Om du söker efter en användargrupp och sedan väljer Ladda ned elevlista kommer den att ladda ned användargruppsdata.</li>
+                    <li>Markeringen av instansen är inaktiverad.</li>
+                    <li>Hämta elevlistan hämtar också samma data förutom ett fall. Om du söker efter en användargrupp och sedan väljer Hämta elevlista kommer den att hämta användargruppsdata.</li>
                 </ul>
             </td>
         </tr>
         <tr>
-            <td>Admin- L1/L3 feedbacksida</td>
+            <td>Admin - L1/L3-feedbacksida</td>
             <td>
-                <p>Ingen förändring i det befintliga beteendet</p>
+                <p>Ingen förändring i befintligt beteende</p>
             </td>
             <td>
                 <ul>
-                    <li>Valet av instans är inaktiverat.</li>
-                    <li>Om inskrivningen till en kurs är över 50K, listar ALM inte elever och visar endast sökfältet. Om registreringen är mindre än 50K visar ALM både elevlista och sökfält.</li>
-                    <li>Listning är inaktiverat som standard.</li>
+                    <li>Markeringen av instansen är inaktiverad.</li>
+                    <li>Om registreringen till en kurs är högre än 50 000 listas inte elever i ALM och endast sökfältet visas. Om registreringen är mindre än 50 000 visas både elevlista och sökfält i ALM.</li>
+                    <li>Listan är inaktiverad som standard.</li>
                 </ul>
             </td>
         </tr>
         <tr>
-            <td>Admin- Sida för närvaro och poängsättning</td>
+            <td>Administratör - sida för närvaro och poäng</td>
             <td>
-                <p>Ingen förändring i det befintliga beteendet</p>
+                <p>Ingen förändring i befintligt beteende</p>
             </td>
             <td>
                 <ul>
-                    <li>Valet av instans inaktiveras när du söker efter en användare.</li>
-                    <li>Om antalet användare till exempel överstiger 50 000 visas ytterligare ett meddelande om att ladda ned data för en mer detaljerad analys senare. Sökfältet är nu framträdande och visar en användare i formatet Namn, e-post | UUID.</li>
-                    <li>Om antalet användare i användargruppen är färre än 10 000 oavsett registrering kan du utföra enskilda åtgärder på användarnivå tillsammans med åtgärder på gruppnivå. I det här fallet inaktiveras inte listan över användare.</li>
+                    <li>Val av instans inaktiveras när en användare söks.</li>
+                    <li>Om antalet användare överstiger, till exempel, 50 000, kommer det att finnas ett extra meddelande för att ladda ner data för en mer detaljerad analys senare. Sökfältet är nu framträdande och visar en användare i formatet Namn, E-post | UUID</li>
+                    <li>Om antalet användare i användargruppen är färre än 10 000 oavsett registrering kan du utföra åtgärder på enskild användarnivå tillsammans med åtgärder på gruppnivå. I det här fallet är listan över användare inte inaktiverad.</li>
                 </ul>
             </td>
         </tr>
         <tr>
-            <td>Admin- L2 Quiz Resultatsida</td>
+            <td>Admin - L2 quiz-poängsida</td>
             <td>
                     <ul>
-                        <li>Användarsökning implementeras också.</li>
+                        <li>Även användarsökning implementeras.</li>
                     </ul>
             </td>
             <td>
                 <ul>
-                    <li>Användarsökning implementeras också. Medan typeahead-sökningar på LO-nivå filtreras listan till den valda instansen.</li>
+                    <li>Även användarsökning implementeras. När skrivhuvudet söks på LO-nivå filtreras listan till den markerade instansen.</li>
                 </ul>
             </td>
         </tr>
         <tr>
-            <td>Sidan Admin- Användare (internt, externt)</td>
+            <td>Administratör - sidan Användare (intern, extern)</td>
             <td>
                     <ul>
-                        <li>E-post-ID:t visas när du söker efter en användare.</li>
+                        <li>E-post-ID visas när du söker en användare.</li>
                     </ul>
             </td>
             <td>
                 <ul>
-                    <li>Om antalet användare till exempel överstiger 50 000 visas ytterligare ett meddelande om att ladda ned data för en mer detaljerad analys senare. Sökfältet är nu framträdande och visar en användare i formatet Namn, e-post | UUID.</li>
-                    <li>På sidan Användarrensning har vi tagit bort sorteringsfunktionen för borttagna användare på **Datum raderad**. Du kan bara sortera på UUID:erna.</li>
+                    <li>Om antalet användare överstiger, till exempel, 50 000, kommer det att finnas ett extra meddelande för att ladda ner data för en mer detaljerad analys senare. Sökfältet är nu framträdande och visar en användare i formatet Namn, E-post | UUID</li>
+                    <li>För borttagna användare på sidan Användarrensning har vi tagit bort sorteringsfunktionen den **Borttaget**. Du kan bara sortera på UUID:n.</li>
                 </ul>
             </td>
         </tr>
         <tr>
-            <td>Instruktörer - Inlämning</td>
+            <td>Instruktörer - ansökan</td>
             <td>
                     <ul>
                         <li>Sidnumrering av moduler som ska lämnas in.</li>
-                        <li>Som lärare kan du nu filtrera filinlämningar från elever baserat på status, avslutande granskning, väntar på inlämning, godkänd och misslyckad. </li>
+                        <li>Instruktörer kan nu filtrera filansökningar från elever baserat på status, slutar på granskning, väntar på inlämning, godkändes och misslyckades. </li>
                     </ul>
             </td>
             <td>
                 <ul>
-                    <li>Du kan bara söka efter användare, inte användargrupper i det fallet.</li>
+                    <li>Du kan bara söka efter användare, inte användargrupper i den instansen.</li>
                 </ul>
             </td>
         </tr>
@@ -226,12 +226,12 @@ Om antalet användare i en användargrupp är stort **visar rullgardinsmenyn Sta
             <td>Räkna med förhandsgranskning som elevsida</td>
             <td>
                     <ul>
-                        <li>Antalet inkluderar data från registrering av högre ordning.</li>
+                        <li>Antal inkluderar data från registrering av högre order.</li>
                     </ul>
             </td>
             <td>
                 <ul>
-                    <li>Antal exkluderar data från registreringar med högre ordning.</li>
+                    <li>Antal exkluderar data från registreringar av högre order.</li>
                 </ul>
             </td>
         </tr>
@@ -240,162 +240,162 @@ Om antalet användare i en användargrupp är stort **visar rullgardinsmenyn Sta
 
 ## Avancerade sökfunktioner
 
-I den här versionen har vi förbättrat sökupplevelsen. Sökresultaten hämtas inte bara baserat på metadata, utan även semantisk sökning och innehållssökning för att härleda resultat baserat på precision, aktualitet och relevant innehåll.
+I den här versionen har vi förbättrat sökfunktionen. Sökresultaten hämtas inte bara utifrån metadata utan också semantisk och innehållsrik sökning för att få resultat baserade på precision, aktuell information och relevant innehåll.
 
-Den här ändringen återspeglar följande:
+Ändringen gäller följande:
 
-* Katalog och sidan Min utbildning: Hovringsåtgärden för kurs, utbildningsväg och certifiering har tagits bort.
+* Katalog och Min utbildningssida: hovringsåtgärden för kurs, utbildningsväg och certifiering har tagits bort.
 * Utseendet på sökfältet.
 * Filtertaggar har lagts till i utbildningsappen.
 
-Om du vill aktivera sökfunktionerna kontaktar du CSAM-teamet på Adobe Learning Manager.
+Kontakta Adobe Learning Manager CSAM-team om du vill aktivera sökfunktionerna.
 
 ## Ändringar i användargränssnittet {#ui-changes}
 
-### Sida för att skapa kurser
+### Sida för att skapa kurs
 
-När du mappar kurserna till en färdighetsnivå är listan över färdigheter först sökbar. Med andra ord, sök efter färdigheter, så visas en lista över färdigheter som matchar den sökta termen.
+När du mappar kurserna till en kompetensnivå visas listan med kompetenser med sökförst. Med andra ord, sök färdigheter, och du kommer att se en lista över färdigheter som matchar söktermen.
 
 ### Användargrupper
 
-#### Administratör: Sidan Elever
+#### Administratör: sidan Elever
 
-När du söker efter en användare laddar **alternativen Ladda ner elev** och **Exportera** ner samma rapport. Under tiden, när du söker efter en användargrupp, kan du nu ladda ner filtrerade användare från den användargruppen. När du söker efter en användargrupp ändras listan **Ladda ned elev** till **Ladda ned elevlista för användargrupp** Alternativet **Exportera** laddar ned hela listan igen.
+När du söker efter en användare hämtar alternativen **Hämta elev** och **Exportera** samma rapport. Under tiden kan du när du söker efter en användargrupp hämta filtrerade användare från den användargruppen. När du söker i en användargrupp ändras listan **Hämta elevlista** till **Hämta elevlista för användargrupp** Alternativet **Exportera** hämtar hela listan igen.
 
 ## Ändringar i rapporter
 
-* Kolumnerna Taggar och Färdigheter i Utbildningsrapporten ändras till Tagg och Färdigheter.
-* Lade till rapporten [Gamification Audit Trail](administrators/feature-summary/reports.md#gamification-audit-trail).
-* Om ett konto innehåller fler än 280000 elever som tilldelats en färdighet laddas färdighetsinlärningsrapporten ned som en zippad csv.
-Om kontot har färre än 250000 elever laddas samma rapport ned som en CSV-fil.
-På sidan Admin väljer du **Admin** > **Skills** > **Skill** > **Learners**. Rapporten laddas ned som CSV.
-* Rapporten [](administrators/feature-summary/reports.md#session-summary-report) Sessionssammanfattning har två nya kolumner – Platsinformation och Platsregion.
+* Kolumnerna Taggar och Kompetens i rapporten Utbildningar har ändrats till Tagg och Kompetenser.
+* Granskningsspåret [Spelifiering](administrators/feature-summary/reports.md#gamification-audit-trail) har lagts till.
+* Om ett konto innehåller fler än 280000 elever som har tilldelats en kompetens hämtas rapporten om kompetensen-eleven som en zippad CSV-fil.
+Om kontot har färre än 250000 elever hämtas samma rapport som en CSV-fil.
+På sidan Admin väljer du **Admin** > **Kompetenser** > **Kompetens** > **Elever**. Rapporten hämtas i CSV-format.
+* [Sessionssammanfattningsrapporten](administrators/feature-summary/reports.md#session-summary-report) har två nya kolumner - Platsinformation och Platsregion.
 
 ## Ändringar i skapandet av klassrum
 
-Baserat på [administratörsinställningar](administrators/feature-summary/classroom.md#classroom-settings) kan [du som författare skapa, ändra och ta bort platser](administrators/feature-summary/classroom.md#add-classroom-location).
+Enligt [administratörsinställningarna](administrators/feature-summary/classroom.md#classroom-settings) kan du som författare [skapa, ändra och ta bort platser](administrators/feature-summary/classroom.md#add-classroom-location).
 
 >[!NOTE]
 >
->När du lägger till plats- och katalogetiketter ser författare (på sidan för att skapa kurser) och administratörer (på instanssidan) en automatiskt ifylld lista över platser respektive katalogetiketter.
+>När du lägger till plats- och katalogetiketter visas en automatiskt ifylld lista med platser och katalogetiketter för författare (på sidan för att skapa kurs) och administratörer (på instanssidan).
 
-Som administratör kan du tillämpa begränsningar för en författare att ändra eller ta bort en klassrumsplats. Visa [inställningarna](administrators/feature-summary/classroom.md#classroom-settings) för Classroom om du vill ha mer information.
+Du som är administratör kan tillämpa begränsningar för en författare så att hen kan ändra eller ta bort en klassrumsplats. Visa [klassrumsinställningar](administrators/feature-summary/classroom.md#classroom-settings) om du vill ha mer information.
 
-## Ändringar av flexibel utbildningsväg
+## Förändringar av flexibel utbildningsväg
 
-Alla konton (gamla och nya) kommer att börja inkludera tidsgräns för registrering, tidsgräns för avregistrering och platsgräns i Learner-appen för en flexibel utbildningsväg.
-Elever kommer nu att kunna anmäla sig till Flexibel utbildningsväg utan att välja någon instans av kursen.
+Alla konton (gamla och nya) i börjar inklusive registreringsdeadline, deadline för avregistrering och platsgräns i elevappen för en flexibel utbildningsväg.
+Elever nu kommer att kunna registrera sig för en flexibel utbildningsväg utan att välja någon instans av kursen.
 
 ## Ny utlösare för utbildningsplaner
 
-En ny utlösare har lagts till på inställningssidan för utbildningsplanen. Författare och administratörer kommer nu att kunna utlösa åtgärder när en elev misslyckas med en modul i en kurs.
+En ny utlösare har lagts till på inställningssidan för utbildningsplanen. Författare och administratörer kan nu utlösa åtgärder när en elev misslyckas med en modul i en kurs.
 
-Visa [utbildningsplaner](administrators/feature-summary/learning-plans.md) för mer information.
+Titta i [utbildningsplaner](administrators/feature-summary/learning-plans.md) om du vill ha mer information.
 
 ## Ny inlämningsstatus
 
-Som lärare kan du nu filtrera filinlämningar från elever baserat på status, avslutande granskning, väntar på inlämning, godkänd och misslyckad.
+Instruktörer kan nu filtrera filansökningar från elever baserat på status, slutar på granskning, väntar på inlämning, godkändes och misslyckades.
 
-Visa [sändningsstatus](instructors/feature-summary/learners.md#filter-file-submissions) för mer information.
+Se [Överföringsstatus](instructors/feature-summary/learners.md#filter-file-submissions) för mer information.
 
-## Förbättringar av checklistor
+## Förbättringar av checklista
 
-I mars 2024-versionen av Adobe Learning Manager är förbättringarna av arbetsflödet för checklistan följande:
+I mars 2024-versionen av Adobe Learning Manager har följande förbättringar gjorts i arbetsflödet för checklistan:
 
-### Tillåt inte förlopp för att misslyckas med en checklista
+### Tillåt inte förlopp när en checklista misslyckas
 
-När du skapar en checklista kan en författare välja **Aktivera** i avsnittet Obligatorisk checklista. Om du gör det förhindrar du att en elev fortsätter i modulen om de misslyckas med checklistan. De kan bara fortsätta om de klarar checklistan.
+När en checklista skapas kan en författare välja **Aktivera** i avsnittet Obligatorisk checklista. Detta förhindrar en elev från att fortsätta i modulen om hen inte uppfyller checklistan. De kan bara fortsätta om de klarar checklistan.
 
-Checklistans granskare, det vill säga instruktörer eller chefer, kan sedan kontrollera checklistans status. Granskare kan också granska en elevs checklista i fel ordning.
+Checklistegranskarna, dvs. instruktörer eller chefer, kan sedan kontrollera checklistans status. Granskare kan också granska en elevs checklista i fel ordning.
 
-### Omvärdering av en checklista
+### Omprövning av checklista
 
-När du skapar en checklista kan en författare välja **Aktivera** i avsnittet Omvärdering. Genom att göra det kan en chef eller instruktör omvärdera en elev tills de klarar checklistan.
+När du skapar en checklista kan en författare välja **Aktivera** i avsnittet Utvärdering. Om du gör det kan en chef eller instruktör utvärdera en elev på nytt tills de godkänns i checklistan.
 
-Om modulen är obligatorisk är kryssrutan för omvärdering markerad som standard.
+Om modulen är obligatorisk är kryssrutan för ny utvärdering markerad som standard.
 
-En instruktör eller chef kan också ändra statusen för en checklista från Misslyckad till Godkänd när omvärdering är aktiverad.
+En instruktör eller chef kan också ändra statusen för en checklista från Misslyckad till Godkänd när omutvärdering är aktiverad.
 
-På sidan Checklista kan en lärare se antalet elever i väntande tillstånd. Som instruktör kan du utvärdera en elev och godkänna eller underkänna dem. Om en elev är i ett misslyckat tillstånd kan du bara visa checklistan när omvärdering inte är aktiverad.
+På sidan Checklista kan en instruktör se antalet elever i läget Väntande. Du som är instruktör kan utvärdera en elev och godkänna eller underkänna den. Om en elev är i ett misslyckat tillstånd kan du bara visa checklistan när omvärdering inte är aktiverad.
 
-Det innebär att **kryssrutan Aktivera inte var markerad i avsnittet Omvärdering** när checklistan skapades. Om den här kryssrutan är markerad kan du se knappen Visa/Omvärdera på sidan Checklista för lärare.
+Det innebär att kryssrutan **Aktivera** inte markerades i avsnittet Omvärdering när checklistan skapades. Om den här kryssrutan är markerad kan du se knappen Visa/omutvärdera på sidan Checklista för instruktör.
 
-Genom att välja knappen kan du omvärdera en elev och markera dem som godkända eller misslyckade.
+Genom att välja knappen kan du omvärdera en elev och markera den som godkänd eller ej godkänd.
 
 >[!NOTE]
 >
->Båda dessa funktioner - Omvärdering och Att göra checklista som obligatorisk - gäller endast för nyskapade moduler. När en kurs väl är publicerad kan dessa inte slås på/av.
+>Båda dessa funktioner - omvärdering och att göra checklistan obligatorisk - gäller endast nya moduler. När en kurs har publicerats kan den inte slås på/av.
 
 
-Visa [Skapa en checklista](authors/feature-summary/courses.md#checklist-fail) för mer information.
+Visa [Skapa en checklista](authors/feature-summary/courses.md#checklist-fail) om du vill ha mer information.
 
 ## Andra förbättringar
 
-### Sessionsrelaterade e-postaviseringar
+### Sessionsrelaterade e-postmeddelanden
 
-I tidigare versioner av Adobe Learning Manager fick en elev inte sessionsrelaterade e-postmeddelanden, uppdaterade sessionsuppgifter, sessionsinbjudningar och sessionspåminnelser när:
+I tidigare versioner av Adobe Learning Manager kunde en elev inte skicka sessionsrelaterade e-postmeddelanden, sessionsdetaljerna har uppdaterats, sessionsinbjudan och sessionspåminnelse när:
 
-* Eleverna har slutfört en kurs,
-* nya sessioner läggs till i en kurs, eller
-* Det finns ändringar i befintliga sessioner.
+* Elever har slutfört en kurs,
+* Nya sessioner läggs till i en kurs eller
+* Befintliga sessioner har ändrats.
 
-I mars 2024-versionen av Adobe Learning Manager är följande nya ändringar:
+De nya ändringarna är följande i mars 2024-utgåvan av Adobe Learning Manager:
 
-* Sessionsinformation uppdaterad och sessionsinbjudan (för elev och lärare)
-   * För framtida sessioner kommer e-postmeddelanden för **sessionsinformation att uppdateras**, **sessionsinbjudningar** för inskrivna elever och nuvarande lärare att fasas ut. För tidigare sessioner kommer e-postmeddelanden för **uppdaterade** sessionsuppgifter och **sessionsinbjudningar** för inskrivna elever och nuvarande lärare att förbli som de är.
-* Påminnelser via e-post (för administratör och elev)
-   * För framtida sessioner kommer endast **e-postmeddelanden med sessionspåminnelser** att skickas.
+* Sessionsdetaljerna har uppdaterats och inbjudan till session (för elev och instruktör)
+   * För framtida sessioner kommer e-postmeddelanden om **Sessionsdetaljer som har uppdaterats**, **Sessionsinbjudan** för registrerade elever och aktuella instruktörer att tas bort. För tidigare sessioner kommer e-postmeddelanden om **Sessionsdetaljer har uppdaterats** och **Sessionsinbjudan** för registrerade elever och aktuella instruktörer att förbli oförändrade.
+* E-postpåminnelse (för administratör och elev)
+   * För framtida sessioner skickas endast **Sessionspåminnelse** e-postmeddelanden.
 
 >[!NOTE]
 >
->E-postmeddelandena är inte beroende av att sessionen och kursen är klar.
+>E-postmeddelandena beror inte på om sessionen och kursen har slutförts.
 
 
-### Ändringar av AEM referenswebbplats
+### Ändringar i referenswebbplats för AEM
 
-På en AEM referenswebbplats har vi lagt till stöd för att lägga till administratörsuppdateringstoken i Learner Access Token.
+På en AEM-referensplats har vi lagt till stöd för att lägga till en administrativ uppdateringstoken till elevåtkomsttoken.
 
-### Dölja inlämningar från lärare
+### Dölj bidrag från instruktörer
 
-Om en lärare inte vidtar någon åtgärd (godkänner eller avvisar) för inlämningen efter att eleverna har laddat upp sina filer med hjälp av arbetsflödet för filinlämning, döljs inlämnings-URL:en från vyn efter ett fördefinierat antal dagar. Kontakta CSAM-teamen i Adobe Learning Manager för att ställa in eller ändra antalet dagar.
+Om en instruktör inte vidtar någon åtgärd (godkänner eller avvisar) när en fil skickas, efter att eleverna har överfört sina filer med hjälp av arbetsflödet för inlämning, döljs inlämnings-URL:en i vyn efter ett fördefinierat antal dagar. Kontakta CSAM-teamen hos Adobe Learning Manager för att ange eller ändra antalet dagar.
 
-### Ändringar i produktterminologin
+### Ändringar i produktterminologi
 
-Vi har lagt till kolumnerna *Instance* och *Learner* i vokabulären för produktterminologi.
+Vi har lagt till kolumnerna *Instans* och *Elev* i terminologiordförrådet för produkten.
 
-### Ändringar i mobilappen
+### Ändringar i mobilappar
 
-I den här versionen av mobilappen kan eleverna schemalägga och hantera försenade kurspåminnelser. Genom att klicka på en försenad påminnelse kan du komma åt följande alternativ:
+I den här mobilappsversionen kan elever schemalägga och hantera påminnelser om försenade kurser. Om du klickar på en påminnelse som borde ha skickats för länge sedan kan du få tillgång till följande alternativ:
 
 * Avbryt
 * Gå till kurs
-* Påminn mig igen om 3 dagar
+* Påminn mig igen om tre dagar
 * Påminn mig igen om en vecka
 
-På Android: Om du klickar på push-meddelandet kommer du till sidan Kursöversikt ****.
-På iOS: Om du klickar på push-meddelandet kommer du till appens startsida. Detta är en känd begränsning i iOS.
+På Android: Om du klickar på push-meddelandet dirigeras du till sidan **Kursöversikt**.
+I iOS: Om du klickar på push-meddelandet dirigeras du till appens startsida. Detta är en känd begränsning i iOS.
 
-### Ändringar av checklista i Learner-appen på Salesforce
+### Checklisteändringar i elevappen i Salesforce
 
-Om en elev misslyckas med en checklista kan han eller hon inte gå vidare till nästa modul eller kurs. När kryssrutan Obligatorisk checklista är markerad kan eleven inte gå vidare i en kurs om han eller hon inte klarar checklistan.
+Om en elev misslyckas med en checklista kan hen inte fortsätta till nästa modul eller kurs. När kryssrutan Obligatorisk checklista är markerad kan eleven inte gå vidare i en kurs om hen inte lyckas med checklistan.
 
-Precis som med webbappen, om en elev misslyckas med en checklista i Salesforce-appen, kommer de att se ett meddelande och kommer inte att gå vidare.
+Om en elev, precis som med webbappen, misslyckas med att checka in ett Salesforce-program, ser hen ett meddelande och kommer inte att gå vidare.
 
 ### Ändringar i Connect VC
 
-I aktuella versioner av Adobe Learning Manager markeras en elev som **Inte närvarande** när han eller hon är registrerad för en Connect VC-session, men inte uppfyllde slutförandekriterierna.
+I aktuella versioner av Adobe Learning Manager har en elev markerats som **Inte närvarat** när hen registrerar sig för en Connect VC-session, men den uppfyllde inte slutförandevillkoren.
 
-I den här versionen ändras statusen till **Har ännu inte markerats**.
+I den här versionen ändras statusen till **Ännu ej markerad**.
 
-### Vit etikettering i Adobe Learning Manager
+### Vit märkning i Adobe Learning Manager
 
-Mobilappen Adobe Learning Manager har nu stöd för vit märkning, vilket innebär att du nu kan lansera appen under ditt eget varumärke.
+Adobe Learning Manager-mobilappen stöder nu vit märkning, vilket innebär att du nu kan släppa appen under ditt eget varumärke.
 
-Visa vit märkning i [Adobe Learning Manager-mobilappen](white-label.md) för mer information.
+Visa vit etikettering i [Adobe Learning Manager-mobilappen](white-label.md) om du vill veta mer.
 
-### Ny kolumn i CSV:er för migrering
+### Ny kolumn i CSV-migreringsfiler
 
-I den här versionen finns det en ny, valfri kolumn, uniqueLoId, i följande CSV:er för migrering.
+I den här versionen finns en ny, valfri kolumn, uniqueLoId, i följande migrerings-CSV-filer.
 
 * certification.csv
 * course.csv
@@ -406,115 +406,115 @@ I den här versionen finns det en ny, valfri kolumn, uniqueLoId, i följande CSV
 >Kolumnen **uniqueLoId** är valfri.
 
 
-Om du utför en migrering för att uppdatera en befintlig kurs eller utbildningsplan eller certifiering läggs kursen eller utbildningsplanen eller certifieringen med **de unika LOId-filerna** till i författarappen.
+Om du migrerar för att uppdatera en befintlig kurs eller utbildningsplan eller certifiering läggs kursen eller utbildningsplanen eller certifieringen med **uniqueLOId** s till i skaparappen.
 
-När du migrerar måste du uppdatera uniqueLOId-värdena **** i CSV:erna för kursen eller utbildningsplanen eller certifieringen, även om det är en valfri kolumn.
+Under migreringen måste du uppdatera värdena **uniqueLOId** i CSV-filerna för kurs- eller utbildningsplan eller certifiering, även om det är en valfri kolumn.
 
-Om uniqueLoIId-kolumnen **** inte läggs till innan du utför migreringen medan du uppdaterar den befintliga kursen eller utbildningsplanen eller certifieringen som har **uniqueLOId-värden**, kommer uniqueLOId-värdena **att åsidosättas med NULL-värden efter migreringen**.
+Om kolumnen **uniqueLoId** inte läggs till innan migreringen utförs när den befintliga kursen eller utbildningsplanen uppdateras eller om certifieringen har **uniqueLOId** s, kommer värdena för **uniqueLOId** att åsidosättas med NULL-värden efter migreringen.
 
 >[!NOTE]
 >
->Kolumnen, **uniqueLoId**, gäller inte för CSV-filen för jobbhjälp.
+>Kolumnen **uniqueLoId** är inte tillämplig på CSV-filen för arbetsstöd.
 
 
 >[!IMPORTANT]
 >
 >Kolumnvärdena måste vara unika för hela kontot. Du kan inte använda samma värde med en kurs eller certifiering.
 
-Ladda ned CSV:erna från migreringshandboken[](integration-admin/feature-summary/migration-manual.md#csv-specifications-and-sample-csvs).
+Hämta CSV-filerna från [migreringshandboken](integration-admin/feature-summary/migration-manual.md#csv-specifications-and-sample-csvs).
 
 
-### Betyg för appar
+### Appklassificering
 
-En elev kan ge sin feedback om Adobe Learning Manager-appen för att ytterligare förbättra appupplevelsen. Om eleven ger betyget fyra stjärnor eller mer visas ett popup-fönster som ber eleven att betygsätta appen i Play Store eller App Store.
+En elev kan ge feedback om Adobe Learning Manager-appen för att ytterligare förbättra appupplevelsen. Om eleven ger fyra stjärnor eller mer visas ett popup-fönster där eleven uppmanas att betygsätta appen i Play Store eller App Store.
 
-### Bluejeans har nått slutet av sin livslängd (EOL) i februari 2024
+### Bluejeans har nått sitt slut i februari 2024
 
-Vi vill informera dig om att Bluejeans har nått slutet av sin livslängd (EOL) i februari 2024. Efter februari 2024 kommer Bluejeans inte längre att få uppdateringar eller support. Våra CSAM- och supportteam hjälper dig med alla frågor eller funderingar du kan ha under denna övergångsperiod.
+Vi vill informera dig om att Bluejeans har nått sitt slut (EOL) på Februari 2024. Efter februari 2024 kommer Bluejeans inte längre att få uppdateringar eller support. Våra CSAM- och supportteam hjälper dig med eventuella frågor eller funderingar under övergångsperioden.
 
-Visa [Connectors i Adobe Learning Manager](integration-admin/feature-summary/connectors.md) om du vill ha mer information om hur du konfigurerar kopplingar.
+I [Anslutningar i Adobe Learning Manager](integration-admin/feature-summary/connectors.md) finns mer information om hur du konfigurerar anslutningar.
 
-### Ändringar i rapporten Inloggningsåtkomst
+### Ändringar i rapporten om inloggningsåtkomst
 
-Rapporten Inloggningsåtkomst kommer endast att vara tillgänglig för de senaste fem kvartalen. Om någon integrationsadministratör begär nedladdning på begäran av den enhetliga exporten med **inloggningsåtkomst** markerad visas ett felmeddelande i Adobe Learning Manager. Det finns dock ingen inverkan på andra rapporter.
+Rapporten för inloggningsåtkomst kommer bara att vara tillgänglig för de senaste fem kvartalen. Om någon integrationsadministratör begär hämtning på begäran av den enhetliga exporten med **inloggningsåtkomst** markerat, visar Adobe Learning Manager ett felmeddelande. Andra rapporter påverkas dock inte.
 
-### Ändringar i ADFS
+### ADFS-ändringar
 
-Fälten Employee Type (Anställningstyp) och Anställnings-ID (Anställnings-ID) från ADFS är nu tillgängliga i Adobe Learning Manager, baserat på mappningarna.
+Fälten Anställningstyp och Anställds-ID från ADFS är nu tillgängliga i Adobe Learning Manager, baserat på mappningarna.
 
 ## API-ändringar i den här versionen
 
-### API:er för elever
+### Elevens API
 
-I den här versionen har vi lagt till API-stöd för elever så att de kan visa varumärkeslogotypen och anpassade teman på användargruppsnivå.
+I den här versionen har vi lagt till API-stöd för elever för att visa varumärkets logotyp och personliga teman på användargruppsnivå.
 
-API:erna /account och /user?include=account returnerar fyra fält som åsidosätts specifikt för det aktiva fältet för användaren tillhör logoUrl, logoStyling och themeData.
+API:erna /account och /user?include=account returnerar fyra fält som är åsidosatta och specifika för användarens aktiva fält. De tillhör logoUrl, logoStyling och themeData.
 
 ### Nya attribut
 
-Ett nytt attribut, isExpiredSubmission, i learningObjectResource, som visar om inlämningen i resursen har upphört att gälla eller inte.
+Ett nytt attribut, isExpiredSubmission, i learningObjectResource, som visar om överföringen i resursen har upphört att gälla eller inte.
 
-* GET /account API: Returnerar det nya attributet **expireSubmissionDuration** X, där X är antalet dagar som angetts. Om det inte anges returneras 0
-* GET /LO API med resursen innehåller det nya attributet **isExpiredSubmission**&quot; Sant eller Falskt.
-   * True, om överföringen har upphört att gälla och &quot;submissionUrl&quot; inte visas.
-   * Om det är falskt har överföringen inte upphört att gälla och &quot;submissionUrl&quot; hämtas.
+* GETS-/konto-API: Returnerar det nya attributet **expireSubmissionDuration** X, där X är antalet angivna dagar. Om det inte anges returneras 0
+* GET-/LO-API:t med resursen innehåller det nya attributet **isExpiredSubmission**, Sant eller Falskt.
+   * Sant om inlämningen har upphört att gälla och &quot;submissionUrl&quot; inte visas.
+   * Om värdet är Falskt har överföringen inte förfallit och &quot;submissionUrl&quot; har hämtats.
 
 ### API-ändringar i checklista
 
-En kurs kan bestå av flera moduler varav Checklista är en typ av modul. Den här checklistemodulen utvärderas av läraren och kan markeras som Misslyckad eller Lyckad baserat på utvärdering.
+En kurs kan bestå av flera moduler varav Checklista är en typ av modul. Den här checklistmodulen utvärderas av instruktören och kan markeras som Misslyckad eller Lyckad baserat på utvärdering.
 
-Men i båda fallen markeras checklistans status som Slutförd och på så sätt markeras kursen som Slutförd.
+Men i båda fallen markeras checklistestatusen som Slutförd och på så sätt markeras kursen som Slutförd.
 
-I den här versionen innehåller LO-API:et parametern *isChecklistMandatory*. Om värdet är True är checklistan obligatorisk.
+I den här versionen innehåller LO API parametern *isChecklistMandatory*. Om värdet är True är checklistan obligatorisk.
 
 ### Stöd för flera språk
 
-En administratör kan nu ladda ned L1-feedbackrapporten på det språk som han eller hon väljer. Du kan dock inte ladda ned L1-feedbackrapporter för Power BI ännu. I API-begäran använder du parametern preferredLocale för att ange valfritt språk.
+En administratör kan nu hämta rapporten med L1-feedback på det språk han eller hon väljer. Du kan dock inte hämta L1-feedbackrapporter för Power BI än. I API-begäran använder du parametern preferredLocale för att ange önskat språk.
 
 ### Ändringar i antalet instanssammanfattningar
 
-Detta gäller för konton där registreringarna för en Classroom/VC-kurs är fler än 1000.
+Detta gäller konton där registreringarna för en Classroom/VC-kurs överstiger 1 000.
 
-Om antalet är färre än 1000 ogiltigförklarar registreringarna cachen och returnerar de uppdaterade värdena i ett GET Summary API-anrop, till exempel antal registreringar, slutförande och seatLimit.
+Om antalet är färre än 1 000 gör registreringarna cachen ogiltig och returnerar de uppdaterade GETTERNA i ett API-anrop för värdesammanfattning, som antal registreringar, slutförande och SeatLimit.
 
-Om kontot är aktiverat för den här funktionen och antalet registreringar är fler än 1000 hämtas värdena från cachen.
+Om kontot är aktiverat för den här funktionen och antalet registreringar är fler än 1 000, hämtas värdena från cacheminnet.
 
-### Föråldrade sökvägar
+### Borttagna banor
 
-För närvarande följer Learning Manager API:er en diagramdatastruktur, vilket gör att du kan hämta data genom att bläddra i API-modellen genom inkluderingar. Även om du kan gå igenom ett API upp till sju nivåer är det beräkningsmässigt dyrt att hämta data med ett enda API-anrop.
+För närvarande följer Learning Manager API:er en diagramdatastruktur, som gör att du kan hämta data genom att gå igenom API-modellen via inkluderingar. Även om du kan gå igenom ett API upp till sju nivåer, är det datormässigt dyrt att hämta data med ett enda API-anrop.
 
-Vi rekommenderar att alla befintliga och nya kunder ringer små samtal flera gånger i stället för ett stort samtal. Den här metoden förhindrar att oönskade data läses in i samtalet.
+Vi rekommenderar att alla befintliga och nya kunder ringer små samtal flera gånger i stället för ett stort samtal. På så sätt förhindrar du att oönskade data läses in i samtalet.
 
-#### Vilka sökvägar är inaktuella?
+#### Vilka sökvägar är inaktuella
 
-Följande sökvägar är inaktuella:
+Följande sökvägar har tagits bort:
 
 * /learningObjects
-   * Föråldrade sökvägar:
+   * Borttagna sökvägar:
       * enrollment.loInstance.loResources.resources
       * instances.loResources.resources
    * Befintliga sökvägar:
       * enrollment.loInstance
       * instances.loResources
-* /lärandeobjekt/{id}
-   * Inaktuell sökväg:
+* /learningObjects/{id}
+   * Föråldrad sökväg:
       * enrollment.instances.subLoInstances.learningObject
    * Befintlig sökväg:
       * enrollment.instances.subLoInstances
-* /Antagning
-   * Inaktuell sökväg:
+* /enrollments
+   * Föråldrad sökväg:
       * loInstance.learningObject.enrollment
-   * Ny sökväg:
+   * Ny bana:
       * loInstance.learningObject
-* /lärandeobjekt/{id}
-   * Inaktuell sökväg:
+* /learningObjects/{id}
+   * Föråldrad sökväg:
       * instance.subLoInstances.learningObject.enrollment.loResourceGrades
-   * Ny sökväg:
+   * Ny bana:
       * instance.subLoInstances
 
-### Ändringar i arkivering av inloggningsåtkomst och användargranskningsrapport för jobb-API
+### Ändringar i inloggningsåtkomst och användargranskningsrapport för jobb-API
 
-Med den här versionen kommer jobb-API:et att behålla inloggningsåtkomstrapporten upp till fem kvartal och användargranskningsrapporten i sex månader. Om du vill ladda ned data som är äldre än den här tidsperioden måste du skicka arkivparametern och ange kvartal och år. Se exempelnyttolasten.
+I den här versionen kommer jobb-API att behålla inloggningsåtkomstrapporten upp till fem kvartal och användarens granskningsrapport i sex månader. Om du vill hämta data som är äldre än den här tidsperioden måste du skicka arkivparametern och ange kvartal och år. Se exempelnyttolasten.
 
 ```
 {
@@ -536,43 +536,43 @@ Med den här versionen kommer jobb-API:et att behålla inloggningsåtkomstrappor
 }
 ```
 
-Om du försöker ladda ned rapporten Inloggningsåtkomst **** som sträcker sig längre än fem kvartal visas ett felmeddelande. Ett liknande felmeddelande visas om du försöker ladda ned rapporten för **användargranskning** som går längre än sex månader.
+Om du försöker hämta rapporten **Inloggningsåtkomst** som sträcker sig längre än fem kvartal visas ett felmeddelande. Ett liknande felmeddelande visas om du försöker hämta **användargranskningsrapporten** som sträcker sig längre än sex månader.
 
-### Inaktuella API:er
+### Föråldrade API:er
 
-Visa [API-utfasningar i Adobe Learning Manager](api-deprecations-list.md) för en kumulativ lista över alla inaktuella API:er i produkten.
+Visa [API-borttagningar i Adobe Learning Manager](api-deprecations-list.md) om du vill ha en kumulativ lista över alla inaktuella API:er i produkten.
 
-## Buggar åtgärdade i den här uppdateringen {#bug-fixes}
+## Fel som är åtgärdade i den här uppdateringen {#bug-fixes}
 
-* När en elev är inskriven på en kurs och sedan försöker skriva in sig på en annan kurs visas ett varningsmeddelande.
-* En användargrupp visas i Sök även efter att den har tagits bort.
-* När användare utlöser många Learner Transcripts med en stor mängd data blockeras Learner Transcripts-kön och förhindrar en ny begäran.
-* Om ett barnkonto begär att dess föräldrakonto ska dela en rapport kan föräldrakontot inte göra det.
-* URL:erna från en kurs och en Utbildningsväg omdirigeras till felaktiga platser.
-* En elev visar ibland kursinstansen för en annan kurs när han eller hon klickar på kurslänken på katalogsidan.
-* Knappen Avregistrera **** visas inte som förväntat efter den första registreringen, men knappen visas efter en uppdatering.
-* Du kan inte spara Innehåll eller ett quiz som har ett tomt utrymme i namnet.
-* I kurser som godkänts av chefer kan du skriva in elever i en användargrupp på nytt.
-* I vissa fall, om du försöker lägga till ytterligare ett aktivt fält, visas felmeddelandet &quot;Aktiva fält kunde inte sparas.&quot;.
+* När en elev registreras till en kurs och sedan försöker registrera sig till en annan kurs visas ett varningsmeddelande.
+* En användargrupp visas i Sök även efter att den har raderats.
+* När användare utlöser många elevbetygsutdrag med stora mängder data blockeras elevens betygsutdrag och en ny begäran förhindras.
+* Om ett underordnat konto begär att dess överordnade konto ska dela en rapport kan det överordnade kontot inte göra det.
+* URL:erna från en kurs och en utbildningsväg omdirigeras till felaktiga platser.
+* En elev visar periodvis kursinstansen för en annan kurs genom att klicka på kurslänken på katalogsidan.
+* Knappen **Avregistrera** visas inte som förväntat efter den första registreringen, men knappen visas efter en uppdatering.
+* Du kan inte spara Innehåll eller ett quiz-meddelande som har ett tomt utrymme i namnet.
+* I chefsgodkända kurser kan du registrera elever i en användargrupp på nytt.
+* Om du försöker lägga till ytterligare ett aktivt fält kan felmeddelandet &quot;Aktiva fält kunde inte sparas&quot; visas i vissa fall.
 * Texten flödar över i namnet på en kurs i ett kurskort i avsnittet Relaterade kurser.
-* När du har växlat en instans och registrerat en elev i instansen finns de gamla instanserna fortfarande i Outlook-kalendern.
-* När en elev från ett kamratkonto försöker välja miniatyren för en kurs visas ett felmeddelande.
-* När elever anmäler sig till en kurs får de flera aviseringar om inskrivningen.
-* Om en användare manuellt ändrar namnet på de kataloger som skapats i en anslutning skapas nya kataloger och kurserna publiceras i de felaktiga katalogerna.
-* Användare som tillhör inaktiva konton får fortfarande e-postmeddelanden om prenumerationer.
+* Efter att ha bytt instans och registrerat en elev till instansen finns de gamla instanserna fortfarande kvar i Outlook-kalendern.
+* När en elev från ett kollegialt konto försöker välja miniatyrbilden för en kurs visas ett felmeddelande.
+* När elever registrerar sig för en kurs får de flera meddelanden om registreringen.
+* Om en användare ändrar namnet på katalogerna som skapats i en koppling manuellt, skapas nya kataloger och kurserna publiceras i felaktiga kataloger.
+* Användare som tillhör inaktiva konton får fortfarande prenumerationsmeddelanden via e-post.
 
-### API-relaterade buggfixar
+### API-relaterade felkorrigeringar
 
-* API:et GET/users hämtar inte information om en Manager.
-* I ett konto skapades användare genom en schemalagd FTP-användarimport under ett schemalagt driftstopp.
-* När du har tagit bort eller dragit tillbaka en kursomgång och valt nästa aktiva instans **i mobilappen eller det immersiva läget visas knappen Registrera intresse** i stället för **Anmäl** dig.
-* När en elev från ett kamratkonto försöker välja miniatyrbilden för en kurs med hjälp av Learning Object API visas felet 403 Förbjudet.
+* API-GETEN/användarna hämtar inte information om en chef.
+* I ett konto har användarna skapats via en schemalagd FTP-användarimport under ett schemalagt driftstopp.
+* I mobilappen eller immersivt läge visas knappen **Registrera intresse** i stället för **Registrera dig** när en kursinstans har raderats eller tagits ur bruk och nästa aktiva instans har valts.
+* När en elev från ett kollegialt konto försöker välja miniatyrbild för en kurs med hjälp av API:et för utbildningsobjekt visas felet 403 Förbjudet.
 
 ## Systemkrav
 
-Visa [systemkrav för](system-requirements.md) Adobe Learning Manager.
+Visa [Systemkrav för Adobe Learning Manager](system-requirements.md).
 
-## Tidigare versioner av Adobe Learning Manager
+## Tidigare utgåvor av Adobe Learning Manager
 
-* [Version från november 2023](whats-new-november-2023.md)
-* [Version från juli 2023](whats-new-2023-july.md)
+* [November 2023-utgåvan](whats-new-november-2023.md)
+* [Juli 2023-utgåvan](whats-new-2023-july.md)

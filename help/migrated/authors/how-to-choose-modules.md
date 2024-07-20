@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: Hur väljer man kursmoduler?
-description: Adobe Learning Manager stöder fyra typer av kursmoduler. Om du är ansvarig för att skapa ett utbildningsprogram kanske du undrar vilken typ av modul du behöver välja för att passa din organisations krav. Du kan välja kursmoduler utifrån organisationens budget och målgruppsbehov. Några av de typiska användningsfallen för varje typ av modul förklaras nedan som referens.
+description: Adobe Learning Manager har stöd för fyra kurstyper. Om du är ansvarig för att skapa ett utbildningsprogram kanske du undrar vilken typ av modul du behöver välja för att passa din organisations krav. Du kan välja kursmoduler utifrån organisationens budget och målgruppsbehov. Några av de typiska användningsfallen för varje typ av modul förklaras nedan som referens.
 contentowner: jayakarr
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+exl-id: 21f9aae7-e192-4318-9df4-4fedf52c6d85
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 3%
 
 ---
-
-
 
 # Hur väljer man kursmoduler?
 
@@ -45,7 +44,7 @@ Learning Manager stöder fyra typer av kursmoduler. Om du är ansvarig för att 
  </tbody>
 </table>
 
-**När ska jag välja klassrumsmoduler?**
+**När ska du välja klassrumsmoduler?**
 
 <table>
  <tbody>
@@ -100,7 +99,7 @@ Learning Manager stöder fyra typer av kursmoduler. Om du är ansvarig för att 
  </tbody>
 </table>
 
-**När ska jag välja virtuella klassrumsmoduler?**
+**När ska du välja virtuella klassrumsmoduler?**
 
 <table>
  <tbody>

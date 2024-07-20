@@ -20,14 +20,14 @@ Du kan skapa en anpassad roll för att tillhandahålla redigeringsfunktioner som
 ## Skapa en anpassad roll {#create-role}
 
 1. Logga in som administratör. Öppna **[!UICONTROL Users]** > **[!UICONTROL Custom Role]**.
-1. Välj **[!UICONTROL Create Role]**. Inställningen **[!UICONTROL Create New Role]** öppnas.
+1. Välj **[!UICONTROL Create Role]**. Fliken **[!UICONTROL Create New Role]** öppnas.
 
    ![](assets/create-new-role.png)
 
    *Skapa en anpassad roll*
 
-1. Ange namnet i rutan **[!UICONTROL Name of the Role]** område.
-1. **[!UICONTROL Account privileges]**: Dessa privilegier ger rollägarna tillgång till specifika systemkonfigurationsaspekter och som påverkar hela kontot. Välj åtkomstbehörigheter. Användaren får full kontroll över tilldelade behörigheter.
+1. Ange namnet i fältet **[!UICONTROL Name of the Role]**.
+1. **[!UICONTROL Account privileges]**: De här behörigheterna ger rollägarna tillgång till specifika systemkonfigurationsaspekter och som påverkar hela kontot. Välj åtkomstbehörigheter. Användaren får full kontroll över tilldelade behörigheter.
 
 >[!NOTE]
 >
@@ -36,9 +36,9 @@ Du kan skapa en anpassad roll för att tillhandahålla redigeringsfunktioner som
 
 ![](assets/account-privileges.png)
 
-*Ange omfång*
+*Ange omfattningen*
 
-1. **Funktionsbehörigheter - kärnfunktioner**: Används för att ge åtkomst till specifika funktioner för hantering av utbildningsaktiviteter. Behörigheter till följande funktioner kan ges med detta alternativ.
+1. **Funktionsprivilegier - Kärnfunktioner**: Används för att ge åtkomst till specifika funktioner för hantering av utbildningsaktiviteter. Behörigheter till följande funktioner kan ges med detta alternativ.
 
    * Kataloger
    * Rapporter
@@ -48,7 +48,7 @@ Du kan skapa en anpassad roll för att tillhandahålla redigeringsfunktioner som
 
    *Ange omfattning för kataloger, rapporter och taggar*
 
-1. **Funktionsprivilegier - utbildningsobjekt:**  Använd det här alternativet för att ge åtkomst till LO-relaterade funktioner. Du kan ge åtkomst till följande LO:er.
+1. **Funktionsprivilegier - Utbildningsobjekt:** Använd det här alternativet för att ge åtkomst till LO-relaterade funktioner. Du kan ge åtkomst till följande LO:er.
 
    * Certifieringar
    * Kurser
@@ -66,11 +66,11 @@ Du kan skapa en anpassad roll för att tillhandahålla redigeringsfunktioner som
 
    *Bevilja specifika behörigheter*
 
-1. **Omfång för funktionsprivilegier:** Omfattningen av funktionsprivilegier som har tilldelats den här rollen kan begränsas till en viss användargrupp eller en eller flera kataloger.
+1. **Omfång för funktionsprivilegier:** Omfattningen för funktionsprivilegier som har tilldelats den här rollen kan begränsas till en specifik användargrupp eller en eller flera kataloger.
 
-   Kataloger: Använd alternativknappen för att ge kontroll över **[!UICONTROL All catalogs]** eller använda **[!UICONTROL Set access per Catalog]** för att ge åtkomst till specifika kataloger. Du kan också välja flera kataloger.
+   Kataloger: Använd alternativknappen för att ge kontroll över **[!UICONTROL All catalogs]** eller använd alternativet **[!UICONTROL Set access per Catalog]** för att ge åtkomst till specifika kataloger. Du kan också välja flera kataloger.
 
-   Användargrupper: Ge åtkomst till **[!UICONTROL All User Groups]** eller använda **[!UICONTROL Set access per user group]** alternativ för att ge åtkomst till specifika användargrupper. Endast en användargrupp kan anges.
+   Användargrupper: Ge åtkomst till **[!UICONTROL All User Groups]** eller använd alternativet **[!UICONTROL Set access per user group]** för att ge åtkomst till specifika användargrupper. Endast en användargrupp kan anges.
 
    >[!NOTE]
    >
@@ -80,7 +80,7 @@ Du kan skapa en anpassad roll för att tillhandahålla redigeringsfunktioner som
 
    ![](assets/define-scope-of-privileges.png)
 
-   *Definiera behörighetsområden*
+   *Definiera behörighetsområde*
 
 >[!NOTE]
 >
@@ -128,7 +128,7 @@ Följ stegen nedan för att bevilja olika behörigheter till katalogerna:
       </table>
 
 1. Aktivera eller inaktivera behörigheterna enligt dina krav.
-1. Klicka på för att spara ändringarna **[!UICONTROL OK]**. Om du sedan vill spara ändringarna för den anpassade rollen klickar du på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL OK]** för att spara ändringarna. Klicka sedan på **[!UICONTROL Save]** för att spara ändringarna för den anpassade rollen.
 
 Tänk dig följande scenario.
 
@@ -222,9 +222,9 @@ En användare med en anpassad roll kan:
     </tbody>
    </table>
 
-1. **Användare:** Använd det här alternativet om du vill ange vilka användare som tilldelas den här rollen. Du kan välja en eller flera användare med sökrutan.
+1. **Användare:** Använd det här alternativet för att avgöra vilka användare som tilldelas den här rollen. Du kan välja en eller flera användare med sökrutan.
 
-   **Lägg till användare i CSV-överföring med anpassade roller:** Om du vill lägga till användare via en CSV-uppdatering lägger du till en CustomRole-kolumn i CSV-filen som administratören använde för att importera användare. Ange användarens roll under kolumnen Anpassad roll för de användare som du vill tilldela en anpassad roll till. Ladda upp CSV-filen genom att klicka på  **[!UICONTROL Add > Upload a CSV]**.
+   **Lägg till användare i CSV-uppladdning för anpassade roller:** Lägg till användare via en CSV-uppdatering genom att lägga till en CustomRole-kolumn i .csv-filen som administratören använde för att importera användare. Ange användarens roll under kolumnen Anpassad roll för de användare som du vill tilldela en anpassad roll till. Klicka på **[!UICONTROL Add > Upload a CSV]** för att överföra CSV-filen.
 
    CustomRole columnNote:
 
@@ -265,11 +265,11 @@ Anpassade administratörer kan se samma vy som en administratör ser. En anpassa
 
 *Skapa en anpassad roll*
 
-Som ett resultat av detta har **[!UICONTROL All Catalogs]** och **[!UICONTROL All User Groups]** markeras och resten inaktiveras.
+Det innebär att alternativen **[!UICONTROL All Catalogs]** och **[!UICONTROL All User Groups]** markeras och att resten inaktiveras.
 
 ![](assets/scope-of-featureprivileges.png)
 
-*Definiera behörighetsområden*
+*Definiera behörighetsområde*
 
 ## Implicita behörigheter {#implicitpermissions}
 
@@ -310,7 +310,7 @@ När en användare tilldelas en roll med en specifik enhet kan det finnas fall d
    <td>Innehållsgrupp<br>
      Tagg<br>
      Kompetens<br>
-     Tecken<br>
+     Utmärkelsetecken<br>
      Arbetsstöd</td>
    <td>Läs om allt</td>
   </tr>
@@ -409,7 +409,7 @@ Befintliga anpassade administratörer som har tillgång till utbildningsplaner h
 
 Utbildningsplaner som skapas av administratörer och anpassade administratörer i hela omfattningen skapas som vanligt och begränsas inte av omfattningen.
 
-I avsnittet **Omfång för funktionsbehörighet**, bevilja åtkomst till användargrupper och/eller katalog för den anpassade rollen.
+I avsnittet **Omfång för funktionsprivilegier** beviljar du åtkomst till användargrupper och/eller katalog för den anpassade rollen.
 
 ![](assets/scope-for-featureprivileges.png)
 
@@ -441,35 +441,35 @@ När administratören ändrar omfattningen av den anpassade rollen överlappas �
 
 ![](assets/change-scope.png)
 
-*Meddelande efter omfångsändringar*
+*Meddelande efter att omfånget har ändrats*
 
 Den anpassade administratören måste nu uppdatera eller uppdatera det tidigare omfånget till det nya.
 
-Klickning **[!UICONTROL Refresh Scope]** uppdaterar omfattningen. Ett varningsmeddelande visas.
+Om du klickar på **[!UICONTROL Refresh Scope]** uppdateras omfånget. Ett varningsmeddelande visas.
 
 ![](assets/refresh-scope-message.png)
 
-*Varningsmeddelande när ett omfång har uppdaterats*
+*Varningsmeddelande efter uppdatering av ett scope*
 
-Klickning **[!UICONTROL Yes]** uppdaterar omfattningen.
+Om du klickar på **[!UICONTROL Yes]** uppdateras omfånget.
 
 ## Lägg till spelifieringsrapport till en anpassad roll {#gamification-custom}
 
 En administratör kan aktivera spelifieringsrapporter för en anpassad användare.
 
-1. I dialogrutan **[!UICONTROL Custom Roles]** -sidan, anger du namnet på den anpassade rollen.
-1. I dialogrutan **[!UICONTROL Feature Privileges: Core Features]** aktiverar du alternativet **[!UICONTROL Full Control]** för kategorin **[!UICONTROL Reports]**.
+1. Ange namnet på den anpassade rollen på sidan **[!UICONTROL Custom Roles]**.
+1. Aktivera alternativet **[!UICONTROL Full Control]** för kategorin **[!UICONTROL Reports]** i avsnittet **[!UICONTROL Feature Privileges: Core Features]**.
 
 1. I avsnittet **[!UICONTROL Users]** väljer du den användare som ska tilldelas den nyligen skapade anpassade rollen.
 1. Klicka på **[!UICONTROL Save]**.
 
-När en användare loggar in som anpassad administratör och klickar på **[!UICONTROL Reports]** i den vänstra rutan visas utskrifterna, som visas nedan:
+När en användare loggar in som Anpassad administratör och klickar på **[!UICONTROL Reports]** i den vänstra rutan visas utskrifterna enligt nedan:
 
 ![](assets/download-gamificationtranscripts.png)
 
-*Hämta spelifieringsutskrifterna*
+*Ladda ned transkriberingar av spelifiering*
 
-Klicka **[!UICONTROL Gamification Transcripts]**, välj en användare och generera rapporten.
+Klicka på **[!UICONTROL Gamification Transcripts]**, välj en användare och generera rapporten.
 
 Om en administratör ändrar nivåpunkterna visar rapporterna nivåer enligt de aktuella punkterna.
 
@@ -481,6 +481,6 @@ Om en administratör ändrar nivåpunkterna visar rapporterna nivåer enligt de 
 
 En anpassad roll är som en delmängd av rollen Författare eller Administratör. Tillåt en eller flera behörigheter, definiera omfånget och tilldela rollen till en användare.
 
-Klicka **[!UICONTROL Users]** > **[!UICONTROL Custom Roles]**. På sidan Anpassade roller klickar du på **[!UICONTROL Create Role]**. Ange namnet på den anpassade rollen och ange rollens privilegier. Mer information finns i [Skapa en anpassad roll](custom-role.md#create-role).
+Klicka på **[!UICONTROL Users]** > **[!UICONTROL Custom Roles]**. Klicka på **[!UICONTROL Create Role]** på sidan Anpassade roller. Ange namnet på den anpassade rollen och ange rollens privilegier. Mer information finns i [Skapa en anpassad roll](custom-role.md#create-role).
 +++
 

@@ -55,9 +55,9 @@ The following table lists the rate and burst limits for the APIs.
 
 ### Ändringar av förskjutningsgränser
 
-På grund av att ett stort antal poster har hämtats av förskjutningsvärdet och att den totala prestandan har blivit långsammare tillämpar vi en gräns på **500** register. I nästa version kommer **GET användare** API returnerar högst **500** register.
+På grund av att ett stort antal poster har hämtats av förskjutningsvärdet och att den totala prestandan har blivit långsammare tillämpar vi en gräns på **500** poster. I nästa version returnerar **GET users**-API:t för både admin och elev högst **500** poster.
 
-Om du behöver fler poster använder du **GET jobb** API.
+Använd API:et **GET-jobb** om du behöver fler poster.
 
 <!--### Exclude paths 
 
@@ -131,7 +131,7 @@ Anledningen till att vi tar bort flaggan för Elevers API:er är att åsidosätt
 
 Framöver kommer följande Elev-API att sluta fungera eftersom det har åsidosättningsflaggan.
 
-_/primeapi/v2/users?page[utjämna]=0&amp;sida[gräns]=10&amp;sort=id&amp;override=TRUE_
+_/primeapi/v2/users?page[offset]=0&amp;page[limit]=10&amp;sort=id&amp;override=TRUE_
 
 ### API-ändringar för nya kompetensbaserade rekommendationer
 
@@ -149,5 +149,5 @@ I november 2023-versionen har vi lagt till ett datumfilter som du kan använda f
 
 ### Borttagning av höga förskjutningsvärden i slutpunkten GET/användare
 
-För att förbättra systemprestanda och hantera resursutnyttjande mer effektivt har Adobe utfasat höga motvärden i slutpunkten GET/användare för både **ADMIN** och **ELEV** omfattningar. Vi rekommenderar att du använder **Jobb-API** för att hämta poster med ett förskjutningsvärde.
+För att förbättra systemprestanda och hantera resursutnyttjande mer effektivt har Adobe utfasat höga motvärden i slutpunkten GET/users för både **ADMIN** och **ELEVER**. Vi rekommenderar att du använder **Jobs API** för att hämta poster med ett förskjutningsvärde.
 

@@ -3,14 +3,13 @@ description: Läs den här artikeln när du vill veta hur du skapar och hanterar
 jcr-language: en_us
 title: Kollegiala konton
 contentowner: shhivkum
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
 
 ---
-
-
 
 # Kollegiala konton
 
@@ -20,14 +19,14 @@ Learning Manager erbjuder möjligheten att dela köpta platser med hjälp av fun
 
 ## Lägg till ett kollegialt konto {#addapeeraccount}
 
-1. Klicka på på i kontrollpanelen för administratörer **[!UICONTROL Settings]** > **[!UICONTROL Peer Accounts]**.
-1. Klicka på i det övre högra hörnet **[!UICONTROL Add]**.
+1. Klicka på **[!UICONTROL Settings]** > **[!UICONTROL Peer Accounts]** på kontrollpanelen för administratörer.
+1. Klicka på **[!UICONTROL Add]** i det övre högra hörnet.
 
    ![](assets/peeraccount.png)
 
    *Lägg till kollegialt konto*
 
-1. I dialogrutan **[!UICONTROL Account Subdomain]** -fältet, anger du den underdomän som du vill etablera ett kollegialt konto med.
+1. Ange underdomänen som du vill skapa ett kollegialt konto med i fältet **[!UICONTROL Account Subdomain]**.
 
    ![](assets/addpeer.png)
 
@@ -68,14 +67,14 @@ Om du inte längre vill dela platser eller köp med ett konto kan du ta bort det
 
 Administratören kan visa användarrapporten för det kollegiala kontot. Den överordnade kontoadministratören kan begära åtkomst till rapporten, och när den kollegiala kontoadministratören accepterar det kan den överordnade administratören visa antalet registrerade användare i det kollegiala kontot och hämta användarrapporten för kollegialt konto.
 
-1. På sidan Peer Accounts (kollegiala konton) klickar du på **[!UICONTROL Add]**.
-1. Aktivera alternativet, **[!UICONTROL Request permission to download user reports for entire account]**.
+1. Klicka på **[!UICONTROL Add]** på sidan Peer Accounts (kollegiala konton).
+1. Aktivera alternativet **[!UICONTROL Request permission to download user reports for entire account]**.
 
 ![](assets/image034.png)
 
 *Visa användarrapport för kollegialt konto*
 
-Om du vill hämta rapporterna för kollegiala konton klickar du på **[!UICONTROL Download]**.
+Klicka på **[!UICONTROL Download]** för att hämta rapporterna för kollegiala konton.
 
 ## Vanliga frågor {#frequentlyaskedquestions}
 

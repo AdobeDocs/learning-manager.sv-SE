@@ -29,13 +29,13 @@ I den här utbildningen får du lära dig anpassa enskilda e-postmallar och anpa
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
-Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
+Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
 
 ## Konfigurera e-postmallar {#configureemailtemplates}
 
 Du som är administratör kan enkelt aktivera, inaktivera eller ändra dessa e-postmallar.
 
-1. Om du vill komma åt mallarna klickar du på **[!UICONTROL Email Templates]** i den vänstra rutan. På den här sidan kan du se tre olika kategorier av mallar, **[!UICONTROL General]**, **[!UICONTROL Learning Activity]** och **[!UICONTROL Reminders and Updates]**. Det finns en fjärde flik, **[!UICONTROL Settings]**, där du kan konfigurera mallarna.
+1. Klicka på **[!UICONTROL Email Templates]** i den vänstra rutan om du vill komma åt mallarna. På den här sidan visas tre olika kategorier av mallar, **[!UICONTROL General]**, **[!UICONTROL Learning Activity]** och **[!UICONTROL Reminders and Updates]**. Det finns en fjärde flik, **[!UICONTROL Settings]**, där du kan konfigurera mallarna.
 
    ![](assets/categories-of-emailtemplates.png)
 
@@ -63,20 +63,20 @@ Du som är administratör kan enkelt aktivera, inaktivera eller ändra dessa e-p
 
    *Ändra e-postmallen*
 
-   Du kan återställa meddelandetexten till standardinnehållet genom att klicka på länken **[!UICONTROL Revert to Original]** ovanför mallen.
+   Du kan återställa meddelandets brödtext till standardinnehållet genom att klicka på länken **[!UICONTROL Revert to Original]** ovanför mallen.
 
 1. Bekräfta ändringarna som har tillämpats på mallen genom att klicka på Spara. Nu kan användarna få e-postmeddelanden med den ändrade e-postmallen.
 
 ## Anpassa inställningar för en e-postmall {#customizesettingsofanemailtemplate}
 
-1. Om du vill öppna inställningssidan klickar du på **[!UICONTROL Settings]**. Nu kan du anpassa dina e-postmallar.
+1. Klicka på **[!UICONTROL Settings]** för att öppna inställningssidan. Nu kan du anpassa dina e-postmallar.
 1. Om du vill anpassa namnet och e-post-ID som eleverna får e-postmeddelanden från redigerar du **[!UICONTROL Sender Name and Address].**
 
-   Kontakt [***Stöd för Adobe***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) om du vill konfigurera eller ändra de här uppgifterna.
+   Kontakta [***supporten för Adobe***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) om du vill konfigurera eller ändra de här uppgifterna.
 
-1. Anpassa din e-postbanderoll från **[!UICONTROL Email Banner]** alternativ. Ändra färgen på banderollen genom att välja **[!UICONTROL Banner Background]**.
+1. Anpassa din e-postbanderoll från alternativet **[!UICONTROL Email Banner]**. Ändra färg på banderollen genom att välja **[!UICONTROL Banner Background]**.
 
-   Du kan använda en anpassad bild som banderoll genom att välja **[!UICONTROL Custom Image]** alternativ. Klicka **[!UICONTROL Save]** när du har gjort ändringarna.
+   Du kan använda en anpassad bild som banderoll genom att välja alternativet **[!UICONTROL Custom Image]**. Klicka på **[!UICONTROL Save]** när du har gjort ändringarna.
 
    ![](assets/solid-color-banner.png) ![](assets/custom-image-banner.png)
 
@@ -90,27 +90,27 @@ Du som är administratör kan enkelt aktivera, inaktivera eller ändra dessa e-p
 
    *Anpassa din e-postsignatur*
 
-1. Redigera konto-URL:en genom att klicka på Redigera för alternativet **[!UICONTROL Account URL]**.
+1. Redigera konto-URL:en genom att klicka på Redigera på alternativet **[!UICONTROL Account URL]**.
 
    Konto-URL-länken visas i alla e-postmeddelanden, precis före signaturen. Ange den URL som krävs och klicka på **[!UICONTROL Save]**. Observera att den här URL:en bara är synlig för interna användare.
 
    ![](assets/customize-accounturl.png)
 
-   *Anpassa konto-URL*
+   *Anpassa konto-URL:en*
 
-1. Konfigurera om chefer också måste ta emot e-postmeddelanden som skickas till deras direktrapporter med kryssrutan under **[!UICONTROL Optional Manager Email]** alternativ.
+1. Konfigurera om chefer också måste ta emot e-postmeddelanden som skickas till deras direktrapporter med kryssrutan under alternativet **[!UICONTROL Optional Manager Email]**.
 
 ## Ange frekvens för sammanfattningsmeddelanden {#setfrequencyofdigestemails}
 
-På fliken **[!UICONTROL Email templates]** > **[!UICONTROL Settings]** kan administratören ändra frekvensen för sammanfattningsmeddelanden som skickas till elever.
+På sidan **[!UICONTROL Email templates]** > **[!UICONTROL Settings]** kan administratören ändra frekvensen för sammanfattningsmeddelanden som skickas till elever.
 
-I dialogrutan **[!UICONTROL Digest Email Settings]** avsnitt, klicka på **[!UICONTROL Edit]**.
+Klicka på **[!UICONTROL Edit]** i avsnittet **[!UICONTROL Digest Email Settings]**.
 
-I listrutan väljer du antingen **[!UICONTROL Biweekly]** eller **[!UICONTROL Monthly]**.
+Välj **[!UICONTROL Biweekly]** eller **[!UICONTROL Monthly]** i listrutan.
 
-* **[!UICONTROL Biweekly]:** Om du ställer in frekvensen på **[!UICONTROL Biweekly]** får eleverna e-postmeddelandet en gång varannan vecka.
+* **[!UICONTROL Biweekly]:** Om du anger frekvensen till **[!UICONTROL Biweekly]** får eleverna e-postmeddelandet en gång varannan vecka.
 
-* **[!UICONTROL Monthly]:** Om du ställer in frekvensen på **[!UICONTROL Monthly]**, elever får e-postmeddelandet en gång i månaden.
+* **[!UICONTROL Monthly]:** Om du anger frekvensen till **[!UICONTROL Monthly]** får eleverna e-postmeddelandet en gång i månaden.
 
 ![](assets/digest-email-settings.png)
 
@@ -128,7 +128,7 @@ Följande exempel visar e-postmeddelandet som en elev får.
 
 ![](assets/email-1.png)
 
-*E-postexempel*
+*Exempel på e-post*
 
 ### Utbildningsaktivitet
 
@@ -146,21 +146,21 @@ Följande exempel visar e-postmeddelandet som en elev får.
 
 ![](assets/email4.png)
 
-*E-post till resultattavlan*
+*Resultattavlans e-postadress*
 
 ### Senaste inlägg
 
 ![](assets/email5.png)
 
-*E-post för senaste inlägg*
+*E-post om de senaste inläggen*
 
 ### Hämta e-poståtkomstrapport
 
-Du kan ladda ned rapporten för e-poståtkomst genom att klicka på **[!UICONTROL Download]** knapp. Den här rapporten innehåller antalet användare som har fått e-postmeddelandet och antalet användare som har öppnat och klickat på länkarna.
+Du kan ladda ned rapporten för e-poståtkomst genom att klicka på knappen **[!UICONTROL Download]**. Den här rapporten innehåller antalet användare som har fått e-postmeddelandet och antalet användare som har öppnat och klickat på länkarna.
 
 ## Anpassa e-postdomän {#customizeemaildomain}
 
-Om du vill anpassa e-postdomänen och e-post-ID som dina elever får meddelanden från kan du kontakta [***Support för Learning Manager***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) och ange information om domänen du vill lägga till och ditt nya e-post-id.
+Om du vill anpassa e-postdomänen och e-post-ID som dina elever får meddelanden från kontaktar du [***Learning Manager-supporten***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) och anger detaljerna för domänen du vill lägga till och ditt nya e-post-ID.
 
 Din begäran bearbetas och ett e-postmeddelande med en bekräftelselänk skickas till dig på den nya e-postadressen som du anger. Klicka på verifieringslänken i e-postmeddelandet för att bekräfta och slutföra verifieringsprocessen.
 
@@ -168,7 +168,7 @@ Din begäran bearbetas och ett e-postmeddelande med en bekräftelselänk skickas
 
 Som administratör kan du välja användare som kan ta emot e-postmeddelanden från Learning Manager och som inte kan det.
 
-Du kan utföra detta med hjälp av **[!UICONTROL Do Not Disturb]** alternativ enligt **[!UICONTROL Settings]** -fliken. Användare kan läggas till i den här listan med sitt namn, e-post-ID eller unika användar-ID.
+Du kan utföra detta genom att använda alternativet **[!UICONTROL Do Not Disturb]** på fliken **[!UICONTROL Settings]**. Användare kan läggas till i den här listan med sitt namn, e-post-ID eller unika användar-ID.
 
 Sök efter en användare att lägga till i listan.
 
@@ -176,16 +176,16 @@ Sök efter en användare att lägga till i listan.
 
 ## Blockerade e-postmeddelanden {#blockedemails}
 
-Från **Blockerade e-postmeddelanden** Listruta för varje användare för att välja vilka typer av e-post som ska blockeras för dem.
+I rullgardinsmenyn **Blockerade e-postmeddelanden** för varje användare kan du välja vilka typer av e-postmeddelanden som ska blockeras åt dem.
 
 <!--![](assets/options-for-blockedemails.png)-->
 
 Följande alternativ finns:
 
-* **Dirigera e-post till elev:** Det här alternativet begränsar eller tillåter e-postmeddelanden som skickas till eleven.
-* **Eskalering av e-postmeddelanden till elevens chef:** Detta alternativ begränsar eller tillåter e-postmeddelanden som skickas till elevens chef.
-* **Om underställda:** Det här alternativet begränsar eller tillåter inkommande e-postmeddelanden om eskalering som skickas till användarna om deras direkta rapporter.
-* **Om överhoppade nivårapporter:** Det här alternativet begränsar eller tillåter inkommande e-postmeddelanden om eskalering som skickas till användarna om deras rapporter på andra nivån.
+* **Dirigera e-post till elev:** Det här alternativet begränsar eller tillåter e-post som skickas till eleven.
+* **Eskalering av e-postmeddelanden till elevens chef:** Det här alternativet begränsar eller tillåter e-postmeddelanden som skickas till elevens chef.
+* **Om direktrapporter:** Det här alternativet begränsar eller tillåter inkommande e-postmeddelanden med eskalering som skickas till användarna om deras direktrapporter.
+* **Om rapporter på överhoppningsnivå:** Det här alternativet begränsar eller tillåter inkommande e-postmeddelanden med eskalering som skickas till användarna om deras rapporter på andra nivån.
 
 Om du vill ta bort en användare från listan kan du använda alternativet Ta bort som finns tillgängligt individuellt för varje användare på fliken Användare.
 
@@ -206,7 +206,7 @@ De viktigaste förbättringarna av att anpassa e-postmallar är följande:
 
 ### Anpassa e-posthälsningsfras på kontonivå
 
-Välj **[!UICONTROL Email Templates]** > **[!UICONTROL Settings]**. Välj **[!UICONTROL Edit]** i **[!UICONTROL Email Salutation]** -sektionen.
+Välj **[!UICONTROL Email Templates]** > **[!UICONTROL Settings]**. Välj **[!UICONTROL Edit]** i avsnittet **[!UICONTROL Email Salutation]**.
 
 ![anpassa e-post](assets/email-salutation.png)
 
@@ -225,7 +225,7 @@ I den här utbildningen får du lära dig hur du konfigurerar instansstandardins
 
 [![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P3KMQNZS&amp;mv=display&amp;mv2=display#/course/8318911)
 
-Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
+Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
 
 ## Inline-inbjudningar {#inlineinvitations}
 
@@ -237,16 +237,16 @@ Learning Manager-användare får nu inbjudningar via e-post. ICS-bilagor använd
 
 +++Hur inaktiverar man hjälp i e-postmallar?
 
-För närvarande går det inte att inaktivera i Learning Manager **Hjälp** i e-postmallar.
+För närvarande går det inte att inaktivera **Hjälp** i e-postmallar i Learning Manager.
 
 +++
 
 +++Hur ändrar jag e-postmallar?
 
 1. Du som är administratör loggar in på ditt Learning Manager-konto.
-1. I den vänstra panelen klickar du på **[!UICONTROL Email Templates]** och välj den e-postmall som du vill ändra.
+1. I den vänstra panelen klickar du på **[!UICONTROL Email Templates]** och väljer den e-postmall som du vill ändra.
 1. Du kan anpassa mallarna genom att klicka på texten i mallens brödtext. Du kan infoga variabler i texten genom att klicka på motsvarande ikoner som visas på ögonblicksbilden. För muspekaren över varje ikon för att visa namnen och använda dem på mallen.
-1. När du har ändrat mallen klickar du på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** när du har gjort ändringar i mallen.
 
 
 +++
@@ -265,6 +265,6 @@ Om du vill stänga av e-postmallen markerar du mallen som ska inaktiveras och kl
 
 +++Hur ändrar jag avsändarens namn och adress i mallen?
 
-Om du vill ändra avsändarens namn och e-postadress kontaktar du [Stöd för Adobe Learning Manager](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
+Om du vill ändra avsändarens namn och e-postadress kontaktar du [Adobe Learning Manager support](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
 
 +++

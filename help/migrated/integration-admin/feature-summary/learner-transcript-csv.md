@@ -29,9 +29,9 @@ Denna information kan vara användbar för alla utvecklare som avser att integre
 
 ## Hämta elevens betygsutdrag från användargränssnittet {#fetchlearnertranscriptfromtheuserinterface}
 
-Från Profilinställningarna kan en elev ladda ned sitt betygsutdrag. Mer information finns i *** [Ladda ned elevens betygsutdrag](../../administrators/feature-summary/learner-transcripts.md)***.
+Från Profilinställningarna kan en elev ladda ned sitt betygsutdrag. Mer information finns i *** [Hämta elevens betygsutdrag](../../administrators/feature-summary/learner-transcripts.md)***.
 
-Administratörer kan generera elevbetygsutdrag för hela organisationen, en specifik uppsättning användare eller en specifik uppsättning utbildningsobjekt eller en specifik uppsättning användare och utbildningsobjekt. De kan också få alla utbildningsposter för ett tidsintervall och indikera om modulnivåinformation krävs (som standard utelämnas information på modulnivå). Mer information finns i [***Ladda ned elevens betygsutdrag***](../../administrators/feature-summary/learner-transcripts.md).
+Administratörer kan generera elevbetygsutdrag för hela organisationen, en specifik uppsättning användare eller en specifik uppsättning utbildningsobjekt eller en specifik uppsättning användare och utbildningsobjekt. De kan också få alla utbildningsposter för ett tidsintervall och indikera om modulnivåinformation krävs (som standard utelämnas information på modulnivå). Mer information finns i [***Hämta elevens betygsutdrag***](../../administrators/feature-summary/learner-transcripts.md).
 
 <!--Update above link?-->
 
@@ -43,7 +43,7 @@ Elevens betygsutdrag som genereras via gränssnittet kommer att vara en Excel-fi
 
 När elevens betygsutdrag måste förbrukas av ett externt system tillhandahåller Learning Manager en funktion som kallas Exportera data, där elevens betygsutdrag är en av de typer av data som kan exporteras. Som förklaras i ingressen krävs detta för integrering av Learning Manager med ett externt system som behöver bearbeta utbildningsbeteendedata eller för att fylla ett företags datalager med utbildningsbeteendedata.
 
-Mer information om hur de kopplingar som stöder export av elevens betygsutdrag finns i [Avsnittet Exportera data](/help/migrated/integration-admin/feature-summary/connectors.md) i FTP-, Box- och PowerBI-anslutningarna.
+Mer information om hur anslutningarna som stöder export av elevens betygsutdrag finns i avsnittet [Exportera data](/help/migrated/integration-admin/feature-summary/connectors.md) i FTP-, Box- och PowerBI-anslutningarna.
 
 Syftet med dessa kopplingar är att regelbundet exportera data till en nedströmsapplikation (en gång i N dagar). Så dessa kopplingar exporterar bara inkrementella data för utbildningsbeteende i varje körning. Observera att dessa anslutningar inte tillåter hämtning av poster som gäller en viss delmängd av användare eller utbildningsobjekt - det är alltid data om alla användare och alla utbildningsobjekt i kontot.
 
@@ -59,13 +59,13 @@ Kopplingarna ger dig naturligtvis även möjlighet att hämta elevens betygsutdr
 
 Låt oss nu definiera vad som menas med inkrementell elevtranskribering
 
-I elevens betygsutdrag representerar varje rad en specifik aktivitet som involverar en specifik elev och ett specifikt utbildningsobjekt. Vi är främst intresserade av vilket tillstånd en elev befinner sig i med avseende på utbildningsobjektet - **Registrerad**, **Startat**, **Pågår** och **Slutfört**. Därför innehåller elevens betygsutdrag även fyra motsvarande datum.
+I elevens betygsutdrag representerar varje rad en specifik aktivitet som involverar en specifik elev och ett specifikt utbildningsobjekt. Vi är främst intresserade av vilket tillstånd en elev befinner sig i med avseende på utbildningsobjektet - **Registrerad**, **Påbörjat**, **Pågår** och **Slutförd**. Därför innehåller elevens betygsutdrag även fyra motsvarande datum.
 
 Nu finns det tre typer av utbildningsobjekt där Learning Manager spårar elevens framsteg och exporterade data innehåller statusinformation på modulnivå, vilket är den mest detaljerade innehållsenhet som en elev kan uppleva i Learning Manager.
 
-* **Kurs** - en sammansättning av en eller flera moduler
-* **Utbildningsprogram** - en sammansättning av en eller flera kurser,
-* **Certifiering** - en sammansättning av en eller flera kurser.
+* **Kurs** - en komposition av en eller flera moduler
+* **Utbildningsprogram** - en komposition av en eller flera kurser
+* **Certifiering** - en komposition av en eller flera kurser.
 
 Varje rad i elevens betygsutdrag kan gälla en viss användares engagemang i en modul, kurs, utbildningsprogram eller certifiering. När en användare registreras till ett utbildningsprogram kommer transkriptionen att ange att användaren är e
 
@@ -286,7 +286,7 @@ Kolumnerna i Elevens betygsutdrag innehåller olika delar av information som gä
    <td height="38" width="728">Detta visar värdet '1' eller '0' beroende på elevens framsteg under utbildningen. Det beror på det värde som angetts i Utbildningssammanfattning II &gt; fältet Status större än.</td> 
   </tr> 
   <tr> 
-   <td height="19" width="283">T<b>ID för regn</b></td> 
+   <td height="19" width="283">T<b>Utbildnings-ID</b></td> 
    <td height="19" width="283">Töm aldrig</td> 
    <td height="19" width="728">Utbildningens utbildnings-ID.</td> 
   </tr> 

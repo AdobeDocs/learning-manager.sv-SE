@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Vanliga frågor för administratörer
 description: Vanliga frågor för Adobe Learning Manager-administratörer
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '2360'
 ht-degree: 0%
 
 ---
-
-
 
 # Vanliga frågor för administratörer
 
@@ -26,7 +25,7 @@ ht-degree: 0%
 
 +++Kan jag lägga till flera användare samtidigt? Hur?
 
-Ja, du kan lägga till användare i grupp genom att använda funktionen för CSV-överföring. Klicka  [här](/help/migrated/administrators/add-users-in-bulk.md) för mer information.
+Ja, du kan lägga till användare i grupp genom att använda funktionen för CSV-överföring. Klicka [här](/help/migrated/administrators/add-users-in-bulk.md) för mer information.
 
 +++
 
@@ -42,13 +41,13 @@ För att åtgärda en användarinloggning måste du importera CSV i Learning Man
 
 Användare ska läggas till på sidan Elever.
 
-[Exempel på CSV.csv för Learning Manager](https://helpx.adobe.com/content/dam/help/en/captivate_prime/learning-manager-sample-csv.zip)
+[Exempel för Learning Manager CSV.csv](https://helpx.adobe.com/content/dam/help/en/captivate_prime/learning-manager-sample-csv.zip)
 
 +++
 
 +++Hur skapar jag aviseringar?
 
-Du kan skapa aviseringar i Adobe Learning Manager 1.0. Referens  [aviseringsfråga](/help/migrated/administrators/feature-summary/user-notifications.md) för mer information.
+Du kan skapa aviseringar i Adobe Learning Manager 1.0. Mer information finns i [aviseringsfråga](/help/migrated/administrators/feature-summary/user-notifications.md).
 
 +++
 
@@ -60,13 +59,13 @@ Adobe Learning Manager tillhandahåller inte certifikat för kurserna. Administr
 
 +++Hur importerar jag signaturer för certifikaten?
 
-I Adobe Learning Manager finns det ingen funktion för att importera signaturer för certifieringen eller märket.
+I Adobe Learning Manager finns ingen funktion för att importera signaturer för certifieringen eller märket.
 
 +++
 
 +++Kan jag ställa in en kalender för kurserna? Hur?
 
-I Adobe Learning Manager 1.0 har vi inte några bestämmelser om att ställa in kurskalender.
+I Adobe Learning Manager 1.0 har vi inga planer på att ange en kurskalender.
 
 +++
 
@@ -79,7 +78,7 @@ Elever sätts upp på väntelistan till en klassrumskurs när antalet platser ä
 1. Klicka på Väntelista i den vänstra rutan på sidan för kursinformation. En lista med elever på väntelistan visas på sidan.
 1. Välj eleverna och klicka på Allokera platser för att registrera eleverna direkt på kurserna istället för platsgränsen.
 
-Mer information finns i  [väntelista och närvaro](/help/migrated/administrators/feature-summary/waitlist-attendance-management.md) -funktion.
+Mer information finns i funktionen [Väntelista och närvaro](/help/migrated/administrators/feature-summary/waitlist-attendance-management.md).
 
 +++
 
@@ -93,7 +92,7 @@ Ja, du kan registrera närvaro genom att följa stegen nedan:
 
 Om det finns flera moduler i en kurs och eleven endast har slutfört en av dem, kan du välja en enda modul och klicka på Spara för att markera slutförandet för eleven. Om eleven slutför alla moduler på en kurs kan du klicka på Välj alla alternativ och klicka på Spara.
 
-Mer information finns i  [väntelista och närvaro](/help/migrated/administrators/feature-summary/waitlist-attendance-management.md) -funktion.
+Mer information finns i funktionen [Väntelista och närvaro](/help/migrated/administrators/feature-summary/waitlist-attendance-management.md).
 
 +++
 
@@ -116,7 +115,7 @@ Som administratör kan du söka till chefens nominering för kurserna genom att 
 1. Klicka på Kurser i den vänstra rutan
 1. Håll muspekaren över en chefsnominerad kurs och klicka på **[!UICONTROL Seek Manager Nomination]**.
 
-1. Klicka på i listan med instanser **[!UICONTROL Managers nominated]** länk följt av **[!UICONTROL Add Managers]** länk.
+1. Klicka på länken **[!UICONTROL Managers nominated]** följt av länken **[!UICONTROL Add Managers]** i listan med instanser.
 
 1. Lägg till chefens namn, antalet tilldelade platser och klicka på bockmarkeringen för att spara ändringarna.
 
@@ -130,7 +129,7 @@ Registrera elever på kurser genom att följa stegen nedan:
 
 1. Klicka på Kurser i den vänstra rutan när du har loggat in som administratör. Lista över alla kurser visas på höger sida.
 1. Välj den kurs som du vill lägga till elever för och håll pekaren över den.
-1. Klicka på Registrera elever och lägg till namnet på elever. **Obs!** Du kan lägga till en eller många elever åt gången.
+1. Klicka på Registrera elever och lägg till namnet på elever. **Obs!** Du kan lägga till en eller flera elever åt gången.
 
 +++
 
@@ -138,10 +137,10 @@ Registrera elever på kurser genom att följa stegen nedan:
 
 Tilldela elever kompetenser genom att följa stegen nedan:
 
-1. Klicka **[!UICONTROL Skills]** i den vänstra rutan när du har loggat in som administratör.
-1. Välj en eller flera kompetenser genom att klicka på kryssrutorna vid varje kompetens och klicka på **[!UICONTROL Actions]** längst upp till höger på sidan.
+1. Klicka på **[!UICONTROL Skills]** i den vänstra rutan när du har loggat in som administratör.
+1. Välj en eller flera kompetenser genom att klicka på kryssrutorna vid varje kompetens och klicka på rullgardinsmenyn **[!UICONTROL Actions]** i det övre högra hörnet på sidan.
 1. Klicka på Tilldela till användare.
-1. Börja skriva namnet på användaren, välj ett alternativ i listrutan och klicka på **[!UICONTROL Save]**.
+1. Börja skriva namnet på användaren, välj från rullgardinsmenyn och klicka på **[!UICONTROL Save]**.
 
    >[!NOTE]
    >
@@ -163,9 +162,9 @@ Skapa ett utbildningsprogram genom att följa stegen nedan:
    >
    >Du måste publicera utbildningsprogrammet innan du registrerar elever eller en instans.
 
-1. Klicka på Instanser i den vänstra rutan och klicka på **[!UICONTROL Add new instances]** till höger på sidan om du vill inkludera information om instansen.
+1. Klicka på Instanser i den vänstra rutan och klicka på **[!UICONTROL Add new instances]** i det högra hörnet av sidan för att inkludera information om instansen.
 
-Mer information om utbildningsprogram finns i  [Utbildningsprogram.](/help/migrated/administrators/feature-summary/learning-programs.md)
+Mer information om utbildningsprogram finns i [Funktionen Utbildningsprogram.](/help/migrated/administrators/feature-summary/learning-programs.md)
 
 +++
 
@@ -177,9 +176,9 @@ Klicka på rullgardinspilen i det övre högra hörnet av varje rapport för att
 
 +++Hur ändrar jag kurser, utbildningsprogram och företagsprofil?
 
-Du kan redigera kurser eller utbildningsprogram även efter att du har publicerat dem. Mer information finns i  [Kurser](/help/migrated/administrators/feature-summary/courses.md) och  [utbildningsprogram](/help/migrated/administrators/feature-summary/learning-programs.md) Hjälpinnehåll.
+Du kan redigera kurser eller utbildningsprogram även efter att du har publicerat dem. Mer information finns i [Kurser](/help/migrated/administrators/feature-summary/courses.md) och [utbildningsprogram](/help/migrated/administrators/feature-summary/learning-programs.md) Hjälpinnehåll.
 
-Om du vill ändra företagsprofilen klickar du på **[!UICONTROL Settings]** i den vänstra rutan och klicka på **[!UICONTROL Change]** längst upp till höger på sidan.
+Om du vill ändra företagsprofilen klickar du på **[!UICONTROL Settings]** i den vänstra rutan och sedan på **[!UICONTROL Change]** i det övre högra hörnet på sidan.
 
 +++
 
@@ -202,9 +201,9 @@ Beroende på ditt val kan du visa den filtrerade listan över kurser och välja 
 
 Ja, du kan ändra teman och varumärke för Learning Manager-programmet enligt organisationens krav. En uppsättning med fem representativa bilder tillhandahålls för att förhandsgranska dina färgtemaändringar innan du tillämpar dem på ditt program. Bläddra igenom bilderna genom att klicka på symbolerna &lt; och > till vänster och höger om bilderna för att förhandsgranska dem.
 
-Klicka **[!UICONTROL Branding]** i den vänstra rutan om du vill uppdatera ditt organisationsnamn ändrar du underdomänen samt loggstilar och teman. Klicka **[!UICONTROL Edit]** ändra innehållet bredvid varje ämne.
+Klicka på **[!UICONTROL Branding]** i den vänstra rutan för att uppdatera organisationens namn, ändra underdomänen, loggstilar och teman. Klicka på **[!UICONTROL Edit]** bredvid vart och ett av dessa ämnen för att ändra innehållet.
 
-Se  [Hjälp med färgteman och varumärken](/help/migrated/administrators/feature-summary/themes.md) för mer information.
+Mer information finns i [Hjälp med färgteman och varumärken](/help/migrated/administrators/feature-summary/themes.md).
 
 +++
 
@@ -224,7 +223,7 @@ Du kan ställa in spelifieringspunkter för elever genom att följa stegen nedan
 1. Klicka på Spelifiering när du har loggat in som administratör. En sida visas med en lista över nivåer av brons, silver, guld och platina och de poäng som krävs för att uppnå motsvarande nivå. Det finns en lista med uppgifter och motsvarande punkter.
 1. Klicka på ikonen Redigera bredvid varje uppgift för att ställa in/ändra punkterna.
 
-Referens  [Spelifieringsfunktion](/help/migrated/administrators/feature-summary/gamification.md) för mer information.
+Mer information finns i [Spelifieringsfunktion](/help/migrated/administrators/feature-summary/gamification.md).
 
 +++
 
@@ -233,13 +232,13 @@ Referens  [Spelifieringsfunktion](/help/migrated/administrators/feature-summary/
 Du kan skapa rapporter genom att följa stegen nedan:
 
 1. Klicka på Rapporter i den vänstra rutan. Sidan Rapportsammanfattning visas.
-1. På sidan Rapporter klickar du på **[!UICONTROL Add]** längst upp till höger.
+1. Klicka på **[!UICONTROL Add]** längst upp till höger på sidan Rapporter.
 
-   **[!UICONTROL Add Report]** visas.
+   Dialogrutan **[!UICONTROL Add Report]** visas.
 
 1. Fyll i alla obligatoriska fält och klicka på Spara.
 
-Endast administratörer och chefer kan skapa eller visa rapporter. Se [rapportfunktion](/help/migrated/administrators/feature-summary/reports.md) för mer information.
+Endast administratörer och chefer kan skapa eller visa rapporter. Mer information finns i [rapportfunktionen](/help/migrated/administrators/feature-summary/reports.md).
 
 +++
 
@@ -264,11 +263,11 @@ Chefer, författare och elever kan se meddelanden baserat på kursaktiviteterna.
 
 +++Hur tillåter jag extern registrering till kurserna?
 
-Med Adobe Learning Manager kan du registrera externa avdelningsmedlemmar eller anställda i ditt företag i programmet.
+Adobe Learning Manager ger dig möjlighet att registrera externa avdelningsmedlemmar eller anställda i din organisation på programmet.
 
-1. Klicka **[!UICONTROL Users]** i den vänstra rutan.
-1. Klicka **[!UICONTROL External]** i den vänstra rutan.
-1. Klicka **[!UICONTROL Add]** längst upp till höger på sidan.
+1. Klicka på **[!UICONTROL Users]** i den vänstra rutan.
+1. Klicka på **[!UICONTROL External]** i den vänstra rutan.
+1. Klicka på **[!UICONTROL Add]** längst upp till höger på sidan.
 
    Dialogrutan Lägg till användare visas.
 
@@ -284,7 +283,7 @@ Administratören kan kopiera registreringsadressen och skicka den till den exter
 Skapa ett feedbackfrågeformulär som elever kan använda efter att ha slutfört kurserna. Det finns som standard tre exempelfrågor. Skapa ett frågeformulär genom att följa stegen nedan.
 
 1. Klicka på Feedback i den vänstra rutan. Ett fönster med ett feedbackfrågeformulär visas.
-1. Klicka **[!UICONTROL Edit]** för att lägga till/ändra enkäten.
+1. Klicka på **[!UICONTROL Edit]** för att lägga till/ändra enkäten.
 
 Du kan lägga till en uppsättning frågeformulär och välja att inte visa upp dem om du inte behöver dem. Klicka på kryssrutan för att aktivera/inaktivera en viss fråga.
 
@@ -298,7 +297,7 @@ Du kan lägga till en uppsättning frågeformulär och välja att inte visa upp 
 
    Som standard kommer en enda nivå med 0 krediter att vara tillgänglig för varje kompetens.
 
-1. Klicka [!UICONTROL **Lägg till nivå**] för att lägga till en ny nivå för varje kompetens och klicka på Spara. Du kan lägga till upp till fem nivåer.
+1. Klicka på [!UICONTROL **Lägg till nivå**] för att lägga till en ny nivå för varje kompetens och klicka på Spara. Du kan lägga till upp till fem nivåer.
 
 När kompetensen har sparats kan du inte ta bort nivåer från kompetensen. Administratören kan också tilldela elever en viss kompetens och nivå.
 
@@ -306,18 +305,18 @@ När kompetensen har sparats kan du inte ta bort nivåer från kompetensen. Admi
 
 +++Hur konfigurerar jag faktureringssystemet för min organisations kurser?
 
-1. Klicka [!UICONTROL **Fakturering**] i den vänstra rutan.
+1. Klicka på [!UICONTROL **Fakturering**] i den vänstra rutan.
 
    Faktureringsinformation visas på sidan.
 
-1. Klicka på [!UICONTROL **Prenumerera**] -fliken.
+1. Klicka på fliken [!UICONTROL **Prenumerera**].
 1. Skriv in antalet paket som du vill beställa i fältet Elevpaket och klicka på Beställ längst upp till höger på sidan.
 
-   Välj antalet paket baserat på antalet elever i organisationen och gör beställningen. För en process som styrs av en inköpsorder kan du skriva till oss på  [learningmanagersales@adobe.com](mailto:learningmanagersales@adobe.com).
+   Välj antalet paket baserat på antalet elever i organisationen och gör beställningen. Om du vill ha en process som styrs av en inköpsorder kan du skriva till oss på [learningmanagersales@adobe.com](mailto:learningmanagersales@adobe.com).
 
 1. Ange dina kontaktuppgifter, välj kreditkortstyp, ange kreditkortsuppgifter och klicka på Slutför beställning.
 
-Referens [Faktureringshantering](/help/migrated/administrators/feature-summary/billing-management.md) för mer information.
+Mer information finns i [Faktureringshantering](/help/migrated/administrators/feature-summary/billing-management.md).
 
 +++
 
@@ -338,7 +337,7 @@ I Adobe Learning Manager kan du identifiera elever genom att utfärda utmärkels
 
 Om du vill lägga till kurser måste du byta roll som författare. Du kan bara visa listan över tillgängliga kurser baserat på deras status som **[!UICONTROL Complete]**, **[!UICONTROL Published]** och **[!UICONTROL Retired]**.
 
-Klicka på för att visa kurser **[!UICONTROL Courses]** i den vänstra rutan. Referens  [Skapa kurser](/help/migrated/administrators/feature-summary/courses.md)för mer information
+Klicka på **[!UICONTROL Courses]** i den vänstra rutan för att visa kurser. Se [Skapa kurser](/help/migrated/administrators/feature-summary/courses.md)för mer information
 
 +++
 
@@ -349,9 +348,9 @@ Följ stegen nedan om du vill lägga till nya användare:
 1. Klicka på Användare i den vänstra rutan när du har loggat in som administratör. Du kan också lägga till användare genom att klicka på Komma igång i den vänstra rutan i fönstret och genom att klicka på Lägg till användare.
 1. Om du vill lägga till nya användare klickar du på Lägg till längst upp till höger på sidan.
 
-Som standard tilldelas alla nya användare en elevroll. Du kan tilldela admin- eller författarroller till eleverna genom att klicka på **[!UICONTROL Actions]** längst upp till höger på sidan och välja **[!UICONTROL Assign Role]** > **[!UICONTROL Make Author]** eller **[!UICONTROL Make Admin]**.
+Som standard tilldelas alla nya användare en elevroll. Du kan tilldela administratörs- eller författarroller till eleverna genom att klicka på **[!UICONTROL Actions]** i det övre högra hörnet på sidan och välja **[!UICONTROL Assign Role]** > **[!UICONTROL Make Author]** eller **[!UICONTROL Make Admin]**.
 
-Referens  [Lägg till nya användare](/help/migrated/administrators/feature-summary/add-users-user-groups.md) för detaljerad information om tillägg av elever, författare och administratörer.
+Mer information om hur du lägger till elever, författare och administratörer finns i funktionen [Lägg till nya användare](/help/migrated/administrators/feature-summary/add-users-user-groups.md).
 
 +++
 

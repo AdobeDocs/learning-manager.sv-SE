@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## Översikt {#overview}
 
-[Adobe Learning Manager](http://www.adobe.com/in/products/learningmanager.html) är en molnbaserad lösning som fokuserar på elever och självbetjäning för hantering av inlärning. Kunder kan använda Learning Manager-resurser programmatiskt med Learning Manager-API:et för att integrera det med andra företagsprogram. API kan också användas av Adobe partners för att förbättra värdepåståendet i Learning Manager genom att utöka dess funktionalitet eller genom att integrera den med andra program eller tjänster.
+[Adobe Learning Manager](http://www.adobe.com/in/products/learningmanager.html) är en molnbaserad, elevcentrerad och självbetjänad lösning för hantering av inlärning. Kunder kan använda Learning Manager-resurser programmatiskt med Learning Manager-API:et för att integrera det med andra företagsprogram. API kan också användas av Adobe partners för att förbättra värdepåståendet i Learning Manager genom att utöka dess funktionalitet eller genom att integrera den med andra program eller tjänster.
 
 ### Användningsscenario {#usagescenario}
 
@@ -30,11 +30,11 @@ Med Learning Manager API kan utvecklare skapa fristående program som utökar fu
 
 Learning Manager API baseras på REST-principer och visar viktiga element i Learning Manager-objektmodellen för programutvecklare via HTTP. Innan du känner till detaljerna för API-slutpunkterna och HTTP-metoderna kan utvecklare bekanta sig med de olika Learning Manager-objekten, deras attribut och inbördes relationer. När modellerna har förståtts är det bra att ha en grundläggande förståelse för strukturen hos API-begäranden och -svar, och några vanliga programmeringstermer som vi använder generellt i hela API:et.
 
-Mer information om de olika API-slutpunkterna och -metoderna finns i  [API-dokumentation för Learning Manager](https://learningmanager.adobe.com/docs/primeapi/v2/).
+Mer information om de olika API-slutpunkterna och -metoderna finns i [dokumentationen för Learning Manager API](https://learningmanager.adobe.com/docs/primeapi/v2/).
 
 ## Elevens API
 
-Adobe Learning Manager - Med elevs-API:er kan du skapa en anpassad utbildningsupplevelse för dina användare. Användningen av dessa API:er kräver en giltig användartoken och ska bara användas i arbetsflöden där det finns en helt licensierad/registrerad elev.
+Adobe Learning Manager - Med elev-API:er kan du skapa en anpassad utbildningsupplevelse för dina användare. Användningen av dessa API:er kräver en giltig användartoken och ska bara användas i arbetsflöden där det finns en helt licensierad/registrerad elev.
 
 >[!IMPORTANT]
 >
@@ -42,7 +42,7 @@ Adobe Learning Manager - Med elevs-API:er kan du skapa en anpassad utbildningsup
 
 De användningsfall som inte är inloggade kräver särskild hantering.
 
-**Kontakta lösningsarkitektteamet om du har några frågor om hur dessa API:er ska användas och se till att en lösningsarkitekt har testat en lösning innan du driftsätter den**.
+**Kontakta lösningsarkitekturteamet om du har frågor om lämplig användning av dessa API:er och se till att en lösningsarkitekt har testat en lösning innan du driftsätter den**.
 
 ## API-autentisering {#apiauthentication}
 
@@ -50,7 +50,7 @@ När du skriver ett program som gör API-anrop till Learning Manager måste du r
 
 Learning Manager API:er använder OAuth 2.0 Framework för att autentisera och auktorisera dina klientprogram.
 
-**Tillvägagångssätt**
+**Procedur**
 
 **1. Konfigurera ditt program**
 
@@ -62,7 +62,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 När autentiseringen är klar omdirigeras webbläsaren till den redirect_uri som nämns i ovanstående URL. En parameter **kod** läggs till tillsammans med omdirigerings-URI:n.
 
-**2) Hämta uppdateringstoken från kod**
+**2. Hämta uppdateringstoken från koden**
 
 `POST https://learningmanager.adobe.com/oauth/token Content-Type: application/x-www-form-urlencoded`
 
@@ -81,11 +81,11 @@ client_id:
 </enter>
 ```
 
-**3)** **Hämta en åtkomsttoken från uppdateringstoken**
+**3.** **Hämta en åtkomsttoken från uppdateringstoken**
 
 URL för att hämta åtkomsttoken:
 
-POST [https://learningmanager.adobe.com/oauth/token/refresh](https://learningmanager.adobe.com/oauth/token/refresh) Innehållstyp: application/x-www-form-urlencoded
+POST [https://learningmanager.adobe.com/oauth/token/refresh](https://learningmanager.adobe.com/oauth/token/refresh) Content-Type: application/x-www-form-urlencoded
 
 Brödtext för begäran om inlägg:
 
@@ -104,11 +104,11 @@ client_id:
 </enter>
 ```
 
-**URL för att verifiera åtkomsttokeninformation**
+**URL för verifiering av information om åtkomsttoken**
 
 `GET https://learningmanager.adobe.com/oauth/token/check?access_token=<access_token>`
 
-**Begränsning av användning**
+**Användningsbegränsning**
 
 En åtkomsttoken är giltig i sju dagar. Efter en dag måste du generera en ny åtkomsttoken med uppdateringstoken. Om du genererar en ny åtkomsttoken från uppdateringstoken medan en befintlig åtkomsttoken fortfarande är giltig, returneras den befintliga token.
 
@@ -116,7 +116,7 @@ Några av de vanligaste termerna i Learning Manager API förklaras nedan som ref
 
 **Inkluderar**
 
-Utvecklare kan komma åt en enda API-objektmodell och flera modeller som är kopplade till den modellen. Om du vill komma åt efterföljande relaterade modeller måste du förstå förhållandet mellan varje modell och andra modeller. **Inkluderar** -parametern gör att utvecklare kan komma åt de beroende modellerna. Du kan använda kommaavgränsare för att komma åt flera modeller. För exempelanvändning och mer information om **inkluderar** Se avsnittet Exempel på API-modell på den här sidan.
+Utvecklare kan komma åt en enda API-objektmodell och flera modeller som är kopplade till den modellen. Om du vill komma åt efterföljande relaterade modeller måste du förstå förhållandet mellan varje modell och andra modeller. Parametern **Includes** gör att utvecklare kan komma åt beroende modeller. Du kan använda kommaavgränsare för att komma åt flera modeller. Mer information om exempelanvändning och **inkluderar** finns i avsnittet om exempel på API-modell på den här sidan.
 
 **API-begäran**
 
@@ -124,7 +124,7 @@ API-begäranden kan göras genom att göra en HTTP-begäran. Beroende på ändpu
 
 **API-svar**
 
-När en API-begäran görs av en klient hämtas ett SON-dokument enligt JSON API-specifikationen. Svaret innehåller också HTTP-statuskoden, som utvecklaren kan verifiera för att utföra nästa steg i sin programlogik. Strukturen för ett typiskt API-svar beskrivs i  [exempelmodellanvändning](#main-pars_header_1415780624).
+När en API-begäran görs av en klient hämtas ett SON-dokument enligt JSON API-specifikationen. Svaret innehåller också HTTP-statuskoden, som utvecklaren kan verifiera för att utföra nästa steg i sin programlogik. Strukturen för ett typiskt API-svar beskrivs i [exempelmodellanvändning](#main-pars_header_1415780624).
 
 **Fel**
 
@@ -132,7 +132,7 @@ När en API-begäran misslyckas får du ett felsvar. Den HTTP-statuskod som retu
 
 **Fält**
 
-API-objektets attribut och relationer kallas gemensamt för fält. Se [JSON API för mer information.](http://jsonapi.org/format/#document-resource-object-fields) Du kan använda Fält som en parameter när du gör API-anrop för att hämta ett eller flera specifika attribut från modellen. I avsaknad av parametern Fields hämtar API-anropet alla tillgängliga attribut från modellen. I följande API-anrop visas till exempel fält[färdighet]=name hämtar namnattributet enbart från kompetensmodellen.
+API-objektets attribut och relationer kallas gemensamt för fält. Se [JSON API för mer information.](http://jsonapi.org/format/#document-resource-object-fields) Du kan använda Fält som en parameter när du gör API-anrop för att hämta ett eller flera specifika attribut från modellen. I avsaknad av parametern Fields hämtar API-anropet alla tillgängliga attribut från modellen. I följande API-anrop hämtar till exempel fälten [skills]=name attributet name för enbart kompetensmodellen.
 
 https://learningmanager.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?include=skillLevel.skill&amp;fields[skill]=name
 
@@ -142,7 +142,7 @@ Ibland resulterar en API-begäran i en lång lista med objekt som ska returneras
 
 **Sortering**
 
-Sortering är tillåtet i API-modeller. Välj vilken typ av sortering som ska användas för resultaten baserat på modellen. Sortering kan göras i stigande eller fallande ordning. Om du till exempel anger `code sort=name`, sedan är det stigande sortera efter namn. Om du anger `code sort=-name`, det är fallande sortera efter namn. Se [JSON API-specifikation för mer information](http://jsonapi.org/format/#fetching-sorting).
+Sortering är tillåtet i API-modeller. Välj vilken typ av sortering som ska användas för resultaten baserat på modellen. Sortering kan göras i stigande eller fallande ordning. Om du till exempel anger `code sort=name`, sorteras den stigande efter namn. Om du anger `code sort=-name` sorteras den fallande efter namn. Se [JSON API-specifikation om du vill ha mer information](http://jsonapi.org/format/#fetching-sorting).
 
 ## Illustration av API-användning {#samplemodel}
 
@@ -150,7 +150,7 @@ Låt oss överväga ett scenario där en utvecklare vill få ett färdighetsnamn
 
 En userSkill-modell i API:er för Learning Manager består av id, type, dateAchived, dateCreated och pointsEarned som standardattribut. När en utvecklare använder GET-metoden för att hämta information om userSkill-modellen visas aktuella data som gäller standardattributen i svarsutdata.
 
-Men i det här scenariot vill utvecklaren få färdighetsnamnet och kunskapspoängen för användaren. Med Learning Manager API kan du komma åt denna relaterade information med hjälp av relationsfält och inkludera parametrar. De associerade modellerna för userSkill hämtas i relationstaggen. Du kan få information om varje associerad modell genom att anropa dessa modeller tillsammans med userSkill. Om du vill ha den här informationen använder du **`code include`** parameter med punkt (punkt)-separerade värden för var och en av de associerade modellerna. Du kan använda kommatecken som avgränsare för att begära en annan modell som user include=skillsLevel.skills,course
+Men i det här scenariot vill utvecklaren få färdighetsnamnet och kunskapspoängen för användaren. Med Learning Manager API kan du komma åt denna relaterade information med hjälp av relationsfält och inkludera parametrar. De associerade modellerna för userSkill hämtas i relationstaggen. Du kan få information om varje associerad modell genom att anropa dessa modeller tillsammans med userSkill. Om du vill hämta den här informationen använder du parametern **`code include`** med punkt- (punkt) separerade värden för var och en av de associerade modellerna. Du kan använda kommatecken som avgränsare för att begära en annan modell som user include=skillsLevel.skills,course
 
 **API-anrop**
 
@@ -422,11 +422,11 @@ Nedan följer de olika elementen i klassdiagrammet för Learning Manager i V2 AP
   </tr>
   <tr>
    <td>userBadge</td>
-   <td>UserBadge relaterar ett enda märke <code>
+   <td>UserBadge relaterar ett enskilt märke <code>
      with
-    </code> en enskild användare. Det innehåller uppgifter om när det uppnåddes. <code>
+    </code> till en enskild användare. Det innehåller information som när det uppnåddes, <code>
      assertionUrl
-    </code> osv. <br></td>
+    </code> och så vidare. <br></td>
   </tr>
   <tr>
    <td>färdighet</td>
@@ -440,7 +440,7 @@ Nedan följer de olika elementen i klassdiagrammet för Learning Manager i V2 AP
    <td>learningObject</td>
    <td>Ett utbildningsobjekt är en abstraktion för olika typer av objekt som användare kan registrera sig för och lära sig från. Learning Manager har för närvarande fyra typer av utbildningsobjekt - kurs, certifiering, utbildningsprogram <code>
      and
-    </code> Arbetsstöd.<br></td>
+    </code> arbetsstöd.<br></td>
   </tr>
   <tr>
    <td>learningObjectInstance<br></td>
@@ -448,19 +448,19 @@ Nedan följer de olika elementen i klassdiagrammet för Learning Manager i V2 AP
   </tr>
   <tr>
    <td>learningObjectResource</td>
-   <td>Detta motsvarar begreppet <code>
+   <td>Detta motsvarar <code>
      module
-    </code>. En kurs består av en <code>
+    </code>. En kurs består av ytterligare en <code>
      of
-    </code> fler moduler. I Learning Manager kan en modul levereras på flera olika likvärdiga sätt. Därför bör <code>
+    </code> modul. I Learning Manager kan en modul levereras på flera olika likvärdiga sätt. Därför omfattar <code>
      loResource
-    </code> i huvudsak omfattar alla dessa likvärdiga resurser.<br></td>
+    </code> i princip alla dessa likvärdiga resurser.<br></td>
   </tr>
   <tr>
    <td>loResourceGrade<br></td>
-   <td>Detta sammanfattar resultatet för den användare som använder en specifik resurs i samband med ett utbildningsobjekt som han är registrerad för. Kommissionen har information om bland annat hur länge <code>
+   <td>Detta sammanfattar resultatet för den användare som använder en specifik resurs i samband med ett utbildningsobjekt som han är registrerad för. Den innehåller information som längden <code>
      user
-    </code> i resursen, procentandel av användarens förlopp, status för godkänt/icke godkänt och det poäng som användaren fått i alla associerade quiz.<br></td>
+    </code> har tillryggalagt för resursen, procentuella framsteg som har gjorts av användaren, status godkänt/underkänt och poäng som har erhållits av användaren i associerade quiz.<br></td>
   </tr>
   <tr>
    <td>kalender<br></td>
@@ -825,13 +825,13 @@ Som utvecklare måste du skapa ett testkonto i Learning Manager, så att du har 
 
 ## Skapa klient-ID och hemlighet {#createclientidandsecret}
 
-1. in **Integreringsadministratör** logga in, klicka på **[!UICONTROL Applications]** i den vänstra rutan.
+1. Klicka på **[!UICONTROL Applications]** i den vänstra rutan i **Integreringsadministratör**-inloggningen.
 
    ![](assets/application-development-menu.png)
 
-   *Välj Program i integrationsadministratör*
+   *Välj program i integreringsadministratören*
 
-1. Klicka **[!UICONTROL Register]** längst upp till höger på sidan för att registrera din programinformation. Registreringssidan visas.
+1. Klicka på **[!UICONTROL Register]** längst upp till höger på sidan för att registrera programinformationen. Registreringssidan visas.
 
    ![](assets/register-application.png)
 
@@ -841,21 +841,21 @@ Som utvecklare måste du skapa ett testkonto i Learning Manager, så att du har 
 
    **Programnamn**: Ange programmets namn. Det är inte obligatoriskt att använda samma programnamn, det kan vara vilket giltigt namn som helst.
 
-   **URL**: Om du vet den exakta URL-adressen där programmet finns kan du nämna den. Om du inte känner till det kan du ange företagets webbadress. Ett giltigt URL-namn är obligatoriskt i det här fältet.
+   **URL**: Om du vet exakt vilken URL-adress programmet finns på kan du nämna den. Om du inte känner till det kan du ange företagets webbadress. Ett giltigt URL-namn är obligatoriskt i det här fältet.
 
-   **Omdirigera domäner**: Ange domännamnet för programmet där du vill att Learning Manager-programmet ska omdirigeras efter OAuth-autentisering. Du kan nämna flera URL:er här, men du måste använda giltiga URL:er som `http://google.com`, `http://yahoo.com` osv.
+   **Omdirigera domäner**: Ange domännamnet för programmet där du vill att Learning Manager-programmet ska omdirigeras efter OAuth-autentisering. Du kan nämna flera URL-adresser här, men du måste använda giltiga URL-adresser som `http://google.com`, `http://yahoo.com` och så vidare.
 
    **Beskrivning:** Ange en kort beskrivning av programmet.
 
-   **Omfång:** Välj ett av de fyra tillgängliga alternativen för att definiera programmets omfattning. Baserat på ditt val som nämns här är slutpunkten för Learning Manager API tillgänglig för ditt program. Om du till exempel väljer **Läsbehörighet för elevroll**, är alla slutpunkter för Learning Manager-elevens API skrivskyddade för ditt program.
+   **Omfång:** Välj ett av de fyra tillgängliga alternativen för att definiera programmets omfång. Baserat på ditt val som nämns här är slutpunkten för Learning Manager API tillgänglig för ditt program. Om du till exempel valde **läsbehörighet för elevrollen** är alla slutpunkter för Learning Manager-elevens API skrivskyddade för ditt program.
 
    **Endast för det här kontot?**\
    **Ja** - Om du väljer Ja är programmet inte synligt för andra kontoadministratörer.\
-   **Nej** - Om du väljer Nej kan andra kontoadministratörer också komma åt det här programmet, men de måste använda program-id:t för att komma åt programmet. Program-ID genereras och visas i redigeringsläget för Learning Manager-program.
+   **Nej** - Om du väljer Nej kan andra kontoadministratörer också komma åt det här programmet, men de måste använda program-ID:t för att komma åt programmet. Program-ID genereras och visas i redigeringsläget för Learning Manager-program.
 
-   Om du väljer **Läs- och skrivbehörighet för administratörsrollen** som omfattning när du registrerar programmet och väljer **Läsbehörighet för administratörsroll** när du redigerar API:erna kan du fortfarande ha skrivåtkomst till programmet eftersom programregistreringsomfånget ersätter auktoriseringsarbetsflödet.
+   Om du väljer **läs- och skrivåtkomst** för administratörsrollen som scope när du registrerar programmet och väljer **Läsåtkomst för administratörsroll** när du redigerar API:erna, kan du fortfarande ha skrivåtkomst till programmet eftersom appregistreringsomfånget ersätter auktoriseringsarbetsflödet.
 
-1. Klicka **[!UICONTROL Register]** längst upp till höger när du har fyllt i uppgifterna på registreringssidan.
+1. Klicka på **[!UICONTROL Register]** i det övre högra hörnet när du har fyllt i informationen på registreringssidan.
 
 ## Programutveckling och testning {#applicationdevelopmentandtesting}
 
@@ -867,7 +867,7 @@ Vi rekommenderar att Learning Manager-administratören eller en integrationsadmi
 
 ## Godkännande av externt program {#externalapplicationapproval}
 
-Du kan lägga till externa program genom att klicka **Godkänn** längst upp till höger på **Program** sidan. Ange ID för externt program och klicka på **Spara.**
+Du kan lägga till externa program genom att klicka på **Godkänn** i det övre högra hörnet på sidan **Program**. Ange det externa program-id:t och klicka på **Spara.**
 
 ![](assets/add-external-application.png)
 

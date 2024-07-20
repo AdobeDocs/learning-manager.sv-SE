@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Väntelista och närvarohantering
 description: Administratörer kan hantera närvaro och väntelista för kurser för elever.
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 257ed196-d6a7-4d6c-bd90-33d658f6ba55
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
 
 ---
-
-
 
 # Väntelista och närvarohantering
 
@@ -20,15 +19,15 @@ Administratörer kan hantera närvaro och väntelista för kurser för elever.
 
 Elever sätts upp på väntelistan till en klassrumskurs när antalet platser är begränsade, baserat på ordningen i vilken de registrerat sig. Administratörer kan välja elever på väntelistan och tilldela platser som ersätter platsgränsen för en klassrumskurs. Elever registreras till kursen så snart administratören tilldelar dem en plats.
 
-1. Klicka **[!UICONTROL Courses]** i den vänstra rutan när du har loggat in som administratör.
+1. Klicka på **[!UICONTROL Courses]** i den vänstra rutan när du har loggat in som administratör.
 1. Klicka på kursnamnet för valfri klassrumskurs i listan med tillgängliga kurser. En ny sida med detaljerad information om kursen visas.
 
 ![](assets/waitlist-and-attendance-mgmnt.png)
 
 *Välj alternativet Väntelista*
 
-1. Klicka **[!UICONTROL Waitlist]** i den vänstra rutan på sidan med kursinformation. Listan med elever på väntelistan visas på sidan.
-1. Välj eleverna och klicka på **[!UICONTROL Allocate seats]** för att registrera eleverna direkt på de kurser som ersätter platsbegränsningen.
+1. Klicka på **[!UICONTROL Waitlist]** i den vänstra rutan på sidan för kursinformation. Listan med elever på väntelistan visas på sidan.
+1. Välj eleverna och klicka på **[!UICONTROL Allocate seats]** för att registrera eleverna direkt på de kurser som ersätter platsgränsen.
 
 ## Närvarohantering {#attendancemanagement}
 

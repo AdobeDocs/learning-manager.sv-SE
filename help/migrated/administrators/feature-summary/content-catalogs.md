@@ -3,14 +3,13 @@ description: Learning Manager introducerar innehållskatalog
 jcr-language: en_us
 title: INNEHÅLLSKATALOG FÖR LEARNING MANAGER
 contentowner: dvenkate
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 495f8b76-4496-422e-8b8d-9d3227a8a846
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
 
 ---
-
-
 
 # INNEHÅLLSKATALOG FÖR LEARNING MANAGER
 
@@ -27,14 +26,14 @@ I den vänstra rutan klickar du på Content Marketplace och sedan på **[!UICONT
 
 <!--![](assets/content-catalog.png)-->
 
-Klicka på för att se katalogdetaljer och kurser i varje katalog **[!UICONTROL View]**. I det nya fönstret visas alla kurser.
+Klicka på **[!UICONTROL View]** för att se kataloginformationen och kurserna i varje katalog. I det nya fönstret visas alla kurser.
 
 <!--![](assets/course-details.png)-->
 
-Om du vill se information om kursen klickar du på **[!UICONTROL Visit]**. Använd kryssrutorna för att välja de kurser du är intresserad av.
+Klicka på **[!UICONTROL Visit]** för att se information om kursen. Använd kryssrutorna för att välja de kurser du är intresserad av.
 
-* Du kan dela de valda kurserna med andra genom att välja  **[!UICONTROL Share]**.
-* Du kan kontakta Adobe genom att markera  **[!UICONTROL Contact Adobe]**.
+* Du kan dela de valda kurserna med andra genom att välja **[!UICONTROL Share]**.
+* Du kan kontakta Adobe genom att välja **[!UICONTROL Contact Adobe]**.
 
 <!--![](assets/course-details.png)-->
 

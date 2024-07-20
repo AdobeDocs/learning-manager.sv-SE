@@ -4,14 +4,13 @@ jcr-language: en_us
 title: Utbildningsprogram
 contentowner: manochan
 preview: true
-source-git-commit: 6d313e62b029f50aa77950e00b97f5c278c03b53
+exl-id: 360dee1f-a19c-4aa2-9fc4-c318a5116337
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1456'
 ht-degree: 0%
 
 ---
-
-
 
 # Utbildningsprogram
 
@@ -28,7 +27,7 @@ Utbildningsprogram är en uppsättning unikt utformade kurser som uppfyller spec
 
 Administratörer kan skapa utbildningsprogram. Skapa ett utbildningsprogram genom att följa stegen nedan:
 
-1. Logga in som administratör. Klicka **[!UICONTROL Learning program]** i den vänstra rutan. Sidan Utbildningsprogram visas med en lista över befintliga utbildningsprogram om de redan har skapats för din organisation.
+1. Logga in som administratör. Klicka på **[!UICONTROL Learning program]** i den vänstra rutan. Sidan Utbildningsprogram visas med en lista över befintliga utbildningsprogram om de redan har skapats för din organisation.
 1. Klicka på Lägg till längst upp till höger på sidan. Sidan Lägg till nytt utbildningsprogram visas.
 1. Ange namn, översikt och förmåner för utbildningsprogrammet.
 1. Klicka på Lägg till nytt språk överst på sidan för att skapa utbildningsprogrammen för andra språk. Välj de språk du behöver och klicka på Lägg till. Du kan behöva lägga till alla metadata för utbildningsprogrammet på alla valda språk. Annars visas den engelska informationen för andra språk.
@@ -41,7 +40,7 @@ Administratörer kan skapa utbildningsprogram. Skapa ett utbildningsprogram geno
 
    Alla typer av kurser kan läggas till i ett utbildningsprogram. Dessa inkluderar klassrums- och virtuella klassrumskurser, aktivitet, kurser du kan ta i egen takt och blandade kurser. Chefsnominerade och chefsgodkända kurser visas inte under kursurvalet i utbildningsprogram.
 
-1. Du måste lägga till kurser i utbildningsprogrammet innan du publicerar det. Klicka **[!UICONTROL Catalog]** för att koppla kurser till utbildningsprogrammet. En lista över alla tillgängliga kurser visas.
+1. Du måste lägga till kurser i utbildningsprogrammet innan du publicerar det. Klicka på fliken **[!UICONTROL Catalog]** för att associera kurser till utbildningsprogrammet. En lista över alla tillgängliga kurser visas.
 
 1. Välj de kurser du vill lägga till i utbildningsprogrammet genom att hålla muspekaren över ett kurskort och klicka på det. Om kursen ännu inte har lagts till i utbildningsprogrammet kan du visa en +-symbol i mitten av kurskortet.
 
@@ -49,18 +48,18 @@ Administratörer kan skapa utbildningsprogram. Skapa ett utbildningsprogram geno
 
    **Anteckning**
 
-   Visa listan över alla tillagda kurser i ditt utbildningsprogram i **[!UICONTROL Curriculum]** -fliken. Ytterligare etikett kan ses för de tillagda kurserna, längst ner på kurskortet i **[!UICONTROL Catalog]** -fliken.
+   Visa listan över alla tillagda kurser i ditt utbildningsprogram på fliken **[!UICONTROL Curriculum]**. Den extra etiketten visas för de tillagda kurserna längst ned på kurskortet på fliken **[!UICONTROL Catalog]**.
 
-1. Klicka **[!UICONTROL Back to programs]** högst upp i den vänstra rutan, för att se en lista över alla utbildningsprogram. Du kan se att ditt nyligen tillagda utbildningsprogram listas där.
-1. Du kan publicera utbildningsprogrammet genom att klicka på Översikt i den vänstra rutan och välja Åtgärder > Publicera. Du kan också publicera utbildningsprogrammet i vyn Kurser och instanser genom att klicka på Publicera längst upp till höger på sidan.
+1. Klicka på **[!UICONTROL Back to programs]** längst upp i den vänstra rutan för att visa en lista över alla utbildningsprogram. Du kan se att ditt nyligen tillagda utbildningsprogram listas där.
+1. Du kan publicera utbildningsprogrammet genom att klicka på Översikt i den vänstra rutan och välja Åtgärder > Publish. Du kan också publicera utbildningsprogrammet i vyn Kurser och instanser genom att klicka på Publish längst upp till höger på sidan.
 
 ## Lägg till elever i ett utbildningsprogram {#addlearnerstoalearningprogram}
 
-Mer information om hur du registrerar elever och hur du följer dem finns i  [Registrerar elever.](courses.md#main-pars_header_1058138132)
+Mer information om hur du registrerar elever och hur du följer dem finns i [Registrerar elever.](courses.md#main-pars_header_1058138132)
 
 ## Aktivera fullständig katalogkontroll för utbildningsprogram {#catalog}
 
-Som att bevilja fullständig [katalogkontroll för utbildningar eller moduler](shared-catalog-full-control.md)Du kan också aktivera fullständig katalogkontroll för utbildningsprogram.
+Precis som att bevilja fullständig [katalogkontroll för utbildningar eller moduler](shared-catalog-full-control.md) kan du även aktivera fullständig katalogkontroll för utbildningsprogram.
 
 ## Återställ kurs
 
@@ -70,11 +69,11 @@ Administratören kan återställa förloppet för kursen från ett utbildningspr
 
 För att återställa en kurs måste administratören välja en kurs från listrutan Kurser.
 
-Sedan från **[!UICONTROL Actions]** listruta, klicka på **[!UICONTROL Reset Course]**.
+Klicka sedan på **[!UICONTROL Reset Course]** i listrutan **[!UICONTROL Actions]**.
 
 Eleverna kan nu starta modulerna för de valda kurserna från början.
 
-**Obs! Endast misslyckade och ofullständiga moduler av kursen kommer att återställas.**
+**Obs! Endast misslyckade och ofullständiga moduler för kursen kommer att återställas.**
 
 ## Skapa flera förekomster av utbildningsprogram {#createmultipleinstancesoflearningprograms}
 
@@ -139,10 +138,10 @@ När du skapar utbildningsprogram har administratören ett alternativ för att v
 
 Administratörer kan markera ett utbildningsprogram som slutfört med det alternativ som är tillgängligt för dem. Gör så här för att ange att utbildningsprogrammet har slutförts.
 
-1. Öppna fönstret **[!UICONTROL Learning Program]**.
-1. Öppna fönstret **[!UICONTROL Learners]** i menyn till vänster.
+1. Öppna **[!UICONTROL Learning Program]**.
+1. Öppna sidan **[!UICONTROL Learners]** från menyn till vänster.
 
-   Inställningen **[!UICONTROL Learners]** sidan öppnas med listan över registrerade elever.
+   Sidan **[!UICONTROL Learners]** öppnas med listan över registrerade elever.
 
 1. Markera en/flera/alla elever för att markera LP-slutförande med kryssrutan som finns för varje elev.
 1. Klicka på **[!UICONTROL Users]** > **[!UICONTROL Action]** > **[!UICONTROL Mark completion]**.
@@ -157,7 +156,7 @@ Uppdatera ordningen på kurserna i ett utbildningsprogram
 
 1. Klicka på kortet för utbildningsprogram och klicka på **[!UICONTROL Courses]** i den vänstra rutan.
 
-1. En lista över kurskort som är associerade med utbildningsprogrammet visas. Klicka **[!UICONTROL Edit]** längst upp till höger på sidan.
+1. En lista över kurskort som är associerade med utbildningsprogrammet visas. Klicka på **[!UICONTROL Edit]** längst upp till höger på sidan.
 1. Du kan ändra ordningen på listan genom att klicka på och dra varje kurskort till rätt plats.
 1. Klicka på **[!UICONTROL Republish]**.
 
@@ -165,6 +164,6 @@ Uppdatera ordningen på kurserna i ett utbildningsprogram
 
 Ett utbildningsprogram kan redigeras av en administratör vid publicerat tillstånd. I det här läget kan administratören redigera alla avsnitt i ett utbildningsprogram och publicera igen.
 
-För att redigera ett publicerat utbildningsprogram klickar du på kortet för utbildningsprogrammet och klickar på **[!UICONTROL Edit]** längst upp till höger på sidan.
+Om du vill redigera ett publicerat utbildningsprogram klickar du på kortet för utbildningsprogrammet och klickar på **[!UICONTROL Edit]** längst upp till höger på sidan.
 
 När du redigerar ett utbildningsprograms avsnitt måste du publicera utbildningsprogrammet på nytt om du måste flytta från sidan. Du får en dialogruta där du ombeds att publicera utbildningsprogrammet.

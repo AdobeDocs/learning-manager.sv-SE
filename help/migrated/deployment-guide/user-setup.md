@@ -26,30 +26,30 @@ Läs vidare för att lära dig hur du lägger till interna användare och extern
 
 Som administratör kan du lägga till externa användare, t.ex. anställda i partnerorganisationer, i ditt Learning Manager-konto. Så här lägger du till externa användare:
 
-1. Från **[!UICONTROL **Administratör**]**inloggningssida, klicka **[!UICONTROL **Användare**]**i det vänstra navigeringsfönstret.
-1. I **[!UICONTROL **Användare**]**sida, klicka på **[!UICONTROL **Extern**]**i det vänstra navigeringsfönstret. Systemet visar sidan Externa användare med en lista över externa användare (om relevant).
-1. Klicka på **[!UICONTROL **Lägg till**]**längst upp till höger på sidan.
+1. Klicka på **[!UICONTROL **Användare**]**i det vänstra navigeringsfönstret på **[!UICONTROL **Administratörs**]**inloggningssidan.
+1. På sidan **[!UICONTROL **Användare**]** klickar du på **[!UICONTROL **Externa**]**i det vänstra navigeringsfönstret. Systemet visar sidan Externa användare med en lista över externa användare (om relevant).
+1. Klicka på **[!UICONTROL **Lägg till**]**i det övre högra hörnet på sidan.
 
    ![](assets/set-up-external-users-step3.png)
 
-1. I **[!UICONTROL **Lägg till användare**]**popup-dialogrutan är följande fält obligatoriska:
+1. I popup-dialogrutan **[!UICONTROL **Lägg till användare**]**är följande fält obligatoriska:
 
    * **[!UICONTROL **Profilnamn**:]**Ange namnet på den externa profil som du skapar.
-   * **[!UICONTROL ** Mejladress till chef **:]** Ange e-postadressen till chefen för den externa användaren.
-   * **[!UICONTROL ** Tilldelade platser **:]** Ange antalet elever som kan registrera sig för kursen.
-   * **[!UICONTROL ** Förfallodatum **:]** Ange utgångsdatumet efter vilket en extern användare inte kan registrera eller konsumera kursen.
+   * **[!UICONTROL ** Chefens e-postadress **:]** Ange e-postadressen till chefen för den externa användaren.
+   * **[!UICONTROL ** Tilldelade platser **:]** Ange antalet elever som kan registrera sig till kursen.
+   * **[!UICONTROL ** Expiry **:]** Ange utgångsdatumet efter vilket en extern användare inte kan registrera eller förbruka kursen.
 
-1. Klicka **[!UICONTROL ** Avancerade inställningar **.]**
+1. Klicka på **[!UICONTROL ** Avancerade inställningar **.]**
 1. Du kan även ange följande alternativ när du skapar en extern profil:
 
-   * **[!UICONTROL ** Lägg till bild **:]** Dra och släpp bilden som du vill använda. Bilden visas på elevsidan för användare.
+   * **[!UICONTROL ** Lägg till bild **:]** Dra och släpp bilden du vill ha. Bilden visas på elevsidan för användare.
    * **[!UICONTROL ** Inloggningskrav **:]** Ange hur många dagar användaren måste logga in. Om den externa användaren överskrider inloggningsperioden kan eleven inte komma åt eller använda utbildningsobjektet.
-   * **[!UICONTROL ** Tillåtna domäner **:]** Ange domänerna avgränsade med kommatecken. Endast de användare som har de angivna domänerna kan registrera sig på kontot.
-   * **[!UICONTROL ** E-postverifiering krävs **:]** Markera den här kryssrutan om du vill att ett bekräftelsemeddelande ska skickas till användarna
+   * **[!UICONTROL ** Tillåtna domäner **:]** Ange domäner avgränsade med kommatecken. Endast de användare som har de angivna domänerna kan registrera sig på kontot.
+   * **[!UICONTROL ** Verifiering via e-post krävs **:]** Markera den här kryssrutan om du vill att ett bekräftelsemeddelande ska skickas till användarna
 
 
 
-1. Klicka **[!UICONTROL Save.]**
+1. Klicka på **[!UICONTROL Save.]**
 
 
 
@@ -57,8 +57,8 @@ Som administratör kan du lägga till externa användare, t.ex. anställda i par
 
    En popup-dialogruta med URL visas. Du kan kopiera denna URL och skicka den till externa användare. Som standard skickas ett e-postmeddelande med den här URL:en till användaren.
 
-1. När du lägger till externa profiler visas de i **[!UICONTROL ** Sidan Externa användare **(** Administratör **>** Användare **>** Extern **).]** Platsbegränsning, utgångsdatum och inloggningskrav visas också för dessa användare.
-1. Om du vill ändra inställningarna för en extern användare klickar du på användarnamnet. Inställningen **[!UICONTROL Edit External Enrollment]** visas. Ändra inställningarna och klicka på **[!UICONTROL ** Spara **.]**
+1. När du lägger till externa profiler visas de på sidan **[!UICONTROL ** Externa användare **(** administratör **>** användare **>** externa **).]** Platsbegränsning, utgångsdatum och inloggningskrav visas också för dessa användare.
+1. Om du vill ändra inställningarna för en extern användare klickar du på användarnamnet. Dialogrutan **[!UICONTROL Edit External Enrollment]** visas. Ändra inställningarna och klicka på **[!UICONTROL ** Spara **.]**
 1. Du kan även skicka välkomstmeddelandet igen eller kopiera webbadressen när som helst genom att klicka på ikonerna för e-post/kopiera webbadressen bredvid den externa profilen.
 
    ![](assets/set-up-external-users-step10.png)
@@ -67,7 +67,7 @@ Som administratör kan du lägga till externa användare, t.ex. anställda i par
 
 När du har lagt till en extern användargrupp i Learning Manager kan du även pausa registreringen av externa användare. När du pausar blockeras registreringen av externa användare. Men den här processen fungerar bara när användarna inte har registrerat sig än genom att acceptera inbjudan.
 
-Om du vill pausa de externa användargrupperna klickar du på **[!UICONTROL **Åtgärder**]**i det övre högra hörnet på sidan och välj **[!UICONTROL Pause]**.
+Om du vill pausa de externa användargrupperna klickar du på **[!UICONTROL **Åtgärder**]**i det övre högra hörnet på sidan och väljer **[!UICONTROL Pause]**.
 
 ## Återuppta extern användarprofil {#resumeexternaluserprofile}
 
@@ -78,8 +78,8 @@ Du kan när som helst återkalla blockeringen (paus) genom att välja ett återu
 I Learning Manager gäller följande tillstånd för externa användare:
 
 * **Inaktivt läge** - I det här läget har registreringen av externa användare upphört att gälla. Administratörerna anger förfallodatumet för de externa användarna när de läggs till via arbetsflödet Lägg till användare.
-* **Aktivt läge** - I det här läget kan externa användare registrera sig för Learning Manager-programmet och även logga in på programmet.
-* **Paus** - I det här läget är registreringsprocessen för externa användare blockerad. De befintliga användarna kan dock fortsätta att logga in.
+* **Aktivt läge** - I det här läget kan externa användare registrera sig till Learning Manager-programmet och även logga in på programmet.
+* **Pausa** - Registreringsprocessen för externa användare blockeras i det här tillståndet. De befintliga användarna kan dock fortsätta att logga in.
 
 ## Konfigurera interna användare {#setupinternalusers}
 
@@ -95,13 +95,13 @@ Du som är administratör kan vilja konfigurera användare för ditt företag el
 
 Du kan välja den här metoden för att lägga till interna användare om antalet användare är stort. När du använder en CSV för att lägga till användare första gången måste du mappa CSV-datainnehållet till programetiketterna. När du sedan lägger till nya användare eller uppdaterar användardata behålls samma mappning. Så här lägger du till interna användare gruppvis:
 
-1. På fliken **[!UICONTROL Administrator Home]** sida, klicka på **[!UICONTROL **Användare**]**i det vänstra navigeringsfönstret.
-1. Klicka **[!UICONTROL ** Lägg till **>**&#x200B;Överför en CSV-fil **.]**
-1. Klicka på i dialogrutan **[!UICONTROL ** Importera **.]**
+1. Klicka på **[!UICONTROL **Användare**]**i det vänstra navigeringsfönstret på sidan **[!UICONTROL Administrator Home]**.
+1. Klicka på **[!UICONTROL ** Lägg till **>**&#x200B;Överför en CSV **.]**
+1. Klicka på **[!UICONTROL ** Importera **i popup-dialogrutan.]**
 1. Bläddra till den plats där du har sparat CSV-filen. Klicka på **[!UICONTROL Open]**.
 1. Importera CSV-filen och mappa innehållet i CSV-filen till programetiketterna. Det här steget gäller endast när du överför CSV-filen för första gången.
-1. Klicka på **[!UICONTROL **Spara**]** för att spara mappningen.
-1. Klicka på **[!UICONTROL **Lägg till**]**för att överföra den CSV-fil som redan är mappad till programdata.
+1. Klicka på **[!UICONTROL **Spara**]**för att spara mappningen.
+1. Klicka på **[!UICONTROL **Lägg till**]**om du vill överföra CSV-filen som redan är mappad till programdata.
 
 ### Att tänka på när CSV-filen skulle skapas för överföring: {#considerationswhencreatingthecsvfileforupload}
 
@@ -109,7 +109,7 @@ När du skapar CSV-filen för att överföra interna användare är följande n�
 
 Namnet och e-postadressen för varje anställd kan mappas direkt till programdata. Observera att du måste ange ett e-postmeddelande som är angivet i CSV-filen som e-postadress för hanteraren. Du kan antingen definiera hanterar-ID när du skapar CSV-filen eller ange e-post-ID som motsvarar hanterar-ID när du överför CSV-filen.
 
-***Innan du lägger till ett ID som medarbetarens chef-ID ser du till att chefen läggs till som medarbetare i CSV-filen.***
+***Innan du lägger till ett ID som medarbetarens chef-ID ska du se till att chefen läggs till som medarbetare i CSV-filen.***
 
 ***Se till att det inte finns några extra blanksteg mellan posterna för att överföra CSV-filen.***
 
@@ -117,7 +117,7 @@ Se en exempelögonblicksbild av en CSV-fil här:
 
 ![](assets/considerations-whencreatingthecsvfileforupload.png)
 
-Hämta en CSV-exempelfil genom att `<give link to zip file>`.
+Hämta en CSV-exempelfil genom att hämta `<give link to zip file>`.
 
 <!--Zip file reference, no source file-->
 
@@ -129,14 +129,14 @@ Automatisera massimporten av användare.
 
 Förutom att lägga till interna användare i grupp kan du även lägga till användare genom självregistrering. Du kan använda självregistrering för att göra det möjligt för anställda att registrera sig som elever på ditt Learning Manager-konto. När du skapar en självregistreringsprofil skapas en unik URL. Dela denna URL med medarbetaren för att göra det möjligt för dem att registrera sig i Learning Manager.
 
-1. På fliken **[!UICONTROL Administrator Home]** sida, klicka på **[!UICONTROL Users]** i det vänstra navigeringsfönstret.
-1. Klicka **[!UICONTROL ** Lägg till **>** Egenregistrering **.]**
+1. Klicka på **[!UICONTROL Users]** i det vänstra navigeringsfönstret på sidan **[!UICONTROL Administrator Home]**.
+1. Klicka på **[!UICONTROL ** Lägg till **>** Självregistrering **.]**
 
    ![](assets/adding-users-throughself-registration-step2.png)
 
-1. I dialogrutan **[!UICONTROL Add User]** anger du namnet på medarbetaren i dialogrutan **[!UICONTROL Profile Name]** område.
-1. I dialogrutan **[!UICONTROL Manager's Name]** anger du namnet på medarbetarens chef.
-1. Om du vill kan du lägga till profilbilden för den anställde med hjälp av **[!UICONTROL Add Image]** område.
+1. Ange medarbetarens namn i fältet **[!UICONTROL Profile Name]** i popup-dialogrutan **[!UICONTROL Add User]**.
+1. Ange namnet på medarbetarens chef i fältet **[!UICONTROL Manager's Name]**.
+1. Du kan även lägga till profilbilden för medarbetaren med fältet **[!UICONTROL Add Image]**.
 1. Klicka på **[!UICONTROL Save]**.
 
    ![](assets/adding-users-throughself-registration-step6.png)
@@ -151,8 +151,8 @@ Förutom att lägga till interna användare i grupp kan du även lägga till anv
 
 Att lägga till enskilda användare är den tredje metoden för att lägga till interna användare på ditt konto. När du vill lägga till några användare är den här proceduren idealisk. Lägg till en enskild användare:
 
-1. På fliken **[!UICONTROL Administrator Home]** sida, klicka på **[!UICONTROL Users]** i det vänstra navigeringsfönstret.
-1. Klicka **[!UICONTROL ** Lägg till **>** En användare **.]**
+1. Klicka på **[!UICONTROL Users]** i det vänstra navigeringsfönstret på sidan **[!UICONTROL Administrator Home]**.
+1. Klicka på **[!UICONTROL ** Lägg till **>** En användare **.]**
 
 
 
@@ -165,7 +165,7 @@ Att lägga till enskilda användare är den tredje metoden för att lägga till 
    * **[!UICONTROL Profile]** **[!UICONTROL :]** Ange medarbetarens beteckning eller befattning.
 
    * **[!UICONTROL ** Chefens namn **:]** Ange namnet på chefen. Den här databashanteraren måste redan läggas till för att kunna definieras här.
-   * **[!UICONTROL ** DOJ **:]** Ange anställningsdatum för medarbetaren.
+   * **[!UICONTROL ** EUT **:]** Ange anställdens anslutningsdatum.
    * **[!UICONTROL **Plats**:]**Ange platsen för medarbetaren. Om du till exempel har din organisation på flera geografiska platser anger du platsen där medarbetaren finns.
 
 
@@ -185,21 +185,21 @@ Det finns två typer av användargrupper i Learning Manager: Anpassade och autog
 
 ***Du kan inte redigera namnet på och beskrivningen av automatiskt genererade grupper.***
 
-Om du vill visa de automatiskt genererade användargrupperna i Learning Manager klickar du på den vänstra rutan **[!UICONTROL Auto-generated]**. Programmet visar en lista över alla automatiskt genererade användargrupper som är tillgängliga för ditt konto.
+Klicka på **[!UICONTROL Auto-generated]** i den vänstra rutan för att visa de automatiskt genererade användargrupperna i Learning Manager. Programmet visar en lista över alla automatiskt genererade användargrupper som är tillgängliga för ditt konto.
 
 Du kan också skapa anpassade grupper med en vald lista med användare i Learning Manager. Med anpassade grupper kan du ange ett namn, en beskrivning och attributen för användargruppen. Anpassade grupper som du skapar i Learning Manager är dynamiska. Det innebär att om nya användare läggs till med liknande attribut läggs de automatiskt till i dessa användargrupper.
 
 ## Skapa anpassade användargrupper {#createcustomusergroups}
 
-1. Klicka på på startsidan för Learning Manager-administratör **[!UICONTROL Users]**.
-1. Klicka på ** på sidan Anpassade användargrupper [!UICONTROL **Lägg till**]**från sidans övre högra hörn.
+1. Klicka på **[!UICONTROL Users]** på startsidan för Learning Manager-administratör.
+1. Klicka på **[!UICONTROL **Lägg till**]**i det övre högra hörnet på sidan Anpassade användargrupper.
 
-   Systemet visar **[!UICONTROL Add User Group]** dialogrutan.
+   Systemet visar dialogrutan **[!UICONTROL Add User Group]**.
 
    ![](assets/creating-custom-usergroups.png)
 
 1. Ange namnet på och beskrivningen av din användargrupp. Till exempel Dev-Users som inkluderar användare från produktutvecklingsteamet.
-1. Lägg till användare i den anpassade användargruppen genom att ange användarnamnet eller profilen för användaren i **[!UICONTROL ** Lägg till användare **område.]**
+1. Lägg till användare i den anpassade användargruppen genom att ange användarens användarnamn eller profil i fältet **[!UICONTROL ** Lägg till användare **.]**
 1. Om du vill lägga till fler användare i den anpassade gruppen klickar du på **[!UICONTROL ** Lägg till fler användare **.]**
-1. När du har lagt till alla användare klickar du på **[!UICONTROL Save]**för att spara den anpassade användargruppen.
+1. När du har lagt till alla användare klickar du på **[!UICONTROL Save]**om du vill spara den anpassade användargruppen.
 

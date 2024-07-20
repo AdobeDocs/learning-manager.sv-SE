@@ -52,17 +52,17 @@ Lär dig processen att integrera Learning Manager med Salesforce.
 
 ### Krav {#prerequisites}
 
-Se till att du har URL:en till din Salesforce-organisation med dig. Exempel: Om ditt organisationsnamn är **myorg**, kan Salesforce-URL:en vara [https://myorg.salesforce.com](https://myorg.salesforce.com/). Det är den enda inmatning som krävs för att ansluta Salesforce-kontot till Learning Manager.
+Se till att du har URL:en till din Salesforce-organisation med dig. Om organisationens namn till exempel är **myorg** kan Salesforce-URL vara [https://myorg.salesforce.com](https://myorg.salesforce.com/). Det är den enda inmatning som krävs för att ansluta Salesforce-kontot till Learning Manager.
 
 Se också till att du har rätt inloggningsuppgifter för att logga in på kontot.
 
 ## Skapa en anslutning {#createaconnection}
 
-1. På Learning Manager-startsidan håller du pekaren över Salesforce-kortet/miniatyrbilden. En meny visas. Klicka **[!UICONTROL Connect]** i menyn.
+1. På Learning Manager-startsidan håller du pekaren över Salesforce-kortet/miniatyrbilden. En meny visas. Klicka på **[!UICONTROL Connect]** objekt i menyn.
 
    ![](assets/mouserover-salesforce.png)
 
-1. En dialogruta visas där du uppmanas att ange org-URL. Klicka **[!UICONTROL Connect]** efter att URL-adressen har angetts.
+1. En dialogruta visas där du uppmanas att ange org-URL. Klicka på **[!UICONTROL Connect]** när du har angett URL:en.
 1. När anslutningen är klar visas översiktssidan.
 
 ## Mappningsattribut {#mapattributes}
@@ -73,9 +73,9 @@ När anslutningen har upprättats kan du mappa Salesforce-kolumner till motsvara
 
    ![](assets/sfdc-map-columns.png)
 
-   Learning Manager-kolumndata som visas på vänster sida hämtas från de aktiva fälten. Inställningen **chef** fältet måste mappas till ett fält av typen e-postadress. Det är obligatoriskt att mappa alla kolumner innan kopplingen kan användas.
+   Learning Manager-kolumndata som visas på vänster sida hämtas från de aktiva fälten. Fältet **hanterare** måste mappas till ett fält av typen e-postadress. Det är obligatoriskt att mappa alla kolumner innan kopplingen kan användas.
 
-1. Klicka **[!UICONTROL Save]** efter att mappningen har slutförts.
+1. Klicka på **[!UICONTROL Save]** när mappningen är klar.
 1. Anslutningen är nu klar att användas. Kontot som har konfigurerats nu visas som en datakälla i Administratörsprogrammet för att administratören ska kunna schemalägga importen eller för synkronisering på begäran.
 
 ## Använda Salesforce-kopplingen {#usingsalesforceconnector}
@@ -110,11 +110,11 @@ Lär dig hur du integrerar Learning Manager med FTP-anslutning.
 
 ### Skapa en anslutning {#Createaconnection-1}
 
-1. På startsidan för Learning Manager håller du pekaren över FTP-kortet/miniatyrbilden. En meny visas. Klicka **[!UICONTROL Connect]** i menyn.
+1. På startsidan för Learning Manager håller du pekaren över FTP-kortet/miniatyrbilden. En meny visas. Klicka på **[!UICONTROL Connect]** objekt i menyn.
 
    ![](assets/mouseover-ftpconnector.png)
 
-1. En dialogruta visas där du uppmanas att ange e-post-ID. Ange e-post-ID för den person som ansvarar för hanteringen av organisationens FTP-konto för Learning Manager. Klicka **[!UICONTROL Connect]** efter att ha angett e-post-ID.
+1. En dialogruta visas där du uppmanas att ange e-post-ID. Ange e-post-ID för den person som ansvarar för hanteringen av organisationens FTP-konto för Learning Manager. Klicka på **[!UICONTROL Connect]** när du har angett e-post-ID.
 1. Learning Manager skickar ett e-postmeddelande till dig som uppmanar användaren att återställa lösenordet innan FTP används för första gången. Användaren måste återställa lösenordet och använda det för att få åtkomst till FTP-kontot för Learning Manager.
 
    Endast ett FTP-konto för Learning Manager kan skapas för ett visst Learning Manager-konto.
@@ -139,12 +139,12 @@ Med alternativet Importera intern användare kan du schemalägga genereringen av
 
 När anslutningen är upprättad kan du mappa kolumnerna i CSV-filer som ska placeras i FTP-mappen till motsvarande attribut för Learning Manager. Det här steget är obligatoriskt.
 
-1. På sidan Mappattribut kan du till vänster se förväntade kolumner i Learning Manager och till höger kan du se CSV-kolumnnamnen. Inledningsvis, på höger sida, kan du se en tom ruta. Importera CSV-mallar genom att klicka **Välj fil**.
+1. På sidan Mappattribut kan du till vänster se förväntade kolumner i Learning Manager och till höger kan du se CSV-kolumnnamnen. Inledningsvis, på höger sida, kan du se en tom ruta. Importera en CSV-mall genom att klicka på **Välj fil**.
 1. I steget ovan fylls den högra listrutan för val i med alla CSV-kolumnnamn. Välj rätt kolumnnamn som mappas till Learning Manager-kolumnnamnet.
 
-   *Fältet Chef måste nödvändigtvis mappas till ett fält av typen e-postadress. Det är obligatoriskt att mappa alla kolumner innan kopplingen kan användas.*
+   *Chefsfältet måste mappas till ett fält av typen e-postadress. Det är obligatoriskt att mappa alla kolumner innan kopplingen kan användas.*
 
-1. Klicka **[!UICONTROL Save]** efter att mappningen har slutförts.
+1. Klicka på **[!UICONTROL Save]** när mappningen är klar.
 
    Anslutningen är nu klar att användas. Det nyss konfigurerade kontot visas nu som en datakälla i administratörsprogrammet för administratören för att schemalägga importen eller för synkronisering på begäran.
 
@@ -158,7 +158,7 @@ När anslutningen är upprättad kan du mappa kolumnerna i CSV-filer som ska pla
 
    `code $OPERATION$/$OBJECT_TYPE$/$SUB_OBJECT_TYPE$/data.csv`
 
-   **Obs!** I versionen från juli 2016 är endast import av användare tillåten. Om du vill använda FTP-anslutningen måste du därför se till att CSV-filerna finns i följande mapp:
+   **Obs!** I juli 2016-versionen är endast import av användare tillåten. Om du vill använda FTP-anslutningen måste du därför se till att CSV-filerna finns i följande mapp:
 
    `code Home/import/user/internal/*.csv`
 
@@ -166,7 +166,7 @@ När anslutningen är upprättad kan du mappa kolumnerna i CSV-filer som ska pla
 1. Alla CSV-filer bör innehålla de kolumner som anges i mappningen.
 1. Alla nödvändiga CSV-filer måste finnas i mappen innan processen börjar.
 
-När du importerar användare till Learning Manager behöver administratören också veta hur användare hanteras i Learning Manager. Se [Hjälp för användarhantering](../integration-admin/feature-summary/migration-manual.md#usermanagement) för mer information.
+När du importerar användare till Learning Manager behöver administratören också veta hur användare hanteras i Learning Manager. Mer information finns i [Hjälp för användarhantering](../integration-admin/feature-summary/migration-manual.md#usermanagement).
 
 +++
 
@@ -176,7 +176,7 @@ När du importerar användare till Learning Manager behöver administratören oc
 
 Det finns två alternativ för att exportera rapporter om användares kompetens.
 
-**[!UICONTROL User Skills - On Demand]**: Du kan ange startdatum och exportera rapporten med alternativet .Rapporten extraheras från det datum som angavs till idag.
+**[!UICONTROL User Skills - On Demand]**: Du kan ange startdatum och exportera rapporten med alternativet. Rapporten extraheras från det datum som anges till i dag.
 
 ![](assets/user-skills-on-demand.png)
 
@@ -190,9 +190,9 @@ Du öppnar exportmappen där de exporterade filerna placeras på FTP-platsen gen
 
 ![](assets/ftp-folder.png)
 
-De automatiskt exporterade filerna finns på platsen **Hem/export/&#42;FTP_location&#42;**
+De automatiskt exporterade filerna finns på platsen **Home/export/&#42;FTP_location&#42;**
 
-De automatiskt exporterade filerna blir tillgängliga med titeln **skill_Achievements_&#42;datum från &#42;_till_&#42;datum till&#42;.csv**
+De automatiskt exporterade filerna blir tillgängliga med titeln **skills_achievements_&#42;date från &#42;_till_&#42;date till&#42;.csv**
 
 ![](assets/exported-csvs.png)
 
@@ -301,8 +301,8 @@ GetAbstract-kopplingen kan användas av företagskunder på getAbstract.com, som
 
    För att en synkronisering ska fungera måste du se till att användarflödet finns i mappen getAbstract FTP för de datum som anges i synkroniseringen.
 
-   Se följande Excel-ark, som är ett exempel på en användarfeed-fil från getAbstract. Filnamnet ska följa formatet:** report_export_yyyy_MM_dd_ttmmss.xlsx** eller **report_export_yyyy_MM_dd.xlsx**.
-   [getAbstract user feed exempel Excel ark](assets/report-export-20170401175342.xlsx)
+   Se följande Excel-ark, som är ett exempel på en användarfeed-fil från getAbstract. Filnamnet ska följa formatet:** report_export_yyyy_MM_dd_Hmmss.xlsx** eller **report_export_yyyy_MM_dd.xlsx**.
+   [GetAbstract-exempelblad för användarfeed](assets/report-export-20170401175342.xlsx)
 
 ## Harvard ManageMentor-anslutning {#hmmconnector}
 
@@ -349,10 +349,10 @@ Harvard ManageMentor kan användas av företagskunder på Harvard ManageMentor, 
 
    Hmm12_metadata.xlsx: Den här filen innehåller kursmetadata för Harvard ManageMentor-kopplingen. Se till att du följer namnkonventionen när du överför filen.
 
-   client_Hmm12_20150125.xlsx: Detta är användarflödet för Harvard ManageMentor-anslutningen. Namnkonventionen för filer som du måste följa är **client_Hmm12_yyyyMMdd.xlsx.**
+   client_Hmm12_20150125.xlsx: Detta är användarflödet för Harvard ManageMentor-anslutningen. Namnkonventionen för filen som du måste följa är **client_Hmm12_yyyyMMdd.xlsx.**
 
    Se följande två exempel på användarfeed och kursfeed-filer för denna anslutning:
-   [Kursmetadatafil för Harvard ManageMentor-kopplingen](assets/hmm12-metadata.xlsx) [Användarfeed för Harvard ManageMentor-anslutningen](assets/client-hmm12-20170304.xlsx)
+   [Kursmetadatafil för Harvard ManageMentor-anslutning](assets/hmm12-metadata.xlsx) [Användarflöde för Harvard ManageMentor-anslutning](assets/client-hmm12-20170304.xlsx)
 
 ## Workday-koppling {#workdayconnector}
 
@@ -384,10 +384,10 @@ Administratören kan konfigurera schemaläggningsuppgifter enligt organisationen
 
 ## Konfigurera Workday-anslutning {#configureworkdayconnector}
 
-**Förutsättning**: Be Workday-administratören för din organisation att skapa en ISU (Integration System User) med de behörigheter som definieras i dokumentet ISU_Permissions. Hämta en kopia via länken nedan.
-[Hämta en kopia av säkerheten för integreringssystemanvändare (ISU).](assets/isu-permissions-v1.pdf) Lär dig hur du integrerar Learning Manager med Workday-kopplingen.
+**Förutsättning:** Begär att organisationens Workday-administratör skapar en ISU (Integration System User) med de behörigheter som definieras i dokumentet ISU_Permissions. Hämta en kopia via länken nedan.
+[Ladda ned en kopia av ISU-säkerhet (Integration System User).](assets/isu-permissions-v1.pdf) Lär dig hur du integrerar Learning Manager med Workday-kopplingen.
 
-1. Håll muspekaren över panelen Workday på Learning Manager-startsidan. En meny visas. Klicka **[!UICONTROL Connect]** i menyn.
+1. Håll muspekaren över panelen Workday på Learning Manager-startsidan. En meny visas. Klicka på **[!UICONTROL Connect]** objekt i menyn.
 
    ![](assets/workday-tile.png)
 
@@ -422,7 +422,7 @@ Du kan använda Workday-anslutning för att integrera Learning Manager och Workd
 
 Användarattributen från Learning Manager och Workday måste mappas innan användare importeras. På sidan Översikt anger du mappattributen med alternativet Interna användare under Importera.
 
-Ange inloggningsuppgifterna för Adobe Learning Manager under kolumnen Adobe Learning Manager. Använd listrutorna för att välja rätt inloggningsuppgifter för kolumnerna under Workday.
+Ange Adobe Learning Manager-inloggningsuppgifterna under kolumnen Adobe Learning Manager. Använd listrutorna för att välja rätt inloggningsuppgifter för kolumnerna under Workday.
 
 För närvarande stöder Learning Manager import av 44 användarattribut från Workday. Lägg till ytterligare attribut med hjälp av aktiva fält i Learning Manager.
 
@@ -528,11 +528,11 @@ Importprocessen för användare gör att Learning Manager-administratören kan h
 
 Learning Manager-administratören kan tillämpa filtrering på användarna innan de importeras. Learning Manager-administratör kan till exempel välja att importera alla användare i hierarkin under en eller flera specifika chefer.
 
-Konfigurera en miniOrange-anslutning genom att kontakta Learning Manager CSM-teamet.
+För att konfigurera   miniOrange   kontakta Learning Manager CSM-teamet.
 
 ## Konfigurera miniOrange-anslutning {#configureminiorangeconnector}
 
-1. På startsidan för Learning Manager håller du pekaren över MiniOrange-kortet/miniatyrbilden. En meny visas. Klicka  **[!UICONTROL Connect]** -alternativet på menyn.
+1. På startsidan för Learning Manager håller du pekaren över MiniOrange-kortet/miniatyrbilden. En meny visas. Klicka på alternativet **[!UICONTROL Connect]** i menyn.
 
    ![](assets/miniorange-tile.png)
 
@@ -540,21 +540,21 @@ Konfigurera en miniOrange-anslutning genom att kontakta Learning Manager CSM-tea
 
    ![](assets/establish-connection.png)
 
-1. Om du vill importera miniOrange-användare direkt som intern användare för Learning Manager använder du **[!UICONTROL Import Internal Users]** alternativ.
+1. Om du vill importera miniOrange-användare direkt som intern användare för Learning Manager använder du alternativet **[!UICONTROL Import Internal Users]**.
 
    ![](assets/import-users.png)
 
-1. På mappningssidan kan du på vänster sida se Learning Managers kolumner och på höger sida kan du se minisorneringskolumnerna. Välj rätt kolumnnamn som mappas till Learning Manager-kolumnnamnet.
+1. På mappningssidan, till vänster   sida kan du se Learning Managers kolumner och på höger sida   sida kan du se miniOrnage kolumner. Välj rätt kolumnnamn som mappas till Learning Manager-kolumnnamnet.
 
    ![](assets/map-attributes.png)
 
-1. Om du vill visa och redigera datakälla klickar du som administratör på **[!UICONTROL Settings > Data Source]**.
+1. Om du vill visa och redigera datakällan klickar du som administratör på **[!UICONTROL Settings > Data Source]**.
 
-   Den etablerade miniOrange-källan visas. Om du behöver redigera filtret klickar du på **[!UICONTROL Edit]**.
+   Den etablerade miniOrange-källan visas. Klicka på **[!UICONTROL Edit]** om du behöver redigera filtret.
 
    ![](assets/data-source.png)
 
-1. Du får en avisering när importen är klar. Om du vill visa eller redigera importloggen klickar du på **[!UICONTROL Users > Import log.]**
+1. Du får en avisering när importen är klar. Klicka på **[!UICONTROL Users > Import log.]** om du vill visa eller redigera importloggen
 
 ### Ta bort en anslutning {#deleteaconnection}
 
@@ -566,7 +566,7 @@ Du kan nu integrera Learning Manager med BlueJeans-anslutningen och använda Blu
 
 Följ de här stegen för att konfigurera och använda anslutningen.
 
-1. På startsidan för Learning Manager håller du pekaren över BlueJeans-kortet/miniatyrbilden. En meny visas. Klicka  **[!UICONTROL Connect]** -alternativet på menyn.
+1. På startsidan för Learning Manager håller du pekaren över BlueJeans-kortet/miniatyrbilden. En meny visas. Klicka på alternativet **[!UICONTROL Connect]** på menyn.
 
    ![](assets/miniorange.png)
 
@@ -639,11 +639,11 @@ Med alternativet Importera intern användare kan du schemalägga genereringen av
 
 När en anslutning har upprättats kan du mappa kolumnerna i CSV-filer som ska placeras i Box-mappen till motsvarande attribut för Learning Manager. Det här steget är obligatoriskt.
 
-1. På sidan Mappattribut kan du till vänster se förväntade kolumner i Learning Manager och till höger kan du se CSV-kolumnnamnen. Inledningsvis, på höger sida, kan du se en tom ruta. Importera en CSV-mallfil genom att klicka på Välj fil.
+1. På sidan Mappattribut, till vänster   sida kan du se förväntade kolumner i Learning Manager och till höger   på sidan kan du se CSV-kolumnnamnen. Inledningsvis, på höger sida, kan du se en tom ruta. Importera en CSV-mallfil genom att klicka på Välj fil.
 
 1. I steget ovan fylls den högra listrutan för val i med alla CSV-kolumnnamn. Välj rätt kolumnnamn som mappas till Learning Manager-kolumnnamnet.
 
-   *Fältet Chef måste nödvändigtvis mappas till ett fält av typen e-postadress. Det är obligatoriskt att mappa alla kolumner innan kopplingen kan användas.*
+   *Chefsfältet måste mappas till ett fält av typen e-postadress. Det är obligatoriskt att mappa alla kolumner innan kopplingen kan användas.*
 
 1. Klicka på Spara när du är klar med mappningen.
 
@@ -657,14 +657,14 @@ När en anslutning har upprättats kan du mappa kolumnerna i CSV-filer som ska p
 
    `code $OPERATION$/$OBJECT_TYPE$/$SUB_OBJECT_TYPE$/data.csv`
 
-   **Obs!** I versionen från juli 2016 är endast import av användare tillåten. För att använda Box-anslutningen måste du därför se till att CSV-filerna placeras i följande mapp:\
+   **Obs!** I juli 2016-versionen är endast import av användare tillåten. För att använda Box-anslutningen måste du därför se till att CSV-filerna placeras i följande mapp:\
    `code Home/import/user/internal/*.csv`
 
 1. Box-anslutningen tar alla rader från CSV-filer, så det är viktigt att den rad som motsvarar en användare i en CSV-fil inte visas i några andra CSV-filer.
 1. Alla CSV-filer bör innehålla de kolumner som anges i mappningen.
 1. Alla nödvändiga CSV-filer måste finnas i mappen innan processen börjar.
 
-När du importerar användare till Learning Manager behöver administratören också veta hur användare hanteras i Learning Manager. Se [Hjälp för användarhantering](../integration-admin/feature-summary/migration-manual.md#usermanagement) för mer information.
+När du importerar användare till Learning Manager behöver administratören också veta hur användare hanteras i Learning Manager. Mer information finns i [Hjälp för användarhantering](../integration-admin/feature-summary/migration-manual.md#usermanagement).
 
 +++
 
@@ -682,9 +682,9 @@ Användarfärdigheter - på begäran: Du kan ange startdatum och exportera rappo
 
 Om du vill öppna exportmappen där de exporterade filerna placeras på din Box-plats, öppnar du länken till Box-mappen på sidan Användarfärdigheter som visas nedan.
 
-De automatiskt exporterade filerna finns på platsen **Hem/export/&#42;Box_location&#42;**
+De automatiskt exporterade filerna finns på platsen **Home/export/&#42;Box_location&#42;**
 
-De automatiskt exporterade filerna blir tillgängliga med titeln **skill_Achievements_&#42;datum från &#42;_till_&#42;datum till&#42;.csv**
+De automatiskt exporterade filerna blir tillgängliga med titeln **skills_achievements_&#42;date från &#42;_till_&#42;date till&#42;.csv**
 
 Åtkomstbehörigheterna och innehållet i Box-mappen som delas av Learning Manager-teamet bör hanteras av kunden.  Observera också att innehållet i mappen fysiskt lagras i Frankfurt.
 

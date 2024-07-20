@@ -2,13 +2,13 @@
 description: Adobe Learning Manager stöder flera inloggningsmetoder genom flera SSO-konfigurationer för både interna och externa användare.
 title: Flera SSO-inloggningar
 contentowner: saghosh
-source-git-commit: d59e748472c77527c22b286aea5412f776f6441b
+exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 0%
 
 ---
-
 
 # Flera SSO-inloggningar {#multiple-sso-logins}
 
@@ -39,7 +39,7 @@ Följ stegen nedan för att konfigurera enkel inloggning:
    * Ange namnet på SSO.
    * Välj vilken typ av SSO- IdP som initierats eller SP.
 
-      * Om du har valt IdP initierad anger du IdP:ns URL. Det här är den URL som kommer att vara den unika identifieraren för ditt program och är information som tillhandahålls av din IdP-tjänsteleverantör. Det här är URL:en som alla Adobe Learning Manager-användare omdirigeras till efter inloggning.
+      * Om du har valt IdP initierad anger du IdP:ns URL. Det här är den URL som kommer att vara den unika identifieraren för ditt program och är information som tillhandahålls av din IdP-tjänsteleverantör. Det här är den URL som alla Adobe Learning Manager-användare omdirigeras till efter inloggning.
       * Överför XML-filen för IdP-metadata från din IdP-leverantör. Den här filen innehåller information om den IdP som gör att Adobe Learning Manager kan acceptera SAML-försäkringar från den
       * Om du har valt SP initierat anger du Enhets-ID. Enhets-ID är en URL som tjänsteleverantören (SP) tillhandahåller.
       * Ange URL för SP-inloggning. Den här URL:en används av användarna för att logga in på programmet.

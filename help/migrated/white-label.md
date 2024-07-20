@@ -287,9 +287,9 @@ Både Android och iOS använder Firebase Cloud Messaging (FCM) som tjänst för 
 
 Följ proceduren:
 
-1. Generera eller hämta **Certifikat för push-meddelanden** och privat nyckel (.p12). Mer information finns i [Utvecklardokument för Apple](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns).
+1. Generera eller hämta **Push Notification-certifikatet** och den privata nyckeln (.p12). Mer information finns i [Apple-utvecklardokumentet](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns).
 
-1. Installera p12-filen när filen har hämtats. Använd lösenordet för att installera i **Åtkomst till nyckelringen**.
+1. Installera p12-filen när filen har hämtats. Använd lösenordet för att installera i din **Nyckelhanterare**.
 
 1. Gå till **Mina certifikat** och exportera certifikatet. Se till att du väljer MIME-typen .cer.
 
@@ -313,19 +313,19 @@ Skapa ett projekt i Firebase och dela filen services.json till CSM-teamet. Denna
 
 Gör så här för att hämta filen services.json:
 
-1. Logga in på **Firebase** konsol.
-1. Gå till **Projektinställningar** och välj **Cloud Messaging**.
-1. Sök **Firebase Cloud Messaging API** och välj **Hantera tjänstkonton**.
-1. I dialogrutan **Tjänstkonton** -sidan, väljer du **Tjänstkonton** i panelen till vänster.
-1. Hitta din projektpost och välj **Hantera information** åtgärder.
+1. Logga in på **Firebase**-konsolen.
+1. Gå till **Projektinställningar** och välj **Molnmeddelanden**.
+1. Hitta **Firebase Cloud Messaging API** och välj **Hantera tjänstkonton**.
+1. På sidan **Tjänstkonton** väljer du **Tjänstkonton** i den vänstra panelen.
+1. Hitta din projektpost och välj **Hantera information** under åtgärder.
 
    >[!NOTE]
    >
    >   Projektposten kommer att ha formatet &lt;-accountname->@appspot.gserviceaccount.com.
 
-1. Gå till **Tangenter** och välja **Lägg till nyckel**.
-1. Om det inte finns någon nyckel väljer du **Skapa ny nyckel** och välj **JSON** som nyckeltyp. JSON-filen genereras och hämtas.
-1. Om det redan finns en nyckel väljer du **Ladda upp befintlig nyckel**, klistra in nyckeln och överför den. JSON-filen genereras och hämtas.
+1. Gå till fliken **Nycklar** och välj **Lägg till nyckel**.
+1. Om det inte finns någon nyckel väljer du **Skapa ny nyckel** och väljer **JSON** som nyckeltyp. JSON-filen genereras och hämtas.
+1. Om det redan finns en nyckel väljer du **Överför befintlig nyckel**, klistrar in nyckeln och överför den. JSON-filen genereras och hämtas.
 
 <!-- Set up a project in Firebase and share the server key with the CSAM.-->
 
@@ -337,11 +337,11 @@ Kontakta CSM-teamet och dela JSON-filen för att lägga till posten till SNS-tj�
 
 Återanvänd samma projekt som du skapade i stegen ovan för push-meddelanden.
 
-[Lägg till projektet](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) i Firebase och hämta ***google-services.json*** fil.
+[Lägg till projektet](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) i Firebase och hämta ***google-services.json***-filen.
 
 ### iOS
 
-[Lägg till projektet](https://firebase.google.com/docs/ios/setup) till Firebase och hämta ***GoogleService-Info.plist*** fil.
+[Lägg till projektet](https://firebase.google.com/docs/ios/setup) i Firebase och hämta ***GoogleService-Info.plist***-filen.
 
 >[!IMPORTANT]
 >
@@ -379,7 +379,7 @@ När du har genererat binärfilerna överför du dem till Play Store eller App S
 
 ## Hur tillämpar jag ändringarna?
 
-Skickar de nödvändiga resurserna och filerna till CSM-teamet. CSM-teamet fyller sedan i [form](https://forms.office.com/r/bJRRaRBvSh) har gjort de ändringar som krävs och bifogar de mediefiler som krävs. Teamet kommer då att granska och informera teknikerteamen om ändringarna. Teknikteamet kommer sedan att skapa en version och dela den med CSM-teamet.
+Skickar de nödvändiga resurserna och filerna till CSM-teamet. CSM-teamet fyller sedan i [formuläret](https://forms.office.com/r/bJRRaRBvSh) med de ändringar som krävs och bifogar de resurser som krävs. Teamet kommer då att granska och informera teknikerteamen om ändringarna. Teknikteamet kommer sedan att skapa en version och dela den med CSM-teamet.
 
 CSM-teamet delar bygget med kunden.
 

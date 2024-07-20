@@ -34,13 +34,13 @@ Installera Learning Manager-innehållspaketet med hjälp av AEM Package Manager:
 
 >[!NOTE]
 >
->Information om hur du installerar paket finns i  [***Arbeta med paket***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
+>Mer information om hur du installerar paket finns i [***Arbeta med paket***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. Öppna AEM Package Manager när du är AEM-författare.
 
-1. Klicka på knappen **Överför paket**.
+1. Klicka på knappen **Ladda upp paket**.
 
-1. Klicka **[!UICONTROL Browse]** och överför innehållspaketet.
+1. Klicka på **[!UICONTROL Browse]** och överför innehållspaketet.
 1. Klicka på **[!UICONTROL Upload]**.
 1. När paketet har överförts installerar du innehållspaketet genom att markera det och klicka på **[!UICONTROL Install]**.
 
@@ -56,11 +56,11 @@ AEM-administratören behöver en uppdateringstoken från Learning Manager-kontot
 
    ![](assets/launch-aem.jpg)
 
-1. Klicka **[!UICONTROL Applications]** > **[!UICONTROL Featured Apps]** och öppna programmet AEM-webbplatser.
+1. Klicka på **[!UICONTROL Applications]** > **[!UICONTROL Featured Apps]** och öppna AEM-webbplatsprogrammet.
 
    Kopiera program-id och beskrivningen.
 
-1. Klicka **[!UICONTROL Developer Resources]** > **[!UICONTROL Access Tokens]**.
+1. Klicka på **[!UICONTROL Developer Resources]** > **[!UICONTROL Access Tokens]**.
 
    ![](assets/click-tokens.jpg)
 
@@ -70,7 +70,7 @@ AEM-administratören behöver en uppdateringstoken från Learning Manager-kontot
    * Klienthemlighet, som finns i Beskrivning.
 
 1. Hämta OAuth-koden. Du måste använda v2 API i omdirigerings-URI:n.
-1. Klicka **[!UICONTROL Submit]** och hämta uppdateringstoken.
+1. Klicka på **[!UICONTROL Submit]** och hämta uppdateringstoken.
 
 ## Konfigurera widgeten i AEM {#configurethewidgetinaem}
 
@@ -89,15 +89,15 @@ Du kan också ange flera kontokonfigurationer på flera sidor.
 
 AEM-skaparen måste först lägga till komponenten i AEM-mallen
 
-AEM-författaren kan sedan dra och släppa komponenten Adobe Learning Manager och konfigurera därefter.
+AEM-utvecklaren kan sedan dra och släppa Adobe Learning Manager-komponenten och konfigurera därefter.
 
-Learning Manager-komponenten kräver att den konfiguration som skapades i ovanstående steg mappas till sidan.  Författaren kan mappa konfigurationen genom att redigera sidegenskaper under **[!UICONTROL Advanced]** > **[!UICONTROL Configuration]** > **[!UICONTROL Cloud Configuration]** och ange konfigurationssökväg. På så sätt kan författaren skapa konfigurationer för flera Learning Manager-konton och mappa var och en till olika webbplatser-sidor. Om en konfiguration inte mappas till sidan läser komponenten konfigurationen från mallsidan rekursivt tills den hittar en.
+Learning Manager-komponenten kräver att den konfiguration som skapades i ovanstående steg mappas till sidan.  Författaren kan mappa konfigurationen genom att redigera sidegenskaper under **[!UICONTROL Advanced]** > **[!UICONTROL Configuration]** > **[!UICONTROL Cloud Configuration]** och ange sökvägen till konfigurationen. På så sätt kan författaren skapa konfigurationer för flera Learning Manager-konton och mappa var och en till olika webbplatser-sidor. Om en konfiguration inte mappas till sidan läser komponenten konfigurationen från mallsidan rekursivt tills den hittar en.
 
 ## Elev {#learner}
 
 Eleven kan ta kurserna från sidan.
 
-För att kunna komma åt Learning Manager-widgeten måste eleven vara en inloggad AEM-användare. Egendom **mejl** bör finnas i noden /profile i elevens rep:user -nod. Denna e-postadress ska vara exakt densamma som den som finns i Learning Manager-kontot.
+För att kunna komma åt Learning Manager-widgeten måste eleven vara en inloggad AEM-användare. Egenskapen **email** ska också finnas i noden /profile i elevens rep:User-nod. Denna e-postadress ska vara exakt densamma som den som finns i Learning Manager-kontot.
 
 Eleven kan ta kurserna från sidan.
 
@@ -122,7 +122,7 @@ Skyline är molnversionen av AEM. Du måste först installera Skyline från pake
 
 ## Distribuera Stadssilhuett
 
-Stegen för att konfigurera Skyline nämns i  [GitHub-repo](https://github.com/adobe/captivate-prime-aem-components).
+Stegen för att konfigurera Skyline nämns i [GitHub-rapporten](https://github.com/adobe/captivate-prime-aem-components).
 
 ## Katalogwidget
 
@@ -132,15 +132,15 @@ I katalogwidgeten visas utbildning från en specifik katalog eller en uppsättni
 
 Katalogwidgeten innehåller följande alternativ:
 
-* **[!UICONTROL Catalog ids]:** Kommaseparerade katalog-ID:n som utbildningen måste visas för.
+* **[!UICONTROL Catalog ids]:** Kommaavgränsade katalog-ID:n som utbildningen måste visas för.
 * **[!UICONTROL Sort]:** Sorteringsordning för utbildningen. Alternativen är - namn, datum, skapad, datumRegistrerad och så vidare.
 * **[!UICONTROL Learner State]:** Returnerar all utbildning som använder följande som filter - registrerad, påbörjad, slutförd och inte registrerad. Sökresultaten visas inte om sorteringsalternativet är dateEnrolled, dueDate eller dateEnrolled.
-* **[!UICONTROL Skill name]:** Den skicklighet som används för att filtrera exakt utbildning.
-* **[!UICONTROL Tag name]:** Den tagg som används för att filtrera exakta resultat.
+* **[!UICONTROL Skill name]:** Den kompetens som används för att filtrera exakt utbildning.
+* **[!UICONTROL Tag name]:** Taggen som används för att filtrera exakta resultat.
 
 Här är några ytterligare komponenter som du kan anpassa:
 
-**[!UICONTROL Learning Object Types]:** Filtrera enligt typen av utbildningsobjekt. De typer som stöds är: kurs, certifiering, jobAid och learningProgram.
+**[!UICONTROL Learning Object Types]:** Filter enligt typen för utbildningsobjektet. De typer som stöds är: kurs, certifiering, jobAid och learningProgram.
 
 I AEM kommer korttiteln i en remsa att vara tom från början. I Egenskaper skriver du titeln i widgets.html.
 
@@ -148,7 +148,7 @@ I AEM kommer korttiteln i en remsa att vara tom från början. I Egenskaper skri
 
 Du kan anpassa utseendet och känslan på layouten med hjälp av widgets.html. Du kan ändra utseendet på korten som visas och anpassa temat.
 
-I dialogrutan **[!UICONTROL General Settings]** kan du välja primär- och sekundärfärger för korten och ange egenskaper för att anpassa temat.
+I avsnittet **[!UICONTROL General Settings]** kan du välja primär- och sekundärfärger för korten och ange egenskaper för att anpassa temat.
 
 ```
 \{ 
@@ -173,7 +173,7 @@ I dialogrutan **[!UICONTROL General Settings]** kan du välja primär- och sekun
 
 ### Ignorera högre ordning för LO-registrering
 
-Om **[!UICONTROL Ignore Higher Order LO Enrollment]** kryssrutan är aktiverad och en användare registreras direkt i ett utbildningsprogram eller en certifiering, kommer kurserna för det certifierings- eller utbildningsprogrammet att visas för användaren i widgetarna.
+Om kryssrutan **[!UICONTROL Ignore Higher Order LO Enrollment]** är aktiverad och en användare är registrerad direkt i ett utbildningsprogram eller en certifiering, visas kurserna för det certifierings- eller utbildningsprogrammet för användaren i widgetarna.
 
 Om kryssrutan är inaktiverad visas inte de kurser som finns i utbildningsprogrammet eller certifieringen där användaren inte har registrerat sig direkt.
 

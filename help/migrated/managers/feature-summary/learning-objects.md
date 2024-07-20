@@ -14,13 +14,13 @@ ht-degree: 1%
 
 Det här dokumentet innehåller information om utbildningsobjekt för chefer.
 
-En chef kan registrera elever under honom i kurser, utbildningsvägar och certifieringar. För mer information och steg att följa för att registrera sig, se [Registrera elever.](../../administrators/feature-summary/courses.md#main-pars_header_1058138132)
+En chef kan registrera elever under honom i kurser, utbildningsvägar och certifieringar. Mer information och steg att följa för att registrera sig finns i [Registrera elever.](../../administrators/feature-summary/courses.md#main-pars_header_1058138132)
 
 ## Kurser {#courses}
 
 ## Visa kurser {#viewingcourses}
 
-Du som är chef kan visa en lista över alla tillgängliga kurser. Klicka **[!UICONTROL Courses]** i den vänstra rutan för att visa listan över kurser med sök- och filtreringsalternativ. Du kan också visa kursens effektivitetsprocent för varje kurs på kursens miniatyrbilder. Observera att du bara kan registrera teammedlemmar på kurser som är synliga för dig under elevtillämpningen.
+Du som är chef kan visa en lista över alla tillgängliga kurser. Klicka på **[!UICONTROL Courses]** i den vänstra rutan för att visa listan över kurser med alternativ för sökning och filter. Du kan också visa kursens effektivitetsprocent för varje kurs på kursens miniatyrbilder. Observera att du bara kan registrera teammedlemmar på kurser som är synliga för dig under elevtillämpningen.
 
 ![](assets/view-course.png)
 
@@ -29,7 +29,7 @@ Du som är chef kan visa en lista över alla tillgängliga kurser. Klicka **[!UI
 
 >[!NOTE]
 >
->Du kan visa en lista över alla utfasade kurser genom att klicka på **Utfasad** -fliken.
+>Du kan visa en lista över alla utfasade kurser genom att klicka på fliken **Utfasade**.
 
 ## Visa quiz-poäng {#viewquizscores}
 
@@ -45,28 +45,28 @@ Välj instanstypen från rullgardinsmenyn för att visa poängen baserat på var
 Som chef kan du hantera elevlistan för dina teammedlemmar.
 
 1. Klicka på kursnamnet på kursens miniatyrbild.
-1. Klicka på i den vänstra rutan **[!UICONTROL Learners]**.
+1. Klicka på **[!UICONTROL Learners]** i den vänstra rutan.
 
 ![](assets/courses-learners.png)
 
-*Välj en åtgärd för studerande*
+*Välj en elevåtgärd*
 
 >[!NOTE]
 >
->**Exportera väntande godkännanden** kan utföras från elevappen.
+>Alternativet **Exportera väntande godkännanden** kan utföras från elevappen.
 
 Du kan utföra följande åtgärder från sidan Elever:
 
 * Markera eleven som du vill ta bort och klicka på Åtgärder > Ta bort.
 * Markera den elev vars närvaro du vill markera och klicka på Åtgärder > Markera som slutförd.
 
-Klicka på Återställ om du vill att eleverna ska kunna återställa en modul och använda den igen. Klicka på Ja i dialogrutan för att bekräfta återställningen. Moduler som har slutförts kan inte återställas. Det går endast att återställa felaktiga eller ofullständiga moduler.
+Klicka på Återställ om du vill att elever ska kunna återställa en modul och konsumera modulen igen. Klicka på Ja i dialogrutan som visas för att bekräfta återställningen. Moduler som har slutförts kan inte återställas. Endast felaktiga eller ofullständiga moduler kan återställas.
 
-Du kan också exportera listan med studerande i en Excel-tabell. Om du vill exportera listan med studerande klickar du på Åtgärder > Exportera.
+Du kan också exportera elevlistan i ett Excel-ark. Om du vill exportera elevlistan klickar du på Åtgärder > Exportera.
 
 >[!NOTE]
 >
->Om det finns flera förekomster för en kurs visas elevlistan i Excel på varje flik separat. Deltagarlistan består av deltagarnas namn, status och urvalskriterier. Elevstatus kan **Inte påbörjad**, eller **Pågår**, eller **Slutfört**.
+>Om det finns flera instanser för en kurs visas elevlistan i Excel på varje flik separat. Elevlistan består av elevnamn, status och urvalskriterier. Elevstatus kan vara **Inte påbörjat**, **Pågår** eller **Slutfört**.
 
 ## Visa feedback om L1 och L3 {#viewl1andl3feedback}
 
@@ -78,9 +78,9 @@ Du kan visa L1-feedback från elever för en kurs och L3-feedback från medlemma
 
 ## Förhandsgranska kurser {#previewcourses}
 
-Chefen kan förhandsgranska kurser genom att klicka på **Förgranska som elev** när du visar kursmodulerna.
+Chefen kan förhandsgranska kurser genom att klicka på alternativet **Förhandsgranska som elev** medan han visar kursmodulerna.
 
-1. Klicka **[!UICONTROL Courses]** i den vänstra rutan när du har loggat in.
+1. Klicka på **[!UICONTROL Courses]** i den vänstra rutan när du har loggat in.
 1. Klicka på en kursruta i listan över kurser på sidan.
 1. Klicka på Förhandsgranska som elev i den vänstra rutan och klicka på modulnamnet på sidan för att förhandsgranska kursmodulen i spelaren.
 
@@ -96,13 +96,13 @@ Värdet för kurseffektivitet har erhållits med beaktande av L1-, L2- och L3-fe
 
 ![](assets/course-effectiveness.png)
 
-*Visa kursens effektivitet för feedback*
+*Visa kurseffektivitet för feedback*
 
 I den här exempelögonblicksbilden fick 1 av 1 användare alla tre feedback, därav är poängen 100/100. Från den här tabellen kan du förstå att om någon av de tre återkopplingarna (L1, L2 och L3 ) inte ges för en kurs, har det en negativ inverkan på den totala effektiviteten. Klicka på nedåtpilen i det nedre högra hörnet av popup-fönstret för att se hur beräkningarna av kurseffektivitet görs.
 
 ![](assets/course-effectiveness-calculations.png)
 
-*Beräkning av kurseffektivitet*
+*Beräkning av kursens effektivitet*
 
 Enligt cirkeldiagrammet ovan viktas L3-feedback från chefen mer.
 
@@ -113,7 +113,7 @@ Adobe Learning Manager gör det enklare för dig att snabbt hitta de kurser/utbi
 1. Använda sökfältet. Klicka på sökikonen som visas i det övre högra hörnet. Ett sökfält visas. Skriv in kursnamnet eller nyckelord som är associerade med dina kurser för att hitta dina kurser/utbildningsvägar. Du kan också söka med fördefinierade taggar som Captivate, C, Java och HTML. Taggar är sökbara i sökfältet, vilket innebär att taggarna visas i sökfältet när du skriver. Sökningen kan även utföras med hjälp av unikt ID.
 1. Genom att filtrera listan över kurser/utbildningsvägar/certifieringar med hjälp av filtren. Du kan filtrera kurserna efter tillstånd som Alla, Publicerade och Utfasade.
 
-Du kan söka baserat på kompetenser genom att välja **Behörigheter** och välja dem. Som chef kan du sortera kurserna på fyra sätt för att bättre hitta den kurs du behöver. Klicka på Sortera efter och välj alfabetisk stigande ordning, alfabetisk fallande ordning, datum då kursen uppdaterades, datum då kursen skapades eller kursernas effektivitet:
+Du kan söka baserat på kompetenser genom att välja **Kompetenser** och sedan välja dem. Som chef kan du sortera kurserna på fyra sätt för att bättre hitta den kurs du behöver. Klicka på Sortera efter och välj alfabetisk stigande ordning, alfabetisk fallande ordning, datum då kursen uppdaterades, datum då kursen skapades eller kursernas effektivitet:
 
 * Namn (a-z)
 * Namn (z-a)
@@ -150,20 +150,20 @@ Chefer registrerar vissa elever för obligatoriska kurser enligt organisationens
 
 Chefen kan registrera sig, visa quiz-poäng, L1- och L3-feedback och endast avregistrera sina reportrar.
 
-## Lägga till studerande på en inlärningsväg {#addlearnerstoalearningprogram}
+## Lägg till elever i ett utbildningsspår {#addlearnerstoalearningprogram}
 
-1. I hanterarläget klickar du på Utbildningsbanor i den vänstra rutan.
+1. Klicka på Utbildningsvägar i den vänstra rutan i läget Chef.
 1. Välj den publicerade utbildningsvägen från listan över paneler där du vill lägga till elever.
 1. Klicka på Elever i den vänstra rutan under kategorin Programrapporter. Obs! Utbildningsprogrammet måste publiceras innan elever läggs till.
 1. Klicka på länken Registrera dig på sidan.
-1. Börja skriva in elevens namn eller profil och välj de studerande i listrutan. Klicka på Spara.
+1. Börja skriva elevens namn eller profil och välj eleverna från rullgardinsmenyn Elever. Klicka på Spara.
 
-## Visa frågetester {#Viewquizscores-1}
+## Visa quiz-poäng {#Viewquizscores-1}
 
-1. Klicka på en inlärningsvägg.
-1. Klicka på Quiz-bakgrundsmusik i den vänstra rutan.
+1. Klicka på valfri panel för utbildningsvägen.
+1. Klicka på Quiz-poäng i den vänstra rutan.
 
-Du kan visa frågeformulärspoängen för en viss utbildningsväg baserat på användarnamn eller på varje fråga. Välj Efter användare eller Efter fråga flikar därefter. Quizpoäng visas för en kurs i taget. Ändra kursnamnet från listrutan för att visa quizpoängen för andra kurser. Du kan också exportera quiz-poäng för varje kurs. Välj instanstyp i listrutan för att visa poängen baserat på varje instans av utbildningsvägen.
+Du kan visa quiz-poängen för en viss utbildningsväg baserat på användarnamn eller baserat på varje fråga. Välj Efter användare eller Efter fråga flikar därefter. Quizpoäng visas för en kurs i taget. Ändra kursnamnet från listrutan för att visa quizpoängen för andra kurser. Du kan också exportera quiz-poäng för varje kurs. Välj instanstyp i listrutan för att visa poängen baserat på varje instans av utbildningsvägen.
 
 ## Avregistrering av elever {#unenrollmentforlearners}
 
@@ -179,12 +179,12 @@ En chef kan markera en LP-skiva som slutförd för elever. Mer information finns
 
 Du kan registrera elever till certifieringen på två sätt. Följ stegen nedan för att registrera elever.
 
-1. Klicka på Certifieringar i den vänstra rutan när du har loggat in som chef. På fliken Publicerat håller du musen över respektive certifiering och klickar på Registrera studerande. Du kan också klicka på en publicerad certifieringsruta och klicka på Utbildare i den vänstra rutan. Klicka på + Anmäl dig till höger på sidan för studerande för att börja lägga till dem.
-1. Du kan visa popup-dialogrutan Registrera studerande när du har klickat på alternativet Registrera studerande i vart och ett av de ovanstående två stegen. Börja skriva namn, profil och välj namn på eleven i listrutan och klicka på Spara.
+1. Klicka på Certifieringar i den vänstra rutan när du har loggat in som chef. I listan Publicerade flikar håller du pekaren över varje certifiering och klickar på Registrera elever. Du kan även klicka på en publicerad certifieringsruta och klicka på Elever i den vänstra rutan. Klicka på + Registrera dig till höger på sidan Elever för att börja lägga till eleverna.
+1. Du kan visa popup-dialogrutan Registrera elever efter att ha klickat på alternativet Registrera elever i vart och ett av de två stegen ovan. Börja skriva elevens namn, profil och välj elevens namn i listrutan och klicka på Spara.
 
-## Oregistrerad registrering för studerande {#Unenrollmentforlearners-1}
+## Avregistrering av elever {#Unenrollmentforlearners-1}
 
-Man kan avregistrera en elev om man ännu inte startat certifieringen.
+Chefen kan avregistrera en elev om eleven ännu inte har påbörjat certifieringen.
 
 ## Markera slutförande {#Markcompletion-1}
 
@@ -192,7 +192,7 @@ En chef kan markera slutförandet av certifieringen. Mer information finns i [Ma
 
 ## Chefsmeddelanden för godkännande av elevkurs {#manager-notifications-course-approval}
 
-När en elev försöker acceptera eller avvisa registrering kan en chef nu se information om sessionen (**Videokonferens** eller **Klassrum**) i popfönstret.
+När en elev accepteras eller avvisas för registrering kan en chef nu visa information om sessionen (**Videokonferens** eller **Klassrum**) i popfönstret.
 
 ![](assets/approve-a-learner.png)
 
@@ -209,7 +209,7 @@ Så här fungerar arbetsflödet:
 
 1. Chefen ser ett meddelande efter att en elev begär godkännande av en kurs.
 
-1. Chefen klickar **Sessionsdetaljer**.
+1. Chefen klickar på **Sessionsdetaljer**.
 
    ![](assets/pending-tasks.png)
 
@@ -231,7 +231,7 @@ Om eleven skickar filen kan chefen se filen från inlämningssidan och godkänna
 
 ![](assets/optional-submission.png)
 
-*Godkänn eller avvisa baserat på inskickning av fil*
+*Acceptera eller avvisa baserat på inskickning av fil*
 
 När kurser anges som obligatoriska:
 

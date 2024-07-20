@@ -3,20 +3,19 @@ description: När du överför en CSV-fil visas ett fel. Läs vidare för att l�
 jcr-language: en_us
 title: Det gick inte att överföra CSV
 contentowner: saghosh
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: 10458499-1038-4c62-971f-f950d383e970
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 0%
 
 ---
 
-
-
 # Det gick inte att överföra CSV
 
 ## Fel: Datatrunkering: Data för långa för kolumn
 
-Följande felmeddelande visas när du försöker ladda upp en CSV-fil i Adobe Learning Manager.
+Följande felmeddelande visas när du försöker överföra en CSV-fil i Adobe Learning Manager.
 
 ![](assets/csv-upload-failed.png)
 
@@ -38,7 +37,7 @@ Du kan inte överföra en CSV-fil eftersom den första kolumnen visar ett specia
 
 ![](assets/csv-2.png)
 
-*Specialtecken i kolumnen Namn*
+*Specialtecken i namnkolumnen*
 
 ## Orsak
 
@@ -46,12 +45,12 @@ Problemet uppstår när CSV-filen sparas i UTF-8-format i Excel. När du sparar 
 
 ## Upplösning
 
-* **A:** Spara via Excel:
+* **A:** Sparar via Excel:
 
    1. Öppna CSV-filen i Excel.
    1. Spara filen som en vanlig CSV-fil.
 
-* **B:** Spara via Anteckningar eller Anteckningar++:
+* **B:** Sparar via Anteckningar eller Anteckningar++:
 
    * Öppna CSV-filen i Anteckningar eller Anteckningar++.
    * Spara filen i UTF-8-format.
@@ -72,11 +71,11 @@ Det här problemet uppstår om det redan finns en användare i systemet med samm
 
 ### Scenario 1
 
-**Konton där UUID inte är aktiverat.**
+**Konton där UUID inte har aktiverats.**
 
 I det här scenariot finns det två orsaker till felet:
 
-1. Användaren som du försöker lägga till är chef för en extern profil. Lös detta genom att öppna den externa profil som användaren ingår i, välja användaren, klicka på **[!UICONTROL Actions]** > **[!UICONTROL Assign Role]** > **[!UICONTROL Manager]** och ändra profilhanteraren.
+1. Användaren som du försöker lägga till är chef för en extern profil. Lös detta genom att öppna den externa profil som användaren ingår i, markera användaren, klicka på **[!UICONTROL Actions]** > **[!UICONTROL Assign Role]** > **[!UICONTROL Manager]** och ändra profilhanteraren.
 1. Användaren som du försöker lägga till har tagits bort. I det här scenariot kan du inte lägga till användaren med samma e-postadress förrän rensningsprocessen är klar. En lösning ** är att lägga ** användaren med en andra e postadress för att ge åtkomst till plattformen. När rensningsprocessen är klar redigerar du användaren och ändrar e-postadressen till rätt e-postadress.
 
 ### Scenario 2
@@ -85,11 +84,10 @@ I det här scenariot finns det två orsaker till felet:
 
 För UUID-aktiverade konton kan det här problemet uppstå om en användare har tilldelats ett UUID som redan används av en annan användare på kontot eller om användaren har en annan e-postadress.
 
-Låt det till exempel finnas två användare, A och B, med e-postadresser,  <a@xyz.com> och <b@xyz.com> med UUID 1 respektive 2.
+Låt det till exempel finnas två användare, A och B, med e-postadresser, <a@xyz.com> och <b@xyz.com> med UUID 1 respektive 2.
 
 Om du nu överför en CSV-fil som har användar-A:s UUID som 3 och användar-B:s UUID som 2 visas ett fel.
 
 >[!TIP]
 >
->För att lösa problemet, **du måste ha samma e-postadress och UUID för användaren på CSV-filen och systemet.**
-
+>**Du måste ha samma e-postadress och UUID för användaren i CSV-filen och i systemet för att lösa problemet.**

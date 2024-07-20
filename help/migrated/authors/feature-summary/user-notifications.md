@@ -1,20 +1,19 @@
 ---
 jcr-language: en_us
 title: Användarmeddelanden
-description: Aviseringsfunktionen gäller alla användare av Adobe Learning Manager. Men varje användare baserat på sin roll får olika typer av meddelanden i olika scenarier. Alla aviseringar och meddelanden till användare visas i popup-dialogrutan Aviseringar.
+description: Meddelandefunktionen gäller alla användare av Adobe Learning Manager. Men varje användare baserat på sin roll får olika typer av meddelanden i olika scenarier. Alla aviseringar och meddelanden till användare visas i popup-dialogrutan Aviseringar.
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 241a2ceb-d6ba-4494-861b-828e3eb218a3
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 0%
 
 ---
 
-
-
 # Användarmeddelanden
 
-Aviseringsfunktionen gäller alla användare av Adobe Learning Manager. Men varje användare baserat på sin roll får olika typer av meddelanden i olika scenarier. Alla aviseringar och meddelanden till användare visas i popup-dialogrutan Aviseringar.
+Meddelandefunktionen gäller alla användare av Adobe Learning Manager. Men varje användare baserat på sin roll får olika typer av meddelanden i olika scenarier. Alla aviseringar och meddelanden till användare visas i popup-dialogrutan Aviseringar.
 
 ## Åtkomstmeddelanden {#accessnotifications}
 
@@ -28,7 +27,7 @@ Det här popup-fönstret visar markeringar av alla meddelanden tillsammans med t
 
 Du kan känna till antalet senaste aviseringar genom det markerade numret som visas ovanpå aviseringsikonen. Om det till exempel finns fem senaste meddelanden efter din föregående inloggning, kan du se att siffran fem visas ovanpå aviseringsikonen. Dessa siffror försvinner när du läser alla de senaste meddelandena.
 
-Klicka **[!UICONTROL Show all notifications]** längst ned i popup-fönstret för meddelanden för att visa alla meddelanden på en separat sida.
+Klicka på länken **[!UICONTROL Show all notifications]** längst ned i popup-fönstret för meddelanden om du vill visa alla meddelanden på en separat sida.
 
 ![](assets/author-notifications-page.png)
 

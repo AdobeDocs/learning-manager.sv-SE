@@ -2,26 +2,25 @@
 description: Lär dig ladda ned elevens betygsutdrag baserat på användare, utbildningsobjekt eller kunskaper i Learning Manager.
 jcr-language: en_us
 title: Elevens betygsutdrag
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 8204aa1e-0e0d-4d9e-9dc0-6260667bf4e7
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 0%
 
 ---
 
-
-
 # Elevens betygsutdrag
 
 Lär dig ladda ned elevens betygsutdrag baserat på användare, utbildningsobjekt eller kunskaper i Learning Manager.
 
-Med Adobe Learning Manager kan en organisations chefer generera utskrifter som är kopplade till elever.
+Med Adobe Learning Manager kan chefer i en organisation generera utskrifter som är kopplade till elever.
 
 ## Generera elevbetygsutdrag {#generatelearnertranscripts}
 
-1. För att generera elevens betygsutdrag klickar du på **[!UICONTROL Reports]** i den vänstra rutan i chefsinloggning.
-1. Klicka **[!UICONTROL My Reports]** på sidan.
-1. Klicka **[!UICONTROL Learner Transcripts]** länk.
+1. Klicka på **[!UICONTROL Reports]** i den vänstra rutan i chefsinloggning för att generera elevens betygsutdrag.
+1. Klicka på fliken **[!UICONTROL My Reports]** på sidan.
+1. Klicka på länken **[!UICONTROL Learner Transcripts]**.
 
    ![](assets/learner-transcripts.png)
 
@@ -61,13 +60,13 @@ En vanlig betygsfil för elever består av sex Excel-ark i en enda fil. Elevens 
 
 I Excel-bladet för elevbetygsutdrag, tillsammans med profilinformation om eleven, finns information om utbildningsobjektets förbrukning, t.ex. registreringsdatum, startdatum, uppnådd grad, erhållna quizpoäng osv. Om kurser ingår i något utbildningsprogram listas de separat, bortsett från enskilda uppgifter om kursens förbrukning.
 
-**1 - Tavla för utbildningsaktivitet**
+**1 - tavla för utbildningsaktivitet**
 
 På den här LO-specifika instrumentpanelen kan du se antalet elever för varje kurs, utbildningsprogram eller certifiering. Du kan visa förloppsindikatorn för elever för ett visst utbildningsobjekt. Denna tabell visar data som antal elever som har slutfört kursen eller utbildningsprogrammet, elever under utveckling och elevens förfallodatum.
 
 Användarnas förlopp för den specifika kursen beräknas baserat på inmatningsfälten där du anger tröskelvärdena för förfallodatum och förloppsprocent. Om du till exempel anger 7 dagar och 70 % som värden i inmatningsfältet visas kursförloppet för kurser som förfaller om 7 dagar och för kurser som har mer än 70 % förlopp. Du kan också ändra tidsperioden i tabellen, där ändrade data visas automatiskt på kontrollpanelen.
 
-**2 - Tavla för utbildningsaktivitet**
+**2 - tavla för utbildningsaktivitet**
 
 Utbildningstavlan visar data för en specifik användare. På den här instrumentpanelen kan du se de kurser, utbildningsprogram eller certifieringar som en viss användare har registrerat sig för. Tabellen visar även data om vilka utbildningsobjekt användaren har slutfört, vilka utbildningsobjekt som pågår och kommande inlämningsdatum för användaren.
 

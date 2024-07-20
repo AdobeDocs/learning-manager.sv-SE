@@ -1,30 +1,29 @@
 ---
 jcr-language: en_us
 title: Inloggningsproblem i Learning Manager
-description: Inloggningsproblem i Adobe Learning Manager
+description: Problem med inloggning i Adobe Learning Manager
 contentowner: nluke
-source-git-commit: ec79aa3dd6225cc424721afb50702963c1b125eb
+exl-id: 516c1a20-f185-4ace-a1e7-2cd89644863c
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
 
 ---
 
-
-
 # Inloggningsproblem i Learning Manager
 
 ## Problem
 
-Det gick inte att logga in på Adobe Learning Manager.
+Det går inte att logga in på Adobe Learning Manager.
 
 ## Fel
 
-När du försöker logga in på Adobe Learning Manager visas felmeddelandet nedan:
+När du försöker logga in på Adobe Learning Manager visas felmeddelandet som visas nedan:
 
 ![](assets/cp-error.png)
 
-*Felmeddelande för en session som har upphört*
+*Felmeddelande för en session som upphört*
 
 ## Orsak
 
@@ -36,9 +35,9 @@ Adobe Learning Manager avvisar dessa gamla cookies, vilket resulterar i ett fel.
 
 ## Upplösning
 
-Prova följande alternativ om en inaktuell cookie avvisas av Adobe Learning Manager:
+Om en inaktuell cookie avvisas av Adobe Learning Manager kan du prova följande alternativ:
 
-1. Rensa webbläsarens cookies och cacheminne. Mer information finns i [dokument](unable-log-in-learning-manager.md).
+1. Rensa webbläsarens cookies och cacheminne. Mer information finns i det här [dokumentet](unable-log-in-learning-manager.md).
 
    Alternativt kan IdP-administratören definiera en forcerad utloggning efter en viss angiven tid. Det här steget autentiserar användaren igen för att starta en ny session.
 
@@ -46,4 +45,4 @@ Det finns andra skäl till varför detta fel uppstår, men det ovan nämnda är 
 
 ## Referenslänkar:
 
-[Microsoft: session med villkorsstyrd åtkomst under en livstid](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)
+[Microsoft: Villkorlig åtkomstsession under en livstid](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)

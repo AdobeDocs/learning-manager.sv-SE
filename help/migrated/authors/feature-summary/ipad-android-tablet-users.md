@@ -19,7 +19,7 @@ När du har loggat in som elev i Learning Manager-appen på en iPad- eller Andro
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
-Gå till utbildnings- och katalogfunktionerna genom att trycka på **Meny** och väljer lämpligt alternativ.
+Gå till utbildnings- och katalogfunktionerna genom att trycka på rullgardinsmenyn **Meny** och välja lämpligt alternativ.
 
 ![](assets/menu-ipad.png)
 
@@ -36,7 +36,7 @@ Du kan komma åt Learning Manager-appen offline på iPad och Android-surfplattor
 
 Du kan övervaka enhetens lagring med jämna mellanrum.
 
-Tryck på profilikonen längst upp till höger i programmet och tryck sedan på **Enhetslagring** menyalternativ.
+Tryck på profilikonen längst upp till höger i programmet och tryck sedan på menyalternativet **Enhetslagring**.
 
 ![](assets/app-device-storage.png)
 

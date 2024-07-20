@@ -59,4 +59,4 @@ ht-degree: 5%
 
 ## Teknisk referens {#technicalreference}
 
-[Du kan hämta Adobe Learning Manager Technical Reference Guide här.](assets/technicaloverview.pdf)
+[Du kan hämta Adobe Learning Manager tekniska referenshandbok här.](assets/technicaloverview.pdf)

@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: Integrering med Adobe Connect
 description: Som elev kan du delta i virtuella klassrumskurser med Adobe Connect om ditt företag integrerar Adobe Connect med ditt Learning Manager-konto. Kontakta administratören för ditt företag om du inte kan använda Adobe Connect.
-source-git-commit: 69ac8f8ce5a0c077f31569571f9d9fbf16ecb943
+exl-id: bf071cb2-a955-4c2b-b156-54cdd78cbd68
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
 
 ---
-
-
 
 # Integrering med Adobe Connect
 

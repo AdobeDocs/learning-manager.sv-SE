@@ -3,14 +3,13 @@ description: Läs den här artikeln om du vill veta hur du hanterar deltagarna, 
 jcr-language: en_us
 title: Hantera elever för din session
 contentowner: shhivkum
-source-git-commit: c4ea252656bfbe86a0d69ffdb21dba46783d5848
+exl-id: 2f4f8589-2350-4683-a141-809084d6309a
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 0%
 
 ---
-
-
 
 # Hantera elever för din session
 
@@ -20,7 +19,7 @@ Läs den här artikeln om du vill veta hur du hanterar deltagarna, skickar kursr
 
 Instruktörer kan se sessioner eller moduler med väntande granskningar.
 
-På sidan Sessioner/Moduler visas en kolumn **Väntande granskningar** som visar antalet väntande granskningar för motsvarande session/aktivitet.
+På sidan Sessioner/moduler visas kolumnen **Väntande granskningar** som visar antalet väntande granskningar för motsvarande session/aktivitet.
 
 ## Hantera väntelista för din session {#managewaitlistforyoursession}
 
@@ -38,7 +37,7 @@ När eleverna registrerar sig för din modul kan du se den senaste statusen för
 
    De elever som du har bekräftat läggs till i listan över bekräftade elever.
 
-Instruktörer kan avregistrera elever från sessioner. Detta avregistrerar dem också från motsvarande utbildningar. Välj **[!UICONTROL Waitlist]** -fliken. Markera kryssrutan elever som ska avregistreras. För att avregistrera dig väljer du **[!UICONTROL Actions]** > **[!UICONTROL Unenroll learners]**.
+Instruktörer kan avregistrera elever från sessioner. Detta avregistrerar dem också från motsvarande utbildningar. Välj fliken **[!UICONTROL Waitlist]**. Markera kryssrutan elever som ska avregistreras. Om du vill avregistrera dig väljer du **[!UICONTROL Actions]** > **[!UICONTROL Unenroll learners]**.
 
 ![](assets/unenroll-learners.png)
 *Avregistrera eleverna*
@@ -57,7 +56,7 @@ Du kan visa antalet bekräftade elever som deltar i sessionen, deras namn, delta
    En elev kan inte slutföra en modul förrän närvarostatusen är Närvarat.
 
    ![](assets/markattendance.png)
-   *Ange elevnärvaro*
+   *Markera elevnärvaro*
 
 ## Skicka e-postmeddelanden till elever {#sendemailstolearners}
 
@@ -108,7 +107,7 @@ Om elever har överfört dokument som tilldelningar, rapporter eller bedömninga
    * Ställ in upprepningen för påminnelsen.
 
    ![](assets/remindersettings.png)
-   *Visa inställningar för påminnelser*
+   *Visa påminnelseinställningar*
 
 1. Gör något av följande:
 

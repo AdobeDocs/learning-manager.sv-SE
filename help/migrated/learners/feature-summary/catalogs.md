@@ -15,13 +15,13 @@ ht-degree: 0%
 
 Lär dig använda kataloger i Learning Manager för att se berättigade utbildningsobjekt
 
-**Katalog** består av alla kurser, utbildningsprogram, certifieringar och arbetsstöd som finns tillgängliga för en elevroll på företagskontot.
+**Katalogen** består av alla kurser, utbildningsprogram, certifieringar och arbetsstöd som finns tillgängliga för en elevroll i företagskontot.
 
-Elever kan se alla tilldelade och berättigade utbildningsobjekt (utbildningsprogram, kurser och certifieringar) i **Standardkatalog**. Dessa utbildningsobjekt är unika för varje elev baserat på hans/hennes roll, beteckning, användargrupp, profil och så vidare.
+Elever kan visa alla tilldelade och kvalificerade utbildningsobjekt (utbildningsprogram, kurser och certifieringar) i **standardkatalogen**. Dessa utbildningsobjekt är unika för varje elev baserat på hans/hennes roll, beteckning, användargrupp, profil och så vidare.
 
 Du kan sortera utbildningsobjekten baserat på olika kategorier som Produkter, Jobbroller, Typer, Tid som behövs, Kompetenser och Nyckelord. Du kan också filtrera med alternativen i den vänstra rutan: efter utbildningsobjekt, kompetens och slutförandestatus.
 
-Använd sökfältet längst upp på sidan för att ange namnen på dina välbekanta utbildningsobjekt. Elever kan växla mellan stödraster och listvyn genom att välja detta ![](assets/icon-list.png) -ikonen.
+Använd sökfältet längst upp på sidan för att ange namnen på dina välbekanta utbildningsobjekt. Elever kan växla mellan stödrastret och listvyn genom att välja ikonen ![](assets/icon-list.png).
 
 ![](assets/catalogs.png)
 *Visa kataloger*
@@ -38,6 +38,6 @@ Du kan även filtrera efter utbildningens längd. Varaktighetsfiltret omfattar i
 
 *Filtrera efter kurslängd*
 
-Utbildningen **Varaktighet** och **Format** filter identifieras baserat på utbildningsinnehållet som är tillgängligt för standardinstansen och för kontots önskade språk.
+Utbildningsfiltren **Varaktighet** och **Format** identifieras utifrån utbildningsinnehållet som är tillgängligt för standardinstansen och för kontots önskade språk.
 
 När en utbildning har publicerats kan det ta upp till en timme för uppgifterna att finnas tillgängliga som filter.

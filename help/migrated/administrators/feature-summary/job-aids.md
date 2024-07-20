@@ -3,14 +3,13 @@ description: Arbetsstöd för administratörer i Learning Manager.
 jcr-language: en_us
 title: Arbetsstöd
 contentowner: jayakarr
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 4881f7d0-27da-4c41-a8cd-ad937f913157
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 2%
 
 ---
-
-
 
 # Arbetsstöd
 
@@ -24,7 +23,7 @@ Administratörer i en organisation kan hantera tilldelning av arbetsstöd till e
 
 ## Indragning/återpublicering av arbetsstöd {#withdrawrepublishjobaids}
 
-Klicka på under Administratörsinloggning **[!UICONTROL Job Aids]** i den vänstra rutan för att få tillgång till arbetsstöd.
+Klicka på **[!UICONTROL Job Aids]** i den vänstra rutan under Administratörsinloggning för att få åtkomst till arbetsstöd.
 
 Du kan dra tillbaka ett publicerat arbetsstöd genom att klicka på inställningsikonen bredvid arbetsstödet och välja **[!UICONTROL Withdraw]**.
 
@@ -32,7 +31,7 @@ Du kan dra tillbaka ett publicerat arbetsstöd genom att klicka på inställning
 
 *Hantera arbetsstöd*
 
-Klicka på fliken Återkallat om du vill visa indraget arbetsstöd. Du kan återpublicera de återkallade jobben genom att klicka på inställningsikonen och välja Publicera. Klicka på Förhandsgranska i inställningar för att förhandsgranska arbetsstödet i spelaren.
+Klicka på fliken Återkallat om du vill visa indraget arbetsstöd. Du kan återpublicera de återkallade jobben genom att klicka på inställningsikonen och välja Publish. Klicka på Förhandsgranska i inställningar för att förhandsgranska arbetsstödet i spelaren.
 
 ## Hantera arbetsstödstilldelningar {#managejobaidassignments}
 
@@ -41,32 +40,32 @@ Klicka på fliken Återkallat om du vill visa indraget arbetsstöd. Du kan åter
 
 1. Klicka på **[!UICONTROL Manage Assignment]**.
 
-   Inställningen **[!UICONTROL Enroll Learners]** visas.
+   Dialogrutan **[!UICONTROL Enroll Learners]** visas.
 
    ![](assets/enroll-learners-job-aids.png)
 
    *Visa dialogrutan Registrera elever*
 
-1. I dialogrutan **[!UICONTROL Learners]** , börja skriva namnet på eleverna och välj eleverna från rullgardinsmenyn. Du kan också hitta elever per namn, profil och så vidare.
-1. Klicka **[!UICONTROL Add].**
+1. I fältet **[!UICONTROL Learners]** börjar du skriva namnet på eleverna och väljer eleverna i listrutan. Du kan också hitta elever per namn, profil och så vidare.
+1. Klicka på **[!UICONTROL Add].**
 1. Klicka på **[!UICONTROL Save]**.
 
 ## Vanliga frågor {#frequentlyaskedquestions}
 
 +++Hur exporterar man arbetsstödsrapporter?
 
-I det övre högra hörnet på skärmen klickar du på **[!UICONTROL Actions]** > **[!UICONTROL Export Report]**.
+Klicka på **[!UICONTROL Actions]** > **[!UICONTROL Export Report]** i det övre högra hörnet på skärmen.
 
 +++
 
 +++Hur hanterar man arbetsstödstilldelningar?
 
-in **[!UICONTROL Published]** klickar du på inställningsikonen nära ett arbetsstöd. Lägg till en elev och klicka på **[!UICONTROL Add]**.
+Klicka på inställningsikonen nära ett arbetsstöd på fliken **[!UICONTROL Published]**. Lägg till en elev och klicka på **[!UICONTROL Add]**.
 
 +++
 
 +++Hur drar man tillbaka ett arbetsstöd?
 
-in **[!UICONTROL Published]** klickar du på inställningsikonen nära ett arbetsstöd. Klicka på **[!UICONTROL Withdraw]**. Arbetsstödet visas nu inte längre på fliken Publicerat. Klicka på fliken Återkallat om du vill visa det återkallade arbetsstödet.
+Klicka på inställningsikonen nära ett arbetsstöd på fliken **[!UICONTROL Published]**. Klicka på **[!UICONTROL Withdraw]**. Arbetsstödet visas nu inte längre på fliken Publicerat. Klicka på fliken Återkallat om du vill visa det återkallade arbetsstödet.
 
 +++

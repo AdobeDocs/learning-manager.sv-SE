@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: xAPI i Learning Manager
 description: Experience API (xAPI) är en programspecifikation för e-utbildning som gör att utbildningsinnehåll och utbildningssystem kan kommunicera med varandra på ett sätt som registrerar och spårar alla typer av utbildningsupplevelser.
-source-git-commit: 0fabd369e70e15ba22fead0177a24aafd851d88d
+exl-id: 8e36b538-a451-448e-a65d-08d286adcfdb
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 0%
 
 ---
-
-
 
 # xAPI i Learning Manager
 
@@ -17,7 +16,7 @@ ht-degree: 0%
 
 Experience API (xAPI) är en programspecifikation för e-utbildning som gör att utbildningsinnehåll och utbildningssystem kan kommunicera med varandra på ett sätt som registrerar och spårar alla typer av utbildningsupplevelser. Utbildningsupplevelser registreras i en utbildningspostbutik (LRS). LRS kan finnas inom traditionella system för hantering av inlärning eller på egen hand.
 
-Mer information om xAPI finns i:  [https://github.com/adlnet/xAPI-Spec](https://github.com/adlnet/xAPI-Spec).
+Mer information om xAPI finns på: [https://github.com/adlnet/xAPI-Spec](https://github.com/adlnet/xAPI-Spec).
 
 ## Hur stöder Learning Manager xAPI? {#howdoescaptivateprimesupportxapi}
 
@@ -41,8 +40,8 @@ I allt högre grad finns ett behov av att samla slutanvändarens utbildningsuppl
 
 1. Definiera programmets omfattning.
 
-   * Om **[!UICONTROL Admin role xAPI read and write access]** är aktiverat kan administratören publicera och hämta xAPI-satser och dokument.
-   * Om **[!UICONTROL Learner role xAPI read and write access]** är aktiverat kan administratören publicera och hämta xAPI-satser och dokument.
+   * Om **[!UICONTROL Admin role xAPI read and write access]** är aktiverat kan administratören publicera och hämta xAPI-satser och -dokument.
+   * Om **[!UICONTROL Learner role xAPI read and write access]** är aktiverat kan administratören publicera och hämta xAPI-satser och -dokument.
 
 1. Spara ändringarna. Du får ditt utvecklar-id och din hemlighet.
 
@@ -66,7 +65,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 Som författare kan du nu välja xAPI-modul när du skapar kurser för att övervaka användarupplevelsen utanför Learning Manager. Du kan till exempel använda den här funktionen för att utvärdera aktiviteter för användare på en tredjepartsplattform som används för kursförbrukning.
 
-1. När du skapar en **[!UICONTROL Activity Module]** i **[!UICONTROL Type]**alternativ, använd snabbmenyn till att välja  **[!UICONTROL xAPI-based Module.]**
+1. När du skapar en **[!UICONTROL Activity Module]** använder du snabbmenyn för att välja **[!UICONTROL xAPI-based Module.]** i **{1**alternativet[!UICONTROL Type]
 
    ![](assets/xapimodulecreation.png)
 
@@ -82,7 +81,7 @@ Som författare kan du nu välja xAPI-modul när du skapar kurser för att över
    Alla xAPI-satser med den nämnda IRI spåras i modulen ovan och återspeglas i Learning Manager-rapporterna.
 
 1. Gå tillbaka till sidan Aktivitetsmodul om du vill kopiera den automatiskt genererade IRI.
-1. Publicera modulen.
+1. Publish modulen.
 
 **Viktiga saker att observera:**
 
@@ -97,7 +96,7 @@ Som författare kan du nu välja xAPI-modul när du skapar kurser för att över
 
 ## Generera rapporter {#generatereports}
 
-xAPI-rapporter kan genereras som Excel-rapporter. Som administratör öppnar du **[!UICONTROL Reports]** > **[!UICONTROL Excel reports]** > **[!UICONTROL xAPI activity report]**.
+xAPI-rapporter kan genereras som Excel-rapporter. Öppna **[!UICONTROL Reports]** > **[!UICONTROL Excel reports]** > **[!UICONTROL xAPI activity report]** som administratör.
 
 Den nedladdade rapporten hämtar all information som publicerats av eleven och administratören för ett kontoutdrag.
 

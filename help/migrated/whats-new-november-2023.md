@@ -17,11 +17,11 @@ Användargränssnittet i Adobe Learning Manager har uppdaterats några gånger f
 
 Temauppdateringarna tillämpas automatiskt på konton som använder standardtemat. Uppdateringarna av användargränssnittstemat påverkar inte konton som har gjort ändringar för att använda ett anpassat tema. Sådana konton måste växla tillbaka till standardtemat för att få de nya temauppdateringarna.
 
-![Användargränssnittsbild](assets/refreshed-ui.png)
+![UI-bild](assets/refreshed-ui.png)
 
 ### Om den här ändringen
 
-**Vilka ändringar finns i den här versionen?**
+**Vilka ändringar görs i den här versionen?**
 
 Det finns en ny mall i sidhuvudet som automatiskt ändrar storlek på logotypen till en fast storlek och position samtidigt som logotypens proportioner behålls. Ändringen syftar till att förbättra elevupplevelsens visuella lockelse.
 
@@ -33,7 +33,7 @@ Logotypens maximala bredd är 210 px. Logotyper med en bredd på mer än 210 px 
 
 Om logotypstorleken är mindre än den rekommenderade storleken överförs logotypen utan någon ändring och är centrerad.
 
-**Hur påverkar det?**
+**Vad innebär det?**
 
 Företagsnamn som inte är längre beskärs och en ellips fyller utrymmet.
 
@@ -48,13 +48,13 @@ Skapa anpassade upplevelser i den inbyggda versionen av Adobe Learning Manager, 
 
 En elev kan använda ett specialbyggt program eller tillägg, som en administratör har skapat.
 
-Visa [Inbyggd utbyggbarhet](/help/migrated/administrators/feature-summary/native-extensibility.md) om du vill veta mer.
+Visa [ursprunglig utökningsbarhet](/help/migrated/administrators/feature-summary/native-extensibility.md) om du vill veta mer.
 
 ## Verktyget Quiz-skapande
 
 Du kan nu skapa utvärderingar i Learning Manager med det nya verktyget för att skapa quiz på sidan Innehållsbibliotek. De utvärderingar som skapas blir en del av innehållsbiblioteket och kan läggas till i en &quot;gemensam&quot; mapp för återanvändning av kurser.
 
-Visa [Skapa ett quiz](/help/migrated/authors/feature-summary/content-library.md) om du vill veta mer.
+Visa [Skapa ett frågeformulär](/help/migrated/authors/feature-summary/content-library.md) om du vill veta mer.
 
 ## Rapportera ändringar i den här versionen
 
@@ -255,7 +255,7 @@ Om arbetsstödsrapporten överskrider 10 miljoner som skapats med jobb-API:t i d
 
 I tidigare versioner av Adobe Learning Manager kan du fortfarande komma åt kursen, certifieringen eller utbildningsplanen genom att besöka meddelandet om att en kurs, certifiering eller utbildningsplan har raderats och att meddelandet finns.
 
-I den här versionen ser vi till att ett raderat inlägg inte längre är tillgängligt. Om du anger id:t i /posts/{id} API, och ID:t för inlägget är inte längre tillgängligt, visar API:t meddelandet &quot;Hittar inte inlägg för den angivna resursen&quot;.
+I den här versionen ser vi till att ett raderat inlägg inte längre är tillgängligt. Om du anger ID:t i API:t /posts/{id} och ID:t för inlägget inte längre är tillgängligt, visar API:t meddelandet &quot;Inlägget hittades inte för den angivna resursen&quot;.
 
 ### Deadline för elevens API-slutförande
 
@@ -279,7 +279,7 @@ Dessutom ändrar vi standardvärdet för snippetTypes till courseName. Om du gö
 
 ### Ny resurstyp för quiz
 
-Inställningen `instances.loResources.resources` slutpunkten returneras `ResourceContentType` med quiz.
+Slutpunkten `instances.loResources.resources` returnerar `ResourceContentType` med quiz.
 
 ## Avskrivningsmeddelande
 
@@ -305,7 +305,7 @@ Mer information om aktuella och tidigare versioner av Learning Manager-webbappen
 * En elev kan inte delta i LinkedIn-kurser i MS Teams-appen.
 * Registrerings-API returnerar inte registreringarna i en Flex-utbildningsplan eller inbäddad utbildningsplan som förväntat.
 * I mobilappen visas namnen på en kurs, certifiering eller utbildningsplan med gemener.
-* I tidigare versioner av Adobe Learning Manager kan du fortfarande komma åt kursen, certifieringen eller utbildningsplanen genom att besöka meddelandet om att en kurs, certifiering eller utbildningsplan har raderats och att meddelandet finns. I den här versionen ser vi till att ett raderat inlägg inte längre är tillgängligt. Om du anger id:t i /posts/{id} API, och ID:t för inlägget är inte längre tillgängligt, visar API:t meddelandet &quot;Hittar inte inlägg för den angivna resursen&quot;.
+* I tidigare versioner av Adobe Learning Manager kan du fortfarande komma åt kursen, certifieringen eller utbildningsplanen genom att besöka meddelandet om att en kurs, certifiering eller utbildningsplan har raderats och att meddelandet finns. I den här versionen ser vi till att ett raderat inlägg inte längre är tillgängligt. Om du anger ID:t i API:t /posts/{id} och ID:t för inlägget inte längre är tillgängligt, visar API:t meddelandet &quot;Inlägget hittades inte för den angivna resursen&quot;.
 * I elevens API visas inte fältet Deadline för slutförande i svaret från registrerings-API:t.
 * I Hämta registrerings-API för elever visas registreringsinformationen även efter att du har angett ett felaktigt instans-ID.
 

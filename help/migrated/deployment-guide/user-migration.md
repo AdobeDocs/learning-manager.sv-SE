@@ -22,7 +22,7 @@ Den tekniska konfigurationen för ditt Learning Manager-konto krävs främst fö
 
 En av dina första uppgifter som systemadministratör i Admin Console är att definiera och konfigurera ett identitetssystem som dina slutanvändare ska autentiseras mot. Allt eftersom organisationen köper licenser för Learning Manager måste du driftsätta dessa licenser till slutanvändarna. Och för det behöver du ett sätt att autentisera dessa användare. Utför följande procedur för att konfigurera enkel inloggning för användarna.
 
-1. På startsidan för Learning Manager klickar du på **[!UICONTROL ** Inställningar **>** Inloggningsmetoder **.]**
+1. Klicka på **[!UICONTROL ** Inställningar **>** Inloggningsmetoder **på startsidan för Learning Manager.]**
 
    ![](assets/configure-sso-step1.png)
 
@@ -30,35 +30,35 @@ En av dina första uppgifter som systemadministratör i Admin Console är att de
 
 
 
-1. Från **[!UICONTROL **Inloggning**]**rullgardinsmeny, välj **[!UICONTROL ** Enkel inloggning (SSO)**.]**
+1. I **[!UICONTROL **Logga in**]**listrutan väljer du **[!UICONTROL ** Enkel inloggning **.]**
 
    ![](assets/configure-sso-step3.png)
 
-1. Konfigurera inställningarna för enkel inloggning genom att klicka på **[!UICONTROL **&#x200B;Ändra **.]**
+1. Klicka på **[!UICONTROL **&#x200B;Ändra **om du vill konfigurera inställningarna för enkel inloggning.]**
 
    ![](assets/configure-sso-step4.png)
 
-1. I dialogrutan ****[!UICONTROL IDP-Initiated Authentication URL]**** -fältet, anger du den autentiserings-URL som du fått från tjänsteleverantören.
+1. I fältet ****[!UICONTROL IDP-Initiated Authentication URL]**** anger du den autentiserings-URL som du fått av tjänsteleverantören.
 
 
 
    ![](assets/configure-sso-step5.png)
 
-1. Klicka på **[!UICONTROL **Överför **]**bredvid **[!UICONTROL  **XML-fil för IDP-metadata **]****** och överför XML-filen.
-1. Klicka **[!UICONTROL ** Spara **.]**
+1. Klicka på **[!UICONTROL **Överför **]**bredvid XML-fältet **[!UICONTROL  **IDP-metadata **]******och överför XML-filen.
+1. Klicka på **[!UICONTROL ** Spara **.]**
 1. SSO-autentiseringen har konfigurerats för ditt konto. Du bör kunna logga in på ditt Learning Manager-konto med SSO.
 
-   ***SSO som du konfigurerar i Learning Manager bör ha stöd för SAML 2.0.***
+   ***SSO-konfigurationen i Learning Manager bör ha stöd för SAML 2.0.***
 
 ## Migrering av användardata {#migrationofuserdata}
 
 När ditt företag köper Learning Manager som administratör är migrering ett av de viktigaste stegen du behöver utföra. Det är av största vikt att du flyttar ditt befintliga utbildningsinnehåll och dina användardata till Learning Manager. Följande migreringsarbetsflöde hjälper dig att dra nytta av fördelarna med modernt och intuitivt LMS utan att förlora några av organisationens gamla data.
 
-Med Learning Manager kan du migrera från ditt befintliga LMS via en steg-för-steg-guide, i iterativa sprintar. Du får fullständig insyn i statusen för varje språng för att säkerställa att eleverna upplever noll driftstopp när du migrerar äldre data till Adobe Learning Manager.
+Med Learning Manager kan du migrera från ditt befintliga LMS via en steg-för-steg-guide, i iterativa sprintar. Du får fullständig insyn i statusen för varje sprint för att säkerställa att eleverna upplever noll driftstopp när du migrerar äldre data till Adobe Learning Manager.
 
 Du måste ha administratörsbehörighet för integrering för att kunna utföra migreringsarbetsflödet. Som administratör kan du antingen ta på dig rollen som integrationsadministratör eller tilldela en annan användare den här rollen.
 
-**Vi kan ta Shaleens hjälp här för att skapa en bild.**
+**Vi kan ta Shaleens hjälp här för att skapa en visuell bild.**
 
 1. Förkunskapskrav
 1. Utvärdering av det befintliga innehållet och användardata
@@ -107,7 +107,7 @@ Integreringsadministratören bör först titta på de data som är tillgängliga
 
 
 
-När du har utvärderat dina befintliga data måste du mappa dessa data till CSV-standardspecifikationerna i Learning Manager. Hämta följande exempel ***csv-fications.zip*** fil som innehåller sju Excel-ark som krävs för den här migreringen. Dessa Excel-ark innehåller specifikationer med beskrivningar som hjälper dig att mappa befintliga data till fälten i .csv-filer.
+När du har utvärderat dina befintliga data måste du mappa dessa data till CSV-standardspecifikationerna i Learning Manager. Hämta följande ***csv-fications.zip***-exempelfil som innehåller sju Excel-ark som krävs för den här migreringen. Dessa Excel-ark innehåller specifikationer med beskrivningar som hjälper dig att mappa befintliga data till fälten i .csv-filer.
 
 <!--
 <Download link to the zip file>
@@ -240,7 +240,7 @@ Kontrollera att varje .csv-fil innehåller data för varje fält i det föreskri
  </tbody> 
 </table>
 
-***Learning Manager stöder endast datum- och tidsvärden i UTF 8- och 32-bitarsformat. Det kan uppstå fel under migreringen om du anger ett datum i CSV-filer som är utanför det giltiga intervallet, till exempel 2038-07-17T08:53:21.000Z eller 1980-04-17T08:13:25,322 Z***
+***Learning Manager stöder endast datum- och tidsvärden i UTF 8- och 32-bitarsformat. Det kan uppstå fel under migreringen om du anger ett datum i CSV-filer som inte ligger inom det tillåtna intervallet, t.ex. 2038-07-17T08:53:21.000Z eller 1980-04-17T08:13:25.322Z.***
 
 ### Beroenden vid import av data till csv-filer {#dependencieswhileimportingdatatocsvfiles}
 
@@ -272,7 +272,7 @@ Innan du planerar och startar den faktiska migreringen av allt innehåll måste 
 
 ### Skapa ett FTP-konto {#setupanftpaccount}
 
-Klicka på på startsidan för Integreringsadministratör **[!UICONTROL ** Begäran om CSV FTP-mapp **.]** Ange e-post-ID i popup-dialogrutan som visas. Gå igenom onlineguiden för att skapa FTP-kontot för Exavault. När du har skapat ditt konto kan du visa migreringsprojektet och sprintprojektmapparna i Exavault FTP.
+Klicka på **[!UICONTROL ** Begäran om CSV FTP-mapp **på startsidan för Integreringsadministratör.]** Ange ditt e-post-ID i popup-dialogrutan som visas. Gå igenom onlineguiden för att skapa FTP-kontot för Exavault. När du har skapat ditt konto kan du visa migreringsprojektet och sprintprojektmapparna i Exavault FTP.
 
 Se ett exempel på en ögonblicksbild av projektfilerna och mappen för ExaVault på följande sätt:
 
@@ -290,9 +290,9 @@ I avsnittet Inställningar klickar du på Begär för en Box-mapp.
 
 ![](assets/set-up-a-box-account.png)
 
-I dialogrutan ****[!UICONTROL Enter Email]**** anger du det e-post-ID där du vill få inloggningsinstruktionerna för att ansluta till Box.
+I fältet ****[!UICONTROL Enter Email]**** anger du e-post-ID:t där du vill få inloggningsinstruktionerna för att ansluta till Box.
 
-Klicka **[!UICONTROL ** Connect **.]**
+Klicka på **[!UICONTROL ** Anslut **.]**
 
 Du skulle få ett e-postmeddelande från Box med en länk till den delade mappen. Om du inte har ett Box-konto klickar du på Registrera dig och skapar ett konto. Inloggningsinstruktioner skickas sedan till e-post-ID för integreringsadministratören.
 
@@ -309,21 +309,21 @@ Så snart som migreringsprojektet inleds förflyttas projektet till ett tillstå
 
 Överföra utbildningsinnehåll till innehållsmappar:
 
-Klicka på på startsidan för Integreringsadministratör **[!UICONTROL Migration.]**
+Klicka på **[!UICONTROL Migration.]** på startsidan för Integreringsadministratör
 
 På startsidan för migrering visar systemet de migreringsprojekt som redan har skapats i din organisation.
 
-Klicka på **[!UICONTROL **Nytt**]**skapa ett migreringsprojekt i det övre högra hörnet på sidan.
+Klicka på **[!UICONTROL **Nytt**]**i det övre högra hörnet på sidan om du vill skapa ett migreringsprojekt.
 
 ***Om du inte redan har skapat en FTP-mapp kommer du att uppmanas att skapa ett FTP-mappkonto för Exavault. Det här är ett obligatoriskt steg innan du börjar skapa ett migreringsprojekt. ***
 
-I dialogrutan ****[!UICONTROL Create a New Migration Project]**** -sidan, anger du namnet på projektet.
+Ange namnet på projektet på sidan ****[!UICONTROL Create a New Migration Project]****.
 
 ![](assets/migrating-the-content-1.png)
 
 Ange en tagg för projektet, kurskatalogen och ange en beskrivning för migreringsprojektet. Dina migreringsdataobjekt identifieras med hjälp av migreringsprojekttaggen. Om du inte har någon specifik kurskatalog väljer du standardkatalogen från listrutan kommer alla kurser som du migrerar med ett migreringsprojekt att inkluderas i katalogen som du väljer i det här skedet. Om du inte väljer någon katalog kommer alla migrerade kurser att bli en del av standardkatalogen.
 
-Klicka **[!UICONTROL Create.]**
+Klicka på **[!UICONTROL Create.]**
 
 Skapa en utskrift för ditt migreringsprojekt på sidan Konfiguration av Sprint. En Sprint i migreringsprocessen för Learning Manager definierar en uppsättning migreringsobjekt som du har valt att migrera från det befintliga LMS:et.
 
@@ -331,17 +331,17 @@ Skapa en utskrift för ditt migreringsprojekt på sidan Konfiguration av Sprint.
 
 Ange ett namn för sprinten och beskriv sprinten.
 
-Välj ****[!UICONTROL Users have been added or modified since the last run check box]****, för att synkronisera listan över användare med Learning Manager-programmet. Om du migrerar innehåll och data till Learning Manager-appen kanske detta inte är nödvändigt. Men om det finns en tidsfördröjning mellan din tidigare sprintmigrering till den senaste spurtmigreringen rekommenderar vi att du väljer att synka användarlistan. Det här steget gör att Learning Manager-databasen kan synkroniseras med dina LMS-användare.
+Välj ****[!UICONTROL Users have been added or modified since the last run check box]**** för att synkronisera listan över användare med Learning Manager-programmet. Om du migrerar innehåll och data till Learning Manager-appen kanske detta inte är nödvändigt. Men om det finns en tidsfördröjning mellan din tidigare sprintmigrering till den senaste spurtmigreringen rekommenderar vi att du väljer att synka användarlistan. Det här steget gör att Learning Manager-databasen kan synkroniseras med dina LMS-användare.
 
 ***Synkroniseringssteget rekommenderas när enrollment.csv och user_course_grade.csv migreras. Det här steget gör att Learning Manager-databasen kan synkroniseras med din migreringsdatabas och säkerställer att alla användare vars poster ska migreras i Sprint är tillgängliga i migreringsdatabasen.***
 
-Klicka **[!UICONTROL ** Nästa **.]**
+Klicka på **[!UICONTROL ** Nästa **.]**
 
-Klicka på **[!UICONTROL **Start**]**för att starta Sprint-migreringen med dina överförda data och ditt innehåll. Klicka ****[!UICONTROL Refresh]**** innan du startar Sprint Run för att synka FTP- och innehållsmapparna med Learning Manager.
+Klicka på **[!UICONTROL **Starta**]**för att starta Sprintmigreringen med dina överförda data och ditt innehåll. Klicka på ****[!UICONTROL Refresh]**** innan du startar Sprint Run för att synkronisera FTP- och innehållsmapparna med Learning Manager.
 
 ![](assets/migrating-the-content-3.png)
 
-Du kan klicka på ****[!UICONTROL Stop]****när som helst under utskriftsmigreringen för att avbryta spurtmigreringen.
+Du kan klicka på ****[!UICONTROL Stop]****när som helst under utskriftsmigreringen för att avbryta utskriftsmigreringen.
 
 Systemet visar migreringsstatus mot varje utskriftsdataobjekt och innehåll. Kontrollera antalet lyckade och misslyckade objekt som en del av migreringspurten.
 
@@ -351,15 +351,15 @@ En ögonblicksbild av migreringsförloppet visas nedan som referens. Som visas i
 
 ![](assets/migrating-the-content-4.png)
 
-Klicka på ** för att visa listan över alla sprintar i ett migreringsprojekt [!UICONTROL **Sprint**]**i det vänstra navigeringsfönstret. Du kan se en lista över alla sprintar, antalet sprintar du utförde för varje sprint, startdatum, varaktighet och slutförandestatus enligt exemplet nedan.
+Klicka på **[!UICONTROL **Sprint**]**i det vänstra navigeringsfönstret för att visa listan över alla sprintar i ett migreringsprojekt. Du kan se en lista över alla sprintar, antalet sprintar du utförde för varje sprint, startdatum, varaktighet och slutförandestatus enligt exemplet nedan.
 
 ![](assets/migrating-the-content-5.png)
 
-Klicka på ** för att visa listan över alla sprintar i ett migreringsprojekt [!UICONTROL **Sprint**]**i det vänstra navigeringsfönstret. Du kan se en lista över alla sprintar, antalet sprintar du utförde för varje sprint, startdatum, varaktighet och slutförandestatus enligt exemplet nedan.
+Klicka på **[!UICONTROL **Sprint**]**i det vänstra navigeringsfönstret för att visa listan över alla sprintar i ett migreringsprojekt. Du kan se en lista över alla sprintar, antalet sprintar du utförde för varje sprint, startdatum, varaktighet och slutförandestatus enligt exemplet nedan.
 
-Klicka på ** för att visa listan över alla sprintar i ett migreringsprojekt [!UICONTROL **Sprint**]**i det vänstra navigeringsfönstret. Du kan se en lista över alla sprintar, antalet sprintar du utförde för varje sprint, startdatum, varaktighet och slutförandestatus enligt exemplet nedan.
+Klicka på **[!UICONTROL **Sprint**]**i det vänstra navigeringsfönstret för att visa listan över alla sprintar i ett migreringsprojekt. Du kan se en lista över alla sprintar, antalet sprintar du utförde för varje sprint, startdatum, varaktighet och slutförandestatus enligt exemplet nedan.
 
-***Innan du markerar migreringsprojektet som slutfört ser du till att alla sprintar i projektet är slutförda. När du har markerat migreringsprojektet som slutfört kan du inte gå tillbaka och skapa sprintar i det projektet. Du kan inte göra några ändringar i det projektet. Du kan bara skapa ett annat migreringsprojekt och lägga till sprints.***
+***Innan du markerar migreringsprojektet som slutfört ser du till att alla sprintar i projektet är slutförda. När du har markerat migreringsprojektet som slutfört kan du inte gå tillbaka och skapa sprintar i det projektet. Du kan inte göra några ändringar i det projektet. Du kan bara skapa ett annat migreringsprojekt och lägga till sprints till det.***
 
 När du har migrerat utbildningsdata och -innehåll från organisationens äldre LMS kontrollerar du om data och innehåll importeras korrekt. Du kan verifiera genom att logga in som administratör och verifiera att importerade moduler och kursdata och innehåll är tillgängliga
 

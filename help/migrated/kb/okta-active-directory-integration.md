@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Okta Active Directory-integrering med Adobe Learning Manager
 description: Okta Active Directory-integrering med Adobe Learning Manager
 contentowner: nluke
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: 6d7711a9-7a7f-49b7-8948-9a42407463b3
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 0%
 
 ---
-
-
 
 # Okta Active Directory-integrering med Adobe Learning Manager {#okta-active-directory-integration-with-adobe-learning-manager}
 
@@ -20,7 +19,7 @@ I det här dokumentet får du lära dig hur du integrerar Adobe Learning Manager
 * Gör det möjligt för användare att automatiskt logga in på Adobe Learning Manager med sina Okta AD-konton.
 * Hantera dina konton på en central plats - Okta-portalen.
 
-Adobe Learning Manager stöder identitetsleverantörs- (IdP) och tjänsteleverantörsinitierad enkel inloggning.
+Adobe Learning Manager stöder identitetsleverantörs- och tjänsteleverantörsinitierad enkel inloggning.
 
 ## Skapa ett program i OKTA
 
@@ -55,11 +54,11 @@ Adobe Learning Manager stöder identitetsleverantörs- (IdP) och tjänsteleveran
 
    **För IdP-konfiguration:**
 
-   1. I fältet URL för enkel inloggning skriver du URL:en: [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
-   1. Skriv URL:en i fältet Audience URL: [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
-   1. I dialogrutan **Namn-ID-format** rullgardinsmenyn väljer du **E-postadress**.
-   1. I dialogrutan **Användarnamn för program** väljer du Okta-användarnamn.
-   1. Om du vill skicka ytterligare attribut kan du lägga till attributen under **Attributsatser** (Valfritt)
+   1. I fältet URL för enkel inloggning anger du URL:en: [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
+   1. I fältet Audience URL anger du URL:en: [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
+   1. I rullgardinsmenyn **Namn-ID-format** väljer du **E-postadress**.
+   1. Välj Okta-användarnamn i listrutan **Programanvändarnamn**.
+   1. Om du vill skicka ytterligare attribut kan du lägga till attributen under **Attributsatser** (valfritt)
 
    ![](assets/cp-saml-integration-step1.png)
 
@@ -67,17 +66,17 @@ Adobe Learning Manager stöder identitetsleverantörs- (IdP) och tjänsteleveran
 
    **För SP-konfiguration:**
 
-   1. I fältet URL för enkel inloggning skriver du URL:en: [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
-   1. Skriv URL:en i fältet Audience URL: [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
+   1. I fältet URL för enkel inloggning anger du URL:en: [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
+   1. I fältet Audience URL anger du URL:en: [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
    1. I listrutan Namn-ID-format väljer du **E-postadress**.
    1. I listrutan Program, användarnamn, väljer du Okta-användarnamn.
    1. Klicka på **Visa avancerade inställningar**.
-   1. Under **Signaturalgoritm**, välj RSA-SHA256
-   1. I dialogrutan **Assertion Algorithm**, välj SHA256
-   1. I dialogrutan **Assertion Encryption** listruta, markera **Krypterad**.
+   1. Under **Signaturalgoritm** väljer du RSA-SHA256
+   1. Välj SHA256 i **Kontrollalgoritm**
+   1. Välj **Krypterad** i listrutan **Försäkringskryptering**.
 
-   1. I dialogrutan **Krypteringscertifikat** , överför certifikatfilen som delas av Adobe.
-   1. Om du vill skicka ytterligare attribut kan du lägga till attributen under **Attributsatser** (Valfritt).
+   1. Överför certifikatfilen som delas av Adobe i alternativet **Krypteringscertifikat**.
+   1. Om du vill skicka ytterligare attribut kan du lägga till attributen under **Attributsatser** (valfritt).
 
    ![](assets/cp-saml-integration-step2.png)
 
@@ -85,7 +84,7 @@ Adobe Learning Manager stöder identitetsleverantörs- (IdP) och tjänsteleveran
 
    När du är klar klickar du på **[!UICONTROL Next]**.
 
-1. Inställningen **Feedback**  -fliken är valfri. När du har valt alternativen och gett din feedback, klickar du på **[!UICONTROL Finish]**.
+1. Fliken **Feedback** är valfri. Klicka på **[!UICONTROL Finish]** när du har valt alternativ och gett din feedback.
 
    ![](assets/cp-saml-integration-step3.png)
 
@@ -96,24 +95,24 @@ Adobe Learning Manager stöder identitetsleverantörs- (IdP) och tjänsteleveran
 Gör som följer för att visa den URL och metadatafil som initierats av IdP/SP:
 
 1. Öppna det program du har skapat.
-1. Enligt **Enkel inloggning (SSO)** flik klickar du på **[!UICONTROL View Instructions]**.
+1. Klicka på **[!UICONTROL View Instructions]** på fliken **Enkel inloggning**.
 
    ![](assets/cp-prime-sso.png)
 
-   *Välj fliken SSO*
+   *Välj SSO-fliken*
 
    **För IdP:**
 
    1. Identitetsleverantörens URL för enkel inloggning är den IdP-initierade URL:en.
-   1. Kopiera all text som finns under **Valfritt** område.
+   1. Kopiera all text som finns under fältet **Valfritt**.
    1. Öppna ett nytt anteckningsblock och klistra in den kopierade texten.
-   1. Klicka **[!UICONTROL File]** > **[!UICONTROL Save as]** > &quot;filnamn.xml&quot;. Detta blir metadatafilen.
+   1. Klicka på **[!UICONTROL File]** > **[!UICONTROL Save as]** > &quot;filnamn.xml&quot;. Detta blir metadatafilen.
 
    **För SP:**
 
    1. Identitetsleverantörens URL för enkel inloggning är den IdP-initierade URL:en.
    1. Identitetsleverantörens utfärdare är enhets-id:t.
-   1. Kopiera all text som finns under **Valfritt** område.
+   1. Kopiera all text som finns under fältet **Valfritt**.
    1. Öppna ett nytt anteckningsblock och klistra in den kopierade texten.
    1. Klicka på **[!UICONTROL File]** > **[!UICONTROL Save as]** > **[!UICONTROL filename.xml]**. Detta blir metadatafilen.
 
@@ -125,7 +124,7 @@ Gör som följer för att visa den URL och metadatafil som initierats av IdP/SP:
 
 ## Konfigurera SSO för Adobe Learning Manager
 
-Utför stegen som nämns i artikeln nedan för att konfigurera enkel inloggning (SSO) för Adobe Learning Manager.
+Utför stegen som nämns i artikeln nedan om du vill konfigurera enkel inloggning (SSO) för Adobe Learning Manager.
 
 <!--
 

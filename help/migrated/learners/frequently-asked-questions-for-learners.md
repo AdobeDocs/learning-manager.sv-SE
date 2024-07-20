@@ -32,7 +32,7 @@ Du kan dock välja att gå igenom någon av kurserna som listas under KATALOG ge
 
 Ja, du kan komma åt offlineinnehållet via IPad, Android-flikar och Smartphones.
 
-Mer information om offlineåtkomst finns i  [Användare av iPad- och Android-surfplattor](feature-summary/ipad-android-tablet-users.md) -funktion.
+Mer information om offlineåtkomst finns i funktionen [iPad- och Android-surfplattor](feature-summary/ipad-android-tablet-users.md).
 
 +++
 
@@ -48,7 +48,7 @@ Klicka på sökfältet. I det här fältet kan du söka allteftersom du skriver.
 
 Ja, du kan jämföra dina utbildningspoäng med dina kollegor. Håll muspekaren över profilcirkeln. Här kan du se dina egna punkter. Klicka på Gå till resultattavlan om du vill se dialogrutan Resultattavla. I den här dialogrutan kan du visa listan över kollegor med liknande rang som du.
 
-Mer information finns i  [Resultattavla](feature-summary/gamification.md)-funktion.
+Mer information finns i funktionen [Resultattavla](feature-summary/gamification.md).
 
 +++
 
@@ -68,7 +68,7 @@ Klicka på nedåtpilen i det nedre högra hörnet av popup-fönstret för att se
 
 +++Vad är skillnaden mellan utbildning och katalog?
 
-På fliken Utbildning kan du visa alla  [kurser](feature-summary/courses.md),  [utbildningsprogram](feature-summary/learning-programs.md) och  [certifieringar](feature-summary/certifications.md) som är registrerade av dig eller tilldelade dig. Du kan också gå till fliken Utbildning genom att klicka på länken Gå till utbildning.
+På fliken Utbildning kan du visa alla [kurser](feature-summary/courses.md), [utbildningsprogram](feature-summary/learning-programs.md) och [certifieringar](feature-summary/certifications.md) som du har registrerat eller tilldelat dig. Du kan också gå till fliken Utbildning genom att klicka på länken Gå till utbildning.
 
 På fliken Katalog kan du se alla kurser, utbildningsprogram och certifieringar som är tillgängliga för din roll i företagskontot. Du kan också flytta till fliken Katalog genom att klicka på länken Gå till katalog.
 
@@ -94,7 +94,7 @@ När eleverna har slutfört vissa kurser kan de veta hur de ställer sig till va
 
 Klicka på något av färdighetsnamnen i färdighetsmappningsområdet uppe till höger på din landningssida för att visa kunskaperna. Kompetenser visas tillsammans med deras nivåer bredvid dem.
 
-Mer information finns i  [Kompetenser och nivåer](feature-summary/skills-levels.md) -funktion.
+Mer information finns i funktionen [Kompetenser och nivåer](feature-summary/skills-levels.md).
 
 +++
 
@@ -102,7 +102,7 @@ Mer information finns i  [Kompetenser och nivåer](feature-summary/skills-levels
 
 Ja, du kan komma åt Learning Manager på smartphones, iPad eller andra Android-surfplattor.
 
-Mer information om den här funktionen finns  [Användare av iPad- och Android-appar](feature-summary/ipad-android-tablet-users.md) -funktion.
+Mer information om den här funktionen finns i funktionen [iPad- och Android-appanvändare](feature-summary/ipad-android-tablet-users.md).
 
 +++
 
@@ -110,19 +110,19 @@ Mer information om den här funktionen finns  [Användare av iPad- och Android-a
 
 Ja, Learning Manager kan nås med hjälp av ett iPad. Du kan hämta appen från App Store eller från Google Play.
 
-Det är bara elevrollfunktioner som går att komma åt med en iPad- eller Android-surfplatta. Du kan också delta i kurser offline och synkronisera dem med appen när du är tillbaka online. Mer information finns i  [Användare av iPad- och Android-appar](feature-summary/ipad-android-tablet-users.md) ansiktsdrag
+Det är bara elevrollfunktioner som går att komma åt med en iPad- eller Android-surfplatta. Du kan också delta i kurser offline och synkronisera dem med appen när du är tillbaka online. Mer information finns i funktionen [iPad- och Android-appanvändare](feature-summary/ipad-android-tablet-users.md)
 
 +++
 
 +++Det går inte att logga in på Learning Manager. Vad ska jag göra?
 
-Om du har ett Adobe ID kan du logga in på Learning Manager. Följ anvisningarna på  [användarinloggning](feature-summary/user-login.md) för mer information om hur du loggar in på programmet. Om problemet kvarstår kontaktar du vårt supportteam.
+Om du har ett Adobe ID kan du logga in på Learning Manager. Följ instruktionerna vid [användarinloggning](feature-summary/user-login.md) för mer information om hur du loggar in på programmet. Om problemet kvarstår kontaktar du vårt supportteam.
 
 +++
 
 +++Hur uppnår man en kompetensnivå?
 
-Du får tillgodoräknanden när du förvärvar en ny kompetensnivå. Poäng är kopplade till kompetensnivåer. Mer information om färdigheter och nivåer finns i  [färdigheter och nivåer](feature-summary/skills-levels.md) -funktion.
+Du får tillgodoräknanden när du förvärvar en ny kompetensnivå. Poäng är kopplade till kompetensnivåer. Mer information om färdigheter och nivåer finns i funktionen [färdigheter och nivåer](feature-summary/skills-levels.md).
 
 +++
 
@@ -140,21 +140,21 @@ Du kan uttrycka ditt intresse för att delta i klassrumskurser som inte har någ
 
 +++Vad är skillnaden mellan poäng och spelifieringspoäng?
 
-Du får tillgodoräknanden när du förvärvar en ny kompetensnivå. Poäng är kopplade till kompetensnivåer. Mer information om tillskrivningar, färdigheter och nivåer finns i  [färdigheter och nivåer](feature-summary/skills-levels.md) -funktion.
+Du får tillgodoräknanden när du förvärvar en ny kompetensnivå. Poäng är kopplade till kompetensnivåer. Mer information om tillskrivningar, färdigheter och nivåer finns i funktionen [färdigheter och nivåer](feature-summary/skills-levels.md).
 
-Du får spelifieringspoäng när du slutför en uppgift. För närvarande finns det sex spelifieringsuppgifter i Learning Manager. När du har slutfört varje uppgift får du ett visst antal poäng som är kopplade till den uppgiften. Mer information finns i  [spelifiering](feature-summary/gamification.md) -funktion.
+Du får spelifieringspoäng när du slutför en uppgift. För närvarande finns det sex spelifieringsuppgifter i Learning Manager. När du har slutfört varje uppgift får du ett visst antal poäng som är kopplade till den uppgiften. Mer information finns i funktionen [spelifiering](feature-summary/gamification.md).
 
 +++
 
 +++Vad är märken? Hur tjänar jag utmärkelsetecken?
 
-I Adobe Learning Manager introduceras ett av de senaste e-utbildningskoncepten som heter Badges. Emblem hjälper elever att bättre definiera sig själva och visa upp sina detaljerade kunskaper förutom att de ger trovärdighet och god synlighet.
+Adobe Learning Manager introducerar ett av de senaste e-lärandekoncepten som heter Badges. Emblem hjälper elever att bättre definiera sig själva och visa upp sina detaljerade kunskaper förutom att de ger trovärdighet och god synlighet.
 
 En lista över utmärkelsetecken som har förvärvats av eleven visas högst upp på sidan.
 
 Elever tilldelas utmärkelsetecken utifrån ett specifikt kriterium som definieras av din organisation, vilket i allmänhet innebär att en kurs eller ett utbildningsobjekt har slutförts med godkänt resultat.
 
-Mer information finns i  [skyltar](feature-summary/badges.md) -funktion.
+Mer information finns i funktionen [märken](feature-summary/badges.md).
 
 +++
 
@@ -164,7 +164,7 @@ Utbildningsprogram är en uppsättning unikt utformade kurser som uppfyller spec
 
 Börja utbildningen genom att klicka på det program som tilldelats dig. Du kan visa detaljerad information om det specifika programmet.
 
-A **Starta program** -knappen visas längst upp till höger på sidan med utbildningsprogrammet. Klicka **[!UICONTROL Start Program]** för att börja gå kursen.
+Knappen **Starta program** visas längst upp till höger på sidan för utbildningsprogrammet. Klicka på **[!UICONTROL Start Program]** för att börja gå kursen.
 
 +++
 
@@ -181,7 +181,7 @@ Baserat på de poäng du fick när du slutförde kurserna belönas du med nivåe
 
 Du kan visa dina aktuella nivåpunkter i din profil och nå högre punkter om det behövs.
 
-Referens  [Spelifieringsfunktion](feature-summary/gamification.md) för mer information.
+Mer information finns i [Spelifieringsfunktion](feature-summary/gamification.md).
 
 +++
 
@@ -189,7 +189,7 @@ Referens  [Spelifieringsfunktion](feature-summary/gamification.md) för mer info
 
 Alla kurser i Learning Manager spelas upp i webbläsare. Du kan visa kurserna i helskärmsläge med Learning Managers Fluidic-spelare.
 
-Referens  [Fluidic-spelarfunktion](feature-summary/fluidic-player.md) för mer information om Player.
+Mer information om spelaren finns i [Fluidic-spelarfunktionen](feature-summary/fluidic-player.md).
 
 [Kan jag exportera mina personliga anteckningar?](frequently-asked-questions-for-learners.md)
 
@@ -225,10 +225,10 @@ Du kan göra anteckningar medan du läser ditt kursinnehåll genom att följa de
 Du kan ladda ned eller e-posta dina kursanteckningar genom att följa stegen nedan:
 
 1. Klicka på den kursruta som du vill visa anteckningarna för.
-1. Klicka på **Anmärkningar** flik intill **Moduler** -fliken.
+1. Klicka på fliken **Anteckningar** bredvid fliken **Moduler**.
 
-1. Klicka **[!UICONTROL Download Notes]** för att hämta som pdf.
-1. Klicka **[!UICONTROL Email Notes]** för att få anteckningarna som ett e-postmeddelande till ditt e-postkonto.
+1. Klicka på **[!UICONTROL Download Notes]** för att ladda ned som pdf.
+1. Klicka på **[!UICONTROL Email Notes]** för att få anteckningarna som ett e-postmeddelande till ditt e-postkonto.
 
 +++
 
@@ -259,7 +259,7 @@ Du får ett meddelande om att kursen har slutförts tillsammans med länken för
 
 Som en del av belöningen och erkännandet av elevernas prestationer introducerar Learning Manager onlinetecken för elever. Utmärkelsetecken tilldelas utifrån ett visst kriterium och visas sedan på en elevs profil högst upp på elevens startsida.
 
-Referens  [Certifieringsfunktion](feature-summary/certifications.md) för mer information om certifieringar för elever.
+Se [Certifieringsfunktionen](feature-summary/certifications.md) för mer information om certifieringar för elever.
 
 +++
 
@@ -308,8 +308,8 @@ Baserat på ditt val kan du visa den filtrerade listan över kurser och välja d
 
 +++Hur kommer jag åt mina kurser i Learning Manager?
 
-1. Logga in på Learning Manager som elev. Om du har glömt lösenordet klickar du på **[!UICONTROL Forgot password]** länken på inloggningssidan för att få tillbaka den till ditt e-post-ID.
-1. När du har loggat in ser du fliken KURSER högst upp. Klicka **[!UICONTROL COURSES]** för att visa listan över kurser som har tilldelats dig.
+1. Logga in på Learning Manager som elev. Om du har glömt lösenordet klickar du på länken **[!UICONTROL Forgot password]** på inloggningssidan för att få tillbaka det till din e-postadress.
+1. När du har loggat in ser du fliken KURSER högst upp. Klicka på fliken **[!UICONTROL COURSES]** för att visa listan över kurser som har tilldelats dig.
 
 +++
 

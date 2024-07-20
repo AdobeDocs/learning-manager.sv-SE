@@ -3,14 +3,13 @@ description: Installera Microsoft Teams-anslutning i Adobe Learning Manager
 jcr-language: en_us
 title: Installera Microsoft Teams-anslutning i Adobe Learning Manager
 contentowner: saghosh
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+exl-id: 68092187-ac69-4727-a3dc-f3047a1e164d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 0%
 
 ---
-
-
 
 # Installera Microsoft Teams-anslutning i Adobe Learning Manager
 
@@ -30,7 +29,7 @@ Med den här anslutningen kan du integrera ditt Adobe Learning Manager-konto med
 
 Med den här anslutningen kan du konfigurera Microsoft Teams Meeting Organizer från Learning Manager när du skapar ett möte. Mötesorganisatören kan hantera lobbyn för att begränsa eller tillåta inträde i ett möte samt kontrollera andra mötesalternativ som tillhandahålls av Microsoft Teams.
 
-**Använd automatisk synkronisering av slutförande av användare**
+**Använd automatisk synkronisering av användarslutförande**
 
 Med den automatiska synkroniseringsprocessen för slutförande av användare kan en Learning Manager-administratör automatiskt hämta slutförandeposterna och URL-inspelningen för Microsoft Teams-mötet.
 
@@ -38,21 +37,21 @@ Med den automatiska synkroniseringsprocessen för slutförande av användare kan
 
 Om du organiserar ett möte med flera deltagare kan du tilldela roller till varje deltagare så att en deltagare kan veta vad han/hon kan göra i mötet.
 
-Det finns två roller att välja mellan: **presentatör** och **närvarande person**.
+Det finns två roller att välja mellan: **presentatör** och **deltagare**.
 
-Mer information finns i  [Roller i ett teammöte - Microsoft](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
+Mer information finns i [Roller i ett teammöte - Microsoft](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
 
 ## Konfigurera Microsoft Teams-anslutning
 
 >[!NOTE]
 >
->Objekt är markerade &lt;developer optional=&quot;&quot;> nedan är valfria och främst för att konfigurera testversions-/utvecklarklienter med Microsoft om användaren inte har en produktionsanvändare. Dessa är valfria eftersom de för det mesta redan skulle ha utförts av teamets administratör.
+>Objekt som är märkta &lt;Developer/Optional> nedan är valfria och mest för att konfigurera testversions-/utvecklarklienter med Microsoft om användaren inte har en produktionsanvändare. Dessa är valfria eftersom de för det mesta redan skulle ha utförts av teamets administratör.
 
-## Skapa ett E5 Microsoft-utvecklarkonto &lt;developer optional=&quot;&quot;>
+## Skapa ett utvecklarkonto för E5 Microsoft &lt;Developer/Optional>
 
 Du kan använda Microsoft Teams-anslutning om du har Office 365 E3 eller Office 365 E5. Det rekommenderade alternativet är Office 365 E5.
 
-* Gå till [Sidan för Microsoft-planer](https://www.microsoft.com/en-in/microsoft-365/enterprise/compare-office-365-plans?&amp;ef_id=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;OCID=AID2100137_SEM_CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;lnkd=Google_O365SMB_Brand&amp;gclid=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE) . På webbsidan kan du antingen köpa E3- eller E5-konto eller klicka på Prova gratis.
+* Gå till sidan [Microsoft-planer](https://www.microsoft.com/en-in/microsoft-365/enterprise/compare-office-365-plans?&amp;ef_id=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;OCID=AID2100137_SEM_CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;lnkd=Google_O365SMB_Brand&amp;gclid=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE). På webbsidan kan du antingen köpa E3- eller E5-konto eller klicka på Prova gratis.
 
 * Ange den information som krävs och skapa ett konto.
 
@@ -62,32 +61,32 @@ Du kan använda Microsoft Teams-anslutning om du har Office 365 E3 eller Office 
 
 ## Skapa program för Microsoft Teams-anslutning
 
-1. Gå till  [Microsoft Azure®-portal](https://portal.azure.com/).
+1. Gå till [Microsoft Azure®-portalen](https://portal.azure.com/).
 1. Logga in med Microsoft E5-kontot som du skapade i föregående avsnitt.
 1. Sök efter **Azure Active Directory**.
 1. Klicka på **[!UICONTROL App Registrations]**.
-1. Klicka **[!UICONTROL New Registration]**, ange följande uppgifter och registrera ansökan:
+1. Klicka på **[!UICONTROL New Registration]**, ange följande information och registrera programmet:
 
-   1. **Namn** - Valfritt namn.
+   1. **Namn** - valfritt namn.
    1. **Kontotyper som stöds** - Konton i valfri organisationskatalog (valfri Azure Active Directory - multitenant).
-   1. **Omdirigerings-URI (valfritt)** - Valfritt fält som anger svars-URL.
+   1. **Omdirigerings-URI (valfritt)** - valfritt fält som anger svars-URL:en.
 
-1. I dialogrutan **Grundläggande** -kolumnen, notera följande ID, som kommer att användas mer under integrationen:
+1. Lägg märke till följande ID i kolumnen **Essentials**, som kommer att användas mer under integreringen:
 
    1. **Program-ID (klient)**
    1. **Katalog-ID (klient)**
 
 1. Sök efter klientautentiseringsuppgifter och klicka på **[!UICONTROL Add a certificate or secret]**.
-1. Klicka **[!UICONTROL New Client secret]** och lägg till följande information:
+1. Klicka på **[!UICONTROL New Client secret]** och lägg till följande information:
 
    1. **Beskrivning** - Ange ett namn.
-   1. **Upphör** - Ställ in på ett värde (rekommenderat värde är 24 månader. Se till att nya klientautentiseringsuppgifter genereras när den föregående har upphört att gälla).
+   1. **Förfaller** - Ställ in på valfritt värde (rekommenderat värde är 24 månader. Se till att nya klientautentiseringsuppgifter genereras när den föregående har upphört att gälla).
 
 Observera klientsekretessen, som kommer att användas ytterligare under integreringen.
 
 ## Skaffa åtkomstbehörighet till Microsoft Teams-kopplingen
 
-1. Gå till  [Microsoft Azure Portal](https://portal.azure.com/).
+1. Gå till [Microsoft Azure-portalen](https://portal.azure.com/).
 1. Logga in med Microsoft E5 som du skapade tidigare.
 1. Sök efter **Azure Active Directory**.
 1. Klicka på **[!UICONTROL App Registrations]**.
@@ -104,16 +103,16 @@ Observera klientsekretessen, som kommer att användas ytterligare under integrer
    1. User.Read.All
 
 1. Klicka på **[!UICONTROL Grant admin access for Adobe]**.
-1. Klicka **[!UICONTROL App roles]** > **[!UICONTROL Create app role]**.
+1. Klicka på **[!UICONTROL App roles]** > **[!UICONTROL Create app role]**.
 1. Ange följande värden:
 
-   1. **Visningsnamn** - Namnet på API/behörighetsnamnet (till exempel Calendars.ReadWrite).
+   1. **Visningsnamn** - Namn på API-/behörighetsnamnet (till exempel Calendars.ReadWrite).
 
-   1. **Tillåtna medlemstyper** - Ange både användare och program (Användare/grupper + program).
+   1. **Tillåtna medlemstyper** - Ange både användare och program (Användare/Grupper + Program).
 
-   1. **Värde** - Namnet på API/behörighetsnamnet (till exempel Calendars.ReadWrite).
+   1. **Värde** - Namn på API-/behörighetsnamnet (till exempel Calendars.ReadWrite).
 
-   1. **Beskrivning** - Namnet på API/behörighetsnamnet (till exempel Calendars.ReadWrite).
+   1. **Beskrivning** - Namn på API-/behörighetsnamnet (till exempel Calendars.ReadWrite).
 
    1. **Vill du aktivera den här programrollen?** - Markera den här kryssrutan.
 
@@ -121,7 +120,7 @@ Observera klientsekretessen, som kommer att användas ytterligare under integrer
 
 ## Konfigurera åtkomstpolicyn med hjälp av PowerShell-skript
 
-Om du vill konfigurera programåtkomstpolicyn för Microsoft Teams-anslutning genom att köra PowerShell-skript följer du proceduren som beskrivs i detta  [dokument](https://docs.microsoft.com/en-us/graph/cloud-communication-online-meeting-application-access-policy).
+Om du vill konfigurera programåtkomstprincipen för Microsoft Teams-anslutningen genom att köra PowerShell-skript följer du proceduren som beskrivs i det här [dokumentet](https://docs.microsoft.com/en-us/graph/cloud-communication-online-meeting-application-access-policy).
 
 Detta gör det möjligt för kontakten att få tillgång till Microsoft Teams onlinemöten.
 
@@ -137,31 +136,31 @@ Detta gör det möjligt för kontakten att få tillgång till Microsoft Teams on
 
 1. Ange följande värden:
 
-   1. **Anslutningsnamn** - Ange det namn som författaren ska se när sessionen skapas.
+   1. **Anslutningsnamn** - Ange namnet som författaren ska se när sessionen skapas.
 
-   1. **Microsoft Teams-klientorganisations-id** - Ange värdet som bestämts tidigare.
+   1. **Microsoft Teams-klient-ID** - Ange det tidigare fastställda värdet.
 
-   1. **Microsoft Teams-klient-ID** - Ange värdet som bestämts tidigare.
+   1. **Microsoft Teams-klient-ID** - Ange det tidigare fastställda värdet.
 
-   1. **Microsoft Teams-klientlösenord** - Ange värdet som bestämts tidigare.
+   1. **Microsoft Teams-klienthemlighet** - Ange det tidigare fastställda värdet.
 
-   1. **E-postadress till Microsoft Teams Admin-användare** - Ange standardorganisatörens e-postadress. Denna användare (vanligtvis en tjänstanvändare) skapar mötet om ingen uttrycklig organisatör väljs från Learning Manager-författarappen.
+   1. **Microsoft Teams Admin-användarmeddelande** - Ange standardepostadress för organisatören. Denna användare (vanligtvis en tjänstanvändare) skapar mötet om ingen uttrycklig organisatör väljs från Learning Manager-författarappen.
 
-## Allokera licenser till användare &lt;developer optional=&quot;&quot;>
+## Tilldela användare licenser &lt;Developer/Optional>
 
 1. Besök [https://admin.microsoft.com/#/homepage](https://admin.microsoft.com/#/homepage).
-1. Klicka **[!UICONTROL Users]** > **[!UICONTROL Active Users]**.
-1. Klicka **[!UICONTROL More actions for Users]** för de användare som du vill ge åtkomst till Microsoft Teams.
+1. Klicka på **[!UICONTROL Users]** > **[!UICONTROL Active Users]**.
+1. Klicka på **[!UICONTROL More actions for Users]** för de användare som du vill ge åtkomst till Microsoft Teams.
 1. Klicka på **[!UICONTROL Manage Product Licenses]**.
 1. Aktivera licens för Office 365 E5 utan ljudkonferenser.
 
 ## Spela in en session
 
-Det API som används för att spela in en session är ett skyddat API. För att få åtkomst till API:et måste du begära åtkomst från Microsoft. Mer information finns i  [dokument](https://docs.microsoft.com/en-us/graph/teams-protected-apis).
+Det API som används för att spela in en session är ett skyddat API. För att få åtkomst till API:et måste du begära åtkomst från Microsoft. Mer information finns i det här [dokumentet](https://docs.microsoft.com/en-us/graph/teams-protected-apis).
 
 I dokumentet
 
-*&quot;Om du vill begära åtkomst till dessa skyddade API:er utför du följande  [formulär för begäran](https://aka.ms/teamsgraph/requestaccess). Vi granskar åtkomstförfrågningar varje onsdag och driftsätter godkännanden varje fredag, förutom under större helgveckor i USA. Inlämningar under dessa veckor kommer att behandlas nästa vecka som inte är en helgvecka. Kontrollera om din begäran har godkänts genom att testa åtkomsten till programmet nästa aktuella måndag.&quot;*
+*&quot;Om du vill begära åtkomst till dessa skyddade API:er fyller du i följande [formulär för begäran](https://aka.ms/teamsgraph/requestaccess). Vi granskar åtkomstförfrågningar varje onsdag och driftsätter godkännanden varje fredag, förutom under större helgveckor i USA. Inlämningar under dessa veckor kommer att behandlas nästa vecka som inte är en helgvecka. Kontrollera om din begäran har godkänts genom att testa programåtkomsten nästa aktuella måndag.&quot;*
 
 För elever visas inspelnings-URL:en på sidan VC-kursöversikt.
 
@@ -171,7 +170,7 @@ Efter 30 minuters slutförande av en kurs markeras elevens närvaro.
 
 +++Vem är organisatör och presentatör?
 
-Se  [dokumentation](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019) från Microsoft för olika roller och funktioner som stöds av Microsoft Teams.
+I [dokumentationen](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019) från Microsoft finns information om olika funktioner som stöds av Microsoft Teams.
 
 +++
 
@@ -189,6 +188,6 @@ Ja, presentatören bör också ingå i både Learning Manager och Microsoft Team
 
 +++Microsoft Teams har möten, webbseminarier och liveevenemang. Vilken stöder Teams-anslutningen?
 
-För närvarande stöder Teams-anslutningen bara Meetings i Microsoft Teams. Mer information finns i  [dokument](https://docs.microsoft.com/en-us/microsoftteams/quick-start-meetings-live-events).
+För närvarande stöder Teams-anslutningen bara Meetings i Microsoft Teams. Mer information finns i det här [dokumentet](https://docs.microsoft.com/en-us/microsoftteams/quick-start-meetings-live-events).
 
 +++

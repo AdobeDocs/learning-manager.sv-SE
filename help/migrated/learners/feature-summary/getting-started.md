@@ -1,5 +1,5 @@
 ---
-description: Gå igenom de viktigaste utbildningsvägarna i Adobe Learning Manager på sidan Komma igång.
+description: Använd Kom igång -sidan för att gå igenom de viktigaste utbildningsvägarna i Adobe Learning Manager.
 jcr-language: en_us
 title: Komma igång som elev
 contentowner: manochan
@@ -22,19 +22,19 @@ När du har loggat in som elev i Learning Manager-webbprogrammet kan du se följ
 
 ![](assets/l-1.png)
 
-**Mitt lärande**: Du kan visa och klicka på utbildningsobjekten efter typ och deadline. Klicka på cirkeln i widgeten Min utbildning för att direkt gå till typen av utbildningsobjekt eller för att visa utbildningsobjekten per deadline.
+**Min utbildning**: Du kan visa och klicka på utbildningsobjekten efter typ och deadline. Klicka på cirkeln i widgeten Min utbildning för att direkt gå till typen av utbildningsobjekt eller för att visa utbildningsobjekten per deadline.
 
-**Mina kunskaper**: Du kan också visa kompetensöversikten längst upp till höger på sidan. Referens  [kompetenskarta](skills-levels.md)för mer information.
+**Mina färdigheter**: Du kan också visa kompetensöversikten längst upp till höger på sidan. Mer information finns i [kompetensöversikten](skills-levels.md).
 
-**Widget för utbildningsobjekt**: Detta visas under Min utbildning och användarens utbildningsobjekt visas. Under Min utbildning kan du visa alla [kurser](courses.md), [utbildningsprogram](learning-programs.md) och [certifieringar](certifications.md) som är registrerade av dig eller tilldelade dig. Du kan börja använda ett utbildningsobjekt direkt eller gå tillbaka till ett utbildningsobjekt med den här widgeten.
+**Widget för utbildningsobjekt**: Detta är precis under Min utbildning och den visar utbildningsobjekten för användaren. Under Min utbildning kan du se alla [kurser](courses.md), [utbildningsprogram](learning-programs.md) och [certifieringar](certifications.md) som har registrerats av dig eller tilldelats dig. Du kan börja använda ett utbildningsobjekt direkt eller gå tillbaka till ett utbildningsobjekt med den här widgeten.
 
-**utbildningskalender**: Widgeten visar listan med kommande och planerad utbildning i din organisation varje kvartal. Registreringsstatus mot är registrerad om du har registrerat dig för en specifik kurs.
+**Utbildningskalender**: I den här widgeten visas en lista över kommande och planerad utbildning i din organisation för varje kvartal. Registreringsstatus mot är registrerad om du har registrerat dig för en specifik kurs.
 
 **Rekommenderad utbildning**: I den här widgeten kan du visa alla kurser som rekommenderas för din profil av administratören/chefen för ditt företag. Du kan klicka på dessa länkar för att gå till kurssidorna.
 
-**Mina prestationer**: Du får utmärkelsetecken efter slutförda kurser. Dessa märken visas bredvid din profil överst på sidan. Klicka på Märken för att få specifik information. Mer information om märken finns i  [skyltar](badges.md) -funktion.
+**Mina prestationer**: Du får utmärkelsetecken efter slutförda kurser. Dessa märken visas bredvid din profil överst på sidan. Klicka på Märken för att få specifik information. Mer information om märken finns i funktionen [märken](badges.md).
 
-Widgeten visar också spelifieringspunkterna för eleven. Klicka på länken Spelifiering om du vill se de detaljerade punkterna och andra funktioner som finns i Spelifiering. Mer information om spelifieringspunkter och resultattavla finns i  [Spelifiering](gamification.md) -funktion.
+Widgeten visar också spelifieringspunkterna för eleven. Klicka på länken Spelifiering om du vill se de detaljerade punkterna och andra funktioner som finns i Spelifiering. Mer information om spelifieringspunkter och resultattavla finns i funktionen [Spelifiering](gamification.md).
 
 Om du använder Learning Manager med en iPad- eller Android-surfplatta läser du avsnittet om appen iPad och Android Tabbar på den här sidan.
 
@@ -52,7 +52,7 @@ När du har loggat in som elev i Learning Manager-appen på en iPad- eller Andro
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
-Gå till utbildnings- och katalogfunktionerna genom att trycka på **Meny** och väljer lämpligt alternativ.
+Gå till utbildnings- och katalogfunktionerna genom att trycka på rullgardinsmenyn **Meny** och välja lämpligt alternativ.
 
 ![](assets/menu-ipad.png)
 
@@ -70,7 +70,7 @@ Du kan komma åt Learning Manager-appen offline på iPad och Android-surfplattor
 **Spåra enhetslagring**
 
 Du kan övervaka enhetens lagring med jämna mellanrum.\
-Tryck på profilikonen längst upp till höger i programmet och tryck sedan på **Enhetslagring** menyalternativ.
+Tryck på profilikonen längst upp till höger i programmet och tryck sedan på menyalternativet **Enhetslagring**.
 
 ![](assets/device-storage-option-ipad.png)
 

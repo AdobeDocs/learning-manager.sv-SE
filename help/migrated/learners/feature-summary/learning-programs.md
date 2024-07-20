@@ -3,14 +3,13 @@ description: Lär dig visa och konsumera utbildningsprogram med hjälp av elevap
 jcr-language: en_us
 title: Utbildningsprogram
 contentowner: manochan
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+exl-id: e2984b79-12a8-4748-bacc-58f8d967b6dd
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 0%
 
 ---
-
-
 
 # Utbildningsprogram
 
@@ -36,7 +35,7 @@ Författaren och administratören kan skapa utbildningsprogram.
 
 Du kan visa en lista över alla tillgängliga utbildningsprogram som elev. Widgeten Utbildningsobjekt visar alla registrerade och tilldelade utbildningsprogram för en elev. I den vänstra rutan klickar du på Katalog och filtrera utbildningsprogram för att se alla tillgängliga utbildningsprogram.
 
-På fliken **Mitt lärande** kan du filtrera utbildningen som du är registrerad för enligt **varaktighet** av utbildningen och **formatera** av utbildningen.
+På sidan **Min utbildning** kan du filtrera utbildningen som du är registrerad för enligt **utbildningens längd** och utbildningens **format**.
 
 Du kan se hur effektiv kursen är i procent för varje kurs på katalogsidan. Det kan finnas flera instanser/sessioner till ett kurs-/utbildningsprogram. Klicka på kursen eller utbildningsprogrammet för att se detaljerna. Du kan också se deadline för varje instans av kursen/utbildningsprogrammet.
 

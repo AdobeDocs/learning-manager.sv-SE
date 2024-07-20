@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Stöd för anpassad domän
 description: Anpassade domäner stöds inte i en Azure-instans av Learning Manager.
 contentowner: saghosh
-source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
+exl-id: 162ce268-48e3-4c7e-acb1-5181cebbb18d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
 
 ---
-
-
 
 # Stöd för anpassad domän
 
@@ -20,9 +19,9 @@ Anpassade domäner stöds inte i en Azure-instans av Learning Manager.
 
 Stöd för anpassade domäner ger kunderna fullständig kontroll över det domännamn som de kan använda för sitt konto i Learning Manager. En kund måste köpa den anpassade domänen separat och arbeta med Adobe-teamet för att ställa in den som sin inloggnings-URL för utbildningsplattformen.
 
-Det gör att kunden kan märka inloggnings- och åtkomstupplevelsen med vit etikett så att inga användare ser Adobe eller Adobe Learning Manager.
+Det gör att kunden kan märka inloggnings- och åtkomstupplevelsen med vita etiketter så att användarna inte ser att det finns någon Adobe eller Adobe Learning Manager.
 
-Du skulle till exempel vilja anpassa din domän så att dina användare får samma upplevelse som om de är på Adobe-domänen. Om ABC Inc vill utbilda sina kunder, det vill att de ska landa på en domän som heter `abc.com/mylearning`i stället för `learningmanager.adobe.com/abc-inc/mylearning`.
+Du skulle till exempel vilja anpassa din domän så att dina användare får samma upplevelse som om de är på Adobe-domänen. Om ABC Inc vill utbilda sina kunder vill det att de ska landa på en domän som heter `abc.com/mylearning`, i stället för `learningmanager.adobe.com/abc-inc/mylearning`.
 
 >[!NOTE]
 >
@@ -31,7 +30,7 @@ Du skulle till exempel vilja anpassa din domän så att dina användare får sam
 
 Funktionen Anpassad domän är tillgänglig till en extra kostnad. Kontakta din Customer Success Manager för mer information.
 
-* För elevrollen börjar domänen med `https://cdn.<customer_custom_domain>/` Till exempel, `https://cdn.elearningstage1.cpdomaintest.in/`
+* För elevrollen börjar domänen med `https://cdn.<customer_custom_domain>/` Till exempel `https://cdn.elearningstage1.cpdomaintest.in/`
 * För alla andra roller börjar domänen med `https://<customer_custom_domain>/`. Exempel: `https://elearningstage1.cpdomaintest.in/`
 
 `<customer_custom_domain>` är den anpassningsbara delen.
@@ -40,15 +39,15 @@ Funktionen Anpassad domän är tillgänglig till en extra kostnad. Kontakta din 
 
 En förutsättning är att kunden äger ett domännamn och köper domänen från en leverantör.
 
-Låt oss exempelvis tänka på att en kund äger en fiktiv domän, **acme.com**. Kunden vill att Learning Manager-innehåll ska serveras från **learning.acme.com**.
+Låt oss till exempel tänka på att en kund äger en fiktiv domän, **acme.com**. Kunden vill att Learning Manager-innehåll ska visas från **learning.acme.com**.
 
 Följ proceduren nedan för att konfigurera en anpassad domän.
 
-1. Kunden måste **lägg till tre CNAME** poster i domänen:
+1. Kunden måste **lägga till tre CNAME**-poster i domänen:
 
-   * **learning.acme.com:** Offentlig slutpunkt för ALB för Learning Manager delad av Adobe
-   * **lrs.learning.acme.com:** ALB public endpoint som pekas ut av learning.acme.com
-   * **cdn.learning.acme.com:** CDN-slutpunkt som delas av Adobe
+   * **learning.acme.com:** Offentlig slutpunkt för ALB för Learning Manager som delas av Adobe
+   * **lrs.learning.acme.com:** Offentlig ALB-slutpunkt som pekas ut av learning.acme.com
+   * **cdn.learning.acme.com:** CDN-slutpunkt delas av Adobe
 
 1. Kunden måste tillhandahålla SSL-certifikat för dessa domäner:
 

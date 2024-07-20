@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Integrering med Adobe Connect
 description: Författare kan skapa virtuella klassrumskurser med Adobe Connect när kurser skapas. För att aktivera Adobe Connect för ditt Learning Manager-konto måste du kontakta organisationens administratör.
 contentowner: jayakarr
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 13458f93-9ea7-4aab-8b33-3c4f4dd5886d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 0%
 
 ---
-
-
 
 # Integrering med Adobe Connect
 
@@ -18,13 +17,13 @@ Administratörer för en organisation kan konfigurera inställningarna för Lear
 
 ## Konfigurera Adobe Connect {#configureadobeconnect}
 
-1. Klicka på i Administratörsinloggning **[!UICONTROL Settings]** i den vänstra rutan för att se grundläggande information om ditt företag. Klicka **[!UICONTROL Adobe Connect]** i den vänstra rutan.
+1. I administratörsinloggningen klickar du på **[!UICONTROL Settings]** i den vänstra rutan för att visa grundläggande information om ditt företag. Klicka på **[!UICONTROL Adobe Connect]** i den vänstra rutan.
 
    ![](assets/left-pane.png)
 
-   *Välj Adobe Connect i den vänstra rutan*
+   *Markera Adobe Connect i den vänstra rutan*
 
-1. Klicka **[!UICONTROL Configure Now]** länka in **[!UICONTROL Adobe Connect Configuration]** -sektionen.
+1. Klicka på länken **[!UICONTROL Configure Now]** i avsnittet **[!UICONTROL Adobe Connect Configuration]**.
 
    <!--![](assets/configure-now-connect.png)-->
 
@@ -39,7 +38,7 @@ Administratörer för en organisation kan konfigurera inställningarna för Lear
 
    Endast Adobe-värdbaserade anslutningskonton stöds i Learning Manager. Exempel: &#39;.adobeconnect.com&#39;.
 
-1. Klicka **[!UICONTROL Integrate].**
+1. Klicka på **[!UICONTROL Integrate].**
 
    När du har autentiserat e-post-ID visar Learning Manager meddelandet eftersom Connect har integrerats. Du kan börja visa dina virtuella klassrumskurser automatiskt med Adobe Connect.
 
@@ -51,7 +50,7 @@ Administratörer för en organisation kan konfigurera inställningarna för Lear
 
 Om författaren till en virtuell klassrumskurs inte har angett sessionsinformationen kan administratören inkludera sessionsinformationen.
 
-Klicka på VC-kursnamnet vid administratörsinloggning. Klicka **[!UICONTROL Instances]** i den vänstra rutan och klicka på **[!UICONTROL Session Details]**.  Klicka på ikonen Redigera till höger på sidan Sessionsdetaljer för att lägga till sessionsinformationen.
+Klicka på VC-kursnamnet vid administratörsinloggning. Klicka på **[!UICONTROL Instances]** i den vänstra rutan och klicka på **[!UICONTROL Session Details]**.  Klicka på ikonen Redigera till höger på sidan Sessionsdetaljer för att lägga till sessionsinformationen.
 
 ![](assets/session-creation-admin.png)
 

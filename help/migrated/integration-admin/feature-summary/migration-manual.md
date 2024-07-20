@@ -33,7 +33,7 @@ Förutsättningar för migrering, viktiga steg som rör migreringsprocessen, mig
 Learning Manager-teamet förväntar sig att följande uppgifter utförs av organisationens integrationsadministratörer innan migreringsprocessen inleds:
 
 * Integreringsadministratören extraherar data och innehåll från det befintliga LMS-systemet och omvandlar data till de filformat som definierats av Learning Manager.
-* Learning Manager stöder inte import av användare som en del av migreringsprocessen och förväntar sig att organisationen importerar användare med hjälp av kopplingar. Adobe Systems förväntar sig att dessa anslutningar är konfigurerade före migreringsprocessen. Se [Hjälp för Learning Manager-anslutningar](connectors.md) för mer information.
+* Learning Manager stöder inte import av användare som en del av migreringsprocessen och förväntar sig att organisationen importerar användare med hjälp av kopplingar. Adobe Systems förväntar sig att dessa anslutningar är konfigurerade före migreringsprocessen. Mer information finns i [Hjälp för Learning Manager-anslutningar](connectors.md).
 
 Learning Manager rekommenderar att administratörer kan testa migreringsprocessen på ett testkonto innan de migrerar data och innehåll till Learning Manager-produktionsmiljön.
 
@@ -91,21 +91,21 @@ Några av de viktigaste begreppen i migreringsprocessen för Learning Manager f�
 
 I Learning Manager består ett migreringsprojekt av en eller flera sprintar. Du kan också ha flera migreringsprojekt för ditt konto. Migreringsprocessen i Learning Manager börjar med att skapa ett migreringsprojekt.
 
-**Sprint**
+**SPRINT**
 
 En Sprint i migreringsprocessen för Learning Manager definierar en uppsättning migreringsobjekt som du har valt att migrera från det befintliga LMS:et. Ett migreringsobjekt kan vara en kursmodul, elevposter eller ett antal kurser. Du kan ha flera utbildningsdataobjekt i en sprint. Du kan utföra migreringsjobb i varje sprint.
 
-**Sprint Runs**
+**SPRINT KÖRS**
 
 Sprint Run är processen att starta ett Sprint-migreringsjobb. Du kan stoppa sprinten när som helst under en körning.
 
-**Sprint Re-run**
+**Sprint-upprepningar**
 
 Du kan köra ett migreringsspurt igen när som helst efter att det har slutförts. Den här situationen med rekörning eller rekörning av en sprint inträffar när du vill lägga till data i ett sprintobjekt och migrera det till programmet igen eller korrigera felen i CSV-filer.
 
 **CSV-specifikation**
 
-Learning Manager innehåller en uppsättning [CSV-standardspecifikationer](migration-manual.md#main-pars_header_140933605). Det bästa sättet är att gå igenom dessa CSV-specifikationer innan du börjar migrera. Integreringsadministratören för din organisation kan analysera de befintliga dataformaten och mappa dem så att de matchar de CSV-mallobjekt som Learning Manager tillhandahåller.
+I Learning Manager finns en uppsättning med [CSV-standardspecifikationer](migration-manual.md#main-pars_header_140933605). Det bästa sättet är att gå igenom dessa CSV-specifikationer innan du börjar migrera. Integreringsadministratören för din organisation kan analysera de befintliga dataformaten och mappa dem så att de matchar de CSV-mallobjekt som Learning Manager tillhandahåller.
 
 **Taggar för migreringsprojekt**
 
@@ -385,7 +385,7 @@ Nedan hittar du specifikationerna för CSV-standardfiler som du kan använda fö
  </tbody>
 </table>
 
-Learning Manager stöder endast datum- och tidsvärden i UTF 8- och 32-bitarsformat. Du kan få fel under migreringen om du nämner datum i CSV-filer med ett ogiltigt datum som 2038-07-17T08:53:21.000Z eller 1980-04-17T08:13:25,322 Z
+Learning Manager stöder endast datum- och tidsvärden i UTF 8- och 32-bitarsformat. Det kan uppstå fel under migreringen om du nämner datum i CSV-filer med ett ogiltigt datum som 2038-07-17T08:53:21.000Z eller 1980-04-17T08:13:25.322Z.
 
 * [sample-csvs.zip](assets/sample-csvs.zip)
 * [csv_fications.zip](assets/csv-specifications.zip)
@@ -435,21 +435,21 @@ Skapa en mapp för innehållsöverföring i en liknande process som följer för
 
 Du skulle få ett e-postmeddelande från Box med en länk till den delade mappen. Om du inte har ett Box-konto klickar du på Registrera dig och skapar ett konto. Inloggningsinstruktioner skickas till e-post-ID för integreringsadministratören.
 
-**Överför data (.csv-filer) till FTP- eller Box-mappar**
+**Överför data (.csv-filer) till FTP-mappar eller Box-mappar**
 
-Du måste skapa ett FTP- eller Box-konto innan du skapar ett migreringsprojekt. Så i det här skedet kan du skapa ett migreringsprojekt och Sprint i Learning Manager-programmet.  Se **Förfarande för migrering av data och innehåll** på den här sidan om du vill skapa ett migreringsprojekt.
+Du måste skapa ett FTP- eller Box-konto innan du skapar ett migreringsprojekt. Så i det här skedet kan du skapa ett migreringsprojekt och Sprint i Learning Manager-programmet.  Se avsnittet **Procedur för data- och innehållsmigrering** på den här sidan om du vill skapa migreringsprojekt.
 
 I FTP- eller Box-kontot klickar du på namnet på projektmappen och sedan på namnet på utskriftsbilden. I mappen sprint kan du överföra de .csv-datafiler som du tänker migrera. Om du vill överföra klickar du på knappen Överför filer högst upp i FTP- eller Box-servern och släpper .csv-filerna. En exempelögonblicksbild efter överföring till FTP visas nedan som referens.
 
 <!--![](assets/exavault-upload.png)-->
 
-Du kan komma tillbaka till migreringsprojektet för Learning Manager, klicka på **[!UICONTROL Refresh]** och visa alla .csv-datatyper som anges i migreringsprofilen.
+Du kan komma tillbaka till Learning Manager-migreringsprojektet, klicka på **[!UICONTROL Refresh]** och visa alla .csv-datatyper som listas i migreringssprutan.
 
 **Överföra utbildningsinnehåll till innehållsmappar**
 
-Överför utbildningsinnehållet för ditt befintliga LMS till ditt Box-konto. Om du redan har skapat migreringsprojektet och sprintar fylls migreringsprojektet och sprintnamnet i Box-kontot. Du kan överföra innehållet på samma sökväg. Se **Förfarande för migrering av data och innehåll** på den här sidan om du vill skapa ett migreringsprojekt.
+Överför utbildningsinnehållet för ditt befintliga LMS till ditt Box-konto. Om du redan har skapat migreringsprojektet och sprintar fylls migreringsprojektet och sprintnamnet i Box-kontot. Du kan överföra innehållet på samma sökväg. Se avsnittet **Procedur för data- och innehållsmigrering** på den här sidan om du vill skapa migreringsprojekt.
 
-Du kan dra och släppa innehållsfilerna eller klicka på **[!UICONTROL Upload]** och välj filerna från skrivbordet. Om filstorleken för ditt innehåll är stor kan du uppleva en viss fördröjning vid överföring av filerna. Beroende på filens storlek varierar den tid det tar att överföra filerna till ditt Box-konto.
+Du kan dra och släppa innehållsfilerna eller klicka på **[!UICONTROL Upload]** och välja filerna från skrivbordet. Om filstorleken för ditt innehåll är stor kan du uppleva en viss fördröjning vid överföring av filerna. Beroende på filens storlek varierar den tid det tar att överföra filerna till ditt Box-konto.
 
 En exempelögonblicksbild av Box-kontot efter att ha överfört innehåll till det visas nedan som referens:
 
@@ -463,19 +463,19 @@ När du har loggat in på FTP- och Box-servrarna och överfört innehållet, vis
 
 ![](assets/after-setup.jpg)
 
-*CSV-platser i Box-konto*
+*CSV-platser i Box-kontot*
 
 ## Förfarande för migrering av data och innehåll {#dataandcontentmigrationprocedure}
 
 Proceduren för att migrera dina Enterprise LMS-data och -innehåll till Learning Manager beskrivs nedan:
 
-Gå igenom förutsättningarna för migreringsprocessen innan du börjar med migreringen. Se [CSV-specifikationer och CSV-exempelfiler](migration-manual.md#main-pars_header_140933605) på den här sidan och förbereda CSV-filerna för data- och innehållsmigrering.
+Gå igenom förutsättningarna för migreringsprocessen innan du börjar med migreringen. Se avsnittet [CSV-specifikationer och CSV-exempelfiler](migration-manual.md#main-pars_header_140933605) på den här sidan och förbered CSV-filerna för data- och innehållsmigrering.
 
-1. Logga in på Learning Manager-programmet som integrationsadministratör och klicka på **[!UICONTROL Migration]** i den vänstra rutan.
+1. Logga in på Learning Manager-programmet som en integrationsadministratör och klicka på **[!UICONTROL Migration]** i den vänstra rutan.
 
    Startsidan för Migreringsprojekt visas. Om din organisation redan har skapat migreringsprojekt kan du visa listan över alla migreringsprojekt på den här sidan.
 
-1. Klicka **[!UICONTROL New]** skapa ett migreringsprojekt i det övre högra hörnet på sidan. Du kan också klicka på **[!UICONTROL Create a migration project]** för att skapa ett migreringsprojekt. Sidan Skapa ett migreringsprojekt visas.
+1. Klicka på **[!UICONTROL New]** i det övre högra hörnet på sidan för att skapa ett migreringsprojekt. Du kan också klicka på länken **[!UICONTROL Create a migration project]** på sidan för att skapa ett migreringsprojekt. Sidan Skapa ett migreringsprojekt visas.
 
    Om du inte redan har skapat en FTP-mapp kommer du att uppmanas att skapa en FTP-mapp i kontot. Det här är ett obligatoriskt steg innan du börjar skapa ett migreringsprojekt.
 
@@ -491,16 +491,16 @@ Gå igenom förutsättningarna för migreringsprocessen innan du börjar med mig
    ![](assets/users-modified-sprint.png)
    *Sprintmigrering*
 
-   Markera kryssrutan med titeln **Användare har lagts till eller ändrats sedan den senaste körningen**, för att synkronisera listan över användare med Learning Manager-programmet. Om du migrerar innehåll och data till Learning Manager-appen kanske detta inte krävs. Men om det finns ett tidsintervall mellan din tidigare spurtmigrering till den senaste spurtmigreringen är det bästa praxis att du väljer att synkronisera användarlistan. Det här steget gör att Learning Manager-databasen kan synkroniseras med dina LMS-användare.
+   Markera kryssrutan med titeln **Användare har lagts till eller ändrats sedan den senaste körningen** för att synkronisera listan med användare med Learning Manager-programmet. Om du migrerar innehåll och data till Learning Manager-appen kanske detta inte krävs. Men om det finns ett tidsintervall mellan din tidigare spurtmigrering till den senaste spurtmigreringen är det bästa praxis att du väljer att synkronisera användarlistan. Det här steget gör att Learning Manager-databasen kan synkroniseras med dina LMS-användare.
 
    Det här synkroniseringssteget rekommenderas när enrollment.csv och user_course_grade.csv migreras. Det här steget gör att Learning Manager-databasen kan synkroniseras med din migreringsdatabas och säkerställer att alla användare vars poster ska migreras i Sprint är tillgängliga i migreringsdatabasen.
 
-1. Du kan starta Sprintmigreringen med dina överförda data och ditt innehåll. Klicka **[!UICONTROL Refresh]** länk innan du startar Sprint Run för att synka FTP- och innehållsmappar med Learning Manager-programmet.
+1. Du kan starta Sprintmigreringen med dina överförda data och ditt innehåll. Klicka på länken **[!UICONTROL Refresh]** innan du startar Sprint Run för att synkronisera FTP- och innehållsmapparna med Learning Manager-programmet.
 
    ![](assets/sprint1-filesupload.png)
    *Starta migrering av sprint*
 
-   Klicka **[!UICONTROL Start]** längst upp till höger på sidan. Du kan klicka **[!UICONTROL Stop]** när som helst under Sprint-migreringsprocessen för att avbryta sprint-migreringen.
+   Klicka på **[!UICONTROL Start]** längst upp till höger på sidan. Du kan klicka på **[!UICONTROL Stop]** när som helst under utskriftsmigreringsprocessen för att avbryta utskriftsmigreringen.
 
    Migreringsstatusen visas för alla utskriftsdataobjekt och -innehåll. Kontrollera antalet lyckade och misslyckade objekt som en del av migreringspurten.
 
@@ -509,14 +509,14 @@ Gå igenom förutsättningarna för migreringsprocessen innan du börjar med mig
    En ögonblicksbild av förloppsdialogrutan visas nedan som referens. Som visas i ögonblicksbilden kan du visa antalet poster som har bearbetats för varje migreringsdataobjekt tillsammans med status för slutförda och misslyckade objekt. Klicka på Hämta felloggar vid de misslyckade objekten för att hämta och visa felloggarna. Du kan åtgärda problemen i CSV-filen och överföra dem igen via FTP.
 
    ![](assets/sample-sprint-progress-status.png)
-   *Visa utskriftsförlopp*
+   *Visa sprintförlopp*
 
    Klicka på Sprint list i den vänstra rutan om du vill visa listan över alla sprintar i ett migreringsprojekt. Du kan se en lista över alla sprintar, antalet sprintar du utförde för varje sprint, startdatum, varaktighet och slutförandestatus enligt exemplet nedan.
 
    ![](assets/sprint-list.png)
-   *Visa lista med utskrifter*
+   *Visa listan över sprintar*
 
-1. När du har överfört de senast uppdaterade CSV-filerna kan du klicka på Kör igen längst upp till höger på sidan. Alla dataobjekt bearbetas igen och de objekt som inte har ändrats ignoreras. När du är nöjd med migreringen av dataobjekt i en sprint kan du markera vårmigreringen som slutförd genom att klicka på knappen högst upp på sidan. Du kan starta en ny spurt med fler dataobjekt senare. När en utskrift har markerats som slutförd kan du inte köra den igen. På samma sätt kan du i ett migreringsprojekt ha valfritt antal sprintar. När du är nöjd med migreringsstatusen för alla sprintar kan du markera migreringsprojektet som slutfört genom att klicka på **Markera projekt som slutfört** på sidan Sprint List.
+1. När du har överfört de senast uppdaterade CSV-filerna kan du klicka på Kör igen längst upp till höger på sidan. Alla dataobjekt bearbetas igen och de objekt som inte har ändrats ignoreras. När du är nöjd med migreringen av dataobjekt i en sprint kan du markera vårmigreringen som slutförd genom att klicka på knappen högst upp på sidan. Du kan starta en ny spurt med fler dataobjekt senare. När en utskrift har markerats som slutförd kan du inte köra den igen. På samma sätt kan du i ett migreringsprojekt ha valfritt antal sprintar. När du är nöjd med migreringsstatusen för alla sprintar kan du markera migreringsprojektet som slutfört genom att klicka på länken **Markera projektet som slutfört** på sidan Sprintlista.
 
    Innan du markerar migreringsprojektet som slutfört måste du se till att alla sprintar i projektet är slutförda. När du har markerat migreringsprojektet som slutfört kan du inte gå tillbaka och skapa sprintar i det projektet eller göra ändringar i det. Du måste skapa ett annat migreringsprojekt och lägga till sprints.
 
@@ -546,7 +546,7 @@ Nedan hittar du specifikationerna för CSV-standardfiler som du kan använda fö
 
 ## Felsöka migreringsproblem {#troubleshootingmigrationissues}
 
-[Klicka här](../../kb/troubleshooting-migration.md) för att lära dig mer om hur du löser de problem som integrationsadministratörer möter när de migrerar data och innehåll från sina befintliga LMS till Learning Manager-programmet.
+[Klicka här](../../kb/troubleshooting-migration.md) om du vill veta mer om hur du löser de problem som integrationsadministratörer möter när de migrerar data och innehåll från sina befintliga LMS till Learning Manager-programmet.
 
 ## Tips för användarhantering {#usermanagement}
 
@@ -563,7 +563,7 @@ Learning Manager har stöd för UUID för att ge organisationer flexibilitet nä
 
 **Användningsscenario för UUID i en organisation**
 
-Tänk dig ett scenario där en anställd A går med i ett företag som heter Learning Manager, som uppdragstagare. Under avtalsperioden kan Learning Manager-företaget inte tillhandahålla företagets e-post-ID som ```A@example.com```kan företaget i stället endast överväga den anställdes personliga e-postkonto, till exempel ```A@gmail.com```. Efter att ha slutfört sex månaders avtalstid kan Learning Manager vilja ändra sitt e-post-id till företagets e-post-id om samma anställd A går med i Learning Manager som heltidsanställd: ```A@example.com```.
+Tänk dig ett scenario där en anställd A går med i ett företag som heter Learning Manager, som uppdragstagare. Under avtalsperioden kan Learning Manager-företaget inte tillhandahålla företagets e-post-ID som ```A@example.com```, i stället kan företaget endast överväga medarbetarens personliga e-postkonto, till exempel ```A@gmail.com```. Efter att ha slutfört sex månaders avtalstid kan Learning Manager vilja ändra sitt e-post-ID till företagets e-post-ID om samma anställd A ansluter till Learning Manager som heltidsanställd: ```A@example.com```.
 
 Om du har UUID-åtkomst till användarkontot kan företaget Learning Manager dra nytta av ovanstående scenario. Learning Manager-företaget kan enkelt ersätta den personliga e-post-id för medarbetare A med ett officiellt e-post-id. Medarbetarens poster som är relevanta för det här kontot påverkas inte av den här ändringen.
 

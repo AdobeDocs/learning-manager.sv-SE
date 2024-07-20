@@ -3,14 +3,13 @@ description: Lär dig hantera taggar i Learning Manager.
 jcr-language: en_us
 title: Taggar
 contentowner: dvenkate
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: ea39d2a2-3d2b-43ae-8f8d-b97420b9d008
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 0%
 
 ---
-
-
 
 # Taggar
 
@@ -18,7 +17,7 @@ Administratörer kan nu hantera taggar i Learning Manager. Använd bättre taggn
 
 Listan med utbildningsobjekt som är associerade med taggen kan visas genom att klicka på antalet bredvid varje tagg. Listan visar antalet kurser, utbildningsprogram, certifikat, arbetsstöd och innehållsgrupper. Klicka på något av dessa alternativ för att visa listan.
 
-Du kan sortera taggarna baserat på användning eller alfabetisk ordning i **[!UICONTROL Sort By]** alternativ.
+Du kan sortera taggarna baserat på användning eller alfabetisk ordning med alternativet **[!UICONTROL Sort By]**.
 
 ## Introduktion till taggar
 
@@ -26,33 +25,33 @@ Denna utbildning lär dig lägga till, redigera, ersätta, lägga till och ta bo
 
 [![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=5S7K7ZCT&amp;mv=display&amp;mv2=display#/course/8318920)
 
-Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
+Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
 
 ## Lägg till/ta bort/redigera taggar {#adddeleteedittags}
 
-1. Som administratör kan du klicka på **[!UICONTROL Tags]**. Inställningen **[!UICONTROL Tag Management]** sidan öppnas.
-1. Om du vill lägga till en ny tagg klickar du på **[!UICONTROL Add]**. Knappen Lägg till finns i det övre högra hörnet på sidan. Om det inte finns några befintliga taggar kommer **[!UICONTROL Add]** kommer också att vara tillgänglig i mitten av **[!UICONTROL Tag Management]** sidan.
+1. Klicka på **[!UICONTROL Tags]** på den vänstra navigeringspanelen som administratör. Sidan **[!UICONTROL Tag Management]** öppnas.
+1. Klicka på **[!UICONTROL Add]** om du vill lägga till en ny tagg. Knappen Lägg till finns i det övre högra hörnet på sidan. Om det inte finns några befintliga taggar kommer knappen **[!UICONTROL Add]** också att vara tillgänglig i mitten av sidan **[!UICONTROL Tag Management]**.
 
    När du lägger till flera taggar avgränsar du dem med (,) eller (;). Ett taggnamn får innehålla högst 50 tecken.
 
 1. Om du vill ta bort en befintlig tagg markerar du taggen genom att klicka i kryssrutan. Du kan markera upp till femtio taggar som ska tas bort samtidigt. Gör så här för att radera:
 
-   * Markera taggarna som ska tas bort > öppna **[!UICONTROL Action]** rullgardinsmeny > välj **[!UICONTROL Delete]**.
+   * Markera taggarna som ska tas bort > öppna rullgardinsmenyn **[!UICONTROL Action]** > välj **[!UICONTROL Delete]**.
 
 1. Du kan bara redigera en tagg åt gången. Om du vill redigera en tagg gör du så här:
 
-   * Markera taggen du vill redigera > öppna **[!UICONTROL Actions]**listruta > klicka på **[!UICONTROL Edit]**.
+   * Välj taggen för att redigera > öppna **[!UICONTROL Actions]**rullgardinsmenyn > klicka på **[!UICONTROL Edit]**.
 
-   Inställningen **[!UICONTROL Edit Tag]** visas. Ange det nya taggnamnet och klicka på **[!UICONTROL Save]**.
+   Dialogrutan **[!UICONTROL Edit Tag]** visas. Ange det nya taggnamnet och klicka på **[!UICONTROL Save]**.
 
-   Om det taggnamn du angett redan finns visar Adobe Learning Manager ett varningsmeddelande. Det får inte finnas två taggar med samma namn.
+   Om det taggnamn du angav redan finns visas ett varningsmeddelande i Adobe Learning Manager. Det får inte finnas två taggar med samma namn.
 
 ## Ersätt taggar {#replacetags}
 
-1. Markera märkorden som du vill ersätta. Du kan markera upp till 50 taggar samtidigt. Öppna fönstret **[!UICONTROL Actions]** och välja **[!UICONTROL Replace]**.
-1. Inställningen **[!UICONTROL Replace Tags]** visas med de markerade taggarna.
+1. Markera märkorden som du vill ersätta. Du kan markera upp till 50 taggar samtidigt. Öppna rullgardinsmenyn **[!UICONTROL Actions]** och välj **[!UICONTROL Replace]**.
+1. De markerade taggarna visas i dialogrutan **[!UICONTROL Replace Tags]**.
 
-1. I dialogrutan **[!UICONTROL Name for replaced tags]** anger du namnet på det nya märkord som du vill ersätta de markerade märkorden med. Du kan antingen ersätta dem med ett befintligt märkord i listrutan eller lägga till ett nytt märkord.
+1. I alternativet **[!UICONTROL Name for replaced tags]** anger du namnet på den nya tagg som du vill ersätta de markerade taggarna med. Du kan antingen ersätta dem med ett befintligt märkord i listrutan eller lägga till ett nytt märkord.
 
    Semikolon eller kommatecken får inte ingå i taggnamnet.  Observera att taggar utan semikolon och visning av felmeddelanden när du använder sådana taggar som en del av en LO inte hanteras för migreringsscenarier.
 
@@ -63,8 +62,8 @@ Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
 Om åtgärden Lägg till används för taggar läggs den nya/befintliga taggen till i alla listor över LO:er och innehållsgrupper som är kopplade till de markerade taggarna.
 
 1. Markera taggarna som du vill lägga till. Du kan markera upp till 50 taggar samtidigt. Öppna listrutan Åtgärder och välj **[!UICONTROL Append]**.
-1. Inställningen  **[!UICONTROL Append Tags]** visas med de markerade taggarna.
-1. Du kan lägga till ytterligare en tagg i all utbildning med de valda taggarna genom att ange namnet på **[!UICONTROL New Tag]** eller i listrutan med befintliga taggar. Den nya taggen läggs till i all tillhörande utbildning i Learning Manager.
+1. De markerade taggarna visas i dialogrutan **[!UICONTROL Append Tags]**.
+1. Du kan lägga till ytterligare en tagg till all utbildning med de markerade taggarna genom att ange namnet på **[!UICONTROL New Tag]** eller i listrutan med de befintliga taggarna. Den nya taggen läggs till i all tillhörande utbildning i Learning Manager.
 
    Semikolon eller kommatecken får inte ingå i taggnamnet. Om det används visar Prime ett felmeddelande. Observera att taggar utan semikolon och visning av felmeddelanden när du använder sådana taggar som en del av en LO inte hanteras för migreringsscenarier.
 

@@ -2,7 +2,8 @@
 title: Nyheter i den här versionen (november 2022)
 description: Läs om de nya funktionerna och förbättringarna i Adobe Learning Manager
 hidefromtoc: true
-source-git-commit: 1da0911a4d0c2ae5cb01bbb2b7955675b0dfcdde
+exl-id: 2ccfb4e6-ba11-4657-8edb-3c527b4e5b9f
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1994'
 ht-degree: 1%
@@ -21,13 +22,13 @@ IN-PROGRESS
 
 Adobe Learning Manager stöder för närvarande en inloggningsmetod för interna användare och en inloggningsmetod för externa användare. Detta skapar begränsningar i fall där kunderna har sina anställda och sina egna kunder och kanalpartner på samma konto.
 
-Eftersom Adobe Learning Manager har som mål att stödja flera typer av användargrupper som loggar in på plattformen, har det nu stöd för flera inloggningsmetoder via flera SSO-konfigurationer för både interna och externa användare.
+Eftersom Adobe Learning Manager vill stödja flera typer av användargrupper som loggar in på plattformen har det nu stöd för flera inloggningsmetoder via flera SSO-konfigurationer för både interna och externa användare.
 
 Mer information finns i [Flera SSO-inloggningar](/help/migrated/administrators/feature-summary/multiple-sso-logins.md).
 
 ## Stöd för funktioner som inte är inloggade
 
-Den inbyggda portalen för Adobe Learning Manager har nu stöd för icke-inloggade funktioner för att komma åt en utbildningsportal.
+Adobe Learning Manager inbyggda portal stöder nu icke-inloggade program så att de kan komma åt en utbildningsportal.
 
 Eleverna kan nu upptäcka och komma åt utbildningswebbplatsen, kolla in olika kurser och tillgängligt innehåll och bestämma sig för att logga in för att delta i kurserna.
 
@@ -145,7 +146,7 @@ Sökresultaten är nu konsekventa över allt formellt och informellt lärande (s
 
 Sökningen är mer fokuserad och riktad, där du kan visa sökresultaten på tre platser, formellt lärande, socialt lärande och Content Marketplace.
 
-![sök](assets/search-image.png)
+![sökning](assets/search-image.png)
 
 #### Frasbaserad sökning
 
@@ -252,7 +253,7 @@ Skapa migreringsprojektet som en integrationsadministratör och dela sedan migra
 
 #### CSV-specifikation
 
-Adobe Learning Manager innehåller en uppsättning CSV-standardspecifikationer för migrering med flera språk. Det bästa sättet är att gå igenom dessa CSV-specifikationer innan du börjar migrera. Organisationens integrationsadministratör kan analysera de befintliga dataformaten och mappa dem så att de matchar de CSV-mallobjekt som Learning Manager tillhandahåller.
+Adobe Learning Manager tillhandahåller en uppsättning CSV-standardspecifikationer för migrering där flera språk är aktiverade. Det bästa sättet är att gå igenom dessa CSV-specifikationer innan du börjar migrera. Organisationens integrationsadministratör kan analysera de befintliga dataformaten och mappa dem så att de matchar de CSV-mallobjekt som Learning Manager tillhandahåller.
 
 #### Ändringar med stöd för flera språk
 
@@ -276,7 +277,7 @@ Så för att rensa cookie har vi infört en ny slutpunkt som återkallar refresh
 **Frågeparametrar**
 
 * `cookie=true|false` - anger att en cookie måste återkallas
-* `refresh_token=true|false` - anger att uppdatera
+* `refresh_token=true|false` - anger att uppdateringen
 
 **Text för begäran**
 
@@ -302,9 +303,9 @@ I den här versionen har vi gjort några API:er offentliga.
 |---|---|---|
 | /social/search | GET | Sök i sociala medier. |
 | /tillkännagivanden | GET | Få detaljerad information om tillkännagivandet på masthead som tilldelats eleven. |
-| /tillkännagivanden/`{id}` | GET | Få detaljerad information om tillkännagivandet på masthead som tilldelats eleven. |
+| /notifications/`{id}` | GET | Få detaljerad information om tillkännagivandet på masthead som tilldelats eleven. |
 | /learningObjects/`{id}`/loResources/{loResourcesId} | GET | Ladda upp URL:en för filen för loResource av resurstypen &#39;Activity&#39; där filinlämning krävs. |
-| /arbetsstöd/`{jobAidId}`/jobAidDownloads | GET | Ställ in nedladdningsrapport för arbetsstöd. |
+| /jobAid/`{jobAidId}`/jobAidDownloaded | GET | Ställ in nedladdningsrapport för arbetsstöd. |
 | /bulkimport/startrun | POST | Kör massimport. |
 | /bulkimport/cansync | GET | Synkronisera massimport. |
 | /search | GET | DELETEMEBOB |
@@ -315,7 +316,7 @@ I den här versionen har vi gjort några API:er offentliga.
 
 ### Salesforce-program
 
-Inställningen **Ignorera högre ordningsföljd LO** alternativet måste vara aktiverat i Salesforce-programmet så att alla kurser, utbildningsprogram och certifikat kan visas samtidigt.
+Alternativet **Ignorera högre order LO** måste vara aktiverat i Salesforce-appen så att alla kurser, utbildningsprogram och certifikat kan visas samtidigt.
 
 ### API:er för anpassning av spelare
 
@@ -331,7 +332,7 @@ I den här versionen har vi tillhandahållit API:er för att anpassa en spelare.
 
 ### Visa väntelistepositionen för en elev
 
-GETEN /registreringar/{id}/waitlistPosition API under LO API hämtar väntelistepositionen för en användare för en angiven registrering.
+API:t GET /enrollments/{id}/waitlistPosition under LO API hämtar väntelistepositionen för en användare för en angiven registrering.
 
 ### Inlämning av slutförandedatum i externa certifieringar
 
@@ -339,15 +340,15 @@ Attributet /primeapi/v2/learningObjects/certification:xxxxx API kommer att ha at
 
 ### Hämta LO-förhandsgranskningsdata
 
-GETEN /preview/learningObjects/{id} API har lagts till för att få förhandsgranskningsinformation om ett utbildningsobjekt.
+API:et GET /preview/learningObjects/{id} har lagts till för att hämta förhandsgranskningsinformation om ett utbildningsobjekt.
 
 ### Flytta externa användare i profiler
 
-Inställningen `PUT primeapi/v2/externalProfiles/{currentep}/users/{userid}?` anrop hjälper till att flytta en användare till en annan extern profil genom att ange ett nytt externalProfile-id.
+Anropet `PUT primeapi/v2/externalProfiles/{currentep}/users/{userid}?` hjälper till att flytta en användare till en annan extern profil genom att ange ett nytt externalProfile-id.
 
 ### Lägg till användare i externa profiler
 
-Inställningen `POST /externalProfiles/{id}/users` lägger till externa användare i en extern profil.
+`POST /externalProfiles/{id}/users` lägger till externa användare i den externa profilen.
 
 ## Versionsinformation
 
@@ -355,7 +356,7 @@ Mer information om aktuella och tidigare versioner av Learning Manager-webbappen
 
 ## Felkorrigeringar
 
-Om du vill se de fel som är åtgärdade i den här uppdateringen, se [Buggar i fast lista](release-note/release-notes.md#bugs-fixed-in-this-release).
+Mer information om de fel som har åtgärdats i den här uppdateringen finns i listan över [korrigerade fel](release-note/release-notes.md#bugs-fixed-in-this-release).
 
 ## Systemkrav
 

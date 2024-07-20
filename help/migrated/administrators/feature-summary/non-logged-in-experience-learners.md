@@ -1,6 +1,6 @@
 ---
 title: Ej inloggad för elever
-description: Adobe Learning Manager-startportalen har stöd för ett icke-loggat sätt att komma åt utbildningswebbplatsen. När det här läget är aktiverat kan elever upptäcka och komma åt utbildningswebbplatsen och kolla in olika kurser och tillgängligt innehåll. Den icke-inloggade upplevelsen gör att elever kan bläddra bland kurser utan att vara inloggade på en portal.
+description: Adobe Learning Manager inbyggda portal har stöd för ett icke-loggat sätt att komma åt utbildningswebbplatsen. När det här läget är aktiverat kan elever upptäcka och komma åt utbildningswebbplatsen och kolla in olika kurser och tillgängligt innehåll. Den icke-inloggade upplevelsen gör att elever kan bläddra bland kurser utan att vara inloggade på en portal.
 exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
 source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
 workflow-type: tm+mt
@@ -11,11 +11,11 @@ ht-degree: 0%
 
 # Ej inloggad för elever
 
-Adobe Learning Manager-startportalen har stöd för ett icke-loggat sätt att komma åt utbildningswebbplatsen. När det här läget är aktiverat kan elever upptäcka och komma åt utbildningswebbplatsen och kolla in olika kurser och tillgängligt innehåll.
+Adobe Learning Manager inbyggda portal har stöd för ett icke-loggat sätt att komma åt utbildningswebbplatsen. När det här läget är aktiverat kan elever upptäcka och komma åt utbildningswebbplatsen och kolla in olika kurser och tillgängligt innehåll.
 
 Den icke-inloggade upplevelsen gör att elever kan bläddra bland kurser utan att vara inloggade på en portal.
 
-För att den icke-inloggade startsidan ska aktiveras måste integreringsadministratören aktivera och konfigurera [Anslutning för utbildningsdata](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access).
+För att den icke-inloggade startsidan ska aktiveras måste integreringsadministratören aktivera och konfigurera [Training Data Connector](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access).
 
 Utbildningen kan sedan exporteras från kontakten.
 
@@ -27,7 +27,7 @@ Administratören kan ändra och konfigurera startsidan, som är avsedd för icke
 
 ## Elevens API
 
-Adobe Learning Manager - Med elevs-API:er kan du skapa en anpassad utbildningsupplevelse för dina användare. Användningen av dessa API:er kräver en giltig användartoken och ska bara användas i arbetsflöden där det finns en helt licensierad/registrerad elev.
+Adobe Learning Manager - Med elev-API:er kan du skapa en anpassad utbildningsupplevelse för dina användare. Användningen av dessa API:er kräver en giltig användartoken och ska bara användas i arbetsflöden där det finns en helt licensierad/registrerad elev.
 
 >[!IMPORTANT]
 >
@@ -35,13 +35,13 @@ Adobe Learning Manager - Med elevs-API:er kan du skapa en anpassad utbildningsup
 
 De användningsfall som inte är inloggade kräver särskild hantering.
 
-**Kontakta lösningsarkitektteamet om du har några frågor om hur dessa API:er ska användas och se till att en lösningsarkitekt har testat en lösning innan du driftsätter den**.
+**Kontakta lösningsarkitekturteamet om du har frågor om lämplig användning av dessa API:er och se till att en lösningsarkitekt har testat en lösning innan du driftsätter den**.
 
 ## Öppna alternativen för startsidan
 
-På startsidan för Adobe Learning Manager väljer du **Varumärkning**. I den vänstra rutan väljer du sedan Ej inloggad startsida.
+På Adobe Learning Manager-startsidan väljer du **Varumärkning**. I den vänstra rutan väljer du sedan Ej inloggad startsida.
 
-![alternativ för startsida](assets/non-logged-in-homepage.png)
+![Alternativ för startsida](assets/non-logged-in-homepage.png)
 
 *Välj alternativet Ej inloggad startsida*
 

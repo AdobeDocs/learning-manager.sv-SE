@@ -1,18 +1,17 @@
 ---
 jcr-language: en_us
 title: Systemkrav | Adobe Learning Manager-datorprogram
-description: Systemkrav för datorprogrammet Adobe Learning Manager
+description: Systemkrav för Adobe Learning Manager-datorprogram
 contentowner: kuppan
-source-git-commit: 69ac8f8ce5a0c077f31569571f9d9fbf16ecb943
+exl-id: 31455c7e-f642-451b-968a-8a6f75131fda
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 4%
 
 ---
 
-
-
-# Systemkrav för datorprogrammet Adobe Learning Manager
+# Systemkrav för Adobe Learning Manager-datorprogram
 
 ## Windows {#windows}
 

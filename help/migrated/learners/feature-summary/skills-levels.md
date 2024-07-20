@@ -3,14 +3,13 @@ description: Läs den här artikeln om du vill veta hur du uppnår färdigheter 
 jcr-language: en_us
 title: Kompetenser och nivåer
 contentowner: manochan
-source-git-commit: ed7e28720cf521b629333dc48e530e0aa16b0ae1
+exl-id: 3172e988-3dc5-484c-8869-7a8d9950b79b
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
 
 ---
-
-
 
 # Kompetenser och nivåer
 
@@ -18,7 +17,7 @@ Läs den här artikeln om du vill veta hur du uppnår färdigheter i Learning Ma
 
 Kompetenskarta är en gruppering av kompetenser, kunskaper och egenskaper hos en anställd i en organisation. Dessa färdigheter hjälper företag/organisationer att ställa upp eller höja förväntningarna på prestanda för sina anställda. Kompetenser gör att medarbetarna kan anpassa sitt beteende till organisationens förväntningar.
 
-Med Adobe Learning Manager kan du mappa prestanda för elever baserat på deras kunskaper med hjälp av widgeten Färdigheter. När elever har slutfört vissa kurser kan de veta sin ställning för varje kompetens genom att klicka på Kompetenser på elevens startsida.
+Med Adobe Learning Manager kan du mappa prestanda för elever baserat på deras kunskapsuppsättningar med hjälp av widgeten Kompetenser. När elever har slutfört vissa kurser kan de veta sin ställning för varje kompetens genom att klicka på Kompetenser på elevens startsida.
 
 ## Visa kompetenser {#viewskills}
 

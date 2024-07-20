@@ -3,14 +3,13 @@ description: Lär dig använda Social utbildning på webben som elev
 jcr-language: en_us
 title: Social utbildning i Learning Manager
 contentowner: kuppan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 33bc4872-2092-45c4-ac57-f2cec2ca33fb
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '3018'
 ht-degree: 2%
 
 ---
-
-
 
 # Social utbildning i Learning Manager
 
@@ -22,15 +21,15 @@ Genom att helt enkelt delta i en utbildning, garanterar inte att användarna beh
 
 På samma sätt gör Learning Manager Social Learning att användare kan interagera med varandra genom att kunna dela och lära sig av innehåll.
 
-På den här plattformen kan du dela olika typer av innehåll: video, ljud, skärmbild, text, fråga och enkät. Användare kan också dela sina onlinelärdomar med andra genom att använda **Dela till socialt bokmärke**. Mer information finns i  [Dela till social utbildning](share-to-social.md).
+På den här plattformen kan du dela olika typer av innehåll: video, ljud, skärmbild, text, fråga och enkät. Användarna kan också dela sina onlinelärdomar med andra genom att använda **Dela till socialt bokmärke**. Mer information finns i [Dela till social utbildning](share-to-social.md).
 
-Innehåll kan också läggas upp på en tavla med hjälp av **Adobe Learning Manager-datorprogram**. Mer information finns i  [Adobe Learning Manager-app för dator](../adobe-learning-manager-app-for-desktop.md).
+Med hjälp av **Adobe Learning Manager-programmet för datorer** kan du även lägga upp innehåll på en anslagstavla. Du hittar mer information i [Adobe Learning Manager-datorprogrammet](../adobe-learning-manager-app-for-desktop.md).
 
 Endast om administratören aktiverar Social utbildning är funktionen synlig för en elev .
 
 ![](assets/social-dashboarddashboard.png) ![](assets/social-learning-dashboard.png)
 
-*Visa utbildningstavla*
+*Visa utbildningstavlan*
 
 <table>
  <tbody>
@@ -48,9 +47,9 @@ Endast om administratören aktiverar Social utbildning är funktionen synlig fö
    <td>
     <p>Mina tavlor</p></td>
    <td>
-    <p>En anslagstavla <code>
+    <p>En anslagstavla är <code>
       collection
-     </code> av inlägg som har skapats av en användare. Mina tavlor visar alla inlägg som användaren har deltagit i, skapat och följt.</p></td>
+     </code> inlägg som har skapats av en användare. Mina tavlor visar alla inlägg som användaren har deltagit i, skapat och följt.</p></td>
   </tr>
   <tr>
    <td>
@@ -131,50 +130,50 @@ Endast om administratören aktiverar Social utbildning är funktionen synlig fö
 
 Innehållet skapas som ett inlägg på en anslagstavla. Skapa ett inlägg genom att följa stegen nedan:
 
-1. Klicka **[!UICONTROL New Post].**
+1. Klicka på **[!UICONTROL New Post].**
 
    ![](assets/new-post-01.png)
    *Välj nytt inlägg*
 
-1. Välj någon av följande typer av innehåll som ska publiceras: text, fråga, video, ljud, undersökning eller skärmbild. Befintligt innehåll kan laddas upp från användarsystemet eller från galleriet i Adobe Learning Manager-datorprogrammet.
+1. Välj någon av följande typer av innehåll som ska publiceras: text, fråga, video, ljud, undersökning eller skärmbild. Befintligt innehåll kan överföras från användarsystemet eller från galleriet i Adobe Learning Manager-datorprogrammet.
 
-   Använd Adobe Learning Manager-datorprogrammet för att spela in video eller skärm, ljud och ta en skärmbild. Mer information finns i [Adobe Learning Manager-datorprogram](../adobe-learning-manager-app-for-desktop.md).
+   Använd Adobe Learning Manager-datorprogrammet för att spela in en video eller skärm, ljud och ta en skärmbild. Mer information finns i [Adobe Learning Manager-datorprogrammet](../adobe-learning-manager-app-for-desktop.md).
 
    <!--![](assets/types-of-post-03.png)-->
 
-1. Sök efter en anslagstavla eller kompetens som relaterar till inlägget. Om anslagstavlan inte finns klickar du på **[!UICONTROL Create a New Board]**.
+1. Sök efter en anslagstavla eller kompetens som relaterar till inlägget. Klicka på **[!UICONTROL Create a New Board]** om tavlan inte finns.
 
    ![](assets/create-a-new-board-04.png)
 
-   *Skapa en anslagstavla*
+   *Skapa en tavla*
 
-   Om du är extern eller intern användare och om administratören har gett dig behörighet att skapa en anslagstavla, kan du skapa en anslagstavla. Om du inte har behörighet att skapa en tavla, länken **Skapa en ny tavla** visas inte.
+   Om du är extern eller intern användare och om administratören har gett dig behörighet att skapa en anslagstavla, kan du skapa en anslagstavla. Om du inte har behörighet att skapa en tavla visas inte länken **Skapa en ny tavla**.
 
 1. Fyll i informationen i popup-dialogrutan och välj följande typ av tavla:
 
    * **Offentlig** - Deltagande och synlighet för inlägg är tillgängligt för alla användare.
-   * **Privat** - Inlägget är bara synligt för skaparen av tavlan, moderatorer och användare som lagts till tavlan.
-   * **Begränsad** - Endast tavlans ägare, administratör och tavlans moderatorer kan skapa inlägg. Andra användare kan delta genom att kommentera/svara, rösta upp/ned och så vidare.
+   * **Privat** - Inlägget är bara synligt för tavlans skapare, moderatorer och användare som har lagts till på tavlan.
+   * **Begränsad** - endast tavlans ägare, administratör och tavlans moderatorer kan skapa inlägg. Andra användare kan delta genom att kommentera/svara, rösta upp/ned och så vidare.
 
    <!--![](assets/new-board-05.png)-->
 
    >[!NOTE]
    >
-   >I appen Social Elev är endast en **Administratör** har möjlighet att skapa privata kort med användargrupper (interna/externa).
+   >I den sociala elevappen är det bara en **administratör** som kan skapa privata tavlor med användargrupper (interna/externa).
    >
-   >Alla andra användare förutom administratör, författare, elev, chef, instruktör osv. **kan inte** skapa privata tavlor med användargrupper. De kan inte se den del av **användargrupper** i samband med skapandet av privata styrelse.
+   >Alla andra användare förutom administratör, författare, elev, chef, instruktör osv. **Det går inte** att skapa privata tavlor med användargrupper. De kan inte se avsnittet med **användargrupper** när de skapar en privat tavla.
 
-   Endast administratör - när du väljer **Privat** visas två alternativ, **Användare** och **Användargrupper**. Välj alternativet **Användargrupper** och lägg sedan till användargrupperna som du vill dela den privata tavlan med.
+   Endast administratör - När du väljer **Privat** visas två alternativ - **Användare** och **Användargrupper**. Välj alternativet **Användargrupper** och lägg sedan till användargrupperna som du vill dela den privata tavlan med.
 
    I fältet Användargrupper kan du välja interna, externa eller anpassade grupper. Din privata tavla kommer då att vara synlig för alla angivna användargrupper, oavsett scopeinställningar.
 
-1. Om du vill dela innehåll klickar du på **[!UICONTROL Post]**. När du klickar på Publicera får användaren ett meddelande.
+1. Klicka på **[!UICONTROL Post]** om du vill dela innehåll. När du klickar på Publicera får användaren ett meddelande.
 
-   Innehållet läggs upp baserat på kurateringsinställningen som angetts av administratören för innehåll för social utbildning som kan kurateras av  [Styrelsens moderatorer/ämnesexperter](social-learning-web-user.md#HowtobecomeaSubjectMatterExpertSME).
+   Innehållet läggs upp baserat på kurateringsinställningen som angetts av administratören för innehåll för social utbildning som kan kurateras av [tavlans moderatorer/ämnesexperter](social-learning-web-user.md#HowtobecomeaSubjectMatterExpertSME).
 
    <!--![](assets/pop-up-dialog-before-sending-for-curation.png)-->
 
-1. Användarna får ett meddelande när deras inlägg har godkänts eller avslagits om administratören har ställt in kurateringsinställningen på Manuell kuratering. Om inlägget avvisas klickar du på **Klicka för att granska** hyperlänk för att läsa kommentarer från moderatorer eller ämnesexperter (SME).
+1. Användarna får ett meddelande när deras inlägg har godkänts eller avslagits om administratören har ställt in kurateringsinställningen på Manuell kuratering. Om inlägget avvisas klickar du på hyperlänken **Klicka för att granska** för att läsa kommentarerna från tavlans moderatorer eller ämnesexperterna.
 
    Innehåll som skapas av användare kurateras av moderatorer på tavlan eller ämnesexperter.
 
@@ -202,13 +201,13 @@ Användarna kan använda följande typ av innehåll för att göra en kommentar:
 
 ## Innehåll i Social Player {#contentinsocialplayer}
 
-I Learning Manager läggs videor, statiskt innehåll som presentationer och bilder upp på en anslagstavla i en social spelare. Du kan ladda upp en fil från ditt system, spela in en video/skärmbild och ta en skärmbild med hjälp av datorprogrammet Adobe Learning Manager.
+I Learning Manager läggs videor, statiskt innehåll som presentationer och bilder upp på en anslagstavla i en social spelare. Du kan överföra en fil från systemet, spela in en video/skärm och ta en skärmbild med hjälp av Adobe Learning Manager-datorprogrammet.
 
 När användaren har lagt upp sitt innehåll kan det visas av andra elever i deras aktivitetsomfattning. Elever i sociala medier kan visa, kommentera/svara, rösta upp/ned och rapportera missbruk.
 
 <!--![](assets/social-player.png)-->
 
-**Kommentera/svara genom att rösta upp/ned på sociala aktörer genom att följa stegen nedan:**
+**Kommentera/svara genom att rösta upp/ned på den sociala spelaren genom att följa stegen nedan:**
 
 1. Klicka på helskärmsknappen i det nedre högra hörnet av spelaren i sociala medier.
 1. Om du vill visa spelarkontrollerna på skärmen klickar du på nedåtpilen.
@@ -224,12 +223,12 @@ En elev kan se alla tavlor i en listvy. Logga in på din elevapp och klicka på 
 
 *Tavlsvy i sociala medier*
 
-När du tittar på inläggen i ett brädformat kan du sedan sortera inläggen enligt **Post** och **Contributor**.
+När du visar inläggen i ett brädformat kan du sedan sortera inläggen enligt **Inlägg** och **Medverkande**.
 
 ![](assets/image004.png)
 
-* Om du väljer **Inlägg** kommer nämnderna att sorteras efter antalet tjänster i nämnden.
-* Om du väljer **Bidragsgivare**, tavlorna kommer att sorteras efter antalet användare som har kommenterat eller svarat på trådarna.
+* Om du väljer **inlägg** sorteras anslagstavlorna efter antalet inlägg som gjorts på anslagstavlan.
+* Om du väljer **Medverkande** sorteras anslagstavlorna efter antalet användare som har kommenterat eller svarat i trådarna.
 
 ### Kompetensfilter {#skillfilter}
 
@@ -310,7 +309,7 @@ Du kan inte hämta ett inlägg i enhetsappen än. Den här funktionen blir snart
 
 ## Tavlan är bara synlig för valda användare {#selected-users}
 
-En elev som även har en **admin** rollen kan lägga till en användargrupp på en privat tavla. Alla användargrupper kan läggas till på den privata tavlan och användarna som tillhör användargruppen har bara tillgång till tavlan.
+En elev som även har rollen **administratör** kan lägga till en användargrupp på en privat tavla. Alla användargrupper kan läggas till på den privata tavlan och användarna som tillhör användargruppen har bara tillgång till tavlan.
 
 Om en ny användare läggs till i användargruppen kan båda användarna se den privata anslagstavlan.
 
@@ -386,17 +385,17 @@ Med sociala berättelser kan användare lägga till eller skapa berättelser med
 
 Följ stegen nedan om du vill lägga till ett inlägg i en story:
 
-1. Klicka på den komprimerade menyikonen från det övre högra hörnet av ett inlägg och klicka på **[!UICONTROL Add to my Story]**.
+1. Klicka på den komprimerade menyikonen i det övre högra hörnet av ett inlägg och klicka på **[!UICONTROL Add to my Story]**.
 
    ![](assets/add-to-my-story-05.png)
 
-   *Lägg till i en artikel*
+   *Lägg till i en story*
 
-1. Från **Välj story** väljer du en relevant artikel för att lägga till inlägget. Om det inte finns några relevanta befintliga artiklar skapar du en artikel genom att klicka på **Ny story**.
+1. I dialogrutan **Välj story** väljer du en relevant story för att kunna lägga till inlägget. Om det inte finns några relevanta befintliga artiklar skapar du en artikel genom att klicka på **Ny artikel**.
 
    ![](assets/select-story-or-newstory-06.png)
 
-   *Skapa en artikel*
+   *Skapa en story*
 
 1. I dialogrutan Ny artikel fyller du i fälten Artikelnamn och Beskrivning. Du kan även ställa in synligheten för artikeln på Offentlig eller Privat.
 
@@ -487,17 +486,17 @@ Följ stegen nedan om du vill lägga till ett inlägg i en story:
 
 ## Visa innehåll på tavlor {#viewingcontentinboards}
 
-Tavlor är en samling av inlägg. Varje tavla i social utbildning skapas utifrån en färdighet. I Social utbildning kan användare visa **Alla tavlor** sida och **Mina tavlor** sidan.
+Tavlor är en samling av inlägg. Varje tavla i social utbildning skapas utifrån en färdighet. I Social utbildning kan användare visa sidan **Alla tavlor** och sidan **Mina tavlor**.
 
 På sidan Alla tavlor visas inlägg eller tavlor som skapats av alla användare i en aktivitet. Men på sidan Mina tavlor är bara tavlor som skapats, följts och deltagit av en användare synliga.
 
-På sidan Mina tavlor kan de synliga tavlorna filtreras enligt följande: **Alla**, **Skapad av mig**, **Kommenterat av mig**, **Följs av mig**.
+På sidan Mina tavlor kan de synliga tavlorna filtreras enligt följande: **Alla**, **Skapade av mig**, **Kommenterade av mig**, **Följda av mig**.
 
 ![](assets/board-filter-07.png)
 
 *Filtrera synliga tavlor*
 
-I både Mina tavlor och Alla tavlor kan användare sortera tavlorna efter **Relevans** eller **Datum**.
+I båda, Mina tavlor och Alla tavlor, kan användare sortera tavlorna efter **Relevans** eller **Datum**.
 
 ![](assets/sort-board-by-08.png)
 
@@ -510,7 +509,7 @@ Om det inte finns några relevanta tavlor för inlägget när du skapar ett inl�
 
    <!--![](assets/board-edit-options-10.png)-->
 
-**Användare kan se följande alternativ på en tavla sida:**
+**Användare kan se följande alternativ på en tavla:**
 
 * Antalet inlägg, visningar och personer som följer styrelsen syns på denna sida. Namnet på den som skapat anslagstavlan och datumet då styrelsen skapades visas också tillsammans med de främsta små och medelstora företagen för styrelsen.
 
@@ -524,11 +523,11 @@ Dela i sociala medier är ett bokmärke som gör det möjligt för användare at
 
 ![](assets/share-to-social-11.png)
 
-*Dela till social utbildning*
+*Dela i social utbildning*
 
 ## Mina kunskaper {#myskills}
 
-Användare kan visa kunskaper och antalet inlägg eller tavlor som skapats med en kompetens på sidan Mina tavlor. Om du vill se alla kunskaper som används av användaren när en tavla skapas klickar du på **[!UICONTROL See all Skills]**.
+Användare kan visa kunskaper och antalet inlägg eller tavlor som skapats med en kompetens på sidan Mina tavlor. Klicka på **[!UICONTROL See all Skills]** om du vill visa alla färdigheter som används av användaren när en tavla skapas.
 
 ![](assets/my-skills-12.png)
 
@@ -549,7 +548,7 @@ Följ de här stegen om du vill följa andra användare:
 
    ![](assets/follow-unfollow-peers-14.png)
 
-   *Följ eller avfölja en användare*
+   *Följ eller sluta följa en användare*
 
 ## Social resultattavla {#socialleaderboard}
 
@@ -557,7 +556,7 @@ Social resultattavla ger bättre spelifiering. Aktivitetspoäng delas ut till an
 
 Det totala antalet poäng och nya inlägg för alla användare i samma omfattning visas i listan över sociala resultattavlor. Eleven med maximalt antal poäng visas högst upp på rankningslistan för sociala medier följt av de andra eleverna därefter.
 
-Klicka **[!UICONTROL Go to Leaderboard]** i **Mina tavlor** för att se alla elever och antalet poäng de har fått.
+Klicka på **[!UICONTROL Go to Leaderboard]** på sidan **Mina tavlor** för att visa alla elever och hur många poäng de har tilldelats.
 
 ![](assets/social-leaderboard-15.png)
 
@@ -588,7 +587,7 @@ Organisationens administratör har också behörighet att lägga till fler poän
 
    <!--![](assets/curation-awaitingnotification.png)-->
 
-1. Om du vill moderera inlägget klickar du på **Klicka för att granska** länk. Den här åtgärden leder SME till sidan för innehållmoderering som ser ut som nedanstående skärmbild.
+1. Om du vill moderera inlägget klickar du på länken **Klicka för att granska**. Den här åtgärden leder SME till sidan för innehållmoderering som ser ut som nedanstående skärmbild.
 
    <!--![](assets/sme-moderation-page.png)-->
 
@@ -603,7 +602,7 @@ Varje sida i Social utbildning har ett sökfält där användarna kan leta efter
 
 <!--![](assets/search-16.png)-->
 
-Följande sidor i informell utbildning har ett sökfält: **Mina tavlor**, **Alla tavlor**, **Sidan Tavlor**, användarens **Profilsida** och **annan elevs profilsida**.
+Följande sidor i informell utbildning har ett sökfält: **Mina tavlor**, **Alla tavlor**, **Tavlorna**, användarens **profilsida** och **andra elevs profilsida**.
 
 När en användares sökning sker efter innehåll i den informella utbildningen visas det totala antalet sökresultat för innehållet i den informella och formella utbildningen för Learning Manager.
 
@@ -627,7 +626,7 @@ På profilsidan kan eleverna se det totala antalet erhållna poäng, antalet ska
 
 Elever kan också se de färdigheter som de har utsetts till ämnesområdesexperter för.
 
-Elevens sida visar också elevens **kuraterade stories**, **senaste aktiviteter** och **följda personer** av dem.
+Elevens sida visar också elevens **kurerade berättelser**, **nyligen utförda aktiviteter** och **personer som följs** av dem.
 
 ## Meddelanden {#notifications}
 

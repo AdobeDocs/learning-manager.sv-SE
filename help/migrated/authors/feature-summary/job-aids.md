@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Arbetsstöd
 
-**Arbetsstöd** är ett arkiv med utbildningsinnehåll som är tillgängligt för elever utan några registrerings- eller slutförandekriterier. Elever kan hänvisa till dessa arbetsstöd för att få hjälp med att utföra någon aktivitet eller uppgift i en organisation.
+**Arbetsstöd** är ett arkiv med utbildningsinnehåll som är tillgängligt för elever utan registrerings- eller slutförandekriterier. Elever kan hänvisa till dessa arbetsstöd för att få hjälp med att utföra någon aktivitet eller uppgift i en organisation.
 
 Arbetsstöd kan konsumeras oberoende av eller tillsammans med kursförbrukning i Learning Manager.
 
@@ -20,7 +20,7 @@ Författare kan skapa arbetsstöd för elever. Använd arbetsstöd för att ge e
 
 ## Skapa arbetsstöd {#createjobaid}
 
-1. Vid inloggning av författare väljer du **[!UICONTROL Job Aids]** i den vänstra rutan.
+1. Välj **[!UICONTROL Job Aids]** i den vänstra rutan vid författarens inloggning.
 1. Välj **[!UICONTROL Create]** längst upp till höger på sidan som visas.
 1. Skriv namn, beskrivning och taggar. Välj kunskaper och tillhörande nivåer. Välj innehållet som privat om du inte vill att andra författare ska få tillgång till arbetsstödet för tilldelning till sina respektive kurser.
 
@@ -37,14 +37,14 @@ Författare kan skapa arbetsstöd för elever. Använd arbetsstöd för att ge e
 
 ## Lägg till arbetsstöd på olika språk {#addcontentfordifferentlanguages}
 
-1. Om du vill lägga till arbetsstödet på olika språk väljer du **Lägg till nytt språk** och välja önskade språk. Med det här tillvägagångssättet kan du lägga till flerspråkigt stöd för ditt innehåll.
+1. Om du vill lägga till arbetsstödet på olika språk väljer du fliken **Lägg till nytt språk** och väljer önskade språk. Med det här tillvägagångssättet kan du lägga till flerspråkigt stöd för ditt innehåll.
 
    ![](assets/add-new-languagetab.png)
 
-   *Lägga till ett nytt språk för ett innehåll*
+   *Lägg till nytt språk för ett innehåll*
 
 1. Upprepa processen för uppladdning av arbetsstöd för de nya språken.
-1. Om du vill ta bort ett språk markerar du rutan **[!UICONTROL Add New Language]** och rensar markeringen.
+1. Om du vill ta bort ett språk väljer du fliken **[!UICONTROL Add New Language]** och rensar markeringen.
 
    När du har gjort ändringarna väljer du Spara.
 
@@ -73,7 +73,7 @@ Du kan dra tillbaka det publicerade arbetsstödet genom att klicka på inställn
 
 *Redigera, dra tillbaka eller förhandsgranska ett publicerat arbetsstöd*
 
-Visa indraget arbetsstöd genom att klicka på fliken indraget. Du kan återpublicera de återkallade jobben genom att klicka på inställningsikonen och välja Publicera.
+Visa indraget arbetsstöd genom att klicka på fliken indraget. Du kan återpublicera de återkallade jobben genom att klicka på inställningsikonen och välja Publish.
 
 ## Stöd till HTML-paket i arbetsstöd
 
@@ -83,7 +83,7 @@ När du skapar ett arbetsstöd kan en författare överföra ett HTML-standardpa
 
 ![](assets/html-job-aid.png)
 
-*Stöd för paket med HTML*
+*Stöd för HTML-paket*
 
 Ett HTML-paket måste ha följande egenskaper:
 
@@ -98,7 +98,7 @@ Allt innehåll, alla resurser och alla resurser måste anges i HTML och vara til
 
 +++Hur skapar man ett arbetsstöd?
 
-Du som är författare klickar på **[!UICONTROL Create]**. Lägg till de uppgifter som behövs och spara arbetsstödet.
+Klicka på **[!UICONTROL Create]** på sidan Arbetsstöd eftersom du är författare. Lägg till de uppgifter som behövs och spara arbetsstödet.
 
 När du har skapat arbetsstödet kan du lägga till arbetsstödet i en kurs samtidigt som du skapar kursen.
 

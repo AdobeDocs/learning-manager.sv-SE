@@ -1,7 +1,7 @@
 ---
-description: Läs den här artikeln för att veta hur du använder Fluidic Player för kurser.
+description: Läs den här artikeln när du vill veta hur du använder Fluidic-spelaren för kurser.
 jcr-language: en_us
-title: Flytande spelare
+title: Fluidic-spelare
 contentowner: manochan
 exl-id: 19dc07c4-9716-45f2-9c77-05d45da34b85
 source-git-commit: de57d96488851c31c380b34672767a803379842e
@@ -11,59 +11,59 @@ ht-degree: 0%
 
 ---
 
-# Flytande spelare
+# Fluidic-spelare
 
-Läs den här artikeln för att veta hur du använder Fluidic Player för kurser.
+Läs den här artikeln när du vill veta hur du använder Fluidic-spelaren för kurser.
 
-Fluidic Player är en plattform för elever att konsumera innehåll med oavbruten och blandad inlärningsupplevelse. Alla format som stöds spelas konsekvent i den här spelaren. Författare och administratörer kan förhandsgranska innehållet med hjälp av spelaren.
+Fluidic-spelaren är en plattform för elever som vill konsumera innehåll med oavbruten och blandad inlärningsupplevelse. Alla format som stöds spelas upp konsekvent i den här spelaren. Författare och administratörer kan förhandsgranska innehållet med spelaren.
 
-## Spelarens funktioner {#playerfeatures}
+## Spelarfunktioner {#playerfeatures}
 
 <!--![](assets/fluidicplayer-callout.png)-->
 
-**TOC** - När du startar en kurs visar spelaren en innehållsförteckning för den kursen i den vänstra rutan i fönstret. Du kan klicka på varje ämne och navigera direkt till det.
+**Innehållsförteckning** - När spelaren påbörjar en kurs visas en innehållsförteckning för kursen i den vänstra rutan i fönstret. Du kan klicka på varje ämne och navigera till det direkt.
 
-**Bokmärken** - Om någon av kursmodulerna har en modulens innehållsförteckning kan ämnen i modulens innehållsförteckning bokmärkas så att du kan hänvisa till dem senare. När du skapar ett bokmärke visas en stjärnikon bredvid innehållsförteckningsposten. Bokmärken kan tas bort genom att klicka på stjärnan igen.
+**Bokmärken** - Om någon av kursmodulerna har en modulinnehållsförteckning kan ämnen i modulens innehållsförteckning bokmärkas för att referera senare. När en post är bokmärkt visas en stjärnikon bredvid posten i innehållsförteckningen. Bokmärken kan du radera genom att klicka på stjärnan igen.
 
-**Anteckningar** - Det finns möjlighet att spela in anteckningar medan du går kursen. När du har spelat in anteckningarna kan du spara och ladda ner dem som PDF eller e-posta anteckningarna till e-post-ID för alla registrerade elever. När du klickar på Spara får du möjlighet att välja plats för att spara den som PDF-fil.
+**Anteckningar** - Det finns en bestämmelse för att registrera anteckningar medan du påbörjar kursen. När anteckningarna har spelats in kan du spara och ladda ned dem som PDF eller skicka dem med e-post till andra registrerade elevers e-postadresser. När du klickar på Spara får du ett alternativ för att välja platsen där du vill spara den som PDF-fil.
 
 ![](assets/notes.png)
 
 *Gör kursanteckningar*
 
-**Undertexter** - För Adobe Captivate-utvecklade kurser kan eleven se undertexterna om undertexterna är aktiverade under kursutvecklingen. Klicka på CC längst ned i spelaren.
+**Undertexter** - Om undertexter har aktiverats under kursutveckling för Adobe Captivate-utvecklade kurser kan eleven visa undertexterna. Klicka på CC längst ned i spelaren.
 
-**Gå tillbaka till kurs** - Du kan gå tillbaka till en kurs i två lägen under två möjliga scenarier:
+**Gå tillbaka till kursen** - Du kan gå tillbaka till en kurs i två lägen under två möjliga scenarier:
 
-* Klicka på Gå tillbaka när kursen är i fullständigt tillstånd.
-* Klicka på Fortsätt när kursen är i ofullständigt tillstånd.
+* Klicka på Besök igen när kursen är i fullständigt läge.
+* Klicka på Fortsätt medan kursen är i ofullständigt läge.
 
-**Helskärm** : Klicka på ikonen för helskärmsläge längst ned till höger i spelaren för att visa banan i helskärmsläge.
+**Helskärm** Klicka på helskärmsikonen längst ned till höger i spelaren om du vill visa kursen i helskärmsläge.
 
-**Navigeringsknappar** Använd upp- eller nedpilarna för att flytta över bilder i pdf-, docx- och pptx-innehåll. Bildpilar kan användas för att gå till nästa ämnen för alla typer av innehåll.
+**Navigeringsknappar** Använd uppåt- och nedåtpilarna för att förflytta dig mellan bilder i PDF-, docx- och pptx-innehåll. Bildpilar kan användas för att flytta till nästa avsnitt för alla typer av innehåll.
 
-**Hoppa framåt/bakåt** När du spelar en bana kan du använda ![](assets/asset-1.png) ikonen för att hoppa bakåt med tio sekunder och  ![](assets/assets-2.png) ikonen för att hoppa framåt med tio sekunder.
+**Hoppa framåt/bakåt** När du spelar en kurs kan du använda ikonen ![](assets/asset-1.png) för att hoppa tillbaka tio sekunder och ikonen ![](assets/assets-2.png) för att hoppa framåt tio sekunder.
 
-**Ändra uppspelningshastighet** Klicka på ![](assets/speedicon.png) ikonen för att öppna dialogrutan för inställningar. Du kan se ett popup-fönster som visar &quot;Hastighet&quot;. Klicka på Hastighet för att visa de fem tillgängliga hastighetsinställningarna: 0,25x, 0,5x, 1x, 1,5x och 2x. 1x är standard, normal uppspelningshastighet.
+**Ändra uppspelningshastigheten** Klicka på ikonen ![](assets/speedicon.png) för att öppna dialogrutan Inställningar. Ett popup-fönster med texten &quot;Speed&quot; visas. Klicka på Hastighet om du vill visa de fem tillgängliga hastighetsinställningarna: 0,25x, 0,5x, 1x, 1,5x och 2x. 1x är standarduppspelningshastigheten.
 
 ![](assets/speedvariants.png)
 
 *Välj rätt uppspelningshastighet*
 
-**Ändra volyminställningar:** Använd volymkontrollknappen för att ändra volymen när du går en kurs. Dra volymkontrollen uppåt eller nedåt för att ändra volyminställningarna.
+**Ändra volyminställningar:** Använd volymkontrollknappen för att ändra volymen när du går en kurs. Dra volymkontrollen uppåt eller nedåt om du vill ändra volyminställningarna.
 
 ![](assets/volumecontrol.png)
 
 *Justera volymen*
 
-**Stäng banan** Klicka på stängningsikonen (x) längst upp till höger i spelaren för att avsluta kursen.
+**Stäng kursen** Klicka på stängningsikonen (x) längst upp till höger i spelaren för att avsluta kursen.
 
-När du har lämnat kursen kan du gå tillbaka till kursen genom att klicka på **knappen Gå** tillbaka / **Fortsätt** på kursbeskrivningssidan.
+När du har lämnat kursen kan du gå tillbaka till kursen genom att klicka på knappen **Gå tillbaka**/**Fortsätt** på kursbeskrivningssidan.
 
-Den fluidiska spelaren kan också bäddas in i en extern webbplats eller applikation med hjälp av Learning Manager API.
+Fluidic-spelaren kan också bäddas in på en extern webbplats eller i ett externt program med Learning Manager API.
 
-Den mobila fluidikspelaren har följande funktioner:
+Den mobila fluidic-spelaren har följande funktioner:
 
-* Att röra eller trycka på skärmen bör inte pausa spelaren. I stället bör det ta upp spelarens navigeringsfält.
-* Om navigeringsfältet inte interageras med försvinner det efter 3 sekunder.
-* Navigeringsfältet förblir aktivt tills alternativen i navigeringsmenyn (TOC, Anteckningar, Inställningar) stängs.
+* Spelare bör inte pausas vid beröring eller tryck på skärmen. I stället bör det ta upp spelaren navigeringsfältet.
+* Om navigeringsfältet inte har interagerats med försvinner det efter 3 sekunder.
+* Navigeringsfältet förblir aktivt tills navigeringsmenyalternativen (Innehållsförteckning, Anteckningar, Inställningar) stängs.

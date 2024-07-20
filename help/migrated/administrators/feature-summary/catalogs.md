@@ -23,7 +23,7 @@ I den här utbildningen får du lära dig skapa och hantera kataloger.
 
 [![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QTV3NXVQ&amp;mv=display&amp;mv2=display#/course/8318922)
 
-Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
+Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
 
 
 ## Skapa en katalog {#createacatalog}
@@ -31,12 +31,12 @@ Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
 Så här skapar du en katalog:
 
 1. Du som är administratör klickar på Kataloger i den vänstra rutan. På den här sidan finns en standardkatalog som skapas automatiskt när du skapar ett Learning Manager-konto. Och som standard delas alla utbildningsobjekt i katalogen med alla elever.
-1. Om du vill skapa en katalog klickar du på i det övre högra hörnet på sidan **[!UICONTROL Create]**. Om du vill kan du också klicka på **[!UICONTROL Create Catalog]**, som finns under listan över kataloger.
-1. På fliken **[!UICONTROL Create Catalog]** -sidan anger du namnet på och beskrivningen av katalogen som du vill skapa.
+1. Om du vill skapa en katalog klickar du på **[!UICONTROL Create]** i det övre högra hörnet på sidan. Du kan också klicka på **[!UICONTROL Create Catalog]**, som finns under listan med kataloger.
+1. Ange namn och beskrivning för katalogen som du vill skapa på sidan **[!UICONTROL Create Catalog]**.
 
    ![](assets/create-catalog.png)
 
-   Klicka på **[!UICONTROL Next]**.
+   Klicka på **[!UICONTROL Next]** om du vill fortsätta.
 
    Miniatyrbilderna kan bara visas i det immersiva användargränssnittet, inte i det klassiska användargränssnittet.
 
@@ -58,37 +58,37 @@ Så här skapar du en katalog:
    Du kan lägga till flera kurser i katalogen.
 1. Du kan filtrera kurserna efter kunskaper, roller och språk. Den valda kursen rekommenderas till elever som är intresserade av dessa färdigheter och roller.
 1. Spara ändringarna. Gå tillbaka till listan med kataloger och klicka på den nya katalogen i listan.
-1. På sidan för den nya katalogen, i den vänstra rutan, klicka på **[!UICONTROL Content]**.
+1. Klicka på **[!UICONTROL Content]** i den vänstra rutan på sidan för den nya katalogen.
 
    ![](assets/click-content-inthecatalog.png)
 
    *Välj en kurs att lägga till i katalogen*
 
-   Kursen som du har lagt till visas i **[!UICONTROL Courses]** -fliken.
+   Kursen som du har lagt till visas på fliken **[!UICONTROL Courses]**.
 
 ## Lägg till ett utbildningsprogram i katalogen {#lp}
 
 1. Välj ett utbildningsprogram som du vill lägga till i katalogen i listan över utbildningsprogram.
 1. Spara ändringarna. Gå tillbaka till listan med kataloger och klicka på den nya katalogen i listan.
-1. På sidan för den nya katalogen, i den vänstra rutan, klicka på **[!UICONTROL Content]**.
+1. Klicka på **[!UICONTROL Content]** i den vänstra rutan på sidan för den nya katalogen.
 
-   Utbildningsprogrammet som du har lagt till visas i **[!UICONTROL Learning Programs]** -fliken.
+   Utbildningsprogrammet som du har lagt till visas på fliken **[!UICONTROL Learning Programs]**.
 
 ## Lägg till en certifiering i katalogen {#cert}
 
 1. I listan över certifieringar väljer du en certifiering som du vill lägga till i katalogen.
 1. Spara ändringarna. Gå tillbaka till listan med kataloger och klicka på den nya katalogen i listan.
-1. På sidan för den nya katalogen, i den vänstra rutan, klicka på **[!UICONTROL Content]**.
+1. Klicka på **[!UICONTROL Content]** i den vänstra rutan på sidan för den nya katalogen.
 
-   Certifieringen som du har lagt till visas i **[!UICONTROL Certifications]** -fliken.
+   Certifieringen som du har lagt till visas på fliken **[!UICONTROL Certifications]**.
 
 ## Lägg till ett arbetsstöd i katalogen {#job}
 
 1. Välj ett arbetsstöd som du vill lägga till i katalogen i listan över arbetsstöd.
 1. Spara ändringarna. Gå tillbaka till listan med kataloger och klicka på den nya katalogen i listan.
-1. På sidan för den nya katalogen, i den vänstra rutan, klicka på **[!UICONTROL Content]**.
+1. Klicka på **[!UICONTROL Content]** i den vänstra rutan på sidan för den nya katalogen.
 
-   Arbetsstödet som du har lagt till visas i **[!UICONTROL Job Aids]** -fliken.
+   Arbetsstödet som du har lagt till visas på fliken **[!UICONTROL Job Aids]**.
 
 Innehållet visas på var och en av dessa flikar om det redan finns på kontot. Annars måste du skapa innehållet först. Om du till exempel inte har lagt till någon av de kurser eller utbildningsprogram som redan finns i Learning Manager-programmet måste du börja skapa dem först.
 
@@ -96,7 +96,7 @@ Innehållet visas på var och en av dessa flikar om det redan finns på kontot. 
 
 En administratör kan skapa en djuplänk till en katalog som kan ta eleverna till den specifika katalogsidan.
 
-På fliken **[!UICONTROL Catalogs]** för musen över katalogen som du använder för djuplänken och klickar på den markerade ikonen.
+På sidan **[!UICONTROL Catalogs]** för du musen över katalogen som du klickar på länken för och klickar på den markerade ikonen.
 
 ![](assets/catalog-deep-link.png)
 
@@ -108,9 +108,9 @@ När du har skapat en katalog och lagt till utbildningsobjekt i den måste du ak
 
 Om du vill aktivera katalogen
 
-1. I listan med kataloger växlar du alternativet nära den katalog som du vill aktivera. Du kan också markera kryssrutan vid katalogen och klicka på **[!UICONTROL Actions]** i det övre högra hörnet och klicka på **[!UICONTROL Enable]**.
+1. I listan med kataloger växlar du alternativet nära den katalog som du vill aktivera. Du kan också markera kryssrutan nära katalogen, klicka på **[!UICONTROL Actions]** i det övre högra hörnet och klicka på **[!UICONTROL Enable]**.
 
-1. Du kan också aktivera flera kataloger i listan. Välj katalogerna och från **[!UICONTROL Action]** väljer du alternativet **[!UICONTROL Enable]**.
+1. Du kan också aktivera flera kataloger i listan. Markera katalogerna och välj alternativet **[!UICONTROL Enable]** på menyn **[!UICONTROL Action]**.
 
 ## Inaktivera katalogen {#disablethecatalog}
 
@@ -118,11 +118,11 @@ Om du vill inaktivera en katalog växlar du till alternativet nära katalogen.
 
 Du kan också markera kryssrutan nära katalogen, klicka på Åtgärder i det övre högra hörnet och klicka på **[!UICONTROL Disable]**.
 
-Du kan också inaktivera flera kataloger i listan. Markera katalogerna och välj alternativet på menyn Åtgärd **[!UICONTROL Disable]**.
+Du kan också inaktivera flera kataloger i listan. Markera katalogerna och välj alternativet **[!UICONTROL Disable]** på menyn Åtgärd.
 
 ## Ta bort katalogen {#deletethecatalog}
 
-Om du vill ta bort en katalog markerar du den i listan. Klicka antingen på knappen Ta bort vid katalogen eller klicka på **[!UICONTROL Actions]** > **[!UICONTROL Delete]**.
+Om du vill ta bort en katalog markerar du den i listan. Klicka antingen på knappen Ta bort nära katalogen eller klicka på **[!UICONTROL Actions]** > **[!UICONTROL Delete]**.
 
 Du kan även radera flera kataloger.
 
@@ -138,17 +138,17 @@ Den här utbildningen lär dig dela kataloger med interna användargrupper och e
 
 [![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
 
-Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
+Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
 
 ## Dela katalogen internt {#int}
 
 Välj en katalog som du vill dela internt.
 
-I den vänstra rutan klickar du på **[!UICONTROL Share Internally]**.
+Klicka på **[!UICONTROL Share Internally]** i den vänstra rutan.
 
 Om det inte finns några grupper måste du lägga till en intern användargrupp.
 
-Om du vill lägga till en intern användargrupp klickar du på **[!UICONTROL Add User Groups]**.
+Klicka på **[!UICONTROL Add User Groups]** om du vill lägga till en intern användargrupp.
 
 ![](assets/internal-usergroups.png)
 
@@ -158,23 +158,23 @@ Det finns inget alternativ tillgängligt för att aktivera/inaktivera en delad a
 
 ## Dela katalogen externt {#ext}
 
-Klicka på katalogen som du vill dela på sidan Kataloger. I den vänstra panelen klickar du på **[!UICONTROL Share Externally]**.
+Klicka på katalogen som du vill dela på sidan Kataloger. Klicka på **[!UICONTROL Share Externally]** i den vänstra panelen.
 
 ![](assets/shared-catalog-external.png)
 
 *Dela en katalog externt*
 
-Ange den underdomän som är kopplad till ditt Learning Manager-konto. Klicka **[!UICONTROL How to get subdomain?]** om du vill veta mer om underdomänanvändning. Du kan också klicka på **[!UICONTROL Branding]** till vänster på administratörens startsida för att se den underdomän som är kopplad till ditt organisationskonto.
+Ange den underdomän som är kopplad till ditt Learning Manager-konto. Klicka på **[!UICONTROL How to get subdomain?]** om du vill veta mer om underdomänanvändning. Du kan också klicka på **[!UICONTROL Branding]** i den vänstra rutan på startsidan för administratörer för att se underdomänen som är kopplad till ditt organisationskonto.
 
 **Gräns för registreringar**
 
-Du kan ställa in gränsen för antalet registreringar per kurs i den delade katalogen genom att lägga till antalet i **Fält för tillåtna registreringar**. Mottagaren av den delade katalogen kan inte använda kurserna med registreringsgränsen i utbildningsplaner.
+Du kan ställa in gränsen för antalet registreringar per kurs i den delade katalogen genom att lägga till antalet i fältet **Tillåtna registreringar**. Mottagaren av den delade katalogen kan inte använda kurserna med registreringsgränsen i utbildningsplaner.
 
-**Förfallodatum**
+**Förfaller**
 
-Du kan ange den delade katalogens giltighet genom att ange ett förfallodatum i **[!UICONTROL Expiry]** område. Efter utgångsdatumet för den delade katalogen är registrering inte tillåten för kurser. Befintliga elever kan fortfarande ha tillgång till innehållet. Utbildningsobjekten har fasats ut men utmärkelsetecknen och kunskaperna är aktiva. I det här läget kan den delade katalogmottagaren inte ta bort utfasade utbildningsobjekt.
+Du kan ange den delade katalogens giltighet genom att ange ett förfallodatum i fältet **[!UICONTROL Expiry]**. Efter utgångsdatumet för den delade katalogen är registrering inte tillåten för kurser. Befintliga elever kan fortfarande ha tillgång till innehållet. Utbildningsobjekten har fasats ut men utmärkelsetecknen och kunskaperna är aktiva. I det här läget kan den delade katalogmottagaren inte ta bort utfasade utbildningsobjekt.
 
-Klicka **[!UICONTROL Save]** efter att all nödvändig information har lagts till. Klicka **[!UICONTROL Actions]** i det övre högra hörnet på sidan och klicka på **[!UICONTROL Share]** för att dela katalogen med externa konton.
+Klicka på **[!UICONTROL Save]** när du har lagt till all nödvändig information. Klicka på rullgardinsmenyn **[!UICONTROL Actions]** i det övre högra hörnet på sidan och klicka på **[!UICONTROL Share]** för att dela katalogen med externa konton.
 
 Katalogerna som ägs av den kontodelande får endast delas med externa konton. Du kan inte dela kataloger som redan delas av andra konton med dig.
 
@@ -186,13 +186,13 @@ Utbildningsobjekten med öppet/aktivt läge för registrering läggs bara till i
 
 **Sluta dela kataloger**
 
-Om du slutar dela en katalog inaktiveras ett externt konto i programmet. Om du vill sluta dela en katalog klickar du på **[!UICONTROL Actions]** längst upp till höger på sidan och klicka på **[!UICONTROL Unshare]**. Du kan när som helst sluta dela en katalog. När delningen av en katalog avbryts flyttas alla utbildningsobjekt i den delade katalogen till tillståndet pensionerad. De inaktiverade katalogerna visas som indragna i mottagarens program.
+Om du slutar dela en katalog inaktiveras ett externt konto i programmet. Om du vill ta bort delningen av en katalog klickar du på **[!UICONTROL Actions]** längst upp till höger på sidan och klickar på **[!UICONTROL Unshare]**. Du kan när som helst sluta dela en katalog. När delningen av en katalog avbryts flyttas alla utbildningsobjekt i den delade katalogen till tillståndet pensionerad. De inaktiverade katalogerna visas som indragna i mottagarens program.
 
 Du kan bara ta bort ett externt konto från en delad lista innan mottagaren accepterar begäran.
 
 **Ta bort kataloger**
 
-Om du vill ta bort en delad katalog klickar du på **[!UICONTROL Actions]** och klicka på **[!UICONTROL Delete]**.
+Om du vill ta bort en delad katalog klickar du på rullgardinsmenyn **[!UICONTROL Actions]** och klickar på **[!UICONTROL Delete]**.
 
 * Du kan inte dela en standardkatalog med externa konton.
 * Du kan inte ta bort en katalog som har delats externt av dig.
@@ -267,7 +267,7 @@ Alla ändringar som görs för utbildningsobjekt i ägarapplikationen överförs
 * Nyligen tillagda resurser i delad katalog visas för mottagare automatiskt.
 * Kompetenser som är associerade med utbildningsobjekten kopieras till delade katalogmottagarkonton.
 
-* Om det delade katalogmottagarkontot redan hade samma kompetensnamn kommer ny kompetens att skapas och lägga till &#42; efter namnet.
+* Om det delade katalogmottagarkontot redan hade samma kompetensnamn skapas en ny kompetens och &#42; läggs till efter namnet.
 * Data (till exempel märken, L1, L3, meddelanden) i standardinstanserna av kurser och utbildningsprogram kopieras också till mottagarens konto tillsammans med kurser och utbildningsprogram.
 
 Återkommande certifieringar kan inte ingå i en externt delad katalog. Mottagaren kan inte använda förvärvade utbildningsobjekt i återkommande certifieringar om de har en registreringsgräns eller ett utgångsdatum angivet i katalogen.
@@ -293,7 +293,7 @@ Om mottagarna av delade kataloger ändrar något av de mottagna fälten för utb
 
 +++Hur lägger man till kurser, LP, och, Certifieringar till en katalog?
 
-Se avsnittet om du vill lägga till kurser, certifieringar och utbildningsprogram i katalogen [steg](catalogs.md#q1) för att inkludera dessa i katalogen.
+Information om hur du lägger till kurser, certifieringar och utbildningsprogram i katalogen finns i [stegen](catalogs.md#q1) för att inkludera dem i katalogen.
 
 +++
 
@@ -311,8 +311,8 @@ Se avsnitten nedan om du vill dela katalogen internt eller externt:
 Kataloger kan delas med elever i din organisation genom att använda användargrupperna. Följ stegen nedan för att tillåta elever eller elever att visa de kataloger de ingår i:
 
 1. Öppna en katalog och klicka på **[!UICONTROL Share Internally]**.
-1. Klicka på uppe till höger på sidan om du vill lägga till elever **[!UICONTROL Add]**.
-1. På fliken **[!UICONTROL User Groups]** dialog, börja lägga till elever.
+1. Klicka på **[!UICONTROL Add]** i det övre högra hörnet på sidan för att lägga till elever.
+1. Börja lägga till elever i dialogrutan **[!UICONTROL User Groups]**.
 1. Klicka på **[!UICONTROL Save]**.
 
 När en elev loggar in på Learning Manager har hen visat katalogerna som delades med honom/henne.
@@ -328,9 +328,9 @@ När du har skapat katalogetiketter kan du använda dem på specifika kataloger 
 1. Öppna Kataloger i den vänstra rutan.
 1. Välj katalog och använd på etiketten.
 1. Öppna Katalogetiketter i den vänstra rutan.
-1. Klicka **[!UICONTROL Edit]** längst upp till höger. På sidan visas en lista med tillgängliga katalogetiketter.
-1. Om du vill lägga till en etikett till katalogen klickar du på **[!UICONTROL Add to Catalog]**.
-1. Om du vill ta bort befintliga etiketter som lagts till i en katalog klickar du på **[!UICONTROL Remove]**.
+1. Klicka på **[!UICONTROL Edit]** i det övre högra hörnet. På sidan visas en lista med tillgängliga katalogetiketter.
+1. Klicka på **[!UICONTROL Add to Catalog]** om du vill lägga till en etikett i katalogen.
+1. Klicka på **[!UICONTROL Remove]** om du vill ta bort befintliga etiketter som lagts till i en katalog.
 
 +++
 

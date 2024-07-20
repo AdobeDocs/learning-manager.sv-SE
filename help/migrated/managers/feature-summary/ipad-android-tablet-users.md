@@ -3,22 +3,21 @@ jcr-language: en_us
 title: Användare av iPad- och Android-surfplattor
 description: iPad- och Android-surfplatteanvändare
 contentowner: manochan
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 61d7df21-1b45-4dc8-acc2-b360d35e7e4f
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%
 
 ---
 
-
-
 # Användare av iPad- och Android-surfplattor
 
-När du har loggat in som elev i Learning Manager-appen på en iPad- eller Android-surfplatta kan du se följande **Startsida** skärmen:
+När du har loggat in som elev i Learning Manager-appen på en iPad- eller Android-surfplatta kan du se följande **startskärm**:
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
-Gå till utbildnings- och katalogfunktionerna genom att trycka på **Meny** och väljer lämpligt alternativ.
+Gå till utbildnings- och katalogfunktionerna genom att trycka på rullgardinsmenyn **Meny** och välja lämpligt alternativ.
 
 ![](assets/menu-ipad.png)
 
@@ -37,7 +36,7 @@ Du kan komma åt Learning Manager-appen offline på iPad och Android-surfplattor
 
 Du kan övervaka enhetens lagring med jämna mellanrum.
 
-Tryck på profilikonen längst upp till höger i programmet och tryck sedan på **Enhetslagring** menyalternativ.
+Tryck på profilikonen längst upp till höger i programmet och tryck sedan på menyalternativet **Enhetslagring**.
 
 ![](assets/app-device-storage.png)
 

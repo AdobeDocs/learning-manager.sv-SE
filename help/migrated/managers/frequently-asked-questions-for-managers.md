@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: Vanliga frågor för chefer
-description: Vanliga frågor för Adobe Learning Manager-chefer
+description: Vanliga frågor och svar om Adobe Learning Manager-chefer
 contentowner: admin
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 4f684d4c-c700-4907-95cd-879df3167c1d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 0%
 
 ---
-
-
 
 # Vanliga frågor för chefer
 
@@ -71,7 +70,7 @@ Du kan klicka på rullgardinsikonen för att ändra datumintervallet, spara och 
 
 Du kan skapa rapporter för teammedlemmarna för att visa listan över kunskaper som tilldelats och uppnåtts av var och en av dem. Klicka på Rapporter i den vänstra rutan och klicka på fliken Exempelrapporter för att visa en exempelrapport om kompetens kontra chefer.
 
-Mer information finns i [Rapporter](feature-summary/reports.md) i Hjälp om Learning Manager.
+Mer information finns i funktionen [Rapporter](feature-summary/reports.md) i hjälpen för Learning Manager.
 
 +++
 
@@ -95,7 +94,7 @@ Om du vill avbryta ändringarna klickar du på Återställ.
 
 Om du vill ändra storlek på rapporten klickar du på Ändra storlek och väljer ett av de två alternativen: 1×1 är liten och 1×2 är stor.
 
-Mer information finns i  [Rapportfunktion.](feature-summary/reports.md)
+Mer information finns i [Funktionen Rapporter.](feature-summary/reports.md)
 
 +++
 
@@ -117,13 +116,13 @@ Du kan visa alla dessa rapporter med ett datumintervall.
 
 +++Kan jag se alla tillgängliga kurser? Hur?
 
-Du kan växla till elevrollen för att se alla tillgängliga kurser. Se  [Kurser](../learners/feature-summary/courses.md) för mer information
+Du kan växla till elevrollen för att se alla tillgängliga kurser. Se funktionen [Kurser](../learners/feature-summary/courses.md) för mer information
 
 +++
 
 +++Hur får jag åtkomst till chefsroll?
 
-Administratören för ditt företag tilldelar dig chefsrollen utifrån din behörighet och beteckning i organisationen. När du loggar in ser du startsidan för chefsrollen i Adobe Learning Manager.
+Administratören för ditt företag tilldelar dig chefsrollen utifrån din behörighet och beteckning i organisationen. När du loggar in visas startsidan för chefsrollen i Adobe Learning Manager.
 
 +++
 
@@ -132,7 +131,7 @@ Administratören för ditt företag tilldelar dig chefsrollen utifrån din behö
 När du använder Learning Manager för första gången har du tre alternativ:
 
 * Logga in med Adobe ID och lösenord. Om du inte har ett Adobe ID kan du skapa ett genom att klicka på länken Logga in med Adobe ID och följa anvisningarna.
-* Om du ännu inte har skapat ditt konto i Adobe Learning Manager skapar du ditt konto genom att klicka på Skapa konto på inloggningsskärmen.
+* Om du ännu inte har skapat något konto i Adobe Learning Manager skapar du kontot genom att klicka på Skapa konto på inloggningsskärmen.
 
 +++
 

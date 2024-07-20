@@ -43,12 +43,12 @@ I allt högre grad finns ett behov av att samla slutanvändarens utbildningsuppl
 
    ![](assets/appregistration.png)
 
-   *Registrera en ny ansökan*
+   *Registrera ett nytt program*
 
 1. Definiera programmets omfattning.
 
-   * Om **[!UICONTROL Admin role xAPI read and write access]** är aktiverat kan administratören publicera och hämta xAPI-satser och dokument.
-   * Om **[!UICONTROL Learner role xAPI read and write access]** är aktiverat kan administratören publicera och hämta xAPI-satser och dokument.
+   * Om **[!UICONTROL Admin role xAPI read and write access]** är aktiverat kan administratören publicera och hämta xAPI-satser och -dokument.
+   * Om **[!UICONTROL Learner role xAPI read and write access]** är aktiverat kan administratören publicera och hämta xAPI-satser och -dokument.
 
 1. Spara ändringarna. Du får ditt utvecklar-id och din hemlighet.
 
@@ -75,7 +75,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 Som författare kan du nu välja xAPI-modul när du skapar kurser för att övervaka användarupplevelsen utanför Learning Manager. Du kan till exempel använda den här funktionen för att utvärdera aktiviteter för användare på en tredjepartsplattform som används för kursförbrukning.
 
-1. När du skapar en **[!UICONTROL Activity Module]** i **[!UICONTROL Type]**alternativ, använd snabbmenyn till att välja  **[!UICONTROL xAPI-based Module.]**
+1. När du skapar en **[!UICONTROL Activity Module]** använder du snabbmenyn för att välja **[!UICONTROL xAPI-based Module.]** i **{1**alternativet[!UICONTROL Type]
 
    ![](assets/xapimodulecreation.png)
 
@@ -93,11 +93,11 @@ Som författare kan du nu välja xAPI-modul när du skapar kurser för att över
    Alla xAPI-satser med den nämnda IRI spåras i modulen ovan och återspeglas i Learning Manager-rapporterna.
 
 1. Gå tillbaka till sidan Aktivitetsmodul om du vill kopiera den automatiskt genererade IRI.
-1. Publicera modulen.
+1. Publish modulen.
 
 **Viktiga saker att observera:**
 
-* Learning Manager har för närvarande bara stöd för mbox som identifierare. Andra identifierare, inklusive mboz_sha1, openid , konto stöds inte.
+* Learning Manager har för närvarande bara stöd   mbox som identifierare. Andra identifierare, inklusive mboz_sha1, openid , konto stöds inte.
 
 * StateId och profileId är ett UUID när de används med Learning Manager.
 * PUT-begäran skriver inte över dokumentet för xAPI-agenter/profil, aktivitet/profil och aktivitet/tillstånd
@@ -108,13 +108,13 @@ Som författare kan du nu välja xAPI-modul när du skapar kurser för att över
 
 ## Generera rapporter {#generatereports}
 
-xAPI-rapporter kan genereras som Excel-rapporter. Som administratör öppnar du **[!UICONTROL Reports > Excel reports > xAPI activity report]**.
+xAPI-rapporter kan genereras som Excel-rapporter. Öppna **[!UICONTROL Reports > Excel reports > xAPI activity report]** som administratör.
 
 Den nedladdade rapporten hämtar all information som publicerats av eleven och administratören för ett kontoutdrag.
 
 Samma rapporter kan genereras/schemaläggas med FTP- och Box-anslutningar för alla tredjepartsintegreringar. Gör så här:
 
-Logga in som **Integreringsadministratör > Öppna FTP/Box-anslutning > Välj xAPI-aktivitetsrapport** från den vänstra panelen. Välj att schemalägga/generera en rapport.
+Logga in som **Integreringsadministratör > Öppna FTP-/Box-anslutning > välj xAPI-aktivitetsrapport** i den vänstra panelen. Välj att schemalägga/generera en rapport.
 
 ![](assets/xapischedule.png)
 

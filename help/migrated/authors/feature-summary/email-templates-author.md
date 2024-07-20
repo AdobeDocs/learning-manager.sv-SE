@@ -26,7 +26,7 @@ Du kan också välja att inte skicka e-postmeddelanden för vissa händelser gen
 
 1. På sidan Utbildningsobjekt klickar du på kursen, certifieringen eller utbildningsprogrammet som du vill konfigurera e-postinställningarna för.
 
-1. På informationssidan för utbildningsobjekt väljer du **E-postmallar** > **Alla mallar**. Det finns e-postmallar för **Standardinstans** och **Aktuell kurs**. Du kan växla mellan dem med hjälp av listrutan i det övre högra hörnet.
+1. På sidan med information om utbildningsobjekt väljer du **E-postmallar** > **Alla mallar**. E-postmallar är tillgängliga för **standardinstans** och **aktuell kurs**. Du kan växla mellan dem med hjälp av listrutan i det övre högra hörnet.
 
    Du kan se listan över mallar som är tillgängliga för det utbildningsobjekt du har valt.
 
@@ -64,7 +64,7 @@ Du kan också välja att inte skicka e-postmeddelanden för vissa händelser gen
 1. På sidan E-postmallar klickar du på knappen Ja/Nej för att skicka eller inaktivera meddelandet.
 
 ![](assets/email-notification-e1437624109719.png)
-*Aktivera eller inaktivera e-postmeddelande*
+*Aktivera eller inaktivera e-postavisering*
 
 Om cirkeln i aviseringsknappen vid varje händelsenamn finns intill Ja (med blå skugga som bakgrund) aktiveras aviseringen. Om det är i gråton och cirkeln finns bredvid Nej inaktiveras meddelandet.
 

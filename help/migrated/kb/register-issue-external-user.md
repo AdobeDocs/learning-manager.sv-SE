@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Det går inte att registrera sig som en extern användare
 description: Externa elever kan inte registrera sig för en profil i Adobe Learning Manager.
 contentowner: nluke
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: b1a9ecb6-75a8-44f7-b169-f77d7a4f6c2c
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 3%
 
 ---
-
-
 
 # Det går inte att registrera sig som en extern användare
 
@@ -43,18 +42,18 @@ Det här problemet uppstår i ett av följande scenarier:
 **Scenario 1:** Användaren är redan registrerad i en annan extern profil.
 
 1. Logga in som administratör.
-1. Under **Hantera** klickar du på **[!UICONTROL Users]** > **[!UICONTROL External]**.
+1. Klicka på **[!UICONTROL Users]** > **[!UICONTROL External]** under **Hantera**.
 1. Öppna profilen som användaren redan ingår i genom att klicka på de platser som används
 
    ![](assets/cp-seats-used.png)
 
    *Öppna användarens profil*
 
-1. Välj användaren och klicka på **[!UICONTROL Actions]** > **[!UICONTROL Change Profile]**.
+1. Välj användaren, klicka på **[!UICONTROL Actions]** > **[!UICONTROL Change Profile]**.
 
    ![](assets/cp-change-profile.png)
 
-   *Ändra användarprofil*
+   *Ändra användarens profil*
 
    Detta öppnar ett fönster där du kan välja en ny profil enligt nedan.
 
@@ -62,34 +61,34 @@ Det här problemet uppstår i ett av följande scenarier:
 
    *Välj användarprofil*
 
-1. När du har valt klickar du på **[!UICONTROL Change]**.
+1. Klicka på **[!UICONTROL Change]** när du har valt.
 
 **Scenario 2:** Användaren finns som en intern elev.
 
 1. Logga in som administratör.
-1. Under **Hantera** klickar du på **[!UICONTROL Users]** > **[!UICONTROL Internal]**.
+1. Klicka på **[!UICONTROL Users]** > **[!UICONTROL Internal]** under **Hantera**.
 1. Klicka för att öppna en elevprofil och klicka på ikonen Redigera.
 
    ![](assets/cp-internal-learner.png)
 
    *Öppna en intern elevprofil*
 
-1. Ändra elevens e-postadress eller lägg till *_old* till befintlig e-postadress. Detta frigör e-postadressen.
+1. Ändra elevens e-postadress eller lägg till *_old* till den befintliga e-postadressen. Detta frigör e-postadressen.
 
-   Exempel: Om elevens e-postadress är *<abc@adobe.com>,* ändra den till *<abc_old@adobe.com>*
+   Om elevens e-postadress till exempel är *<abc@adobe.com>,* ändrar du den till *<abc_old@adobe.com>*
 
-1. Klicka **Spara** för att behålla ändringarna.
+1. Klicka på **Spara** för att behålla ändringarna.
 
 **Scenario 3**: Användaren är i ett borttaget tillstånd.
 
 1. Logga in som administratör.
-1. Under **Hantera** klickar du på **[!UICONTROL Users]** > **[!UICONTROL User Cleanup]**.
+1. Klicka på **[!UICONTROL Users]** > **[!UICONTROL User Cleanup]** under **Hantera**.
 1. Välj eleven och klicka på ikonen Redigera.
 
    ![](assets/cp-deleted-learner.png)
 
    *Redigera användarens e-postadress*
 
-1. Ändra elevens e-postadress eller lägg till *_old* till befintlig e-postadress. Detta frigör e-postadressen.
+1. Ändra elevens e-postadress eller lägg till *_old* till den befintliga e-postadressen. Detta frigör e-postadressen.
 
-   Exempel: Om elevens e-postadress är **<abc@adobe.com>**, ändra den till **<abc_old@adobe.com>**.
+   Om elevens e-postadress till exempel är **<abc@adobe.com>** ändrar du den till **<abc_old@adobe.com>**.

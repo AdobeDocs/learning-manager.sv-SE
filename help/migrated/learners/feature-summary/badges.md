@@ -3,14 +3,13 @@ description: Lär dig visa och hämta utmärkelsetecken med Learning Manager-ele
 jcr-language: en_us
 title: Utmärkelsetecken
 contentowner: manochan
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: d0136a79-7044-4a1e-85bb-bd7b1ae24ba1
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 0%
 
 ---
-
-
 
 # Utmärkelsetecken
 
@@ -18,7 +17,7 @@ Lär dig visa och hämta utmärkelsetecken med Learning Manager-elevappen.
 
 ## Utmärkelsetecken {#Badges-1}
 
-Utmärkelsetecken är ett mått på prestation som din medarbetare kan tjäna på att ha slutfört en kurs. I Adobe Learning Manager introduceras ett av de senaste e-utbildningskoncepten som heter Badges. Yrkesverksamma över hela världen använder dessa utmärkelsetecken som en representation av en viss färdighet eller en utbildningsinsats.
+Utmärkelsetecken är ett mått på prestation som din medarbetare kan tjäna på att ha slutfört en kurs. Adobe Learning Manager introducerar ett av de senaste e-utbildningskoncepten som heter Badges. Yrkesverksamma över hela världen använder dessa utmärkelsetecken som en representation av en viss färdighet eller en utbildningsinsats.
 
 Märken hjälper elever att bättre definiera sig själva och visa upp sina detaljerade kunskaper förutom att de ger trovärdighet och god synlighet för elever.
 
@@ -30,13 +29,13 @@ Nyligen uppnådda utmärkelsetecken visas längst till vänster i listan följt 
 
 Klicka på ett märke för att få en lista över alla utmärkelsetecken du har skaffat. Du kan också visa alla tillgängliga märken justerade till respektive kurser. Klicka på kursnamnet i utmärkelsetecken som ännu inte har uppnåtts för att visa kursen som är anpassad till utmärkelsetecknet. En exempelögonblicksbild visas nedan som referens.
 
-Klicka **[!UICONTROL Download All Badges]** länk för att ladda ner alla dina förvärvade märken i zip-format. Du kan också ladda ner ett enskilt märke genom att klicka på kubikonen bredvid varje märke.
+Klicka på länken **[!UICONTROL Download All Badges]** för att hämta alla dina förvärvade utmärkelsetecken i zip-format. Du kan också ladda ner ett enskilt märke genom att klicka på kubikonen bredvid varje märke.
 
 **Ladda ned utmärkelsetecken som PDF**
 
 Du kan även hämta en uppsättning märken eller ett enskilt märke i PDF-format.
 
-* Klicka **[!UICONTROL Download All Badge Records]** för att ladda ned de utmärkelsetecken du har förvärvat som PDF.
+* Klicka på **[!UICONTROL Download All Badge Records]** för att ladda ned de utmärkelsetecken du förvärvat som PDF.
 * Om du vill hämta enskilda märken markerar du märket och klickar på PDF-ikonen bredvid märkesnamnet.
 
 ![](assets/badges.png)
@@ -45,7 +44,7 @@ Du kan även hämta en uppsättning märken eller ett enskilt märke i PDF-forma
 
 ## Öppna märken {#openbadges}
 
-Open Badges-ryggsäcksplattformen, som Learning Manager stöder, håller på att **pensionerad**. För närvarande stöder Learning Manager inte Open Badges.
+Plattformen med Open Badges-ryggsäcken, som Learning Manager stöder, håller på att **fasas ut**. För närvarande stöder Learning Manager inte Open Badges.
 
 Öppna märken är en standard för att känna igen och verifiera inlärning för elever. Du kan använda dessa märken för att visa upp dina prestationer online.
 
@@ -57,7 +56,7 @@ Elever kan integrera sitt konto för utbildningsplattformen med sitt Badgr-konto
 
 Öppna märken är märken som har viss metadata inbäddad i emblembilden. Dessa metadata ger information om utfärdare, mottagare, den uppgift som utförts, giltigheten av märket etc. Badgr-ryggsäck kommer att vara tillgänglig direkt från Learning Manager för att ge en central plats att lagra alla utmärkelsetecken och dela dem. Elever kan logga in på sitt Badgr-konto och upprätta integreringen. Från och med då laddas utmärkelsetecken som uppnåtts i Learning Manager automatiskt upp till Badgr-kontot.
 
-När administratören har aktiverat alternativet **Badgr-integrering** kan en elev sedan integrera med Badgr och konfigurera sitt utmärkelsetecken. För att integrera måste eleven logga in på Badgr-kontot från Learning Manager.
+När administratören har aktiverat alternativet **Badgr-integrering** kan en elev sedan integrera med Badgr och konfigurera sitt badge. För att integrera måste eleven logga in på Badgr-kontot från Learning Manager.
 
 >[!NOTE]
 >
@@ -79,6 +78,6 @@ Processen att uppdatera sidan kallas manuell ombakning. I det här fallet laddas
 
 ## Vanliga frågor {#frequentlyaskedquestions}
 
-**1. Hur laddar man ner Badge som elev?**
+**1. Hur hämtar jag utmärkelsetecknet som elev?**
 
-På märkessidan kan du ladda ned ett märke som en bild eller i PDF-format. Välj en kompetens eller en kurs och klicka på antingen **PDF** eller **Tecken**.
+På märkessidan kan du ladda ned ett märke som en bild eller i PDF-format. Välj en kompetens eller en kurs och klicka på antingen **PDF** eller **Märke**.

@@ -17,18 +17,18 @@ Lär dig skapa certifieringar, registrera elever och redigera publicerade certif
 
 Certifiera dina elever som engångsföreteelse eller enligt en återkommande tidsram med den här funktionen. Endast administratörer kan definiera certifieringarna för elever.
 
-Som administratör kan du skapa ett certifieringsprogram som antingen är internt värdbaserat eller genomförs av en tredje part. Vid intern certifiering anger du de kurser som en elev måste slutföra för att bli certifierad. Publicera programmet och tilldela det sedan till elever.
+Som administratör kan du skapa ett certifieringsprogram som antingen är internt värdbaserat eller genomförs av en tredje part. Vid intern certifiering anger du de kurser som en elev måste slutföra för att bli certifierad. Publish programmet och tilldela det sedan till elever.
 
 ## Skapa en certifiering {#createacertification}
 
-1. Klicka **[!UICONTROL Certification]** i den vänstra rutan.\
+1. Klicka på **[!UICONTROL Certification]** i den vänstra rutan.\
    En sida visas med en lista över alla utkast och publicerat tillstånd för certifieringarna.
 
 1. Visa certifieringar i olika lägen:
 
-   1. Klicka **[!UICONTROL Draft]** för att se alla certifieringar som är i utkastläge. Du måste slutföra skapandet av dem.
-   1. Klicka **[!UICONTROL Published]** för att se alla certifieringar som publicerats av dig.
-   1. Klicka **[!UICONTROL All]** för att visa certifieringarna i alla lägen.
+   1. Klicka på fliken **[!UICONTROL Draft]** om du vill se alla certifieringar som är i utkastläge. Du måste slutföra skapandet av dem.
+   1. Klicka på **[!UICONTROL Published]** för att se alla certifieringar som publicerats av dig.
+   1. Klicka på **[!UICONTROL All]** för att visa certifieringarna i alla tillstånd.
    1. Sortera och visa listan med certifieringar i stigande eller fallande ordning eller baserat på det datum du uppdaterade dem.
 
 1. Klicka på **[!UICONTROL Add]**.
@@ -57,7 +57,7 @@ Som administratör kan du skapa ett certifieringsprogram som antingen är intern
     <p>Typ av certifiering:</p>
     <ul>
      <li><b>Återkommande</b>- Välj det här alternativet om certifieringen måste ske efter varje år, två år eller tre år.</li>
-     <li><b>Permanent</b>- Välj det här alternativet om certifieringen ska vara ett engångskrav.</li>
+     <li><b>Permanent</b>- Välj det här alternativet om certifieringen måste vara engångskravet.</li>
     </ul></td>
   </tr>
   <tr>
@@ -79,13 +79,13 @@ Som administratör kan du skapa ett certifieringsprogram som antingen är intern
   <tr>
    <td>Certifieringsutfärdare<br></td>
    <td>
-    <p>Välj <b>Internt</b> om den tillhör din organisation eller välj <b>Extern</b> för certifieringar av externa organisationer.</p>
-    <p>När du väljer <b>Extern certifiering</b>visas ytterligare två alternativ</p>
+    <p>Välj <b>Intern</b> om den tillhör din organisation, eller välj <b>Extern</b> för externa organisationscertifieringar.</p>
+    <p>När du väljer <b>Extern certifiering</b> visas ytterligare två alternativ:</p>
     <ul>
      <li>Samma som godkännandedatum<br></li>
      <li>Inskickat av elev<br></li>
     </ul>
-    <p>Elever kan ange rätt slutförandedatum för externa certifieringar. I tidigare versioner angavs slutförandedatumet som standard av Prime, baserat på datumet för chefens godkännande. Slutförandedatum som tillhandahålls av eleven ska vara senare än datumet för skapande av certifikat<span>.</span></p></td>
+    <p>Elever kan ange rätt slutförandedatum för externa certifieringar. I tidigare versioner angavs slutförandedatumet som standard av Prime, baserat på datumet för chefens godkännande. Slutförandedatum som tillhandahålls av eleven ska vara senare än skapandedatumet för certifikatet<span>.</span></p></td>
   </tr>
   <tr>
    <td>Varaktighet</td>
@@ -102,17 +102,17 @@ Som administratör kan du skapa ett certifieringsprogram som antingen är intern
  </tbody>
 </table>
 
-Välj nivå för produkter, roller och roller i **[!UICONTROL Recommend for]** -avsnittet för att föreslå den här utbildningsvägen för användare som har uttryckt intresse för dessa produkter och roller.
+Välj nivå för produkter, roller och roller i avsnittet **[!UICONTROL Recommend for]** för att föreslå den här utbildningsvägen för användare som har uttryckt intresse för dessa produkter och roller.
 
 ![](assets/recommend-for.png)
 
 *Rekommendation*
 
-Välj de kurser som ska läggas till i certifieringen från **[!UICONTROL Courses]** > **[!UICONTROL Catalog]** -fliken.
+Välj de kurser som ska läggas till i certifieringen från fliken **[!UICONTROL Courses]** > **[!UICONTROL Catalog]**.
 
-Håll muspekaren över varje kursruta och klicka på + för att lägga till dem i certifieringen. Klicka **[!UICONTROL Preview]** för att visa kursen som elev innan du lägger till den.
+Håll muspekaren över varje kursruta och klicka på + för att lägga till dem i certifieringen. Klicka på **[!UICONTROL Preview]** för att visa kursen som elev innan du lägger till den.
 
-1. Klicka **[!UICONTROL Curriculum]** för att visa/verifiera listan över kurser som du har lagt till.
+1. Klicka på fliken **[!UICONTROL Curriculum]** för att visa/verifiera listan över kurser som du har lagt till.
 1. Klicka på **[!UICONTROL Publish]**.
 
 ## Mappning av kursinstanser för certifieringar {#courseinstancemappingforcertifications}
@@ -130,7 +130,7 @@ En administratör kan lägga till klassrums- och virtuella klassrumstyper till e
 
 ## Aktivera fullständig katalogkontroll {#catalog}
 
-Som att bevilja fullständig [katalogkontroll för utbildningar eller moduler](shared-catalog-full-control.md)Du kan också aktivera fullständig katalogkontroll för certifieringar.
+Precis som att bevilja fullständig [katalogkontroll för utbildningar eller moduler](shared-catalog-full-control.md) kan du även aktivera fullständig katalogkontroll för certifieringar.
 
 ## Registrera eller avregistrera elever till certifieringen {#enrollorunenrolllearnerstothecertification}
 
@@ -142,7 +142,7 @@ När du skapar certifieringar har administratören ett alternativ för att välj
 
 ![](assets/unenrollment.png)
 
-*Välj för att avregistrera elever*
+*Välj att avregistrera elever*
 
 ## Markera slutförande {#markcompletion}
 
@@ -153,7 +153,7 @@ Administratörer kan markera en certifiering som slutförd med det alternativ so
    Sidan Elever öppnas med listan över registrerade elever.
 
 1. Markera en/flera/alla elever för att markera slutförande av certifieringen med kryssrutan Tillgänglig för varje elev.
-1. Klicka  **[!UICONTROL Action]** > **[!UICONTROL Mark completion.]**
+1. Klicka på **[!UICONTROL Action]** > **[!UICONTROL Mark completion.]**
 
    Observera att om en certifiering har flera kurser kommer slutförande att markeras för alla kurser.
 

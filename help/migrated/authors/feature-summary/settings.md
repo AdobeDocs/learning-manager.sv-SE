@@ -15,17 +15,17 @@ ht-degree: 2%
 
 ## Inställningar {#Settings-1}
 
-Visa din profilinformation, lägg till/ändra ett profilfoto och ändra **Om mig** innehåll.
+Visa din profilinformation, lägg till/ändra profilfoto och ändra **Om mig**-innehåll.
 
 ## Kontoinställningar {#accountsettings}
 
-1. Välj rullgardinspilen i det övre högra hörnet bredvid ditt foto/konto och välj **Profilinställningar**.
+1. Välj pilen i det övre högra hörnet bredvid ditt foto/konto och välj **Profilinställningar**.
 1. I popup-dialogrutan kan du lägga till/ändra ett foto genom att hålla muspekaren över det och välja **Redigera** i profilfotoområdet.
-1. Lägg till/ändra **Om mig** genom att klicka i textområdet under.
+1. Lägg till/ändra **Om mig**-innehåll genom att klicka i textområdet under det.
 1. Ändra följande inställningar:
-   * **Gränssnittsspråk**: Du kan välja ALM Interface Language i listrutan.
-   * **Språk för innehåll**: Du kan välja vilket standardspråk som ska användas för innehållet i spelaren. Du kan se tillgängliga språk i spelaren.
-   * **Tidszon**: Välj din tidszon
+   * **Gränssnittsspråk**: Du kan välja ALM-gränssnittsspråk i listrutan.
+   * **Språk för innehållet**: Du kan välja vilket standardspråk som ska användas för innehållet i spelaren. Du kan se tillgängliga språk i spelaren.
+   * **Tidszon**: Välj tidszon
    * **[!UICONTROL Preferences]**: Om du klickar på modulen registreras du och utbildningen startar.
-   * **Betygsutdrag**: Du kan hämta utbildningsutskrifterna.
+   * **Betygsutdrag**: Du kan ladda ned dina inlärningsutskrifter.
 1. Klicka på **[!UICONTROL Save]**.

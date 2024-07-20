@@ -19,9 +19,9 @@ Importera kompetenser från innehållsleverantörer, t.ex. LinkedIn och Go1, gen
 
 Följ stegen i proceduren för att aktivera kunskapsimport i kontot.
 
-1. I Admin-programmet väljer du **Inställningar** i den vänstra rutan.
+1. I Admin-appen väljer du **Inställningar** i den vänstra rutan.
 1. Välj **Allmänt**.
-1. I dialogrutan **Import av kompetenser** -sektionen väljer du **Aktivera**. Om det här alternativet är aktiverat kan du välja en extern källa för att importera kunskaper. När de har aktiverats för all efterföljande import av utbildningsresurser importeras kunskaperna till kunskapsdatabasen för nyligen importerade objekt. Kunskaperna för befintliga utbildningsresurser kan importeras till kunskapsdatabasen en gång och för att köra den första körningen ska du kontakta din CSM.
+1. I avsnittet **Import av kompetenser** väljer du **Aktivera**. Om det här alternativet är aktiverat kan du välja en extern källa för att importera kunskaper. När de har aktiverats för all efterföljande import av utbildningsresurser importeras kunskaperna till kunskapsdatabasen för nyligen importerade objekt. Kunskaperna för befintliga utbildningsresurser kan importeras till kunskapsdatabasen en gång och för att köra den första körningen ska du kontakta din CSM.
 1. Välj en innehållsleverantör i listrutan.
 
 Du som är administratör kan bara importera kunskaper från en kompetenskälla.
@@ -38,11 +38,11 @@ När du har importerat kunskaper läggs de till i utbildningsresurserna som impo
 
 #### Rapportering
 
-Kolumnen **Källa** med values- internal, LinkedIn Learning, Go1, som anger källan till kunskapsimport.
+Kolumnen **Source** med values- Internal, LinkedIn Learning, Go1, som anger källan för kompetensimport.
 
 De nyligen tillagda kunskaperna kommer att vara överst.
 
-På sidan Kursinställningar visas kolumnen **Tilldelad av** innehåller värden, intern och innehållsleverantör.
+På sidan för kursinställning finns kolumnen **Tilldelad av** som innehåller värden, intern och innehållsleverantör.
 
 
 ## Arbetsflöde för integreringsadministratör
@@ -58,4 +58,4 @@ Som administratör
 
 ### Redigera en kompetens
 
-Välj en kompetens. I dialogrutan **Redigera en kompetens** kan du inte redigera namnet på och beskrivningen av kompetensen. Du kan dock lägga till kompetensdomäner och ett utmärkelsetecken för kompetensen.
+Välj en kompetens. I popup-fönstret **Redigera en kompetens** kan du inte redigera namnet och beskrivningen av kompetensen. Du kan dock lägga till kompetensdomäner och ett utmärkelsetecken för kompetensen.

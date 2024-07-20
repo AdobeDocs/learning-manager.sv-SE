@@ -34,11 +34,11 @@ Detta inträffar vanligtvis när e-postmallarna har anpassats felaktigt.
 Följ stegen nedan för att undvika fel som är relaterade till trasiga länkar som kan visas på grund av anpassning:
 
 1. Logga in som administratör.
-1. Klicka på i den vänstra panelen **[!UICONTROL Email Templates]**.
+1. Klicka på **[!UICONTROL Email Templates]** i den vänstra panelen.
 
 1. Navigera till önskad mall och klicka för att ändra den.
 
-   Då öppnas fönstret **Förhandsgranskning av mall** -fönstret.
+   Då öppnas fönstret **Förhandsgranskning av mall**.
 
    ![](assets/email-template.png)
 
@@ -46,8 +46,8 @@ Följ stegen nedan för att undvika fel som är relaterade till trasiga länkar 
 
    * Vi rekommenderar att du ändrar en e-postmall i Learning Manager-gränssnittet.
    * Kopiera och klistra in den ändrade mallen på en Anteckningar/Word-fil för att lagra en kopia av ändringarna.
-   * Undvik att ersätta dynamisk text i mallen som är markerad med blått. Till exempel &quot;**OrganizationName**&quot;, &quot;**Elev**&quot;, &quot;**klicka här**&quot;, &quot;**CertificateName**&quot;, och så vidare.
+   * Undvik att ersätta dynamisk text i mallen som är markerad med blått. Exempel: &quot;**OrganizationName**&quot;, &quot;**Elev**&quot;, &quot;**klicka här**&quot;, &quot;**Certifikatnamn**&quot; och så vidare.
 
-1. Klicka **[!UICONTROL Save]** för att bekräfta de ändringar som har tillämpats på mallen.
+1. Klicka på **[!UICONTROL Save]** för att bekräfta ändringarna som har tillämpats på mallen.
 1. Utlös e-postmeddelandet för att verifiera om länkarna fungerar som förväntat.
-1. Återställ inställningarna till originalet genom att klicka på alternativet **Återgå till original** för den ändrade mallen.
+1. Återställ inställningarna till originalet genom att klicka på alternativet **Återställ till original** för den ändrade mallen.

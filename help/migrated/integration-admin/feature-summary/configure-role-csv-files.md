@@ -50,7 +50,7 @@ Kom igång genom att hämta CSV-filerna och ändra värdena enligt dina krav.
   </tr>
   <tr>
    <td>
-    <p>&lt;Entity&gt;</p></td>
+    <p>&lt;Entitet&gt;</p></td>
    <td>
     <p>Identifiera åtkomsttyp (FULLSTÄNDIG, SKRIV, REGISTRERA, RAPPORT, INGEN) för varje entitetstyp, t.ex. Kurs, KATALOG osv.</p></td>
    <td>
@@ -132,7 +132,7 @@ Du kan ange omfång för användargrupper för olika typer av grupper på följa
  </tbody>
 </table>
 
-**Funktioner med fullständig omfattning**
+**Funktioner med fullständigt omfång**
 
 När fullständig behörighet har tilldelats för någon av följande funktioner (funktioner på kontonivå) anses användargruppens omfång och katalogomfånget automatiskt vara FULLSTÄNDIGT, eftersom användaren inte kan ha begränsad åtkomst till dessa funktioner.
 
@@ -147,10 +147,10 @@ Om några katalognamn eller användargruppsnamn anges i CSV-filen åsidosätts d
 
 ## Lägg till roll-CSV:er i kontot {#addtherolecsvsintheaccount}
 
-I ditt Box-konto väljer du **Importera > Användare > internt** och ladda upp filerna role.csv och user_role.csv.
+Välj **Importera > användare > intern** i ditt Box-konto och överför filerna - role.csv och user_role.csv.
 
-* Role.csv och user_role.csv måste kopieras till mappen **Importera** > **användare** > **intern** > **user_role**.
-* user.csv måste kopieras i mappen **Importera** > **användare** > **intern**.
+* Role.csv och user_role.csv måste kopieras i mappen **Import** > **user** > **internal** > **user_role**.
+* User.csv måste kopieras i mappen **Import** > **user** > **internal**.
 
 Båda CSV-filerna måste endast överföras via Box och kan inte överföras via användargränssnittet.
 
@@ -170,9 +170,9 @@ Uppdatera CSV-filerna om du vill tilldela och återkalla en anpassad roll.
 
 När integreringsadministratören har överfört rollbaserade CSV-filer i Connector-lagringen kan administratören aktivera synkronisering till CSV-filerna. Varje gång en anpassad roll uppdateras, läggs till eller tas bort i CSV-filerna kan administratören synka informationen i filerna och göra listan över roller aktuell.
 
-På sidan Komma igång på administratörspanelen klickar du på **[!UICONTROL Settings]** > **[!UICONTROL Data Sources]**.
+Klicka på **[!UICONTROL Settings]** > **[!UICONTROL Data Sources]** på sidan Komma igång på administratörspanelen.
 
-Aktivera alternativet i avsnittet Synkronisera inställningar **[!UICONTROL Enable Auto Sync]**.
+Aktivera alternativet **[!UICONTROL Enable Auto Sync]** i avsnittet Synkronisera inställningar.
 
 ![](assets/sync-settings.png)
 
@@ -180,7 +180,7 @@ Aktivera alternativet i avsnittet Synkronisera inställningar **[!UICONTROL Enab
 
 När du väljer det här alternativet kan du schemalägga synkroniseringstiden vid exakt den tidpunkt som du anger i fältet Synkroniseringstid. Om du anger synkroniseringstiden till klockan 00:00 uppdateras de anpassade rollerna vid exakt den angivna tiden varje dag.
 
-Om du vill synkronisera data på begäran klickar du på **[!UICONTROL Sync Now]**.
+Klicka på **[!UICONTROL Sync Now]** om du vill synkronisera data på begäran.
 
 ## Begränsningar när roller konfigureras {#constraintswhileconfiguringroles}
 

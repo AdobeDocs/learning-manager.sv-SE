@@ -3,14 +3,13 @@ description: Konfigurera användarmeddelanden för chefer.
 jcr-language: en_us
 title: Användarmeddelanden
 contentowner: manochan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 0ed6aea9-9dd4-465a-8723-56d600a35236
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
 
 ---
-
-
 
 # Användarmeddelanden
 
@@ -30,7 +29,7 @@ Användare kan se meddelanden genom att klicka på aviseringsikonen i det övre 
 
 Det här popup-fönstret visar markeringar av alla meddelanden tillsammans med tidpunkten för förekomsten med en rullningslist. Om du vill visa mer information om alla meddelanden klickar du på Visa alla meddelanden längst ned i popup-fönstret. Sidan Meddelanden visas.
 
-En chef kan se väntande uppgifter och alla meddelanden i flikform på aviseringssidan. Meddelanden om väntande uppgifter kategoriseras baserat på godkännanden, nomineringar och så vidare. Om du vill visa alla meddelanden klickar du på **[!UICONTROL All Notifications]** -fliken. På fliken Alla meddelanden sorteras meddelandena efter datum och tid och visas.
+En chef kan se väntande uppgifter och alla meddelanden i flikform på aviseringssidan. Meddelanden om väntande uppgifter kategoriseras baserat på godkännanden, nomineringar och så vidare. Klicka på fliken **[!UICONTROL All Notifications]** för att se alla meddelanden. På fliken Alla meddelanden sorteras meddelandena efter datum och tid och visas.
 
 ![](assets/manager-notifications-page.png)
 
@@ -46,7 +45,7 @@ I aviseringsfönstret, som visas i ögonblicksbilden ovan, klickar du på länke
 
 *Nominera elever till kurser*
 
-**Typer av meddelanden för chefer**
+**Typer av aviseringar för chefer**
 
 Chefer kan få aviseringar när följande händelser utlöses:
 

@@ -3,14 +3,13 @@ description: Skapa och hantera rapporter för chefer.
 jcr-language: en_us
 title: Rapporter
 contentowner: manochan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 5a59b56c-111b-46e4-95e5-60cc3af75c4d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1839'
 ht-degree: 0%
 
 ---
-
-
 
 # Rapporter
 
@@ -22,7 +21,7 @@ Med Adobe Learning Manager kan du skapa olika rapporter för att följa, överva
 
 Genereringsprocessen för rapporter är densamma för både Administratör och Chef. Chefer kan visa rapporter som motsvarar deras underordnade, medan administratörer kan visa alla rapporter som gäller för hela organisationen.
 
-Rapporter sammanställs i en kontrollpanel. En rapport måste finnas inuti en kontrollpanel. A **Standardtavla** finns som standard på sidan Rapporter. Alla rapporter som läggs till av dig placeras på den här standardkontrollpanelen. Om du vill lägga till rapporter i enskilda kontrollpaneler använder du listrutepilen och väljer Lägg till rapport. Mer information om hur du skapar kontrollpaneler finns i avsnittet Kontrollpaneler på den här sidan.
+Rapporter sammanställs i en kontrollpanel. En rapport måste finnas inuti en kontrollpanel. En **standardtavla** finns som standard på sidan Rapporter. Alla rapporter som läggs till av dig placeras på den här standardkontrollpanelen. Om du vill lägga till rapporter i enskilda kontrollpaneler använder du listrutepilen och väljer Lägg till rapport. Mer information om hur du skapar kontrollpaneler finns i avsnittet Kontrollpaneler på den här sidan.
 
 ## Chefens instrumentpaneler {#manager-dashboards}
 
@@ -38,7 +37,7 @@ Chefen kan sedan filtrera rapporten enligt intervall som kvartal, den här måna
 
 ![](assets/manager-dashboard.jpg)
 
-*Filtrera utbildningssammanfattning per datum*
+*Filtrera utbildningssammanfattningen per datum*
 
 ## Efterlevnadstavla {#compliancedashboard}
 
@@ -64,7 +63,7 @@ Baserat på historiska data kan du se en grafisk representation av projektet fö
 
 ![](assets/historical-data.png)
 
-*Visa projektion av slutförda kompetenser*
+*Visa projektion för slutförande av kompetens*
 
 ## Skapa rapporter {#creatingreports}
 
@@ -92,27 +91,27 @@ Du kan använda ovanstående rapporttyper för att generera rapporter om fler ä
 
 Rapportnamn Ange en rubrik för rapporten.
 
-**Primär Y-axel** Välj det första/primära kriteriet för rapporten i listrutealternativen. För vissa av de valda kriterierna kan du välja ett eller flera lägen från listrutan Intilliggande lägen. Till exempel kan delstaterna för ett primärt kriterium för kursregistreringsstatistik vara slutförda, ofullständiga, registrerade och så vidare. Primära intervalldata visas i form av stolpdiagram i rapporten.
+**Primär Y-axel** Välj det första/primära kriteriet för rapporten i listrutan. För vissa av de valda kriterierna kan du välja ett eller flera lägen från listrutan Intilliggande lägen. Till exempel kan delstaterna för ett primärt kriterium för kursregistreringsstatistik vara slutförda, ofullständiga, registrerade och så vidare. Primära intervalldata visas i form av stolpdiagram i rapporten.
 
-**Sekundär Y-axel** Välj kriterier/intervall för den sekundära Y-axeln för rapporten i listrutan. Till exempel, i registreringsalternativet för utbildningsprogram väljer du ett eller flera lägen från rullgardinsmenyn Intilliggande lägen. Sekundära områdesdata representeras i form av linjediagram.
+**Sekundär Y-axel** Välj kriterier/intervall för den sekundära Y-axeln i rapporten i listrutan. Till exempel, i registreringsalternativet för utbildningsprogram väljer du ett eller flera lägen från rullgardinsmenyn Intilliggande lägen. Sekundära områdesdata representeras i form av linjediagram.
 
-**X-axel** Markera X-axelkriterierna för rapporten i listrutan. Om x-axeln väljs som datum, finns det ett alternativ för att gruppera x-axelkriteriet efter dag, månad, kvartal och år.
+**X-axel** Välj lämpliga x-axelkriterier för din rapport i listrutan. Om x-axeln väljs som datum, finns det ett alternativ för att gruppera x-axelkriteriet efter dag, månad, kvartal och år.
 
-**Datum** Välj önskat alternativ från rullgardinsmenyn. Alternativ: senaste månaden, kvartal, år, QTD (senaste 90 dagarna), YTD (senaste 365 dagarna) och datumintervallet. Om du väljer datumintervall anger du Till- och Från-datum på följande sätt:
+**Datum** Välj lämpligt alternativ i listrutan. Alternativ: senaste månaden, kvartal, år, QTD (senaste 90 dagarna), YTD (senaste 365 dagarna) och datumintervallet. Om du väljer datumintervall anger du Till- och Från-datum på följande sätt:
 
-**Från** Välj från vilket startdatum du vill se rapporten.
+**Från** Välj startdatumet som du vill att rapporten ska börja från.
 
-**till** Välj slutdatum för rapporten.
+**Till** Välj slutdatumet för din rapport.
 
 ## Filter {#filters}
 
 Filter visas längst ned i dialogrutan Lägg till rapport baserat på de typer av rapporter som du har valt. Några av de mer framträdande filtren nämns nedan.
 
-**Chef** Du kan välja en av hanterarna baserat på hierarki. För vissa chefer kan det finnas underordnade chefer och flera anställda som rapporterar till varje underordnad chef.
+**Chef** Du kan välja vilken du vill av cheferna baserat på hierarki. För vissa chefer kan det finnas underordnade chefer och flera anställda som rapporterar till varje underordnad chef.
 
-**Profil** Välj din medarbetares beteckning. Det skulle vara till hjälp för att visa rapporter om anställda baserat på deras profil/beteckning. Till exempel datavetare, ingenjör och så vidare.
+**Profil** Välj anställningsbeteckning. Det skulle vara till hjälp för att visa rapporter om anställda baserat på deras profil/beteckning. Till exempel datavetare, ingenjör och så vidare.
 
-**Användargrupp** Välj den användargrupp som du vill filtrera rapporterna från. Learning Manager hämtar användargrupperna som definierats för ditt konto från funktionen Användare.
+**Användargrupp** Välj vilken användargrupp du vill filtrera rapporterna från. Learning Manager hämtar användargrupperna som definierats för ditt konto från funktionen Användare.
 
 **Kurs** Du kan filtrera din rapport baserat på valfri kurs genom att välja dem i listrutan.
 
@@ -132,13 +131,13 @@ Spåra hur användargrupper som avdelningar, externa partner och roller prestera
 
 ### Användargrupper {#usergroups}
 
-Om du vill skapa rapporter baserade på användargrupper väljer du **Användargrupp** i X-axeln från listan med rullgardinsalternativ som visas i skärmbilden nedan.
+Om du vill skapa rapporter baserade på användargrupper väljer du **Användargrupp** i X-axeln i listan med rullgardinsmenyalternativ som visas i skärmbilden nedan.
 
 ![](assets/x-axis-reporting.png)
 
 *Generera användargruppsrapporter*
 
-En annan **Välj** Listrutan visas bredvid X-axeln med en lista över användargrupper som är tillgängliga för ditt konto. I den här rullgardinsmenyn kan du välja en eller flera användargrupper.
+En annan **Välj**-listruta visas bredvid X-axeln med en lista över användargrupper som är tillgängliga för ditt konto. I den här rullgardinsmenyn kan du välja en eller flera användargrupper.
 
 Om du har markerat flera användargrupper när du sparar och genererar den här rapporten, skapas rapporten med alla användargrupper som visas i ett stolpdiagram bredvid varandra längs x-axeln.
 
@@ -148,7 +147,7 @@ Med den här rapporten över användargrupper kan du jämföra prestanda hos en 
 
 Du kan också skapa anpassade användargrupper med funktionen Lägg till användare/användargrupper i Learning Manager. När du har skapat användargrupperna kan du generera rapporter för dessa anpassade användargrupper med hjälp av en lista med attribut som plats, gren och så vidare.
 
-Välj alternativet för användarattribut i X-axeln och välj attributet från **markera** bredvid den. Om du vill skapa en anpassad användargruppsrapport baserad på dessa attribut måste du också välja lämplig användargrupp i filtret.
+Välj alternativet för användarattribut i X-axeln och välj attributet bredvid det i listrutan **välj**. Om du vill skapa en anpassad användargruppsrapport baserad på dessa attribut måste du också välja lämplig användargrupp i filtret.
 
 Chefer kan endast skapa användargruppsrapporter för sina egna teammedlemmar som elever.
 
@@ -181,7 +180,7 @@ Klicka på den här fliken för att se alla tavlor som du har skapat. I listruta
 
    *Skapa en egen tavla*
 
-1. Ange namn och beskrivning för instrumentpanelen och klicka på **[!UICONTROL Save]**.
+1. Ange namnet på och beskrivningen av instrumentpanelen och klicka på **[!UICONTROL Save]**.
 
 Du kan visa den nyligen skapade tavlan i listan Mina kontrollpaneler.
 
@@ -195,11 +194,11 @@ Om du vill lägga till rapporter på tavlan klickar du på listrutan i det övre
 
 Delade rapporter är en samling rapporter som har delats med dig av andra användare i organisationen. Om du har behörigheterna kan du hämta eller duplicera de delade rapporterna. Kontakta organisationens administratör för att få hämtnings-/dupliceringsbehörighet till de delade rapporterna.
 
-**Prenumererade rapporter**
+**Prenumererade på rapporter**
 
 Du kan prenumerera på dina favoritrapporter genom att ange ditt e-post-ID här. Dina prenumerationsrapporter skickas till dig via e-post.
 
-Klicka på **Redigera** i det högra hörnet av rapportnamnet från rapportlistan för att ändra prenumerationen när som helst.
+Klicka på ikonen **Redigera** i det högra hörnet av rapportnamnet i listan Rapporter om du vill ändra din prenumeration när som helst.
 
 ## Visa rapporter {#viewingreports}
 
@@ -214,17 +213,17 @@ Du kan ändra datumintervallet/värdet för en rapport och visa snabbt för olik
 **Snabbvy med olika chefer**
 
 Om det finns flera chefer som rapporterar till dig kan du visa rapporterna snabbt för varje chef. Välj chefens namn i listrutan för att visa en unik rapport för varje chef.
-**Redigera/flytta till tavla/skapa en kopia/ta bort/ändra storlek på rapporter** Klicka på rullgardinspilen i det övre högra hörnet av varje rapport för att visa rullgardinsmenyalternativ som Redigera/Flytta till kontrollpanel/Skapa en kopia/Ta bort/Ändra storlek.
+**Redigera/flytta till tavla/skapa en kopia/ta bort/ändra storlek på rapporter** Klicka på rullgardinspilen i det övre högra hörnet av varje rapport för att visa rullgardinsmenyalternativ som Redigera/Flytta till tavla/Skapa en kopia/Ta bort/Ändra storlek.
 
 <!--![](assets/edit-options-dashboard-300x126.png)-->
 
-**Redigera** Om du vill gå tillbaka till de ursprungliga värdena när du ändrar data klickar du på Återställ. Klicka på Spara när du har ändrat värdena.
+**Redigera** Klicka på Återställ om du vill gå tillbaka till de ursprungliga värdena när du ändrar data. Klicka på Spara när du har ändrat värdena.
 
-**Flytta till tavla** Du kan flytta den aktuella rapporten till en annan kontrollpanel som väljs i listan över kontrollpaneler.
+**Flytta till kontrollpanelen** Du kan flytta den aktuella rapporten till en annan kontrollpanel, som väljs i listan över kontrollpaneler.
 
-**Skapa en kopia** Du kan kopiera rapporten till samma eller en annan kontrollpanel, som väljs i listan över kontrollpaneler.
+**Skapa en kopia** Du kan kopiera rapporten till samma eller en annan tavla, som väljs i listan över tavlor.
 
-**Radera** Klicka på Ta bort för att ta bort rapporten. Ett varningsmeddelande/bekräftelsemeddelande visas innan du kan ta bort rapporten.
+**Ta bort** Klicka på Ta bort för att ta bort rapporten. Ett varningsmeddelande/bekräftelsemeddelande visas innan du kan ta bort rapporten.
 
 **Ändra storlek** Du kan ändra storlek på dina rapporter i storlekarna 1×1 (medel) och 2×2 (stor).
 

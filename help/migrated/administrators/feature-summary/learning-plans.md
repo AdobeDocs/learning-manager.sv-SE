@@ -29,12 +29,12 @@ Du kan registrera elever för alla kurser och utbildningsprogram automatiskt bas
 
 Om du vill skapa en utbildningsplan måste du logga in som administratör.
 
-1. I den vänstra rutan klickar du på **[!UICONTROL Learning Plans]**. Om det finns några befintliga händelser visas de på sidan. Men om du konfigurerar funktionen för utbildningsplanen för första gången går du vidare till nästa steg.
-1. I det övre högra hörnet på sidan klickar du på **[!UICONTROL Add]**. I dialogrutan **[!UICONTROL Add Learning Plan]** -dialogrutan anger du namnet på utbildningsplanen som en anställd måste genomföra.
+1. Klicka på **[!UICONTROL Learning Plans]** i den vänstra rutan. Om det finns några befintliga händelser visas de på sidan. Men om du konfigurerar funktionen för utbildningsplanen för första gången går du vidare till nästa steg.
+1. Klicka på **[!UICONTROL Add]** i det övre högra hörnet på sidan. I dialogrutan **[!UICONTROL Add Learning Plan]** anger du namnet på utbildningsplanen som en medarbetare måste genomföra.
 
    ![](assets/add-learning-plandialog.png)
 
-1. I dialogrutan **[!UICONTROL Occurs when]** listrutan väljer du önskad händelse. Alternativen bestämmer när en elev tar kursen. När du har valt typ av evenemang väljer du lämplig utbildning, kurser, utbildningsprogram eller certifiering.
+1. Välj önskad händelse i listrutan **[!UICONTROL Occurs when]**. Alternativen bestämmer när en elev tar kursen. När du har valt typ av evenemang väljer du lämplig utbildning, kurser, utbildningsprogram eller certifiering.
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ Händelserna är:
 
 ![](assets/learner-gets-addedtoagroup.png)
 
-Den här utbildningsplanen är särskilt utformad för ***Custom- Groupe*** användare. Skriv namnet på gruppen i fältet och välj gruppen eller grupperna med hjälp av sökningstypen framåt.
+Den här utbildningsplanen är särskilt utformad för användare av ***anpassade grupper***. Skriv namnet på gruppen i fältet och välj gruppen eller grupperna med hjälp av sökningstypen framåt.
 
 **3 - Eleven tas bort från en grupp:** Händelsen utlöses när en användare eller elev tas bort från en grupp. Ange och välj användargruppen i listrutan som den här händelsen gäller. Du kan välja flera grupper.
 
@@ -62,11 +62,11 @@ Den här utbildningsplanen är särskilt utformad för ***Custom- Groupe*** anv�
 
 ![](assets/learner-completealearningobject.png)
 
-**5 - Eleven misslyckas med en modul i en kurs:** Händelsen utlöses när en elev misslyckas med ett utbildningsobjekt som kurs, utbildningsprogram och så vidare. Välj utbildningsobjektet som den här händelsen gäller för. Du kan också välja den användargrupp som denna elev tillhör.
+**5 - Eleven misslyckas med en modul i en kurs:** Händelsen aktiveras när en elev misslyckas med ett utbildningsobjekt som kurs, utbildningsprogram och så vidare. Välj utbildningsobjektet som den här händelsen gäller för. Du kan också välja den användargrupp som denna elev tillhör.
 
 ![](assets/learner-fails-module.png)
 
-**4 - Eleven uppnår en färdighetsnivå:** Ange kompetensnamnet och välj kompetensnivå. Du kan också välja den användargrupp som denna elev tillhör. Det är valfritt. Ange antalet dagar som den här händelsen ska utlösas när kompetensen har uppnåtts. Välj alternativet om du vill tilldela denna händelse till befintliga elever som redan har uppnått denna kompetens.
+**4 - Eleven uppnår en kompetensnivå:** Ange kompetensnamnet och välj kompetensnivå. Du kan också välja den användargrupp som denna elev tillhör. Det är valfritt. Ange antalet dagar som den här händelsen ska utlösas när kompetensen har uppnåtts. Välj alternativet om du vill tilldela denna händelse till befintliga elever som redan har uppnått denna kompetens.
 
 ![](assets/learner-achievesaskilllevel.png)
 
@@ -78,23 +78,23 @@ Ange dessutom antalet dagar efter vilka utbildningsplanen måste tilldelas eleve
 
 ![](assets/on-a-specific-date.png)
 
-1. För alla händelser kan du välja instansen från **[!UICONTROL Instance]** listruta. Du kan även välja instanser av den tilldelade utbildningen för valfri händelse.
+1. Du kan välja instansen från rullgardinsmenyn **[!UICONTROL Instance]** för alla händelser. Du kan även välja instanser av den tilldelade utbildningen för valfri händelse.
 
    ![](assets/choose-instance.png)
 
    I Learning Manager skapar en utbildningsplan en egen instans, Auto. När du väljer en grupp, till exempel Alla elever, registreras då som standard alla elever i utbildningsplanen i instansen Auto.
 
-   När du sparar utbildningsplanen visas instansen Auto som ett alternativ i **[!UICONTROL Select Instance]** Listrutan i avsnittet Elever för en kurs.
+   När du sparar utbildningsplanen visas instansen Auto som ett alternativ i listrutan **[!UICONTROL Select Instance]** i avsnittet Elever för en kurs.
 
-1. Om du vill spara utbildningsplanen klickar du på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Save]** för att spara utbildningsplanen.
 
 ## Avregistrera dig från utbildning {#unenroll-training}
 
 När en utbildningsplan läggs till kan administratören avregistrera användare från specifika utbildningar baserat på vissa utlösare.
 
-I Admin-programmet klickar du på **[!UICONTROL Learning Plans]** > **[!UICONTROL Add]**.
+Klicka på **[!UICONTROL Learning Plans]** > **[!UICONTROL Add]** i Admin-appen.
 
-Nästa avsnitt representerar de utlösare där alternativet **[!UICONTROL Unenroll from Training]** har lagts till.
+Nästa avsnitt representerar utlösarna där alternativet **[!UICONTROL Unenroll from Training]** har lagts till.
 
 ![](assets/unenroll-courses.png)
 
@@ -156,11 +156,11 @@ Nästa avsnitt representerar de utlösare där alternativet **[!UICONTROL Unenro
 
 ## Redigera en utbildningsplan {#editalearningplan}
 
-När du har skapat en utbildningsplan kan administratören redigera/uppdatera utbildningsplanen när som helst. Om du vill redigera väljer du namnet på utbildningsplanen och ändrar värdena i **[!UICONTROL Edit Learning Plan]** popup-dialogruta som visas.  Välj **[!UICONTROL Save]**.
+När du har skapat en utbildningsplan kan administratören redigera/uppdatera utbildningsplanen när som helst. Om du vill redigera markerar du namnet på utbildningsplanen och ändrar värdena i popup-dialogrutan **[!UICONTROL Edit Learning Plan]** som visas.  Välj **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
->Du kan inte ändra **[!UICONTROL Occurs when]** alternativ i **[!UICONTROL Edit Learning Plan]** pop-up.
+>Du kan inte ändra alternativet **[!UICONTROL Occurs when]** i popup-fönstret **[!UICONTROL Edit Learning Plan]**.
 
 
 ## Aktivera en utbildningsplan {#enablealearningplan}
@@ -173,14 +173,14 @@ För att aktivera en utbildningsplan
 
    ![](assets/list-of-learningplans.png)
 
-1. I det övre högra hörnet på sidan klickar du på **[!UICONTROL Actions]** > **[!UICONTROL Enable]**. Då aktiveras utbildningsplanen.
+1. Klicka på **[!UICONTROL Actions]** > **[!UICONTROL Enable]** i det övre högra hörnet på sidan. Då aktiveras utbildningsplanen.
 
 ## Radera en utbildningsplan {#deletealearningplan}
 
 För att radera en utbildningsplan,
 
 1. Välj den plan som du vill ta bort i listan över utbildningsplaner.
-1. I det övre högra hörnet på sidan klickar du på **[!UICONTROL Actions]** > **[!UICONTROL Delete]**.
+1. Klicka på **[!UICONTROL Actions]** > **[!UICONTROL Delete]** i det övre högra hörnet på sidan.
 
 ## Inaktivera en utbildningsplan {#disablealearningplan}
 
@@ -188,11 +188,11 @@ Om du vill inaktivera en utbildningsplan
 
 1. Klicka på fliken **[!UICONTROL Enabled]**.
 1. Välj den plan som du vill inaktivera i listan över utbildningsplaner.
-1. I det övre högra hörnet på sidan klickar du på **[!UICONTROL Actions]** > **[!UICONTROL Disable]**. Då flyttas planen till **[!UICONTROL Disabled]** -fliken.
+1. Klicka på **[!UICONTROL Actions]** > **[!UICONTROL Disable]** i det övre högra hörnet på sidan. Då flyttas planen till fliken **[!UICONTROL Disabled]**.
 
 ## Filtrera en utbildningsplan {#filteralearningplan}
 
-Du kan filtrera utbildningsplaner efter typen av händelse som användes när en utbildningsplan skapades. Klicka **[!UICONTROL Type]** och välj ett alternativ för att visa utbildningsplaner som matchar urvalet.
+Du kan filtrera utbildningsplaner efter typen av händelse som användes när en utbildningsplan skapades. Klicka på **[!UICONTROL Type]** och välj ett alternativ för att visa utbildningsplaner som matchar urvalet.
 
 ![](assets/filter-a-learningplan.png)
 
@@ -200,7 +200,7 @@ Du kan filtrera utbildningsplaner efter typen av händelse som användes när en
 
 1. Hur konfigurerar jag Learning Manager för automatiska registreringar för registrering av nya anställningar?
 
-   I dialogrutan **[!UICONTROL Occurs when]** listruta väljer du alternativet **[!UICONTROL New Learner is added]**. Tilldela sedan utbildningsobjekten, instansen och slutförandedatumet för eleven. Både administratörer och författare kan skapa händelser för automatisk registrering. Aktivera händelsen när den har skapats.
+   Välj alternativet **[!UICONTROL New Learner is added]** i listrutan **[!UICONTROL Occurs when]**. Tilldela sedan utbildningsobjekten, instansen och slutförandedatumet för eleven. Både administratörer och författare kan skapa händelser för automatisk registrering. Aktivera händelsen när den har skapats.
 
 1. Hur konfigurerar jag en utbildningsplan/automatisk registrering för klassrumskurs och virtuella klassrumskurser?
 
@@ -208,4 +208,4 @@ Du kan filtrera utbildningsplaner efter typen av händelse som användes när en
 
 1. Hur visar jag listan över elever som har registrerats för en specifik utbildningsplan?
 
-   När instansen Auto skapas klickar du på **[!UICONTROL Course]** > **[!UICONTROL Learners]** och välj önskad instans från **[!UICONTROL Instance]** listruta.
+   När instansen Auto skapas klickar du på **[!UICONTROL Course]** > **[!UICONTROL Learners]** och väljer önskad instans i listrutan **[!UICONTROL Instance]**.

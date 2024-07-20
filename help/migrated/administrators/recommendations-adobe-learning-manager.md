@@ -1,6 +1,6 @@
 ---
 jcr-language: en_us
-title: Recommendations i Adobe Learning Manager
+title: RECOMMENDATIONS i ADOBE LEARNING MANAGER
 description: Recommendations i Adobe Learning Manager.
 contentowner: saghosh
 source-git-commit: 78957f8dc3bba39c9bb53c6ac8f888d86e18fc95
@@ -25,24 +25,24 @@ Ladda upp kursen och användardata (valfritt).
 
 Gör ändringarna live.
 
-När du har aktiverat och konfigurerat rekommendationerna överför du data till Adobe Learning Manager för rekommendationer om hur du börjar arbeta. Dessa uppgifter omfattar följande:
+När du har aktiverat och konfigurerat rekommendationerna överför du informationen till Adobe Learning Manager för att få rekommendationer om hur du börjar arbeta. Dessa uppgifter omfattar följande:
 
 * Kursdata
 * Användardata (valfritt)
 
 ## Kursrankningsalgoritm
 
-Kärnan i rekommendationsmotorn drivs av Learning Managers nya **Kursrankningsalgoritm**. Algoritmen använder **50 miljoner datapunkter** och **fem års aggregerade utbildningsdata för miljontals användare** för att rangordna kurser baserat på deras **sannolikhet för registrering**. Denna rankning säkerställer att de flesta registrerbara kurser visas i förväg för eleverna.
+Kärnan i rekommendationsmotorn drivs av Learning Managers nya **algoritm för kursrankning**. Algoritmen använder **50 miljoner datapunkter** och **fem års aggregerade utbildningsdata för miljontals användare** för att rangordna kurser baserat på deras **sannolikhet för registrering**. Denna rankning säkerställer att de flesta registrerbara kurser visas i förväg för eleverna.
 
 ## Nyckeltermer
 
-Learning Managers nya AI-baserade rekommendationsmotor ger inlärningsledare ett konfigurerbart **parameterbaserad** rekommendationssystem för att skapa en personlig upplevelse för elever.
+Learning Managers nya AI-baserade rekommendationsmotor ger inlärningsledare ett konfigurerbart **parameterbaserat** rekommendationssystem för att skapa en personlig upplevelse för elever.
 
-Parametrarna är—**Produkter/ämnen, roller och nivåer**. Dessutom kan parametrarna ändras för att passa dina behov. Så &quot;produkter&quot; kan bli &quot;ämnen&quot; eller &quot;roller&quot; kan bli &quot;regioner&quot;.
+Parametrarna är:**Produkter/ämnen, roller och nivåer**. Dessutom kan parametrarna ändras för att passa dina behov. Så &quot;produkter&quot; kan bli &quot;ämnen&quot; eller &quot;roller&quot; kan bli &quot;regioner&quot;.
 
 ## Konfigurera rekommendationssystemet
 
-Den nya rekommendationsmotorn i Adobe Learning Manager förenklar det administrationsarbetsflöde som krävs för att ställa in anpassade rekommendationer, eftersom data om produkter och roller som är kopplade till en kund/partner vanligtvis är tillgängliga för administratörer (till exempel från inköpsposter).
+Adobe Learning Manager nya rekommendationsmotor förenklar det administrationsarbetsflöde som krävs för att ställa in anpassade rekommendationer, eftersom data om produkter och roller som är kopplade till en kund/partner vanligtvis är tillgängliga för administratörer (till exempel från inköpsposter).
 
 Det finns främst tre arbetsflöden som är involverade i konfigurationen av den nya rekommendationsmotorn:
 

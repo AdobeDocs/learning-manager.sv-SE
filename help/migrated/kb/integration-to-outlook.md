@@ -13,7 +13,7 @@ ht-degree: 0%
 
 
 
-# Visa elevens svar på en inbjudan till en Outlook-kalender den [!DNL Learning Manager]
+# Visa elevens svar på en inbjudan till en Outlook-kalender på [!DNL Learning Manager]
 
 Se hur en administratör och en instruktör kan se elevens svar på en kalenderinbjudan.
 
@@ -25,7 +25,7 @@ Om en elev svarar på samma inbjudan mer än en gång beaktas det senaste svaret
 
 ## Aktivera funktionen för att spåra inbjudan och svar {#enablingtheinvitereplytrackingfeature}
 
-* Kontakta Adobe Learning Manager-supporten för att aktivera spårningsfunktionen för inbjudan.
+* Kontakta Adobe Learning Manager support för att aktivera funktionen för att spåra inbjudan och svar.
 * När funktionen har aktiverats för kontot kan alla framtida virtuella klass-/klassrumssessioner som skapas av en författare registrera elevens svar på kalenderinbjudan.
 
 Om elever är registrerade i en virtuell klass-/klassrumssession som skapades innan spårningsfunktionen för inbjudan till svar aktiverades, registreras inte elevens svar på kalenderinbjudan.
@@ -34,26 +34,26 @@ Om elever är registrerade i en virtuell klass-/klassrumssession som skapades in
 
 Om en virtuell klass-/klassrumssession har aktiverat spårningsfunktionen för inbjudan kan administratören visa elevens svar på inbjudan tillsammans med andra behörigheter enligt följande:
 
-1. Klicka **[!UICONTROL Course]** från den vänstra navigeringspanelen och visa kursen som skapades efter aktiveringen av spårningsfunktionen inbjudan till svar.
-1. Klicka **[!UICONTROL Attendance & Scoring]** från den vänstra navigeringspanelen.
-1. Om du vill visa en tabell nedan med namn på elever och deras svar på kalenderinbjudan väljer du **Instans** och **[!UICONTROL Module]** på sidan Närvaro och poäng.
-1. Använd kommandot **[!UICONTROL Invite]** filtrera för att visa elever baserat på följande alternativ: alla svar, accepterade, avvisade, preliminära och skickade
+1. Klicka på **[!UICONTROL Course]** i den vänstra navigeringspanelen och visa kursen som skapades efter aktiveringen av spårningsfunktionen för inbjudan.
+1. Klicka på **[!UICONTROL Attendance & Scoring]** i den vänstra navigeringspanelen.
+1. Om du vill visa en tabell nedan med namn på elever och deras svar på kalenderinbjudan väljer du **Instansen** och **[!UICONTROL Module]** på sidan Närvaro och poäng.
+1. Använd filtret **[!UICONTROL Invite]** för att visa elever baserat på följande alternativ: alla svar, accepterade, avvisade, preliminära och skickade
 
    ![](assets/invite-filter.png)
 
-1. Om du endast vill skicka e-postmeddelanden till elever som har valts klickar du på **[!UICONTROL Actions]** > **[!UICONTROL Send Email to Selected]** från det övre högra hörnet på sidan Närvaro och poäng.
+1. Om du endast vill skicka e-postmeddelanden till elever som har valts klickar du på **[!UICONTROL Actions]** > **[!UICONTROL Send Email to Selected]** i det övre högra hörnet på sidan Närvaro och poäng.
 
    Om du vill skicka e-postmeddelanden till alla elever som visas på sidan Närvaro och poäng klickar du på **[!UICONTROL Actions]** > **[!UICONTROL Send Email to All].**
 
-1. Hämta en CSV-rapport med elevens sessionsdetaljer som visas på sidan Närvaro och poäng genom att klicka på **[!UICONTROL Actions]** > **[!UICONTROL Export].**
+1. Hämta en CSV-rapport över elevens sessionsdetaljer som visas på sidan Närvaro och poäng genom att klicka på **[!UICONTROL Actions]** > **[!UICONTROL Export].**
 
 ## Visa inbjudningssvar som instruktör {#viewinginviteresponsesasaninstructor}
 
 Om spårningsfunktionen inbjudan till svar är aktiverad för kontot följer du proceduren nedan för att visa elevens svar på kalenderinbjudan:
 
-1. Klicka **[!UICONTROL Upcoming Sessions]** från den vänstra navigeringspanelen och välj en kurs.
-1. Klicka **[!UICONTROL Learners]** från den vänstra navigeringspanelen för att få en detaljerad vy över de elever som har svarat på kalenderinbjudan.
-1. Använd kommandot **[!UICONTROL Invite]** filtrera namnen på elever enligt följande alternativ: Accepterat, Avvisat, Preliminärt och Skickat
+1. Klicka på **[!UICONTROL Upcoming Sessions]** i den vänstra navigeringspanelen och välj en kurs.
+1. Klicka på **[!UICONTROL Learners]** i den vänstra navigeringspanelen för att få en detaljerad vy över de elever som har svarat på kalenderinbjudan.
+1. Använd filtret **[!UICONTROL Invite]** för att filtrera namnen på elever enligt följande alternativ: Accepterat, Avvisat, Preliminärt och Skickat
 
    ![](assets/invite-filter.png)
 
@@ -61,7 +61,7 @@ Om spårningsfunktionen inbjudan till svar är aktiverad för kontot följer du 
 
    Om du endast vill skicka e-postmeddelanden till elever som har valts klickar du på **[!UICONTROL Actions]** > **[!UICONTROL Email to Selected]**.
 
-   Om du vill skicka e-postmeddelanden till alla elever i den visade tabellen klickar du på **[!UICONTROL Actions]** > **[!UICONTROL Email to All]**.
+   Klicka på **[!UICONTROL Actions]** > **[!UICONTROL Email to All]** för att skicka e-postmeddelanden till alla elever i den visade tabellen.
 
    ![](assets/instructor-actions1.png)
 

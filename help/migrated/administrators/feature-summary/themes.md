@@ -3,14 +3,13 @@ description: Färgteman och varumärken i Learning Manager
 jcr-language: en_us
 title: Färgteman
 contentowner: jayakarr
-source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
+exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1176'
 ht-degree: 0%
 
 ---
-
-
 
 # Färgteman
 
@@ -24,17 +23,17 @@ I den här utbildningen kommer du att utforska sätt att anpassa utseendet på g
 
 [![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QBWYPFSV&amp;mv=display&amp;mv2=display#/course/8318823)
 
-Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
+Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
 
 ## Varumärke {#branding}
 
-Klicka **[!UICONTROL Branding]** i den vänstra rutan om du vill uppdatera ditt organisationsnamn ändrar du underdomänen samt loggstilar och teman. Klicka **[!UICONTROL Edit]** ändra innehållet bredvid varje ämne.
+Klicka på **[!UICONTROL Branding]** i den vänstra rutan för att uppdatera organisationens namn, ändra underdomänen, loggstilar och teman. Klicka på **[!UICONTROL Edit]** bredvid vart och ett av dessa ämnen för att ändra innehållet.
 
 ## Formatera logotyp {#logostyling}
 
-Klicka **[!UICONTROL Edit]** för att ställa in utseendet på din logotyp och ditt företagsnamn i Learning Manager-programmet.
+Klicka på **[!UICONTROL Edit]** för att ställa in utseendet på din logotyp och ditt företagsnamn i Learning Manager-programmet.
 
-Klicka **[!UICONTROL Upload new logo]** och välj logotypen på datorn att ladda upp. Du kan förhandsgranska logotypens utseende och organisationens namn nedan. Välj en rubrikstil och klicka på **[!UICONTROL Save]**.
+Klicka på **[!UICONTROL Upload new logo]** och välj logotypen på datorn för att överföra. Du kan förhandsgranska logotypens utseende och organisationens namn nedan. Välj en rubrikstil och klicka på **[!UICONTROL Save]**.
 
 ## Teman {#themes}
 
@@ -42,7 +41,7 @@ En uppsättning med fem representativa bilder tillhandahålls för att förhands
 
 **Välj ett tema**
 
-Klicka på **[!UICONTROL Show hints]** nedanför det här avsnittet för att visa bildtipsen som visas nedan.
+Klicka på **[!UICONTROL Show hints]** under det här avsnittet för att visa tipsen på bilden som visas nedan.
 
 ![](assets/themes-preview-images.png)
 
@@ -68,21 +67,21 @@ Learning Manager-programmet erbjuder fem färgtemaalternativ för användare:
 
 Du kan anpassa färg på den översta raden, accentfärg (till exempel ikonfärg i den vänstra rutan), primärfärg och intensitet på sidofält för teman förutom standardtemat.
 
-I dialogrutan **[!UICONTROL Primary color]** -väljaren kan du välja den färg som används för det integrerande användargränssnittet.
+I väljaren **[!UICONTROL Primary color]** kan du välja den färg som används för det fördjupande användargränssnittet.
 
 Om du vill anpassa väljer du tematyp i den vänstra rutan och klickar på rutorna bredvid varumärkets färg och sidopanelens ikonfärger. Klicka på sidofältet i sidofältets ljusstyrka, dra framåt eller bakåt för att justera ljusstyrkan. Titta på förhandsvisningen i bilderna ovan när du ändrar dessa alternativ.
 
-Klicka **[!UICONTROL Reset Theme]** om du vill återställa temats originalinställningar. Klicka **[!UICONTROL Save]** efter att du slutfört ändringarna.
+Klicka på **[!UICONTROL Reset Theme]** om du vill återställa temats ursprungliga inställningar. Klicka på **[!UICONTROL Save]** när du är klar med ändringarna.
 
 **Direktförhandsvisning**
 
-Klicka **[!UICONTROL Live Preview]** längst ned till vänster i avsnittet Teman. Ett popup-fönster visas enligt nedan:
+Klicka på **[!UICONTROL Live Preview]** i det nedre vänstra hörnet i avsnittet Teman. Ett popup-fönster visas enligt nedan:
 
 ![](assets/live-theme-preview.png)
 
 *Popup-fönstret Direktförhandsvisning*
 
-Välj önskat tema i listrutan, justera inställningarna och klicka på **[!UICONTROL Preview]** för att se ändringarna direkt i programmet. Nu kan du gå igenom alla funktioner i programmet och bevittna ändringarna. Du kan också ändra dina roller när du går igenom förhandsvisning i realtid. När du är nöjd med ändringarna kan du återgå till popup-funktionen för förhandsvisning av live-tema och klicka på **[!UICONTROL Apply Theme]**.
+Välj önskat tema i listrutan, justera inställningarna och klicka på **[!UICONTROL Preview]** för att se ändringarna direkt i ditt program. Nu kan du gå igenom alla funktioner i programmet och bevittna ändringarna. Du kan också ändra dina roller när du går igenom förhandsvisning i realtid. När du är nöjd med ändringarna kan du återgå till popup-funktionen för förhandsvisning av live-tema och klicka på **[!UICONTROL Apply Theme]**.
 
 Medan du förhandsgranskar ändringarna live visas popup-fönstret för direktförhandsgranskning av tema fortfarande längst ned på skärmen. Du kan välja att minimera popup-fönstret.
 
@@ -123,7 +122,7 @@ Så här implementerar du flera varumärken:
 
 Med Adobe Learning Manager kan du anpassa ditt konto för att ge en förbättrad användarupplevelse.
 
-I listan nedan visas de komponenter som kan anpassas. Kontakta Learning Manager för att anpassa kontot  [hålla uppe](mailto:captivateprimesupport@adobe.com).
+I listan nedan visas de komponenter som kan anpassas. Kontakta Learning Manager [support](mailto:captivateprimesupport@adobe.com) om du vill anpassa kontot.
 
 <table>
  <tbody>
@@ -181,7 +180,7 @@ I listan nedan visas de komponenter som kan anpassas. Kontakta Learning Manager 
     <p>Du måste ha bilden som du behöver för att ansöka till elevens bakgrund.</p>
     <ul>
      <li><b>Rekommenderat bildformat:</b> PNG, JPG, JPEG</li>
-     <li><b>Rekommenderad storlek: </b>1 400 × 908 px</li>
+     <li><b>Rekommenderad storlek: </b>1400x908 px</li>
     </ul></td>
   </tr>
  </tbody>
@@ -189,9 +188,9 @@ I listan nedan visas de komponenter som kan anpassas. Kontakta Learning Manager 
 
 ## Konfigurera rekommendationsinställningar {#configurerecommendationsettings}
 
-På **Varumärkning** > **Allmänt** kan du konfigurera rekommendationsomfattningar för interna och externa elever och göra det möjligt för elever att välja färdigheter på elevens startsida.
+Du kan konfigurera rekommendationsomfattningar för interna och externa elever på **Varumärkning** > **Allmänt** och göra det möjligt för elever att välja färdigheter på elevens startsida.
 
-På fliken **Allmänt** -sidan har du följande alternativ:
+På sidan **Allmänt** finns följande alternativ:
 
 <table>
  <tbody>
@@ -199,19 +198,19 @@ På fliken **Allmänt** -sidan har du följande alternativ:
    <td>
     <p>Elevens startsida</p></td>
    <td>
-    <p>Välj endera <strong>Klassisk </strong>eller <strong>Integrerande</strong>. Om du väljer Immersive visas andra alternativ.</p></td>
+    <p>Välj antingen <strong>Klassisk </strong>eller <strong>Immersive</strong>. Om du väljer Immersive visas andra alternativ.</p></td>
   </tr>
   <tr>
    <td>
     <p>Utbildningstyp<br></p></td>
    <td>
-    <p>Välj endera <strong>Egen </strong>eller <strong>Branschanpassad</strong>. Om det finns färre än 1 000 elever betraktas hela kontot som ett enda scope. Rekommendationen är baserad på alla elever.<br></p></td>
+    <p>Välj antingen <strong>Anpassad </strong>eller <strong>Branschanpassad</strong>. Om det finns färre än 1 000 elever betraktas hela kontot som ett enda scope. Rekommendationen är baserad på alla elever.<br></p></td>
   </tr>
   <tr>
    <td>
     <p>Inställning av rekommendationsomfattning<br></p></td>
    <td>
-    <p>Välj ett eller flera aktiva fält. För <strong>Egen</strong>, kan du välja högst ett aktivt fält. För <strong>Branschanpassad</strong>kan du välja högst fem aktiva fält.<br></p></td>
+    <p>Välj ett eller flera aktiva fält. För <strong>Anpassad</strong> kan du välja högst ett aktivt fält. För <strong>Branschjusterade</strong> kan du välja högst fem aktiva fält.<br></p></td>
   </tr>
   <tr>
    <td>

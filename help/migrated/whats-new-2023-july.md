@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Adobe Learning Manager har infört ett nytt och moderniserat rekommendationssystem för kurser. Den här rekommendationsfunktionen använder AI-algoritmer och användares intressen som Produkter, Roller och Nivåer för att ge personliga innehållsrekommendationer.
 
-Mer information finns i [RECOMMENDATIONS i ADOBE LEARNING MANAGER](recommendations-adobe-learning-manager.md).
+Du hittar mer information i [Recommendations i Adobe Learning Manager](recommendations-adobe-learning-manager.md).
 
 ## Flera registreringar
 
@@ -54,7 +54,7 @@ argument_object=
 
 ## Borttagning av exavaultanslutning
 
-Denna version av Adobe Learning Manager kommer att innehålla en ny anslutning som kommer att använda AWS Transfer familjs SFTP-protokoll.
+Den här versionen av Adobe Learning Manager kommer att innehålla en ny anslutning som använder SFTP-protokollet för AWS Transfer-familjen.
 
 Den här ändringen kommer även att ersätta ExaVault-anslutningen, som inte längre kommer att vara tillgänglig för nya användare. Du kan använda en FTP-klient med öppen källkod som ersättning för ExaVault. Mer information finns i [Övergång från FTP-hanteraren i Adobe](transition-from-ftp-manager.md).
 
@@ -86,7 +86,7 @@ Utbildningsrapporten innehåller ytterligare en kolumn som visar deadline för s
 
 Ett popup-fönster som fångar stjärngraderingen för en kurs visas så snart användaren har slutfört kursens sista modul.
 
-![tittarsiffror](assets/ratings.png)
+![Betyg](assets/ratings.png)
 
 ## Anpassa e-postmallar
 
@@ -102,11 +102,11 @@ Mer information finns i [Filter för användargrupper i schemaläggningsassisten
 
 ## Förbättringar av arbetsflödet för utfasning av utbildningsobjekt
 
-Författare kan nu tillhandahålla en **Ta bort automatiskt** datum för en kurs. Detta förebygger kataloginflation över tid och behovet av att gå tillbaka och manuellt pensionera kurserna.
+Författare kan nu ange ett **automatiskt utfasningsdatum** för en kurs. Detta förebygger kataloginflation över tid och behovet av att gå tillbaka och manuellt pensionera kurserna.
 
 Administratörer kan också på kontonivå bestämma vilken typ av åtkomst till indragna utbildningsobjekt.
 
-Utbildningsrapporten innehåller en ny kolumn, **Datum för automatisk pensionering**, för att visa pensioneringsdatumet för varje utbildningsobjekt (om detta är inställt).
+Utbildningsrapporten innehåller en ny kolumn, **Datum för automatisk pensionering**, som visar pensioneringsdatumet för varje utbildningsobjekt (om det är inställt).
 
 ## Katalogetikettvärden av författare
 
@@ -148,7 +148,7 @@ I nästa stora version kommer Adobe Learning Manager-mobilappen bara att stödja
 
 LinkedIn-innehåll läses inte in som förväntat i den uppslukande appen i Safari-webbläsaren. Lös problemet genom att göra så här:
 
-1. På enheten väljer du **[!UICONTROL Settings]** > **[!UICONTROL Safari]**.
+1. Välj **[!UICONTROL Settings]** > **[!UICONTROL Safari]** på enheten.
 1. Inaktivera **Förhindra spårning över flera webbplatser**.
 1. Inaktivera **Blockera alla cookies**.
 1. Logga in på appen Immersive.
@@ -171,7 +171,7 @@ Kursanteckningar finns på kursinstansnivå för att stödja multiregistrering.
 
 ## API-ändringar
 
-Mer information om API-ändringarna finns i [API-referens för Adobe Learning Manager](https://captivateprime.adobe.com/docs/primeapi/v2/).
+Mer information om API-ändringarna finns i [Adobe Learning Manager API-referensen](https://captivateprime.adobe.com/docs/primeapi/v2/).
 
 ### API-stöd för nya rekommendationer
 
@@ -179,7 +179,7 @@ Mer information om API-ändringarna finns i [API-referens för Adobe Learning Ma
 
 Returnerar om prlrecommendation är aktiverad.
 
-**Begär**
+**Begäran**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/account`
 
@@ -187,7 +187,7 @@ Returnerar om prlrecommendation är aktiverad.
 
 Returnerar listan med produkter/ämnen. Resultaten beror på kontoinställningar som bekräftar om alla produkter kommer att vara synliga för eleven eller katalogen som är synlig för produkter/ämnen.
 
-**Begär**
+**Begäran**
 
 `https://learningmanagerqe.adobe.com/primeapi/v2/data?filter.recommendationCriteria=product&filter.showAllRecommenda`
 
@@ -195,7 +195,7 @@ Returnerar listan med produkter/ämnen. Resultaten beror på kontoinställningar
 
 Returnerar en lista med rekommenderade roller.
 
-**Begär**
+**Begäran**
 
 `https://learningmanagerqe.adobe.com/primeapi/v2/data?filter.recommendationCriteria=role&filter.showAllRecommendationCriteria=false`
 
@@ -203,7 +203,7 @@ Returnerar en lista med rekommenderade roller.
 
 Returnerar en lista med rekommenderade roller.
 
-**Begär**
+**Begäran**
 
 `https://learningmanagerqe.adobe.com/primeapi/v2/data?filter.recommendationCriteria=level&filter.showAllRecommendationCriteria=false`
 
@@ -211,7 +211,7 @@ Returnerar en lista med rekommenderade roller.
 
 Sökningen innehåller också produkter och rollparametrar i frågan. Det sker ingen förändring i fråga och text. Vi lägger till nya sorteringsalternativ
 
-**Begär**
+**Begäran**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/search/query?...`
 
@@ -449,7 +449,7 @@ Två nya attribut läggs till:
 * instanceSwitchEnabled
 * multiEnrollmentEnabled
 
-**GET /användare/{userId}/userNotifications**
+**GET /users/{userId}/userNotifications**
 
 Kursinstans-ID har lagts till i meddelanden i det nya metadataattributet.
 
@@ -473,11 +473,11 @@ Hämta registrering av flerregistrerade kurser.
 
 Avregistrerar från en viss instans av utbildningsobjekt.
 
-**POST/registreringar**
+**POST /registreringar**
 
 Stöder registrering i olika instanser.
 
-**GET/registreringar**
+**GET /registreringar**
 
 Hämtar registreringar för endast primära registreringar för utbildningsobjektet.
 
@@ -509,9 +509,9 @@ Hämtar en specifik anteckning i en modul i en kurs för en viss instans (del av
 
 Uppdaterar specifika anteckningar från en viss modul mot en viss instans (del av loResource Id).
 
-**Ändringar i administratörs-API**
+**Ändringar i Admin API**
 
-* GET /användare/{id}/enrollments
+* GET /users/{id}/enrollments
 * POST /users/{id}/enrollments
 * DELETE /users/{id}/enrollments/{enrollmentId}
 * PATCH /users/{id}/enrollments/{enrollmentId}
@@ -540,7 +540,7 @@ API-frågeparametrar:
 
 ### Borttagning av V1-slutpunkter
 
-V1 API:er slutar fungera i den här versionen. Mer information finns i [Användarhandbok för utvecklare](/help/migrated/integration-admin/feature-summary/developer-manual.md).
+V1 API:er slutar fungera i den här versionen. Mer information finns i [Användarhandboken för utvecklare](/help/migrated/integration-admin/feature-summary/developer-manual.md).
 
 ### Meddelanden om registrering eller avregistrering från kurs
 
@@ -565,11 +565,11 @@ Exempel:
 * Åsidosättningsflagga för elevens API:er.
 * Vi ändrar standard för highlightResults=false. Vi ändrar också standardvärdet för snippetType=courseName.
 * Vi tar bort matchType=bool i sökslutpunkten.
-* autoCompleteMode har följande [Inaktuell] och för att ge samma funktioner som autoCompleteMode =false har vi lagt till en matchType som heter Match.
+* autoCompleteMode har taggen [Deprecated] och för att tillhandahålla samma funktioner som autoCompleteMode =false har vi lagt till en matchType som heter Match.
 
 ### ID-format för utmärkelsetecken med flera registreringar
 
-För att stödja flerregistrerade instansmärken ändrar vi formatet för kursmärken från `userId_badgeId_COURSE_courseId to userId_badgeId_COURSE_courseId_courseInstanceId` för att unikt identifiera märken.
+För att stödja flerregistrerade instansmärken ändrar vi formatet för kursmärken från `userId_badgeId_COURSE_courseId to userId_badgeId_COURSE_courseId_courseInstanceId` till att unikt identifiera märkena.
 
 ## Versionsinformation
 

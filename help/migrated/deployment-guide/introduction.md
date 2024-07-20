@@ -25,8 +25,8 @@ Den här guiden innehåller stegvisa instruktioner om hur du kommer igång med L
 
 Du som är Learning Manager-användare kan bära hatten som administratör, författare, instruktör, chef eller elev. Den här användarhandboken är avsedd för användare som sannolikt kommer att delta i konfigurationen av ett LMS för en organisation eller en kund:
 
-* **IT-administratör** - Du som är IT-administratör kan aktivera eller integrera Learning Manager i din organisation. En IT-administratör kan också lägga till en eller flera användare och kan fungera som integrationsadministratör eller administratör som integrerar Learning Manager med program från tredje part.
-* **Författare** - Som författare av Learning Manager kan du skapa utbildningsinnehåll som krävs för en organisations utbildningskrav. En författare medverkar i att skapa det grundläggande innehållet som laddas upp i Learning Manager.
+* **IT-administratör** - Som IT-administratör kan du aktivera eller integrera Learning Manager i organisationen. En IT-administratör kan också lägga till en eller flera användare och kan fungera som integrationsadministratör eller administratör som integrerar Learning Manager med program från tredje part.
+* **Författare** - Som författare till Learning Manager kan du skapa utbildningsinnehåll som krävs för en organisations utbildningskrav. En författare medverkar i att skapa det grundläggande innehållet som laddas upp i Learning Manager.
 
 * **Learning Manager-administratör** - En Learning Manager-administratör utför konfigurations- och konfigureringsaktiviteter relaterade till programmet. I vissa företag kan en IT-administratör även ha rollen som Learning Manager-administratör.
 
@@ -55,12 +55,12 @@ Du som är administratör kan ställa in varumärket och temana så att de match
 Använd logotypen och banderollinställningarna för att visa ditt företags logotyp i Learning Manager. Konfigurera varumärkningsalternativen för att ange företagets domän i URL:en, visa organisationsnamnet och visa färgscheman som matchar organisationens varumärke. Så här konfigurerar du varumärkesinställningarna:
 
 * Logga in på ditt Learning Manager-konto som administratör.
-* I den vänstra rutan klickar du på **Varumärkning**.
+* Klicka på **Varumärken** i den vänstra rutan.
 * På sidan Varumärkning kan du konfigurera följande alternativ genom att klicka på **Redigera** mot det alternativ som du vill ändra:
 
-   * **Organisationsnamn** : Det värde som du anger här avgör vilket namn som visas på banderollen på varje sida på platsen.
-   * **underdomän**: Det här värdet bestämmer webbplatsens URL.
-   * **Utforma logotyper**: Bilden i det här fältet visas som logotyp i det övre högra hörnet på varje sida. Här kan du antingen välja att bara visa logotypen, eller namnet på din organisation, eller logotypen och organisationens namn.
+   * **Organisationsnamn** : Värdet som du anger här avgör vilket namn som visas på banderollen på varje sida på webbplatsen.
+   * **Underdomän**: Det här värdet bestämmer webbplatsens URL.
+   * **Formatering av logotyp**: Bilden i det här fältet visas som logotyp i det övre högra hörnet på varje sida. Här kan du antingen välja att bara visa logotypen, eller namnet på din organisation, eller logotypen och organisationens namn.
 
 ![](assets/setting-the-themesforyoursite.png)
 
@@ -82,25 +82,25 @@ Med Learning Manager kan du ändra utseendet och känslan på din webbplats med 
 
 Välj ett färgschema som passar ditt företags varumärke.
 
-1. I det vänstra navigeringsfönstret i Learning Manager klickar du på **[!UICONTROL Branding]**.
-1. I dialogrutan **Teman** avsnitt, klicka på **[!UICONTROL Edit]**. Programmet låter dig välja ett nytt tema. När du väljer ett tema kan du omedelbart se de färgscheman som används för de viktigaste gränssnittselementen.
+1. Klicka på **[!UICONTROL Branding]** i det vänstra navigeringsfönstret i Learning Manager.
+1. Klicka på **[!UICONTROL Edit]** i avsnittet **Teman**. Programmet låter dig välja ett nytt tema. När du väljer ett tema kan du omedelbart se de färgscheman som används för de viktigaste gränssnittselementen.
 
    ![](assets/setting-the-themesforyoursite.png)
 
-1. Du kan även redigera **Färg på övre fält**, **Accentfärg** och **Ljusstyrka för sidofält**.  Du kan använda egna varumärkesfärger för de här viktiga gränssnittselementen.
-1. Om du vill återställa värdena till standardfärgschemat för ditt tema klickar du på **[!UICONTROL Reset Theme]**. Färgerna för de viktigaste användargränssnittselementen är inställda på standardalternativen för det valda temat.
-1. När du har valt tema klickar du på **[!UICONTROL Show Hints]** om du vill visa etiketter eller tips i förhandsgranskningen.
+1. Du kan dessutom redigera **färgen på översta raden**, **accentfärgen** och **intensiteten på sidofältet**.  Du kan använda egna varumärkesfärger för de här viktiga gränssnittselementen.
+1. Klicka på **[!UICONTROL Reset Theme]** om du vill återställa värdena till standardfärgschemat för ditt tema. Färgerna för de viktigaste användargränssnittselementen är inställda på standardalternativen för det valda temat.
+1. När du har valt temat klickar du på **[!UICONTROL Show Hints]** för att visa etiketterna eller tipsen i förhandsgranskningen.
 
    ![](assets/setting-the-themesforyoursite-step5.png)
 
-   Lägg märke till ett bildspel med flera bilder i **Teman** -sektionen. Du kan förhandsgranska temat eller färgschemat direkt i det här bildspelet. Du kan omedelbart förhandsgranska valda sidor, som startsidan, elevkontrollpanelen och så vidare.
+   Observera ett bildspel med flera bilder i avsnittet **Teman**. Du kan förhandsgranska temat eller färgschemat direkt i det här bildspelet. Du kan omedelbart förhandsgranska valda sidor, som startsidan, elevkontrollpanelen och så vidare.
 
-1. Om du vill förhandsvisa ändringarna i en webbläsare klickar du på **[!UICONTROL Live Preview]**. Ett popup-fönster med förhandsvisning av live-tema visas, där du antingen kan ändra färgschemat eller fortsätta med standardalternativen. Klicka på om du vill förhandsvisa alternativen i en webbläsare **[!UICONTROL Preview]** i det här popup-fönstret.
+1. Klicka på **[!UICONTROL Live Preview]** om du vill förhandsgranska ändringarna i en webbläsare. Ett popup-fönster med förhandsvisning av live-tema visas, där du antingen kan ändra färgschemat eller fortsätta med standardalternativen. Klicka på **[!UICONTROL Preview]** i det här popup-fönstret om du vill förhandsgranska alternativen i en webbläsare.
 
    ![](assets/setting-the-themesforyoursite-step6.png)
 
 1. De valda alternativen används tillfälligt på platsen. Om du vill spara det valda temat och färginställningarna klickar du på **[!UICONTROL Apply]**.
-1. När du har valt och använt ett tema klickar du på ****[!UICONTROL Save]**** för att spara ditt val.
+1. När du har valt och tillämpat ett tema klickar du på ****[!UICONTROL Save]**** för att spara ditt val.
 
 ## Konfigurera e-postmallar {#configureemailtemplates}
 
@@ -112,38 +112,38 @@ Som administratör är nästa steg att konfigurera e-postmallar för olika händ
 
 Du kan aktivera och konfigurera någon av dessa e-postmeddelanden från administratörens kontrollpanel. Gör så här för att lära dig hur du anger e-postmallar:
 
-1. Klicka på i det vänstra navigeringsfönstret **[!UICONTROL ** E-postmallar **.]**
-1. Klicka på en av följande flikar:**[!UICONTROL ** Allmänt **/** Utbildningsaktivitet **/** Påminnelser och uppdateringar **.]** Låt oss anta att du klickar på **[!UICONTROL ** Utbildningsaktivitet **.]**
-1. Klicka på växlingsknappen för den aktivitet du vill utlösa ett e-postmeddelande med. I det här exemplet förutsätter vi att du klickar på **[!UICONTROL ** Utbildningsprogram - registrerade av admin/chef **.]**
+1. Klicka på **[!UICONTROL ** E-postmallar **i det vänstra navigeringsfönstret.]**
+1. Klicka på en av följande flikar:**[!UICONTROL ** Allmän **/** Utbildningsaktivitet **/** Påminnelser och uppdateringar **.]** Låt oss anta att du klickar på **[!UICONTROL ** Utbildningsaktivitet **.]**
+1. Klicka på växlingsknappen för den aktivitet du vill utlösa ett e-postmeddelande med. I det här exemplet antar vi att du klickar på **[!UICONTROL ** Utbildningsprogram - registrerad av admin/chef **.]**
 
    ![](assets/configure-email-templates-step3.png)
 
    Systemet visar popup-meddelandet Aktiveringen lyckades. Nu när en chef eller administratör registrerar en elev för en kurs får eleven ett e-postmeddelande från detta Learning Manager-konto.
 
-1. Du kan ändra standardmallen för e-post. Klicka på händelsen för att göra det. I det här exemplet **[!UICONTROL  Learning Program - Enrolled by Admin/Manager.]**
-1. I dialogrutan **[!UICONTROL Template Preview]** Dialogrutan. Lägg märke till att det finns två flikar: [!UICONTROL Learner] och [!UICONTROL Manager].
+1. Du kan ändra standardmallen för e-post. Klicka på händelsen för att göra det. Klicka på **[!UICONTROL  Learning Program - Enrolled by Admin/Manager.]** i det här exemplet
+1. Observera att det finns två flikar i dialogrutan **[!UICONTROL Template Preview]**: [!UICONTROL Learner] och [!UICONTROL Manager].
 
    ![](assets/configure-email-templates-step5.png)
 
-   Klicka på e-postmeddelandet för att ändra innehållet för var och en av dessa flikar. Om du vill spara ändringarna i e-postmallen klickar du på **[!UICONTROL Save]**.
+   Klicka på e-postmeddelandet för att ändra innehållet för var och en av dessa flikar. Klicka på **[!UICONTROL Save]** för att spara ändringarna i e-postmallen.
 
    Nu när en elev registreras på en kurs av chefen eller administratören får eleven och hans chef ett e-postmeddelande.
 
    ***Obs! Ändringarna gäller endast för e-postmallen som är associerad med den valda händelsen.***
 
-1. Observera att du inte kunde ändra konto-URL eller signatur i e-postmallen. Ändra **[!UICONTROL Account URL]** eller **[!UICONTROL Signature]** klickar du på **[!UICONTROL Settings]** -fliken. På den här fliken kan du ändra e-postbanderollen, e-postsignatur och konto-URL:en.
+1. Observera att du inte kunde ändra konto-URL eller signatur i e-postmallen. Om du vill ändra **[!UICONTROL Account URL]** eller **[!UICONTROL Signature]** klickar du på fliken **[!UICONTROL Settings]**. På den här fliken kan du ändra e-postbanderollen, e-postsignatur och konto-URL:en.
 
    Konto-URL-länken visas i alla e-postmeddelanden, precis före signaturen. Ange önskad URL och klicka på **[!UICONTROL Save]**. Den här webbadressen visas bara för interna användare.
 
-   För e-postbanderoll kan du ändra färgen på banderollen genom att välja  **[!UICONTROL ** Banderollbakgrund **.]** Du kan också använda en anpassad bild som banderoll genom att välja **[!UICONTROL Custom Image]** alternativ. Klicka  **[!UICONTROL Save]** när du har gjort ändringarna.
+   För e-postbanderollen kan du ändra färgen på banderollen genom att välja **[!UICONTROL ** Banderollbakgrund **.]** Du kan också använda en anpassad bild som banderoll genom att välja alternativet **[!UICONTROL Custom Image]**. Klicka på **[!UICONTROL Save]** när du har gjort ändringarna.
 
    ***Obs! Den anpassade bildstorleken för e-postbanderollen måste vara 1 240 × 200 px. Bilder som är större än den rekommenderade storleken beskärs.***
 
-   ***Learning Manager har endast stöd för filtyperna .jpg, .jpeg och .png för e-postbanners.***
+   ***Learning Manager har endast stöd för filtyperna .jpg, .jpeg och .png för e-postbanderoller.***
 
    ![](assets/configure-email-templates-step6.png)
 
-1. Du kan också välja att aktivera valfria e-postmeddelanden från chefen. Om du väljer kommandot **[!UICONTROL Enable]** när en direktrapport får ett e-postmeddelande från detta huvudkonto, inkluderas även chefen i utskickslistan.
+1. Du kan också välja att aktivera valfria e-postmeddelanden från chefen. Om du markerar kryssrutan **[!UICONTROL Enable]** inkluderas chefen i utskickslistan när en direktrapport får ett e-postmeddelande från det här primära kontot.
 
    ***Obs! Inställningarna på den här fliken gäller för alla mallar globalt.***
 
@@ -156,13 +156,13 @@ Det här alternativet är också tillgängligt för författare när de ställer
 Så här konfigurerar du e-postmallar för ett utbildningsobjekt:
 
 1. Klicka på kursen, utbildningsprogrammet eller certifieringen som du vill konfigurera e-postmallen för.
-1. I den vänstra rutan klickar du på **[!UICONTROL ** E-postmallar **.]** Systemet visar en ****[!UICONTROL Template Preview]**** dialogrutan.
-1. Ändra ämnet eller brödtexten i e-postmallen och klicka på **[!UICONTROL **Spara**]**för att använda ändringarna.
+1. Klicka på **[!UICONTROL ** E-postmallar **i den vänstra rutan.]** Systemet visar en ****[!UICONTROL Template Preview]****-dialogruta.
+1. Ändra ämnet eller brödtexten i e-postmallen och klicka på **[!UICONTROL **Spara**]**för att tillämpa ändringarna.
 1. Om du vill avbryta ändringarna klickar du på **[!UICONTROL **&#x200B;Återgå till original **.]**
 
 ### Begränsa användare från att ta emot e-postmeddelanden {#restrictusersfromreceivingemails}
 
-Som administratör kan du välja vem som ska ta emot e-postmeddelanden från Learning Manager och vem som inte ska det. Du kan göra detta med hjälp av ****[!UICONTROL Restricted User]**** alternativ under ****[!UICONTROL Settings]** **. Användare kan läggas till i den här listan med sitt namn, e-post-ID eller unika användar-ID. Användarna som listas under detta alternativ kommer att hindras från att ta emot e-postmeddelanden från Learning Manager.
+Som administratör kan du välja vem som ska ta emot e-postmeddelanden från Learning Manager och vem som inte ska det. Du kan göra detta med alternativet ****[!UICONTROL Restricted User]**** på fliken ****[!UICONTROL Settings]** **. Användare kan läggas till i den här listan med sitt namn, e-post-ID eller unika användar-ID. Användarna som listas under detta alternativ kommer att hindras från att ta emot e-postmeddelanden från Learning Manager.
 
 ## Konfigurera dina kontoinställningar {#configureyouraccountsettings}
 
@@ -170,14 +170,14 @@ Med Learning Manager kan du konfigurera vissa kontoinställningar som grundlägg
 
 ### Konfigurera grundläggande inställningar {#configurebasicsettings}
 
-1. Klicka på på startsidan för Learning Manager ****[!UICONTROL Settings]****. Som standard visas sidan Grundläggande information, med standardspråk och standardplatsfält.
-1. Klicka ****[!UICONTROL Change]**** längst upp till höger på sidan för att redigera grundläggande information.
+1. Klicka på ****[!UICONTROL Settings]**** på startsidan för Learning Manager. Som standard visas sidan Grundläggande information, med standardspråk och standardplatsfält.
+1. Klicka på ****[!UICONTROL Change]**** i det övre högra hörnet på sidan för att redigera grundläggande information.
 1. Konfigurera följande alternativ:
 
    * **Land**: Välj land i det här nedrullningsbara fältet.
    * **Tidszon**: Ange lämplig tidszon för din plats.
-   * **Språkversion**: Välj önskat språk. Om du ändrar språket i det här fältet tillämpas ändringen för alla användare som använder programmet. Varje användare kan dock ändra sitt språk individuellt.
-   * **Budgetåret börjar från**: Välj den månad då organisationens räkenskapsår börjar.
+   * **Språk**: Välj önskat språk. Om du ändrar språket i det här fältet tillämpas ändringen för alla användare som använder programmet. Varje användare kan dock ändra sitt språk individuellt.
+   * **Räkenskapsåret börjar från**: Välj den månad då organisationens räkenskapsår börjar.
 
 
 
@@ -191,9 +191,9 @@ Feedback om L3 är den feedback som en chef ger om en elev. Du kan använda denn
 
 Du som är administratör kan konfigurera inställningarna för feedback globalt. Gör det genom att följa denna procedur:
 
-1. Klicka på på startsidan för Learning Manager **[!UICONTROL Settings]**.
-1. I den vänstra rutan klickar du på **[!UICONTROL General]**.
-1. Konfigurera L1-feedback genom att klicka på **[!UICONTROL L1 Feedback]** -fliken. Du ser alternativen att konfigurera en obligatorisk fråga och flera valfria frågor. Det här är de frågor som en elev visar när han eller hon ger feedback efter att ha slutfört en kurs. Frågorna är formulerade som satser så att eleverna kan välja sitt svar på en skala från 1 till 5.
+1. Klicka på **[!UICONTROL Settings]** på startsidan för Learning Manager.
+1. Klicka på **[!UICONTROL General]** i den vänstra rutan.
+1. Om du vill konfigurera L1-feedback klickar du på fliken **[!UICONTROL L1 Feedback]**. Du ser alternativen att konfigurera en obligatorisk fråga och flera valfria frågor. Det här är de frågor som en elev visar när han eller hon ger feedback efter att ha slutfört en kurs. Frågorna är formulerade som satser så att eleverna kan välja sitt svar på en skala från 1 till 5.
 
    Första delen av L1-feedback är en obligatorisk fråga om hur det är för en elev att rekommendera den här kursen till en vän eller kollega.
 
@@ -201,7 +201,7 @@ Du som är administratör kan konfigurera inställningarna för feedback globalt
 
    ![](assets/configure-feedbacksettings-step3.png)
 
-1. Om du vill konfigurera de andra frågorna för din feedbackenkät klickar du på frågorna i ****[!UICONTROL Self-Paced Courses]****, eller ****[!UICONTROL Classroom Courses]****. När du klickar på en fråga kan du redigera standardfrågorna.
+1. Klicka på frågorna i ****[!UICONTROL Self-Paced Courses]**** eller ****[!UICONTROL Classroom Courses]**** om du vill konfigurera de andra frågorna för din feedbackenkät. När du klickar på en fråga kan du redigera standardfrågorna.
 
 
 
@@ -214,23 +214,23 @@ Du som är administratör kan konfigurera inställningarna för feedback globalt
 
 1. Konfigurera inställningarna för påminnelser genom att slutföra följande alternativ:
 
-   * **När ska du skicka**: Ange om du vill skicka feedbackbegäran antingen vid slutförande av kurs eller efter slutförande av kurs.
-   * **Dagar efter slutförande**: Ange antalet dagar som du vill skicka feedbackbegäran efter. Det här fältet visas bara om du har markerat det ****[!UICONTROL After course completion]****.
+   * **När ska du skicka**: Ange om du vill skicka feedbackbegäran antingen när kursen är slutförd eller efter slutförandet av kursen.
+   * **Dagar efter slutförande**: Ange hur många dagar du vill skicka feedbackbegäran efter. Det här fältet visas bara om du har markerat ****[!UICONTROL After course completion]****.
 
    * **Återkommande**: Ange om du vill skicka feedbackpåminnelsen varje dag, varje vecka eller varje månad. Du kan också ange för hur många veckor du vill att påminnelsen ska skickas.
 
 1. Klicka på bockmarkeringen för att spara påminnelseinställningarna.
-1. När du är klar med alla inställningar för feedback klickar du på **[!UICONTROL **Spara**]**längst upp till höger på sidan.
+1. När du är klar med alla inställningar för feedback klickar du på **[!UICONTROL **Spara**]**i det övre högra hörnet på sidan.
 
 ## Konfigurera L3-feedback: {#configurel3feedback}
 
-L3-feedback innehåller frågorna som skickas till en elevs chef efter att eleven har slutfört en kurs. Med L3-feedback kan en administratör spåra ändringar i en elevs beteende eller kompetens över tid. Om du vill konfigurera denna feedback klickar du på ****[!UICONTROL L3 Feedback]**** -fliken. Du ser en, standardfråga. Chefen måste svara på denna fråga med hjälp av en femgradig bedömningsskala.
+L3-feedback innehåller frågorna som skickas till en elevs chef efter att eleven har slutfört en kurs. Med L3-feedback kan en administratör spåra ändringar i en elevs beteende eller kompetens över tid. Om du vill konfigurera den här feedbacken klickar du på fliken ****[!UICONTROL L3 Feedback]**** på sidan Feedback. Du ser en, standardfråga. Chefen måste svara på denna fråga med hjälp av en femgradig bedömningsskala.
 
 ![](assets/configure-l3-feedback.png)
 
 Precis som med L1-feedback kan du konfigurera påminnelser för L3-feedback. Du kan antingen ändra den befintliga påminnelsen eller lägga till en ny feedbackpåminnelse.
 
-När du är klar med feedbackfrågan och inställningarna för påminnelser klickar du på ****[!UICONTROL Save]**** för att använda dina inställningar.
+När du är klar med feedbackfrågan och inställningarna för påminnelser klickar du på ****[!UICONTROL Save]**** för att tillämpa inställningarna.
 
 ## Konfigurera feedback på instansnivå {#configurefeedbackataninstancelevel}
 
@@ -238,28 +238,28 @@ I föregående procedur beskrevs stegen för att konfigurera feedbackinställnin
 
 Så här konfigurerar du feedbackinställningarna på instansnivå:
 
-1. På startsidan för Learning Manager klickar du på **[!UICONTROL Courses]**.
-1. Håll pekaren över kursen där du vill konfigurera feedbackinställningarna. Klicka [!UICONTROL **Visa kurs**.]
+1. Klicka på **[!UICONTROL Courses]** på startsidan för Learning Manager.
+1. Håll pekaren över kursen där du vill konfigurera feedbackinställningarna. Klicka på [!UICONTROL **Visa kurs**.]
 
    ![](assets/configure-feedbackataninstancelevel.png)
 
-1. På sidan med kursinformation klickar du på **[!UICONTROL Instance Defaults]** i avsnittet Konfigurera.
-1. I dialogrutan [!UICONTROL **Språk**] väljer du vilket språk som du vill att feedbackfrågeformuläret ska visas med.
+1. Klicka på **[!UICONTROL Instance Defaults]** i avsnittet Konfigurera på sidan med kursinformation.
+1. I listrutan [!UICONTROL **Språk**] väljer du språket som du vill att feedbackfrågeformuläret ska visas på.
 1. Aktivera feedback om L1-reaktioner om du vill be elever om feedback. Här kan du lägga till maximalt två frågor. Elever kan ge beskrivande svar på dessa frågor.
-1. Välj **[!UICONTROL Make Mandatory]** Markera den här rutan om du vill att en av eller båda frågorna ska vara obligatoriska.
-1. Välj **[!UICONTROL Show questionnaire immediately after course completion]** om du vill att elever ska se feedbackfrågeformuläret omedelbart efter att de har slutfört kursen.
+1. Markera kryssrutan **[!UICONTROL Make Mandatory]** om du vill göra en av eller båda frågorna obligatoriska.
+1. Välj **[!UICONTROL Show questionnaire immediately after course completion]** om du vill att eleverna ska visa feedbackfrågeformuläret omedelbart efter att de har slutfört kursen.
 
    ![](assets/configure-feedbackataninstancelevel-step7.png)
 
-1. Om du vill konfigurera feedback om L3-beteendeförändring på instansnivå ****[!UICONTROL Enable]**** Feedback om L3. I programmet visas en fördefinierad, obligatorisk fråga och en tom fråga där du kan ställa en valfri fråga.
+1. Om du vill konfigurera feedback om L3-beteendeförändring på instansnivå ****[!UICONTROL Enable]**** klickar du på Feedback om L3. I programmet visas en fördefinierad, obligatorisk fråga och en tom fråga där du kan ställa en valfri fråga.
 1. För den fördefinierade frågan om elevens förbättring efter kursen är svaret i Likert-skalans format. Det vill säga, chefer måste välja ett alternativ på en skala av Starkt samtycker till att starkt motsätta sig.
 1. Ange den andra frågan för chefen. Chefer kan ge ett beskrivande svar på denna fråga.
-1. Välj ****[!UICONTROL Make Mandatory]**** Markera den här rutan om du vill att den andra frågan ska vara obligatorisk.
+1. Markera kryssrutan ****[!UICONTROL Make Mandatory]**** om du vill göra den andra frågan obligatorisk.
 
    ![](assets/configure-feedbackataninstancelevel-step11.png)
 
 1. Du kan även konfigurera påminnelseinställningar på instansnivå. Om du inte konfigurerar inställningar för påminnelser här tilldelas inställningarna för globala påminnelser automatiskt.
-1. När du är klar med feedbackfrågorna och inställningarna för påminnelser klickar du på **[!UICONTROL **Spara**]**för att använda dina inställningar.
+1. När du är klar med inställningarna för feedback och påminnelser klickar du på **[!UICONTROL **Spara**]**för att använda inställningarna.
 
    ***Obs! Feedbackinställningarna gäller inte för certifieringar.***
 
@@ -267,20 +267,20 @@ Så här konfigurerar du feedbackinställningarna på instansnivå:
 
 Med de allmänna inställningarna i Learning Manager kan administratörer konfigurera allmänna inställningar som påverkar andra funktioner i programmet. Du kan till exempel använda allmänna inställningar för att ange om kurseffektivitet kan göras synlig för elever. Så här konfigurerar du de allmänna inställningarna:
 
-1. Klicka på på startsidan för Learning Manager ****[!UICONTROL Settings]****.
-1. I den vänstra rutan klickar du på ****[!UICONTROL General]****.
+1. Klicka på ****[!UICONTROL Settings]**** på startsidan för Learning Manager.
+1. Klicka på ****[!UICONTROL General]**** i den vänstra rutan.
 1. På sidan Allmänna inställningar kan du konfigurera följande alternativ:
 
    För alla dessa alternativ varierar funktionen som varje alternativ påverkar. Vi kan ge tvärlänkar till var och en av de detaljerade funktionen om det behövs.
 
    * **Visa kurseffektivitet**: Aktivera det här alternativet om du vill att eleverna ska se hur effektiv en kurs är i kurstiteln.
-   * **Alternativ för modulåterställning**: Aktivera det här alternativet om du vill ge elever möjlighet att återställa en modul. Elever kan sedan återställa sina moduler om de har misslyckats eller om de delvis har slutfört modulen och vill starta igen.
-   * **Kursmoderering**: Aktivera det här alternativet om du vill att ändringarna av en kurs ska godkännas av en administratör innan ändringarna är synliga för elever.
-   * **Diskussionstavla**: Aktivera det här alternativet om du vill att elever ska kunna se och delta i diskussionstavlor för kurser. Om du aktiverar **Diskussionstavla** Markera kryssrutan så kan elever och instruktörer lägga upp kommentarer för kurser. Men om kursinställningarna indikerar att den här funktionen inte är vald har inställningarna på kursnivå företräde framför administratörsinställningarna.
+   * **Alternativ för modulåterställning:** Aktivera det här alternativet om du vill ge elever möjlighet att återställa en modul. Elever kan sedan återställa sina moduler om de har misslyckats eller om de delvis har slutfört modulen och vill starta igen.
+   * **Kursmoderering**: Aktivera det här alternativet om du vill att ändringarna av en kurs ska godkännas av en administratör innan ändringarna visas för eleverna.
+   * **Diskussionstavla**: Aktivera det här alternativet om du vill att elever ska kunna visa och delta i diskussionstavlor för kurser. Om du aktiverar kryssrutan **Diskussionstavla** kan elever och instruktörer lägga upp kommentarer för kurser. Men om kursinställningarna indikerar att den här funktionen inte är vald har inställningarna på kursnivå företräde framför administratörsinställningarna.
 
-   * **Alternativet Utforska färdigheter**: Aktivera det här alternativet om du vill att elever ska utforska kollegor och ledarskapsfärdigheter.
-   * **Unika ID för utbildningsobjekt**: Aktivera det här alternativet om du vill ge författare möjlighet att lägga till unika ID:n i utbildningsobjekt.
-   * **Visa kataloglista**: Aktivera det här alternativet om du vill att elever ska se alla kataloger som är tillgängliga. Med det här alternativet kan elever förfina sin lista över utbildningsobjekt.
+   * **Utforska färdighetsalternativet**: Aktivera det här alternativet om du vill att elever ska utforska kollegor och ledarskapsfärdigheter.
+   * **Unika ID:n för utbildningsobjekt**: Aktivera det här alternativet om du vill ge författare möjlighet att lägga till unika ID:n i utbildningsobjekt.
+   * **Visa kataloglista**: Aktivera det här alternativet om du vill att eleverna ska se alla kataloger som är tillgängliga. Med det här alternativet kan elever förfina sin lista över utbildningsobjekt.
 
 
 
@@ -290,14 +290,14 @@ Med de allmänna inställningarna i Learning Manager kan administratörer konfig
 
 Elevinstrumentpanelen i Learning Manager låter elever se sina obligatoriska och rekommenderade kurser bortsett från prestationer, färdigheter och tillkännagivanden. Administratörer kan bestämma hur denna elevtavla ska visas genom att konfigurera inställningarna för elevtavlan. Dessa inställningar bestämmer låter administratörer ställa in widgetarna på elevsidan. Dessa inställningar anger också hur och var widgetarna placeras på elevtavlan. Du som är administratör kan förhandsgranska layouten på elevtavlan innan inställningarna tillämpas.
 
-1. Klicka på på startsidan för Learning Manager **[!UICONTROL Settings]**.
-1. Klicka på i det vänstra navigeringsfönstret **[!UICONTROL ** Elevtavla **.]**
+1. Klicka på **[!UICONTROL Settings]** på startsidan för Learning Manager.
+1. Klicka på **[!UICONTROL ** instrumentpanelen för elever **i den vänstra navigeringspanelen.]**
 1. Markera de widgetar som du vill aktivera. Om du avmarkerar en widget tas den bort direkt från förhandsgranskningen. Elever kan inte se widgeten på sin instrumentpanel.
-1. Klicka ****[!UICONTROL Save]**** för att använda inställningarna.
+1. Klicka på ****[!UICONTROL Save]**** för att tillämpa inställningarna.
 
    ![](assets/configure-learnerdashboardsettings-step4.png)
 
-1. Om du vill använda standardinställningarna klickar du på **[!UICONTROL Restore to Default.]** I det här fallet gäller alla widgetar utom **[!UICONTROL Welcome and Sticky Announcements]** är synliga.
+1. Klicka på **[!UICONTROL Restore to Default.]** om du vill använda standardinställningarna. I det här fallet är alla widgetar utom **[!UICONTROL Welcome and Sticky Announcements]** synliga.
 
    ***Även efter att du har aktiverat inställningarna för elevtavlan kan eleverna ändra och flytta runt widgetar på sina respektive instrumentpaneler.***
 

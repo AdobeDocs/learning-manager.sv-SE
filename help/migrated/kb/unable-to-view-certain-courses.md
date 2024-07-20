@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Det går inte att visa vissa kurser under katalogen när en certifiering skapas
 description: När du söker efter en viss kurs för att lägga till den i en certifiering kan du inte visa kursen under katalogen.
 contentowner: saghosh
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 5f2095ee-2b7b-4638-95fb-e81b7f9be96e
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
 
 ---
-
-
 
 # Det går inte att visa vissa kurser under katalogen när en certifiering skapas
 
@@ -42,7 +41,7 @@ Dessa kurser kan endast nomineras av chefer. En elev kan inte registrera sig fö
 
 I en certifiering kan du bara lägga till egenregistrerade kurser och inte chefsnominerade eller chefsgodkända kurser.
 
-* **Permanent certifiering:**  Du kan lägga till en CR- eller VC-sessionskurs i en certifiering.
-* **Återkommande certifieringar:** Du kan inte lägga till någon CR- eller VC-sessionskurs i en certifiering.
+* **Permanenta certifieringar:** Du kan lägga till en CR- eller VC-sessionskurs i en certifiering.
+* **Återkommande certifieringar:** Du kan inte lägga till en CR- eller VC-sessionskurser i en certifiering.
 
 Detta är ett standardbeteende i Learning Manager.

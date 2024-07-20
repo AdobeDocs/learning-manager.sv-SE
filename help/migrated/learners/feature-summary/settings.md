@@ -37,9 +37,9 @@ Läs den här artikeln för att lära dig hur du anger elevprofilinställningar 
 
 ## Vanliga frågor {#frequentlyaskedquestions}
 
-**1. Hur laddar man ner en elevs betygsutdrag som elev?**
+**1. Hur laddar man ned en elevbetygsutdrag som elev?**
 
-I det övre högra hörnet klickar du på **[!UICONTROL user profile]** > **[!UICONTROL Profile Settings]**. Klicka på i dialogrutan som visas **Hämta mitt utbildningstranskribering (XLS)**.
+Klicka på **[!UICONTROL user profile]** > **[!UICONTROL Profile Settings]** i det övre högra hörnet. I dialogrutan som visas klickar du på **Hämta mitt utbildningstranskribering (XLS)**.
 
 ![](assets/dowload-lt.png)
 *Ladda ned elevens betygsutdrag*

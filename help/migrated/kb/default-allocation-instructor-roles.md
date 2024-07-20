@@ -31,8 +31,8 @@ Eftersom roller inte kan förgrenade vid grupptilldelning av användare i en anv
 
 Skapa anpassade användargrupper för att filtrera användarrollerna som är tilldelade till en session. Så här tar du bort de tilldelade instruktörsrollerna i en användargrupp:
 
-1. Logga in som administratör. Klicka på i den vänstra panelen **[!UICONTROL Email Templates]**.
-1. Om du vill undvika e-postutlösare för de ändringar som ska göras klickar du på **[!UICONTROL Disable All]**.
+1. Logga in som administratör. Klicka på **[!UICONTROL Email Templates]** i den vänstra panelen.
+1. Klicka på **[!UICONTROL Disable All]** för att undvika e-postutlösare för de ändringar som ska göras.
 
    ![](assets/instructor-disable-all.png)
 
@@ -42,15 +42,15 @@ Skapa anpassade användargrupper för att filtrera användarrollerna som är til
 
 1. Skapa en anpassad användargrupp i fönstret Lägg till användargrupp på följande sätt:
 
-   * Ange ett namn på den anpassade gruppen i dialogrutan **[!UICONTROL Name]** område.
-   * Under **[!UICONTROL Include Learners]** -fältet lägger du till användargruppen som du vill filtrera instruktörer för.
-   * Under **[!UICONTROL Exclude Learners]** -fältet lägger du till de användare som du vill behålla instruktörsrollen för.
+   * Ange ett namn för den anpassade gruppen i fältet **[!UICONTROL Name]**.
+   * Lägg till användargruppen som du vill filtrera instruktörerna för under fältet **[!UICONTROL Include Learners]**.
+   * Lägg till de användare vars instruktörsroll du vill behålla under fältet **[!UICONTROL Exclude Learners]**.
 
    ![](assets/instructor-add-ug.png)
 
    Stegen ovan skapar en lista över användare som ska läggas till i inkluderingsuppsättningen och tar bort specifika användare (instruktörer) som nämns i uteslutningsuppsättningen.
 
-1. Klicka **[!UICONTROL Save]** de ändringar som gjorts.
+1. Klicka på **[!UICONTROL Save]** för ändringarna.
 1. Sök efter den skapade anpassade användargruppen genom att gå till **[!UICONTROL Users]** > **[!UICONTROL Internal]**.
 
    ![](assets/instructor-custom-ug.png)

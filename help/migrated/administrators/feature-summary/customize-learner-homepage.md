@@ -27,35 +27,35 @@ Under den här utbildningen kommer du att utforska sätt att anpassa elevens sta
 
 [![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4SC98Z83&amp;mv=display&amp;mv2=display#/course/8318825)
 
-Om du inte kan starta utbildningen kan du skriva till <almacademy@adobe.com>.
+Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
 
 ## Konfigurera elevens startsida {#configurethelearnerhomepage}
 
-På fliken **Varumärkning** > **Elevens startsida** kan administratören anpassa startsidan för en elev så att hen ser ett helt förnyat utseende och känsla när hen loggar in i elevappen.
+På sidan **Varumärkning** > **Elevens startsida** kan en administratör anpassa elevens startsida så att eleven ser ett helt nytt utseende och känsla när hen loggar in i elevappen.
 
-Administratörer kan konfigurera gränssnittet (utseendet och känslan) från Admin-appen (**Varumärkning** > **Elevens startsida** -fliken).
+Administratörer kan ange gränssnittet (utseende och känsla) från Admin-appen (**Varumärkning** > fliken **Elevens startsida**).
 
 Administratörer kan växla till widgetvyn Immersive UI, anpassa widgetar/funktioner därefter och sedan aktivera det immersiva användargränssnittet.
 
-Inställningen **Elevens startsida** innehåller följande avsnitt:
+Skärmen **Elevens startsida** innehåller följande avsnitt:
 
 ## Alternativ för uppslukande layout {#immersivelayoutoption}
 
-Om du vill visa layouten för en djup sida aktiverar du alternativet **Integrerande**. Du kan växla det här alternativet i **Varumärkning > Allmänt**.
+Aktivera alternativet **Immersive** om du vill visa layouten för en immersive-driven sida. Du kan växla det här alternativet i **Varumärke > Allmänt**.
 
 I tidigare versioner fanns alternativen för elevens startsida i Inställningar.
 
 Här är de alternativ som du kan ange:
 
-**Upplevelser på hemsidan:** Aktivera antingen **Klassisk** eller **Integrerande**. Om du väljer Immersive visas följande alternativ:
+**Hemsidupplevelse:** Aktivera antingen **Klassisk** eller **Immersiv**. Om du väljer Immersive visas följande alternativ:
 
-* **Utbildningstyp:** Välj endera **Industri** eller **Anpassad**. Anpassade utbildningar skapas internt. Branschanpassade utbildningar inkluderar innehåll från tredjepartsleverantörer.
+* **Utbildningstyp:** Välj antingen **Bransch** eller **Anpassad**. Anpassade utbildningar skapas internt. Branschanpassade utbildningar inkluderar innehåll från tredjepartsleverantörer.
 
 ![](assets/select-homepage-experience.png)
 
 *Ställ in startsidan genom att välja Bransch eller Anpassad*
 
-Alternativet **Låt eleven utforska intresseområden** finns både för klassisk och uppslukande upplevelse.
+Alternativet **Låt eleven utforska intresseområden** är tillgängligt för både klassisk och uppslukande upplevelse.
 
 <table>
  <tbody>
@@ -69,7 +69,7 @@ Alternativet **Låt eleven utforska intresseområden** finns både för klassisk
    <td>
     <p>Du kan välja högst ett internt och externt aktivt fält.</p></td>
    <td>
-    <p>Du kan välja högst fem och minst ett fält. Som standard används alternativet <b>Profil </b>har markerats.</p></td>
+    <p>Du kan välja högst fem och minst ett fält. Som standard är alternativet <b>Profil </b> valt.</p></td>
   </tr>
  </tbody>
 </table>
@@ -84,7 +84,7 @@ Det här aktiveras och tonas ned om alternativet för fördjupad upplevelse väl
 
 ![](assets/option-immersive.png)
 
-*Inställningar för elevstartsida*
+*Inställningar för elevens startsida*
 
 Den uppslukande layouten är standard för alla nya konton. Layouten styrs av widgetar som en administratör kan aktivera eller inaktivera. Beroende på hur widgetarna är placerade återspeglas detta på elevens startsida.
 
@@ -92,7 +92,7 @@ Här är de widgetar som du kan aktivera/inaktivera.
 
 Du kan förhandsgranska elevgränssnittet innan elevgränssnittet aktiveras.
 
-För befintliga konton är alternativet **Integrerande** kommer att **AV**. Det har aktiverats för nytt konto med Social och Spelifiering PÅ.
+För befintliga konton är alternativet **Immersive** **OFF**. Det har aktiverats för nytt konto med Social och Spelifiering PÅ.
 
 ![](assets/immersive-layout-widgets.png)
 
@@ -114,9 +114,9 @@ För befintliga konton är alternativet **Integrerande** kommer att **AV**. Det 
     <p>Det är en välkommen banner för elever. Banderollen kan vara en bild eller en video. Du kan rikta in masthead på specifika användargrupper och en elev visar Masthead så fort han/hon landar på hemsidan. En användargrupp kan se flera hero images eller videoklipp enligt den målplan som administratören har angett. </p>
     <p>Så här laddar en administratör upp en banderoll:</p>
     <ol>
-     <li>I den vänstra panelen klickar du på <b>Meddelanden</b>.<br></li>
-     <li>Klicka på i det övre högra hörnet på sidan <b>Lägg till</b>.</li>
-     <li>Från <b>Text </b>listruta, välja <b>Som Masthead</b>.</li>
+     <li>Klicka på <b>Meddelanden</b> i den vänstra panelen.<br></li>
+     <li>Klicka på <b>Lägg till</b> längst upp till höger på sidan.</li>
+     <li>I listrutan <b>Skriv </b>väljer du <b>Som Masthead</b>.</li>
      <li>Skriv ett meddelande som ska visas i masthead.</li>
      <li>Överför en bild eller video.</li>
      <li>Välj målgrupp. Välj en användargrupp eller utbildning där huvuddokumentet ska visas.</li>
@@ -160,7 +160,7 @@ För befintliga konton är alternativet **Integrerande** kommer att **AV**. Det 
     <p>När den här widgeten är aktiverad rekommenderas utbildningar till specifika användargrupper. Varje användargrupp kan få en eller flera utbildningar som mål och målplanen baseras på en tidsram. <br></p>
     <ul>
      <li>
-      <p>För det första: administratören <a href="announcements.md#recommendation">skapar ett meddelande</a> av typ <b>Som rekommendation</b> och väljer sedan ut den utbildning och de grupper som krävs. En elev som tillhör en användargrupp kan se den rekommenderade utbildningen.</p></li>
+      <p>För det första skapar administratören <a href="announcements.md#recommendation">ett meddelande</a> av typen <b>Som rekommendation</b> och väljer sedan nödvändig utbildning och använder grupper. En elev som tillhör en användargrupp kan se den rekommenderade utbildningen.</p></li>
      <li>
       <p>För det andra kan administratören också avgöra om rekommendationerna börjar gälla omedelbart eller vid ett visst datum.</p></li>
     </ul></td>
@@ -211,13 +211,13 @@ Den användargränssnittslayout som hittills alltid har funnits kallas nu klassi
 
 ![](assets/classic-layout.png)
 
-*Förhandsvisa klassisk layout*
+*Förhandsvisa den klassiska layouten*
 
 ## Konfigurera rekommendationsinställningar {#configurerecommendationsettings}
 
-På **Varumärkning** > **Allmänt** kan du konfigurera rekommendationsomfattningar för interna och externa elever och göra det möjligt för elever att välja färdigheter på elevens startsida.
+Du kan konfigurera rekommendationsomfattningar för interna och externa elever på **Varumärkning** > **Allmänt** och göra det möjligt för elever att välja färdigheter på elevens startsida.
 
-På fliken **Allmänt** -sidan har du följande alternativ:
+På sidan **Allmänt** finns följande alternativ:
 
 <table>
  <tbody>
@@ -255,19 +255,19 @@ På fliken **Allmänt** -sidan har du följande alternativ:
    <td>
     <p>Elevens startsida</p></td>
    <td>
-    <p>Välj endera <b>Klassisk </b>eller <b>Integrerande</b>. Om du väljer Immersive visas andra alternativ.</p></td>
+    <p>Välj antingen <b>Klassisk </b>eller <b>Immersive</b>. Om du väljer Immersive visas andra alternativ.</p></td>
   </tr>
   <tr>
    <td>
     <p>Utbildningstyp<br></p></td>
    <td>
-    <p>Välj endera <b>Egen </b>eller <b>Branschanpassad</b>. Om det finns färre än 1 000 elever betraktas hela kontot som ett enda scope. Rekommendationen är baserad på alla elever.<br></p></td>
+    <p>Välj antingen <b>Anpassad </b>eller <b>Branschanpassad</b>. Om det finns färre än 1 000 elever betraktas hela kontot som ett enda scope. Rekommendationen är baserad på alla elever.<br></p></td>
   </tr>
   <tr>
    <td>
     <p>Inställning av rekommendationsomfattning<br></p></td>
    <td>
-    <p>Välj ett eller flera aktiva fält. För <b>Egen</b>, kan du välja högst ett aktivt fält. För <b>Branschanpassad</b>kan du välja högst fem aktiva fält.<br></p></td>
+    <p>Välj ett eller flera aktiva fält. För <b>Anpassad</b> kan du välja högst ett aktivt fält. För <b>Branschjusterade</b> kan du välja högst fem aktiva fält.<br></p></td>
   </tr>
   <tr>
    <td>

@@ -30,7 +30,7 @@ Standardstilen kanske inte uppfyller alla behov. Anpassningarna kan göras genom
 * **Indrag**: li.ql-indent-$number. $number varierar från 1-9
 * **storlek**: ql-size-small, ql-size-large, ql-size-large
 * **justering**: ql-align-center, ql-align-adjust, ql-align-right
-* **färg**: ql-color-$color. $color = vit, röd, orange, gul, grön, blå, lila
+* **färg**: ql-färg-$färg. $color = vit, röd, orange, gul, grön, blå, lila
 * **bakgrund**: ql-bg-$color. $color = svart, röd, orange, gul, grön, blå, lila
 * **html-taggar**: p, ol, ul, pre, blockquote, h1, h2, h3, h4, h5, h6
 

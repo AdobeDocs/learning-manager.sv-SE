@@ -27,7 +27,7 @@ Om du redan är inloggad på Learning Manager-appen i en annan roll kan du klick
 
 Instruktörer för moduler eller sessioner kan hantera datum, tid och plats för sessionen. Instruktörer kan också hantera platsbegränsningen för moduler, hantera väntelistan också. De kan rensa väntelistan och bekräfta deltagarlistan för en session.Instruktörer kan också godkänna bidrag från elever och ställa in påminnelser för kurser som inhyser instruktörens sessioner.
 
-När sessionen är över kan instruktörerna även markera närvaron för sessionen och godkänna tilldelningarna och andra resursfiler som hör till sessionen. För detaljerad information om kapacitet för instruktör, se [Sammanfattning av funktioner](feature-summary/modules.md).
+När sessionen är över kan instruktörerna även markera närvaron för sessionen och godkänna tilldelningarna och andra resursfiler som hör till sessionen. Mer information om funktionerna hos instruktörer finns i [Funktionssammanfattning](feature-summary/modules.md).
 
 +++
 
