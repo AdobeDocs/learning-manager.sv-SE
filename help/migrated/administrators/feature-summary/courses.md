@@ -1,17 +1,17 @@
 ---
 description: Det här dokumentet består av hjälp med att skapa kursmoduler, instanser och kurser för administratörsrollen.
 jcr-language: en_us
-title: Skapa kursmoduler, instanser och utbildningsprogram
+title: Skapa kursinstanser och utbildningsvägar
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: a0dcc5b0a0a9f1ef0248c1e853067c1cc57b60e1
+source-git-commit: b8c7bb0c11268d23ec64d4135aa8b2105539cb89
 workflow-type: tm+mt
-source-wordcount: '4717'
+source-wordcount: '4715'
 ht-degree: 1%
 
 ---
 
-# Skapa kursmoduler, instanser och utbildningsvägar
+# Skapa kursinstanser och utbildningsvägar
 
 Det här dokumentet består av hjälp med att skapa kursmoduler, instanser och kurser för administratörsrollen.
 

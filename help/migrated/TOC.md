@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation för Adobe Learning Manager
-source-git-commit: 6b26c48e3195b76b30bb837b37a40a1484d72c5d
+source-git-commit: b8c7bb0c11268d23ec64d4135aa8b2105539cb89
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '600'
 ht-degree: 8%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 8%
    * [Användarinloggning](administrators/feature-summary/user-login.md)
    * [Lägga till användare och skapa användargrupper](administrators/feature-summary/add-users-user-groups.md)
    * [Lägg till klassrumsplatser](administrators/feature-summary/classroom.md)
-   * [Skapa kursmoduler, instanser och utbildningsprogram](administrators/feature-summary/courses.md)
+   * [Skapa kursinstanser och utbildningsvägar](administrators/feature-summary/courses.md)
    * [Content Marketplace](administrators/feature-summary/content-marketplace.md)
    * [Rapporter](administrators/feature-summary/reports.md)
    * [Utbildningsvägar](administrators/feature-summary/learning-paths.md)
