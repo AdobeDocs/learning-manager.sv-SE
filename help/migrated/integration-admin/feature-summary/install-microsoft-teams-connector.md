@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Installera Microsoft Teams-anslutning i Adobe Learning Manager
 contentowner: saghosh
 exl-id: 68092187-ac69-4727-a3dc-f3047a1e164d
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 139e9224f94e6a39f497b45f5bdc600121a77bc8
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ## Översikt
 
-Microsoft® Teams® är en beständig chattbaserad samarbetsplattform som har fullt stöd för dokumentdelning, onlinemöten och andra funktioner för affärskommunikation.
+Microsoft Teams ® är en beständig chattbaserad samarbetsplattform som har fullt stöd för dokumentdelning, onlinemöten och andra funktioner för affärskommunikation.
 
 Adobe Learning Manager använder en virtuell klassrumskontakt som kan användas för att integrera Microsoft Teams-möten med Learning Manager.
 
@@ -52,7 +52,6 @@ Mer information finns i [Roller i ett teammöte - Microsoft](https://support.mic
 Du kan använda Microsoft Teams-anslutning om du har Office 365 E3 eller Office 365 E5. Det rekommenderade alternativet är Office 365 E5.
 
 * Gå till sidan [Microsoft-planer](https://www.microsoft.com/en-in/microsoft-365/enterprise/compare-office-365-plans?&amp;ef_id=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;OCID=AID2100137_SEM_CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;lnkd=Google_O365SMB_Brand&amp;gclid=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE). På webbsidan kan du antingen köpa E3- eller E5-konto eller klicka på Prova gratis.
-
 * Ange den information som krävs och skapa ett konto.
 
 >[!NOTE]
@@ -101,6 +100,7 @@ Observera klientsekretessen, som kommer att användas ytterligare under integrer
    1. OnlineMeetings.Read.All
    1. OnlineMeetings.ReadWrite.All
    1. User.Read.All
+   1. OnlineMeetingRecording.Read.All
 
 1. Klicka på **[!UICONTROL Grant admin access for Adobe]**.
 1. Klicka på **[!UICONTROL App roles]** > **[!UICONTROL Create app role]**.
@@ -154,17 +154,17 @@ Detta gör det möjligt för kontakten att få tillgång till Microsoft Teams on
 1. Klicka på **[!UICONTROL Manage Product Licenses]**.
 1. Aktivera licens för Office 365 E5 utan ljudkonferenser.
 
-## Spela in en session
+<!--## Record a session
 
-Det API som används för att spela in en session är ett skyddat API. För att få åtkomst till API:et måste du begära åtkomst från Microsoft. Mer information finns i det här [dokumentet](https://docs.microsoft.com/en-us/graph/teams-protected-apis).
+The API used for recording a session is a protected API. To access the API, you must request access from Microsoft. For more information, see this  [document](https://docs.microsoft.com/en-us/graph/teams-protected-apis).
 
-I dokumentet
+In the document,
 
-*&quot;Om du vill begära åtkomst till dessa skyddade API:er fyller du i följande [formulär för begäran](https://aka.ms/teamsgraph/requestaccess). Vi granskar åtkomstförfrågningar varje onsdag och driftsätter godkännanden varje fredag, förutom under större helgveckor i USA. Inlämningar under dessa veckor kommer att behandlas nästa vecka som inte är en helgvecka. Kontrollera om din begäran har godkänts genom att testa programåtkomsten nästa aktuella måndag.&quot;*
+*"To request access to these protected APIs, complete the following  [request form](https://aka.ms/teamsgraph/requestaccess). We review access requests every Wednesday and deploy approvals every Friday, except during major holiday weeks in the U.S. Submissions during those weeks will be processed the following non-holiday week. To verify whether your request has been approved, test your application access on the next applicable Monday."*
 
-För elever visas inspelnings-URL:en på sidan VC-kursöversikt.
+For learners, the recording URL is displayed on the VC course overview page.
 
-Efter 30 minuters slutförande av en kurs markeras elevens närvaro.
+After 30 minutes of completing a course, the attendance for the learner gets marked. -->
 
 ## Vanliga frågor
 
