@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Skapa kursinstanser och utbildningsvägar
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 139e9224f94e6a39f497b45f5bdc600121a77bc8
+source-git-commit: c7969e9386241f316c8ff2590f8015ebc594c3e6
 workflow-type: tm+mt
 source-wordcount: '4715'
 ht-degree: 1%
@@ -81,7 +81,7 @@ Om du vill skapa en instans
 
 Utför stegen nedan om du vill ta en instans ur bruk.
 
-1. I instansen klickar du på listrutan och väljer alternativet **[!UICONTROL Retire instance]**.
+1. I instansen väljer du listrutan och väljer alternativet **[!UICONTROL Retire instance]**.
 
    ![](assets/retire-an-instance.png)
 
