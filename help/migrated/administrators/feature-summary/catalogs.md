@@ -4,9 +4,9 @@ title: Kataloger
 description: Kataloger är en samling utbildningar - kurser, utbildningsprogram och certifieringar. Använd kataloger för att ge elever tillgång till en anpassad uppsättning utbildningar. Du kan koppla inlärning till en katalog när du skapar en ny katalog.
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2439'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,11 @@ Så här skapar du en katalog:
 
    Du kan lägga till flera kurser i katalogen.
 1. Du kan filtrera kurserna efter kunskaper, roller och språk. Den valda kursen rekommenderas till elever som är intresserade av dessa färdigheter och roller.
+
+   * **[!UICONTROL Skills]**: Med kompetensfilter kan användarna hitta kurser som fokuserar på särskilda färdigheter.
+   * **[!UICONTROL Roles]**: Med rollfilter kan användarna få tillgång till kurser som är anpassade till ansvarsområden och krav för olika roller.
+   * **[!UICONTROL Language]**: Med språkfilter kan användarna välja kurser som är tillgängliga på deras önskade eller obligatoriska språk
+
 1. Spara ändringarna. Gå tillbaka till listan med kataloger och klicka på den nya katalogen i listan.
 1. Klicka på **[!UICONTROL Content]** i den vänstra rutan på sidan för den nya katalogen.
 

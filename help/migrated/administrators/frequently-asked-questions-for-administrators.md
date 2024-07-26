@@ -4,9 +4,9 @@ title: Vanliga frågor för administratörer
 description: Vanliga frågor för Adobe Learning Manager-administratörer
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2360'
+source-wordcount: '2460'
 ht-degree: 0%
 
 ---
@@ -365,5 +365,26 @@ Kontakta supportteamet för Learning Manager.
 Du kan hämta konto-ID från webbläsaren där Learning Manager är öppet.
 
 */app/admin?i_qp_user_id=12761637&amp;**accountId=6849***
+
++++
+
++++Finns det en rapport jag kan skriva, eller en som någon kan dra för mig, som kommer att visa mig en lista över alla kurser i LMS?
+
+Ja, du kan hämta en **[!UICONTROL Training Report]** som innehåller alla kurser, utbildningsprogram och certifieringar i LMS. Ladda ned rapporten genom att följa stegen nedan:
+
+1. Logga in som administratör.
+2. Klicka på **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Trainings Report]**.
+3. Välj **[!UICONTROL All Trainings]** i listrutan.
+4. Klicka på **[!UICONTROL Download]**.
+
++++
+
++++Var kan jag hämta datorversionen av programmet?
+
+Följ stegen nedan för att hämta datorversionen:
+
+1. Logga in som administratör.
+2. Klicka på **[!UICONTROL Social Learning]** > **[!UICONTROL Settings]**.
+3. Klicka på hyperlänken under **[!UICONTROL Download Configuration]** beroende på ditt operativsystem.
 
 +++

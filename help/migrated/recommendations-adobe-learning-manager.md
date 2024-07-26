@@ -2,9 +2,9 @@
 title: RECOMMENDATIONS i ADOBE LEARNING MANAGER
 description: Kärnan i rekommendationsmotorn drivs av Learning Managers nya kursrankningsalgoritm. Algoritmen använder 50 miljoner datapunkter och fem års aggregerade utbildningsdata för miljontals användare för att rangordna kurser baserat på deras sannolikhet för registrering. Denna rankning säkerställer att de flesta registrerbara kurser visas i förväg för eleverna.
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1446'
 ht-degree: 2%
 
 ---
@@ -64,8 +64,8 @@ Administratörer får ett guidat arbetsflöde i Learning Manager för att optima
 
 1. Klicka på **[!UICONTROL Proceed]** för att uppgradera till det nya rekommendationssystemet.
 
-   ![Gå till det nya systemet](assets/image521152.png)
-   *Välj knappen Fortsätt*
+   <!--![Proceed to the new system](assets/image521152.png)
+   *Select the Proceed button*-->
 
 1. Skapa rekommendationsparametrar för Produkter och Roller.
 
@@ -168,7 +168,7 @@ Rekommendationssystemet är nu tillgängligt för dina elever.
 
 ## Ta bort en parameter
 
-1. Välj ikonen med tre punkter i listan med parametrar och välj **[!UICONTROL Delete parameter]**.
+Administratörer kan ta bort en parameter genom att klicka på ikonen med tre punkter och välja **[!UICONTROL Delete Parameter]**. Administratörer kan radera en parameter om den inte är länkad till ett utbildningsobjekt. Om den är länkad kan de bara dölja parametern. De kan dock inte dölja de två sista parametrarna eftersom det krävs minst två parametrar för att rekommendationer ska fungera.
 
 ![Ta bort parameter](assets/delete-parameter.png)
 *Ta bort parametern*

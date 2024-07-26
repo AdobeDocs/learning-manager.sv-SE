@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation för Adobe Learning Manager
-source-git-commit: 139e9224f94e6a39f497b45f5bdc600121a77bc8
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '606'
 ht-degree: 8%
 
 ---
@@ -115,7 +115,7 @@ ht-degree: 8%
    * [Logga in](learners/feature-summary/user-login.md)
    * [Profilinställningar](learners/feature-summary/settings.md)
    * [Kataloger](learners/feature-summary/catalogs.md)
-   * [Kurser](learners/feature-summary/courses.md)
+   * [Mitt lärande](learners/feature-summary/courses.md)
    * [Fluidic-spelare](learners/feature-summary/fluidic-player.md)
    * [Utbildningsprogram](learners/feature-summary/learning-programs.md)
    * [Certifieringar](learners/feature-summary/certifications.md)
@@ -149,6 +149,7 @@ ht-degree: 8%
    * [Vanliga frågor för författare](authors/frequently-asked-questions-for-authors.md)
    * [Vanliga frågor för instruktörer](instructors/frequently-asked-questions-for-instructors.md)
    * [Vanliga frågor för chefer](managers/frequently-asked-questions-for-managers.md)
+   * [Vanliga frågor för elever](learners/frequently-asked-questions-for-learners.md)
 * Kunskapsbas {#knowledge-base}
    * [Kan inte logga in på Learning Manager](kb/unable-log-in-learning-manager.md)
    * [Utbildningssammanfattning visar inte aktuella data](kb/learning-summary-not-display-data.md)

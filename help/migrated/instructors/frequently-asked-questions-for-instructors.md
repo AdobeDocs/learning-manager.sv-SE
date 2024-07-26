@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Vanliga frågor för instruktörer
 contentowner: shhivkum
 exl-id: 1120516c-461a-498d-a5ae-cacc1e87e081
-source-git-commit: fe51f56d0528b469ea13f3fb780886d6dd6f2e3d
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -46,5 +46,12 @@ Ja, en författare kan tilldela flera instruktörer för en enda modul. I det h�
 +++Kan en instruktör ändra en session?
 
 Instruktörer kan bara visa och redigera information om de sessioner som du har tilldelats. Du kan inte ändra sessionen eller deltagarlistan för andra sessioner.
+
++++
+
++++Hur tilldelar jag en instruktörsroll till externa användare?
+
+* Som standard visas endast **[!UICONTROL Make Manager]** eller **[!UICONTROL Make Author]** i avsnittet **[!UICONTROL Assign]** för **[!UICONTROL External User]**.
+* Om du vill tilldela **instruktörsrollen** till användare i LMS kan du lägga till dem som **instruktör** till valfri **[!UICONTROL Classroom]**- eller **[!UICONTROL Virtual Classroom]**-modul och **instruktörsroll**-roll tilldelas automatiskt till användaren i LMS.
 
 +++

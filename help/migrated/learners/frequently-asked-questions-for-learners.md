@@ -4,9 +4,9 @@ title: Vanliga frågor för elever
 description: Vanliga frågor för elever i Adobe Learning Manager
 contentowner: admin
 preview: true
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2361'
 ht-degree: 0%
 
 ---
@@ -351,6 +351,18 @@ Ja, du kan exportera anteckningsinnehåll som pdf genom att följa stegen nedan:
 1. Klicka på fliken Anteckningar.
 1. Om du vill skicka anteckningar till din registrerade e-post-ID klickar du på alternativet E-postanteckningar.
 1. Klicka på Hämta anteckningar om du vill hämta dem som PDF.
+
++++
+
++++Var kan jag hämta datorversionen av programmet?
+
+Följ stegen nedan för att hämta datorversionen:
+
+1. Logga in som elev.
+2. Klicka på **[!UICONTROL Social Learning]**.
+3. Klicka på **[!UICONTROL New Post]** och klicka på någon av ikonerna som visas nedan i skärmbilden.
+
+Då hämtas programmet.
 
 +++
 

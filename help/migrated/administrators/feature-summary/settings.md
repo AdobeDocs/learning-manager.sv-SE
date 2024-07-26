@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Inställningar
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: a0dcc5b0a0a9f1ef0248c1e853067c1cc57b60e1
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '3552'
+source-wordcount: '3608'
 ht-degree: 1%
 
 ---
@@ -406,6 +406,10 @@ Aktivera eller inaktivera följande inställningar:
     <p>I alla andra appar (administratör, författare, chef, anpassad administratör, anpassad författare) påverkar inte ändringar i inställningarna (stjärngradering/kurseffektivitet/inaktivera bildstjärngradering). </p>
     <p>För nya konton kommer avsnittet <b>Visa stjärngraderingar</b> att ha alternativet <b>Stjärngradering</b> aktiverat som standard.</p>
     <p>Om alternativet <b>Kurseffektivitet</b> har aktiverats för befintliga konton aktiveras avsnittet <b>Visa betyg</b> med alternativet Kurseffektivitet valt. Om alternativet <b>Kurseffektivitet</b>s är inaktiverat kommer avsnittet <b>Visa klassificeringar</b> också att inaktiveras. När avsnittet <b>Visa stjärngraderingar</b> är aktiverat kommer alternativet <b>Stjärngradering</b> att vara aktiverat som standard.</p></td>
+  </tr>
+  <tr>
+   <td height="19">Fasa ut</td>
+   <td>Välj något av följande alternativ för pensionering:<li>När de har fasats ut kan registrerade elever se och utföra åtgärder, men ännu inte registrerade elever förlorar åtkomsten.</li><li>När elever har dragit sig tillbaka förlorar både registrerade och ännu inte registrerade elever åtkomst.</li><div><b>Obs!</b> Du kan ta bort kurser, utbildningsvägar eller certifieringar från översiktssidorna.</div> </td>
   </tr>
  </tbody>
 </table>

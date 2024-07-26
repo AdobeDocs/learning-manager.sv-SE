@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Anslutningar för Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 7be69e68f3b8970e090c8eccd25771cd2e5e99f1
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '15682'
+source-wordcount: '15605'
 ht-degree: 0%
 
 ---
@@ -326,50 +326,101 @@ Du kan också använda Boxs anslutning för datamigrering, användarimport och d
 
 ### Dataimport {#dataimport}
 
-Importera användare gör att Learning Manager-administratören kan hämta medarbetarinformation från Learning Manager FTP-tjänsten och importera dem till Learning Manager automatiskt. Med den här funktionen kan du integrera flera system genom att placera CSV-filen som genereras av de systemen i lämplig mapp på FTP-kontona. Learning Manager hämtar CSV-filerna, slår samman dem och importerar data enligt schemat. Mer information finns i Schemaläggningsfunktionen.
+Importprocessen för användare gör det möjligt för Learning Manager-administratören att hämta information om anställda från Learning Manager FTP-tjänsten och importera dem till Learning Manager automatiskt. Med den här funktionen kan du integrera flera system genom att placera CSV-filen som genereras av de systemen i lämplig mapp på FTP-kontona. Learning Manager hämtar CSV-filerna, slår samman dem och importerar data enligt schemat. Mer information finns i schemaläggningsfunktionen.
 
 **Mappningsattribut**
 
-Integreringsadministratören kan välja kolumnerna i CSV och mappa dem till Learning Managers grupperbara attribut. Denna kartläggning är en engångsinsats. När mappningen är klar används samma mappning för efterföljande användarimporter. Mappningen kan konfigureras om om administratören vill ha en annan mappning för importerande användare.
+Integreringsadministratören kan välja kolumnerna i CSV och mappa dem till Learning Managers grupperbara attribut. Denna kartläggning är en tidsansträngning. När mappningen är klar används samma mappning för efterföljande användarimporter. Mappningen kan konfigureras om om administratören vill ha en annan mappning för importerande användare.
+
 
 #### Exportera data {#exportdata}
 
 Dataexporten gör det möjligt för användare att exportera användarfärdigheter och elevens betygsutdrag till en FTP-plats för att integrera med alla externa system.
 
-#### Tidsplanering {#scheduling}
+#### Tidsplanering
 
-Administratören kan konfigurera schemaläggningsuppgifter enligt organisationens krav och användarna i Learning Manager-programmet är uppdaterade enligt schemat. På samma sätt kan integrationsadministratören schemalägga kunskapsexport i tid för att kunna integreras med ett externt system. Du kan synkronisera dagligen i Learning Manager-programmet.
+Administratörer kan ställa in schemaläggningsuppgifter enligt organisationens krav och användare i Learning Manager-programmet är uppdaterade enligt schemat. På samma sätt kan integreringsadministratören schemalägga kunskapsexporten så att den sker i tid och integreras med ett externt system. Synkronisering kan utföras dagligen i Learning Manager-programmet.
 
 ### Konfigurera FTP-anslutning för Learning Manager {#configurecaptivateprimeftpconnector}
 
-Lär dig hur du integrerar FTP-anslutning med Learning Manager.
+Lär dig hur du integrerar FTP-anslutningen med Learning Manager.
 
 #### Skapa en anslutning {#Createaconnection-1}
 
-1. På startsidan för Learning Manager håller du pekaren över FTP-kortet/miniatyrbilden. En meny visas. Klicka på **[!UICONTROL Connect]** objekt i menyn.
+1. På startsidan för Learning Manager håller du pekaren över FTP-kortet/miniatyrbilden. En meny visas. Välj alternativet Anslut på menyn.
 
    ![](assets/mouseover-ftpconnector.png)
 
    *Anslutningsalternativ*
 
-1. En dialogruta visas där du uppmanas att ange e-post-ID. Ange e-post-ID för den person som ansvarar för hanteringen av organisationens FTP-konto för Learning Manager. Klicka på **[!UICONTROL Connect]** när du har angett e-post-ID.
-1. Learning Manager skickar ett e-postmeddelande till dig som uppmanar användaren att återställa lösenordet innan FTP används för första gången. Användaren måste återställa lösenordet och använda det för att få åtkomst till FTP-kontot för Learning Manager.
+Om du vill ansluta till en FTP-server med FTP-klienten behöver du följande information:
+
+* **FTP-domän**: Det här är adressen till den FTP-server som du vill ansluta till. Till exempel ftp.example.com
+* **Port**: FTP-standardporten är 21, men vissa servrar kan använda olika portar av säkerhetsskäl. För Adobe Learning Manager - port 22
+* **FTP-användarnamn**: Användarnamnet som du behöver för att få åtkomst till FTP-servern.
+* **FTP-lösenord**: Lösenordet som är kopplat till användarnamnet.
+
+**FileZilla (Windows, macOS och Linux)**
+
+**Steg 1: Hämta och installera FileZilla**
+
+Om du inte har installerat FileZilla ännu kan du hämta det från den officiella webbplatsen: [Hämta](https://filezilla-project.org/) och installera det på datorn.
+
+**Steg 2: Öppna FileZilla**
+
+Efter installationen, starta FileZilla på datorn.
+
+**Steg 3: Samla in FTP-serverinformation**
+
+**Steg 4: Ange FTP-serverinformation i FileZilla**
+
+Välj **[!UICONTROL File]** på den övre menyn och välj sedan **[!UICONTROL Site Manager]** (eller använd kortkommandot Ctrl+S).
+
+**Steg 5: Lägg till ny FTP-webbplats**
+
+Välj **Ny plats** i Platshanteraren och ange ett namn (t.ex. Min FTP-server).
+
+**Steg 6: Ange FTP-information**
+
+Ange följande information:
+
+* **Värd**: Ange FTP-serverns adress.
+* **Port**: Om servern använder en port över 21 anger du rätt portnummer.
+* **Protokoll**: Välj **[!UICONTROL SFTP – SSH File Transfer Protocol]**.
+* **Inloggningstyp**: Välj **[!UICONTROL Normal]**.
+* **Användare**: Ange ditt FTP-användarnamn.
+* **Lösenord**: Ange FTP-lösenordet.
+
+**Steg 7: Anslut till FTP-servern**
+
+Välj knappen **[!UICONTROL Connect]** i Platshanteraren. FileZilla ansluter till FTP-servern om all information är korrekt.
+
+**Steg 8: Navigera och överför filer**
+
+När du är ansluten ser du fjärrfilerna på höger sida och dina lokala filer på vänster sida. Du kan navigera mellan katalogerna och överföra filer genom att dra och släppa dem mellan panelerna.
+
+>[!CAUTION]
+>
+>Undvik att ändra viktiga filer på servern när du överför filer.
+
+<!--1. A dialog appears prompting you to enter the email id. Provide the email id of the person responsible for managing the Learning Manager FTP account for the organization. Click **[!UICONTROL Connect]** after providing the email id. 
+1. Learning Manager sends you an email prompting the user to reset the password before accessing the FTP for the first time. The user must reset the password and use it for accessing the Learning Manager FTP account.
 
    >[!NOTE]
    >
-   >Endast ett FTP-konto för Learning Manager kan skapas för ett visst Learning Manager-konto.
+   >Only one Learning Manager FTP account can be created for a given Learning Manager account.
 
-   På sidan Översikt kan du ange Anslutningsnamn för integreringen. Välj vilken åtgärd du vill utföra med följande alternativ:
+   In the overview page, you can specify the Connection Name for your integration. Choose what action you want to take  from  the following options:
 
-   * Importera interna användare
-   * Importera xAPI
-   * Exportera användarfärdigheter - konfigurera ett schema
-   * Exportera användarkompetenser - på begäran
-   * Exportera elevens betygsutdrag - konfigurera ett schema
-   * Exportera elevens betygsutdrag - på begäran
+   * Import Internal Users  
+   * Import xAPI
+   * Export User Skills - Configure a Schedule  
+   * Export User Skills - OnDemand  
+   * Export Learner Transcripts - Configure a Schedule
+   * Export Learner Transcripts - OnDemand
 
    ![](assets/ftp-connector-dashboard.png)
-   *Exportalternativ*
+   *Export options*-->
 
 ### Importera
 
@@ -393,8 +444,6 @@ När anslutningen har upprättats kan du mappa kolumnerna i CSV-filer. Den place
 1. Klicka på **[!UICONTROL Save]** när mappningen är klar.
 
    Anslutningen är nu klar att användas. Det konfigurerade kontot visas som en datakälla i administratörsprogrammet för administratören för att schemalägga importen eller för synkronisering på begäran.
-
-
 
 +++
 
@@ -477,53 +526,51 @@ Med importalternativen för xAPI kan du schemalägga import av xAPI-satser från
 
 +++
 
-### Exportera
+<!--### Export
 
-+++Kompetenser
++++Skills
 
-Det finns två alternativ för att exportera rapporter om användares kompetens.
+There are two options to export User skill reports.
 
-**[!UICONTROL User Skills - On Demand]**: Du kan ange startdatum och exportera rapporten med alternativet. Rapporten extraheras från det datum som anges till i dag.
+**[!UICONTROL User Skills - On Demand]**: You can specify the  start date and export the report using the option. The report is extracted from the date entered until present.
 
 ![](assets/export-on-demand2x.png)
-*Exportalternativ på begäran*
+*On demand export option*
 
-**[!UICONTROL User Skills - Configure]**: Med det här alternativet kan du schemalägga extraheringen av rapporten. Markera kryssrutan Aktivera schema och ange startdatum och starttid. Du kan också ange det intervall som du vill att rapporten ska skapas och skickas med.
+**[!UICONTROL User Skills - Configure]**: This option let's you schedule the extraction of the report. Select the Enable Schedule check box and specify the start date and time. You can also specify the interval at which you want the report to be generated and sent.
 
 ![](assets/user-skills-configure.png)
-*Konfigurera export av rapport*
+*Configure export of report*
 
 +++
 
-Du öppnar exportmappen där de exporterade filerna placeras genom att öppna länken till FTP-mappen på sidan Användarkunskaper, som visas nedan.
+To open the Export folder where the exported files are placed, open the link to FTP Folder provided in the User Skills page as shown below.
 
 ![](assets/ftp-folder.png)
-*FTP-mapp för att visa filer*
+*FTP folder to view files*
 
-De automatiskt exporterade filerna finns på platsen **Home/export/&#42;FTP_location&#42;**
+The auto-exported files are present in the location **Home/export/&#42;FTP_location&#42;**
 
-De automatiskt exporterade filerna är tillgängliga med titeln **skills_achievements_&#42;date från &#42;_till_&#42;date till&#42;.csv**
+The auto-exported files are available with the title, **skill_achievements_&#42;date from&#42;_to_&#42;date to&#42;.csv**
 
 ![](assets/exported-csvs.png)
-*Exporterad .csv-fil*
+*Exported .csv file*
 
-+++Elevens betygsutdrag
++++Learner Transcript
 
 ![](assets/on-demand-report.png)
 
-**Konfigurera**: Med det här alternativet kan du schemalägga extraheringen av rapporten. Markera kryssrutan Aktivera schema och ange startdatum och starttid. Du kan också ange det intervall som du vill att rapporten ska skapas och skickas med.
+**Configure**: This option  let's  you schedule the extraction of the report. Select the Enable Schedule check box and specify the start date and time. You can also specify the interval at which you want the report to be generated and sent.
 
 ![](assets/configure-report.png)
 
 +++
 
-Du öppnar exportmappen där de exporterade filerna placeras på FTP-platsen genom att öppna länken till FTP-mappen på sidan Elevens betygsutdrag som visas nedan
+To open the Export folder where the exported files are placed in your FTP location, open the link to FTP Folder provided on the Learner Transcript page as shown below
 
-De automatiskt exporterade filerna finns på platsen **Home/export/&#42;FTP_location&#42;**
+The auto-exported files are present in the location **Home/export/&#42;FTP_location&#42;**
 
-De automatiskt exporterade filerna är tillgängliga med titeln **elevens_betygsutdrag_&#42;datum från &#42;_till_&#42;datum till&#42;.csv**
-
-![](assets/exported-file.png)
+The auto-exported files are available with the title, **learner_transcript_&#42;date from&#42;_to_&#42;date to&#42;.csv**-->
 
 ### Stöd för manuella csv-fält {#supportformanualcsvfields}
 

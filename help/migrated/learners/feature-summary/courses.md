@@ -1,17 +1,17 @@
 ---
 description: Läs den här artikeln om du vill veta hur du visar och utför kurser i Learning Manager. Delta i diskussioner och ge feedback.
 jcr-language: en_us
-title: Kurser
+title: Mitt lärande
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: 76d84364ce037a81d77e3e2fa3f68fdef7ff411d
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2750'
+source-wordcount: '2753'
 ht-degree: 0%
 
 ---
 
-# Kurser
+# Mina utbildningar
 
 Läs den här artikeln om du vill veta hur du visar och utför kurser i Learning Manager. Delta i diskussioner och ge feedback.
 
@@ -25,7 +25,7 @@ Med Adobe Learning Manager får elever tillgång till kurser, utbildningsprogram
 >
 >Elever kan även installera Learning Manager iPad-appen från Apple Store och Learning Manager Android-appen från Google Play och få tillgång till kurser på mobila enheter. Alla elevrollfunktioner finns också i appen. Elever kan också gå kurser offline och få smidig åtkomst när de är online. Mer information finns i [Funktioner för iPad- och Android-surfplattor](ipad-android-tablet-users.md).
 
-## Visa kurser {#viewingcourses}
+## Visa utbildningsobjekt {#viewingcourses}
 
 Du kan visa en lista över alla tillgängliga kurser som en elev. Klicka på Mitt lärande på startsidan eller i den vänstra rutan för att visa alla kurser som du har registrerat dig för.
 

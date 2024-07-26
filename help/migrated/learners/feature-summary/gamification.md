@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Spelifiering
 contentowner: manochan
 exl-id: ddbc29dd-2d7d-4a8e-84b6-3728fee4a43e
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
 source-wordcount: '1456'
 ht-degree: 0%
@@ -26,6 +26,8 @@ Elever kan också se prestationsnivån baserat på de poäng de har tjänat in. 
 ## Resultattavla {#leaderboard}
 
 Leaderboard är en spelifieringsfunktion som fungerar som en resultattavla för att visa upp rankingpoäng av ledande konkurrenter. Elever kan se sina spelifieringspoäng med resultattavlan.
+
+![](assets/leaderboard.png)
 
 Klicka på **[!UICONTROL Gamification]** i den vänstra rutan på elevens startsida. Klicka på länken Resultattavla för att se resultatlistan. Den här funktionen gör det möjligt för elever att förstå hur de klarar sig mot en viss gruppmedlem. Det visar också deras rankingposition i förhållande till andra medlemmar i laget.
 
