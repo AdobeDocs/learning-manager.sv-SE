@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Anslutningar för Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
 workflow-type: tm+mt
 source-wordcount: '15605'
 ht-degree: 0%
@@ -762,14 +762,14 @@ Harvard ManageMentor används av företagskunder på Harvard ManageMentor, som v
 
    Om synkroniseringen ska lyckas måste du se till att minst en av följande filer finns i Harvard ManageMentor FTP-mappen:
 
-   Hmm12_metadata.xlsx: Den här filen innehåller kursmetadata för Harvard ManageMentor-kopplingen. Se till att du följer namnkonventionen när du överför filen.
+   Hmm12_metadata.csv: Den här filen innehåller kursmetadata för Harvard ManageMentor-kopplingen. Se till att du följer namnkonventionen när du överför filen.
 
-   client_Hmm12_20150125.xlsx: Detta är användarflödet för Harvard ManageMentor-kopplingen. Filnamnskonventionen som följer är **client_Hmm12_yyyyMMdd.xlsx.**
+   client_Hmm12_20150125.csv: Detta är användarflödet för Harvard ManageMentor-anslutningen. Filnamnskonventionen som följer är **client_Hmm12_yyyyMMdd.csv.**
 
    Se följande två exempel på användarfeed och kursfeed-filer för denna anslutning:
 
-   * [Kursmetadatafil för Harvard ManageMentor-kopplingen](assets/hmm12-metadata.xlsx)
-   * [Användarfeed för Harvard ManageMentor-anslutningen](assets/client-hmm12-20170304.xlsx)
+   * [Kursmetadatafil för Harvard ManageMentor-kopplingen](assets/hmm12-metadata.csv)
+   * [Användarfeed för Harvard ManageMentor-anslutningen](assets/client-hmm12-20170304.csv)
 
 ## Workday-koppling {#workdayconnector}
 

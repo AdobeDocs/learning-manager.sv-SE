@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Färgteman
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
@@ -106,6 +106,11 @@ Så här implementerar du flera varumärken:
 >[!NOTE]
 >
 >Interna användare kan ha aktiva fält som Externa användare (t.ex. måste administratören lägga till flera varumärken för interna användare och externa användare separat genom att välja aktiva fältvärden separat.)
+
+>[!INFO]
+>
+>Mer information finns i [bloggen](https://elearning.adobe.com/2024/06/multiple-branding-how-to-add-customised-branding-for-internal-and-external-users/).
+
 
 #### Viktiga saker att observera
 

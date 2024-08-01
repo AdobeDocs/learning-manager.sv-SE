@@ -3,9 +3,9 @@ description: Adobe Learning Manager stöder flera inloggningsmetoder genom flera
 title: Flera SSO-inloggningar
 contentowner: saghosh
 exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Följ stegen nedan:
 
 1. Importera den CSV-fil som innehåller de aktiva fälten och deras värden.
 1. Klicka på Inställningar > Inloggningsmetoder.
-1. Aktivera kryssrutan Aktivera flera SSO för inloggning.
+1. Markera kryssrutan **[!UICONTROL Enable Multiple Single Sign-On (SSO)]** för inloggning.
 1. Mappa SSO-konfigurationerna till värdena i det aktiva fältet.
 1. Spara inställningarna. Importera CSV-filen igen.
 
@@ -63,7 +63,7 @@ Följ stegen nedan:
 Följ stegen nedan:
 
 1. Klicka på Inställningar > Inloggningsmetoder.
-1. Aktivera kryssrutan Aktivera flera SSO för inloggning.
+1. Markera kryssrutan **[!UICONTROL Enable Multiple Single Sign-On (SSO)]** för inloggning.
 1. Välj ett aktivt fält för en SSO.
 1. Länka SSO-konfigurationerna till värdena i fältet.
 1. Spara inställningarna. Lägg till en enskild användare och tilldela ett värde till det aktiva fältet.
@@ -73,7 +73,7 @@ Följ stegen nedan:
 Följ stegen nedan:
 
 1. Klicka på Inställningar > Inloggningsmetoder.
-1. Aktivera kryssrutan Aktivera flera SSO för inloggning.
+1. Markera kryssrutan **[!UICONTROL Enable Multiple Single Sign-On (SSO)]** för inloggning.
 1. Länka SSO-konfigurationerna till värdena i fältet.
 1. Spara inställningarna. Lägg till en enskild användare och tilldela ett värde till det aktiva fältet.
 1. Lägg till en självregistreringsprofil.
@@ -87,7 +87,7 @@ Följ stegen nedan:
 
 1. Skapa en extern profil.
 1. Klicka på Inställningar > Inloggningsmetoder.
-1. Aktivera kryssrutan Aktivera flera SSO för inloggning.
+1. Markera kryssrutan **[!UICONTROL Enable Multiple Single Sign-On (SSO)]** för inloggning.
 1. Länka SSO-konfigurationen till den externa profil som skapats.
 1. Spara inställningarna.
 
