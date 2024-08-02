@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Skapa, ändra och publicera kurser
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 2a679ba595c6958d436f8a1db0196b8dbc7d30cf
+source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
 workflow-type: tm+mt
-source-wordcount: '6992'
+source-wordcount: '7012'
 ht-degree: 0%
 
 ---
@@ -120,6 +120,10 @@ Följ de här stegen om du vill lägga till kompatibilitetsetiketterna i kursern
    >[!IMPORTANT]
    >
    >Se till att ange en deadline för kursen när du lägger till anpassad efterlevnad.
+
+   >[!NOTE]
+   >
+   >Högst 50 kurser, utbildningsvägar eller certifieringar kan ha samma värde för en anpassad överensstämmelsetypetikett.
 
 1. Spara och publicera kursen/utbildningsvägen/certifieringen.
 Nu betraktas kursen/utbildningsvägen/certifieringen som en efterlevnadstyp. Administratörer kan lägga till kursen i efterlevnadstavlan och dela den med chefer för att spåra förloppet

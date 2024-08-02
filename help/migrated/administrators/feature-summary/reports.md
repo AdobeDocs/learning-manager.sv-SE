@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Rapporter
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 7be69e68f3b8970e090c8eccd25771cd2e5e99f1
+source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
 workflow-type: tm+mt
 source-wordcount: '6861'
 ht-degree: 2%
@@ -276,7 +276,7 @@ Gör så här för att skapa och dela en efterlevnadstavla:
 
 1. Gå till **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**.
 1. Välj **[!UICONTROL Shared with Managers]** i avsnittet **[!UICONTROL Compliance Dashboard]**.
-1. Välj **[!UICONTROL Share dashboard]** och välj de skapade etiketterna i listrutan **[!UICONTROL Custom compliance]**.
+1. Välj **[!UICONTROL Share dashboard]** och välj de skapade etiketterna i listrutan **[!UICONTROL Select Compliance Label]**.
 
 
    ![](assets/compliance-type.png)
