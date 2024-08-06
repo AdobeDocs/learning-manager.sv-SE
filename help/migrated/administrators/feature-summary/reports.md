@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Rapporter
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
+source-git-commit: e7fc4216fea9afffc277f93f4b3c1e8e58b7a2ed
 workflow-type: tm+mt
 source-wordcount: '6861'
 ht-degree: 2%
@@ -256,7 +256,7 @@ Skapa en anpassad kompatibilitetsetikett genom att följa dessa steg:
 
    >[!NOTE]
    >
-   >Denna nya katalogetikett har introducerats för att kategorisera kurser, utbildningsvägar och certifieringar som en efterlevnadstyp. Om du vill aktivera alternativet **[!UICONTROL  Custom Compliance type]** måste du först aktivera alternativet **[!UICONTROL Show Catalog Label]** på samma sida.
+   >Denna nya katalogetikett har introducerats för att kategorisera kurser, utbildningsvägar och certifieringar som en efterlevnadstyp. Om du vill aktivera alternativet **[!UICONTROL Custom Compliance type]** måste du först aktivera alternativet **[!UICONTROL Show Catalog Label]** på samma sida.
 
 1. Gå till **[!UICONTROL Settings]** > **[!UICONTROL Catalog Label]** och välj **[!UICONTROL Compliance type]**.
 1. Skriv värdena (t.ex. Legal, Sales) i textrutan **[!UICONTROL Value]** och välj **[!UICONTROL Add Value]**.
