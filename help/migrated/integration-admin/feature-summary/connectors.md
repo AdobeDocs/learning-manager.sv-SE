@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Anslutningar för Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
+source-git-commit: 7b842c08c5804175045ef3ce1910c47587f3ff66
 workflow-type: tm+mt
 source-wordcount: '15605'
 ht-degree: 0%
@@ -441,7 +441,7 @@ När anslutningen har upprättats kan du mappa kolumnerna i CSV-filer. Den place
    >
    >Fältet Chef måste mappas till ett fält av typen e-postadress. Det är obligatoriskt att mappa alla kolumner innan kopplingen kan användas.
 
-1. Klicka på **[!UICONTROL Save]** när mappningen är klar.
+1. Välj **[!UICONTROL Save]** när mappningen är klar.
 
    Anslutningen är nu klar att användas. Det konfigurerade kontot visas som en datakälla i administratörsprogrammet för administratören för att schemalägga importen eller för synkronisering på begäran.
 
@@ -2073,32 +2073,7 @@ Med den automatiska synkroniseringsprocessen för slutförande av användare kan
 
 Mer information finns i [**Installera Microsoft Teams-anslutning i Adobe Learning Manager**](install-microsoft-teams-connector.md).
 
-## Upplevelse som inte är inloggad
-
-Med den icke-inloggade funktionen kan du skapa en realtidsupplevelse för icke-inloggade användare. En icke-inloggad upplevelse fungerar till exempel som en startsida för marknadsföringskampanjer för att uppmuntra registreringar.
-
-Upplevelsen som inte är inloggad i Adobe Learning Manager kan konfigureras med anslutningen **[!UICONTROL Training Data Access]**. Anslutningen ger följande möjligheter:
-
-* Standarderbjudande
-* Premiumerbjudande
-
-**Standarderbjudande**
-
-Standarderbjudandet är att bygga den ursprungliga versionen av Adobe Learning Manager. Användarna kan skapa en huvudlös upplevelse enbart för demonstrationer, utan inloggning. Demonstrationens huvudlösa upplevelse är oskalbar och bör inte användas i en produktionsmiljö.
-
-**Premiumerbjudande**
-
-Premium-erbjudandet hjälper användare att skapa ett gränssnitt utan användargränssnitt som har konfigurerats av anslutningen **[!UICONTROL Training Data Access]**. Det gör att användarna kan få realtidsdata om kurs- och utbildningsvägsdetaljer som namn, beskrivning, författare, färdigheter, varaktighet osv. För blandade utbildningsscenarier får du också platsbegränsningar i realtid, antalet platser upptagna, väntelistegränser och väntelisteantal. Kunder kan använda dessa API:er för att skapa sök- och filterfunktioner och en fullständig kurssammanfattning för elever som inte är inloggade.
-
-Kunder kan köpa en premiumplan för att bygga upp den här mycket skalbara, icke-inloggade upplevelsen.
-
->[!NOTE]
->
->Kontakta supportteamet eller CSM för att köpa premiumplanen.
-
-När en användare har köpt en plan aktiverar CSM-teamet premiumplanen åt honom/henne. Med anslutningen för utbildningsdataåtkomst kan användare skapa en icke-inloggad upplevelse med de funktioner som nämnts tidigare.
-
-### Anslutning för utbildningsdataåtkomst
+## Anslutning för utbildningsdataåtkomst {#training-data-access-connector}
 
 >[!IMPORTANT]
 >
@@ -2110,7 +2085,7 @@ När en användare har köpt en plan aktiverar CSM-teamet premiumplanen åt hono
 
 Med anslutningen **[!UICONTROL Training Data Access]** kan du skapa en fjärradministrerad upplevelse. Den här upplevelsen kan vara fristående eller ett anpassat användargränssnitt som bygger på AEM Sites. Det hjälper till att hämta och visa utbildningsinformation för elever och möjliggör sökning och filtrering. När dataanslutningen har aktiverats kommer en uppsättning offentliga API:er att vara tillgängliga för att skapa gränssnittet där information om kursen/utbildningsvägen kommer att visas för elever.
 
-#### Konfigurera anslutningen
+### Konfigurera anslutningen
 
 Använd **[!UICONTROL Training Data Access]**-kopplingen för att integrera ditt Adobe Learning Manager-konto med datalagrings- och söksystem. Det hjälper ditt AEM Sites-baserade gränssnitt att hämta utbildningsdata, visa webbsidor och erbjuda bättre sökalternativ för elever.
 
@@ -2164,6 +2139,31 @@ Mer information finns i det här [**dokumentet**](../../adobe-learning-manager-i
 Den publicerade webbplatsen visar en lista över alla migrerade kurser, certifikat och utbildningsvägar som har hämtats från söktjänsten för icke-inloggade elever.
 
 När en elev klickar på Kurs eller Certifikat eller utbildningsväg öppnas sidan Översikt. När eleven registrerar sig på sidan måste hen först logga in och sedan gå kursen.
+
+### Upplevelse som inte är inloggad
+
+Med den icke-inloggade funktionen kan du skapa en realtidsupplevelse för icke-inloggade användare. En icke-inloggad upplevelse fungerar till exempel som en startsida för marknadsföringskampanjer för att uppmuntra registreringar.
+
+Upplevelsen som inte är inloggad i Adobe Learning Manager kan konfigureras med anslutningen **[!UICONTROL Training Data Access]**. Anslutningen ger följande möjligheter:
+
+* Standarderbjudande
+* Premiumerbjudande
+
+**Standarderbjudande**
+
+Standarderbjudandet är att bygga den ursprungliga versionen av Adobe Learning Manager. Användarna kan skapa en huvudlös upplevelse enbart för demonstrationer, utan inloggning. Demonstrationens huvudlösa upplevelse är oskalbar och bör inte användas i en produktionsmiljö.
+
+**Premiumerbjudande**
+
+Premium-erbjudandet hjälper användare att skapa ett gränssnitt utan användargränssnitt som har konfigurerats av anslutningen **[!UICONTROL Training Data Access]**. Det gör att användarna kan få realtidsdata om kurs- och utbildningsvägsdetaljer som namn, beskrivning, författare, färdigheter, varaktighet osv. För blandade utbildningsscenarier får du också platsbegränsningar i realtid, antalet platser upptagna, väntelistegränser och väntelisteantal. Kunder kan använda dessa API:er för att skapa sök- och filterfunktioner och en fullständig kurssammanfattning för elever som inte är inloggade.
+
+Kunder kan köpa en premiumplan för att bygga upp den här mycket skalbara, icke-inloggade upplevelsen.
+
+>[!NOTE]
+>
+>Kontakta supportteamet eller CSM för att köpa premiumplanen.
+
+När en användare har köpt en plan aktiverar CSM-teamet premiumplanen åt honom/henne. Med anslutningen för utbildningsdataåtkomst kan användare skapa en icke-inloggad upplevelse med de funktioner som nämnts tidigare.
 
 ## Adobe Commerce-koppling
 
