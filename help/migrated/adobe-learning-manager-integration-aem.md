@@ -4,7 +4,7 @@ title: Adobe Learning Manager referenspaket för AEM Sites (ALM-referenswebbplat
 description: Adobe Learning Manager (ALM) integreras med Adobe Experience Manager-webbplatser (AEM). Det gör att du kan skapa en egen webbplats och responsiva mobilgränssnitt för Adobe Learning Manager med minimal kodning. Med denna integrering kan du skapa anpassade utbildningsupplevelser för dina användare.
 contentowner: saghosh
 exl-id: 937dfbd1-74a1-4a86-a9b2-29a44be267c6
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 998978a5ba74377ef91b6a623367206643476ecc
 workflow-type: tm+mt
 source-wordcount: '2126'
 ht-degree: 0%
@@ -248,7 +248,7 @@ Om du vill använda dessa nyligen tillagda Learning Manager-komponenter i ditt b
    *`<sly data-sly-use.configModel="com.adobe.learning.core.models.GlobalConfigurationModel"/>`*
    *`<meta name="cp-config" content="${configModel.config}" />`*
 
-   Föregående kod lägger till den mappade konfigurationen i metataggen på sidan, vilket krävs för att utbildningskomponenterna ska återges. Mer information finns i [Adobe Learning Manager referenssiter](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html).
+   Föregående kod lägger till den mappade konfigurationen i metataggen på sidan, vilket krävs för att utbildningskomponenterna ska återges. Mer information finns på [referenswebbplatsen för Adobe Learning Manager](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html).
 
 1. Se till att du har mappat konfigurationen till webbprojektet.
 1. Öppna AEM Sites-mallen där du vill importera Learning Manager-komponenterna.
