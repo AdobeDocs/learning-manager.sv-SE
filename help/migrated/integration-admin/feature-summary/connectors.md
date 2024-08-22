@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Anslutningar för Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 7b842c08c5804175045ef3ce1910c47587f3ff66
+source-git-commit: e7a88bac3bbe7814368a98d40f548b38806e7f1a
 workflow-type: tm+mt
 source-wordcount: '15605'
 ht-degree: 0%
@@ -40,19 +40,19 @@ Läs vidare för att lära dig hur du konfigurerar och använder var och en av d
 
 Salesforce-kopplingen ansluter Learning Manager- och Salesforce-konton för att automatisera datasynkronisering. Kapaciteterna för Salesforce-anslutningen är följande:
 
-### Mappningsattribut
+### Mappningsattribut {#map-attributes}
 
 Integreringsadministratören kan välja Salesforce-kolumner och mappa dem till motsvarande Learning Manager-gruppattribut. När mappningen är klar används samma mappning för efterföljande användarimporter. Det kan konfigureras om om om administratören vill ha en annan mappning för importerande användare.
 
-### Automatiserad användarimport
+### Automatiserad användarimport {#automated-user-import}
 
 Importera användare gör att Learning Manager-administratören kan hämta medarbetarinformation från Salesforce och importera dem till Learning Manager automatiskt. Denna automatisering gör att du slipper den manuella ansträngning som krävs för att skapa CSV och överföra till Learning Manager.
 
-### Schemalägg automatiskt
+### Schemalägg automatiskt {#auto-schedule}
 
 Att använda funktionen för automatisk schemaläggning tillsammans med funktionen för automatisk användarimport kan vara effektivt. Learning Manager-administratören kan ställa in schemat efter organisationens behov. Användare i Learning Manager-programmet kan vara uppdaterade enligt schemat. Du kan synkronisera dagligen i Learning Manager-programmet.
 
-### Filtrera användare
+### Filtrera användare {#filtering-user}
 
 Learning Manager-administratören kan tillämpa filtrering på användarna innan de importeras. Learning Manager-administratör kan till exempel välja att importera alla användare i hierarkin under en eller flera specifika chefer.
 
@@ -130,14 +130,14 @@ Välj Salesforce-kolumnerna och mappa dem till motsvarande Learning Manager-grup
 1. Om du klickar på **[!UICONTROL No. Import all Contacts]** kan du mappa fälten direkt utan att filtrera kontakterna. Här importerar du alla kontakter från Salesforce.
 1. Klicka på **[!UICONTROL Save]** om du vill börja importera.
 
-## Exportera utbildningsposter
+## Exportera utbildningsposter {#export-learning-records}
 
 Learning Manager erbjuder möjligheten att exportera utbildningsposter som transkribering, användarrapport, färdighetsrapport till Salesforce. Du kan bestämma om exporterade data ska länkas till tabellen &quot;Användare&quot; eller tabellen &quot;Kontakter&quot; i Salesforce.
 
 ![](assets/export-events-new.png)
 *Exporterar utbildningsposter*
 
-### Anpassade objekt i Salesforce
+### Anpassade objekt i Salesforce {#custom-objects-in-salesforce}
 
 Innan du exporterar utbildningsposter från Learning Manager måste du skapa anpassade objekt i Salesforce. Anpassade objekt är objekt som du skapar för att lagra information som är specifik för ditt företag eller din bransch. Mer information finns i [Anpassade Salesforce-objekt](https://trailhead.salesforce.com/en/content/learn/modules/data_modeling/objects_intro).
 
@@ -171,11 +171,11 @@ Så här skapar du objekten:
 >
 >På sidan Körningsstatus för Salesforce kan antalet bearbetade poster bara kontrolleras från Salesforce. Learning Manager visar statusen som slutförd även om det sker en partiell export eller ett fel i alla poster som har bearbetats.
 
-## Installera Salesforce-paket
+## Installera Salesforce-paket {#install-salesforce-package}
 
 Learning Manager erbjuder ett Salesforce-programpaket. När de har installerats och konfigurerats i SFDC kan säljpersonal utföra sin utbildningsverksamhet inom SFDC-portalen. Med den här appen kan SFDC-användare utforska nya utbildningar, visa rekommendationer och konsumera dem direkt i SFDC-portalen. Användarna får också meddelandena som skickas av administratörer i form av mastheads direkt i appen inom SFDC-portalen.
 
-### Konfigurera i Learning Manager-appen
+### Konfigurera i Learning Manager-appen {#setup-in-learning-manager-app}
 
 1. Logga in på ditt Learning Manager-administratörskonto som integrationsadministratör.
 1. Klicka på **[!UICONTROL Applications]** > **[!UICONTROL Featured Apps]**.
@@ -186,14 +186,14 @@ Learning Manager erbjuder ett Salesforce-programpaket. När de har installerats 
 1. I avsnittet Hämta OAuth-kod måste klient-ID:et och omfånget vara inställt på - admin:read,admin:write. Klicka på **[!UICONTROL Submit]**.
 1. Ange klient-ID och klienthemlighet i Hämta uppdateringstoken. Klicka på **[!UICONTROL Submit]** och notera uppdateringstoken.
 
-### Skapa konto i Salesforce-program
+### Skapa konto i Salesforce-program {#create-account-in-salesforce-app}
 
 1. Skapa ett konto på registreringssidan för Salesforce. Du måste skapa ett Salesforce-konto i en utvecklar- eller enterprise-version.  [URL för registrering av utvecklare](https://developer.salesforce.com/signup). Se till att du använder e-post-ID för att registrera dig för Salesforce som du har använt för Learning Manager.
 1. Verifiera ditt konto via e-postmeddelandet.
 1. Skapa ett lösenord och logga in på Salesforce.
 1. Observera Salesforce-URL:en efter inloggning (till exempel site.lightning.force.com)
 
-### Installera Learning Manager-paket
+### Installera Learning Manager-paket {#install-learning-manager-package}
 
 Om du vill installera paketet måste du först ta bort det befintliga paketet i Salesforce. Innan du avinstallerar måste du aktivera inställningarna, som visas nedan. Att tillämpa dessa inställningar är obligatoriskt, annars kan du inte installera paketet.
 
@@ -215,7 +215,7 @@ Om du vill installera paketet måste du först ta bort det befintliga paketet i 
    * **RefreshToken:** Ange värdet som du fick från det första avsnittet.
    * **LearningManagerBaseURL:** URL:en till webbplatsen där Learning Manager finns.
 
-### Lägg till fjärrplatsinställningar
+### Lägg till fjärrplatsinställningar {#add-remote-site-settings}
 
 1. Klicka på **[!UICONTROL Setup]** i det övre högra hörnet på sidan.
 1. Sök efter fjärrplatsinställningar i **[!UICONTROL Quick Find]**.
@@ -227,7 +227,7 @@ Om du vill installera paketet måste du först ta bort det befintliga paketet i 
 
 1. Starta Learning Manager.
 
-### Aktivera meddelanden för Learning Manager-appen
+### Aktivera meddelanden för Learning Manager-appen {#enable-notifications-for-learning-manager-app}
 
 1. Klicka på **[!UICONTROL Setup]** i det övre högra hörnet.
 1. Sök efter anpassade meddelanden.
@@ -252,7 +252,7 @@ Om du vill installera paketet måste du först ta bort det befintliga paketet i 
 1. Gå till Installerade paket i Salesforce-programmet.
 1. Klicka på **[!UICONTROL Uninstall]**.
 
-## Konfigurera Learning Manager för Salesforce-användare
+## Konfigurera Learning Manager för Salesforce-användare {#configure-learning-manager-for-salesforce-users}
 
 Learning Manager-programmet är också tillgängligt för användare som finns på alla Salesforce-konton. Salesforce-administratören kan lägga till användare baserat på profilerna. Salesforce-profilerna liknar dem i Learning Manager. Det kan till exempel gälla Administratör, Integreringsadministratör, Instruktör och så vidare. Salesforce-administratören kan också skapa en anpassad profil.
 
@@ -292,9 +292,9 @@ Du måste göra programmet synligt för alla profiler.
 
 Klicka på **[!UICONTROL Save]** så får eleverna som tillhör alla profiler åtkomst till Learning Manager-appen.
 
-### Ändringar relaterade till utbildningsväg
+### Ändringar relaterade till utbildningsväg {#learning-path-changes}
 
-#### Befintliga anslutningar
+#### Befintliga anslutningar {#existing-connections}
 
 Om alternativet Utbildningsväg är inaktiverat i administratörskontot läggs inga rader och kolumner till i rapporten.
 
@@ -304,7 +304,7 @@ Om alternativet Utbildningsväg är aktiverat på administratörskontot kommer k
 >
 >Om flaggan är aktiverad och du använder en befintlig anslutning kan några poster saknas.
 
-#### Nya anslutningar
+#### Nya anslutningar {#new-connections}
 
 Om alternativet Utbildningsväg är inaktiverat i administratörskontot består utbildningsrapporten av följande kolumner men innehåller inga data.
 
@@ -324,7 +324,7 @@ Med FTP-anslutningen kan du integrera Learning Manager med godtyckliga externa s
 
 Du kan också använda Boxs anslutning för datamigrering, användarimport och dataexport. Mer information finns i Rutanslutning.
 
-### Dataimport {#dataimport}
+### Dataimport {#data-import}
 
 Importprocessen för användare gör det möjligt för Learning Manager-administratören att hämta information om anställda från Learning Manager FTP-tjänsten och importera dem till Learning Manager automatiskt. Med den här funktionen kan du integrera flera system genom att placera CSV-filen som genereras av de systemen i lämplig mapp på FTP-kontona. Learning Manager hämtar CSV-filerna, slår samman dem och importerar data enligt schemat. Mer information finns i schemaläggningsfunktionen.
 
@@ -333,19 +333,19 @@ Importprocessen för användare gör det möjligt för Learning Manager-administ
 Integreringsadministratören kan välja kolumnerna i CSV och mappa dem till Learning Managers grupperbara attribut. Denna kartläggning är en tidsansträngning. När mappningen är klar används samma mappning för efterföljande användarimporter. Mappningen kan konfigureras om om administratören vill ha en annan mappning för importerande användare.
 
 
-#### Exportera data {#exportdata}
+#### Exportera data {#export-data}
 
 Dataexporten gör det möjligt för användare att exportera användarfärdigheter och elevens betygsutdrag till en FTP-plats för att integrera med alla externa system.
 
-#### Tidsplanering
+#### Tidsplanering {#scheduling}
 
 Administratörer kan ställa in schemaläggningsuppgifter enligt organisationens krav och användare i Learning Manager-programmet är uppdaterade enligt schemat. På samma sätt kan integreringsadministratören schemalägga kunskapsexporten så att den sker i tid och integreras med ett externt system. Synkronisering kan utföras dagligen i Learning Manager-programmet.
 
-### Konfigurera FTP-anslutning för Learning Manager {#configurecaptivateprimeftpconnector}
+### Konfigurera FTP-anslutning för Learning Manager {#configure-captivate-prime-ftp-connector}
 
 Lär dig hur du integrerar FTP-anslutningen med Learning Manager.
 
-#### Skapa en anslutning {#Createaconnection-1}
+#### Skapa en anslutning {#Create-a-connection-1}
 
 1. På startsidan för Learning Manager håller du pekaren över FTP-kortet/miniatyrbilden. En meny visas. Välj alternativet Anslut på menyn.
 
@@ -422,7 +422,7 @@ När du är ansluten ser du fjärrfilerna på höger sida och dina lokala filer 
    ![](assets/ftp-connector-dashboard.png)
    *Export options*-->
 
-### Importera
+### Importera {#import}
 
 +++Intern användare
 
@@ -572,7 +572,7 @@ The auto-exported files are present in the location **Home/export/&#42;FTP_locat
 
 The auto-exported files are available with the title, **learner_transcript_&#42;date from&#42;_to_&#42;date to&#42;.csv**-->
 
-### Stöd för manuella csv-fält {#supportformanualcsvfields}
+### Stöd för manuella csv-fält {#support-for-manual-csv-fields}
 
 När användardata importeras via FTP måste administratören mappa alla aktiva fält i systemet till motsvarande fält i CSV-filen.
 
@@ -587,11 +587,11 @@ Om du väljer det här alternativet fylls inte de manuella aktiva fältvärdena 
 ![](assets/ftp-conector-foractivefields.png)
 *FTP-anslutning för aktiva fält*
 
-## Lynda-koppling {#lyndaconnector}
+## Lynda-koppling {#lynda-connector}
 
 Lynda-kopplingen används av företagskunder på Lynda.com som vill att de elever som lär sig identifiera och konsumerar Lynda-kurser inifrån Learning Manager. Anslutningen kan konfigureras för att hämta kurser från Lynda.com med jämna mellanrum med din API-nyckel. När en kurs har skapats i Learning Manager kan användarna söka efter dem och konsumera dem. Elevframsteg kan sedan följas i Learning Manager.
 
-### Konfigurera Lynda-anslutningen {#configurethelyndaconnector}
+### Konfigurera Lynda-anslutningen {#configure-the-lynda-connector}
 
 1. Klicka på Lynda på kontrollpanelen för integrerad administration.
 
@@ -655,7 +655,7 @@ Lynda-kopplingen används av företagskunder på Lynda.com som vill att de eleve
 
 GetAbstract-kopplingen används av företagskunder på getAbstract.com, som vill att deras elever ska upptäcka och konsumera getAbstract-sammanfattningar. Kopplingen kan konfigureras för att hämta användningsdata med jämna mellanrum, baserat på vilka poster för elevslutförande som skapas i Learning Manager. Läs vidare för att lära dig hur du konfigurerar den här anslutningen i Learning Manager.
 
-### Konfigurera getAbstract-anslutningen {#configurethegetabstractconnector}
+### Konfigurera getAbstract-anslutningen {#configure-the-get-abstract-connector}
 
 1. Klicka på getAbstract på kontrollpanelen för integrerad administration.
 
@@ -717,7 +717,7 @@ GetAbstract-kopplingen används av företagskunder på getAbstract.com, som vill
 
 Harvard ManageMentor används av företagskunder på Harvard ManageMentor, som vill att deras elever ska upptäcka och konsumera Harvard ManageMentor kurser. Kopplingen hjälper till att skapa kurser i Learning Manager och kan konfigureras för att regelbundet hämta data om elevframsteg. Så här konfigurerar du den här anslutningen:
 
-### Konfigurera Harvard ManagerMentor-anslutningen {#configuretheharvardmanagermentorconnector}
+### Konfigurera Harvard ManagerMentor-anslutningen {#configure-the-harvard-managermentor-connector}
 
 1. Klicka på Harvard ManageMentor på instrumentpanelen för integrerad administration.
 
@@ -775,21 +775,21 @@ Harvard ManageMentor används av företagskunder på Harvard ManageMentor, som v
 
 Med hjälp av Workday-kopplingen kan du integrera Learning Manager med Workday-klienten för att automatisera datasynkronisering.
 
-### Importera
+### Importera {#import-1}
 
-#### Mappningsattribut
+#### Mappningsattribut {#map-attributes-1}
 
 Integreringsadministratören kan välja Workday-kolumner och mappa dem till motsvarande attribut som går att gruppera i Learning Manager. När mappningen är klar används samma mappning för efterföljande användarimporter. Det kan konfigureras om om om administratören vill ha en annan mappning för importerande användare.
 
-#### Automatiserad användarimport
+#### Automatiserad användarimport {#automated-user-import-1}
 
 Importera användare gör att Learning Manager-administratören kan hämta medarbetarinformation från Workday och importera dem till Learning Manager automatiskt.
 
-#### Filtrera användare
+#### Filtrera användare {#filtering-users}
 
 Learning Manager-administratören kan tillämpa filtrering på användarna innan de importeras. Learning Manager-administratör kan till exempel välja att importera alla användare i hierarkin under en eller flera specifika chefer.
 
-### Exportera
+### Exportera {#export}
 
 Med Exportera användarkompetens kan användare exportera användarfärdigheter till Workday automatiskt.
 
@@ -797,7 +797,7 @@ Med Exportera användarkompetens kan användare exportera användarfärdigheter 
 >
 >Kompetenser från flera Learning Manager-konton kan inte exporteras samtidigt med samma Workday-konto.
 
-#### Viktiga saker att observera
+#### Viktiga saker att observera {#points-to-note}
 
 * Se till att UUID, e-postadress och namnet på medarbetaren är unikt i flera Workday-integreringar. Felaktiga värden resulterar i ett anslutningsfel.
 * UUID-fältet när det har fyllts i via Workday på kan inte tas bort av en LMS-administratör som riktas mot klienten. Om du vill ändra värdet kan du kontakta Adobe Learning Manager registrerings- eller supportteam.
@@ -807,7 +807,7 @@ Med Exportera användarkompetens kan användare exportera användarfärdigheter 
 
 Administratören kan konfigurera schemaläggningsuppgifter enligt organisationens krav och användarna i Learning Manager-programmet är uppdaterade enligt schemat. På samma sätt kan integrationsadministratören schemalägga kunskapsexport i tid för att kunna integreras med ett externt system. Du kan synkronisera dagligen i Learning Manager-programmet.
 
-### Konfigurera Workday-anslutning {#configureworkdayconnector}
+### Konfigurera Workday-anslutning {#configure-workday-connector}
 
 >[!PREREQUISITES]
 >
@@ -851,9 +851,9 @@ På sidan Översikt kan du ange Anslutningsnamn för integreringen. Välj vilken
 ![](assets/overview.png)
 *Översikt över Workday*
 
-### Importera
+### Importera {#import-5}
 
-#### Mappningsattribut {#MapAttributes-1}
+#### Mappningsattribut {#map-attributes-4}
 
 Du kan använda Workday-anslutning för att integrera Learning Manager och Workday för att automatisera datasynkronisering. Du kan importera alla aktiva användare från Workday till Learning Manager. Användare kan importeras från olika datakällor, inklusive FTP och Salesforce.
 
@@ -948,7 +948,7 @@ wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Municipal
 
 +++
 
-### Exportera
+### Exportera {#export-1}
 
 Du kan exportera alla färdigheter som en användare har uppnått från Learning Manager till Workday. Endast alla aktiva användarfärdigheter exporteras och Learning Manager exporterar inte indragna kompetenser. Du kan också ansluta flera Learning Manager\
 till samma Workday-anslutning. Om kompetensnamnen är desamma i två Learning Manager-konton mappas de till samma kompetens i Workday. Innan du uppdaterar kompetensen i Workday bör du uppdatera kunskapsnamnen i alla Learning Manager-konton om två Learning Manager-konton använder samma Workday-konto.
@@ -980,27 +980,27 @@ Här visas sammanfattningen av alla aktiviteter och deras statusrapport. Du kan 
 
 +++
 
-## miniOrange-kontakt {#miniorangeconnector}
+## miniOrange-kontakt {#mini-orange-connector}
 
 Med hjälp av miniOrange-kontakten kan du integrera Learning Manager med miniOrange-klienten för att automatisera datasynkronisering.
 
-### Importera
+### Importera {#import-6}
 
-#### Mappningsattribut
+#### Mappningsattribut {#map-attributes-5}
 
 Integreringsadministratören kan välja miniOrange-attribut och mappa dem till motsvarande attribut som går att gruppera i Learning Manager. När mappningen är klar används samma mappning för efterföljande användarimporter. Det kan konfigureras om om om administratören vill ha en annan mappning för importerande användare.
 
-#### Automatiserad användarimport
+#### Automatiserad användarimport {#automated-user-import-3}
 
 Importprocessen för användare gör att Learning Manager-administratören kan hämta information om anställda från miniOrange och importera dem till Learning Manager automatiskt.
 
-#### Filtrera användare
+#### Filtrera användare {#filtering-users-3}
 
 Learning Manager-administratören kan tillämpa filtrering på användarna innan de importeras. Learning Manager-administratör kan till exempel välja att importera alla användare i hierarkin under en eller flera specifika chefer.
 
 För att konfigurera   miniOrange   kontakta Learning Manager CSM-teamet.
 
-### Konfigurera miniOrange-anslutning {#configureminiorangeconnector}
+### Konfigurera miniOrange-anslutning {#configure-mini-orange-connector}
 
 1. På startsidan för Learning Manager håller du pekaren över MiniOrange-kortet/miniatyrbilden. En meny visas. Klicka på alternativet **[!UICONTROL Connect]** i menyn.
 
@@ -1073,7 +1073,7 @@ Följ de här stegen för att konfigurera och använda anslutningen.
    ![](assets/attendence-and-scoringreport.png)
    *Närvaro- och poängrapport*
 
-### Skapa en OAuth-app för zoomserver till server
+### Skapa en OAuth-app för zoomserver till server {#create-a-zoom-server-to-server-oauth-app}
 
 När du skapar ett OAuth-program för zoomserver-till-server som ska användas i Adobe Learning Manager måste du lägga till de omfång som krävs av Adobe Learning Manager när du skapar anslutningen.
 
@@ -1085,13 +1085,13 @@ Adobe Learning Manager kräver omfånget nedan och omfånget måste väljas i OA
 * Visa all användarinformation `/user:read:admin`
 * Visa användarinformation och hantera användare `/user:write:admin`
 
-## Koppling till ruta {#boxconnector}
+## Koppling till ruta {#box_connector}
 
 Med Box-anslutningen kan du integrera Learning Manager med godtyckliga externa system för att automatisera datasynkronisering. Det förväntas att externa system kan exportera data i ett CSV-format och placera dem i lämplig mapp på Box-kontot för Learning Manager. Boxanslutningens kapacitet är följande:
 
 Du kan också använda FTP-anslutningen för datamigrering, användarimport och dataexport. Mer information finns i [FTP-anslutning för Learning Manager.](connectors.md#main-pars_header_1427405935)
 
-### Dataimport {#DataImport-1}
+### Dataimport {#data-import-1}
 
 Importera användare gör att Learning Manager-administratören kan hämta medarbetarinformation från Learning Manager Box-tjänsten och importera dem till Learning Manager automatiskt. Med den här funktionen kan du integrera flera system genom att placera CSV-filen som genereras av de systemen i lämplig mapp på Box-kontona. Learning Manager hämtar CSV-filerna, slår samman dem och importerar data enligt schemat. Mer information finns i Schemaläggningsfunktionen.
 
@@ -1099,15 +1099,15 @@ Importera användare gör att Learning Manager-administratören kan hämta medar
 
 Integreringsadministratören kan välja kolumnerna i CSV och mappa dem till Learning Managers grupperbara attribut. Denna kartläggning är en engångsinsats. När mappningen är klar används samma mappning för efterföljande användarimporter. Mappningen kan konfigureras om om administratören vill ha en annan mappning för importerande användare.
 
-## Dataexport {#dataexport}
+## Dataexport {#data-export}
 
 Dataexporten låter användare exportera användarfärdigheter och elevens betygsutdrag till en Box-plats för att integrera med alla externa system.
 
-## Schemalägg rapporter {#schedulereports}
+## Schemalägg rapporter {#schedule-reports}
 
 Administratören kan konfigurera schemaläggningsuppgifter enligt organisationens krav och användarna i Learning Manager-programmet är uppdaterade enligt schemat. På samma sätt kan integrationsadministratören schemalägga kunskapsexport i tid för att kunna integreras med ett externt system. Du kan synkronisera dagligen i Learning Manager-programmet.
 
-## Konfigurera Box-anslutning {#configureboxconnector}
+## Konfigurera Box-anslutning {#boxconnector}
 
 Lär dig processen för att integrera Box-anslutning med Learning Manager.
 
@@ -1133,7 +1133,7 @@ Lär dig processen för att integrera Box-anslutning med Learning Manager.
    * Exportera elevbetygsutdrag - konfigurera ett schema
    * Exportera elevens betygsutdrag - på begäran
 
-## Importera
+## Importera {#import-7}
 
 +++Intern användare
 
@@ -1236,7 +1236,7 @@ När du importerar användare till Learning Manager måste administratören ocks
 
 +++
 
-## Exportera
+## Exportera {#export-2}
 
 +++Kompetenser
 
@@ -1258,7 +1258,7 @@ De automatiskt exporterade filerna är tillgängliga med titeln **skills_achieve
 >
 >Kunden hanterar åtkomstbehörigheterna och innehållet i Box-mappen som delas av Learning Manager-teamet.  Även innehållet i mappen skulle lagras fysiskt i Frankfurt.
 
-### Stöd för manuella csv-fält {#Supportformanualcsvfields-1}
+### Stöd för manuella csv-fält {#support-for-manual-csv-fields-1}
 
 När användardata importeras via Box måste administratören mappa alla aktiva fält i systemet till motsvarande fält i CSV-filen.
 
@@ -1291,7 +1291,7 @@ LinkedIn Learning Connector används av företagskunder på LinkedIn.com som vil
 >
 >Utbildningstiden för LinkedIn-utbildningskurser meddelas av LinkedIn content/LinkedIn-plattformen till Learning Manager-utbildningsplattformen. Om LinkedIn-utbildningen inte skickar utbildningstiden kan den inte registreras av vår utbildningsplattform. I så fall är den inlärningstid som Learning Manager visar noll.
 
-### Konfigurera inställningar i LinkedIn-utbildningsportalen {#configuresettingsinlinkedlnlearningportal}
+### Konfigurera inställningar i LinkedIn-utbildningsportalen {#configure-settings-in-linkedln-learning-portal}
 
 1. Logga in på LinkedIn Learning LMS som administratör.
 1. Klicka på **[!UICONTROL admin]** i den övre navigeringspanelen.
@@ -1305,7 +1305,7 @@ LinkedIn Learning Connector används av företagskunder på LinkedIn.com som vil
 
    *Konfiguration av LinkedIn Learning*
 
-### Konfigurera LinkedIn Learning Connector {#configurelinkedinlearningconnector}
+### Konfigurera LinkedIn Learning Connector {#configure-linkedin-learning-connector}
 
 1. Klicka på [!UICONTROL LinkedIn Learning] på kontrollpanelen Integreringsadministratör. Alternativen Komma igång, Anslut och Hantera anslutningar visas.
 1. Klicka på [!UICONTROL Connect] om du konfigurerar LinkedIn Learning-anslutningen för första gången.
@@ -1404,7 +1404,7 @@ Innehållet sparas bara efter migreringen. Innehållet sparas i respektive katal
 
 Du kan använda integrering med den här anslutningen för att dra nytta av dina befintliga Power BI-konton för att analysera och visualisera utbildningsdata från Learning Manager inom Power BI. Under konfigurationen kan integreringsadministratören konfigurera sin Power BI-arbetsyta så att den inkrementellt fylls i med två live-datauppsättningar - elevens betygsutdrag och rapporter om användarfärdigheter. Du kan sedan använda alla funktioner och all kraft i PowerBI för att utveckla, distribuera och distribuera anpassade kontrollpaneler som de vill i sina organisationer.
 
-### Konfigurera anslutningen {#configuringtheconnector}
+### Konfigurera anslutningen {#configuring-the-connector}
 
 Om du vill konfigurera anslutningen håller du pekaren över panelen **[!UICONTROL Power BI]** på sidan **[!UICONTROL Connectors]** och klickar på **[!UICONTROL Connect]**. Power BI-sidan öppnas. Om du vill upprätta en anslutning anger du App Client ID, App Client Secret, Klientorganisationens namn och Workspace ID (valfritt). Följ de här stegen för att erhålla dessa inloggningsuppgifter.
 
@@ -1451,7 +1451,7 @@ Aktivera **[!UICONTROL Enable User-Skill/ Learner Transcript export using this c
 
 Du kan visa den exporterade informationen genom att logga in på ditt Power BI-konto. De exporterade uppgifterna visas under alternativet Datauppsättningar.
 
-### Exportera xAPI-aktivitetsrapporter i Learning Manager {#exportxapiactivityreportsincaptivateprime}
+### Exportera xAPI-aktivitetsrapporter i Learning Manager {#export-xapi-activity-reports-in-captivate-prime}
 
 Klicka på **[!UICONTROL Export xAPI Activity Report]** på sidan PowerBI-xAPI-funktioner.
 
@@ -1566,7 +1566,7 @@ Det gör att användare kan ladda ner de här mallarna och använda dem i Power 
 
 Du kan även hämta mallarna manuellt via länken ovan. Använd mallarna och anpassa dina rapporter därefter.
 
-### Exportera utbildningsrapport
+### Exportera utbildningsrapport {#export-training-report}
 
 Utbildningsrapporterna kan exporteras till Power BI som en del av funktionen Unified Reports.
 
@@ -1578,9 +1578,9 @@ Utbildningsrapporten innehåller följande ytterligare fält:
 ![](assets/export-training-report.png)
 *Exportera utbildningsrapport*
 
-### Ändringar relaterade till utbildningsväg
+### Ändringar relaterade till utbildningsväg {#learning-path-related-changes}
 
-#### Admin: Utbildningsutskrifter och enhetlig rapport
+#### Admin: Utbildningsutskrifter och enhetlig rapport {#learning-transcripts-and-unified-reports}
 
 **Befintliga anslutningar**
 
@@ -1600,7 +1600,7 @@ Dessutom kommer rapporten att innehålla kolumntypen Utbildningsväg (högre niv
 
 I kolumnen Typ byter utbildningsprogram namn till Utbildningsväg. För befintliga anslutningar sker ingen förändring. För nya anslutningar kommer ändringarna dock att märkas efter 30 dagar.
 
-#### Utbildningsrapport: enhetlig rapport
+#### Utbildningsrapport: enhetlig rapport {#training-report}
 
 **Befintliga anslutningar**
 
@@ -1634,7 +1634,7 @@ Learning Manager ger möjlighet att ansluta till din anpassade FTP-plats.
 
 FTP-servern stöder följande:
 
-### Dataimport
+### Dataimport {#data-import-2}
 
 Importera användare gör att Learning Manager-administratören kan hämta medarbetarinformation från Learning Manager FTP-tjänsten och importera dem till Learning Manager automatiskt. Med den här funktionen kan du integrera flera system genom att placera CSV-filen som genereras av de systemen i lämplig mapp på FTP-kontona. Learning Manager hämtar CSV-filerna, slår samman dem och importerar data enligt schemat. Mer information finns i Schemaläggningsfunktionen.
 
@@ -1642,11 +1642,11 @@ Importera användare gör att Learning Manager-administratören kan hämta medar
 
 Integreringsadministratören kan välja kolumnerna i CSV och mappa dem till Learning Managers grupperbara attribut. Denna kartläggning är en engångsinsats. När mappningen är klar används samma mappning för efterföljande användarimporter. Mappningen kan konfigureras om om administratören vill ha en annan mappning för importerande användare.
 
-### Dataexport
+### Dataexport {#data-export-3}
 
 Med dataexport kan användare exportera användarfärdigheter och elevens betygsutdrag till FTP-platsen för att integrera med externa system.
 
-### Schemalägg rapporter
+### Schemalägg rapporter {#schedule-reports-2}
 
 Administratören kan konfigurera schemaläggningsuppgifter enligt organisationens krav och användarna i Learning Manager-programmet är uppdaterade enligt schemat. På samma sätt kan integrationsadministratören schemalägga kunskapsexport i tid för att kunna integreras med ett externt system. Du kan synkronisera dagligen i Learning Manager-programmet.
 
@@ -1678,7 +1678,7 @@ Förutsättningar för att upprätta en ADFS-anslutning:
 * Logga in på Azure Portal med denna URL: [https://portal.azure.com/](https://portal.azure.com/) innan du registrerar programmet.
 * Öppna Azure Active Directory.
 
-## Så här registrerar du din ansökan {#stepstoregisteryourapplication}
+## Så här registrerar du din ansökan {#steps-to-register-your-application}
 
 * Klicka på Azure Active Directory. Klicka på **[!UICONTROL Add]** > **[!UICONTROL App registration]**.
 
@@ -1764,7 +1764,7 @@ Förutsättningar för att upprätta en ADFS-anslutning:
 
   <!-- *Select Add Permissions*-->
 
-### Konfigurationssida för ADFS
+### Konfigurationssida för ADFS {#adfs-configuration-page}
 
 1. Ange det Klient-ID och den Klienthemlighet som du skaffade tidigare på ADFS-konfigurationssidan i Adobe Learning Manager.
 
@@ -1772,23 +1772,23 @@ Förutsättningar för att upprätta en ADFS-anslutning:
 
 1. Logga in på **portal.azure.com**. Värdena fylls i fälten Klient-ID och Primär domän.
 
-### Importera
+### Importera {#import-8}
 
-#### Mappningsattribut
+#### Mappningsattribut {#map-attributes-6}
 
 Integreringsadministratören kan välja ADFS-attribut och mappa dem till motsvarande attribut som går att gruppera i Learning Manager. När mappningen är klar används samma mappning för efterföljande användarimporter. Det kan konfigureras om om om administratören vill ha en annan mappning för importerande användare.
 
-#### Automatiserad användarimport
+#### Automatiserad användarimport {#automated-user-import-4}
 
 Importprocessen för användare gör att Learning Manager-administratören kan hämta information om anställda från ADFS och importera dem till Learning Manager automatiskt.
 
-#### Filtrera användare
+#### Filtrera användare {#filtering-users-4}
 
 Learning Manager-administratören kan tillämpa filtrering på användarna innan de importeras. Learning Manager-administratör kan till exempel välja att importera alla användare i hierarkin under en eller flera specifika chefer.
 
 Konfigurera ADFS-anslutningen genom att kontakta CSM-teamet för Learning Manager.
 
-## Konfigurera ADFS-anslutning {#configureadfsconnector}
+## Konfigurera ADFS-anslutning {#configure-adfs-connector}
 
 1. På startsidan för Learning Manager håller du pekaren över ADFS-kortet/miniatyrbilden. En meny visas. Klicka på alternativet Anslut på menyn.
 
@@ -1823,7 +1823,7 @@ Konfigurera ADFS-anslutningen genom att kontakta CSM-teamet för Learning Manage
 
 1. Du får en avisering när importen är klar. Klicka på **[!UICONTROL Users]** > **[!UICONTROL Import log]** om du vill visa eller redigera importloggen.
 
-### Ta bort en anslutning {#Deleteaconnection-1}
+### Ta bort en anslutning {#delete-a-connection-1}
 
 Följ de här stegen om du vill ta bort en etablerad miniOrange-anslutning.
 
@@ -1851,7 +1851,7 @@ Följ de här stegen om du vill ta bort en etablerad miniOrange-anslutning.
    >
    >Adobe Connect-kontoadministratören bör acceptera villkoren för att använda Adobe Connect. Om detta inte accepteras kan din inloggningsautentisering misslyckas. Logga in på Adobe Connect-kontot en gång när du har skapat det. Vid den första inloggningen visas sidan med allmänna villkor.
 
-### Lägg till information om virtuell klassrumssession {#addvirtualclassroomsessioninformation}
+### Lägg till information om virtuell klassrumssession {#add-virtual-classroom-session-information}
 
 Om författaren till en virtuell klassrumskurs inte har angett sessionsinformationen kan administratören inkludera sessionsinformationen.
 
@@ -1974,7 +1974,7 @@ I avsnittet **Enhetliga rapporter** i Markeo Engage-anslutningen i Learning Mana
 
 Som med alla andra anslutningar kan du schemalägga och exportera data på begäran.
 
-### Kolumnmappning i Marketo Engage {#columnmappinginmarketoengage}
+### Kolumnmappning i Marketo Engage {#column-mapping-in-marketo-engage}
 
 I Marketo finns det två databastyper:
 
@@ -2051,7 +2051,7 @@ The Author, in the Author app, then selects an event from the list of available 
 >
 >We've added a caching mechanism that improves the overall user experience. It is applicable when you select additional event creators. In this mode, the events are fetched the first time when an author searches for an event. The cache persists for 30 mins so that authors know how long they must wait to fetch the new events.-->
 
-## Microsoft Teams Connector
+## Microsoft Teams Connector {#microsoft-teams-connector}
 
 Microsoft® Teams® är en beständig chattbaserad samarbetsplattform som stöder dokumentdelning, onlinemöten och andra funktioner för affärskommunikation.
 
@@ -2073,7 +2073,7 @@ Med den automatiska synkroniseringsprocessen för slutförande av användare kan
 
 Mer information finns i [**Installera Microsoft Teams-anslutning i Adobe Learning Manager**](install-microsoft-teams-connector.md).
 
-## Anslutning för utbildningsdataåtkomst {#training-data-access-connector}
+## Anslutning för utbildningsdataåtkomst {#training-data-access}
 
 >[!IMPORTANT]
 >
@@ -2085,7 +2085,7 @@ Mer information finns i [**Installera Microsoft Teams-anslutning i Adobe Learnin
 
 Med anslutningen **[!UICONTROL Training Data Access]** kan du skapa en fjärradministrerad upplevelse. Den här upplevelsen kan vara fristående eller ett anpassat användargränssnitt som bygger på AEM Sites. Det hjälper till att hämta och visa utbildningsinformation för elever och möjliggör sökning och filtrering. När dataanslutningen har aktiverats kommer en uppsättning offentliga API:er att vara tillgängliga för att skapa gränssnittet där information om kursen/utbildningsvägen kommer att visas för elever.
 
-### Konfigurera anslutningen
+### Konfigurera anslutningen {#configure-training-data-connector}
 
 Använd **[!UICONTROL Training Data Access]**-kopplingen för att integrera ditt Adobe Learning Manager-konto med datalagrings- och söksystem. Det hjälper ditt AEM Sites-baserade gränssnitt att hämta utbildningsdata, visa webbsidor och erbjuda bättre sökalternativ för elever.
 
@@ -2124,7 +2124,7 @@ Du kan använda dessa URL:er för att hämta data med API:er.
 1. Om du vill skapa en rapport på begäran går du till **[!UICONTROL On Demand]**, väljer **[!UICONTROL Start date]** och kör sedan **[!UICONTROL click]**.
 Du kan kontrollera statusen för rapportkörningen på sidan **[!UICONTROL Execution Status]**.
 
-### Skapa en webbplats i AEM
+### Skapa en webbplats i AEM {#create-website-in-aem}
 
 **Förhandskrav:** Installera AEM-paketet från [**GitHub-databasen**](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0).
 
@@ -2134,13 +2134,13 @@ Du kan kontrollera statusen för rapportkörningen på sidan **[!UICONTROL Execu
 
 Mer information finns i det här [**dokumentet**](../../adobe-learning-manager-integration-aem.md).
 
-### Elever
+### Elever {#learners}
 
 Den publicerade webbplatsen visar en lista över alla migrerade kurser, certifikat och utbildningsvägar som har hämtats från söktjänsten för icke-inloggade elever.
 
 När en elev klickar på Kurs eller Certifikat eller utbildningsväg öppnas sidan Översikt. När eleven registrerar sig på sidan måste hen först logga in och sedan gå kursen.
 
-### Upplevelse som inte är inloggad
+### Upplevelse som inte är inloggad {#non-logged-in-experience}
 
 Med den icke-inloggade funktionen kan du skapa en realtidsupplevelse för icke-inloggade användare. En icke-inloggad upplevelse fungerar till exempel som en startsida för marknadsföringskampanjer för att uppmuntra registreringar.
 
@@ -2165,7 +2165,7 @@ Kunder kan köpa en premiumplan för att bygga upp den här mycket skalbara, ick
 
 När en användare har köpt en plan aktiverar CSM-teamet premiumplanen åt honom/henne. Med anslutningen för utbildningsdataåtkomst kan användare skapa en icke-inloggad upplevelse med de funktioner som nämnts tidigare.
 
-## Adobe Commerce-koppling
+## Adobe Commerce-koppling {#adobe-commerce-connector}
 
 >[!NOTE]
 >
@@ -2202,7 +2202,7 @@ Förutom att initiera ett köp samlar kopplingen också in köpeinformation frå
 1. Använd följande korrigeringsfiler. Mer information finns i [Använda korrigeringar](https://devdocs.magento.com/cloud/project/project-patch.html).
 1. Konfigurera snabbt.  Snabbt krävs för Adobe Commerce på molninfrastruktur och används i mellanlagrings- och produktionsmiljöer. Mer information finns i [Snabbkonfiguration](https://devdocs.magento.com/cloud/cdn/configure-fastly.html).
 
-### Konfigurera anslutningen
+### Konfigurera anslutningen {#configure-connector}
 
 Som integrationsadministratör klickar du på **[!UICONTROL Connect]** i Adobe Commerce-kopplingen.
 
@@ -2218,7 +2218,7 @@ Efter att kursen, utbildningsvägen eller certifikatet har publicerats kan eleve
 * **Native Learning Manager:** Eleven kan köpa en kurs, utbildningsplan eller ett certifikat från Learning Manager. Detta gäller endast om författaren har lagt till ett pris.
 * **Anpassad med AEM-webbplatser:** Eleven kan köpa en kurs från en AEM-webbplats.
 
-### Arbetsflöde
+### Arbetsflöde {#workflow}
 
 Adobe Commerce Administrator konfigurerar Learning Manager som en integrering.
 
@@ -2226,7 +2226,7 @@ Författaren markerar kurser, utbildningsvägar eller certifikat som premium och
 
 Kursen eller utbildningsvägen kan inte köpas förrän data har synkroniserats i Adobe Commerce.
 
-### Exportera kurser till Adobe Commerce
+### Exportera kurser till Adobe Commerce {#export-commerce}
 
 När en författare har angett priserna för olika kurser, utbildningsvägar eller certifieringar exporterar du som integrationsadministratör kurserna, utbildningsvägarna eller certifieringarna till Adobe Commerce.
 
@@ -2241,9 +2241,9 @@ När en författare har angett priserna för olika kurser, utbildningsvägar ell
 
 1. Klicka på **[!UICONTROL Execute]**. När genomförandet är klart kommer alla kurser eller utbildningsvägar som har ett pris att flyttas till Adobe Commerce. Eleven kan sedan köpa kursen från Learning Manager.
 
-### Native Learning Manager med Adobe Commerce
+### Native Learning Manager med Adobe Commerce {#learning-manager-with-commerce}
 
-#### Elev
+#### Elev {#learner}
 
 En elev måste vara inloggad för att köpa en kurs, ett certifikat eller en utbildningsväg.
 
@@ -2253,7 +2253,7 @@ När du köper en kurs, ett certifikat eller en utbildningsväg från ALM Native
 
 Dessutom kan du aktivera/inaktivera e-postmeddelanden även från Adobe Commerce.
 
-### AEM-webbplatser med Adobe Commerce
+### AEM-webbplatser med Adobe Commerce {#aem-sites-with-adobe-commerce}
 
 När alternativet Anpassad med AEM-webbplatser är aktiverat kan du som elev köpa kurser från en anpassad AEM-webbplats.
 
@@ -2263,9 +2263,9 @@ Både inloggade och icke-inloggade är möjliga. Användare som inte är inlogga
 
 Precis som med den inbyggda Learning Manager, kan du efter inloggning lägga till en kurs i varukorgen och sedan förhandsgranska eller köpa kursen.
 
-### Konfigurera Adobe Commerce-anslutningen
+### Konfigurera Adobe Commerce-anslutningen {#setup-commerce-connector}
 
-#### Förutsättning
+#### Förutsättning {#pre-requisites}
 
 Administratören markerar kryssrutan **Aktivera priser för utbildningar** i **Inställningar > Allmänt** i Admin-appen. Om alternativet är aktiverat kan författare ange priser för utbildningar. När du lägger till en Adobe Commerce-anslutning markeras och tillämpas den här kryssrutan automatiskt.
 
@@ -2280,7 +2280,7 @@ De främsta målen med denna integration är följande:
 * Tillåt Learning Managers kunder att erbjuda formellt lärande i form av betalda kurser.
 * Gör det möjligt för elever att förhandsgranska kurser innan de bestämmer sig för att köpa utbildningen.
 
-#### Inbyggd Adobe Learning Manager
+#### Inbyggd Adobe Learning Manager {#native-learning-manager}
 
 **Integreringsadministratör**
 
@@ -2291,7 +2291,7 @@ De främsta målen med denna integration är följande:
 >
 >Adobe Learning Manager och Adobe Commerce har olika inloggningar.
 
-### AEM
+### AEM {#aem}
 
 I det här läget genomför en elev kursen på en AEM-baserad webbplats som skapats med AEM-baserade mallar och komponenter.
 
@@ -2301,7 +2301,7 @@ Om användaren inte är inloggad kan hen ändå söka efter kurskataloger och vi
 
 När eleven har köpt kursen omdirigeras hen till sidan med kursöversikten i det registrerade tillståndet, där hen kan ta den köpta utbildningen.
 
-#### Headless- Non-logged in
+#### Headless- Non-logged in {#headless-non-logged-in}
 
 En elev kan:
 
@@ -2313,7 +2313,7 @@ En elev kan inte:
 * Köpa en kurs på sidan Översikt.
 * Förhandsgranska betalt innehåll.
 
-#### Headless- Inloggad
+#### Headless- Inloggad {#headless-logged-in}
 
 En elev kan:
 
@@ -2327,7 +2327,7 @@ En elev kan:
 
 * Se fakturan som en bilaga i e-postmeddelandet efter att du har köpt kursen.
 
-#### Synkronisering på begäran
+#### Synkronisering på begäran {#on-demand-sync}
 
 Synkroniseringen mellan Learning Manager och Adobe Commerce sker två gånger per dag. När administratören har aktiverat ett konto för e-handel lagrar alternativet **Aktivera export av utbildningsmetadata med hjälp av den här anslutningen** - när det här alternativet är aktiverat - bilderna av kursen, utbildningsvägen och certifikaten i ett offentligt CDN.
 
@@ -2337,7 +2337,7 @@ För Native Learning Manager: Om e-handel har aktiverats och synkronisering mell
 
 Det finns ingen Köp nu för AEM, bara en **Lägg till i kundvagn**. Knappen förblir även inaktiverad om synkroniseringen inte utförs.
 
-#### Vanliga frågor
+#### Vanliga frågor {#faqs}
 
 +++Vilka kurser går inte att köpa?
 
