@@ -2,9 +2,9 @@
 title: Ej inloggad för elever
 description: Adobe Learning Manager inbyggda portal har stöd för ett icke-loggat sätt att komma åt utbildningswebbplatsen. När det här läget är aktiverat kan elever upptäcka och komma åt utbildningswebbplatsen och kolla in olika kurser och tillgängligt innehåll. Den icke-inloggade upplevelsen gör att elever kan bläddra bland kurser utan att vara inloggade på en portal.
 exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
-source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
+source-git-commit: 664b9c867fc767e11d4d91e3be9ae172e7e85035
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
@@ -88,4 +88,4 @@ All exporterad utbildning kommer att finnas.
 * Elevens appvy som visas katalogvis.
 * Sidor med utbildningsöversikt - Om du klickar på kortet omdirigeras användaren till Sign Up, varefter användaren omdirigeras till sidan med utbildningsöversikten/instanssidan.
 * Alla aktiverade kataloger kommer att finnas. En elev som inte har åtkomst till en katalog kan inte se katalogen och utbildningen i den efter att ha loggat in.
-* För det inbyggda alternativet kommer ändringar av en kurs eller utbildningsväg att återspeglas efter 24 timmar, inte i realtid.
+* För det inbyggda alternativet kommer ändringar av en kurs eller utbildningsväg endast att återspeglas efter 24 timmar i stället för i realtid, medan för premiumerbjudandet kommer de att synas efter minst 3 timmar.
