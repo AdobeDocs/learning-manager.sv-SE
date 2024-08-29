@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Inställningar
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
 workflow-type: tm+mt
-source-wordcount: '3608'
+source-wordcount: '3626'
 ht-degree: 1%
 
 ---
@@ -165,7 +165,7 @@ Aktivera eller inaktivera följande inställningar:
   </tr>
   <tr>
    <td>Visa katalogetiketter</td>
-   <td>Om detta är aktiverat kan administratörer och författare ange katalogetiketter och värden och länka dem till utbildningsobjekt.</td>
+   <td>Om detta är aktiverat kan administratörer och författare ange katalogetiketter och värden och länka dem till utbildningsobjekt. Om du väljer det här alternativet kan författare även lägga till kurser, utbildningsvägar, certifieringar eller arbetsstöd i katalogerna.</td>
   </tr>
   <tr>
    <td>Elever kan visa sina poäng</td>

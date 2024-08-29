@@ -1,10 +1,10 @@
 ---
 description: Läs den här artikeln om du vill veta hur du visar och utför kurser i Learning Manager. Delta i diskussioner och ge feedback.
 jcr-language: en_us
-title: Mitt lärande
+title: Mina utbildningar
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
 workflow-type: tm+mt
 source-wordcount: '2753'
 ht-degree: 0%
