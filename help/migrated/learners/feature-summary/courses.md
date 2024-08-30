@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Mina utbildningar
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
+source-git-commit: 4151b3d791a2ac13a40dc812a3c7b2c3c43bfc9c
 workflow-type: tm+mt
-source-wordcount: '2753'
+source-wordcount: '2783'
 ht-degree: 0%
 
 ---
@@ -163,6 +163,10 @@ Du kan visa alla moduler för kursen i ett webbläsarfönster.
 **Stäng kursen** Klicka på stängningsikonen (x) längst upp till höger i spelaren för att avsluta kursen.
 
 *När du har lämnat kursen kan du gå tillbaka till kursen genom att klicka på knappen Besök igen på kursbeskrivningssidan.*
+
+## Flera registreringsinstanser
+
+Om en kurs har flera instanser kan eleverna välja och registrera sig för en specifik instans. De kan också växla mellan instanser vid behov.
 
 ## Stjärngradering
 
