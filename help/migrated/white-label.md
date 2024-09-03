@@ -4,9 +4,9 @@ title: Vit märkning i mobilappen Adobe Learning Manager
 description: Vit märkning är en metod att byta namn på en app eller tjänst med ditt eget varumärke och anpassa den som om du vore den ursprungliga skaparen. I Adobe Learning Manager kan du använda vit etikettering i mobilappen så att du kan byta varumärke på appen och göra den tillgänglig för användarna under ditt eget varumärke.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 977799953123eafbbaf22732c79be4b8ea2e3e1a
+source-git-commit: a137da066faf4fd562354474b25e908f3298bf57
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -372,6 +372,50 @@ sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --
 >[!NOTE]
 >
 >Du behöver verktyg för Android SDK för att bygga de signerade binärfilerna.
+
+Play Store kräver Android-binärfiler i aab-format för publicering. Därför tillhandahåller vi den osignerade .aab-filen.
+
+>[!NOTE]
+>
+>När du skapar en keystore-fil måste du generera ett keystore-lösenord, ett alias för signeringsnyckel och ett lösenord för signeringsnyckel.
+
+Följ proceduren nedan för att signera .aab-filen:
+
+Kör följande kommando:
+
+```
+<path>/jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256 -keystore <keystore-file> app-release.aab <signingKeyAlias>
+```
+
+>[!NOTE]
+>
+>**[!UICONTROL jarsigner]** ingår i Java. Se till att du använder Java 21.
+
+Ange följande lösenord när du uppmanas till det:
+
+* Keystore-lösenord
+* lösenord för signeringsnyckelalias
+
+Du kan använda den medföljande appen. Men om du behöver generera en apk från en aab-fil, följ dessa steg:
+
+>[!NOTE]
+>
+>Du måste installera **[!UICONTROL bundletool]** för att generera APK:er.
+
+
+Kör följande kommando för att skapa apk-filen:
+
+```
+java -jar <path>/bundletool-all.jar  build-apks --bundle=app-release.aab --output=my_app.apks --mode=universal
+```
+
+Packa upp filen med följande kommando:
+
+```
+unzip my_app.apks -d output_dir
+```
+
+Du hämtar apk-filen från mappen **[!UICONTROL output_dir]**.
 
 **Nästa steg**
 
