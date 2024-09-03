@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Lägga till användare och skapa användargrupper
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
+source-git-commit: aceee425ceb799fa3f742ac813bb35df16b34371
 workflow-type: tm+mt
-source-wordcount: '3898'
+source-wordcount: '3909'
 ht-degree: 0%
 
 ---
@@ -235,7 +235,7 @@ Det finns några skillnader mellan interna och externa registreringar.
    <td>
     <p>Spelifiering är tillgänglig.</p></td>
    <td>
-    <p>Spelifiering är inte tillgänglig.</p></td>
+    <p>Spelifiering är tillgänglig. Administratören måste aktivera spelifiering för externa elever i inställningarna för spelifiering.</p></td>
   </tr>
   <tr>
    <td>
