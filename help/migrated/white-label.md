@@ -4,9 +4,9 @@ title: Vit märkning i mobilappen Adobe Learning Manager
 description: Vit märkning är en metod att byta namn på en app eller tjänst med ditt eget varumärke och anpassa den som om du vore den ursprungliga skaparen. I Adobe Learning Manager kan du använda vit etikettering i mobilappen så att du kan byta varumärke på appen och göra den tillgänglig för användarna under ditt eget varumärke.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: a137da066faf4fd562354474b25e908f3298bf57
+source-git-commit: 1be901d1667c53ced996953440df6293485a4088
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
@@ -352,22 +352,66 @@ Kontakta CSM-teamet och dela JSON-filen för att lägga till posten till SNS-tj�
 
 ### iOS
 
-```
+<!--```
 sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist {ExportFile} 
 
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
-```
+```-->
+
+Rotmappen innehåller filen **Runner.xcarchive.zip**. Kör kommandona nedan för att generera den signerade binärfilen:
+
+1. Kör följande kommando för att packa upp arkivet:
+
+   ```
+   unzip Runner.xcarchive.zip
+   ```
+
+2. Gå till programkatalogen:
+
+   ```
+   cd Runner.xcarchive/Products/Applications/Runner.app
+   ```
+
+3. Kopiera etableringsfilen för mobil:
+
+   ```
+   cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
+   ```
+
+4. Gå tillbaka till rotkatalogen (där Runner.xcarchive.zip finns):
+
+   ```
+   cd <root>
+   ```
+
+5. Exportera arkivet med xcodebuild:
+
+   ```
+   xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath ipa_path/ -exportOptionsPlist <path>/<ExportOptions-file>.plist
+   ```
+
+6. Leta reda på .ipa-filen i mappen ipa_path.
+7. Överför .ipa-filen till Diawi-webbplatsen.
+8. När det är helt uppladdat väljer du knappen **[!UICONTROL Send]**.
+9. När det är klart får du en QR-kod och en länk.
+10. Öppna QR-koden eller länken direkt i Safari.
+
+Om enheten ingår i etableringsprofilen ska installationen fortsätta på enheten.
 
 >[!NOTE]
 >
 >Du behöver XCode 15.2 eller senare för att skapa de signerade binärfilerna.
 
 
-## Android
+### Android
+
+**För apk-filen**
 
 ```
-sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --ks-pass "pass:$store\_password" --ks-key-alias $key\_alias --key-pass "pass:$key\_password" --out app-release-signed.apk -v app-release.apk """
+sh""" <path>/apksigner sign --ks $storeFile --ks-pass "pass:$store_password" --ks-key-alias $key_alias --key-pass "pass:$key_password" --out app-release-signed.apk -v app-release.apk """
 ```
+
+**För aab-filen**
 
 >[!NOTE]
 >
