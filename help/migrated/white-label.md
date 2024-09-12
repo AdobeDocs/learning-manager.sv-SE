@@ -4,9 +4,9 @@ title: Vit märkning i mobilappen Adobe Learning Manager
 description: Vit märkning är en metod att byta namn på en app eller tjänst med ditt eget varumärke och anpassa den som om du vore den ursprungliga skaparen. I Adobe Learning Manager kan du använda vit etikettering i mobilappen så att du kan byta varumärke på appen och göra den tillgänglig för användarna under ditt eget varumärke.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 1be901d1667c53ced996953440df6293485a4088
+source-git-commit: f146b3b9c278f1ac05ecaf741c6617f31982e3ac
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
@@ -358,7 +358,7 @@ sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_p
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
 ```-->
 
-Rotmappen innehåller filen **Runner.xcarchive.zip**. Kör kommandona nedan för att generera den signerade binärfilen:
+Mappen `<root>` innehåller filen **Runner.xcarchive.zip**. Kör kommandona nedan för att generera den signerade binärfilen:
 
 1. Kör följande kommando för att packa upp arkivet:
 
@@ -378,7 +378,7 @@ Rotmappen innehåller filen **Runner.xcarchive.zip**. Kör kommandona nedan för
    cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
    ```
 
-4. Gå tillbaka till rotkatalogen (där Runner.xcarchive.zip finns):
+4. Gå tillbaka till mappen `<root>` (där Runner.xcarchive.zip finns):
 
    ```
    cd <root>
