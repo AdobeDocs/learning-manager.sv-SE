@@ -4,9 +4,9 @@ title: Vit märkning i mobilappen Adobe Learning Manager
 description: Vit märkning är en metod att byta namn på en app eller tjänst med ditt eget varumärke och anpassa den som om du vore den ursprungliga skaparen. I Adobe Learning Manager kan du använda vit etikettering i mobilappen så att du kan byta varumärke på appen och göra den tillgänglig för användarna under ditt eget varumärke.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: f146b3b9c278f1ac05ecaf741c6617f31982e3ac
+source-git-commit: b9809314014fcd8c80f337983c0b0367c060e348
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -391,7 +391,7 @@ Mappen `<root>` innehåller filen **Runner.xcarchive.zip**. Kör kommandona neda
    ```
 
 6. Leta reda på .ipa-filen i mappen ipa_path.
-7. Överför .ipa-filen till Diawi-webbplatsen.
+7. Överför .ipa-filen till webbplatsen `Diawi`.
 8. När det är helt uppladdat väljer du knappen **[!UICONTROL Send]**.
 9. När det är klart får du en QR-kod och en länk.
 10. Öppna QR-koden eller länken direkt i Safari.
