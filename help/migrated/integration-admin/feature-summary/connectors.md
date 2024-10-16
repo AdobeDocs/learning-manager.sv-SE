@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Anslutningar för Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 4b6426f836b345421401103db0f14c353323c3fc
+source-git-commit: 8d647f492d6073ed4b16d44e16548a3defdca02a
 workflow-type: tm+mt
 source-wordcount: '15605'
 ht-degree: 0%
@@ -2103,7 +2103,7 @@ Ange anslutningsnamn och domännamn
 1. Välj **[!UICONTROL Type of interface]** bland följande alternativ:
 
    * **[!UICONTROL Native Learning Manager]**: Det här är standarderbjudandet som endast är tillgängligt för det inbyggda gränssnittet.
-***[!UICONTROL  Headless interfaces]**: Detta är premiumerbjudandet som exponerar API:er för att skapa en icke-inloggad upplevelse.
+   * **[!UICONTROL  Headless interfaces]**: Det här är premiumerbjudandet som exponerar API:er för att skapa en icke-inloggad upplevelse.
 
    ![](assets/types-of-interface.png)
 Typer av gränssnitt

@@ -3,9 +3,9 @@ description: Läs om de nya funktionerna och förbättringarna i juli 2024-versi
 jcr-language: en_us
 title: Sammanfattning av nya funktioner
 exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
-source-git-commit: 998978a5ba74377ef91b6a623367206643476ecc
+source-git-commit: 8d647f492d6073ed4b16d44e16548a3defdca02a
 workflow-type: tm+mt
-source-wordcount: '2233'
+source-wordcount: '2303'
 ht-degree: 1%
 
 ---
@@ -231,6 +231,12 @@ API:er som stöder sortering efter datum och -datum visar resultat baserat på p
 ### Ändringar av förskjutningsgränser
 
 För att förbättra systemprestanda och hantera resursutnyttjande mer effektivt har Adobe utfasat höga motvärden i slutpunkten GET/användare för både ADMIN- och ELEVER-omfång. Vi rekommenderar att du använder Jobb-API:et för att hämta poster med ett motvärde.
+
+### Förändringar i varv/min- och sprängningsbegränsning
+
+I den här versionen har RPM (Begäranden per minut) och burst-gränser lagts till för alla API:er. Du kan kontrollera den maximala RPM:en för varje API på Swagger-sidan.
+
+RPM är antalet begäranden som du kan skicka till API-servern på en minut. Burst-gränsen tillåter ett högre antal förfrågningar under en kort tid, vilket går utöver den vanliga hastighetsgränsen.
 
 ### Föråldrade API:er
 
