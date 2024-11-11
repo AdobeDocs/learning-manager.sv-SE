@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Skapa kursinstanser och utbildningsvägar
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: c7969e9386241f316c8ff2590f8015ebc594c3e6
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '4715'
+source-wordcount: '4943'
 ht-degree: 1%
 
 ---
@@ -235,6 +235,35 @@ Om en elev som tidigare befann sig i väntande tillstånd för godkännande avre
 ## Väntelista
 
 Väntelisteavsnittet gör det möjligt för elever att väntelista sig till klassrumskurser när antalet platser är begränsade, baserat på den ordning i vilken de registrerat sig. Administratörer kan hantera detta genom att välja elever på väntelistan och tilldela platser utöver den ursprungliga gränsen. När en plats har tilldelats av administratören registreras eleven omedelbart till kursen.
+
+### Väntelisterapport
+
+Med Adobe Learning Manager kan administratörer hämta listan över elever på väntelistan för alla instanser av en kurs. Administratörer kan komma åt den här rapporten från avsnittet Väntelista på sidan **[!UICONTROL Course Overview]**.
+
+Följande kolumner är tillgängliga i väntelisterapporten:
+
+* Kursnamn
+* Instansnamn
+* Instans-ID:
+* Instansstatus
+* Användarnamn
+* E-post
+* Unikt användar-ID
+* Datum registrerad (tidszonen UTC)
+* Status
+* Väntelistenummer
+* Väntlistegräns
+* Platsbegränsning
+
+Så här hämtar du rapporten från avsnittet Administratör:
+
+1. Logga in som **[!UICONTROL Admin]**.
+2. Gå till avsnittet **[!UICONTROL Course]** och välj den obligatoriska kursen.
+3. Välj alternativet **[!UICONTROL Waitlist]** på sidan **[!UICONTROL Course overview]**.
+4. Välj **[!UICONTROL Actions]** > **[!UICONTROL Export Report]** för att hämta rapporten **[!UICONTROL Waitlist]**.
+
+   ![](assets/export-report-waitlist.png)
+   _Exportera rapport_
 
 ## Exportera elevnärvaro {#attendance}
 
@@ -498,6 +527,31 @@ För att skicka e-postmeddelanden måste en administratör uttryckligen välja e
 ![](assets/escalation-notification.png)
 
 *Ställ in eskaleringsnivå*
+
+## Kommentarer till slutförande
+
+Administratörer kan lämna kommentarer när de markerar en elev som slutförd för kurser, utbildningsvägar eller certifieringar. Kommentarerna är till hjälp när det gäller regelefterlevnad och revision. Administratörer kan enkelt lägga till kommentarer för en elev eller flera elever samtidigt.
+
+### Lägga till kommentarer om slutförande
+
+Gör så här för att lägga till kommentarer om slutförande:
+
+1. Logga in som **[!UICONTROL Admin]**.
+2. Gå till sidan **[!UICONTROL Courses]** och välj en kurs.
+3. Välj **[!UICONTROL Learners]** på kurssidan.
+4. Välj den enskilda eleven eller flera elever.
+5. Välj **[!UICONTROL Actions]** och välj sedan**[!UICONTROL  Mark Completion]**.
+6. Skriv den avslutande kommentaren i dialogrutan.
+
+   ![](assets/comments.png)
+   _Slutförandekommentar_
+
+Den här processen är densamma för utbildningsvägar och certifieringar. För utbildningsvägar kan du filtrera och välja alla kurser eller bara enskilda kurser som ska markeras som slutförda.
+
+![](assets/learning-path.png)
+_Välj flera kurser att slutföra_
+
+Kommentarer visas i rapporten [Elevens betygsutdrag](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts).
 
 ## Förhandsgranska kurser {#previewcourses}
 

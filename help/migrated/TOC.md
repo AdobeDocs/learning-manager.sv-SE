@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation för Adobe Learning Manager
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 8c4d00ed9213c21463a046f74d1db17b331da85f
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '618'
 ht-degree: 8%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 8%
 * [Användarhandbok för Learning Manager](user-guide.md)
 * Introduktion {#introduction}
    * [Sammanfattning av nya funktioner](whats-new.md)
+   * [Sammanfattning av nya funktioner juli 2024](whats-new-july-2024.md)
    * [Nya funktioner mars 2024](whats-new-march-2024.md)
    * [Nya funktioner november 2023](whats-new-november-2023.md)
    * [Nya funktioner juli 2023](whats-new-2023-july.md)
    * [Nya funktioner april 2023](whats-new-2023-april.md)
-   * [Nya funktioner november 2022](whats-new-2022-november.md)
    * [Versionsinformation](release-note/release-notes.md)
    * [Systemkrav](system-requirements.md)
    * [ALM-referenspaket för AEM Sites](adobe-learning-manager-integration-aem.md)
@@ -88,6 +88,9 @@ ht-degree: 8%
    * [Migreringshandbok](integration-admin/feature-summary/migration-manual.md)
    * [Anslutningar för Learning Manager](integration-admin/feature-summary/connectors.md)
    * [Icke-inloggade API:er](integration-admin/feature-summary/non-logged-in-apis.md)
+   * [Webhooks](integration-admin/feature-summary/webhooks.md)
+   * [Credly](integration-admin/feature-summary/credly-integration.md)
+   * [Interoperabilitet för utbildningsverktyg](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
    * [Integrera Learning Manager med AEM](integrate-aem-learning-manager.md)
    * [Installera Salesforce-paket i Learning Manager](integration-admin/feature-summary/install-salesforce-package.md)
    * [Installera Microsoft Teams-anslutning](integration-admin/feature-summary/install-microsoft-teams-connector.md)
@@ -127,6 +130,7 @@ ht-degree: 8%
    * [Användarmeddelanden](learners/feature-summary/user-notifications.md)
    * [Meddelanden](learners/feature-summary/announcements.md)
    * [Väntelista och närvarohantering](learners/feature-summary/waitlist-attendance-management.md)
+   * [AI-baserad sökning i Adobe Learning Manager](/help/migrated/learners/feature-summary/advanced-search.md)
    * [Learning Manager-app för Salesforce](learners/feature-summary/sfdc-app.md)
    * [Integrering med Adobe Connect](learners/feature-summary/adobeconnect-integration.md)
    * [Elevapp för mobiler och surfplattor](learners/feature-summary/ipad-android-tablet-users.md)

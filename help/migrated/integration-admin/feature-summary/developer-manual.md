@@ -4,9 +4,9 @@ title: Användarhandbok för programutvecklare
 description: Learning Manager V1 API är nu föråldrat. V1 API:erna slutar fungera från och med 28 februari 2021. Vi rekommenderar att du använder V2 API:er för att interagera med Learning Manager.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: a27c1566678d697512a75d94804b8804b5dc9b2b
 workflow-type: tm+mt
-source-wordcount: '3382'
+source-wordcount: '3374'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ När en API-begäran misslyckas får du ett felsvar. Den HTTP-statuskod som retu
 
 API-objektets attribut och relationer kallas gemensamt för fält. Se [JSON API för mer information.](http://jsonapi.org/format/#document-resource-object-fields) Du kan använda Fält som en parameter när du gör API-anrop för att hämta ett eller flera specifika attribut från modellen. I avsaknad av parametern Fields hämtar API-anropet alla tillgängliga attribut från modellen. I följande API-anrop hämtar till exempel fälten [skills]=name attributet name för enbart kompetensmodellen.
 
-https://learningmanager.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?include=skillLevel.skill&amp;fields[skill]=name
+`https://learningmanager.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?include=skillLevel.skill&fields[skill]=name `
 
 **Sidnumrering**
 

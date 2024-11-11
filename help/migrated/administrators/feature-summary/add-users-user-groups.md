@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Lägga till användare och skapa användargrupper
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: aceee425ceb799fa3f742ac813bb35df16b34371
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '3909'
+source-wordcount: '3986'
 ht-degree: 0%
 
 ---
@@ -195,8 +195,6 @@ Typer av aktiva fält:
 ## Skapa en länk för självregistrering {#createaselfregistrationlink}
 
 Du kan även göra det möjligt för anställda i organisationen att registrera sig som elever på Adobe Learning Manager-kontot utan att ta hjälp av dig som administratör. Administratören kan skapa en länk för självregistrering och dela med de anställda, som kan registrera sig ytterligare för Learning Manager med sina inloggningsuppgifter för Adobe.
-
-
 
 Klicka på **[!UICONTROL Add]** i det övre högra hörnet på sidan och välj **[!UICONTROL Self-Registration]**.
 
@@ -575,6 +573,27 @@ Alla rapporter innehåller aktiva fält med flera värden och deras värden.
 Administratören kan lägga till automatiskt genererade aktiva fält och konfigurera användaraktivitets- och utbildningsrapporter.
 
 Elevens betygsrapport innehåller alla aktiva fält och kommaavgränsade värden. Administratören kan sedan filtrera data på lämpligt sätt.
+
+## Rapport över användargrupp
+
+Adobe Learning Manager nya användargruppsrapport hjälper till att hantera användargrupper genom att tillhandahålla synlighet för grupper som lämnas ohanterade när administratörer lämnar organisationen. Administratörer kan komma åt rapporterna under avsnittet **[!UICONTROL Users]** > **[!UICONTROL User Group]**. Den innehåller detaljerad information om varje grupp, inklusive:
+
+* Typ av användargrupp
+* Gruppnamn
+* Beskrivning
+* Skapad av (namn)
+* Skapad av (e-post)
+* Skapad den (tidszonen UTC)
+* Antal användare
+
+Hämta rapporten genom att följa dessa steg:
+
+1. Logga in som **[!UICONTROL Admin]**.
+2. Välj **[!UICONTROL Users]** > **[!UICONTROL User Group]**.
+3. Välj **[!UICONTROL Actions]** > **[!UICONTROL Download User Group Report]**.
+
+![](assets/download-user-group-report.png)
+_Hämta rapporten Användargrupp_
 
 ## Vanliga frågor {#faq}
 

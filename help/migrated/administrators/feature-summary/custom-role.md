@@ -4,9 +4,9 @@ title: Anpassade roller
 description: Med funktionen Utbildningsvägar kan du definiera anpassade roller och tilldela specifika ansvarsområden till en uppsättning användare. Med den här funktionen kan du tilldela ansvar utanför personens befintliga roll.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '2155'
+source-wordcount: '2412'
 ht-degree: 1%
 
 ---
@@ -17,28 +17,33 @@ Med den här funktionen kan du definiera anpassade roller och tilldela specifika
 
 Du kan skapa en anpassad roll för att tillhandahålla redigeringsfunktioner som är begränsade till en viss katalog. Du kan också skapa en roll som är dedikerad till att hantera rapportering. Sådana roller kan sedan tilldelas enskilda personer som förväntas ta på sig dessa specifika ansvarsområden.
 
+Administratörer kan nu visa CSV-skapade behörigheter i Adobe Learning Manager. Alternativet Filtrera efter filtrerar anpassade roller efter administratör som har skapats och de som importeras via en CSV-fil. När du har valt en anpassad roll kan du se dess behörigheter.
+
+![](assets/filter.png)
+_Filtrera anpassade roller_
+
 ## Skapa en anpassad roll {#create-role}
 
 1. Logga in som administratör. Öppna **[!UICONTROL Users]** > **[!UICONTROL Custom Role]**.
-1. Välj **[!UICONTROL Create Role]**. Fliken **[!UICONTROL Create New Role]** öppnas.
+2. Välj **[!UICONTROL Create Role]**. Fliken **[!UICONTROL Create New Role]** öppnas.
 
    ![](assets/create-new-role.png)
 
    *Skapa en anpassad roll*
 
-1. Ange namnet i fältet **[!UICONTROL Name of the Role]**.
-1. **[!UICONTROL Account privileges]**: De här behörigheterna ger rollägarna tillgång till specifika systemkonfigurationsaspekter och som påverkar hela kontot. Välj åtkomstbehörigheter. Användaren får full kontroll över tilldelade behörigheter.
+3. Ange namnet i fältet **[!UICONTROL Name of the Role]**.
+4. **[!UICONTROL Account privileges]**: De här behörigheterna ger rollägarna tillgång till specifika systemkonfigurationsaspekter och som påverkar hela kontot. Välj åtkomstbehörigheter. Användaren får full kontroll över tilldelade behörigheter. Administratörer kan bevilja detaljerade behörigheter för avsnittet Användare, som har interna/externa användare, användargrupper och avancerade användare.
 
->[!NOTE]
->
->   Omfattningen är inte tillämplig på dessa privilegier.
+   >[!NOTE]
+   >
+   >   Omfattningen är inte tillämplig på dessa privilegier.
 
 
-![](assets/account-privileges.png)
+   ![](assets/account-privileges.png)
 
-*Ange omfattningen*
+   *Ange omfattningen*
 
-1. **Funktionsprivilegier - Kärnfunktioner**: Används för att ge åtkomst till specifika funktioner för hantering av utbildningsaktiviteter. Behörigheter till följande funktioner kan ges med detta alternativ.
+5. **Funktionsprivilegier - Kärnfunktioner**: Används för att ge åtkomst till specifika funktioner för hantering av utbildningsaktiviteter. Behörigheter till följande funktioner kan ges med detta alternativ. Administratörer kan ge detaljerade behörigheter som skrivskyddade, skapa, redigera och ta bort behörigheter för katalogerna.
 
    * Kataloger
    * Rapporter
@@ -48,7 +53,7 @@ Du kan skapa en anpassad roll för att tillhandahålla redigeringsfunktioner som
 
    *Ange omfattning för kataloger, rapporter och taggar*
 
-1. **Funktionsprivilegier - Utbildningsobjekt:** Använd det här alternativet för att ge åtkomst till LO-relaterade funktioner. Du kan ge åtkomst till följande LO:er.
+6. **Funktionsprivilegier - Utbildningsobjekt:** Använd det här alternativet för att ge åtkomst till LO-relaterade funktioner. Administratörer kan tillhandahålla detaljerade behörigheter för alla utbildningsobjekt, inklusive kurser, utbildningsvägar, certifieringar och arbetsstöd. De kan tilldela användare behörigheter som skapa, redigera, ta bort eller skrivskyddad åtkomst.
 
    * Certifieringar
    * Kurser
@@ -57,16 +62,20 @@ Du kan skapa en anpassad roll för att tillhandahålla redigeringsfunktioner som
 
    Du kan också bevilja specifik åtgärdskontroll för LO:er. Behörigheten kan vara något av följande:
 
-   * Full kontroll
-   * Redigera och ta bort
+   * Skrivskyddat
+   * Skapa
+   * Redigera
+   * Ta bort
    * Registrering
    * Rapportera
 
-   ![](assets/learning-objects.png)
+   Du kan också bevilja fullständig kontroll för LO:er.
+
+   ![](assets/learningobjects.png)
 
    *Bevilja specifika behörigheter*
 
-1. **Omfång för funktionsprivilegier:** Omfattningen för funktionsprivilegier som har tilldelats den här rollen kan begränsas till en specifik användargrupp eller en eller flera kataloger.
+7. **Omfång för funktionsprivilegier:** Omfattningen för funktionsprivilegier som har tilldelats den här rollen kan begränsas till en specifik användargrupp eller en eller flera kataloger.
 
    Kataloger: Använd alternativknappen för att ge kontroll över **[!UICONTROL All catalogs]** eller använd alternativet **[!UICONTROL Set access per Catalog]** för att ge åtkomst till specifika kataloger. Du kan också välja flera kataloger.
 
@@ -224,18 +233,43 @@ En användare med en anpassad roll kan:
 
 1. **Användare:** Använd det här alternativet för att avgöra vilka användare som tilldelas den här rollen. Du kan välja en eller flera användare med sökrutan.
 
-   **Lägg till användare i CSV-uppladdning för anpassade roller:** Lägg till användare via en CSV-uppdatering genom att lägga till en CustomRole-kolumn i .csv-filen som administratören använde för att importera användare. Ange användarens roll under kolumnen Anpassad roll för de användare som du vill tilldela en anpassad roll till. Klicka på **[!UICONTROL Add > Upload a CSV]** för att överföra CSV-filen.
+   **Lägg till användare i CSV-överföring med anpassade roller:** Lägg till användare via CSV som överförts genom att lägga till en CustomRole-kolumn i .csv-filen som administratören använde för att importera användare. Ange användarens roll under kolumnen Anpassad roll för de användare som du vill tilldela en anpassad roll till. Klicka på **[!UICONTROL Add > Upload a CSV]** för att överföra CSV-filen.
 
-   CustomRole columnNote:
+   * Du kan inte söka efter användargrupper.
+   * Du kan inte söka efter användare som redan har administratörsrollen tilldelad.
+   * Om du tilldelar en ny anpassad roll till en användare åsidosätts användarens tidigare anpassade roll.
 
-* Du kan inte söka efter användargrupper.
-* Du kan inte söka efter användare som redan har administratörsrollen tilldelad.
-* Om du tilldelar en ny anpassad roll till en användare åsidosätts användarens tidigare anpassade roll.
+   <!--![](assets/users.png)-->
 
-  <!--![](assets/users.png)-->
+   * En anpassad administratör med behörighet till inställningar kan konfigurera schemat för synkronisering eller synkronisering av användare från datakälla även om de inte har behörighet till användarentiteten.
+   * Om en anpassad administratör har behörighet i användarentiteten kan hen tilldela sig själv administratörsrollen och bli standardadministratör.
 
-* En anpassad administratör med behörighet till inställningar kan konfigurera schemat för synkronisering eller synkronisering av användare från datakälla även om de inte har behörighet till användarentiteten.
-* Om en anpassad administratör har behörighet i användarentiteten kan hen tilldela sig själv administratörsrollen och bli standardadministratör.
+## Anpassad rollrapport
+
+Administratörer kan hämta en CSV-rapport över alla anpassade roller och deras behörigheter. I rapporten visas hur varje roll skapades, antingen av en administratör eller via en CSV-fil, och i rapporten beskrivs vilken åtkomst respektive roll fick.
+
+Hämta rapporten genom att följa dessa steg:
+
+1. Logga in som **[!UICONTROL Admin]**.
+2. Välj **[!UICONTROL Users]** > **[!UICONTROL Custom Roles]**.
+3. Välj alternativet **[!UICONTROL Download]** för att hämta CSV-rapporten.
+
+![](assets/download-report.png)
+_Ladda ned rapport om anpassade roller_
+
+Rapporten innehåller två CSV-filer: role.csv och user_role.csv. Filen role.csv innehåller:
+
+* Anpassad roll
+* Användar-ID
+* Källa för skapande.
+
+Filen user_role.csv innehåller fält, anpassad roll, källa till skapande och detaljerad information om kataloger, användare, kurser, utbildningsvägar med mera.
+
+## Granskningsspår för anpassade roller
+
+Administratörer kan hämta granskningsrapporten för den anpassade rollen för att spåra alla ändringar som görs i de anpassade rollerna, däribland att skapa, ändra och ta bort anpassade roller och deras tillhörande funktionsåtkomst.
+
+Läs den här artikeln [Granskningsspår för anpassade roller](/help/migrated/administrators/feature-summary/reports.md#audit-trail-for-custom-roles) om du vill ha mer information.
 
 ## Begränsa mappåtkomst för anpassade författare {#folder-custom-author}
 

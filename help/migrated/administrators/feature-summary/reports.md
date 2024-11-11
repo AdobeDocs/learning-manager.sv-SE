@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Rapporter
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: e7fc4216fea9afffc277f93f4b3c1e8e58b7a2ed
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '6861'
+source-wordcount: '7469'
 ht-degree: 2%
 
 ---
@@ -289,63 +289,107 @@ Gör så här för att skapa och dela en efterlevnadstavla:
 >
 >Om du delar den nya instrumentpanelen skrivs den befintliga instrumentpanelen över i den valda chefens app. Chefer kommer att kunna se den nyligen delade kontrollpanelen av administratörerna.
 
-<!--In the final visualization, you can check the compliance status of learners, and take appropriate action.
+#### Dela efterlevnadstavla med administratörer och anpassade administratörer
 
-Also, an Admin can view individual training data in the **[!UICONTROL Compliance Dashboard]**.
+Administratörer kan dela kontrollpanelen med andra administratörer och anpassade administratörer, vilket ger dem omedelbar åtkomst till alla efterlevnadstavlor.
 
-For instance, the Administrator has identified three trainings to track compliance. Learning Manager provides the compliance snapshot for all three trainings at once.
+Följ de här stegen för att dela kontrollpanelen med administratörer och anpassade administratörer:
 
-Now an Admin can click on any training and quickly view the compliance for the selected training.
+1. Logga in som **[!UICONTROL Admin]**.
+2. Gå till **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**.
+3. Välj **[!UICONTROL Admin View]** i avsnittet **[!UICONTROL Compliance Dashboard]**.
+4. Välj knappen **[!UICONTROL Share Dashboard]**.
 
-![](assets/compliance-dashboard.png)
-*View Compliance dashboard*
+   ![](assets/share-dashboard.png)
+   _Dela tavla - Admin_
 
-You can also see the compliance status for each internal team.
+5. Välj kompatibilitetsetiketterna på rullgardinsmenyn **[!UICONTROL Select Custom Compliance]**. Det här alternativet markerar alla kurser som har de valda kompatibilitetsetiketterna.
+6. Välj de ytterligare kurser, utbildningsvägar eller certifieringar som du vill dela med administratörer.
 
-Click the link **[!UICONTROL Compliance Status Details]** on the bottom of the visualization. 
+   ![](assets/share-button.png)
+   _Dela efterlevnadstavla_
 
-You can see that, for a team, the number of learners in the team are violating or honoring the learning compliance.
+7. Välj de användare eller användargrupper som du vill dela kontrollpanelen med och välj **[!UICONTROL Share]**.
 
-![](assets/compliance-statusofateam.png)
-*Compliance status of a team*
+##### Visa efterlevnadstavlan - Anpassade administratörer och andra administratörer
 
-### Share training with managers
+Alla anpassade administratörer och andra administratörer från den valda användargruppen kan se efterlevnadstavlan i sitt program.
 
-Learning Manager offers compliance dashboard to all Administrators and Managers. Managers find it very useful to track compliance of their team members for a particular training. At the same time, Administrators would like all Managers to add compliance trainings to their dashboard and track it. 
+Följ de här stegen för att visa efterlevnadstavlan:
 
-In Learning Manager, the **[!UICONTROL Share with Managers]** workflow allows Administrators to share training with Managers, so that they can get added to a manager's Compliance Dashboard. Thus, Managers do not need to take any action and can start tracking compliance immediately. 
+1. Gå till **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**.
+2. Välj **[!UICONTROL Your View]** i avsnittet **[!UICONTROL Compliance Dashboard]**.
+3. Välj alternativet **[!UICONTROL Go to Compliance Dashboard]** så kan du se den nya efterlevnadstavlan som delas av administratören.
 
-An Administrator can share a set of training courses with managers individually or with a group. This sharing can help a manager easily track the compliance of his/her team for the specified training.
+   ![](assets/compliance-custom-view.png)
+   _Visa efterlevnadstavlan - anpassad administratör_
 
-The Administrator can "push" a default list of compliance training to be viewed in the manager's compliance dashboard.
+#### Dela med butikschefer
 
-### Share training
+Administratörer kan dela efterlevnadstavlan med butikschefer, vilket gör att de kan övervaka sina elevers efterlevnadsframsteg.
 
-1. In **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**, scroll down, and click the tab **[!UICONTROL Share with Managers]**. 
+Så här delar du instrumentpanelen med butikschefer:
 
-   ![](assets/share-with-managers.png)
-   *Share training with managers*
+1. Logga in som **[!UICONTROL Admin]**.
+2. Gå till **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**.
+3. Välj **[!UICONTROL Manager View]** i avsnittet **[!UICONTROL Compliance Dashboard]**.
+4. Välj knappen **[!UICONTROL Share Dashboard]**.
 
-1. To add training or multiple training, click **[!UICONTROL Share more]**.   
+   ![](assets/share-manager.png)
+   _Dela efterlevnadstavlan med chefer_
 
-1. In the **[!UICONTROL Share with Managers]** dialog, choose the training(s) and the manager(s).
+5. Välj kompatibilitetsetiketterna på rullgardinsmenyn **[!UICONTROL Select Custom Compliance]**.
+Det här alternativet markerar alla kurser som har de valda kompatibilitetsetiketterna.
+6. Välj de ytterligare kurser, utbildningsvägar eller certifieringar som du vill dela med administratörer.
+7. Välj de användare eller användargrupper som du vill dela kontrollpanelen med och välj **[!UICONTROL Share]**.
 
-   ![](assets/select-training.png)
-   *Select training to share with managers*
+##### Visa efterlevnadstavlan - chef
 
-1. Click **[!UICONTROL Share]**.
+Se den här artikeln [Visa efterlevnadstavlan](/help/migrated/managers/feature-summary/manager-dashboard.md#view-the-dashboard) för mer information.
 
-The training is now shared with the specified manager.
+#### Redigera kontrollpanelen
 
-### View training
+Följ de här stegen för att redigera efterlevnadstavlan:
 
-In the list of shared training, click **[!UICONTROL View]**. You can view the training that is assigned to a manager or some managers.
+1. Logga in som **[!UICONTROL Admin]**.
+2. Gå till **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**.
+3. Välj **[!UICONTROL Admin View]** eller **[!UICONTROL Manager View]** i avsnittet **[!UICONTROL Compliance Dashboard]**. Du kan se kontrollpanelerna för efterlevnad i det här avsnittet.
+4. Välj **[!UICONTROL Edit]** på efterlevnadstavlan som du vill redigera.
 
-### Withdraw training
+   ![](assets/edit.png)
+   _Redigera efterlevnadstavlan_
 
-1. To withdraw training from a manager, click **[!UICONTROL Withdraw]**.  
+5. Ändra de obligatoriska uppgifterna och välj **[!UICONTROL Share]**.
+6. Efterlevnadstavlan delas med de valda cheferna.
 
-1. Click **[!UICONTROL Proceed]**. This withdraws previously shared training from the Manager's compliance dashboard.-->
+#### Dra tillbaka kontrollpanelen - Admin
+
+Gör så här för att dra tillbaka efterlevnadstavlan:
+
+1. Logga in som **[!UICONTROL Admin]**.
+2. Gå till **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**.
+3. Välj **[!UICONTROL Admin View]** eller **[!UICONTROL Manager View]** i avsnittet **[!UICONTROL Compliance Dashboard]**. Du kan se kontrollpanelerna för efterlevnad i det här avsnittet.
+4. Välj **[!UICONTROL Withdraw]** på efterlevnadstavlan som du vill ta bort och välj **[!UICONTROL Proceed]**.
+5. Den här åtgärden tar bort den delade efterlevnadstavlan från chefens app.
+
+   ![](assets/manager-edit.png)
+   _Dra tillbaka efterlevnadstavlan_
+
+#### Ange standardwidget för efterlevnad för elever
+
+Följ de här stegen för att ställa in standardwidgeten för efterlevnad för elever:
+
+1. Logga in som **[!UICONTROL Admin]**.
+2. Gå till **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**.
+3. Välj **[!UICONTROL Learner View]** i avsnittet **[!UICONTROL Compliance Dashboard]**.
+4. Välj **[!UICONTROL Change]** i avsnittet **[!UICONTROL Learner View]**.
+
+   ![](assets/learner-widget.png)
+   _Ställ in standardwidgeten för efterlevnad för elever_
+5. Välj kompatibilitetsetiketterna i listrutan **[!UICONTROL Custom Compliance]**. Det här alternativet markerar alla kurser som har de valda kompatibilitetsetiketterna.
+6. Välj **[!UICONTROL Proceed]** för att ange standardwidgeten för efterlevnad.
+
+Elever kan se de valda kurserna eller utbildningsvägarna i efterlevnadswidgeten på sin startsida. Mer information finns i [widgeten Efterlevnadstavla](/help/migrated/learners/feature-summary/learner-home-page.md#compliance-dashboard-widget).
 
 ## Anpassade rapporter
 
@@ -846,6 +890,34 @@ Rapporten innehåller följande:
 * Påminnelse om utbildningselement
 * Omfång – katalog
 * Omfång – användargrupp
+
+### Granskningsspår för anpassade roller
+
+Administratörer kan hämta granskningsrapporten för den anpassade rollen för att spåra alla ändringar som görs i de anpassade rollerna, däribland att skapa, ändra och ta bort anpassade roller och deras tillhörande funktionsåtkomst.
+
+Hämta rapporten genom att följa dessa steg:
+
+1. Logga in som administratör.
+2. Välj Rapporter > Anpassade rapporter.
+3. Välj granskningsspår för anpassad roll och välj datumintervall
+4. Välj Generera för att hämta rapporten.
+
+Granskningsspår för den anpassade rollen innehåller följande fält:
+
+* Roll-ID
+* Rollnamn
+* Aktivitetstyp
+* Ändringstyp
+* Beskrivning
+* Refererad objekttyp
+* Refererat objekt-ID
+* Refererat objektnamn
+* Refererat objektmejl
+* Ändrat per användarnamn
+* Ändrad av användar-UUID
+* Ändrat per användares mejl
+* Ändringsdatum (tidszonen UTC)
+* Källa
 
 ## E-postprenumerationer {#emailsubscriptions}
 

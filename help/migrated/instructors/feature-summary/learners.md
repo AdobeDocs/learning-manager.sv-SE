@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Hantera elever för din session
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 0%
+source-wordcount: '1012'
+ht-degree: 2%
 
 ---
 
@@ -41,6 +41,32 @@ Instruktörer kan avregistrera elever från sessioner. Detta avregistrerar dem o
 
 ![](assets/unenroll-learners.png)
 *Avregistrera eleverna*
+
+### Väntelisterapport
+
+Adobe Learning Manager nya **[!UICONTROL Waitlist Report]** tillåter instruktörer att ladda ned elevlista på väntelistan för alla instanser av en kurs. Instruktörer kan komma åt den här rapporten från avsnittet **[!UICONTROL Waitlist]** på sidan **[!UICONTROL Session Overview]**.
+
+Följande kolumner är tillgängliga i väntelisterapporten:
+
+* Kursnamn
+* Instansnamn
+* Instans-ID:
+* Instansstatus
+* Användarnamn
+* E-post
+* Unikt användar-ID
+* Datum registrerad (tidszonen UTC)
+* Status
+* Väntelistenummer
+* Väntlistegräns
+* Platsbegränsning
+
+Så här hämtar du rapporten från instruktörsavsnittet:
+
+1. Logga in som **[!UICONTROL Instructor]**.
+2. Välj en session på startsidan.
+3. Välj alternativet **[!UICONTROL Waitlist]** på sidan **[!UICONTROL Session Overview]**.
+4. Välj **[!UICONTROL Actions]** > **[!UICONTROL Export Report]** för att hämta rapporten **[!UICONTROL Waitlist]**.
 
 ## Markera närvaro för sessionen {#markattendanceforyoursession}
 

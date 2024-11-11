@@ -4,9 +4,9 @@ title: Kataloger
 description: Kataloger är en samling utbildningar - kurser, utbildningsprogram och certifieringar. Använd kataloger för att ge elever tillgång till en anpassad uppsättning utbildningar. Du kan koppla inlärning till en katalog när du skapar en ny katalog.
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 01215811307ef3fa2a365020c6f42fe3ea5a0240
 workflow-type: tm+mt
-source-wordcount: '2439'
+source-wordcount: '2487'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,10 @@ Så här skapar du en katalog:
    Arbetsstödet som du har lagt till visas på fliken **[!UICONTROL Job Aids]**.
 
 Innehållet visas på var och en av dessa flikar om det redan finns på kontot. Annars måste du skapa innehållet först. Om du till exempel inte har lagt till någon av de kurser eller utbildningsprogram som redan finns i Learning Manager-programmet måste du börja skapa dem först.
+
+## Massborttagning av kurser, utbildningsvägar eller arbetsstöd
+
+Administratörer eller anpassade administratörer kan ta bort kurser, utbildningsvägar eller arbetsstöd i grupp. Gå till **[!UICONTROL Catalogs]** och välj en katalog. Välj **[!UICONTROL Edit Content]** på sidan **[!UICONTROL Content]**. Välj sedan alternativet **[!UICONTROL Remove]** bredvid kurser, utbildningsvägar eller arbetsstöd och välj **[!UICONTROL Save]**.
 
 ## djuplänk till katalog för elever {#deep-link}
 

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Versionsinformation om Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: aae70c4dc7c0e613794c294a39001071e9f131d4
+source-git-commit: a655c86ab14f23fc9954229244d94a79d3188642
 workflow-type: tm+mt
-source-wordcount: '26232'
+source-wordcount: '26218'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## Nyheter i den här versionen
 
-Mer information finns i [Nyheter i Adobe Learning Manager](/help/migrated/whats-new.md).
+Mer information finns i [Nyheter i Adobe Learning Manager](/help/migrated/whats-new-july-2024.md).
 +++
 
 +++Uppdatering 96: Mars 2024-versionen av Adobe Learning Manager
@@ -47,7 +47,7 @@ Mer information finns i [Nyheter i Adobe Learning Manager](/help/migrated/whats-
 
 ## Nyheter i den här versionen
 
-Mer information finns i [Nyheter i Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/whats-new-november-2023).
+Mer information finns i [Nyheter i Adobe Learning Manager](/help/migrated/whats-new-november-2023.md).
 +++
 
 +++Uppdatering 94
@@ -395,8 +395,6 @@ November 2022-versionen av Adobe Learning Manager består av följande:
 * Förbättringar av sidan Utbildningsöversikt
 * Anpassning av spelare
 * Personifiering av elev och chef
-
-Mer information finns i [Nyheter i Adobe Learning Manager i november 2022-versionen](/help/migrated/whats-new-2022-november.md).
 
 **Obs!** I november 2022-versionen av Adobe Learning Manager kommer Zoom att ta bort [JWT-autentisering senast juni 2023](https://marketplace.zoom.us/docs/guides/auth/jwt/). Zoomanslutningen med JWT fortsätter därför att fungera till det angivna datumet, men vi rekommenderar att användarna skapar OAuth-appen Server-till-Server för att ersätta funktionaliteten i sina konton. Alla nya anslutningar har Zoom OAuth-autentisering som standard.
 
@@ -3037,7 +3035,7 @@ Vid administratörsinloggning fungerade inte sidnumreringen på sidan Meddelande
 
 **Skapa kompetenser**
 
-I inloggningen för elever visade verktygstipset för färdighetsnamn i **Kompetenskartan **var** **det fullständiga namnet visas****inte. Problemet har åtgärdats.
+I inloggningen för elever visade verktygstipset för färdighetsnamn i **Kompetenskarta **0}inte det fullständiga namnet ****.**** Problemet har åtgärdats.
 
 **Lägg till externa partner**
 

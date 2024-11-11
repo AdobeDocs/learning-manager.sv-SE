@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Meddelanden
 description: Ett meddelande är ett multimediemeddelande (text, bild eller video) som en administratör skickar till en viss grupp användare.
 exl-id: 313ac2c6-05c0-4941-8d71-9c664099bb5c
-source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '1033'
 ht-degree: 1%
 
 ---
@@ -59,26 +59,32 @@ Om den bifogade filen är stor kan det ta en stund att överföra den. När du h
 
 När du väljer detta alternativ kommer de mediefiler du väljer att visas på elevens startsida. Masthead fungerar som en uppmaning till handling för de elever den är avsedd för.
 
-![](assets/masthead-announcement.png)
+Administratörer kan lägga till alt-text för alla mastheads för att förbättra tillgängligheten för elever. Det gör att elever med särskilda behov kan använda skärmläsare för att läsa alt-texten och förstå bilden. Du kan välja flera språk och ange alt-text för varje språk. Se till att du lägger till alt-texten på respektive språk.
 
-*Anpassa maskhuvudet*
+Gör så här för att lägga till maskhuvudet:
 
-1. Bläddra och välj en bild som ska representera maskhuvudet. Den rekommenderade storleken är 1 280 × 360 px.
-1. Välj den språkinställning som du vill lägga till en masthead till. Du måste välja en resurs i form av ett masthead för varje språk.
-1. Lägg till en URL i fältet **[!UICONTROL Action Button]** så att eleverna omdirigeras till URL:en när de klickar på knappen på masthead. Det här är ett valfritt fält.
-1. Välj målanvändargrupperna eller målobjekten för utbildningen. Du kan bara välja en av dem för ett meddelande.
+1. Logga in som **[!UICONTROL Admin]**.
+2. Välj **[!UICONTROL Announcements]** > **[!UICONTROL Add]**.
+3. Välj **[!UICONTROL As Masthead]** i listrutan Typ.
 
-   Börja skriva användargruppens namn i textrutan och välj ett i listrutan. På samma sätt väljer du utbildningen genom att skriva objektnamnet i textrutan.
+   ![](assets/announcement.png)
+   _Skapa ett meddelande_
 
-1. I avsnittet **[!UICONTROL Advanced Settings]** finns följande alternativ:
+4. Välj språk och överför bilden.
 
-   * Klicka på **[!UICONTROL Immediately]** om du vill att meddelandet ska publiceras just då.
-   * Klicka på **[!UICONTROL Never]** om du inte vill att meddelandet ska upphöra.
+   >[!NOTE]
+   >
+   >Du kan välja flera språk och ange alt-text för varje språk. Se till att du lägger till alt-texten på respektive språk.
+
+5. Ange lämplig text i fältet **[!UICONTROL Alt Text]**.
+6. Lägg till en URL-adress för att omdirigera elever när de klickar på knappen på masthead i fältet **[!UICONTROL Action Button]**.
+7. Välj målanvändargrupperna eller målobjekten för utbildningen. Du kan bara välja en av dem för ett meddelande.
+8. I avsnittet **[!UICONTROL Advanced Settings]** finns följande alternativ:
+
+   * Välj **[!UICONTROL Immediately]** om du vill att meddelandet ska publiceras just då.
+   * Välj **[!UICONTROL Never]** om du inte vill att ditt meddelande ska upphöra.
    * Välj datumen **[!UICONTROL Start]** och **[!UICONTROL End]** för meddelandet.
-
-   ![](assets/advanced-settings.png)
-
-   *Ställ in tiden för att visa en masthead*
+9. Välj Spara och publicera meddelandet.
 
 **Finns det någon gräns för antalet aktiva Masthead-meddelanden?**
 
