@@ -2,9 +2,9 @@
 description: Läs om de nya funktionerna och förbättringarna i november 2024-versionen av Adobe Learning Manager
 jcr-language: en_us
 title: Sammanfattning av nya funktioner
-source-git-commit: 943fd98f8ac31c968c7e7f12d4da867c767b9b91
+source-git-commit: bfe77d838340f94e072f9d7346576e3034a66a66
 workflow-type: tm+mt
-source-wordcount: '2979'
+source-wordcount: '3052'
 ht-degree: 1%
 
 ---
@@ -494,17 +494,19 @@ Administratörer hittar dessa rapporteringsändringar i avsnittet **Admin** > **
 
 Rapporten **[!UICONTROL Learning Transcripts]** kommer att innehålla två nya kolumner:
 
-* Modul-ID
-* Kursinstans-ID
+* **[!UICONTROL Module ID]**: Visar den unika identifieraren för varje modul. Den nya kolumnen har lagts till efter den befintliga **[!UICONTROL Module]**-kolumnen.
+* **[!UICONTROL Course Instance ID]**: Visar den unika identifieraren för varje kursinstans. Den nya kolumnen har lagts till efter den befintliga **[!UICONTROL Instance]**-kolumnen.
+* **[!UICONTROL Completion Comment]**: Den här kolumnen innehåller de kommentarer som administratören har angett när slutförandet av användaren markeras. Den nya kolumnen har lagts till i slutet av rapporten.
+
 
 ### Sammanfattningsrapport för session
 
 Rapporten **[!UICONTROL Session Summary]** kommer att innehålla tre nya kolumner:
 
-* Modul-ID
-* Sessions-ID
-* Kursinstans-ID
-* Antal slutföranden
+* Kolumnen **[!UICONTROL Module ID]** har lagts till före kolumnen **[!UICONTROL Session Name]**.
+* Kolumnen **[!UICONTROL Session ID]** har lagts till före kolumnen **[!UICONTROL Session Name]**.
+* Kolumnen **[!UICONTROL Course Instance ID]** har lagts till efter kolumnen **[!UICONTROL Instance Name]**.
+* Kolumnen **[!UICONTROL Completion Count]** har lagts till efter kolumnen **[!UICONTROL Enrollment Count]**.
 
 ## Fel som är åtgärdade i den här uppdateringen
 
