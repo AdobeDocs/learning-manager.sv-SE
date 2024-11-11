@@ -2,7 +2,7 @@
 description: Läs om de nya funktionerna och förbättringarna i november 2024-versionen av Adobe Learning Manager
 jcr-language: en_us
 title: Sammanfattning av nya funktioner
-source-git-commit: b965b67bf7c730b3d9667cb6bbc9e8aeff664972
+source-git-commit: 943fd98f8ac31c968c7e7f12d4da867c767b9b91
 workflow-type: tm+mt
 source-wordcount: '2979'
 ht-degree: 1%
@@ -223,7 +223,7 @@ Följande villkor gäller för de nya kolumnerna:
 3. `quizData`:
 
    * Datatypen ska vara ett strängvärde och de värden som stöds är `QUIZ_ATTEMPTED`, `QUIZ_PASSED` och `QUIZPASSED_OR_LIMITREACHED`.
-   * När `completionCriteria` är inställt på `QUIZ` anger du rätt frågeformulärsvärde i den här kolumnen eller lämnar det tomt.
+   * När `completionCriteria` är inställt på `QUIZ` anger du rätt frågeformulärsvärde i kolumnen `quizData`.
 
 Mer information finns i filen [module_version_csv spec](assets/4-module_version.xlsx).
 
@@ -239,7 +239,7 @@ Följande villkor gäller för kolumnen `completionCriteria`:
 * Om du ställer in `completionCriteria` på `SELECTEDMODULES` måste du markera de obligatoriska modulerna i filen [course_module.csv](assets/course_module.csv).
 * Ange `TRUE` eller `FALSE` i kolumnen `optionalCriteria`. Om du anger värdet `TRUE` blir modulen obligatorisk.
 
-Mer information finns i [CSV-kursens specifikation](assets/3-course.xlsx).
+Mer information finns i [CSV-specifikation för kurs](assets/3-course.xlsx) och filen [CSV-specifikation för kurs_modul](assets/6-course_module.xlsx).
 
 ## API-ändringar
 
