@@ -3,14 +3,14 @@ description: Läs om de nya funktionerna och förbättringarna i juli 2024-versi
 jcr-language: en_us
 title: Sammanfattning av nya funktioner
 exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: 685220000be6be524c0829fe400abec911cf067e
 workflow-type: tm+mt
-source-wordcount: '2303'
+source-wordcount: '2305'
 ht-degree: 1%
 
 ---
 
-# Sammanfattning av nya funktioner {#new-features-summary}
+# Sammanfattning av nya funktioner juli 2024 {#new-features-summary-july-2024}
 
 Läs om de nya funktionerna och förbättringarna i juli 2024-versionen av Adobe Learning Manager.
 
