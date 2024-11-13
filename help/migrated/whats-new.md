@@ -2,9 +2,10 @@
 description: Läs om de nya funktionerna och förbättringarna i november 2024-versionen av Adobe Learning Manager
 jcr-language: en_us
 title: Sammanfattning av nya funktioner
-source-git-commit: bfe77d838340f94e072f9d7346576e3034a66a66
+exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
+source-git-commit: dcfcb8d9c161eda83db966b93fad45f1430c47af
 workflow-type: tm+mt
-source-wordcount: '3052'
+source-wordcount: '3053'
 ht-degree: 1%
 
 ---
@@ -22,7 +23,7 @@ Läs om de nya funktionerna och förbättringarna i november 2024-versionen av A
 * **Anpassade roller**: Förbättrad kontroll över användarroller och behörigheter.
 * **Slutförandekommentarer**: Lägg till kommentarer när du markerar elever som slutförda.
 * **Användargruppsrapport**: Hantera användargrupper med detaljerade rapporter.
-* **Väntelisterapport**: Hämta väntelistan med elever på väntelistan för kursinstanser.
+* **Väntelisterapport**: Ladda ned väntelistan med elever för kursinstanser.
 * **Tillgänglighetsförbättringar**: Stöd för alt-text på maskhuvuden och företagslogotyper.
 * **Stöd för hindi**: Stöd för gränssnittsspråk för hindi.
 * **Svordomskontroll**: Blockera sociala inlägg som innehåller förbjudna ord.
