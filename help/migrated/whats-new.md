@@ -3,7 +3,7 @@ description: Läs om de nya funktionerna och förbättringarna i november 2024-v
 jcr-language: en_us
 title: Sammanfattning av nya funktioner
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: 370cffa791fed463420658ef1f2079a0608e964b
+source-git-commit: a19e538ed152b3435adf2f3405bff1ae75576978
 workflow-type: tm+mt
 source-wordcount: '3053'
 ht-degree: 1%
@@ -544,4 +544,3 @@ Visa [Systemkrav för Adobe Learning Manager](/help/migrated/system-requirements
 
 * [Juli 2024-utgåvan](/help/migrated/whats-new-july-2024.md)
 * [Marsversionen 2024](/help/migrated/whats-new-march-2024.md)
-
