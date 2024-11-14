@@ -2,9 +2,10 @@
 jcr-language: en_us
 title: Utbildningsverktyg och interoperabilitet (LTI)
 description: Läs mer om LTI-integrering ALM
-source-git-commit: 8deeb3680cd638a33768f048755ee77862c8ef1f
+exl-id: 760c00fc-9f6e-450b-aad0-56f103424043
+source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
 workflow-type: tm+mt
-source-wordcount: '1782'
+source-wordcount: '1851'
 ht-degree: 1%
 
 ---
@@ -235,6 +236,16 @@ Följande är LTI-begränsningar för både LTI-konsument och LTI-leverantör:
 * LTI-fältet är ett enkelvärde och stöder inte flera värden.
 * Felorsaker är inte tillgängliga när en export misslyckas under migreringen av kurser utan kärninnehåll.
 * Externa LTI-kursklasser visas inte i elevens betygsutdrag och poängen visas inte på L2-quizsidan, vilket påverkar elevernas prestationsspårning.
+
+## Felfall vid start av LTI
+
+Här är de kurser som den externa LTI-spelaren inte kan starta på grund av de senaste ändringarna i ALM efter att lanseringslänkarna skapades:
+
+* Kurser där instansen har fasats ut.
+* Kurser som är pensionerade och inte har någon registrering i ALM.
+* Kurser som har registrerats i ALM men är utfasade.
+* Kurser som har raderats i ALM.
+* Kurser där maxgränsen för registrering har uppnåtts.
 
 ## Bästa praxis
 

@@ -3,9 +3,9 @@ description: Läs om de nya funktionerna och förbättringarna i november 2024-v
 jcr-language: en_us
 title: Sammanfattning av nya funktioner
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: a19e538ed152b3435adf2f3405bff1ae75576978
+source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
 workflow-type: tm+mt
-source-wordcount: '3053'
+source-wordcount: '3068'
 ht-degree: 1%
 
 ---
@@ -139,7 +139,7 @@ Följande kolumner är tillgängliga i väntelisterapporten:
 * Väntlistegräns
 * Platsbegränsning
 
-Se de här artiklarna [Väntelisterapport](/help/migrated/administrators/feature-summary/courses.md#waitlist-report) och [Väntelisterapport](/help/migrated/instructors/feature-summary/learners.md#waitlist-report) för att hämta rapporten från avsnittet Administratör och instruktör.
+Se de här artiklarna [Väntelisterapport (administratör)](/help/migrated/administrators/feature-summary/courses.md#waitlist-report) och [Väntelisterapport (instruktörer)](/help/migrated/instructors/feature-summary/learners.md#waitlist-report) för att hämta rapporten från avsnittet Administratör och instruktör.
 
 ## Tillgänglighet på elevens startsida
 
@@ -149,6 +149,10 @@ Läs den här artikeln [Tillkännagivande](/help/migrated/administrators/feature
 ## Stöd för hindi
 
 Adobe Learning Manager introducerar nu hindi som ett av plattformens gränssnittsspråk och stöder plattformens tillväxt i Indien. Stöd för infödda hindi-talare säkerställer att alla funktioner, rapporter och den övergripande användarupplevelsen är fullt tillgängliga för användarna.
+
+>[!NOTE]
+>
+>Certifikat med utmärkelsetecken som genereras av systemet i PDF-format stöder inte hindi.
 
 Gör så här för att ändra gränssnittsspråk:
 
