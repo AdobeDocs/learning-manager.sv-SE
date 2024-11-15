@@ -3,7 +3,7 @@ jcr-language: en_us
 title: AI-baserad sökning i Adobe Learning Manager
 description: Läs mer om den AI-drivna sökningen i Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: ee78b7e0b81faa7003438a8a3dc9e46af3e10c17
+source-git-commit: 84d0fc0c8e77999a12b69b949272bdb2d38eab96
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 0%
@@ -25,7 +25,8 @@ Sökfunktionen är viktig av flera skäl:
 * **Tillgänglighet**: Effektiva sökfunktioner gör information mer tillgänglig och gör att användarna kan interagera med innehåll som är relevant för deras behov.
 * **Anpassning**: Avancerade söksystem kan skräddarsy resultat baserat på användarinställningar och på så sätt förbättra den presenterade informationens relevans.
 
-Nya sökfunktioner på webben
+## Nya sökfunktioner på webben
+
 När människor söker på nätet förändras söksättet, och sökmotorerna anpassar sig för att hänga med. Detta är några av de viktigaste sätten som människor söker efter information på nuförtiden:
 
 * **Avsiktsdriven**: I stället för att skriva exakta nyckelord uttrycker användarna nu sina behov med fraser som jag vill eller måste. Moderna sökmotorer förstår syftet bakom dessa fraser och ger mer relevanta resultat.
