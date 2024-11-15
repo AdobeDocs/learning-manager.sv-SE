@@ -3,9 +3,10 @@ jcr-language: en_us
 title: Användarhandbok för webhookar
 description: Läs mer om användning av webhookar, bästa praxis och begränsningar
 contentowner: chandrum
-source-git-commit: d7f7652c38c3eb623be083fd2fdde36eec25c1e4
+exl-id: e6a63ffb-7fdd-46e4-b5e6-20ce36861cef
+source-git-commit: fe83420c8e6904e075e7a65622aaab964549c1d5
 workflow-type: tm+mt
-source-wordcount: '3371'
+source-wordcount: '3304'
 ht-degree: 1%
 
 ---
@@ -250,12 +251,6 @@ När en prenumerant inte svarar på webhook-händelser gör ALM-systemet ett nyt
 ### Duplicera händelser
 
 Om det tar mer än fem sekunder för en prenumerant att svara efter att en händelse har bearbetats, kan systemet försöka behandla samma händelse igen. Vi rekommenderar att du använder händelse-ID:n för att hålla reda på vilka händelser som redan har bearbetats. Och om en webhook kraschar efter att händelsen har skickats men innan du sparar att den har bearbetats, kan samma händelsegrupp försöka igen. Vi rekommenderar att du använder batch-ID:n eller enskilda händelse-ID:n för att känna igen och ignorera eventuella dubbletter.
-
-### Oordnade händelser
-
-ALM försöker hålla händelserna i rätt ordning, men ibland kan händelserna levereras i fel ordning, särskilt mellan realtidshändelser och händelser utanför realtid.
-
-Om en administratör registrerar flera elever i en kurs samtidigt markeras registreringshändelserna som icke-realtid. Men om en elev slutför kursen snabbt markeras slutförandehändelsen som realtid och kan levereras före registreringshändelserna.
 
 ### Rekommendation för feltolerans
 
