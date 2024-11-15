@@ -4,9 +4,9 @@ title: Användarhandbok för webhookar
 description: Läs mer om användning av webhookar, bästa praxis och begränsningar
 contentowner: chandrum
 exl-id: e6a63ffb-7fdd-46e4-b5e6-20ce36861cef
-source-git-commit: fe83420c8e6904e075e7a65622aaab964549c1d5
+source-git-commit: 4b26eddf1285651a13ee9c71fdf677e8b92e6dc3
 workflow-type: tm+mt
-source-wordcount: '3304'
+source-wordcount: '3360'
 ht-degree: 1%
 
 ---
@@ -291,6 +291,8 @@ För att förhindra dessa fel bör prenumeranter aktivt övervaka webhook-hände
 * Sessionsändringar samlades då in som en del av instansens uppdateringshändelse. Detta gäller endast kurser. Det kommer inte att ske någon ökning från enheter på lägre nivå för instanser av utbildningsvägar eller certifieringsinstanser.
 * Om en utbildningsväg innehåller en kurs och en elev slutför kursen via utbildningsvägen kommer två **elevframsteg** händelser att genereras - en för kursen och en för utbildningsvägen.
 * Vissa arbetsflöden beräknar attribut för utbildningsobjekt, t.ex. varaktighet och leveranstyp, asynkront. Därför genereras händelser för dessa utbildningsobjekt när cron-jobbet har bearbetats klart.
+* Om en kurs registreras via ett överordnat utbildningsprogram eller en certifiering, kommer händelserna för registrering, avregistrering och slutförande endast att utlösas för det överordnade utbildningsprogrammet eller certifieringen. Dessa händelser utlöses inte för den underordnade kursen eftersom registreringen skedde indirekt.
+* Webhooks stöds endast för konton med statusen **[!UICONTROL ACTIVE]**. De är inte tillgängliga för **[!UICONTROL TRIAL]**- eller **[!UICONTROL INACTIVE]**-konton.
 
 ## Exempel på nyttolaster för händelserna
 
