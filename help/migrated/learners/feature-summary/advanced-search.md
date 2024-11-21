@@ -3,9 +3,9 @@ jcr-language: en_us
 title: AI-baserad sökning i Adobe Learning Manager
 description: Läs mer om den AI-drivna sökningen i Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
+source-git-commit: d8fd49937f7bc4c3bd6cc4df9da31208c25cd307
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1146'
 ht-degree: 0%
 
 ---
@@ -101,3 +101,4 @@ Generellt sett är ALM:s AI-drivna sökning utformad för att vara grundlig, kor
 >
 >1. Kunder som använder en fjärradministrerad implementering måste följa API-dokumentationen för att aktivera avancerad sökning
 >2. Avancerad sökning är för närvarande inte tillgängligt för Salesforce-programmet.
+>3. Kunddata, inklusive innehåll och transkriptioner, delas inte med någon extern tjänst för AI-driven sökning. Allt innehåll lagras säkert i det befintliga lagringssystemet.
