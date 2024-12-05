@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Installera Microsoft Teams-anslutning i Adobe Learning Manager
 contentowner: saghosh
 exl-id: 68092187-ac69-4727-a3dc-f3047a1e164d
-source-git-commit: 139e9224f94e6a39f497b45f5bdc600121a77bc8
+source-git-commit: 6192559436074c3270644850b202589961e7b81b
 workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 0%
@@ -130,7 +130,7 @@ Detta gör det möjligt för kontakten att få tillgång till Microsoft Teams on
 
 ## Konfigurera Microsoft Teams-anslutning i Learning Manager
 
-1. Logga in i Learning Manager som integrationsadministratör.
+1. Logga in i Learning Manager som **integrationsadministratör**.
 
 1. På sidan Anslutningar väljer du Microsoft Teams-anslutning och klickar på **[!UICONTROL Connect]**.
 
