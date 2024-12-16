@@ -4,9 +4,9 @@ title: Anpassade roller
 description: Med funktionen Utbildningsvägar kan du definiera anpassade roller och tilldela specifika ansvarsområden till en uppsättning användare. Med den här funktionen kan du tilldela ansvar utanför personens befintliga roll.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: f8151cb47645a07bcea306dcaf3f8ac032d4044e
 workflow-type: tm+mt
-source-wordcount: '2412'
+source-wordcount: '2589'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,37 @@ ht-degree: 1%
 Med den här funktionen kan du definiera anpassade roller och tilldela specifika ansvarsområden till en uppsättning användare. Med den här funktionen kan du tilldela ansvar utanför personens befintliga roll.
 
 Du kan skapa en anpassad roll för att tillhandahålla redigeringsfunktioner som är begränsade till en viss katalog. Du kan också skapa en roll som är dedikerad till att hantera rapportering. Sådana roller kan sedan tilldelas enskilda personer som förväntas ta på sig dessa specifika ansvarsområden.
+
+Administratörer har möjlighet att skapa anpassade administratörsroller och anpassade författarroller med anpassade behörigheter för varje roll. Nedan visas en översikt över de behörigheter som är kopplade till varje roll:
+
+**Anpassade författarrollsbehörigheter**
+
+Anpassade författare kan utföra följande åtgärder:
+
+* Öppna innehållsbiblioteket för att lägga till, redigera eller ta bort kärninnehåll.
+* Skapa, redigera och ta bort:
+   * Kurser
+   * Arbetsstöd
+   * Certifieringar
+   * Utbildningsvägar
+   * Utbildningsplaner
+
+Administratörer och författare, inklusive anpassade administratörer och författare, kan dela utbildningsobjekt (LO) till externt delade kataloger. Administratörer och författare bör kunna söka efter externt delade kataloger när de skapar utbildningsobjekt (LO).
+
+**Behörigheter för anpassad administratörsroll**
+
+Den anpassade administratörsrollen replikerar en uppsättning administratörsbehörigheter, inklusive åtkomst till behörigheter på kontonivå. Anpassade administratörer får behörigheter att hantera viktiga funktioner som rör utbildningsaktiviteter, till exempel:
+
+* Utbildningsplaner
+* Kataloger
+* Rapporter
+* Taggar
+
+Dessutom kan anpassade administratörer:
+
+* Hantera kurser och arbetsstöd, inklusive registrering och borttagning av användare.
+* Skapa, redigera och radera certifieringar, utbildningsvägar och utbildningsplaner.
+* Få tillgång till rapporterings- och registreringsfunktioner för alla utbildningsobjekt (LO).
 
 Administratörer kan nu visa CSV-skapade behörigheter i Adobe Learning Manager. Alternativet Filtrera efter filtrerar anpassade roller efter administratör som har skapats och de som importeras via en CSV-fil. När du har valt en anpassad roll kan du se dess behörigheter.
 
@@ -32,7 +63,9 @@ _Filtrera anpassade roller_
    *Skapa en anpassad roll*
 
 3. Ange namnet i fältet **[!UICONTROL Name of the Role]**.
-4. **[!UICONTROL Account privileges]**: De här behörigheterna ger rollägarna tillgång till specifika systemkonfigurationsaspekter och som påverkar hela kontot. Välj åtkomstbehörigheter. Användaren får full kontroll över tilldelade behörigheter. Administratörer kan bevilja detaljerade behörigheter för avsnittet Användare, som har interna/externa användare, användargrupper och avancerade användare.
+4. **[!UICONTROL Account privileges]**: De här behörigheterna ger rollägarna tillgång till specifika systemkonfigurationsaspekter och som påverkar hela kontot. Välj åtkomstbehörigheter. Användaren får full kontroll över tilldelade behörigheter.
+
+   Administratörer kan bevilja detaljerade behörigheter för avsnittet Användare, som har interna/externa användare, användargrupper och avancerade användare.
 
    >[!NOTE]
    >
@@ -43,7 +76,9 @@ _Filtrera anpassade roller_
 
    *Ange omfattningen*
 
-5. **Funktionsprivilegier - Kärnfunktioner**: Används för att ge åtkomst till specifika funktioner för hantering av utbildningsaktiviteter. Behörigheter till följande funktioner kan ges med detta alternativ. Administratörer kan ge detaljerade behörigheter som skrivskyddade, skapa, redigera och ta bort behörigheter för katalogerna.
+5. **Funktionsprivilegier - Kärnfunktioner**: Används för att ge åtkomst till specifika funktioner för hantering av utbildningsaktiviteter. Behörigheter till följande funktioner kan ges med detta alternativ.
+
+   Administratörer kan ge detaljerade behörigheter som skrivskyddade, skapa, redigera och ta bort behörigheter för katalogerna.
 
    * Kataloger
    * Rapporter
@@ -60,7 +95,7 @@ _Filtrera anpassade roller_
    * Arbetsstöd
    * Utbildningsprogram
 
-   Du kan också bevilja specifik åtgärdskontroll för LO:er. Behörigheten kan vara något av följande:
+   Du kan även bevilja specifik åtgärdskontroll för utbildningsobjekten. Behörigheten kan vara något av följande:
 
    * Skrivskyddat
    * Skapa

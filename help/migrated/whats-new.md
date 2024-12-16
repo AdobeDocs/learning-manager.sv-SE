@@ -3,9 +3,9 @@ description: Läs om de nya funktionerna och förbättringarna i november 2024-v
 jcr-language: en_us
 title: Sammanfattning av nya funktioner
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
+source-git-commit: f8151cb47645a07bcea306dcaf3f8ac032d4044e
 workflow-type: tm+mt
-source-wordcount: '3077'
+source-wordcount: '3092'
 ht-degree: 1%
 
 ---
@@ -30,6 +30,10 @@ Läs om de nya funktionerna och förbättringarna i november 2024-versionen av A
 * **Optimering av e-postmallar**: Kombinerade och optimerade e-postmallar för instruktörstilldelningar och sessionsavbrott.
 * **Kriterier för slutförande av MS Teams**: Ange lägsta närvarotid för VILT-sessioner.
 * **Nya migreringsarbetsflöden**: Migreringsändringar omfattar kriterier för slutförande av kurser och moduler och migrering av moduler till mappar.
+
+>[!NOTE]
+>
+>Titta på det här [webbseminariet](https://cdn.content.adobelearningmanageracademy.com/public/newlearner/newlearner_0dc0f1e8.html#/overviewPage?instanceId=11932477&amp;loId=11231360&amp;loType=course) om du vill veta mer om de nya funktionerna i den här versionen.
 
 ## AI-baserad sökning i Adobe Learning Manager
 
