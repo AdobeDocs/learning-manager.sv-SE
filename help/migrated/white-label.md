@@ -4,9 +4,9 @@ title: Vit märkning i mobilappen Adobe Learning Manager
 description: Vit märkning är en metod att byta namn på en app eller tjänst med ditt eget varumärke och anpassa den som om du vore den ursprungliga skaparen. I Adobe Learning Manager kan du använda vit etikettering i mobilappen så att du kan byta varumärke på appen och göra den tillgänglig för användarna under ditt eget varumärke.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: c9f2b9f817d4baa04399d58bbc4008d7891e0252
+source-git-commit: eb93f8c5fd3d64366756840789b984ca986dbf0b
 workflow-type: tm+mt
-source-wordcount: '1866'
+source-wordcount: '1886'
 ht-degree: 0%
 
 ---
@@ -413,8 +413,17 @@ Om enheten ingår i etableringsprofilen ska installationen fortsätta på enhete
 
 **För apk-filen**
 
+>[!IMPORTANT]
+>
+>Innan du kör kommandot `apksigner` kör du följande kommandon för att exportera ditt Keystore-lösenord och nyckelaliaslösenord som miljövariabler:
+>
+>```
+>export KS_PASS=your_keystore_password
+>export KEY_PASS=your_key_password
+>```
+
 ```
-sh""" <path>/apksigner sign --ks $storeFile --ks-pass env:KS_PASS --ks-key-alias $key_alias --key-pass env:KEY_PASS --out app-release-signed.apk -v app-release.apk """
+sh""" <path>/apksigner sign --ks $storeFile. --ks-pass env:KS_PASS --ks-key-alias $key_alias --key-pass env:KEY_PASS --out app-release-signed.apk -v app-release.apk """
 ```
 
 >[!NOTE]
