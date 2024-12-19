@@ -4,9 +4,9 @@ title: Vit märkning i mobilappen Adobe Learning Manager
 description: Vit märkning är en metod att byta namn på en app eller tjänst med ditt eget varumärke och anpassa den som om du vore den ursprungliga skaparen. I Adobe Learning Manager kan du använda vit etikettering i mobilappen så att du kan byta varumärke på appen och göra den tillgänglig för användarna under ditt eget varumärke.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: b9809314014fcd8c80f337983c0b0367c060e348
+source-git-commit: c9f2b9f817d4baa04399d58bbc4008d7891e0252
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1866'
 ht-degree: 0%
 
 ---
@@ -378,23 +378,29 @@ Mappen `<root>` innehåller filen **Runner.xcarchive.zip**. Kör kommandona neda
    cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
    ```
 
-4. Gå tillbaka till mappen `<root>` (där Runner.xcarchive.zip finns):
+4. Kör följande kommando för att uppdatera din signeringsinformation till ramverksbiblioteket:
+
+   ```
+   codesign -f -s "Distribution Certificate Name" Frameworks/*
+   ```
+
+5. Gå tillbaka till mappen `<root>` (där Runner.xcarchive.zip finns):
 
    ```
    cd <root>
    ```
 
-5. Exportera arkivet med xcodebuild:
+6. Exportera arkivet med xcodebuild:
 
    ```
    xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath ipa_path/ -exportOptionsPlist <path>/<ExportOptions-file>.plist
    ```
 
-6. Leta reda på .ipa-filen i mappen ipa_path.
-7. Överför .ipa-filen till webbplatsen `Diawi`.
-8. När det är helt uppladdat väljer du knappen **[!UICONTROL Send]**.
-9. När det är klart får du en QR-kod och en länk.
-10. Öppna QR-koden eller länken direkt i Safari.
+7. Leta reda på .ipa-filen i mappen ipa_path.
+8. Överför .ipa-filen till webbplatsen `Diawi`.
+9. När det är helt uppladdat väljer du knappen **[!UICONTROL Send]**.
+10. När det är klart får du en QR-kod och en länk.
+11. Öppna QR-koden eller länken direkt i Safari.
 
 Om enheten ingår i etableringsprofilen ska installationen fortsätta på enheten.
 
@@ -408,8 +414,12 @@ Om enheten ingår i etableringsprofilen ska installationen fortsätta på enhete
 **För apk-filen**
 
 ```
-sh""" <path>/apksigner sign --ks $storeFile --ks-pass "pass:$store_password" --ks-key-alias $key_alias --key-pass "pass:$key_password" --out app-release-signed.apk -v app-release.apk """
+sh""" <path>/apksigner sign --ks $storeFile --ks-pass env:KS_PASS --ks-key-alias $key_alias --key-pass env:KEY_PASS --out app-release-signed.apk -v app-release.apk """
 ```
+
+>[!NOTE]
+>
+>Sökvägen till verktyget `apksigner` ser vanligtvis ut så här: ~/Library/Android/sdk/build-tools/30.0.3/apksigner.
 
 **För aab-filen**
 
@@ -464,6 +474,36 @@ Du hämtar apk-filen från mappen **[!UICONTROL output_dir]**.
 **Nästa steg**
 
 När du har genererat binärfilerna överför du dem till Play Store eller App Store.
+
+### Skicka apparna till butiken för granskning
+
+När du har skaffat de sista binärfilerna kan du ladda upp dem till respektive appbutiker (iOS eller Android) för granskning. Följ de här stegen för att överföra binärfilerna till appbutikerna.
+
+**iOS**
+
+1. Logga in på Transporter-appen med dina App Store-inloggningsuppgifter.
+2. Välj knappen **+** längst upp till vänster och överför produktionscertifikatet (.ipa-filen).
+3. Om .ipa-filen är rätt uppmanas du att överföra appen till App Store.
+4. Logga in på App Store när programmet har levererats. Inom några timmar kommer den binära filen att visas i avsnittet TestFlight. Du kan aktivera det för testning av det slutliga hälsotillståndet i TestFlight före appgranskningen och använda detta IPA som det binära när du skickar in appen för en ny version.
+
+**Android**
+
+1. Öppna Google Play Store Console.
+2. Gå till **[!UICONTROL Dashboard]** > **[!UICONTROL View App Releases]** > **[!UICONTROL Release Dashboard]** och välj sedan **[!UICONTROL Create New Release]**.
+3. Överför den genererade .aab-filen som programpaket och ange versionsinformation, som versionsnummer och nyheter.
+4. Spara ändringarna och skicka programmet för granskning.
+5. Se till att programdistributionen är 100 % (Google ställer in den på 20 % som standard).
+
+#### Användbara länkar för apppublicering
+
+**Android**
+
+[Skapa och konfigurera appen](https://support.google.com/googleplay/android-developer/answer/9859152?hl=en)
+[Förbered programmet för granskning](https://support.google.com/googleplay/android-developer/answer/9859455?sjid=2454409340679630327-AP)
+
+**iOS**
+
+[Skicka för granskning](https://developer.apple.com/help/app-store-connect/manage-submissions-to-app-review/submit-for-review)
 
 ## Hur tillämpar jag ändringarna?
 
