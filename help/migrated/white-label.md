@@ -4,7 +4,7 @@ title: Vit märkning i mobilappen Adobe Learning Manager
 description: Vit märkning är en metod att byta namn på en app eller tjänst med ditt eget varumärke och anpassa den som om du vore den ursprungliga skaparen. I Adobe Learning Manager kan du använda vit etikettering i mobilappen så att du kan byta varumärke på appen och göra den tillgänglig för användarna under ditt eget varumärke.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: b7050db4b7129028ada51b15e2d76fce2bb62f64
+source-git-commit: 25c4873f6d01c5832c213b6f225172f3dbcba1ee
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 0%
@@ -17,9 +17,9 @@ Adobe Learning Manager-mobilappen stöder nu vit märkning, vilket innebär att 
 
 ALM kommer att göra tillgängliga uppdaterade vita märkta binära filer enligt följande tidslinjer:
 
-1. För större versioner av mobilappen kommer filer att göras tillgängliga två veckor i förväg
-2. För alla planerade uppdateringar av brådskande korrigeringar kommer filer att göras tillgängliga en vecka i förväg
-3. För oplanerade, brådskande och omedelbara korrigeringar kommer filer att göras tillgängliga så gott de kan
+1. För större versioner av mobilappen kommer filer att göras tillgängliga två veckor i förväg.
+2. För alla planerade uppdateringar av brådskande korrigeringar kommer filer att göras tillgängliga en vecka i förväg.
+3. För oplanerade, brådskande och omedelbara korrigeringar kommer filer att göras tillgängliga så gott de kan.
 
 Binärfiler görs tillgängliga i kundens utsedda mappar. Kontakta dina CSM:er för att få åtkomst till filerna. Kunden ansvarar för publicering i rätt tid och relaterade processer.
 
