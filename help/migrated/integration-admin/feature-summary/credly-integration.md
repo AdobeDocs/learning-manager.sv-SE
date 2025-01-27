@@ -3,9 +3,10 @@ jcr-language: en_us
 title: Credly
 description: Läs mer om att integrera med ALM för att hantera och dela externa utmärkelsetecken från plattformen i olika sociala mediekanaler
 contentowner: chandrum
-source-git-commit: a27c1566678d697512a75d94804b8804b5dc9b2b
+exl-id: 168f7ff8-51f5-4962-bf76-af909fc5565b
+source-git-commit: f3a0ec693e1a2e75cdad24f91f22a0290d62740d
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -41,8 +42,8 @@ Följ de här stegen för att lägga till kreditkopplingen i Adobe Learning Mana
 
 Med badge.csv i Adobe Learning Manager kan du migrera märken från det befintliga LMS-systemet eller andra system. Badge.csv har uppdaterats med två nya kolumner:
 
-* Externt märke-ID
-* Extern badge-provider.
+* externalBadgeId
+* externalBadgeProvider
 
 Externt utmärkelsetecken-ID refererar till ID:t för utmärkelsetecknet i plattformen Creded och den externa utfärdaren av utmärkelsetecknet är Credly. Lägg till dessa värden i badge.csv och följ stegen som nämns i [migreringshandboken](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#migrationprocedure) för att migrera CSV-filen.
 
@@ -55,4 +56,3 @@ När märket har importerats till Adobe Learning Manager kan administratören sk
 Författaren/administratören kan tilldela dessa kreditimporterade ALM-märken till en kurs, utbildningsväg eller certifiering (inte bara färdigheter) och om förbrukningen av dessa utbildningsobjekt kommer märket att uppnås och kan visas på Crely och ALM App.
 
 Elever kan logga in på Creredly och se utmärkelsetecknen på Credly-plattformen. Från Credly kan de dela märken på externa plattformar som LinkedIn och andra sociala medier.
-
