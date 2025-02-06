@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Versionsinformation om Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 81d6ae6c552d8509d311ac9a12eb962968151a60
+source-git-commit: 96e875a2b2cd2866a624068b5e8e18aabb39d888
 workflow-type: tm+mt
-source-wordcount: '26246'
+source-wordcount: '26445'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,26 @@ ht-degree: 0%
   </tr>
  </tbody>
 </table>-->
+
++++Uppdatering 99: Februari 2025-versionen av Adobe Learning Manager
+
+## Konfigurera gränssnittsspråk via SAML
+
+Adobe Learning Manager (ALM) accepterar nu ett SAML-attribut för språk. Attributet mappas sedan till användarens gränssnitts- och innehållsinställningar, vilket ger en smidig interaktion med LMS på önskat språk. Konfigurationen av språkinställningarna hanteras via plattformen Identity and Access Management (IAM) med hjälp av SAML för enkel inloggning (SSO). Detta stöder inloggning både från tjänsteleverantören (SP) och från identitetsleverantören (IdP) så att användarna kan se gränssnittet och innehållet på sitt valda språk.
+
+Läs den här [artikeln](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md) om du vill ha mer information.
+
+## Förbättring av API:er för migrering
+
+Tidigare visade aktivitetsmoduler med externa länkar som migrerats med API:er (`GET /bulkimport/cansync` och `POST /bulkimport/startrun`) inte alternativet **[!UICONTROL Mark as Complete]** för elever efter att länken öppnats. Problemet har lösts. Nu kommer aktivitetsmoduler med externa länkar som migrerats via API:er att visa alternativet **[!UICONTROL Mark as Complete]** för elever på rätt sätt.
+
+## Sorteringsfunktioner i elevappen
+
+Sorteringsfunktionen i elevappen ger personliga kursrekommendationer baserat på innehåll och gränssnittsspråk.  Den här förbättringen förenklar processen för elever att hitta kurser på deras önskade språk och använda mer intelligenta sorteringsalternativ.
+
+Läs den här [artikeln](/help/migrated/learners/feature-summary/catalogs.md#sorting-functionality-in-the-learner-app) om du vill ha mer information.
+
++++
 
 +++Uppdatering 98: November 2024-versionen av Adobe Learning Manager
 

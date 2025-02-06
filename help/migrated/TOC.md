@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation för Adobe Learning Manager
-source-git-commit: eb7dfd6c170830d96ca9581ca023d543d7391c95
+source-git-commit: 96e875a2b2cd2866a624068b5e8e18aabb39d888
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '634'
 ht-degree: 8%
 
 ---
@@ -54,6 +54,7 @@ ht-degree: 8%
    * [Lägga till användare i grupp](administrators/add-users-in-bulk.md)
    * [Uppträd som elev och chef](administrators/feature-summary/impersonation-learner-manager.md)
    * [Flera SSO-inloggningar](administrators/feature-summary/multiple-sso-logins.md)
+   * [Konfigurera gränssnittsspråk via SAML](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)
    * [Kollegiala konton](administrators/feature-summary/peer-account.md)
    * [Skapa och ändra kompetenser och nivåer](administrators/feature-summary/skills-levels.md)
    * [AI-baserad rekommendation om kurser](ai-based-recommendations.md)

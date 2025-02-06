@@ -4,7 +4,7 @@ title: Användarhandbok för programutvecklare
 description: Learning Manager V1 API är nu föråldrat. V1 API:erna slutar fungera från och med 28 februari 2021. Vi rekommenderar att du använder V2 API:er för att interagera med Learning Manager.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: a27c1566678d697512a75d94804b8804b5dc9b2b
+source-git-commit: 448119eda15c8d7dfe10150c09fbbe7c530f35e8
 workflow-type: tm+mt
 source-wordcount: '3374'
 ht-degree: 0%
@@ -120,11 +120,11 @@ Utvecklare kan komma åt en enda API-objektmodell och flera modeller som är kop
 
 **API-begäran**
 
-API-begäranden kan göras genom att göra en HTTP-begäran. Beroende på ändpunkt och metod utvecklare kan ha ett val av olika HTTP verb såsom GET, PUT, POST, DELETE, PATCH, etc. För vissa förfrågningar kan frågeparametrar skickas. När en begäran om en specifik datamodell görs kan användaren också begära relaterade modeller enligt beskrivningen i JSON API-specifikationerna. Strukturen för en typisk API-begäran beskrivs i [exempelmodellanvändning](#main-pars_header_1415780624).
+API-begäranden kan göras genom att göra en HTTP-begäran. Beroende på ändpunkt och metod utvecklare kan ha ett val av olika HTTP verb såsom GET, PUT, POST, DELETE, PATCH, etc. För vissa förfrågningar kan frågeparametrar skickas. När en begäran om en specifik datamodell görs kan användaren också begära relaterade modeller enligt beskrivningen i JSON API-specifikationerna. Strukturen för en typisk API-begäran beskrivs i [exempelmodellanvändning](/help/migrated/integration-admin/feature-summary/developer-manual.md#api-usage-illustration).
 
 **API-svar**
 
-När en API-begäran görs av en klient hämtas ett SON-dokument enligt JSON API-specifikationen. Svaret innehåller också HTTP-statuskoden, som utvecklaren kan verifiera för att utföra nästa steg i sin programlogik. Strukturen för ett typiskt API-svar beskrivs i [exempelmodellanvändning](#main-pars_header_1415780624).
+När en API-begäran görs av en klient hämtas ett SON-dokument enligt JSON API-specifikationen. Svaret innehåller också HTTP-statuskoden, som utvecklaren kan verifiera för att utföra nästa steg i sin programlogik. Strukturen för ett typiskt API-svar beskrivs i [exempelmodellanvändning](/help/migrated/integration-admin/feature-summary/developer-manual.md#api-usage-illustration).
 
 **Fel**
 
