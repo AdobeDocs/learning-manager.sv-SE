@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation för Adobe Learning Manager
-source-git-commit: 96e875a2b2cd2866a624068b5e8e18aabb39d888
+source-git-commit: 1985b1db6e4ec5fdbe3cfa939ce404e9cf3a6ee9
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '639'
 ht-degree: 8%
 
 ---
@@ -32,6 +32,7 @@ ht-degree: 8%
    * [Språk som stöds i Adobe Learning Manager](/help/migrated/languages-supported.md)
    * [Borttagningar och ändringar av API i Adobe Learning Manager](api-deprecations-list.md)
    * [Vitmärkning i Adobe Learning Manager](white-label.md)
+   * [API-dokumentation för inbäddad Player-interaktion](/help/migrated/embedded-player-interaction.md)
 * Kom igång {#get-started}
    * [Komma igång som administratör](administrators/feature-summary/getting-started-admin.md)
    * [Komma igång som författare](authors/feature-summary/getting-started-author.md)
