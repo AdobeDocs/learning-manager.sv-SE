@@ -3,9 +3,9 @@ description: Läs om de nya funktionerna och förbättringarna i november 2024-v
 jcr-language: en_us
 title: Sammanfattning av nya funktioner
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: e2799f1bba927108286d5e8036d761f35fd785e6
+source-git-commit: e11a51273d27e6c871a45a52ddb2536baccc57be
 workflow-type: tm+mt
-source-wordcount: '3103'
+source-wordcount: '3174'
 ht-degree: 1%
 
 ---
@@ -188,6 +188,26 @@ Instruktörer som tas bort från en session får nu endast ett e-postmeddelande 
 För närvarande anges elever som närvarade även om de deltar i en vilt-session (Virtual Instructor-Led Training) under bara några sekunder. I den här versionen har vi infört kriterier för slutförande av Teams-moduler för att säkerställa en mer korrekt närvaro. Författare kan nu ange en minimitid som elever måste tillbringa i en VILT-session för att deras närvaro ska räknas.
 
 Det här är en serverdelsfunktion som är inaktiverad som standard. Kontakta din CSM för att aktivera den.
+
+## Uppdaterar nya IP-adresser för e-postleverans
+
+För att förbättra tillförlitligheten vid e-postleverans lägger vi till nya IP-adresser till vår befintliga pool. Uppdatera organisationens e-postinställningar efter behov för att säkerställa oavbruten e-postkommunikation.
+
+Vi använder för närvarande följande IP-adresser för e-postleverans:
+
+* 149.72.162.66
+* 167.89.5.155
+
+Följande IP-adresser läggs till i vår e-postleveranspool:
+
+* 159.183.228.93
+* 159.183.225.26
+* 159.183.218.22
+* 168.245.57.144
+
+>[!NOTE]
+>
+>Om det behövs föreslår vi att du samarbetar med IT-teamet för att lägga till de nya IP-adresserna på tillåtelselistan.
 
 ## Migreringsändringar
 
