@@ -3,9 +3,9 @@ description: Läs om de nya funktionerna och förbättringarna i november 2024-v
 jcr-language: en_us
 title: Sammanfattning av nya funktioner
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: e11a51273d27e6c871a45a52ddb2536baccc57be
+source-git-commit: 537d324d6e266552fdfdd9ba16557fd3228870b7
 workflow-type: tm+mt
-source-wordcount: '3174'
+source-wordcount: '3179'
 ht-degree: 1%
 
 ---
@@ -207,7 +207,7 @@ Följande IP-adresser läggs till i vår e-postleveranspool:
 
 >[!NOTE]
 >
->Om det behövs föreslår vi att du samarbetar med IT-teamet för att lägga till de nya IP-adresserna på tillåtelselistan.
+>Om det behövs föreslår vi att du samarbetar med IT-teamet för att lägga till IP-adresserna i listan över tillåtna webbadresser.
 
 ## Migreringsändringar
 
