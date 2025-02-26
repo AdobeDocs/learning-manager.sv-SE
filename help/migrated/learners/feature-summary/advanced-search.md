@@ -3,9 +3,9 @@ jcr-language: en_us
 title: AI-baserad sökning i Adobe Learning Manager
 description: Läs mer om den AI-drivna sökningen i Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: d8fd49937f7bc4c3bd6cc4df9da31208c25cd307
+source-git-commit: e25c92f9d91768db607cb153138cd02d1fbe28aa
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ _Semantisk sökning_
 
 ### Sökning i innehåll
 
-Adobe Learning Manager sökfunktioner har förbättrats så att du kan söka i aktuellt innehåll. Den transkriberar automatiskt videor, ljudfiler och PDF, och införlivar dessa utskrifter i sökresultaten. Dessutom används Adobe Connect-mötesinspelningar för att ge mer heltäckande och relevanta resultat. Den här förbättringen gör att kurser med mycket innehåll som videor och mötesanteckningar inkluderas, vilket avsevärt förbättrar söknoggrannheten och effektiviteten.
+Adobe Learning Manager sökfunktioner har förbättrats så att du kan söka i aktuellt innehåll. Den transkriberar automatiskt videor, ljudfiler, PDF, dokument, ppt och xls, och införlivar dessa transkriberingar i sökresultaten. Dessutom används Adobe Connect-mötesinspelningar för att ge mer heltäckande och relevanta resultat. Den här förbättringen gör att kurser med mycket innehåll som videor och mötesanteckningar inkluderas, vilket avsevärt förbättrar söknoggrannheten och effektiviteten. Matchen i innehållet hjälper till att förbättra rangordningen av sökresultat genom att öka resultaten som hittas genom traditionell frasmatchning och semantisk matchning.
 
 >[!NOTE]
 >
