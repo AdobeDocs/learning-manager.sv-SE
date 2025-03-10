@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Kontrollpanel för chef
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
-source-git-commit: 2a679ba595c6958d436f8a1db0196b8dbc7d30cf
+source-git-commit: 359bc38487dedc7ec8883957b10522e53d09bddb
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1425'
 ht-degree: 0%
 
 ---
@@ -84,6 +84,10 @@ Om du vill skapa en Excel-rapport väljer du **[!UICONTROL Actions]>[!UICONTROL 
 ## Status för efterlevnad {#compliancestatus}
 
 På efterlevnadstavlan kan chefer se teamets övergripande efterlevnadsstatus för konfigurerade utbildningar i specifika kategorier (till exempel försäljning, marknadsföring och juridisk information). Administratörer kan skapa en tavla med efterlevnadskurser, utbildningsvägar eller certifiering och dela med cheferna. Chefer kan visa kontrollpanelen som delas av administratören i sina instanser.
+
+Användare A är chef för Användare B, Användare C, Användare D och Användare E. Användare B och Användare C är chefer för sina respektive team.
+
+Användare A kan visa rapporter för sina direktrapporter (Användare B, Användare C, Användare D och Användare E) och de team som hanteras av Användare B och Användare C.
 
 ### Visa kontrollpanelen
 

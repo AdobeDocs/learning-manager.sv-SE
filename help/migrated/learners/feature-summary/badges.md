@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Utmärkelsetecken
 contentowner: manochan
 exl-id: d0136a79-7044-4a1e-85bb-bd7b1ae24ba1
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 359bc38487dedc7ec8883957b10522e53d09bddb
 workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 0%
@@ -70,7 +70,7 @@ I elevappen finns det ett alternativ som heter Konfigurera Badgr på sidan Märk
 
 ## Uppdatering av utmärkelsetecken
 
-En elev kan uppdatera sitt märke till det senaste märket genom att välja märket och klicka på **Uppdatera **i det övre högra avsnittet på sidan. En uppdatering av utmärkelsetecknet sker om en administratör/författare ändrar något i utmärkelsetecknet eller utmärkelsetecknet från utbildningsobjektet.
+En elev kan uppdatera sitt märke till det senaste märket genom att markera märket och klicka på **Uppdatera** i det övre högra avsnittet på sidan. En uppdatering av utmärkelsetecknet sker om en administratör/författare ändrar något i utmärkelsetecknet eller utmärkelsetecknet från utbildningsobjektet.
 
 Processen att uppdatera sidan kallas manuell ombakning. I det här fallet laddas märket upp på nytt till Badgr-ryggsäcken efter att bakningen är klar, även om det har samma märke bild/namn. Efter att ha uppdaterat utmärkelsetecknet får eleven ett meddelande om att uppdateringen är slutförd.
 
