@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Kontrollpanel för chef
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
-source-git-commit: 359bc38487dedc7ec8883957b10522e53d09bddb
+source-git-commit: fc10dcbedf1e91ccff2e0ccbcedb9bf6bbb89c67
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1438'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Chefer spelar en viktig roll i ett teams utbildningsinitiativ. För att vägleda
 *Kontrollpanelrapport för en chef*
 
 Om du vill visa diagramdetaljerna klickar du på diagrammet eller på hyperlänken **[!UICONTROL Details]**.
+
+Chefer kan också se instrumentpanelen för sin chefs team på nästa nivå. Användare A är till exempel chef för Användare B, Användare C, Användare D och Användare E. Användare B och Användare C är chefer för sina respektive team. Användare A kan visa rapporter för sina direktrapporter (Användare B, Användare C, Användare D och Användare E) och de team som hanteras av Användare B och Användare C.
 
 ## Sammanfattning av utbildning {#learningsummary}
 
@@ -84,10 +86,6 @@ Om du vill skapa en Excel-rapport väljer du **[!UICONTROL Actions]>[!UICONTROL 
 ## Status för efterlevnad {#compliancestatus}
 
 På efterlevnadstavlan kan chefer se teamets övergripande efterlevnadsstatus för konfigurerade utbildningar i specifika kategorier (till exempel försäljning, marknadsföring och juridisk information). Administratörer kan skapa en tavla med efterlevnadskurser, utbildningsvägar eller certifiering och dela med cheferna. Chefer kan visa kontrollpanelen som delas av administratören i sina instanser.
-
-Användare A är chef för Användare B, Användare C, Användare D och Användare E. Användare B och Användare C är chefer för sina respektive team.
-
-Användare A kan visa rapporter för sina direktrapporter (Användare B, Användare C, Användare D och Användare E) och de team som hanteras av Användare B och Användare C.
 
 ### Visa kontrollpanelen
 
