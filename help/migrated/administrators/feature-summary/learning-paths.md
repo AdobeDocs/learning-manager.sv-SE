@@ -4,7 +4,7 @@ title: Utbildningsvägar
 description: Skapa utbildningsplaner för administratörer i Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
+source-git-commit: 62efe11497408ad637f8559adeb0539c89b8f4d4
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 0%
@@ -111,7 +111,7 @@ Du kan göra detta i utbildningsvägen:
 
 När du har gjort ändringarna klickar du på Publish för att publicera utbildningsvägen.
 
-## Kapslad lutningsbana
+## Kapslad utbildningsväg
 
 Du kan inkludera en utbildningsväg i en utbildningsväg, men du kan kapsla in högst en utbildningsväg i den.
 
