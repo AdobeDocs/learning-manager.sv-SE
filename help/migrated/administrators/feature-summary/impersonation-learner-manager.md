@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Personifiering av elev och chef
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: ba0c87447755729cd98cea1d40083e05f2159f37
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,7 @@ Det här måste du tänka på när du imiterar en användare:
 * En administratör kan inte uppträda som sig själv.
 * En anpassad administratör med åtkomst till sidan Användare kan uppträda som användare.
 * En administratör/anpassad administratör kan bara personifiera i 60 minuter.
+* En anpassad administratör med skrivskyddad åtkomst kan inte uppträda som användare.
 
 ## Uppträd som en användare
 
