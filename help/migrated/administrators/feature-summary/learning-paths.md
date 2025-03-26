@@ -4,9 +4,9 @@ title: Utbildningsvägar
 description: Skapa utbildningsplaner för administratörer i Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: 62efe11497408ad637f8559adeb0539c89b8f4d4
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
@@ -111,15 +111,13 @@ Du kan göra detta i utbildningsvägen:
 
 När du har gjort ändringarna klickar du på Publish för att publicera utbildningsvägen.
 
-## Kapslad utbildningsväg
+## Kapslad eller förbättrad utbildningsväg
 
-Du kan inkludera en utbildningsväg i en utbildningsväg, men du kan kapsla in högst en utbildningsväg i den.
-
-Infoga utbildningsvägen som att infoga en kurs.
+En kapslad eller förbättrad utbildningsväg är en utbildningsväg som innehåller flera utbildningsvägar. För att infoga en utbildningsväg ska du följa samma process som när du lägger till en kurs i en utbildningsväg.
 
 ![](assets/nested-learning-path.png)
 
-*Lägg till en utbildningsväg i en utbildningsväg*
+*Kapslad eller förbättrad utbildningsväg*
 
 ## Inställningar för utbildningsväg
 

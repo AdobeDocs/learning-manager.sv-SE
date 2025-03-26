@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Logga in
 contentowner: manochan
 exl-id: f553bfa1-29f0-420f-abde-e1f65612b182
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,14 @@ ht-degree: 0%
 
 Logga in som elev i Learning Manager.
 
-När du använder Adobe Learning Manager för första gången måste du skapa ditt konto genom att följa stegen nedan:
+Elever måste skapa ett konto när de använder Adobe Learning Manager för första gången. Du kan göra detta på ett av två sätt:
+
+* Självregistrering: använd URL:en i välkomstmeddelandet för att skapa ett konto.
+* Administratörsskapat konto: En administratör kan skapa ett konto åt dig.
+
+## Skapa ett konto med hjälp av URL:en för välkomstmeddelande
+
+Följ de här stegen för att skapa ditt konto med URL:en från välkomstmeddelandet:
 
 1. Starta Adobe Learning Manager med hjälp av den säkra länken som du fick via ett välkomstmeddelande från administratören.
 

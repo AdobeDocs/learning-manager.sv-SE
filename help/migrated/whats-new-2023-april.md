@@ -3,9 +3,9 @@ title: Nyheter i den här versionen (april 2023)
 description: Läs om de nya funktionerna och förbättringarna i Adobe Learning Manager
 hidefromtoc: true
 exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '3158'
+source-wordcount: '3201'
 ht-degree: 0%
 
 ---
@@ -216,13 +216,20 @@ Om alternativet Instansväxling är aktiverad kan eleverna växla till olika ins
 
 När eleven väljer **Visa alla instanser** kan eleven se alla kursinstanser.
 
-![visa alla instanser](assets/view-all-instances-new.png)
+![Alt-text](assets/view-all-instance.png)
 
-En administratör kan växla instanserna för elever.
+_Visa alla instanssidor från elevkonsolen_
 
-![växla instanser](assets/switch-instances.png)
+![](assets/switch-instance-learner.png)
+_Byt instans från elevsidan_
+
+En administratör kan byta instans för elever. Välj en kurs från Admin Console, gå till avsnittet **[!UICONTROL Learners]**, välj en användare och välj knappen **[!UICONTROL Action]**. Välj sedan **[!UICONTROL Switch Instance]** och välj önskad instans.
+
+![Alt-text](assets/switch-instance-admin.png)
+_Byt instans från Admin Console_
 
 ![byt instans välj](assets/switch-instances-select.png)
+_Växla instansprompt_
 
 Du kan inte växla instanser förrän någon instans av kursen har slutförts från eleven eller administratörsappen.
 

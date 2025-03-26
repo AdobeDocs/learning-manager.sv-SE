@@ -3,9 +3,9 @@ description: Adobe Learning Manager stöder flera inloggningsmetoder genom flera
 title: Flera SSO-inloggningar
 contentowner: saghosh
 exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
-source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -26,14 +26,19 @@ Upp till 20 SSO-konfigurationer kan läggas till på ett konto. Dessa kan använ
 
 Om du vill aktivera flera SSO väljer du **Inställningar** > **Inloggningsmetoder**.
 
-Markera kryssrutan Aktivera flera SSO för interna eller externa användare på konfigurationssidan.
+Markera kryssrutan **[!UICONTROL Enable Multiple Single Sign-On (SSO)]** för interna eller externa användare på konfigurationssidan.
 
 När Multi SSO är aktiverat blir inloggningsmetoden som valts för Standardinloggningsmetod standardinloggningstypen för användargrupper/profiler som inte är länkade till någon SSO-konfiguration. Standardinloggningen kan vara Adobe ID eller SSO eller ALM ID (externa användare).
+
+>[!NOTE]
+>
+>Administratörer och anpassade administratörer med nödvändiga behörigheter kan utföra dessa steg.
 
 Följ stegen nedan för att konfigurera enkel inloggning:
 
 1. Klicka på Konfigurera enkel inloggning (SSO).
-1. Klicka på Lägg till ny SSO-konfiguration.
+1. Klicka på Lägg till ny SSO-konfiguration.\
+   ![](assets/sso.png)
 1. Lägg till detta i dialogrutan SSO-konfiguration:
 
    * Ange namnet på SSO.

@@ -4,9 +4,9 @@ title: Systemkrav
 description: Systemkrav för Adobe Learning Manager
 contentowner: dvenkate
 exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
-source-git-commit: 4096b80a5e939ef72a9bbe2aede3d9d91402e4ee
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,10 @@ Startsidan för den uppslukande layouten stöds inte i IE 11-webbläsare.
 
 ## Rekommenderad storlek på bilder {#recommendedsizeofimages}
 
-* Maskin: 1 280 × 360 px.
+* Masthead:
+   * För inställningar som stora: 1280 x 360 PX
+   * För inställningar som medelstora: 1280 x 273 PX
+   * För inställningar som små: 1280 x 187 PX
 * Bild på katalogkortet: 280 x 100 px
 * Utbildningskortets storlek: 300 × 240 px
 * Social banderoll: 1 600 × 240 px

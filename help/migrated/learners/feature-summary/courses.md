@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Mina utbildningar
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: 4151b3d791a2ac13a40dc812a3c7b2c3c43bfc9c
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '2783'
+source-wordcount: '3070'
 ht-degree: 0%
 
 ---
@@ -99,6 +99,37 @@ Du kan registrera dig för att visa intresse för alla klassrumskurser som inte 
 >[!NOTE]
 >
 >Elever bör se ett konfliktmeddelande om de registrerar sig för två olika sessioner samtidigt eller överlappande tider.
+
+## Växla instanser
+
+En elev som är registrerad för en viss instans av en kurs kan visa en lista över alla tillgängliga instanser av kursen och växla till en annan instans som fungerar bättre för dem. Anledningen till bytet kan vara att eleven missade att närvara vid den föregående instansen, eller att sessionstidpunkten för den nya instansen är lämpligare eller kan vara något annat.
+
+Alla framsteg som görs av eleven som en del av kursen, elevquizpoäng etc., överförs till den nya instansen. Den här funktionen är främst avsedd för klassrumskurser och blandade kurser, men vi stöder alla typer av kurser, inklusive kurser i egen takt.
+
+Alternativet Visa alla förekomster visas oavsett förekomstväxlingsinställningarna. Elever kommer nu att se ett alternativ för att visa alla instanser om det finns mer än en instans av en kurs.
+
+Om alternativet Instansväxling är aktiverad kan eleverna växla till olika instanser tills de har slutfört kursen. Om alternativet är inaktiverat kan elever visa instanserna men kan inte registrera sig för kursen.
+
+När eleven väljer **Visa alla instanser** kan eleven se alla kursinstanser.
+
+![Alt-text](assets/view-all-instance.png)
+
+_Visa alla instanssidor från elevkonsolen_
+
+![](assets/switch-instance-learner.png)
+_Byt instans från elevsidan_
+
+En administratör kan byta instans för elever. Välj en kurs från Admin Console, gå till avsnittet **[!UICONTROL Learners]**, välj en användare och välj knappen **[!UICONTROL Action]**. Välj sedan **[!UICONTROL Switch Instance]** och välj önskad instans.
+
+![Alt-text](assets/switch-instance-admin.png)
+_Byt instans från Admin Console_
+
+![byt instans välj](assets/switch-instances-select.png)
+_Växla instansprompt_
+
+Du kan inte växla instanser förrän någon instans av kursen har slutförts från eleven eller administratörsappen.
+
+Författare som skapar en kurs kan växla mellan att aktivera eller inaktivera instansväxling. Instansväxling är endast tillgänglig för kostnadsfria kurser.
 
 ## Arbetsflöde som elev
 

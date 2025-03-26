@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Skapa, ändra och publicera kurser
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '7012'
+source-wordcount: '7030'
 ht-degree: 0%
 
 ---
@@ -699,7 +699,7 @@ Fönstret med kursinformation visas. Kursen är i skrivskyddat läge. Klicka på
 
 ## Ta bort en kurs {#retireacourse}
 
-Om du tar en kurs ur bruk kan du inte registrera nya elever på kursen. Elever som redan är registrerade kan ta kursen.
+Vid utfasning av en kurs döljs den för elever, även om de är registrerade eller redan har slutfört den. Om du tar en kurs ur bruk kan du inte registrera nya elever på kursen. Elever som redan är registrerade kan ta kursen.
 
 Om du vill ta en kurs ur bruk ska du gå till kurskortet, hålla pekaren över alternativen och klicka på Ta bort kurs.
 

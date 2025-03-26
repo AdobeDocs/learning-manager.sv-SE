@@ -4,9 +4,9 @@ title: Lägga till användare i grupp
 description: Lär dig lägga till flera användare åt gången.
 contentowner: saghosh
 exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,10 @@ Du kan lägga till flera användare samtidigt genom att följa stegen nedan:
 Det är inte obligatoriskt att lägga till användarens profil och chefens e-post-ID i CSV-filen. Användarnamn och användarens e-post-ID är de enda obligatoriska fälten.
 
 I så fall behandlas företagets administratör som standard som chef för användarna. Som standard betraktas anställd som användarens profil.
+
+>[!NOTE]
+>
+>Om du vill lägga till nya användare skapar du en ny CSV-fil med information och överför den. Det går inte att uppdatera och överföra en befintlig CSV-fil på nytt.
 
 **Exempel-CSV**
 

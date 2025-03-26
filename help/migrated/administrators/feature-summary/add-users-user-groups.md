@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Lägga till användare och skapa användargrupper
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '3986'
+source-wordcount: '4059'
 ht-degree: 0%
 
 ---
@@ -358,6 +358,16 @@ Förutom automatiskt genererade grupper kan du även skapa egna grupper. Klicka 
 1. Klicka på **[!UICONTROL Save]** för att skapa användargruppen.
 
 Denna anpassade grupp skapas nu och läggs till i profilen. De användargrupper du skapar är dynamiska till sin natur. Om nya användare läggs till med liknande attribut läggs de automatiskt till i användargruppen.
+
+Om du vill visa listan över grupper som en användare tillhör går du till **[!UICONTROL User]** > **[!UICONTROL User Groups]**, söker efter användarens namn och väljer den. Då visas alla grupper som användaren ingår i.
+
+![](assets/list-of-group.png)
+
+### Hämta listan över användare i en användargrupp
+
+Gå till **[!UICONTROL User]** > **[!UICONTROL User Groups]** och välj **[!UICONTROL Download icon]** bredvid gruppen om du vill hämta listan med användare i en specifik användargrupp. Detta genererar en CSV-fil som innehåller listan över användare i gruppen.
+
+![](assets/download-list-of-user.png)
 
 ## Uteslutning av användargrupper
 

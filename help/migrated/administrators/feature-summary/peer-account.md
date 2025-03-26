@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Kollegiala konton
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,18 @@ Learning Manager erbjuder möjligheten att dela köpta platser med hjälp av fun
    ![](assets/addpeer.png)
 
    *Lägg till en underdomän*
+
+>[!NOTE]
+>
+>Om du vill hitta underdomänen för ett annat konto kontrollerar du kontots URL. Underdomänen visas före huvuddomänen och hjälper till att identifiera det specifika kontot.
+>
+>Exempel:
+>
+>I URL:en [https://www.learningmanager.com/accountname](https://www.learningmanager.com/accountname) är underdomänen **kontonamn**.
+>
+>I URL:en [https://www.accountname.learningmanager.com](https://www.accountname.learningmanager.com) är underdomänen också **kontonamn**.
+>
+>Underdomänen är unik för varje konto och används för att komma åt respektive Learning Manager-instans.
 
 1. Ange e-post-ID för den administratör som antingen accepterar eller avvisar kollegialt konto-begäran.
 1. Ange hur många platser du vill dela med kollegan. När du delar platser med det kollegiala kontot aktiveras läget Aktivt för det kollegiala kontot med de mottagna platserna, eller med kollegiets egna köpta platser.
