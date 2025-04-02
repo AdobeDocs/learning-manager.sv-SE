@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Personifiering av elev och chef
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: ba0c87447755729cd98cea1d40083e05f2159f37
+source-git-commit: 1693bb3905895be0c9a883339a1a5c7d71bb3f33
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,15 @@ ht-degree: 0%
 
 I stora organisationer behöver kundsupportpersonalen personifieringsförmåga för att felsöka problem som elever ställs inför.
 
-Med den här möjligheten att uppträda som andra användare kan administratörer och anpassade administratörer identifiera och utföra alla aktiviteter som utförs av elever och chefer i deras organisation.
+Med den här möjligheten att uppträda som andra användare kan administratörer identifiera och utföra alla aktiviteter som utförs av elever och chefer i deras organisation.
+
+>[!NOTE]
+>
+>Anpassade administratörer kan inte uppträda som användare. Det är bara administratörer som kan utföra användarpersonifiering.
 
 ## Så här fungerar det
 
-Administratörer (och/eller anpassade administratörer) kan söka efter en användare (intern eller extern) och sedan uppträda som en användare. Administratören omdirigeras sedan till användarens sida (chefsapp om relevant eller annan elevapp) och loggar sedan ut administratören från sessionen. Administratören omdirigeras sedan till sidan Slutför din profil om detta är inställt för användaren som har personifierats av administratören.
-
-Om en anpassad administratör har behörighet att komma åt en användares sida kan hen söka efter användare som de vill uppträda som.
+Administratörer kan söka efter en användare (intern eller extern) och sedan uppträda som en användare. Administratören omdirigeras sedan till användarens sida (chefsapp om relevant eller annan elevapp) och loggar sedan ut administratören från sessionen. Administratören omdirigeras sedan till sidan Slutför din profil om detta är inställt för användaren som har personifierats av administratören.
 
 Det här måste du tänka på när du imiterar en användare:
 
