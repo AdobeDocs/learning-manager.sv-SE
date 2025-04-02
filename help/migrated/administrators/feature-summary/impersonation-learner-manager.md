@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Personifiering av elev och chef
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: 1693bb3905895be0c9a883339a1a5c7d71bb3f33
+source-git-commit: f44f44ab34acc42edb79d66588ad986d629734ff
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Om du vill uppträda som en användare följer du stegen nedan:
 
 **En personifierad session varar i 60 minuter.**
 
-När du ändrar till en elev eller chefsroll visas ett meddelande om att administratören/den anpassade administratören är i personifieringsläge för användaren.
+När du byter till en elev eller chefsroll visas ett meddelande om att administratören är i personifieringsläge för användaren.
 
 ## Rapport över inloggning och åtkomst
 
