@@ -4,9 +4,9 @@ title: Väntelista och närvarohantering
 description: Administratörer kan hantera närvaro och väntelista för kurser för elever.
 contentowner: manochan
 exl-id: 257ed196-d6a7-4d6c-bd90-33d658f6ba55
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,10 @@ Elever sätts upp på väntelistan till en klassrumskurs när antalet platser ä
 
 1. Klicka på **[!UICONTROL Waitlist]** i den vänstra rutan på sidan för kursinformation. Listan med elever på väntelistan visas på sidan.
 1. Välj eleverna och klicka på **[!UICONTROL Allocate seats]** för att registrera eleverna direkt på de kurser som ersätter platsgränsen.
+
+>[!NOTE]
+>
+>Registrerade elever kan inte flyttas till väntelistan och deras platser kan inte omfördelas till andra elever.
 
 ## Närvarohantering {#attendancemanagement}
 

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Lägga till användare och skapa användargrupper
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '4059'
+source-wordcount: '4118'
 ht-degree: 0%
 
 ---
@@ -172,6 +172,8 @@ Välj en användare i listan med användare och klicka på användaren. Klicka p
 
 ## Aktiva fält
 
+Aktiva fält i Adobe Learning Manager är anpassningsbara metadatafält som används för att lagra och hantera användarspecifik information. Dessa fält hjälper till att definiera nyckelattribut eller egenskaper som är associerade med varje användare i systemet.
+
 ### Hantera användarattribut
 
 >[!INFO]
@@ -329,6 +331,10 @@ Välj en användare och klicka på **[!UICONTROL Actions]** > **[!UICONTROL Assi
 ## Ta bort en roll {#Removearole-1}
 
 Välj en användare och klicka på **[!UICONTROL Actions]** > **[!UICONTROL Remove Role]** > **Ta bort`<role>`** i det övre högra hörnet. Den valda rollen tas bort från listan över roller som har tilldelats användaren.
+
+>[!NOTE]
+>
+>Anpassade användargrupper påverkas inte om du tilldelar en ny roll. Det kommer dock att påverka automatiskt genererade användargrupper som Alla administratörer, Alla författare och liknande rollbaserade grupper.
 
 ## Skapa användargrupper {#createusergroups}
 

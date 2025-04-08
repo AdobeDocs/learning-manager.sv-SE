@@ -4,9 +4,9 @@ title: Anpassade roller
 description: Med funktionen Utbildningsvägar kan du definiera anpassade roller och tilldela specifika ansvarsområden till en uppsättning användare. Med den här funktionen kan du tilldela ansvar utanför personens befintliga roll.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: f8151cb47645a07bcea306dcaf3f8ac032d4044e
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '2589'
+source-wordcount: '2612'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 1%
 Med den här funktionen kan du definiera anpassade roller och tilldela specifika ansvarsområden till en uppsättning användare. Med den här funktionen kan du tilldela ansvar utanför personens befintliga roll.
 
 Du kan skapa en anpassad roll för att tillhandahålla redigeringsfunktioner som är begränsade till en viss katalog. Du kan också skapa en roll som är dedikerad till att hantera rapportering. Sådana roller kan sedan tilldelas enskilda personer som förväntas ta på sig dessa specifika ansvarsområden.
+
+>[!NOTE]
+>
+>Om du lägger till en ny anpassad roll påverkas inte befintliga anpassade användargrupper eller rollbaserade grupper som Alla administratörer, Alla författare osv.
 
 Administratörer har möjlighet att skapa anpassade administratörsroller och anpassade författarroller med anpassade behörigheter för varje roll. Nedan visas en översikt över de behörigheter som är kopplade till varje roll:
 

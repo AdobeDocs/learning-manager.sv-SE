@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Hantera elever för din session
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1038'
 ht-degree: 2%
 
 ---
@@ -92,6 +92,12 @@ Gör något av följande för att skicka e-postmeddelanden till elever från sid
 
 * Om du vill skicka e-postmeddelanden till specifika deltagare markerar du deltagaren och klickar på Åtgärder > Skicka e-post till markerade.
 * Om du vill skicka e-postmeddelanden till alla deltagare för att skicka ett kursmaterial eller en uppgift klickar du på Åtgärder > Skicka e-post till alla.
+
+## Svar på Capture-inbjudan
+
+Du kan visa inbjudningssvar i avsnittet Elever. Gå till valfri session, välj **[!UICONTROL Learners]** och välj inbjudningssvaret i listrutan.
+
+![](assets/invitation-status.png)
 
 ## Exportera elevlista {#exportinglearnerslist}
 
