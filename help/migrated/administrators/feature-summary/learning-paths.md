@@ -4,7 +4,7 @@ title: Utbildningsvägar
 description: Skapa utbildningsplaner för administratörer i Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '1280'
 ht-degree: 0%
@@ -15,17 +15,17 @@ ht-degree: 0%
 
 ## Vad är en utbildningsväg?
 
-Administratörer är ofta intresserade av att bygga upp en detaljerad kursplan med djupgående kunskap om ett visst ämne eller ett expertområde. Det kan också vara en följd av utbildningskurser som medarbetarna eller kunderna förväntas slutföra. Detta kräver att man slår ihop en uppsättning kurser och program för att skapa ett komplett utbildningspaket.
+Ofta är administratörer intresserade av att bygga en detaljerad läroplan som ger djupgående kunskaper om ett visst ämne eller ett expertområde. Det kan också vara en sekvens av utbildningar som de anställda eller kunderna förväntas genomföra. Detta kräver att man buntar ihop en uppsättning kurser och program för att skapa ett komplett utbildningspaket.
 
-Det är här utbildningsvägen kommer in i bilden. En utbildningsväg är en resa som en elev måste gå igenom för att behärska ett ämne över tid. Elever har kontroll över sin utbildningserfarenhet och kan förvärva och behålla kunskaper i egen takt på ett effektivare sätt.
+Det är här Utbildningsväg kommer in i bilden. En inlärningsväg är en resa som en elev måste gå igenom för att bemästra något ämne över tid. Eleverna har kontroll över sin utbildningsupplevelse och kan förvärva och behålla kunskap i egen takt med större effektivitet.
 
-Till exempel när nya anställda anställs utbildar en organisation om policyer och förfaranden, kultur, historia och så vidare. I en utbildningsväg anges kurserna utifrån de anställdas behov, så att de anställda kan registrera sig för kurserna enligt den utbildningsväg som har angetts för dem. du väljer, och du kan registrera användare på den här sökvägen så att de kan gå vidare från kurs till kurs.
+När en organisation till exempel tar in nya medarbetare genomför den utbildning om policyer och procedurer, kultur, historia och så vidare. En utbildningsväg ställer in kurserna enligt de anställdas behov, så att de anställda kan anmäla sig till kurserna enligt den utbildningsväg som har ställts in för dem. du väljer, och du kan registrera användare på den här sökvägen så att de kan gå vidare från kurs till kurs.
 
 ## Skapa och konfigurera utbildningsvägar
 
 I den här utbildningen får du lära dig skapa en utbildningsväg, lägga till en kurs i den, publicera och dra in en utbildningsväg och konfigurera instanser inom en utbildningsväg.
 
-[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QQ42P2LR&amp;mv=display&amp;mv2=display#/course/8318919)
+[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318919)
 
 Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
 
@@ -35,35 +35,35 @@ Utbildningsvägar gör att du enkelt och problemfritt kan få ett utbildningspro
 
 1. Tilldela en färdighets- och kompetensnivå direkt till en utbildningsväg. Du behöver inte matcha kompetenspoäng. När en elev slutför en utbildningsväg uppnår han/hon den angivna kunskapsnivån.
 1. Möjlighet att bädda in en befintlig utbildningsväg i en ny utbildningsväg. Inbäddningsfunktionen är endast tillgänglig för 1 nivå av inbäddning. Därför kan en utbildningsväg som redan innehåller en inbäddad bana inte bäddas in i en ny bana.
-1. Möjlighet att lägga till förutsättningar, arbetsstöd och resurser på nivån för utbildningsvägen.
-1. Möjlighet att skapa avsnitt. Varje avsnitt kan ha en titel.
-1. Möjlighet att göra avsnitt obligatoriska och ange kriterier för slutförande.
+1. Möjlighet att lägga till förutsättningar, jobbhjälpmedel och resurser på utbildningsvägsnivå.
+1. Möjlighet att skapa sektioner. Varje avsnitt kan ha en titel.
+1. Möjlighet att göra avsnitt obligatoriska och ställa in kriterier för slutförande.
 
-## Lägg till en utbildningsväg i Learning Manager
+## Lägga till en utbildningsväg i Learning Manager
 
 I Learning Manager, i Admin-appen, klickar du på **[!UICONTROL Learning Path]** i den vänstra panelen.
 
-Klicka på **[!UICONTROL Add]** på sidan **[!UICONTROL Learning Path]**. Ange uppgifterna.
+På sidan **[!UICONTROL Learning Path]** klickar du på **[!UICONTROL Add]**. Ange detaljerna.
 
 ![](assets/add-learning-path.png)
 
-*Lägg till en ny utbildningsväg*
+*Lägga till en ny utbildningsväg*
 
-I alternativet **Registreringstyp** väljer du **Självregistrering** eller **Administratörsregistrering**.
+**I alternativet Registreringstyp** väljer du **Självregistrering** eller **Administratörsinskrivning**.
 
 >[!NOTE]
 >
->Om du väljer alternativet **Administratörsregistrering** kommer eleverna bara att se kurser som har nominerats av chefen eller godkänts av chefen. Eleverna kan inte se utbildningsvägen i rekommendationsavsnittet.
+>Om du väljer alternativet **Administratörsinskrivning** kommer eleverna endast att se kurser som nominerats av chefer eller godkänts av ansvariga. Eleverna kommer inte att kunna se utbildningsvägen i rekommendationsavsnittet.
 
 När du har skapat utbildningsvägen väljer du den nyligen skapade utbildningsvägen och lägger till kurserna i sökvägen.
 
-Du kan lägga till färdigheter och tilldela ett utmärkelsetecken till utbildningsvägen. Om du vill lägga till en kompetens väljer du den kompetens eller de färdigheter som krävs från rullgardinsmenyn **[!UICONTROL Pick a Skill]**. Välj även nivån för kompetensen eller kompetenserna.
+Du kan lägga till färdigheter och tilldela ett utmärkelsetecken till utbildningsvägen. Om du vill lägga till en kompetens väljer du den kompetens eller de färdigheter som krävs från rullgardinsmenyn **[!UICONTROL Pick a Skill]**. Välj också nivå för färdigheten eller färdigheterna.
 
 ![](assets/add-skills.png)
 
-*Lägg till en kompetens*
+*Lägga till en färdighet*
 
-Tilldela ett utmärkelsetecken till utbildningsvägen. Välj ett märke i listan med tillgängliga märken.
+Tilldela ett märke till utbildningsvägen. Välj ett märke från listan över tillgängliga märken.
 
 Välj nivå för produkter, roller och roller i avsnittet **[!UICONTROL Recommend for]** för att föreslå den här utbildningsvägen för användare som har uttryckt intresse för dessa produkter och roller.
 
@@ -77,7 +77,7 @@ Om du väljer Beställd visas kurserna i samma sekvens som du skapade dem. Om du
 
 Klicka på **[!UICONTROL Add Courses or Learning Paths]** om du vill lägga till en kurs i utbildningsvägen.
 
-I dialogrutan som visas väljer du den utbildning som du vill lägga till för utbildningsvägen.
+I dialogrutan som visas väljer du den utbildning som du vill lägga till i Utbildningsväg.
 
 ![](assets/choose-training.png)
 
@@ -89,7 +89,7 @@ Klicka på **[!UICONTROL Save]** när du har valt kurser eller utbildningsväg.
 
 Du kan göra detta i utbildningsvägen:
 
-**Skapa och konfigurera ett avsnitt:** Ett avsnitt skapas för att gruppera flera utbildningskurser som slutför ett område eller en väsentlig del av utbildningen. Varje avsnitt kan ha en titel. Varje avsnitt kan också markeras som Obligatoriskt med specifika krav på slutförande.
+**Skapa och konfigurera en sektion:** En sektion skapas för att gruppera flera träningsbanor som slutför ett område eller en väsentlig del av utbildningen. Varje avsnitt kan ha en titel. Varje avsnitt kan också markeras som Obligatoriskt med specifika krav på slutförande.
 
 **Gör kurserna obligatoriska i varje avsnitt:** Aktivera eller inaktivera kryssrutan Obligatorisk om du inte vill göra utbildningarna obligatoriska i utbildningsvägen. Om du markerar kryssrutan kan du antingen göra alla utbildningar obligatoriska eller vissa av utbildningarna obligatoriska.
 
@@ -97,7 +97,7 @@ Du kan göra detta i utbildningsvägen:
 
 *Gör kurserna obligatoriska i varje avsnitt*
 
-**Ordna om ordningen:** Du kan flytta kurserna uppåt eller nedåt och ändra deras ordning.
+**Ändra ordningen:** Du kan flytta banorna uppåt eller nedåt och ändra deras ordning.
 
 ![](assets/rearrange.png)
 
@@ -113,7 +113,7 @@ När du har gjort ändringarna klickar du på Publish för att publicera utbildn
 
 ## Kapslad eller förbättrad utbildningsväg
 
-En kapslad eller förbättrad utbildningsväg är en utbildningsväg som innehåller flera utbildningsvägar. För att infoga en utbildningsväg ska du följa samma process som när du lägger till en kurs i en utbildningsväg.
+En kapslad eller förbättrad utbildningsväg är en utbildningsväg som innehåller flera utbildningsvägar. Om du vill infoga en utbildningsväg följer du samma process som när du lägger till en kurs i en utbildningsväg.
 
 ![](assets/nested-learning-path.png)
 
@@ -129,11 +129,11 @@ I avsnittet Inställningar kan du lägga till de krav och de arbetsstöd som en 
 
 ## Instanser
 
-Utbildningsvägsinstanserna visar ytterligare en panel, **[!UICONTROL Learning Paths]**. Siffran visas i rutan. av utbildningsprogram som lagts till i en utbildningsväg.
+Utbildningsväg-instanserna visar ytterligare en ruta, **[!UICONTROL Learning Paths]**. Rutan visar numret. av utbildningsprogram som läggs till i en utbildningsväg.
 
-I panelen **Kurser** kan du se kursinstanserna som är synliga för eleverna som är registrerade i den här instansen.
+**I rutan Kurser** kan du se de kursinstanser som är synliga för de elever som är inskrivna i den här instansen.
 
-Kryssrutan **[!UICONTROL Enable Learners to Choose instances (Flexible Learning Path)]** gäller bara kurser. Alla underordnade utbildningsvägar får ett alternativ för att mappa en instans av ett utbildningsprogram med utbildningsvägen. Som standard är mappningen inställd på Standardinstans.
+Kryssrutan **[!UICONTROL Enable Learners to Choose instances (Flexible Learning Path)]** gäller endast för kurser. Alla underordnade utbildningsvägar får ett alternativ för att mappa en Learning Program-instans med Learning Path. Som standard är mappningen inställd på Standardinstans.
 
 ![](assets/default-instance.png)
 
@@ -155,23 +155,23 @@ Du kan prenumerera på de enskilda utbildningsvägarna för att få omfattande d
 
 Följ stegen nedan:
 
-1. Gå till valfri utbildningsväg > Prenumerationer.
-1. Välj Lägg till mer.
-1. Välj information och skriv det e-post-ID som ska ta emot rapporterna.
+1. Gå till valfri utbildningsväg > prenumerationer.
+1. Välj Lägg till fler.
+1. Välj informationen och skriv e-post-ID:t för att ta emot rapporterna.
 
 ![](assets/subscriptions.png)
 
-*Prenumerera på enskild utbildningsväg*
+*Prenumerera på individuell utbildningsväg*
 
-## Viktig anmärkning
+## Viktig notering
 
-Observera att den befintliga funktionen i utbildningsprogrammen kommer att döpas om till Utbildningsväg omedelbart efter lanseringen. Om du vill fortsätta att kalla det för utbildningsprogram rekommenderar vi att du använder funktionen Terminologier för att tillämpa önskad terminologi. På så sätt kan du konsumera för att använda ordet Utbildningsprogram.
+Observera att den befintliga funktionen i utbildningsprogrammen kommer att döpas om till Utbildningsväg omedelbart efter lanseringen. Om du vill fortsätta att kalla det för inlärningsprogram rekommenderar vi att du använder funktionen &quot;Terminologier&quot; för att tillämpa den terminologi som krävs. På så sätt kan du konsumera för att använda ordet Learning Program.
 
-Utbildningsvägar ger dig en mängd funktioner. Vissa av dem är tillgängliga omedelbart efter versionen. Administratörer/författare kan börja använda dem. Utökade funktioner som &quot;Avsnitt&quot;, &quot;lägga till utbildningsväg i en annan sökväg&quot; osv. är avaktiverade och kan aktiveras genom att markera kryssrutan nedan.
+Utbildningsvägar ger dig en mängd olika funktioner. Vissa av dem är tillgängliga direkt efter lanseringen. Administratörer/författare kan börja använda dem. Utökade funktioner som &quot;Avsnitt&quot;, &quot;lägga till utbildningsväg i en annan sökväg&quot; osv. är inaktiverade och kan aktiveras genom att markera kryssrutan som nämns nedan.
 
-Elever kan fortsätta att använda utbildningsprogram (som nu kallas utbildningsvägar) och författare/administratörer kan fortsätta att skapa dem också. För att dra nytta av de utökade funktionerna i utbildningsvägen som nämns ovan ska administratören aktivera inställningen enligt nedan. När den har aktiverats blir alla nya utökade funktioner i utbildningsvägen tillgängliga.
+Elever kan fortsätta att använda utbildningsprogram (kallas nu utbildningsvägar) och författare/administratörer kan också fortsätta att skapa dem. Om du vill dra nytta av de utökade funktionerna i Utbildningsväg som nämns ovan bör administratören aktivera inställningen enligt nedan. När den har aktiverats blir alla nya utökade funktioner i utbildningsvägen tillgängliga.
 
-Sidan **[!UICONTROL Settings]** > **[!UICONTROL General]** har ett nytt alternativ för att aktivera utbildningsvägar. Om det här alternativet är aktiverat kan du lägga till kurser och utbildningsprogram på en utbildningsväg. Du kan inte ändra alternativet när det har aktiverats.
+Sidan **[!UICONTROL Settings]** > **[!UICONTROL General]** har ett nytt alternativ för att aktivera utbildningsvägar. Om det här alternativet är aktiverat kan du lägga till kurser och utbildningsprogram i en utbildningsväg. Du kan inte ändra alternativet när det väl är aktiverat.
 
 <!-- ## Other Learning Path-related details 
 

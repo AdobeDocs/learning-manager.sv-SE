@@ -4,7 +4,7 @@ title: Anpassa elevens startsida
 description: En administratör kan anpassa elevens startsida och göra den mer modern, innehållsdriven och anpassad för en elev.
 contentowner: saghosh
 exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
-source-git-commit: f09c93374673a3da92199d5bbc858f934d6cbba2
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '1139'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Upplevelsen drivs av en personlig utbildningsrekommendation från en AI-driven a
 
 Under den här utbildningen kommer du att utforska sätt att anpassa elevens startsida.
 
-[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4SC98Z83&amp;mv=display&amp;mv2=display#/course/8318825)
+[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318825)
 
 Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
 

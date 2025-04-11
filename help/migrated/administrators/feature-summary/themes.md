@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Färgteman
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Med Learning Manager kan du ändra utseendet på appen för att matcha din organ
 
 I den här utbildningen kommer du att utforska sätt att anpassa utseendet på gränssnittet så att det matchar en organisations krav på varumärke.
 
-[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QBWYPFSV&amp;mv=display&amp;mv2=display#/course/8318823)
+[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318823)
 
 Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
 

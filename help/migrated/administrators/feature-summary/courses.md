@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Skapa kursinstanser och utbildningsvägar
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '4943'
 ht-degree: 1%
@@ -27,7 +27,7 @@ Författare skapar kurser. Elever följer sedan kurserna och administratörer ka
 
 >[!INFO]
 >
->I den här utbildningen får du lära dig redigera instansinformation och instansegenskaper.<br><br>[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)</br></br>
+>I den här utbildningen får du lära dig redigera instansinformation och instansegenskaper.<br><br>[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
 
 
 Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
@@ -117,11 +117,11 @@ Administratörer kan ta bort instansen med alternativet **Ta bort den här insta
 
 Så här skickar du e-postmeddelanden på instansnivå till registrerade elever:
 
-1. Välj alternativ för valfri instans på sidan **[!UICONTROL Instances]** och klicka sedan på **[!UICONTROL Email Enrolled Learners]**.
+1. Markera alternativen för en förekomst på sidan **[!UICONTROL Instances]** och klicka sedan på **[!UICONTROL Email Enrolled Learners]**.
 
-![e-postmeddelanden på instansnivå](assets/adhoc-email.png)
+![E-postmeddelanden på instansnivå](assets/adhoc-email.png)
 
-*Skicka e-post till elever som har registrerat sig för instansen*
+*E-postelever som är registrerade i instansen*
 
 1. I dialogrutan **[!UICONTROL Create Announcement]** väljer du Skriv som e-post. Ange ämne, skriv meddelandet och klicka på **[!UICONTROL Save]**. Utbildningen väljs ut automatiskt.
 
@@ -137,7 +137,7 @@ Så här skickar du e-postmeddelanden på instansnivå till registrerade elever:
 
 Under den här utbildningen kommer du att lära dig hur du registrerar, avregistrerar och återregistrerar elever.
 
-[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PC1PQFJQ&amp;mv=display&amp;mv2=display#/course/8318916)
+[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318916)
 
 Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
 
@@ -207,14 +207,14 @@ Excel-filen innehåller kalkylblad för varje instans. Ett kalkylblad består av
 
 ![](assets/courses-learners.png)
 
-*Välj elever i en kurs*
+*Välja elever i en kurs*
 
 Du kan utföra följande åtgärder från sidan Elever:
 
-* Markera eleven du vill ta bort och klicka på [!UICONTROL **Åtgärder**] > [!UICONTROL **Ta bort**].
-* Markera den elev vars närvaro du vill markera och klicka på [!UICONTROL **Åtgärder**] > [!UICONTROL **Markera som slutförd**].
+* Markera den elev som du vill ta bort och klicka på [!UICONTROL **Åtgärder**] > [!UICONTROL **Ta bort**].
+* Välj den elev vars närvaro du vill markera och klicka på [!UICONTROL **Åtgärder**] > [!UICONTROL **Markera som slutförd**].
 
-Klicka på [!UICONTROL **Återställ**] om du vill att eleverna ska kunna återställa en modul och konsumera modulen igen. Klicka på Ja i dialogrutan som visas för att bekräfta återställningen. Moduler som har slutförts kan inte återställas. Endast felaktiga eller ofullständiga moduler kan återställas.
+Om du vill att eleverna ska kunna återställa en modul och använda modulen igen klickar du på [!UICONTROL **Återställ**]. Klicka på Ja i dialogrutan som visas för att bekräfta återställningen. Moduler som har slutförts kan inte återställas. Endast felaktiga eller ofullständiga moduler kan återställas.
 
 Du kan också exportera elevlistan i ett Excel-ark. Om du vill exportera elevlistan klickar du på [!UICONTROL **Åtgärder**] > [!UICONTROL **Exportera**].
 
@@ -305,13 +305,13 @@ Nu kan du skapa frågorna, som nu blir obligatoriska.
 
 *Skapa frågorna*
 
-Om de två obligatoriska frågorna av någon anledning inte har någon text visas frågorna inte i feedbackformuläret.
+Om de två obligatoriska frågorna av någon anledning inte har någon text kommer frågorna inte att visas i feedbackformuläret.
 
 >[!NOTE]
 >
->Det räcker inte att du aktiverar dessa inställningar på utbildningsprograminstansen. Du måste också aktivera dessa inställningar på nivån Kursinstans för varje kurs i Utbildningsprogrammet.
+>Det räcker inte att du aktiverar dessa inställningar i Learning Program-instansen. Du måste även aktivera dessa inställningar på kursinstansnivå för varje kurs i utbildningsprogrammet.
 
-Om du aktiverar **[!UICONTROL Make All Questions Mandatory]** på sidan Standardinställningar för instans ärvs dessa inställningar av alla nya instanser som skapas därefter.
+Om du aktiverar **[!UICONTROL Make All Questions Mandatory]** på sidan Standardinställningar för instanser kommer alla nya instanser som skapas därefter att ärva dessa inställningar.
 
 ![](assets/instance-defaults-makeallquestionsmandatory.png)
 
@@ -345,9 +345,9 @@ I den här versionen av Learning Manager kan administratören skicka feedback om
 
 Quizrapporter hjälper till att utvärdera en elevs resultat efter slutförande av ett utbildningsprogram eller en kurs.
 
-Learning Manager underlättar för närvarande inlärning i 13 gränssnittsspråk och 32 innehållsspråk. Även om det här alternativet är elevvänligt och underlättar för oss att stödja våra globala elever är det besvärligt för administratörer att hämta rapporter som de försöker hämta på olika platser.
+Learning Manager underlättar för närvarande inlärning på 13 gränssnittsspråk och 32 innehållsspråk. Även om det här alternativet är elevvänligt och ger bekvämlighet när det gäller att stödja våra globala elever, är det ansträngande för administratörer att hämta rapporter som försökts på olika språk.
 
-Quiz-rapporter, visa data på olika språk förutsatt att kursen erbjuds på flera språk. Hittills har rapporter som skapats av Admin visat svar under varandra oberoende av vilket språk frågeformuläret användes på. **Exempel**: Om en användare har gjort ett frågeformulär på nederländska kan administratören bara visa de frågeformulärsrapporter som användare på nederländska försöker sig på åt gången. Administratören som har valt engelska som gränssnittsspråk kunde inte visa rapporter för alla användare samtidigt, oavsett språket som användes.
+Quiz-rapporter, visar data på olika språk förutsatt att kursen erbjuds på flera språk. Hittills har rapporter som genererats av Admin visat svar under varandra oavsett vilket språk som frågesporten gjordes på. **Om en användare till exempel** har gjort ett test på nederländska kan administratören bara se de testrapporter som användare på nederländska har försökt göra åt gången. Administratören som har valt engelska som gränssnittsspråk kunde inte visa rapporter för alla användare samtidigt, oavsett språket som användes.
 
 Detta korrigeras nu eftersom administratören nu kan visa alla rapporter på respektive språk som eleven försökt alla på en gång, oavsett vilken innehållsplats som valts. Quiz-försök på olika språk läggs till som ytterligare kolumner i frågeformulärsrapporten.
 
@@ -355,9 +355,9 @@ Detta korrigeras nu eftersom administratören nu kan visa alla rapporter på res
 
 *Aktivera L1-feedback på kontonivå*
 
-En administratör kommer att kunna aktivera L1-feedback för nyligen skapade kurser och utbildningsprogram genom att aktivera den här inställningen på kontonivå. Att aktivera den här inställningen påverkar dock inte befintliga kurser och utbildningsprogram
+En administratör kommer att kunna aktivera L1-feedback för nyskapade kurser och utbildningsprogram genom att aktivera den här inställningen på kontonivå. Om du aktiverar den här inställningen påverkas dock inte befintliga kurser och utbildningsprogram
 
-Om detta är aktiverat kommer feedback för alla nya utbildningar och nya instanser att vara aktiverad som standard. Om en författare/administratör besöker instansen, standardvärden och stänger av den manuellt, respekteras instansen.
+Om det här alternativet är aktiverat kommer alla nya utbildningar och nya instanser att ha feedback aktiverad som standard. Om en författare/administratör besöker instansen stängs den av som standard manuellt, så att den respekteras.
 
 Om du vill aktivera L1-feedback klickar du på **[!UICONTROL Settings]** > **[!UICONTROL Feedback]** i Admin-appen.
 
@@ -426,9 +426,9 @@ Du kan ställa in L1- och L3-feedbackfrågeformulär och även ställa in påmin
 
 1. Klicka på **[!UICONTROL Save]** längst upp till höger på sidan.
 
-I L1-feedback kan du se två uppsättningar frågeformulär tillsammans med en standardfråga. Det första frågeformuläret avser kurser i egen takt som också kan användas för aktivitetsbaserade kurser. Andra uppsättningen enkäter kan användas för kurser av typen klassrum och virtuellt klassrum.
+I L1-feedback kan du se två uppsättningar frågeformulär tillsammans med en standardfråga. Den första uppsättningen frågeformulär avser kurser i egen takt som också kan användas för aktivitetsbaserade kurser. Den andra uppsättningen frågeformulär kan användas för kurser av typen Klassrum och virtuellt klassrum.
 
-## Visa feedback om L1 och L3 {#viewl1andl3feedback}
+## Visa feedback från L1 och L3 {#viewl1andl3feedback}
 
 Du kan visa L1-feedback från elever för en kurs och L3-feedback från chefer för elever.
 
@@ -450,13 +450,13 @@ Klicka på **[!UICONTROL Settings]** > **[!UICONTROL General]** för att aktiver
 
 *Aktivera kursmoderering*
 
-Klicka på meddelandet för att se de ändringar som författaren har gjort i kursen. Godkänn eller avvisa sedan de ändringar som författaren har gjort. Om du väljer att godkänna kommer kursen att publiceras igen. Om du avvisar uppdateringarna finns den tidigare versionen av kursen kvar. I båda fallen skickas ett meddelande till författaren.
+Klicka på meddelandet för att se de ändringar som författaren har gjort i kursen. Godkänn eller avvisa sedan de ändringar som författaren har gjort. Om du väljer att godkänna kommer kursen att publiceras igen. Om du avvisar uppdateringarna kommer den tidigare versionen av kursen att finnas kvar. I båda fallen skickas ett meddelande till författaren.
 
 ![](assets/1.png)
 
-*Författarförfrågningar för kursuppdateringar*
+*Författarens önskemål om kursuppdateringar*
 
-Om det finns flera författare som uppdaterar samma kurs kommer den senaste eller senast utförda ändringen att återspeglas i administratörens meddelande. Sedan kan du godkänna eller avvisa de senaste ändringarna.
+Om det finns flera författare som uppdaterar samma kurs kommer den senaste eller senast utförda ändringen att återspeglas i administratörens meddelande. Du kan sedan godkänna eller avvisa de senaste ändringarna.
 
 ## Exportera checklistedata {#export-checklist-data}
 
@@ -468,8 +468,8 @@ Om det finns flera författare som uppdaterar samma kurs kommer den senaste elle
 
 Klicka på alternativet och utför följande på kurssidan:
 
-1. Markera instansen och modulen.
-1. Klicka på **[!UICONTROL Actions]** > **[!UICONTROL Export]** och exportera sedan elevens checklisterapport.
+1. Välj instansen och modulen.
+1. Klicka på **[!UICONTROL Actions]** > **[!UICONTROL Export]** och exportera sedan rapporten över checklistan för elever.
 
 På sidan **[!UICONTROL Checklist]** kan en instruktör exportera checklisterapporten från listrutan **[!UICONTROL Actions]**.
 
@@ -546,10 +546,10 @@ Gör så här för att lägga till kommentarer om slutförande:
    ![](assets/comments.png)
    _Slutförandekommentar_
 
-Den här processen är densamma för utbildningsvägar och certifieringar. För utbildningsvägar kan du filtrera och välja alla kurser eller bara enskilda kurser som ska markeras som slutförda.
+Den här processen är densamma för utbildningsvägar och certifieringar. För utbildningsvägar kan du filtrera för att välja alla kurser eller bara enskilda kurser som ska markeras som slutförda.
 
 ![](assets/learning-path.png)
-_Välj flera kurser att slutföra_
+_Välj flera kurser för slutförande_
 
 Kommentarer visas i rapporten [Elevens betygsutdrag](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts).
 
@@ -561,7 +561,7 @@ Administratören kan förhandsgranska kurser genom att klicka på alternativet *
 1. Klicka på en kursruta i listan över kurser på sidan.
 1. Klicka på Förhandsgranska som elev i den vänstra rutan och klicka på modulnamnet på sidan för att förhandsgranska kursmodulen i spelaren.
 
-## Kurseffektivitet {#courseeffectiveness}
+## Kursens effektivitet {#courseeffectiveness}
 
 Kursens effektivitet utvärderas för att förstå nyttan av en kurs för eleven. Det är en kombination av resultat från elevfeedback på kursinnehållet, quizresultaten för en elev och chefens feedback som utvärderar en elev baserat på lärdomar från kursen.
 
@@ -654,9 +654,9 @@ Som administratör eller chef kan du lägga till kommentarer när du registrerar
 
 Kommentaren visas **inte** för eleven.
 
-När en administratör genererar elevens kursrapport visas eventuella kommentarer i rapporten. Dialogrutan Sammanfattning visas med antalet användare från inkluderingsuppsättningen, exkluderingsuppsättningen och användare som redan är registrerade i kursinstansen.
+När en administratör genererar elevens kursrapport visas alla kommentarer, om de läggs till, i rapporten. Sammanfattningsdialogrutan visas med antalet användare från inkluderingsuppsättningen, exkluderingsuppsättningen och användare som redan är inskrivna i kursomgången.
 
-I dialogrutan **[!UICONTROL Enroll Learners]** expanderar du alternativet **[!UICONTROL Advanced Options]**. Ange den obligatoriska kommentaren i fältet **[!UICONTROL Additional Comment]**.
+I dialogrutan **[!UICONTROL Enroll Learners]** expanderar du alternativet **[!UICONTROL Advanced Options]**. Ange den önskade kommentaren i fältet **[!UICONTROL Additional Comment]** .
 
 ![](assets/comment-for-learner.png)
 
@@ -672,9 +672,9 @@ Sök efter registrerade användare i utbildningsobjektets elevavsnitt med hjälp
 
 Den här typen av sökning kallas ibland även automatisk komplettering, inkrementell sökning, sökning allteftersom du skriver, textbunden sökning eller direktsökning.
 
-När du skriver för en elev eller en användargrupp i sökfältet hittas en eller flera matchningar för söktermerna och visas direkt för dig.
+När du skriver för en elev eller en användargrupp i sökfältet hittas en eller flera matchningar för söktermen och den visas omedelbart för dig.
 
-Processen gör att du kan hitta vad du letar efter på ett mycket snabbare och mindre besvärligt sätt än att utföra ett antal sökningar i en rad.
+Processen gör att du kan hitta det du letar efter på ett mycket snabbare och mindre besvärligt sätt än att utföra ett antal sökningar i rad.
 
 Elever eller användargrupper visas i alla instanser efter en sökning. För varje elev visas instansen där eleven är registrerad i kolumnen **[!UICONTROL Instance]**.
 
@@ -695,11 +695,11 @@ Med sökresultaten kan du dessutom välja en elev eller användargrupp och utfö
 * Markera slutförande
 * Återställ modul
 
-När du utför en sökning är alternativet Avregistrera > Massutskick i listrutan Åtgärder inaktiverat för kurs-/utbildningsprogrammet.
+När du utför en sökning inaktiveras alternativet Avregistrera > flera mängder i rullgardinslistan Åtgärder för kursen/utbildningsprogrammet.
 
-## Dela QR-kod med elever som ska registreras, slutföras eller båda {#shareqrcodewithlearnerstoenrollcompleteorboth}
+## Dela QR-kod med elever för att registrera sig, slutföra eller båda {#shareqrcodewithlearnerstoenrollcompleteorboth}
 
-Administratörer i Adobe Learning Manager kan dela QR-koderna med elever för att snabbt registrera sig för kursen. De tre olika QR-koderna används för att markera &quot;registrering&quot;, &quot;slutförande&quot; eller &quot;registrering och slutförande&quot; för en kurs.
+Administratörer i Adobe Learning Manager kan dela QR-koderna med elever så att de snabbt kan anmäla sig till kursen. De tre olika QR-koderna används för att markera &quot;inskrivning&quot;, &quot;slutförande&quot; eller &quot;inskrivning och slutförande&quot; av en kurs.
 
 Elever kan helt enkelt skanna den aktuella QR-koden med Adobe Learning Manager-enhetsappen.
 

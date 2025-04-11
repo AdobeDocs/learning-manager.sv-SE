@@ -4,7 +4,7 @@ jcr-language: en_us
 title: E-postmallar
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '1461'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Administratörer kan också välja att inte skicka e-postmeddelanden för vissa 
 
 I den här utbildningen får du lära dig anpassa enskilda e-postmallar och anpassa inställningar på kurs- och kontonivå för e-postmallar.
 
-[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QYL4NT4P&amp;mv=display&amp;mv2=display#/course/8318925)
+[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318925)
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
@@ -223,7 +223,7 @@ Mallarna har även stöd för avancerade redigeringsfunktioner, till exempel att
 
 I den här utbildningen får du lära dig hur du konfigurerar instansstandardinställningar, lägger till en ny instans, annullerar och öppnar en instans på nytt och konfigurerar e-postmallar för en instans.
 
-[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P3KMQNZS&amp;mv=display&amp;mv2=display#/course/8318911)
+[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318911)
 
 Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
 

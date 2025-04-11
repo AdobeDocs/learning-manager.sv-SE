@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Taggar
 contentowner: dvenkate
 exl-id: ea39d2a2-3d2b-43ae-8f8d-b97420b9d008
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Du kan sortera taggarna baserat på användning eller alfabetisk ordning med alt
 
 Denna utbildning lär dig lägga till, redigera, ersätta, lägga till och ta bort taggar. Du får också lära dig ändra behörighetsinställningar och använda taggfilter.
 
-[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=5S7K7ZCT&amp;mv=display&amp;mv2=display#/course/8318920)
+[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318920)
 
 Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
 

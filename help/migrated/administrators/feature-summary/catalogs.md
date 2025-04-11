@@ -4,7 +4,7 @@ title: Kataloger
 description: Kataloger är en samling utbildningar - kurser, utbildningsprogram och certifieringar. Använd kataloger för att ge elever tillgång till en anpassad uppsättning utbildningar. Du kan koppla inlärning till en katalog när du skapar en ny katalog.
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: 01215811307ef3fa2a365020c6f42fe3ea5a0240
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '2487'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Administratörer kan skapa anpassade kataloger om du vill göra selektiva kurser
 
 I den här utbildningen får du lära dig skapa och hantera kataloger.
 
-[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QTV3NXVQ&amp;mv=display&amp;mv2=display#/course/8318922)
+[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318922)
 
 Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
 
@@ -75,31 +75,31 @@ Så här skapar du en katalog:
 
 1. Välj ett utbildningsprogram som du vill lägga till i katalogen i listan över utbildningsprogram.
 1. Spara ändringarna. Gå tillbaka till listan med kataloger och klicka på den nya katalogen i listan.
-1. Klicka på **[!UICONTROL Content]** i den vänstra rutan på sidan för den nya katalogen.
+1. På sidan för den nya katalogen klickar du på **[!UICONTROL Content]** i den vänstra rutan.
 
-   Utbildningsprogrammet som du har lagt till visas på fliken **[!UICONTROL Learning Programs]**.
+   Utbildningsprogrammet som du har lagt till visas på fliken **[!UICONTROL Learning Programs]** .
 
 ## Lägg till en certifiering i katalogen {#cert}
 
 1. I listan över certifieringar väljer du en certifiering som du vill lägga till i katalogen.
 1. Spara ändringarna. Gå tillbaka till listan med kataloger och klicka på den nya katalogen i listan.
-1. Klicka på **[!UICONTROL Content]** i den vänstra rutan på sidan för den nya katalogen.
+1. På sidan för den nya katalogen klickar du på **[!UICONTROL Content]** i den vänstra rutan.
 
-   Certifieringen som du har lagt till visas på fliken **[!UICONTROL Certifications]**.
+   Certifieringen som du har lagt till visas på fliken **[!UICONTROL Certifications]** .
 
-## Lägg till ett arbetsstöd i katalogen {#job}
+## Lägg till ett jobbhjälpmedel i katalogen {#job}
 
-1. Välj ett arbetsstöd som du vill lägga till i katalogen i listan över arbetsstöd.
-1. Spara ändringarna. Gå tillbaka till listan med kataloger och klicka på den nya katalogen i listan.
-1. Klicka på **[!UICONTROL Content]** i den vänstra rutan på sidan för den nya katalogen.
+1. I listan över jobbhjälpmedel väljer du ett jobbhjälpmedel som du vill lägga till i katalogen.
+1. Spara ändringarna. Gå tillbaka till listan över kataloger och klicka på den nya katalogen i listan.
+1. På sidan för den nya katalogen klickar du på **[!UICONTROL Content]** i den vänstra rutan.
 
-   Arbetsstödet som du har lagt till visas på fliken **[!UICONTROL Job Aids]**.
+   Jobbhjälpen som du har lagt till visas på fliken **[!UICONTROL Job Aids]** .
 
-Innehållet visas på var och en av dessa flikar om det redan finns på kontot. Annars måste du skapa innehållet först. Om du till exempel inte har lagt till någon av de kurser eller utbildningsprogram som redan finns i Learning Manager-programmet måste du börja skapa dem först.
+Innehållet visas på var och en av dessa flikar om det redan är tillgängligt i kontot. Annars måste du skapa innehållet först. Till exempel, om du inte har lagt till någon av de kurser eller inlärningsprogram som redan finns i Learning Manager-applikationen, måste du börja skapa dem först.
 
-## Massborttagning av kurser, utbildningsvägar eller arbetsstöd
+## Massborttagning av kurser, utbildningsvägar eller jobbhjälpmedel
 
-Administratörer eller anpassade administratörer kan ta bort kurser, utbildningsvägar eller arbetsstöd i grupp. Gå till **[!UICONTROL Catalogs]** och välj en katalog. Välj **[!UICONTROL Edit Content]** på sidan **[!UICONTROL Content]**. Välj sedan alternativet **[!UICONTROL Remove]** bredvid kurser, utbildningsvägar eller arbetsstöd och välj **[!UICONTROL Save]**.
+Administratörer eller anpassade administratörer kan ta bort kurser, utbildningsvägar eller jobbhjälpmedel i bulk. Gå till **[!UICONTROL Catalogs]** och välj en katalog. Välj **[!UICONTROL Edit Content]** på sidan **[!UICONTROL Content]**. Välj sedan alternativet **[!UICONTROL Remove]** bredvid kurser, utbildningsvägar eller arbetsstöd och välj **[!UICONTROL Save]**.
 
 ## djuplänk till katalog för elever {#deep-link}
 
@@ -145,7 +145,7 @@ Kurser, utbildningsprogram, arbetsstöd och certifieringar är de utbildningsobj
 
 Den här utbildningen lär dig dela kataloger med interna användargrupper och externa Adobe Learning Manager-konton.
 
-[![knapp](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
+[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318924)
 
 Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
 
@@ -177,7 +177,7 @@ Ange den underdomän som är kopplad till ditt Learning Manager-konto. Klicka p�
 
 **Gräns för registreringar**
 
-Du kan ställa in gränsen för antalet registreringar per kurs i den delade katalogen genom att lägga till antalet i fältet **Tillåtna registreringar**. Mottagaren av den delade katalogen kan inte använda kurserna med registreringsgränsen i utbildningsplaner.
+Du kan ställa in gränsen för antalet registreringar per kurs i den delade katalogen genom att lägga till antalet i fältet **Tillåtna registreringar**. Mottagaren av den delade katalogen kan inte använda kurser med inskrivningsgräns i utbildningsplaner.
 
 **Förfaller**
 
@@ -185,17 +185,17 @@ Du kan ange den delade katalogens giltighet genom att ange ett förfallodatum i 
 
 Klicka på **[!UICONTROL Save]** när du har lagt till all nödvändig information. Klicka på rullgardinsmenyn **[!UICONTROL Actions]** i det övre högra hörnet på sidan och klicka på **[!UICONTROL Share]** för att dela katalogen med externa konton.
 
-Katalogerna som ägs av den kontodelande får endast delas med externa konton. Du kan inte dela kataloger som redan delas av andra konton med dig.
+Kataloger som ägs av innehavaren av det delande kontot får endast delas med externa konton. Du kan inte dela kataloger som redan delas av andra konton till dig.
 
-Administratören för det externa delade kontot får ett meddelande i programmet och e-postmeddelandet. Mottagaren måste klicka på den unika URL som angetts i e-postmeddelandet eller klicka på meddelandet och acceptera den delade katalogbegäran. I programmet kan mottagaren välja att klicka på Godkänn eller Avvisa. Innan den delade katalogen accepteras kan mottagaren visa kataloginformation, till exempel vem som delade den, delat på datum, utgångsdatum och så vidare.
+Administratören för det externa delade kontot får ett meddelande i programmet och via e-post. Mottagaren måste klicka på den unika URL:en i e-postmeddelandet eller klicka på aviseringsmeddelandet och acceptera den delade katalogbegäran. I programmet kan mottagaren välja att klicka på Acceptera eller Avvisa. Innan mottagaren accepterar den delade katalogen kan mottagaren visa kataloginformationen, t.ex. delad av vem, delad den-datum, utgångsdatum och så vidare.
 
-Den delade katalogen visas i mottagarkontot. Utbildningsobjekten som är associerade med den delade katalogen visas i respektive administratörs- och författarroller i programmet. Du kan skilja mellan de delade kataloger som du får genom att hitta ikonen &lt;— pil som visas för de kataloger du har skaffat.
+Den delade katalogen visas i mottagarkontot. De utbildningsobjekt som är associerade med den delade katalogen visas i programmets respektive administratörs- och författarroller. Du kan särskilja de delade kataloger som du tar emot genom att hitta &lt;-- arrow icon displayed for the catalogs acquired by you.
 
-Utbildningsobjekten med öppet/aktivt läge för registrering läggs bara till i delade kataloger.
+Lärobjekt med öppet/aktivt läge för registrering läggs bara till i delade kataloger.
 
 **Sluta dela kataloger**
 
-Om du slutar dela en katalog inaktiveras ett externt konto i programmet. Om du vill ta bort delningen av en katalog klickar du på **[!UICONTROL Actions]** längst upp till höger på sidan och klickar på **[!UICONTROL Unshare]**. Du kan när som helst sluta dela en katalog. När delningen av en katalog avbryts flyttas alla utbildningsobjekt i den delade katalogen till tillståndet pensionerad. De inaktiverade katalogerna visas som indragna i mottagarens program.
+Att ta bort delningen av en katalog är att inaktivera ett externt konto i programmet. Om du vill sluta dela en katalog klickar du på **[!UICONTROL Actions]** längst upp till höger på sidan och klickar på **[!UICONTROL Unshare]**. Du kan när som helst ta bort delningen av en katalog. När en katalog inte delas flyttas alla utbildningsobjekt i den delade katalogen till tillbakadraget tillstånd. De inaktiverade katalogerna visas som tillbakadragna i mottagarens program.
 
 Du kan bara ta bort ett externt konto från en delad lista innan mottagaren accepterar begäran.
 
@@ -283,7 +283,7 @@ Alla ändringar som görs för utbildningsobjekt i ägarapplikationen överförs
 
 ## Spridning av funktioner för delad katalog {#propagation}
 
-Administratörer på alla konton i en organisation kan dela kataloger med flera konton. Mottagarna av de delade katalogerna kan hämta utbildningsobjekten som är kopplade till de delade katalogerna. Utöver den här funktionen kan mottagarna från november 2016-versionen av Learning Manager förvärva egenskaper för utbildningsobjekt som delas via katalogerna.
+Administratörer på alla konton i en organisation kan dela kataloger med flera konton. Mottagarna av de delade katalogerna kan hämta de lärobjekt som är kopplade till de delade katalogerna. Utöver den här funktionen kan mottagarna från november 2016-versionen av Learning Manager förvärva egenskaper för utbildningsobjekt som delas via katalogerna.
 
 Om en administratör för ett konto gör ändringar i utbildningsobjekten efter att ha delat kataloger, kommer samma ändringar att spridas till alla utbildningsobjekt som förvärvats av mottagaren av delade kataloger.
 
@@ -296,19 +296,19 @@ Utbildningsobjekten som stöds som en del av den här spridningsfunktionen är f
 * Arbetsstöd
 * Standardinstanser av kurser och utbildningsprogram
 
-Om mottagarna av delade kataloger ändrar något av de mottagna fälten för utbildningsobjekt i Learning Manager-appen sprids inte ytterligare uppdateringar av dessa fält för sådana utbildningsobjekt. Om mottagaren till exempel redigerar kursfält som kursnamn eller kort beskrivning, sker ingen spridning när ägaren ändrar dessa fält. Med andra ord blir sådana redigerade fält för utbildningsobjekt lokala för mottagarens konto för Learning Manager.
+Om mottagarna av delade kataloger ändrar något av de mottagna fälten för lärobjekt i Learning Manager-applikationen, sker ingen ytterligare spridning av uppdateringar av dessa fält för sådana inlärningsobjekt. Om mottagaren till exempel redigerar kursfälten, till exempel Kursnamn eller Kort beskrivning, sker ingen spridning när ägaren ändrar dessa fält. Med andra ord blir sådana redigerade lärobjektsfält lokala för mottagarens Learning Manager-konto.
 
 ## Vanliga frågor {#frequentlyaskedquestions}
 
-+++Hur lägger man till kurser, LP, och, Certifieringar till en katalog?
++++Hur lägger man till kurser, LP och certifieringar i en katalog?
 
-Information om hur du lägger till kurser, certifieringar och utbildningsprogram i katalogen finns i [stegen](catalogs.md#q1) för att inkludera dem i katalogen.
+Om du vill lägga till kurser, certifieringar och utbildningsprogram i katalogen kan du läsa stegen](catalogs.md#q1) för att inkludera dessa i katalogen[.
 
 +++
 
 +++Hur delar man en katalog externt och internt?
 
-Se avsnitten nedan om du vill dela katalogen internt eller externt:
+Om du vill dela katalogen internt eller externt kan du läsa avsnitten nedan:
 
 * [Dela internt](catalogs.md#int)
 * [Dela externt](catalogs.md#ext)
@@ -343,9 +343,9 @@ När du har skapat katalogetiketter kan du använda dem på specifika kataloger 
 
 +++
 
-+++Hur ger jag nyligen skapade externa användare åtkomst till vissa kataloger?
++++Hur ger jag åtkomst till vissa kataloger till nyskapade externa användare?
 
-1. Du som är administratör väljer den katalog som du vill ge åtkomst till en extern användarprofil.
+1. Som administratör väljer du den katalog som du vill ge åtkomst till en extern användarprofil.
 1. Dela internt > Lägg till fler > Välj respektive extern användarprofil
 1. Växla för att aktivera katalogen.
 
@@ -353,6 +353,6 @@ När du har skapat katalogetiketter kan du använda dem på specifika kataloger 
 
 +++Hur begränsar jag användare till att endast se specifika kataloger?
 
-Inaktivera standardkatalogen och aktivera endast katalogen som skapades och beviljades åtkomst till externa användare.
+Inaktivera standardkatalogen och aktivera endast den katalog som har skapats och beviljats åtkomst till externa användare.
 
 +++
