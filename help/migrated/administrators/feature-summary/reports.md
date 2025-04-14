@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Rapporter
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 64e6700a944fa3e258461a42c3934f3fa2c1d7a6
 workflow-type: tm+mt
 source-wordcount: '7469'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 Läs mer om de rapporter som är kopplade till administratörsrollen i Learning Manager-programmet.
 
-Med Adobe Learning Manager kan ni skapa olika rapporter för att spåra, övervaka och styra elevernas aktiviteter. Elevernas aktiviteter spåras och registreras automatiskt i databasen. Rapporter som chef och administratör genereras från databasen.
+Med Adobe Learning Manager kan du skapa olika rapporter för att följa, övervaka och kontrollera elevaktiviteter. Elevaktiviteter spåras och hämtas automatiskt till databasen. Chefs- och administratörsrapporter genereras från databasen.
 
 ## Översikt {#overview}
 
@@ -102,7 +102,7 @@ Det valda filtret för datum och användargrupp används i alla relevanta diagra
 
 ## Instrumentpanel för utbildningsinnehåll {#trainingcontentdashboard}
 
-Instrumentpanelen för utbildningsinnehåll ger insikter om utbildningar som finns tillgängliga på plattformen. Du kan visa populära utbildningar eller spåra alla tillgängliga utbildningar.
+På instrumentpanelen för utbildningsinnehåll finns insikter om utbildningar som är tillgängliga på plattformen. Du kan visa populära utbildningar eller spåra alla tillgängliga utbildningar.
 
 ### Utbildningsrapport {#trainingsreport}
 
@@ -232,7 +232,7 @@ Du kan också se ett stapeldiagram över kompetenser som pågår och har uppnåt
 
 ### Efterlevnadstavla
 
-**Adobe Learning Manager** erbjuder en kontrollpanel för efterlevnad för alla administratörer och chefer. Administratörer kan skapa en instrumentpanel för efterlevnad och dela den med chefer. Chefer kommer att kunna se den nyligen delade instrumentpanelen i sina appar och kan enkelt spåra hur deras teammedlemmar följer reglerna för en viss utbildning. Efterlevnadstavlan gör att administratörer kan kategorisera anpassade efterlevnadskurser i specifika kategorier (t.ex. Försäljning, Marknadsföring och Juridik). Anpassade kompatibilitetskategorier drivs av **[!UICONTROL Catalog Labels]**.
+**Adobe Learning Manager** har en efterlevnadstavla för alla administratörer och chefer. Administratörer kan skapa en efterlevnadstavla och dela den med chefer. Chefer kommer att kunna se den nyligen delade instrumentpanelen i sina appar och kan enkelt spåra hur deras teammedlemmar följer reglerna för en viss utbildning. Efterlevnadstavlan gör att administratörer kan kategorisera anpassade efterlevnadskurser i specifika kategorier (t.ex. Försäljning, Marknadsföring och Juridik). Anpassade kompatibilitetskategorier drivs av **[!UICONTROL Catalog Labels]**.
 
 ![](assets/compliance-dashboard-admin.png)
 
@@ -293,12 +293,12 @@ Gör så här för att skapa och dela en efterlevnadstavla:
 
 Administratörer kan dela kontrollpanelen med andra administratörer och anpassade administratörer, vilket ger dem omedelbar åtkomst till alla efterlevnadstavlor.
 
-Följ dessa steg för att dela instrumentpanelen med administratörer och anpassade administratörer:
+Följ de här stegen för att dela kontrollpanelen med administratörer och anpassade administratörer:
 
-1. Logga in som en **[!UICONTROL Admin]**.
-2. Navigera till > **[!UICONTROL Reports]** **[!UICONTROL Learning Summary]**.
-3. Välj **[!UICONTROL Admin View]** i **[!UICONTROL Compliance Dashboard]** avsnittet.
-4. Välj knappen **[!UICONTROL Share Dashboard]** .
+1. Logga in som **[!UICONTROL Admin]**.
+2. Gå till **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**.
+3. Välj **[!UICONTROL Admin View]** i avsnittet **[!UICONTROL Compliance Dashboard]**.
+4. Välj knappen **[!UICONTROL Share Dashboard]**.
 
    ![](assets/share-dashboard.png)
    _Dela tavla - Admin_
@@ -307,9 +307,9 @@ Följ dessa steg för att dela instrumentpanelen med administratörer och anpass
 6. Välj de ytterligare kurser, utbildningsvägar eller certifieringar som du vill dela med administratörer.
 
    ![](assets/share-button.png)
-   _Dela instrumentpanel för efterlevnad_
+   _Dela efterlevnadstavla_
 
-7. Markera de användare eller användargrupper som du vill dela instrumentpanelen med och välj **[!UICONTROL Share]**.
+7. Välj de användare eller användargrupper som du vill dela kontrollpanelen med och välj **[!UICONTROL Share]**.
 
 ##### Visa efterlevnadstavlan - Anpassade administratörer och andra administratörer
 
@@ -341,9 +341,9 @@ Så här delar du instrumentpanelen med butikschefer:
 5. Välj kompatibilitetsetiketterna på rullgardinsmenyn **[!UICONTROL Select Custom Compliance]**.
 Det här alternativet markerar alla kurser som har de valda kompatibilitetsetiketterna.
 6. Välj de ytterligare kurser, utbildningsvägar eller certifieringar som du vill dela med administratörer.
-7. Markera de användare eller användargrupper som du vill dela instrumentpanelen med och välj **[!UICONTROL Share]**.
+7. Välj de användare eller användargrupper som du vill dela kontrollpanelen med och välj **[!UICONTROL Share]**.
 
-##### Visa instrumentpanelen för efterlevnad – Chef
+##### Visa efterlevnadstavlan - chef
 
 Se den här artikeln [Visa efterlevnadstavlan](/help/migrated/managers/feature-summary/manager-dashboard.md#view-the-dashboard) för mer information.
 
@@ -433,8 +433,8 @@ Du som är administratör kan hämta rapporter för kurser. Gör så här:
    ![](assets/course-reports.png)
    *Kursrapporter*
 
-1. Du omdirigeras till kurssidan. Du kan exportera quizpoäng per användare och per fråga baserat på varje registrering genom att välja den specifika registreringstypen.
-1. Välj **[!UICONTROL Export Quiz Score]** det här alternativet om du vill exportera rapporten. En **[!UICONTROL Generating Report Request]**-dialogruta visas. Klicka på **[!UICONTROL OK]** för att bekräfta.
+1. Du omdirigeras till kurssidan. Du kan exportera quiz-poäng per användare och per fråga baserat på varje registrering genom att välja den specifika registreringstypen.
+1. Välj **[!UICONTROL Export Quiz Score]** för att exportera rapporten. En **[!UICONTROL Generating Report Request]**-dialogruta visas. Klicka på **[!UICONTROL OK]** för att bekräfta.
 
    ![](assets/generating-reportrequest.png)
    *Genererar rapportförfrågan*
@@ -443,12 +443,21 @@ Du som är administratör kan hämta rapporter för kurser. Gör så här:
    >
    >Den exporterade quiz-poängrapporten innehåller poänginformationen för varje försök om alternativet Flera försök är konfigurerat för modulen.
 
+### Generera kursrapporter
+
+>[!INFO]
+>
+>I den här utbildningen får du lära dig hur du exporterar kursrapporter och konfigurerar e-postprenumerationer för rapporterna.<br><br>[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904)</br></br>
+
+
+Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
+
 ### Elevens betygsutdrag {#LearnerTranscripts-1}
 
-Med Adobe Learning Manager kan administratörer i en organisation generera utskrifter som är kopplade till elever. Learner Transcript-rapporten innehåller följande:
+Med Adobe Learning Manager kan administratörer i en organisation generera utskrifter som är kopplade till elever. Elevens betygsrapport innehåller följande:
 
-1. Elevavskrift: Instrumentpanel för läraktivitet
-1. Färdighet: Instrumentpanel för färdigheter
+1. Elevens betygsutdrag: instrumentpanel för utbildningsaktivitet
+1. Kompetens: instrumentpanel för kompetens
 1. Efterlevnadstavla
 
 Elevens betygsutdrag i Excel-rapporter visar kolumnerna Obligatoriska krediter och intjänade poäng i decimaltal.
@@ -486,17 +495,17 @@ Den extraherade rapporten innehåller information om följande:
 
 * Namn
 * Typ av arbetsstöd
-* Status för sysselsättningsstöd (offentliggjort eller återkallat)
+* Status för arbetsstöd (offentliggjort eller återkallat)
 * Registreringsdatum
-* Datum för färdigställande
-* Datum för nedladdning
+* Datum för slutförande
+* Nedladdningsdatum
 * Elevens namn
 * Chefens namn
 * Skapad av
 
-Om du vill ladda ned en rapport gör du något av följande:
+Gör något av följande för att hämta en rapport:
 
-* Öppna  **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Job Aid Reports]**. Dialogrutan **[!UICONTROL Generating Report Request]** visas. Klicka på **[!UICONTROL Ok]**.
+* Öppna **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Job Aid Reports]**. Dialogrutan **[!UICONTROL Generating Report Request]** visas. Klicka på **[!UICONTROL Ok]**.
 * Öppna **[!UICONTROL Job Aid]** > **[!UICONTROL Actions]** > **[!UICONTROL Export Report]**.
 
 ![](assets/job-aids.png)
@@ -590,16 +599,16 @@ I kolumnen **Ändringstyp** visas följande information:
 
 | Ändringstyp | Beskrivning |
 | --- | --- |
-| Skapa | Kurs skapad |
-| Certifiering Lägg till | Certifiering tillagd i katalogen |
-| Certifiering Ta bort | Certifieringen har tagits bort från katalogen |
+| Skapa | Kursen har skapats |
+| Lägg till certifiering | Certifieringen har lagts till i katalogen |
+| Ta bort certifiering | Certifieringen har tagits bort från katalogen |
 | Lägg till innehåll | Innehåll har lagts till i modul |
-| Lägg till kurs | Kurs tillagd i Utbildningsväg |
+| Lägg till kurs | Kursen har lagts till i utbildningsvägen |
 | Ta bort kurs | Kursen har tagits bort från utbildningsvägen |
 | LÄGG TILL ANPASSAD ETIKETT | Anpassad etikett har lagts till i katalogen |
-| Ta bort anpassad etikett | Anpassad etikett har tagits bort från katalogen |
-| Ta bort | Katalogen har tagits bort |
-| Jobbstöd Lägg till | Arbetsstöd har lagts till i katalogen |
+| Ta bort anpassad etikett | Anpassad etikett borttagen från katalogen |
+| Ta bort | Katalogen raderades |
+| Lägg till arbetsstöd | Arbetsstöd har lagts till i katalogen |
 | Ta bort arbetsstöd | Arbetsstöd har tagits bort från katalogen |
 | Lägg till utbildningsväg | Utbildningsväg tillagd i katalog |
 | Ta bort utbildningsväg | Utbildningsväg borttagen från katalog |
@@ -701,7 +710,7 @@ Administratörer kan hämta transkribering av spelifiering i CSV-format. Du kan 
    * Guld har uppnåtts datum
    * Platina har uppnåtts datum
 
-   Dessa kolumner innehåller de datum då nivån uppnåddes för första gången. Kolumnen **[!UICONTROL Current Level]** visar den aktuella nivån för eleven.
+   Dessa kolumner innehåller de datum då nivån uppnåddes för första gången. Kolumnen **[!UICONTROL Current Level]** visar elevens aktuella nivå.
 
    När administratören återställer spelifieringen återställs alla poäng för eleven därefter.
 
@@ -721,16 +730,16 @@ Rapporten hämtas i CSV-format. Filen innehåller följande kolumner:
 * Email/UUID,
 * Status
 * Åtgärd
-* Poäng
+* poäng,
 * Balansera poäng
-* Regel/ Uppgift
-* Regel/uppgift underuppgift,
-* Regel/Uppgiftsdetaljer
+* Regel/uppgift
+* regel/uppgift underuppgift,
+* Regel/uppgiftsinformation
 * typ,
 * Namn,
 * Instansens NameDate har uppnåtts (tidszonen UTC)
-* Starttid för regel/uppgift
-* Sluttid för regel/uppgift
+* Regel/aktivitetens starttid
+* Regel/sluttid för aktivitet
 
 ### Rapport över registrering och avregistrering {#enrollmentandunenrollmentreport}
 
@@ -741,15 +750,15 @@ Hämta en rapport genom att följa dessa steg: Öppna **[!UICONTROL Course/ Lear
 ![](assets/unenrollment.png)
 *Avregistreringsrapport*
 
-### Rapport om återkoppling {#feedback-report}
+### Feedbackrapport {#feedback-report}
 
-Som administratör kan du nu hämta både elevåterkoppling (L1) och chefsåterkoppling (L3) för utvalda utbildningar under en viss period.
+Som administratör kan du nu hämta både elevfeedback (L1) och chefsfeedback (L3) för valda utbildningar under en angiven period.
 
-Du kan exportera data från användargränssnittet eller via PowerBI-anslutningsappen för mer djupgående analys.
+Du kan exportera data från användargränssnittet eller via PowerBI-anslutningen för mer djupgående analys.
 
-L1- och L3-feedbackrapporter ger ett alternativ för att ladda ner en konsoliderad feedbackrapport för L1- och L3-svaren för utvalda utbildningar för ett **ettårsintervall** eller för upp till 10 utvalda utbildningar för valfritt datumintervall.
+Feedback-rapporter för L1 och L3 ger ett alternativ för att hämta en konsoliderad feedback-rapport för L1- och L3-svaren för valda utbildningar för ett intervall på **ett år** eller för upp till 10 valda utbildningar för ett datumintervall.
 
-Logga in som administratör, klicka på **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** och klicka på **[!UICONTROL Feedback Report]** i listan över rapporter .
+Logga in som administratör, klicka på **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** och klicka på **[!UICONTROL Feedback Report]** i listan med rapporter.
 
 ![](assets/download-feedbackreport.png)
 *Hämta feedbackrapporten*
@@ -839,7 +848,7 @@ Välj en instruktör eller flera instruktörer och datumintervallet.
 ![Hämta instruktörsutnyttjanderapport](assets/utilization-report.png)
 *Hämta användningsrapport för instruktör*
 
-Den nedladdade rapporten innehåller följande fält:
+Den hämtade rapporten innehåller följande fält:
 
 * Instruktörens namn
 * Instruktörs-ID
@@ -919,9 +928,9 @@ Granskningsspår för den anpassade rollen innehåller följande fält:
 * Ändringsdatum (tidszonen UTC)
 * Källa
 
-## Prenumerationer via e-post {#emailsubscriptions}
+## E-postprenumerationer {#emailsubscriptions}
 
-Du kan få dina favoritrapporter i ett e-postmeddelande genom att prenumerera på dem.
+Du kan få dina favoritrapporter via e-post genom att prenumerera på dem.
 
 ### Konfigurera e-postprenumerationer
 
@@ -1019,8 +1028,8 @@ Det exporterade kalkylbladet med kontrollpanelsrapporter innehåller detaljerad 
    * Kompetenser som tilldelats och uppnåtts
    * Kurs registrerad och slutförd
    * Kursernas effektivitet
-   * Utbildningsprogram inskrivna och slutförda
-   * Inlärningstid som spenderas per kurs
+   * Registrerade och slutförda utbildningsprogram
+   * Använd utbildningstid per kurs
    * Använd utbildningstid per kvartal
    * Slutförande av certifiering
 
@@ -1063,25 +1072,25 @@ Det exporterade kalkylbladet med kontrollpanelsrapporter innehåller detaljerad 
 
 ## Redigera en rapport {#editareport}
 
-I rapporten klickar du på listrutepilen och väljer alternativet **[!UICONTROL Edit Report]**.
+I rapporten klickar du på rullgardinspilen och väljer alternativet **[!UICONTROL Edit Report]**.
 
 ![](assets/edit-a-report-1.png)
 *Redigera en rapport*
 
-Gör de ändringar som krävs i rapporten. Spara ändringarna genom att klicka på **[!UICONTROL Save]**.
+Gör de ändringar som krävs i rapporten. Klicka på **[!UICONTROL Save]** för att spara ändringarna.
 
 ## Flytta en rapport till en kontrollpanel {#moveareporttoadashboard}
 
 Välj det här alternativet om du vill flytta den aktuella rapporten till en befintlig kontrollpanel. Om du vill flytta rapporten klickar du på alternativet **[!UICONTROL Move to Dashboard]**.
 
 ![](assets/move-a-report.png)
-*Flytta en rapport till en instrumentpanel*
+*Flytta en rapport till en tavla*
 
-Välj den instrumentpanel som du vill att rapporten ska flyttas till och klicka på **[!UICONTROL Move]**.
+Välj tavlan dit du vill flytta rapporten och klicka på **[!UICONTROL Move]**.
 
 ## Skapa en kopia av en rapport {#createacopyofareport}
 
-Om du vill skapa en kopia av rapporten väljer du alternativet **[!UICONTROL Create a Copy]**.
+Välj alternativet **[!UICONTROL Create a Copy]** för att skapa en kopia av rapporten.
 
 ![](assets/copy-a-report.png)
 *Skapa en kopia av en rapport*
@@ -1112,9 +1121,9 @@ Filter visas längst ned i dialogrutan **[!UICONTROL Add]**-rapport baserat på 
 
 **Chef** Du kan välja vilken du vill av cheferna baserat på hierarki. För vissa chefer kan det finnas underordnade chefer och flera anställda som rapporterar till varje underordnad chef.
 
-**Profil** Välj beteckning på din anställde. Det skulle vara till hjälp för att visa rapporter om anställda baserat på deras profil/beteckning. Till exempel datavetare, ingenjör.
+**Profil** Välj anställningsbeteckning. Det skulle vara till hjälp för att visa rapporter om anställda baserat på deras profil/beteckning. Till exempel datavetare, ingenjör.
 
-**Användargrupp** Välj den användargrupp som du vill filtrera rapporterna utifrån. Learning Manager hämtar användargrupperna som definierats för ditt konto från funktionen Användare.
+**Användargrupp** Välj vilken användargrupp du vill filtrera rapporterna från. Learning Manager hämtar användargrupperna som definierats för ditt konto från funktionen Användare.
 
 **Kurs** Du kan filtrera din rapport baserat på valfri kurs genom att välja dem i listrutan.
 
@@ -1175,15 +1184,6 @@ Om det finns flera chefer som rapporterar till dig kan du visa rapporterna snabb
 
 ## Visa kursrapporter {#viewcoursereports}
 
-### Generera kursrapporter
-
->[!INFO]
->
->I den här utbildningen får du lära dig hur du exporterar kursrapporter och konfigurerar e-postprenumerationer för rapporterna.<br><br>[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904)</br></br>
-
-
-Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
-
 Du kan visa rapporterna för varje kurs genom att följa stegen nedan:
 
 1. Klicka på länken **[!UICONTROL View course reports]** på fliken Mina instrumentpaneler på sidan Rapporter.\
@@ -1220,10 +1220,10 @@ Som administratör kan du, förutom att skapa rapporter för ditt konto, även g
 
 När du har upprättat ett kollegialt konto hos en annan användare kan du visa rapporterna för det kollegiala kontot från sidan **[!UICONTROL Reports]**. När du skapar en rapport hittar du fältet **[!UICONTROL Select Account]**. I listrutan som listar alla kollegiala konton som du är associerad med väljer du det konto som du vill visa de delade rapporterna för.
 
-När du skapar ett peer-konto och alternativet Dela katalog inte har valts kan du inte visa det peer-kontot i den här listan.
+När du skapar ett kollegialt konto och alternativet Dela katalog inte har valts kan du inte visa det kollegiala kontot i den här listan.
 
 ![](assets/acc1-jpg.png)
-*Hantera rapporter för peer-konto*
+*Hantera rapporter för kollegialt konto*
 
 1. Markera x- och y-axlarna för den här rapporten och ange datumet för rapporten.
 1. Observera att knappen Delade kataloger är automatiskt aktiverad i filterfältet. Det är obligatoriskt. Om Delad katalog inte är aktiverad innebär det att du inte kan generera eller visa rapporter för det kollegiala kontot.
@@ -1231,9 +1231,9 @@ När du skapar ett peer-konto och alternativet Dela katalog inte har valts kan d
 1. Klicka på [!UICONTROL **Spara**].
 
    ![](assets/acc2.png)
-   *Välj Delad katalog för peer-konto*
+   *Välj Delad katalog för kollegialt konto*
 
-1. När du har klickat på **[!UICONTROL Save]** kan du visa den grafiska representationen av dina rapporter på standardkontrollpanelen. Från den här instrumentpanelen kan du filtrera rapporten ytterligare efter ansvarig för det specifika peer-kontot.
+1. När du har klickat på **[!UICONTROL Save]** kan du visa den grafiska representationen av dina rapporter på standardkontrollpanelen. Från den här instrumentpanelen kan du filtrera rapporten ytterligare av chefen för det specifika kollegiala kontot.
 1. Om det sker några ändringar i katalogen från din sida återspeglas ändringarna omedelbart i de rapporter och tavlor som genereras av kollegiet. Men när kollegan ändrar katalogen visas inte ändringarna automatiskt på instrumentpanelen.
 1. Om du vill att instrumentpanelen ska uppdateras automatiskt måste din kollega skicka en ny kollegial begäran till dig.
 

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: E-postmallar
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 64e6700a944fa3e258461a42c3934f3fa2c1d7a6
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1419'
 ht-degree: 0%
 
 ---
@@ -218,14 +218,6 @@ Du kan även anpassa följande:
 * Redigera e-postsidfoten. Sidfotsområdet innehåller fördefinierade variabler för konto-URL:en, signaturen och eventuell text i fritt format som användaren lägger till.
 
 Mallarna har även stöd för avancerade redigeringsfunktioner, till exempel att formateringen behålls när innehåll kopieras och klistras in från och till Microsoft Word.
-
-### Konfigurera instanser
-
-I den här utbildningen får du lära dig hur du konfigurerar instansstandardinställningar, lägger till en ny instans, annullerar och öppnar en instans på nytt och konfigurerar e-postmallar för en instans.
-
-[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318911)
-
-Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
 
 ## Inline-inbjudningar {#inlineinvitations}
 

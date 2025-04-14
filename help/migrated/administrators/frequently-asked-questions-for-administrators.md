@@ -4,9 +4,9 @@ title: Vanliga frågor för administratörer
 description: Vanliga frågor för Adobe Learning Manager-administratörer
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: 2548370c5b943964e200b6c1d5a4d0d9ca386ba6
+source-git-commit: 1238639763ce6f373b4cc646a311e48733945849
 workflow-type: tm+mt
-source-wordcount: '2557'
+source-wordcount: '2460'
 ht-degree: 0%
 
 ---
@@ -23,12 +23,6 @@ ht-degree: 0%
  </tbody>
 </table>
 
-+++Nytt Experience League-meddelande
-
-Vi har nöjet att meddela att på vår resa mot en bättre anslutning till Adobe-familjen kommer Adobe Learning Manager att lägga till ytterligare en kanal i supportprocessen. Från 12 maj 2025 kan du nu skapa ärenden direkt från Adobe Experience League. I Experience League finns för närvarande Adobe Learning Manager självhjälpsdokumentation, användarhandböcker och bästa praxis. De kommer att vara din primära resurs för alla supportbehov, från självbetjäning till agentbaserad kommunikation. Vi uppskattar din förståelse och ditt stöd när vi gör denna viktiga övergång.
-
-+++
-
 +++Kan jag lägga till flera användare samtidigt? Hur?
 
 Ja, du kan lägga till användare i grupp genom att använda funktionen för CSV-överföring. Klicka [här](/help/migrated/administrators/add-users-in-bulk.md) för mer information.
@@ -37,9 +31,9 @@ Ja, du kan lägga till användare i grupp genom att använda funktionen för CSV
 
 +++Jag skrev fel e-post-ID när jag skapade inloggning för mina elever, hur korrigerar jag det?
 
-För att fixa användarinloggning måste du importera CSV i Learning Manager. Ett exempel på en CSV-fil bifogas längst ned på den här sidan som referens. Eftersom e-post betraktas som en unik identifierare för en person kan den inte redigeras. Följ de här stegen:
+För att åtgärda en användarinloggning måste du importera CSV i Learning Manager. En CSV-exempelfil bifogas längst ned på den här sidan som referens. Eftersom e-post anses vara en unik identifierare för en person kan den inte redigeras. Gör så här:
 
-1. Lägg till samma användare med rätt e-post-ID i CSV och se till att han förblir chef för andra användare genom att lägga till hans e-post-ID i kolumnen &quot;E-postadress till den anställdes chef&quot; i CSV-exempelfilen.
+1. Lägg till samma användare med rätt e-post-ID i CSV och se till att han förblir chef för andra användare genom att lägga till hans e-post-ID i kolumnen &quot;E-post till anställds chef&quot; i CSV-exempelfilen.
 1. Lägg till andra användare i ditt konto i CSV-filen, inklusive dig själv
 1. Importera den här filen från Learning Manager-administrationsprogrammet ->Användare ->Lägg till ->Importera CSV
 1. Mappa alla fält, enligt anvisningarna i dialogrutan, till motsvarande CSV-kolumner.
@@ -47,31 +41,31 @@ För att fixa användarinloggning måste du importera CSV i Learning Manager. Et
 
 Användare ska läggas till på sidan Elever.
 
-[Exempel på CSV.csv för Learning Manager](https://helpx.adobe.com/content/dam/help/en/captivate_prime/learning-manager-sample-csv.zip)
+[Exempel för Learning Manager CSV.csv](https://helpx.adobe.com/content/dam/help/en/captivate_prime/learning-manager-sample-csv.zip)
 
 +++
 
-+++Hur ställer jag in varningar?
++++Hur skapar jag aviseringar?
 
-I Adobe Learning Manager 1.0 kan du skapa meddelanden. Mer information finns i  [frågan om](/help/migrated/administrators/feature-summary/user-notifications.md) meddelanden.
+Du kan skapa aviseringar i Adobe Learning Manager 1.0. Mer information finns i [aviseringsfråga](/help/migrated/administrators/feature-summary/user-notifications.md).
 
 +++
 
 +++Hur lägger jag till certifikat för kurserna?
 
-Adobe Learning Manager tillhandahåller inte certifikat för kurserna. Administratören kan dock skapa utmärkelsetecken för varje kurs genom att klicka på fliken Märken i den vänstra panelen. När administratören skriver in elever till en kurs kan han också koppla ett märke tillsammans med den.
+Adobe Learning Manager tillhandahåller inte certifikat för kurserna. Administratören kan dock skapa utmärkelsetecken för varje kurs genom att klicka på fliken Märken i den vänstra panelen. När administratören registrerar elever för en kurs kan administratören även koppla ett utmärkelsetecken till kursen.
 
 +++
 
 +++Hur importerar jag signaturer för certifikaten?
 
-I Adobe Learning Manager finns det ingen funktion för att importera signaturer för certifieringen eller märket.
+I Adobe Learning Manager finns ingen funktion för att importera signaturer för certifieringen eller märket.
 
 +++
 
-+++Kan jag sätta upp en kalender för kurserna? Hur?
++++Kan jag ställa in en kalender för kurserna? Hur?
 
-I Adobe Learning Manager 1.0 har vi inga möjligheter att ställa in kalendern för kurserna.
+I Adobe Learning Manager 1.0 har vi inga planer på att ange en kurskalender.
 
 +++
 
@@ -93,12 +87,12 @@ Mer information finns i funktionen [Väntelista och närvaro](/help/migrated/adm
 Ja, du kan registrera närvaro genom att följa stegen nedan:
 
 1. Klicka på Kurser i den vänstra rutan när du har loggat in som administratör.
-1. Från listan över tillgängliga kurser klickar du på kursnamnet för valfri klassrumsmodul/kurs. En ny sida visas med detaljerad information om kursen.
-1. Välj eleverna och klicka på Spara för att registrera slutförandet av kursen.
+1. Klicka på kursnamnet på valfri klassrumsmodul/kurs i listan med tillgängliga kurser. En ny sida med detaljerad information om kursen visas.
+1. Välj eleverna och klicka på Spara för att registrera att kursen är slutförd.
 
-Om det finns flera moduler i en kurs och eleven bara har slutfört en av dem, kan du välja en enskild modul och klicka på Spara för att markera slutförandet för eleven. Om eleven slutför alla moduler i en kurs kan du klicka på alternativet Välj alla och klicka på Spara.
+Om det finns flera moduler i en kurs och eleven endast har slutfört en av dem, kan du välja en enda modul och klicka på Spara för att markera slutförandet för eleven. Om eleven slutför alla moduler på en kurs kan du klicka på Välj alla alternativ och klicka på Spara.
 
-För mer information, se  [funktionen för väntelista och närvaro](/help/migrated/administrators/feature-summary/waitlist-attendance-management.md) .
+Mer information finns i funktionen [Väntelista och närvaro](/help/migrated/administrators/feature-summary/waitlist-attendance-management.md).
 
 +++
 
@@ -107,9 +101,9 @@ För mer information, se  [funktionen för väntelista och närvaro](/help/migra
 Du kan lägga till feedback om L3 medan du registrerar elever till kurserna. Lägg till en L3-feedbackfråga genom att följa stegen nedan:
 
 1. Klicka på Kurser i den vänstra rutan när du har loggat in som administratör. Listor över alla kurser visas på den högra sidan.
-1. Klicka på den kursruta som du vill lägga till L3-återkoppling för
-1. Klicka på instansstandard i den vänstra rutan.
-1. Klicka på cirkeln på växlingsknappen bredvid L3 - Feedback om beteendeförändring för att välja den.
+1. Klicka på den kursruta som du vill lägga till L3-feedback för
+1. Klicka på instance default (standardinställning) i den vänstra rutan.
+1. Klicka på växlingsknappen för cirkel på bredvid L3 - feedback om beteendeförändring för att välja den.
 1. Lägg till L3-feedbackfrågan i textområdet under L3-frågan.
 
 +++
@@ -144,9 +138,9 @@ Registrera elever på kurser genom att följa stegen nedan:
 Tilldela elever kompetenser genom att följa stegen nedan:
 
 1. Klicka på **[!UICONTROL Skills]** i den vänstra rutan när du har loggat in som administratör.
-1. Välj en eller flera färdigheter genom att klicka på kryssrutor för varje kompetens och klicka på **[!UICONTROL Actions]** rullgardinsmenyn längst upp till höger på sidan.
+1. Välj en eller flera kompetenser genom att klicka på kryssrutorna vid varje kompetens och klicka på rullgardinsmenyn **[!UICONTROL Actions]** i det övre högra hörnet på sidan.
 1. Klicka på Tilldela till användare.
-1. Börja skriva namnet på användaren, välj i listrutan och klicka på **[!UICONTROL Save]**.
+1. Börja skriva namnet på användaren, välj från rullgardinsmenyn och klicka på **[!UICONTROL Save]**.
 
    >[!NOTE]
    >
@@ -160,9 +154,9 @@ Skapa ett utbildningsprogram genom att följa stegen nedan:
 
 1. Klicka på Utbildningsprogram i den vänstra rutan. Sidan Utbildningsprogram visas med en lista över befintliga utbildningsprogram.
 1. Klicka på Lägg till längst upp till höger på sidan.\
-   Ange programnamn, översikt, beskrivning och klicka på Spara.
+   Ange programnamn, översikt och beskrivning och klicka på Spara.
 1. Klicka på Kurser i den vänstra rutan.
-1. Lägg till en eller flera banor genom att klicka på + på varje kursruta.
+1. Lägg till en eller flera kurser genom att klicka på + på varje kursruta.
 
    >[!NOTE]
    >
@@ -176,13 +170,13 @@ Mer information om utbildningsprogram finns i [Funktionen Utbildningsprogram.](/
 
 +++Hur ändrar eller anpassar jag rapporter för alla roller?
 
-Klicka på rullgardinspilen i det övre högra hörnet av varje rapport för att redigera/ändra rapporter. Klicka på Spara när du har slutfört ändringarna och visa den ändrade rapporten.
+Klicka på rullgardinspilen i det övre högra hörnet av varje rapport för att redigera/ändra rapporter. Klicka på spara när du är klar med ändringarna och visa den ändrade rapporten.
 
 +++
 
 +++Hur ändrar jag kurser, utbildningsprogram och företagsprofil?
 
-Du kan redigera kurser eller utbildningsprogram även efter att du har publicerat dem. Mer information finns i hjälpinnehållet för  [kurser](/help/migrated/administrators/feature-summary/courses.md) och  [utbildningsprogram](/help/migrated/administrators/feature-summary/learning-programs.md) .
+Du kan redigera kurser eller utbildningsprogram även efter att du har publicerat dem. Mer information finns i [Kurser](/help/migrated/administrators/feature-summary/courses.md) och [utbildningsprogram](/help/migrated/administrators/feature-summary/learning-programs.md) Hjälpinnehåll.
 
 Om du vill ändra företagsprofilen klickar du på **[!UICONTROL Settings]** i den vänstra rutan och sedan på **[!UICONTROL Change]** i det övre högra hörnet på sidan.
 
@@ -195,25 +189,25 @@ Klicka på Kurser i den vänstra rutan när du har loggat in som administratör.
 Du kan söka på kurser på två sätt:
 
 1. Klicka på sökikonen som visas i det övre högra hörnet. Ett sökfält visas. Skriv in kursnamnet eller några nyckelord som är associerade med dina kurser för att hitta dina kurser.
-1. Genom att filtrera listan över kurser med hjälp av filtren.
+1. Genom att filtrera kurslistor med filtren.
 
-Du kan filtrera kurserna efter tillstånd, till exempel Alla, publicerade och Tillbakadragna, genom att klicka på vart och ett av dessa alternativ. Du kan också söka baserat på kompetenser genom att klicka på Kompetenser och genom att välja var och en av dem.
+Du kan filtrera kurserna efter tillstånd som Alla, Publicerade och Utfasade genom att klicka på vart och ett av dessa alternativ. Du kan också söka baserat på kompetenser genom att klicka på Kompetenser och välja var och en av dem.
 
-Baserat på ditt val kan du se den filtrerade listan över kurser och välja de kurser som krävs.
-
-+++
-
-+++Kan jag ändra teman för applikationen? Hur?
-
-Ja, du kan ändra teman och varumärke för Learning Manager-applikationen enligt kraven i din organisation. En uppsättning med fem representativa bilder tillhandahålls för att förhandsgranska dina färgtemaändringar innan du tillämpar dem på ditt program. Bläddra igenom dessa bilder genom att klicka &lt; and > på symbolerna till vänster respektive höger sida av bilderna för att förhandsgranska.
-
-Klicka **[!UICONTROL Branding]** på den vänstra rutan för att uppdatera ditt organisationsnamn, ändra underdomän, loggstilar och teman. Klicka intill **[!UICONTROL Edit]** vart och ett av dessa avsnitt för att ändra innehållet.
-
-Mer information finns i hjälpen](/help/migrated/administrators/feature-summary/themes.md) för [färgteman och varumärken.
+Beroende på ditt val kan du visa den filtrerade listan över kurser och välja de kurser som krävs.
 
 +++
 
-+++Hur ställer jag in emblem för kurserna?
++++Kan jag ändra teman för programmet? Hur?
+
+Ja, du kan ändra teman och varumärke för Learning Manager-programmet enligt organisationens krav. En uppsättning med fem representativa bilder tillhandahålls för att förhandsgranska dina färgtemaändringar innan du tillämpar dem på ditt program. Bläddra igenom bilderna genom att klicka på symbolerna &lt; och > till vänster och höger om bilderna för att förhandsgranska dem.
+
+Klicka på **[!UICONTROL Branding]** i den vänstra rutan för att uppdatera organisationens namn, ändra underdomänen, loggstilar och teman. Klicka på **[!UICONTROL Edit]** bredvid vart och ett av dessa ämnen för att ändra innehållet.
+
+Mer information finns i [Hjälp med färgteman och varumärken](/help/migrated/administrators/feature-summary/themes.md).
+
++++
+
++++Hur ställer jag in märken för kurserna?
 
 1. Klicka på Märken i den vänstra rutan när du har loggat in som administratör.
 1. Klicka på Lägg till längst upp till höger på sidan som visas.
@@ -222,11 +216,11 @@ Mer information finns i hjälpen](/help/migrated/administrators/feature-summary/
 
 +++
 
-+++Hur ställer jag in spelifieringspoäng för banorna?
++++Hur skapar jag spelifieringspoäng för kurserna?
 
-Du kan ställa in spelifieringspoäng för elever genom att följa stegen nedan:
+Du kan ställa in spelifieringspunkter för elever genom att följa stegen nedan:
 
-1. Klicka på Spelifiering när du har loggat in som administratör. En sida visas med en lista över brons-, silver-, guld- och platinanivåer och de poäng som krävs för att uppnå motsvarande varje nivå. Det finns en lista med uppgifter och motsvarande punkter.
+1. Klicka på Spelifiering när du har loggat in som administratör. En sida visas med en lista över nivåer av brons, silver, guld och platina och de poäng som krävs för att uppnå motsvarande nivå. Det finns en lista med uppgifter och motsvarande punkter.
 1. Klicka på ikonen Redigera bredvid varje uppgift för att ställa in/ändra punkterna.
 
 Mer information finns i [Spelifieringsfunktion](/help/migrated/administrators/feature-summary/gamification.md).
@@ -258,12 +252,12 @@ Du kan växla ditt konto och logga in på andra roller, som elev, chef och förf
 
 +++
 
-+++Hur inkluderar jag aviseringar för användarna?
++++Hur inkluderar jag meddelanden för användarna?
 
-Chefer, författare och elever kan se aviseringar baserat på kursaktiviteterna. Administratören kan aktivera/inaktivera aviseringar för alla användare genom att följa stegen nedan:
+Chefer, författare och elever kan se meddelanden baserat på kursaktiviteterna. Administratören kan aktivera/inaktivera meddelanden för alla användare genom att följa stegen nedan:
 
-1. Klicka på E-postmallar i den vänstra rutan och välj flikarna Allmänt, Användarregistreringar, Slutföranden och Feedback.
-1. Från händelserna nedan klickar du på växlingsknapparna Nej/Ja intill **varje **händelse och väljer Ja för att aktivera avisering. Klicka på Nej om du inte vill skicka meddelanden för en viss händelse.
+1. Klicka på E-postmallar i den vänstra rutan och välj flikarna Allmänt, Användarregistrering, Slutföranden och Feedback.
+1. Från händelserna som visas nedan klickar du på växlingsknapparna Nej/Ja bredvid **varje **händelse och väljer Ja för att aktivera meddelande. Klicka på Nej om du inte vill skicka meddelanden för en viss händelse.
 
 +++
 
@@ -286,7 +280,7 @@ Administratören kan kopiera registreringsadressen och skicka den till den exter
 
 +++Hur lägger jag till frågeformulär för L1-feedback?
 
-Skapa ett frågeformulär för återkoppling som kan användas av eleverna efter att ha slutfört kurserna. Tre exempelfrågor är tillgängliga som standard. Skapa ett frågeformulär genom att följa stegen nedan.
+Skapa ett feedbackfrågeformulär som elever kan använda efter att ha slutfört kurserna. Det finns som standard tre exempelfrågor. Skapa ett frågeformulär genom att följa stegen nedan.
 
 1. Klicka på Feedback i den vänstra rutan. Ett fönster med ett feedbackfrågeformulär visas.
 1. Klicka på **[!UICONTROL Edit]** för att lägga till/ändra enkäten.
@@ -295,32 +289,32 @@ Du kan lägga till en uppsättning frågeformulär och välja att inte visa upp 
 
 +++
 
-+++Hur ställer jag in färdigheter och nivåer?
++++Hur ställer jag in kunskaper och nivåer?
 
-1. Klicka på Kompetenser i den vänstra rutan i administratörsfönstret.
+1. Klicka på Kompetenser i den vänstra rutan i fönstret Administratör.
 1. Klicka på Lägg till för att lägga till nya kompetenser.
 1. Lägg till kompetensnamn, beskrivning och motsvarande poäng för varje nivå.
 
-   Som standard kommer en enda nivå med 0 poäng att vara tillgänglig för varje kompetens.
+   Som standard kommer en enda nivå med 0 krediter att vara tillgänglig för varje kompetens.
 
-1. Klicka på [!UICONTROL **Lägg till nivå**] för att lägga till en ny nivå till varje kompetens och klicka på Spara. Du kan lägga till upp till 5 nivåer.
+1. Klicka på [!UICONTROL **Lägg till nivå**] för att lägga till en ny nivå för varje kompetens och klicka på Spara. Du kan lägga till upp till fem nivåer.
 
-När kompetensen har sparats kan du inte ta bort nivåer från kompetensen. Administratören kan också tilldela elever till en viss kompetens och nivå.
+När kompetensen har sparats kan du inte ta bort nivåer från kompetensen. Administratören kan också tilldela elever en viss kompetens och nivå.
 
 +++
 
-+++Hur ställer jag in faktureringssystem för min organisations kurser?
++++Hur konfigurerar jag faktureringssystemet för min organisations kurser?
 
 1. Klicka på [!UICONTROL **Fakturering**] i den vänstra rutan.
 
    Faktureringsinformation visas på sidan.
 
-1. [!UICONTROL **Klicka på fliken Prenumerera**].
+1. Klicka på fliken [!UICONTROL **Prenumerera**].
 1. Skriv in antalet paket som du vill beställa i fältet Elevpaket och klicka på Beställ längst upp till höger på sidan.
 
-   Välj antal paket baserat på antalet elever i din organisation och gör din beställning. För en inköpsorderdriven process, skriv till oss på  [learningmanagersales@adobe.com](mailto:learningmanagersales@adobe.com).
+   Välj antalet paket baserat på antalet elever i organisationen och gör beställningen. Om du vill ha en process som styrs av en inköpsorder kan du skriva till oss på [learningmanagersales@adobe.com](mailto:learningmanagersales@adobe.com).
 
-1. Ange din kontaktinformation, välj kreditkortstyp, ange kreditkortsuppgifter och klicka på Slutför beställning.
+1. Ange dina kontaktuppgifter, välj kreditkortstyp, ange kreditkortsuppgifter och klicka på Slutför beställning.
 
 Mer information finns i [Faktureringshantering](/help/migrated/administrators/feature-summary/billing-management.md).
 
@@ -328,14 +322,14 @@ Mer information finns i [Faktureringshantering](/help/migrated/administrators/fe
 
 +++Kan jag anpassa certifikatdesignen? Hur?
 
-I Adobe Learning Manager kan du känna igen elever genom att dela ut märken. Se funktionen Märken om du vill ha mer information.  Se även Certifieringsfunktion.
+I Adobe Learning Manager kan du identifiera elever genom att utfärda utmärkelsetecken. Se funktionen Märken om du vill ha mer information.  Se även certifieringsfunktionen.
 
 +++
 
-+++Hur ställer jag in min företagsprofil?
++++Hur skapar jag företagsprofilen?
 
 1. När du har loggat in som administratör klickar du på **[!UICONTROL Company Info]** i den vänstra rutan.
-1. Lägg till företagsprofil, underdomän, logotyp genom att klicka på vart och ett av dessa alternativ på sidan.
+1. Lägg till företagsprofil, underdomän och logotyp genom att klicka på alla dessa alternativ på sidan.
 
 +++
 
@@ -374,9 +368,9 @@ Du kan hämta konto-ID från webbläsaren där Learning Manager är öppet.
 
 +++
 
-+++Finns det en rapport som jag kan ta fram, eller en som någon kan ta fram åt mig, som visar mig en lista över alla kurser i LMS:et?
++++Finns det en rapport jag kan skriva, eller en som någon kan dra för mig, som kommer att visa mig en lista över alla kurser i LMS?
 
-Ja, du kan dra en **[!UICONTROL Training Report]** som innehåller alla kurser, inlärningsprogram, certifiering i LMS. Följ stegen nedan för att ladda ner rapporten:
+Ja, du kan hämta en **[!UICONTROL Training Report]** som innehåller alla kurser, utbildningsprogram och certifieringar i LMS. Ladda ned rapporten genom att följa stegen nedan:
 
 1. Logga in som administratör.
 2. Klicka på **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Trainings Report]**.
@@ -385,12 +379,12 @@ Ja, du kan dra en **[!UICONTROL Training Report]** som innehåller alla kurser, 
 
 +++
 
-+++Var kan jag ladda ner skrivbordsversionen av appen?
++++Var kan jag hämta datorversionen av programmet?
 
-Följ stegen nedan för att ladda ner skrivbordsversionen:
+Följ stegen nedan för att hämta datorversionen:
 
 1. Logga in som administratör.
 2. Klicka på **[!UICONTROL Social Learning]** > **[!UICONTROL Settings]**.
-3. Under **[!UICONTROL Download Configuration]** klickar du på hyperlänken beroende på ditt operativsystem.
+3. Klicka på hyperlänken under **[!UICONTROL Download Configuration]** beroende på ditt operativsystem.
 
 +++

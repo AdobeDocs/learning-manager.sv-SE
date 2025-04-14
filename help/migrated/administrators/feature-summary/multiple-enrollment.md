@@ -2,9 +2,9 @@
 title: Flera registreringar i Adobe Learning Manager
 description: En av dina primära uppgifter som kontoadministratör är att skapa olika instanser av VILT-sessioner i olika tidszoner och eventuellt skapa sessioner för specifika användargrupper.
 exl-id: c430545d-b48e-432d-a278-658c9281818f
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 66c46725a5ba1055899f2b4c30d53a4d23d31cff
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,14 @@ I Adobe Learning Manager kan varje kurs ha olika instanser. En av dina primära 
 Före juli 2023-versionen när en administratör registrerade en elev kunde denne endast registrera sig i en instans. Om en elev vill gå en kurs i olika instanser skapar administratören många kurser, en för varje instans.
 
 Adobe Learning Manager funktion för flera registreringar hjälper administratörer att undvika sådana scenarier.
+
+## Hantera instanser
+
+>[!INFO]
+>
+>I den här utbildningen får du lära dig redigera instansinformation och instansegenskaper.<br><br>[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
+
+Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
 
 ## Vad är multiregistrering
 
