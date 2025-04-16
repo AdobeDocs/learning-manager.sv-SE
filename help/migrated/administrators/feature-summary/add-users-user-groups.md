@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Lägga till användare och skapa användargrupper
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 64e6700a944fa3e258461a42c3934f3fa2c1d7a6
+source-git-commit: 81b3b2ef5f430968b107d3e9d67fea672c6dea98
 workflow-type: tm+mt
-source-wordcount: '4125'
+source-wordcount: '4118'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,22 @@ ht-degree: 0%
 
 Lär dig lägga till användare eller användargrupper i Learning Manager-programmet.
 
+
 <!--![](assets/user-mgmt-new.png)-->
+
+## Hantera användargrupper
+
+>[!INFO]
+>
+>I den här utbildningen får du lära dig hur du skapar en användargrupp efter namn, e-post-ID:n och kombinerar flera automatiskt genererade användargrupper.<br><br>[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
+
+<!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
+
+<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
+
+<!--[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
+
+Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
 
 ## Översikt {#overview}
 
@@ -49,6 +64,9 @@ Om du vill lägga till användare
 1. Klicka på **[!UICONTROL Add Users]** på startsidan. På den här sidan kan du lägga till en enskild användare eller flera användare åt gången med en CSV-fil. Du kan även skapa en självregistreringslänk för interna medarbetare eller skapa en extern elevprofil.
 1. Om du vill lägga till en enskild användare klickar du på **[!UICONTROL Add]** i det övre högra hörnet och väljer alternativet **[!UICONTROL Single User]**.
 
+1. Om du vill lägga till en enskild användare klickar du på **[!UICONTROL Add]** i det övre högra hörnet och väljer alternativet **En användare**.
+
+
    ![](assets/single-user.png)
    *Lägg till en enskild intern användare*
 
@@ -61,7 +79,16 @@ Om du vill lägga till användare
 
 ## Lägga till användare i grupp {#addusersinbulk}
 
+### Hantera användare
+
+I den här utbildningen får du lära dig tilldela och ta bort roller, skicka ett välkomstmeddelande via e-post och ta bort och rensa användare.
+
+[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
+
+Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
+
 Vanligtvis arbetar de flesta organisationer med ett HR-hanteringssystem (HRMS) som upprätthåller alla medarbetarposter, t.ex. utnämning, plats, datum för anslutning eller medarbetarhierarki. Du kan exportera dessa data i CSV-format. Importera en CSV-fil genom att följa stegen nedan:
+
 
 1. Klicka på **[!UICONTROL Add]** i det övre högra hörnet och välj alternativet **[!UICONTROL Upload a CSV]**.
 
@@ -108,25 +135,11 @@ Vanligtvis arbetar de flesta organisationer med ett HR-hanteringssystem (HRMS) s
 
 När du har valt användare kan du göra följande:
 
->[!INFO]
->
->I den här utbildningen får du lära dig hur du lägger till användare i grupp via en CSV-fil.<br><br>[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
-
-Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
-
 ## Registrera en användare {#registerauser}
 
 Klicka med användaren markerad på **[!UICONTROL Actions]** i det övre högra hörnet och klicka på **[!UICONTROL Register]**.
 
 De valda användarna får ett välkomstmeddelande via e-post. Om eleverna har ett Adobe ID kan de klicka på den här länken. Om de inte har ett Adobe ID kan de klicka på välkomstlänken för att skapa ett Adobe ID och länka det till sitt Learning Manager-konto.
-
-### Hantera användare
-
-I den här utbildningen får du lära dig tilldela och ta bort roller, skicka ett välkomstmeddelande via e-post och ta bort och rensa användare.
-
-[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
-
-Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
 
 ## Tilldela en roll {#assignarole}
 
@@ -326,18 +339,6 @@ Välj en användare och klicka på **[!UICONTROL Actions]** > **[!UICONTROL Remo
 ## Skapa användargrupper {#createusergroups}
 
 En användargrupp är en uppsättning användare som är relaterade till en kategori. Användargrupper hjälper administratörer att välja elever i organisationen utifrån deras attribut och sedan tilldela dem utbildningsinnehåll. Med de här användargrupperna kan administratörer också tilldela anpassade logotyper och kataloger till elever och visa anpassade rapporter om deras framsteg.
-
->[!INFO]
->
->I den här utbildningen får du lära dig hur du skapar en användargrupp efter namn, e-post-ID:n och kombinerar flera automatiskt genererade användargrupper.<br><br>[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
-
-<!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
-
-<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
-
-<!--[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
-
-Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
 
 Klicka på **[!UICONTROL User Groups]** i den vänstra navigeringsrutan för att komma åt användargrupper.
 
