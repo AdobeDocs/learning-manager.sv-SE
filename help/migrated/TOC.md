@@ -2,10 +2,10 @@
 user-guide-title: Användarhandbok om Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation för Adobe Learning Manager
-source-git-commit: 1238639763ce6f373b4cc646a311e48733945849
+source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
 workflow-type: tm+mt
 source-wordcount: '643'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 8%
    * [Ej inloggad för elever](administrators/feature-summary/non-logged-in-experience-learners.md)
    * [Utbildningsprogram](administrators/feature-summary/learning-programs.md)
    * [Produktterminologi](administrators/feature-summary/product-terminology.md)
-* Integreringsadministratör {#integration}
+* Integreringsadmin {#integration}
    * [Migreringshandbok](integration-admin/feature-summary/migration-manual.md)
    * [Anslutningar för Learning Manager](integration-admin/feature-summary/connectors.md)
    * [Icke-inloggade API:er](integration-admin/feature-summary/non-logged-in-apis.md)
@@ -153,7 +153,7 @@ ht-degree: 8%
    * [Elevens betygsutdrag](managers/feature-summary/learner-transcripts.md)
    * [Inställningar](managers/feature-summary/settings.md)
    * [Användare av iPad- och Android-surfplattor](managers/feature-summary/ipad-android-tablet-users.md)
-* Vanliga frågor och svar {#faq}
+* Vanliga frågor {#faq}
    * [Vanliga frågor för administratörer](administrators/frequently-asked-questions-for-administrators.md)
    * [Vanliga frågor för författare](authors/frequently-asked-questions-for-authors.md)
    * [Vanliga frågor för instruktörer](instructors/frequently-asked-questions-for-instructors.md)

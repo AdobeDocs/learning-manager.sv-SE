@@ -2,7 +2,7 @@
 title: Flera registreringar i Adobe Learning Manager
 description: En av dina primära uppgifter som kontoadministratör är att skapa olika instanser av VILT-sessioner i olika tidszoner och eventuellt skapa sessioner för specifika användargrupper.
 exl-id: c430545d-b48e-432d-a278-658c9281818f
-source-git-commit: 66c46725a5ba1055899f2b4c30d53a4d23d31cff
+source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 0%
