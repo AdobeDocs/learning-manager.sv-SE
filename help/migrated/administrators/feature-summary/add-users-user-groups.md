@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Lägga till användare och skapa användargrupper
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: f5998c7e7a05d6f48e094b359d157603f4a95e5c
+source-git-commit: ae99efd330f27fe36970c9324b0b064d9c7a85e5
 workflow-type: tm+mt
-source-wordcount: '4118'
+source-wordcount: '4133'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,11 @@ Vanligtvis arbetar de flesta organisationer med ett HR-hanteringssystem (HRMS) s
 >
 >Mer information finns i de vanliga frågorna, [Lägga till användare i grupp](../add-users-in-bulk.md).
 
-När du har valt användare kan du göra följande:
+>[!INFO]
+>
+>I den här utbildningen får du lära dig hur du lägger till användare i grupp via en CSV-fil.<br><br>[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
+
+Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
 
 ## Registrera en användare {#registerauser}
 
