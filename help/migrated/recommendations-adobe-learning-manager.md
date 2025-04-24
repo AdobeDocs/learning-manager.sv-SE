@@ -2,16 +2,16 @@
 title: RECOMMENDATIONS i ADOBE LEARNING MANAGER
 description: Kärnan i rekommendationsmotorn drivs av Learning Managers nya kursrankningsalgoritm. Algoritmen använder 50 miljoner datapunkter och fem års aggregerade utbildningsdata för miljontals användare för att rangordna kurser baserat på deras sannolikhet för registrering. Denna rankning säkerställer att de flesta registrerbara kurser visas i förväg för eleverna.
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1459'
 ht-degree: 2%
 
 ---
 
 # RECOMMENDATIONS i ADOBE LEARNING MANAGER
 
-Adobe Learning Manager har infört ett nytt och moderniserat rekommendationssystem för kurser. Den här rekommendationsfunktionen använder AI-algoritmer och användares intressen som Produkter, Roller och Nivåer för att ge personliga innehållsrekommendationer.
+Adobe Learning Manager har infört ett nytt och moderniserat rekommendationssystem för kurser. Den här rekommendationsfunktionen använder AI-algoritmer och användares intressen som Produkter, Roller och Nivåer för att ge personliga innehållsrekommendationer. Administratörer kan konfigurera sina konton utifrån Produkter, Roller och Nivåer.
 
 Med det nya rekommendationssystemet kan du skapa anpassade parametrar som elever kan välja för att få personliga rekommendationer. Rekommendationerna visas som kurser, utbildningsvägar och certifieringar för elever i flödet på deras startsida.
 

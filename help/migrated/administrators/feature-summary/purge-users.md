@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Rensa användare
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
+source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '869'
 ht-degree: 2%
 
 ---
@@ -60,6 +60,10 @@ Gör så här för att rensa användare:
    *Bekräftelsemeddelande efter att en användare har rensats*
 
 1. När du har bekräftat och klickar på Rensa accepteras begäran om rensning. Du får ett meddelande när åtgärden är slutförd. Ett ID för begäran om rensning tillhandahålls också. Du kan ange detta ID till CSM för att spåra begäran.
+
+>[!NOTE]
+>
+>När den borttagna användaren har lagts tillbaka i systemet behålls inte de tidigare rollerna (t.ex. admin, chef, författare, instruktör osv.). De läggs till med elevrollen.
 
 ## Massrensning av användare
 

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Kompetenser och nivåer
 contentowner: manochan
 exl-id: 3172e988-3dc5-484c-8869-7a8d9950b79b
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,10 @@ På den här sidan kan du klicka på var och en av dina kunskaper för att visa 
 *Visa varje kompetens*
 
 Endast administratörer kan skapa och tilldela kunskaper till elever. Elever tilldelas automatiskt till kompetens som motsvarar de registrerade kurserna/utbildningsprogrammen.
+
+>[!NOTE]
+>
+>Elever kan bara visa sina färdigheter på kollegial nivå i en klassisk elevapp.
 
 ## Uppnå kompetens {#achieveskill}
 
