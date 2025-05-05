@@ -2,9 +2,10 @@
 jcr-language: en_us
 title: Så här skickar du in ett supportärende i Experience League
 description: Lär dig skicka en supportförfrågan på Experience League
-source-git-commit: 8a7273fae5cccc8d8ff16de2956e2dbcc0045ea7
+exl-id: ff216f75-3441-4194-b254-0bf6c9fda518
+source-git-commit: b69859161476a5ba56baa5b4447aec759c1a7736
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 Processen för att skicka in Adobe Learning Manager supportärenden är nu direkt integrerad med supportplattformen för Experience League. Det här är en självbetjäningsportal som nyligen har omarbetats för att erbjuda mer personlig anpassning och användarvänlighet för berättigade kunder. Läs den här guiden nedan om du vill ha mer information om hur du öppnar supportportalen i Experience League och loggar ett ärende.
 
-Observera att det bara är auktoriserade supportkontakter som kan skicka in ett supportärende. Fortsätt att skicka dina supportärenden till Adobe Learning Manager fram till 11 maj 2025 för dina supportfrågor. Efter detta datum kan du skicka dina supportärenden via Experience League supportportal enligt beskrivningen nedan.
+Observera att det bara är auktoriserade supportkontakter som kan skicka in ett supportärende. Fortsätt att skicka dina supportärenden till Adobe Learning Manager via e-post fram till 11 maj 2025 för dina supportfrågor. Efter detta datum kan du skicka dina supportärenden via Experience League supportportal enligt beskrivningen nedan, utöver den e-postkanal som redan finns.
 
 1. Gå till supportportalen på webbplatsen **[!UICONTROL Experience League]** och välj fliken **[!UICONTROL Support]** högst upp på sidan. Du kan också gå till [direktlänken](https://experienceleague.adobe.com/home#support).
 
@@ -57,3 +58,4 @@ För att vårt supportteam ska kunna hantera dina eskaleringar på ett så effek
 
 Om du har ytterligare frågor om hur du använder **[!UICONTROL Experience League Support]**-portalen kan du meddela oss i kommentarsavsnittet nedan eller kontakta vårt supportteam direkt på den här e-postadressen [almdynsupp@adobe.com](mailto:almdynsupp@adobe.com).
 
+Om du vill lägga till en behörig kontaktperson som kan öppna supportärenden via Experience League (EXL) går du till [http://licensing.adobe.com](http://licensing.adobe.com).

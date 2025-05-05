@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Rapporter
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: f6bc1fa9384fc728f6abca7bb0fd9f62bb1f9e04
 workflow-type: tm+mt
-source-wordcount: '7469'
+source-wordcount: '7450'
 ht-degree: 2%
 
 ---
@@ -418,10 +418,6 @@ Nedan visas de rapporttyper som är tillgängliga för hämtning.
 * Rapport över inloggning/åtkomst
 * Spelifieringsutdrag
 * Verifieringskedja för spelifiering
-
-### Elevens betygsutdrag {#learnertranscripts}
-
-Elevens betygsutdrag i Excel-rapporter visar kolumnerna Obligatoriska krediter och intjänade poäng i decimaltal.
 
 ### Kursrapporter {#coursereports}
 
