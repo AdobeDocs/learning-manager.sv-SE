@@ -45,11 +45,11 @@ Med badge.csv i Adobe Learning Manager kan du migrera märken från det befintli
 * externalBadgeId
 * externalBadgeProvider
 
-Externt utmärkelsetecken-ID refererar till ID:t för utmärkelsetecknet i plattformen Creded och den externa utfärdaren av utmärkelsetecknet är Credly. Lägg till dessa värden i badge.csv och följ stegen som nämns i [migreringshandboken](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#migrationprocedure) för att migrera CSV-filen.
+Externt utmärkelsetecken-ID refererar till ID:t för utmärkelsetecknet i plattformen Creded och den externa utfärdaren av utmärkelsetecknet är Credly. Lägg till dessa värden i badge.csv och följ stegen som nämns i [migreringshandboken](https://experienceleague.adobe.com/sv/docs/learning-manager/using/integration/migration-manual#migrationprocedure) för att migrera CSV-filen.
 
 ## Skapa en kompetens - administratör
 
-När märket har importerats till Adobe Learning Manager kan administratören skapa det som en kompetens. Information om hur du skapar en kompetens finns i [Skapa och ändra kompetenser](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels).
+När märket har importerats till Adobe Learning Manager kan administratören skapa det som en kompetens. Information om hur du skapar en kompetens finns i [Skapa och ändra kompetenser](https://experienceleague.adobe.com/sv/docs/learning-manager/using/admin/skills-levels).
 
 ### Tilldela kompetensen/utmärkelsetecknet till utbildningsobjektet - författare
 

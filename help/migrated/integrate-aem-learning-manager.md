@@ -31,7 +31,7 @@ Installera Learning Manager-innehållspaketet med hjälp av AEM Package Manager:
 
 >[!NOTE]
 >
->Mer information om hur du installerar paket finns i [***Arbeta med paket***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
+>Mer information om hur du installerar paket finns i [***Arbeta med paket***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=sv-SE#how-to-work-with-packages).
 
 1. Öppna AEM Package Manager när du är AEM-författare.
 1. Klicka på knappen **[!UICONTROL Upload Package]**.

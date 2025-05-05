@@ -43,16 +43,16 @@ Du kan publicera ditt färdiga Captivate 9-projekt i Adobe Learning Manager som 
 
 Mer information finns i [Adobe Learning Manager: Publish Modules från Adobe Captivate 9](http://primehelp.adobe.com/publish-modules-from-adobe-captivate9/)Video.
 
-Du kan även läsa Adobe Captivate 9 [hjälpinnehåll](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html) om du vill veta mer.
+Du kan även läsa Adobe Captivate 9 [hjälpinnehåll](http://helpx.adobe.com/se/captivate/using/publish-project-to-captivate-prime.html) om du vill veta mer.
 
 Anteckning\
-Adobe Captivate 9 [hjälpinnehåll](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html) finns inte i hjälpprogrammet Learning Manager.
+Adobe Captivate 9 [hjälpinnehåll](http://helpx.adobe.com/se/captivate/using/publish-project-to-captivate-prime.html) finns inte i hjälpprogrammet Learning Manager.
 
 +++
 
 +++Hur väljer man kursmoduler i Learning Manager?
 
-Klicka [här](https://helpx.adobe.com/content/help/en/captivate-prime/authors/how-to-choose-modules.html) om du vill veta mer om hur du väljer kursmoduler.
+Klicka [här](https://helpx.adobe.com/content/help/se/captivate-prime/authors/how-to-choose-modules.html) om du vill veta mer om hur du väljer kursmoduler.
 
 +++
 
@@ -163,7 +163,7 @@ Författaren kan ändra modulernas ordningsföljd genom att dra och släppa dem 
 
 +++Hur filtrerar jag för att visa en specifik uppsättning kurser?
 
-Du kan använda alternativet Filtrera kurser efter tillstånd för att filtrera kurser. Mer information finns i [Hur söker jag på kurserna?](https://helpx.adobe.com/content/help/en/captivate-prime/authors/frequently-asked-questions-for-authors.html#Course)
+Du kan använda alternativet Filtrera kurser efter tillstånd för att filtrera kurser. Mer information finns i [Hur söker jag på kurserna?](https://helpx.adobe.com/content/help/se/captivate-prime/authors/frequently-asked-questions-for-authors.html#Course)
 
 +++
 

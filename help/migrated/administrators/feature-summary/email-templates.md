@@ -72,7 +72,7 @@ Du som är administratör kan enkelt aktivera, inaktivera eller ändra dessa e-p
 1. Klicka på **[!UICONTROL Settings]** för att öppna inställningssidan. Nu kan du anpassa dina e-postmallar.
 1. Om du vill anpassa namnet och e-post-ID som eleverna får e-postmeddelanden från redigerar du **[!UICONTROL Sender Name and Address].**
 
-   Kontakta [***supporten för Adobe***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) om du vill konfigurera eller ändra de här uppgifterna.
+   Kontakta [***supporten för Adobe***](https://helpx.adobe.com/se/contact/enterprise-support.other.html#learning-manager) om du vill konfigurera eller ändra de här uppgifterna.
 
 1. Anpassa din e-postbanderoll från alternativet **[!UICONTROL Email Banner]**. Ändra färg på banderollen genom att välja **[!UICONTROL Banner Background]**.
 
@@ -160,7 +160,7 @@ Du kan ladda ned rapporten för e-poståtkomst genom att klicka på knappen **[!
 
 ## Anpassa e-postdomän {#customizeemaildomain}
 
-Om du vill anpassa e-postdomänen och e-post-ID som dina elever får meddelanden från kontaktar du [***Learning Manager-supporten***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) och anger detaljerna för domänen du vill lägga till och ditt nya e-post-ID.
+Om du vill anpassa e-postdomänen och e-post-ID som dina elever får meddelanden från kontaktar du [***Learning Manager-supporten***](https://helpx.adobe.com/se/contact/enterprise-support.other.html#learning-manager) och anger detaljerna för domänen du vill lägga till och ditt nya e-post-ID.
 
 Din begäran bearbetas och ett e-postmeddelande med en bekräftelselänk skickas till dig på den nya e-postadressen som du anger. Klicka på verifieringslänken i e-postmeddelandet för att bekräfta och slutföra verifieringsprocessen.
 
@@ -257,6 +257,6 @@ Om du vill stänga av e-postmallen markerar du mallen som ska inaktiveras och kl
 
 +++Hur ändrar jag avsändarens namn och adress i mallen?
 
-Om du vill ändra avsändarens namn och e-postadress kontaktar du [Adobe Learning Manager support](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
+Om du vill ändra avsändarens namn och e-postadress kontaktar du [Adobe Learning Manager support](https://helpx.adobe.com/se/contact/enterprise-support.other.html#learning-manager).
 
 +++
