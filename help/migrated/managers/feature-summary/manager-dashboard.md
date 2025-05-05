@@ -232,7 +232,7 @@ Gör så här för att prognostisera slutförandet av teamet i procent för en k
 
    *Välj länken Konfigurera hyperlänk*
 
-1. I dialogrutan Konfigurera anger du ett procentvärde i fältet **Målslutförande %** för kompetensen du vill konfigurera och datumet då du vill uppnå målslutförandet % i fältet **Måldatum**.****
+1. I dialogrutan Konfigurera anger du ett procentvärde i fältet **Målslutförande %** för kompetensen du vill konfigurera och datumet då du vill uppnå målslutförandet % i fältet **Måldatum**.**&#x200B;**
 
    ![](assets/configure-tracker.png)
 

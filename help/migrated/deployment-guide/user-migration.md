@@ -22,30 +22,30 @@ Den tekniska konfigurationen för ditt Learning Manager-konto krävs främst fö
 
 En av dina första uppgifter som systemadministratör i Admin Console är att definiera och konfigurera ett identitetssystem som dina slutanvändare ska autentiseras mot. Allt eftersom organisationen köper licenser för Learning Manager måste du driftsätta dessa licenser till slutanvändarna. Och för det behöver du ett sätt att autentisera dessa användare. Utför följande procedur för att konfigurera enkel inloggning för användarna.
 
-1. Klicka på **[!UICONTROL ** Inställningar **>** Inloggningsmetoder **på startsidan för Learning Manager.]**
+1. Klicka på **[!UICONTROL **&#x200B; Inställningar &#x200B;**>**&#x200B; Inloggningsmetoder &#x200B;** på startsidan för Learning Manager.]**
 
    ![](assets/configure-sso-step1.png)
 
-1. Beroende på användartyp väljer du antingen **[!UICONTROL ** Interna användare **eller** Externa användare **.]**
+1. Beroende på användartyp väljer du antingen **[!UICONTROL **&#x200B; Interna användare &#x200B;** eller **&#x200B; Externa användare &#x200B;**.]**
 
 
 
-1. I **[!UICONTROL **Logga in**]**listrutan väljer du **[!UICONTROL ** Enkel inloggning **.]**
+1. I **[!UICONTROL **Logga in**]**&#x200B;listrutan väljer du **[!UICONTROL **&#x200B; Enkel inloggning &#x200B;**.]**
 
    ![](assets/configure-sso-step3.png)
 
-1. Klicka på **[!UICONTROL **&#x200B;Ändra **om du vill konfigurera inställningarna för enkel inloggning.]**
+1. Klicka på **[!UICONTROL **&#x200B;Ändra &#x200B;** om du vill konfigurera inställningarna för enkel inloggning.]**
 
    ![](assets/configure-sso-step4.png)
 
-1. I fältet ****[!UICONTROL IDP-Initiated Authentication URL]**** anger du den autentiserings-URL som du fått av tjänsteleverantören.
+1. I fältet **&#x200B;**&#x200B;[!UICONTROL IDP-Initiated Authentication URL]&#x200B;**&#x200B;** anger du den autentiserings-URL som du fått av tjänsteleverantören.
 
 
 
    ![](assets/configure-sso-step5.png)
 
-1. Klicka på **[!UICONTROL **Överför **]**bredvid XML-fältet **[!UICONTROL  **IDP-metadata **]******och överför XML-filen.
-1. Klicka på **[!UICONTROL ** Spara **.]**
+1. Klicka på **[!UICONTROL **Överför &#x200B;**]&#x200B;**bredvid XML-fältet &#x200B;** [!UICONTROL &#x200B; **IDP-metadata &#x200B;**]&#x200B;**&#x200B;**&#x200B;**och överför XML-filen.
+1. Klicka på **[!UICONTROL **&#x200B; Spara &#x200B;**.]**
 1. SSO-autentiseringen har konfigurerats för ditt konto. Du bör kunna logga in på ditt Learning Manager-konto med SSO.
 
    ***SSO-konfigurationen i Learning Manager bör ha stöd för SAML 2.0.***
@@ -79,7 +79,7 @@ Innan du startar migreringsprocessen måste du utföra följande krav:
 
 
 
-***Vi rekommenderar att administratörer testar migreringsprocessen på ett testkonto innan de migrerar data och innehåll till Learning Manager-produktionsmiljön. ***
+***Vi rekommenderar att administratörer testar migreringsprocessen på ett testkonto innan de migrerar data och innehåll till Learning Manager-produktionsmiljön. &#x200B;***
 
 ### Utvärdera och exportera data {#evaluatingandexportingdata}
 
@@ -272,7 +272,7 @@ Innan du planerar och startar den faktiska migreringen av allt innehåll måste 
 
 ### Skapa ett FTP-konto {#setupanftpaccount}
 
-Klicka på **[!UICONTROL ** Begäran om CSV FTP-mapp **på startsidan för Integreringsadministratör.]** Ange ditt e-post-ID i popup-dialogrutan som visas. Gå igenom onlineguiden för att skapa FTP-kontot för Exavault. När du har skapat ditt konto kan du visa migreringsprojektet och sprintprojektmapparna i Exavault FTP.
+Klicka på **[!UICONTROL **&#x200B; Begäran om CSV FTP-mapp &#x200B;** på startsidan för Integreringsadministratör.]** Ange ditt e-post-ID i popup-dialogrutan som visas. Gå igenom onlineguiden för att skapa FTP-kontot för Exavault. När du har skapat ditt konto kan du visa migreringsprojektet och sprintprojektmapparna i Exavault FTP.
 
 Se ett exempel på en ögonblicksbild av projektfilerna och mappen för ExaVault på följande sätt:
 
@@ -290,9 +290,9 @@ I avsnittet Inställningar klickar du på Begär för en Box-mapp.
 
 ![](assets/set-up-a-box-account.png)
 
-I fältet ****[!UICONTROL Enter Email]**** anger du e-post-ID:t där du vill få inloggningsinstruktionerna för att ansluta till Box.
+I fältet **&#x200B;**&#x200B;[!UICONTROL Enter Email]&#x200B;**&#x200B;** anger du e-post-ID:t där du vill få inloggningsinstruktionerna för att ansluta till Box.
 
-Klicka på **[!UICONTROL ** Anslut **.]**
+Klicka på **[!UICONTROL **&#x200B; Anslut &#x200B;**.]**
 
 Du skulle få ett e-postmeddelande från Box med en länk till den delade mappen. Om du inte har ett Box-konto klickar du på Registrera dig och skapar ett konto. Inloggningsinstruktioner skickas sedan till e-post-ID för integreringsadministratören.
 
@@ -313,11 +313,11 @@ Klicka på **[!UICONTROL Migration.]** på startsidan för Integreringsadministr
 
 På startsidan för migrering visar systemet de migreringsprojekt som redan har skapats i din organisation.
 
-Klicka på **[!UICONTROL **Nytt**]**i det övre högra hörnet på sidan om du vill skapa ett migreringsprojekt.
+Klicka på **[!UICONTROL **Nytt**]**&#x200B;i det övre högra hörnet på sidan om du vill skapa ett migreringsprojekt.
 
-***Om du inte redan har skapat en FTP-mapp kommer du att uppmanas att skapa ett FTP-mappkonto för Exavault. Det här är ett obligatoriskt steg innan du börjar skapa ett migreringsprojekt. ***
+***Om du inte redan har skapat en FTP-mapp kommer du att uppmanas att skapa ett FTP-mappkonto för Exavault. Det här är ett obligatoriskt steg innan du börjar skapa ett migreringsprojekt. &#x200B;***
 
-Ange namnet på projektet på sidan ****[!UICONTROL Create a New Migration Project]****.
+Ange namnet på projektet på sidan **&#x200B;**&#x200B;[!UICONTROL Create a New Migration Project]&#x200B;**&#x200B;**.
 
 ![](assets/migrating-the-content-1.png)
 
@@ -331,17 +331,17 @@ Skapa en utskrift för ditt migreringsprojekt på sidan Konfiguration av Sprint.
 
 Ange ett namn för sprinten och beskriv sprinten.
 
-Välj ****[!UICONTROL Users have been added or modified since the last run check box]**** för att synkronisera listan över användare med Learning Manager-programmet. Om du migrerar innehåll och data till Learning Manager-appen kanske detta inte är nödvändigt. Men om det finns en tidsfördröjning mellan din tidigare sprintmigrering till den senaste spurtmigreringen rekommenderar vi att du väljer att synka användarlistan. Det här steget gör att Learning Manager-databasen kan synkroniseras med dina LMS-användare.
+Välj **&#x200B;**&#x200B;[!UICONTROL Users have been added or modified since the last run check box]&#x200B;**&#x200B;** för att synkronisera listan över användare med Learning Manager-programmet. Om du migrerar innehåll och data till Learning Manager-appen kanske detta inte är nödvändigt. Men om det finns en tidsfördröjning mellan din tidigare sprintmigrering till den senaste spurtmigreringen rekommenderar vi att du väljer att synka användarlistan. Det här steget gör att Learning Manager-databasen kan synkroniseras med dina LMS-användare.
 
 ***Synkroniseringssteget rekommenderas när enrollment.csv och user_course_grade.csv migreras. Det här steget gör att Learning Manager-databasen kan synkroniseras med din migreringsdatabas och säkerställer att alla användare vars poster ska migreras i Sprint är tillgängliga i migreringsdatabasen.***
 
-Klicka på **[!UICONTROL ** Nästa **.]**
+Klicka på **[!UICONTROL **&#x200B; Nästa &#x200B;**.]**
 
-Klicka på **[!UICONTROL **Starta**]**för att starta Sprintmigreringen med dina överförda data och ditt innehåll. Klicka på ****[!UICONTROL Refresh]**** innan du startar Sprint Run för att synkronisera FTP- och innehållsmapparna med Learning Manager.
+Klicka på **[!UICONTROL **Starta**]&#x200B;**för att starta Sprintmigreringen med dina överförda data och ditt innehåll. Klicka på &#x200B;**&#x200B;**[!UICONTROL Refresh]**&#x200B;** innan du startar Sprint Run för att synkronisera FTP- och innehållsmapparna med Learning Manager.
 
 ![](assets/migrating-the-content-3.png)
 
-Du kan klicka på ****[!UICONTROL Stop]****när som helst under utskriftsmigreringen för att avbryta utskriftsmigreringen.
+Du kan klicka på **&#x200B;**&#x200B;[!UICONTROL Stop]&#x200B;**&#x200B;**&#x200B;när som helst under utskriftsmigreringen för att avbryta utskriftsmigreringen.
 
 Systemet visar migreringsstatus mot varje utskriftsdataobjekt och innehåll. Kontrollera antalet lyckade och misslyckade objekt som en del av migreringspurten.
 
@@ -351,13 +351,13 @@ En ögonblicksbild av migreringsförloppet visas nedan som referens. Som visas i
 
 ![](assets/migrating-the-content-4.png)
 
-Klicka på **[!UICONTROL **Sprint**]**i det vänstra navigeringsfönstret för att visa listan över alla sprintar i ett migreringsprojekt. Du kan se en lista över alla sprintar, antalet sprintar du utförde för varje sprint, startdatum, varaktighet och slutförandestatus enligt exemplet nedan.
+Klicka på **[!UICONTROL **Sprint**]**&#x200B;i det vänstra navigeringsfönstret för att visa listan över alla sprintar i ett migreringsprojekt. Du kan se en lista över alla sprintar, antalet sprintar du utförde för varje sprint, startdatum, varaktighet och slutförandestatus enligt exemplet nedan.
 
 ![](assets/migrating-the-content-5.png)
 
-Klicka på **[!UICONTROL **Sprint**]**i det vänstra navigeringsfönstret för att visa listan över alla sprintar i ett migreringsprojekt. Du kan se en lista över alla sprintar, antalet sprintar du utförde för varje sprint, startdatum, varaktighet och slutförandestatus enligt exemplet nedan.
+Klicka på **[!UICONTROL **Sprint**]**&#x200B;i det vänstra navigeringsfönstret för att visa listan över alla sprintar i ett migreringsprojekt. Du kan se en lista över alla sprintar, antalet sprintar du utförde för varje sprint, startdatum, varaktighet och slutförandestatus enligt exemplet nedan.
 
-Klicka på **[!UICONTROL **Sprint**]**i det vänstra navigeringsfönstret för att visa listan över alla sprintar i ett migreringsprojekt. Du kan se en lista över alla sprintar, antalet sprintar du utförde för varje sprint, startdatum, varaktighet och slutförandestatus enligt exemplet nedan.
+Klicka på **[!UICONTROL **Sprint**]**&#x200B;i det vänstra navigeringsfönstret för att visa listan över alla sprintar i ett migreringsprojekt. Du kan se en lista över alla sprintar, antalet sprintar du utförde för varje sprint, startdatum, varaktighet och slutförandestatus enligt exemplet nedan.
 
 ***Innan du markerar migreringsprojektet som slutfört ser du till att alla sprintar i projektet är slutförda. När du har markerat migreringsprojektet som slutfört kan du inte gå tillbaka och skapa sprintar i det projektet. Du kan inte göra några ändringar i det projektet. Du kan bara skapa ett annat migreringsprojekt och lägga till sprints till det.***
 

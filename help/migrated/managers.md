@@ -35,5 +35,5 @@ ht-degree: 8%
 * [Rapporter](managers/feature-summary/reports.md)
 * [Inställningar](managers/feature-summary/settings.md)
 * [Användarinloggning](managers/feature-summary/user-login.md)
-* [Användarmeddelanden](managers/feature-summary/user-notifications.md) [](managers/feature-summary/settings.md)
+* [Användarmeddelanden](managers/feature-summary/user-notifications.md) [&#128279;](managers/feature-summary/settings.md)
 * [Utbildningsobjekt](managers/feature-summary/learning-objects.md)

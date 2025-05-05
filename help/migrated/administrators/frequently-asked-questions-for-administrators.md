@@ -257,7 +257,7 @@ Du kan växla ditt konto och logga in på andra roller, som elev, chef och förf
 Chefer, författare och elever kan se meddelanden baserat på kursaktiviteterna. Administratören kan aktivera/inaktivera meddelanden för alla användare genom att följa stegen nedan:
 
 1. Klicka på E-postmallar i den vänstra rutan och välj flikarna Allmänt, Användarregistrering, Slutföranden och Feedback.
-1. Från händelserna som visas nedan klickar du på växlingsknapparna Nej/Ja bredvid **varje **händelse och väljer Ja för att aktivera meddelande. Klicka på Nej om du inte vill skicka meddelanden för en viss händelse.
+1. Från händelserna som visas nedan klickar du på växlingsknapparna Nej/Ja bredvid **varje &#x200B;** händelse och väljer Ja för att aktivera meddelande. Klicka på Nej om du inte vill skicka meddelanden för en viss händelse.
 
 +++
 

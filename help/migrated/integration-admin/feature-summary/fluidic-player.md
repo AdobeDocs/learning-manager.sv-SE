@@ -19,7 +19,7 @@ Läs den här artikeln och lär dig bädda in fluidic-spelaren i ett anpassat pr
 
 Företag kan nu ge sina elever en anpassad upplevelse även utanför Learning Manager. Med det offentliga API:t kan du hämta all information som rör utbildningsobjekt, elevregistreringar och utbildningsframsteg och visa dem på din webbplats. Vad som är viktigare är att du även kan bädda in fluidic-spelaren i Learning Manager på din webbplats, så att eleven kan konsumera innehållet direkt på webbplatsen. Fluidic-spelaren ger dig möjlighet att spela upp allt innehåll som Learning Manager stöder. När den är inbäddad på din egen webbplats har den exakt samma funktioner som när den används i Learning Manager.
 
-**Spela upp valfritt e-utbildningsinnehåll[](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
+**Spela upp valfritt e-utbildningsinnehåll[&#128279;](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
 
 Fluidic-spelaren spelar upp praktiskt taget alla typer av eLearning-innehåll på samma konsekventa och intuitiva sätt utan att det krävs plugin-program eller nedladdningar. Eleven kan starta innehållet och oavsett innehållets filtyp börjar uppspelningen.
 
@@ -31,7 +31,7 @@ Mer information om fluidic-spelare finns i [Fluidic-spelare](../../learners/feat
 
 Här är några exempel på var du kan använda den inbäddade fluidic-spelaren.
 
-* Du kan använda den inbäddade fluidic-spelaren på din** **webbplats för att lista de registrerade kurser för din anställda och även ge en länk för att starta en utbildning på samma sida. Det innebär att eleverna kan delta i utbildningar på intranätwebbplatsen.
+* Du kan använda den inbäddade fluidic-spelaren på din **&#x200B; **&#x200B;webbplats för att lista de registrerade kurser för din anställda och även ge en länk för att starta en utbildning på samma sida. Det innebär att eleverna kan delta i utbildningar på intranätwebbplatsen.
 
 * Om du bedriver utbildningsverksamhet kanske du har en webbplats där dina kunder köper kurser. Du kan integrera den inbäddade spelaren med samma webbplats så att dina kunder kan konsumera innehållet de köper på din webbplats.
 
@@ -78,8 +78,8 @@ client_id= <application_id>
 Här är **[!UICONTROL client id]** det program-id som erhölls i steg 1.
 **[!UICONTROL redirect_url]** är redirect_url angivet i steg 1.
 **[!UICONTROL state]** är dummydata som vi måste filtrera omdirigerings-URL utifrån för att få OAuth-kod. Omfattningen är elevens omfattning som anges i steg 1.
-**[!UICONTROL response_typ]**e är alltid &quot;CODE&quot;.\
-**[!UICONTROL account]**är ett valfritt fält\
+**[!UICONTROL response_typ]**&#x200B;e är alltid &quot;CODE&quot;.\
+**[!UICONTROL account]**&#x200B;är ett valfritt fält\
 **[!UICONTROL email]** är ett valfritt fält\
 &#42; Om både konto-ID och e-postadress anges tillåter ovanstående URL användaren att logga in på samma konto. Det här slutpunktsexemplet visas i filen index.html i exempelprogrammet.
 

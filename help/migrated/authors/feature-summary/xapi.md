@@ -65,7 +65,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 Som författare kan du nu välja xAPI-modul när du skapar kurser för att övervaka användarupplevelsen utanför Learning Manager. Du kan till exempel använda den här funktionen för att utvärdera aktiviteter för användare på en tredjepartsplattform som används för kursförbrukning.
 
-1. När du skapar en **[!UICONTROL Activity Module]** använder du snabbmenyn för att välja **[!UICONTROL xAPI-based Module.]** i **{1**alternativet[!UICONTROL Type]
+1. När du skapar en **[!UICONTROL Activity Module]** använder du snabbmenyn för att välja **[!UICONTROL xAPI-based Module.]** i **&lbrace;1**&#x200B;alternativet[!UICONTROL Type]
 
    ![](assets/xapimodulecreation.png)
 

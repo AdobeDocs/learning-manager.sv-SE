@@ -197,7 +197,7 @@ Om du vill redigera eller ta bort en fil från galleriet klickar du på de tre p
 
 Meddelanden i Learning Manager visas i meddelandefönstret oavsett om eleven är inloggad på webbprogrammet Learning Manager. Meddelanden innehåller inlägg eller tavlor som användare har skapat, följer eller har deltagit i. Om du klickar på meddelandet dirigeras användaren till webbplatsen för Learning Manager Social Learning.
 
-Stäng av ljudet genom att klicka på **[!UICONTROL Profile menu*]* > **[!UICONTROL Settings] > **[!UICONTROL Mute notifications]**.
+Stäng av ljudet genom att klicka på **[!UICONTROL Profile menu*]* > &#x200B;** [!UICONTROL Settings] > **[!UICONTROL Mute notifications]**.
 
 ## Inställningar i Adobe Learning Manager-datorprogrammet {#settingsinadobecaptivateprimedesktopapplication}
 

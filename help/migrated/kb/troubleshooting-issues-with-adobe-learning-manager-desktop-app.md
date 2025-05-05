@@ -111,9 +111,9 @@ Det här dokumentet innehåller grundläggande felsökningstips för att lösa n
 
 ### Windows {#Windows-1}
 
-1. Om du vill öppna dialogrutan Kör trycker du på **Windows-tangenten + R**.****
-1. Skriv &quot;**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**&quot; (utan citattecken) och tryck på Retur.****
-1. Säkerhetskopiera filen **preferences.json** och öppna den sedan i en textredigerare.****
+1. Om du vill öppna dialogrutan Kör trycker du på **Windows-tangenten + R**.**&#x200B;**
+1. Skriv &quot;**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**&quot; (utan citattecken) och tryck på Retur.**&#x200B;**
+1. Säkerhetskopiera filen **preferences.json** och öppna den sedan i en textredigerare.**&#x200B;**
 1. Sök efter nyckeln **debugMode** och ändra den här nyckelns värdeegenskap till **true** (utan citattecken).
 
 ### MAC OS X {#MacOSX-2}

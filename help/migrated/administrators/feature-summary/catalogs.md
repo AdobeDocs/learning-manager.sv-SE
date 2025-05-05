@@ -302,7 +302,7 @@ Om mottagarna av delade kataloger ändrar något av de mottagna fälten för lä
 
 +++Hur lägger man till kurser, LP och certifieringar i en katalog?
 
-Om du vill lägga till kurser, certifieringar och utbildningsprogram i katalogen kan du läsa stegen](catalogs.md#q1) för att inkludera dessa i katalogen[.
+Om du vill lägga till kurser, certifieringar och utbildningsprogram i katalogen kan du läsa stegen[&#128279;](catalogs.md#q1) för att inkludera dessa i katalogen.
 
 +++
 

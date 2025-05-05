@@ -40,7 +40,7 @@ Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
 
 1. Du kan bara redigera en tagg åt gången. Om du vill redigera en tagg gör du så här:
 
-   * Välj taggen för att redigera > öppna **[!UICONTROL Actions]**rullgardinsmenyn > klicka på **[!UICONTROL Edit]**.
+   * Välj taggen för att redigera > öppna **[!UICONTROL Actions]**&#x200B;rullgardinsmenyn > klicka på **[!UICONTROL Edit]**.
 
    Dialogrutan **[!UICONTROL Edit Tag]** visas. Ange det nya taggnamnet och klicka på **[!UICONTROL Save]**.
 

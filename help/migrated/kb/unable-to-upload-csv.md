@@ -76,7 +76,7 @@ Det här problemet uppstår om det redan finns en användare i systemet med samm
 I det här scenariot finns det två orsaker till felet:
 
 1. Användaren som du försöker lägga till är chef för en extern profil. Lös detta genom att öppna den externa profil som användaren ingår i, markera användaren, klicka på **[!UICONTROL Actions]** > **[!UICONTROL Assign Role]** > **[!UICONTROL Manager]** och ändra profilhanteraren.
-1. Användaren som du försöker lägga till har tagits bort. I det här scenariot kan du inte lägga till användaren med samma e-postadress förrän rensningsprocessen är klar. En lösning ** är att lägga ** användaren med en andra e postadress för att ge åtkomst till plattformen. När rensningsprocessen är klar redigerar du användaren och ändrar e-postadressen till rätt e-postadress.
+1. Användaren som du försöker lägga till har tagits bort. I det här scenariot kan du inte lägga till användaren med samma e-postadress förrän rensningsprocessen är klar. En lösning **&#x200B; är att lägga &#x200B;** användaren med en andra e postadress för att ge åtkomst till plattformen. När rensningsprocessen är klar redigerar du användaren och ändrar e-postadressen till rätt e-postadress.
 
 ### Scenario 2
 

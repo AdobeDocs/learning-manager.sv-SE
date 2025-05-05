@@ -100,7 +100,7 @@ Välj ett färgschema som passar ditt företags varumärke.
    ![](assets/setting-the-themesforyoursite-step6.png)
 
 1. De valda alternativen används tillfälligt på platsen. Om du vill spara det valda temat och färginställningarna klickar du på **[!UICONTROL Apply]**.
-1. När du har valt och tillämpat ett tema klickar du på ****[!UICONTROL Save]**** för att spara ditt val.
+1. När du har valt och tillämpat ett tema klickar du på **&#x200B;**&#x200B;[!UICONTROL Save]&#x200B;**&#x200B;** för att spara ditt val.
 
 ## Konfigurera e-postmallar {#configureemailtemplates}
 
@@ -112,15 +112,15 @@ Som administratör är nästa steg att konfigurera e-postmallar för olika händ
 
 Du kan aktivera och konfigurera någon av dessa e-postmeddelanden från administratörens kontrollpanel. Gör så här för att lära dig hur du anger e-postmallar:
 
-1. Klicka på **[!UICONTROL ** E-postmallar **i det vänstra navigeringsfönstret.]**
-1. Klicka på en av följande flikar:**[!UICONTROL ** Allmän **/** Utbildningsaktivitet **/** Påminnelser och uppdateringar **.]** Låt oss anta att du klickar på **[!UICONTROL ** Utbildningsaktivitet **.]**
-1. Klicka på växlingsknappen för den aktivitet du vill utlösa ett e-postmeddelande med. I det här exemplet antar vi att du klickar på **[!UICONTROL ** Utbildningsprogram - registrerad av admin/chef **.]**
+1. Klicka på **[!UICONTROL **&#x200B; E-postmallar &#x200B;** i det vänstra navigeringsfönstret.]**
+1. Klicka på en av följande flikar:**[!UICONTROL ** Allmän **/** Utbildningsaktivitet **/** Påminnelser och uppdateringar **.]** Låt oss anta att du klickar på **[!UICONTROL **&#x200B; Utbildningsaktivitet &#x200B;**.]**
+1. Klicka på växlingsknappen för den aktivitet du vill utlösa ett e-postmeddelande med. I det här exemplet antar vi att du klickar på **[!UICONTROL **&#x200B; Utbildningsprogram - registrerad av admin/chef &#x200B;**.]**
 
    ![](assets/configure-email-templates-step3.png)
 
    Systemet visar popup-meddelandet Aktiveringen lyckades. Nu när en chef eller administratör registrerar en elev för en kurs får eleven ett e-postmeddelande från detta Learning Manager-konto.
 
-1. Du kan ändra standardmallen för e-post. Klicka på händelsen för att göra det. Klicka på **[!UICONTROL  Learning Program - Enrolled by Admin/Manager.]** i det här exemplet
+1. Du kan ändra standardmallen för e-post. Klicka på händelsen för att göra det. Klicka på **[!UICONTROL &#x200B; Learning Program - Enrolled by Admin/Manager.]** i det här exemplet
 1. Observera att det finns två flikar i dialogrutan **[!UICONTROL Template Preview]**: [!UICONTROL Learner] och [!UICONTROL Manager].
 
    ![](assets/configure-email-templates-step5.png)
@@ -135,7 +135,7 @@ Du kan aktivera och konfigurera någon av dessa e-postmeddelanden från administ
 
    Konto-URL-länken visas i alla e-postmeddelanden, precis före signaturen. Ange önskad URL och klicka på **[!UICONTROL Save]**. Den här webbadressen visas bara för interna användare.
 
-   För e-postbanderollen kan du ändra färgen på banderollen genom att välja **[!UICONTROL ** Banderollbakgrund **.]** Du kan också använda en anpassad bild som banderoll genom att välja alternativet **[!UICONTROL Custom Image]**. Klicka på **[!UICONTROL Save]** när du har gjort ändringarna.
+   För e-postbanderollen kan du ändra färgen på banderollen genom att välja **[!UICONTROL **&#x200B; Banderollbakgrund &#x200B;**.] **&#x200B; Du kan också använda en anpassad bild som banderoll genom att välja alternativet &#x200B;** [!UICONTROL Custom Image]&#x200B;**. Klicka på &#x200B;** [!UICONTROL Save]** när du har gjort ändringarna.
 
    ***Obs! Den anpassade bildstorleken för e-postbanderollen måste vara 1 240 × 200 px. Bilder som är större än den rekommenderade storleken beskärs.***
 
@@ -156,13 +156,13 @@ Det här alternativet är också tillgängligt för författare när de ställer
 Så här konfigurerar du e-postmallar för ett utbildningsobjekt:
 
 1. Klicka på kursen, utbildningsprogrammet eller certifieringen som du vill konfigurera e-postmallen för.
-1. Klicka på **[!UICONTROL ** E-postmallar **i den vänstra rutan.]** Systemet visar en ****[!UICONTROL Template Preview]****-dialogruta.
-1. Ändra ämnet eller brödtexten i e-postmallen och klicka på **[!UICONTROL **Spara**]**för att tillämpa ändringarna.
-1. Om du vill avbryta ändringarna klickar du på **[!UICONTROL **&#x200B;Återgå till original **.]**
+1. Klicka på **[!UICONTROL **&#x200B; E-postmallar &#x200B;** i den vänstra rutan.] **&#x200B; Systemet visar en &#x200B;**&#x200B;**[!UICONTROL Template Preview]**&#x200B;**-dialogruta.
+1. Ändra ämnet eller brödtexten i e-postmallen och klicka på **[!UICONTROL **Spara**]**&#x200B;för att tillämpa ändringarna.
+1. Om du vill avbryta ändringarna klickar du på **[!UICONTROL **&#x200B;Återgå till original &#x200B;**.]**
 
 ### Begränsa användare från att ta emot e-postmeddelanden {#restrictusersfromreceivingemails}
 
-Som administratör kan du välja vem som ska ta emot e-postmeddelanden från Learning Manager och vem som inte ska det. Du kan göra detta med alternativet ****[!UICONTROL Restricted User]**** på fliken ****[!UICONTROL Settings]** **. Användare kan läggas till i den här listan med sitt namn, e-post-ID eller unika användar-ID. Användarna som listas under detta alternativ kommer att hindras från att ta emot e-postmeddelanden från Learning Manager.
+Som administratör kan du välja vem som ska ta emot e-postmeddelanden från Learning Manager och vem som inte ska det. Du kan göra detta med alternativet **&#x200B;**&#x200B;[!UICONTROL Restricted User]&#x200B;**&#x200B;** på fliken **&#x200B;**&#x200B;[!UICONTROL Settings] **&#x200B; **. Användare kan läggas till i den här listan med sitt namn, e-post-ID eller unika användar-ID. Användarna som listas under detta alternativ kommer att hindras från att ta emot e-postmeddelanden från Learning Manager.
 
 ## Konfigurera dina kontoinställningar {#configureyouraccountsettings}
 
@@ -170,8 +170,8 @@ Med Learning Manager kan du konfigurera vissa kontoinställningar som grundlägg
 
 ### Konfigurera grundläggande inställningar {#configurebasicsettings}
 
-1. Klicka på ****[!UICONTROL Settings]**** på startsidan för Learning Manager. Som standard visas sidan Grundläggande information, med standardspråk och standardplatsfält.
-1. Klicka på ****[!UICONTROL Change]**** i det övre högra hörnet på sidan för att redigera grundläggande information.
+1. Klicka på **&#x200B;**&#x200B;[!UICONTROL Settings]&#x200B;**&#x200B;** på startsidan för Learning Manager. Som standard visas sidan Grundläggande information, med standardspråk och standardplatsfält.
+1. Klicka på **&#x200B;**&#x200B;[!UICONTROL Change]&#x200B;**&#x200B;** i det övre högra hörnet på sidan för att redigera grundläggande information.
 1. Konfigurera följande alternativ:
 
    * **Land**: Välj land i det här nedrullningsbara fältet.
@@ -201,7 +201,7 @@ Du som är administratör kan konfigurera inställningarna för feedback globalt
 
    ![](assets/configure-feedbacksettings-step3.png)
 
-1. Klicka på frågorna i ****[!UICONTROL Self-Paced Courses]**** eller ****[!UICONTROL Classroom Courses]**** om du vill konfigurera de andra frågorna för din feedbackenkät. När du klickar på en fråga kan du redigera standardfrågorna.
+1. Klicka på frågorna i **&#x200B;**&#x200B;[!UICONTROL Self-Paced Courses]&#x200B;**&#x200B;** eller **&#x200B;**&#x200B;[!UICONTROL Classroom Courses]&#x200B;**&#x200B;** om du vill konfigurera de andra frågorna för din feedbackenkät. När du klickar på en fråga kan du redigera standardfrågorna.
 
 
 
@@ -215,22 +215,22 @@ Du som är administratör kan konfigurera inställningarna för feedback globalt
 1. Konfigurera inställningarna för påminnelser genom att slutföra följande alternativ:
 
    * **När ska du skicka**: Ange om du vill skicka feedbackbegäran antingen när kursen är slutförd eller efter slutförandet av kursen.
-   * **Dagar efter slutförande**: Ange hur många dagar du vill skicka feedbackbegäran efter. Det här fältet visas bara om du har markerat ****[!UICONTROL After course completion]****.
+   * **Dagar efter slutförande**: Ange hur många dagar du vill skicka feedbackbegäran efter. Det här fältet visas bara om du har markerat **&#x200B;**&#x200B;[!UICONTROL After course completion]&#x200B;**&#x200B;**.
 
    * **Återkommande**: Ange om du vill skicka feedbackpåminnelsen varje dag, varje vecka eller varje månad. Du kan också ange för hur många veckor du vill att påminnelsen ska skickas.
 
 1. Klicka på bockmarkeringen för att spara påminnelseinställningarna.
-1. När du är klar med alla inställningar för feedback klickar du på **[!UICONTROL **Spara**]**i det övre högra hörnet på sidan.
+1. När du är klar med alla inställningar för feedback klickar du på **[!UICONTROL **Spara**]**&#x200B;i det övre högra hörnet på sidan.
 
 ## Konfigurera L3-feedback: {#configurel3feedback}
 
-L3-feedback innehåller frågorna som skickas till en elevs chef efter att eleven har slutfört en kurs. Med L3-feedback kan en administratör spåra ändringar i en elevs beteende eller kompetens över tid. Om du vill konfigurera den här feedbacken klickar du på fliken ****[!UICONTROL L3 Feedback]**** på sidan Feedback. Du ser en, standardfråga. Chefen måste svara på denna fråga med hjälp av en femgradig bedömningsskala.
+L3-feedback innehåller frågorna som skickas till en elevs chef efter att eleven har slutfört en kurs. Med L3-feedback kan en administratör spåra ändringar i en elevs beteende eller kompetens över tid. Om du vill konfigurera den här feedbacken klickar du på fliken **&#x200B;**&#x200B;[!UICONTROL L3 Feedback]&#x200B;**&#x200B;** på sidan Feedback. Du ser en, standardfråga. Chefen måste svara på denna fråga med hjälp av en femgradig bedömningsskala.
 
 ![](assets/configure-l3-feedback.png)
 
 Precis som med L1-feedback kan du konfigurera påminnelser för L3-feedback. Du kan antingen ändra den befintliga påminnelsen eller lägga till en ny feedbackpåminnelse.
 
-När du är klar med feedbackfrågan och inställningarna för påminnelser klickar du på ****[!UICONTROL Save]**** för att tillämpa inställningarna.
+När du är klar med feedbackfrågan och inställningarna för påminnelser klickar du på **&#x200B;**&#x200B;[!UICONTROL Save]&#x200B;**&#x200B;** för att tillämpa inställningarna.
 
 ## Konfigurera feedback på instansnivå {#configurefeedbackataninstancelevel}
 
@@ -251,15 +251,15 @@ Så här konfigurerar du feedbackinställningarna på instansnivå:
 
    ![](assets/configure-feedbackataninstancelevel-step7.png)
 
-1. Om du vill konfigurera feedback om L3-beteendeförändring på instansnivå ****[!UICONTROL Enable]**** klickar du på Feedback om L3. I programmet visas en fördefinierad, obligatorisk fråga och en tom fråga där du kan ställa en valfri fråga.
+1. Om du vill konfigurera feedback om L3-beteendeförändring på instansnivå **&#x200B;**&#x200B;[!UICONTROL Enable]&#x200B;**&#x200B;** klickar du på Feedback om L3. I programmet visas en fördefinierad, obligatorisk fråga och en tom fråga där du kan ställa en valfri fråga.
 1. För den fördefinierade frågan om elevens förbättring efter kursen är svaret i Likert-skalans format. Det vill säga, chefer måste välja ett alternativ på en skala av Starkt samtycker till att starkt motsätta sig.
 1. Ange den andra frågan för chefen. Chefer kan ge ett beskrivande svar på denna fråga.
-1. Markera kryssrutan ****[!UICONTROL Make Mandatory]**** om du vill göra den andra frågan obligatorisk.
+1. Markera kryssrutan **&#x200B;**&#x200B;[!UICONTROL Make Mandatory]&#x200B;**&#x200B;** om du vill göra den andra frågan obligatorisk.
 
    ![](assets/configure-feedbackataninstancelevel-step11.png)
 
 1. Du kan även konfigurera påminnelseinställningar på instansnivå. Om du inte konfigurerar inställningar för påminnelser här tilldelas inställningarna för globala påminnelser automatiskt.
-1. När du är klar med inställningarna för feedback och påminnelser klickar du på **[!UICONTROL **Spara**]**för att använda inställningarna.
+1. När du är klar med inställningarna för feedback och påminnelser klickar du på **[!UICONTROL **Spara**]**&#x200B;för att använda inställningarna.
 
    ***Obs! Feedbackinställningarna gäller inte för certifieringar.***
 
@@ -267,8 +267,8 @@ Så här konfigurerar du feedbackinställningarna på instansnivå:
 
 Med de allmänna inställningarna i Learning Manager kan administratörer konfigurera allmänna inställningar som påverkar andra funktioner i programmet. Du kan till exempel använda allmänna inställningar för att ange om kurseffektivitet kan göras synlig för elever. Så här konfigurerar du de allmänna inställningarna:
 
-1. Klicka på ****[!UICONTROL Settings]**** på startsidan för Learning Manager.
-1. Klicka på ****[!UICONTROL General]**** i den vänstra rutan.
+1. Klicka på **&#x200B;**&#x200B;[!UICONTROL Settings]&#x200B;**&#x200B;** på startsidan för Learning Manager.
+1. Klicka på **&#x200B;**&#x200B;[!UICONTROL General]&#x200B;**&#x200B;** i den vänstra rutan.
 1. På sidan Allmänna inställningar kan du konfigurera följande alternativ:
 
    För alla dessa alternativ varierar funktionen som varje alternativ påverkar. Vi kan ge tvärlänkar till var och en av de detaljerade funktionen om det behövs.
@@ -291,9 +291,9 @@ Med de allmänna inställningarna i Learning Manager kan administratörer konfig
 Elevinstrumentpanelen i Learning Manager låter elever se sina obligatoriska och rekommenderade kurser bortsett från prestationer, färdigheter och tillkännagivanden. Administratörer kan bestämma hur denna elevtavla ska visas genom att konfigurera inställningarna för elevtavlan. Dessa inställningar bestämmer låter administratörer ställa in widgetarna på elevsidan. Dessa inställningar anger också hur och var widgetarna placeras på elevtavlan. Du som är administratör kan förhandsgranska layouten på elevtavlan innan inställningarna tillämpas.
 
 1. Klicka på **[!UICONTROL Settings]** på startsidan för Learning Manager.
-1. Klicka på **[!UICONTROL ** instrumentpanelen för elever **i den vänstra navigeringspanelen.]**
+1. Klicka på **[!UICONTROL **&#x200B; instrumentpanelen för elever &#x200B;** i den vänstra navigeringspanelen.]**
 1. Markera de widgetar som du vill aktivera. Om du avmarkerar en widget tas den bort direkt från förhandsgranskningen. Elever kan inte se widgeten på sin instrumentpanel.
-1. Klicka på ****[!UICONTROL Save]**** för att tillämpa inställningarna.
+1. Klicka på **&#x200B;**&#x200B;[!UICONTROL Save]&#x200B;**&#x200B;** för att tillämpa inställningarna.
 
    ![](assets/configure-learnerdashboardsettings-step4.png)
 

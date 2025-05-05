@@ -160,7 +160,7 @@ Mer information finns i funktionen [märken](feature-summary/badges.md).
 
 +++Vad är ett utbildningsprogram?
 
-Utbildningsprogram är en uppsättning unikt utformade kurser som uppfyller specifika elevmål. Endast administratörer kan skapa utbildningsprogram för elever. När en administratör tilldelar elever en instans för utbildningsprogram ser hen **program **på fliken Program. Elever kan också visa och registrera sig för alla egenregistrerade typer av utbildningsprogram.
+Utbildningsprogram är en uppsättning unikt utformade kurser som uppfyller specifika elevmål. Endast administratörer kan skapa utbildningsprogram för elever. När en administratör tilldelar elever en instans för utbildningsprogram ser hen **program &#x200B;** på fliken Program. Elever kan också visa och registrera sig för alla egenregistrerade typer av utbildningsprogram.
 
 Börja utbildningen genom att klicka på det program som tilldelats dig. Du kan visa detaljerad information om det specifika programmet.
 

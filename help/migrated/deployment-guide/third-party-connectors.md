@@ -301,7 +301,7 @@ GetAbstract-kopplingen kan användas av företagskunder på getAbstract.com, som
 
    För att en synkronisering ska fungera måste du se till att användarflödet finns i mappen getAbstract FTP för de datum som anges i synkroniseringen.
 
-   Se följande Excel-ark, som är ett exempel på en användarfeed-fil från getAbstract. Filnamnet ska följa formatet:** report_export_yyyy_MM_dd_Hmmss.xlsx** eller **report_export_yyyy_MM_dd.xlsx**.
+   Se följande Excel-ark, som är ett exempel på en användarfeed-fil från getAbstract. Filnamnet ska följa formatet:**&#x200B; report_export_yyyy_MM_dd_Hmmss.xlsx** eller **report_export_yyyy_MM_dd.xlsx**.
    [GetAbstract-exempelblad för användarfeed](assets/report-export-20170401175342.xlsx)
 
 ## Harvard ManageMentor-anslutning {#hmmconnector}

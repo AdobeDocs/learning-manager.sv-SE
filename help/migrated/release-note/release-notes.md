@@ -1489,7 +1489,7 @@ I den här uppdateringen kan en elev ladda upp tillgångar som bevis på slutfö
 
 En elev kan öppna ett externt certifikat och överföra mediefiler som pdf, text eller bildfiler.
 
-Mer information finns i [***Överför resurser i det externa certifikatet***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
+Mer information finns i [***Överför resurser i det externa certifikatet***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
 
 ### Problem som har åtgärdats i den här versionen {#issuesfixedinthisrelease}
 
@@ -1594,8 +1594,8 @@ För närvarande kan bara administratörer lägga till användare på en lista S
 
 Mer information om API:er för Learning Manager finns här:
 
-* [***API-referens***](<https://learningmanager.adobe.com/docs/Learning> ManagerAPI/v2/)
-* [***Användarhandbok för API-utvecklare***](<https://helpx.adobe.com/captivate-Learning> Manager/integration-admin/feature-summary/developer-manual.html)
+* [***API-referens***] (<https://learningmanager.adobe.com/docs/Learning> ManagerAPI/v2/)
+* [***Användarhandbok för API-utvecklare***] (<https://helpx.adobe.com/captivate-Learning> Manager/integration-admin/feature-summary/developer-manual.html)
 
 ### Problem som har åtgärdats i den här versionen {#Issuesfixedinthisrelease-1}
 
@@ -1872,7 +1872,7 @@ Utgivningsdatum: 20 juni 2019
 
 **Automatiskt urval av innehåll**
 
-Med social utbildning kan innehåll som publiceras av elever kurateras på två sätt, nämligen - **Inget kurateringsverktyg** och **Manuell kuratering**. I den här versionen förbättrar Adobe Learning Manager social utbildning genom att tillhandahålla AI-aktiverade funktioner för automatisk kurering. När innehållet har publicerats analyseras det för att identifiera om det tillhör den kompetens som det har publicerats för. Baserat på konfidenspoängen antingen läggs innehållet upp live eller skickas för manuell kuratering. Mer information finns i *[** Automatisk kuratering **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+Med social utbildning kan innehåll som publiceras av elever kurateras på två sätt, nämligen - **Inget kurateringsverktyg** och **Manuell kuratering**. I den här versionen förbättrar Adobe Learning Manager social utbildning genom att tillhandahålla AI-aktiverade funktioner för automatisk kurering. När innehållet har publicerats analyseras det för att identifiera om det tillhör den kompetens som det har publicerats för. Baserat på konfidenspoängen antingen läggs innehållet upp live eller skickas för manuell kuratering. Mer information finns i *[**&#x200B; Automatisk kuratering &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mappa kompetens med kompetensdomäner**
 
@@ -1952,9 +1952,9 @@ Utgivningsdatum: 26 april 2019
 
 * **Skanna QR-koden för att registrera dig:** QR-kodfunktionerna har förbättrats. Förutom att stödja närvaromärkning med QR-kod kan du nu även registrera dig för en kurs och slutföra en kurs med QR-kod.
 
-  För att registrera dig till en kurs och slutföra kursen kan du skanna en QR-kod som din administratör har tillhandahållit. Mer information om hur du skannar QR-koder i webbversionen av Learning Manager finns i [***Skanna QR-kod***](<https://helpx.adobe.com/captivate-Learning> Manager/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse).
+  För att registrera dig till en kurs och slutföra kursen kan du skanna en QR-kod som din administratör har tillhandahållit. Mer information om hur du skannar QR-koder i webbversionen av Learning Manager finns i [***Skanna QR-kod***] (<https://helpx.adobe.com/captivate-Learning> Manager/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse).
 
-* **Flera försök till kurs:** Med Learning Manager-appen kan eleven delta i kurser med flera försök aktiverade. Mer information om hur du konfigurerar flera försök finns i [***Flera försök***](<https://helpx.adobe.com/captivate-Learning> Manager/authors/feature-summary/courses.html#Multiattempts).
+* **Flera försök till kurs:** Med Learning Manager-appen kan eleven delta i kurser med flera försök aktiverade. Mer information om hur du konfigurerar flera försök finns i [***Flera försök***] (<https://helpx.adobe.com/captivate-Learning> Manager/authors/feature-summary/courses.html#Multiattempts).
 
 +++
 
@@ -2496,7 +2496,7 @@ Utgivningsdatum: 6 december 2016.
 
 ### Förbättring {#enhancement}
 
-Som en del av den här uppdateringen tillhandahåller Learning Manager slutpunkten [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning> ManagerAPI/v1/#!/user/patch_users_id) för att uppdatera användare i ett program. Du kan komma åt den här API-slutpunkten i administratörsrollen. Med **** här slutpunkten kan du uppdatera följande information om Learning Manager-användare:
+Som en del av den här uppdateringen tillhandahåller Learning Manager slutpunkten [PATCH/users/{id}] (<https://learningmanager.adobe.com/docs/Learning> ManagerAPI/v1/#!/user/patch_users_id) för att uppdatera användare i ett program. Du kan komma åt den här API-slutpunkten i administratörsrollen. Med **&#x200B;**&#x200B;här slutpunkten kan du uppdatera följande information om Learning Manager-användare:
 
 * Namn
 * E-post
@@ -3006,7 +3006,7 @@ Export av registreringsdata misslyckas om en av de registrerade eleverna tas bor
 
 **E-postmallar**
 
-* Ordet **partners,** som användes för att representera externa grupper,**** tas bort **** från brödtext och titel för e-postmallar. Externa grupper kallas inte nödvändigtvis partner.\
+* Ordet **partners,** som användes för att representera externa grupper,**&#x200B;** tas bort **&#x200B;**&#x200B;från brödtext och titel för e-postmallar. Externa grupper kallas inte nödvändigtvis partner.\
   **Obs!** Den uppdaterade mallen visas inte om standardmallen redan har ändrats. Om du vill visa den uppdaterade mallen klickar du på **Återgå till original** i dialogrutan **Mallförhandsvisning**.
 
 * Det går inte att klicka på URL:en i e-postmeddelandet som mottas av administratörer när **Profilen har skapats (självregistrering)** och **Profilen har skapats (externa/partners)** e-postmallar har redigerats. Problemet har åtgärdats.
@@ -3064,7 +3064,7 @@ Vid administratörsinloggning fungerade inte sidnumreringen på sidan Meddelande
 
 **Skapa kompetenser**
 
-I inloggningen för elever visade verktygstipset för färdighetsnamn i **Kompetenskarta **0}inte det fullständiga namnet ****.**** Problemet har åtgärdats.
+I inloggningen för elever visade verktygstipset för färdighetsnamn i **Kompetenskarta &#x200B;** 0&rbrace;inte det fullständiga namnet **&#x200B;**.**&#x200B;** Problemet har åtgärdats.
 
 **Lägg till externa partner**
 
