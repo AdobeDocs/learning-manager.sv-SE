@@ -16,7 +16,7 @@ Processen för att skicka in Adobe Learning Manager supportärenden är nu direk
 
 Observera att det bara är auktoriserade supportkontakter som kan skicka in ett supportärende. Fortsätt att skicka dina supportärenden till Adobe Learning Manager via e-post fram till 11 maj 2025 för dina supportfrågor. Efter detta datum kan du skicka dina supportärenden via Experience League supportportal enligt beskrivningen nedan, utöver den e-postkanal som redan finns.
 
-1. Gå till supportportalen på webbplatsen **[!UICONTROL Experience League]** och välj fliken **[!UICONTROL Support]** högst upp på sidan. Du kan också gå till [direktlänken](https://experienceleague.adobe.com/home#support).
+1. Gå till supportportalen på webbplatsen **[!UICONTROL Experience League]** och välj fliken **[!UICONTROL Support]** högst upp på sidan. Du kan också gå till [direktlänken](https://experienceleague.adobe.com/home?lang=sv-SE#support).
 
    ![](assets/support.png)
    _Hemsida för support_
