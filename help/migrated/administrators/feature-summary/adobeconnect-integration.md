@@ -4,9 +4,9 @@ title: Integrering med Adobe Connect
 description: Författare kan skapa virtuella klassrumskurser med Adobe Connect när kurser skapas. För att aktivera Adobe Connect för ditt Learning Manager-konto måste du kontakta organisationens administratör.
 contentowner: jayakarr
 exl-id: 13458f93-9ea7-4aab-8b33-3c4f4dd5886d
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 857dddf46e3900fbe2db4e345da2d29050ef3c82
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -65,3 +65,29 @@ Du måste köpa Adobe Connect separat, förutom Adobe Learning Manager.
 Om värden för den virtuella klassrumskursen inte deltar i sessionen registreras inte närvaron automatiskt för elever som deltog i sessionen. I sådana fall kan administratören registrera närvaron manuellt.
 
 Klicka på kursen om virtuella klassrum, klicka på Närvaro i den vänstra rutan på följande sida och notera närvaron.
+
+## Stöd till Adobe Connect-seminarier med stor publik
+
+Adobe Learning Manager har stöd för att välja seminarierum från Adobe Connect när du konfigurerar en virtuell klassrumssession i Connect. Tidigare kunde administratören bara välja mötesrumstyp. Med den här funktionen kan administratören med en giltig seminarielicens schemalägga och hantera engångs- eller storskaliga evenemang (upp till 1 500 deltagare) i ALM.
+
+Mer information om seminarierummet finns i den här [artikeln](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html).
+
+### Stöd för åtkomst till sessionsanalys
+
+Instruktörer kan komma åt Sessionsanalys för sina slutförda Adobe Connect-sessioner via en ny länk som finns på deras sessionsinstrumentpanel.
+
+![](assets/adobe-connect-session-url.png)
+_Välj sessions-URL_
+
+Den här länken öppnar instrumentpanelen för sessionsanalys i Connect, som ger detaljerade insikter om sessionsengagemanget.
+Den här funktionen är endast tillgänglig för sessioner som genomförs via Adobe Connect. Sessionsanalyserna inkluderar:
+
+* **[!UICONTROL Engagement]**: Översikt över livesessionens övergripande prestanda
+* **[!UICONTROL Interactions]**: Detaljerad uppdelning av deltagaraktivitet i olika poder
+* **[!UICONTROL Attendee Activity]**: Sammanfattning av deltagarengagemang
+* **[!UICONTROL Download Reports]**: Möjlighet att hämta rapporter för podspecifika engagemangsdata
+
+![](assets/session-dashboard.png)
+_Sessionens instrumentpanel_
+
+Läs den här [artikeln](https://helpx.adobe.com/in/adobe-connect/using/session-dashboard.html) om du vill ha mer information om sessionsanalys.

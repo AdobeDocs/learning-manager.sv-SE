@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Rensa användare
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 2%
+source-wordcount: '1107'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ Använd funktionen Rensa användare för att ta bort användarens personliga ide
 Åtgärden Rensa användare kan ge följande resultat:
 
 * Om en användare rensas fungerar inte länkarna i importloggar för att undvika att gamla CSV-filer hämtas och för att återföra användardata till systemet.
-* Om en författare rensas ersätts författarens namn med namnet på den administratör som tömde användaren.
+* Om en författare rensas ersätts författarens namn med namnet på administratören som tömde användaren.
 * Om instruktörer rensas tas de bort från sessionerna. Administratören måste ersätta/lägga till instruktörer för sådana sessioner.
 * När du rensar en användare i Learning Manager tas användaren inte bort från externa program (system från tredje part eller andra program som du har skrivit). Kontakta externa programägare för att få användarna borttagna från sådana program.
 * Om en rensad användare hänvisas till i konfigurationsinställningarna för en anslutning inaktiveras anslutningen. Anslutningen måste konfigureras om av administratören för att kunna återupptas.
@@ -63,7 +63,7 @@ Gör så här för att rensa användare:
 
 >[!NOTE]
 >
->När den borttagna användaren har lagts tillbaka i systemet behålls inte de tidigare rollerna (t.ex. admin, chef, författare, instruktör osv.). De läggs till med elevrollen.
+>När den borttagna användaren har lagts tillbaka i systemet behålls inte de tidigare rollerna (t.ex. Administratör, Chef, Författare, Instruktör etc.). De läggs till med elevrollen.
 
 ## Massrensning av användare
 
@@ -72,6 +72,49 @@ Du kan välja de första 50 användarna och rensa dem i en bild. Detta gör att 
 ![](assets/bulk-purge-users.png)
 
 *Ta bort användare i grupp*
+
+## Filtrera borttagna användare före rensning
+
+Med Adobe Learning Manager kan administratörer ta bort användare som redan har tagits bort från plattformen permanent. Denna process, som kallas rensning, hjälper organisationer att upprätthålla en ren elevdatabas, följa principer för datalagring och förhindra obehörig åtkomst till användardata.
+Detta är särskilt användbart för att bibehålla datahygienen och säkerställa att gamla, oanvända användardata tas bort från systemet.
+Att rensa användare är viktigt för att följa riktlinjer för dataintegritet eller upprätthålla ett sanerat datalager genom att ta bort överflödiga poster.
+
+### Filtrera borttagna användare per månad
+
+Du kan filtrera bort användare genom att välja en viss månad och sedan ta bort dem permanent.
+
+Så här filtrerar du borttagna användare med borttagningsmånaden:
+
+1. Välj **[!UICONTROL Users]** på administratörens startsida och välj sedan **[!UICONTROL User Cleanup]**.
+2. Välj datumväljaren **[!UICONTROL Select Deletion Month]** och välj datumet.
+
+   ![](assets/deletion-date.png)
+   _Välj månaden då användarna raderades_
+
+   Listan med användare som togs bort under den valda månaden visas.
+
+   ![](assets/list-of-user-deleted.png)
+   _Lista över borttagna användare som visas för den valda månaden_
+
+### Sortera borttagna användare per månad
+
+Du kan sortera de filtrerade användarna efter deras **[!UICONTROL Unique User ID]** och **[!UICONTROL Date deleted]**.
+
+1. Sortera användarna i listan med borttagna användare efter deras användar-ID eller borttagningsdatum.
+
+   ![](assets/sort-by-date.png)
+   _Användarlista filtrerad med unikt användar-ID_
+
+2. Välj en eller flera användare.
+3. Välj **[!UICONTROL Actions]** och sedan **[!UICONTROL Purge User]**.
+4. Markera Rensa i bekräftelsemeddelandet om du vill ta bort användarposterna permanent från Adobe Learning Manager.
+
+   ![](assets/select-purge.png)
+   _Slutlig bekräftelse innan användare rensas permanent_
+
+>[!NOTE]
+>
+>Om du rensar användarna permanent tas deras data bort. Dubbelkolla markeringen innan du fortsätter.
 
 +++Läs om resultaten av åtgärden Rensa användare
 
@@ -190,8 +233,6 @@ Du kan välja de första 50 användarna och rensa dem i en bild. Detta gör att 
 
 +++
 
-Learning Manager är nu GDPR-kompatibelt. Mer information om GDPR-kompatibilitet finns i [Learning Manager-kompatibilitet till GDPR](../../kb/prime-gdpr.md).
-
 ## Vanliga frågor {#frequentlyaskedquestions}
 
 +++Hur många dagar tar det för en rensningsbegäran att slutföras?
@@ -199,7 +240,13 @@ Learning Manager är nu GDPR-kompatibelt. Mer information om GDPR-kompatibilitet
 En begäran om att ta bort användare tar högst 30 dagar att slutföra.
 +++
 
-+++Kan du göra en massutrensning i Learning Manager?
++++Kan du göra en massutrensning i Adobe Learning Manager?
 
 Ja, du kan utföra en rensning i grupp. Du kan dock bara radera 50 användare i grupp.
++++
+
++++Kan jag återställa en rensad användare?
+
+Nej. När alla användardata har rensats tas de bort permanent och kan inte återställas.
+
 +++

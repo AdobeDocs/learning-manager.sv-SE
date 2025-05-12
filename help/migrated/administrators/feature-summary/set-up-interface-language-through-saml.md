@@ -3,13 +3,13 @@ description: Lär dig konfigurera gränssnittsspråket med SAML
 jcr-language: en_us
 title: Konfigurera gränssnittsspråk via SAML
 contentowner: chandrum
-source-git-commit: 448119eda15c8d7dfe10150c09fbbe7c530f35e8
+exl-id: 726cb45e-1c37-42b1-924a-565c84c82852
+source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
-
 
 # Konfigurera gränssnittsspråk via SAML
 
@@ -96,4 +96,18 @@ Om en användare tas bort från ALM utan vidare, behålls språkinställningarna
 
 Administratörer kan kontrollera rapporter på användaraktivitet, utbildningssammanfattning och efterlevnadstavla för språkspecifik information.
 
+## Uppdatering av inställningar för användarspråk vid inloggning via SAML
 
+Adobe Learning Manager är en flerspråkig plattform som stöder elevernas språkinställningar på flera sätt via gränssnitt, innehåll och kursmoduler, som alla är tillgängliga på flera språk.
+
+Med den här förbättringen förbättrar Adobe Learning Manager just-in-time-tilldelning av användare för inbyggda plattformsanvändare. När nya användare skapar konton och loggar in för första gången registreras deras språkinställningar automatiskt och tillämpas automatiskt.
+
+### Viktiga fördelar
+
+* Uppdaterar automatiskt användarnas språkinställningar vid inloggning.
+* Ger en personlig upplevelse genom att gränssnittet och innehållet visas på användarens önskade språk.
+* Integreras sömlöst med SAML-autentiseringsprocessen.
+
+När användare loggar in via SAML kontrolleras och uppdateras deras språkinställning (gränssnitts- och innehållsspråk) utifrån den information som ges under inloggningsprocessen.
+
+Funktionen integreras med SAML-inloggningsprocessen för att sömlöst hämta och uppdatera användarens språkinställningar.

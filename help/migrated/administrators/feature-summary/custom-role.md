@@ -4,9 +4,9 @@ title: Anpassade roller
 description: Med funktionen Utbildningsvägar kan du definiera anpassade roller och tilldela specifika ansvarsområden till en uppsättning användare. Med den här funktionen kan du tilldela ansvar utanför personens befintliga roll.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '2612'
+source-wordcount: '3366'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Du kan skapa en anpassad roll för att tillhandahålla redigeringsfunktioner som
 >
 >Om du lägger till en ny anpassad roll påverkas inte befintliga anpassade användargrupper eller rollbaserade grupper som Alla administratörer, Alla författare osv.
 
-Administratörer har möjlighet att skapa anpassade administratörsroller och anpassade författarroller med anpassade behörigheter för varje roll. Nedan visas en översikt över de behörigheter som är kopplade till varje roll:
+Administratören kan skapa anpassade administratörsroller och anpassade författarroller med anpassade behörigheter för varje roll. Nedan visas en översikt över de behörigheter som är kopplade till varje roll:
 
 **Anpassade författarrollsbehörigheter**
 
@@ -35,9 +35,9 @@ Anpassade författare kan utföra följande åtgärder:
    * Utbildningsvägar
    * Utbildningsplaner
 
-Administratörer och författare, inklusive anpassade administratörer och författare, kan dela utbildningsobjekt (LO) till externt delade kataloger. Administratörer och författare bör kunna söka efter externt delade kataloger när de skapar utbildningsobjekt (LO).
+Administratörer och författare, inklusive anpassade administratörer och anpassade författare, kan dela utbildningsobjekt (LO:er) med externt delade kataloger. Administratörer och författare bör kunna söka efter externt delade kataloger när de skapar utbildningsobjekt (LO).
 
-**Behörigheter för anpassad administratörsroll**
+**Behörigheter för anpassade administratörsroller**
 
 Den anpassade administratörsrollen replikerar en uppsättning administratörsbehörigheter, inklusive åtkomst till behörigheter på kontonivå. Anpassade administratörer får behörigheter att hantera viktiga funktioner som rör utbildningsaktiviteter, till exempel:
 
@@ -275,17 +275,125 @@ En användare med en anpassad roll kan:
    **Lägg till användare i CSV-överföring med anpassade roller:** Lägg till användare via CSV som överförts genom att lägga till en CustomRole-kolumn i .csv-filen som administratören använde för att importera användare. Ange användarens roll under kolumnen Anpassad roll för de användare som du vill tilldela en anpassad roll till. Klicka på **[!UICONTROL Add > Upload a CSV]** för att överföra CSV-filen.
 
    * Du kan inte söka efter användargrupper.
-   * Du kan inte söka efter användare som redan har administratörsrollen tilldelad.
+   * Du kan inte söka efter användare som redan har administratörsroll tilldelad.
    * Om du tilldelar en ny anpassad roll till en användare åsidosätts användarens tidigare anpassade roll.
 
    <!--![](assets/users.png)-->
 
    * En anpassad administratör med behörighet till inställningar kan konfigurera schemat för synkronisering eller synkronisering av användare från datakälla även om de inte har behörighet till användarentiteten.
-   * Om en anpassad administratör har behörighet i användarentiteten kan hen tilldela sig själv administratörsrollen och bli standardadministratör.
+   * Om en anpassad administratör har behörighet för användarentiteten kan hen tilldela sig själv administratörsrollen och bli standardadministratör.
 
-## Anpassad rollrapport
+## Tilldela flera anpassade roller till en användare
 
-Administratörer kan hämta en CSV-rapport över alla anpassade roller och deras behörigheter. I rapporten visas hur varje roll skapades, antingen av en administratör eller via en CSV-fil, och i rapporten beskrivs vilken åtkomst respektive roll fick.
+Du kan tilldela flera anpassade roller till användare på följande sätt:
+
+* Med användargränssnittet: Du kan tilldela mer än en anpassad roll till en användare direkt från Adobe Learning Manager-gränssnittet.
+* Med CSV-överföring: Du kan överföra en CSV-fil för att tilldela flera anpassade roller till flera användare samtidigt.
+
+Det gör det enklare att hantera användaråtkomst och kontrollbehörigheter i systemet.
+
+### Tilldela flera anpassade roller via användargränssnittet
+
+Att tilldela flera anpassade roller via Admin Console i Adobe Learning Manager är ett snabbt och intuitivt alternativ som är perfekt för introduktion, behörighetsjusteringar och mindre uppdateringar. Roller kan tilldelas visuellt, utan att det behövs några CSV-överföringar, vilket minskar risken för fel och ger synlighet i realtid. Den här metoden stöder snabba uppdateringar när ansvarsområden flyttas och tillåter rollbyte och delegering efter behov.
+
+Gör så här om du vill tilldela flera anpassade roller till en användare:
+
+1. Logga in som administratör och välj **[!UICONTROL Users]**.
+2. Välj **[!UICONTROL Custom Roles]** i den vänstra panelen.
+3. Skapa en ny anpassad roll och lägg till kontobehörigheter, kataloger, utbildningsobjekt eller omfattningar. Se stegen som nämns [här](#create-a-custom-role).
+4. Lägg till användare i den anpassade rollen.
+
+   ![](assets/add-users-in-custom-roles.png)
+   _Tilldela användare en anpassad roll_
+
+5. Välj **[!UICONTROL Save]**.
+
+Välj flera anpassade roller för en användare efter behov. Varje användare kan ha upp till 50 anpassade rolltilldelningar. Antalet tillgängliga roller minskar med varje tilldelning.
+
+När du har tilldelat användare en annan anpassad roll kan du visa hur många rolltilldelningar som fortfarande är tillgängliga för varje användare.
+
+>[!NOTE]
+>
+>Du kan tilldela upp till 50 roller till varje användare och lägga till upp till 500 användare till varje roll.
+
+### Tilldela flera anpassade roller med CSV
+
+Genom att överföra en CSV-fil i Adobe Learning Manager kan du effektivt tilldela anpassade roller gruppvis. Denna process är särskilt fördelaktig för introduktion av ett stort antal anställda, omorganisering av team eller uppdatering av tillgången till ny utbildning. CSV-import sparar manuell arbetsinsats, säkerställer konsekventa tilldelningar och minskar antalet fel. Den här metoden är särskilt användbar vid sammanslagningar, uppdateringar på hela avdelningen eller vid global lansering av utbildningar. Den här metoden hjälper administratörer att spara tid, standardisera roller och upprätthålla styrning.
+
+Du kan nu tilldela flera roller till en användare via CSV-import genom att överföra två filer till Box:
+
+* role.csv
+* user_role.csv.
+
+Filen user_role.csv innehåller fälten Anpassad roll och Användar-id.
+
+Filen role.csv innehåller fält, anpassad roll, källa för att skapa och detaljerad information om kataloger, användare, kurser, utbildningsvägar med mera.
+
+Om CSV-filen innehåller felaktiga data eller överskrider gränserna (50 roller per användare och 500 användare per roll) visas ett meddelande med felen.
+
+![](assets/error-custom-role.png)
+_Felmeddelande för anpassade roller_
+Användarna får ett e-postmeddelande när roller tilldelas, inklusive namnet på rollen.
+
+### Hantera anpassade roller
+
+Administratörer kan uppdatera, lägga till och ta bort anpassade roller för användare i Adobe Learning Manager när ansvarsområdena ändras. Detta garanterar att åtkomsten anpassas till aktuella roller utan att påverka utbildningshistorik eller registreringsdata. På sidan **[!UICONTROL Users]** kan administratören söka efter användare, visa deras roller och justera dem med alternativet Hantera anpassade roller. Det här guidade gränssnittet gör det enkelt att lägga till eller ta bort roller samtidigt som styrning och säkerhet upprätthålls.
+
+>[!NOTE]
+>
+>Anpassade administratörer kan inte hantera anpassade roller (lägga till eller ta bort anpassade roller) eller uppgradera sig själva till administratörsrollen.
+
+När du har tilldelat användare anpassade roller kan du lägga till eller ta bort anpassade roller från sidan **[!UICONTROL Users]**.
+
+1. Sök efter en användare på sidan **[!UICONTROL Users]**.
+
+   ![](assets/search-user-role.png)
+   _Sök efter en användare på sidan Användare_
+
+2. Välj rullgardinspilen i slutet av raden där användarnamnet visas och välj sedan **[!UICONTROL Manage custom roles]**.
+
+   ![](assets/select-manage-custom-roles.png)
+   _Välj Hantera anpassade roller på användarsidan_
+
+3. En dialogruta visas med en lista över de anpassade roller som tilldelats användaren. Välj **[!UICONTROL Add/remove roles]** för att lägga till eller ta bort anpassade roller som tilldelats användaren.
+
+   ![](assets/add-remove-roles.png)
+   _Välj Lägg till/ta bort roller i uppmaningen Hantera anpassade roller_
+
+4. Sök efter andra anpassade roller som ska tilldelas användaren. Välj den anpassade rollen när du har hittat en.
+
+   ![](assets/add-new-custom-role.png)
+   _Välj den anpassade rollen_
+
+5. Välj **[!UICONTROL Save]**. En bekräftelsedialogruta för ändringen av den anpassade rollen visas. Välj **[!UICONTROL Yes]**.
+
+   ![](assets/confirmation-prompt.png)
+   _Välj Ja i bekräftelsemeddelandet_
+
+En tredje anpassad roll tilldelas användaren.
+
+Följ de här stegen om du vill ta bort anpassade roller:
+
+1. Sök efter en användare på sidan **[!UICONTROL Users]**.
+2. Välj listrutan nära användaren och välj **[!UICONTROL Manage custom roles]**.
+3. Välj **[!UICONTROL Add/remove roles]** för att lägga till eller ta bort anpassade roller.
+4. Välj **[!UICONTROL remove icon]** för att ta bort den anpassade rollen.
+
+   ![](assets/remove-custom-roles.png)
+   _Ta bort anpassade roller_
+
+### Växla anpassade roller
+
+Om du vill visa och välja anpassade roller som tilldelats dig använder du alternativet **[!UICONTROL Switch custom role]**.
+
+![](assets/switch-roles.png)
+_Välj anpassade roller_
+
+Användarna får ett e-postmeddelande när de anpassade rollerna har tilldelats dem. E-postmeddelandena innehåller nu rollnamn för ökad tydlighet.
+
+## Hämta rapporten om den anpassade rollen
+
+Administratörer kan hämta en CSV-rapport med en lista över alla anpassade roller och deras associerade behörigheter. Rapporten visar om varje roll har skapats manuellt eller via CSV-överföring och ger en sammanfattning av åtkomsten och behörigheterna som har tilldelats varje roll.
 
 Hämta rapporten genom att följa dessa steg:
 
@@ -306,7 +414,7 @@ Filen user_role.csv innehåller fält, anpassad roll, källa till skapande och d
 
 ## Granskningsspår för anpassade roller
 
-Administratörer kan hämta granskningsrapporten för den anpassade rollen för att spåra alla ändringar som görs i de anpassade rollerna, däribland att skapa, ändra och ta bort anpassade roller och deras tillhörande funktionsåtkomst.
+Administratörer kan hämta granskningsrapporten för den anpassade rollen för att spåra alla ändringar som görs i de anpassade rollerna, inklusive att skapa, ändra och ta bort anpassade roller och deras tillhörande funktionsåtkomst.
 
 Läs den här artikeln [Granskningsspår för anpassade roller](/help/migrated/administrators/feature-summary/reports.md#audit-trail-for-custom-roles) om du vill ha mer information.
 
@@ -474,13 +582,13 @@ Alla utbildningsplaner som skapas av en administratör gäller som standard alla
 
 I den här uppdateringen av Learning Manager kan du skapa anpassade roller för utbildningsplaner som tillåter omfång för användare och utbildningsobjekt. Med andra ord kan utbildningsplaner skapas med ett begränsat omfång som härrör från en anpassad administratörs rollomfång.
 
-Nu kan en administratör definiera eller begränsa omfattningen när han/hon ger åtkomst till hantering av utbildningsplaner.
+Nu kan en administratör definiera eller begränsa omfattningen när han/hon beviljar åtkomst till hantering av utbildningsplaner.
 
-Anpassade administratörer kan skapa utbildningsplaner med en begränsad omfattning, som bestäms av omfattningen av den anpassade administratörens konfigurerbara roll. Sådana utbildningsplaner är bara tillgängliga för anpassade administratörer med samma roll, förutom att vara tillgängliga för vanliga administratörer. Dessutom kan de anpassade administratörerna inte se några andra utbildningsplaner i kontot.
+Anpassade administratörer kan skapa utbildningsplaner med en begränsad omfattning, som bestäms av omfattningen av den anpassade administratörens konfigurerbara roll. Utbildningsplanerna är bara tillgängliga för anpassade administratörer med samma roll, förutom att vara tillgängliga för vanliga administratörer. Dessutom kan de anpassade administratörerna inte se några andra utbildningsplaner i kontot.
 
 Befintliga anpassade administratörer som har tillgång till utbildningsplaner har alltid full omfattning (per definition). De får tillgång till alla utbildningsplaner på kontot precis som en vanlig administratör. Nya anpassade roller som skapats med fullständigt omfång och nya anpassade administratörer som lagts till i sådana roller kommer att ha fortsatt åtkomst till alla utbildningsplaner.
 
-Utbildningsplaner som skapas av administratörer och anpassade administratörer i hela omfattningen skapas som vanligt och begränsas inte av omfattningen.
+Utbildningsplaner som skapas av administratören och anpassade administratörer i hela omfattningen skapas som vanligt och begränsas inte av omfattningen.
 
 I avsnittet **Omfång för funktionsprivilegier** beviljar du åtkomst till användargrupper och/eller katalog för den anpassade rollen.
 
@@ -496,7 +604,7 @@ Tilldela en användare till den anpassade rollen.
 
 Användaren loggar nu in i Learning Manager som anpassad administratör och lägger nu till en utbildningsplan.
 
-När en ny elev läggs till kan den anpassade administratören bara välja en utbildning från den konfigurerbara rollens kataloger med omfång.
+När en ny elev läggs till kan den anpassade administratören endast välja en utbildning från den konfigurerbara rollens kataloger med omfång.
 
 Den här utbildningsplanen gäller nu endast eleven om användaren även läggs till i gruppen inom utbildningsplanens begränsade användargrupp. Alla andra elever undantas från denna utbildningsplan.
 

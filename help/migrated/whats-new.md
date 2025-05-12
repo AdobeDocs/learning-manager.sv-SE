@@ -1,582 +1,232 @@
 ---
-description: Läs om de nya funktionerna och förbättringarna i november 2024-versionen av Adobe Learning Manager
+description: Läs om de nya funktionerna och förbättringarna i maj 2025-versionen av Adobe Learning Manager
 jcr-language: en_us
 title: Sammanfattning av nya funktioner
-exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: 537d324d6e266552fdfdd9ba16557fd3228870b7
+source-git-commit: 1d449826b8f89aa9fd522d19bc129780e68c05e6
 workflow-type: tm+mt
-source-wordcount: '3179'
-ht-degree: 1%
+source-wordcount: '2477'
+ht-degree: 0%
 
 ---
 
-# Sammanfattning av nya funktioner {#new-features-summary}
 
-Läs om de nya funktionerna och förbättringarna i november 2024-versionen av Adobe Learning Manager.
+# Sammanfattning av nya funktioner
 
-* **AI-baserad sökning:** Kombinerar lexikala och semantiska sökningar för smartare, kontextmedvetna resultat.
-* **Webhooks**: Integrera med webhooks för att skicka realtidsinformation till specifika URL:er.
-* **Utbildningsverktyg och interoperabilitet (LTI)**: Stöder LTI för kompatibilitet med andra LMS-plattformar.
-* **Integrering med autentiseringsuppgifter**: Hantera och dela externa utmärkelsetecken via Kreditera.
-* **Förbättringar av efterlevnadstavlan**: Dela instrumentpaneler med andra administratörer och ange standardwidgetar för efterlevnad på elevens startsidor.
-* **Stöd för flera språk**: Skapa språkspecifika instanser för klassrums- och virtuella klassrumsmoduler.
-* **Anpassade roller**: Förbättrad kontroll över användarroller och behörigheter.
-* **Slutförandekommentarer**: Lägg till kommentarer när du markerar elever som slutförda.
-* **Användargruppsrapport**: Hantera användargrupper med detaljerade rapporter.
-* **Väntelisterapport**: Ladda ned väntelistan med elever för kursinstanser.
-* **Tillgänglighetsförbättringar**: Stöd för alt-text på maskhuvuden och företagslogotyper.
-* **Stöd för hindi**: Stöd för gränssnittsspråk för hindi.
-* **Svordomskontroll**: Blockera sociala inlägg som innehåller förbjudna ord.
-* **Optimering av e-postmallar**: Kombinerade och optimerade e-postmallar för instruktörstilldelningar och sessionsavbrott.
-* **Kriterier för slutförande av MS Teams**: Ange lägsta närvarotid för VILT-sessioner.
-* **Nya migreringsarbetsflöden**: Migreringsändringar omfattar kriterier för slutförande av kurser och moduler och migrering av moduler till mappar.
+I den kommande versionen av Adobe Learning Manager introduceras en rad nya funktioner och förbättringar som syftar till att effektivisera plattformen och förbättra dess funktioner.
 
->[!NOTE]
->
->Titta på det här [webbseminariet](https://cdn.content.adobelearningmanageracademy.com/public/newlearner/newlearner_0dc0f1e8.html#/overviewPage?instanceId=11932477&amp;loId=11231360&amp;loType=course) om du vill veta mer om de nya funktionerna i den här versionen.
+## Tavla för slutförda grupper
 
-## AI-baserad sökning i Adobe Learning Manager
+Med gruppkontrollpanelen (GSD) i Adobe Learning Manager kan administratörer och chefer övervaka elevens framsteg i nära realtid (60 minuters fördröjning från registrering, framsteg eller slutförande till reflektion på kontrollpanelen) på olika avdelningar eller användargrupper. Det stöder proaktiv spårning av kursens slutförande, registrering och väntande åtgärder, vilket gör det enklare att hantera inlärning för team. Instrumentpanelen för gruppframgång förenklar framstegsspårning genom att ersätta Excel-baserade transkriberingar med ett lättanvänt gränssnitt, vilket gör det enklare att granska elevaktiviteter för scenarier som prestandautvärderingar eller efterlevnadskontroller. Det är särskilt användbart för chefer som leder små team (under 50 personer), till exempel butikschefer eller interna team, så att de snabbt kan övervaka slutförandet av kursen och hålla utbildningen på rätt spår.
 
-Adobe Learning Manager gör om det sätt på vilket elever söker kurser eller utbildningar. Den introducerar en AI-driven sökfunktion som kombinerar lexikala och semantiska sökningar. Sökningen är nu smartare eftersom den söker efter specifika termer och förstår sammanhang och avsikt bakom dem. Den avancerade sökningen förstår innebörden av din fråga och ger relevanta resultat. Det identifierar huvudfokus i sökningen för att ge dig den mest kompletta uppsättningen resultat.
+I den här [artikeln](/help/migrated/administrators/feature-summary/group-success-dashboard.md) finns mer information om kontrollpanelen för lyckade gruppåtgärder.
 
->[!NOTE]
->
->AI-driven sökning är endast tillgänglig för elever.
+## Förbättringar av anpassade roller
 
-Läs den här artikeln [Avancerad sökning](/help/migrated/learners/feature-summary/advanced-search.md) om du vill ha mer information.
+Adobe Learning Manager tillåter nu användare att ha flera anpassade roller för att tillgodose behovet av att anpassade administratörer hanterar olika ansvarsområden. Varje roll kan ha upp till 500 användare och varje användare kan ha upp till 50 roller, vilket ger flexibilitet vid delegering av uppgifter. Användare kan enkelt växla mellan sina tilldelade roller via ett nytt alternativ i sin profil, vilket säkerställer smidig hantering av olika ansvarsområden. Administratörer kan tilldela eller ändra roller för användare via en ny länk på användarsidan, så att de kan lägga till eller ta bort roller efter behov. Dessa förbättringar förenklar hanteringen av flera ansvarsområden, särskilt för små team med begränsade resurser.
 
-## Webhooks
+I den här [artikeln](/help/migrated/administrators/feature-summary/custom-role.md#assign-multiple-custom-roles-to-a-user) finns mer information om de anpassade rollerna.
 
-Med Adobe Learning Manager kan du integrera med webhookar och skicka realtidsinformation, till exempel kursregistrering, kursskapande och annan information, till en specifik URL.
+## Massregistrering, närvaro och slutförande av elev {#bulk-enrollment}
 
-Med en webhook i ALM kan en enhet automatiskt skicka data till ett annat program via HTTP. Det kommer att göra det möjligt för ett program att förse andra program med information utan att ständigt begära det. Om en användare till exempel slutför en kurs i ett system för hantering av inlärning (LMS) kan en webhook automatiskt skicka den informationen till en annan plattform, till exempel ett CRM- eller rapporteringsverktyg. Webhooks används ofta i integreringar för att automatisera processer och minska behovet av manuella uppdateringar mellan system. Konfigurera webhooks genom att ange en återanropsadress som du vill skicka data till.
+Med hjälp av massregistreringsfunktionen i Adobe Learning Manager kan administratörer effektivt registrera stora elevgrupper i kurser, certifieringar eller utbildningsprogram genom att ladda upp en CSV-fil. Denna process sparar tid, garanterar konsekvens och stöder skalbarhet i organisationen. Dessutom kan administratörer och instruktörer uppdatera elevinformation, närvaro och slutföranden i grupp genom att överföra CSV-filer, minimera manuellt arbete och säkerställa datanoggrannhet.
 
-Läs den här artikeln [Webhookar](/help/migrated/integration-admin/feature-summary/webhooks.md) om du vill ha mer information.
+I den här [artikeln](/help/migrated/administrators/feature-summary/courses.md#learner-bulk-enrollment-attendance-and-completion) finns mer information om gruppregistrering, närvaro och slutförande.
 
-## Interoperabilitet för utbildningsverktyg
+## Spåra innehåll med unikt innehålls-ID och förfallodatum
 
-Adobe Learning Manager stöder nu LTI för att förbättra interoperabiliteten mellan Adobe Learning Manager och andra system för hantering av inlärning (LMS).
+Det unika innehålls-ID:t är en unik kod som tilldelas varje innehållsobjekt i Adobe Learning Manager. Det hjälper administratörer och författare att hitta och hantera innehåll enkelt, särskilt när de uppdaterar eller flyttar det mellan system. Detta unika ID för innehåll är också användbart för att ansluta innehåll till andra verktyg som HR eller efterlevnadssystem. Samma unika innehålls-ID används i alla språkversioner så att allt förblir konsekvent för eleverna.
 
-### Vad är LTI?
+Förfallodatumet markerar innehåll som kan vara föråldrat eller inte längre behövs. Även efter utgångsdatumet är innehållet tillgängligt, men det påminner författare och administratörer om att kontrollera och uppdatera det om det behövs. Baserat på inställningar kan utgånget innehåll tas bort från nya registreringar eller arkiveras. Förfallodatumet fungerar på samma sätt för alla språkversioner, precis som det unika innehålls-ID:t, vilket hjälper till att hålla innehållet rent och uppdaterat för alla.
 
-LTI (Learning Tools Interoperability) är en standard som gör att externa verktyg och innehållsleverantörer kan ansluta till ett system för hantering av inlärning (LMS). Användarna kan komma åt externt utbildningsinnehåll från externa innehållsleverantörer direkt i sitt LMS utan att logga in eller gå till ett annat LMS.
+Dessutom stöder det unika innehålls-ID:t integrering med innehållsmigreringsprocesser, vilket gör det enkelt att överföra och hantera innehåll mellan olika system.
 
-**LTI som verktygsleverantör**: Med LTI som verktygsleverantör kan externa system integreras med ett LMS. Adobe Learning Manager fungerar som en LTI Tool Provider, och ger andra LMS-plattformar tillgång till kurser, certifikat och utbildningsvägar från Adobe Learning Manager direkt i deras LMS.
+* Det unika ID:t för innehållet gör det enklare att länka innehåll mellan externa system och Adobe Learning Manager.
+* Förfallodatumet hjälper författarna att hålla reda på inaktuellt innehåll som kan behöva granskas eller uppdateras.
 
-**LTI som verktygskonsument**: LTI som verktygskonsument gör det möjligt för LMS att integrera externa verktyg via Learning Tools Interoperability (LTI). I detta scenario är LMS en konsument av tjänster som tillhandahålls av externa verktyg. Adobe Learning Manager fungerar som en LTI Tool-konsument och kan integrera utbildningsverktyg från tredje part. Detta ger Adobe Learning Manager-elever möjlighet att delta i kurser, certifikat eller utbildningsvägar från externa verktyg i Adobe Learning Manager.
+I den här [artikeln](/help/migrated/authors/feature-summary/content-library.md#add-content-unique-id-and-expiry-date) finns mer information om innehållets unika ID och utgångsdatum.
 
-Läs den här artikeln [Interoperabilitet för utbildningsverktyg](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md) om du vill ha mer information.
+## Admin AI Assistant (beta)
 
-## Credly
+I komplexa utbildningsmiljöer kan administratörer få svårt att hitta innehåll eller slutföra uppgifter på grund av komplicerade menyer och frånkopplade arbetsflöden. Aktiviteter som att köra rapporter eller få åtkomst till viss information kan till exempel kräva att du navigerar i flera skärmar. Admin AI Assistant (beta) hjälper dig att hitta rätt information för att förstå och slutföra uppgifter effektivt.
 
-Med hjälp av kredit kan en administratör i ALM hantera och dela externa utmärkelsetecken från plattformen i olika sociala mediekanaler.
+Admin AI Assistant (beta) i Adobe Learning Manager hjälper administratörer att snabbt hitta svar på vanliga frågor, utforska systemfunktioner och förstå hur man utför viktiga uppgifter, bara genom att fråga på vanligt språk. Oavsett om du inte har använt Adobe Learning Manager förut eller om du letar efter snabbare sätt att felsöka kan Admin AI Assistant (beta) förenkla arbetsflödet genom att ge sammanhangsanpassad hjälp direkt på plattformen.
 
-### Vad är Credly?
+Det använder Adobe AI-funktioner för att möjliggöra naturliga språkfrågor över utbildningsinnehåll och systemarbetsflöden.  Administratörer kan ställa frågor som **hur man lägger till användare i Adobe Learning Manager** eller **hur man lägger till utbildningsvägar**. Adobe Learning Manager Admin AI Assistant (beta) utbildas uteslutande i offentligt tillgänglig dokumentation som ägs av Adobe, till exempel resurser som finns på **[!UICONTROL Experience League]**. Det lär sig inte av eller kommer inte åt kundinnehåll, internt utbildningsmaterial eller användargenererade data.
 
-Credly är en digital inloggningsplattform som gör det möjligt för elever och organisationer att tjäna in, dela och verifiera yrkesmässiga prestationer, som märken eller certifieringar. Elever kan hantera och dela utmärkelsetecken via sin kreditprofil på sociala medier och andra platser.
+I den här [artikeln](/help/migrated/administrators/feature-summary/alm-ai-assistant.md) finns mer information om AI-assistenten (beta).
 
-### Integrera med Adobe Learning Manager
+## Nya innehållsspråk
 
-Lägg först till kreditkontakten i Adobe Learning Manager (ALM). Migrera sedan de befintliga utmärkelsetecknen från Creded för att säkerställa kontinuiteten för elevprestationer. Slutligen kan du skapa en kompetens i Adobe Learning Manager och hitta rätt utbildningsväg för att förbättra elevutvecklingen och erkännandet.
+Adobe Learning Manager har stöd för många språk, både för innehåll och gränssnitt, vilket gör att det sticker ut från andra utbildningsplattformar. Med varje milstolpe utökar Adobe Learning Manager sina språktjänster för att ge bättre stöd åt en global och mångsidig användarbas. I den här versionen lanserar vi nya innehållsspråk som ytterligare stärker vårt åtagande att leverera inkluderande och tillgängliga utbildningsupplevelser för alla.
 
-Läs den här artikeln [Tillfälligt](/help/migrated/integration-admin/feature-summary/credly-integration.md) om du vill ha mer information
+* Kinesisk-traditionell Hongkong (cn-HK)
+* Norska bokmål (nb-NO)
+* Tamil (ta-IN)
+* Telugu (te-IN)
+* Kannada (kn-IN)
+* Malayalam (ml-IN)
 
-## Efterlevnadstavla
+I den här [artikeln](/help/migrated/languages-supported.md) finns en lista över språk som stöds i Adobe Learning Manager.
 
-I den här versionen kan administratörer nu dela kontrollpanelen med andra administratörer, anpassade administratörer och butikschefer, vilket ger dem omedelbar tillgång till efterlevnadstavlorna. De kan nu ställa in standardwidgeten för efterlevnad på elevens startsida, så att eleverna kan spåra sina efterlevnadskrav. Se den här artikeln [Efterlevnadstavla](/help/migrated/administrators/feature-summary/reports.md#share-compliance-dashboard-with-admins-and-custom-admins) för mer information.
+## Förbättringar på Content Marketplace
 
-## Stöd för flera språk
+Adobe Learning Manager lanserar nya inköpsmodeller för att skaffa innehåll, vilket ger större flexibilitet och fler alternativ för att skaffa innehåll: Premium Essentials och Premium Essential Plus. Essentials erbjuder kostnadseffektiva lösningar för att öka medarbetarnas engagemang och omfattar innehållsleverantörer som Skillshub, Thomson Reuters och EmTrain. Premium Essential Plus erbjuder ytterligare innehåll från premiumleverantörer som Blinkist, Pluralsight, Skillsoft, Traliant och Coursera.
 
-Med Adobe Learning Manager (ALM) kan författare nu skapa språkspecifika instanser med språktaggning för klassrums- och virtuella klassrumsmoduler. Elever kan komma åt CR/VC-moduler på önskat språk. En författare kan till exempel skapa en CR/VC-modul med två instanser: en på engelska och en på franska. Elever kan välja instanserna på sitt önskade språk.
+I den här [artikeln](/help/migrated/administrators/feature-summary/content-marketplace.md) finns mer information om nya inköpsplaner.
 
-Se den här artikeln [Lägg till utbildningsobjekt på olika språk](/help/migrated/authors/feature-summary/add-new-language-learning-objects.md#multi-language-support-for-crvc-instances-with-language-tagging) för mer information.
+## Rapport över inloggningsåtkomst i FTP, anpassad FTP och Box {#log-in-access-report}
 
-## Anpassade roller
+Rapporterna för inloggningsåtkomst är nu tillgängliga för Box-, FTP- och anpassade FTP-anslutningar, utöver de befintliga jobb-API:erna. Den här rapporten innehåller detaljerad information om användarinloggningar, inklusive körningsstatus, komprimeringsinställningar och schemaläggningsalternativ. Rapporten kan genereras på begäran eller schemaläggas, och data lagras i den angivna anslutningen för enkel åtkomst och analys. Den här förbättringen förbättrar möjligheten att övervaka och granska användarinloggningar, vilket ger bättre säkerhet och efterlevnadsspårning.
+Rapporten finns nu tillgänglig i den anpassade FTP-, FTP- och Box tillsammans med befintliga rapporter, såsom elevförlopp och slutförande av kurs. Med integreringen kan administratörer få åtkomst till alla nödvändiga rapporter från en enda källa, vilket underlättar bättre datahantering och -analys.
 
-Med anpassade roller kan administratörer definiera specifika roller och ansvarsområden för olika användargrupper, vilket ger bättre hantering och kontroll. I den här versionen förbättrar ALM anpassade roller genom att ge mer detaljerad kontroll över följande avsnitt.
+Rapporten bidrar till automatisering genom att möjliggöra export av inloggnings- och åtkomstdata till FTP, där den kan kopplas till andra rapporter för att skapa omfattande instrumentpaneler. Den här funktionen är särskilt användbar för organisationer som använder automatiserade processer för dataanalys och -rapportering.
 
-* Användare
-* Kurser
-* Utbildningsvägar
-* Certifieringar
-* Arbetsstöd
-* Kataloger
+I den här [artikeln](/help/migrated/integration-admin/feature-summary/connectors.md) finns mer information om FTP-, anpassade FTP- och Box-anslutningar.
 
-Administratörer kan tilldela exakta behörigheter baserat på användaransvar och se till att varje grupp bara har tillgång till relevanta funktioner och innehåll. Dessa förbättrade kontroller möjliggör mer detaljerad hantering av viktiga avsnitt.
+## Uppdatering av inställningar för användarspråk vid inloggning via SAML
 
-Logga in som administratör och gå till **[!UICONTROL Users]** > **[!UICONTROL Custom Roles]** för att skapa och hantera anpassade roller.
+Adobe Learning Manager är en flerspråkig plattform där elevernas språkinställningar hanteras på olika sätt, till exempel gränssnittsspråk, innehållsspråk och kurser, tillsammans med moduler och instanser, också är flerspråkiga.
 
-Läs den här artikeln [Anpassade roller](/help/migrated/administrators/feature-summary/custom-role.md) om du vill ha mer information.
+För användare med Adobe Learning Manager inbyggda plattform tillgodoser denna förbättring behovet av tillhandahållande av användare just-in-time. När användarna skapar konton och loggar in för första gången ser den här funktionen till att deras språkinställningar fångas och används korrekt.
 
-## Kommentarer till slutförande
+Den här funktionen ser till att användarnas språkinställningar uppdateras automatiskt när de loggar in via SAML. Det hjälper att ge en personlig upplevelse genom att gränssnittet visas på användarens önskade språk.
+När användare loggar in via SAML kontrolleras och uppdateras deras språkinställning (gränssnitts- och innehållsspråk) utifrån den information som ges under inloggningsprocessen.
 
-Administratörer kan nu lägga till kommentarer när de markerar elever som slutförda i kurser, utbildningsvägar eller certifieringar. Administratörer kan lägga till kommentarer för en eller flera elever samtidigt och kommentarerna visas i rapporten [Elevens betygsutdrag](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts).
+Funktionen integreras med SAML-inloggningsprocessen för att sömlöst hämta och uppdatera användarens språkinställningar.
 
-Mer information finns i den här artikeln [Kommentarer till slutförande](/help/migrated/administrators/feature-summary/courses.md#completion-comments).
+Mer information finns i [artikeln](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md).
 
-## Rapport över användargrupp
+## Filtrera borttagna användare före rensning
 
-Adobe Learning Manager nya **[!UICONTROL User Group Report]** hjälper till att hantera användargrupper genom att synliggöra grupper som lämnas ohanterade när administratörer lämnar organisationen. Administratörer kan komma åt rapporterna under avsnittet **[!UICONTROL Users]** > **[!UICONTROL User Group]**. Den innehåller detaljerad information om varje grupp, inklusive:
+Att radera användare innebär att permanent ta bort deras data från systemet. Sortera användare efter det datum de togs bort, vilket gör det enklare att hitta och hantera specifika poster. Dessutom kan administratörer med ett nytt filter välja användare baserat på år och månad för borttagningen och begränsa listan till en specifik tidsram. Dessa ändringar effektiviserar användarrensningen, vilket gör det möjligt för administratörer att effektivt rensa användare genom att markera flera poster inom en angiven period.
 
-* Typ av användargrupp
-* Gruppnamn
-* Beskrivning
-* Skapad av (namn)
-* Skapad av (e-post)
-* Skapad den (tidszonen UTC)
-* Antal användare
+Mer information finns i den här [artikeln](/help/migrated/administrators/feature-summary/purge-users.md#filter-deleted-users-before-purging).
 
-Läs den här artikeln [Rapport om användargrupper](/help/migrated/administrators/feature-summary/add-users-user-groups.md#user-group-report) om du vill ha mer information.
+## Förbättringar av Adobe Connect-kopplingen
 
-## Väntelisterapport
+### Stöd till seminarier med stor publik
 
-Med Adobe Learning Manager nya **[!UICONTROL Waitlist Report]** kan administratörer hämta elevlista på väntelistan för alla instanser av en kurs. Administratörer och instruktörer kan komma åt den här rapporten från avsnittet **[!UICONTROL Waitlist]** på sidan **[!UICONTROL Course]** eller **[!UICONTROL Session Overview]**. Väntelisterapporten kan hämtas från avsnitten Admin och Instruktör.
+Adobe Learning Manager har nu även stöd för att välja seminarierum från Adobe Connect när du konfigurerar en VC-session i Connect. Tidigare kunde administratören bara välja mötesrumstyp. Den här förbättringen gör det möjligt för administratörer med en giltig seminarielicens att schemalägga och hantera engångs- eller storskaliga evenemang (upp till 1 500 deltagare) i Adobe Learning Manager.
 
-Följande kolumner är tillgängliga i väntelisterapporten:
+Mer information om seminarierummet finns i den här [artikeln](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html).
 
-* Kursnamn
-* Instansnamn
-* Instans-ID:
-* Instansstatus
-* Användarnamn
-* E-post
-* Unikt användar-ID
-* Datum registrerad (tidszonen UTC)
-* Status
-* Väntelistenummer
-* Väntlistegräns
-* Platsbegränsning
+### Stöd för åtkomst till sessionsanalys
 
-Se de här artiklarna [Väntelisterapport (administratör)](/help/migrated/administrators/feature-summary/courses.md#waitlist-report) och [Väntelisterapport (instruktörer)](/help/migrated/instructors/feature-summary/learners.md#waitlist-report) för att hämta rapporten från avsnittet Administratör och instruktör.
+Med Adobe Learning Manager får användare åtkomst till sessionsanalys via en URL som omdirigeras till kontrollpanelen Anslut sessionsanalys. På instrumentpanelen finns detaljerad information om sessionens varaktighet, antalet deltagare och inspelningsinformation, och den är tillgänglig cirka 20 minuter efter att sessionen avslutats.
 
-## Tillgänglighet på elevens startsida
+![](assets/adobe-connect-session-url.png)
+_Välj sessions-URL_
 
-Adobe Learning Manager stöder nu alt-text för alla mastheads för att förbättra tillgängligheten för elever. Det gör att elever med särskilda behov kan använda skärmläsare för att läsa alt-texten och förstå bilden. Du kan välja flera språk och ange alt-text för varje språk. Se till att du lägger till alt-texten på respektive språk. Se till att företagslogotypen på ditt konto också innehåller alt-text med företagsnamnet.
-Läs den här artikeln [Tillkännagivande](/help/migrated/administrators/feature-summary/announcements.md#masthead) om du vill ha mer information.
+![](assets/session-dashboard.png)
+_Sessionens instrumentpanel_
 
-## Stöd för hindi
-
-Adobe Learning Manager introducerar nu hindi som ett av plattformens gränssnittsspråk och stöder plattformens tillväxt i Indien. Stöd för infödda hindi-talare säkerställer att alla funktioner, rapporter och den övergripande användarupplevelsen är fullt tillgängliga för användarna.
-
->[!NOTE]
->
->Certifikat med utmärkelsetecken som genereras av systemet i PDF-format stöder inte hindi.
-
-Gör så här för att ändra gränssnittsspråk:
-
-1. Logga in som **[!UICONTROL Admin]**.
-2. Gå till **[!UICONTROL Profile Settings]** > **[!UICONTROL Interface Language]**.
-3. Välj **[!UICONTROL Hindi]** som gränssnittsspråk.
-
-
-## Svordomskontroll för inlägg i sociala medier
-
-Adobe Learning Manager blockerar nu inlägg i sociala medier i appen Elever med förbjudna ord. Detta hjälper till att hålla saker och ting professionella och överensstämmande, särskilt inom känsliga områden som hälso- och sjukvård.
-
-## Optimering av e-postmall
-
-### Skicka e-post till elever när en instruktör har tilldelats
-
-De befintliga e-postadresserna **[!UICONTROL You have been added as an Instructor]** och **[!UICONTROL VCProvider Session Details]** har kombinerats till ett e-postmeddelande **[!UICONTROL You have been added as a UserType]**. **[!UICONTROL UserType]** blir antingen **[!UICONTROL Instructor]** eller **[!UICONTROL Organizer]**, baserat på användarens roll. Dessa e-postmeddelanden var inte tillgängliga i användargränssnittet förut. De har nu kombinerats i ett enda e-postmeddelande och lagts till i användargränssnittet. Administratörer kan komma åt den här mallen i avsnittet **[!UICONTROL Email Template]**. Det aktiveras som standard för alla nya och befintliga konton, men administratörer kan inaktivera eller aktivera det från samma avsnitt. Det här e-postmeddelandet skickas när en session skapas och en instruktör tilldelas, oavsett om det är för sessioner som Zoom, Teams, Connect eller andra tjänster.
-
-### Skicka e-post till elever när en session avbryts
-
-Instruktörer som tas bort från en session får nu endast ett e-postmeddelande om annullering av session. Tidigare har de fått både en annullering och en uppdatering via e-post. Instruktörer som blir kvar i en session får ett e-postmeddelande om en sessionsuppdatering tillsammans med en ny inbjudan till sessionen.
-
-## Kriterier för MS Teams-slutförande
-
-För närvarande anges elever som närvarade även om de deltar i en vilt-session (Virtual Instructor-Led Training) under bara några sekunder. I den här versionen har vi infört kriterier för slutförande av Teams-moduler för att säkerställa en mer korrekt närvaro. Författare kan nu ange en minimitid som elever måste tillbringa i en VILT-session för att deras närvaro ska räknas.
-
-Det här är en serverdelsfunktion som är inaktiverad som standard. Kontakta din CSM för att aktivera den.
-
-## Uppdaterar nya IP-adresser för e-postleverans
-
-För att förbättra tillförlitligheten vid e-postleverans lägger vi till nya IP-adresser till vår befintliga pool. Uppdatera organisationens e-postinställningar efter behov för att säkerställa oavbruten e-postkommunikation.
-
-Vi använder för närvarande följande IP-adresser för e-postleverans:
-
-* 149.72.162.66
-* 167.89.5.155
-
-Följande IP-adresser läggs till i vår e-postleveranspool:
-
-* 159.183.228.93
-* 159.183.225.26
-* 159.183.218.22
-* 168.245.57.144
-
->[!NOTE]
->
->Om det behövs föreslår vi att du samarbetar med IT-teamet för att lägga till IP-adresserna i listan över tillåtna webbadresser.
+I den här [artikeln](https://helpx.adobe.com/in/adobe-connect/using/session-dashboard.html) finns mer information om analysen för Connect-sessionen.
 
 ## Migreringsändringar
 
-Följande ändringar görs i arbetsflödet för migrering:
+### Kriterier för att innehållet lyckades vid migrering
 
-* Migrera moduler till specifika mappar.
-* Tilläggskriterier för moduler.
-* Tillagda kriterier för slutförande av kurser
+Migreringsprocessen i Adobe Learning Manager för import av moduler stöder nu möjligheten att lägga till parametrar för att definiera slutförandekriterier.
+Detta stöds nu genom att lägga till tre nya valfria kolumner i module_version.csv. Tre nya valfria kolumner är: `successCriteria`, `successQuizData` och `successViewPercent`.
 
-### Ändringar i modulmigrering
+Dessa fält accepterar endast specifika värden och anslutningen kan inte bearbeta filen om ogiltiga värden anges.
+En frågeformulärsmodul kan använda tre typer av kriterier för att lyckas. Antingen kan det markera godkänt om eleven startar innehållet, beroende på ett procentvärde som poängsatts (definierat av `successViewPercent`: nedan), eller så kan det baseras på quiz-modulens resultat (definierat av `successQuizData`: nedan). Detta värde fylls i enligt anvisningarna nedan. Parametern successCriteria används för att avgöra detta.
 
-När du migrerar moduler till ALM sparas de som standard i den gemensamma mappen. I den här versionen har vi lagt till en ny kolumn med namnet `folder` i filen [module_version.csv](assets/module_version.csv). Administratörer kan använda den här kolumnen för att ange mappnamnet dit modulerna ska gå efter migreringen. Administratörer kan också placera en enskild modul i flera mappar genom att lista mappnamnen avgränsade med kommatecken.
+`successCriteria`: Godkänner `LAUNCH_CONTENT`, `VIEW_PERCENT`, `QUIZ` eller `VIEWPERCENT_OR_QUIZ`.
 
-Mappkolumnen använder strängdatatypen och det är en valfri kolumn. Följande villkor gäller för mappkolumnen:
+* Om `LAUNCH_CONTENT`: Lämna `successQuizData` och `successViewPercent` tomma. Detta markerar eleven som godkänd om eleven startar innehållet.
+* Om `VIEW_PERCENT`: Ange ett värde för `successViewPercent` lämnar du `successQuizData` tomt. Detta markerar elevpasset beroende på det procentvärde som poängsatts i frågesporten.
+* Om `QUIZ`: Ange ett värde för `successQuizData` lämnar du `successViewPercent` tomt. Detta markerar eleven som godkänd beroende på resultatet av frågeformulärsmodulen.
+* Om `VIEWPERCENT_OR_QUIZ`: Ange värden för både `successQuizData` och `successViewPercent`. Detta markerar eleven som godkänd beroende på antingen resultatet av quiz-modulen eller den procent som poängsatts.
 
-* Mappnamnet som du lägger till bör vara en befintlig innehållsmapp i ALM-kontot.
-* Värdena ska vara kommaavgränsade.
-* Om du lägger till ett nytt mappnamn för en modul som redan finns i en annan mapp kommer det nya värdet inte att skriva över eller ersätta den tilldelade mappen. Modulen läggs till i den nya mappen och förblir dessutom tillgänglig i den befintliga mappen.
-* Om värdet är tomt används **[!UICONTROL Public]** som standard för mappen.
+Det här fältet är bara giltigt om `hasQuiz` är sant. Om bara `completionCriteria` skickas kommer `successCriteria` att betraktas som samma sak som `completionCriteria` för interaktivt innehåll.
 
-Mer information finns i filen [module_version_csv spec](assets/4-module_version.xlsx).
+`successQuizData`: Godkänner `QUIZ_ATTEMPTED`, `QUIZ_PASSED` eller `QUIZPASSED_OR_LIMITREACHED`.
 
-### Ändringar i modulmigrering - slutförandekriterier
+* `QUIZ_ATTEMPTED` kommer att innebära att eleven markeras som godkänd för quiz om eleven har försökt göra quiz.
+* `QUIZ_PASSED` innebär att eleven markeras som godkänd för quiz, om eleven klarar quiz enligt kriterierna som definieras i quiz-innehållet. För t.ex. Scorm-modulen definierar villkor och rapporterar det till Adobe Learning Manager.
+* `QUIZPASSED_OR_LIMITREACHED` kommer att innebära att eleven markeras som godkänd för quiz om eleven antingen har klarat quiz eller har uttömt antalet gränser.
 
-Administratörer kan ange slutförandekriterier för modulerna under modulmigreringen. I den här versionen har vi lagt till nya kolumner `completionCriteria`, `viewPercent` och `quizData` i [module_version.csv](assets/module_version.csv).
+`successViewPercent`: Heltalsvärden från 0 till 100 accepteras.
 
-Följande villkor gäller för de nya kolumnerna:
+* Det här kriteriet accepterar ett procentvärde som eleven måste göra poäng för att klara testet
+Ändringar i webhook.
 
-1. `completionCriteria`:
+### Lägg till innehållets unika ID och utgångsdatum för innehåll med migrering
 
-   * Datatypen ska vara ett strängvärde och de värden som stöds är:
-      * `LAUNCH_CONTENT`
-      * `VIEW_PERCENT`
-      * `QUIZ`
-      * `MARK_COMPLETE`
-   * Lägg bara till slutförandekriterier på modulnivå för modultyper i eget tempo.
-   * De värden som stöds för statiskt innehåll är `LAUNCH_CONTENT` och `VIEW_PERCENT`.
-   * De värden som stöds för interaktivt innehåll är `LAUNCH_CONTENT`, `VIEW_PERCENT` och `QUIZ`.
-   * De värden som stöds för HTML5-innehåll är `LAUNCH_CONTENT` och `MARK_COMPLETE`.
+Innehållets unika ID och utgångsdatum stöds nu under migreringen. Två ytterligare kolumner: expiryDate och uniqueContentId har lagts till i filen module_version.csv för att aktivera funktionen.
 
-2. `viewPercent`:
+Mer information om migreringen finns i den här [artikeln](/help/migrated/integration-admin/feature-summary/migration-manual.md).
 
-   * Datatypen för kolumnen ska vara ett heltal och värdet måste vara mellan 0 och 100.
-   * När completionCriteria är inställt på `VIEW_PERCENT` anger du önskad visningsprocent i den här kolumnen eller lämnar den tom.
+## Förbättringar på webhookar
 
-3. `quizData`:
+Webhookar stöder nu händelser för kurser inom utbildningsvägar (LP) och certifieringar när registrering, avregistrering eller slutförande sker.
+Detta inkluderar stödjande händelser för varje kurs inom LP eller certifiering, utöver överordnat LO-evenemang.
 
-   * Datatypen ska vara ett strängvärde och de värden som stöds är `QUIZ_ATTEMPTED`, `QUIZ_PASSED` och `QUIZPASSED_OR_LIMITREACHED`.
-   * När `completionCriteria` är inställt på `QUIZ` anger du rätt frågeformulärsvärde i kolumnen `quizData`.
-
-Mer information finns i filen [module_version_csv spec](assets/4-module_version.xlsx).
-
-### Ändringar i kursmigrering - kriterier för slutförande
-
-Administratörer kan specificera slutförandekriterierna för kurserna under kursmigreringen. I den här versionen har vi lagt till en ny kolumn med namnet `completionCriteria` i [course.csv](assets/course.csv).
-
-Följande villkor gäller för kolumnen `completionCriteria`:
-
-* Datatypen ska vara antingen sträng eller siffra, och det är ett valfritt fält.
-* Värdena ska vara `ALL`, `X` och `SELECTEDMODULES`.
-* X är ett heltalsvärde som ska vara större än 0 och mindre än det totala antalet moduler.
-* Om du ställer in `completionCriteria` på `SELECTEDMODULES` måste du markera de obligatoriska modulerna i filen [course_module.csv](assets/course_module.csv).
-* Ange `TRUE` eller `FALSE` i kolumnen `optionalCriteria`. Om du anger värdet `TRUE` blir modulen obligatorisk.
-
-Mer information finns i [CSV-specifikation för kurs](assets/3-course.xlsx) och filen [CSV-specifikation för kurs_modul](assets/6-course_module.xlsx).
+Mer information om webbhookar finns i den här [artikeln](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md).
 
 ## API-ändringar
 
-Detta är API-ändringarna:
+Alla offentliga API:er stöder nu förbättrad felhantering genom att tydliga och specifika felmeddelanden returneras när ogiltiga eller ofullständiga data skickas i `POST`- och `PATCH`-begäranden. Den här förbättringen gäller särskilt för relationsfält i begärans nyttolaster.
 
-* **API för sökning**:
-   * Nytt lägesfilter med alternativ: classicSearch och advanceSearch.
-   * Nytt loMetadata-alternativ för snippTypes.
-* **Meddelande-API**:
-   * Innehåller altText-attribut för masthead-beskrivningar.
-* **Instans-API:er**:
-   * Nytt språkattribut för att hämta språkinformation.
-* **SVORDOMSKONTROLL**:
-   * Uppdaterade API:er för att söka efter förbjudna ord i kommentarer och svar på sociala inlägg:
-* **RPM- och bränningsbegränsning**:
-   * Lade till RPM (förfrågningar per minut) och brusgränser för alla API:er.
-* **API:er för utmärkelsetecken**:
-   * Nytt attribut för externalProvider för att hämta information om externa utmärkelsetecken.
-* **Jobb-API**:
-   * Hämta användargruppsrapport och granskningsrapport för anpassade roller med hjälp av jobb-API:et.
+När en begäran innehåller felaktiga datatyper eller saknar nödvändig information i relationsavsnittet svarar API:t med beskrivande meddelanden som anger det exakta problemet. Detta möjliggör snabbare identifiering och lösning av fel under integrering eller testning.
 
-### Ändringar i API för sökning
-
-API:t för sökning har nu ett nytt lägesfilter med två alternativ: `classicSearch` och `advanceSearch`. Det finns också ett nytt `loMetadata`-alternativ för `snippetTypes`. Du får bäst resultat om du inkluderar `loMetadata` i `snippetTypes` när du använder läget `advanceSearch`.
-
-### Ändringar i meddelande-API
-
-`GET /announcements API` innehåller nu attributet `altText` för att ange masthead-beskrivningen.
-
-#### Exempelbegäran med cURL:
-
-```
-curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 12345678' 'https://abcd.adobe.com/primeapi/v2/announcements/123456'
-```
-
-#### Exempelsvar:
+Följande exempelsvar visar olika felscenarier:
 
 ```
 {
-  "links": {
-    "self": "https://abcd.adobe.com/primeapi/v2/announcements/123456"
-  },
-  "data": {
-    "id": "12345",
-    "type": "adminAnnouncement",
-    "attributes": {
-      "actionUrl": "google.com",
-      "announcementType": "MASTHEAD",
-      "expiryDate": "2038-01-19T03:14:07.000Z",
-      "liveDate": "2024-07-31T11:11:30.000Z",
-      "contentMetaData": [
-        {
-          "contentType": "IMAGE",
-          "contentUrl": "https://abcd.adobe.com",
-          "locale": "en-US",
-          "altText": "Moonlight - english changed new",
-          "thumbnailUrl": "https://abcd.adobe.com/"
-        },      ]
-    }
-  }
-}
-```
-
-### Ändringar i instans-API:er
-
-Det nya `locale`-attributet har lagts till i följande API:er för att hämta språkinformation.
-
-* `GET /learningObjects/{loId}/instances/{loInstanceId}`
-* `GET /learningObjects/{id}?include=instances,enrollment.loInstance`
-* `GET /learningObjects?include=instances,enrollment.loInstance`
-* `GET /learningObjects/{id}/relatedLOs?include=instances,enrollment.loInstance`
-* `POST /learningObjects/query?include=instances,enrollment.loInstance`
-* `POST /search/query?include=model.instances`
-* `GET /search?include=model.instances`
-
-#### Exempelbegäran med cURL:
-
-```
-curl --location 'http://abcd.com/primeapi/v2/learningObjects/course:1234567/instances/course:1234567_1234567' \
-```
-
-#### Exempelbegäran:
-
-```
-{
-    "links": {
-        "self": "http://abcd.com/primeapi/v2/learningObjects/course:1234567/instances/course:1234567_1234567"
-    },
-    "data": {
-        "id": "course:1234567_1234567",
-        "type": "learningObjectInstance",
-        "attributes": {
-            "dateCreated": "2024-02-27T09:21:25.000Z",
-            "isAET": false,
-            "isDefault": true,
-            "isFlexible": false,
-            "locale": "en-US",
-            "state": "Active",
-            "localizedMetadata": [
-                {
-                    "locale": "en-US",
-                    "name": "Default instance"
-                }
-            ]
-        },
-        "relationships": {
-            "learningObject": {
-                "data": {
-                    "id": "course:1234567",
-                    "type": "learningObject"
-                }
-            },
-            "loResources": {
-                "data": [
-                    {
-                        "id": "course:123456_1234567_1234567_1",
-                        "type": "learningObjectResource"
-                    }
-                ]
-            }
-        }
-    }
-}
-```
-
-### Offentliga API-ändringar för svordomskontroll
-
-Följande API:er har uppdaterats för att utföra profanity-kontroller för kommentarer och svar på sociala inlägg.
-
-* `POST /boards/{id}/posts `
-* `PATCH /posts/{id}`
-* `POST /posts/{id}/comments`
-* `PATCH /comments/{id}`
-* `POST /comments/{id}/replies`
-* `PATCH /replies/{id}`
-
-Om ett begränsat ord hittas i inlägget skickas följande svar.
-
-#### Exempelsvar:
-
-```
-{
-  "status": "FORBIDDEN",
-  "title": "BAD_WORD_FOUND",
+  "status": "BAD_REQUEST",
+  "title": "Field Type incorrect",
   "source": {
-    "info": "Unacceptable word found in post"
+    "info": "incorrect relation type - Andrew"
   }
 }
 ```
 
-### Förändringar i varv/min- och sprängningsbegränsning
-
-I den här versionen har RPM (Begäranden per minut) och burst-gränser lagts till för alla API:er. Den maximala RPM för varje API kan kontrolleras på Swagger-sidan.
-
-RPM är antalet begäranden som du kan skicka till API-servern på en minut. Burst-gränsen tillåter ett högre antal förfrågningar under en kort tid, vilket går utöver den vanliga hastighetsgränsen. API:t `learningObject` tillåter till exempel högst 15 förfrågningar per minut. Om den här gränsen överskrids returnerar API ett felmeddelande.
-
-### Ändringar i API:er för märken
-
-Det nya attributet `externalProvider` har lagts till i följande API:er för att hämta information om externa märken, inklusive badge ID och providernamn.
-
-* `GET /badges `
-* `GET /badges/{id}`
-* `GET /skills?include=levels.badge`
-* `GET /skills/{id}?include=levels.badge`
-* `GET /learningObjects/{loId}/instances/{loInstanceId}?include=badge`
-* `GET /users/{userId}/userBadges`
-* `GET /users/{userId}/userBadges/{id}`
-
-#### Exempelbegäran med cURL:
-
-```
-curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 123456789' 'https://abcd.adobe.com/primeapi/v2/badges/44'
-```
-
-#### Exempelsvar:
-
 ```
 {
-  "links": {
-    "self": "https://abcd.adobe.com/primeapi/v2/badges/44"
-  },
-  "data": {
-    "id": "44",
-    "type": "badge",
-    "attributes": {
-      "imageUrl": "https://abcd.com/accountassets/1/badges/download.png",
-      "name": "external badge",
-      "state": "Active",
-      "externalProvider": {
-        "id": "1234sjd-b272-4de1-9b60-1234567",
-        "provider": "credly"
-      }
-    }
+  "status": "BAD_REQUEST",
+  "title": "Missing Param",
+  "source": {
+    "info": "skills"
   }
 }
 ```
-
-### Hämta granskningsrapporter för användargrupper och anpassade roller via jobb-API
-
-Användaren kan hämta **[!UICONTROL User Group Report]** och **[!UICONTROL Custom Role Audit Report]** med hjälp av `Job API`.
-
-#### Exempelbegäran för hämtning av användargruppsrapport:
-
-```
-curl -X POST --header 'Content-Type: application/vnd.api+json;charset=UTF-8' --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 12345678' -d '{ \ 
-     "data": { \ 
-         "type": "job", \ 
-         "attributes": { \ 
-             "jobType": "generateUserGroupReport" \ 
-         } \ 
-    } \ 
- }' 'https://abcd.adobe.com/primeapi/v2/jobs'
-```
-
-#### Exempelbegäran för hämtning av granskningsrapport för anpassade roller:
-
-```
-curl -X POST --header 'Content-Type: application/vnd.api+json;charset=UTF-8' --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 1234567' -d '{
-    "data": {
-        "type": "job",
-        "attributes": {
-            "description": "description of your choice",
-            "jobType": "generateCustomRoleAuditReport",
-            "payload":{
-                 "fromDate": "2020-01-01T18:30:00.000Z",
-                 "toDate": "2024-09-31T18:30:00.000Z",
-                 "locale":  "en-US"
-            }
-        }
-   }
-}
-```
-
-### Felmeddelande för brödtext för ingen begäran
-
-Vi har infört specifika felmeddelanden för fall där begärandetexten är obligatorisk men inte har angetts i API:et.
-
-#### Exempel på felmeddelande:
-
-```
-{
-    "status": "BAD_REQUEST",
-    "title": "Generic Error"
-}
-```
-
-## Förbättrade rapporter
-
-Administratörer hittar dessa rapporteringsändringar i avsnittet **Admin** > **Rapporter**.
-
-### Rapport med utbildningsbetygsutdrag
-
-Rapporten **[!UICONTROL Learning Transcripts]** kommer att innehålla två nya kolumner:
-
-* **[!UICONTROL Module ID]**: Visar den unika identifieraren för varje modul. Den nya kolumnen har lagts till efter den befintliga **[!UICONTROL Module]**-kolumnen.
-* **[!UICONTROL Course Instance ID]**: Visar den unika identifieraren för varje kursinstans. Den nya kolumnen har lagts till efter den befintliga **[!UICONTROL Instance]**-kolumnen.
-* **[!UICONTROL Completion Comment]**: Den här kolumnen innehåller de kommentarer som administratören har angett när slutförandet av användaren markeras. Den nya kolumnen har lagts till i slutet av rapporten.
-
-
-### Sammanfattningsrapport för session
-
-Rapporten **[!UICONTROL Session Summary]** kommer att innehålla tre nya kolumner:
-
-* Kolumnen **[!UICONTROL Module ID]** har lagts till före kolumnen **[!UICONTROL Session Name]**.
-* Kolumnen **[!UICONTROL Session ID]** har lagts till före kolumnen **[!UICONTROL Session Name]**.
-* Kolumnen **[!UICONTROL Course Instance ID]** har lagts till efter kolumnen **[!UICONTROL Instance Name]**.
-* Kolumnen **[!UICONTROL Completion Count]** har lagts till efter kolumnen **[!UICONTROL Enrollment Count]**.
 
 ## Fel som är åtgärdade i den här uppdateringen
 
-* Korrigerade felet som inträffade vid överföring av videoklipp från aktivitetsmodulen vid filöverföring på Android- och iOS-enheter.
-* Korrigerade problemet med att öppna kurser i mobilappen; webbversionen fungerar korrekt.
-* Korrigerade problemet med visning av arbetsstöd och andra resurser i Safari.
-* Korrigerade problemet som hindrade användare från att hämta arbetsstöd i mobilappen.
-* Korrigerade felet i dokumentationen för API:et för korrigeringsanvändaren.
-* Korrigerade problemet där organisatörer inte fick e-postmeddelanden när en session togs bort från kursen.
-* Korrigerade problemet där organisatörer inte får e-postmeddelanden om annullering av session när en modul tas bort från kursen och publiceras igen.
-* Lade till stöd för att inkludera specialtecknen &quot;+&quot; och &quot;-&quot; i e-postadresser när externa användare skapas.
-* Korrigerade problemet där synkronisering av enhetliga rapporter i Marketo-kopplingen misslyckas om rapporten om användarkompetens innehåller dubbla citattecken i CSV-postvärdet
-* Korrigerade problemet där slutpunkten `/skills` returnerar rätt tillstånd för Admin API, men elevens API visar konsekvent felaktiga eller cachelagrade data.
-* Korrigerade problemet med att Go1-introduktion för gratiskurser misslyckades när kontot inte har Go1-anslutningen konfigurerad.
-* Korrigerade problemet där kurser i utbildningsvägen (LP) inte är tillgängliga via migrering om eleven redan har slutfört LP.
-* Korrigerade problemet där CSV-filen för inkrementella användare misslyckas när både användarens chef och hanterare på överhoppningsnivå anges som SU (superanvändare) i stället för admin och inte ingår i CSV-filen.
-* Korrigerade omfångsproblemen för butikschefer i kontrollpanelrapporter.
-* Korrigerade problemet där xapi_iri inte togs bort när en utkastkurs togs bort.
-* Korrigerade problemet som förhindrade att ett unikt LO-ID lades till i vissa scenarier.
-* Korrigerade problemet där egenskapen IsEmbeddable i utbildningsplanen inte uppdaterades korrekt i delade utbildningsplaner.
-* Problemet med att visa utbildningsvägar under den totala tiden i vyn Elev har korrigerats.
-* Problemet med att elever kan registrera sig eller registrera sig via självregistreringslänkar även efter att deras konton har tagits bort har korrigerats.
-* Korrigerade problemet där `www` togs bort när länkar lades till i kursbeskrivningen när kursen skapades.
-* Korrigerade ett problem där jobbstöd för att dölja information och hämta inte fungerade korrekt.
-* Korrigerade ett problem där enkel inloggning (SSO) inte fungerade för nya användare som lagts till via självregistreringslänken med ett IP-ID.
-* Ett problem har korrigerats där meddelandedata inte hämtades efter att ett meddelande togs bort.
-* Korrigerade problemet med otillräckliga sökresultat när du sökte efter användare via e-post.
+* Felaktiga tidsstämplar i GET LearningObject API-svaret för arbetsstöd där dateCompleted, dateEnrollated och dateStarted felaktigt matchade dateModified.
+* Slutpunkten för användar-API visar nu specifika felmeddelanden på fältnivå i stället för allmänna.
+* Slutpunkten /learningObjects returnerade ett tomt svar när den anropades för standardkatalogen.
+* Uppdaterade offentliga API-svar för att visa arbetsstöd som tidigare uteslutits på grund av inaktuell versionshantering.
+* Förbättrad rekommendationsprecision genom att ta bort orelaterade färdigheter från att visas i elevens kursrekommendationsavsnitt.
+* Synkroniserade mappnamn med sökresultat så att namnändrade innehållsmappar återspeglar det uppdaterade namnet i alla sökningar på plattformen.
+* Texten på sidan Kursöversikt spiller inte över. Nu är upplevelsen mycket renare.
+* Återskapade självregistreringslänkar för konton som använder anpassade domäner för att stödja smidigare användarregistrering.
+* Prenumerationsrapporten förhindrar oavsiktlig registrering i flexibla utbildningsvägar.
+* I konfigurationer med flera SSO är nu alla konfigurerade profiler synliga, utöver den tidigare gränsen på 20 profiler.
+* Undantagna Content Marketplace-kurser från återkommande certifieringsregistreringar när de inte uttryckligen krävs.
+* Aktiverade kursduplicering för användare med redigeringsbehörighet på både fliken Mina kurser och Kurser.
+* Automatisk registrering utlöser som förväntat för efterföljande kurser i förbättrade utbildningsvägar som delas via kataloger.
+* Oväntade spelarstarter förhindras genom att systemdatumändringar hanteras korrekt med lämpliga felmeddelanden.
+* Stabiliserade en skaparsession efter att moduler har tagits bort från en kurs, vilket undviker abrupta sessionsavslut.
+* Organisationslogotypen visas i full storlek på utloggningsskärmen.
+* Återställde funktionen Ta bort knapp när utbildningsvägar skapas, även efter att du har använt flera dra-åtgärder.
+* Butikschefer får e-postmeddelanden när elever saknar en tilldelad chef.
+* Standardiserad terminologi genom att gränssnittsreferenser från &quot;virtuell session&quot; uppdateras till &quot;Virtuellt klassrum&quot;.
+* Borttagna utmärkelsetecken syns inte längre, så eleverna ser inte längre och låser inte upp inaktuella prestationer.
+* Kursbeskrivningarna fylls i korrekt i e-postmeddelanden genom att problem med fältet Kursbeskrivning åtgärdas.
+* Konfiguration av diskussionstavla på kontonivå åsidosätts inte av inställningar på kursnivå.
+* URL-längdbegränsningar som blockerade instruktörstilldelningar i checklistemodulerna har åtgärdats.
+* Tydligare felmeddelanden när dubblettkolumner upptäcks i användaröverföringsfilen.
+* Fullständiga data har återgetts i förbättrade API:er för utbildningsvägar, vilket säkerställer att underordnade utbildningsvägar visas korrekt.
+* Tillagd RTF-formatering för kursbeskrivningar i mobilappen för en bättre användarupplevelse.
 
 ## Systemkrav
 
-Visa [Systemkrav för Adobe Learning Manager](/help/migrated/system-requirements.md).
-
-## Versionsinformation
-
-Läs [versionsinformationen](/help/migrated/release-note/release-notes.md) om du vill ha de senaste versionsuppdateringarna.
+[Systemkrav för Adobe Learning Manager](/help/migrated/system-requirements.md)
 
 ## Tidigare utgåvor av Adobe Learning Manager
 
+* [November 2024-utgåvan](/help/migrated/whats-new-nov-24.md)
 * [Juli 2024-utgåvan](/help/migrated/whats-new-july-2024.md)
-* [Marsversionen 2024](/help/migrated/whats-new-march-2024.md)

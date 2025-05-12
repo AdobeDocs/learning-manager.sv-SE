@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation för Adobe Learning Manager
-source-git-commit: dd6143bc9c9a2bd564ae0925f5103073325c5d8a
+source-git-commit: 7c06bc9f7b5c7c36dda06985b4327898ea776597
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '664'
 ht-degree: 8%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 8%
 * [Användarhandbok för Learning Manager](user-guide.md)
 * Introduktion {#introduction}
    * [Sammanfattning av nya funktioner](/help/migrated/whats-new.md)
+   * [Sammanfattning av nya funktioner i november 2024](/help/migrated/whats-new-nov-24.md)
    * [Sammanfattning av nya funktioner juli 2024](whats-new-july-2024.md)
    * [Nya funktioner mars 2024](whats-new-march-2024.md)
    * [Nya funktioner november 2023](whats-new-november-2023.md)
    * [Nya funktioner juli 2023](whats-new-2023-july.md)
-   * [Nya funktioner april 2023](whats-new-2023-april.md)
    * [Versionsinformation](release-note/release-notes.md)
    * [Systemkrav](system-requirements.md)
    * [ALM-referenspaket för AEM Sites](adobe-learning-manager-integration-aem.md)
@@ -39,12 +39,14 @@ ht-degree: 8%
    * [Komma igång för chefer](managers/feature-summary/getting-started-manager.md)
    * [Komma igång som instruktör i Learning Manager](instructors/feature-summary/getting-started.md)
 * Administratör {#admin}
+   * [Admin AI Assistant (beta) i Adobe Learning Manager](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
    * [Användarinloggning](administrators/feature-summary/user-login.md)
    * [Lägga till användare och skapa användargrupper](administrators/feature-summary/add-users-user-groups.md)
    * [Lägg till klassrumsplatser](administrators/feature-summary/classroom.md)
    * [Skapa kursinstanser och utbildningsvägar](administrators/feature-summary/courses.md)
    * [Content Marketplace](administrators/feature-summary/content-marketplace.md)
    * [Rapporter](administrators/feature-summary/reports.md)
+   * [Tavla för slutförda grupper](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [Utbildningsvägar](administrators/feature-summary/learning-paths.md)
    * [Utbildningsplaner](administrators/feature-summary/learning-plans.md)
    * [Hantera order och fakturering för Learning Manager](administrators/feature-summary/billing-management.md)

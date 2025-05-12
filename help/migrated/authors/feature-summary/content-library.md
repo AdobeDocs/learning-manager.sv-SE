@@ -3,9 +3,9 @@ description: Lär dig skapa innehåll som följer kurser i din egen takt.
 jcr-language: en_us
 title: Innehållsbibliotek
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 2d43c2b7dcaf2cc953418167ee6bd11a24de163b
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '3495'
+source-wordcount: '4195'
 ht-degree: 0%
 
 ---
@@ -196,13 +196,13 @@ Innehållsbiblioteket underhåller också versioner av det överförda innehåll
 
   Du kan också lägga till HTML-innehåll som har genererats från Captivate, Presenter eller Presenter Video Express.
 
-1. Learning Manager stöder bildtexter för videoinnehåll som laddats upp i Learning Manager. Nu kan användarna ladda upp filen som innehåller bildtexter tillsammans med videofilen.
+1. Adobe Learning Manager stöder bildtexter för videoinnehåll som har överförts till Adobe Learning Manager. Nu kan användarna ladda upp filen som innehåller bildtexter tillsammans med videofilen.
 
    Därefter kan eleverna visa bildtexterna under uppspelningen av videomodulen.
 
    Det format som stöds är [Web Video-textspår (webVTT)](https://www.w3.org/TR/webvtt1/).
 
-   Bildtextstöd är tillgängligt för videoinnehåll som laddas upp i innehållsbiblioteket i Learning Manager.
+   Bildtextstöd är tillgängligt för videoinnehåll som laddas upp i innehållsbiblioteket i Adobe Learning Manager.
 
    När du som författare laddar upp ett video- eller ljudinnehåll kan du även ladda upp VTT-filen som innehåller bildtexterna.
 
@@ -222,7 +222,7 @@ Innehållsbiblioteket underhåller också versioner av det överförda innehåll
    >
    >   En VTT-fil stöder ett språk. Om du vill använda flera språk överför du flera videofiler för varje innehållsspråk och överför sedan deras respektive VTT-fil för varje videofil.
 
-   Du som är författare uppmanas att ange en ny vtt-fil varje gång du ändrar innehåll, video eller ljud.
+   Adobe Learning Manager Du som är författare uppmanas att ange en ny vtt-fil varje gång du ändrar innehåll, video eller ljud.
 
    När du har lagt till detta innehåll i en kurs och när du förhandsgranskar kursen som elev kan du se bildtexterna på videon.
 
@@ -236,7 +236,7 @@ WebVTT-stöd är inte tillgängligt för:
    1. Videomeddelanden.
    1. Video spelas upp i e-utbildningsinnehållet. Det här drivs av innehållet.
    1. Videon har laddats upp i Social utbildning.
-   1. Video skapad i Learning Manager-datorprogram.
+   1. Video som skapats i Adobe Learning Manager-datorprogrammet.
    1. Videoinnehåll som skapats via migreringsprocessen.
    1. Videouppspelning i mobilappen i offlineläge.
 
@@ -422,9 +422,9 @@ Det går inte att ta bort länkningen från en angiven mapp **ENDAST** om den oc
 
 När du har lagt till innehållet kan du ändra villkoren för slutförande av det.
 
-I Learning Manager delas utmärkelsetecken och kompetens ut baserat på framgång och slutförande. Om eleven har slutfört en kurs men inte lyckas, får eleven inte det utmärkelsetecken och den kompetens som motsvarar uppdragsbeskrivningen.
+I Adobe Learning Manager delas utmärkelsetecken och kompetens ut baserat på framgång och slutförande. Om eleven har slutfört en kurs men inte lyckas, får eleven inte det utmärkelsetecken och den kompetens som motsvarar uppdragsbeskrivningen.
 
-Om du till exempel har använt Adobe Captivate för att skapa kursen och ställt in utbildningsparametrarna i dialogrutan Preferenser migreras samma inställningar till Learning Manager i alternativen för slutförandekriterier.
+Om du till exempel har använt Adobe Captivate för att skapa kursen och ställt in utbildningsparametrarna i dialogrutan Inställningar migreras samma inställningar till Adobe Learning Manager i alternativen för slutförandekriterier.
 
 I avsnittet Kriterier för slutförande kan du ange de alternativ som nämns nedan:
 
@@ -469,6 +469,110 @@ Ordna innehållet utifrån om innehållet används i någon kurs. I listrutan Fo
 
 *Sortera innehåll efter användning*
 
+## Lägg till innehållets unika ID och utgångsdatum
+
+### Vad är ett unikt innehålls-ID
+
+Det unika innehålls-ID:t är en unik kod som tilldelas varje innehållsobjekt i Adobe Learning Manager. Det hjälper administratörer och författare att hitta och hantera innehåll enkelt, särskilt när de uppdaterar eller flyttar det mellan system. Detta unika ID för innehåll är också användbart för att integrera innehåll med andra verktyg som HR eller efterlevnadssystem. Samma unika innehålls-ID används i alla språkversioner så att allt förblir konsekvent för eleverna.
+
+* Unika ID:n för innehåll måste vara unika i allt innehåll.
+* Innehållets unika ID får inte innehålla blanksteg eller specialtecken.
+* Om ett duplicerat unikt ID anges visas ett fel när det skapas.
+
+### Vad är utgångsdatum
+
+Förfallodatumet markerar innehåll som kan vara föråldrat eller inte längre behövs. Även efter utgångsdatumet är innehållet tillgängligt, men det påminner författare och administratörer om att kontrollera och uppdatera det om det behövs. Baserat på inställningar kan utgånget innehåll tas bort från nya registreringar eller arkiveras. Förfallodatumet fungerar på samma sätt för alla språkversioner, precis som det unika innehålls-ID:t, vilket hjälper till att hålla innehållet rent och uppdaterat för alla.
+
+* Innehållet är tillgängligt även efter utgångsdatumet.
+* Om du väljer ett tidigare datum visas ett varningsmeddelande.
+* I fältet för förfallodatum kan du ange ett datum mellan 1990 och 2037.
+
+Det hjälper organisationer att behålla innehållsrelevansen utan att av misstag ta bort publicerade objekt.
+
+Innehållets unika ID och utgångsdatum gäller alla språkversioner av en innehållsgrupp, vilket säkerställer en konsekvent upplevelse för alla användare, oavsett språk. Författare kan använda det unika ID:t för att snabbt söka efter och hitta specifikt innehåll, vilket gör det enklare att hantera och uppdatera utbildningsmaterial.
+
+**[!UICONTROL Training report]** innehåller nu två nya kolumner: **[!UICONTROL Content Expiry Date (UTC TimeZone)]** och **[!UICONTROL Content Unique ID]** för att spåra innehållets unika ID och utgångsdatum. Dessa fält kan läggas till via användargränssnittet eller migreringen och administratören kan spåra dem centralt via utbildningsrapporter.
+
+### Lägg till innehållets unika ID och utgångsdatum
+
+Författare kan lägga till ett unikt ID för innehållet och ange ett förfallodatum när innehållet skapas.
+
+Så här lägger du till innehållets unika ID och utgångsdatum:
+
+1. Logga in som författare.
+2. Välj **[!UICONTROL Create Content]** eller välj **[!UICONTROL Content Library]** i den vänstra panelen.
+
+   ![](assets/create-content.png)
+   _Välj Skapa innehåll på startsidan_
+
+3. Välj **[!UICONTROL Add]** och välj sedan **[!UICONTROL Content]** på författarens startsida.
+
+   ![](assets/add-content.PNG)
+   _Välj Lägg till innehåll i innehållsbiblioteket_
+
+4. Ange **[!UICONTROL Name]** och **[!UICONTROL Description]**
+
+5. Välj innehåll från alternativet **[!UICONTROL Add Content File]**
+6. Välj mappen från alternativet **[!UICONTROL Add to Folder]** för att lägga till innehållet i mappen.
+
+   ![](assets/add-a-new-content.png)
+   _Lägg till nytt innehåll_
+
+7. Skriv ID för det överförda innehållet i fältet **[!UICONTROL Content unique ID]**. ID:t måste vara unikt och följa rätt riktlinjer för namngivning. ID:t får inte innehålla tecken som inte är ASCII-tecken eller blanksteg. Om du anger ett dubblett-ID visas ett felmeddelande.
+
+   ![](assets/content-unique-id.png)
+   _Fält för att ange ett unikt alfanumeriskt innehålls-ID_
+
+8. Välj innehållets förfallodatum. Det här datumet påverkar inte tillgängligheten till innehållet eller elevåtkomsten. Du kan välja ett datum mellan 1990 och 2037. Om ett tidigare datum har valts visas en varning, men innehållet kan fortfarande publiceras.
+9. Välj **[!UICONTROL Save]**.
+Det överförda innehållet visas nu i **[!UICONTROL Content Library]**.
+
+### Ange unikt innehålls-ID och förfallodatum för språk
+
+Unikt innehålls-ID och Förfallodatum definieras på innehållsgruppnivå, vilket innebär att de anges en gång och automatiskt tillämpas på alla språkversioner av innehållet.
+
+1. Markera innehållet i **[!UICONTROL Content Library]**.
+2. Välj **[!UICONTROL Edit]**.
+3. Välj **[!UICONTROL Add New Language]**.
+4. Välj ett språk i listan.
+5. Välj **[!UICONTROL Save]**.
+Innehållets unika ID och utgångsdatum visas nu på den språkspecifika versionen av innehållet, till exempel tyska i det här exemplet.
+
+### Sök med det unika innehålls-ID:t
+
+Du kan använda Unikt innehåll-ID för att söka efter innehåll i alla språkversioner, vilket gör det enklare att hitta och hantera specifika objekt. Dessutom ingår både Unikt innehålls-ID och Utgångsdatum i utbildningsrapporter för konsekvent spårning och rapportering.
+
+1. Starta **[!UICONTROL Content Library]**.
+2. Skriv **[!UICONTROL Content unique ID]** i sökfältet.
+
+   ![](assets/search-unique-id.png)
+   _Söka efter innehåll med det unika innehålls-ID:t_
+3. Markera innehållet för att visa eller redigera det.
+
+### Stöd för innehållsmigrering
+
+När du migrerar innehåll kan du inkludera **expiryDate** och **uniqueContentId** i filen module_version.csv. Detta säkerställer kontinuitet i metadata när innehåll flyttas mellan system.
+
+### Rapportera ändringar
+
+Två nya kolumner, Content unique ID och Content Expiry Date, finns nu tillgängliga i utbildningsrapporten. Med hjälp av de här fälten kan administratörer övervaka förfallodatum för innehåll mer effektivt.
+
+## Ta bort innehåll {#retirecontent}
+
+När du har publicerat ett innehåll kan du inte ta bort det. Du måste ta innehållet ur bruk först. När du markerar ett innehåll som utfasat är det inte längre synligt för elever. Innehållet flyttas också till avsnittet **[!UICONTROL Retired]**.
+
+Gör så här om du vill ta innehåll ur bruk:
+
+* Välj det innehåll som du vill ta ur bruk i **[!UICONTROL Content library]**.
+* Välj **[!UICONTROL Action]** och sedan **[!UICONTROL Retire]**.
+
+Innehåll som används i något utbildningsobjekt påverkas inte. Elever kan fortfarande komma åt innehållet.
+
+>[!NOTE]
+>
+>Du kan också lägga till innehåll från avsnittet **[!UICONTROL Retired]**, navigera till **[!UICONTROL Content Library]** och sedan välja **[!UICONTROL Retired]**. Välj **[!UICONTROL Add Content]**. Mer information finns i [Lägg till statiskt innehåll](content-library.md#addstaticcontent).
+
+
 ## Sök efter innehåll {#searchforcontent}
 
 I innehållsbiblioteket kan du söka efter ett innehåll genom att välja antingen namnet på innehållet eller de taggar som är associerade med innehållet.
@@ -476,22 +580,6 @@ I innehållsbiblioteket kan du söka efter ett innehåll genom att välja anting
 Ange namnet på en kurs eller en tagg i sökfältet så ser du rekommendationerna.
 
 <!--![](assets/search-bar.png)-->
-
-## Ta bort innehåll {#retirecontent}
-
-När du har publicerat ett innehåll kan du inte ta bort det. Du måste ta innehållet ur bruk först. När du markerar ett innehåll som utfasat är det inte längre synligt för elever. Innehållet flyttas även till avsnittet Utfasade. Du kan även flytta innehållet till publicerat läge senare.
-
-Gör så här om du vill ta innehåll ur bruk:
-
-* Välj det innehåll som du vill ta ur bruk i innehållsbiblioteket.
-* Välj Åtgärd > Ta bort.
-
-Innehåll som används i något utbildningsobjekt påverkas inte. Elever kan fortfarande komma åt innehållet.
-
->[!NOTE]
->
->Du kan också lägga till innehåll från avsnittet **[!UICONTROL Retired]**, navigera till **[!UICONTROL Content Library]** > **[!UICONTROL Retired]** och välja **[!UICONTROL Add Content]**. Mer information finns i [Lägg till statiskt innehåll](content-library.md#addstaticcontent).
-
 
 ## Återpublicera utfasat innehåll {#republishretiredcontent}
 
@@ -521,12 +609,12 @@ Observera att befintliga kurser som använder innehållet, som har tagits bort f
 
 +++ Hur överför jag ett SCORM-innehåll i Adobe Learning Manager?
 
-Skapa en SCORM-kompatibel e-kurs i ett valfritt verktyg, till exempel Adobe Captivate, och publicera innehållet som en zip-fil. Ladda sedan upp zip-filen i katalogen i Learning Manager och ange kriterier för slutförande och slutförande.
+Skapa en SCORM-kompatibel e-kurs i ett valfritt verktyg, till exempel Adobe Captivate, och publicera innehållet som en zip-fil. Överför sedan zip-filen i katalogen i Adobe Learning Manager och ange kriterier för slutförande och slutförande.
 +++
 
-+++Hur överför jag en ny version av samma innehåll till Learning Manager?
++++Hur överför jag en ny version av samma innehåll till Adobe Learning Manager?
 
-I Learning Manager underhåller innehållsbiblioteket även versioner av ditt överförda innehåll. Om du gör ändringar i innehållet, t.ex. en PowerPoint-presentation och överför presentationen på nytt i biblioteket, ökas versionsnumret med ett steg. Det hjälper dig att spåra ändringar i innehållet. En ny version av innehållet kan tillämpas på alla utbildningsobjekt samtidigt eller du kan tillämpa individuella uppdateringar för varje kurs.
+I Adobe Learning Manager underhåller innehållsbiblioteket även versioner av ditt överförda innehåll. Om du gör ändringar i innehållet, t.ex. en PowerPoint-presentation och överför presentationen på nytt i biblioteket, ökas versionsnumret med ett steg. Det hjälper dig att spåra ändringar i innehållet. En ny version av innehållet kan tillämpas på alla utbildningsobjekt samtidigt eller du kan tillämpa individuella uppdateringar för varje kurs.
 +++
 
 +++Hur redigerar jag detaljerna för en kurs på ett annat språk?

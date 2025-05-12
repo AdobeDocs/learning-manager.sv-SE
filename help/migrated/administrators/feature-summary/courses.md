@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Skapa kursinstanser och utbildningsvägar
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '4985'
+source-wordcount: '5480'
 ht-degree: 1%
 
 ---
@@ -110,7 +110,7 @@ Så här återställer du en utfasad instans till ett aktiveringsläge:
 
 ### Ta bort en instans
 
-Administratörer kan ta bort instansen med alternativet **Ta bort den här instansen** direkt efter skapandet. Du kan inte ta bort instanser om det finns en session länkad till den eller om det finns elever som är registrerade till den.
+Administratörer kan ta bort instansen med alternativet **Ta bort den här instansen** direkt efter att den har skapats. Du kan inte ta bort instanser om det finns en session länkad till den eller om det finns elever som är registrerade till den.
 
 ![](assets/delete-this-instance.png)
 
@@ -238,6 +238,72 @@ Alternativet finns när ingen elev är registrerad/väntar på godkännande av c
 Rapporten innehåller data för aktiva, borttagna och avbrutna användare om de väntar på godkännande. Rapporten innehåller också data om interna och externa användare som är i väntande läge för godkännande.
 
 Om en elev som tidigare befann sig i väntande tillstånd för godkännande avregistrerar sig, kommer hans/hennes meritlista inte att finnas med i rapporten. Även om en elev som tidigare befann sig i läget Väntande godkännande och registreras till kursen av admin/chef/anpassad admin-registrering, finns hans/hennes post i rapporten.
+
+## Hantera massregistrering, närvaro och slutförande av elever {#bulk-enrollment}
+
+Med hjälp av massregistreringsfunktionen i Adobe Learning Manager kan administratörer effektivt registrera stora elevgrupper i kurser, certifieringar eller utbildningsprogram genom att ladda upp en CSV-fil. Denna process sparar tid, garanterar konsekvens och stöder skalbarhet i organisationen. Dessutom kan administratörer och instruktörer uppdatera elevinformation, närvaro och slutföranden i grupp genom att överföra CSV-filer, minimera manuellt arbete och säkerställa datanoggrannhet.
+
+Du kan använda samma CSV-filformat för registrering, närvaro och slutförande. Ange bara elevers mejl-ID under kolumnen &quot;E-post&quot; och spara filen med ett namn som baseras på åtgärden, till exempel bulk_enrollment.csv, bulk_attendance.csv eller bulk_completion.csv. Endast CSV-format stöds. UTF-8-format stöds inte. Ladda ned CSV-exempelfilen [här](assets/Sample-Bulk-Action-CSV.csv).
+
+### Registrera elever i grupp med en CSV
+
+I stället för att lägga till elever en i taget kan administratörer registrera upp till 100 000 användare samtidigt genom att överföra en CSV-fil. Filen måste innehålla en kolumn märkt **userEmail** med e-postadresserna till eleverna som ska registreras.
+
+Så här registrerar du elever i grupp med CSV:
+
+1. Logga in som administratör.
+2. Välj en kurs i avsnittet **[!UICONTROL Courses]**.
+3. Välj **[!UICONTROL Learners]** på sidan **[!UICONTROL Course Overview]**.
+4. Välj **[!UICONTROL Enroll]** och sedan **[!UICONTROL Upload a CSV]**.\
+   ![](assets/upload-a-csv-learners.png)
+   _Registrerar elev med CSV-uppladdning_
+5. Överför en CSV-fil och välj **[!UICONTROL Proceed]**.
+
+CSV-filen innehåller en kolumn som är märkt Användarens e-postadress. Ange e-postadresserna till användarna i den här kolumnen.
+
+### Markera slutförande av kurs i bulk
+
+Administratörer kan snabbt markera slutförda kurser för många elever samtidigt genom att ladda upp en CSV-fil med sina e-postadresser. Det sparar tid jämfört med att uppdatera varje elev individuellt. CSV-kolumnen userEmail visar vilka elever som ska uppdateras. Du kan märka upp till 10 000 elever som slutförda i en överföring.
+
+Så här markerar du massslutförande:
+
+1. Välj en kurs i avsnittet **[!UICONTROL Courses]**.
+2. Välj **[!UICONTROL Learners]** på sidan **[!UICONTROL Course Overview]**.
+3. Välj **[!UICONTROL Actions]** och sedan **[!UICONTROL Mark Completion]**.
+4. Välj **[!UICONTROL Bulk]**.
+5. Överför en CSV-fil med en kolumn för userEmail som visar elever som har slutfört kursen.
+
+   ![](assets/bulk-completion.png)
+   _Markerar massslutförande med CSV_
+
+### Markera närvaro i bulk
+
+Administratörer kan markera närvaron för många elever samtidigt med en funktion för gruppnärvaro. I stället för att uppdatera varje elevs närvaro individuellt kan administratörer överföra en CSV-fil som innehåller elevernas e-postadresser. Kolumnen userEmail i CSV-filen identifierar vilka elevers närvaro som ska registreras. Denna process kan hantera upp till 10 000 elever i en enda överföring, vilket gör närvaromarkeringen snabbare och effektivare.
+
+Så här markerar du gruppnärvaron:
+
+1. Välj en kurs i avsnittet **[!UICONTROL Courses]**.
+2. Välj **[!UICONTROL Attendance & Scoring]** på sidan **[!UICONTROL Course Overview]**.
+3. Välj **[!UICONTROL Actions]** och sedan **[!UICONTROL Mark Bulk Attended]**.
+4. Överför en CSV-fil som innehåller kolumnen userEmail med e-postadresserna till de elever vars närvaro du vill uppdatera.
+
+   ![](assets/mark-bulk-attendance.png)
+   _Markera gruppnärvaro med CSV_
+
+>[!NOTE]
+>
+>Du kan markera närvaro för upp till 10 000 användare i grupp med CSV.
+
+### Vanliga CSV-överföringsfel
+
+* Elevens e-postadress i CSV-filen finns inte i Adobe Learning Manager-användarkatalogen.
+* Filformatet är felaktigt.
+* Filen innehåller extra kolumner eller ogiltiga data.
+
+![](assets/error-bulk.png)
+_Felmeddelande_
+
+Du kan hämta och visa CSV-filen med en lista över fel med misslyckade användare på radnivå för enkel identifiering.
 
 ## Väntelista
 
@@ -519,10 +585,10 @@ Välj instanstypen från rullgardinsmenyn för att visa poängen baserat på var
 Administratörer kan ange standardmärken, inställningar för spelifiering och påminnelser på sidan **[!UICONTROL Default Instance]**. Om du vill ändra standardinstansinställningarna väljer du **[!UICONTROL Default Instance]** > **[!UICONTROL Edit]**.
 
 * **[!UICONTROL Badge]**: Välj standardmärken i listrutan.
-* **[!UICONTROL Gamification]**: Konfigurera inställningar för spelifiering, inklusive poäng för slutförande, tidig slutförande och slutförande. Administratörer har möjlighet att välja inställningar på kontonivå eller anpassa spelifieringspunkterna för denna instans.
+* **[!UICONTROL Gamification]**: Konfigurera inställningar för spelifiering, inklusive poäng för slutförande, tidig slutförande och slutförande. Administratörer har möjlighet att välja inställningar på kontonivå eller anpassa spelifieringspunkterna för den här instansen.
 * **[!UICONTROL L1 Reaction Feedback]**: Aktivera fördefinierade frågor för elevfeedback efter slutförande av kursen, med alternativ för att göra frågor obligatoriska.
-***[!UICONTROL &#x200B; L3 Behaviour Change Feedback]**: Aktivera feedbackfrågor för elevens chef när kursen har slutförts.
-***[!UICONTROL &#x200B; Reminder Settings]**: Ställ in och hantera påminnelser om deadlines med alternativ för eskalering.
+***[!UICONTROL  L3 Behaviour Change Feedback]**: Aktivera feedbackfrågor för elevens chef när kursen har slutförts.
+***[!UICONTROL  Reminder Settings]**: Ställ in och hantera påminnelser om deadlines med alternativ för eskalering.
 
 ### Ange eskaleringsnivå {#escalation}
 
@@ -547,7 +613,7 @@ Gör så här för att lägga till kommentarer om slutförande:
 2. Gå till sidan **[!UICONTROL Courses]** och välj en kurs.
 3. Välj **[!UICONTROL Learners]** på kurssidan.
 4. Välj den enskilda eleven eller flera elever.
-5. Välj **[!UICONTROL Actions]** och välj sedan&#x200B;**[!UICONTROL &#x200B; Mark Completion]**.
+5. Välj **[!UICONTROL Actions]** och välj sedan**[!UICONTROL  Mark Completion]**.
 6. Skriv den avslutande kommentaren i dialogrutan.
 
    ![](assets/comments.png)
