@@ -2,9 +2,10 @@
 jcr-language: en_us
 title: Tavla för slutförda grupper
 description: Läs mer om kontrollpanelen för lyckade gruppåtgärder i Adobe Learning Manager
-source-git-commit: 1d449826b8f89aa9fd522d19bc129780e68c05e6
+exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
+source-git-commit: 6880c5232ca20498d6fac517c4f0f786dfb8f6d5
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '991'
 ht-degree: 0%
 
 ---
@@ -36,7 +37,7 @@ En administratör kan aktivera och skapa instrumentpanelerna genom att ge dem et
 Administratören måste aktivera kontrollpanelen för lyckade gruppåtgärder för kontot. Gör så här för att aktivera kontrollpanelen för slutförda grupper:
 
 1. Logga in som administratör.
-2. Välj **[!UICONTROL Settings]**&#x200B;och sedan **[!UICONTROL Reports]**.
+2. Välj **[!UICONTROL Settings]**och sedan **[!UICONTROL Reports]**.
 3. Välj växlingsfunktionen **[!UICONTROL Dashboard visibility]**.
 4. Skriv namnet på instrumentpanelen (till exempel **[!UICONTROL Store Manager Dashboard]**).
    ![](assets/enable-gsd.png)
@@ -149,6 +150,8 @@ När du väljer mer än en användargrupp använder Adobe Learning Manager särs
 
 * **Användargrupper med samma aktiva fält**: Om användargrupperna använder samma fält (till exempel plats) innehåller systemet alla elever från båda grupperna. Det kombinerar värdena. Till exempel: **Plats = Bangalore** och **Plats = Chennai**. Det inkluderar elever från båda platserna.
 * **Användargrupper med olika aktiva fält**: Om användargrupperna använder olika fält (till exempel plats och roll) innehåller systemet endast elever som uppfyller alla villkor. Till exempel: **Plats = Bangalore eller Chennai** och **Roll = Chef**. Det inkluderar endast elever som har chefsrollen och som finns i Bangalore eller Chennai.
+
+**Sammanfattning:**
 
 * Samma aktiva fält: Elever kombineras (ELLER logik)
 * Olika aktiva fält: Eleverna måste matcha alla kriterier (OCH logik)
