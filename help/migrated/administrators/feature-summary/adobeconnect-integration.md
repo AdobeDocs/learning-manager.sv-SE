@@ -70,7 +70,7 @@ Klicka på kursen om virtuella klassrum, klicka på Närvaro i den vänstra ruta
 
 Adobe Learning Manager har stöd för att välja seminarierum från Adobe Connect när du konfigurerar en virtuell klassrumssession i Connect. Tidigare kunde administratören bara välja mötesrumstyp. Med den här funktionen kan administratören med en giltig seminarielicens schemalägga och hantera engångs- eller storskaliga evenemang (upp till 1 500 deltagare) i ALM.
 
-Mer information om seminarierummet finns i den här [artikeln](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html).
+Mer information om seminarierummet finns i den här [artikeln](https://helpx.adobe.com/se/adobe-connect/using/creating-seminars.html).
 
 ### Stöd för åtkomst till sessionsanalys
 
