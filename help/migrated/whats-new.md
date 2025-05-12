@@ -2,7 +2,7 @@
 description: Läs om de nya funktionerna och förbättringarna i maj 2025-versionen av Adobe Learning Manager
 jcr-language: en_us
 title: Sammanfattning av nya funktioner
-source-git-commit: edaba3e99241b6a6d138e78af51a4eb2a3aa4784
+source-git-commit: c411b472f6389b2d45779c3821694de2fd46822a
 workflow-type: tm+mt
 source-wordcount: '2479'
 ht-degree: 0%
@@ -77,6 +77,7 @@ I den här [artikeln](/help/migrated/administrators/feature-summary/content-mark
 ## Rapport över inloggningsåtkomst i FTP, anpassad FTP och Box {#log-in-access-report}
 
 Rapporterna för inloggningsåtkomst är nu tillgängliga för Box-, FTP- och anpassade FTP-anslutningar, utöver de befintliga jobb-API:erna. Den här rapporten innehåller detaljerad information om användarinloggningar, inklusive körningsstatus, komprimeringsinställningar och schemaläggningsalternativ. Rapporten kan genereras på begäran eller schemaläggas, och data lagras i den angivna anslutningen för enkel åtkomst och analys. Den här förbättringen förbättrar möjligheten att övervaka och granska användarinloggningar, vilket ger bättre säkerhet och efterlevnadsspårning.
+
 Rapporten finns nu tillgänglig i den anpassade FTP-, FTP- och Box tillsammans med befintliga rapporter, såsom elevförlopp och slutförande av kurs. Med integreringen kan administratörer få åtkomst till alla nödvändiga rapporter från en enda källa, vilket underlättar bättre datahantering och -analys.
 
 Rapporten bidrar till automatisering genom att möjliggöra export av inloggnings- och åtkomstdata till FTP, där den kan kopplas till andra rapporter för att skapa omfattande instrumentpaneler. Den här funktionen är särskilt användbar för organisationer som använder automatiserade processer för dataanalys och -rapportering.
@@ -108,7 +109,7 @@ Mer information finns i den här [artikeln](/help/migrated/administrators/featur
 
 Adobe Learning Manager har nu även stöd för att välja seminarierum från Adobe Connect när du konfigurerar en VC-session i Connect. Tidigare kunde administratören bara välja mötesrumstyp. Den här förbättringen gör det möjligt för administratörer med en giltig seminarielicens att schemalägga och hantera engångs- eller storskaliga evenemang (upp till 1 500 deltagare) i Adobe Learning Manager.
 
-Mer information om seminarierummet finns i den här [artikeln](https://helpx.adobe.com/se/adobe-connect/using/creating-seminars.html).
+Mer information om seminarierummet finns i den här [artikeln](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html).
 
 ### Stöd för åtkomst till sessionsanalys
 
