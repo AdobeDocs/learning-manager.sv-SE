@@ -2,15 +2,15 @@
 description: Läs om de nya funktionerna och förbättringarna i maj 2025-versionen av Adobe Learning Manager
 jcr-language: en_us
 title: Sammanfattning av nya funktioner
-source-git-commit: 1d449826b8f89aa9fd522d19bc129780e68c05e6
+source-git-commit: edaba3e99241b6a6d138e78af51a4eb2a3aa4784
 workflow-type: tm+mt
-source-wordcount: '2477'
+source-wordcount: '2479'
 ht-degree: 0%
 
 ---
 
 
-# Sammanfattning av nya funktioner
+# Sammanfattning av nya funktioner maj 2025
 
 I den kommande versionen av Adobe Learning Manager introduceras en rad nya funktioner och förbättringar som syftar till att effektivisera plattformen och förbättra dess funktioner.
 
@@ -108,7 +108,7 @@ Mer information finns i den här [artikeln](/help/migrated/administrators/featur
 
 Adobe Learning Manager har nu även stöd för att välja seminarierum från Adobe Connect när du konfigurerar en VC-session i Connect. Tidigare kunde administratören bara välja mötesrumstyp. Den här förbättringen gör det möjligt för administratörer med en giltig seminarielicens att schemalägga och hantera engångs- eller storskaliga evenemang (upp till 1 500 deltagare) i Adobe Learning Manager.
 
-Mer information om seminarierummet finns i den här [artikeln](https://helpx.adobe.com/se/adobe-connect/using/creating-seminars.html).
+Mer information om seminarierummet finns i den här [artikeln](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html).
 
 ### Stöd för åtkomst till sessionsanalys
 
