@@ -2,13 +2,13 @@
 description: Läs om de nya funktionerna och förbättringarna i maj 2025-versionen av Adobe Learning Manager
 jcr-language: en_us
 title: Sammanfattning av nya funktioner
-source-git-commit: c411b472f6389b2d45779c3821694de2fd46822a
+exl-id: 812d33c8-b2e4-43eb-adda-67dc356ca1ca
+source-git-commit: 168e521d3922ec75c7ca06dd9a15ae67f929c069
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '2490'
 ht-degree: 0%
 
 ---
-
 
 # Sammanfattning av nya funktioner maj 2025
 
@@ -109,7 +109,7 @@ Mer information finns i den här [artikeln](/help/migrated/administrators/featur
 
 Adobe Learning Manager har nu även stöd för att välja seminarierum från Adobe Connect när du konfigurerar en VC-session i Connect. Tidigare kunde administratören bara välja mötesrumstyp. Den här förbättringen gör det möjligt för administratörer med en giltig seminarielicens att schemalägga och hantera engångs- eller storskaliga evenemang (upp till 1 500 deltagare) i Adobe Learning Manager.
 
-Mer information om seminarierummet finns i den här [artikeln](https://helpx.adobe.com/se/adobe-connect/using/creating-seminars.html).
+Mer information om seminarierummet finns i den här [artikeln](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html).
 
 ### Stöd för åtkomst till sessionsanalys
 
@@ -155,7 +155,7 @@ Det här fältet är bara giltigt om `hasQuiz` är sant. Om bara `completionCrit
 
 ### Lägg till innehållets unika ID och utgångsdatum för innehåll med migrering
 
-Innehållets unika ID och utgångsdatum stöds nu under migreringen. Två ytterligare kolumner: expiryDate och uniqueContentId har lagts till i filen module_version.csv för att aktivera funktionen.
+Innehållets unika ID och utgångsdatum stöds nu under migreringen. Två ytterligare kolumner: expiryDate och uniqueContentId har lagts till i filen module_version.csv för att aktivera funktionen. Mer information finns i [CSV-exempelfilen](assets/module_version_content.csv) och [CSV-specifikationsfilen](assets/4-module_version_content.xlsx).
 
 Mer information om migreringen finns i den här [artikeln](/help/migrated/integration-admin/feature-summary/migration-manual.md).
 
