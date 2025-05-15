@@ -109,7 +109,7 @@ Mer information finns i den här [artikeln](/help/migrated/administrators/featur
 
 Adobe Learning Manager har nu även stöd för att välja seminarierum från Adobe Connect när du konfigurerar en VC-session i Connect. Tidigare kunde administratören bara välja mötesrumstyp. Den här förbättringen gör det möjligt för administratörer med en giltig seminarielicens att schemalägga och hantera engångs- eller storskaliga evenemang (upp till 1 500 deltagare) i Adobe Learning Manager.
 
-Mer information om seminarierummet finns i den här [artikeln](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html).
+Mer information om seminarierummet finns i den här [artikeln](https://helpx.adobe.com/se/adobe-connect/using/creating-seminars.html).
 
 ### Stöd för åtkomst till sessionsanalys
 
