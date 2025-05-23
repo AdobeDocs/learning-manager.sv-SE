@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Skapa kursinstanser och utbildningsvägar
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: ad358fa52a16de60f6a102de8f744ae00bbf44e8
 workflow-type: tm+mt
 source-wordcount: '5480'
 ht-degree: 1%
@@ -587,8 +587,8 @@ Administratörer kan ange standardmärken, inställningar för spelifiering och 
 * **[!UICONTROL Badge]**: Välj standardmärken i listrutan.
 * **[!UICONTROL Gamification]**: Konfigurera inställningar för spelifiering, inklusive poäng för slutförande, tidig slutförande och slutförande. Administratörer har möjlighet att välja inställningar på kontonivå eller anpassa spelifieringspunkterna för den här instansen.
 * **[!UICONTROL L1 Reaction Feedback]**: Aktivera fördefinierade frågor för elevfeedback efter slutförande av kursen, med alternativ för att göra frågor obligatoriska.
-***[!UICONTROL &#x200B; L3 Behaviour Change Feedback]**: Aktivera feedbackfrågor för elevens chef när kursen har slutförts.
-***[!UICONTROL &#x200B; Reminder Settings]**: Ställ in och hantera påminnelser om deadlines med alternativ för eskalering.
+***[!UICONTROL  L3 Behaviour Change Feedback]**: Aktivera feedbackfrågor för elevens chef när kursen har slutförts.
+***[!UICONTROL  Reminder Settings]**: Ställ in och hantera påminnelser om deadlines med alternativ för eskalering.
 
 ### Ange eskaleringsnivå {#escalation}
 
@@ -613,7 +613,7 @@ Gör så här för att lägga till kommentarer om slutförande:
 2. Gå till sidan **[!UICONTROL Courses]** och välj en kurs.
 3. Välj **[!UICONTROL Learners]** på kurssidan.
 4. Välj den enskilda eleven eller flera elever.
-5. Välj **[!UICONTROL Actions]** och välj sedan&#x200B;**[!UICONTROL &#x200B; Mark Completion]**.
+5. Välj **[!UICONTROL Actions]** och sedan **[!UICONTROL Mark Completion]**.
 6. Skriv den avslutande kommentaren i dialogrutan.
 
    ![](assets/comments.png)
