@@ -3,16 +3,16 @@ title: Välkommen till användarhandboken för Adobe Learning Manager
 description: Läs om det senaste erbjudandet i Adobe Learning Manager (tidigare Adobe Captivate Prime). Börja från början och gå igenom varje del för sig eller vänd dig till i användarforumet när du arbetar med ett projekt.
 contentowner: dhv
 exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a
-source-git-commit: 9d46d64aae76b85f50eed9878779f290291e9026
+source-git-commit: f384503e2e0a7833c737bfdb94bdf2ad9e3d2736
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
 
 # Välkommen till användarhandboken för Adobe Learning Manager
 
-Läs vidare för att ta reda på vad som är det senaste erbjudandet i Adobe Learning Manager (tidigare **[!UICONTROL Adobe Captivate Prime]**). Börja från början och gå igenom varje del för sig eller vänd dig till i användarforumet när du arbetar med ett projekt.
+Läs vidare för att få reda på vad som är det senaste erbjudandet i Adobe Learning Manager (tidigare Adobe Captivate Prime). Börja från början och gå igenom varje del för sig eller vänd dig till i användarforumet när du arbetar med ett projekt.
 
 ## Delta i konversationen {#jointheconversation}
 
