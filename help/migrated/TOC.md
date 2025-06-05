@@ -2,7 +2,7 @@
 user-guide-title: Användarhandbok om Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation för Adobe Learning Manager
-source-git-commit: edaba3e99241b6a6d138e78af51a4eb2a3aa4784
+source-git-commit: 12df028fee2cf055bc4ce7761804db55389cb09a
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 8%
@@ -30,6 +30,7 @@ ht-degree: 8%
    * [Övergång från FTP-hanteraren i Adobe](transition-from-ftp-manager.md)
    * [Språk som stöds i Adobe Learning Manager](/help/migrated/languages-supported.md)
    * [Borttagningar och ändringar av API i Adobe Learning Manager](api-deprecations-list.md)
+   * [RECOMMENDATIONS i ADOBE LEARNING MANAGER](recommendations-adobe-learning-manager.md)
    * [Vitmärkning i Adobe Learning Manager](white-label.md)
    * [API-dokumentation för inbäddad Player-interaktion](/help/migrated/embedded-player-interaction.md)
 * Kom igång {#get-started}
@@ -59,7 +60,6 @@ ht-degree: 8%
    * [Konfigurera gränssnittsspråk via SAML](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)
    * [Kollegiala konton](administrators/feature-summary/peer-account.md)
    * [Skapa och ändra kompetenser och nivåer](administrators/feature-summary/skills-levels.md)
-   * [RECOMMENDATIONS i ADOBE LEARNING MANAGER](recommendations-adobe-learning-manager.md)
    * [AI-baserad rekommendation om kurser](ai-based-recommendations.md)
    * [Importera kompetenser](administrators/feature-summary/import-skills-external-sources.md)
    * [Spelifiering](administrators/feature-summary/gamification.md)
