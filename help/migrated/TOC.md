@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation för Adobe Learning Manager
-source-git-commit: 12df028fee2cf055bc4ce7761804db55389cb09a
+source-git-commit: 7d2f7fed5ef924ac74559192cd692cb011561e3c
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '676'
 ht-degree: 8%
 
 ---
@@ -42,7 +42,10 @@ ht-degree: 8%
 * Administratör {#admin}
    * [Admin AI Assistant (beta) i Adobe Learning Manager](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
    * [Användarinloggning](administrators/feature-summary/user-login.md)
-   * [Lägga till användare och skapa användargrupper](administrators/feature-summary/add-users-user-groups.md)
+   * Hantering av användare {#user-management}
+      * [Lägga till användare i Adobe Learning Manager](administrators/feature-summary/add-users-user-groups.md)
+      * [Användargrupp i Adobe Learning Manager](/help/migrated/administrators/feature-summary/user-group.md)
+      * [Aktiva fält](/help/migrated/administrators/feature-summary/active-fields.md)
    * [Lägg till klassrumsplatser](administrators/feature-summary/classroom.md)
    * [Skapa kursinstanser och utbildningsvägar](administrators/feature-summary/courses.md)
    * [Content Marketplace](administrators/feature-summary/content-marketplace.md)

@@ -1,692 +1,1024 @@
 ---
-description: Lär dig lägga till användare eller användargrupper i Learning Manager-programmet.
+description: Lär dig lägga till interna och externa användare i Adobe Learning Manager med hjälp av stegvisa instruktioner. Utforska olika metoder, till exempel manuell inmatning, massimport och automatisk användarsynkronisering, för att förenkla användarhanteringen och förbättra utbildningsplattformen.
 jcr-language: en_us
-title: Lägga till användare och skapa användargrupper
+title: Lägg till användare i Adobe Learning Manager
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: ae99efd330f27fe36970c9324b0b064d9c7a85e5
+source-git-commit: 48896c0a6f2d4631005c8d0185d69e0e31f19776
 workflow-type: tm+mt
-source-wordcount: '4133'
+source-wordcount: '2257'
 ht-degree: 0%
 
 ---
 
-# Lägga till användare och skapa användargrupper
 
-Lär dig lägga till användare eller användargrupper i Learning Manager-programmet.
+# Lägg till användare i Adobe Learning Manager
+
+I Adobe Learning Manager är användare de som använder utbildningsplattformen. Det finns två typer av användare: interna och externa användare.
+
+Interna användare är anställda eller teammedlemmar i din organisation.
+
+Externa användare är personer utanför företaget, t.ex. kunder, partner, leverantörer eller kunder, som har tillgång till ditt utbildningsinnehåll.
+
+Med Adobe Learning Manager (ALM) kan administratörer registrera och hantera både interna och externa användare på olika sätt, bland annat manuellt, via CSV-överföring, självregistrering och systemintegreringar.
+
+## Interna användare
+
+Interna användare i Adobe Learning Manager är anställda eller teammedlemmar i organisationen. Du kan lägga till dem manuellt, överföra dem i grupp eller importera dem via systemintegreringar. När du har lagt till användarna kan du ordna dem i grupper, tilldela kurser och övervaka deras utbildningsframsteg.
+
+Användare i Adobe Learning Manager kan ta på sig olika ansvarsområden och hantera olika uppgifter baserat på sina tilldelade roller. Varje roll, inklusive administratör, författare, instruktör och integrationsadministratör, erbjuder en uppsättning specifika funktioner som är anpassade för att stödja användarens ansvar inom plattformen.
+
+Adobe Learning Manager har stöd för följande användarroller:
+
+* **Administratör**: Hanterar användare och användargrupper, tilldelar roller och konfigurerar systemövergripande inställningar som datakällor, tillåtna domäner och visningsalternativ. Administratörer har också ansvar för att skapa och organisera utbildningsinnehåll, spåra elevframsteg, generera rapporter och konfigurera integreringar med externa system.
+* **Författare**: Skapar och hanterar innehåll, inklusive moduler och kurser.
+* **Chef**: övervakar teamets utbildningsaktiviteter, nominerar teammedlemmar till kurser, godkänner förfrågningar och ger feedback.
+* **Integreringsadministratör**: Hanterar systemintegreringar och dataanslutningar mellan ALM och externa plattformar.
+* **Anpassade roller**: Administratörer kan skapa anpassade roller för att ge användare anpassad åtkomst utifrån deras ansvarsområden. Läs den här artikeln om du vill ha mer information om anpassade roller.
+
+### Metoder för att lägga till interna användare
+
+Administratörer kan lägga till interna användare på följande sätt:
+
+* **Lägg till en enskild användare**: Lägg till en användare i taget manuellt.
+* **Egenregistreringsprofil**: Tillåt elever att registrera sig som elever i Adobe Learning Manager med hjälp av en registreringslänk som skapats av administratören.
+* **Massöverföring via CSV**: Överför en CSV-fil om du vill lägga till flera användare samtidigt.
+
+### Lägg till en intern användare manuellt
+
+Administratörer kan lägga till enskilda användare manuellt genom att ange namn, e-post-ID, unik identifierare och chefens namn. Den unika identifieraren i Adobe Learning Manager är en obligatorisk identifierare som administratörer tilldelar när de skapar en användare. Den måste vara unik för varje användare och fungera som en enhetlig referens i hela systemet.
+
+>[!INFO]
+>
+>Titta på den här ALM Academy-utbildningen om du vill veta mer om hur du lägger till enskilda användare i Adobe Learning Manager.<br>[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534)</br>
+
+Lägga till en enskild användare i Adobe Learning Manager:
+
+1. Logga in som administratör.
+2. Välj **Användare** och sedan **Intern**.
+3. Välj **Lägg till** och välj sedan **En användare**.
+
+   ![](assets/add-single-user.png)
+   _Administratörsgränssnitt som visar alternativet att lägga till en enskild intern användare manuellt_
+4. Vid uppmaningen **Lägg till användare** anger du användarens **namn**, **e-postadress** och **profil** (befattning).
+
+   ![](assets/add-a-user-prompt.png)
+   _Fält där du kan ange namn, e-postadress, unik identifierare och profil för en ny användare_
+5. Sök efter användarens chef och välj namnet i listan över chefer.
+6. Välj **Lägg till**.
+Användaren får ett välkomstmeddelande med en inloggnings-URL för åtkomst.
+
+
+### Tillåt självregistrering för interna användare
+
+Självregistrering är en självbetjäningsprocess där användare kan gå till en registrerings-URL, ange sina uppgifter och automatiskt registrera sig på plattformen. Den här metoden minskar det administrativa arbetet genom att användare kan registrera sig via den angivna URL:en.
+
+Så här skapar du en URL för självregistrering för en användare:
+
+1. Logga in som administratör.
+2. Välj **Användare** och sedan **Intern**.
+3. Välj **Lägg till** i det övre högra hörnet och välj sedan **Självregistrering.**
+
+
+   ![](assets/add-self-register-link.png)
+   _Listruta för val av alternativ för självregistrering_
+4. Skriv profilen i fältet **Profilnamn** (användarens befattning) i meddelandet **Lägg till självregistreringsprofil**.
+5. Välj användarens chef genom att söka efter chefen i fältet **Chefens namn**. Chefen som har tilldelats självregistreringsprofilen bör vara en registrerad användare i Adobe Learning Manager.
+
+
+   ![](assets/add-a-user-prompt.png)
+   _Inmatningsfält för att ange jobbtitel och tilldela en chef en självregistreringsprofil_
+6. Välj en bild med alternativet **Lägg till bild**. Bilden kommer att vara synlig för eleverna i profilavsnittet.
+7. Välj **Spara**.
+
+   I Adobe Learning Manager skapas en användarprofil och en URL för självregistrering genereras, som kan delas med användarna för att slutföra registreringen.
+
+
+   ![](assets/self-register-url.png)
+   _Bekräftelsemeddelande om att en självregistrerings-URL har skapats_
+8. Dela webbadressen med de användare som vill registrera sig själva.
+
+
+   URL:en kan delas med flera användare för registrering. Du kan till exempel generera en URL för profilen **Säljare** och dela den med säljassociationsteamet så att de kan registrera sig själva.
+
+![](assets/self-register-screem.png)
+_Länk till självregistrering öppnar en registreringssida_
+
+### Visa listan över URL:er för självregistrering
+
+Så här visar du listan över URL:er för självregistrering:
+
+1. Välj **Användare** och sedan **Intern**.
+2. Välj **Självregistrering**.
+
+   Administratörer kan se listan över URL:er för självregistrering.
+
+![](assets/self-registration-profile.png)
+_Listvy som visar befintliga URL:er för självregistrering som är tillgängliga för interna användare_
+
+### Överför interna användare i grupp
+
+Med Adobe Learning Manager kan administratörer lägga till flera användare samtidigt genom att överföra en CSV-fil med användarinformation, inklusive namn, e-postadress och chefens namn. Funktionen för gruppöverföring sparar tid och arbete jämfört med att lägga till användare enskilt.
+
+>[!INFO]
+>
+>Titta på den här ALM Academy-utbildningen och lär dig lägga till användare i grupp via en CSV-fil. <br>[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br>
+
+Lägga till flera användare:
+
+1. Logga in som administratör.
+2. Välj **Användare** och sedan **Intern**.
+3. Välj **Lägg till** i det övre högra hörnet och välj **Överför en CSV**.
+
+   ![](assets/select-upload-acsv.png)
+   _Alternativ för att överföra en CSV-fil för massimport av användare_
+
+4. Förbered en CSV-fil med följande fält:
+
+   * Medarbetarens namn*
+   * Medarbetarens e-postadress*
+   * Medarbetarens profil/beteckning
+   * Chefens ID/e-postadress\
+     (*) Obligatoriska fält.
+
+5. Innan du lägger till en chefs e-post-ID för en medarbetare ska du kontrollera att chefen redan ingår som anställd i CSV-filen. Se t.ex. medarbetaren Howard Walters i bilden nedan.
+
+   ![](assets/csv-image.png)
+   _Bild av CSV-exempelfil med alla fält_
+
+6. Överför CSV-filen och mappa datafälten därefter.
+
+   ![](assets/map-the-column.png)
+   _CSV-mappningsgränssnitt för att justera kalkylbladskolumner mot systemfält_
+7. Välj **Spara** för att importera användarna.
+
+   Ett bekräftelsemeddelande visas när överföringen har slutförts.
+
+   ![](assets/csv-save-success.png)
+   _Bilden visar statusen för CSV-överföringen som lyckad_
+
+>[!NOTE]
+>
+>Underhåll en CSV-huvudfil för alla tillägg och borttagningar. Det går inte att uppdatera och överföra en befintlig CSV-fil på nytt.
+
+När du överför en CSV-fil för att lägga till användare är det viktigt att inkludera all relaterad information i rätt ordning. Om du tilldelar en chefs e-post-ID till en anställd måste chefens information visas tidigare i CSV-filen. Detta säkerställer att systemet känner igen chefen som en befintlig användare innan de länkas till sina teammedlemmar. Säg att Howard Walters är chef. Lägg till all användarinformation i CSV-filen innan du listar anställda som rapporterar till honom.
+
+### Hantera användarregistrering
+
+När du har lagt till användare enskilt eller i grupp måste du registrera dem för att aktivera deras konton. Det gör att användare kan komma åt Adobe Learning Manager och börja använda plattformen.
+
+Så här registrerar du användarna:
+
+1. Välj **Användare** på administratörens startsida.
+2. Markera kryssrutorna bredvid namnen på de användare du vill registrera.
+3. Välj **Åtgärder** och välj sedan **Registrera**.
+
+   ![](assets/register-user.png)
+   _Registrera för att aktivera valda användare i Adobe Learning Manager_
+
+4. Välj **Ja** för att aktivera användaren.
+
+Ett bekräftelsemeddelande skickas till användaren. Användaren måste markera länken i e-postmeddelandet för att aktivera sitt konto och börja använda Adobe Learning Manager.
+
+## Externa användare
+
+Med Adobe Learning Manager kan du lägga till användare utanför företaget, t.ex. kunder, partner, leverantörer eller kunder, för att komma åt utbildningsinnehållet. När de har lagts till kan du gruppera dem, tilldela kurser och spåra deras utbildningsförlopp.
+
+Du kan lägga till externa användare i Adobe Learning Manager på följande sätt:
+
+* Skapa en extern registreringsprofil
+* Aktivera registreringsprofilen
+* Dela registreringslänken med externa användare
+* Pausa eller återuppta profilen vid behov
+
+Adobe Learning Manager stöder registrering av sådana användare via externa registreringsprofiler.
+
+Gör så här om du vill skapa en extern användare:
+
+1. Logga in som administratör.
+2. Välj **Användare** och sedan **Externa**.
+3. I det övre högra hörnet väljer du **Lägg till** för att skapa en registrering för en extern användare.
+4. Ange följande i dialogrutan **Lägg till extern registreringsprofil**:
+
+   * **Profilnamn:** Ange namnet på den partnerorganisation som vill få åtkomst till Adobe Learning Manager
+   * **Chefens e-postadress:** Skriv chefens e-postadress till användaren.
+   * **Platsbegränsning:** Ställ in det maximala antalet tillåtna registreringar.
+   * **Förfallodatum:** Definiera det sista datumet för nya registreringar. När den har upphört fungerar inte länken för ny användarregistrering.
+
+   ![](assets/add-external-user-prompt.png)
+   _Dialogruta för att ange profilnamn, chefens e-postadress, platsgräns och utgångsdatum_
+
+5. Välj en bild med alternativet **Lägg till bild**. Bilden kommer att vara synlig för eleverna i profilavsnittet.
+6. Välj avsnittet **Avancerade inställningar** för att expandera det och ange den information som krävs:
+   * **Inloggningskrav:** Skriv in antalet dagar. Om elever förblir inaktiva under hela perioden tas de automatiskt bort.
+   * **Tillåtna domäner:** Skriv en kommaseparerad lista över tillåtna e-postdomäner. Endast användare med e-postadresser från godkända domäner kan registrera sig.
+   * **E-postverifiering krävs:** Välj detta för att tvinga fram e-postverifiering under registreringen.
+
+   ![](assets/advanced-settings-add-external.png)
+   _Panelen Avancerade inställningar för att ange inloggningskrav, tillåtna domäner och e-postverifiering_
+
+7. Välj **Spara**.
+
+En registrerings-URL genereras.
+
+### Aktivera den externa profilen
+
+Så här aktiverar du den externa profilen:
+
+1. Leta reda på den nya profilen i listan över externa profiler.
+
+2. Välj växlingsknappen **Status** för att aktivera den.
+
+Administratören kan dela denna URL med den externa partnern så att denne kan registrera sig och logga in på Adobe Learning Manager med den.
+
+![](assets/enable-the-external-user.png)
+_Välj växlingsknappen för att aktivera den externa profilen_
+
+### Kopiera och dela registrerings-URL för en extern profil
+
+Registrerings-URL:en för en extern profil kan kopieras från avsnittet **Externa användare**.
+
+![](assets/copy.png)
+_Kopiera en extern profils registrerings-URL_
+
+### Viktiga skillnader mellan interna och externa användarregistreringar
+
+Det finns några skillnader mellan interna och externa registreringar:
+
+| Interna användare | Externa användare |
+|---|---|
+| Kan logga in med autentiseringsuppgifter för Adobe ID eller SSO. | Kan logga in med valfritt e-post-ID. |
+| Spelifiering är tillgänglig. | Spelifiering är tillgänglig. Administratören måste aktivera spelifiering för externa elever i inställningarna för [spelifiering](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification). |
+
+### Pausa extern registreringsprofil
+
+I Adobe Learning Manager kan administratörer hantera externa användarregistreringar genom att pausa sina profiler. Detta är användbart när du tillfälligt vill pausa nya användare från att ansluta med hjälp av en specifik extern användarprofil. Om du pausar en profil kan användare som har fått inbjudningar men ännu inte har registrerat sig inte slutföra registreringsprocessen. Åtgärden påverkar inte användare som redan har slutfört sin registrering.
+
+Så här pausar du en extern profil:
+
+1. Välj **Åtgärder** i det övre högra hörnet på sidan **Externa användare**.
+2. Välj **Pausa** för att pausa den externa användarprofilen.
+
+Detta blockerar registreringsprocessen för användare som ännu inte har accepterat sina inbjudningar. Observera att denna åtgärd endast påverkar användare som ännu inte har slutfört sin registrering.
+
+![](assets/pause-external-user.png)
+_Alternativ för att pausa en befintlig extern användarprofil från menyn Åtgärder_
+
+### Återuppta extern registreringsprofil
+
+Om en extern profil tidigare har pausats kan administratörer återuppta den så att nya användare kan slutföra registreringen. Detta återaktiverar registreringsprocessen för användare som blev inbjudna men inte slutförde registreringen.
+
+Så här återupptar du en extern användare:
+
+1. Välj **Åtgärder** i det övre högra hörnet på sidan.
+2. Välj **Återuppta** för att återuppta en pausad partners åtkomst.
+
+![](assets/resume-an-external-user.png)
+_Alternativ för att återuppta en tidigare pausad extern användarprofil_
+
+### Övervaka användningen av externa säten
+
+Administratörer kan spåra antalet användare som har lagts till i varje extern profil i Adobe Learning.
+
+Så här kontrollerar du använda platser:
+
+1. Välj **Platser som används** i listan över externa profiler.
+
+Du kan se antalet elever som har lagts till i partnerorganisationen och om eleverna är aktiva.
+
+## Hantera användare
+
+Administratörer kan redigera användarinformation, ta bort användare, tilldela roller och ta bort roller. Detta hjälper till att se till att alla användare har rätt åtkomst och rätt åtgärder.
+
+>[!INFO]
+>
+>Titta på den här ALM Academy-utbildningen och lär dig tilldela och ta bort roller, skicka ett välkomstmeddelande via e-post och ta bort och rensa användare.<br>[![knapp]](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)</br>
+
+### Redigera en användare
+
+Använd alternativet **Redigera användare** i Adobe Learning Manager om du vill uppdatera en användares profilinformation, t.ex. namn, e-postadress, unik identifierare, profil och chefens namn. Administratörer kan göra dessa ändringar för att säkerställa att användardata förblir korrekta och uppdaterade.
+
+Så här redigerar du en användare:
+
+1. Välj **Användare** på administratörens startsida.
+2. Välj användaren som du vill redigera i listan **Användare**.
+3. Välj **Redigera profil**.
+
+   ![](assets/edit-a-profile.png)
+   _Alternativet Ta bort användare på menyn Åtgärder om du vill ta bort en användare från plattformen_
+
+4. Välj **Ja** för att ta bort användaren.
+
+Ett bekräftelsemeddelande visas när användaren har tagits bort.
+
+## Tilldela en användare en roll
+
+Användarroller i Adobe Learning Manager definierar vilka åtgärder varje person kan utföra i systemet. Varje roll levereras med specifika behörigheter baserat på användarens ansvarsområden.
+
+Så här tilldelar du roller till användare:
+
+1. Välj **Användare** på administratörens startsida.
+2. Välj den användare som du vill tilldela en roll.
+3. Välj **Åtgärder** i det övre högra hörnet.
+4. Välj **Tilldela roll**.
+5. Välj önskad roll.
+
+   ![](assets/assign-roles-users.png)
+   _Menyalternativen Tilldela roll visar tillgängliga roller för den valda användaren_
+
+6. Välj **Ja** i bekräftelsedialogrutan.
+
+## Ta bort en roll
+
+När du tar bort en användarroll återkallas de behörigheter som beviljats av den rollen.
+
+Så här tar du bort roller från användare:
+
+1. Välj **Användare** på administratörens startsida.
+2. Markera de användare vars roller du vill ta bort.
+3. Välj **Åtgärder** och välj sedan **Ta bort roll**.
+
+   ![](assets/remove-a-role.png)
+   _Alternativ för att ta bort tilldelade roller från en användare på menyn Åtgärder_
+
+4. Välj **Ja** i bekräftelsedialogrutan.
+<!--# Add users and create user groups
+
+
+Learn how to add users or user groups in Learning Manager application.
 
 <!--![](assets/user-mgmt-new.png)-->
 
-## Översikt {#overview}
+<!--## Overview {#overview}
 
-I Adobe Learning Manager kan du utföra följande uppgifter:
+In Adobe Learning Manager, you can assume the following roles:
 
-* **Administratör:** En administratör definierar organisationens utbildningsstrategi. En administratör kan lägga till elever, söka efter nödvändiga färdigheter för elever, hantera och tilldela kurser, skapa utbildningsplaner, certifieringar och utbildningsprogram samt hantera rapporter för hela organisationen.
-* **Författare:** Författare är utbildningsdesigner och innehållsskapare. En författare kan lägga till moduler och kurser i Learning Manager.
-* **Chef:** En chef hanterar utbildningsaktiviteterna för ett team. En chef kan nominera teammedlemmar till en kurs, godkänna förfrågningar från teammedlemmar och ge feedback på teammedlemmarnas prestationer efter slutförd utbildning. Chefer kan också visa rapporter för sitt team för att spåra deras resultat.
-* **Elev:** Elever kan komma åt kurser, utbildningsprogram och certifieringar som tilldelats dem. Elever kan också bläddra igenom alla tillgängliga kurser genom att använda en katalog och registrera sig för antingen kurser, utbildningsprogram eller certifieringar.
+* **Administrator:** An Administrator defines the training strategy for the organization. An Administrator can add learners, search required skills for learners, manage and assign courses, create learning plans, certifications, and learning programs, and manage reports for the entire organization.
+* **Author:** Authors are Instructional Designers and content creators. An Author can add modules and courses to Learning Manager.
+* **Manager:** A Manager manages the learning activities of a team. A Manager can nominate team members to take a course, approve requests from team members, and provide feedback on performance of their team members post-completion of training. Managers can also view reports for their team to track their performance.
+* **Learner:** Learners can access courses, learning programs, and certifications assigned to them. Learners can also browse through all the available courses by using a catalog and enroll themselves for either courses, learning programs, or certifications.
 
-Administratörer kan lägga till användare på tre sätt:
+As an Administrator, you can add users in three ways:
 
-* Intern
-* Extern
-* Användargrupper
+* Internal
+* External
+* User groups
 
-## Lägg till en enskild användare {#addasingleuser}
+## Add a single user {#addasingleuser}
 
-Lägg till interna elever i Adobe Learning Manager med ett enda användaralternativ.
+Add internal learners to the Adobe Learning Manager using a single user option.
 
 >[!INFO]
 >
->Under den här utbildningen får du lära dig lägga till interna elever i Adobe Learning Manager.<br><br>[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534)</br></br>
+>In this training, you will learn how to add internal learners to the Adobe Learning Manager.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534)</br></br>
 
 
-Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
-Om du vill lägga till användare
+To add users,
 
-1. Logga in på Adobe Learning Manager som administratör.
-1. Klicka på **[!UICONTROL Add Users]** på startsidan. På den här sidan kan du lägga till en enskild användare eller flera användare åt gången med en CSV-fil. Du kan även skapa en självregistreringslänk för interna medarbetare eller skapa en extern elevprofil.
-1. Om du vill lägga till en enskild användare klickar du på **[!UICONTROL Add]** i det övre högra hörnet och väljer alternativet **[!UICONTROL Single User]**.
+1. Log into Adobe Learning Manager as an Administrator. 
+1. On the home page, click **[!UICONTROL Add Users]**. On this page, you can add a single user or multiple users at a time using a CSV. You can also create a self-registration link for internal employees or create an external learner profile.
+1. To add a single user, click **[!UICONTROL Add]** on the upper-right corner and choose the option **[!UICONTROL Single User]**.
 
-1. Om du vill lägga till en enskild användare klickar du på **[!UICONTROL Add]** i det övre högra hörnet och väljer alternativet **En användare**.
+1. To add a single user, click **[!UICONTROL Add]** on the upper-right corner and choose the option **Single User**.
 
 
    ![](assets/single-user.png)
-   *Lägg till en enskild intern användare*
+   *Add a single internal user*
 
-1. Ange information om eleven i dialogrutan **[!UICONTROL Add User]**. Välj namnet på en befintlig användare i systemet för fältet **[!UICONTROL Manager's Name]**.
+1. On the **[!UICONTROL Add User]** dialog, enter the details of the learner. For the field **[!UICONTROL Manager's Name]**, pick the name of an existing user in the system.
 
    ![](assets/manager.png)
-   *Dialogrutan Lägg till användare*
+   *Add user dialog box*
 
-1. Klicka på **[!UICONTROL Add]** för att lägga till den nya användaren i Learning Manager. När användaren har lagts till får användaren ett bekräftelsemeddelande. Eleven aktiverar sedan kontot och börjar använda Learning Manager. Detta arbetsflöde är användbart om du behöver lägga till ett begränsat antal elever i ditt konto för Learning Manager. Men om du planerar att registrera alla anställda i en stor organisation kan du lägga till dem i ett enda försök. Mer information finns i nästa avsnitt.
+1. To add the new user in Learning Manager, click **[!UICONTROL Add]**. After the user is added, the user receives a verification mail. The Learner then activates the account and starts using Learning Manager. This workflow is helpful if you need to add limited number of learners to your Learning Manager Account. But if you're planning to enroll all the employees of a large organization, you can add them in a singe attempt. For more information, see the next section.
 
-## Lägga till användare i grupp {#addusersinbulk}
+## Add users in bulk {#addusersinbulk}
 
-Vanligtvis arbetar de flesta organisationer med ett HR-hanteringssystem (HRMS) som upprätthåller alla medarbetarposter, t.ex. utnämning, plats, datum för anslutning eller medarbetarhierarki. Du kan exportera dessa data i CSV-format. Importera en CSV-fil genom att följa stegen nedan:
+Typically, most organizations work with an HR Management System (HRMS), which maintains all employee records, such as, designation, location, date of joining, or employee hierarchy. You can export this data in a CSV format. To import a CSV, follow the steps below:
 
 
-1. Klicka på **[!UICONTROL Add]** i det övre högra hörnet och välj alternativet **[!UICONTROL Upload a CSV]**.
+1. Click **[!UICONTROL Add]** on the upper-right corner, and choose the option **[!UICONTROL Upload a CSV]**.
 
    ![](assets/upload-a-csv.png)
-   *Överför en CSV-fil om du vill lägga till flera användare samtidigt*
+   *Upload a CSV to add users in bulk*
 
-1. CSV-filen som du överför består av fälten, som visas nedan:
+1. The CSV that you upload consists of the fields, as shown below:
 
    ![](assets/csv.png)
-   *CSV-filens struktur*
+   *Structure of the CSV*
 
-   Du måste upprätthålla en CSV-huvudfil och utföra alla tillägg och borttagningar i CSV-huvudfilen. CSV-huvudfilen innehåller följande fält:
+   You must maintain a master CSV and perform perform all additions and deletions on the master CSV. The master CSV contains the following fields:
 
-   * namn &#42;
-   * e-post &#42;
-   * profil
-   * chef
+   * name &#42;
+   * email &#42;
+   * profile
+   * manager
 
-   (&#42;) Obligatoriskt fält.
+   (&#42;) Required field.
 
-1. När du klickar på alternativet **[!UICONTROL Upload a CSV]** visas följande dialogruta.
+1. After you click the option **[!UICONTROL Upload a CSV]**, the following dialog displays.
 
    ![](assets/upload-a-csv-dialog.png)
-   *Överför en CSV-dialogruta*
+   *Upload a CSV dialog*
 
-1. Välj CSV-filen eller dra och släpp filen. När du har valt filen mappar du datafälten med dem i CSV-filen. Klicka på önskad rullgardinsmeny och välj rätt fält.
+1. Choose the CSV or drag-and-drop the file. After you've chosen the file, map the data fields with the ones in the CSV file. Click the required drop-down and choose the right field.
 
    ![](assets/map-data-fields.png)
-   *Mappa fält i CSV*
+   *Map fields in CSV*
 
-1. Klicka på **[!UICONTROL Save]** för att börja importera användarna. Du kan se ett bekräftelsemeddelande.
+1. To start importing the users, click **[!UICONTROL Save]**. You can see a confirmation message.
 
    ![](assets/save-csv.png)
-   *Bekräftelsemeddelande om att överföringen av CSV-filen har slutförts*
+   *Confirmation message for successful upload of the CSV*
 
-1. De nya användarna läggs nu till i ditt Adobe Learning Manager-konto. Markera kryssrutan bredvid namnen så att alla markeras om du vill välja nya användare.
+1. The new users are now added to your Adobe Learning Manager account. To select the new users, select the check-box next to the names so that everybody is selected. 
 
    ![](assets/select-new-users.png)
-   *Nya användare har lagts till*
+   *New users added*
 
 >[!NOTE]
 >
->Mer information finns i de vanliga frågorna, [Lägga till användare i grupp](../add-users-in-bulk.md).
+>For more information, see the FAQ, [Add users in bulk](../add-users-in-bulk.md).
 
 >[!INFO]
 >
->I den här utbildningen får du lära dig hur du lägger till användare i grupp via en CSV-fil.<br><br>[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
+>In this training, you will learn how to add users in bulk through a CSV.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
 
-Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
-## Registrera en användare {#registerauser}
+## Register a user {#registerauser}
 
-Klicka med användaren markerad på **[!UICONTROL Actions]** i det övre högra hörnet och klicka på **[!UICONTROL Register]**.
+With the user selected, click **[!UICONTROL Actions]** on the upper-right corner and click **[!UICONTROL Register]**.
 
-De valda användarna får ett välkomstmeddelande via e-post. Om eleverna har ett Adobe ID kan de klicka på den här länken. Om de inte har ett Adobe ID kan de klicka på välkomstlänken för att skapa ett Adobe ID och länka det till sitt Learning Manager-konto.
+The selected users receive a Welcome email. If the learners have an existing Adobe ID, they can click this link. If they don't have an existing Adobe ID, they can go ahead and click the Welcome link to create an Adobe ID and link it to their Learning Manager account.
 
-### Hantera användare
+### Manage users
 
-I den här utbildningen får du lära dig tilldela och ta bort roller, skicka ett välkomstmeddelande via e-post och ta bort och rensa användare.
+In this training, you will learn how to assign and remove roles, send a welcome email, and delete and purge users. 
 
-[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
+[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
 
-Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
-## Tilldela en roll {#assignarole}
+## Assign a role {#assignarole}
 
-När du har lagt till elever i Adobe Learning Manager-kontot kan du klicka på Åtgärder uppe till höger på sidan om du vill ändra deras roller. Välj alternativet **[!UICONTROL Assign Role]**. Här kan du bestämma om du vill ge eleven författaråtkomst eller administratörsåtkomst. När du har tilldelat en roll har den här eleven författaråtkomst till kontot och kan lägga till moduler och skapa kurser.
+After adding learners to the Adobe Learning Manager account, if you want to change their roles, click Actions on the upper-right corner of the page. Choose the option **[!UICONTROL Assign Role]**. Here you can decide whether you want to give Author access or Admin access to the learner. After you have assigned a role, this learner has Author access to the account and can add modules and create courses. 
 
 ![](assets/assign-a-role.png)
-*Tilldela en användare en roll*
+*Assign a role to a user*
 
-## Ta bort en roll {#removearole}
+## Remove a role {#removearole}
 
-Du kan också ta bort författar- eller administratörsåtkomst för användarna. Välj en eller flera elever, klicka på **[!UICONTROL Actions]** och välj **[!UICONTROL Remove Role]**. Välj ett alternativ, till exempel **[!UICONTROL Remove Author]**, så återkallas författaråtkomsten för den här eleven.
+You can also remove Author or Admin access for the users. Select one or more learners, click **[!UICONTROL Actions]**, and select **[!UICONTROL Remove Role]**. Choose an option, for example, **[!UICONTROL Remove Author]**, and the author access gets revoked for this learner. 
 
 >[!NOTE]
 >
->Du kan inte tilldela någon i systemet en chefsroll manuellt. De får automatiskt tillgång till chefens kontrollpanel när en eller flera anställda läggs till under dem.
+>You cannot manually assign a Manager role to someone in the system. They automatically get access to the Manager dashboard when one or more employees are added under them.
 
-## Ta bort en användare {#deleteauser}
+## Delete a user {#deleteauser}
 
-Klicka på **[!UICONTROL Actions]** och välj **[!UICONTROL Delete User]** om du vill ta bort en användare. Klicka på **[!UICONTROL Yes]** i bekräftelsedialogrutan så tas eleven bort.
+To delete a user, click **[!UICONTROL Actions]**, and choose **[!UICONTROL Delete User]**. On the confirmation dialog, click **[!UICONTROL Yes]**, and the learner gets deleted.
 
 ![](assets/delete-a-role.png)
-*Bekräftelsemeddelande om att ta bort en användare*
+*Confirmation message to delete a user*
 
-## Redigera en användare {#editauser}
+## Edit a user {#editauser}
 
-Välj en användare i listan med användare och klicka på användaren. Klicka på knappen **[!UICONTROL Edit]** ( ![](assets/edit-pen.png)) i användarinformationen. Gör nödvändiga ändringar i dialogrutan **[!UICONTROL Edit User]** och spara ändringarna genom att klicka på **[!UICONTROL Save]**.
+On the list of users, choose a user, and click the user. On the user details, click the **[!UICONTROL Edit]** ( ![](assets/edit-pen.png)) button. On the **[!UICONTROL Edit User]** dialog, make the necessary edits and to save the changes, click **[!UICONTROL Save]**.
 
 ![](assets/edit-user.png)
-*Dialogrutan Redigera användare*
+*Edit User dialog*
 
-## Aktiva fält
+## Active fields
 
-Aktiva fält i Adobe Learning Manager är anpassningsbara metadatafält som används för att lagra och hantera användarspecifik information. Dessa fält hjälper till att definiera nyckelattribut eller egenskaper som är associerade med varje användare i systemet.
+Active Fields in Adobe Learning Manager are customizable metadata fields used to store and manage user-specific information. These fields help define key attributes or characteristics associated with each user in the system.
 
-### Hantera användarattribut
+### Manage user attributes
 
 >[!INFO]
 >
->I den här utbildningen får du lära dig hur du lägger till, anpassar och konfigurerar aktiva fält.<br><br>[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555741)</br></br>
+>In this training, you will learn how to add, customize, and configure Active Fields.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555741)</br></br>
 
-Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
-I Adobe Learning Manager bevaras skiftlägeskänsligheten för användarattributet och dess värde. **Till exempel** är skiftlägeskänsligheten för ett användarattribut &quot;location&quot; och dess värde som &quot;PARIS&quot; bevaras och visas på samma sätt. Om det uppstår problem kan administratören nu redigera attributnamnet och attributvärdena för att korrigera eventuella skiftlägeskänslighetsfel.
+Adobe Learning Manager preserves the case sensitivity of the user attribute and its value. **For example**, the case sensitivity of a user attribute is 'location' and its value as 'PARIS' will be preserved and displayed in the same manner. In case of any issues, the Administrator can now edit the attribute name and values to correct any case sensitivity errors. 
 
-Administratören kan göra detta genom att gå till **[!UICONTROL Admin app]** > **[!UICONTROL Users]** > **[!UICONTROL User groups]** och klicka på gruppnamnet.
+The Administrator can do this by visiting **[!UICONTROL Admin app]** > **[!UICONTROL Users]** > **[!UICONTROL User groups]** and clicking on the group name.  
 
-En administratör kan lägga till och uppdatera tillåtna attributvärden för en elev via användargränssnittet.
+An Admin can add and update allowed attribute values for a learner through UI.
 
-Typer av aktiva fält:
+Types of active fields:
 
-* Grupperbart: Elever grupperas utifrån värdena
-* Rapporteringsregister: Rapporterande användargrupper skapas baserat på de aktiva fälten
-* Kan exporteras: Fälten visas i rapporten om användargrupper.
+* Groupable: Learners would get grouped on the basis of the Values
+* Reportable: Reporting user groups would be created based on the active fields
+* Exportable: The fields will be seen in exported in user group report.
 
-## Skapa en länk för självregistrering {#createaselfregistrationlink}
+## Create a self-registration link {#createaselfregistrationlink}
 
-Du kan även göra det möjligt för anställda i organisationen att registrera sig som elever på Adobe Learning Manager-kontot utan att ta hjälp av dig som administratör. Administratören kan skapa en länk för självregistrering och dela med de anställda, som kan registrera sig ytterligare för Learning Manager med sina inloggningsuppgifter för Adobe.
+You can also enable employees in your organization to register themselves as Learners to Adobe Learning Manager Account, without taking help from you as an administrator. The administrator can create a Self-Registration link and share with the employees, who can further register to Learning Manager using their Adobe credentials.
 
-Klicka på **[!UICONTROL Add]** i det övre högra hörnet på sidan och välj **[!UICONTROL Self-Registration]**.
+On the upper-right corner of the page, click **[!UICONTROL Add]**, and select **[!UICONTROL Self-Registration]**.
 
 
 ![](assets/self-registration.png)
-*Skapa en länk för att registrera dig som elev*
+*Create link to self-register as learner*
 
-Dialogrutan **[!UICONTROL Add Self-Registration Profile]** visas. Ge profilen ett namn. Lägg sedan till chefens namn. Det är viktigt att veta att chefen redan måste vara registrerad elev i Learning Manager.
+The **[!UICONTROL Add Self-Registration Profile]** dialog appears. Give this profile a name. Then add the manager's name. It's important to know that the manager must already be registered learner in Learning Manager.
 
 ![](assets/add-self-registrationprofile.png)
-*Lägg till en profil för självregistrering*
+*Add profile for self-registration*
 
-När du har klickat på **[!UICONTROL Save]** genereras en URL som du kan dela med eleverna, så att de kan klicka på URL:en och själva registrera sig.
+After you click **[!UICONTROL Save]**, a URL gets generated, which you can share with the learners, so that they can click the URL and self-register themselves.
 
-## Registrera externa elever {#enrollexternallearners}
+## Enroll external learners {#enrollexternallearners}
 
-I Adobe Learning Manager kan du även skapa registreringslänkar för externa partner eller byråer med begränsad åtkomst till ditt konto och ge dem utbildningsmaterial.
+In Adobe Learning Manager, you can also create Registration links for external partners or agencies with limited access to your account and provide them learning material.
 
-Det finns några skillnader mellan interna och externa registreringar.
+There are a few differences between internal and external registrations.
 
 <table>
  <tbody>
   <tr>
    <td>
-    <p><b>Interna användare</b></p></td>
+    <p><b>Internal users</b></p></td>
    <td>
-    <p><b>Externa användare</b></p></td>
+    <p><b>External users</b></p></td>
   </tr>
   <tr>
    <td>
-    <p>Logga in med autentiseringsuppgifterna för Adobe ID eller SSO.</p></td>
+    <p>Log in using Adobe ID or SSO credentials.</p></td>
    <td>
-    <p>Logga in med valfritt e-post-ID.</p></td>
+    <p>Log in using any email ID.</p></td>
   </tr>
   <tr>
    <td>
-    <p>Spelifiering är tillgänglig.</p></td>
+    <p>Gamification is available.</p></td>
    <td>
-    <p>Spelifiering är tillgänglig. Administratören måste aktivera spelifiering för externa elever i inställningarna för spelifiering.</p></td>
+    <p>Gamification is available. The admin must enable gamification for external learners in the Gamification settings.</p></td>
   </tr>
   <tr>
    <td>
-    <p>Elevhierarkier är tillgängliga.</p></td>
+    <p>Learner hierarchies are available.</p></td>
    <td>
-    <p>Elevhierarkier är inte tillgängliga.</p></td>
+    <p>Learner hierarchies are not available.</p></td>
   </tr>
  </tbody>
 </table>
 
-Följ stegen nedan för att registrera externa användare:
+To enroll external users, follow the steps below:
 
-1. Klicka på **[!UICONTROL External]** i den vänstra navigeringsrutan.
+1. In the left navigation pane, click **[!UICONTROL External]**.
 
    ![](assets/click-external.png)
+   
+   *Enroll external users*
 
-   *Registrera externa användare*
+1. On the upper-right corner of the page, click **[!UICONTROL Add]**.
 
-1. Klicka på **[!UICONTROL Add]** längst upp till höger på sidan.
-
-1. Lägg till följande information i dialogrutan **Lägg till extern registreringsprofil**:
+1. On the **Add External Registration Profile** dialog, add the following details:
 
 
-   * Partnerorganisationens profilnamn.
-   * E-postadressen till partnerorganisationens chef.
-   * Platsbegränsning för extern registrering för denna partner.
-   * Utgångsdatum för att ange en tidsgräns för att sluta tillåta nya registreringar i den här gruppen. Efter utgångsdatumet har endast befintliga registrerade användare tillgång till denna utbildning.
+   * The profile name of the partner organization.
+   * The email address of the manager of the partner organization.
+   * Seat limit for external enrollment for this partner.
+   * Expiry date to set a deadline to stop allowing new registrations to this group. After the Expiry date, only the existing registered users can access this training.
 
    ![](assets/map-data-fields-2.png)
 
-   *Dialogrutan Lägg till extern registreringsprofil*
+   *Add External Registration Profile dialog*
 
-   * Ange följande i avsnittet **[!UICONTROL Advanced Settings]**:
+   * In the **[!UICONTROL Advanced Settings]** section, enter the following:
 
-      * **[!UICONTROL Login Requirement]:** Ange ett värde i dagar. Elever raderas om de inte loggar in under ovanstående tid.
-      * **[!UICONTROL Allowed Domains]:** En kommaavgränsad lista med e-postdomännamn som är tillåtelselistade.
-      * **[!UICONTROL Email Verification Required]:** Välj det här alternativet om du vill göra e-postverifiering obligatorisk för en elev.
+     * **[!UICONTROL Login Requirement]:** Specify a value in days. Learners get deleted if they do not login for the above duration.
+     * **[!UICONTROL Allowed Domains]:** A comma-separated list of whitelisted email domain names.
+     * **[!UICONTROL Email Verification Required]:** Select this option to make email verification mandatory for a learner.
 
    ![](assets/email-verificationrequired.png)
 
-   *Ange informationen i avsnittet Avancerade inställningar*
+   *Enter the details in the Advanced Settings section* 
 
-1. När du har klickat på **[!UICONTROL Save]** visas följande bekräftelsemeddelande. Du måste dela webbadressen med din externa partner.
+1. After you click **[!UICONTROL Save]**, you can see the following confirmation message. You must share the URL with your external partner.
 
    ![](assets/save-and-share-urlwithexternalusers.png)
 
-## Aktivera en extern profil {#enableanexternalprofile}
+## Enable an external profile {#enableanexternalprofile}
 
-När en extern profil har skapats måste du aktivera dess status. I listan över externa profiler väljer du önskad profil och växlar statusknappen.
+After an external profile has been created, you must enable its status. From the list of external profiles, choose the required profile, and toggle the status button.
 
 ![](assets/choose-required-profiles.png)
-*Aktivera en extern profil*
+*Enable an external profile*
 
-Då aktiveras länken Extern registrering. Ett välkomstmeddelande skickas automatiskt till partnern via e-post. Du kan också kopiera länken och dela den med dem genom att klicka på ikonen Kopiera URL (), eller så kan du skicka välkomstmeddelandet igen till partnerorganisationen genom att klicka på ikonen E-post ().
+This enables the External Enrollment link. A welcome email is automatically be sent to the partner. You can also copy the link and share with them by clicking the Copy URL icon (), or you can resend the welcome email to the partner organization by clicking the Mail icon ().
 
-Partnerchefen kan dela länken med de anställda som måste genomgå utbildningen i PrLearning Manager. När de klickar på länken kan de registrera sig själva efter att ha fyllt i lite information för att skapa sin profil i Learning Manager. Dessa användare visas inte på fliken Elever tillsammans med de interna anställda. Deras namn visas under fliken **[!UICONTROL External Learners]**.
+The partner manager can share the link with the employees who must take the training in PrLearning Managerime. When they click the link, they can self-enroll themselves after filling out some details to create their profile on Learning Manager. These users will not appear on the Learners tab along with the internal employees. You can see their names under the **[!UICONTROL External Learners]** tab.
 
-## Pausa en extern profil {#pause}
+## Pause an external profile {#pause}
 
-När du har lagt till en extern användargrupp i Learning Manager kan du även pausa de externa användarnas registreringsprocess. När du pausar blockeras de externa användarnas registreringsprocess. Men den här processen fungerar bara när användarna inte har registrerat sig än genom att acceptera inbjudan.
+After adding an external user group to Learning Manager, you can also pause the external users' registration process. When you pause, the external users' registration process is blocked. However, this process works only when the users haven't registered yet by accepting the invitation.
 
-Om du vill pausa de externa användargrupperna väljer du en eller flera grupper, klickar på **[!UICONTROL Actions]** i det övre högra hörnet på sidan och klickar på **[!UICONTROL Pause]**.
+To pause the external user groups, choose a group or groups, click **[!UICONTROL Actions]** from the upper-right corner of the page, and click **[!UICONTROL Pause]**.
 
-## Återuppta en extern profil {#resumeanexternalprofile}
+## Resume an external profile {#resumeanexternalprofile}
 
-Du kan när som helst återkalla tillståndet pausad för en extern partner och återuppta normala tjänster. Klicka på **[!UICONTROL Actions]** längst upp till höger på sidan och välj **[!UICONTROL Resume]**.
+At any time, you can always revoke the paused state of an external partner and resume normal services. Click **[!UICONTROL Actions]** at the upper-right corner of the page and select **[!UICONTROL Resume]**.
 
-Följande tillstånd är tillämpliga för externa användare:
+The following states are applicable for external users:
 
-* **Inaktivt läge** - I det här läget har registreringen av externa användare upphört att gälla. Administratörerna anger förfallodatumet för de externa användarna när de läggs till via arbetsflödet Lägg till användare.
-* **Aktivt läge** - I det här läget kan externa användare registrera sig för Learning Manager-programmet och logga in på programmet.
-* **Pausa** - Registreringsprocessen för externa användare blockeras i det här tillståndet. De befintliga användarna kan dock fortsätta att logga in.
+* **Inactive state** - In this state, the external users' registration is expired. Administrators set the expiry date for the external users while adding them through the add user workflow.
+* **Active state** - In this state, the external users can register to the Learning Manager application, and log in to the application.
+* **Pause** - In this state, the registration process for external users is blocked. However, the existing users can continue to log in.
 
-## Kontrollera använda platser {#checkusedseats}
+## Check used seats {#checkusedseats}
 
-Klicka på **[!UICONTROL Seats Used]** i listan över externa profiler. Du kan se antalet elever i partnerorganisationen som har lagts till.
+On the list of external profiles, click **[!UICONTROL Seats Used]**. You can view the number of learners in the partner organization who have been added.
 
 ![](assets/seats-used.png)
-*Kontrollera använda platser*
+*Check used seats*
 
-## Ta bort en användare {#Deleteauser-1}
+## Delete a user {#Deleteauser-1}
 
-Välj en användare och klicka på **[!UICONTROL Actions]** > **[!UICONTROL Delete User]** i det övre högra hörnet.
+Choose a user, and from the upper-right corner, click **[!UICONTROL Actions]** > **[!UICONTROL Delete User]**.
 
-## Ändra profil {#changeprofile}
+## Change profile {#changeprofile}
 
-Om du vill flytta en användare till en annan extern profil väljer du en användare från det övre högra hörnet och klickar på **[!UICONTROL Actions]** > **[!UICONTROL Change Profile]**. Välj en profil i listan med profiler och klicka på **[!UICONTROL Change]**.
+To move a user to another external profile, choose a user, from the upper-right corner, click **[!UICONTROL Actions]** > **[!UICONTROL Change Profile]**. From the list of profiles, choose a profile, and click **[!UICONTROL Change]**.
 
-## Tilldela en roll {#Assignarole-1}
+## Assign a role {#Assignarole-1}
 
-Välj en användare och klicka på **[!UICONTROL Actions]** > **[!UICONTROL Assign Role]** > **Skapa`<role>`** i det övre högra hörnet. Användaren får en ny roll.
+Choose a user, and from the upper-right corner, click **[!UICONTROL Actions]** > **[!UICONTROL Assign Role]** > **Make `<role>`**. The user gets a new role.
 
-## Ta bort en roll {#Removearole-1}
+## Remove a role {#Removearole-1}
 
-Välj en användare och klicka på **[!UICONTROL Actions]** > **[!UICONTROL Remove Role]** > **Ta bort`<role>`** i det övre högra hörnet. Den valda rollen tas bort från listan över roller som har tilldelats användaren.
+Choose a user, and from the upper-right corner, click **[!UICONTROL Actions]** > **[!UICONTROL Remove Role]** > **Remove `<role>`**. The selected role gets removed from the list of roles that were assigned to the user.
 
 >[!NOTE]
 >
->Anpassade användargrupper påverkas inte om du tilldelar en ny roll. Det kommer dock att påverka automatiskt genererade användargrupper som Alla administratörer, Alla författare och liknande rollbaserade grupper.
+>Assigning a new role will not affect custom user groups. However, it will impact auto-generated user groups such as All Admins, All Authors, and similar role-based groups.
 
-## Skapa användargrupper {#createusergroups}
+## Create user groups {#createusergroups}
 
-En användargrupp är en uppsättning användare som är relaterade till en kategori. Användargrupper hjälper administratörer att välja elever i organisationen utifrån deras attribut och sedan tilldela dem utbildningsinnehåll. Med de här användargrupperna kan administratörer också tilldela anpassade logotyper och kataloger till elever och visa anpassade rapporter om deras framsteg.
+A User Group is a set of users who are related to a category. User Groups help administrators to select learners in their organization based on their attributes, and then assign learning content to them. Also, these User Groups enable administrators to assign customized logos and catalogs to learners and show customized reports on their progress.
 
-Klicka på **[!UICONTROL User Groups]** i den vänstra navigeringsrutan för att komma åt användargrupper.
+To access User Groups, on the left navigation pane, click **[!UICONTROL User Groups]**.
 
 ![](assets/user-groups.png)
-*Skapa användargrupper*
+*Create user groups*
 
-### Hantera användargrupper
+### Manage user groups
 
 >[!INFO]
 >
->I den här utbildningen får du lära dig hur du skapar en användargrupp efter namn, e-post-ID:n och kombinerar flera automatiskt genererade användargrupper.<br><br>[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
+>In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
 
-Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
-Det finns två grupptyper i Adobe Learning Manager, Anpassad och Automatiskt genererad. När du lägger till elever på ditt konto skapas vissa grupper automatiskt utifrån deras gemensamma egenskaper.
+There are two types of groups in Adobe Learning Manager, Custom and Auto-generated. When you add learners to your account, some groups are automatically created based on their common properties.
 
-Klicka på fliken **[!UICONTROL Auto-generated]** om du vill se de automatiskt skapade grupperna.
+To see the automatically created groups, click the tab **[!UICONTROL Auto-generated]**.
 
 ![](assets/auto-generated.png)
-*Visa automatiskt genererade grupper*
+*View Auto-generated groups*
 
-Du kan se att det finns olika grupper, som Alla interna användare, Alla chefer, grupper baserade på kostnadscentret, baserat på avdelningen och baserat på chefernas team.
+You can see that there are different groups, like All Internal Users, All Managers, groups based on the Cost Center, based on the department, and based on the teams of the managers.
 
-Förutom automatiskt genererade grupper kan du även skapa egna grupper. Klicka på **[!UICONTROL Add]** i det övre högra hörnet om du vill lägga till en ny anpassad grupp.
+In addition to Auto-generated groups, you can create Custom groups. To add a new Custom Group, on the upper-right corner, click **[!UICONTROL Add]**. 
 
-1. Ange gruppens namn och beskrivning.
-1. Ange användarnamn eller profil i sökfältet när du skriver och välj från listrutan för att lägga till användare.
+1. Enter the name, and description for the group.
+1. Enter user name or profile in search-as-you-type field and select from the drop-down list, to add users.
 
-1. Klicka på **[!UICONTROL Add More Users]** om du vill lägga till fler elever.
+1. To add more learners, click **[!UICONTROL Add More Users]**.
 
-1. Klicka på **[!UICONTROL Save]** för att skapa användargruppen.
+1. To create the user group, click **[!UICONTROL Save]**.
 
-Denna anpassade grupp skapas nu och läggs till i profilen. De användargrupper du skapar är dynamiska till sin natur. Om nya användare läggs till med liknande attribut läggs de automatiskt till i användargruppen.
+This Custom Group is now created and added to the profile. The User Groups that you create are dynamic in nature. If new users are added with similar attributes, they're automatically added to the User Group.
 
-Om du vill visa listan över grupper som en användare tillhör går du till **[!UICONTROL User]** > **[!UICONTROL User Groups]**, söker efter användarens namn och väljer den. Då visas alla grupper som användaren ingår i.
+To view the list of groups a user belongs to, navigate to **[!UICONTROL User]** > **[!UICONTROL User Groups]**, search for the user's name, and select it. This will display all the groups the user is part of.
 
 ![](assets/list-of-group.png)
 
-### Hämta listan över användare i en användargrupp
+### Download the list of users in a user group
 
-Gå till **[!UICONTROL User]** > **[!UICONTROL User Groups]** och välj **[!UICONTROL Download icon]** bredvid gruppen om du vill hämta listan med användare i en specifik användargrupp. Detta genererar en CSV-fil som innehåller listan över användare i gruppen.
+To download the list of users in a specific user group, navigate to **[!UICONTROL User]** > **[!UICONTROL User Groups]**, select the **[!UICONTROL Download icon]** next to the group. This will generate a CSV file containing the list of users in that group.
 
-![](assets/download-list-of-user.png)
+![](assets/download-list-of-user.png) 
 
-## Uteslutning av användargrupper
+## Exclusion of user groups
 
-Ibland vill du utesluta en liten grupp användare från en stor användargrupp. Detta krävs för att registrera denna specifika uppsättning användare i utbildning via utbildningsplaner eller för att konfigurera korrekt synlighet för kataloger. I den här versionen av Learning Manager kan du utesluta elever eller användargrupper när du skapar en anpassad användargrupp. I dialogrutan Lägg till användargrupp kan du göra det med avsnittet Uteslut elever.
+At times you would want to exclude a small set of users from a large user group. This is required to enroll this specific set of users into training via Learning Plans or to setup the correct visibility of catalogs. In this release of Learning Manager, you can exclude learners or User Groups when you create a custom user group. In the Add User Group dialog, the Exclude Learners section enables you to achieve so.
 
 ![](assets/exclude-user-groups.png)
-*Exkludera användargrupper*
+*Exclude user groups*
 
-Om du till exempel vill konfigurera en utbildningsplan så att alla användare som tillhör platsen = Kalifornien utom Store-5 (i Kalifornien) registreras.
+For example, if you want to set up a Learning Plan so that all users belonging to location = California except Store-5 (located in California) get enrolled. 
 
-## Avancerade inställningar {#advancedsettings}
+## Advanced settings {#advancedsettings}
 
-### Datakällor {#datasources}
+### Data Sources {#datasources}
 
-Du kan använda den här funktionen när du vill importera/synkronisera användarna eller utbildningsdata från organisationens databas till Learning Manager-programmet. Du kan även ställa in frekvensen för den här synkroniseringen.
+You can use this feature when you want to import/sync the users or learning data from your organization's database in to the Learning Manager application. You can also set up the frequency of this sync. 
 
 
-Klicka på **[!UICONTROL Data Sources]** i den vänstra rutan under avsnittet **[!UICONTROL Advanced]**.
+Click **[!UICONTROL Data Sources]** on the left pane under **[!UICONTROL Advanced]** section. 
 
 
 ![](assets/data-sources-add-users.png)
 
-*Datakällor att importera eller synkronisera användare*
+*Data sources to iport or sync users*
 
-Välj typ av datakälla i listrutan **[!UICONTROL Source]**, välj uppdateringsfrekvens och klicka på **[!UICONTROL Sync now]** om du behöver synkronisera omedelbart eller klicka på **[!UICONTROL Save].** Datakälltyper är SFDC, FTP och så vidare för interna användare.
+Choose the data source type from the **[!UICONTROL Source]** drop-down, select the update frequency, and click **[!UICONTROL Sync now]** if you need to sync immediately or click **[!UICONTROL Save].** Data source types are SFDC, FTP, and so on for internal users. 
 
-Du kan lägga till flera datakällor.
+You can add multiple data sources. 
 
-### Aktiva fält {#activefields}
+### Active Fields {#activefields}
 
-Med den här funktionen kan administratörer lägga till fler aktiva fält utöver dem som har tillhandahållits under användarregistreringen.
+This feature enables administrators to add more active fields in addition to what has been provided during user registration. 
 
-Klicka på **[!UICONTROL Active Fields]** som är tillgänglig på sidan Användare. Elever kan bara välja mellan de värden som anges i anpassade värden.
+Click **[!UICONTROL Active Fields]** available inside users page. Learners can only choose from the values given in custom values.
 
 ![](assets/active-fields.png)
-*Aktiva fält*
+*Active fields*
 
-### Konfigurera fält {#configurefields}
+### Configure Fields {#configurefields}
 
-**Interna användare**
+**Internal users**
 
-Du kan lägga till anpassade värden för användarfält för interna användare.
+You can add custom value for user fields for internal users.
 
-Följ de här stegen om du vill lägga till anpassade värden:
+To add  custom values, follow these steps:
 
-1. Klicka på **[!UICONTROL Modify Values]** för en intern användare.
+1. Click  **[!UICONTROL Modify Values]** for an Internal user. 
 
    ![](assets/modify-values.png)
-   *Ändra värden för interna användare*
+   *Modify values for internal users*
 
-1. Dialogrutan **Värden i det anpassade fältet** visas.
+1. The **Values in Custom field** dialog box appears.
 
    ![](assets/values-in-customfields.png)
-   *Värden i dialogrutan Anpassade fält*
+   *Values in Custom Fields dialog box*
 
-1. Välj det värde som ska läggas till i listrutan **[!UICONTROL Select Field]**.
-1. Ange nya värden i fältet **[!UICONTROL New Value]**.
-1. Klicka på **[!UICONTROL Done]**.
-1. Klicka på Spara i det övre högra hörnet för att **[!UICONTROL Save]** ändringar.
+1. Select the value to add from the **[!UICONTROL Select Field]** drop-down menu.
+1. Enter new values in the **[!UICONTROL New Value]** field.
+1. Click **[!UICONTROL Done]**. 
+1. Click Save on the top right corner to **[!UICONTROL Save]** changes.
 
-**Externa användare**
+**External users**
 
-Lägg till anpassade värden som liknar dem för interna användare.
+Add custom values similar to that for internal users.
 
 ![](assets/modify-values-forexternalusers.png)
-*Ändra värden för externa användare*
+*Modify values for external users*
 
-### Inställningar {#settings}
+### Settings {#settings}
 
-**Användarvisning**
+**User Display**
 
-Om alternativet **Visa endast ofyllda fält vid elevinloggning** är aktiverat ser användaren bara de tomma fälten vid inloggning.
+If the option **Show only unfilled fields on Learner login** is enabled, a user only sees the blank fields upon login.
 
 ![](assets/settings-tab.png)
-*Visa ofyllda fält*
+*Show unfilled fields*
 
-Med detta alternativ kan administratören avgöra om han/hon vill visa fälten eller dölja dem när de har fyllts i.
+Using this option, an Administrator can decide whether he/she wants to show the fields or hide them once these have been populated.
 
-## Begränsa aktiva fält i rapporter {#restrictactivefields}
+## Restrict Active Fields in reports {#restrictactivefields}
 
-I Learning Manager 27.7 introduceras två nya alternativ - **[!UICONTROL Reportable]** och **[!UICONTROL Exportable]** för aktiva fält.
+Learning Manager 27.7 introduces two new options- **[!UICONTROL Reportable]** and **[!UICONTROL Exportable]**, for Active Fields.
 
 ![](assets/options-in-activefields.png)
-*Alternativ i aktiva fält*
+*Options in Active Fields*
 
-För CSV-fält och manuellt tillagda fält blir det aktiva fältet sökbart i ett filter inuti en kontrollpanelrapport om ett aktivt fält är markerat som **[!UICONTROL Reportable]**.
+For CSV fields and manually added fields, if an Active Field is marked as **[!UICONTROL Reportable]**, the Active Field becomes searchable in a filter inside a dashboard report.
 
 ![](assets/filters-in-a-dashboardreport.png)
-*Filter i en kontrollpanelsrapport*
+*Filters in a dashboard report*
 
-Om ett aktivt fält har markerats som **[!UICONTROL Exportable]** visas det aktiva fältet i Excel-filen när en Excel-rapport hämtas.
+If an Active Field is marked as **[!UICONTROL Exportable]**, then the Active Field appears in the Excel file upon downloading any Excel report.
 
-Dessa alternativ visas både för interna och externa aktiva fält.
+These options appear for both internal and external Active Fields.
 
-Du kan bara ta bort ett anpassat aktivt fält.
+You can only delete a custom Active Field.
 
-## Användarvisning
+## User Display
 
-Du kan dölja hela sidan Slutför din profil för eleverna. Sidan visas inte när eleven loggar in.
+You can hide the entire 'Complete your profile' page from the learners. The page will not pop up once the learner logs in.
 
-Observera att det befintliga standardbeteendet inte ändras. Det här är en valfri funktion som nu är tillgänglig för administratörer.
+Note that the existing default behavior does not change. This is an optional capability now available to Administrators. 
 
-Aktivera alternativen nedan:
+Enable the options below:
 
 ![](assets/user-display.png)
-*Avsnittet Användarvisning*
+*User Display section*
 
-## Stöd för manuella CSV-fält via FTP- och Box-anslutningar {#import-connector}
+## Support for manual CSV fields by FTP and Box connectors {#import-connector}
 
-Användarna vill ofta att aktiva fält ska anges manuellt när en elev loggar in på Learning Manager. Detta är möjligt i Learning Manager för närvarande, när användaren importerar en CSV-fil manuellt.
+Often, users want Active fields to be manually provided when a learner logs in to Learning Manager. This is possible in Learning Manager at present, when the user imports a CSV manually.
 
-CSV-filen får inte innehålla alla aktiva fält. För alla Aktiva fält som inte uppdateras i den överförda CSV-filen måste användaren ange data för sådana Aktiva fält.
+The CSV may not contain all the Active fields. For all the Active fields that are not updated in the uploaded CSV, the user needs to enter the data for such Active fields.
 
-För närvarande måste alla aktiva fält mappas till något fält från CSV-källfilen.
+Presently, all Active fields must be mapped to some field from the source CSV.
 
-Det händer att en användare inte vill mappa ett aktivt fält till ett fält som anges i CSV-filen. I sådana fall kan användaren mappa det aktiva fältet till värdet **[!UICONTROL DontImportFromSource]**. Välj det här värdet i listrutan när du importerar användare från FTP- och Box-anslutningar.
+It so happens that sometimes a user does not want to map an Active field to a field specified in the CSV. In such cases, the user can map the Active field to the value **[!UICONTROL DontImportFromSource]**. Select this value from the drop-down list, when importing users from FTP and Box connectors.
 
-## Anpassade roller {#customroles}
+## Custom Roles {#customroles}
 
-Lägg till valfritt fält som en del av användarinformationen och klicka på **[!UICONTROL Save]**. När du har lagt till fälten kan du också markera tillgängligheten för fälten i dialogrutan **[!UICONTROL Edit users]**.
+Add any field of your choice as part of your user information and click **[!UICONTROL Save]**. After adding the fields, you can also cross check the availabilities of the fields in the **[!UICONTROL Edit users]** dialog. 
 
 
-När du har lagt till fälten kan du se att de fält som är markerade med ett bockmärke kommer från datakällan eller CSV, som nämns i ögonblicksbilden nedan. Administratören kan redigera dessa källfält genom att aktivera eller inaktivera fälten.
+After adding the fields, you can notice that the fields marked with tick mark are sourced from data source or CSV as mentioned in the below snapshot. Administrator can edit these sourced fields by enabling or disabling the fields. 
 
-**Värden för aktiva fält i Learning Manager**
+**Values for active fields in Learning Manager**
 
-Värdena för aktiva fält hämtas på följande sätt:
+The values for active fields are fetched in the following ways: 
 
-1. Programmet Learning Manager importerar metadata från datakällor som är kopplade till ditt konto.
-1. Metadata som samlats in från den manuellt importerade CSV-filen.
-1. Elever fyller i metadata när de loggar in
-1. Administratören anger data för användarna.
+1. Learning Manager application imports metadata from data sources associated with your account. 
+1. Metadata captured from the manually imported CSV file. 
+1. Learners fill up metadata when they log in
+1. Administrator enters data for the users. 
 
 >[!NOTE]
 >
->Learning Manager-programmet skapar användargrupper automatiskt från dessa metadata.
+>Learning Manager application creates user groups automatically, from these metadata. 
 
-**Lägg till anpassat värde**
+**Add custom value**
 
-Du kan lägga till anpassade värden för användarfält i fälten Intern och Extern användare.
+You can add custom value for user fields in the Internal and External user fields.
 
-Följ de här stegen om du vill lägga till anpassade värden:
+To add  custom values, follow these steps:
 
-Anpassade fält kan läggas till och tas bort och de gäller alla användare. CSV-fält kan aktiveras eller inaktiveras, de träder bara i kraft när du överför CSV efter att ha gjort ändringarna i aktiva fält. Alla interna aktiva fält kan användas för alla typer av interna användare. Externa fält är endast tillämpliga på externa användare. Om ett anpassat fält finns i CSV konverteras det automatiskt till ett CSV-fält vid nästa överföring och det aktiveras.
+Custom fields can be added and deleted, they are applicable to all users. CSV fields can be enabled or disabled, they come into effect only when you upload CSV after making the modifications in Active fields. All internal active fields are applicable to all types of Internal users. External fields are applicable only to external users. If a custom field is present in CSV, on next upload it gets converted to a CSV field automatically and it is enabled. 
 
-## Värden för CSV-fält {#valuesforcsvfields}
+## Values for CSV fields {#valuesforcsvfields}
 
-Användare kan bara välja bland fördefinierade fält för CSV-fält om kryssrutan **[!UICONTROL Restrict Selection]** är aktiverad.
+Users can only choose from predefined fields for CSV fields if the **[!UICONTROL Restrict Selection]** check-box is enabled.
 
 ![](assets/value-field-for-csv.png)
-*Begränsa markeringen, kryssruta*
+*Restrict selection check-box*
 
-## Importera loggar {#importlogs}
+## Import Logs {#importlogs}
 
-I det här området kan du visa CSV-importhistoriken för de användare som administratören har lagt till med hjälp av funktionen massimport. Du kan även klicka på **[!UICONTROL Add]** i det övre högra hörnet på sidan för att lägga till användare med funktionen för CSV-överföring.
+In this space, you can view the CSV import history for the users the administrator has added using bulk import feature. You can also click **[!UICONTROL Add]** at the upper-right corner of the page to add users using CSV upload feature. 
 
-## Aktiva fält med flera värden
+## Multi-valued Active Fields
 
-Med den här funktionen kan du ha fler än ett fält för ett aktivt fält. Ett konto kan innehålla högst tre aktiva fält med flera värden. De aktiva fälten med flera värden är tillgängliga för både externa och interna användare.
+With this feature, you can have more than one field for an active field. In an account, there can be at most three multi-valued active fields. The multi-valued active fields are available for both external and internal users.
 
-När du har markerat ett aktivt fält som flervärdesfält kan du inte konvertera tillbaka det till enkelvärdesfält. Detta är oåterkalleligt.
+Once you mark an active field as multi-valued, you cannot convert it back to single valued. This is irreversible.
 
-Ett befintligt fält med ett enskilt värde kan inte markeras som ett fält med flera värden.
+An existing single valued field cannot be marked as multi-valued field.
 
-Skapa ett aktivt fält med flera värden genom att följa stegen nedan:
+To create a multi-valued active field, follow the steps below:
 
-1. Lägg till ett aktivt fält.
+1. Add an active field.
 
-   ![Lägg till ett aktivt fält](assets/add-active-field.png)
-   *Lägg till ett aktivt fält*
+   ![Add an active field](assets/add-active-field.png)
+   *Add an active field*
 
-1. Klicka på Lägg till.
-1. Markera det nya fältet som flervärdesfält på fliken Inställningar.
+1. Click Add.
+1. In the Settings tab, mark the new field as multi-valued.
 
-   ![Markera som flera värden](assets/mark-multi-valued.png)
-   *Markera som flera värden*
+   ![Mark as multi-valued](assets/mark-multi-valued.png)
+   *Mark as multi-valued*
 
-   Det finns en annan kryssruta, **[!UICONTROL Learner Configurable]**, som när den är inaktiverad inte kan se fältet på profilsidan.
+   There is another checkbox, **[!UICONTROL Learner Configurable]**, which when disabled, the learner will not be able to see the field on the Profile page.
 
-1. Lägg till värdena med en CSV-fil eller genom att klicka på Ändra värden.
+1. Add the values using a CSV or by clicking Modify Values.
 
-   ![Lägg till värden](assets/add-values.png)
-   *Lägg till värden*
+   ![Add values](assets/add-values.png)
+   *Add values*
 
-1. Klicka på [!UICONTROL **Klar**].
+1. Click [!UICONTROL **Done**].
 
 >[!NOTE]
 >
->När användargruppen har skapats och fältet har fyllts i kan flera värden inte konverteras till enskilda värden, och vice versa.
+>Once is the user group is created and the field is populated, multi values cannot be converted to single values, and vice versa.
 
-### Lägg till aktivt fält med flera värden via CSV
+### Add multi-valued active field via CSV
 
-Följ stegen nedan:
+Follow the steps below:
 
-1. Skapa en CSV-fil med de nya aktiva fälten som kolumner (kommaavgränsade eller enskilda värden).
-1. Importera CSV-filen.
-1. Markera fälten som flervärdesfält i dialogrutan Värden i anpassade fält.
-1. Importera CSV-filen igen.
+1. Create a CSV with the new active fields as columns (comma-separated or single values).
+1. Import the CSV.
+1. Mark the fields as multi-valued in the Values in Custom Fields dialog.
+1. Import the CSV again.
 
-CSV-filen måste ha en kolumn med samma namn som ett aktivt fält som har markerats som flera värden.
+The CSV must have a column with the same name as that of an active field that was marked as multi-valued.
 
-CSV-filen innehåller fälten:
+The CSV contains the fields:
 
-* **[!UICONTROL User]**: Användargrupper har skapats som roller.
-* **[!UICONTROL Roles]**: Aktivt fält med flera värden och värden.
+* **[!UICONTROL User]**: User groups created as roles.
+* **[!UICONTROL Roles]**: Multi-valued active field with values.
 
-Om CSV-filen överförs med nya värden eller borttagna värden uppdateras även de aktiva fälten och grupperna.
+If the CSV is re-uploaded with new values or deleted values, the active fields and groups also get updated accordingly.
 
-### Rapporter
+### Reports
 
-Alla rapporter innehåller aktiva fält med flera värden och deras värden.
+All reports include the multi-valued active fields and their values.
 
-Administratören kan lägga till automatiskt genererade aktiva fält och konfigurera användaraktivitets- och utbildningsrapporter.
+The Administrator can add auto-generated active fields, and configure user activity and training reports.
 
-Elevens betygsrapport innehåller alla aktiva fält och kommaavgränsade värden. Administratören kan sedan filtrera data på lämpligt sätt.
+The Learner Transcript report contains all the active fields and comma-separated values. The Administrator can then filter the data accordingly.
 
-## Rapport över användargrupp
+## User group report
 
-Adobe Learning Manager nya användargruppsrapport hjälper till att hantera användargrupper genom att tillhandahålla synlighet för grupper som lämnas ohanterade när administratörer lämnar organisationen. Administratörer kan komma åt rapporterna under avsnittet **[!UICONTROL Users]** > **[!UICONTROL User Group]**. Den innehåller detaljerad information om varje grupp, inklusive:
+Adobe Learning Manager's new User Group Report helps manage user groups by providing visibility into groups left unmanaged when admins left. Admins can access the reports under the **[!UICONTROL Users]** > **[!UICONTROL User Group]** section. It provides detailed information about each group, including:
 
-* Typ av användargrupp
-* Gruppnamn
-* Beskrivning
-* Skapad av (namn)
-* Skapad av (e-post)
-* Skapad den (tidszonen UTC)
-* Antal användare
+* User group type
+* Group name
+* Description
+* Created by (Name)
+* Created by (Email)
+* Created on (UTC Timezone)
+* Number of Users
 
-Hämta rapporten genom att följa dessa steg:
+To download the report, follow these steps:
 
-1. Logga in som **[!UICONTROL Admin]**.
-2. Välj **[!UICONTROL Users]** > **[!UICONTROL User Group]**.
-3. Välj **[!UICONTROL Actions]** > **[!UICONTROL Download User Group Report]**.
+1. Log in as an **[!UICONTROL Admin]**.
+2. Select **[!UICONTROL Users]** > **[!UICONTROL User Group]**.
+3. Select **[!UICONTROL Actions]** > **[!UICONTROL Download User Group Report]**.
 
-![](assets/download-user-group-report.png)
-_Hämta rapporten Användargrupp_
+![](assets/download-user-group-report.png) 
+_Download the User Group report_
 
-## Vanliga frågor {#faq}
+## Frequently Asked Questions {#faq}
 
-+++Hur registrerar man användare i Learning Manager?
++++How to register users in Learning Manager?
 
-När du har lagt till en användare och tilldelat användaren en roll kan du registrera användaren genom att utföra stegen nedan:
+After adding a user and assigning a role to the user, you can register the user by performing the steps below:
 
-1. När användaren eller användarna har valts klickar du på **[!UICONTROL Actions]** i det övre högra hörnet och klickar på **[!UICONTROL Register]**.
+1. With the user or users selected, click **[!UICONTROL Actions]** on the upper-right corner, and click **[!UICONTROL Register]**.
 
-1. Klicka på **[!UICONTROL Yes]** i popup-fönstret.
+1. On the pop-up window, click **[!UICONTROL Yes]**.
 
-De valda användarna får ett välkomstmeddelande via e-post. Om eleverna har ett Adobe ID kan de klicka på den här länken. Om de inte har ett Adobe ID kan de klicka på välkomstlänken för att skapa ett Adobe ID och länka det till sitt Learning Manager-konto.
+The selected user(s) receive a Welcome email. If the learners have an existing Adobe ID, they can click this link. If they don't have an existing Adobe ID, they can go ahead and click the Welcome link to create an Adobe ID and link it to their Learning Manager account.
 
-Att klicka på en av dessa länkar i e-postmeddelandet är obligatoriskt för eleverna eftersom det hjälper Learning Manager att verifiera elevens konto.
+Clicking one of these links in the email is mandatory for the learners as it helps Learning Manager to verify the learner's account.
 
 +++
 
-+++Hur redigerar man användardata?
++++How to edit user data?
 
-Följ stegen nedan om du vill redigera en användare:
+To edit a user, follow the steps below:
 
-1. Klicka på användaren som du vill redigera data för i listan med användare.
-1. Klicka på pennikonen som visas nedan.
+1. In the list of users, click the user for who you want to edit the data.
+1. Click the pencil icon, as shown below.
 
 ![](assets/edit-user-data.png)
 
-Uppdatera fälten i dialogrutan **Redigera användare**. Klicka på **[!UICONTROL Save]** för att spara ändringarna.
+In the **Edit User** dialog, update the fields accordingly. To save the changes, click **[!UICONTROL Save]**.
 
 +++
 
-+++Hur pausar och återupptar man en extern användare i Learning Manager?
++++How to pause and resume an external user in Learning Manager?
 
-Välj den användare du vill ta bort i listan över externa användare. Klicka på **[!UICONTROL Actions]** > **[!UICONTROL Pause]** i det övre högra hörnet.
+In the list of External Users, choose the user that you want to delete. On the upper-right corner, click **[!UICONTROL Actions]** > **[!UICONTROL Pause]**.
 
-Mer information finns i [Pausa en extern profil](add-users-user-groups.md#pause).
+For more information, see [Pause an external profile](add-users-user-groups.md#pause).
 
-När du har pausat en profil visas statusen som ***Pausad*** i den externa profilen.
+After you pause a profile, the external profile displays the status as ***Paused***.
 
 +++
 
-+++Hur skickar jag ett välkomstmeddelande till en nyligen skapad extern profil?
++++How to send welcome email to newly created external profile?
 
-När du lägger till en extern användare anger du den externa chefens e-postadress i dialogrutan **[!UICONTROL Add External Registration Profile]**. När du klickar på Spara skickas också ett välkomstmeddelande till den e-postadress du angav. Om du vill skicka välkomstmeddelandet igen klickar du på kuvertikonen enligt nedan:
+When adding an external user, in the **[!UICONTROL Add External Registration Profile]** dialog, enter the email of the external manager. When you click Save, a welcome email also gets sent to the email address that you had specified. If you want to send the welcome mail again, click the envelope icon, as shown below:
 
 ![](assets/send-welcome-mail.png)
 
 +++
 
-+++Hur skapar man anpassade användargrupper?
++++How to create Custom User Groups?
 
-Klicka på **[!UICONTROL Users]** > **[!UICONTROL User Groups]** och klicka sedan på **[!UICONTROL Add]** på sidan Användargrupper. I dialogrutan Lägg till användargrupp lägger du till användarna både enskilt och som ett team.
+Click **[!UICONTROL Users]** > **[!UICONTROL User Groups]** and on the User Groups page, click **[!UICONTROL Add]**. In the Add User Group dialog, add the users both individually and as a team.
 
 ![](assets/custom-user-group.png)
 
 +++
 
-+++Hur inaktiverar jag redan ifyllda aktiva fält?
++++How to disable already filled active fields?
 
-Om du vill att elever bara ska se de aktiva fält som inte har fyllts i av dem följer du stegen nedan:
+If you want learners to only see the active fields that are not filled by them, then follow the steps below:
 
-1. Klicka på **[!UICONTROL Users]** > **[!UICONTROL Active Fields]**.
+1. Click **[!UICONTROL Users]** > **[!UICONTROL Active Fields]**.  
 
-1. Klicka på **[!UICONTROL Settings]** och aktivera alternativet **[!UICONTROL Show only unfilled fields on Learner login]**.
+1. Click **[!UICONTROL Settings]** and enable the option **[!UICONTROL Show only unfilled fields on Learner login]**.
 
-1. Klicka på **[!UICONTROL Save]**.
-
-+++
-
-+++Hur förhindrar jag att elever anger slumpmässiga värden i de aktiva fälten.?
-
-Du kan begränsa urvalet för elever så att de bara kan välja de värden som är fördefinierade och inte ange några slumpmässiga värden. Följ stegen nedan:
-
-1. Klicka på **[!UICONTROL Users]** > **[!UICONTROL Active Fields]**.
-1. Aktivera alternativet **[!UICONTROL Restrict Selection]**.
-1. Klicka på **[!UICONTROL Done]**.
+1. Click **[!UICONTROL Save]**.
 
 +++
 
-+++Hur skiljer jag mellan CSV-aktiva fält och Anpassade aktiva fält?
++++How to prevent learners from entering random values in the active fields.?
 
-Du kan bara aktivera eller inaktivera CSV-aktiva fält, men du kan inte ta bort dem. Du kan däremot inte aktivera eller inaktivera anpassade aktiva fält.
+You can restrict the selection for learners so that they can only select the values that are pre-defined and not enter any random values. Follow the steps below:
+
+1. Click **[!UICONTROL Users]** > **[!UICONTROL Active Fields]**.
+1. Enable the option **[!UICONTROL Restrict Selection]**.
+1. Click **[!UICONTROL Done]**.
 
 +++
+
++++How do I differentiate CSV active fields and Custom Active fields?
+
+You can only enable or disable CSV active fields, but cannot delete them. On the other hand, you cannot enable or disable custom active fields.
+
++++-->
