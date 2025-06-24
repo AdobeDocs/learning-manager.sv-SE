@@ -2,9 +2,9 @@
 title: Flera registreringar i Adobe Learning Manager
 description: En av dina primära uppgifter som kontoadministratör är att skapa olika instanser av VILT-sessioner i olika tidszoner och eventuellt skapa sessioner för specifika användargrupper.
 exl-id: c430545d-b48e-432d-a278-658c9281818f
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: 22cfa30d22a45afd3e0a65d8c088c2dda4d93072
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,7 @@ Förloppet för varje instans kan spåras individuellt och en rapport kan export
 * Flerregistrering är endast tillämpligt när en kurs har flera instanser.
 * När alternativet för flera registreringar är aktiverat och användare registreras i flera instanser skapas nya rader för varje kurs i rapporten Elevens betygsutdrag (en rad för varje instans och varje elev)
 * Om rapporteringsautomatisering har konfigurerats som endast förutser en rad per kurs, måste du göra de nödvändiga justeringarna av rapporteringsautomatiseringen innan du aktiverar funktionen Flerregistrering.
+* Admin API:er stöder inte scenarier med flera registreringar. Kontakta din CSM om du har några krav.
 
 ## Så här aktiverar du Multi-Enrollment
 
