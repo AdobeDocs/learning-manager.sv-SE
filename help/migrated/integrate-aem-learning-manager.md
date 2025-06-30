@@ -4,7 +4,7 @@ title: Integrera Learning Manager med AEM
 description: Learning Manager är ett system för hantering av inlärning med ett inbyggt system för hantering av utbildningsinnehåll. Användarna hanterar sitt utbildningsinnehåll genom att ladda upp det till Learning Manager så att Learning Manager utför versionshantering, allokering till kurser, definierar synligheten för elever , spårar förbrukning och rapporterar tillbaka till administratörer.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: 45e9b9cd291e180a3d29d6635ec81bc362eb3e96
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Installera Learning Manager-innehållspaketet med hjälp av AEM Package Manager:
 
 >[!NOTE]
 >
->Mer information om hur du installerar paket finns i [***Arbeta med paket***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=sv-SE#how-to-work-with-packages).
+>Mer information om hur du installerar paket finns i [***Arbeta med paket***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. Öppna AEM Package Manager när du är AEM-författare.
 1. Klicka på knappen **[!UICONTROL Upload Package]**.
@@ -125,13 +125,15 @@ Skyline är molnversionen av AEM. Du måste först installera Skyline från pake
 
 Stegen för att konfigurera Skyline nämns i [GitHub-rapporten](https://github.com/adobe/captivate-prime-aem-components).
 
-## Katalogwidget
+## Min utbildningswidget
 
-I katalogwidgeten visas utbildning från en specifik katalog eller en uppsättning kataloger till en användare. I avsnittet Egenskaper i sidans egenskaper väljer du Katalog från de listade alternativen.
+Med widgeten **[!UICONTROL My Learning]** kan du visa utbildning från en viss katalog eller en uppsättning kataloger för en användare.
+
+Välj **[!UICONTROL Catalog]** bland alternativen i avsnittet **[!UICONTROL Properties]** i sidegenskaperna.
 
 <!--![](assets/catalog-widget.png)-->
 
-Katalogwidgeten innehåller följande alternativ:
+Katalogalternativen innehåller följande alternativ:
 
 * **[!UICONTROL Catalog ids]:** Kommaavgränsade katalog-ID:n som utbildningen måste visas för.
 * **[!UICONTROL Sort]:** Sorteringsordning för utbildningen. Alternativen är - namn, datum, skapad, datumRegistrerad och så vidare.
