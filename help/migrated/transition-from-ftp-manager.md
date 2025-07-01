@@ -2,7 +2,7 @@
 title: Övergång från FTP-hanteraren i Adobe
 description: Adobe Learning Manager stöder en ny anslutning med AWS Transfer-familjens SFTP-protokoll. Du kan ersätta en FTP-klient med öppen källkod med Adobe FTP Manager.
 exl-id: c5674e61-9e3d-45e5-9f3c-e0aa15ec2dac
-source-git-commit: 566716404c1cff34108e39014e14416d65088a80
+source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%

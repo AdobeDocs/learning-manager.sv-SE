@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation för Adobe Learning Manager
-source-git-commit: 7d2f7fed5ef924ac74559192cd692cb011561e3c
+source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '682'
 ht-degree: 8%
 
 ---
@@ -15,6 +15,7 @@ ht-degree: 8%
 * [Användarhandbok för Learning Manager](user-guide.md)
 * Introduktion {#introduction}
    * [Sammanfattning av nya funktioner maj 2025](/help/migrated/whats-new.md)
+   * [Kommande ändringar i Adobe Learning Manager](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
    * [Sammanfattning av nya funktioner i november 2024](/help/migrated/whats-new-nov-24.md)
    * [Sammanfattning av nya funktioner juli 2024](whats-new-july-2024.md)
    * [Nya funktioner mars 2024](whats-new-march-2024.md)
@@ -93,6 +94,7 @@ ht-degree: 8%
    * [Utbildningsprogram](administrators/feature-summary/learning-programs.md)
    * [Produktterminologi](administrators/feature-summary/product-terminology.md)
 * Integreringsadmin {#integration}
+   * [Användarhandbok för programutvecklare](integration-admin/feature-summary/developer-manual.md)
    * [Migreringshandbok](integration-admin/feature-summary/migration-manual.md)
    * [Anslutningar för Learning Manager](integration-admin/feature-summary/connectors.md)
    * [Icke-inloggade API:er](integration-admin/feature-summary/non-logged-in-apis.md)
@@ -104,7 +106,6 @@ ht-degree: 8%
    * [Integrera Learning Manager med AEM](integrate-aem-learning-manager.md)
    * [Installera Salesforce-paket i Learning Manager](integration-admin/feature-summary/install-salesforce-package.md)
    * [Installera Microsoft Teams-anslutning](integration-admin/feature-summary/install-microsoft-teams-connector.md)
-   * [Användarhandbok för programutvecklare](integration-admin/feature-summary/developer-manual.md)
    * [Learning Manager-app för Salesforce](integration-admin/feature-summary/sfdc-app.md)
    * [Inställningar](integration-admin/feature-summary/settings.md)
    * [Hantera anpassade roller via CSV-filer](integration-admin/feature-summary/configure-role-csv-files.md)

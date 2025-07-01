@@ -4,9 +4,9 @@ jcr-language: en_us
 title: E-postmallar
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Du som är administratör kan enkelt aktivera, inaktivera eller ändra dessa e-p
 1. Klicka på **[!UICONTROL Settings]** för att öppna inställningssidan. Nu kan du anpassa dina e-postmallar.
 1. Om du vill anpassa namnet och e-post-ID som eleverna får e-postmeddelanden från redigerar du **[!UICONTROL Sender Name and Address].**
 
-   Kontakta [***supporten för Adobe***](https://helpx.adobe.com/se/contact/enterprise-support.other.html#learning-manager) om du vill konfigurera eller ändra de här uppgifterna.
+   Kontakta [***supporten för Adobe***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) om du vill konfigurera eller ändra de här uppgifterna.
 
 1. Anpassa din e-postbanderoll från alternativet **[!UICONTROL Email Banner]**. Ändra färg på banderollen genom att välja **[!UICONTROL Banner Background]**.
 
@@ -99,6 +99,24 @@ Du som är administratör kan enkelt aktivera, inaktivera eller ändra dessa e-p
    *Anpassa konto-URL:en*
 
 1. Konfigurera om chefer också måste ta emot e-postmeddelanden som skickas till deras direktrapporter med kryssrutan under alternativet **[!UICONTROL Optional Manager Email]**.
+
+## Aktivera eller inaktivera e-post på rollnivå
+
+Administratören kan aktivera eller inaktivera e-postmallar baserat på mottagarens roll, t.ex. elev, chef eller instruktör. Detta ger administratörerna mer kontroll över vilka meddelanden som skickas och hjälper dem att hantera typ och frekvens av kommunikation.
+
+Så här aktiverar eller inaktiverar du e-postmallar:
+
+1. Logga in på Adobe Learning Manager som administratör.
+2. Välj **[!UICONTROL Email Templates]** i den vänstra rutan.
+3. Om du vill massaktivera eller inaktivera e-postmallar för en viss roll markerar du ellipsen (...) i kolumnrubriken och aktiverar alla tillämpliga roller i **[!UICONTROL Email Recipients]**.
+
+   ![](assets/email-template-role.png)
+   _Skicka alla e-postmallar på rollnivå_
+
+4. Om du vill aktivera eller inaktivera en specifik e-postmall för en roll markerar du ellipsen (...) för mallen och markerar eller avmarkerar en roll.
+
+   ![](assets/email-template-role-1.png)
+   _Skicka en e-postmall på rollnivå_
 
 ## Ange frekvens för sammanfattningsmeddelanden {#setfrequencyofdigestemails}
 
@@ -160,7 +178,7 @@ Du kan ladda ned rapporten för e-poståtkomst genom att klicka på knappen **[!
 
 ## Anpassa e-postdomän {#customizeemaildomain}
 
-Om du vill anpassa e-postdomänen och e-post-ID som dina elever får meddelanden från kontaktar du [***Learning Manager-supporten***](https://helpx.adobe.com/se/contact/enterprise-support.other.html#learning-manager) och anger detaljerna för domänen du vill lägga till och ditt nya e-post-ID.
+Om du vill anpassa e-postdomänen och e-post-ID som dina elever får meddelanden från kontaktar du [***Learning Manager-supporten***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) och anger detaljerna för domänen du vill lägga till och ditt nya e-post-ID.
 
 Din begäran bearbetas och ett e-postmeddelande med en bekräftelselänk skickas till dig på den nya e-postadressen som du anger. Klicka på verifieringslänken i e-postmeddelandet för att bekräfta och slutföra verifieringsprocessen.
 
@@ -257,6 +275,6 @@ Om du vill stänga av e-postmallen markerar du mallen som ska inaktiveras och kl
 
 +++Hur ändrar jag avsändarens namn och adress i mallen?
 
-Om du vill ändra avsändarens namn och e-postadress kontaktar du [Adobe Learning Manager support](https://helpx.adobe.com/se/contact/enterprise-support.other.html#learning-manager).
+Om du vill ändra avsändarens namn och e-postadress kontaktar du [Adobe Learning Manager support](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
 
 +++

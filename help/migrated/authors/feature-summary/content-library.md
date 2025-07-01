@@ -3,9 +3,9 @@ description: Lär dig skapa innehåll som följer kurser i din egen takt.
 jcr-language: en_us
 title: Innehållsbibliotek
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
 workflow-type: tm+mt
-source-wordcount: '4195'
+source-wordcount: '4412'
 ht-degree: 0%
 
 ---
@@ -595,6 +595,36 @@ Innehållet visas nu i listan Publicerat.
 ## Uppdatera innehållet
 
 Författare kan uppdatera innehållet i den publicerade kursen. Det hjälper elever att få den senaste versionen av innehållet. Mer information finns i [bloggen](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/).
+
+### Kontroll av innehållsversion för elever som har slutfört en kurs
+
+Adobe Learning Manager ger tydligare versionskontrollalternativ för författare när de uppdaterar innehåll. Författare kommer nu att se tre väldefinierade alternativ under en uppdatering av innehållsversionen:
+
+| Elevens tillstånd | Uppdatera nu | Uppdatera så småningom | Uppdateringen har inte startats |
+|---|---|---|---|
+| Inte registrerad | V2 | V2 | V2 |
+| Ännu inte påbörjad | V2 | V2 | V2 |
+| Pågår | V2 * | V1 → V2 * | V1 |
+| Slutfört | V2 * | V2 * | V1 (bevarad) |
+
+(*) Anger att modulen kommer att återställas vid versionsuppdatering.
+
+Om **[!UICONTROL Update Not Started]** kommer den slutförda eleven att fortsätta att se den befintliga innehållsversionen (V1), vilket löser problemet med oväntade vita skärmar.
+
+* **[!UICONTROL Update Now]**: Tillämpa innehållsuppdatering för alla elever (Inte påbörjat, Pågående och Slutförda elever flyttas till en ny innehållsversion nu)
+* **[!UICONTROL Update Eventually]**: Tillämpa innehållsuppdatering för alla elever så småningom (Inte påbörjat, slutförda elever skulle flytta till den nya innehållsversionen nu; pågående elever skulle flytta efter slutförande)
+* **[!UICONTROL Update Not started]**: Tillämpa endast innehållsuppdatering för elever som inte har startats (pågående och slutförda elever finns kvar i den befintliga innehållsversionen)
+
+#### Ändringar i användargränssnittet
+
+| Gammal etikett | Nytt alternativ |
+|---|---|
+| Tillämpa innehållsuppdatering för alla elever | Uppdatera alla elever nu:Tillämpa innehållsuppdatering för alla elever |
+| Tillämpa uppdatering på elever ännu i början | Uppdatera endast elever som inte har startat: Tillämpa endast innehållsuppdatering för elever som inte har startat |
+| Pågående elever får uppdatering efter slutförande | Uppdatera alla elever så småningom: Uppdatera innehållet för alla elever så småningom |
+
+![](assets/version-control-options.png)
+
 
 ## Ta bort innehåll {#deletecontent}
 
