@@ -1,13 +1,13 @@
 ---
 title: Kommande ändringar i Adobe Learning Manager
 description: Läs om de nya funktionerna, förbättringarna och viktiga uppdateringarna som snart kommer till Adobe Learning Manager. Håll dig informerad om vad som ändras så att du kan planera framåt och få ut mesta möjliga av de senaste förbättringarna.
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
+source-git-commit: 63462eb272fe90d58c89f2be383fc103db6d4ece
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
-
 
 # Kommande ändringar i Adobe Learning Manager
 
@@ -15,7 +15,7 @@ Vi är glada över att kunna dela flera viktiga uppdateringar som kommer till Ad
 
 Dessa ändringar är utformade för att minska manuell ansträngning, stödja automatisering och förbättra styrningen i alla utbildningsverksamheter.
 
-## Slutföranden med instruktioner för hämtning i elevens betygsutdrag (M44)
+## Slutföranden som markerats med Capture-instruktör i elevens betygsutdrag
 
 ### Målgrupp
 
@@ -45,7 +45,7 @@ Närvarotillstånd som &quot;Närvarat och godkänd/ej godkänd&quot; visas auto
 * Om du använder kolumnnamn behövs inga ändringar.
 * Eftermonterade färdigställningar (manuella importer) ingår inte.
 
-## Hämtningslänkar i rapporten Arbetsstöd (M44)
+## Hämtningslänkar i rapporten Arbetsstöd
 
 ### Målgrupp
 
@@ -69,7 +69,7 @@ Användare med åtkomst (administratör/författare och anpassade roller) kan h�
 * Om skriptet baseras på kolumnplaceringen uppdaterar du skripten.
 * Ingen åtgärd krävs om du använder kolumnnamn.
 
-## Interna kolumner för användar-ID och e-post för chef har lagts till i användarrapporten (M44)
+## Kolumner för internt användar-ID och e-post för chef har lagts till i användarrapporten
 
 ### Målgrupp
 
@@ -88,7 +88,7 @@ Användarrapporten innehåller ett användares interna användar-ID och chefens 
 * Om du använder den här rapporten i automatiserade flöden bör den här nyligen tillagda kolumnen hanteras i automatisering.
 * Inga ändringar behövs om arbetsflöden inte påverkas.
 
-## Omfattade behörigheter för meddelanden för anpassade administratörer (M44)
+## Omfattade behörigheter för meddelanden för anpassade administratörer
 
 ### Målgrupp
 
