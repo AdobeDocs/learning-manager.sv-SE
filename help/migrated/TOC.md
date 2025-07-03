@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation för Adobe Learning Manager
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+source-git-commit: ec35261d69beccaa72143c8da1b1f8623654b7eb
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '684'
 ht-degree: 8%
 
 ---
@@ -23,7 +23,6 @@ ht-degree: 8%
    * [Nya funktioner juli 2023](whats-new-2023-july.md)
    * [Versionsinformation](release-note/release-notes.md)
    * [Systemkrav](system-requirements.md)
-   * [ALM-referenspaket för AEM Sites](adobe-learning-manager-integration-aem.md)
    * [Adobe Learning Manager-app för Microsoft Teams](adobe-learning-manager-app-microsoft-teams.md)
    * [Learning Manager-kompatibilitet till GDPR](kb/prime-gdpr.md)
    * [Tillgänglighet i Learning Manager](accessibility-learning-manager.md)
@@ -103,7 +102,9 @@ ht-degree: 8%
       * [Användarhandbok för webhookar](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)
    * [Credly](integration-admin/feature-summary/credly-integration.md)
    * [Interoperabilitet för utbildningsverktyg](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
-   * [Integrera Learning Manager med AEM](integrate-aem-learning-manager.md)
+   * AEM Sites {#aem-sites}
+      * [ALM-referenspaket för AEM Sites](/help/migrated/adobe-learning-manager-integration-aem.md)
+      * [Integrera Learning Manager med AEM](integrate-aem-learning-manager.md)
    * [Installera Salesforce-paket i Learning Manager](integration-admin/feature-summary/install-salesforce-package.md)
    * [Installera Microsoft Teams-anslutning](integration-admin/feature-summary/install-microsoft-teams-connector.md)
    * [Learning Manager-app för Salesforce](integration-admin/feature-summary/sfdc-app.md)

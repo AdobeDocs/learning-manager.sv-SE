@@ -4,9 +4,9 @@ title: Adobe Learning Manager referenspaket för AEM Sites (ALM-referenswebbplat
 description: Adobe Learning Manager (ALM) integreras med Adobe Experience Manager-webbplatser (AEM). Det gör att du kan skapa en egen webbplats och responsiva mobilgränssnitt för Adobe Learning Manager med minimal kodning. Med denna integrering kan du skapa anpassade utbildningsupplevelser för dina användare.
 contentowner: saghosh
 exl-id: 937dfbd1-74a1-4a86-a9b2-29a44be267c6
-source-git-commit: 998978a5ba74377ef91b6a623367206643476ecc
+source-git-commit: ec35261d69beccaa72143c8da1b1f8623654b7eb
 workflow-type: tm+mt
-source-wordcount: '2126'
+source-wordcount: '2187'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,13 @@ Paketet innehåller webbsidesmallar och webbplatskomponenter från AEM Sites til
 
 När du har installerat ALM-referenspaketet kan du börja skapa en webbplats för Adobe Learning Manager som du kan vara värd för på din AEM Sites-instans. Användarna kan sedan dra och släppa komponenterna på webbplatsen.
 
-Installera ALM-referensplatspaket
+>[!IMPORTANT]
+>
+>ALM-paket (Adobe Learning Manager) för AEM Sites är ett snabbstartskodblock för implementering. Detta paket är utformat för fjärradministrerad driftsättning. När du har använt den tillhandahållna kodbasen ansvarar du för underhållet och utvecklingen av den, som är standard för fjärradministrerade program baserade på Adobe Learning Manager. Det underliggande API:t fortsätter att stödjas av Adobe Learning Manager.
 
-## Krav
+## Installera ALM-referensplatspaket
+
+### Krav
 
 * Licenser för AEM Sites och Adobe Commerce.
 * AEM On-premise 6.5 eller Adobe Experience Manager - Cloud Service
