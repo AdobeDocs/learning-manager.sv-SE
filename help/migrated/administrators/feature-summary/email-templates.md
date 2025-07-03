@@ -4,9 +4,9 @@ jcr-language: en_us
 title: E-postmallar
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+source-git-commit: 67e1a5f7140f9fe268059368918ccf6da6f16c4d
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1451'
 ht-degree: 0%
 
 ---
@@ -41,21 +41,23 @@ Du som är administratör kan enkelt aktivera, inaktivera eller ändra dessa e-p
 
    *Välj fliken Allmänt*
 
-1. Klicka på en flik för att se listan över e-postmallar.
+2. Om du vill massaktivera eller inaktivera e-postmallar för en viss roll markerar du ellipsen (...) i kolumnrubriken och aktiverar alla tillämpliga roller i **[!UICONTROL Email Recipients]**.
 
-   ![](assets/email-templates-ingeneraltab.png)
+   ![](assets/email-template-role.png)
+   _Skicka alla e-postmallar på rollnivå_
 
-   *Visa listan över e-postmallar*
+3. Om du vill aktivera eller inaktivera en specifik e-postmall för en roll markerar du ellipsen (...) för mallen och markerar eller avmarkerar en roll.
 
-   Du kan enkelt aktivera eller inaktivera någon av dessa e-postaviseringar genom att klicka på växlingsknappen.
+   ![](assets/email-template-role-1.png)
+   _Skicka en e-postmall på rollnivå_
 
-1. Om du vill ändra innehållet i mallen klickar du på mallnamnet. Här kan du se att du har olika mallar för olika typer av användare.
+4. Om du vill ändra innehållet i mallen klickar du på mallnamnet. Här kan du se att du har olika mallar för olika typer av användare.
 
    ![](assets/preview-of-an-emailtemplate.png)
 
    *Visa mallen för ett e-postmeddelande*
 
-1. Om du vill ändra innehållet i den här e-postmallen klickar du på e-postmeddelandets brödtext. Gör nu ändringarna i mallen. Du kan ändra texten och du kan också använda en av de här variablerna i ditt e-postmeddelande. Ändringarna i brödtextavsnittet kan bara tillämpas på den här e-postmallen. Men om du ändrar signaturen för det här e-postmeddelandet kan det tillämpas globalt på alla mallar.
+5. Om du vill ändra innehållet i den här e-postmallen klickar du på e-postmeddelandets brödtext. Gör nu ändringarna i mallen. Du kan ändra texten och du kan också använda en av de här variablerna i ditt e-postmeddelande. Ändringarna i brödtextavsnittet kan bara tillämpas på den här e-postmallen. Men om du ändrar signaturen för det här e-postmeddelandet kan det tillämpas globalt på alla mallar.
 
    Håll muspekaren över varje ikon för att visa namnen.
 
@@ -65,14 +67,14 @@ Du som är administratör kan enkelt aktivera, inaktivera eller ändra dessa e-p
 
    Du kan återställa meddelandets brödtext till standardinnehållet genom att klicka på länken **[!UICONTROL Revert to Original]** ovanför mallen.
 
-1. Bekräfta ändringarna som har tillämpats på mallen genom att klicka på Spara. Nu kan användarna få e-postmeddelanden med den ändrade e-postmallen.
+6. Bekräfta ändringarna som har tillämpats på mallen genom att klicka på Spara. Nu kan användarna få e-postmeddelanden med den ändrade e-postmallen.
 
 ## Anpassa inställningar för en e-postmall {#customizesettingsofanemailtemplate}
 
 1. Klicka på **[!UICONTROL Settings]** för att öppna inställningssidan. Nu kan du anpassa dina e-postmallar.
 1. Om du vill anpassa namnet och e-post-ID som eleverna får e-postmeddelanden från redigerar du **[!UICONTROL Sender Name and Address].**
 
-   Kontakta [***supporten för Adobe***](https://helpx.adobe.com/se/contact/enterprise-support.other.html#learning-manager) om du vill konfigurera eller ändra de här uppgifterna.
+   Kontakta [***supporten för Adobe***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) om du vill konfigurera eller ändra de här uppgifterna.
 
 1. Anpassa din e-postbanderoll från alternativet **[!UICONTROL Email Banner]**. Ändra färg på banderollen genom att välja **[!UICONTROL Banner Background]**.
 
@@ -100,29 +102,12 @@ Du som är administratör kan enkelt aktivera, inaktivera eller ändra dessa e-p
 
 1. Konfigurera om chefer också måste ta emot e-postmeddelanden som skickas till deras direktrapporter med kryssrutan under alternativet **[!UICONTROL Optional Manager Email]**.
 
-## Aktivera eller inaktivera e-post på rollnivå
-
-Administratören kan aktivera eller inaktivera e-postmallar baserat på mottagarens roll, t.ex. elev, chef eller instruktör. Detta ger administratörerna mer kontroll över vilka meddelanden som skickas och hjälper dem att hantera typ och frekvens av kommunikation.
-
-Så här aktiverar eller inaktiverar du e-postmallar:
-
-1. Logga in på Adobe Learning Manager som administratör.
-2. Välj **[!UICONTROL Email Templates]** i den vänstra rutan.
-3. Om du vill massaktivera eller inaktivera e-postmallar för en viss roll markerar du ellipsen (...) i kolumnrubriken och aktiverar alla tillämpliga roller i **[!UICONTROL Email Recipients]**.
-
-   ![](assets/email-template-role.png)
-   _Skicka alla e-postmallar på rollnivå_
-
-4. Om du vill aktivera eller inaktivera en specifik e-postmall för en roll markerar du ellipsen (...) för mallen och markerar eller avmarkerar en roll.
-
-   ![](assets/email-template-role-1.png)
-   _Skicka en e-postmall på rollnivå_
 
 ## Ange frekvens för sammanfattningsmeddelanden {#setfrequencyofdigestemails}
 
 På sidan **[!UICONTROL Email templates]** > **[!UICONTROL Settings]** kan administratören ändra frekvensen för sammanfattningsmeddelanden som skickas till elever.
 
-Klicka på **[!UICONTROL Edit]** i avsnittet **[!UICONTROL Digest Email Settings]**.
+Klicka på **[!UICONTROL Digest Email Settings]** i avsnittet **[!UICONTROL Edit]**.
 
 Välj **[!UICONTROL Biweekly]** eller **[!UICONTROL Monthly]** i listrutan.
 
@@ -178,7 +163,7 @@ Du kan ladda ned rapporten för e-poståtkomst genom att klicka på knappen **[!
 
 ## Anpassa e-postdomän {#customizeemaildomain}
 
-Om du vill anpassa e-postdomänen och e-post-ID som dina elever får meddelanden från kontaktar du [***Learning Manager-supporten***](https://helpx.adobe.com/se/contact/enterprise-support.other.html#learning-manager) och anger detaljerna för domänen du vill lägga till och ditt nya e-post-ID.
+Om du vill anpassa e-postdomänen och e-post-ID som dina elever får meddelanden från kontaktar du [***Learning Manager-supporten***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) och anger detaljerna för domänen du vill lägga till och ditt nya e-post-ID.
 
 Din begäran bearbetas och ett e-postmeddelande med en bekräftelselänk skickas till dig på den nya e-postadressen som du anger. Klicka på verifieringslänken i e-postmeddelandet för att bekräfta och slutföra verifieringsprocessen.
 
@@ -275,6 +260,6 @@ Om du vill stänga av e-postmallen markerar du mallen som ska inaktiveras och kl
 
 +++Hur ändrar jag avsändarens namn och adress i mallen?
 
-Om du vill ändra avsändarens namn och e-postadress kontaktar du [Adobe Learning Manager support](https://helpx.adobe.com/se/contact/enterprise-support.other.html#learning-manager).
+Om du vill ändra avsändarens namn och e-postadress kontaktar du [Adobe Learning Manager support](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
 
 +++

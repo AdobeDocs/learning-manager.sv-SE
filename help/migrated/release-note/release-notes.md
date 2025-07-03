@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Versionsinformation om Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+source-git-commit: 67e1a5f7140f9fe268059368918ccf6da6f16c4d
 workflow-type: tm+mt
-source-wordcount: '26976'
+source-wordcount: '27090'
 ht-degree: 0%
 
 ---
@@ -56,20 +56,19 @@ Mer information finns i den här [artikeln](/help/migrated/administrators/featur
 
 ### Översikt
 
-När innehållsmodulen för en slutförd kurs uppdaterades till en nyare version stötte eleverna på en vit skärm. Problemet uppstod även när författaren valde att endast tillämpa det nya innehållet på elever som ännu inte hade påbörjat kursen. Problemet påverkade användarupplevelsen och ledde till förvirring bland tidigare elever som försökte återkomma till kursen, eftersom de stötte på uppspelningsproblem.
+När innehållsmodulen för en slutförd kurs uppdaterades till en nyare version fick elever som redan hade slutfört kursen fortfarande den uppdaterade modulversionen i bakgrunden. Detta orsakade ett oväntat beteende när de försökte gå tillbaka till kursen, eftersom det uppdaterade innehållet inte var avsett för dem.
 
 ### Befintligt beteende
 
-När författarna uppdaterade kursinnehållet till en ny version (V2) och endast tillämpade den på elever som &quot;ännu inte börjat&quot; uppdaterade Adobe Learning Manager modulversionen för slutförda elever i bakgrunden och dessa elever upplevde en vit skärm när de försökte få åtkomst till innehållet igen, eftersom den uppdaterade modulen inte längre var giltig för dem.
+När författare har uppdaterat kursinnehållet till en ny version och valt att endast tillämpa det på elever som ännu inte har påbörjat kursen, har Adobe Learning Manager fortfarande uppdaterat modulversionen för elever som redan har slutfört den. Därför kunde dessa elever inte komma åt det ursprungliga innehållet som förväntat.
 
-### Exempel:
-
-* En slutförd elev försökte gå tillbaka till kursen efter uppdateringen och såg en vit skärm.
-* En pågående elev slutförde kursen men stötte senare på en vit skärm efter att innehållsversionen hade uppdaterats tyst.
+Denna förbättring säkerställer att elever som redan har slutfört kursen, när en kursmodul uppdateras och endast är inställd på elever som ännu inte har börjat, får oavbruten tillgång till originalversionen.
 
 ### Vad har förändrats
 
-I Adobe Learning Manager introduceras tydligare alternativ för versionskontroll för författare när de uppdaterar innehåll. Författare kommer nu att se tre väldefinierade alternativ under en uppdatering av innehållsversionen:
+Adobe Learning Manager ger nu skaparna tydligare alternativ för att hantera innehållsuppdateringar. Författare kan uppdatera innehåll som redan finns i en kurs. När en ny version läggs till visas versionsnumret bredvid innehållet.
+
+När en administratör besöker en kurs med uppdaterat innehåll ser hen en uppdateringsknapp bredvid den nya versionen. Administratörerna ser även tydliga uppdateringsalternativ för att välja hur den nya innehållsversionen ska tillämpas på elever.
 
 | Elevens tillstånd | Uppdatera nu | Uppdatera så småningom | Uppdateringen har inte startats |
 |---|---|---|---|
@@ -78,13 +77,17 @@ I Adobe Learning Manager introduceras tydligare alternativ för versionskontroll
 | Pågår | V2 * | V1 → V2 * | V1 |
 | Slutfört | V2 * | V2 * | V1 (bevarad) |
 
-(*) Anger att modulen kommer att återställas vid versionsuppdatering.
+(*) Anger att modulen kommer att återställas när versionen uppdateras.
 
-Om **[!UICONTROL Update Not Started]** kommer den slutförda eleven att fortsätta att se den befintliga innehållsversionen (V1), vilket löser problemet med oväntade vita skärmar.
+Med Uppdateringen inte påbörjad fortsätter elever som redan har slutfört kursen att se den ursprungliga innehållsversionen (V1). Det förebygger oväntade uppspelningsproblem och ger en konsekvent upplevelse för elever som gör om genomförda kurser.
 
-* **[!UICONTROL Update Now]**: Tillämpa innehållsuppdatering för alla elever (Inte påbörjat, Pågående och Slutförda elever flyttas till en ny innehållsversion nu)
-* **[!UICONTROL Update Eventually]**: Tillämpa innehållsuppdatering för alla elever så småningom (Inte påbörjat, slutförda elever skulle flytta till den nya innehållsversionen nu; pågående elever skulle flytta efter slutförande)
-* **[!UICONTROL Update Not started]**: Tillämpa endast innehållsuppdatering för elever som inte har startats (pågående och slutförda elever finns kvar i den befintliga innehållsversionen)
+### Alternativ för innehållsuppdatering
+
+När en administratör klickar på **[!UICONTROL Update]** kan hen välja mellan följande alternativ:
+
+* **[!UICONTROL Update all Learners now]**: Tillämpa innehållsuppdateringen omedelbart för alla elever. Inte påbörjat, Pågående och Slutförda elever flyttas direkt till den nya versionen.
+* **[!UICONTROL Update all Learners eventually]**: Tillämpa uppdateringen för alla elever i faser. Elever som inte har startat och slutfört får den nya versionen nu. Pågående elever får uppdateringen efter att de har slutfört den aktuella versionen.
+* **[!UICONTROL Update only not started Learners]**: Tillämpa uppdateringen endast på elever som ännu inte har påbörjat kursen. Pågående och slutförda elever behåller den ursprungliga versionen.
 
 ### Ändringar i användargränssnittet
 
@@ -94,9 +97,14 @@ Om **[!UICONTROL Update Not Started]** kommer den slutförda eleven att fortsät
 | Tillämpa uppdatering på elever ännu i början | Uppdatera endast elever som inte har startat: Tillämpa endast innehållsuppdatering för elever som inte har startat |
 | Pågående elever får uppdatering efter slutförande | Uppdatera alla elever så småningom: Uppdatera innehållet för alla elever så småningom |
 
-![](assets/version-control-options.png)
+<!--![](assets/version-control-options.png)
+_Content update options_-->
 
 Mer information om innehållsbiblioteket finns i den här [artikeln](/help/migrated/authors/feature-summary/content-library.md#content-version-control-for-learners-who-have-completed-a-course).
+
+## Fel som har åtgärdats i den här versionen
+
+* Ett problem har korrigerats där elever som hade slutfört en kurs såg en vit skärm när de gjorde ett nytt besök efter att innehållsmodulen hade uppdaterats till en ny version.
 
 +++
 
@@ -1575,7 +1583,7 @@ I den här uppdateringen kan en elev ladda upp tillgångar som bevis på slutfö
 
 En elev kan öppna ett externt certifikat och överföra mediefiler som pdf, text eller bildfiler.
 
-Mer information finns i [***Överför resurser i det externa certifikatet***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Mer information finns i [***Överför resurser i det externa certifikatet***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problem som har åtgärdats i den här versionen {#issuesfixedinthisrelease}
 
@@ -1953,7 +1961,7 @@ Utgivningsdatum: 20 juni 2019
 
 **Automatiskt urval av innehåll**
 
-Med social utbildning kan innehåll som publiceras av elever kurateras på två sätt, nämligen - **Inget kurateringsverktyg** och **Manuell kuratering**. I den här versionen förbättrar Adobe Learning Manager social utbildning genom att tillhandahålla AI-aktiverade funktioner för automatisk kurering. När innehållet har publicerats analyseras det för att identifiera om det tillhör den kompetens som det har publicerats för. Baserat på konfidenspoängen antingen läggs innehållet upp live eller skickas för manuell kuratering. Mer information finns i *[**&#x200B; Automatisk kuratering &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+Med social utbildning kan innehåll som publiceras av elever kurateras på två sätt, nämligen - **Inget kurateringsverktyg** och **Manuell kuratering**. I den här versionen förbättrar Adobe Learning Manager social utbildning genom att tillhandahålla AI-aktiverade funktioner för automatisk kurering. När innehållet har publicerats analyseras det för att identifiera om det tillhör den kompetens som det har publicerats för. Baserat på konfidenspoängen antingen läggs innehållet upp live eller skickas för manuell kuratering. Mer information finns i *[** Automatisk kuratering **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mappa kompetens med kompetensdomäner**
 
@@ -2577,7 +2585,7 @@ Utgivningsdatum: 6 december 2016.
 
 ### Förbättring {#enhancement}
 
-Som en del av den här uppdateringen tillhandahåller Learning Manager slutpunkten [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>ManagerAPI/v1/#!/user/patch_users_id) för att uppdatera användare i ett program. Du kan komma åt den här API-slutpunkten i administratörsrollen. Med **&#x200B;**&#x200B;här slutpunkten kan du uppdatera följande information om Learning Manager-användare:
+Som en del av den här uppdateringen tillhandahåller Learning Manager slutpunkten [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>ManagerAPI/v1/#!/user/patch_users_id) för att uppdatera användare i ett program. Du kan komma åt den här API-slutpunkten i administratörsrollen. Med **** här slutpunkten kan du uppdatera följande information om Learning Manager-användare:
 
 * Namn
 * E-post
@@ -3087,7 +3095,7 @@ Export av registreringsdata misslyckas om en av de registrerade eleverna tas bor
 
 **E-postmallar**
 
-* Ordet **partners,** som användes för att representera externa grupper,**&#x200B;** tas bort **&#x200B;**&#x200B;från brödtext och titel för e-postmallar. Externa grupper kallas inte nödvändigtvis partner.\
+* Ordet **partners,** som användes för att representera externa grupper,**** tas bort **** från brödtext och titel för e-postmallar. Externa grupper kallas inte nödvändigtvis partner.\
   **Obs!** Den uppdaterade mallen visas inte om standardmallen redan har ändrats. Om du vill visa den uppdaterade mallen klickar du på **Återgå till original** i dialogrutan **Mallförhandsvisning**.
 
 * Det går inte att klicka på URL:en i e-postmeddelandet som mottas av administratörer när **Profilen har skapats (självregistrering)** och **Profilen har skapats (externa/partners)** e-postmallar har redigerats. Problemet har åtgärdats.

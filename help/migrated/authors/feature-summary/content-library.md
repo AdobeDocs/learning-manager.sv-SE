@@ -3,9 +3,9 @@ description: Lär dig skapa innehåll som följer kurser i din egen takt.
 jcr-language: en_us
 title: Innehållsbibliotek
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+source-git-commit: 8780f8bf0c56d27c1acdaff018544ecc0c21ea23
 workflow-type: tm+mt
-source-wordcount: '4412'
+source-wordcount: '4479'
 ht-degree: 0%
 
 ---
@@ -150,7 +150,7 @@ Författare kan lägga till HTML5-innehåll som en .zip-fil i innehåll de själ
 Följ de här stegen om du vill lägga till HTML-filtypen (.zip) i innehållsbiblioteket.
 
 1. I skaparappen väljer du **[!UICONTROL Create Content]** på startsidan.
-1. Välj **[!UICONTROL Add]** > **[!UICONTROL Content]** på skärmen **[!UICONTROL Content Library]**.
+1. Välj **[!UICONTROL Content Library]** > **[!UICONTROL Add]** på skärmen **[!UICONTROL Content]**.
 1. Ange innehållets namn och beskrivning.
 1. Markera alternativet **[!UICONTROL Add Content File]** och bläddra sedan och markera HTML-filerna (packas som en mapp).
 1. När innehållet har lagts till kan du visa innehållet i avsnittet **[!UICONTROL Content Library]**.
@@ -594,11 +594,23 @@ Innehållet visas nu i listan Publicerat.
 
 ## Uppdatera innehållet
 
-Författare kan uppdatera innehållet i den publicerade kursen. Det hjälper elever att få den senaste versionen av innehållet. Mer information finns i [bloggen](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/).
+Författare kan uppdatera innehållet i den publicerade kursen.
+Så här uppdaterar du innehållet:
+
+1. Logga in som författare.
+2. Välj **[!UICONTROL Content Library]**.
+3. Sök efter innehållet och välj **[!UICONTROL Edit]**.
+4. Ta bort äldre innehåll och ladda upp en ny fil och publicera.
+
+Det hjälper elever att få den senaste versionen av innehållet.
+
+Mer information finns i [bloggen](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/).
 
 ### Kontroll av innehållsversion för elever som har slutfört en kurs
 
-Adobe Learning Manager ger tydligare versionskontrollalternativ för författare när de uppdaterar innehåll. Författare kommer nu att se tre väldefinierade alternativ under en uppdatering av innehållsversionen:
+Adobe Learning Manager ger nu skaparna tydligare alternativ för att hantera innehållsuppdateringar. Författare kan uppdatera innehåll som redan finns i en kurs. När en ny version läggs till visas versionsnumret bredvid innehållet.
+
+När en administratör besöker en kurs med uppdaterat innehåll ser hen en uppdateringsknapp bredvid den nya versionen. Administratörerna ser även tydliga uppdateringsalternativ för att välja hur den nya innehållsversionen ska tillämpas på elever.
 
 | Elevens tillstånd | Uppdatera nu | Uppdatera så småningom | Uppdateringen har inte startats |
 |---|---|---|---|
@@ -607,23 +619,20 @@ Adobe Learning Manager ger tydligare versionskontrollalternativ för författare
 | Pågår | V2 * | V1 → V2 * | V1 |
 | Slutfört | V2 * | V2 * | V1 (bevarad) |
 
-(*) Anger att modulen kommer att återställas vid versionsuppdatering.
+(*) Anger att modulen kommer att återställas när versionen uppdateras.
 
-Om **[!UICONTROL Update Not Started]** kommer den slutförda eleven att fortsätta att se den befintliga innehållsversionen (V1), vilket löser problemet med oväntade vita skärmar.
+Med Uppdateringen inte påbörjad fortsätter elever som redan har slutfört kursen att se den ursprungliga innehållsversionen (V1). Det förebygger oväntade uppspelningsproblem och ger en konsekvent upplevelse för elever som gör om genomförda kurser.
 
-* **[!UICONTROL Update Now]**: Tillämpa innehållsuppdatering för alla elever (Inte påbörjat, Pågående och Slutförda elever flyttas till en ny innehållsversion nu)
-* **[!UICONTROL Update Eventually]**: Tillämpa innehållsuppdatering för alla elever så småningom (Inte påbörjat, slutförda elever skulle flytta till den nya innehållsversionen nu; pågående elever skulle flytta efter slutförande)
-* **[!UICONTROL Update Not started]**: Tillämpa endast innehållsuppdatering för elever som inte har startats (pågående och slutförda elever finns kvar i den befintliga innehållsversionen)
+### Alternativ för innehållsuppdatering
 
-#### Ändringar i användargränssnittet
+När en administratör klickar på **[!UICONTROL Update]** kan hen välja mellan följande alternativ:
 
-| Gammal etikett | Nytt alternativ |
-|---|---|
-| Tillämpa innehållsuppdatering för alla elever | Uppdatera alla elever nu:Tillämpa innehållsuppdatering för alla elever |
-| Tillämpa uppdatering på elever ännu i början | Uppdatera endast elever som inte har startat: Tillämpa endast innehållsuppdatering för elever som inte har startat |
-| Pågående elever får uppdatering efter slutförande | Uppdatera alla elever så småningom: Uppdatera innehållet för alla elever så småningom |
+* **[!UICONTROL Update all Learners now]**: Tillämpa innehållsuppdateringen omedelbart för alla elever. Inte påbörjat, Pågående och Slutförda elever flyttas direkt till den nya versionen.
+* **[!UICONTROL Update all Learners eventually]**: Tillämpa uppdateringen för alla elever i faser. Elever som inte har startat och slutfört får den nya versionen nu. Pågående elever får uppdateringen efter att de har slutfört den aktuella versionen.
+* **[!UICONTROL Update only not started Learners]**: Tillämpa uppdateringen endast på elever som ännu inte har påbörjat kursen. Pågående och slutförda elever behåller den ursprungliga versionen.
 
 ![](assets/version-control-options.png)
+_Alternativ för innehållsuppdatering finns i uppdateringsinställningarna_
 
 
 ## Ta bort innehåll {#deletecontent}
