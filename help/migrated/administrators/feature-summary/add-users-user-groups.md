@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Lägg till användare i Adobe Learning Manager
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: 6997eed011b0d133842473028826113b98322e87
 workflow-type: tm+mt
-source-wordcount: '2254'
+source-wordcount: '2216'
 ht-degree: 0%
 
 ---
@@ -28,14 +28,6 @@ Interna användare i Adobe Learning Manager är anställda eller teammedlemmar i
 
 Användare i Adobe Learning Manager kan ta på sig olika ansvarsområden och hantera olika uppgifter baserat på sina tilldelade roller. Varje roll, inklusive administratör, författare, instruktör och integrationsadministratör, erbjuder en uppsättning specifika funktioner som är anpassade för att stödja användarens ansvar inom plattformen.
 
-Adobe Learning Manager har stöd för följande användarroller:
-
-* **Administratör**: Hanterar användare och användargrupper, tilldelar roller och konfigurerar systemövergripande inställningar som datakällor, tillåtna domäner och visningsalternativ. Administratörer har också ansvar för att skapa och organisera utbildningsinnehåll, spåra elevframsteg, generera rapporter och konfigurera integreringar med externa system.
-* **Författare**: Skapar och hanterar innehåll, inklusive moduler och kurser.
-* **Chef**: övervakar teamets utbildningsaktiviteter, nominerar teammedlemmar till kurser, godkänner förfrågningar och ger feedback.
-* **Integreringsadministratör**: Hanterar systemintegreringar och dataanslutningar mellan ALM och externa plattformar.
-* **Anpassade roller**: Administratörer kan skapa anpassade roller för att ge användare anpassad åtkomst utifrån deras ansvarsområden. Läs den här artikeln om du vill ha mer information om anpassade roller.
-
 ### Metoder för att lägga till interna användare
 
 Administratörer kan lägga till interna användare på följande sätt:
@@ -46,7 +38,7 @@ Administratörer kan lägga till interna användare på följande sätt:
 
 ### Lägg till en intern användare manuellt
 
-Administratörer kan lägga till enskilda användare manuellt genom att ange namn, e-post-ID, unik identifierare och chefens namn. Den unika identifieraren i Adobe Learning Manager är en obligatorisk identifierare som administratörer tilldelar när de skapar en användare. Den måste vara unik för varje användare och fungera som en enhetlig referens i hela systemet.
+Administratörer kan lägga till en användare manuellt genom att ange namn, e-postadress, unik identifierare och chefens namn. Den unika identifieraren i Adobe Learning Manager är en obligatorisk identifierare som administratörer tilldelar när de skapar en användare. Den måste vara unik för varje användare och fungera som en enhetlig referens i hela systemet.
 
 >[!INFO]
 >
@@ -77,7 +69,7 @@ Så här skapar du en URL för självregistrering för en användare:
 
 1. Logga in som administratör.
 2. Välj **Användare** och sedan **Intern**.
-3. Välj **Lägg till** i det övre högra hörnet och välj sedan **Självregistrering.**
+3. Välj **Lägg till** och välj sedan **Självregistrering.**
 
 
    ![](assets/add-self-register-link.png)
@@ -118,7 +110,7 @@ _Listvy som visar befintliga URL:er för självregistrering som är tillgänglig
 
 ### Överför interna användare i grupp
 
-Med Adobe Learning Manager kan administratörer lägga till flera användare samtidigt genom att överföra en CSV-fil med användarinformation, inklusive namn, e-postadress och chefens namn. Funktionen för gruppöverföring sparar tid och arbete jämfört med att lägga till användare enskilt.
+Administratörer kan lägga till flera användare samtidigt genom att överföra en CSV-fil med användarinformation som namn, e-postadress och chefens namn. Funktionen för gruppöverföring sparar tid och arbete jämfört med att lägga till användare enskilt.
 
 >[!INFO]
 >
@@ -128,7 +120,7 @@ Lägga till flera användare:
 
 1. Logga in som administratör.
 2. Välj **Användare** och sedan **Intern**.
-3. Välj **Lägg till** i det övre högra hörnet och välj **Överför en CSV**.
+3. Välj **Lägg till** och välj sedan **Överför en CSV**.
 
    ![](assets/select-upload-acsv.png)
    _Alternativ för att överföra en CSV-fil för massimport av användare_
@@ -197,10 +189,10 @@ Gör så här om du vill skapa en extern användare:
 
 1. Logga in som administratör.
 2. Välj **Användare** och sedan **Externa**.
-3. I det övre högra hörnet väljer du **Lägg till** för att skapa en registrering för en extern användare.
+3. Välj **Lägg till** för att skapa en registrering för en extern användare.
 4. Ange följande i dialogrutan **Lägg till extern registreringsprofil**:
 
-   * **Profilnamn:** Ange namnet på den partnerorganisation som vill få åtkomst till Adobe Learning Manager
+   * **Profilnamn:** Skriv namnet.
    * **Chefens e-postadress:** Skriv chefens e-postadress.
    * **Platsbegränsning:** Ställ in det maximala antalet tillåtna registreringar.
    * **Förfallodatum:** Definiera det sista datumet för nya registreringar. När den har upphört fungerar inte länken för ny användarregistrering.
@@ -226,7 +218,6 @@ En registrerings-URL genereras.
 Så här aktiverar du den externa profilen:
 
 1. Leta reda på den nya profilen i listan över externa profiler.
-
 2. Välj växlingsknappen **Status** för att aktivera den.
 
 Administratören kan dela denna URL med den externa partnern så att denne kan registrera sig och logga in på Adobe Learning Manager med den.
@@ -248,7 +239,7 @@ Det finns några skillnader mellan interna och externa registreringar:
 | Interna användare | Externa användare |
 |---|---|
 | Kan logga in med autentiseringsuppgifter för Adobe ID eller SSO. | Kan logga in med valfritt e-post-ID. |
-| Spelifiering är tillgänglig. | Spelifiering är tillgänglig. Administratören måste aktivera spelifiering för externa elever i inställningarna för [spelifiering](https://experienceleague.adobe.com/sv/docs/learning-manager/using/admin/gamification). |
+| Spelifiering är tillgänglig. | Spelifiering är tillgänglig. Administratören måste aktivera spelifiering för externa elever i inställningarna för [spelifiering](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification). |
 
 ### Pausa extern registreringsprofil
 
@@ -259,7 +250,7 @@ Så här pausar du en extern profil:
 1. Välj **Åtgärder** i det övre högra hörnet på sidan **Externa användare**.
 2. Välj **Pausa** för att pausa den externa registreringsprofilen.
 
-Detta blockerar registreringsprocessen för användare som ännu inte har accepterat sina inbjudningar. Observera att denna åtgärd endast påverkar användare som ännu inte har slutfört sin registrering.
+Detta blockerar nya registreringar för användare som inte har accepterat sina inbjudningar. Observera att denna åtgärd endast påverkar användare som ännu inte har slutfört sin registrering.
 
 ![](assets/pause-external-user.png)
 _Alternativ för att pausa en befintlig extern registreringsprofil från menyn Åtgärder_
@@ -314,6 +305,14 @@ Ett bekräftelsemeddelande visas när användaren har tagits bort.
 ## Tilldela en användare en roll
 
 Användarroller i Adobe Learning Manager definierar vilka åtgärder varje person kan utföra i systemet. Varje roll levereras med specifika behörigheter baserat på användarens ansvarsområden.
+
+Adobe Learning Manager har stöd för följande användarroller:
+
+* **Administratör**: Hanterar användare och användargrupper, tilldelar roller och konfigurerar systemövergripande inställningar som datakällor, tillåtna domäner och visningsalternativ. Administratörer har också ansvar för att skapa och organisera utbildningsinnehåll, spåra elevframsteg, generera rapporter och konfigurera integreringar med externa system.
+* **Författare**: Skapar och hanterar innehåll, inklusive moduler och kurser.
+* **Chef**: övervakar teamets utbildningsaktiviteter, nominerar teammedlemmar till kurser, godkänner förfrågningar och ger feedback.
+* **Integreringsadministratör**: Hanterar systemintegreringar och dataanslutningar mellan ALM och externa plattformar.
+* **Anpassade roller**: Administratörer kan skapa anpassade roller för att ge användare anpassad åtkomst utifrån deras ansvarsområden. Mer information om de anpassade rollerna finns i den här [artikeln](/help/migrated/administrators/feature-summary/custom-role.md).
 
 Så här tilldelar du roller till användare:
 
