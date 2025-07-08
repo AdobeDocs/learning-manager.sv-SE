@@ -4,9 +4,9 @@ title: Användarhandbok för programutvecklare
 description: Lär dig hur du integrerar och anpassar program med RESTful API:er, som täcker viktiga ämnen som autentisering med OAuth 2.0, scenarier för API-användning och datamodeller. Förbättra dina företagsapplikationer med funktioner som kursskapande, spårning av elevframsteg, kompetensmappning, certifiering, spelifiering och mycket mer. Den här guiden innehåller stegvisa instruktioner och verkliga exempel som hjälper utvecklare att skapa sömlösa och effektiva arbetsflöden. Perfekt för utvecklare som vill utnyttja Adobe Learning Manager kapacitet för att skapa elevcentrerade program.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: 615e85a34d592b7523c10b91b3501fcdf97c1100
 workflow-type: tm+mt
-source-wordcount: '4336'
+source-wordcount: '4357'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,8 @@ I den här handboken beskrivs följande:
 
 * OAuth2.0-autentisering
 * API-objektmodeller
-* Visar hur du använder inkludera, fält och andra parametrar
-* Tillhandahåller slutpunkter för verkliga användningsfall
+* Inkludera, fält och andra parametrar
+* Verkliga användningsfall
 
 >[!IMPORTANT]
 >
@@ -39,7 +39,7 @@ För att få säker åtkomst till Adobe Learning Manager API:er måste du autent
 
 ### Registrera en ansökan
 
-Integrera Adobe Learning Manager med externa program för förbättrad mångsidighet. Stegen innebär att få åtkomst till gränssnittet för Integreringsadministratör, registrera programmet och erhålla klient-ID och hemlighet. Generera autentiseringstoken (OAuth, Refresh och Åtkomsttoken) från ALM, vilket understryker användningen av OAuth 2.0-ramverket för autentisering och auktorisering. Åtkomsttoken har en giltighet på sju dagar.
+Integrera Adobe Learning Manager med externa program för förbättrad mångsidighet. Stegen innebär att få åtkomst till gränssnittet för Integreringsadministratör, registrera programmet och erhålla klient-ID och hemlighet. Generera OAuth 2.0-autentiseringstoken, inklusive auktoriserings-, uppdaterings- och åtkomsttoken, från Adobe Learning Manager. Använd OAuth 2.0-flödet för att autentisera och auktorisera programmet på ett säkert sätt. Åtkomsttoken har en giltighet på sju dagar.
 
 1. Logga in i Adobe Learning Manager som integreringsadministratör.
 2. Välj **[!UICONTROL Applications]** i den vänstra rutan.
@@ -77,7 +77,7 @@ Integrera Adobe Learning Manager med externa program för förbättrad mångsidi
 
 ### Hämta auktoriseringskod från omdirigering
 
-När du har hämtat klient-ID:t och klienthemligheten använder du dem för att begära en åtkomsttoken, som används för att autentisera API-anrop.
+När du har hämtat klient-ID:t och klienthemligheten använder du dem för att begära en åtkomsttoken som används för att autentisera API-anrop.
 
 När du vill börja flödet med auktoriseringskoden dirigerar du användarna till följande URL i en webbläsare:
 
@@ -174,7 +174,7 @@ Som tidigare upphör åtkomsttoken för testning att gälla om sju dagar.
 
 ### Använd ett API-verktyg för att testa slutpunkterna
 
-Du kan använda valfritt API-testverktyg från tredje part, men vi använder Postman för att testa slutpunkterna. Exemplen i det här dokumentet använder Postman för slutpunktstestning.
+Du kan använda valfritt API-testverktyg från tredje part, men vi använder Postman för att testa slutpunkterna. Exemplen i det här dokumentet använder Postman för att testa slutpunkterna.
 
 1. Öppna Postman och skapa en ny förfrågan.
 2. Välj fliken Auktorisering.
@@ -264,7 +264,7 @@ Viktiga fördelar:
 
 **Så här använder du parametern include**
 
-Lägg till parametern include i API-URL:en och ange vilka relaterade entiteter som ska inkluderas.
+Lägg till parametern include i API-URL:en och ange de relaterade entiteterna som ska inkluderas.
 
 **Vanliga innehåller sökvägar**
 
@@ -283,7 +283,7 @@ Lägg till parametern include i API-URL:en och ange vilka relaterade entiteter s
 
 **Exempel 1**
 
-Hämta informationen för en användare med hjälp av parametern userID i slutpunkten
+Hämta informationen för en användare med hjälp av parametern userID i slutpunkten.
 
 ```
 https://learningmanager.adobe.com/primeapi/v2/users/<userID>
@@ -841,8 +841,11 @@ Det innebär att den externa användaren har lagts till i Adobe Learning Manager
 
 ### Extrahera en användarrapport med användar-ID och chefsinformation
 
-En användarrapport kan hämtas direkt från användargränssnittet (**[!UICONTROL Admin]** > **[!UICONTROL Users]** > **[!UICONTROL Internal]**). Rapporten returnerar dock inte användar-ID:et och tillhörande chefsinformation.
-Du kan hämta informationen med hjälp av jobb-API:et för en administratör.
+En användarrapport kan hämtas direkt från administratörens användargränssnitt (**[!UICONTROL Admin]** > **[!UICONTROL Users]** > **[!UICONTROL Internal]**). Rapporten returnerar dock inte användar-ID:et och tillhörande chefsinformation.
+
+Använd Jobb-API:et för att hämta rapporten. Jobb-API:t hjälper till att generera rapporter, gruppåtgärder (registreringar eller tilldelningar av utmärkelsetecken), slutförda certifieringar eller generering av utmärkelsetecken.
+
+Så här kan du hämta rapporten:
 
 1. Lägg till följande nyttolast i jobb-API:et.
 
