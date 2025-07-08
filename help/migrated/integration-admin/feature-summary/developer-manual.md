@@ -4,9 +4,9 @@ title: Användarhandbok för programutvecklare
 description: Lär dig hur du integrerar och anpassar program med RESTful API:er, som täcker viktiga ämnen som autentisering med OAuth 2.0, scenarier för API-användning och datamodeller. Förbättra dina företagsapplikationer med funktioner som kursskapande, spårning av elevframsteg, kompetensmappning, certifiering, spelifiering och mycket mer. Den här guiden innehåller stegvisa instruktioner och verkliga exempel som hjälper utvecklare att skapa sömlösa och effektiva arbetsflöden. Perfekt för utvecklare som vill utnyttja Adobe Learning Manager kapacitet för att skapa elevcentrerade program.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 615e85a34d592b7523c10b91b3501fcdf97c1100
+source-git-commit: fc5f551dac574cae748d36d819745c5f9149afd7
 workflow-type: tm+mt
-source-wordcount: '4357'
+source-wordcount: '4381'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ I den här handboken beskrivs följande:
 
 ## Användningsscenarier för API
 
-Utvecklare kan använda Learning Manager API:er för att förbättra eller integrera Learning Manager med andra företagsprogram. Du kan skapa webb-, dator- och mobilappar med vilken teknik som helst. Utvecklare kan komma åt programdata i Learning Manager, men distributionen är extern och helt kontrollerad av dig. Program utvecklas vanligtvis av kundorganisationer för deras egna konton, medan Adobe-partner kan skapa vanliga program för mer omfattande användning.
+Utvecklare kan använda Learning Manager API:er för att förbättra eller integrera Learning Manager med andra företagsprogram. Du kan skapa webb-, dator- och mobilappar med vilken teknik som helst. Utvecklare kan komma åt Learning Manager-data, men du styr var och hur appen används.
 
 ## Autentisering med OAuth 2.0
 
@@ -79,7 +79,7 @@ Integrera Adobe Learning Manager med externa program för förbättrad mångsidi
 
 När du har hämtat klient-ID:t och klienthemligheten använder du dem för att begära en åtkomsttoken som används för att autentisera API-anrop.
 
-När du vill börja flödet med auktoriseringskoden dirigerar du användarna till följande URL i en webbläsare:
+Börja flödet med auktoriseringskoden genom att lägga till följande URL i en webbläsare:
 
 ```
 GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your clientId>&redirect_uri=<Enter a url to redirect to>&state=<Any String data>&scope=<one or more comma separated scopes>&response_type=CODE 
@@ -134,7 +134,17 @@ En åtkomsttoken är giltig i sju dagar. Efter sju dagar måste du generera en n
 
 ### Skaffa åtkomsttokens för testning och utveckling
 
-Använd verktyget Adobe Learning Manager (ALM) för att generera token snabbt för att skapa åtkomsttoken för testning och utveckling. Dessa tokens är endast avsedda för personligt bruk under utvecklings- och felsökningsfaserna. Tänk på att testtoken ger åtkomst till dina ALM-data, så det är viktigt att hantera dem säkert. Dela aldrig dina testtoken med andra, använd dem i produktionsprogram eller inkludera dem i offentliga koddatabaser. Behandla dem som lösenord för att säkerställa säkerheten för ditt konto och dina data.
+När du arbetar med Adobe Learning Manager (ALM) API:er behöver utvecklare en giltig OAuth 2.0-åtkomsttoken för att autentisera API-begäranden. Att generera denna token via standard-OAuth-flödet kan vara komplext och tidskrävande, särskilt för snabbtester, inlärning och utveckling. Adobe Learning Manager tillhandahåller ett tokengenereringsverktyg för att förenkla processen.
+
+Detta verktyg är idealiskt under:
+
+* Koncepttest (POC)-versioner
+
+* Utveckling i ett tidigt skede
+
+* Felsöka problem med API-integrering
+
+Dessa tokens är endast avsedda för personligt bruk under utvecklings- och felsökningsfaserna. Tänk på att testtoken ger åtkomst till dina ALM-data, så det är viktigt att hantera dem säkert. Dela aldrig dina testtoken med andra, använd dem i produktionsprogram eller inkludera dem i offentliga koddatabaser. Behandla dem som lösenord för att säkerställa säkerheten för ditt konto och dina data.
 
 1. Logga in på Adobe Learning Manager som integreringsadministratör.
 2. Välj **[!UICONTROL Developer Resources]** och sedan **[!UICONTROL select Access Tokens for Testing and Development]**.
