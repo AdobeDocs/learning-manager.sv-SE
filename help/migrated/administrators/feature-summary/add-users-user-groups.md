@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Lägg till användare i Adobe Learning Manager
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 60c171374e4a6b15d92907ae441fc63ba6ee4743
+source-git-commit: 81a8732e3809e916fd6a19e51c19cf7419617b16
 workflow-type: tm+mt
 source-wordcount: '2216'
 ht-degree: 0%
@@ -239,7 +239,7 @@ Det finns några skillnader mellan interna och externa registreringar:
 | Interna användare | Externa användare |
 |---|---|
 | Kan logga in med autentiseringsuppgifter för Adobe ID eller SSO. | Kan logga in med valfritt e-post-ID. |
-| Spelifiering är tillgänglig. | Spelifiering är tillgänglig. Administratören måste aktivera spelifiering för externa elever i inställningarna för [spelifiering](https://experienceleague.adobe.com/sv/docs/learning-manager/using/admin/gamification). |
+| Spelifiering är tillgänglig. | Spelifiering är tillgänglig. Administratören måste aktivera spelifiering för externa elever i inställningarna för [spelifiering](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification). |
 
 ### Pausa extern registreringsprofil
 
@@ -341,4 +341,5 @@ Så här tar du bort roller från användare:
    _Alternativ för att ta bort tilldelade roller från en användare på menyn Åtgärder_
 
 4. Välj **Ja** i bekräftelsedialogrutan.
+
 
