@@ -3,7 +3,7 @@ description: Referenshandbok för integreringsadministratörer som vill migrera 
 jcr-language: en_us
 title: Migreringshandbok
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 899ef06789f818e0286589263ebb5fad0c90c9d2
+source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
 workflow-type: tm+mt
 source-wordcount: '3604'
 ht-degree: 1%
@@ -582,5 +582,5 @@ I ett scenario där X är chef för användare, till exempel A, B och C, måste 
 
 Mer information om det här avsnittet finns i följande hjälpinnehåll:
 
-* [Vanliga frågor om överföring av CSV-filer](/help/migrated/administrators/add-users-in-bulk.md)
+* [Vanliga frågor om överföring av CSV-filer](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users/)
 * [Funktionshjälp för att lägga till användare](/help/migrated/administrators/feature-summary/add-users-user-groups.md)
