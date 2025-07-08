@@ -3,9 +3,9 @@ description: Referenshandbok för integreringsadministratörer som vill migrera 
 jcr-language: en_us
 title: Migreringshandbok
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
-source-wordcount: '3604'
+source-wordcount: '3606'
 ht-degree: 1%
 
 ---
@@ -546,7 +546,7 @@ Nedan hittar du specifikationerna för CSV-standardfiler som du kan använda fö
 
 ## Felsöka migreringsproblem {#troubleshootingmigrationissues}
 
-[Klicka här](../../kb/troubleshooting-migration.md) om du vill veta mer om hur du löser de problem som integrationsadministratörer möter när de migrerar data och innehåll från sina befintliga LMS till Learning Manager-programmet.
+Läs den här [artikeln](../../kb/troubleshooting-migration.md) om du vill veta mer om hur du löser de problem som integrationsadministratörer möter när de migrerar data och innehåll från sina befintliga LMS till Learning Manager-programmet.
 
 ## Tips för användarhantering {#usermanagement}
 

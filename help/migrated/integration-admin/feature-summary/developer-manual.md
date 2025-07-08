@@ -4,7 +4,7 @@ title: Användarhandbok för programutvecklare
 description: Lär dig hur du integrerar och anpassar program med RESTful API:er, som täcker viktiga ämnen som autentisering med OAuth 2.0, scenarier för API-användning och datamodeller. Förbättra dina företagsapplikationer med funktioner som kursskapande, spårning av elevframsteg, kompetensmappning, certifiering, spelifiering och mycket mer. Den här guiden innehåller stegvisa instruktioner och verkliga exempel som hjälper utvecklare att skapa sömlösa och effektiva arbetsflöden. Perfekt för utvecklare som vill utnyttja Adobe Learning Manager kapacitet för att skapa elevcentrerade program.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 01b5f339fb17db9c1af4e3e1121f9034c84fb974
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
 source-wordcount: '4336'
 ht-degree: 0%
@@ -392,7 +392,7 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
 **Andra filter som ingår**
 
 <table>
- <tbody>
+  <tbody>
   <tr>
    <td>
     <p style="text-align: left;"><b>Utbildningsprogram</b></p></td>
@@ -406,6 +406,7 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
   <br>instance.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>equimLOs</br><br>authors</br><br>instance.loResources.resources</br><br>additionalLOs.instance.loResources.resources</br><br>additionalResources</br><br>instance.badge</br><br>skills.skillsLevel.badge</br><br>skills skillLevel.skills</br><br>instance.loResources.resources.room</br><br>equimLOs.enrollment</br><br>enrollment.loResourceGrades</br>
   </td>
   </tr>
+  </table>
 
 #### fält
 
@@ -520,7 +521,7 @@ Med Adobe Learning Manager API:er kan utvecklare få tillgång till Learning Man
 | userBadge | UserBadge relaterar ett enda märke med en enda användare. Det innehåller information som när det uppnåddes, assertionUrl och så vidare. |
 | färdighet | Kompetensmodellen består av nivåer och poäng. Kompetenser kan förvärvas av elever efter relevant slutförande av kursen. |
 | skillsLevel | En kompetensnivå består av en eller flera kurser som ska tas tillvara för att uppnå en nivå tillsammans med tillhörande tillgodoräknanden. |
-| learningObject | Ett utbildningsobjekt är en abstraktion för olika typer av objekt som användare kan registrera sig för och lära sig från. Learning Manager har för närvarande fyra typer av utbildningsobjekt - kurs, certifiering, utbildningsprogram och arbetsstöd. |
+| learningObject | Ett utbildningsobjekt är en abstraktion för olika typer av objekt som användare kan registrera sig för och lära sig från. Learning Manager har för närvarande fyra typer av utbildningsobjekt: kurs, certifiering, utbildningsprogram och arbetsstöd. |
 | learningObjectInstance | En specifik instans av ett utbildningsobjekt. |
 | learningObjectResource | Detta motsvarar begreppet modul. En kurs består av en eller flera moduler. I Learning Manager kan en modul levereras på flera olika likvärdiga sätt. Därför omfattar LoResource i huvudsak alla dessa likvärdiga resurser. |
 | loResourceGrade | Detta sammanfattar resultatet för den användare som använder en specifik resurs i samband med ett utbildningsobjekt som han är registrerad för. Den innehåller information som den tid som användaren har tillbringat i resursen, den procentuella förloppet som användaren har gjort, status för godkänt/underkänt och de poäng som användaren har fått i associerade quiz. |

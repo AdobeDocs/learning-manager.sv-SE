@@ -2,17 +2,17 @@
 description: Lär dig använda Aktiva fält i Adobe Learning Manager för att hämta, ordna och hantera anpassad användarinformation. Förbättra rapportering, filtrering och användarsegmentering med flexibla fältkonfigurationer.
 jcr-language: en_us
 title: Konfigurera aktiva fält i Adobe Learning Manager
-source-git-commit: 03797a208195f4cc11cb5cceb2775d341befe2a0
+exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
 source-wordcount: '1012'
 ht-degree: 0%
 
 ---
 
-
 # Aktiva fält
 
-Aktiva fält i Adobe Learning Manager är anpassade användarattribut som hjälper administratörer att ordna och hantera användare effektivt. Med dem kan du hämta extra information om användaren, till exempel avdelning, plats eller befattning. Administratörer kan använda dessa data för att skapa användargrupper, anpassa inlärning och filtrera rapporter mer effektivt.
+Aktiva fält i Adobe Learning Manager är anpassade användarattribut som hjälper administratörer att ordna och hantera användare effektivt. Med dem kan du hämta extra information om användaren, till exempel avdelning, plats eller befattning. Administratörer kan använda dessa data för att skapa användargrupper, anpassa utbildningen och filtrera rapporter mer effektivt.
 
 Användarattribut är information som en användares förnamn, efternamn och e-postadress. Dessa attribut hjälper administratörer att:
 
@@ -122,6 +122,4 @@ I vissa fall föredrar administratörer att elever fyller i vissa aktiva fält m
 
 Om en CSV-fil inte innehåller alla aktiva fält måste administratören manuellt ange de värden som saknas efter importen.
 
-Som standard måste varje aktivt fält mappas till ett motsvarande fält i CSV-källfilen. Om du inte vill mappa ett specifikt aktivt fält till en kolumn i CSV-filen kan du välja värdet **DontImportFromSource** i listrutan under både Box- och FTP-importprocessen. Det här alternativet är tillgängligt när du importerar användare via FTP- eller Box-anslutningar. Läs den här [artikeln](https://experienceleague.adobe.com/sv/docs/learning-manager/using/integration/connectors) om du vill ha mer information om anslutningarna.
-
-
+Som standard måste varje aktivt fält mappas till ett motsvarande fält i CSV-källfilen. Om du inte vill mappa ett specifikt aktivt fält till en kolumn i CSV-filen kan du välja värdet **DontImportFromSource** i listrutan under både Box- och FTP-importprocessen. Det här alternativet är tillgängligt när du importerar användare via FTP- eller Box-anslutningar. Läs den här [artikeln](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors) om du vill ha mer information om anslutningarna.

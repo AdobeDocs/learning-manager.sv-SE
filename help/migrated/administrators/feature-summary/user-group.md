@@ -2,13 +2,13 @@
 description: Lär dig skapa och hantera användargrupper i Adobe Learning Manager. Upptäck hur gruppering av användare hjälper dig att tilldela kurser, spåra framsteg och automatisera utbildningsarbetsflöden effektivt.
 jcr-language: en_us
 title: Hantera användargrupper i Adobe Learning Manager | Ordna och tilldela elever
-source-git-commit: 03797a208195f4cc11cb5cceb2775d341befe2a0
+exl-id: 5569a201-0648-4b2c-bab3-927e5c149290
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1441'
 ht-degree: 0%
 
 ---
-
 
 # Användargrupper i Adobe Learning Manager
 
@@ -153,7 +153,7 @@ Så här tar du bort en användargrupp:
    ![](assets/delete-a-group.png)
    _Alternativet Ta bort på menyn Åtgärder om du vill ta bort en användargrupp_
 
-4. Bekräfta borttagningen när du uppmanas till det. Användargruppen tas bort från Adobe Learning Manager.
+4. Bekräfta borttagningen när du uppmanas till det. Användargruppen tas bort.
 
 ## Hämta användargruppsrapport
 

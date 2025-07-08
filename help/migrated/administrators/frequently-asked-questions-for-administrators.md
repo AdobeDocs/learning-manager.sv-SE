@@ -4,9 +4,9 @@ title: Vanliga frågor för administratörer
 description: Vanliga frågor för Adobe Learning Manager-administratörer
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
-source-wordcount: '2460'
+source-wordcount: '2462'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 +++Kan jag lägga till flera användare samtidigt? Hur?
 
-Ja, du kan lägga till användare i grupp genom att använda funktionen för CSV-överföring. Klicka [här](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users) för mer information.
+Ja, du kan lägga till användare i grupp genom att använda funktionen för CSV-överföring. Mer information finns i den här [artikeln](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users).
 
 +++
 
@@ -257,7 +257,7 @@ Du kan växla ditt konto och logga in på andra roller, som elev, chef och förf
 Chefer, författare och elever kan se meddelanden baserat på kursaktiviteterna. Administratören kan aktivera/inaktivera meddelanden för alla användare genom att följa stegen nedan:
 
 1. Klicka på E-postmallar i den vänstra rutan och välj flikarna Allmänt, Användarregistrering, Slutföranden och Feedback.
-1. Från händelserna som visas nedan klickar du på växlingsknapparna Nej/Ja bredvid **varje &#x200B;** händelse och väljer Ja för att aktivera meddelande. Klicka på Nej om du inte vill skicka meddelanden för en viss händelse.
+1. Från händelserna som visas nedan klickar du på växlingsknapparna Nej/Ja bredvid varje händelse och väljer Ja för att aktivera meddelande. Klicka på Nej om du inte vill skicka meddelanden för en viss händelse.
 
 +++
 
