@@ -4,9 +4,9 @@ title: Användarhandbok för programutvecklare
 description: Lär dig hur du integrerar och anpassar program med RESTful API:er, som täcker viktiga ämnen som autentisering med OAuth 2.0, scenarier för API-användning och datamodeller. Förbättra dina företagsapplikationer med funktioner som kursskapande, spårning av elevframsteg, kompetensmappning, certifiering, spelifiering och mycket mer. Den här guiden innehåller stegvisa instruktioner och verkliga exempel som hjälper utvecklare att skapa sömlösa och effektiva arbetsflöden. Perfekt för utvecklare som vill utnyttja Adobe Learning Manager kapacitet för att skapa elevcentrerade program.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 15a05e801d4a05f99529fa2dd1afe11f97e77568
+source-git-commit: adba903c3edddbc9ce11481e75b1e03ffe4da956
 workflow-type: tm+mt
-source-wordcount: '4465'
+source-wordcount: '4482'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Utvecklare kan använda Learning Manager API:er för att förbättra eller integ
 
 ## Autentisering med OAuth 2.0
 
-För att få säker åtkomst till Adobe Learning Manager API:er måste du autentisera med ALM:s OAuth 2.0-mekanism. I den här processen ingår att registrera programmet, generera en auktoriseringskod, byta ut den mot en uppdateringstoken och slutligen använda uppdateringstoken för att få en åtkomsttoken.
+För att få säker åtkomst till Adobe Learning Manager API:er måste du autentisera med Adobe Learning Manager OAuth 2.0-mekanism. I den här processen ingår att registrera programmet, generera en auktoriseringskod, byta ut den mot en uppdateringstoken och slutligen använda uppdateringstoken för att få en åtkomsttoken.
 
 ### Registrera en ansökan
 
@@ -50,7 +50,7 @@ Integrera Adobe Learning Manager med externa program för förbättrad mångsidi
 
    * **[!UICONTROL Application Name]**: Skriv programmets namn (max 50 tecken).
    * **[!UICONTROL URL]**: Företagets eller programmets officiella webbadress. Används för identifiering och referens.
-   * **[!UICONTROL Redirect Domains]**: Ange domänerna (till exempel [http://learningmanager.adobe.com](http://learningmanager.adobe.com)) som ALM kan omdirigera till efter auktorisering.  Du kan nämna flera URL-adresser, men URL-adresserna måste vara giltiga.
+   * **[!UICONTROL Redirect Domains]**: Ange de domäner (till exempel [http://learningmanager.adobe.com](http://learningmanager.adobe.com)) som Adobe Learning Manager kan omdirigera till efter auktorisering.  Du kan ange flera giltiga URL:er.
    * **[!UICONTROL Description]**: Kort beskrivning av vad programmet gör.
    * **[!UICONTROL Scopes]**: Välj ett av de sex tillgängliga alternativen för att definiera programmets omfattning. Baserat på ditt val som nämns här är API-slutpunkterna för Learning Manager tillgängliga för ditt program. Om du till exempel väljer läsåtkomst till elevrollen är alla slutpunkter för Learning Manager-elevens API skrivskyddade för ditt program.
 
@@ -68,7 +68,7 @@ Integrera Adobe Learning Manager med externa program för förbättrad mångsidi
 4. Välj **[!UICONTROL Save]** för att registrera programmet.
 
    * När du har registrerat programmet är det tillgängligt i listan över program som har skapats på kontot. Välj programmet så ser du följande utöver de tidigare angivna fälten:
-   * Program-ID: Detta är klient-ID:t. Detta ID talar om för ALM vilket program som begär åtkomst. Det ingår i API-begäranden för att identifiera programmet.
+   * Program-ID: Detta är klient-ID:t. Detta ID talar om för Adobe Learning Manager vilket program som begär åtkomst. Det ingår i API-begäranden för att identifiera programmet.
    * Programhemlighet: Detta används för att autentisera programmet och verifiera dess identitet under steg för tokenutbyte (till exempel vid begäran om en uppdateringstoken eller en åtkomsttoken).
 
    ![](assets/application-id-and-secret.png)
@@ -134,7 +134,7 @@ En åtkomsttoken är giltig i sju dagar. Efter sju dagar måste du generera en n
 
 ### Skaffa åtkomsttokens för testning och utveckling
 
-När du arbetar med Adobe Learning Manager (ALM) API:er behöver utvecklare en giltig OAuth 2.0-åtkomsttoken för att autentisera API-begäranden. Att generera denna token via standard-OAuth-flödet kan vara komplext och tidskrävande, särskilt för snabbtester, inlärning och utveckling. Adobe Learning Manager tillhandahåller ett tokengenereringsverktyg för att förenkla processen.
+När du arbetar med Adobe Learning Manager API:er behöver utvecklare en giltig OAuth 2.0-åtkomsttoken för att autentisera API-begäranden. Att generera denna token via standard-OAuth-flödet kan vara komplext och tidskrävande, särskilt för snabbtester, inlärning och utveckling. Adobe Learning Manager tillhandahåller ett tokengenereringsverktyg för att förenkla processen.
 
 Detta verktyg är idealiskt under:
 
@@ -144,7 +144,7 @@ Detta verktyg är idealiskt under:
 
 * Felsöka problem med API-integrering
 
-Dessa tokens är endast avsedda för personligt bruk under utvecklings- och felsökningsfaserna. Tänk på att testtoken ger åtkomst till dina ALM-data, så det är viktigt att hantera dem säkert. Dela aldrig dina testtoken med andra, använd dem i produktionsprogram eller inkludera dem i offentliga koddatabaser. Behandla dem som lösenord för att säkerställa säkerheten för ditt konto och dina data.
+Dessa tokens är endast avsedda för personligt bruk under utvecklings- och felsökningsfaserna. Tänk på att testtoken ger åtkomst till dina Adobe Learning Manager-data och att det är viktigt att hantera dem på ett säkert sätt. Dela aldrig dina testtoken med andra, använd dem i produktionsprogram eller inkludera dem i offentliga koddatabaser. Behandla dem som lösenord för att säkerställa säkerheten för ditt konto och dina data.
 
 1. Logga in på Adobe Learning Manager som integreringsadministratör.
 2. Välj **[!UICONTROL Developer Resources]** och sedan **[!UICONTROL select Access Tokens for Testing and Development]**.
@@ -167,7 +167,7 @@ Dessa tokens är endast avsedda för personligt bruk under utvecklings- och fels
 
    ![](assets/type-access-token.png)
 
-När du väljer **[!UICONTROL Submit]** verifieras åtkomsttoken och följande svar visas:
+När du väljer **[!UICONTROL Submit]** verifieras åtkomsttoken och du får följande JSON-objekt:
 
 ```
 { 
@@ -263,7 +263,7 @@ Här är en kort förklaring av varje:
 
 ### innefatta
 
-ALM API:er kan användas för att hämta användbar information när du skapar ett anpassat program eller ett fjärradministrerat LMS. API-slutpunkterna kan vidare inkluderas med ytterligare include-parametrar för att hämta den ytterligare information som gäller de data som tas emot som standard. Dessa relationer är datamodellrelationer, till exempel när du ringer för att få användarinformation får du användarinformationen och relationen mellan chef-ID och ALM-konto-ID. Med parametern include kan du extrahera ytterligare information tillsammans med användarinformation, till exempel chefsinformation och ALM-kontouppgifter, på ett detaljerat sätt.
+Adobe Learning Manager API:er kan användas för att hämta användbar information när du skapar ett anpassat program eller ett fjärradministrerat LMS. API-slutpunkterna kan vidare inkluderas med ytterligare include-parametrar för att hämta den ytterligare information som gäller de data som tas emot som standard. Dessa relationer är datamodellrelationer, så när du ringer för att få användarinformation får du användarinformationen och relationen mellan chef-ID och Adobe Learning Manager-konto-ID. Med parametern include kan du extrahera ytterligare information tillsammans med användarinformation, till exempel chefsinformation och Adobe Learning Manager-kontoinformation, på ett detaljerat sätt.
 Kort sagt används parametern **include** i API-anrop för att hämta relaterade (länkade) resurser tillsammans med den primära resursen i ett enda svar. Det är användbart när du vill få åtkomst till kapslade eller beroende data, till exempel moduler till en kurs eller kunskaper som är mappade till en elev, utan att göra separata API-anrop.
 
 Viktiga fördelar:
@@ -434,9 +434,9 @@ API-sidnumrering är en teknik som används i API:er för att dela upp stora dat
 
 Sidnumreringen gör klienten och servern mindre, begränsar svarsstorleken för att undvika serverflaskhalsar eller är användbar för att visa data i tabeller eller visar en sida i taget.
 
-**Så här fungerar sidnumrering i ALM API:er**
+**Så här fungerar sidnumrering i Adobe Learning Manager API:er**
 
-ALM API:er stöder sidnumrering via parametrar som:
+Adobe Learning Manager API:er stöder sidnumrering via parametrar som:
 
 * sida[gräns]: Antal poster per sida.
 * sida[förskjutning]: Antal poster att hoppa över.
@@ -525,7 +525,7 @@ Med Adobe Learning Manager API:er kan utvecklare få tillgång till Learning Man
 | märket | Ett utmärkelsetecken är ett tecken på prestation som elever får när de når specifika milstolpar under kursens gång. |
 | katalog | Katalog är en samling utbildningsobjekt. |
 | användare | Användare är den viktigaste modellen i Learning Manager. Användare är vanligtvis de interna eller externa eleverna i en organisation som lär sig objekt. De kan dock spela vissa andra roller, som författare och chef tillsammans med elevrollen. Användar-id, typ, e-post är några av de infogade attributen. |
-| resurs | Detta används för att modellera varje innehållsresurs som en modul försöker kapsla in. Alla resurser som är inkapslade i en &quot;loResource&quot; är likvärdiga när det gäller utbildningsmålet, men de skiljer sig från varandra när det gäller leveranstyp eller innehållsspråk. |
+| resurs | Detta representerar varje innehållsresurs i en modul. Alla resurser som är inkapslade i en &quot;loResource&quot; är likvärdiga när det gäller utbildningsmålet, men de skiljer sig från varandra när det gäller leveranstyp eller innehållsspråk. |
 | userNotification | Den här modellen innehåller meddelandeinformation som gäller en elev. |
 | userSkill | UserSkill anger hur mycket av en enskild kompetensnivå som uppnås av en enskild användare. |
 | userBadge | UserBadge relaterar ett enda märke med en enda användare. Det innehåller information som när det uppnåddes, assertionUrl och så vidare. |
@@ -660,7 +660,7 @@ Det finns tre obligatoriska attribut:
 * namn: Användarens namn.
 * userType: För närvarande kan endast interna användare läggas till med denna slutpunkt. userType ska vara INTERNAL.
 
-Följande svar visas:
+Du får följande JSON-objekt:
 
 ```
 {
@@ -1257,7 +1257,7 @@ I svaret får du information om modulens förlopp.
 
 När du implementerar ett fjärradministrerat LMS med Adobe Learning Manager som serverdel kan organisationer behöva supportpersonal som utger sig för att vara elever som felsöker eller får hjälp. Den API-drivna personifieringsmetoden garanterar säker åtkomst samtidigt som elevens inloggningsuppgifter skyddas och stöder sömlösa övergångar i sessionstillstånd.
 
-Adobe Learning Manager (ALM) underlättar elevpersonifiering i fjärradministrerade LMS-miljöer genom ett dedikerat API. Den här funktionen gör att supportpersonalen tillfälligt kan identifiera en elev, så att de kan diagnostisera problem, testa funktioner eller ge praktisk hjälp genom att simulera elevens upplevelse. Personifiering aktiveras med en cachelagrad åtkomsttoken för administratörer, som används för att programmatiskt generera en åtkomsttoken för elever. Denna process gör att systemet kan fungera som om det var inloggad som eleven.
+Adobe Learning Manager underlättar elevpersonifiering i fjärradministrerade LMS-miljöer genom ett dedikerat API. Den här funktionen gör att supportpersonalen tillfälligt kan identifiera en elev, så att de kan diagnostisera problem, testa funktioner eller ge praktisk hjälp genom att simulera elevens upplevelse. Personifiering aktiveras med en cachelagrad åtkomsttoken för administratörer, som används för att programmatiskt generera en åtkomsttoken för elever. Denna process gör att systemet kan fungera som om det var inloggad som eleven.
 
 >[!IMPORTANT]
 >
@@ -1318,7 +1318,7 @@ curl --location --request POST 'https://learningmanager.adobe.com/oauth/o/learne
 
 ### Felkoder
 
-När du arbetar med Adobe Learning Manager ALM API:er kan utvecklare stöta på olika HTTP-felkoder vid förfrågningar. De här felen ger viktig feedback om vad som gick fel och hur du åtgärdar det. Om du förstår de här koderna kan utvecklare snabbt felsöka problem, förbättra API-tillförlitligheten och få smidigare integrationer. Följande tabell är en guide till vanliga HTTP-felkoder som returneras av ALM API:er, tillsammans med förklaringar och typiska scenarier där de inträffar. Det här avsnittet är viktigt för alla som skapar, testar eller felsöker program som ansluter till ALM.
+När du arbetar med Adobe Learning Manager (Adobe Learning Manager) API:er kan utvecklare stöta på olika HTTP-felkoder vid förfrågningar. De här felen ger viktig feedback om vad som gick fel och hur du åtgärdar det. Om du förstår de här koderna kan utvecklare snabbt felsöka problem, förbättra API-tillförlitligheten och få smidigare integrationer. Följande tabell är en guide till vanliga HTTP-felkoder som returneras av Adobe Learning Manager API:er, tillsammans med förklaringar och vanliga scenarier där de inträffar. Det här avsnittet är viktigt för alla som skapar, testar eller felsöker program som ansluter till Adobe Learning Manager.
 
 | HTTP-status | Betydelse | Felsökning |
 |---|---|---|
