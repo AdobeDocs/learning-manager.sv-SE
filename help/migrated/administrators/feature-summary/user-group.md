@@ -3,7 +3,7 @@ description: Lär dig skapa och hantera användargrupper i Adobe Learning Manage
 jcr-language: en_us
 title: Hantera användargrupper i Adobe Learning Manager | Ordna och tilldela elever
 exl-id: 5569a201-0648-4b2c-bab3-927e5c149290
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: cd81d076b44b513afc6d21be0c3ea17d7359972e
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 0%
@@ -215,3 +215,4 @@ När du använder OR-logik lägger Adobe Learning Manager till användare som an
 
 ![](assets/or-logic.png)
 _Exempel som visar flera grupper kombinerat med OR-logik_
+
