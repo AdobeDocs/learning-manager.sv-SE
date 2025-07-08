@@ -4,9 +4,9 @@ title: Användarhandbok för programutvecklare
 description: Lär dig hur du integrerar och anpassar program med RESTful API:er, som täcker viktiga ämnen som autentisering med OAuth 2.0, scenarier för API-användning och datamodeller. Förbättra dina företagsapplikationer med funktioner som kursskapande, spårning av elevframsteg, kompetensmappning, certifiering, spelifiering och mycket mer. Den här guiden innehåller stegvisa instruktioner och verkliga exempel som hjälper utvecklare att skapa sömlösa och effektiva arbetsflöden. Perfekt för utvecklare som vill utnyttja Adobe Learning Manager kapacitet för att skapa elevcentrerade program.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: fc5f551dac574cae748d36d819745c5f9149afd7
+source-git-commit: 15a05e801d4a05f99529fa2dd1afe11f97e77568
 workflow-type: tm+mt
-source-wordcount: '4381'
+source-wordcount: '4465'
 ht-degree: 0%
 
 ---
@@ -1315,9 +1315,10 @@ curl --location --request POST 'https://learningmanager.adobe.com/oauth/o/learne
 }'
 ```
 
-### Generera elevbetygsutdrag
 
-**Felkoder**
+### Felkoder
+
+När du arbetar med Adobe Learning Manager ALM API:er kan utvecklare stöta på olika HTTP-felkoder vid förfrågningar. De här felen ger viktig feedback om vad som gick fel och hur du åtgärdar det. Om du förstår de här koderna kan utvecklare snabbt felsöka problem, förbättra API-tillförlitligheten och få smidigare integrationer. Följande tabell är en guide till vanliga HTTP-felkoder som returneras av ALM API:er, tillsammans med förklaringar och typiska scenarier där de inträffar. Det här avsnittet är viktigt för alla som skapar, testar eller felsöker program som ansluter till ALM.
 
 | HTTP-status | Betydelse | Felsökning |
 |---|---|---|
