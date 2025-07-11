@@ -4,9 +4,9 @@ title: Vit märkning i mobilappen Adobe Learning Manager
 description: Vit märkning är en metod att byta namn på en app eller tjänst med ditt eget varumärke och anpassa den som om du vore den ursprungliga skaparen. I Adobe Learning Manager kan du använda vit etikettering i mobilappen så att du kan byta varumärke på appen och göra den tillgänglig för användarna under ditt eget varumärke.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 25c4873f6d01c5832c213b6f225172f3dbcba1ee
+source-git-commit: 0c97b147a1e4c6e1a4a0cc69f56f8e9420c4602b
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '2081'
 ht-degree: 0%
 
 ---
@@ -46,109 +46,213 @@ Du kan anpassa följande:
 ### Fält
 
 <table>
+
  <tbody>
+
   <tr>
+
    <td>
+
     <p>Konto-ID</p>
+
    </td>
+
    <td>
+
     <p>ID för ditt konto. Observera att det vitmärkta programmet inte är tillgängligt för elever som tillhör något annat konto.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Ytterligare konto-ID</p>
+
    </td>
+
    <td>
+
     <p>Lägg till flera konton (underdomäner) om du vill. Lägg till underdomänerna som kommaavgränsade utan mellanslag. Till exempel acc01,acc02,acc03 och så vidare.<br> <b>Obs!</b> Du måste lägga till konto-ID när du anger underdomänerna.</br> </p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Programnamn</p></td>
+
    <td>
+
     <p>Namnet som du vill använda för appen.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Kortnamn för app</p>
+
    </td>
+
    <td>
+
     <p>I fall där namnet på appen är långt ska du ge den ett kort namn som visas på enheten.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Internt programnamn</p></td>
+
    <td>
+
     <p>Namnet som operativsystemet identifierar programmet med. Det format som vanligtvis används är: com.company-name.product-name.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Internt programnamn - iOS</p>
+
    </td>
+
    <td>
+
     <p>Namnge programmet på ett annat sätt om användarna använder iOS. Vi rekommenderar att du använder samma namn för både iOS och Android.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Appikon</p>
+
    </td>
+
    <td>
+
     <p>Appikonen som png. Den här ikonen visas i ditt program. Formatet som ska namnges är account-id_appIcon.png. Appikonens dimensioner är 512 × 512 pixlar.<div>Observera att Apple inte tillåter Alpha-kanal i appikoner. Se därför till att ta bort Alpha-kanalen från mediefilen innan du skickar in den.</div></p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Appstartskärm</p></td>
+
    <td>
+
     <p>Ange en bild (png) som visas när användarna startar programmet på programmets välkomstskärm. Formatet som ska namnges är account-id_splashIcon.png. De kvadratiska välkomstskärmarna är 1 052 × 1 052 pixlar och de cirkelbaserade välkomstskärmarna är 768 x 768 pixlar.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Klient-ID och Klienthemlighet</p>
+
    </td>
+
    <td>
+
     <p>Integreringsadministratören för ditt konto tillhandahåller informationen medan du registrerar programmet. Integreringsadministratören måste använda detta:<ul><li>elev:läsa,elev:skriva som roll</li><li>internt program name://redirect som omdirigerings-URL</li></ul></p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Kontologotyp</p>
+
    </td>
+
    <td>
+
     <p>Den URL som är värd för organisationens logotyp. Ange en cpcontent-länk som kontologotyp. Webbadressen måste vara webbkodad.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Appbutikens ID för appen (iOS)</p>
+
    </td>
+
    <td>
+
     <p>Det ID som krävs för att implementera force-uppdateringen. Appen måste veta att eleven ska omdirigeras till appbutiken för att uppdatera appen.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Google Play Store-id för appen (Android)</p>
+
    </td>
+
    <td>
+
     <p>Det ID som krävs för att implementera force-uppdateringen.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Värdnamn för djuplänkning</p>
+
    </td>
+
    <td>
+
     <p>Använd Learning Manager om du vill vara värd för dina djuplänkar. Om du vill använda ett annat värdnamn som en djuplänk anger du värddatorns URL. Exempel: learningmanager.adobe.com.</p>
+
    </td>
+
   </tr>
+
  </tbody>
+
 </table>
 
 >[!NOTE]
@@ -162,13 +266,36 @@ Om du använder en anpassad domän eller Learning Manager\*.adobe.com som värd 
 
 >[!CAUTION]
 >
->Om filerna inte finns där fungerar inte djuplänkarna. Se till att filerna finns.
+>Om filerna inte visas fungerar inte djuplänkarna. Se till att filerna finns.
 
 
 Mer information finns på följande länkar:
 
 * [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
 * [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
+
+## Skaffa ett team-id till App Store
+
+För att få ditt team-id:
+
+1. Logga in på ditt **[!UICONTROL Apple Developer]**-konto.
+2. Välj **[!UICONTROL Membership Details]** högst upp på sidan och kopiera ditt team-id.
+
+Detta ID krävs för att lägga till den vita märkta programposten i metadatafilerna för att aktivera djuplänkning.
+
+## Skaffa SHA-256-fingeravtrycket för Android
+
+SHA-256-fingeravtrycket för Android-signeringscertifikatet krävs när appposten med vit etikett läggs till.
+
+Så här genererar du SHA-256-fingeravtryck:
+
+1. Kör följande kommando:
+
+```
+keytool -list -v -keystore <keystore/jks file> -alias <aliaskey> -storepass <storepassword> -keypass <keypassword>
+```
+
+Leta reda på Certifikatfingeravtryck i utdata och kopiera sedan SHA-256-värdet. Dela det här fingeravtrycket efter behov för konfigurationen för djuplänkning.
 
 ## Generera push-meddelanden
 
