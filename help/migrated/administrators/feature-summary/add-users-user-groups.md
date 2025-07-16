@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Lägg till användare i Adobe Learning Manager
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 81a8732e3809e916fd6a19e51c19cf7419617b16
+source-git-commit: 4350c192a70005fe37620e1ea083c6db8ece30e3
 workflow-type: tm+mt
 source-wordcount: '2216'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# Lägg till användare i Adobe Learning Manager
+# Lägga till användare i Adobe Learning Manager
 
 I Adobe Learning Manager är användare elever som använder utbildningsplattformen. Det finns två typer av användare: interna och externa användare.
 
@@ -239,7 +239,7 @@ Det finns några skillnader mellan interna och externa registreringar:
 | Interna användare | Externa användare |
 |---|---|
 | Kan logga in med autentiseringsuppgifter för Adobe ID eller SSO. | Kan logga in med valfritt e-post-ID. |
-| Spelifiering är tillgänglig. | Spelifiering är tillgänglig. Administratören måste aktivera spelifiering för externa elever i inställningarna för [spelifiering](https://experienceleague.adobe.com/sv/docs/learning-manager/using/admin/gamification). |
+| Spelifiering är tillgänglig. | Spelifiering är tillgänglig. Administratören måste aktivera spelifiering för externa elever i inställningarna för [spelifiering](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification). |
 
 ### Pausa extern registreringsprofil
 
