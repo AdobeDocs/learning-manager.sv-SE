@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation för Adobe Learning Manager
-source-git-commit: 648cd1e17aa0e5b95b8454d136accc4b7a054d97
+source-git-commit: f814f4fd2e8b0d34118f5abc66e82be78fda88e2
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '688'
 ht-degree: 8%
 
 ---
@@ -167,6 +167,7 @@ ht-degree: 8%
    * [Vanliga frågor för elever](learners/frequently-asked-questions-for-learners.md)
    * [Meddelanden om nya Experience League](/help/migrated/new-experience-league-announcement.md)
    * [Så här skickar du ett supportärende på Experience League](/help/migrated/how-to-submit-support-ticket.md)
+   * [Skapa ett testkonto i Adobe Learning Manager](/help/migrated/create-trial-account.md)
 * Kunskapsbas {#knowledge-base}
    * [Kan inte logga in på Learning Manager](kb/unable-log-in-learning-manager.md)
    * [Utbildningssammanfattning visar inte aktuella data](kb/learning-summary-not-display-data.md)
