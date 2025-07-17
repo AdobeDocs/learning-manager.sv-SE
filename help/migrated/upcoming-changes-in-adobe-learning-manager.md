@@ -110,4 +110,4 @@ Anpassade administratörer kan bara skapa meddelanden för användargrupper elle
 * Rapportens format förblir oförändrat. Om anpassade administratörer hämtar det från användargränssnittet, kommer rapportens innehåll att omfattas av deras omfattning.
 * Inga ändringar krävs om rapporten inte används i något automatiserat eller efterföljande arbetsflöde.
 
-I artikeln [Versionsinformation](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) finns en sammanfattande lista med nya funktioner och ändringar av Adobe Learning Manager.
+I artikeln [Versionsinformation](https://experienceleague.adobe.com/sv/docs/learning-manager/using/introduction/release-notes) finns en sammanfattande lista med nya funktioner och ändringar av Adobe Learning Manager.
