@@ -2,13 +2,13 @@
 jcr-language: en_us
 title: Skapa ett testkonto, ett sandlådekonto eller ett testkonto i Adobe Learning Manager
 description: Lär dig skapa en kostnadsfri 30-dagars testversion eller ett sandlådekonto i Adobe Learning Manager. Följ de enkla stegen för att konfigurera testmiljön och komma igång snabbt.
-source-git-commit: f814f4fd2e8b0d34118f5abc66e82be78fda88e2
+exl-id: f8a2db1d-6a62-481a-9d04-0fb6377cda73
+source-git-commit: 4d5ced6d9677ddd568c6a6372e598b8e7bb4981d
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
 
 ---
-
 
 # Skapa ett testkonto i Adobe Learning Manager
 
@@ -40,3 +40,4 @@ Så här skapar du ett testkonto:
 7. Efter konfigurationen hittar du ditt konto-ID i URL:en för din Adobe Learning Manager-URL.
 
    ![](assets/account-id-trial.png)
+
