@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Skapa kursinstanser och utbildningsvägar
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: ad358fa52a16de60f6a102de8f744ae00bbf44e8
+source-git-commit: 411c171c314a3aa9ad9cc10d46c2f0d447e2c0a3
 workflow-type: tm+mt
-source-wordcount: '5480'
+source-wordcount: '5479'
 ht-degree: 1%
 
 ---
@@ -243,7 +243,7 @@ Om en elev som tidigare befann sig i väntande tillstånd för godkännande avre
 
 Med hjälp av massregistreringsfunktionen i Adobe Learning Manager kan administratörer effektivt registrera stora elevgrupper i kurser, certifieringar eller utbildningsprogram genom att ladda upp en CSV-fil. Denna process sparar tid, garanterar konsekvens och stöder skalbarhet i organisationen. Dessutom kan administratörer och instruktörer uppdatera elevinformation, närvaro och slutföranden i grupp genom att överföra CSV-filer, minimera manuellt arbete och säkerställa datanoggrannhet.
 
-Du kan använda samma CSV-filformat för registrering, närvaro och slutförande. Ange bara elevers mejl-ID under kolumnen &quot;E-post&quot; och spara filen med ett namn som baseras på åtgärden, till exempel bulk_enrollment.csv, bulk_attendance.csv eller bulk_completion.csv. Endast CSV-format stöds. UTF-8-format stöds inte. Ladda ned CSV-exempelfilen [här](assets/Sample-Bulk-Action-CSV.csv).
+Du kan använda samma CSV-filformat för registrering, närvaro och slutförande. Ange bara elevers mejl-ID under kolumnen &quot;E-post&quot; och spara filen med ett namn som baseras på åtgärden, till exempel bulk_enrollment.csv, bulk_attendance.csv eller bulk_completion.csv. Endast CSV-format stöds. UTF-8-format stöds inte. Hämta [CSV-exempelfilen](assets/Sample-Bulk-Action-CSV.csv).
 
 ### Registrera elever i grupp med en CSV
 
@@ -587,8 +587,8 @@ Administratörer kan ange standardmärken, inställningar för spelifiering och 
 * **[!UICONTROL Badge]**: Välj standardmärken i listrutan.
 * **[!UICONTROL Gamification]**: Konfigurera inställningar för spelifiering, inklusive poäng för slutförande, tidig slutförande och slutförande. Administratörer har möjlighet att välja inställningar på kontonivå eller anpassa spelifieringspunkterna för den här instansen.
 * **[!UICONTROL L1 Reaction Feedback]**: Aktivera fördefinierade frågor för elevfeedback efter slutförande av kursen, med alternativ för att göra frågor obligatoriska.
-***[!UICONTROL &#x200B; L3 Behaviour Change Feedback]**: Aktivera feedbackfrågor för elevens chef när kursen har slutförts.
-***[!UICONTROL &#x200B; Reminder Settings]**: Ställ in och hantera påminnelser om deadlines med alternativ för eskalering.
+***[!UICONTROL  L3 Behaviour Change Feedback]**: Aktivera feedbackfrågor för elevens chef när kursen har slutförts.
+***[!UICONTROL  Reminder Settings]**: Ställ in och hantera påminnelser om deadlines med alternativ för eskalering.
 
 ### Ange eskaleringsnivå {#escalation}
 
