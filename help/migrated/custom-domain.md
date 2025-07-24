@@ -4,9 +4,9 @@ title: Stöd för anpassad domän
 description: Anpassade domäner stöds inte i en Azure-instans av Learning Manager.
 contentowner: saghosh
 exl-id: 162ce268-48e3-4c7e-acb1-5181cebbb18d
-source-git-commit: 411c171c314a3aa9ad9cc10d46c2f0d447e2c0a3
+source-git-commit: a09c81a6dacbfc4bb55db39e64820ba87ce53d09
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -32,9 +32,11 @@ Funktionen Anpassad domän är tillgänglig till en extra kostnad. Kontakta din 
 
 * För elevrollen börjar domänen med `https://cdn.<customer_custom_domain>/` Till exempel `https://cdn.elearningstage1.cpdomaintest.in/`
 * För alla andra roller börjar domänen med `https://<customer_custom_domain>/`. Exempel: `https://elearningstage1.cpdomaintest.in/`
-* Den faktiska inloggnings-URL:en är `https://<customer_custom_domain>/acapindex` eller `https://<customer_custom_domain>/login`. Ersätt `<customer_custom_domain>` med organisationens faktiska domän.
+* Den faktiska inloggnings-URL:en är `https://<customer_custom_domain>/acapindex` eller `https://<customer_custom_domain>/login`.
 
-`<customer_custom_domain>` är den anpassningsbara delen.
+>[!NOTE]
+>
+>Ersätt `<customer_custom_domain>` med organisationens faktiska domän.
 
 ## Så här konfigurerar du en anpassad domän på ett konto {#howtosetupacustomdomainonanaccount}
 
