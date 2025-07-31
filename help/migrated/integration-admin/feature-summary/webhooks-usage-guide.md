@@ -4,7 +4,7 @@ title: Användarhandbok för webhookar
 description: Läs mer om användning av webhookar, bästa praxis och begränsningar
 contentowner: chandrum
 exl-id: e6a63ffb-7fdd-46e4-b5e6-20ce36861cef
-source-git-commit: 4b26eddf1285651a13ee9c71fdf677e8b92e6dc3
+source-git-commit: 4c04757d78d599ca30e3cd26257a967d5b9e3fdc
 workflow-type: tm+mt
 source-wordcount: '3360'
 ht-degree: 1%
@@ -566,7 +566,7 @@ För att förhindra dessa fel bör prenumeranter aktivt övervaka webhook-hände
   "events": [
     {
       "eventId": "123472ec1-4576-4ec5-a057-3a6f078cc9d6",
-      "eventName": "COURSE_ENROLLMENT_BATCH",
+      "eventName": "CERTIFICATION_ENROLLMENT_BATCH",
       "timestamp": "2024-11-08T03:49:52.000Z",
       "eventInfo": "1234524713000-040366-10488-0",
       "data": {
