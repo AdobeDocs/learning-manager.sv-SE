@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Hantera elever för din session
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
+source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1192'
 ht-degree: 2%
 
 ---
@@ -83,6 +83,26 @@ Du kan visa antalet bekräftade elever som deltar i sessionen, deras namn, delta
 
    ![](assets/markattendance.png)
    *Markera elevnärvaro*
+
+## Markera som slutförd för elever
+
+Instruktörer kan markera varje elevs status som godkänd eller ej direkt från sidan Elever. Med den här funktionen kan instruktörer spela in resultatet av klassrumssessioner eller virtuella klassrumssessioner korrekt utifrån elevens prestanda.
+
+Så här markerar du framgångar för elever:
+
+1. Logga in på Adobe Learning Manager som instruktör.
+2. Välj **[!UICONTROL Upcoming Sessions]** i den vänstra navigeringsrutan.
+3. Välj **[!UICONTROL Learners]**.
+4. Välj eleverna och sedan **[!UICONTROL Actions]**.
+5. Välj något av alternativen nedan för att markera framgången för de valda eleverna:
+
+   * **[!UICONTROL Mark Attended and Pass]**: Elever som markerats som godkända har slutfört modulen.
+   * **[!UICONTROL Mark Attended and Fail]**: Elever som markerats som misslyckade har slutfört modulen men inte godkänts.
+
+   ![I listrutan Åtgärder markeras alternativen &quot;Markera som närvarat och godkänd&quot; och &quot;Markera som närvarat och ej godkänd&quot; för instruktörer för att ange varje elevs framgångsstatus](/help/migrated/instructors/feature-summary/assets/mark-success-instructor.png)
+   _Elevsida som visar menyn Åtgärder med alternativen Markera som närvarat och Godkänd och Markera som närvarat och Misslyckad markerade för att registrera elevresultat_
+
+6. Välj **[!UICONTROL Yes]** i bekräftelsemeddelandet.
 
 ## Skicka e-postmeddelanden till elever {#sendemailstolearners}
 

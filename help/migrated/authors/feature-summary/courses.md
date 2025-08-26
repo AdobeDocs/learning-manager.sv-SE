@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Skapa, ändra och publicera kurser
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
 workflow-type: tm+mt
-source-wordcount: '7030'
+source-wordcount: '7172'
 ht-degree: 0%
 
 ---
@@ -495,7 +495,7 @@ Författare kan lägga till HTML-länkar i aktivitetsmodulen och ange slutföran
 1. I skaparappen väljer du **[!UICONTROL Create Courses]** på startsidan.
 1. Välj **[!UICONTROL Add]** från skärmen **[!UICONTROL Course Catalog]**
 1. Skriv namnet på och beskrivningen av kursen.
-1. Välj **[!UICONTROL Add Module]** > **[!UICONTROL Activity Module]** i alternativet **[!UICONTROL Module]**.
+1. Välj **[!UICONTROL Module]** > **[!UICONTROL Add Module]** i alternativet **[!UICONTROL Activity Module]**.
 1. Skriv namn och beskrivning i uppmaningen **[!UICONTROL Activity Module]**.
 1. Välj **[!UICONTROL Type]** som **[!UICONTROL External URL]**.
 1. Välj något av följande alternativ från alternativet **[!UICONTROL Completion Criteria]**.
@@ -599,6 +599,26 @@ Ange följande information på den här sidan:
    *Tilldela en instruktörsroll till en användare*
 
 1. Klicka på **[!UICONTROL Republish]** om du vill återpublicera kursen med uppdateringarna.
+
+### Tillåt att instruktörer markerar framsteg
+
+Med Adobe Learning Manager kan instruktörer markera elevernas framgångsstatus i ett klassrum eller en virtuell klassrumsmodul. Författare kan ge instruktörer behörighet att markera status som lyckad för elever när de skapar klassrumsmoduler eller virtuella klassrumsmoduler. Instruktörer kan markera framgången genom att markera en elev som godkänd eller ej, vilket säkerställer att förloppet uppdateras därefter.
+
+Så här tillåter du att instruktörer markerar elevens framgång:
+
+1. Logga in på Adobe Learning Manager som författare.
+2. Välj **[!UICONTROL Create Courses]** på startsidan.
+3. Välj **[!UICONTROL Add]**.
+4. Ange nödvändig information och välj **[!UICONTROL Add Modules]**.
+5. Välj **[!UICONTROL Virtual Classroom Module]** eller **[!UICONTROL Classroom Module]**.
+6. Ange nödvändiga uppgifter och välj datum.
+7. Välj alternativet **[!UICONTROL Allow Instructor to mark success]**.
+
+   ![Tillåt instruktör att markera framsteg? kryssrutan är markerad, vilket gör att författare kan låta instruktörer registrera elevens framgångsstatus för en modul](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
+   _Skärmen Sessionsdetaljer med alternativet Tillåt instruktör att markera slutförda aktiviteter markerat för klassrums- eller virtuella klassrumsmoduler_
+
+8. Välj **[!UICONTROL Done]**.
+
 
 ## Checklista för observation
 
@@ -805,7 +825,7 @@ Du kan även publicera kursmodulerna till Learning Manager från Adobe Captivate
 1. Logga in med autentiseringsuppgifterna för Adobe. Klicka på **[!UICONTROL Create Account]** om du inte har något Adobe-ID. Efter auktoriseringen dirigeras du till modulpubliceringssidan.
 1. Ange all grundläggande information om modulen och klicka på Publish.
 
-Du kan se den publicerade modulen på sidan Learning Manager-moduler. Mer information finns i [Publish-projekt till Adobe Learning Manager](https://helpx.adobe.com/se/captivate/classic/publish-project-to-captivate-prime.html).
+Du kan se den publicerade modulen på sidan Learning Manager-moduler. Mer information finns i [Publish-projekt till Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Kurseffektivitet {#courseeffectiveness}
 
@@ -903,7 +923,7 @@ Du måste inaktivera standardkatalogen och skapa anpassade kataloger.
 
 +++
 
-+++Hur gör jag för att registrera dig för en slutförd kurs igen?
++++Hur omregistrerar man sig för en slutförd kurs?
 
 En slutförd kurs kan inte återställas. En elev **kan inte registreras om** till en slutförd kurs.
 
@@ -921,7 +941,7 @@ Utför stegen nedan:
 
 +++
 
-+++Hur lägger man till en resursfil i kursen?
++++Hur lägger man till resursfilen i kursen?
 
 När du skapar en kurs kan du lägga till video-, ljud-, pdf- eller textfiler till kursen som är relevanta för kursen så att eleven kan få tillgång till ytterligare utbildningsmaterial.
 
@@ -929,7 +949,7 @@ När du skapar en kurs kan du lägga till video-, ljud-, pdf- eller textfiler ti
 
 +++
 
-+++Hur ställer du in flera försök på modul?
++++Hur ställer man in flera försök på modul?
 
 **Förhandskrav:** Administratören måste aktivera alternativet **Flera försök** i **Inställningar > Allmänt** i Admin-appen.
 
