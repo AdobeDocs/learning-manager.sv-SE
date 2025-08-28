@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Fluidic-spelare
 contentowner: manochan
 exl-id: 19dc07c4-9716-45f2-9c77-05d45da34b85
-source-git-commit: de57d96488851c31c380b34672767a803379842e
+source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ Fluidic-spelaren är en plattform för elever som vill konsumera innehåll med o
 
 När du har lämnat kursen kan du gå tillbaka till kursen genom att klicka på knappen **Gå tillbaka**/**Fortsätt** på kursbeskrivningssidan.
 
+**Automatisk uppspelning**: Adobe Learning Manager Fluidic-spelare har inte något inbyggt alternativ för att hindra videofilmer från att spelas upp automatiskt. Om en video spelas upp automatiskt beror på inställningarna i webbläsaren, inte på spelaren själv.
+
 Fluidic-spelaren kan också bäddas in på en extern webbplats eller i ett externt program med Learning Manager API.
 
 Den mobila fluidic-spelaren har följande funktioner:
@@ -67,3 +69,4 @@ Den mobila fluidic-spelaren har följande funktioner:
 * Spelare bör inte pausas vid beröring eller tryck på skärmen. I stället bör det ta upp spelaren navigeringsfältet.
 * Om navigeringsfältet inte har interagerats med försvinner det efter 3 sekunder.
 * Navigeringsfältet förblir aktivt tills navigeringsmenyalternativen (Innehållsförteckning, Anteckningar, Inställningar) stängs.
+

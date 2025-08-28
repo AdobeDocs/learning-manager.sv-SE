@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Skapa, ändra och publicera kurser
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
+source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
 workflow-type: tm+mt
-source-wordcount: '7172'
+source-wordcount: '7280'
 ht-degree: 0%
 
 ---
@@ -513,6 +513,24 @@ Utvärdering är en viktig aspekt av alla system för hantering av inlärning. U
 
 Man kan tänka sig butiksanställda eller lagerarbetare som genomgår en utvärdering för de uppgifter de förväntas utföra på daglig basis. Det kan vara de steg som utförs för att reparera en kaffemaskin eller de steg som krävs för att packa ett material. Instruktörer kan utvärdera anställda för sådana uppgifter på grundval av en checklista och utvärdera dem som godkända eller underkända i utvärderingsaktiviteten.
 
+### Byt ut modulerna i publicerade kurser
+
+Adobe Learning Manager tillhandahåller verktyg för att skapa, redigera och hantera kurser som består av flera innehållsmoduler. När kursinnehållet behöver uppdateras eller förbättras kan författare ersätta befintliga moduler utan att störa elevens framsteg.
+
+Ersätta modulerna:
+
+1. Logga in på Adobe Learning Manager som författare.
+2. Välj **[!UICONTROL Courses]** i den vänstra navigeringsrutan.
+3. Välj en kurs och välj sedan **[!UICONTROL Edit]**.
+4. Välj den modul du vill ändra.
+5. Ändra titel och beskrivning.
+6. Välj modul med alternativet **Innehåll**.
+   ![](assets/replace-the-module.png)
+7. Välj **[!UICONTROL Done]**.
+8. Välj **[!UICONTROL Republish]**.
+
+Eleverna behåller sina framsteg i andra moduler men måste slutföra den nya modulen för att slutföra kursen.
+
 ### Skapa en checklista {#createachecklist}
 
 Det är bara en författare som kan skapa en checklista. En checklista är en typ av aktivitetsmodul. När du konfigurerar en aktivitetsmodul kan du som författare välja en aktivitet som **Checklista**, som visas nedan:
@@ -825,7 +843,7 @@ Du kan även publicera kursmodulerna till Learning Manager från Adobe Captivate
 1. Logga in med autentiseringsuppgifterna för Adobe. Klicka på **[!UICONTROL Create Account]** om du inte har något Adobe-ID. Efter auktoriseringen dirigeras du till modulpubliceringssidan.
 1. Ange all grundläggande information om modulen och klicka på Publish.
 
-Du kan se den publicerade modulen på sidan Learning Manager-moduler. Mer information finns i [Publish-projekt till Adobe Learning Manager](https://helpx.adobe.com/se/captivate/classic/publish-project-to-captivate-prime.html).
+Du kan se den publicerade modulen på sidan Learning Manager-moduler. Mer information finns i [Publish-projekt till Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Kurseffektivitet {#courseeffectiveness}
 

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Färgteman
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1198'
 ht-degree: 0%
 
 ---
@@ -174,7 +174,7 @@ I listan nedan visas de komponenter som kan anpassas. Kontakta Learning Manager 
    <td>
     <p>Teckensnitt</p></td>
    <td>
-    <p>Om du vill använda teckensnitten måste du ha ett CDN. Dessutom måste du dela teckensnittsfamiljen som ska användas.</p>
+    <p>Administratörer kan kontakta Adobe Learning Manager supportteam på <a ref="mailto:learningmanagersupport@adobe.com"> learningmanagersupport@adobe.com</a> för att ändra teckensnitt. Om du vill använda teckensnitten måste du ha ett CDN. Dessutom måste du dela teckensnittsfamiljen som ska användas.</p>
     <p><b>Obs!</b> Teckensnittsfamiljen måste stödjas i alla webbläsare.</p></td>
   </tr>
   <tr>
