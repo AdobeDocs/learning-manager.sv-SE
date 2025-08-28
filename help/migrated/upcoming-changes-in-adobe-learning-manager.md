@@ -2,9 +2,9 @@
 title: Nyheter i oktoberversionen av Adobe Learning Manager
 description: Läs om de nya funktionerna, förbättringarna och viktiga uppdateringar i Adobe Learning Manager i oktober 2025-versionen.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 7012876539448af3433273f369011e3e0bd07407
+source-git-commit: c16f18e5ab5df120ab5fb40bbf77af2b3f6f43bb
 workflow-type: tm+mt
-source-wordcount: '7807'
+source-wordcount: '8086'
 ht-degree: 0%
 
 ---
@@ -190,6 +190,50 @@ d. **[!UICONTROL As Email]**
 8. Välj **[!UICONTROL Save]**.
 
 Det är bara elever inom den anpassade administratörens omfattning som kan se meddelandet. Om du vill ha mer information om hur du skapar flera typer av meddelanden läser du i den här [artikeln](/help/migrated/administrators/feature-summary/announcements.md).
+
+### Återställ omfattningen av anpassade administratörer
+
+Anpassade administratörer kan återställa omfattningen av sina publicerade meddelanden om en administratör har ändrat deras omfattning. När omfattningen har återställts tillämpas det uppdaterade omfånget på tillkännagivandet och endast elever inom det nya omfånget kan se tillkännagivandet.
+
+Så här återställer du omfånget:
+
+1. Logga in på Adobe Learning Manager som en anpassad administratör.
+2. Välj **[!UICONTROL Announcement]** i den vänstra navigeringsrutan.
+3. Välj fliken **[!UICONTROL Published]**.
+4. Välj ett meddelande och välj sedan inställningsikon.
+5. Välj **[!UICONTROL Edit]**.
+
+   ![](assets/select-edit-published-announcement.png)
+   _Meddelandeskärmen visar de publicerade meddelandena med alternativ för redigering, publicering och annat_
+
+6. Välj **Återställ**.
+
+   ![](assets/reset-the-scope.png)
+   _Meddelande som visar ett meddelande om scopeändring, med ett alternativ för anpassade administratörer att återställa och uppdatera scopevalet för att återspegla nya åtkomstbehörigheter_
+
+Omfattningen uppdateras och endast användare inom det uppdaterade omfånget kan se tillkännagivandet.
+
+### Redigera meddelandet via administratörsgränssnittet
+
+Administratörer kan se meddelanden som skapats av anpassade administratörer via deras gränssnitt. De kan endast redigera dessa meddelanden genom att ändra eller ta bort det tilldelade omfånget. Om omfångsändringar inte görs kan administratörer inte redigera meddelandet ytterligare.
+
+Så här redigerar du meddelandet via administratörsgränssnittet:
+
+1. Logga in på Adobe Learning Manager som administratör.
+2. Välj **[!UICONTROL Announcement]** i den vänstra navigeringsrutan.
+3. Välj fliken **[!UICONTROL Published]**.
+4. Välj ett meddelande och välj sedan inställningsikon.
+5. Välj **[!UICONTROL Edit]**.
+
+   ![](assets/select-edit-published-announcement.png)
+   _Meddelandeskärmen visar de publicerade meddelandena med alternativ för redigering, publicering och annat_
+
+6. Välj **[!UICONTROL Remove]**.
+
+   ![](assets/remove-the-scope.png)
+   _En meddelandeskärm som anger att omfånget måste tas bort för att administratörer ska kunna redigera meddelanden som skapats för användargrupper med omfång_
+
+Administratören kan redigera meddelandet efter att omfånget har tagits bort.
 
 ## Tagga användare på sociala anslagstavlor
 
@@ -834,15 +878,13 @@ API:t skapar eller uppdaterar utbildningsobjektets tillstånd för det angivna s
 
 **Översikt**
 
-Go1-integreringen har förbättrats och stöder nu hantering av spellistor, skapande av utbildningsvägar och återkommande certifieringsarbetsflöden, samtidigt som vi går över till en modell för förhandsgranskning och köp av innehåll.
+Go1-integreringen har förbättrats så att du kan gå vidare med Go1-kurser för att skapa utbildningsprogram (LP) i Adobe Learning Manager. Denna uppdatering stödjer inkluderandet av Go1-kurser i återkommande certifieringar och introducerar en ny version av Go1-innehållsnavet som möjliggör effektivare kurskurser.
 
 **Nyheter**
 
 * Skapa och hantera spellistor direkt i Go1 med hjälp av AI-chattassistans eller manuellt val.
-* Konvertera Go1-spellistor till Adobe Learning Manager Learning Paths enkelt.
 * Inkludera Go1-kurser i återkommande certifieringscykler med automatisk återställning av förloppet.
 * Uppgraderat gränssnitt för innehållsidentifiering för förbättrad bläddring och kuratering av innehåll.
-* Övergång från kostnadsfritt innehåll till en transparent kostnadsmodell.
 
 **Viktiga fördelar**
 
@@ -863,29 +905,32 @@ Go1-integreringen har förbättrats och stöder nu hantering av spellistor, skap
 * Efterlevnadsfokuserade utbildningsprogram som kräver regelbundna innehållsuppdateringar och leveranscykler.
 * Utbildningsteam försöker minska kostnaderna för kurering av innehåll genom AI-hjälp.
 
-### Skapa en Go1-spellista
+### Lägg till Go1-spellista till en utbildningsväg
 
-Administratörer kan skapa spellistor med Go1-kurser som är skräddarsydda för olika elevgrupper baserat på plats, roll, produkt och andra kriterier. Spellistor kan skapas manuellt eller genereras med AI.
+Administratörer kan skapa en utbildningsväg som innehåller en Go1-spellista, så att eleverna får tillgång till valda kurser från tredje part som en del av utbildningen.
 
-Skapa en spellista:
+Så här skapar du en utbildningsväg:
 
 1. Logga in på Adobe Learning Manager som administratör.
-2. Välj **[!UICONTROL Content Marketplace]** i den vänstra navigeringsrutan.
+2. Välj **[!UICONTROL Learning Paths]** i den vänstra navigeringsrutan.
+3. Välj **[!UICONTROL Add]**.
 
-   ![](assets/select-content-marketplace.png)
-   _Utforska och lägg till Go1-toppkurser i dina spellistor genom att välja Content Marketplace i Adobe Learning Manager_
+   ![](assets/select-add-to-lp.png)
+   _Välj Lägg till i avsnittet Utbildningsvägar för att skapa och organisera nya strukturerade utbildningsprogram för dina elever_
 
-3. Välj **[!UICONTROL Content Hub]** och sedan **[!UICONTROL Library]**.
-4. Välj **[!UICONTROL Create playlist]** och något av följande:
+4. Ange de obligatoriska uppgifterna och välj **[!UICONTROL Save]**. Mer information finns i den här [artikeln](/help/migrated/administrators/feature-summary/learning-paths.md).
+5. Välj **[!UICONTROL Add Go1 Courses]**.
+
+   ![Alt-text](assets/select-go1-courses.png)
+   _Lägg till Go1-kurser i din spellista för kompetensutveckling hos säljingenjörer så att du kan utöka utbildningsalternativen med utvalt innehåll från tredje part_
+
+6. Sök efter och välj **[!UICONTROL Library]** i **[!UICONTROL Create playlist]** och välj något av följande:
 a. **[!UICONTROL with AI]**: Skapa en spellista med hjälp av AI.
 b. **[!UICONTROL by myself]**: Skapa en spellista genom att manuellt lägga till kurser i den.
 
-   ![](assets/select-create-playlist.png)
-   _Skapa en ny spellista i Adobe Learning Manager genom att välja Skapa spellista för att organisera och leverera riktade kurser för dina elever_
-
 **Skapa en spellista med AI**
 
-Administratörer kan skriva spelningslistans beskrivning i AI-dialogen. AI kommer att välja ut de relaterade kurserna och skapa en spellista baserat på kraven.
+Administratörer kan skriva spelningslistans beskrivning i AI-dialogen. AI kommer att välja ut de relaterade kurserna och skapa en spellista baserat på kraven. AI genererar spellistor genom att tolka utbildningsmålet eller uppmaningen som tillhandahålls av användaren. När du skapar en spellista kan administratörer välja att strukturera innehåll &quot;med AI&quot; vilket gör att systemet kan använda stora språkmodeller för att förstå de angivna utbildningsmålen och innehållspreferenser som längd och typ. AI söker sedan i innehållsbiblioteket efter relevanta utbildningsobjekt som matchar dessa kriterier.
 
 Skapa en spellista med AI:
 
@@ -900,17 +945,25 @@ Skapa en spellista med AI:
    ![](assets/type-a-prompt.png)
    _Skriv in ditt utbildningsmål för att skapa en anpassad spellista, så att Adobe Learning Manager kan rekommendera målinriktade kurser som är anpassade till dina elevers behov_
 
-4. Välj kunskaperna från listan och välj sedan kurslängden och skriv din spellista.
-5. Välj **[!UICONTROL Generate playlist]**.
+4. Välj kunskaperna i listan.
 
-   ![](assets/select-generate-playlist.png)
-   _Anpassa din spellista i Adobe Learning Manager genom att välja lämpliga färdigheter och kurslängd_
+   ![](assets/select-skills.png)
+   _Välj kompetenser från listan för att välja ut kurser för säljteknikern_
+5. Välj kurslängd och typ för din spellista.
+6. Välj **[!UICONTROL Generate playlist]**. Spellistan skapas med tio kurser och administratören kan använda den för att skapa en utbildningsväg.
 
+   ![](assets/created-playlist.png)
+   _Se över din utvalda spellista med kompetenshöjande säljtekniker i Adobe Learning Manager_
+7. Välj **[!UICONTROL Add to Library]**.
+8. Välj **Ja** i bekräftelsemeddelandet.
+9. Välj spelningslistan från **[!UICONTROL Select playlist to import prompt]**.
 
-Spellistan skapas med tio kurser och administratören kan använda den för att skapa en utbildningsväg.
+   ![](assets/add-playlist-to-lp.png)
+   _Markera och importera spellistan Sales Engineer Skills Enhancement från biblioteket Go1 i Adobe Learning Manager_
 
-![](assets/created-playlist.png)
-_Se över din utvalda spellista för kompetenshöjande säljtekniker i Adobe Learning Manager_
+10. Välj **[!UICONTROL Add Playlists to Learning Path]** och sedan **[!UICONTROL Publish]**.
+
+Kurserna i spellistan läggs till i utbildningsvägen. Administratörer kan sedan registrera elever som omedelbart kan börja ta kurserna.
 
 **Skapa en spellista manuellt**
 
@@ -937,43 +990,6 @@ Så här skapar du en spellista manuellt:
 5. Sök efter och välj de kurser som krävs.
 
 Spellistan har skapats med relaterade kurser och administratörer kan använda den för att skapa en utbildningsväg.
-
-### Lägg till Go1-spellista till en utbildningsväg
-
-Administratörer kan skapa en utbildningsväg som innehåller en Go1-spellista, så att eleverna får tillgång till valda kurser från tredje part som en del av utbildningen.
-
-Så här skapar du en utbildningsväg:
-
-1. Logga in på Adobe Learning Manager som administratör.
-2. Välj **[!UICONTROL Learning Paths]** i den vänstra navigeringsrutan.
-3. Välj **[!UICONTROL Add]**.
-
-   ![](assets/select-add-to-lp.png)
-   _Välj Lägg till i avsnittet Utbildningsvägar för att skapa och organisera nya strukturerade utbildningsprogram för dina elever_
-
-4. Ange de obligatoriska uppgifterna och välj **[!UICONTROL Save]**. Mer information finns i den här [artikeln](/help/migrated/administrators/feature-summary/learning-paths.md).
-5. Välj **[!UICONTROL Add Go1 Courses]**.
-
-   ![](assets/select-add-to-lp.png)
-   _Lägg till Go1-kurser i din spellista för kompetensutveckling hos säljingenjörer så att du kan utöka utbildningsalternativen med utvalt innehåll från tredje part_
-
-6. I **[!UICONTROL Library]** söker du efter och väljer spellista i Välj **[!UICONTROL Go1 Courses screen]**.
-
-   >[!NOTE]
-   >
-   >Se till att du ställer in filtret Skapad av mig så att du enkelt hittar din spellista.
-
-   ![](assets/select-save-to-add-playlist.png)
-   _Välj en spellista för säljtekniker från kursbiblioteket Go1 i Adobe Learning Manager_
-
-7. Välj **[!UICONTROL Add to Library]** och sedan **[!UICONTROL Save]**.
-
-   ![](assets/add-playlist-to-lp.png)
-   _Markera och importera spellistan Sales Engineer Skills Enhancement från biblioteket Go1 i Adobe Learning Manager_
-
-8. Välj **[!UICONTROL Add]** och sedan **[!UICONTROL Publish]**.
-
-Kurserna i spellistan läggs till i utbildningsvägen. Administratörer kan sedan registrera elever som omedelbart kan börja ta kurserna.
 
 ## Spara förlopp för spelarläge för språk
 
@@ -1044,6 +1060,18 @@ Tidigare kunde role.csv- och user_role.csv-filer bara överföras i fullständig
 
 * Globala företag hanterar regionala team genom att ladda upp flera inkrementella användarfiler för varje region (EU, Amerika, Asien), så att administratörer kan uppdatera användare och tilldela nya roller för varje region i ett enda arbetsflöde.
 * Stora företag automatiserar registrering och behörigheter genom att regelbundet hämta inkrementella användaruppdateringar från HR-system. Detta stöder sömlösa uppdateringar av användarprofiler och detaljerad rolltilldelning utan manuell åtgärd.
+
+### Nya kolumner har lagts till i CSV-filer
+
+Tre nya kolumner har lagts till för att förbättra de data som samlas in i CSV-export/import med användare, roller och användarroller:
+
+* **Användarregistreringsstatus (user.csv)**: Anger användarens aktuella registreringsstatus.
+* **Rolltillstånd (role.csv)**: Anger aktuell status för roller i systemet.
+* **Användarrollens tillstånd (user_role.csv)**: Anger statusen för användarrollsassociationen.
+
+Ladda ned [CSV-exempelfilerna](assets/sample-csv-Incremnetal.zip) här.
+
+
 
 ## Återställ rekommendationer i Salesforce-programmet
 
@@ -1704,4 +1732,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/sv/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
