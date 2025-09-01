@@ -4,7 +4,7 @@ title: Anpassade roller
 description: Med funktionen Utbildningsvägar kan du definiera anpassade roller och tilldela specifika ansvarsområden till en uppsättning användare. Med den här funktionen kan du tilldela ansvar utanför personens befintliga roll.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 9304c303d0be20e04aad2c0bc2092d1eaffaf53e
 workflow-type: tm+mt
 source-wordcount: '3366'
 ht-degree: 1%
@@ -300,7 +300,7 @@ Gör så här om du vill tilldela flera anpassade roller till en användare:
 
 1. Logga in som administratör och välj **[!UICONTROL Users]**.
 2. Välj **[!UICONTROL Custom Roles]** i den vänstra panelen.
-3. Skapa en ny anpassad roll och lägg till kontobehörigheter, kataloger, utbildningsobjekt eller omfattningar. Se stegen som nämns [här](#create-a-custom-role).
+3. Skapa en ny anpassad roll och lägg till kontobehörigheter, kataloger, utbildningsobjekt eller omfattningar. Se [stegen som nämns här](#create-a-custom-role).
 4. Lägg till användare i den anpassade rollen.
 
    ![](assets/add-users-in-custom-roles.png)
@@ -322,8 +322,8 @@ Genom att överföra en CSV-fil i Adobe Learning Manager kan du effektivt tillde
 
 Du kan nu tilldela flera roller till en användare via CSV-import genom att överföra två filer till Box:
 
-* role.csv
-* user_role.csv.
+* [role.csv](assets/role.csv)
+* [user_role.csv](assets/user_role.csv)
 
 Filen user_role.csv innehåller fälten Anpassad roll och Användar-id.
 
@@ -639,7 +639,7 @@ Om du klickar på **[!UICONTROL Yes]** uppdateras omfånget.
 En administratör kan aktivera spelifieringsrapporter för en anpassad användare.
 
 1. Ange namnet på den anpassade rollen på sidan **[!UICONTROL Custom Roles]**.
-1. Aktivera alternativet **[!UICONTROL Full Control]** för kategorin **[!UICONTROL Reports]** i avsnittet **[!UICONTROL Feature Privileges: Core Features]**.
+1. Aktivera alternativet **[!UICONTROL Feature Privileges: Core Features]** för kategorin **[!UICONTROL Full Control]** i avsnittet **[!UICONTROL Reports]**.
 
 1. I avsnittet **[!UICONTROL Users]** väljer du den användare som ska tilldelas den nyligen skapade anpassade rollen.
 1. Klicka på **[!UICONTROL Save]**.
