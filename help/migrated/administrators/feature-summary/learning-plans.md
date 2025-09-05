@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Utbildningsplaner
 contentowner: manochan
 exl-id: 99e3d2f5-0bf0-4f4e-8874-8136af7c592a
-source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1573'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,8 @@ Om du vill skapa en utbildningsplan måste du logga in som administratör.
 
    ![](assets/add-learning-plandialog.png)
 
-1. Välj önskad händelse i listrutan **[!UICONTROL Occurs when]**. Alternativen bestämmer när en elev tar kursen. När du har valt typ av evenemang väljer du lämplig utbildning, kurser, utbildningsprogram eller certifiering.
+1. Välj önskad händelse i listrutan **[!UICONTROL Occurs when]**. Administratörer kan lägga till en händelse åt gången.
+Alternativen bestämmer när en elev tar kursen. När du har valt typ av evenemang väljer du lämplig utbildning, kurser, utbildningsprogram eller certifiering.
 
 >[!NOTE]
 >
@@ -200,7 +201,7 @@ Du kan filtrera utbildningsplaner efter typen av händelse som användes när en
 
 1. Hur konfigurerar jag Learning Manager för automatiska registreringar för registrering av nya anställningar?
 
-   Välj alternativet **[!UICONTROL New Learner is added]** i listrutan **[!UICONTROL Occurs when]**. Tilldela sedan utbildningsobjekten, instansen och slutförandedatumet för eleven. Både administratörer och författare kan skapa händelser för automatisk registrering. Aktivera händelsen när den har skapats.
+   Välj alternativet **[!UICONTROL Occurs when]** i listrutan **[!UICONTROL New Learner is added]**. Tilldela sedan utbildningsobjekten, instansen och slutförandedatumet för eleven. Både administratörer och författare kan skapa händelser för automatisk registrering. Aktivera händelsen när den har skapats.
 
 1. Hur konfigurerar jag en utbildningsplan/automatisk registrering för klassrumskurs och virtuella klassrumskurser?
 

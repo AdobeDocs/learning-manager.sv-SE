@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Färgteman
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -186,6 +186,17 @@ I listan nedan visas de komponenter som kan anpassas. Kontakta Learning Manager 
     <ul>
      <li><b>Rekommenderat bildformat:</b> PNG, JPG, JPEG</li>
      <li><b>Rekommenderad storlek: </b>1400x908 px</li>
+    </ul></td>
+  </tr>
+   <tr>
+   <td>
+    <p>Favicon</p></td>
+   <td>
+    <p>Administratörer kan inte ändra favicon för Adobe Learning Manager-kontot. Kontakta supportteamet på <a href="mailto:learningmanagersupport@adobe.com">learningmanagersupport@adobe.com</a> om du vill uppdatera favicon </p>
+    <p>Du måste ha bilden som du behöver för att ansöka till elevens bakgrund.</p>
+    <ul>
+     <li><b>Rekommenderat bildformat:</b>PNG</li>
+     <li><b>Rekommenderad storlek: </b>32x32 px</li>
     </ul></td>
   </tr>
  </tbody>

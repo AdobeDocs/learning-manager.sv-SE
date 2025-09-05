@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Skapa, ändra och publicera kurser
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: a3a36fb1c68fb48809ad77b0d0a7ffa3daebe79e
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '7280'
+source-wordcount: '7384'
 ht-degree: 0%
 
 ---
@@ -737,7 +737,19 @@ Fönstret med kursinformation visas. Kursen är i skrivskyddat läge. Klicka på
 
 ## Ta bort en kurs {#retireacourse}
 
+Administratörer kan aktivera pensioneringsalternativet för Adobe Learning Manager-kontot. Med den här funktionen kan administratörer dra tillbaka en kurs, vilket gör den otillgänglig för nya registreringar samtidigt som aktuella registrerade elever behåller åtkomsten.
+
 Vid utfasning av en kurs döljs den för elever, även om de är registrerade eller redan har slutfört den. Om du tar en kurs ur bruk kan du inte registrera nya elever på kursen. Elever som redan är registrerade kan ta kursen.
+
+Så här aktiverar du alternativet Ta ur bruk för Adobe Learning Manager-kontot:
+
+1. Logga in på Adobe Learning Manager som administratör.
+2. Välj **[!UICONTROL Settings]** och sedan **[!UICONTROL General]**.
+3. Välj något av följande alternativ för pensionering:
+   * När de har fasats ut kan registrerade elever se och utföra åtgärder, men ännu inte registrerade elever förlorar åtkomsten.
+   * När elever har dragit sig tillbaka förlorar både registrerade och ännu inte registrerade elever åtkomst.
+
+Administratörer kan ta en kurs ur bruk från sidan **[!UICONTROL Courses]**.
 
 Om du vill ta en kurs ur bruk ska du gå till kurskortet, hålla pekaren över alternativen och klicka på Ta bort kurs.
 
@@ -843,7 +855,7 @@ Du kan även publicera kursmodulerna till Learning Manager från Adobe Captivate
 1. Logga in med autentiseringsuppgifterna för Adobe. Klicka på **[!UICONTROL Create Account]** om du inte har något Adobe-ID. Efter auktoriseringen dirigeras du till modulpubliceringssidan.
 1. Ange all grundläggande information om modulen och klicka på Publish.
 
-Du kan se den publicerade modulen på sidan Learning Manager-moduler. Mer information finns i [Publish-projekt till Adobe Learning Manager](https://helpx.adobe.com/se/captivate/classic/publish-project-to-captivate-prime.html).
+Du kan se den publicerade modulen på sidan Learning Manager-moduler. Mer information finns i [Publish-projekt till Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Kurseffektivitet {#courseeffectiveness}
 

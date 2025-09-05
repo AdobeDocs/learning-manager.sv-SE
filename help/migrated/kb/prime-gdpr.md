@@ -4,9 +4,9 @@ title: Learning Manager-kompatibilitet till GDPR
 description: Adobe Learning Manager-efterlevnad av GDPR
 contentowner: dvenkate
 exl-id: 8ea31464-b4ce-49e8-b471-5630f0216aa4
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Innehållet i detta dokument är inte juridisk rådgivning och är inte avsett att ersätta juridisk rådgivning. Rådgör med ditt företags juridiska avdelning om GDPR.
+
+Adobe Learning Manager arbetar aktivt för att följa GDPR och ser till att användardata hanteras säkert och transparent. Den tillhandahåller viktiga GDPR-funktioner såsom möjligheten att rensa användare (radera alla personuppgifter permanent) och låter administratörer generera elevens betygsutdrag för att dela information med användare på begäran.
+
+Alla användardata skyddas med stark kryptering under överföring och lagring, med standarder som SHA-256. För vissa integreringar måste elever autentisera och säkerställa att deras samtycke erhålls innan de delar några data. Med hjälp av dessa sekretess- och säkerhetskontroller kan organisationer som använder Adobe Learning Manager följa GDPR och skydda elevinformation.
 
 +++Vad är GDPR?
 

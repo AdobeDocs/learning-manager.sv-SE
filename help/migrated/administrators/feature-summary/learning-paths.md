@@ -4,9 +4,9 @@ title: Utbildningsvägar
 description: Skapa utbildningsplaner för administratörer i Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: c365dca377e8c6ad7bb9489c6fe043e72660c54e
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1388'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ Utbildningsvägsinstanserna visar ytterligare en panel, **[!UICONTROL Learning P
 
 I panelen **Kurser** kan du se kursinstanserna som är synliga för eleverna som är registrerade i den här instansen.
 
-Kryssrutan **[!UICONTROL Enable Learners to Choose instances (Flexible Learning Path)]** gäller bara kurser. Alla underordnade utbildningsvägar får ett alternativ för att mappa en instans av ett utbildningsprogram med utbildningsvägen. Som standard är mappningen inställd på Standardinstans.
+Kryssrutan **[!UICONTROL Enable Learners to Choose instances (Flexible Learning Path)]** gäller bara kurser. Med det här alternativet kan elever byta sina instanser i utbildningsvägen. Alla underordnade utbildningsvägar får ett alternativ för att mappa en instans av ett utbildningsprogram med utbildningsvägen. Som standard är mappningen inställd på Standardinstans.
 
 ![](assets/default-instance.png)
 

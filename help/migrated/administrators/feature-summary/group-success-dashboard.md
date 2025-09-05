@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Tavla för slutförda grupper
 description: Läs mer om kontrollpanelen för lyckade gruppåtgärder i Adobe Learning Manager
 exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
-source-git-commit: 6880c5232ca20498d6fac517c4f0f786dfb8f6d5
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '1015'
 ht-degree: 0%
 
 ---
@@ -37,13 +37,19 @@ En administratör kan aktivera och skapa instrumentpanelerna genom att ge dem et
 Administratören måste aktivera kontrollpanelen för lyckade gruppåtgärder för kontot. Gör så här för att aktivera kontrollpanelen för slutförda grupper:
 
 1. Logga in som administratör.
-2. Välj **[!UICONTROL Settings]**&#x200B;och sedan **[!UICONTROL Reports]**.
+2. Välj **[!UICONTROL Settings]**och sedan **[!UICONTROL Reports]**.
 3. Välj växlingsfunktionen **[!UICONTROL Dashboard visibility]**.
 4. Skriv namnet på instrumentpanelen (till exempel **[!UICONTROL Store Manager Dashboard]**).
    ![](assets/enable-gsd.png)
    _Fält för instrumentpanelens namn, användargrupp och val av utbildningsväg_
 5. Välj **[!UICONTROL Overview Visibility]** för att aktivera översiktsavsnittet på kontrollpanelen. I det här avsnittet kan du se förloppet för upp till 50 elever.
+
+   >[!NOTE]
+   >
+   >Om det finns fler än 50 elever i teamet eller fler än 50 utbildningsobjekt går du till fliken **[!UICONTROL Learner Transcript]** i stället för fliken **[!UICONTROL Overview]**.
+
 6. För avsnittet **[!UICONTROL Learner Transcript]** väljer du de obligatoriska kolumner som du vill visa.
+
 
    * Elev
    * Banor och kurser
@@ -95,7 +101,7 @@ När du har skapat en kontrollpanel kan administratören visa den genom att föl
 1. Logga in som administratör.
 2. Välj **[!UICONTROL Reports]** och sedan **[!UICONTROL Group Success Dashboard]**.
 Instrumentpanelens namn är Store Manager-instrumentpanelen.
-3. Välj skapad tavla i listrutan **[!UICONTROL Select dashboard]** i avsnittet **[!UICONTROL Your dashboards]**.
+3. Välj skapad tavla i listrutan **[!UICONTROL Your dashboards]** i avsnittet **[!UICONTROL Select dashboard]**.
 4. Kontrollpanelen är uppdelad i:
    * **[!UICONTROL Overview]**: Du kan snabbt se elevernas framsteg på enskilda kurser eller utbildningsvägar. Du kan visa framsteg på upp till 50 kurser eller utbildningsvägar och 50 elever samtidigt. Om du vill kontrollera en specifik elevs framsteg väljer du avsnittet **[!UICONTROL Learner Transcript]**.
 

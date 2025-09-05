@@ -3,9 +3,9 @@ description: Lär dig använda Aktiva fält i Adobe Learning Manager för att h�
 jcr-language: en_us
 title: Konfigurera aktiva fält i Adobe Learning Manager
 exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -87,6 +87,10 @@ Så här konfigurerar du inställningar för aktiva fält:
 
 3. Välj **Spara** för att tillämpa ändringarna.
 
+>[!NOTE]
+>
+>Anpassade användargrupper påverkas inte om du tilldelar en ny roll. Det kommer dock att påverka automatiskt genererade användargrupper som Alla administratörer, Alla författare och liknande rollbaserade grupper.
+
 ## Aktiva fält med flera värden
 
 Med aktiva fält med flera värden kan du tilldela flera värden till ett enda användarattribut, t.ex. platser, jobbtitlar eller projektteam. Detta hjälper till att samla in mer detaljerad och flexibel användarinformation.
@@ -118,8 +122,10 @@ _Kryssruta för att aktivera värdebegränsning under CSV-överföring_
 
 ## Hantera saknade aktiva fält i användar-CSV-import
 
-I vissa fall föredrar administratörer att elever fyller i vissa aktiva fält manuellt när de loggar in på Adobe Learning Manager. Detta stöds för användare som importeras via en CSV-fil. I den här [artikeln](/help/migrated/administrators/feature-summary/add-users-user-groups.md) finns information om hur du lägger till flera användare samtidigt.
+I vissa fall föredrar administratörer att elever fyller i vissa aktiva fält manuellt när de loggar in på Adobe Learning Manager. Detta stöds för användare som importeras via en CSV-fil. I den här [artikeln](/help/migrated/administrators/feature-summary/add-users-user-groups.md) finns information om hur du lägger till flera användare samtidigt. Användare läggs automatiskt till i aktiva fält eller rollbaserade grupper baserat på Boxs FTP-fältvärden. De kan inte läggas till i anpassade grupper.
 
 Om en CSV-fil inte innehåller alla aktiva fält måste administratören manuellt ange de värden som saknas efter importen.
 
-Som standard måste varje aktivt fält mappas till ett motsvarande fält i CSV-källfilen. Om du inte vill mappa ett specifikt aktivt fält till en kolumn i CSV-filen kan du välja värdet **DontImportFromSource** i listrutan under både Box- och FTP-importprocessen. Det här alternativet är tillgängligt när du importerar användare via FTP- eller Box-anslutningar. Läs den här [artikeln](https://experienceleague.adobe.com/sv/docs/learning-manager/using/integration/connectors) om du vill ha mer information om anslutningarna.
+Som standard måste varje aktivt fält mappas till ett motsvarande fält i CSV-källfilen. Om du inte vill mappa ett specifikt aktivt fält till en kolumn i CSV-filen kan du välja värdet **DontImportFromSource** i listrutan under både Box- och FTP-importprocessen. Det här alternativet är tillgängligt när du importerar användare via FTP- eller Box-anslutningar. Läs den här [artikeln](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors) om du vill ha mer information om anslutningarna.
+
+
