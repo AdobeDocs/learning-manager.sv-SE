@@ -126,6 +126,6 @@ I vissa fall föredrar administratörer att elever fyller i vissa aktiva fält m
 
 Om en CSV-fil inte innehåller alla aktiva fält måste administratören manuellt ange de värden som saknas efter importen.
 
-Som standard måste varje aktivt fält mappas till ett motsvarande fält i CSV-källfilen. Om du inte vill mappa ett specifikt aktivt fält till en kolumn i CSV-filen kan du välja värdet **DontImportFromSource** i listrutan under både Box- och FTP-importprocessen. Det här alternativet är tillgängligt när du importerar användare via FTP- eller Box-anslutningar. Läs den här [artikeln](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors) om du vill ha mer information om anslutningarna.
+Som standard måste varje aktivt fält mappas till ett motsvarande fält i CSV-källfilen. Om du inte vill mappa ett specifikt aktivt fält till en kolumn i CSV-filen kan du välja värdet **DontImportFromSource** i listrutan under både Box- och FTP-importprocessen. Det här alternativet är tillgängligt när du importerar användare via FTP- eller Box-anslutningar. Läs den här [artikeln](https://experienceleague.adobe.com/sv/docs/learning-manager/using/integration/connectors) om du vill ha mer information om anslutningarna.
 
 

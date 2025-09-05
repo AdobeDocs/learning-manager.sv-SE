@@ -144,9 +144,9 @@ Följande kolumner visar aktivitet, förlopp eller försök.
 | Highest_Quiz_score_max | Högsta möjliga quiz-poäng för modulen. Det kan vara tomt om eleven inte har försökt utföra quiz eller om innehållet inte har några quiz. |
 | Antal gjorda försök | Det totala antalet försök som har gjorts av eleven hittills för denna modul. |
 | Max antal tillåtna försök | Det maximala antalet försök som tillåts för eleven att konsumera modulen. |
-| Kommentarer till ansökan | Kommentarer från en elevs chef efter att denne har slutfört ett utbildningsobjekt.<br>Data för inskickade kommentarer från instruktören ingår i modulen för inskickade filer. Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager.</a></br> |
+| Kommentarer till ansökan | Kommentarer från en elevs chef efter att denne har slutfört ett utbildningsobjekt.<br>Data för inskickade kommentarer från instruktören ingår i modulen för inskickade filer. Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager.</a></br> |
 | Källa för slutförande | <b>Obs!</b> När en elev markeras som närvarat automatiskt i VC-anslutningsarbetsflöden visas &quot;SELF, (learner_email)&quot; i källan. |
-| Kommentar kring slutförande | Administratörens kommentarer när denne markerar en elev som slutförd efter att denne har slutfört en kurs, certifiering eller utbildningsväg. Administratören kan lägga till slutförandekommentarer för en eller flera elever. Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/courses#completion-comments">Kommentarer till slutförande</a>. |
+| Kommentar kring slutförande | Administratörens kommentarer när denne markerar en elev som slutförd efter att denne har slutfört en kurs, certifiering eller utbildningsväg. Administratören kan lägga till slutförandekommentarer för en eller flera elever. Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/learning-manager/using/admin/courses#completion-comments">Kommentarer till slutförande</a>. |
 
 **Information relaterad till utbildningsobjekt**
 
@@ -278,7 +278,7 @@ Håll koll på elever som har kommande inlämningsdatum för viktiga kurser, utb
 
 | Kolumn | Beskrivning |
 |---|---|
-| Efter | Representerar antalet elever som uppnådde en kompetens före en angiven period (i dagar), efter vilken kompetensen anses vara föråldrad eller kräver uppdatering. Användbart för att identifiera elever med uppnådda eller utgångna kompetenser.<br>Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels">kompetensnivåer</a>. |
+| Efter | Representerar antalet elever som uppnådde en kompetens före en angiven period (i dagar), efter vilken kompetensen anses vara föråldrad eller kräver uppdatering. Användbart för att identifiera elever med uppnådda eller utgångna kompetenser.<br>Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/learning-manager/using/admin/skills-levels">kompetensnivåer</a>. |
 | Namn | Fullständigt namn på den elev som kompetensen är tilldelad. |
 | Chefens namn | Namn på elevens rapportansvarige. |
 | Radetiketter | Det specifika kunskapsnamnet som har tilldelats elever som visas på den här raden. Används som en grupperingsrubrik för att sammanfatta data om elevens kompetens under varje kompetenskategori. |
