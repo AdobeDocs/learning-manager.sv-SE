@@ -37,7 +37,7 @@ En administratör kan aktivera och skapa instrumentpanelerna genom att ge dem et
 Administratören måste aktivera kontrollpanelen för lyckade gruppåtgärder för kontot. Gör så här för att aktivera kontrollpanelen för slutförda grupper:
 
 1. Logga in som administratör.
-2. Välj **[!UICONTROL Settings]**och sedan **[!UICONTROL Reports]**.
+2. Välj **[!UICONTROL Settings]**&#x200B;och sedan **[!UICONTROL Reports]**.
 3. Välj växlingsfunktionen **[!UICONTROL Dashboard visibility]**.
 4. Skriv namnet på instrumentpanelen (till exempel **[!UICONTROL Store Manager Dashboard]**).
    ![](assets/enable-gsd.png)

@@ -60,7 +60,7 @@ Elevens BETYGSUTDRAG i Adobe Learning Manager spårar utbildning, regelefterlevn
 3. Välj **[!UICONTROL Custom Reports]** i Rapporter och välj sedan **[!UICONTROL Excel Reports]**.
 4. Välj **[!UICONTROL Learner Transcripts]**.
 
-   ![]()
+   ![] ()
 
 5. Välj **[!UICONTROL Generate New]**.
 6. Välj det datumintervall som du vill att transkriptionen ska genereras för. Som standard är **[!UICONTROL From]**-datumet elevens registreringsdatum och **[!UICONTROL To]**-datumet är alltid det aktuella datumet. Du kan bara ändra startdatumet från när du behöver informationen.
@@ -74,12 +74,12 @@ b. Välj specifika kataloger i listrutan **[!UICONTROL Select Catalogs]**. Trans
        * Pågår
        * HAR INTE STARTATS
        * avregistrerad
-   8. Avancerade alternativ: Välj **[!UICONTROL Advanced options]** för att hämta utskrifterna och inkludera följande:
+   &#x200B;8. Avancerade alternativ: Välj **[!UICONTROL Advanced options]** för att hämta utskrifterna och inkludera följande:
 
    a. Ladda ned utskrifter för elever som har tagits bort från ett konto genom att markera kryssrutan **[!UICONTROL Include deleted Learners]**.
 b. Ladda ned information om modulnivå i elevens betygsutdrag genom att aktivera kryssrutan **[!UICONTROL Enable module level information]**. I det här fallet hämtas modulnamn och den tid som används för varje modul som en del av utskriften om det här alternativet är aktiverat.
 c. Ladda ned kompetensdata och sammanfattningsblad genom att markera kryssrutan **[!UICONTROL Include skills data and summary sheets]**. Mer information finns i avsnittet Excel-rapporter.
-9. Du kan också välja de kolumnvärden som ska fyllas i i rapporten. Det ger flexibilitet att hämta rapporter med specifika kolumnvärden efter behov. Välj kolumnerna i listrutan.
+&#x200B;9. Du kan också välja de kolumnvärden som ska fyllas i i rapporten. Det ger flexibilitet att hämta rapporter med specifika kolumnvärden efter behov. Välj kolumnerna i listrutan.
 
    
 
