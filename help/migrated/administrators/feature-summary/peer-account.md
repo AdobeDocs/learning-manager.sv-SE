@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Kollegiala konton
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,18 @@ Learning Manager erbjuder möjligheten att dela köpta platser med hjälp av fun
 1. Klicka på Lägg till för att lägga till det kollegiala kontot.
 
    Om en administratör delar platser med en kollega kan den kollegiala administratören inte dela dem med någon annan. Kollegiet kan dock köpa vissa platser separat och dela dem.
+
+## Visa platser som delas av kollegiala konton
+
+Administratörer kan visa antalet platser som delas av kollegiala konton i administratörsgränssnittet.
+
+Så här visar du de platser som delas av kollegialt konto:
+
+1. Logga in på Adobe Learning Manager som administratör.
+2. Välj **[!UICONTROL Users]** och sedan **[!UICONTROL Internal]**.
+
+![](assets/peer-account-seats.png)
+_Avsnittet Användare visar antalet platser som delas av det kollegiala kontot_
 
 ## Visa rapporter som är kopplade till kollegiala konton {#viewreportsassociatedwithpeeraccounts}
 
