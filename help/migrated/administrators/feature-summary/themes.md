@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Färgteman
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1276'
 ht-degree: 0%
 
 ---
@@ -86,6 +86,8 @@ Välj önskat tema i listrutan, justera inställningarna och klicka på **[!UICO
 Medan du förhandsgranskar ändringarna live visas popup-fönstret för direktförhandsgranskning av tema fortfarande längst ned på skärmen. Du kan välja att minimera popup-fönstret.
 
 ## Flera varumärken {#multiple-branding}
+
+Administratörer kan använda flera varumärkesstilar i organisationen. Varumärket kan anpassas baserat på aktiva fält, vilket gör att olika användargrupper kan uppleva varumärken som är anpassade till deras profil eller roll.
 
 Så här implementerar du flera varumärken:
 

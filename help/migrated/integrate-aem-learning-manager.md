@@ -4,9 +4,9 @@ title: Integrera Adobe Learning Manager med AEM
 description: Learning Manager är ett system för hantering av inlärning med ett inbyggt system för hantering av utbildningsinnehåll. Användarna hanterar sitt utbildningsinnehåll genom att ladda upp det till Learning Manager så att Learning Manager utför versionshantering, allokering till kurser, definierar synligheten för elever , spårar förbrukning och rapporterar tillbaka till administratörer.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: aa8a45427e7e78ac66a21531a9511bf9a21d03b4
+source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
 workflow-type: tm+mt
-source-wordcount: '3047'
+source-wordcount: '3069'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ När du har installerat ALM-referenspaketet kan du börja skapa en webbplats fö
 
 När du har skyddat AEM Sites-miljön måste du installera ALM-referenspaketet. Detta paket innehåller AEM-webbsidor och webbplatskomponenter som hjälper dig att konstruera utbildningsplattformen.
 
-Referenswebbplatspaketet finns på [**GitHub-databasen**](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0).
+Referenswebbplatspaketet finns på [**GitHub-databasen**](https://github.com/adobe/adobe-learning-manager-reference-site/releases).
 
 Mer information finns i filen VIKTIGT.
 
@@ -52,7 +52,7 @@ Installera Learning Manager-innehållspaketet med hjälp av AEM Package Manager:
 
 >[!NOTE]
 >
->Mer information om hur du installerar paket finns i [***Arbeta med paket***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=sv-SE#how-to-work-with-packages).
+>Mer information om hur du installerar paket finns i [***Arbeta med paket***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. Öppna AEM Package Manager när du är AEM-författare.
 1. Klicka på knappen **[!UICONTROL Upload Package]**.
@@ -413,6 +413,7 @@ Så här konfigurerar du widgeten Mina sparade kurser på AEM-webbplatser:
 
 Widgeten visar de sparade kurserna för eleverna.
 
+När du använder ett annat filter i katalogen visas bara de resultat som matchar det filtret. Bokmärkta objekt inkluderas inte automatiskt.
 
 ### Ignorera högre ordning för LO-registrering
 
