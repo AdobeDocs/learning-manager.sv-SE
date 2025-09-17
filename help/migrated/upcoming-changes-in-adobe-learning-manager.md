@@ -2,9 +2,9 @@
 title: Nyheter i oktoberversionen av Adobe Learning Manager
 description: Läs om de nya funktionerna, förbättringarna och viktiga uppdateringar i Adobe Learning Manager i oktober 2025-versionen.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 7217001ed6d4f19f43e0bed83813a956e85bd9c2
 workflow-type: tm+mt
-source-wordcount: '8086'
+source-wordcount: '8044'
 ht-degree: 0%
 
 ---
@@ -74,12 +74,6 @@ Användarrapporten innehåller nu ytterligare fält för att förbättra använd
 * Stöder arbetsflöden för hantering av nedströmsanvändare genom integreringsfunktioner.
 * Förbättrad organisationskarta och bättre förståelse för rapporteringsrelationer.
 * Bibehåller organisatoriska gränser och förhindrar oavsiktlig korskommunikation.
-
-**Viktiga överväganden**
-
-* Om en anpassad administratörs omfång ändras, visas en varningsikon för de meddelanden som påverkas och individuella omfång återställs.
-* Varje meddelande måste uppdateras individuellt när omfånget ändras.
-* Meddelanderapporten visar endast elever inom den anpassade administratörens tilldelade omfång.
 
 ### Användarrapport med den nya kolumnen
 
@@ -1732,4 +1726,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/sv/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
