@@ -2,9 +2,9 @@
 title: Nyheter i oktoberversionen av Adobe Learning Manager
 description: Läs om de nya funktionerna, förbättringarna och viktiga uppdateringar i Adobe Learning Manager i oktober 2025-versionen.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 7217001ed6d4f19f43e0bed83813a956e85bd9c2
+source-git-commit: ffd45cb8cb2d35817e8fc19d5256c14931e31ff3
 workflow-type: tm+mt
-source-wordcount: '8044'
+source-wordcount: '8057'
 ht-degree: 0%
 
 ---
@@ -1063,9 +1063,11 @@ Tre nya kolumner har lagts till för att förbättra de data som samlas in i CSV
 * **Rolltillstånd (role.csv)**: Anger aktuell status för roller i systemet.
 * **Användarrollens tillstånd (user_role.csv)**: Anger statusen för användarrollsassociationen.
 
+>[!NOTE]
+>
+>Ovanstående CSV-ändringar gäller endast konton som använder inkrementella användare.
+
 Ladda ned [CSV-exempelfilerna](assets/sample-csv-Incremnetal.zip) här.
-
-
 
 ## Återställ rekommendationer i Salesforce-programmet
 
@@ -1726,4 +1728,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/sv/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->

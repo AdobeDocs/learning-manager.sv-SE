@@ -4,9 +4,9 @@ title: Integrera Adobe Learning Manager med AEM
 description: Learning Manager är ett system för hantering av inlärning med ett inbyggt system för hantering av utbildningsinnehåll. Användarna hanterar sitt utbildningsinnehåll genom att ladda upp det till Learning Manager så att Learning Manager utför versionshantering, allokering till kurser, definierar synligheten för elever , spårar förbrukning och rapporterar tillbaka till administratörer.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
+source-git-commit: ffd45cb8cb2d35817e8fc19d5256c14931e31ff3
 workflow-type: tm+mt
-source-wordcount: '3069'
+source-wordcount: '3088'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Installera Learning Manager-innehållspaketet med hjälp av AEM Package Manager:
 
 >[!NOTE]
 >
->Mer information om hur du installerar paket finns i [***Arbeta med paket***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=sv-SE#how-to-work-with-packages).
+>Mer information om hur du installerar paket finns i [***Arbeta med paket***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. Öppna AEM Package Manager när du är AEM-författare.
 1. Klicka på knappen **[!UICONTROL Upload Package]**.
@@ -411,7 +411,7 @@ Så här konfigurerar du widgeten Mina sparade kurser på AEM-webbplatser:
 5. Välj **[!UICONTROL My Saved Courses]** i listrutan i **[!UICONTROL Properties]**.
 6. Välj **[!UICONTROL Done]** och uppdatera sedan sidan i läget **[!UICONTROL Preview]** eller **[!UICONTROL Publish]**.
 
-Widgeten visar de sparade kurserna för eleverna.
+Elever kan visa sina sparade kurser i remsan **[!UICONTROL Saved by Me]** på elevens startsida. Om du väljer remsan **[!UICONTROL Saved by Me]** kommer eleverna till katalogsidan och visar det exakta antalet bokmärkta kurser.
 
 När du använder ett annat filter i katalogen visas bara de resultat som matchar det filtret. Bokmärkta objekt inkluderas inte automatiskt.
 
