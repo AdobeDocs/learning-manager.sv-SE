@@ -4,9 +4,9 @@ title: Integrera Adobe Learning Manager med AEM
 description: Learning Manager är ett system för hantering av inlärning med ett inbyggt system för hantering av utbildningsinnehåll. Användarna hanterar sitt utbildningsinnehåll genom att ladda upp det till Learning Manager så att Learning Manager utför versionshantering, allokering till kurser, definierar synligheten för elever , spårar förbrukning och rapporterar tillbaka till administratörer.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: ffd45cb8cb2d35817e8fc19d5256c14931e31ff3
+source-git-commit: 976dc0123cd44b7601b5a53e75dca7af5fadabca
 workflow-type: tm+mt
-source-wordcount: '3088'
+source-wordcount: '3199'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Installera Learning Manager-innehållspaketet med hjälp av AEM Package Manager:
 
 >[!NOTE]
 >
->Mer information om hur du installerar paket finns i [***Arbeta med paket***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=sv-SE#how-to-work-with-packages).
+>Mer information om hur du installerar paket finns i [***Arbeta med paket***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. Öppna AEM Package Manager när du är AEM-författare.
 1. Klicka på knappen **[!UICONTROL Upload Package]**.
@@ -360,7 +360,20 @@ Välj **[!UICONTROL Properties]** bland alternativen i avsnittet **[!UICONTROL C
 Katalogalternativen innehåller följande alternativ:
 
 * **[!UICONTROL Catalog ids]:** Kommaavgränsade katalog-ID:n som utbildningen måste visas för.
-* **[!UICONTROL Sort]:** Sorteringsordning för utbildningen. Alternativen är - namn, datum, skapad, datumRegistrerad och så vidare.
+* **[!UICONTROL Sort]:** Sorteringsordning för utbildningen. Följande sorteringsalternativ finns:
+   * namn: Sorterar utbildningsobjekt i bokstavsordning från A till Ö.
+   * -name: Sorterar utbildningsobjekt alfabetiskt från Ö till A.
+   * datum: sorterar efter datum i stigande ordning.
+   * -date: Sorterar efter datum i fallande ordning (senaste först).
+   * dateCreated: Sorterar efter det datum då utbildningsobjektet skapades (äldsta först).
+   * -dateCreated: Sorterar efter skapelsedatum (senaste först).
+   * dateEnrolled: Sorterar efter elevens registreringsdatum (tidigaste först).
+   * -dateEnrolled: Sorterar efter registreringsdatum (senaste först).
+   * rating: Sorterar efter elevbetyg (lägsta till högsta).
+   * -rating: Sorterar efter betyg (högsta till lägsta).
+   * dueDate: sorterar efter kursens förfallodatum (den tidigaste deadline först).
+   * effektivitet: Sorterar efter effektivitetspoäng baserat på elevfeedback.
+   * framsteg: Sorterar på elevframsteg (minst framsteg till de flesta).
 * **[!UICONTROL Learner State]:** Returnerar all utbildning som använder följande som filter: registrerad, påbörjad, slutförd och inte registrerad. Sökresultaten visas inte om sorteringsalternativet är dateEnrolled, dueDate eller dateEnrolled.
 * **[!UICONTROL Skill name]:** Den kompetens som används för att filtrera exakt utbildning.
 * **[!UICONTROL Tag name]:** Taggen som används för att filtrera exakta resultat.
