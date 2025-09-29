@@ -2,9 +2,9 @@
 title: Nyheter i oktoberversionen av Adobe Learning Manager
 description: Läs om de nya funktionerna, förbättringarna och viktiga uppdateringar i Adobe Learning Manager i oktober 2025-versionen.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: ffd45cb8cb2d35817e8fc19d5256c14931e31ff3
+source-git-commit: 40071158037ece57c8511a554ae69ca5701f32ad
 workflow-type: tm+mt
-source-wordcount: '8057'
+source-wordcount: '8045'
 ht-degree: 0%
 
 ---
@@ -1260,8 +1260,6 @@ Så här skapar du en sida i Adobe Learning Manager:
 
 Sidan har skapats och sparats som ett utkast i avsnittet Anpassade sidor. Administratörer kan redigera och designa utkast av sidor med hjälp av widgetarna.
 
-Följ samma steg när du vill skapa sidor för andra produkter som Illustrator.
-
 #### Designsida i Experience Builder
 
 Med Adobe Learning Manager kan administratörer utforma sidor som är anpassade efter deras behov med hjälp av anpassningsbara widgetar.
@@ -1728,4 +1726,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/sv/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
