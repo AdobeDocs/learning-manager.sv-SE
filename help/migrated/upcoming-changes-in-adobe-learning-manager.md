@@ -2,18 +2,18 @@
 title: Nyheter i oktoberversionen av Adobe Learning Manager
 description: Läs om de nya funktionerna, förbättringarna och viktiga uppdateringar i Adobe Learning Manager i oktober 2025-versionen.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 40071158037ece57c8511a554ae69ca5701f32ad
+source-git-commit: 1e7e7ba6e419476476e18ed3f826cc07ac2e1f88
 workflow-type: tm+mt
-source-wordcount: '8045'
+source-wordcount: '8044'
 ht-degree: 0%
 
 ---
 
-# Nyheter i Adobe Learning Manager oktober 2025-versionen
+# Kommande ändringar i Adobe Learning Manager
 
 >[!IMPORTANT]
 >
->Observera att de beskrivna funktionerna är trevande och kan komma att ändras. För mer detaljerad information och bekräftelse kan du kontakta din tilldelade kundansvarige. Om du stöter på några problem kontaktar du vår kundsupport på [learningmanagersupport@adobe.com](mailto:learningmanagersupport@adobe.com).
+>Oktober 2025-versionen av Adobe Learning Manager är nu tillgänglig. I [Nyheter](/help/migrated/whats-new.md) finns mer information om de senaste funktionerna och förbättringarna. Den här sidan uppdateras med de nya funktionerna och förbättringarna i nästa version. Håll utkik efter fler uppdateringar.
 
 ## Översikt över versionen
 
@@ -1726,4 +1726,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/sv/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->

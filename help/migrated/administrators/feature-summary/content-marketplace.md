@@ -4,9 +4,9 @@ title: Content Marketplace
 description: Learning Manager erbjuder nu Content Marketplace så att du kan utforska och köpa utbildningar. Utforska över 70 000 kurser som täcker ett brett ämnesområde och som finns i flera format. Välj mellan kurerade spellistor som tillgodoser en mängd olika roller och uppfyller dina behov av lärande och kompetenshöjning.
 contentowner: saghosh
 exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -145,11 +145,9 @@ When a learner clicks Express interest to Catalog in the Learner app, the intere
 
 ## Materialnav
 
-Med innehållsnav kan administratörer välja ut spellistor som krävs från elevappen. Sidan Innehållsnav är alltid synlig för administratörer i deras elevroll eftersom den gör det möjligt för dem att enkelt välja ut spellistor. Administratörer kan göra den här sidan tillgänglig för begränsade ämnesexperter på deras konto så att du lättare kan välja ut rätt spellista.
+Administratörer kan komma åt Go1-plattformen direkt från Adobe Learning Manager. Gå till **[!UICONTROL Content Marketplace]** och välj sedan **[!UICONTROL Content Hub]**.
 
-Adobe Learning Manager synkroniseras regelbundet med innehållsnavet för att se till att nya tillägg och uppdateringar återspeglas automatiskt på plattformen.
-
-Allt innehåll mappas till språk som stöds, vilket gör att administratörer kan filtrera och hantera innehåll mer effektivt utifrån språkinställningar.
+Content Hub replikerar Go1-plattformen, vilket gör att administratörer kan bläddra bland kurser, skapa flera spellistor och utforska innehåll, vilket ger en sömlös Go1-upplevelse i Adobe Learning Manager.
 
 ## E-postmallar
 

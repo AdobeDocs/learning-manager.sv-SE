@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Mina utbildningar
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: f022ecdc10a8d9d473cd598697422edbb302a78c
 workflow-type: tm+mt
-source-wordcount: '3070'
+source-wordcount: '3294'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ Författare som skapar en kurs kan växla mellan att aktivera eller inaktivera i
 
 ## Arbetsflöde som elev
 
-Som elev får du betygsätta en kurs endast efter registrering. Du kan se de genomsnittliga stjärngraderingarna för en kurs på sidan **Hem**, sidan **Mitt lärande** och katalogen **5&rbrace;.**
+Som elev får du betygsätta en kurs endast efter registrering. Du kan se de genomsnittliga stjärngraderingarna för en kurs på sidan **Hem**, sidan **Mitt lärande** och katalogen **5}.**
 
 1. Logga in som **elev**. Detta läser in **startsidan**.
 
@@ -291,6 +291,19 @@ Gör så här för att ändra kursinstans:
 
    Den nyligen valda instansen registreras. Om en elev är registrerad på en kursinstans som är en del av en annan LO och han uppdaterar kursinstansen som är en del av det flexibla utbildningsprogrammet, kommer han automatiskt att avregistreras från de andra utbildningsobjekten efter en varning.
 
+## Språkbaserad framstegshantering
+
+Elevframsteg kan spåras separat för varje språkinställning, vilket säkerställer att växling mellan språk i spelaren inte påverkar framsteg som uppnåtts tidigare. Framstegen för varje modul bibehålls oberoende på både användar- och modulnivå, vilket förhindrar att framstegen skrivs över när eleverna utforskar innehåll på olika språk.
+
+Om en elev till exempel når 75 % på engelska och sedan byter till spanska, återupptas arbetet på engelska från 75 % i stället för att återgå till 0 %. Varje språkinställning lagrar sitt eget förloppstillstånd, vilket gör att elever smidigt kan navigera och slutföra innehåll på flera språk utan att förlora sina individuella framsteg.
+
+Följande innehållstyper stöds inte för språkbaserade elevframsteg:
+
+* Video- och ljudinnehåll stöds inte.
+* Innehåll från tredje part, som Go1, LinkedIn Learning, getAbstract och Harvard ManageMentor stöds inte.
+* Innehåll som inte skickar data till utbildningspostlagret (LRS) kommer inte att ha framsteg spårade eller sparade.
+* Användare av mobilappar kan inte spåra förloppet för den här funktionen i offlineläge.
+
 ## Slutföra en kurs {#completingacourse}
 
 En elev kan fylla i erforderligt antal moduler i en kurs för att slutföra kursen. Kriterierna för slutförande av kursen beror på hur många moduler som författaren har angett som obligatoriska. När du registrerar dig för en kurs med ett minimikrav för slutförande kan du se slutförandevillkoren i den högra rutan på sidan Kurs.
@@ -319,6 +332,19 @@ Fliken Diskussion är inte aktiverad för externa användare.
 
 ![](assets/learning-program200s.jpg)
 *Diskussionsfliken*
+
+## Registrera intresse för kurserna
+
+Elever kan registrera sitt intresse för kurser som inte har någon aktiv instans.
+
+Så här anmäler du en intresseanmälan:
+
+1. Logga in på Adobe Learning Manager som elev.
+2. Gå till **[!UICONTROL Catalog]** och välj kursen som inte har någon aktiv instans.
+3. Välj **[!UICONTROL Register Interest]** på sidan Kursöversikt.
+
+   ![](assets/register-interest.png)
+   _Avsnittet Kursöversikt i elevgränssnittet, med alternativ för att registrera intresse_
 
 ## Kursens livscykel {#courselifecycle}
 

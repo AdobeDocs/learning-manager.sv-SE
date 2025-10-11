@@ -4,9 +4,9 @@ title: Elevens startsida
 description: När administratören har aktiverat fördjupad layout hälsas eleven, efter att ha loggat in i appen, med ett helt förnyat användargränssnitt.
 contentowner: saghosh
 exl-id: 71b495c7-a6c8-4e6e-9f00-ec93d7b483ad
-source-git-commit: c4eb9a7c4fca73bc029f9afad1f3d48725779d30
+source-git-commit: 92ddeb8ad58d78ac139e7106bf22e7f1ff45b5b0
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1190'
 ht-degree: 0%
 
 ---
@@ -143,7 +143,11 @@ Kalenderwidgeten har följande funktioner. Du kan visa:
 * Utbildning per månad. Rulla åt vänster eller höger.
 * Kommande klassrums- eller VC-utbildning som är tillgänglig för dig för registrering.
 * Kommande klassrums- eller VC-utbildning som du har registrerat dig för.
+* Dina slutförda klassrums- eller VC-sessioner
 * Chefsgodkänd utbildning i klassrum eller VC.
+
+Du kan använda filtret **[!UICONTROL View enrolled sessions only]** för att endast visa registrerade sessioner i din kalender.
+
 
 ## Socialt flöde {#socialfeed}
 

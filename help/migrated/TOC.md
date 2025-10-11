@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation för Adobe Learning Manager
-source-git-commit: 9304c303d0be20e04aad2c0bc2092d1eaffaf53e
+source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '760'
 ht-degree: 8%
 
 ---
@@ -14,13 +14,14 @@ ht-degree: 8%
 
 * [Användarhandbok för Learning Manager](user-guide.md)
 * Introduktion {#introduction}
-   * [Nyheter i Adobe Learning Manager oktober 2025-versionen](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
-   * [Sammanfattning av nya funktioner maj 2025](/help/migrated/whats-new.md)
+   * [Sammanfattning av nya funktioner oktober 2025](/help/migrated/whats-new.md)
+   * [Sammanfattning av nya funktioner maj 2025](/help/migrated/whats-new-may-2025.md)
    * [Sammanfattning av nya funktioner i november 2024](/help/migrated/whats-new-nov-24.md)
    * [Sammanfattning av nya funktioner juli 2024](whats-new-july-2024.md)
    * [Nya funktioner mars 2024](whats-new-march-2024.md)
    * [Nya funktioner november 2023](whats-new-november-2023.md)
    * [Nya funktioner juli 2023](whats-new-2023-july.md)
+   * [Kommande ändringar i Adobe Learning Manager](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
    * [Versionsinformation](release-note/release-notes.md)
    * [Systemkrav](system-requirements.md)
    * [Adobe Learning Manager-app för Microsoft Teams](adobe-learning-manager-app-microsoft-teams.md)
@@ -48,7 +49,25 @@ ht-degree: 8%
       * [Aktiva fält](/help/migrated/administrators/feature-summary/active-fields.md)
    * [Lägg till klassrumsplatser](administrators/feature-summary/classroom.md)
    * [Skapa kursinstanser och utbildningsvägar](administrators/feature-summary/courses.md)
-   * [Content Marketplace](administrators/feature-summary/content-marketplace.md)
+   * Experience Builder i Adobe Learning Manager {#experience-builder}
+      * [Översikt](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
+      * [Kärnkomponenter i Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
+      * Sidor i Experience Builder {#pages-in-experience-builder}
+         * [Översikt](/help/migrated/administrators/feature-summary/experience-builder/pages-overview.md)
+         * [Skapa en anpassad sida i Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/create-a-page.md)
+      * Widgetar i Experience Builder {#widgets-in-experience-builder}
+         * [Översikt](/help/migrated/administrators/feature-summary/experience-builder/widget-overview.md)
+         * [Lägg till och konfigurera widgetar](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md)
+      * Meny i Experience Builder {#menu-in-experience-builder}
+         * [Översikt](/help/migrated/administrators/feature-summary/experience-builder/menu-overview.md)
+         * [Skapa en meny](/help/migrated/administrators/feature-summary/experience-builder/create-a-menu.md)
+      * Anpassning i Experience Builder {#customization-in-experience-builder}
+         * [Översikt](/help/migrated/administrators/feature-summary/experience-builder/customization-overview.md)
+         * [Anpassa Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/customization-experience-builder.md)
+      * [Riktlinjer och begränsningar för Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/experience-builder-guidelines.md)
+   * Content Marketplace {#content-marketplace}
+      * [Content Marketplace](administrators/feature-summary/content-marketplace.md)
+      * [Kurera Go1-kurser till utbildningsvägen](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
    * [Rapporter](administrators/feature-summary/reports.md)
    * [Tavla för slutförda grupper](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [Utbildningsvägar](administrators/feature-summary/learning-paths.md)
@@ -81,6 +100,7 @@ ht-degree: 8%
    * [Taggar](administrators/feature-summary/tags.md)
    * [INNEHÅLLSKATALOG FÖR LEARNING MANAGER](administrators/feature-summary/content-catalogs.md)
    * [Anpassade roller](administrators/feature-summary/custom-role.md)
+   * [Anpassad roll för behörighet för tillkännagivande](/help/migrated/administrators/feature-summary/create-custom-role-for-announcement.md)
    * [Katalogetiketter](administrators/feature-summary/catalog-labels.md)
    * [xAPI i Learning Manager](authors/feature-summary/xapi.md)
    * [Övervaka och moderera social utbildning som administratör](administrators/feature-summary/social-learning-configurations-as-an-admin.md)

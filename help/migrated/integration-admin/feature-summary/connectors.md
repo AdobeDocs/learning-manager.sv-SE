@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Anslutningar för Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: aecc98cff7a46193627c961222f7e64f858dfa2c
+source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
 workflow-type: tm+mt
-source-wordcount: '15619'
+source-wordcount: '15567'
 ht-degree: 0%
 
 ---
@@ -145,9 +145,9 @@ Så här skapar du objekten:
 
 1. Hämta och installera paket för att skapa anpassade objekt.
 
-   * [Paket 1](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPJ)
-   * [Paket 2](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPT)
-   * [Paket 3](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPi)
+   * [Paket 1](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LSlL)
+   * [Paket 2](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FtK9)
+   * [Paket 3](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FtKE)
 
 1. Byt namn på namnen på de anpassade objekten i Salesforce.
 1. Markera händelserna och klicka på **[!UICONTROL Save]**.
@@ -183,7 +183,7 @@ Learning Manager erbjuder ett Salesforce-programpaket. När de har installerats 
 1. Anteckna program-ID (kallas även klient-ID ) och klienthemligheten som nämns i beskrivningen på sidan Salesforce-program.
 1. Klicka på **[!UICONTROL Approve]** så måste programmet godkännas.
 1. Klicka på **[!UICONTROL Developer Resources]** > **[!UICONTROL Access Tokens for Testing and Development]**.
-1. I avsnittet Hämta OAuth-kod måste klient-ID:et och omfånget vara inställt på - admin:read,admin:write. Klicka på **[!UICONTROL Submit]**.
+1. I avsnittet Hämta OAuth-kod måste klient-ID:t och omfånget anges till - admin:read, admin:write. Klicka på **[!UICONTROL Submit]**.
 1. Ange klient-ID och klienthemlighet i Hämta uppdateringstoken. Klicka på **[!UICONTROL Submit]** och notera uppdateringstoken.
 
 ### Skapa konto i Salesforce-program {#create-account-in-salesforce-app}
@@ -202,7 +202,7 @@ Om du vill installera paketet måste du först ta bort det befintliga paketet i 
 >Adobe Learning Manager-programmet stöds bara i Salesforce Lightning-vyn.
 
 1. Starta [URL till Learning Manager-paketet](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WOQ).
-1. Klicka på **[!UICONTROL Use Custom Domain]** på sidan **Inloggning**.
+1. Klicka på **på sidan** Inloggning **[!UICONTROL Use Custom Domain]**.
 1. Ange paketets URL och klicka på **[!UICONTROL Continue]**. Alternativet Installera endast för administratörer måste vara markerat på installationssidan. Ändra inte det här alternativet.
 1. Klicka på **[!UICONTROL Install]**. Klicka på **[!UICONTROL Done]** när paketet har installerats. Du kommer till sidan Installerade paket där du kan se det installerade Adobe Learning Manager-paketet.
 1. Gå till Appstartaren (bredvid Konfiguration) och sök efter Adobe Learning Manager.
@@ -430,7 +430,7 @@ Med alternativet Importera intern användare kan du importera användare från e
 
 +++
 
-+++Mappattribut
++++Mappningsattribut
 
 När anslutningen har upprättats kan du mappa kolumnerna i CSV-filer. Den placeras i FTP-mappen till motsvarande attribut för Learning Manager. Det här steget är obligatoriskt.
 
@@ -881,19 +881,19 @@ Workday har fyra hierarkinivåer medan Learning Manager har två. De fyra nivåe
 wd:User_ID
 wd:Worker_ID
 chef
-wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.@wd:formatted_name
-wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.@wd:formatted_name
+wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.@wd:Formatted_Name
+wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.@wd:Formatted_Name
 wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:Prefix_Data.wd:Title_Descriptor
 wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:Prefix_Data.wd:Title_Descriptor
 wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:First_Name
 wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:Last_Name
 wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:First_Name
 wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:Last_Name
-wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.@wd:formatted_address
+wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.@wd:Formatted_Address
 wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Postal_Code
 wd:Personal_Data.wd:Contact_Data.wd:Email_Address_Data.0.wd:Email_Address
 wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Country_Region_Descriptor
-wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.@wd:formatted_phone
+wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.@wd:Formatted_Phone
 wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:Country_ISO_Code
 wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:International_Phone_Code
 wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:Phone_Number
@@ -906,7 +906,7 @@ wd:Role_Data.wd:Organization_Role_Data.wd:Organization_Role.0.wd:Organization_Ro
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Position_Title
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Title
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Name
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.@wd:formatted_address
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.@wd:Formatted_Address
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Classification_Reference.wd:ID.1.$
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Group_Reference.wd:ID.1.$
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Work_Space__Reference.wd:ID.1.$
@@ -915,13 +915,13 @@ wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Reference.wd:ID.1.$
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Reference.wd:ID.2.$
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Worker_Type_Reference.wd:ID.1.$
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.@wd:formatted_address
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.@wd:Formatted_Address
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Management_Level_Reference.wd:ID.1.$
 wd:Employment_Data.wd:Worker_Status_Data.wd:Active
 wd:Employment_Data.wd:Worker_Status_Data.wd:Active_Status_Date
 wd:Employment_Data.wd:Worker_Status_Data.wd:Hire_Date
 wd:Employment_Data.wd:Worker_Status_Data.wd:Original_Hire_Date
-wd:Employment_Data.wd:Worker_Status_Data.wd:Reretired
+wd:Employment_Data.wd:Worker_Status_Data.wd:Retired
 wd:Employment_Data.wd:Worker_Status_Data.wd:Retirement_Date
 wd:Employment_Data.wd:Worker_Status_Data.wd:Terminated
 wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Date
@@ -943,7 +943,7 @@ wd:Organization_Subtype_Reference_Division
 wd:Universal_ID
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Descriptor
 wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Reference.wd:ID.2.$
-wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Municipal
+wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Municipality
 
 +++
 
@@ -1144,7 +1144,7 @@ Med alternativet Importera intern användare kan du schemalägga genereringen av
 
 +++
 
-+++Kartattribut
++++Mappningsattribut
 
 När en anslutning har upprättats kan du mappa kolumnerna i CSV-filer som är placerade i Box-mappen till motsvarande attribut för Learning Manager. Det här steget är obligatoriskt.
 
@@ -1409,7 +1409,7 @@ Du kan använda integrering med den här anslutningen för att dra nytta av dina
 
 ### Konfigurera anslutningen {#configuring-the-connector}
 
-Om du vill konfigurera anslutningen håller du pekaren över panelen **[!UICONTROL Power BI]** på sidan **[!UICONTROL Connectors]** och klickar på **[!UICONTROL Connect]**. Power BI-sidan öppnas. Om du vill upprätta en anslutning anger du App Client ID, App Client Secret, Klientorganisationens namn och Workspace ID (valfritt). Följ de här stegen för att erhålla dessa inloggningsuppgifter.
+Om du vill konfigurera anslutningen håller du pekaren över panelen **[!UICONTROL Connectors]** på sidan **[!UICONTROL Power BI]** och klickar på **[!UICONTROL Connect]**. Power BI-sidan öppnas. Om du vill upprätta en anslutning anger du App Client ID, App Client Secret, Klientorganisationens namn och Workspace ID (valfritt). Följ de här stegen för att erhålla dessa inloggningsuppgifter.
 
 ![](assets/power-bi-configurepage.png)
 
@@ -1419,7 +1419,7 @@ Om du vill konfigurera anslutningen håller du pekaren över panelen **[!UICONTR
 1. Klicka på **[!UICONTROL Embed for your organization]** och logga in på ditt Microsoft-konto.
 1. Ange programmets namn.
 1. I avsnittet Apptyp väljer du alternativet Webbapp på serversidan.
-1. Välj alternativet **Använd en anpassad URL** i avsnittet **[!UICONTROL Redirect URL]** (välj detta om du känner till målprogrammets URL). Ange följande URL:
+1. Välj alternativet **[!UICONTROL Redirect URL]** Använd en anpassad URL **i avsnittet** (välj detta om du känner till målprogrammets URL). Ange följande URL:
 
    `https://learningmanager.adobe.com/ctr/app/azure/_callback` (uppdatera domänen baserat på miljön)
 
@@ -2106,7 +2106,7 @@ Ange anslutningsnamn och domännamn
 1. Välj **[!UICONTROL Type of interface]** bland följande alternativ:
 
    * **[!UICONTROL Native Learning Manager]**: Det här är standarderbjudandet som endast är tillgängligt för det inbyggda gränssnittet.
-   * **[!UICONTROL &#x200B; Headless interfaces]**: Det här är premiumerbjudandet som exponerar API:er för att skapa en icke-inloggad upplevelse.
+   * **[!UICONTROL  Headless interfaces]**: Det här är premiumerbjudandet som exponerar API:er för att skapa en icke-inloggad upplevelse.
 
    ![](assets/types-of-interface.png)
 Typer av gränssnitt
@@ -2235,7 +2235,7 @@ När en författare har angett priserna för olika kurser, utbildningsvägar ell
 
 >[!NOTE]
 >
->I mars 2024-versionen av Adobe Learning Manager har vi infört stöd för [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=sv-SE).
+>I mars 2024-versionen av Adobe Learning Manager har vi infört stöd för [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
 
 
 1. Klicka på **[!UICONTROL Export Training Metadata]** > **[!UICONTROL On Demand]**.

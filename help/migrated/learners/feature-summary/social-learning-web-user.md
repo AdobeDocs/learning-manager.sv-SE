@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Social utbildning i Learning Manager
 contentowner: kuppan
 exl-id: 33bc4872-2092-45c4-ac57-f2cec2ca33fb
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 3644e5d14cc5feaefefca85685648a899b406fce
 workflow-type: tm+mt
-source-wordcount: '3018'
+source-wordcount: '3412'
 ht-degree: 2%
 
 ---
@@ -229,6 +229,64 @@ När du visar inläggen i ett brädformat kan du sedan sortera inläggen enligt 
 
 * Om du väljer **inlägg** sorteras anslagstavlorna efter antalet inlägg som gjorts på anslagstavlan.
 * Om du väljer **Medverkande** sorteras anslagstavlorna efter antalet användare som har kommenterat eller svarat i trådarna.
+
+## Tagga användare på sociala tavlor
+
+Elever med tillgång till socialtavlan kan tagga andra användare i inlägg om social utbildning och kommentarer med hjälp av @username. Taggning fungerar via programmen eller API:erna. Det är bara användare med tillgång till tavlan som kan taggas, vilket gör interaktionen både relevant och privat.
+
+* Taggade användare får meddelanden i appen och via e-post
+* Meddelanden innehåller direktlänkar till innehållet
+* Användare utanför tavlan kan inte taggas
+* Borttagna användare visas som &quot;anonyma&quot;
+
+>[!NOTE]
+>
+>Elever kan inte tagga användargrupper eller använda @all för att förhindra spam.
+
+### Tagga användare i inlägg på anslagstavlan
+
+Du kan tagga specifika tavlor i inlägg eller kommentarer med hjälp av @username. Taggning är begränsad till medlemmar med tillgång till den tavlan.
+Så här taggar du användare på ett socialkort:
+
+1. Logga in på Adobe Learning Manager som elev.
+2. Välj **[!UICONTROL Social Learning]** i den vänstra navigeringsrutan.
+
+   ![](/help/migrated/assets/select-social-learning-admin.png)
+   _Aktivera kollaborativ utbildning genom att välja Social utbildning för att komma åt diskussionstavlor, dela insikter och tagga användare för interaktivt engagemang_
+
+3. Välj **[!UICONTROL New Post]**.
+
+   ![](assets/select-new-post.png)
+   _Starta en ny diskussion genom att välja Nytt inlägg i Social utbildning för att dela kunskap med taggade användare_
+
+4. Innan du lägger till märkord till användare väljer du tavlan från alternativet **[!UICONTROL Post this to a Discussion Board]**.
+
+   ![](assets/select-boards-in-social-board.png)
+   _Välj en diskussionstavla där du kan publicera och tagga användare, vilket möjliggör riktade samtalsämnen i social utbildning_
+
+5. Skriv dina inläggsuppgifter och tagga sedan en användare genom att ange @ följt av användarens namn (t.ex. @andrew). När du skriver @ följt av de tre första bokstäverna i användarens namn visas en lista med matchande användare.
+
+   ![](assets/type-a-user-tag.png)
+   _Tagga användare i ditt diskussionsinlägg genom att skriva @ följt av användarnamnet för att möjliggöra riktat samarbete inom tavlor för social utbildning_
+
+6. Välj önskad användare i listan.
+7. Välj **[!UICONTROL Post]**.
+
+Taggade användare får både aviseringar i appen och e-postmeddelanden med en direktlänk till inlägget. Detta gör diskussionerna mer målinriktade och samarbetsinriktade.
+
+### Tagga användare utifrån styrelsens omfattning
+
+Med omfattningsbegränsad taggning kan du endast tagga elever som har behörighet att komma åt en viss tavla. Detta upprätthåller integriteten genom att förhindra taggning av användare utanför omfånget.
+
+Om du försöker tagga elever som ligger utanför tavlans omfattning visas inga förslag och du kan inte tagga dem.
+
+### Tagga borttagna användare
+
+Om en användare som har tagits bort är taggad i ett inlägg på sidan Social utbildning visas användarens namn som &quot;Anonym&quot; i inlägget. Kommentaren och taggen visas fortfarande för sammanhanget, men profillänkar eller detaljer visas inte.
+
+![](assets/deleted-users-tagged.png)
+_Inlägg från social utbildning visar hur en borttagen användare visas som anonym när den är taggad_
+
 
 ### Kompetensfilter {#skillfilter}
 

@@ -4,9 +4,9 @@ title: Hantera anpassade roller via CSV-filer
 description: Integreringsadministratören kan lägga till flera anpassade roller till sitt konto i grupp via CSV och tilldela olika användare samma roller. Detta tillvägagångssätt automatiserar processen för att skapa anpassade roller.
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: f328076016d8c41455cad71f00d1dc9a1531e007
+source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '984'
 ht-degree: 1%
 
 ---
@@ -123,7 +123,7 @@ Du kan ange omfång för användargrupper för olika typer av grupper på följa
   </tr>
   <tr>
    <td>
-    <p>AnpassadRoll</p></td>
+    <p>Anpassadroll</p></td>
    <td>
     <p>Namnet på den konfigurerbara roll som ska tilldelas användaren</p></td>
    <td>
@@ -178,7 +178,7 @@ Aktivera alternativet **[!UICONTROL Enable Auto Sync]** i avsnittet Synkronisera
 
 *Välj alternativet Aktivera automatisk synkronisering*
 
-När du väljer det här alternativet kan du schemalägga synkroniseringstiden vid exakt den tidpunkt som du anger i fältet Synkroniseringstid. Om du anger synkroniseringstiden till klockan 00:00 uppdateras de anpassade rollerna vid exakt den angivna tiden varje dag.
+När du väljer det här alternativet kan du schemalägga synkroniseringstiden vid exakt den tidpunkt som du anger i fältet Synkroniseringstid. Om du anger synkroniseringstiden till kl. 12:00 uppdateras de anpassade rollerna vid exakt den angivna tiden varje dag.:00
 
 Klicka på **[!UICONTROL Sync Now]** om du vill synkronisera data på begäran.
 
@@ -189,3 +189,34 @@ Namnet på en roll måste vara unikt i alla konton. Därför får en roll som sk
 På liknande rader kan en användare inte tilldelas en konfigurerbar roll från administratörsgränssnittet som skapats via CSV eftersom dessa roller inte är tillgängliga.
 
 CSV-filer för användartilldelning kan dock användas för att tilldela roller som skapas av användargränssnittet.
+
+## Inkrementellt stöd och stöd för flera roller
+
+Administratörer kan tilldela anpassade roller för inkrementella användare mer effektivt. De kan överföra användar-, roll- och användarrollsdata utan att behöva överföra hela datauppsättningen på nytt varje gång.
+
+För varje uppladdad användarimportfil skapar du separata mappar i FTP enligt följande struktur:
+
+```
+import/user/internal/
+     user1.csv
+     user2.csv
+     user3.csv
+
+UserRole/
+    user1_role.csv
+    user1_user_role.csv
+    user2_role.csv
+    user2_user_role.csv
+    user3_role.csv
+    user3_user_role.csv
+```
+
+**Filinformation**
+
+* Importfil för användare: user1.csv
+* Rollfil: user1_role.csv
+* Mappningsfil för användarroll: user1_user_role.csv
+
+Ladda ned [CSV-exempelfilerna](/help/migrated/assets/sample-csv-Incremnetal.zip) här.
+
+Varje användarimportfil är direkt länkad till motsvarande roll- och användarrollsmappningsfiler, vilket säkerställer korrekt inkrementell bearbetning.

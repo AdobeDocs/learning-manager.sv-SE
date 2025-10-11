@@ -4,9 +4,9 @@ title: Installera Salesforce-paket
 description: Learning Manager erbjuder ett Salesforce-programpaket. När de har installerats och konfigurerats i SFDC kan säljpersonal utföra sin utbildningsverksamhet inom SFDC-portalen. Med den här appen kan SFDC-användare utforska nya utbildningar, visa rekommendationer och konsumera dem direkt i SFDC-portalen. Användarna får också meddelandena som skickas av administratörer i form av mastheads direkt i appen inom SFDC-portalen.
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: 25c4873f6d01c5832c213b6f225172f3dbcba1ee
+source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1009'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Learning Manager erbjuder ett Salesforce-programpaket. När de har installerats 
 1. Anteckna program-ID (kallas även klient-ID ) och klienthemligheten som nämns i beskrivningen på sidan Salesforce-program.
 1. Klicka på **[!UICONTROL Approve]** så måste programmet godkännas.
 1. Klicka på **[!UICONTROL Developer Resources]** > **[!UICONTROL Access Tokens for Testing and Development]**.
-1. I avsnittet Hämta OAuth-kod måste klient-ID:et och omfånget vara inställt på - admin:read,admin:write. Klicka på **[!UICONTROL Submit]**.
+1. I avsnittet Hämta OAuth-kod måste klient-ID:t och omfånget anges till - admin:read, admin:write. Klicka på **[!UICONTROL Submit]**.
 1. Ange klient-ID och klienthemlighet i Hämta uppdateringstoken. Klicka på **[!UICONTROL Submit]** och notera uppdateringstoken.
 
 ### Skapa konto i Salesforce-program
@@ -47,8 +47,8 @@ Om du vill installera paketet måste du först ta bort det befintliga paketet i 
 >
 >Adobe Learning Manager-programmet stöds bara i Salesforce Lightning-vyn.
 
-1. Starta [URL till Learning Manager-paketet (M42 korrigeringsfil 2)](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LSlG).
-1. Klicka på **[!UICONTROL Use Custom Domain]** på sidan **Inloggning**.
+1. Starta [URL till Learning Manager-paketet](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FvU2).
+1. Klicka på **på sidan** Inloggning **[!UICONTROL Use Custom Domain]**.
 1. Ange paketets URL och klicka på **[!UICONTROL Continue]**. Alternativet Installera endast för administratörer måste vara markerat på installationssidan. Ändra inte det här alternativet.
 1. Klicka på **[!UICONTROL Install]**. Klicka på **[!UICONTROL Done]** när paketet har installerats. Du kommer till sidan Installerade paket där du kan se det installerade Adobe Learning Manager-paketet.
 
@@ -148,7 +148,7 @@ Välj användare och tilldela behörigheter i enlighet med detta. Eleverna kan n
 
 Välj sedan en profil, till exempel en standardprofil för en användare, och klicka på profilen. Klicka på **[!UICONTROL Edit]** och aktivera kryssrutan **Adobe Learning Manager** i avsnittet **Anpassade appinställningar**. Detta gör programmet tillgängligt för användaren.
 
-Välj alternativet **[!UICONTROL Default On]** i avsnittet **Anpassade flikinställningar** i listrutan **Elevens startsida**.
+Välj alternativet **i avsnittet** Anpassade flikinställningar **i listrutan** Elevens startsida **[!UICONTROL Default On]**.
 
 Du måste göra programmet synligt för alla profiler.
 

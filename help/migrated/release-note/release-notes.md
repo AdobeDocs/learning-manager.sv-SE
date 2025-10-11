@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Versionsinformation om Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: ffb4883227f1e461df5fc4a025fef1ba1b8568c2
+source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
 workflow-type: tm+mt
-source-wordcount: '27273'
+source-wordcount: '27301'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,15 @@ ht-degree: 0%
   </tr>
  </tbody>
 </table>-->
+
++++Uppdatering 102: Adobe Learning Manager oktober 2025-versionen
+
+**Utgivningsdatum**: 12 oktober 2025
+
+## Nyheter i den här versionen
+
+Se [Nyheter i Adobe Learning Manager oktober 2025-utgåvan](/help/migrated/whats-new.md) för mer information.
++++
 
 +++Uppdatering 101: Juli 2025-versionen av Adobe Learning Manager
 
@@ -93,7 +102,7 @@ När en administratör klickar på **[!UICONTROL Update]** kan hen välja mellan
 
 | Gammal etikett | Nytt alternativ |
 |---|---|
-| Tillämpa innehållsuppdatering för alla elever | Uppdatera alla elever nu:Tillämpa innehållsuppdatering för alla elever |
+| Tillämpa innehållsuppdatering för alla elever | Uppdatera nu innehållet för alla elever :Apply för alla elever |
 | Tillämpa uppdatering på elever ännu i början | Uppdatera endast elever som inte har startat: Tillämpa endast innehållsuppdatering för elever som inte har startat |
 | Pågående elever får uppdatering efter slutförande | Uppdatera alla elever så småningom: Uppdatera innehållet för alla elever så småningom |
 
@@ -122,7 +131,7 @@ Läs den här [artikeln](/help/migrated/learners/feature-summary/fluidic-player.
 
 * Ett problem har korrigerats där elever som hade slutfört en kurs såg en vit skärm när de gjorde ett nytt besök efter att innehållsmodulen hade uppdaterats till en ny version.
 
-Mer information om kommande ändringar av Adobe Learning Manager finns i den här [artikeln](https://experienceleague.adobe.com/sv/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Mer information om kommande ändringar av Adobe Learning Manager finns i den här [artikeln](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -132,7 +141,7 @@ Mer information om kommande ändringar av Adobe Learning Manager finns i den hä
 
 ## Nyheter i den här versionen
 
-Mer information finns i [Nyheter i Adobe Learning Manager](/help/migrated/whats-new.md).
+Mer information finns i [Nyheter i Adobe Learning Manager](/help/migrated/whats-new-may-2025.md).
 +++
 
 +++Uppdatering 99: Februari 2025-versionen av Adobe Learning Manager
@@ -653,7 +662,7 @@ Slutför den här åtgärden genom att samarbeta med din organisations IT-avdeln
 * I tidigare versioner av Learning Manager var du tvungen att konfigurera Exavaults FTP för att kopiera CSV-filen för att konfigurera en zoomanslutning. I den här versionen kommer FTP-anslutningen inte längre att användas för CSV-filen, och du behöver därför inte konfigurera FTP först.
 +++
 
-+++Uppdatering 74: AWS-instans av Learning Manager
++++Uppdatering 74: AWS India-instans av Learning Manager
 
 **Utgivningsdatum:** 15 februari 2022
 
@@ -831,7 +840,7 @@ Utgivningsdatum: 28 oktober 2021
 * I vissa fall returnerade API:t för utbildningsobjekt metadatafel.
 +++
 
-+++Uppdatering 69 - Oktober 2021-versionen av Learning Manager
++++Uppdatering 69 - oktober 2021-versionen av Learning Manager
 
 **Utgivningsdatum:** 9 oktober 2021
 
@@ -1353,7 +1362,7 @@ Utgivningsdatum: 23 september 2020
 
 +++
 
-+++Uppdatering 56 - Mobilapp
++++Uppdatering 56 - mobilapp
 
 Utgivningsdatum: 25 augusti 2020
 
@@ -1389,7 +1398,7 @@ Elever kan dock växla mellan listvy och kortvy.
 
 +++
 
-+++Uppdatering 55 - Augusti 2020-versionen av Learning Manager
++++Uppdatering 55 - augustiversion 2020 av Learning Manager
 
 Utgivningsdatum: 23 augusti 2020
 
@@ -1601,7 +1610,7 @@ I den här uppdateringen kan en elev ladda upp tillgångar som bevis på slutfö
 
 En elev kan öppna ett externt certifikat och överföra mediefiler som pdf, text eller bildfiler.
 
-Mer information finns i [***Överför resurser i det externa certifikatet***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Mer information finns i [***Överför resurser i det externa certifikatet***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problem som har åtgärdats i den här versionen {#issuesfixedinthisrelease}
 
@@ -1928,7 +1937,7 @@ Utgivningsdatum: 2 augusti 2019
 
 +++
 
-+++Uppdatering 47- Mobilapp
++++Uppdatering 47 - Mobilapp
 
 ## Uppdatering 47 - Mobilapp
 
@@ -1979,7 +1988,7 @@ Utgivningsdatum: 20 juni 2019
 
 **Automatiskt urval av innehåll**
 
-Med social utbildning kan innehåll som publiceras av elever kurateras på två sätt, nämligen - **Inget kurateringsverktyg** och **Manuell kuratering**. I den här versionen förbättrar Adobe Learning Manager social utbildning genom att tillhandahålla AI-aktiverade funktioner för automatisk kurering. När innehållet har publicerats analyseras det för att identifiera om det tillhör den kompetens som det har publicerats för. Baserat på konfidenspoängen antingen läggs innehållet upp live eller skickas för manuell kuratering. Mer information finns i *[**&#x200B; Automatisk kuratering &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+Med social utbildning kan innehåll som publiceras av elever kurateras på två sätt, nämligen - **Inget kurateringsverktyg** och **Manuell kuratering**. I den här versionen förbättrar Adobe Learning Manager social utbildning genom att tillhandahålla AI-aktiverade funktioner för automatisk kurering. När innehållet har publicerats analyseras det för att identifiera om det tillhör den kompetens som det har publicerats för. Baserat på konfidenspoängen antingen läggs innehållet upp live eller skickas för manuell kuratering. Mer information finns i *[** Automatisk kuratering **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mappa kompetens med kompetensdomäner**
 
@@ -2603,7 +2612,7 @@ Utgivningsdatum: 6 december 2016.
 
 ### Förbättring {#enhancement}
 
-Som en del av den här uppdateringen tillhandahåller Learning Manager slutpunkten [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>ManagerAPI/v1/#!/user/patch_users_id) för att uppdatera användare i ett program. Du kan komma åt den här API-slutpunkten i administratörsrollen. Med **&#x200B;**&#x200B;här slutpunkten kan du uppdatera följande information om Learning Manager-användare:
+Som en del av den här uppdateringen tillhandahåller Learning Manager slutpunkten [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>ManagerAPI/v1/#!/user/patch_users_id) för att uppdatera användare i ett program. Du kan komma åt den här API-slutpunkten i administratörsrollen. Med **** här slutpunkten kan du uppdatera följande information om Learning Manager-användare:
 
 * Namn
 * E-post
@@ -3113,7 +3122,7 @@ Export av registreringsdata misslyckas om en av de registrerade eleverna tas bor
 
 **E-postmallar**
 
-* Ordet **partners,** som användes för att representera externa grupper,**&#x200B;** tas bort **&#x200B;**&#x200B;från brödtext och titel för e-postmallar. Externa grupper kallas inte nödvändigtvis partner.\
+* Ordet **partners,** som användes för att representera externa grupper,**** tas bort **** från brödtext och titel för e-postmallar. Externa grupper kallas inte nödvändigtvis partner.\
   **Obs!** Den uppdaterade mallen visas inte om standardmallen redan har ändrats. Om du vill visa den uppdaterade mallen klickar du på **Återgå till original** i dialogrutan **Mallförhandsvisning**.
 
 * Det går inte att klicka på URL:en i e-postmeddelandet som mottas av administratörer när **Profilen har skapats (självregistrering)** och **Profilen har skapats (externa/partners)** e-postmallar har redigerats. Problemet har åtgärdats.

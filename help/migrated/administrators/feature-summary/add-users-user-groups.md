@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Lägg till användare i Adobe Learning Manager
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 4350c192a70005fe37620e1ea083c6db8ece30e3
+source-git-commit: 07d7b03fb098d01b9d1514a2f1f1550d8421bc3d
 workflow-type: tm+mt
-source-wordcount: '2216'
-ht-degree: 0%
+source-wordcount: '2444'
+ht-degree: 1%
 
 ---
 
@@ -172,6 +172,37 @@ Så här registrerar du användarna:
 
 Ett bekräftelsemeddelande skickas till användaren. Användaren måste markera länken i e-postmeddelandet för att aktivera sitt konto och börja använda Adobe Learning Manager.
 
+### Hämta användarrapporten
+
+Administratörer kan exportera och hämta användardata som en omfattande rapport. Genom att exportera dessa data kan administratörer spåra elevaktiviteter, övervaka kontots livscykel, identifiera inaktiva användare och upprätthålla korrekta poster för efterlevnad, granskning och rapportering.
+
+Så här hämtar du användarrapporten:
+
+1. Logga in på Adobe Learning Manager som administratör.
+2. Välj **Användare** och sedan **Intern**.
+3. Välj **Exportera användardata**. Du meddelas när rapporten är klar.
+
+   ![](assets/select-export-user-data.png)
+   _I avsnitten för interna användare visas alternativet att exportera och hämta användarrapporten._
+4. Välj meddelandet och hämta användarrapporten.
+
+Rapporten innehåller följande information:
+
+* Namn
+* E-post
+* Status
+* Tillagd datum (tidszonen UTC)
+* Borttagningsdatum (tidszonen UTC)
+* Senaste inloggningsdatum (UTC-tidszon)
+* Adobe ID
+* användarstatus
+* profil
+* Gränssnittsspråk
+* Språk för innehåll
+* Tidszon
+* Internt användar-ID
+* Mejladress till chef
+
 ## Externa användare
 
 Med Adobe Learning Manager kan du lägga till användare utanför företaget, t.ex. kunder, partner, leverantörer eller kunder, för att komma åt utbildningsinnehållet. När de har lagts till kan du gruppera dem, tilldela kurser och spåra deras utbildningsförlopp.
@@ -239,7 +270,7 @@ Det finns några skillnader mellan interna och externa registreringar:
 | Interna användare | Externa användare |
 |---|---|
 | Kan logga in med autentiseringsuppgifter för Adobe ID eller SSO. | Kan logga in med valfritt e-post-ID. |
-| Spelifiering är tillgänglig. | Spelifiering är tillgänglig. Administratören måste aktivera spelifiering för externa elever i inställningarna för [spelifiering](https://experienceleague.adobe.com/sv/docs/learning-manager/using/admin/gamification). |
+| Spelifiering är tillgänglig. | Spelifiering är tillgänglig. Administratören måste aktivera spelifiering för externa elever i inställningarna för [spelifiering](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification). |
 
 ### Pausa extern registreringsprofil
 
@@ -266,6 +297,32 @@ Så här återupptar du en extern användare:
 
 ![](assets/resume-an-external-user.png)
 _Alternativ för att återuppta en tidigare pausad extern registreringsprofil_
+
+### Ändra den externa profilen
+
+Administratörer kan tilldela om elever från en extern profil till en annan.
+
+Så här ändrar du den externa profilen:
+
+1. Logga in på Adobe Learning Manager som administratör.
+2. Välj **[!UICONTROL Users]** och sedan **[!UICONTROL External]**.
+3. Välj **[!UICONTROL Seats Used]** i listan över externa profiler.
+
+   ![](assets/select-learners-external-profile.png)
+   _Externt profilavsnitt som visar antalet platser som används_
+
+4. Välj eleven och välj sedan **[!UICONTROL Actions]**.
+
+   ![](assets/select-change-profile-external-learner.png)
+   _Extern profilsida som markerar alternativet Ändra profil för att flytta eleverna till en annan profil_
+
+5. Välj **[!UICONTROL Change Profile]**.
+6. Sök efter och markera en annan extern profil.
+
+   ![](assets/search-and-select-profile.png)
+   _Dialogrutan Ändra profil visar alternativen för att söka i den externa profilen_
+
+Den valda eleven kommer att flytta till den valda externa profilen.
 
 ### Övervaka användningen av externa säten
 

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Skapa kursinstanser och utbildningsvägar
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 411c171c314a3aa9ad9cc10d46c2f0d447e2c0a3
+source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
 workflow-type: tm+mt
-source-wordcount: '5479'
+source-wordcount: '5606'
 ht-degree: 1%
 
 ---
@@ -587,8 +587,8 @@ Administratörer kan ange standardmärken, inställningar för spelifiering och 
 * **[!UICONTROL Badge]**: Välj standardmärken i listrutan.
 * **[!UICONTROL Gamification]**: Konfigurera inställningar för spelifiering, inklusive poäng för slutförande, tidig slutförande och slutförande. Administratörer har möjlighet att välja inställningar på kontonivå eller anpassa spelifieringspunkterna för den här instansen.
 * **[!UICONTROL L1 Reaction Feedback]**: Aktivera fördefinierade frågor för elevfeedback efter slutförande av kursen, med alternativ för att göra frågor obligatoriska.
-***[!UICONTROL &#x200B; L3 Behaviour Change Feedback]**: Aktivera feedbackfrågor för elevens chef när kursen har slutförts.
-***[!UICONTROL &#x200B; Reminder Settings]**: Ställ in och hantera påminnelser om deadlines med alternativ för eskalering.
+***[!UICONTROL  L3 Behaviour Change Feedback]**: Aktivera feedbackfrågor för elevens chef när kursen har slutförts.
+***[!UICONTROL  Reminder Settings]**: Ställ in och hantera påminnelser om deadlines med alternativ för eskalering.
 
 ### Ange eskaleringsnivå {#escalation}
 
@@ -788,7 +788,36 @@ Elever kan helt enkelt skanna den aktuella QR-koden med Adobe Learning Manager-e
 
    ![](assets/qr-code-download-01.png)
 
-   *Dela QR-kod med utforskare*
+   *Dela QR-koden med elever*
+
+## Hämta rapporten för intresserad elev
+
+Visa [Registrera ett intresse för kurserna](/help/migrated/learners/feature-summary/courses.md#register-interest-for-the-courses) för att lära dig hur elever kan anmäla sitt intresse.
+
+Administratörer kan visa elevens intresse och hämta rapporten Intresserad elev på sidan Kursöversikt.
+
+Så här hämtar du rapporten för intresserad elev:
+
+1. Logga in på Adobe Learning Manager som administratör.
+2. Gå till **[!UICONTROL Courses]** och välj kursen.
+3. Välj **[!UICONTROL Interested Learners]**.
+
+   ![](assets/select-interested-learner.png)
+   _Sidan Kursöversikt i administratörsgränssnittet visar avsnittet Intresserad elev för att visa och hämta rapporten_
+4. Välj Åtgärder och välj sedan Exportera rapport.
+Rapporten med listan över intresserade elever laddas ned. Rapporten innehåller följande kolumner:
+
+   * Kurs-ID
+   * Elevnamn
+   * E-post
+   * Typ
+   * Status
+   * Registreringsdatum och -tid (UTC)
+   * Aktiv status
+
+>[!NOTE]
+>
+>Rapporten inkluderar elevens UUID om den är aktiverad för kontot.
 
 ## Kursens livscykel {#courselifecycle}
 

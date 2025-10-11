@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Inställningar
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 8ccf5a9b0f9f928f7489ca5fec2a18e0ba43e2c1
 workflow-type: tm+mt
-source-wordcount: '3626'
+source-wordcount: '3654'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ Klicka på **[!UICONTROL Change]** på sidan och redigera inställningar för la
 
 **Konfigurera kontaktadministratören**
 
-Om du vill lägga till eller ändra supportadministratörernas e-postadresser för din organisation kan du konfigurera genom att klicka **[!UICONTROL General]** i den vänstra rutan. Klicka intill **[!UICONTROL Change]** **[!UICONTROL Support Email ID]** och lägg till e-post-ID:n. E-post skickas till dessa administratörer när eleven klickar **[!UICONTROL Contact Admin]** på sidfoten på sidan.
+Om du vill lägga till eller ändra supportadministratörernas e-postadresser för din organisation kan du konfigurera genom att klicka **[!UICONTROL General]** i den vänstra rutan. Klicka på **[!UICONTROL Change]** bredvid **[!UICONTROL Support Email ID]** och lägg till e-postadresserna. Ett e-postmeddelande skickas till de här administratörerna när eleven klickar på **[!UICONTROL Contact Admin]** i sidfoten.
 
 Lägg till ytterligare e-postadresser med semikolon som avgränsare.
 
@@ -101,10 +101,10 @@ Aktivera eller inaktivera följande inställningar:
   </tr>
   <tr>
    <td>Visa kurseffektivitet</td>
-   <td>Om det här alternativet är aktiverat kan elever se aktuell kurseffektivitet på panelen Kurs. Den här funktionen är endast tillgänglig för kurser. Stjärngradering stöds inte för utbildningsprogram eller certifikat. Den är tillgänglig för kurser och utbildningsprogram men inte certifieringar.</td>
+   <td>Om det här alternativet är aktiverat kan elever se aktuell kurseffektivitet på panelen Kurs. Den här funktionen är endast tillgänglig för kurser. Stjärngradering stöds inte för utbildningsprogram eller certifikat. Det är tillgängligt för kurser och utbildningsprogram men inte certifieringar.</td>
   </tr>
   <tr>
-   <td>Kursens måttlighet</td>
+   <td>Kursmoderering</td>
    <td>Om detta är aktiverat måste alla ändringar av kurser godkännas av administratören innan kurserna blir synliga för eleverna.</td>
   </tr>
   <tr>
@@ -140,8 +140,8 @@ Aktivera eller inaktivera följande inställningar:
      <li>Färdighetsnivåer</li>
      <li>Taggar</li>
     </ul>
-    <p>När eleven startar elevappen kan eleven se filtren i sina respektive paneler i avsnitten Min inlärning och Katalog.</p>
-    <p><b>Obs: </b>Filtren <b>Format </b>och <b>Duration </b>är avstängda som standard och visas inte för eleverna direkt efter lanseringen. Administratören bör aktivera dem. <br></p></td>
+    <p>När eleven startar elevappen kan eleven i avsnitten Min utbildning och Katalog se filtren i sina respektive paneler.</p>
+    <p><b>Obs! </b>Filtren <b>Format </b>och <b>Varaktighet </b> är avstängda som standard och visas inte för eleverna direkt efter releasen. Administratören bör aktivera dem. <br></p></td>
   </tr>
   <tr>
    <td>Visa kataloglista</td>
@@ -201,12 +201,12 @@ Aktivera eller inaktivera följande inställningar:
     <p>Så här anpassar du länkarna i sidfoten:</p>
     <ol>
      <li>Klicka på <b>Lägg till fler</b>, ange namn och URL eller e-post-ID i de angivna fälten. Ange http:// eller https:// som prefix för URL:en.</li>
-     <li>Om du vill sprida ändringen över alla språk klickar du på <b>Replikera</b>. Detta säkerställer att alla språk får namnet och URL:en.</li>
+     <li>Klicka på <b>Replikera</b> om du vill låta ändringen överlappa alla språk. Detta säkerställer att alla språk får namnet och URL-adressen.</li>
      <li>Klicka på <b>Spara</b> för att spara ändringarna. Du kan se ett popup-meddelande som bekräftar ändringen. När du har klickat på OK fylls sidfoten i med de nya länkarna.</li>
     </ol>
     <p>Dessutom kan du:</p>
     <ul>
-     <li><b>Klicka på ikonen Återställ</b> för att återställa standardvärdena i fälten Hjälp</b> och <b>Kontaktadministratör</b>.<b></li>
+     <li>Klicka på ikonen <b>Återställ</b> om du vill återställa standardvärdena i fälten <b>Hjälp</b> och <b>Kontakta administratören</b>.</li>
      <li>Anpassa länken i sidfoten för alla språk. Klicka på rullgardinsmenyn <b>Språk</b>, välj språk och lägg till <b>Namn</b> och <b>URL</b> i de angivna fälten. När du har sparat ändringarna visas de uppdaterade länkarna i sidfoten.<br></li>
     </ul></td>
   </tr>
@@ -247,7 +247,7 @@ Aktivera eller inaktivera följande inställningar:
    <td>Om detta är aktiverat kan författaren konfigurera flera försök för kursmoduler.</td>
   </tr>
   <tr>
-   <td height="20">Utforska kompetensalternativ</td>
+   <td height="20">Alternativet Utforska färdigheter</td>
    <td>Om det här alternativet är aktiverat kan eleverna utforska kollegor och ledarskapsfärdigheter och prenumerera på de färdigheter de väljer.</td>
   </tr>
   <tr>
@@ -278,7 +278,7 @@ Aktivera eller inaktivera följande inställningar:
    <td height="19">Kompetenser</td>
   </tr>
   <tr>
-   <td height="19">Kunskapsnivåer</td>
+   <td height="19">Färdighetsnivåer</td>
   </tr>
   <tr>
    <td height="19">Taggar</td>
@@ -318,20 +318,20 @@ Aktivera eller inaktivera följande inställningar:
    <td>Om detta är aktiverat kan eleverna visa sina poäng i elevens betygsutdrag.</td>
   </tr>
   <tr>
-   <td rowspan="9" height="172">E-post med sammandrag</td>
-   <td>En administratör kan aktivera eller inaktivera sändning av ett e-postmeddelande till elever. Administratören kan också styra frekvensen för de e-postmeddelanden som skickas.</td>
+   <td rowspan="9" height="172">Sammandragsmeddelande</td>
+   <td>En administratör kan aktivera eller inaktivera att skicka ett e-postmeddelande till elever. Administratören kan också styra frekvensen för de e-postmeddelanden som skickas.</td>
   </tr>
   <tr>
-   <td height="19">För aktiva konton kommer sammanfattade e-postmeddelanden att inaktiveras som standard, vilket administratören kan aktivera manuellt.</td>
+   <td height="19">För aktiva konton inaktiveras sammanfattningsmeddelanden som standard, vilket administratören kan aktivera manuellt.</td>
   </tr>
   <tr>
-   <td height="19">För utvärderingskonton förblir alternativet för sammanfattade e-postmeddelanden inaktiverat och administratören kan inte aktivera alternativet.</td>
+   <td height="19">För provkonton är alternativet för sammanfattningsmeddelanden inaktiverat och administratören kan inte aktivera alternativet.</td>
   </tr>
   <tr>
-   <td height="19">Om funktionen är inaktiverad:</td>
+   <td height="19">Om funktionen är avaktiverad gäller följande:</td>
   </tr>
   <tr>
-   <td height="19">Alternativet Sammanfattad e-post kommer att inaktiveras.</td>
+   <td height="19">Alternativet Sammandrag av e-post inaktiveras.</td>
   </tr>
   <tr>
    <td height="19">En elev kan inte se användarinställningen för e-postsammandragsprenumeration.</td>
@@ -372,7 +372,7 @@ Aktivera eller inaktivera följande inställningar:
    <td height="19">Klicka på återställningsikonen för att återställa standardvärdena i fälten Hjälp och Kontakta administratören.</td>
   </tr>
   <tr>
-   <td height="20">Anpassa länken i sidfoten för alla språk. Klicka på listrutan Språk, välj språk och lägg till Namn och URL i de angivna fälten. När du har sparat ändringarna visas de uppdaterade länkarna i sidfoten.</td>
+   <td height="20">Anpassa länken i sidfoten för alla språk. Klicka på listrutan Språk, välj språk och lägg till namn och webbadress i de angivna fälten. När du har sparat ändringarna visas de uppdaterade länkarna i sidfoten.</td>
   </tr>
   <tr>
    <td rowspan="5" height="96">Rapportera tidszon</td>
@@ -388,11 +388,11 @@ Aktivera eller inaktivera följande inställningar:
    <td height="19">Elevens betygsutdrag som har hämtats med Job API hämtar också data i den valda tidszonen.</td>
   </tr>
   <tr>
-   <td height="20">Obs! Ingen ändring förväntas i elevens betygsutdrag som standard omedelbart efter utgivningen. Administratörer kan konfigurera den här inställningen från Admin &gt; Inställningar &gt; Allmän &gt; Rapporttidszon.</td>
+   <td height="20">Obs! Ingen ändring förväntas i elevens betygsutdrag som standard omedelbart efter utgivningen. Administratörer kan konfigurera den här inställningen från Admin &gt; Inställningar &gt; Allmänt &gt; Tidszon för rapport.</td>
   </tr>
   <tr>
-   <td height="19">Integrering med Badgr</td>
-   <td>Om det är aktiverat kommer eleverna att kunna ladda upp sina märken till Badgr-webbplatsen. I scenarier med kundutbildning vill organisationer kunna "certifiera" sina kunder och ge dem en möjlighet att visa sina inloggningsuppgifter via sociala medier. Detta motiverar eleven att gå en utbildning och dela med sig av sina prestationer till andra. </td>
+   <td height="19">Badgr-integrering</td>
+   <td>Om detta är aktiverat kommer eleverna att kunna ladda upp sina utmärkelsetecken till Badgr-webbplatsen. I scenarier med kundutbildning vill organisationer kunna "certifiera" sina kunder och ge dem en möjlighet att visa sina inloggningsuppgifter via sociala medier. Detta motiverar eleven att ta en utbildning och dela med sig av sina prestationer med andra. </td>
   </tr>
   <tr>
    <td height="135">
@@ -400,16 +400,20 @@ Aktivera eller inaktivera följande inställningar:
    <td>
     <ul>
      <li>Om alternativet <b>Kurseffektivitet</b> är aktiverat kan eleverna bara se värdet av kursens effektivitet.</li>
-     <li>Om alternativet <b>Stjärnbetyg</b> är aktiverat kommer eleverna endast att kunna se det genomsnittliga stjärnbetyget och antalet elever som har bedömt kursen.<br></li>
+     <li>Om alternativet <b>Stjärngradering</b> är aktiverat kan eleverna bara visa det genomsnittliga stjärnbetyget och antalet elever som har graderat kursen.<br></li>
     </ul>
-    <p>Den här funktionen är endast tillgänglig för kurser. Stjärnklassificering stöds inte för utbildningsprogram eller certifikat.<br><br><b></b>Den här ändringen påverkar endast learner-appen. </p>
-    <p>I alla andra appar (admin, författare, chef, anpassad administratör, anpassad författare) kommer ändringar i inställningarna (stjärnbetyg/kurseffektivitet/inaktivering av showbetyg) inte att ha någon effekt. </p>
+    <p>Den här funktionen är endast tillgänglig för kurser. Stjärngradering stöds inte för utbildningsprogram eller certifikat.<br><br><b>Obs! </b>Den här ändringen påverkar endast elevappen. </p>
+    <p>I alla andra appar (administratör, författare, chef, anpassad administratör, anpassad författare) påverkar inte ändringar i inställningarna (stjärngradering/kurseffektivitet/inaktivera bildstjärngradering). </p>
     <p>För nya konton kommer avsnittet <b>Visa stjärngraderingar</b> att ha alternativet <b>Stjärngradering</b> aktiverat som standard.</p>
     <p>Om alternativet <b>Kurseffektivitet</b> har aktiverats för befintliga konton aktiveras avsnittet <b>Visa betyg</b> med alternativet Kurseffektivitet valt. Om alternativet <b>Kurseffektivitet</b>s är inaktiverat kommer avsnittet <b>Visa klassificeringar</b> också att inaktiveras. När avsnittet <b>Visa stjärngraderingar</b> är aktiverat kommer alternativet <b>Stjärngradering</b> att vara aktiverat som standard.</p></td>
   </tr>
   <tr>
    <td height="19">Fasa ut</td>
    <td>Välj något av följande alternativ för pensionering:<li>När de har fasats ut kan registrerade elever se och utföra åtgärder, men ännu inte registrerade elever förlorar åtkomsten.</li><li>När elever har dragit sig tillbaka förlorar både registrerade och ännu inte registrerade elever åtkomst.</li><div><b>Obs!</b> Du kan ta bort kurser, utbildningsvägar eller certifieringar från översiktssidorna.</div> </td>
+  </tr>
+  <tr>
+   <td height="19">Visa alla registrerade kurser i sökresultat</td>
+   <td>Om det här alternativet är aktiverat kan eleven se kursen i sökresultat även om hen ingår i sin registrerade utbildningsväg eller certifiering.</td>
   </tr>
  </tbody>
 </table>
@@ -420,7 +424,7 @@ Aktivera eller inaktivera följande inställningar:
    <td>
     <p>Utbildningsvägar</p></td>
    <td>
-    <p>Om alternativet <b>Aktivera utökade funktioner i utbildningsvägen</b> är aktiverat kan administratörer inkludera utbildningsvägar i utbildningsvägar och kombinera dessa med kurser. Alternativet är oåterkalleligt.<br></p></td>
+    <p>Om alternativet <b>Aktivera utökade funktioner i utbildningsvägen</b> har valts kan administratörer inkludera utbildningsvägar i utbildningsvägar och kombinera dessa med kurser. Alternativet är oåterkalleligt.<br></p></td>
   </tr>
   <tr>
    <td>
@@ -450,7 +454,7 @@ Aktivera eller inaktivera följande inställningar:
 
 Den här funktionen är endast tillgänglig på engelska.
 
-Administratörer kan nu byta namn på lärobjekt i Learning Manager. Följande är de terminologier som kan döpas om.
+Administratörer kan nu byta namn på utbildningsobjekt i Learning Manager. Följande terminologier kan döpas om.
 
 Modul\
 Kurs\
@@ -484,9 +488,9 @@ Aktivitet
 
 ## Innehållsmapp {#content-folder}
 
-Learning Manager har stöd för mappar med privat innehåll. En administratör kan konfigurera privata innehållsmappar och ge åtkomst till specifika anpassade författare med hjälp av anpassade roller. Observera att standardförfattare (även kallade fullständiga författare) fortsätter att ha tillgång till allt innehåll i kontot. Därför har fullständiga författare tillgång till alla mappar och allt innehåll.
+Learning Manager stöder privata innehållsmappar. En administratör kan konfigurera privata innehållsmappar och ge åtkomst till specifika anpassade författare med anpassade roller. Observera att standardförfattare (även kallade fullständiga författare) fortsätter att ha tillgång till allt innehåll på kontot. Därför har fullständiga författare åtkomst till alla mappar och allt innehåll.
 
-Innehållsmappar kan konfigureras av administratörer. Först när innehållsmappar har konfigurerats blir de synliga för författare och kan placera innehållet i en eller flera mappar.
+Administratörer kan konfigurera innehållsmappar. Först när innehållsmappar har konfigurerats blir de synliga för författare och kan placera innehållet i en eller flera mappar.
 
 Om du vill lägga till en innehållsmapp klickar du på **[!UICONTROL Settings]** > **[!UICONTROL Content Folder]** i administratörsappen.
 
@@ -498,8 +502,8 @@ Om du vill lägga till en innehållsmapp klickar du på **[!UICONTROL Settings]*
 
 En mapp är en innehållsdatabas, som är en delmängd av hela innehållsbiblioteket som är tillgängligt på ett konto med följande egenskaper:
 
-* Endast en administratör kan skapa, redigera eller ta bort en mapp.
-* En administratör kan styra åtkomsten till mappar som en del av att definiera roller endast för anpassade administratörer.
+* Det är bara en administratör som kan skapa, redigera eller ta bort en mapp.
+* En administratör kan kontrollera åtkomsten till mappar som en del av definitionen av roller endast för anpassade administratörer.
 * Innehållet **måste alltid associeras med minst en mapp**. Till att börja med kommer allt innehåll att vara kopplat till den gemensamma mappen, som senare kan ändras.
 * Innehållet kan kopplas till flera mappar när det skapas, vilket också blir möjligt genom en kopiering
 * Alla mappnamn måste vara unika i kontot, annars uppstår ett fel när en mapp namnges.
@@ -531,13 +535,13 @@ Du kan även ta bort en mapp. Markera mappen som ska tas bort, klicka på menyn 
 
 >[!NOTE]
 >
->Mappar kan tas bort när allt associerat innehåll också är kopplat till andra mappar. Om det finns innehåll som är länkat till endast den mapp som tas bort flyttar du först innehållet till en annan mapp och tar sedan bort mappen.
+>Mappar kan tas bort när allt tillhörande innehåll också är kopplat till andra mappar. Om det finns innehåll som endast är länkat till den mapp som tas bort flyttar du först innehållet till en annan mapp och tar sedan bort mappen.
 
-## Klassrum
+## Klassrumsplatser
 
-Administratörer kan använda den här inställningen för att skapa och konfigurera ett bibliotek med klassrumsplatser. Författare kan välja en förkonfigurerad plats för att konfigurera sina klassrumshändelser. Välj en plats från biblioteket för att automatiskt fylla i platsinformation, URL och platsgräns.
+Administratörer kan använda den här inställningen för att skapa och konfigurera ett bibliotek med klassrumsplatser. Författare kan välja en förkonfigurerad plats för att konfigurera sina klassrumshändelser. Välj en plats i biblioteket där du automatiskt vill fylla i platsinformation, URL och platsgräns.
 
-Som administratör kan du antingen:
+Du som är administratör kan antingen:
 
 ### Importera CSV-platser
 
@@ -561,8 +565,8 @@ Du kan även lägga till platsen med hjälp av en CSV-fil. CSV-filen måste inne
 
 * name
 * information
-* URL
-* Gräns för antal platser
+* url
+* seatlimit
 * region
 
 <!--![Add classroom locations](assets/add-classroom-csv.png)-->
@@ -577,16 +581,16 @@ När funktionen är aktiverad kan författare ändra och ta bort alla klassrumsp
 
 ## Vanliga frågor {#frequentlyaskedquestions}
 
-+++Hur skapar man olika mappar för innehållsbiblioteket?
++++Hur skapar man olika mappar för innehållsbibliotek?
 
-Klicka på **[!UICONTROL Settings]** > **[!UICONTROL Content Folder]**. För att lägga till en mapp, klicka på **[!UICONTROL Add]** i det övre högra hörnet och i dialogrutan anger du namnet och beskrivningen av mappen.
+Klicka på **[!UICONTROL Settings]** > **[!UICONTROL Content Folder]**. Om du vill lägga till en mapp klickar du på **[!UICONTROL Add]** i det övre högra hörnet och anger mappens namn och beskrivning i dialogrutan.
 
-Innehållsmappar kan konfigureras av administratörer. Det är först när innehållsmapparna har konfigurerats som de blir synliga för författare och de kan placera innehållet i en eller flera mappar.
+Administratörer kan konfigurera innehållsmappar. Först när innehållsmappar har konfigurerats blir de synliga för författare och kan placera innehållet i en eller flera mappar.
 
-Mer information finns i avsnittet om [Innehållsmapp](settings.md#content-folder).
+Mer information finns i avsnittet om [mappen Innehåll](settings.md#content-folder).
 +++
 
 +++Hur lägger man till räkenskapsår för kontot?
 
-Klicka på **[!UICONTROL Change]** i **[!UICONTROL Settings]** > **[!UICONTROL Basic Info]**. Välj månad i listrutan **[!UICONTROL Financial year starts from]**.
+Klicka på **[!UICONTROL Settings]** i **[!UICONTROL Basic Info]** > **[!UICONTROL Change]**. Välj månad i listrutan **[!UICONTROL Financial year starts from]**.
 +++

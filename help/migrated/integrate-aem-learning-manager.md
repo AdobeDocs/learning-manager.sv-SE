@@ -4,9 +4,9 @@ title: Integrera Adobe Learning Manager med AEM
 description: Learning Manager är ett system för hantering av inlärning med ett inbyggt system för hantering av utbildningsinnehåll. Användarna hanterar sitt utbildningsinnehåll genom att ladda upp det till Learning Manager så att Learning Manager utför versionshantering, allokering till kurser, definierar synligheten för elever , spårar förbrukning och rapporterar tillbaka till administratörer.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: 976dc0123cd44b7601b5a53e75dca7af5fadabca
+source-git-commit: 1e7e7ba6e419476476e18ed3f826cc07ac2e1f88
 workflow-type: tm+mt
-source-wordcount: '3199'
+source-wordcount: '3198'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Installera Learning Manager-innehållspaketet med hjälp av AEM Package Manager:
 
 >[!NOTE]
 >
->Mer information om hur du installerar paket finns i [***Arbeta med paket***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=sv-SE#how-to-work-with-packages).
+>Mer information om hur du installerar paket finns i [***Arbeta med paket***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. Öppna AEM Package Manager när du är AEM-författare.
 1. Klicka på knappen **[!UICONTROL Upload Package]**.
@@ -411,7 +411,7 @@ I avsnittet **[!UICONTROL General Settings]** kan du välja primär- och sekund�
 }
 ```
 
-### Konfigurera widgetarna för Mina sparade kurser på AEM-webbplatser
+### Konfigurera sparade kurswidgetar på AEM-webbplatser
 
 Med widgeten Sparade kurser kan elever visa bokmärkta eller sparade kurser direkt på sina utbildningssidor, vilket ger enkel åtkomst till kurser de vill gå igenom eller slutföra senare.
 

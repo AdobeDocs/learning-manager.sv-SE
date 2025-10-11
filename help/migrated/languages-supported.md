@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Språk som stöds i Adobe Learning Manager
 description: Utforska gränssnittet och de innehållsspråk som stöds i Adobe Learning Manager (ALM)
 exl-id: 92eaa510-cb44-4e9b-b956-fde876aa48f2
-source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
+source-git-commit: 45ac256894b9c5808fd80c488eb8571f330df435
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 48%
+ht-degree: 47%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Learning Manager har stöd för följande gränssnitt och innehållsspråk
 
 | Gränssnittsspråk | Roll | Språkkod |
 |---|---|---|
-| Engelska | <li>Admin</li><li>Författare</li><li>Elev</li><li>Chef</li> | sv-se |
+| Engelska | <li>Admin</li><li>Författare</li><li>Elev</li><li>Chef</li> | sv-SE |
 | Franska | <li>Admin</li><li>Författare</li><li>Elev</li><li>Chef</li> | fr-FR |
 | Tyska | <li>Admin</li><li>Författare</li><li>Elev</li><li>Chef</li> | de |
 | Kinesiska | <li>Elev</li><li>Chef</li> | zh-CN |
@@ -49,38 +49,38 @@ Adobe Learning Manager har stöd för följande gränssnitt och innehållsspråk
 | Italienska | - | it-IT |
 | Japanska | - | ja-JP |
 | Brasiliansk portugisiska | - | pt-BR |
-| Danska (Dansk) | - | da |
-| Hindi | - | hej |
-| Ungerska (magyar) | - | hu |
+| Danska (Dansk) | - | da-DK |
+| Hindi | - | hi-IN |
+| Ungerska (magyar) | - | hu-HU |
 | Nederländska (Nederland) | - | nl-NL |
 | Polska | - | pl-PL |
-| Finska (Suomi) | - | fi |
-| Thai | - | th |
+| Finska (Suomi) | - | fi-FI |
+| Thai | - | th-TH |
 | Turkiska | - | tr-TR |
 | Koreanska | - | ko-KR |
-| Traditionell kinesiska | - | zh-CHT |
-| Norska | - | nb-NO |
+| Traditionell kinesiska | - | zh-TW |
+| Norska | - | no-NO |
 | Svenska | - | sv-SE |
-| Rumänska | - | ro |
-| Arabiska | Ja | ar |
+| Rumänska | - | ro-RO |
+| Arabiska | Ja | ar-SA |
 | Ryska | - | ru-RU |
-| Amhariska | - | fm |
-| Tjeckiska | - | cs |
-| Engelska, Storbritannien | - | en-gb |
-| Vietnamesiska | Ja | vi |
-| Grekiska | - | el |
+| Amhariska | - | AM-ET |
+| Tjeckiska | - | cs-CZ |
+| Engelska, Storbritannien | - | en-GB |
+| Vietnamesiska | Ja | vi-VN |
+| Grekiska | - | el-GR |
 | Franska (Kanada) | - | fr-ca |
-| Engelska (Australien) | - | sv-SE |
+| Engelska (Australien) | - | en-AU |
 | Indonesiska | - | id-ID |
-| Spanska (Latinamerika) | - | es |
-| Serbiska | - | sr-sp |
-| Slovenska | - | sl |
-| Slovakiska | - | sk |
-| Kroatiska | - | tim |
-| Ukrainska | - | uk |
-| Hebreiska | Ja | han |
-| Bulgariska | - | BG |
-| Nederländska (Belgien) | - | nl-be |
+| Spanska (Latinamerika) | - | es-XL |
+| Serbiska | - | sr-SP |
+| Slovenska | - | sl-SL |
+| Slovakiska | - | sk-SK |
+| Kroatiska | - | tim-tim |
+| Ukrainska | - | uk-UA |
+| Hebreiska | Ja | he-IL |
+| Bulgariska | - | bg-BG |
+| Nederländska (Belgien) | - | nl-BE |
 | Portugisiska Portugal | - | pt-PT |
 | Kinesiska (traditionell, Hongkong) | - | zh-HK |
 | Norskt bokmål | - | nb-NO |

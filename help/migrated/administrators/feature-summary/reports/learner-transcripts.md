@@ -2,9 +2,9 @@
 description: Elevens betygsutdrag i Adobe Learning Manager (ALM) ger administratörer möjlighet att övervaka elevens framsteg inom kurser, moduler, utbildningsvägar och certifieringar. Den stöder resultatutvärderingar, efterlevnadsövervakning, revisioner och extern rapportering. Rapporten ger en fullständig sammanfattning av en elevs engagemang och resultat.
 jcr-language: en_us
 title: Elevens betygsutdrag i Adobe Learning Manager
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 85799b32f3a24fc0e6beb34ae39a502ff8e7a7b4
 workflow-type: tm+mt
-source-wordcount: '4173'
+source-wordcount: '4306'
 ht-degree: 5%
 
 ---
@@ -59,9 +59,6 @@ Elevens BETYGSUTDRAG i Adobe Learning Manager spårar utbildning, regelefterlevn
 2. Välj **[!UICONTROL Reports]** från den vänstra navigeringsmenyn.
 3. Välj **[!UICONTROL Custom Reports]** i Rapporter och välj sedan **[!UICONTROL Excel Reports]**.
 4. Välj **[!UICONTROL Learner Transcripts]**.
-
-   ![] ()
-
 5. Välj **[!UICONTROL Generate New]**.
 6. Välj det datumintervall som du vill att transkriptionen ska genereras för. Som standard är **[!UICONTROL From]**-datumet elevens registreringsdatum och **[!UICONTROL To]**-datumet är alltid det aktuella datumet. Du kan bara ändra startdatumet från när du behöver informationen.
 7. Markera följande:
@@ -74,15 +71,12 @@ b. Välj specifika kataloger i listrutan **[!UICONTROL Select Catalogs]**. Trans
        * Pågår
        * HAR INTE STARTATS
        * avregistrerad
-   &#x200B;8. Avancerade alternativ: Välj **[!UICONTROL Advanced options]** för att hämta utskrifterna och inkludera följande:
+   8. Avancerade alternativ: Välj **[!UICONTROL Advanced options]** för att hämta utskrifterna och inkludera följande:
 
    a. Ladda ned utskrifter för elever som har tagits bort från ett konto genom att markera kryssrutan **[!UICONTROL Include deleted Learners]**.
 b. Ladda ned information om modulnivå i elevens betygsutdrag genom att aktivera kryssrutan **[!UICONTROL Enable module level information]**. I det här fallet hämtas modulnamn och den tid som används för varje modul som en del av utskriften om det här alternativet är aktiverat.
 c. Ladda ned kompetensdata och sammanfattningsblad genom att markera kryssrutan **[!UICONTROL Include skills data and summary sheets]**. Mer information finns i avsnittet Excel-rapporter.
-&#x200B;9. Du kan också välja de kolumnvärden som ska fyllas i i rapporten. Det ger flexibilitet att hämta rapporter med specifika kolumnvärden efter behov. Välj kolumnerna i listrutan.
-
-   
-
+9. Du kan också välja de kolumnvärden som ska fyllas i i rapporten. Det ger flexibilitet att hämta rapporter med specifika kolumnvärden efter behov. Välj kolumnerna i listrutan.
 Betygsutdrag genereras och laddas ned till din dator som .zip-filer när kompetensdata inte ingår. Om kryssrutan Kunskapsdata är aktiverad genereras och hämtas utskrifter som . xlsx-filer.
 
 ### Generera elevens betygsutdrag med kopiera och klistra in
@@ -90,9 +84,6 @@ Betygsutdrag genereras och laddas ned till din dator som .zip-filer när kompete
 Att hämta elevens betygsutdrag blir en omständlig process eftersom det bara kan erhållas för en elev eller användargrupp en i taget. Med funktionen för att kopiera och klistra in kan du här kopiera listan över elevens e-postadresser och klistra in den på en gång.
 
 1. Välj fliken **[!UICONTROL Email IDs]** för att ange den kopierade listan över unika e-postadresser.
-
-   
-
 2. Klistra in unika ID:n för elever som du vill lägga till separerade med ett komma, semikolon eller radbrytning.
 3. Välj **[!UICONTROL Validate Emails Ids]** för att kontrollera om det e-post-ID som du har angett är giltigt. Om den angivna e-postadressen är felaktig markeras den med rött tillsammans med ett valideringsmeddelande.
 
@@ -138,15 +129,15 @@ Följande kolumner visar aktivitet, förlopp eller försök.
 | Status % | Aktuell förlopp % av eleven som deltar i kursen, certifieringen eller utbildningsvägen. |
 | Använd tid (minuter) | Utbildningstid som eleven tillbringar i LO visar modulnivåraderna den individuella modulbaserade inlärningstiden. Raderna Kurs/utbildningsväg/Certifikatnivå visar den sammanlagda inlärningstiden. |
 | Gradering | Anger om eleven lyckats. &quot;Godkänt&quot;, om användaren har uppfyllt kriterierna för detta, annars &quot;Misslyckat&quot;. |
-| Quizpoäng | Den senaste quiz-poängen som erhållits av eleven. Kan vara tomt om eleven inte har försökt genomföra frågeformuläret eller innehållet inte har något quiz eller om administratören/instruktören inte har tilldelat någon poäng. |
-| Quiz_score_max | De senaste maximala quiz-poängen som är möjliga för modulen. Det kan vara tomt om eleven inte har försökt utföra quiz eller om innehållet inte har några quiz. |
-| Högsta quizpoäng | Högsta quiz-poäng som eleven fått vid flera försök. Kan vara tomt om eleven inte har försökt genomföra frågeformuläret eller innehållet inte har något quiz eller om administratören eller instruktören inte har tilldelat någon poäng. |
-| Highest_Quiz_score_max | Högsta möjliga quiz-poäng för modulen. Det kan vara tomt om eleven inte har försökt utföra quiz eller om innehållet inte har några quiz. |
+| Quizpoäng | Kolumnen används för att registrera poängen från det senaste försöket i ett quiz. Om en användare till exempel gör flera försök (till exempel får 10, 50 och 30 poäng på tre försök) kommer kolumnen Quiz_score att visa poängen från det senaste försöket, som är 30. Anta att ett quiz har en högsta poäng på 100 och att en användare gör tre försök med poängen 30, 60 och 90. I kolumnen Quiz_score visas 90 (den senaste poängen), medan poängen för Highest_Quiz_score visar 90 (den bästa poängen för alla försök) och Quiz_score_max förblir 100 (den högsta möjliga poängen). |
+| Quiz_score_max | Kolumnen Quiz_score_max representerar det högsta möjliga poängvärdet som kan uppnås för ett visst quiz eller en viss modul. Eftersom Quiz_score_max förblir konstant är det användbart i rapporter att visa den totala uppnåeliga poängen för ett quiz eller en modul, oavsett användarens prestanda. |
+| Högsta quizpoäng | Kolumnen Highest_Quiz_score representerar det högsta poäng som en användare får för alla försök i ett visst quiz. Om en användare till exempel gör tre försök med poängen 10, 20 och 15 kommer poängen för Highest_Quiz_score att visa 20, eftersom det är den högsta poängen som uppnås. |
+| Highest_Quiz_score_max | Högsta möjliga poäng associeras med det högsta quiz-försöket som en elev gjort vid flera försök. Det är inte den högsta poäng som eleven har uppnått. Istället ger den maximala poäng som var möjlig i försöket där eleven gjorde sitt högsta. |
 | Antal gjorda försök | Det totala antalet försök som har gjorts av eleven hittills för denna modul. |
 | Max antal tillåtna försök | Det maximala antalet försök som tillåts för eleven att konsumera modulen. |
-| Kommentarer till ansökan | Kommentarer från en elevs chef efter att denne har slutfört ett utbildningsobjekt.<br>Data för inskickade kommentarer från instruktören ingår i modulen för inskickade filer. Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager.</a></br> |
-| Källa för slutförande | <b>Obs!</b> När en elev markeras som närvarat automatiskt i VC-anslutningsarbetsflöden visas &quot;SELF, (learner_email)&quot; i källan. |
-| Kommentar kring slutförande | Administratörens kommentarer när denne markerar en elev som slutförd efter att denne har slutfört en kurs, certifiering eller utbildningsväg. Administratören kan lägga till slutförandekommentarer för en eller flera elever. Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/learning-manager/using/admin/courses#completion-comments">Kommentarer till slutförande</a>. |
+| Kommentarer till ansökan | Kommentarer från en elevs chef efter att denne har slutfört ett utbildningsobjekt.<br>Data för inskickade kommentarer från instruktören ingår i modulen för inskickade filer. Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager.</a></br> |
+| Källa för slutförande | Avser ursprunget eller metoden genom vilken en elevs slutförande av en kurs, ett utbildningsprogram eller en certifiering registreras. Det hjälper administratörer att förstå hur slutförandet uppnåddes eller loggades i systemet. Kolumnen anger om slutförandet har rapporterats av dig själv, registrerats automatiskt eller underlättats av en viss roll eller konfiguration. <b>Obs!</b> När en elev markeras som närvarat automatiskt i VC-anslutningsarbetsflöden visas &quot;SELF, (learner_email)&quot; i källan. |
+| Kommentar kring slutförande | Administratörens kommentarer när denne markerar en elev som slutförd efter att denne har slutfört en kurs, certifiering eller utbildningsväg. Administratören kan lägga till slutförandekommentarer för en eller flera elever. |
 
 **Information relaterad till utbildningsobjekt**
 
@@ -204,8 +195,6 @@ I dialogrutan Elevens betygsutdrag kan du även ladda ned kompetensdata och samm
 * Sammanfattning av kompetens I
 * Sammanfattning av kompetens II
 
-
-
 ### Vad innehåller utbildningssammanfattningen?
 
 Håll koll på utbildningsvägar, kurser eller certifieringar som används aktivt. Håll koll på pågående aktivitet samt kommande datum då utbildning ska vara genomförd.
@@ -219,9 +208,6 @@ Håll koll på utbildningsvägar, kurser eller certifieringar som används aktiv
 ### Hur data ska tolkas
 
 I den här utbildningssammanfattningen som jag rapporterar finns två utbildningsvägar som har tilldelats eleven.
-I exemplet
-
-
 
 * Användaren är registrerad i två utbildningsvägar och har startat båda.
 * Ingen av utbildningsvägarna har slutförts än.
@@ -239,10 +225,6 @@ Spåra utbildningsaktivitet per elev. Spåra registreringar, pågående aktivite
 * Antal utbildningsobjekt med inlämningsdatum om N dagar: Identifierar LO:er som förfaller inom ett angivet antal dagar (i det här fallet 7 dagar), vilket hjälper till att hålla koll på kommande deadlines.
 
 ### Hur data ska tolkas
-
-I exemplet
-
-
 
 * Eleven är registrerad i två utbildningsobjekt och har påbörjat båda.
 * Inga utbildningsobjekt har slutförts.
@@ -278,7 +260,7 @@ Håll koll på elever som har kommande inlämningsdatum för viktiga kurser, utb
 
 | Kolumn | Beskrivning |
 |---|---|
-| Efter | Representerar antalet elever som uppnådde en kompetens före en angiven period (i dagar), efter vilken kompetensen anses vara föråldrad eller kräver uppdatering. Användbart för att identifiera elever med uppnådda eller utgångna kompetenser.<br>Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/learning-manager/using/admin/skills-levels">kompetensnivåer</a>. |
+| Efter | Representerar antalet elever som uppnådde en kompetens före en angiven period (i dagar), efter vilken kompetensen anses vara föråldrad eller kräver uppdatering. Användbart för att identifiera elever med uppnådda eller utgångna kompetenser.<br>Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels">kompetensnivåer</a>. |
 | Namn | Fullständigt namn på den elev som kompetensen är tilldelad. |
 | Chefens namn | Namn på elevens rapportansvarige. |
 | Radetiketter | Det specifika kunskapsnamnet som har tilldelats elever som visas på den här raden. Används som en grupperingsrubrik för att sammanfatta data om elevens kompetens under varje kompetenskategori. |
@@ -307,8 +289,6 @@ Historiken över nedladdningar av elevens betygsutdrag gör det möjligt för ad
 
 När du har hämtat ett elevintyg visar sidan Elevens betygsutdrag alla betygsutdrag som genereras av någon på plattformen.
 
-
-
 Listan innehåller följande attribut:
 
 * Från och Till: Längden på de utskrifter som ska hämtas.
@@ -332,8 +312,6 @@ Alla kurser som ingår i en utbildningsväg (LP) kommer att visas i elevens bety
 Om en elev har tagits bort från plattformen visar deras betygsutdrag inte sina poster i rapporter som har genererats för den användargrupp de ingick i. Det innebär att poster för borttagna elever utesluts från filtrerade rapporter som skapas med hjälp av användargruppsfilter.
 
 Men du kan fortfarande hämta data för de borttagna eleverna. Om du har valt alternativet **[!UICONTROL Include deleted learners]** när du ställer in filtren för att skapa rapporten kan du hämta rapporten för de borttagna eleverna.
-
-
 
 **Beteende för anpassade administratörer**
 
