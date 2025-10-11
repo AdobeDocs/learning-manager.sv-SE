@@ -2106,7 +2106,7 @@ Ange anslutningsnamn och domännamn
 1. Välj **[!UICONTROL Type of interface]** bland följande alternativ:
 
    * **[!UICONTROL Native Learning Manager]**: Det här är standarderbjudandet som endast är tillgängligt för det inbyggda gränssnittet.
-   * **[!UICONTROL  Headless interfaces]**: Det här är premiumerbjudandet som exponerar API:er för att skapa en icke-inloggad upplevelse.
+   * **[!UICONTROL &#x200B; Headless interfaces]**: Det här är premiumerbjudandet som exponerar API:er för att skapa en icke-inloggad upplevelse.
 
    ![](assets/types-of-interface.png)
 Typer av gränssnitt

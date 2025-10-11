@@ -128,7 +128,7 @@ Administratörer kan skriva beskrivningen av spellistan i AI-dialogen. AI kommer
 9. Ändra beskrivningen med hjälp av de tillgängliga AI-alternativen:
    * **[!UICONTROL Improve writing]**: Förfina den befintliga beskrivningen för att göra den tydligare.
    * **[!UICONTROL Generate description]**: Skapa automatiskt en ny beskrivning baserad på innehållet eller kontexten.
-   * **[!UICONTROL  Make it shorter]**: Korta ned texten eller titeln samtidigt som du behåller huvudidén.
+   * **[!UICONTROL &#x200B; Make it shorter]**: Korta ned texten eller titeln samtidigt som du behåller huvudidén.
 
    ![](assets/ai-option-descriptions.png)
    _Go1 skärm för att skapa spellistor med AI-alternativ för att förbättra spellistans beskrivning_
@@ -139,8 +139,8 @@ Administratörer kan skriva beskrivningen av spellistan i AI-dialogen. AI kommer
 12. Välj **Ja** i bekräftelsemeddelandet.
 13. Välj spellista från **[!UICONTROL Select playlist to import prompt]**.
 
-   ![](assets/add-playlist-to-lp.png)
-   _Markera och importera spellistan Sales Engineer Skills Enhancement från biblioteket Go1 i Adobe Learning Manager_
+    ![](assets/add-playlist-to-lp.png)
+    _Markera och importera spellistan Sales Engineer Skills Enhancement från biblioteket Go1 i Adobe Learning Manager_
 
 14. Välj **[!UICONTROL Add Playlists to Learning Path]** och sedan **[!UICONTROL Publish]**.
 

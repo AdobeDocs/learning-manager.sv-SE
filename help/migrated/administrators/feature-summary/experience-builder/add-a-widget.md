@@ -85,8 +85,8 @@ Så här konfigurerar du widgeten Kategorier:
 9. Skriv **[!UICONTROL Widget title]** och **[!UICONTROL Widget description]**.
 10. Sök efter och välj en katalog från **[!UICONTROL Category source]**.
 
-   ![](assets/configure-calendar-widget.png)
-   _Konfigurera alternativ för kategoriwidgeten för att ange widgetens titel och beskrivning och välj kategorikällan_
+    ![](assets/configure-calendar-widget.png)
+    _Konfigurera alternativ för kategoriwidgeten för att ange widgetens titel och beskrivning och välj kategorikällan_
 
 11. Välj **[!UICONTROL Add Widget]**.
 
@@ -153,7 +153,7 @@ Så här konfigurerar du widgeten Kurser och banor:
 
 ![](assets/configure-course-paths.png)
 _Widgeten Kurser och banor där administratörer anger widgetens titel, beskrivning och väljer kurser eller utbildningsvägar att visa som interaktiva kort_
-11. Välj **[!UICONTROL Add widget]**.
+&#x200B;11. Välj **[!UICONTROL Add widget]**.
 
 Widgeten Kurser och banor läggs till på sidan. Administratörer kan lägga till andra widgetar och publicera sidan.
 
@@ -182,14 +182,14 @@ Så här konfigurerar du widgeten Innehållsruta:
 9. Skriv texten i **[!UICONTROL Action button label]** och ange en länk.
 10. Välj något av alternativen för Bakgrundsfyllning:
 
-   * **[!UICONTROL Color]**: Välj färg i färgväljaren eller skriv färgkoden i textfältet.
-   * **[!UICONTROL Image]**: Bläddra och överför en bild.
+    * **[!UICONTROL Color]**: Välj färg i färgväljaren eller skriv färgkoden i textfältet.
+    * **[!UICONTROL Image]**: Bläddra och överför en bild.
 
 11. Justera rutans höjd med alternativet **[!UICONTROL Content box height]**.
 12. Markera alternativen för textformatering.
 
-   ![](assets/configure-content-box.png)
-   _Anpassningsskärmen för innehållslådan, där administratörer kan ange en titel, beskrivning, åtgärdsknappsetikett och länk_
+    ![](assets/configure-content-box.png)
+    _Anpassningsskärmen för innehållslådan, där administratörer kan ange en titel, beskrivning, åtgärdsknappsetikett och länk_
 
 13. Välj **[!UICONTROL Add widgets]**.
 

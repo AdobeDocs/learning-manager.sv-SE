@@ -133,7 +133,7 @@ Författare som skapar en kurs kan växla mellan att aktivera eller inaktivera i
 
 ## Arbetsflöde som elev
 
-Som elev får du betygsätta en kurs endast efter registrering. Du kan se de genomsnittliga stjärngraderingarna för en kurs på sidan **Hem**, sidan **Mitt lärande** och katalogen **5}.**
+Som elev får du betygsätta en kurs endast efter registrering. Du kan se de genomsnittliga stjärngraderingarna för en kurs på sidan **Hem**, sidan **Mitt lärande** och katalogen **5&rbrace;.**
 
 1. Logga in som **elev**. Detta läser in **startsidan**.
 
