@@ -2235,7 +2235,7 @@ När en författare har angett priserna för olika kurser, utbildningsvägar ell
 
 >[!NOTE]
 >
->I mars 2024-versionen av Adobe Learning Manager har vi infört stöd för [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
+>I mars 2024-versionen av Adobe Learning Manager har vi infört stöd för [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=sv-SE).
 
 
 1. Klicka på **[!UICONTROL Export Training Metadata]** > **[!UICONTROL On Demand]**.

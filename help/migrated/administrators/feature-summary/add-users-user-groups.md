@@ -270,7 +270,7 @@ Det finns några skillnader mellan interna och externa registreringar:
 | Interna användare | Externa användare |
 |---|---|
 | Kan logga in med autentiseringsuppgifter för Adobe ID eller SSO. | Kan logga in med valfritt e-post-ID. |
-| Spelifiering är tillgänglig. | Spelifiering är tillgänglig. Administratören måste aktivera spelifiering för externa elever i inställningarna för [spelifiering](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification). |
+| Spelifiering är tillgänglig. | Spelifiering är tillgänglig. Administratören måste aktivera spelifiering för externa elever i inställningarna för [spelifiering](https://experienceleague.adobe.com/sv/docs/learning-manager/using/admin/gamification). |
 
 ### Pausa extern registreringsprofil
 

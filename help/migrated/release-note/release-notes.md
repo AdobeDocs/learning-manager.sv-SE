@@ -131,7 +131,7 @@ Läs den här [artikeln](/help/migrated/learners/feature-summary/fluidic-player.
 
 * Ett problem har korrigerats där elever som hade slutfört en kurs såg en vit skärm när de gjorde ett nytt besök efter att innehållsmodulen hade uppdaterats till en ny version.
 
-Mer information om kommande ändringar av Adobe Learning Manager finns i den här [artikeln](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Mer information om kommande ändringar av Adobe Learning Manager finns i den här [artikeln](https://experienceleague.adobe.com/sv/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
