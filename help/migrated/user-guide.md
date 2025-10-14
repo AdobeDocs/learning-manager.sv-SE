@@ -16,7 +16,7 @@ Läs vidare för att få reda på vad som är det senaste erbjudandet i Adobe Le
 
 ## Delta i konversationen {#jointheconversation}
 
-Gå till [Adobe Learning Manager användarforum](https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all) för att få inspiration och svar på de vanligaste frågorna.
+Gå till [Adobe Learning Manager användarforum](https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&sort=latest_replies&lang=all&tabid=all) för att få inspiration och svar på de vanligaste frågorna.
 
 ## Populära ämnen {#populartopics}
 

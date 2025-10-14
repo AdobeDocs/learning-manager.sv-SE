@@ -162,7 +162,7 @@ Så här konfigurerar du e-postmallar för ett utbildningsobjekt:
 
 ### Begränsa användare från att ta emot e-postmeddelanden {#restrictusersfromreceivingemails}
 
-Som administratör kan du välja vem som ska ta emot e-postmeddelanden från Learning Manager och vem som inte ska det. Du kan göra detta med alternativet **&#x200B;**&#x200B;[!UICONTROL Restricted User]&#x200B;**&#x200B;** på fliken **&#x200B;**&#x200B;[!UICONTROL Settings] **&#x200B; **. Användare kan läggas till i den här listan med sitt namn, e-post-ID eller unika användar-ID. Användarna som listas under detta alternativ kommer att hindras från att ta emot e-postmeddelanden från Learning Manager.
+Som administratör kan du välja vem som ska ta emot e-postmeddelanden från Learning Manager och vem som inte ska det. Du kan göra detta med alternativet **&#x200B;**&#x200B;[!UICONTROL Restricted User]&#x200B;**&#x200B;** på fliken **&#x200B;**&#x200B;[!UICONTROL Settings] **&#x200B; &#x200B;**. Användare kan läggas till i den här listan med sitt namn, e-post-ID eller unika användar-ID. Användarna som listas under detta alternativ kommer att hindras från att ta emot e-postmeddelanden från Learning Manager.
 
 ## Konfigurera dina kontoinställningar {#configureyouraccountsettings}
 

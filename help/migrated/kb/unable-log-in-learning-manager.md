@@ -31,7 +31,7 @@ Webbläsarens cacheminne och cookies kan hindra dig från att få åtkomst till 
 
 Länkarna nedan är webbläsarspecifika guider för att rensa cachen:
 
-* [Google Chrome](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&amp;hl=en)
+* [Google Chrome](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&hl=en)
 * [Internet Explorer](https://kb.wisc.edu/page.php?id=1514)
 * [Microsoft Edge](https://www.bitdefender.com/support/how-to-clear-the-cache-and-cookies%C2%A0in-microsoft-edge-1914.html)
 * [Firefox](https://kb.iu.edu/d/ahic)
@@ -39,7 +39,7 @@ Länkarna nedan är webbläsarspecifika guider för att rensa cachen:
 
 ## Använda inkognitoläge
 
-Använd inkognitoläge i webbläsaren och logga sedan in på Adobe Learning Manager. Se [instruktioner](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&amp;hl=en&amp;oco=0).
+Använd inkognitoläge i webbläsaren och logga sedan in på Adobe Learning Manager. Se [instruktioner](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en&oco=0).
 
 ## Kontakta administratören
 

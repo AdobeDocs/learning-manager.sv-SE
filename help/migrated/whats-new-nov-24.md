@@ -33,7 +33,7 @@ Läs om de nya funktionerna och förbättringarna i november 2024-versionen av A
 
 >[!NOTE]
 >
->Titta på det här [webbseminariet](https://cdn.content.adobelearningmanageracademy.com/public/newlearner/newlearner_0dc0f1e8.html#/overviewPage?instanceId=11932477&amp;loId=11231360&amp;loType=course) om du vill veta mer om de nya funktionerna i den här versionen.
+>Titta på det här [webbseminariet](https://cdn.content.adobelearningmanageracademy.com/public/newlearner/newlearner_0dc0f1e8.html#/overviewPage?instanceId=11932477&loId=11231360&loType=course) om du vill veta mer om de nya funktionerna i den här versionen.
 
 ## AI-baserad sökning i Adobe Learning Manager
 

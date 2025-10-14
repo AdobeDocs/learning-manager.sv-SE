@@ -31,7 +31,7 @@ Mer information om fluidic-spelare finns i [Fluidic-spelare](../../learners/feat
 
 Här är några exempel på var du kan använda den inbäddade fluidic-spelaren.
 
-* Du kan använda den inbäddade fluidic-spelaren på din **&#x200B; **&#x200B;webbplats för att lista de registrerade kurser för din anställda och även ge en länk för att starta en utbildning på samma sida. Det innebär att eleverna kan delta i utbildningar på intranätwebbplatsen.
+* Du kan använda den inbäddade fluidic-spelaren på din **&#x200B; &#x200B;**&#x200B;webbplats för att lista de registrerade kurser för din anställda och även ge en länk för att starta en utbildning på samma sida. Det innebär att eleverna kan delta i utbildningar på intranätwebbplatsen.
 
 * Om du bedriver utbildningsverksamhet kanske du har en webbplats där dina kunder köper kurser. Du kan integrera den inbäddade spelaren med samma webbplats så att dina kunder kan konsumera innehållet de köper på din webbplats.
 
@@ -183,7 +183,7 @@ Detta är en insats som måste göras av någon i ditt IT-team eller en extern k
 
    Du kan få din token genom att konfigurera din inbäddade fluidic-spelare i din integrationsadministratör. Du kan få din autentiseringstoken som du kan använda som din åtkomsttoken.
 
-   Exempel på skapad URL; https://learningmanager.adobe.com/app/player?lo_id=&quot;+lo_id+&quot;&amp;access_token=&quot;+accToken
+   Exempel på skapad URL; https://learningmanager.adobe.com/app/player?lo_id=&quot;+lo_id+&quot;&access_token=&quot;+accToken
 
    Här, lo_id kommer att vara ID för kursen, utbildningsprogram, certifiering och arbetsstöd.
 
