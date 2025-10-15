@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation för Adobe Learning Manager
-source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
+source-git-commit: 3120756396fa20170f9a5b96861cbdaa4d4bb8c8
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '763'
 ht-degree: 8%
 
 ---
@@ -68,6 +68,7 @@ ht-degree: 8%
    * Content Marketplace {#content-marketplace}
       * [Content Marketplace](administrators/feature-summary/content-marketplace.md)
       * [Kurera Go1-kurser till utbildningsvägen](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
+   * [L1-feedbackformulär](/help/migrated/administrators/feature-summary/l1-feedback-form.md)
    * [Rapporter](administrators/feature-summary/reports.md)
    * [Tavla för slutförda grupper](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [Utbildningsvägar](administrators/feature-summary/learning-paths.md)
