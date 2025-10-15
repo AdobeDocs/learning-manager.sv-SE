@@ -16,7 +16,7 @@ Du kan enkelt skapa ett kostnadsfritt provkonto i 30 dagar i Adobe Learning Mana
 
 Så här skapar du ett testkonto:
 
-1. Gå till [Adobe Learning Manager](https://business.adobe.com/products/learning-manager/adobe-learning-manager.html).
+1. Gå till [Adobe Learning Manager](https://business.adobe.com/se/products/learning-manager/adobe-learning-manager.html).
 2. Välj **[!UICONTROL Free 30-day trial]**.
 
    ![](assets/free-trial.png)
