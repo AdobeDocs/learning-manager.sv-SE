@@ -2,7 +2,7 @@
 description: Läs mer om att skapa L1-feedbackformulär för eleverna
 jcr-language: en_us
 title: L1-feedbackformulär
-source-git-commit: 70baa9d9871fb05e988973b61ce0af105459afb3
+source-git-commit: 13efc4d72ac56cecf6313dbda28a3853fc3b5498
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 0%
@@ -115,7 +115,7 @@ Skapa översättningar för frågorna i feedbackformuläret på flera språk. Me
 
 ## Ange ett feedbackformulär som standard
 
-Administratörer kan upprätta standardformulär för feedback för kurser i eget tempo, i klassrum, i virtuella klassrum och blandade kurser. När standardformuläret har konfigurerats visas det automatiskt för elever vid slutförande av en kurs. Detta standardformulär kommer att tillämpas på alla kurser om inte administratören väljer att tilldela ett annat feedbackformulär för specifika kurser.
+Administratörer kan upprätta standardformulär för feedback för kurser i eget tempo, i klassrum, i virtuella klassrum och blandade kurser. När du har angett ett standardformulär tillämpas det automatiskt på alla nya kurser. Elever kan se det här formuläret när de har slutfört en kurs. Administratörer kan välja att tilldela ett annat feedbackformulär för specifika kurser om det behövs.
 
 ![](assets/set-as-default.png)
 _Skärmen Feedbackformulär visar alternativ för att ange standardformulär för feedback_

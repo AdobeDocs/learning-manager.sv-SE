@@ -2,9 +2,9 @@
 description: Läs mer om Experience Builder, ett felfritt/lågkodsverktyg i Adobe Learning Manager som administratörer kan använda för att designa och publicera varumärkta, användarvänliga sidor utan expertkunskaper.
 jcr-language: en_us
 title: Experience Builder i Adobe Learning Manager
-source-git-commit: b3124c47d56a50437cb284fe809828bcd4c4008d
+source-git-commit: 13efc4d72ac56cecf6313dbda28a3853fc3b5498
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '1058'
 ht-degree: 0%
 
 ---
@@ -54,3 +54,26 @@ Experience Builder kan användas för olika utbildningsscenarier som involverar 
 * **Rollbaserade utbildningsportaler**: Organisationer med specifika behov av utbildning på avdelningar, t.ex. ett ekonomiskt företag med separata sälj- och kundteam, kan skapa särskilda utbildningssidor för varje grupp för att säkerställa att innehållet är mycket relevant.
 * **Evenemangsspecifika utbildningssidor**: Du kan skapa tillfälliga specialsidor för företagsevenemang som ett teknikertoppmöte eller en försäljningsstart. Dessa sidor kan innehålla sessionsinformation, talarlistor och en händelsekalenderwidget, och kan endast rikta sig till det relevanta teamet under en viss tid innan de återgår till standardportalupplevelsen.
 * **Kundakademier**: Med Experience Builder kan byråer skapa kundinriktade akademier som återspeglar deras varumärkesidentitet och få en anpassad upplevelse utan den tid och kostnad som förknippas med en huvudlös konstruktion.
+
+## Autentiserade arbetsflöden för den externa portalen
+
+Kundinriktade akademier som byggts med Experience Builder hanteras helt inom Adobe Learning Manager. Dessa portaler använder Adobe Learning Manager inbyggda system för autentisering, behörigheter och säkerhet.
+
+Varje extern elev måste logga in på Adobe Learning Manager och vara medlem i minst en användargrupp. För närvarande stöder Experience Builder inte icke-autentiserade eller offentliga portaler. För alla personliga upplevelser måste eleverna logga in på Adobe Learning Manager.
+
+Administratörer kan använda alternativet Experience Builder **[!UICONTROL Menu]** för att tilldela specialbyggda sidor som landningssidor för specifika användargrupper. När elever från den gruppen loggar in dirigerar Adobe Learning Manager dem automatiskt till den tilldelade startsidan, vilket skapar en personlig och varumärkesanpassad upplevelse för den målgruppen, t.ex. kundutbildning, partneraktivering eller introduktion.
+
+### Krav och begränsningar
+
+* Autentisering krävs: Anpassat innehåll, anpassade sidor och menyer är endast tillgängliga för autentiserade användare i Adobe Learning Manager.
+* Tilldelning av användargrupper: Elever måste läggas till i rätt användargrupper för att få åtkomst till sina angivna målsidor och menyer.
+* Gruppbaserade målsidor: Inställningen för landningssida gäller alla medlemmar i en användargrupp, vilket säkerställer enhetliga upplevelser för liknande målgrupper.
+* Anpassningsomfång: Experience Builder stöder omfattande anpassningar av användargränssnitt och layout med hjälp av widgetar, HTML och iFrames. Avancerade integreringar som e-handel, federerad enkel inloggning eller externa dataanslutningar kan dock kräva en hybrid eller fjärradministrerad implementering.
+
+### Arbetsflöde för konfiguration av extern portal
+
+* Definiera användargrupper: Skapa eller identifiera grupper i ALM som representerar din externa målgrupp (t.ex. kunder, partner eller distributörer). Mer information om användargrupper finns i [Användargrupper i Adobe Learning Manager](/help/migrated/administrators/feature-summary/user-group.md).
+* Tilldela elever i grupper: Lägg till varje extern elev i rätt användargrupp så att de dirigeras till rätt portalupplevelse efter inloggning.
+* Designportalsidor: Använd Experience Builder för att skapa varumärkta sidor med Adobe Learning Manager-widgetar, HTML- och iFrame-komponenter. Visa [Skapa en anpassad sida i Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/create-a-page.md) om du vill ha mer information.
+* Konfigurera menyer och landningssidor: I Menu Creator tilldelar du varje användargrupp en unik meny och anger dess anpassade portalsida som landningssida. Visa [Skapa en meny](/help/migrated/administrators/feature-summary/experience-builder/create-a-menu.md) om du vill ha mer information.
+* Testa och Publish: Verifiera navigering, innehållssynlighet och siddirigering för varje användargrupp innan du publicerar portalen.
