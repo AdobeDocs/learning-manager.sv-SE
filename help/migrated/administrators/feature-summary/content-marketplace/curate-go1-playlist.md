@@ -2,9 +2,9 @@
 description: Lär dig skapa och lägga till en Go1-spellista på en utbildningsväg i Adobe Learning Manager. I den här guiden hittar du steg-för-steg-anvisningar och metodtips för integrering av spellistor.
 jcr-language: en_us
 title: Kurera Go1-spellista till Adobe Learning Manager utbildningsväg
-source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
+source-git-commit: 9931265d7cbecf42413011fb7e635ebb8e0f4006
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1539'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ Administratörer kan skriva beskrivningen av spellistan i AI-dialogen. AI kommer
 9. Ändra beskrivningen med hjälp av de tillgängliga AI-alternativen:
    * **[!UICONTROL Improve writing]**: Förfina den befintliga beskrivningen för att göra den tydligare.
    * **[!UICONTROL Generate description]**: Skapa automatiskt en ny beskrivning baserad på innehållet eller kontexten.
-   * **[!UICONTROL &#x200B; Make it shorter]**: Korta ned texten eller titeln samtidigt som du behåller huvudidén.
+   * **[!UICONTROL  Make it shorter]**: Korta ned texten eller titeln samtidigt som du behåller huvudidén.
 
    ![](assets/ai-option-descriptions.png)
    _Go1 skärm för att skapa spellistor med AI-alternativ för att förbättra spellistans beskrivning_
@@ -139,8 +139,8 @@ Administratörer kan skriva beskrivningen av spellistan i AI-dialogen. AI kommer
 12. Välj **Ja** i bekräftelsemeddelandet.
 13. Välj spellista från **[!UICONTROL Select playlist to import prompt]**.
 
-    ![](assets/add-playlist-to-lp.png)
-    _Markera och importera spellistan Sales Engineer Skills Enhancement från biblioteket Go1 i Adobe Learning Manager_
+   ![](assets/add-playlist-to-lp.png)
+   _Markera och importera spellistan Sales Engineer Skills Enhancement från biblioteket Go1 i Adobe Learning Manager_
 
 14. Välj **[!UICONTROL Add Playlists to Learning Path]** och sedan **[!UICONTROL Publish]**.
 
@@ -216,6 +216,10 @@ Så här tar du bort spellistan:
    _Hanteringsskärmen för spellistan visar alternativet Ta bort spellista_
 
 Den valda spellistan raderas från biblioteket Go1.
+
+### Dela spellistan
+
+Alternativet Dela spellista stöds inte i Go1-integreringen med Adobe Learning Manager. Det här alternativet kommer att tas bort från gränssnittet i nästa version.
 
 ## Kursgränsen har överskridits
 
