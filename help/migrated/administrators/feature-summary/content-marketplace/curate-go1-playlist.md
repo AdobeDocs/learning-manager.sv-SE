@@ -2,7 +2,7 @@
 description: Lär dig skapa och lägga till en Go1-spellista på en utbildningsväg i Adobe Learning Manager. I den här guiden hittar du steg-för-steg-anvisningar och metodtips för integrering av spellistor.
 jcr-language: en_us
 title: Kurera Go1-spellista till Adobe Learning Manager utbildningsväg
-source-git-commit: 9931265d7cbecf42413011fb7e635ebb8e0f4006
+source-git-commit: fd72f959e1c1d53841cf095a447e16e2387969c2
 workflow-type: tm+mt
 source-wordcount: '1539'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Adobe Learning Manager tillhandahåller AI-driven hjälp för att förenkla kurs
 
 Skapa en spellista med AI:
 
-1. Välj alternativet **[!UICONTROL Chat with AI]** på innehållsnavet Go1.
+1. Välj alternativet **[!UICONTROL Chat with AI]** på innehållsnavet **Go1**.
 
    ![](assets/select-chat-with-ai.png)
    _Skärmen Innehållsnav visar alternativet Chatta med AI, där administratörer kan interagera med AI-assistenten för att ställa frågor_
@@ -128,7 +128,7 @@ Administratörer kan skriva beskrivningen av spellistan i AI-dialogen. AI kommer
 9. Ändra beskrivningen med hjälp av de tillgängliga AI-alternativen:
    * **[!UICONTROL Improve writing]**: Förfina den befintliga beskrivningen för att göra den tydligare.
    * **[!UICONTROL Generate description]**: Skapa automatiskt en ny beskrivning baserad på innehållet eller kontexten.
-   * **[!UICONTROL &#x200B; Make it shorter]**: Korta ned texten eller titeln samtidigt som du behåller huvudidén.
+   * **[!UICONTROL  Make it shorter]**: Korta ned texten eller titeln samtidigt som du behåller huvudidén.
 
    ![](assets/ai-option-descriptions.png)
    _Go1 skärm för att skapa spellistor med AI-alternativ för att förbättra spellistans beskrivning_
@@ -139,8 +139,8 @@ Administratörer kan skriva beskrivningen av spellistan i AI-dialogen. AI kommer
 12. Välj **Ja** i bekräftelsemeddelandet.
 13. Välj spellista från **[!UICONTROL Select playlist to import prompt]**.
 
-    ![](assets/add-playlist-to-lp.png)
-    _Markera och importera spellistan Sales Engineer Skills Enhancement från biblioteket Go1 i Adobe Learning Manager_
+   ![](assets/add-playlist-to-lp.png)
+   _Markera och importera spellistan Sales Engineer Skills Enhancement från biblioteket Go1 i Adobe Learning Manager_
 
 14. Välj **[!UICONTROL Add Playlists to Learning Path]** och sedan **[!UICONTROL Publish]**.
 
