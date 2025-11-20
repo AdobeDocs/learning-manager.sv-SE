@@ -2,7 +2,7 @@
 description: Lär dig skapa och lägga till en Go1-spellista på en utbildningsväg i Adobe Learning Manager. I den här guiden hittar du steg-för-steg-anvisningar och metodtips för integrering av spellistor.
 jcr-language: en_us
 title: Kurera Go1-spellista till Adobe Learning Manager utbildningsväg
-source-git-commit: fd72f959e1c1d53841cf095a447e16e2387969c2
+source-git-commit: 6d7c4f615bc69ba2d9cb6b1dfbfe4fae09ecfb18
 workflow-type: tm+mt
 source-wordcount: '1539'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Lägg till Go1-kurser direkt till utbildningsvägar och certifieringar. Skapa ut
 
 Så här skapar du en utbildningsväg med Go1-kurser:
 
-1. Logga in på Adobe Learning Manager som administratör.
+1. Logga in på **Adobe Learning Manager** som administratör.
 2. Välj **[!UICONTROL Learning Paths]** i den vänstra navigeringsrutan.
 3. Välj **[!UICONTROL Add]**.
 
