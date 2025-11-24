@@ -2,9 +2,9 @@
 description: Lär dig hur du får åtkomst till, hämtar och tolkar feedbackrapporten i Adobe Learning Manager. Förstå rapportkolumner, frågetyper, chefs- och elevsvar och hur feedbackinsikter stöder utvärdering av utbildning och kontinuerlig förbättring.
 jcr-language: en_us
 title: Feedbackrapport i Adobe Learning Manager
-source-git-commit: 6fceea6cc1f5fbe47e0dbb211cfb9e2de67957f6
+source-git-commit: 339207c1a1d4f365a4c25c4d2ef7e4527b1dfefc
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '844'
 ht-degree: 5%
 
 ---
@@ -102,4 +102,6 @@ Följande kolumner visas i rapporten Nivå för utbildningsobjekt:
 | Feedbackversion | Versionsnummer för feedbackformuläret |
 | Elevspråk | Språk som valts av eleven |
 
-
+>[!NOTE]
+>
+>Nivårapporten för utbildningsobjekt innehåller även de frågor som lagts till i feedbackformuläret. Varje fråga visas som en kolumnrubrik, och elevens svar på dessa frågor visas på motsvarande rader nedan.
