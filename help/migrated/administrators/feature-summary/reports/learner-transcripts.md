@@ -72,12 +72,12 @@ c. Välj **[!UICONTROL Enrollment Status]**. Den här listrutan innehåller föl
        * Pågår
        * HAR INTE STARTATS
        * avregistrerad
-   8. Avancerade alternativ: Välj **[!UICONTROL Advanced options]** för att hämta utskrifterna och inkludera följande:
+   &#x200B;8. Avancerade alternativ: Välj **[!UICONTROL Advanced options]** för att hämta utskrifterna och inkludera följande:
 
    a. Ladda ned utskrifter för elever som har tagits bort från ett konto genom att markera kryssrutan **[!UICONTROL Include deleted Learners]**.
 b. Ladda ned information om modulnivå i elevens betygsutdrag genom att aktivera kryssrutan **[!UICONTROL Enable module level information]**. I det här fallet hämtas modulnamn och den tid som används för varje modul som en del av utskriften om det här alternativet är aktiverat.
 c. Ladda ned kompetensdata och sammanfattningsblad genom att markera kryssrutan **[!UICONTROL Include skills data and summary sheets]**. Mer information finns i avsnittet Excel-rapporter.
-9. Du kan också välja vilka kolumner som ska fyllas i i rapporten. Det ger flexibilitet att hämta rapporter med specifika kolumnvärden efter behov. Välj kolumnerna i listrutan.
+&#x200B;9. Du kan också välja vilka kolumner som ska fyllas i i rapporten. Det ger flexibilitet att hämta rapporter med specifika kolumnvärden efter behov. Välj kolumnerna i listrutan.
 Betygsutdrag genereras och laddas ned till din dator som .zip-filer när kompetensdata inte ingår. Om kryssrutan Kunskapsdata är aktiverad genereras och hämtas utskrifter som . xlsx-filer.
 
 ### Generera elevens betygsutdrag med kopiera och klistra in
