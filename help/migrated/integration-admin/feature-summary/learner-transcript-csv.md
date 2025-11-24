@@ -4,7 +4,7 @@ title: Tolka elevens betygsutdrag CSV
 description: Tolka elevens betygsutdrag CSV
 contentowner: saghosh
 preview: true
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '2997'
 ht-degree: 8%
@@ -29,9 +29,9 @@ Denna information kan vara användbar för alla utvecklare som avser att integre
 
 ## Hämta elevens betygsutdrag från användargränssnittet {#fetchlearnertranscriptfromtheuserinterface}
 
-Från Profilinställningarna kan en elev ladda ned sitt betygsutdrag. Mer information finns i *** [Hämta elevens betygsutdrag](../../administrators/feature-summary/learner-transcripts.md)***.
+Från Profilinställningarna kan en elev ladda ned sitt betygsutdrag. Mer information finns i ***[Hämta elevens betygsutdrag](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)***.
 
-Administratörer kan generera elevbetygsutdrag för hela organisationen, en specifik uppsättning användare eller en specifik uppsättning utbildningsobjekt eller en specifik uppsättning användare och utbildningsobjekt. De kan också få alla utbildningsposter för ett tidsintervall och indikera om modulnivåinformation krävs (som standard utelämnas information på modulnivå). Mer information finns i [***Hämta elevens betygsutdrag***](../../administrators/feature-summary/learner-transcripts.md).
+Administratörer kan generera elevbetygsutdrag för hela organisationen, en specifik uppsättning användare eller en specifik uppsättning utbildningsobjekt eller en specifik uppsättning användare och utbildningsobjekt. De kan också få alla utbildningsposter för ett tidsintervall och indikera om modulnivåinformation krävs (som standard utelämnas information på modulnivå). Mer information finns i [***Hämta elevens betygsutdrag***](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
 
 <!--Update above link?-->
 

@@ -2,7 +2,7 @@
 description: Läs om de nya funktionerna och förbättringarna i oktober 2025-versionen av Adobe Learning Manager
 jcr-language: en_us
 title: Nyheter i Adobe Learning Manager oktober 2025-versionen
-source-git-commit: c1a201e97a8944dddb6361aade0017f5745f933c
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '5605'
 ht-degree: 0%
@@ -731,7 +731,7 @@ Dessa ändringar säkerställer att slutföranden markerade efter sessionsdatume
 ![Elevens betygsrapporter visar markerade slutförandedatum (gulmarkerat) för spårning av kursens slutförande i Adobe-inlärning](/help/migrated/assets/mark-completion-column.png)
 _Elevens betygsrapport visar en ny kolumn i gult som visar enskilda slutförandedatum för varje användare_
 
-Titta i [Elevens betygsutdrag](/help/migrated/administrators/feature-summary/learner-transcripts.md) om du vill ha mer information om elevens betygsrapport.
+Titta i [Elevens betygsutdrag](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)om du vill ha mer information om elevens betygsrapport.
 
 ### Förbättrad användarrapport med utökade datafält
 
@@ -774,7 +774,7 @@ Organisationer kan nu inkludera avstängda användare (de med inaktiverade exter
 >
 >Flaggan är inaktiverad som standard för befintliga konton och måste uttryckligen begäras för nya konton.
 
-Visa [Elevens betygsutdrag](/help/migrated/administrators/feature-summary/learner-transcripts.md) artikel mer information.
+Visa [Elevens betygsutdrag](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md) artikel mer information.
 
 ### Rapport om arbetsstöd med direktlänkar
 

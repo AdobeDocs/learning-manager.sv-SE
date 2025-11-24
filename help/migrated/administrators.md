@@ -4,7 +4,7 @@ title: Administratörer
 description: Läs vidare för att lära dig mer om funktionerna i Learning Manager och vanliga frågor som rör administratörsrollen.
 contentowner: manochan
 preview: true
-source-git-commit: 0fabd369e70e15ba22fead0177a24aafd851d88d
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 5%
@@ -36,7 +36,7 @@ ht-degree: 5%
 
 * [Färgteman och varumärken](administrators/feature-summary/themes.md)
 * [Integrering med Adobe Connect](administrators/feature-summary/adobeconnect-integration.md)
-* [Elevens betygsutdrag](/help/migrated/administrators/feature-summary/learner-transcripts.md)
+* [Elevens betygsutdrag](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)
 * [Spelifiering](administrators/feature-summary/gamification.md)
 * [Lägg till användare/användargrupper](administrators/feature-summary/add-users-user-groups.md)
 * [Utmärkelsetecken](administrators/feature-summary/badges.md)

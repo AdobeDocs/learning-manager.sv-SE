@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Rapporter
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: f6bc1fa9384fc728f6abca7bb0fd9f62bb1f9e04
+source-git-commit: 03484f1c95f7dbf1e06b7cb9559b1a6b012759c1
 workflow-type: tm+mt
-source-wordcount: '7450'
+source-wordcount: '7222'
 ht-degree: 2%
 
 ---
@@ -275,7 +275,7 @@ Skapa en anpassad kompatibilitetsetikett genom att följa dessa steg:
 Gör så här för att skapa och dela en efterlevnadstavla:
 
 1. Gå till **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**.
-1. Välj **[!UICONTROL Shared with Managers]** i avsnittet **[!UICONTROL Compliance Dashboard]**.
+1. Välj **[!UICONTROL Compliance Dashboard]** i avsnittet **[!UICONTROL Shared with Managers]**.
 1. Välj **[!UICONTROL Share dashboard]** och välj de skapade etiketterna i listrutan **[!UICONTROL Select Compliance Label]**.
 
 
@@ -450,15 +450,9 @@ Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
 
 ### Elevens betygsutdrag {#LearnerTranscripts-1}
 
-Med Adobe Learning Manager kan administratörer i en organisation generera utskrifter som är kopplade till elever. Elevens betygsrapport innehåller följande:
+Med Adobe Learning Manager kan administratörer i en organisation generera utskrifter som är kopplade till elever.
 
-1. Elevens betygsutdrag: instrumentpanel för utbildningsaktivitet
-1. Kompetens: instrumentpanel för kompetens
-1. Efterlevnadstavla
-
-Elevens betygsutdrag i Excel-rapporter visar kolumnerna Obligatoriska krediter och intjänade poäng i decimaltal.
-
-Mer information om hur du genererar elevbetygsrapporter och mer information finns i [Elevbetygsutdrag](learner-transcripts.md).
+Mer information finns i [Elevens betygsutdrag](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
 
 ### Meddelanderapporter {#announcementsreports}
 
@@ -750,22 +744,7 @@ Hämta en rapport genom att följa dessa steg: Öppna **[!UICONTROL Course/ Lear
 
 Som administratör kan du nu hämta både elevfeedback (L1) och chefsfeedback (L3) för valda utbildningar under en angiven period.
 
-Du kan exportera data från användargränssnittet eller via PowerBI-anslutningen för mer djupgående analys.
-
-Feedback-rapporter för L1 och L3 ger ett alternativ för att hämta en konsoliderad feedback-rapport för L1- och L3-svaren för valda utbildningar för ett intervall på **ett år** eller för upp till 10 valda utbildningar för ett datumintervall.
-
-Logga in som administratör, klicka på **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** och klicka på **[!UICONTROL Feedback Report]** i listan med rapporter.
-
-![](assets/download-feedbackreport.png)
-*Hämta feedbackrapporten*
-
-Om du klickar på Hämta efter att du har valt filtren visas ett meddelande om att du vill hämta rapporten i CSV-format.
-
-Den hämtade rapporten innehåller information som utbildningsnamn och -typ, instansnamn, elevnamn och e-postadress, typ av feedback: L1 eller L3, datum för feedback som har skickats för nya data.
-
-För befintliga data före den här funktionsimplementeringen visas LO-slutförandedatum, LO-slutförandedatum, L1-feedbackfråga Faktisk text och text i klassrum i egen takt i olika kolumner, L1-feedback respektive svar, chefens namn och e-postadress, L3-feedbackvärde och inlämningsdatum, Aktiva fält.
-
-Du kan också exportera data från användargränssnittet eller till Power BI, som stöder alla utbildningar för alla datumintervall för mer djupgående analyser
+Mer information finns i [Feedbackrapporten](/help/migrated/administrators/feature-summary/reports/feedback-report.md).
 
 ### Utbildningsrapport {#training-report}
 
@@ -937,7 +916,7 @@ Du kan få dina favoritrapporter via e-post genom att prenumerera på dem.
 
 Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
 
-Klicka på fliken **[!UICONTROL Subscription]** på sidan **[!UICONTROL Reports]**. Sidan Rapportprenumeration visas.
+Klicka på fliken **[!UICONTROL Reports]** på sidan **[!UICONTROL Subscription]**. Sidan Rapportprenumeration visas.
 
 Du väljer rapportnamnet i listrutan genom att börja skriva rapportnamnet i fältet Rapporter. Välj hur ofta du vill skicka e-post i listrutan. Du kan lägga till e-postmeddelandets ämne och ange ett alternativt e-post-ID.
 
@@ -1035,7 +1014,7 @@ Det exporterade kalkylbladet med kontrollpanelsrapporter innehåller detaljerad 
    *Axlar för rapporter*
 
 1. Välj de sekundära **[!UICONTROL Y-axis]** kriterierna/intervallet för din rapport från rullgardinsmenyn. Om du till exempel har ett registreringsalternativ för utbildningsprogram väljer du ett eller flera tillstånd i listrutan Tillstånd. Sekundära områdesdata representeras i form av linjediagram.
-1. Markera X&#x200B;**-axel**-kriterierna för rapporten i listrutan. Om x-axeln väljs som datum, finns det ett alternativ för att gruppera x-axelkriteriet efter dag, månad, kvartal och år.
+1. Markera X**-axel**-kriterierna för rapporten i listrutan. Om x-axeln väljs som datum, finns det ett alternativ för att gruppera x-axelkriteriet efter dag, månad, kvartal och år.
 1. Välj önskat alternativ i listrutan i avsnittet Tidsrymd. Du kan välja bland följande alternativ:
 
    * Senaste månaden

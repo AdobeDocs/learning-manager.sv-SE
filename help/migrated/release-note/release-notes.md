@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Versionsinformation om Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '27301'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/se/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>-->
@@ -131,7 +131,7 @@ Läs den här [artikeln](/help/migrated/learners/feature-summary/fluidic-player.
 
 * Ett problem har korrigerats där elever som hade slutfört en kurs såg en vit skärm när de gjorde ett nytt besök efter att innehållsmodulen hade uppdaterats till en ny version.
 
-Mer information om kommande ändringar av Adobe Learning Manager finns i den här [artikeln](https://experienceleague.adobe.com/sv/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Mer information om kommande ändringar av Adobe Learning Manager finns i den här [artikeln](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -1610,7 +1610,7 @@ I den här uppdateringen kan en elev ladda upp tillgångar som bevis på slutfö
 
 En elev kan öppna ett externt certifikat och överföra mediefiler som pdf, text eller bildfiler.
 
-Mer information finns i [***Överför resurser i det externa certifikatet***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Mer information finns i [***Överför resurser i det externa certifikatet***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problem som har åtgärdats i den här versionen {#issuesfixedinthisrelease}
 
@@ -1892,7 +1892,7 @@ En administratör kan ge särskilda behörigheter till en användargrupp, med vi
 
 **Ändringar i värden i tidskolumner**
 
-I elevens betygsutdrag avrundas minuterna i tidskolumnerna till närmaste minut och värdet på sekunden är 00. Mer information finns i [***Tidskolumner***](../administrators/feature-summary/learner-transcripts.md#datetime).
+I elevens betygsutdrag avrundas minuterna i tidskolumnerna till närmaste minut och värdet på sekunden är 00. Mer information finns i [***Tidskolumner***](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
 
 ### Problem som har åtgärdats i den här versionen {#Issuesfixedinthisrelease-3}
 
@@ -1988,7 +1988,7 @@ Utgivningsdatum: 20 juni 2019
 
 **Automatiskt urval av innehåll**
 
-Med social utbildning kan innehåll som publiceras av elever kurateras på två sätt, nämligen - **Inget kurateringsverktyg** och **Manuell kuratering**. I den här versionen förbättrar Adobe Learning Manager social utbildning genom att tillhandahålla AI-aktiverade funktioner för automatisk kurering. När innehållet har publicerats analyseras det för att identifiera om det tillhör den kompetens som det har publicerats för. Baserat på konfidenspoängen antingen läggs innehållet upp live eller skickas för manuell kuratering. Mer information finns i *[**&#x200B; Automatisk kuratering &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+Med social utbildning kan innehåll som publiceras av elever kurateras på två sätt, nämligen - **Inget kurateringsverktyg** och **Manuell kuratering**. I den här versionen förbättrar Adobe Learning Manager social utbildning genom att tillhandahålla AI-aktiverade funktioner för automatisk kurering. När innehållet har publicerats analyseras det för att identifiera om det tillhör den kompetens som det har publicerats för. Baserat på konfidenspoängen antingen läggs innehållet upp live eller skickas för manuell kuratering. Mer information finns i *[** Automatisk kuratering **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mappa kompetens med kompetensdomäner**
 
@@ -2035,7 +2035,7 @@ Utgivningsdatum: 30 maj 2019
 * Kompetenser stöder nu tilldelning av kreditvärden i decimalformat. Detta gör det möjligt för författare att tilldela decimalnivå kreditvärde till en viss kurs. Mer information finns i [***Decimalstöd***](../administrators/feature-summary/skills-levels.md#decimal).
 * Automatisera skapandet av anpassade roller. Mer information finns i [***Konfigurera roller via csv-filer***](../integration-admin/feature-summary/configure-role-csv-files.md).
 * Ansökningar som krävs för externa certifieringar och aktivitetsmoduler är nu valfria. Detta gör det möjligt för chefer och instruktörer att utvärdera utan ett bidrag. Mer information finns i [***Valfri överföring***](../managers/feature-summary/learning-objects.md#optional).
-* Hämta elevens betygsutdrag för raderade användare. Mer information finns i [***Elevens betygsutdrag***](../administrators/feature-summary/learner-transcripts.md).
+* Hämta elevens betygsutdrag för raderade användare. Mer information finns i [***Elevens betygsutdrag***](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
 * Stöd för följande språk:
 
    * Koreanska
@@ -2612,7 +2612,7 @@ Utgivningsdatum: 6 december 2016.
 
 ### Förbättring {#enhancement}
 
-Som en del av den här uppdateringen tillhandahåller Learning Manager slutpunkten [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>ManagerAPI/v1/#!/user/patch_users_id) för att uppdatera användare i ett program. Du kan komma åt den här API-slutpunkten i administratörsrollen. Med **&#x200B;**&#x200B;här slutpunkten kan du uppdatera följande information om Learning Manager-användare:
+Som en del av den här uppdateringen tillhandahåller Learning Manager slutpunkten [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>ManagerAPI/v1/#!/user/patch_users_id) för att uppdatera användare i ett program. Du kan komma åt den här API-slutpunkten i administratörsrollen. Med **** här slutpunkten kan du uppdatera följande information om Learning Manager-användare:
 
 * Namn
 * E-post
@@ -2969,7 +2969,7 @@ Vissa av förbättringsfunktionerna visas nedan som referens.
 
 **Elevens betygsutdrag**
 
-Learning Manager är en funktion som du kan använda för att generera betygsutdrag för elever i organisationens Learning Manager. Mer information finns i [Hjälpinnehåll för elevens betygsutdrag](../administrators/feature-summary/learner-transcripts.md).
+Learning Manager är en funktion som du kan använda för att generera betygsutdrag för elever i organisationens Learning Manager. Mer information finns i [Hjälpinnehåll för elevens betygsutdrag](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
 
 **Exportera utmärkelsetecken som PDF**
 
@@ -3122,7 +3122,7 @@ Export av registreringsdata misslyckas om en av de registrerade eleverna tas bor
 
 **E-postmallar**
 
-* Ordet **partners,** som användes för att representera externa grupper,**&#x200B;** tas bort **&#x200B;**&#x200B;från brödtext och titel för e-postmallar. Externa grupper kallas inte nödvändigtvis partner.\
+* Ordet **partners,** som användes för att representera externa grupper,**** tas bort **** från brödtext och titel för e-postmallar. Externa grupper kallas inte nödvändigtvis partner.\
   **Obs!** Den uppdaterade mallen visas inte om standardmallen redan har ändrats. Om du vill visa den uppdaterade mallen klickar du på **Återgå till original** i dialogrutan **Mallförhandsvisning**.
 
 * Det går inte att klicka på URL:en i e-postmeddelandet som mottas av administratörer när **Profilen har skapats (självregistrering)** och **Profilen har skapats (externa/partners)** e-postmallar har redigerats. Problemet har åtgärdats.
