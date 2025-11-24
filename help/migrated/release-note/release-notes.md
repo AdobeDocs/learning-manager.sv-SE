@@ -18,7 +18,7 @@ ht-degree: 0%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/se/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>-->
@@ -131,7 +131,7 @@ Läs den här [artikeln](/help/migrated/learners/feature-summary/fluidic-player.
 
 * Ett problem har korrigerats där elever som hade slutfört en kurs såg en vit skärm när de gjorde ett nytt besök efter att innehållsmodulen hade uppdaterats till en ny version.
 
-Mer information om kommande ändringar av Adobe Learning Manager finns i den här [artikeln](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Mer information om kommande ändringar av Adobe Learning Manager finns i den här [artikeln](https://experienceleague.adobe.com/sv/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
