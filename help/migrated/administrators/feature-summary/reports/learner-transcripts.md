@@ -2,9 +2,9 @@
 description: Elevens betygsutdrag i Adobe Learning Manager (ALM) ger administratörer möjlighet att övervaka elevens framsteg inom kurser, moduler, utbildningsvägar och certifieringar. Den stöder resultatutvärderingar, efterlevnadsövervakning, revisioner och extern rapportering. Rapporten ger en fullständig sammanfattning av en elevs engagemang och resultat.
 jcr-language: en_us
 title: Elevens betygsutdrag i Adobe Learning Manager
-source-git-commit: 6fceea6cc1f5fbe47e0dbb211cfb9e2de67957f6
+source-git-commit: ab60b3fddb4fbf405d0ec6d32bd6c06e60b14a06
 workflow-type: tm+mt
-source-wordcount: '4775'
+source-wordcount: '4770'
 ht-degree: 4%
 
 ---
@@ -63,21 +63,23 @@ Elevens BETYGSUTDRAG i Adobe Learning Manager spårar utbildning, regelefterlevn
 5. Välj **[!UICONTROL Generate New]**.
 6. Välj det datumintervall som du vill att transkriptionen ska genereras för. Du kan ändra både start- och slutdatum med alternativet **[!UICONTROL Choose dates]** i listrutan Datumintervall.
 7. Markera följande:
-a. Välj elevernas namn i avsnittet **[!UICONTROL Select Learners]**. Du kan välja användare eller användargrupper, eller så kan du kopiera och klistra in e-postadresserna till de elever som du vill generera utskrifter för. Se avsnittet [Generera elevens betygsutdrag](#generate-learner-transcript-using-copy-paste) med kopiera och klistra in för mer information. Om du inte markerar något används standardinställningen Alla värden.
-b. Välj specifika kataloger i listrutan **[!UICONTROL Select Catalogs]**. Transkriptionen laddas bara ned för de angivna katalogerna. Om du inte markerar något används standardinställningen Alla värden.
-c. Välj **[!UICONTROL Enrollment Status]**. Den här listrutan innehåller följande alternativ:
+   1. Välj elevernas namn i avsnittet **[!UICONTROL Select Learners]**. Du kan välja användare eller användargrupper, eller så kan du kopiera och klistra in e-postadresserna till de elever som du vill generera utskrifter för. Se avsnittet [Generera elevens betygsutdrag](#generate-learner-transcript-using-copy-paste) med kopiera och klistra in för mer information. Om du inte markerar något används standardinställningen Alla värden.
+   1. Välj specifika kataloger i listrutan **[!UICONTROL Select Catalogs]**. Transkriptionen laddas bara ned för de angivna katalogerna. Om du inte markerar något används standardinställningen Alla värden.
+   1. Välj **[!UICONTROL Enrollment Status]**. Den här listrutan innehåller följande alternativ:
 
-       * Välj alla
-       * slutfört
-       * Pågår
-       * HAR INTE STARTATS
-       * avregistrerad
-   &#x200B;8. Avancerade alternativ: Välj **[!UICONTROL Advanced options]** för att hämta utskrifterna och inkludera följande:
+      * Markera allt
+      * Slutfört
+      * Pågår
+      * Inte påbörjad
+      * Avregistrerad
 
-   a. Ladda ned utskrifter för elever som har tagits bort från ett konto genom att markera kryssrutan **[!UICONTROL Include deleted Learners]**.
-b. Ladda ned information om modulnivå i elevens betygsutdrag genom att aktivera kryssrutan **[!UICONTROL Enable module level information]**. I det här fallet hämtas modulnamn och den tid som används för varje modul som en del av utskriften om det här alternativet är aktiverat.
-c. Ladda ned kompetensdata och sammanfattningsblad genom att markera kryssrutan **[!UICONTROL Include skills data and summary sheets]**. Mer information finns i avsnittet Excel-rapporter.
-&#x200B;9. Du kan också välja vilka kolumner som ska fyllas i i rapporten. Det ger flexibilitet att hämta rapporter med specifika kolumnvärden efter behov. Välj kolumnerna i listrutan.
+8. Avancerade alternativ: Välj **[!UICONTROL Advanced options]** för att hämta utskrifterna och inkludera följande:
+
+   1. Hämta utskrifter för elever som har tagits bort från ett konto genom att markera kryssrutan **[!UICONTROL Include deleted Learners]**.
+   1. Ladda ned information om modulnivå i elevens betygsutdrag genom att aktivera kryssrutan **[!UICONTROL Enable module level information]**. I det här fallet hämtas modulnamn och den tid som används för varje modul som en del av utskriften om det här alternativet är aktiverat.
+   1. Ladda ned kompetensdata och sammanfattningsblad genom att markera kryssrutan **[!UICONTROL Include skills data and summary sheets]**. Mer information finns i avsnittet Excel-rapporter.
+
+9. Du kan också välja vilka kolumner som ska fyllas i i rapporten. Det ger flexibilitet att hämta rapporter med specifika kolumnvärden efter behov. Välj kolumnerna i listrutan.
 Betygsutdrag genereras och laddas ned till din dator som .zip-filer när kompetensdata inte ingår. Om kryssrutan Kunskapsdata är aktiverad genereras och hämtas utskrifter som . xlsx-filer.
 
 ### Generera elevens betygsutdrag med kopiera och klistra in
@@ -137,7 +139,7 @@ Följande kolumner visar aktivitet, förlopp eller försök.
 | Highest_Quiz_score_max | Högsta möjliga quiz-poäng för modulen. Det kan vara tomt om eleven inte har försökt utföra quiz eller om innehållet inte har några quiz. Högsta möjliga poäng som associeras med det högsta quiz-poängförsöket som en elev gjort vid flera försök. Det är inte den högsta poäng som eleven har uppnått. Istället ger den maximala poäng som var möjlig i försöket där eleven gjorde sitt högsta. |
 | Antal gjorda försök | Det totala antalet försök som har gjorts av eleven hittills för denna modul. |
 | Max antal tillåtna försök | Det maximala antalet försök som tillåts för eleven att konsumera modulen. |
-| Kommentarer till ansökan | Kommentarer från en elevs chef efter att denne har slutfört ett utbildningsobjekt.<br>Data för inskickade kommentarer från instruktören ingår i modulen för inskickade filer. Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager.</a></br> |
+| Kommentarer till ansökan | Kommentarer från en elevs chef efter att denne har slutfört ett utbildningsobjekt.<br>Data för inskickade kommentarer från instruktören ingår i modulen för inskickade filer. Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager.</a></br> |
 | Källa för slutförande | Avser ursprunget eller metoden genom vilken en elevs slutförande av en kurs, utbildningsväg eller certifiering registreras. Det hjälper administratörer att förstå hur slutförandet uppnåddes eller loggades i systemet. Kolumnen anger om slutförandet har rapporterats av dig själv eller underlättats av en viss roll eller konfiguration. Obs! När en elev markeras som närvarat automatiskt vid VC-anslutningsarbetsflöden kommer källan att visa &quot;SELF, &lt;elevs_e-postadress>&quot;. |
 | Kommentar kring slutförande | Administratörens kommentarer när denne markerar en elev som slutförd efter att denne har slutfört en kurs, certifiering eller utbildningsväg. Administratören kan lägga till slutförandekommentarer för en eller flera elever. |
 
@@ -262,7 +264,7 @@ Håll koll på elever som har kommande inlämningsdatum för viktiga kurser, utb
 
 | Kolumn | Beskrivning |
 |---|---|
-| Efter | Representerar antalet elever som uppnådde en kompetens före en angiven period (i dagar), efter vilken kompetensen anses vara föråldrad eller kräver uppdatering. Användbart för att identifiera elever med uppnådda eller utgångna kompetenser.<br>Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/learning-manager/using/admin/skills-levels"> kunskapsnivåer</a>. |
+| Efter | Representerar antalet elever som uppnådde en kompetens före en angiven period (i dagar), efter vilken kompetensen anses vara föråldrad eller kräver uppdatering. Användbart för att identifiera elever med uppnådda eller utgångna kompetenser.<br>Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels"> kunskapsnivåer</a>. |
 | Namn | Fullständigt namn på den elev som kompetensen är tilldelad. |
 | Chefens namn | Namn på elevens rapportansvarige. |
 | Radetiketter | Det specifika kunskapsnamnet som har tilldelats elever som visas på den här raden. Används som en grupperingsrubrik för att sammanfatta data om elevens kompetens under varje kompetenskategori. |
