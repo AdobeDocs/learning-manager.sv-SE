@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Skapa kursinstanser och utbildningsvägar
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
+source-git-commit: 40cd12c186463517b20017229e44b6864056dedf
 workflow-type: tm+mt
-source-wordcount: '5606'
+source-wordcount: '5635'
 ht-degree: 1%
 
 ---
@@ -356,6 +356,11 @@ När du hämtar PDF kan du se tidszonen (i UTC) som användes när kursen skapad
 
 ## Lägg till feedback om L1 och L3 {#addl1andl3feedback}
 
+>[!NOTE]
+>
+>Om det här feedbackalternativet inte visas på ditt konto har ditt konto redan uppgraderats till det nya formuläret L1-feedback. Mer information finns i [L1-feedbackformuläret](/help/migrated/administrators/feature-summary/l1-feedback-form.md).
+
+
 Du kan lägga till L1- och L3-feedbackalternativ medan du skapar kurserna:
 
 1. Klicka på Kurser i den vänstra rutan när du har loggat in som administratör. Lista över alla kurser visas på höger sida.
@@ -587,8 +592,8 @@ Administratörer kan ange standardmärken, inställningar för spelifiering och 
 * **[!UICONTROL Badge]**: Välj standardmärken i listrutan.
 * **[!UICONTROL Gamification]**: Konfigurera inställningar för spelifiering, inklusive poäng för slutförande, tidig slutförande och slutförande. Administratörer har möjlighet att välja inställningar på kontonivå eller anpassa spelifieringspunkterna för den här instansen.
 * **[!UICONTROL L1 Reaction Feedback]**: Aktivera fördefinierade frågor för elevfeedback efter slutförande av kursen, med alternativ för att göra frågor obligatoriska.
-***[!UICONTROL &#x200B; L3 Behaviour Change Feedback]**: Aktivera feedbackfrågor för elevens chef när kursen har slutförts.
-***[!UICONTROL &#x200B; Reminder Settings]**: Ställ in och hantera påminnelser om deadlines med alternativ för eskalering.
+***[!UICONTROL  L3 Behaviour Change Feedback]**: Aktivera feedbackfrågor för elevens chef när kursen har slutförts.
+***[!UICONTROL  Reminder Settings]**: Ställ in och hantera påminnelser om deadlines med alternativ för eskalering.
 
 ### Ange eskaleringsnivå {#escalation}
 

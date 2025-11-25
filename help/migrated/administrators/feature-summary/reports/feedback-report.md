@@ -2,9 +2,9 @@
 description: Lär dig hur du får åtkomst till, hämtar och tolkar feedbackrapporten i Adobe Learning Manager. Förstå rapportkolumner, frågetyper, chefs- och elevsvar och hur feedbackinsikter stöder utvärdering av utbildning och kontinuerlig förbättring.
 jcr-language: en_us
 title: Feedbackrapport i Adobe Learning Manager
-source-git-commit: e0553621dd67338d2433bb1f82af43cacc2d8b8c
+source-git-commit: b1225d4c1c322a75d97c813b0d97eb3229ffd35c
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '882'
 ht-degree: 5%
 
 ---
@@ -92,6 +92,16 @@ Följande kolumner visas i rapporten på kontonivå baserat på de fyra typer av
 >[!NOTE]
 >
 >Rapporten på kontonivå innehåller även alla aktiva fält som konfigurerats för elever.
+
+## Hämta rapport över nivå på utbildningsobjekt
+
+Så här hämtar du rapporten på nivån Utbildningsobjekt:
+
+1. Logga in på Adobe Learning Manager som administratör.
+2. Välj **[!UICONTROL Courses]** från den vänstra navigeringsmenyn.
+3. Välj en kurs och välj sedan **[!UICONTROL View Course]**.
+4. Välj **[!UICONTROL L1 Feedback]**.
+5. Välj **[!UICONTROL Export Report]** och sedan **[!UICONTROL OK]**.
 
 Följande kolumner visas i rapporten Nivå för utbildningsobjekt:
 

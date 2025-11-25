@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Versionsinformation om Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
+source-git-commit: 093092c826b014c2d582c6cc32da08464403a1bf
 workflow-type: tm+mt
-source-wordcount: '27301'
+source-wordcount: '27743'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,62 @@ ht-degree: 0%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/se/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>-->
+
++++Uppdatering 103: Adobe Learning Manager november 2025-utgåvan
+
+Utgivningsdatum: 25 november 2025
+
+## Nyheter i den här versionen
+
+### Experience Builder
+
+Experience Builder är nu tillgängligt för alla Adobe Learning Manager-konton, så kunder kan skapa riktigt varumärkta utbildningsupplevelser med hjälp av lågkodskomponenter och flexibla layouter. Med Experience Builder kan administratörer skapa anpassade utbildningsportaler och sidor som är fullt mobila och som svarar.
+
+För befintliga konton kommer Experience Builder-uppdateringen att lanseras automatiskt. Experience Builder-funktionen är inte tillgänglig för konton som fortsätter att använda det gamla eller klassiska användargränssnittet.
+
+Mer information finns i [Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/overview.md).
+
+### Webbgränssnittet i Adobe Learning Manager för mobila enheter
+
+Mobilwebbgränssnittet har byggts om med en modern kodbas för att ge snabbare laddningstider, snabbare svarstider och en mer intuitiv elevupplevelse på olika enheter.
+
+Den uppdaterade mobilwebbupplevelsen är aktiverad för alla nya konton som standard. Befintliga konton får också uppgraderingen automatiskt, förutom när Social utbildning är aktiverat. I dessa fall kommer den tidigare mobilupplevelsen att förbli aktiv tills Social Learning migreras till det nya kompatibla ramverket.
+
+>[!NOTE]
+>
+>Social utbildning stöds inte i det nya webbgränssnittet för Adobe Learning Manager för mobila enheter.
+
+### Förbättringar av Fluidic-spelaren
+
+Tidigare visade knappen Nästa i Fluidic-spelaren inte titeln på den kommande modulen, vilket gjorde det svårt för eleverna att förutse nästa steg i sin utbildningsresa.
+
+Med den här förbättringen innehåller knappen Nästa nu titeln på nästa modul, vilket gör att eleverna kan:
+
+* Förstå vad som kommer upp innan de fortsätter.
+* Navigera genom moduler med större tydlighet och säkerhet.
+* Håll bättre kontext genom hela kursflödet.
+
+![](assets/fluidic-player-next.png)
+_Fluidic-spelaren visar nu knappen Next (Nästa) med titeln på den kommande modulen_
+
+### L1-feedbackformulär
+
+L1-feedback kunde bara konfigureras i enskilda utbildningsobjekt, vilket begränsade flexibiliteten och hindrade administratörer från att använda olika formulär i katalogen. Administratörer kan nu skapa och använda flera L1-feedbackformulär och varje feedbackformulär kan tilldelas specifika kurser, utbildningsvägar och certifieringar. Formuläret stöder nu flera frågetyper, inklusive Kurseffektivitet, NPS, Likert-skala och Fri text-frågor.
+
+Feedbackformulären kan översättas till ytterligare språk, samtidigt som samma frågestruktur bevaras på alla platser. Rapporter omfattar nu Namn på feedbackformulär och Version av feedbackformulär för att hjälpa till att identifiera vilka formulär som samlas in med varje svar.
+
+**Användningsfall**
+
+* Tilldela anpassade feedbackformulär till olika utbildningsprogram. Säljkurser kan till exempel använda NPS-fokuserade frågor, medan efterlevnadskurser kan använda Kurseffektivitet och Likert-skalfrågor för att mäta tydlighet och förståelse av policyn.
+* Använd separata feedbackformulär som baseras på utbildningsmoduler. Det finns t.ex. tre olika former för blandade moduler, moduler i eget tempo och klassrumsmoduler.
+
+Mer information finns i [L1-feedbackformuläret](/help/migrated/administrators/feature-summary/l1-feedback-form.md).
+
++++
 
 +++Uppdatering 102: Adobe Learning Manager oktober 2025-versionen
 
@@ -131,7 +183,7 @@ Läs den här [artikeln](/help/migrated/learners/feature-summary/fluidic-player.
 
 * Ett problem har korrigerats där elever som hade slutfört en kurs såg en vit skärm när de gjorde ett nytt besök efter att innehållsmodulen hade uppdaterats till en ny version.
 
-Mer information om kommande ändringar av Adobe Learning Manager finns i den här [artikeln](https://experienceleague.adobe.com/sv/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Mer information om kommande ändringar av Adobe Learning Manager finns i den här [artikeln](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -1610,7 +1662,7 @@ I den här uppdateringen kan en elev ladda upp tillgångar som bevis på slutfö
 
 En elev kan öppna ett externt certifikat och överföra mediefiler som pdf, text eller bildfiler.
 
-Mer information finns i [***Överför resurser i det externa certifikatet***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Mer information finns i [***Överför resurser i det externa certifikatet***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problem som har åtgärdats i den här versionen {#issuesfixedinthisrelease}
 
@@ -1988,7 +2040,7 @@ Utgivningsdatum: 20 juni 2019
 
 **Automatiskt urval av innehåll**
 
-Med social utbildning kan innehåll som publiceras av elever kurateras på två sätt, nämligen - **Inget kurateringsverktyg** och **Manuell kuratering**. I den här versionen förbättrar Adobe Learning Manager social utbildning genom att tillhandahålla AI-aktiverade funktioner för automatisk kurering. När innehållet har publicerats analyseras det för att identifiera om det tillhör den kompetens som det har publicerats för. Baserat på konfidenspoängen antingen läggs innehållet upp live eller skickas för manuell kuratering. Mer information finns i *[**&#x200B; Automatisk kuratering &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+Med social utbildning kan innehåll som publiceras av elever kurateras på två sätt, nämligen - **Inget kurateringsverktyg** och **Manuell kuratering**. I den här versionen förbättrar Adobe Learning Manager social utbildning genom att tillhandahålla AI-aktiverade funktioner för automatisk kurering. När innehållet har publicerats analyseras det för att identifiera om det tillhör den kompetens som det har publicerats för. Baserat på konfidenspoängen antingen läggs innehållet upp live eller skickas för manuell kuratering. Mer information finns i *[** Automatisk kuratering **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mappa kompetens med kompetensdomäner**
 
@@ -2612,7 +2664,7 @@ Utgivningsdatum: 6 december 2016.
 
 ### Förbättring {#enhancement}
 
-Som en del av den här uppdateringen tillhandahåller Learning Manager slutpunkten [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>ManagerAPI/v1/#!/user/patch_users_id) för att uppdatera användare i ett program. Du kan komma åt den här API-slutpunkten i administratörsrollen. Med **&#x200B;**&#x200B;här slutpunkten kan du uppdatera följande information om Learning Manager-användare:
+Som en del av den här uppdateringen tillhandahåller Learning Manager slutpunkten [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>ManagerAPI/v1/#!/user/patch_users_id) för att uppdatera användare i ett program. Du kan komma åt den här API-slutpunkten i administratörsrollen. Med **** här slutpunkten kan du uppdatera följande information om Learning Manager-användare:
 
 * Namn
 * E-post
@@ -3122,7 +3174,7 @@ Export av registreringsdata misslyckas om en av de registrerade eleverna tas bor
 
 **E-postmallar**
 
-* Ordet **partners,** som användes för att representera externa grupper,**&#x200B;** tas bort **&#x200B;**&#x200B;från brödtext och titel för e-postmallar. Externa grupper kallas inte nödvändigtvis partner.\
+* Ordet **partners,** som användes för att representera externa grupper,**** tas bort **** från brödtext och titel för e-postmallar. Externa grupper kallas inte nödvändigtvis partner.\
   **Obs!** Den uppdaterade mallen visas inte om standardmallen redan har ändrats. Om du vill visa den uppdaterade mallen klickar du på **Återgå till original** i dialogrutan **Mallförhandsvisning**.
 
 * Det går inte att klicka på URL:en i e-postmeddelandet som mottas av administratörer när **Profilen har skapats (självregistrering)** och **Profilen har skapats (externa/partners)** e-postmallar har redigerats. Problemet har åtgärdats.

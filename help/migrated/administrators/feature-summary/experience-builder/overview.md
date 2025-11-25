@@ -2,23 +2,15 @@
 description: Läs mer om Experience Builder, ett felfritt/lågkodsverktyg i Adobe Learning Manager som administratörer kan använda för att designa och publicera varumärkta, användarvänliga sidor utan expertkunskaper.
 jcr-language: en_us
 title: Experience Builder i Adobe Learning Manager
-source-git-commit: 13efc4d72ac56cecf6313dbda28a3853fc3b5498
+source-git-commit: b1225d4c1c322a75d97c813b0d97eb3229ffd35c
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '993'
 ht-degree: 0%
 
 ---
 
 
 # Översikt
-
->[!IMPORTANT]
->
->Vi har nöjet att meddela att Experience Builder, det innovativa verktyget för att skapa anpassningsbara utbildningsportaler, kommer att vara tillgängligt efter oktober 2025-versionen av Adobe Learning Manager.
->
->Håll utkik efter fler uppdateringar när vi närmar oss lanseringsdatumet. Vi ser fram emot att se hur du använder Experience Builder för att göra om dina utbildningsportaler.
->
->Kontakta din kundframgångschef om du har frågor eller vill ha mer information.
 
 Experience Builder är ett no-code-/low-code-verktyg i Adobe Learning Manager som hjälper dig att skapa anpassade utbildningsportaler. Det gör att du kan designa varumärkta, användarvänliga utbildningsportaler utan att behöva tekniska färdigheter eller omfattande kodningskunskaper.
 
