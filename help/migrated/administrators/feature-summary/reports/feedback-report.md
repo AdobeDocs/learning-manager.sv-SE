@@ -2,7 +2,7 @@
 description: Lär dig hur du får åtkomst till, hämtar och tolkar feedbackrapporten i Adobe Learning Manager. Förstå rapportkolumner, frågetyper, chefs- och elevsvar och hur feedbackinsikter stöder utvärdering av utbildning och kontinuerlig förbättring.
 jcr-language: en_us
 title: Feedbackrapport i Adobe Learning Manager
-source-git-commit: 339207c1a1d4f365a4c25c4d2ef7e4527b1dfefc
+source-git-commit: e0553621dd67338d2433bb1f82af43cacc2d8b8c
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 5%
@@ -69,6 +69,10 @@ Detta är standardkolumnerna i rapporten på kontonivå:
 | Datum för slutförande | Det datum då eleven slutförde utbildningen |
 | Datum för feedback | Det datum då eleven skickade in feedbacken |
 | Ursprungligt språk för L1-feedback | Det språk som eleven ursprungligen skickade in feedback om L1 på |
+| L3 Likert-skala fråga 1 | Mäter elevens resultat efter avslutad utbildning med hjälp av en bedömningsskala |
+| L3 Likert-skalesvar 1 | Chefens svar på den här Likert-skalafrågan |
+| FRITEXTFRÅGA 1 FÖR L3 | Fritextfråga har lagts till i L3-feedbackformuläret för chefer. Kan konfigureras som valfritt eller obligatoriskt |
+| L3 fritextsvar 1 | Chefens svar på fritextfrågan |
 
 Följande kolumner visas i rapporten på kontonivå baserat på de fyra typer av frågor som lagts till i feedbackformuläret:
 
@@ -83,10 +87,7 @@ Följande kolumner visas i rapporten på kontonivå baserat på de fyra typer av
 | Likert svar 1 | Svar på Likert-fråga 1 |
 | Textfråga 1 | Den första öppna frågan/textfrågan i formuläret |
 | Textsvar 1 | Elevens svar på textfråga 1 |
-| L3 Likert-skala fråga 1 | Mäter elevens resultat efter avslutad utbildning med hjälp av en bedömningsskala |
-| L3 Likert-skalesvar 1 | Chefens svar på den här Likert-skalafrågan |
-| FRITEXTFRÅGA 1 FÖR L3 | Fritextfråga har lagts till i L3-feedbackformuläret för chefer. Kan konfigureras som valfritt eller obligatoriskt |
-| L3 fritextsvar 1 | Chefens svar på fritextfrågan |
+
 
 >[!NOTE]
 >
