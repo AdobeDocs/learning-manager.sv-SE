@@ -3,10 +3,10 @@ description: Referenshandbok för integreringsadministratörer som vill migrera 
 jcr-language: en_us
 title: Migreringshandbok
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 3644e5d14cc5feaefefca85685648a899b406fce
+source-git-commit: acef8666ce207fdb81011265814b4d4278da7406
 workflow-type: tm+mt
-source-wordcount: '3837'
-ht-degree: 0%
+source-wordcount: '4425'
+ht-degree: 1%
 
 ---
 
@@ -524,9 +524,117 @@ Gå igenom förutsättningarna för migreringsprocessen innan du börjar med mig
 
 När du har migrerat utbildningsdata och -innehåll från organisationens äldre LMS kan du verifiera importerade data och innehåll med hjälp av olika funktioner i utbildningsobjekt. Du kan till exempel logga in som administratör på Learning Manager-programmet och kontrollera tillgängligheten för importerade moduler och kursdata och -innehåll.
 
+## Migrering med API
+
+Adobe Learning Manager (ALM) tillhandahåller en migreringsfunktion för att hämta data eller innehåll från externa system, som främst används för migrering från äldre LMS-plattformar.
+
+Vissa organisationer kan dock kräva att den här processen körs regelbundet (t.ex. varje natt eller vecka) i stället för som en engångsimport.
+
+Ett exempel är hur en fiktiv kund (NovaFX) kan integreras med en fiktiv extern leverantör (SquareCorp) och automatiserar schemalagda migreringar. Integreringen möjliggör:
+
+* SquareCorp-kurser visas som utbildningsobjekt i ALM för NovaFX-elever.
+* NovaFX spår elevframsteg för SquareCorp-värdbaserade kurser direkt i ALM.
+
+### Integreringskrav
+
+SquareCorp måste ange:
+
+* Metadatainformation för kurs: Ett API för att dela kursmetadata som NovaFX har tillgång till.
+* Information om förloppsdata: Ett API för att regelbundet dela information om elevframsteg och slutförande.
+
+### Nyckeldefinitioner
+
+* **Aktivt projekt:** Ett projekt är aktivt om det är &quot;Pågår&quot; eller &quot;Initierat&quot;.
+* **Aktiv sprint:** En sprint är aktiv om den är &quot;Pågår&quot; eller &quot;Initierad&quot;.
+
+### Automatisera sprintkörningen
+
+Skapa ett program eller skript som utför följande enligt ett schema:
+
+1. Hämta kursmetadata, användarregistreringar och elevbetyg från SquareCorp.
+2. Generera CSV-filerna.
+3. Överför filerna till Box eller FTP.
+4. Utlös sprinten med hjälp av migrerings-API:er.
+
+### API-information
+
+#### Starta en migreringskörning
+
+**Slutpunkt:** POST /primeapi/v2/bulkimport/startrun
+
+Parametrar:
+
+* **lockaccount (booleskt):** Parametern anger om kontot ska låsas när körningen påbörjas. Som standard är värdet false. Användarna bör undvika att använda den här parametern om det inte finns en giltig anledning att låsa kontot.
+* **Katalog-ID (heltal):** Med den här parametern kan du välja målkatalogen under migreringen. Den ställs vanligtvis in när migreringsprojektet skapas, men kan justeras för enskilda körningar. När katalog-ID ändras kommer utbildningsobjekt som läggs till i framtida körningar att placeras i den senast valda katalogen. Om det är nödvändigt att gå tillbaka till den katalog som valdes när migreringsprojektet skapades måste detta också specificeras uttryckligen.
+* **migrationProjectId (heltal):** Parametern behövs för att utlösa ett specifikt migreringsprojekt när flera API-aktiverade körningar är aktiverade på kontot.
+
+#### Kontrollera om synkningen kan börja
+
+Se till att innehållet kan synkroniseras till mappen sprint. Kopiera inte innehåll eller metadatafiler till FTP-mappen om inte detta API returnerar ett framgångsrikt svarsobjekt.
+
+**Slutpunkt:** GET /primeapi/v2/bulkimport/cansync
+
+Parametrar:
+
+* **migrationProjectId (heltal)** Parametern behövs för att utlösa ett specifikt migreringsprojekt när flera API-aktiverade körningar är aktiverade på kontot.
+
+<b>Svaret lyckades</b>
+
+```
+{  
+    "status": "OK",  
+    "title": "BULKIMPORT_CAN_SYNC_NOW",  
+    "source": {  
+        "info": "Yes"  
+    }  
+} 
+```
+
+<b>Svaret lyckades</b>
+
+```
+{ 
+    "status": "BAD_REQUEST", 
+    "title": "BULKIMPORT_ERROR_CANNOT_SYNC", 
+    "source": { 
+        "info": "Error, No active projects" 
+    } 
+} 
+```
+
+<b>Möjliga API-svar</b>
+
+| Åtgärd | Typ | Meddelande |
+| ------------------------------------- | ------- | ------------------------------------------------------------------------------------- |
+| BULKIMPORT_RUN_INITIATED_SUCCESSFULLY | Slutfört | Körningen har initierats |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | Fel | En körning pågår |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | Fel | Det finns fler än ett aktivt projekt |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | Fel | Det finns mer än en sprint |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | Fel | Inga aktiva projekt |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | Fel | Inga aktiva sprintar |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | Fel | Den angivna katalogen är antingen inte ett giltigt ID eller tillhör inte det primära kontot |
+| BULKIMPORT_CAN_SYNC_NOW | Info | Kan synkroniseras nu |
+| BULKIMPORT_ERROR_CANNOT_SYNC | Fel | En körning pågår |
+| BULKIMPORT_ERROR_CANNOT_SYNC | Fel | Det finns fler än ett aktivt projekt |
+| BULKIMPORT_ERROR_CANNOT_SYNC | Fel | Det finns mer än en sprint |
+| BULKIMPORT_ERROR_CANNOT_SYNC | Fel | Inga aktiva projekt |
+| BULKIMPORT_ERROR_CANNOT_SYNC | Fel | Inga aktiva sprintar |
+| BULKIMPORT_ERROR_CANNOT_SYNC | Fel | Det finns inga giltiga filer i mappen |
+
+### Exempel på integrationsflöde
+
+1. Kontrollera Cansync API.
+2. Generera och överför CSV-filer.
+3. Starta sprinten med start-API:et.
+4. Övervaka svar och hantera fel.
+
+### Begränsningar
+
+Migrerings-API:erna tillhandahåller inte funktioner för att kontrollera migreringsrelaterade fel direkt i CSV-utdatafilen efter utskriftskörning. Dessa fel kan dock granskas som rader i CSV-filen genom att integreringsadministratörens användargränssnitt öppnas efter en utskriftskörning.
+
 ### Migreringsverifiering via API:er
 
-Ett nytt migrerings-API, `runStatus`, gör att integreringsadministratörer kan spåra förloppet för migreringskörningar som utlösts via API:t.
+Med migrerings-API:t `runStatus` kan integreringsadministratörer spåra förloppet för migreringskörningar som utlösts via API:t.
 
 API:et `runStatus` tillhandahåller också en direktlänk för att hämta felloggar i CSV-format för slutförda körningar. Hämtningslänken är aktiv i sju dagar och loggarna sparas i en månad.
 
