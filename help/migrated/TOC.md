@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation för Adobe Learning Manager
-source-git-commit: 03484f1c95f7dbf1e06b7cb9559b1a6b012759c1
+source-git-commit: c57896abd8f00ca4a7b26c981eb490cd53ce437b
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '776'
 ht-degree: 8%
 
 ---
@@ -198,6 +198,7 @@ ht-degree: 8%
    * [Automatiska popup-fönster för L1-feedback visas inte](kb/l1-feedback-auto-popup-does-not-appear.md)
    * [Det går inte att visa vissa kurser under katalogen när en certifiering skapas](kb/unable-to-view-certain-courses.md)
    * [Det går inte att visa vissa kurser under katalogen när ett utbildningsprogram skapas](kb/unable-view-course-catalog.md)
+   * [Felsök integreringsproblem i Salesforce (SFDC) med Adobe Learning Manager] (kb/troubleshoot-sfdc-integration-issues.md)
    * [Problem med att ta ett utbildningsprogram ur bruk](kb/issues-retiring-learning-program.md)
    * [Det gick inte att tilldela ett utmärkelsetecken](kb/badge-not-assigned.md)
    * [Sessionen upphör i Learning Manager](kb/login-issue.md)
