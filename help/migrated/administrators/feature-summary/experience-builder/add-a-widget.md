@@ -2,9 +2,9 @@
 title: Lägg till och konfigurera widgetar i Experience Builder
 description: Lär dig lägga till, anpassa och konfigurera olika widgetar i Experience Builder i Adobe Learning Manager. Den här guiden täcker vanliga widgetar, som kalendrar, kategorier, efterlevnadsstatus, kurser och vägar, spelifiering, innehåll från HTML, IFrames, social learning med mera.
 jcr-language: en-us
-source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
+source-git-commit: 7fe4576e2a90b27f51d035f01a30ce3a818b95c2
 workflow-type: tm+mt
-source-wordcount: '2279'
+source-wordcount: '2303'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ Administratörer lägger till widgeten Kategorier på en sida för att visa kate
 
 Titta i [Kataloger](/help/migrated/administrators/feature-summary/catalogs.md) och [Recommendations](/help/migrated/recommendations-adobe-learning-manager.md)-artiklar om du vill veta mer om hur du konfigurerar kataloger och rekommendationer.
 
+<b>Obs!</b> I widgeten Kategorier sorteras listan som standard efter skapat datum när katalog är markerad. Kataloger som skapats senare visas först.
+
 ### Lägga till en kategoriwidget
 
 I ett företag för finansiella tjänster behöver olika team ofta tillgång till rollspecifik utbildning. Med kategoriwidgeten kan du ordna utbildningsinnehåll i tydliga, klickbara paneler, vilket gör det enklare för säljare och CSM-team att snabbt hitta det de behöver.
@@ -85,8 +87,8 @@ Så här konfigurerar du widgeten Kategorier:
 9. Skriv **[!UICONTROL Widget title]** och **[!UICONTROL Widget description]**.
 10. Sök efter och välj en katalog från **[!UICONTROL Category source]**.
 
-    ![](assets/configure-calendar-widget.png)
-    _Konfigurera alternativ för kategoriwidgeten för att ange widgetens titel och beskrivning och välj kategorikällan_
+   ![](assets/configure-calendar-widget.png)
+   _Konfigurera alternativ för kategoriwidgeten för att ange widgetens titel och beskrivning och välj kategorikällan_
 
 11. Välj **[!UICONTROL Add Widget]**.
 
@@ -153,7 +155,7 @@ Så här konfigurerar du widgeten Kurser och banor:
 
 ![](assets/configure-course-paths.png)
 _Widgeten Kurser och banor där administratörer anger widgetens titel, beskrivning och väljer kurser eller utbildningsvägar att visa som interaktiva kort_
-&#x200B;11. Välj **[!UICONTROL Add widget]**.
+11. Välj **[!UICONTROL Add widget]**.
 
 Widgeten Kurser och banor läggs till på sidan. Administratörer kan lägga till andra widgetar och publicera sidan.
 
@@ -182,14 +184,14 @@ Så här konfigurerar du widgeten Innehållsruta:
 9. Skriv texten i **[!UICONTROL Action button label]** och ange en länk.
 10. Välj något av alternativen för Bakgrundsfyllning:
 
-    * **[!UICONTROL Color]**: Välj färg i färgväljaren eller skriv färgkoden i textfältet.
-    * **[!UICONTROL Image]**: Bläddra och överför en bild.
+   * **[!UICONTROL Color]**: Välj färg i färgväljaren eller skriv färgkoden i textfältet.
+   * **[!UICONTROL Image]**: Bläddra och överför en bild.
 
 11. Justera rutans höjd med alternativet **[!UICONTROL Content box height]**.
 12. Markera alternativen för textformatering.
 
-    ![](assets/configure-content-box.png)
-    _Anpassningsskärmen för innehållslådan, där administratörer kan ange en titel, beskrivning, åtgärdsknappsetikett och länk_
+   ![](assets/configure-content-box.png)
+   _Anpassningsskärmen för innehållslådan, där administratörer kan ange en titel, beskrivning, åtgärdsknappsetikett och länk_
 
 13. Välj **[!UICONTROL Add widgets]**.
 
