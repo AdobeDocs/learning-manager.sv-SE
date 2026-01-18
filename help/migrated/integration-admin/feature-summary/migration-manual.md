@@ -3,9 +3,9 @@ description: Referenshandbok för integreringsadministratörer som vill migrera 
 jcr-language: en_us
 title: Migreringshandbok
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: acef8666ce207fdb81011265814b4d4278da7406
+source-git-commit: 8801cee7914c7bea849d47f272b19996a5e28f4d
 workflow-type: tm+mt
-source-wordcount: '4425'
+source-wordcount: '4470'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,10 @@ Från och med idag kan migreringsfunktionen i Learning Manager nås av en organi
 ## Migreringsprocess {#apidescription}
 
 Förutsättningar för migrering, viktiga steg som rör migreringsprocessen, migreringspurter, specifikationer, migrering av data och innehåll förklaras i det här avsnittet enligt följande:
+
+### Viktig migreringsrådgivning
+
+Du bör vara medveten om att migreringstiderna i hög grad beror på kvaliteten och storleken på dina data. Om du behöver migrera under onboarding kan du planera den här aktiviteten i god tid i förväg och samarbeta med Adobe Learning Manager onboarding-teamet för att undvika förseningar.
 
 ### Krav {#prerequisites}
 
