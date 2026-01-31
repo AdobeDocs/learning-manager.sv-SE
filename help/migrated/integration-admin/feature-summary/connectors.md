@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Anslutningar för Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
+source-git-commit: 32cd456a3ed4a4a8fa674979e2e4e67ea83bdc68
 workflow-type: tm+mt
-source-wordcount: '15567'
+source-wordcount: '15546'
 ht-degree: 0%
 
 ---
@@ -2106,7 +2106,7 @@ Ange anslutningsnamn och domännamn
 1. Välj **[!UICONTROL Type of interface]** bland följande alternativ:
 
    * **[!UICONTROL Native Learning Manager]**: Det här är standarderbjudandet som endast är tillgängligt för det inbyggda gränssnittet.
-   * **[!UICONTROL &#x200B; Headless interfaces]**: Det här är premiumerbjudandet som exponerar API:er för att skapa en icke-inloggad upplevelse.
+   * **[!UICONTROL  Headless interfaces]**: Det här är premiumerbjudandet som exponerar API:er för att skapa en icke-inloggad upplevelse.
 
    ![](assets/types-of-interface.png)
 Typer av gränssnitt
@@ -2158,7 +2158,7 @@ Standarderbjudandet är att bygga den ursprungliga versionen av Adobe Learning M
 
 **Premiumerbjudande**
 
-Premium-erbjudandet hjälper användare att skapa ett gränssnitt utan användargränssnitt som har konfigurerats av anslutningen **[!UICONTROL Training Data Access]**. Det gör att användarna kan få realtidsdata om kurs- och utbildningsvägsdetaljer som namn, beskrivning, författare, färdigheter, varaktighet osv. För blandade utbildningsscenarier får du också platsbegränsningar i realtid, antalet platser upptagna, väntelistegränser och väntelisteantal. Kunder kan använda dessa API:er för att skapa sök- och filterfunktioner och en fullständig kurssammanfattning för elever som inte är inloggade.
+Premium-erbjudandet hjälper användare att skapa ett gränssnitt utan användargränssnitt som har konfigurerats av anslutningen **[!UICONTROL Training Data Access]**. För blandade utbildningsscenarier får du också platsbegränsningar i realtid, antalet platser upptagna, väntelistegränser och väntelisteantal. Kunder kan använda dessa API:er för att skapa sök- och filterfunktioner och en fullständig kurssammanfattning för elever som inte är inloggade.
 
 Kunder kan köpa en premiumplan för att bygga upp den här mycket skalbara, icke-inloggade upplevelsen.
 
@@ -2235,7 +2235,7 @@ När en författare har angett priserna för olika kurser, utbildningsvägar ell
 
 >[!NOTE]
 >
->I mars 2024-versionen av Adobe Learning Manager har vi infört stöd för [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=sv-SE).
+>I mars 2024-versionen av Adobe Learning Manager har vi infört stöd för [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
 
 
 1. Klicka på **[!UICONTROL Export Training Metadata]** > **[!UICONTROL On Demand]**.
