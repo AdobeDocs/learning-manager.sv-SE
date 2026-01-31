@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Anslutningar för Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 32cd456a3ed4a4a8fa674979e2e4e67ea83bdc68
+source-git-commit: 795f465a0a2a96a8f1b5bc8b120736c25b412303
 workflow-type: tm+mt
 source-wordcount: '15546'
 ht-degree: 0%
@@ -2106,7 +2106,7 @@ Ange anslutningsnamn och domännamn
 1. Välj **[!UICONTROL Type of interface]** bland följande alternativ:
 
    * **[!UICONTROL Native Learning Manager]**: Det här är standarderbjudandet som endast är tillgängligt för det inbyggda gränssnittet.
-   * **[!UICONTROL &#x200B; Headless interfaces]**: Det här är premiumerbjudandet som exponerar API:er för att skapa en icke-inloggad upplevelse.
+   * **[!UICONTROL  Headless interfaces]**: Det här är premiumerbjudandet som exponerar API:er för att skapa en icke-inloggad upplevelse.
 
    ![](assets/types-of-interface.png)
 Typer av gränssnitt
@@ -2145,7 +2145,7 @@ När en elev klickar på Kurs eller Certifikat eller utbildningsväg öppnas sid
 
 ### Upplevelse som inte är inloggad {#non-logged-in-experience}
 
-Med den icke-inloggade funktionen kan du skapa en realtidsupplevelse för icke-inloggade användare. En icke-inloggad upplevelse fungerar till exempel som en startsida för marknadsföringskampanjer för att uppmuntra registreringar.
+Med den icke-inloggade upplevelsen kan du skapa utbildningsupplevelser för användare som inte är inloggade. En icke-inloggad upplevelse fungerar till exempel som en startsida för marknadsföringskampanjer för att uppmuntra registreringar.
 
 Upplevelsen som inte är inloggad i Adobe Learning Manager kan konfigureras med anslutningen **[!UICONTROL Training Data Access]**. Anslutningen ger följande möjligheter:
 
@@ -2235,7 +2235,7 @@ När en författare har angett priserna för olika kurser, utbildningsvägar ell
 
 >[!NOTE]
 >
->I mars 2024-versionen av Adobe Learning Manager har vi infört stöd för [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=sv-SE).
+>I mars 2024-versionen av Adobe Learning Manager har vi infört stöd för [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
 
 
 1. Klicka på **[!UICONTROL Export Training Metadata]** > **[!UICONTROL On Demand]**.
