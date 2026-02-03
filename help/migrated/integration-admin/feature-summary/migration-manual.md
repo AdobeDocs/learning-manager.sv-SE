@@ -3,9 +3,9 @@ description: Referenshandbok för integreringsadministratörer som vill migrera 
 jcr-language: en_us
 title: Migreringshandbok
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 8801cee7914c7bea849d47f272b19996a5e28f4d
+source-git-commit: a620f70fbdfc01eb089c70586a548288c8b8290b
 workflow-type: tm+mt
-source-wordcount: '4470'
+source-wordcount: '4587'
 ht-degree: 1%
 
 ---
@@ -412,6 +412,14 @@ Du måste vara medveten om följande beroenden av CSV-filer under importen:
 * certification_course.csv är beroende av certification.csv och course.csv
 * certification_commit.csv är beroende av certification.csv och certification_course.csv
 * certification_enrollment.csv är beroende av certification.csv, certification_course.csv och certification_enrollment.csv
+
+### Kursordning för utbildningsprogram i CSV-migreringsfiler
+
+I tidigare versioner av migreringsspecifikationerna innehöll filen learning_program_course.csv en orderkolumn, vilket tyder på att du kan styra kursernas sekvens inom ett utbildningsprogram under migreringen.
+
+Den här kolumnen används inte längre i Adobe Learning Manager. Kursordningen i ett utbildningsprogram kan inte styras via migrerings-CSV:er och systemet ignorerar alla värden som anges i ordningskolumnen, även om du ställer in **orderEnforced** på true.
+
+För att undvika missförstånd har orderkolumnen tagits bort från de officiella CSV-specifikationerna. Om du har befintliga skript eller verktyg som fortfarande genererar den här kolumnen kan du släppa den på ett säkert sätt. Det påverkar inte hur utbildningsprogram skapas eller visas.
 
 ## Migreringsprocessen {#migrationprocedure}
 
