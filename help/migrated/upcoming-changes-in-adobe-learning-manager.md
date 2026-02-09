@@ -1,351 +1,1325 @@
 ---
-title: Nyheter i oktoberversionen av Adobe Learning Manager
-description: Läs om de nya funktionerna, förbättringarna och viktiga uppdateringar i Adobe Learning Manager i oktober 2025-versionen.
+title: Nyheter i Adobe Learning Manager-versionen från april 2026
+description: Läs om de nya funktionerna, förbättringarna och viktiga uppdateringar i Adobe Learning Manager i april 2026-versionen.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 6fceea6cc1f5fbe47e0dbb211cfb9e2de67957f6
+source-git-commit: 48a20033896a9d9f370c2e53bce353a886b05e35
 workflow-type: tm+mt
-source-wordcount: '8044'
+source-wordcount: '7400'
 ht-degree: 0%
 
 ---
 
 # Kommande ändringar i Adobe Learning Manager
 
->[!IMPORTANT]
+<!-- >>[!IMPORTANT]
 >
->Oktober 2025-versionen av Adobe Learning Manager är nu tillgänglig. I [Nyheter](/help/migrated/whats-new.md) finns mer information om de senaste funktionerna och förbättringarna. Den här sidan uppdateras med de nya funktionerna och förbättringarna i nästa version. Håll utkik efter fler uppdateringar.
+>The Adobe Learning Manager October 2025 release is now live. View [What's New](/help/migrated/whats-new.md) for more information on the latest features and enhancements. This page will be updated with the new features and enhancements for the next release. Stay tuned for more updates. -->
 
 ## Översikt över versionen
 
-Oktober 2025-versionen av Adobe Learning Manager innehåller betydande förbättringar som förbättrar rapporteringsnoggrannheten, utökar integreringsfunktionerna och förbättrar utbildningsupplevelsen för administratörer, författare och elever. Viktiga förbättringar omfattar förbättrade elevutskrifter som på ett korrekt sätt tar instruktörsmarkerade slutföranden, utökade användarrapporter med ytterligare identifieringsfält och arbetsstödsrapporter med direkthämtningslänkar.
+I april 2026-versionen av Adobe Learning Manager introduceras en rad förbättringar som gör inlärningen smidigare för elever, enklare att hantera för administratörer och mer flexibel för instruktörer, inklusive tydligare navigering i Fluidic Player med etiketten &quot;Nästa modul&quot; och en särskild avgångsknapp, stöd för flera samtidiga zoomsessioner så att team kan köra parallella virtuella klasser utan manuell konfiguration och bättre synlighet för delade kurser genom att visa den verkliga författaren i stället för &quot;Extern&quot; Författare&quot; i kollegiala konton. Uppdateringen visar också utgångsdatum för utbildningsobjekt i elev-API:er för att hjälpa LXP:er att markera tidskänsliga utbildningar, lägger till stöd för flera språk för arbetsstöd så att ett arbetsstöd kan bära alla språkversioner och låter administratörer begränsa när moduler kan startas genom att definiera start-/slutfönster som är användbara för kohorter eller tidsinställda program.
 
-I den här versionen introduceras även omfångsrika meddelandebehörigheter för anpassade administratörer, funktioner för användartaggning i sociala inlärningsnämnder och språkbaserad framstegsspårning som bevarar elevernas framsteg på olika platser. Ytterligare funktioner omfattar integreringsförbättringar av Go1 med AI-assisterad spellista, förbättrad anpassad rollhantering med inkrementellt importstöd och förbättrade API:er för bättre quiz-prestandaspårning och övervakning av migreringsstatus.
+Externa system som använder LTI kan nu ange spelarspråket automatiskt, vilket ger eleverna en konsekvent språkupplevelse på olika plattformar. Flera checklista uppgraderingar anländer också, inklusive viktade poäng, flerspråkig frågetext och valfria granskningskommentarer för rikare feedback. ALM fångar nu flera quiz-försök som kontrolleras i SCORM-innehåll och rapporterar varje försök i L2-rapportering. Instruktörer kan också själva generera QR-koder för omedelbar registrering och närvarospårning under personliga sessioner, och Captivate-innehåll spelas upp tydligare med en enhetlig innehållsförteckning, slutförandebockar på bildrutenivå och tillförlitliga anteckningsexporter. Generellt sett fokuserar utgåvan på tydlighet, konsekvens, flerspråkig beredskap, effektivitet i administratörers arbete och mer flexibel leverans av utbildning.
 
-## Instruktörsmarkerade slutföranden i elevbetygsutdrag
+## Fluidic Player-navigering - visa namnet på nästa modul
 
-**Översikt**
+### Översikt
 
-Inkrementella elevbetygsutdrag fångar nu instruktörsmarkerade slutföranden, även om närvaro registreras efter sessionsdatumet.
-Denna förbättring åtgärdar ett kritiskt avbrott i inkrementella elevutskrifter där instruktörsmärkta slutföranden tidigare missades om närvaro registrerades efter det ursprungliga sessionsdatumet.
+Den här förbättringen ingick redan i november 2025-versionen av Adobe Learning Manager.
 
-Inkrementella elevbetygsutdrag är schemalagda rapporter som endast samlar de ändringar (t.ex. slutföranden eller framstegsuppdateringar) som sker inom en angiven period, snarare än att tillhandahålla en fullständig historisk datadumpning. De används ofta för automatisering, instrumentpaneler och integreringar, vilket gör det möjligt för användare att effektivt spåra senaste utbildningsaktiviteter utan att bearbeta hela transkriptionshistoriken varje gång.
+Åtgärden &quot;Nästa&quot; i spelaren indikerar vad som kommer att hända när användaren klickar på den genom att visa namnet på nästa modul eller kurs och genom att uttryckligen signalera när eleven är på väg att lämna spelaren.
 
-**Nyheter**
+### Nyheter
 
-* **Markera som slutförd datum (tidszonen UTC)**: En ny tidsstämpelkolumn som anger exakt datum och tid när en instruktör markerar en session eller modul som slutförd.
-* **Förbättrad källspårning för slutförande**: Spårar den specifika instruktören och modulen (till exempel &quot;Classroom&quot;) där slutföranden spelades in.
+**&quot;Nästa modul: etiketten {ModuleName}&quot; i spelaren**
 
-Dessa ändringar säkerställer att slutföranden markerade efter sessionsdatumet återspeglas korrekt i inkrementella elevens betygsutdrag.
+Nästa-ikonen i Fluidic-spelaren visar nu namnet på nästa modul i kursen. Till exempel Nästa modul: Lektion 2 - Komma igång.
 
-**Viktiga fördelar**
+Detta gäller där eleven förflyttar sig från en modul till nästa inom samma kurs.
 
-* Alla slutföranden registreras i inkrementella rapporter, oavsett när närvaro har angetts.
-* Ger en tydlig verifieringskedja för efterlevnad och rapportering.
-* Stödjer automatisering och instrumentpaneler för lagstadgade krav.
+**Rensa avslutningsåtgärden för den sista modulen**
 
-**Användningsfall**
+När eleven finns på den sista modulen i en kurs visas en ny Avsluta-åtgärdsknapp, som indikerar att klicka på den för att stänga spelaren och återföra den till kurskontexten.
 
-* Organisationer med klassrumssessioner där instruktörer kan markera närvarodagar efter den faktiska sessionen.
-* Automatiserade system eller instrumentpaneler som är beroende av inkrementella elevutskrifter för efterlevnad eller rapportering.
+**Responsivt beteende för mobilinnehåll och PDF-innehåll**
 
-### Elevens betygsutdrag med den nya kolumnen
+I mindre visningsrutor (till exempel ~320 px bredd) kan Nästa etikett vara förkortad eller dold och endast visa ikonen för att undvika överlappning med PDF-kontroller.
 
-Mer information om elevens betygsrapport finns i [artikeln](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
+För PDF-moduler justerar spelaren reglagen till en egen rad, så att navigeringsetiketter och PDF-reglage inte stör varandra.
 
-Den nedladdade rapporten över elevens betygsutdrag innehåller den nya kolumnen: Markera som slutförd den (tidszonen UTC).
+**Uppdaterad administratör > Varumärkning > Förhandsgranskning av spelare**
 
-![Elevens betygsrapporter visar markerade slutförandedatum (gulmarkerat) för spårning av kursens slutförande i Adobe-inlärning](/help/migrated/assets/mark-completion-column.png)
-_Elevens betygsrapport visar en ny kolumn i gult som visar enskilda slutförandedatum för varje användare_
+Spelarens förhandsgranskning i Admin > Varumärke återspeglar nu den nya etiketten, t.ex. Nästa modul: Lektion 2. Detta gör att administratörer kan se det uppdaterade navigeringsbeteendet.
 
-## Förbättrad användarrapport med utökade datafält
+### Viktiga fördelar
 
-**Översikt**
+**Tydligare navigering för elever**
 
-Användarrapporten innehåller nu ytterligare fält för att förbättra användarspårning och organisationsmappning.
+Elever behöver inte längre gissa vad som händer när de väljer Nästa. Etiketten anger tydligt vad som kommer härnäst, oavsett om det är en modul eller en kurs. Denna minskning av tvetydigheten bidrar till att minska tvekan och förvirring, särskilt hos stora målgrupper inom kundutbildning där många elever kanske inte är bekanta med LMS-gränssnitt.
 
-**Nyheter**
+**Högre slutförandegrad för kurser**
 
-* Kolumnen Internt användar-ID: tillhandahåller unika interna identifierare för smidig användarspårning i olika system och API-slutpunkter.
-* E-postkolumn för chef: Innehåller kontaktinformation för direktchef för spårning av organisationshierarki.
+Genom att tydligt ange nästa steg (nästa modul: {ModuleName}) och lägga till en distinkt avslutningsåtgärd för den slutliga modulen minskar sannolikheten för att elever överger kursen eller förbiser det sista slutförandesteget.
 
-**Viktiga fördelar**
+**En mer förutsägbar användarupplevelse på alla enheter**
 
-* Förenklad användaridentifiering och eliminerar problem när användare mappas över flera system.
-* Stöder arbetsflöden för hantering av nedströmsanvändare genom integreringsfunktioner.
-* Förbättrad organisationskarta och bättre förståelse för rapporteringsrelationer.
-* Bibehåller organisatoriska gränser och förhindrar oavsiktlig korskommunikation.
+De uppdaterade etiketterna justeras mot beteendet och ikonerna Nästa eller Föregående på stationära datorer, surfplattor och mobila enheter. Layoutbegränsningar respekteras på alla enheter och i PDF så att reglagen förblir användbara och åtkomliga.
 
-### Användarrapport med den nya kolumnen
+Detta är särskilt viktigt för fjärradministrerade implementeringar där Fluidic-spelaren är inbäddad i en anpassad inlärningsupplevelse.
 
-Om du vill ha mer information om hur du hämtar användarrapporten läser du i den här [artikeln](/help/migrated/administrators/feature-summary/reports.md#user-activity-dashboards).
+### Användningsfall
 
-Den hämtade användarrapportfilen innehåller de nya kolumnerna: Internt användar-ID och chefens e-postadress.
+**Kundens och partnerns utbildningsportaler (fjärradministrerade eller AEM-integrerade)**
 
-![Användarrapport som visar det interna användar-ID:t och chefens e-postkolumner markerade med gult](/help/migrated/assets/user-report-columns.png)
-_Användarrapporter som visar interna användar-ID:n och chefens e-postadresser för att effektivisera användarhanteringen_
+Konton som använder Adobe Learning Manager i en helt fjärradministrerad konfiguration, som dirigerar elever från externa marknadsföringskanaler. Dessa elever:
 
-## FTP-användarrapport med stöd för internt användar-ID
+* Ofta förbrukar videoinnehåll i långa sekvenser.
 
-**Översikt**
+* Förvänta dig en upplevelse i kursplanstil där systemet tydligt visar nästa avsnitt/modul.
 
-Den FTP-baserade användarrapporten innehåller nu stöd för internt användar-ID, vilket ger ett enhetligt sätt att exportera och integrera data för fjärradministrerade implementeringar.
+I dessa miljöer kommer etiketten **Nästa modul:{ModuleName}**:
 
-**Nyheter**
+* Förstärker färdens guidade natur.
 
-* Användarrapporter är nu tillgängliga via [Anpassad FTP](/help/migrated/integration-admin/feature-summary/connectors.md#custom-ftp) tillsammans med befintliga rapporter (spelifieringsutskrifter, elevutskrifter, utbildningsrapport).
-* Kolumnen Internt användar-ID är nu konsekvent över alla exportmetoder (FTP, jobb-API och UI).
+* Minimerar bortfall mellan moduler.
 
-**Viktiga fördelar**
+**Efterlevnads- och certifieringskurser med beställda moduler**
 
-* Förenklad datahantering med en enda källa för alla nödvändiga rapporter.
-* Bättre konsekvens i uppgifterna genom att säkerställa en enhetlig användaridentifiering under rapporteringsperioderna.
-* Automatiserat arbetsflödesstöd genom att aktivera massåtgärder och analysarbetsflöden med konsekventa identifierare.
-Användarrapporten som hämtats från FTP-mappen innehåller den nya kolumnen, Internt användar-ID.
+I reglerade eller efterlevnadstunga scenarier:
 
-## Inkludera avbrutna användare i elevens betygsutdrag
+* Elever måste slutföra en strikt sekvens av moduler.
 
-**Översikt**
+* Författare inaktiverar ofta innehållsförteckningen för att undvika att hoppa över.
 
-Organisationer kan nu inkludera avstängda användare (de med inaktiverade externa profiler) i elevens betygsutdrag för att säkerställa omfattande lagring av historiska inlärningsdata.
+Här visas **Nästa modul:{ModuleName}**:
 
-**Nyheter**
+* Bekräftar för elever att de följer rätt ordning.
 
-* Konfigurerbar avbruten användarsynlighet med en flagga på kontonivå för att inkludera avbrutna användare i elevens betygsutdrag.
-* Tidigare lagring av uppgifter även efter inaktivering av externa profiler som hängt sig.
+* Gör det mindre troligt att de misstolkar Nästa åtgärd och avslutar tidigt.
 
-**Implementeringskrav**
+**Utbildningsvägar där kurserna följer varandra**
 
-* Kontakta din CSM (Customer Success Manager) för att aktivera flaggan på kontonivå.
+Där utbildningsvägar eller motsvarande kedjar flera kurser. Detta är användbart när man bygger sekvenser i kursplanstil för en stor publik.
+
+**Mobil-först-förbrukning**
+
+För elever som främst använder mobiler eller surfplattor:
+
+* Uppdaterade etiketter och responsivt beteende säkerställer att navigeringen är förståelig utan att du behöver förlita dig på små stängda ikoner eller dolda kontroller.
+
+* Det är viktigt för kundutbildning, gigarbetare eller elever i frontlinjen som kan komma åt innehåll under korta sessioner på mobila enheter.
+
+## Zoomkoppling - skapa flera samtidiga zoomsessioner
+
+### Översikt
+
+Den kommande uppgraderingen till Zoom Connector förbättrar avsevärt hur Adobe Learning Manager hanterar Virtual Instructor-Led Training (VILT). Tidigare kunde användarna bara skapa en zoomsession i taget. Med den nya uppdateringen kan administratörer och författare schemalägga flera zoomsessioner samtidigt med hjälp av standardintegrering.
+
+### Nyheter
+
+#### Stöd för flera samtidiga zoomsessioner via anslutningen
+
+* Zoom Connector tillåter nu att mer än en VILT-session skapas vid samma datum/tid från ALM.
+
+* Schemaläggningslogiken tillämpar inte längre ett villkor om att zooma en gång i taget på konto-/anslutningsnivå.
+
+* Administratörer och författare kan konfigurera överlappande VILT-sessioner (till exempel regionala klassrum, parallella spår eller upprepade sessioner för olika partnergrupper) utan att behöva kringgå problemet.
+
+#### Möten skapas med instruktörens zoom-identitet (inte superadministratören för zoom)
+
+Anslutningen har uppdaterats så att:
+
+* Zoommöten skapas nu med instruktörens e-postadress i stället för superadministratörens e-postadress för Zoom.
+
+* Varje instruktörs Zoom-konto kan vara värd för sina egna möten parallellt med andra instruktörer, inom gränserna för den befintliga Zoom-planen.
+
+**Anteckning**:
+
+* Endast en instruktör per möte stöds fortfarande.
+
+* Om en instruktörs e-postadress uppdateras senare i Adobe Learning Manager förblir befintliga möten kopplade till det ursprungliga e-postmeddelandet som användes när det skapades.
+
+#### Inga fler manuella inklistringar av zoom-URL för samtidiga sessioner
+
+Tidigare, när en andra eller tredje zoomsession skulle köras samtidigt:
+
+* Författarna var tvungna att manuellt skapa zoommöten utanför ALM och sedan klistra in webbadressen för zoomkoppling i kursinstanskonfigurationen.
+
+* Detta var felbenäget och gynnades inte av anslutningsfunktioner som närvarospårning.
+
+Med den uppdaterade anslutningen:
+
+* Alla sessioner kan skapas direkt från ALM-gränssnittet med zoomkontakten, även om de överlappar varandra i tiden.
+
+* Sessionens livscykel (skapande/annullering) hanteras fortfarande centralt via integrering.
+
+### Viktiga fördelar
+
+#### Bättre VILT-schemaläggning i stor skala
+
+Organisationer kan nu:
+
+* Kör flera zoombaserade virtuella klassrum samtidigt (t.ex. parallellspår på ett virtuellt toppmöte, regionala grupper eller separata partnerutbildningssessioner).
+
+* Undvik flaskhalsar som tidigare tvingade administratörer att serialisera sessioner eller förlita sig på manuell zoomhantering.
+
+#### Minskade omkostnader för administratör och författare
+
+Förbättringen tar bort:
+
+* Skapa zoommöten utanför Adobe Learning Manager manuellt.
+
+* Kopiera och klistra in zoom-URL:er i varje kursinstans för överlappande sessioner.
+
+* Risk för felkonfigurerade länkar, felaktiga möten eller utebliven närvarospårning.
+
+Administratörer och författare kan hantera alla zoomsessioner från Adobe Learning Manager med hjälp av välbekanta arbetsflöden.
+
+#### Bättre inriktning mot zoomallokering och instruktörsroller
+
+Genom att knyta möten till individuella instruktörskonton Zooma:
+
+* Varje instruktör kan arbeta inom sina egna gränser för zoomlicenser.
+
+* Organisationer kan använda sin befintliga zoomallokeringsmodell (ett konto per tränare, per affärsenhet osv.) samtidigt som de integrerar helt med Adobe Learning Manager.
+
+* Det undviker flaskhalsen med en enda punkt vid användning av en delad zoomanvändare för superadministratörer för alla sessioner.
+
+### Användningsfall
+
+#### Flerspåriga virtuella evenemang och toppmöten
+
+Kundutbildningsteam som genomför stora evenemang (t.ex. produktstartläger, partnertoppmöten eller certifieringsveckor) kan:
+
+* Konfigurera flera zoombaserade sessioner på samma plats (för olika spår eller ämnen).
+
+* Hantera dem alla som VILT-moduler under Adobe Learning Manager kurser och utbildningsvägar.
+
+* Ge eleverna en enhetlig upplevelse när anslutningen hanterar allt underliggande zoommöte som skapas.
+
+#### Global partner- och kundutbildning
+
+Organisationer som utbildar kunder och partner i olika regioner kan:
+
+* Kör separata zoomsessioner för EMEA, APAC och Amerika vid överlappande tider för att matcha lokal arbetstid.
+
+* Undvik att tvinga fram en enda global tidslängd eller manuell zoominställning för ytterligare kohorter.
+
+#### Intern aktivering
+
+Interna aktiveringsteam (försäljning, support osv.) kan:
+
+* Schemalägg parallella introduktionssessioner eller rollbaserade utbrytningar (till exempel separata zoomrum för utvecklare, administratörer och affärsintressenter) i ALM.
+
+* Håll alla sessioner inom ALM:s VILT-modell för rapportering och efterlevnadssyften, i stället för att delvis gå över till ohanterade Zoom-möten.
+
+## Visa originalförfattare för delade kurser i kollegiala konton
+
+### Översikt
+
+När en kurs delas via katalogen till ett kollegialt konto, ger Adobe Learning Manager författaren etiketten &quot;Extern författare&quot; i vyn Elev, Administratör och Författare för det mottagande kontot. Detta kan innebära utmaningar för elever och administratörer, särskilt i stora företag, eftersom det blir svårt att identifiera och kontakta rätt innehållsägare när problem eller frågor uppstår.
+
+Förbättringen gör att upphovsinformation bevaras och visas för delade kurser i kollegiala konton, i stället för att ersättas av en allmän platshållare.
+
+### Nyheter
+
+Visa det faktiska författarnamnet för delade kurser i kollegiala konton
+
+För kurser som delas via externa kataloger eller kollegiala kataloger visas nu det ursprungliga författarnamnet från källkontot i det mottagande kontot i stället för &quot;Extern författare&quot;.
+
+Detta gäller
+
+* Elevapp (kurskort eller kursinformation).
+
+* Administratör och författare visar när de förhandsgranskar som elev.
+
+### Viktiga fördelar
+
+#### Direkt ägarsynlighet för delat innehåll
+
+Elever och administratörer i kollegiala konton kan nu:
+
+* Se vem som har skrivit kursen, även om den förvärvas via en delad katalog.
+
+* Undvik den generiska och oanvändbara etiketten &quot;Extern författare&quot;.
+
+#### Mer konsekvent upplevelse av flera klientorganisationer och kollegiala konton
+
+För kunder som kör scenarier med flera klientorganisationer eller utökade företag:
+
+* Samma kurs visas med konsekvent skaparanpassning på alla konton.
+
+* Elevupplevelsen är i linje med förväntningarna från det primära kontot (till exempel att se &quot;Cloud Academy Team&quot; i stället för &quot;Extern författare&quot;).
+
+### Användningsfall
+
+#### Stora företag med kollegiala konton
+
+Företaget använder ALM med:
+
+* Ett huvudkonto som äger de kanoniska kurserna, och
+
+* Kollegiala konton som hämtar innehåll via delade kataloger.
+
+Elever i kollegiala konton behöver veta vilket team av företagsteam som har författat en kurs för att dirigera frågor eller förbättringsförslag korrekt.
+
+Med denna förbättring:
+
+* Delade kurser visar nu rätt namn på den som har skapat företaget i kollegiala konton.
+
+* Företagets interna supportbelastning minskar eftersom elever och lokala administratörer vet vem de ska kontakta.
+
+#### Intern delning av flera affärsenheter
+
+Där en affärsenhet kurerar lärande för andra:
+
+* Den ägande affärsenheten kan identifieras i fältet författare på alla konton som använder den.
+
+* Lokala l&amp;D-administratörer kan snabbt se om en kurs underhålls lokalt eller av en annan affärsenhet och samarbeta i enlighet med detta.
+
+## Exponeringsförfallodatum för utbildningsobjekt (dra tillbaka automatiskt) i elevens API:er
+
+### Översikt
+
+Den här förbättringen gör att datumet för automatisk pensionering av ett utbildningsobjekt (LO) blir tillgängligt direkt via Adobe Learning Manager elevinriktade API:er. När en kurs, utbildningsväg eller certifiering har konfigurerats med ett utgångsdatum eller datum för automatisk utfasning, ingår den informationen nu i LO-data som returneras av viktiga elevslutpunkter.
+
+### Nyheter
+
+#### Nytt utgångsfält/fält för automatisk utfasning i elevens LO API:er
+
+* Elevens LO API:er (till exempel slutpunkterna som returnerar utbildningsobjekt till elevupplevelsen och till externa plattformar) inkluderar nu LO-utgångsdatumet (automatiskt utfasningsdatum som konfigurerats för det utbildningsobjektet).
+
+* Det här fältet returneras som en del av LO-enheten i svar som:
+
+   * Hämta utbildningsobjekt (LO-information).
+
+   * LO-data som används för att fylla i elevens startsida, katalog och sökresultat.
+
+* Fältet kompletterar den befintliga completionDeadline som redan finns på instansnivån. Det nya fältet är specifikt det automatiska återtagningsdatumet på LO-nivå.
+
+#### Tillgänglighet i elevupplevelser med sökstöd
+
+Eftersom utgångsdatumet visas som en del av den sökstödda LO-representationen är det nu tillgängligt överallt där ALM eller en extern plattform använder:
+
+* sök-API:er eller
+
+* sökdrivna kataloger och förslag för att konstruera elevvyer.
+
+**Omfång och undantag**
+
+Förbättringen gäller endast elevens API:er.
+
+### Viktiga fördelar
+
+#### Elevupplevelse som känner av att giltighetstiden går ut i anpassade LXP:er
+
+För stora och medelstora företag kan deras anpassade LXP nu få LO-information direkt från ALM, så att de kan:
+
+* Visa etiketterna &quot;Förfaller den {date}&quot; eller &quot;Förfaller snart&quot; på kurskort och detaljsidor.
+
+* Kommunicera tydligare så att eleverna prioriterar utbildning som snart ska gå i pension.
+
+Detta är särskilt viktigt för efterlevnad eller tidsbunden produktutbildning, där utbildningsobjekt uppdateras regelbundet och äldre versioner pensioneras.
+
+#### Bättre vägledning för elever om vilka utbildningar de ska gå nu
+
+Genom att exponera LO-förfallodatum kan elevupplevelsen:
+
+* Markera kurser som fortfarande är giltiga jämfört med kurser som snart ska fasas ut.
+
+* Hjälp elever att undvika att registrera sig för utbildningar som inte längre kommer att vara tillgängliga eller giltiga inom en snar framtid.
+
+#### Överensstämmelse med befintliga tidsdata för slutförande
+
+Tidigare har elevens API redan exponerat completion-level completionDeadline, men inte automatiskt utfasningsdatum på LO-nivå. Med den här ändringen:
+
+Följande utbildningsaspekter finns tillgängliga:
+
+* &quot;När måste jag vara klar med den här instansen?&quot; (tidsfrist för slutförande).
+
+* &quot;När erbjuds denna utbildning?&quot; (datum för automatisk pensionering/förfallodatum).
+
+### Användningsfall
+
+#### Ett globalt företag med strikt hantering av kursernas livscykel
+
+Företag som regelbundet går i pension och ersätter kurser (t.ex. regel-, produkt- eller metoduppdateringar) kan:
+
+* Undvik att elever förvirras av om en utbildning fasas ut.
+
+* Driva eleverna mot de mest aktuella, långlivade erbjudandena.
+
+Deras anpassade portaler och interna verktyg kan nu läsa utgångsdatumet direkt från ALM via elevens API:er.
+
+#### Externa kund- eller partnerskolor
+
+För kund- och partnerutbildning lägger marknadsföringssidor och portaler ofta vikt vid aktuell utbildning.
+
+Genom att ha förfallodatum i LO API kan Experience Builder:
+
+* Dölj eller tona ned innehåll som är nära pensionering.
+
+* Skapa &quot;Sista chansen att slutföra&quot;-kampanjer.
+
+## Flerspråkigt stöd för arbetsstöd
+
+### Översikt
+
+Förbättringen utvidgar Adobe Learning Manager lokaliseringsmodell till arbetsstöd, vilket gör att författare kan bifoga olika innehållsfiler per språk till ett enda arbetsstöd. I stället för att skapa separata arbetsstöd för varje språk kan författare nu hantera alla lokaliserade versioner som ett logiskt arbetsstöd.
+
+### Nyheter
+
+#### Uppladdning av språkspecifikt innehåll för arbetsstöd
+
+Författare kan bifoga olika filer per språk som stöds till ett enda arbetsstöd, som kurser och andra LO:er.
+
+Upplevelsen att skapa/redigera arbetsstöd har nu stöd för:
+
+* Välja ett språk.
+
+* Överför den språkspecifika filen för det språket i samma arbetsstödsentitet.
+
+#### Konsekvent språkhantering i spelare- och elevgränssnittet
+
+Fluidic-spelaren har uppdaterats så att när en elev öppnar arbetsstöd visas den innehållsvariant som motsvarar elevens språk (om tillgänglig).
+
+Administratörer och författare kan visa arbetsstöd som enskilda objekt med språkvarianter, i stället för som separata objekt per språk.
+
+### Viktiga fördelar
+
+#### Arbetsstöd för alla språk
+
+Författare kan undvika att skapa separata arbetsstöd per språk.
+
+Alla språkvarianter av samma arbetsstöd (till exempel en procedur, SOP, checklista PDF eller referensguide) kan hanteras på ett enda ställe.
+
+#### Bättre erfarenheter för globala elever
+
+Eleverna ser arbetsstödet automatiskt på det språk de föredrar, vilket innebär att det finns
+
+* Mindre förvirring om vilken version som ska öppnas.
+
+* Mindre risk för att komma åt inaktuella eller föråldrade kopior.
+
+Detta är särskilt användbart i flerspråkiga organisationer där samma process eller produktdokumentation måste finnas tillgänglig på flera språk.
+
+### Användningsfall
+
+#### Global lansering av referensinnehåll
+
+Ett företag måste tillhandahålla arbetsstöd på flera språk till elever över hela världen, t.ex.
+
+* Referensblad för produkter.
+
+* Bearbeta checklistor.
+
+* Stöd för spelböcker
+
+I stället för att skapa separata arbetsstöd som &quot;Product Quick Start - EN&quot;, &quot;Product Quick Start - DE&quot;, &quot;Product Quick Start - JP&quot; etc., kan de skapa ett arbetsstöd, bifoga lokaliserade filer för varje språk och låta ALM leverera rätt version till varje elev baserat på språkinställningar.
+
+#### Kund- eller partnerinriktad dokumentation för flera marknader
+
+För kund- och partnerskolor kan arbetsstöd omfatta följande:
+
+* Produktfuskpapper
+
+* Integreringsguider
+
+* Stödarbetsflöden
+
+Med flerspråkigt arbetsstöd:
+
+* Varje partner ser den lokaliserade versionen utan att tvingas välja mellan språkspecifika poster.
+
+* Marknadsförings- och aktiveringsteam kan hantera ett arbetsstöd per ämne på alla platser.
+
+## Begränsa när moduler kan startas
+
+### Översikt
+
+Förbättringen gör att författare och administratörer i Adobe Learning Manager kan definiera ett tidsfönster då elever tillåts starta en modul. Utanför det konfigurerade start-/slutfönstret syns modulen i kursstrukturen, men eleverna kan inte initiera den.
+
+Denna kapacitet är viktig för användare som behöver bättre kontroll över när visst innehåll blir tillgängligt eller inte borde initieras, till exempel i tidsbestämda program, kohortbaserad utbildning eller tidskänsliga övningar.
+
+### Nyheter
+
+Författare kan nu på modulnivå inom en kurs konfigurera ett startdatum/tid och ett slutdatum/tid som styr när elever tillåts starta den modulen. I detta fönster fungerar modulen som vanligt; före starttiden eller efter sluttiden ser eleven modulen i kurskonturen men kan inte starta den.
+
+Konfigurationen visas i användargränssnittet för kursredigeringen som ytterligare schemaläggningskontroller för specifika modultyper, till exempel innehåll, frågeformulär eller aktiviteter för eget tempo. Administratörer kan använda dessa kontroller för att skapa moduler som öppnas i faser eller för att förhindra sena starter i program där innehåll måste förbrukas inom en angiven tidsram.
+
+#### Viktiga fördelar
+
+Den största fördelen är möjligheten att styra när moduler är tillgängliga. Utbildningsteam kan synkronisera modultillgänglighet med verkliga evenemang, som lanseringar av nya produkter, deadlines och interna program. Detta säkerställer att eleverna slutför nödvändigt innehåll innan de får tillgång till senare moduler.
+
+Till exempel kan kohort 1 endast komma åt modul 2 under vecka 2, medan modul 3 förblir låst fram till vecka 3, vilket eliminerar behovet av att manuellt dölja och visa innehåll eller skapa separata kursversioner.
+
+Detta förbättrar elevupplevelsen: istället för att ta itu med moduler som tekniskt går att komma åt men inte bör vara det då (eller redan bör vara slutförda), ser eleverna en kursstruktur där de moduler de får starta tydligt överensstämmer med det avsedda schemat.
+
+#### Användningsfall
+
+* **Kohortbaserat aktiveringsprogram**: I det här programmet låses en ny modul upp varje vecka. Innehållet för Vecka 1 är tillgängligt direkt, medan Vecka 2 är synlig men kan inte startas förrän ett visst datum. Vecka 3 följer samma grindningsprocess. Elever kan se hela utbildningsvägen, men systemet styr när de faktiskt kan påbörja varje steg.
+
+* **Tidsbunden produkt- eller kampanjutbildning**: Marknadsförings- eller produktteam kan skapa en utbildningsmodul som endast ska användas när en kampanj är aktiv eller när en viss version av en produkt fortfarande är tillgänglig. Detta startfönster ser till att eleverna inte påbörjar en modul om en avvecklad produktversion efter den angivna sluttiden.
+
+* **Bedömnings- eller tentamensmiljöer**: Organisationer kan öppna en modul (t.ex. ett test) för ett kort, väldefinierat fönster (t.ex. &quot;du kan starta tentamen när som helst mellan 9:00 och 12:00 ett visst datum&quot;). Elever kan inte påbörja tentamen utanför det fönstret, vilket stödjer rättvis schemaläggning över tidszoner och kohorter.
+
+## Kontrollera spelarspråk via anpassad LTI-parameter
+
+### Översikt
+
+Förbättringen gör att externa plattformar kan använda LTI (Learning Tools Interoperability) för att ange språket för Adobe Learning Manager-innehåll vid lanseringen. I stället för att vara beroende av att eleven byter språk i Fluidic Player kan LTI-konsumenten skicka en språkkod via en anpassad LTI-parameter. Adobe Learning Manager kommer sedan att använda denna kod för att välja lämplig språkvariant.
+
+### Nyheter
+
+Externa plattformar som fungerar som LTI-användare kan nu passera en anpassad språkparameter (och relaterade spelarinställningar) när ALM-innehåll startas. ALM läser parametern och:
+
+* Anger spelarspråket därefter.
+
+* Startar motsvarande språkvariant av modulen när innehåll på flera språk är konfigurerat.
+
+Det innebär att en förstagångselev väljer franska på den externa plattformen och ser ALM-spelaren och modulen direkt på franska utan att behöva justera något i ALM.
+
+Förbättringen omfattar även scenarier där den externa plattformen behandlar ALM som en fjärradministrerad innehållsspelare. Du kan t.ex. dölja navigeringselement och innehållsförteckning genom att skicka ytterligare anpassade parametrar för att justera vissa inställningar för användargränssnittet. Dessa inställningar fungerar tillsammans med parametern language, vilket gör att den externa plattformen kan ge en smidig, varumärkt upplevelse samtidigt som ALM används för uppspelning och spårning.
+
+### Viktiga fördelar
+
+* **Konsekvent språkupplevelse i olika system**: När en elev väljer ett språk i den externa portalen återspeglas det valet omedelbart i ALM. Detta säkerställer att eleverna inte stöter på några avvikelser mellan portalens språk och kursen. Som ett resultat av detta kommer de inte att behöva söka efter en språkinställning i spelaren.
+
+* **Språkspecifik rapportering**: I deras plattform överensstämmer språkval med ALM, vilket förbättrar noggrannheten i deras analys och elevspårning. Denna inriktning stöder också konfigurationer där ALM:s egna språkkontroller avsiktligt är inaktiverade eller dolda i Fluidic Player för specifika kurser. I dessa fall fungerar den externa plattformen som den enda sanningskällan för språk.
+
+### Användningsfall
+
+* Ett betydande användningsfall innefattar stora företag som använder LTI-baserade integreringar. Elever registrerar sig först och väljer ett språk på plattformen. Sedan startar de ALM-utbildningar genom LTI. Med denna förbättring öppnas ALM-modulen automatiskt på spanska när eleven väljer spanska. Det innebär att eleverna inte behöver justera språkinställningarna i ALM. Språkbaserad rapportering överensstämmer dessutom fortfarande med vad elever ser och upplever i ALM.
+
+* En annan tillämpning är leverans av fjärradministrerade kursupplevelser inom en kund- eller partnerportal. I den här konfigurationen kan portalen bädda in ALM-innehåll med en iFrame, medan all navigering och språkanvändning hanteras utanför ALM. Genom att använda anpassade LTI-parametrar kan portalen se till att ALM-spelaren visas på rätt språk och att alla onödiga gränssnittselement (till exempel innehållsförteckning och navigeringsknappar) är dolda. Detta gör att eleverna kan uppfatta en enda sammanhängande tillämpning snarare än en osammanhängande samling verktyg.
+
+* Detta är fördelaktigt för organisationer som bedriver storskalig utbildning i flera språk med ett annat LMS eller en annan utbildningsplattform. De kan standardisera sin användning av den plattformen för att hantera elevprofiler, välja språk och presentera kataloger. Under tiden fungerar ALM som en pålitlig innehålls- och spårningsmotor som respekterar de språkinställningar och användarinteraktioner som anges av det externa systemet vid varje LTI-lansering.
+
+## Checklista för frågeviktning för instruktörsutvärderingar
+
+### Översikt
+
+Förbättringen introducerar viktade checklistor, vilket gör det möjligt för instruktörer och chefer att utvärdera elever med hjälp av graderade skalor och totala poäng, snarare än att behandla varje checklista fråga som likvärdig. Målet är att underlätta upprättandet av checklistor genom att genomföra viktade utvärderingar av frågor, vilket gör det möjligt att återspegla den relativa betydelsen av olika åtgärder eller färdigheter inom en enda checklista.
+
+### Nyheter
+
+Checklistor har stöd för följande typer:
+
+1. Ja/nej
+Beteendet är detsamma som i dag: varje fråga är ja/nej och kriteriet för godkänt baseras på antalet ja-svar.
+
+2. Frågor med samma vikt
+
+   * Frågor får poäng på en numerisk skala (0-10 som standard), där:
+
+      * Maximi-/minvärdena på skalan kan anpassas på checklistenivån.
+
+      * Skalan kan nu börja på 0 (föregående minimipoäng var 1).
+
+   * Alla frågor delar samma maximala poäng, så checklistan fungerar som en enhetlig graderad skala för varje fråga.
+
+3. Frågor med olika vikt
+
+   * Varje fråga har sin egen maxpoäng (vikt).
+
+   * Kriterierna för godkänt beror på procentandelen av det totala möjliga poängtalet som eleven uppnår i checklistan (till exempel &quot;godkänt om eleven uppnår ≥ 70 % av det totala tillgängliga poängvärdet&quot;).
+
+För alla typer av checklistor:
+
+* **Granskaren** (instruktör eller chef) utvärderar eleven enligt den konfigurerade typen av checklista:
+
+   * Väljer Ja/Nej.
+
+   * Välj poäng på den definierade skalan.
+
+* Checklisterapporten **Checklista** har uppdaterats så att den inkluderar följande för frågor med olika vikt:
+
+   * Högsta poäng för varje fråga.
+
+   * Poängen som uppnås av varje elev för den frågan.
+
+Detta möjliggör analys av övergripande prestanda och frågespecifika prestanda baserat på de avsedda vikterna.
+
+### Viktiga fördelar
+
+* **Bättre och mer realistiska bedömningar**: Instruktörer kan återspegla verkliga prioriteringar genom att ge fler poäng till kritiska beteenden och färre till mindre sådana, samtidigt som de använder ett arbetsflöde med checklistor som passar för observerade eller praktiska uppgifter.
+
+* **Total-score-baserat godkännande/underkännande**: Utvärderingarna kan baseras på den övergripande procentpoängen, inte bara hur många frågor som klarar ett tröskelvärde, vilket ligger närmare den typiska kompetensen eller graderingsschemat.
+
+* **Bättre rapportering**: Uppdaterade checklisterapporter visar högsta poäng och uppnådda poäng per fråga, vilket gör att programägare och kvalitetsteam kan identifiera specifika svaga punkter och förbättra vägledning för utbildning eller utvärdering.
+
+### Användningsfall
+
+* **Företagets kompetensbedömningar**: Teknikerna bedöms via praktiska, scenariobaserade checklistor där vissa diagnostiska steg eller kommunikationssteg måste väga tyngre än kosmetiska steg eller lågrisksteg. Viktade frågor och total-score-kriterier gör dessa bedömningar mer trovärdiga och prediktiva för verkliga resultat.
+
+* **Iakttagelser av säkerhet och regelefterlevnad**: Inom hälso- och sjukvård, tillverkning eller fältservice kan viktiga säkerhetssteg ges högre maxpoäng, vilket säkerställer att om en säkerhetskritisk åtgärd saknas får det större effekt på totalpoängen än om ett mindre steg i proceduren saknas.
+
+* **Coaching och kalibrering**: Med max och uppnådda poäng per fråga i rapporten kan chefer se exakt var eleverna underpresterar och kalibrera instruktörer om hur de poängsätter konsekvent.
+
+## Flerspråkigt stöd för checklistefrågor
+
+### Översikt
+
+Förbättringen introducerar flerspråkigt stöd för checklistefrågor, vilket gör det möjligt för granskare att utvärdera och poängsätta checklistor på det språk de föredrar. Den här funktionen är särskilt användbar i flerspråkiga regioner och globala distributioner, eftersom den gör det möjligt för författare att skapa lokaliserade frågor om checklistor för varje innehållsspråk som stöds samtidigt som en enda checklistmodul och en konsekvent utvärderingsprocess upprätthålls.
+
+I Adobe Learning Manager idag:
+
+* Alla moduler som riktar sig till elever (SCORM, PDF, HTML osv.) kan finnas på flera innehållsspråk så att eleverna kan välja vilket språk de föredrar.
+
+* I en checklistmodul utvärderar granskare (instruktörer/chefer) elever baserat på de frågor som definierats i checklistan.
+
+### Nyheter
+
+**Redigering**
+
+* Författare kan nu lägga till checklistefrågor på alla språk som valts på kursnivån.
+
+* För varje checklista:
+
+   * Författaren förväntas tillhandahålla motsvarande frågetext på varje innehållsspråk där kursen finns.
+
+   * Frågeställaren ansvarar för att frågorna har en enhetlig innebörd på alla språk.
+
+**Granska upplevelsen**
+
+* Granskarna ser checklistefrågor och utvärderingsgränssnittet på sitt valda innehållsspråk.
+
+* När en fråga utvärderas på ett språk:
+
+   * Utvärderingen (poäng, ja/nej, status) är logiskt sett densamma för alla språk. Det är en enda checklista med flerspråkiga vyer, inte separata checklistor per språk.
+
+**Rapportering**
+
+Checklisterapporten visar frågetexten på användarens innehållsspråk:
+
+* En administratör eller granskare som kör rapporten på varje språk ser de lokaliserade frågenamnen för det språket.
+
+* De bakomliggande svaren och poängen förblir desamma; endast frågeetiketter översätts.
+
+### Viktiga fördelar
+
+* **Bättre granskarupplevelse**: Granskarna kan arbeta helt på sitt eget språk, läsa frågor och spela in utvärderingar utan språkbarriärer.
+
+* **Anpassning av regler och policy**: I regioner med krav på språklig jämlikhet (till exempel nederländska/franska i Belgien) kan checklistor nu uppfylla samma standarder som andra utbildningsmaterial, vilket minskar risken för efterlevnad.
+
+* **Konsekvent utvärderingslogik**: Även om texten är lokaliserad delas utvärdering och poäng mellan alla språk, vilket säkerställer att resultaten är jämförbara och centralt hanterade.
+
+### Användningsfall
+
+* Franchise för flera länder som arbetar på flera språk kan distribuera en enda kurs och checklista samtidigt som du kan erbjuda lokala granskningsupplevelser i varje område.
+
+* Alla globala företag med lokala instruktörer (t.ex. EMEA, LATAM eller APAC) kan låta granskarna arbeta på sitt lokala språk samtidigt som de delar samma globala checklistedesign och rapportering.
+
+## Checklista med kommentarsfunktion för granskare
+
+### Översikt
+
+Förbättringen introducerar en kommentarsfunktion för checklisteutvärderingar, som gör det möjligt för granskare, t.ex. instruktörer och chefer, att ge kvalitativ feedback tillsammans med de numeriska poängen. Denna feedback kan göras synlig för elever vid behov.
+
+Målet är att stödja checklistebaserade utvärderingar där mentorfeedback är lika avgörande som det numeriska resultatet. Detta inkluderar att framhäva specifika styrkor, områden för förbättring eller ge sammanhang för den givna poängen.
+
+I dag kan granskare:
+
+* Utvärdera en checklista för varje elev, fråga för fråga.
+
+* Visa resultat och utvärdera elever som har misslyckats på nytt.
+
+I verkliga scenarier, t.ex. inom flyget, bedömer fältutbildare agenter och flygplatspersonal. På samma sätt använder instruktörer och mentorer i små och medelstora företag ofta checklistor för att utvärdera arbetsresultaten. Dessa checklistor innehåller vanligtvis inte ett strukturerat avsnitt för att samla in berättande feedback som rör utvärderingen.
+
+### Nyheter
+
+#### Redigeringsalternativ
+
+Författare kan konfigurera varje checklista till:
+
+* Aktivera eller inaktivera kommentarsfunktioner för granskare.
+
+* Bestäm om granskarens namn ska visas för elever tillsammans med kommentarer.
+
+Det gör att organisationer kan anpassa kommentarers synlighet efter sina kultur- och integritetskrav.
+
+#### Granskningsupplevelse
+
+När kommentarer är aktiverade:
+
+* Granskare (instruktörer/chefer) kan lägga till valfria kommentarer när de utvärderar en checklista.
+
+* De kan välja om kommentarer är synliga för elever, baserat på inställningarna i checklistan.
+
+Om en elev utvärderas på nytt kan hen uppdatera eller ändra kommentarer för att återspegla den senaste bedömningen.
+
+#### Rapportering och anmälningar
+
+* Checklisterapporten får en ny kolumn för granskarens kommentarer som innehåller kommentaren som tillhandahölls under utvärderingen.
+
+* Eleverna får meddelanden (på plattformen och via e-post) när en checklista utvärderas. Dessa meddelanden inkluderar:
+
+   * Kommentaren och
+
+   * Granskarens namn, om de har konfigurerats för att vara synliga.
+
+Detta garanterar att feedback inte bara lagras utan även aktivt visas för elever.
+
+### Viktiga fördelar
+
+* **Bättre, coachliknande feedback**: Numeriska poäng kompletteras med sammanhangsberoende kommentarer, vilket gör checklistor till ett mer effektivt verktyg för coachning, inte bara efterlevnad.
+
+* **Spårbarhet och granskningsbarhet**: Organisationer får en permanent redovisning av vem som utvärderade vem, när och vad de sa, vilket är viktigt i reglerade miljöer och viktiga roller.
+
+* **Bättre engagemang bland elever**: Eleverna får tydlig vägledning kopplad till specifika utvärderingar, vilket förbättrar deras förståelse för förväntningar och efterföljande steg.
+
+### Användningsfall
+
+* Organisationer med reglerade miljöer kan använda kommentarer för att dokumentera klinisk bedömning eller feedback för personal som observeras på fältet.
+
+* Luftfarts- och marktjänstorganisationer kan bifoga detaljerade anteckningar om driftsprestanda, säkerhetsrutiner och kundinriktat beteende, vilket gör en checklista till ett strukturerat debrief-verktyg.
+
+* I mentorskap och utvärdering av små och medelstora företag kan instruktörer fånga nyanserade observationer som inte skulle passa in i en poäng ensam, till exempel &quot;hanteras eskalering bra men behöver förbättra tidshantering&quot; eller &quot;utmärkt felsökningsflöde; missade ett dokumentationssteg.&quot;
+
+## Flera försök och frågeformulärsrapportering på innehållsnivå
+
+### Översikt
+
+För närvarande stöder ALM flera försök på LMS-nivå via funktionen Multiple Quiz Attempt (MQA):
+
+* Författare kan konfigurera försök på kursnivå (tillämpas på alla quiz-bärande moduler i kursen) eller på modulnivå (per quiz-modul).
+
+* Försök kan vara:
+
+   * Ett visst tal (till exempel 3 försök) eller
+
+   * Oändligt antal försök, styrt på LMS-nivå.
+
+* När en elev förbrukar en modul genom Fluidic-spelaren och sedan stänger spelaren eller slutför modulen, behandlas den sessionen som ett enda LMS-försök.
+
+* Varje LMS-försök registreras i L2-frågeformulärsrapporten som en ny rad.
+
+Men om själva innehållsfilen (till exempel ett artikulera SCORM-frågeformulär) implementerar sin egen flerförsökslogik, särskiljer eller spårar ALM:s L2-frågeformulärsrapport inte dessa interna försök korrekt.
+
+Den här förbättringen introducerar spårning på innehållsnivå för flera försök till frågeformulär, vilket gör att Adobe Learning Manager kan fånga upp varje försök i själva innehållet i L2-quizrapporten. Det är utformat för situationer där verktyget för innehållsredigering (till exempel artikulera SCORM) hanterar frågeformulärsförsök oberoende av varandra. Med den här funktionen återspeglas försök korrekt i ALM-rapporter utan att vara beroende av MQA-inställningar (Multiple Quiz Attempt) på LMS-nivå.
+
+### Nyheter
+
+#### Författarflagga för försök på innehållsnivå
+
+* När du överför innehåll till innehållsbiblioteket kan författare nu ange att flera försök är inbäddade i en viss innehållsfil.
+
+* Det här är en inställning per innehåll som talar om för ALM att behandla försök som definieras i innehållet som sanningskällan.
+
+#### Kurs-/modulbeteende
+
+När sådant innehåll används i en kurs
+
+* Modulen hämtar sina försök från innehållet, inte från LMS MQA.
+
+* Elever kan bara se ett försök på LMS-nivå:
+
+   * Kursöversikten och modulvyn visar inte en LMS-omförsöksknapp för den modulen.
+
+   * Försökshantering (till exempel försök i frågeformuläret) styrs av själva innehållet.
+
+#### Rapportering
+
+L2-quizrapporten uppdateras för att behandla varje försök på innehållsnivå som en separat försöksrad:
+
+* Varje internt quiz-försök som konfigurerats i innehållet visas som en egen rad i L2-quiz-rapporten, ungefär som hur försök på LMS-nivå representeras i dag.
+
+* Formatet för varje rad förblir detsamma som befintliga flerförsöksrader i L2-rapportering (samma kolumner, struktur och semantik).
+
+* Detta ger en konsekvent rapporteringsupplevelse:
+
+   * Oavsett om försöken styrs av LMS MQA eller av innehållet visar L2-frågeformulärsrapporten en rad per försök.
+
+#### Viktiga fördelar
+
+* Exakt försökshistorik för SCORM-frågeformulär där försök styrs internt av verktyg som articulate, utan att tvinga MQA-konfigurationen på LMS-nivå överst.
+
+* Renare elevupplevelse: För innehållskontrollerade försök ser eleverna en enda plats på LMS-nivå och behöver inte interagera med kontroller för LMS-återförsök. Alla återförsök hanteras inom det frågesportgränssnitt som de redan känner till.
+
+* Flexibel arkitektur: Användarna kan välja om ALM MQA eller försök på innehållsnivå ska styra beteendet per modul, beroende på hur deras innehåll har skapats och hur de föredrar att hantera försök.
+
+* Konsekvent rapporteringsmodell: Nedströmsanvändare av L2-frågeformulärsrapporten kan behandla varje rad som &quot;ett försök&quot;, oavsett var försökslogiken kommer ifrån.
+
+#### Användningsfall
+
+* Organisationer som använder articulate SCORM kan behålla sin självständiga frågelogik i SCORM-paketet samtidigt som de får korrekta rapporter på försöksnivå i ALM utan extra LMS-konfiguration.
+
+* Organisationer som använder SCORM-innehåll som leverantören tillhandahåller kan undvika behovet av att ändra eller implementera ytterligare försök och försöka igen med MQA på LMS-nivå.
+
+## QR-koder för instruktör för instansregistrering och sessionsnärvaro
+
+### Översikt
+
+Den här förbättringen ger instruktörer möjlighet att själva generera QR-koder för:
+
+* Registrering av kursinstans,
+
+* Sessionens närvaro, eller
+
+* Registrering + närvaro tillsammans
+
+på sessionsnivå. Det är utformat för situationer där elever går in i ett fysiskt klassrum eller ett hybridklassrum och kräver ett snabbt självbetjäningsalternativ för att registrera och registrera sin närvaro med en QR-kod.
+
+### Nyheter
+
+#### Instruktörsgenererade QR-koder
+
+* Instruktörer kan generera QR-koder på sessionsnivå för:
+
+   * Registrera dig i instans: Elever söker för att registrera sig till instansen som innehåller den aktuella sessionen.
+
+   * Markera sessionsnärvaro: Elever söker under/efter sessionen för att registrera närvaro för den specifika sessionen.
+
+   * Registrera dig i instans + markera närvaro i session : En kombinerad QR för inklistringar som ännu inte har registrerats och behöver sin närvaro markerad i ett steg.
+
+* Instruktörer kan exportera de QR-koder de behöver baserat på scenariot (registrering, närvaro eller båda).
+
+#### QR-kodpaketering
+
+Den exporterade QR-koden PDF kommer att innehålla:
+
+* Kursnamn
+
+* Instansnamn
+
+* Sessionsnamn
+
+Dessa gör det enkelt för instruktörer och samordnare att identifiera och skriva ut rätt QR-kod för varje session.
+
+### Viktiga fördelar
+
+* **Instruktörsautonomi**: Instruktörer behöver inte längre vänta på att administratörer ska skapa QR-koder. De kan generera dem direkt för varje session, förbättra smidigheten och minska de allmänna kostnaderna för samordningen.
+
+* **Bättre klassrumslogistik**: Instruktörer kan hantera registrering och närvaro på plats med hjälp av QR-koder om de är på promenad eller på plats (t.ex. fältarbetare, personal på verkstadsgolvet eller externa deltagare).
+
+* **Minskad administrativ arbetsbelastning**: Administratörsteam kan fokusera på konfiguration och styrning i stället för att hantera rutinmässiga begäranden om generering av QR-kod för varje session.
+
+### Användningsfall
+
+* Organisationer som kör stora volymer sessioner på plats (till exempel produktutbildning för proffs) kan ge instruktörer möjlighet att skriva ut sessionsspecifika QR-koder som registrerar och markerar närvaro med en skanning.
+
+* Inom detaljhandels-, tillverknings- och hälsovårdsutbildning, där elever ofta deltar i sessioner direkt från golvet eller utan förregistrering, kan en QR-kod (&quot;Enroll + Attendance&quot;) läggas vid dörren. Detta gör det möjligt för elever att själva betjäna sin registrering och närvaro via sina telefoner.
+
+* Utbildningshändelser för partners eller kunder gör att utbildaren på plats enkelt kan anpassa sig till förändringar i rummet, ytterligare sessioner eller extra deltagare utan att behöva rådfråga administratören om nya QR-koder.
+
+## Förbättringar av Captivate och ALM-spelare
+
+### Översikt
+
+Den här förbättringen förbättrar upplevelsen av att spela upp Adobe Captivate-innehåll i Adobe Learning Manager-spelaren (ALM), särskilt efter de senaste förändringarna i Captivate arkitektur. Syftet är att göra det möjligt för elever att interagera med Captivate-moduler i ALM och samtidigt säkerställa att navigering, slutförandespårning och anteckning är tydliga, konsekventa och tillförlitliga.
+
+### Nyheter
+
+#### Enhetlig upplevelse av innehållsförteckningen
+
+* Endast ALM-innehållet visas på spelarens vänstra sida.
+
+* Captivate egen TOC döljs när modulen spelas upp i ALM.
+
+* Detta eliminerar dubbletter, säkerställer en enda sanningskälla för navigering och frigör skärmytor.
+
+#### Feedback om visuellt slutförande
+
+* ALM-innehållsförteckningen visar gröna skalmarkeringar (eller motsvarande visuella ledtrådar) som indikerar slutförande på bildrutenivå.
+
+* I takt med att eleverna går vidare genom diabilderna i Captivate visar ALM-TOC vilka diabilder som har slutförts, i linje med elevens förväntningar på moderna kursspelare.
+
+#### Sammanhangsberoende förloppskontroller
+
+* Spelarkontrollerna anpassar sig efter bildtyp:
+
+   * För videobildrutor:
+
+      * Visa en tidsförloppsindikator som återspeglar videouppspelningen.
+
+* För icke-videobilder:
+
+   * Visa sidnavigeringskontroller (nästa/föregående bild osv.) i stället för en icke-fungerande tidsrad.
+
+      * På så sätt undviker du att visa irrelevanta eller icke-fungerande kontroller på vissa bildtyper.
+
+#### Förenklad navigering
+
+* Det separata modulnavigeringsfältet (ALM) och kursnavigeringsfältet kommer att slås samman till ett enda, intuitivt fält.
+
+* Den här enhetliga navigeringen:
+
+   * Skiljer sig tydligt från att gå genom modulen Captivate jämfört med att gå tillbaka till kurs-/modulnivå.
+
+   * Minskar förvirring orsakad av flera staplar med överlappande syften.
+
+#### Länkning av tillförlitliga anteckningar
+
+* Anteckningar länkas till bildnummer i stället för tidsstämplar.
+
+* Den här ändringen:
+
+   * Korrigerar exportfel som orsakas av saknade eller felaktiga tidsstämplar.
+
+   * Gör att anteckningar kan exporteras på ett enhetligt sätt som PDF, med en tillförlitlig mappning mellan anteckningar och det bildsammanhang som de tillhör.
+
+### Viktiga fördelar
+
+* Renare upplevelse för en spelare: Eleverna interagerar med en TOC och en navigeringsmodell vilket minskar förvirringen och den kognitiva belastningen.
+
+* Exakta angivelser av slutförande och förlopp: Skjutmarkeringar och sammanhangsberoende kontroller hjälper elever att förstå var de är och vad som finns kvar.
+
+* Mer robust anteckning och export: Genom att koppla anteckningar till bilder i stället för sköra tidsstämplar återfår användarna ett tillförlitligt arbetsflöde från anteckningar till PDF, även med bildbaserat Captivate-innehåll.
+
+* Bevarat arbetsflöde för författare: Författarna behåller enkelheten i Captivate direktpublicering till ALM, medan eleverna får en modern, integrerad uppspelningsupplevelse utan extra redigeringsbördor.
+
+### Användningsfall
+
+* Aktiveringsprogram som använder Captivate för interaktiva simuleringar kan distribuera innehåll i ALM, vilket säkerställer att navigering, spårning av slutföranden och anteckningar fungerar konsekvent för elever.
+
+* Organisationer som använder Captivate som sitt huvudsakliga verktyg för innehållsredigering kan upprätthålla publicering med ett klick och undvika att blanda ihop dubbla innehållsförteckningar och icke-funktionskontroller för elever.
+
+* Organisationer som använder anteckningar som exporterats från Captivate-innehåll i ALM (för coaching, compliance eller record) kan komma åt följande:
+
+   * Anteckningar länkar korrekt till bilder.
+
+   * PDF genereras som förväntat.
+
+## Ändringar i elevens betygsutdrag
+
+### Översikt
+
+Adobe Learning Manager har reviderat hur man beräknar inlärningstiden i Elevens betygsutdrag med versionen från april 2026. Tidigare kunde rapporteringslogiken leda till felaktiga tider om eleverna lämnade spelaren öppen utan att engagera sig i innehållet, vilket orsakade diskrepanser. Den nya metoden spårar nu aktiv tid baserat på användarengagemang, särskilt när fliken är i fokus och när det sker användaraktivitet. Den här ändringen resulterar i mer exakta data.
+
+Uppdateringen förbättrar rapporter och instrumentpaneler och hjälper administratörer att säkerställa efterlevnad och spåra elevframsteg. Efter utgåvan kan du granska elevens betygsutdrag för att se dessa förbättringar.
+
+Den uppdaterade beräkningsmetoden fokuserar på verkligt engagemang, t.ex. aktivt flikfokus och nyligen genomförda användarinteraktioner, vilket förbättrar noggrannheten i tidsrapporteringen inom följande områden:
+
+* Elevens betygsutdrag (UI)
+* Mått för administratörstavla
+* Rapporter om kursregistrering
+* API:er och anslutningar
+
+### Vad har ändrats
+
+Kolumnen **Använd utbildningstid** i elevens betygsutdrag använder nu förbättrad logik för att beräkna tiden mer exakt. I stället för att bara spåra spelarens öppnings-/stängningstider skiljer systemet nu mellan aktiva och inaktiva perioder baserat på användarens engagemang.
+
+* **Aktiv tid**: Tid då eleven är aktivt engagerad (till exempel på rätt flik utför åtgärder som att bläddra eller titta på video).
+* **Inaktiv tid**: Tid när eleven inte är engagerad (till exempel byter flik, ingen aktivitet på mer än 10 minuter), vilket undantas från summan.
+
+Detta gäller de flesta modultyper, med undantag för SCORM-, Captivate- och XAPI-moduler, som behåller den ursprungliga logiken.
+
+### Så här fungerar det
+
+Den nya beräkningen varierar beroende på modultyp:
+
+* **Video- och ljudmoduler**: Aktiv när innehållet spelas upp, även om eleven växlar till en annan flik. Flikfokus krävs inte för att spåra uppspelningstid.
+* **Statiska moduler (PDF, PPT, Excel och liknande)**: Aktiv om du är på fliken och utför aktiviteter (musrörelse, bläddring, klickning, tangentbordsinmatning) under de senaste 10 minuterna. Om det inte finns någon aktivitet på 10 minuter växlas den till inaktiv.
+* **SCORM och Captivate** behåller den ursprungliga öppna/stäng-logiken.
+* **xAPI** använder nu tabbbaserad aktiv tidsidentifiering, där tiden endast räknas när fliken är aktiv. Observera att AICC-innehåll **inte stöds**.
+* **HTML, LTI och annat innehåll**: Kan variera. Kontrollera elevens betygsutdrag för noggrannhet.
+
+Inaktiv tid subtraheras, vilket säkerställer att endast verklig engagemangstid rapporteras.
+
+### Sammanfattningstabell
+
+| **Modultyp** | **Aktiv tid (räknad)** | **Inaktiv tid (utesluten)** |
+| --- | --- | --- |
+| **Video/ljud** | Uppspelningstid | Inte påbörjad; avslutad; pausad **\>10 min** |
+| **Statisk (PDF/PPT/DOC)** | Fliken aktiv **och** aktivitet under de senaste **10 minuterna** | Ingen aktivitet **\>10 min**; fliken är inaktiv |
+| **SCORM** | Tid rapporterad efter innehållskörning | Det går inte att identifiera inaktivitet |
+| **Captivate** | Bildbaserad tidsinställning | Det går inte att identifiera inaktivitet |
+| **xAPI** | Fliken är aktiv | Inaktiv flik |
+| **HTML** | Spelarens öppningstid med en flik aktiv | Inaktiv flik |
+| **LTI Producer/Consumer** | Om LTI-innehåll spelas i ALM:s spelare (dvs. ALM konsumerar LTI-innehåll som finns på ett annat LMS som agerar som producent) gäller denna tidsödande logik.<br><br>Men om innehållet spelas upp utanför LMS (det vill säga om innehållet finns i ALM, är ALM producenten, men uppspelningen sker i en extern spelare) gäller inte den här delen av tidsberäkningslogiken.  <br>**Obs!**: LTI Consumer stöds inte i Adobe Learning Manager. | Inaktiv flik |
+
+**Anteckning**:
+
+* **Återbesök och parallella sessioner**: Räkna som aktiva när ovanstående villkor uppfylls.
+* **Alla enheter, webbläsare, språk**: Ingår. Offline mobilanvändning läggs till efter synkronisering.
+
+### Fördelar med den nya beräkningen
+
+* **Korrekt rapportering**: Eliminerar uppblåsta tider från obevakade spelare, vilket ger realistiska inlärningstider.
+* **Bättre efterlevnad**: Stödjer korrekt spårning för obligatorisk utbildning (till exempel ett företags krav på 5 timmars månadsvis).
+* **Förbättrade instrumentpaneler**: Diagram över användaraktivitet och tidsödande rapporter återspeglar nu faktiskt engagemang.
+* **Elevinsikter**: Hjälper administratörer att identifiera verkliga framsteg och ta itu med oengagerade elever.
+
+### Rapporterings- och analyseffekt
+
+* **Elevens betygsutdrag:** &quot;Använd utbildningstid&quot; återspeglar nu **verkligt engagemang**.
+* **Administratörsinstrumentpanelen:** Mätvärden som inkluderar tid (till exempel plattor med &quot;tillbringad tid&quot; och trender) visar **lägre men mer realistiska** värden i scenarier där inaktiv tid tidigare blåste upp resultat.
+* **Kursregistreringsrapporter:** Tidsrelaterade fält använder **ny beräkning** efter start.
+* **Jämförbarhetsanteckning:** Eftersom historiska data inte beräknas om kan tidsserieanalyser som sträcker sig över utgivningsdatumet visa en **stegvis ändring**. Överväg kommentarer eller segmentering efter datum i analysverktygen.
+
+### API och anslutningar
+
+* **Inga schemaändringar** för befintliga slutpunkter/fält som rapporterar använd tid.
+* **Fältsemantiken** uppdateras för att återspegla _beräkning av aktiv tid_ för sessionerna **efter** att funktionen har startats.
+* **Anslutningar och exporter** som förbrukar tidsödande fält får automatiskt de uppdaterade värdena framöver.
+
+### Bakåtkompatibilitet och datamigrering
+
+* **Historiska sessioner:** Beräknas inte om.
+* **Nya sessioner:** Använd **nya** aktiv tid-beräkningen.
+* **Blandade perioder:** För revisioner eller longitudinell rapportering, segmentera efter **före/efter lansering** för att undvika feltolkning.
+
+### Kända begränsningar
+
+* **Interaktivt innehåll** (SCORM/Captivate) förlitar sig fortfarande på tidsinställning från innehållsleverantören. Identifiering i viloläge i innehållet är inte tillgängligt.
+* **Iframe-baserat innehåll** (HTML/xAPI) begränsar identifiering av finkorniga interaktioner. Tabbfokus används istället.
+
+### Vanliga frågor
+
+**Ändrar den här uppdateringen historikposter?**
+
+Nej. Ändringen gäller endast sessioner efter att funktionen har startats.
+
+**Hur verifierar jag ändringarna?**
+
+Kontrollera elevens betygsutdrag för de senaste modulerna och jämför tiden med förväntade tider.
+
+**Påverkar detta alla konton?**
+
+Ja, det är en global uppdatering för alla Adobe Learning Manager-konton.
+
+**Behöver elever vidta åtgärder?**
+
+Nej. Ändringen är automatisk och transparent för elever.
+
+**Vad händer om elever lämnar innehållet öppet?**
+
+Inaktiv tid är nu utesluten, vilket förhindrar överrapportering.
+
+**Pausas video-/ljudsessioner automatiskt när fliken är inaktiv?**
+
+Nej. Uppspelningsbeteendet ändras inte. Tiden räknas inte när den pausas > 10 minuter eller inte spelas upp aktivt.
+
+**Visas aktivitet offline för mobila enheter?**
+
+Ja. Offlineanvändning ingår när enheten synkroniseras.
+
+**Vad ska jag göra om mina instrumentpaneler nu visar lägre genomsnitt?**
+
+Detta är förväntat där inaktiv tid hade tidigare uppblåsta resultat. Anteckna instrumentpaneler och justera mål efter behov.
+
+**Finns det några förutsättningar?**
+
+Ingen, ändringen sker automatiskt.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- See this [article](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md) for more information on Learner Transcript report.
+
+The downloaded Learner Transcript report contains the new column: Mark Completed Date (UTC TimeZone).
+
+![Learner Transcript reports showing marked completed dates (highlighted in yellow) for course completion tracking in Adobe Learning](/help/migrated/assets/mark-completion-column.png)
+_Learner Transcript report displays a new column in yellow highlighting individual completion dates for each user_
+
+## Enhanced User Report with extended data fields
+
+**Overview**
+
+The User Report now includes additional fields to improve user tracking and organizational mapping.
+
+**What's new**
+
+* Internal User ID column: Provides unique internal identifiers for smooth user tracking across different systems and API endpoints.
+* Manager Email column: Includes direct manager contact information for organizational hierarchy tracking.
+
+**Key benefits**
+
+* Simplified user identification and eliminates issues when mapping users across multiple systems.
+* Supports downstream user management workflows through integration capabilities.
+* Improved organizational mapping and better understanding of reporting relationships.
+* Maintains organizational boundaries and prevents accidental cross-communication.
+
+### User Report with the new column
+
+See this [article](/help/migrated/administrators/feature-summary/reports.md#user-activity-dashboards) to learn how to download the User Report. 
+
+The downloaded User Report file contains the new columns: Internal User ID and Manager Email.
+
+![User Report showing the internal user ID and manager email columns highlighted in yellow](/help/migrated/assets/user-report-columns.png) 
+_User Reports highlighting internal user IDs and manager email addresses to streamline user management_
+
+## FTP User Report with Internal User ID support
+
+**Overview**
+
+The FTP-based User Report now includes Internal User ID support, providing a unified approach to data export and integration for headless implementations.
+
+**What's new**
+
+* User Reports are now available through [Custom FTP](/help/migrated/integration-admin/feature-summary/connectors.md#custom-ftp) alongside existing reports (Gamification Transcripts, Learner Transcripts, Trainings Report).
+* The Internal User ID column is now consistent across all export methods (FTP, Jobs API, and UI).
+
+**Key benefits**
+
+* Simplified data management with a single source for all necessary reports.
+* Better data consistency by ensuring uniform user identification across reporting periods.
+* Automated workflow support by enabling bulk operations and analytics workflows with consistent identifiers.
+The User Report downloaded from FTP folder contains the new column, Internal User ID.
+
+## Include suspended users in Learner Transcripts
+
+**Overview**
+
+Organizations can now include suspended users (those with disabled external profiles) in Learner Transcripts, ensuring comprehensive historical learning data retention.
+
+**What's new**
+
+* Configurable suspended user visibility with an account-level flag to include suspended users in the Learner Transcripts.
+* Historical data retention even after deactivation of suspended external profiles.
+
+**Implementation requirements**
+
+* Contact your Customer Success Manager (CSM) to enable the account-level flag.
 
 >[!NOTE]
 >
->Flaggan är inaktiverad som standard för befintliga konton och måste uttryckligen begäras för nya konton.
+>This flag is disabled by default for existing accounts and must be explicitly requested for new accounts.
 
-## Omfattade behörigheter för meddelanden för anpassade administratörer
+## Scoped announcement permissions for custom administrators
 
-**Översikt**
+**Overview**
 
-Anpassade administratörer kan nu skapa meddelanden, men bara för sina tilldelade användargrupper eller kataloger. Detta förhindrar oavsiktlig kommunikation över organisatoriska gränser.
+Custom administrators can now create announcements, but only for their assigned user groups or catalogs. This prevents unintended communication across organizational boundaries.
 
-**Nyheter**
+**What's new**
 
-* Anpassade administratörer kan bara skapa meddelanden för användare inom sitt tilldelade omfång.
-* Meddelanden kan omfattas av specifika användargrupper eller kataloger.
-* Fullständiga administratörer behåller synligheten och kontrollen över alla meddelanden, inklusive de som skapas av anpassade administratörer med omfång.
+* Custom administrators can only create announcements for users within their assigned scope.
+* Announcements can be scoped to specific user groups or catalogs.
+* Full administrators maintain visibility and control over all announcements, including those created by scoped custom administrators.
 
-**Viktiga fördelar**
+**Key benefits**
 
-* Riktad kommunikation som ser till att meddelanden når ut till enbart relevanta målgrupper.
-* Minskad överbelastning av informationen genom att förhindra att irrelevanta meddelanden når oavsiktliga användare.
-* Bibehåller organisatoriska gränser och förhindrar oavsiktlig korskommunikation.
+* Targeted communication ensuring announcements reach only relevant audiences.
+* Reduced information overload by preventing irrelevant notifications from reaching unintended users.
+* Maintains organizational boundaries and prevents accidental cross-communication.
 
-**Viktiga överväganden**
+**Important considerations**
 
-* Om en anpassad administratörs omfång ändras, visas en varningsikon för de meddelanden som påverkas och individuella omfång återställs.
-* Varje meddelande måste uppdateras individuellt när omfånget ändras.
-* Meddelanderapporten visar endast elever inom den anpassade administratörens tilldelade omfång.
+* If a custom administrator's scope changes, affected announcements display a warning icon and require individual scope resets.
+* Each announcement must be updated individually when scope changes occur.
+* The Notification Announcement report shows only learners within the custom administrator's assigned scope.
 
-**Användningsfall**
+**Use cases**
 
-* Franchiseorganisationer där regionala chefer bara behöver kommunicera med sina franchisetagare.
-* Stora organisationer med regionala administratörer eller avdelningsadministratörer som skickar meddelanden till sina team.
+* Franchise organizations where regional managers need to communicate only with their franchisees.
+* Large organizations with regional or departmental administrators targeting announcements to their teams.
 
-### Skapa meddelande för det tilldelade omfånget
+### Create announcement for the assigned scope
 
-En anpassad administratör kan skapa meddelanden som är begränsade till de användargrupper och kataloger som de tilldelats, vilket säkerställer att meddelandena når rätt målgrupp och förhindrar onödiga meddelanden.
+A custom administrator can create announcements limited to their assigned user groups and catalogs, ensuring messages reach the right audience and preventing unnecessary notifications.
 
-Så här skapar du ett meddelande för det tilldelade omfånget:
+To create an announcement for the assigned scope:
 
-1. Logga in på Adobe Learning Manager som administratör.
-2. Välj **[!UICONTROL Announcement]** i den vänstra navigeringsrutan.
-3. Välj **[!UICONTROL Add]**.
-
+1. Log in to Adobe Learning Manager as an administrator.
+2. Select **[!UICONTROL Announcement]** in the left navigation pane.
+3. Select **[!UICONTROL Add]**. 
+   
    ![](/help/migrated/assets/create-add-announcement.png)
-   _Sidan Meddelanden i Adobe Learning Manager, där administratörer kan skapa och hantera meddelanden för målanvändargrupper_
+   _Announcements page in Adobe Learning Manager, where administrators can create and manage announcements for targeted user groups_
 
-4. Välj **[!UICONTROL Announcement Type]** i listrutan.
-a. **[!UICONTROL As Notification]**
-b. **[!UICONTROL As Masthead]**
-c. **[!UICONTROL As Recommendation]**
-d. **[!UICONTROL As Email]**
-5. Välj **[!UICONTROL As Masthead]**.
-6. Välj språk och överför en bild för masthead.
-7. Du kan även lägga till en URL till åtgärdsknappen.
-
+4. Select the **[!UICONTROL Announcement Type]** from the dropdown menu.
+        a. **[!UICONTROL As Notification]**
+        b. **[!UICONTROL As Masthead]**
+        c. **[!UICONTROL As Recommendation]**
+        d. **[!UICONTROL As Email]**
+5. Select **[!UICONTROL As Masthead]**. 
+6. Select the language and upload an image for the masthead. 
+7. Optionally, add a URL for the action button. 
+   
    ![](/help/migrated/assets/announcement-screen.png)
-   _Skapa en meddelandeskärm där administratörer kan ange meddelandetyp, överföra bilagor och lägga till åtgärdsknappar_
+   _Create Announcement screen allowing administrators to set announcement type, upload attachments, and add action buttons_
 
-   Det tilldelade omfånget är förvalt i avsnittet **[!UICONTROL Scope]** och kan inte ändras av administratörer.
+    The assigned scope is pre-selected in the **[!UICONTROL Scope]** section and cannot be modified by administrators.
+    
+    >[!NOTE]
+    >
+    >**[!UICONTROL For Notification]** and **[!UICONTROL Email]** announcements, they can include additional user groups and catalogs if these overlap with their assigned scope.
 
-   >[!NOTE]
-   >
-   >**[!UICONTROL For Notification]**- och **[!UICONTROL Email]**-meddelanden, de kan innehålla ytterligare användargrupper och kataloger om dessa överlappar deras tilldelade omfång.
+8. Select **[!UICONTROL Save]**.
 
-8. Välj **[!UICONTROL Save]**.
+Only learners within the custom administrator's scope will be able to view the announcement. See this [article](/help/migrated/administrators/feature-summary/announcements.md) to learn how to create multiple types of announcements. 
 
-Det är bara elever inom den anpassade administratörens omfattning som kan se meddelandet. Om du vill ha mer information om hur du skapar flera typer av meddelanden läser du i den här [artikeln](/help/migrated/administrators/feature-summary/announcements.md).
+### Reset the scope by Custom administrators
 
-### Återställ omfattningen av anpassade administratörer
+Custom administrators can reset the scope of their published announcements if an administrator has changed the scope of them. Once the scope is reset, the updated scope will be applied to the announcement, and only learners within the new scope will be able to see the announcement.
 
-Anpassade administratörer kan återställa omfattningen av sina publicerade meddelanden om en administratör har ändrat deras omfattning. När omfattningen har återställts tillämpas det uppdaterade omfånget på tillkännagivandet och endast elever inom det nya omfånget kan se tillkännagivandet.
+To reset the scope:
 
-Så här återställer du omfånget:
-
-1. Logga in på Adobe Learning Manager som en anpassad administratör.
-2. Välj **[!UICONTROL Announcement]** i den vänstra navigeringsrutan.
-3. Välj fliken **[!UICONTROL Published]**.
-4. Välj ett meddelande och välj sedan inställningsikon.
-5. Välj **[!UICONTROL Edit]**.
+1. Log in to Adobe Learning Manager as a custom administrator.
+2. Select **[!UICONTROL Announcement]** in the left navigation pane.
+3. Select **[!UICONTROL Published]** tab.
+4. Select any announcement and then select setting icon. 
+5. Select **[!UICONTROL Edit]**. 
 
    ![](assets/select-edit-published-announcement.png)
-   _Meddelandeskärmen visar de publicerade meddelandena med alternativ för redigering, publicering och annat_
+   _Announcement screen showing the published announcements with edit, publish and other options_
 
-6. Välj **Återställ**.
+6. Select **Reset**. 
 
    ![](assets/reset-the-scope.png)
-   _Meddelande som visar ett meddelande om scopeändring, med ett alternativ för anpassade administratörer att återställa och uppdatera scopevalet för att återspegla nya åtkomstbehörigheter_
+   _Announcement showing a scope change notification, with an option for custom administrators to reset and update the scope selection to reflect new access permissions_
 
-Omfattningen uppdateras och endast användare inom det uppdaterade omfånget kan se tillkännagivandet.
+The scope will be updated, and only users within the updated scope will be able to view the announcement.
 
-### Redigera meddelandet via administratörsgränssnittet
+### Edit the announcement through administrator UI
 
-Administratörer kan se meddelanden som skapats av anpassade administratörer via deras gränssnitt. De kan endast redigera dessa meddelanden genom att ändra eller ta bort det tilldelade omfånget. Om omfångsändringar inte görs kan administratörer inte redigera meddelandet ytterligare.
+Administrators can view announcements created by custom administrators through their interface. They have the ability to edit these announcements only by modifying or removing the assigned scope. If scope changes are not made, administrators cannot make further edits to the announcement.
 
-Så här redigerar du meddelandet via administratörsgränssnittet:
+To edit the announcement through administrator UI:
 
-1. Logga in på Adobe Learning Manager som administratör.
-2. Välj **[!UICONTROL Announcement]** i den vänstra navigeringsrutan.
-3. Välj fliken **[!UICONTROL Published]**.
-4. Välj ett meddelande och välj sedan inställningsikon.
-5. Välj **[!UICONTROL Edit]**.
+1. Log in to Adobe Learning Manager as an administrator.
+2. Select **[!UICONTROL Announcement]** in the left navigation pane.
+3. Select **[!UICONTROL Published]** tab.
+4. Select any announcement and then select setting icon.
+5. Select **[!UICONTROL Edit]**. 
 
    ![](assets/select-edit-published-announcement.png)
-   _Meddelandeskärmen visar de publicerade meddelandena med alternativ för redigering, publicering och annat_
+   _Announcement screen showing the published announcements with edit, publish and other options_
 
-6. Välj **[!UICONTROL Remove]**.
-
+6. Select **[!UICONTROL Remove]**. 
+   
    ![](assets/remove-the-scope.png)
-   _En meddelandeskärm som anger att omfånget måste tas bort för att administratörer ska kunna redigera meddelanden som skapats för användargrupper med omfång_
+   _Announcement screen indicating that scope must be removed to allow administrators to edit announcements created for scoped user groups_
 
-Administratören kan redigera meddelandet efter att omfånget har tagits bort.
+Administrator can edit the announcement after removing the scope.
 
-## Tagga användare på sociala anslagstavlor
+## Tag users in social boards
 
-**Översikt**
+**Overview**
 
-Sociala inlärningsnämnder stöder nu användartaggning, vilket möjliggör mer riktade diskussioner och förbättrat samarbete inom inlärningsgrupper. Elever kan taggas i inlägg om social utbildning och kommentarer via elevappen, API:er och referenswebbplatsen för Adobe Learning Manager.
+Social learning boards now support user tagging functionality, enabling more targeted discussions and improved collaboration within learning communities. Learners can be tagged in social learning posts and comments through the learner app, APIs, and Adobe Learning Manager reference site.
 
-**Nyheter**
+**What's new**
 
-* **@username**: Användarna kan tagga andra tavlans medlemmar med formatet @username.
-* **Omfångsbegränsad taggning**: Endast användare med åtkomst till den specifika tavlan kan taggas, vilket garanterar sekretess och relevans.
-* **Flerkanalsmeddelanden**: Taggade användare får både aviseringar i appen och e-postmeddelanden med direktlänkar till relevanta inlägg eller kommentarer.
+* **@username tagging**: Users can tag other board members using the "@username" format.
+* **Scope-restricted tagging**: Only users with access to the specific board can be tagged, ensuring privacy and relevance.
+* **Multi-channel notifications**: Tagged users receive both in-app and email notifications with direct links to relevant posts or comments.
 
-**Viktiga funktioner**
+**Key features**
 
-* Användare utanför tavlans omfattning kan inte taggas, vilket förhindrar oönskade meddelanden.
-* Om en taggad användare tas bort från systemet visas användarens omnämnande som &quot;anonym&quot;.
-* Det är inte tillåtet att tagga användargrupper eller &quot;@all&quot; för att förhindra skräppost.
+* Users outside the board's scope cannot be tagged, preventing unwanted notifications.
+* If a tagged user is deleted from the system, their mention appears as "anonymous".
+* Tagging user groups or "@all" is not permitted to prevent notification spam.
 
-**Användningsfall**
+**Use cases**
 
-* Hälso- och sjukvårdspersonal som vill ha synpunkter från särskilda kollegor om medicinska fall.
-* Ämnesområde Experter rådfrågas i specialfrågor.
-* Gruppdiskussioner som kräver synpunkter från specifika intressenter.
-* Sessioner för kunskapsdelning med riktade experter inblandade.
+* Healthcare professionals seeking input from specific colleagues on medical cases.
+* Subject matter experts being consulted on specialized topics.
+* Team discussions requiring input from specific stakeholders.
+* Knowledge sharing sessions with targeted expert involvement.
 
-### Tagga användare i inlägg på sociala anslagstavlor
+### Tag users in social board posts
 
-Elever kan nu tagga specifika styrelseledamöter i inlägg eller kommentarer med hjälp av @username. Taggning är begränsad till medlemmar med tillgång till den tavlan.
+Learners can now tag specific board members in posts or comments using @username. Tagging is limited to members with access to that board.
 
-Så här taggar du användare på en social tavla:
+To tag users in a social board:
 
-1. Logga in på Adobe Learning Manager som elev.
-2. Välj **[!UICONTROL Social Learning]** i den vänstra navigeringsrutan.
-
+1. Log in to Adobe Learning Manager as a learner. 
+2. Select **[!UICONTROL Social Learning]** in the left navigation pane.
+   
    ![](/help/migrated/assets/select-social-learning-admin.png)
-   _Aktivera kollaborativ utbildning genom att välja Social utbildning för att komma åt diskussionstavlor, dela insikter och tagga användare för interaktivt engagemang_
+   _Enable collaborative learning by selecting Social Learning to access discussion boards, share insights, and tag users for interactive engagement_
 
-3. Välj **[!UICONTROL New Post]**.
-
+3. Select **[!UICONTROL New Post]**.
+   
    ![](assets/select-new-post.png)
-   _Starta en ny diskussion genom att välja Nytt inlägg i Social utbildning för att dela kunskap med taggade användare_
+   _Start a new discussion by selecting New Post in Social Learning to share knowledge with the tagged users_
 
-4. Innan du lägger till märkord till användare väljer du tavlan från alternativet **[!UICONTROL Post this to a Discussion Board]**.
+4. Before tagging users, select the board from the **[!UICONTROL Post this to a Discussion Board]** option.
 
    ![](assets/select-boards-in-social-board.png)
-   _Välj en diskussionstavla där du kan publicera och tagga användare, vilket möjliggör riktade samtalsämnen i social utbildning_
+   _Select a discussion board to post and tag users, enabling targeted collaborative conversations in Social Learning_
 
-5. Skriv dina inläggsuppgifter och tagga sedan en användare genom att ange @-symbolen följt av användarens namn (till exempel @andrew). När du skriver @ följt av de tre första bokstäverna i användarens namn visas en lista med matchande användare.
-
+5. Type your post details, then tag a user by entering the @ symbol followed by their name (for example, @andrew). When you type @ followed by the first three letters of the user's name, it displays a list of matching users.
+ 
    ![](assets/type-a-user-tag.png)
-   _Tagga användare i ditt diskussionsinlägg genom att skriva @ följt av användarnamnet för att möjliggöra riktat samarbete inom tavlor för social utbildning_
+   _Tag users in your discussion post by typing @ followed by the username to enable targeted collaboration within Social Learning boards_
 
-6. Välj önskad användare i listan.
-7. Välj **[!UICONTROL Post]**.
+6. Select the desired user from the list.
+7. Select **[!UICONTROL Post]**. 
 
-De taggade användarna får både meddelanden i appen och via e-post med en direkt länk till inlägget, vilket gör diskussionerna mer riktade och samarbetsinriktade.
+The tagged users receive both in-app and email notifications with a direct link to the post, making discussions more targeted and collaborative.
 
-### Tagga användare utifrån styrelsens omfattning
+### Tag users based on the board's scope
 
-Omfångsbegränsad taggning gör att användare endast kan tagga elever som har behörighet för åtkomst till en viss tavla. Detta hjälper till att upprätthålla sekretessen genom att förhindra att användare taggas utanför omfånget.
+Scope-restricted tagging allows users to tag only those learners who have permission to access a specific board. This helps maintain privacy by preventing tagging of users outside the scope. 
 
-Om du försöker tagga elever som ligger utanför tavlans omfattning visas inga förslag och du kan inte tagga dem. Läs den här [artikeln](/help/migrated/administrators/feature-summary/social-learning-configurations-as-an-admin.md) om du vill veta mer om omfattningen av social utbildning.
+If you try tagging learners who are outside the board's scope, no suggestions will appear, and you won't be able to tag them. Refer to this [article](/help/migrated/administrators/feature-summary/social-learning-configurations-as-an-admin.md) to learn more about Social Learning Scope. 
 
-## Tagga borttagna användare i kommentarer
+## Tag deleted users in comments
 
-Om en användare som har tagits bort taggas i ett inlägg i Social utbildning visas användarens namn som Anonym i inlägget. Kommentaren och taggen visas fortfarande i sammanhanget, men inte profillänken eller -uppgifterna.
+If a user who has been deleted is tagged in a Social Learning post, their name will show as Anonymous in the post. The comment and tag remain visible for context, but profile link or details are not shown.
 
-![](assets/deleted-users-tagged.png)
-_Inlägg från social utbildning visar hur en borttagen användare visas som anonym när den är taggad_
+![](assets/deleted-users-tagged.png) 
+_Social Learning post highlighting how a deleted user appears as Anonymous when tagged_
 
-## Rapport om arbetsstöd med direktlänkar
+## Job Aids report with direct access links
 
-**Översikt**
+**Overview**
 
-Rapporten om arbetsstöd har förbättrats så att den innehåller direkthämtningslänkar till arbetsstöd, effektivisering av innehållshantering och granskningsprocesser för administratörer och författare.
+The Job Aids report has been enhanced to include direct download links to job aids, streamlining content management and audit processes for administrators and authors.
 
-**Nyheter**
+**What's new**
 
-* Kolumnen Arbetsstödslänk: Direkt åtkomst till filer för arbetsstöd och externa URL:er i rapporten.
-* Rollbaserad åtkomstkontroll: Länkåtkomsten beror på användarroller och katalogbehörigheter.
-* Borttagna arbetsstöd förblir tillgängliga om de fortfarande är kopplade till aktiva kurser.
+* Job Aid Link column: Direct access to job aid files and external URLs from within the report.
+* Role-based access control: Link accessibility depends on user roles and catalog permissions.
+* Deleted job aids remain accessible if still linked to active courses.
 
-**Viktiga fördelar**
+**Key benefits**
 
-* Direkta filhämtningar och URL-åtkomst inifrån rapporten.
-* Slipp manuella försök med att hitta och ladda ner arbetsstöd för efterlevnad eller tillgänglighetsgranskningar.
+* Direct file downloads and URL access from within the report.
+* Eliminates manual effort in locating and downloading job aids for compliance or accessibility audits. 
 
-**Användningsfall**
+**Use cases**
 
-* Författare eller administratörer genomför regelbundna tillgänglighetsgranskningar av arbetsstöd i enlighet med kraven från stora organisationer.
-* Alla scenarier där snabb, rollbaserad åtkomst till arbetsstödsfiler behövs för granskning eller efterlevnad.
+* Authors or administrators conduct regular accessibility audits on job aids, as required by large organizations.
+* Any scenario where quick, role-based access to job aid files is needed for review or compliance.
 
-### Arbetsstödsrapport med den nya kolumnen
+### Job Aids Report with the new column
 
-Titta i den här [artikeln](/help/migrated/administrators/feature-summary/reports.md#job-aids-report) om du vill veta mer om hur du hämtar rapporten om arbetsstöd.
+See this [article](/help/migrated/administrators/feature-summary/reports.md#job-aids-report) to learn how to download Job Aids Report.
 
-Arbetsstödsrapporten kan laddas ned från avsnittet Rapporter och innehåller nu direkthämtningslänkar för varje arbetsstöd.
+The Job Aids Report can be downloaded from the Reports section and now includes direct download links for each job aid.
 
-![](assets/job-aid-report.png)
-_Arbetsstödsrapporten visar direkthämtningslänkar för att göra det enkelt att komma åt och hämta arbetsstöd i Adobe Learning Manager_
+![](assets/job-aid-report.png) 
+_Job Aids Report displays direct download links, making it easy to access and download job aids in Adobe Learning Manager_
 
-## API-uppdateringar
+## API updates
 
-### Förbättringar av elevs-API för prestandaspårning
+### Learner API enhancements for quiz performance tracking
 
-**Översikt**
+**Overview**
 
-API:t `GET /loResourceGrades` har förbättrats för att tillhandahålla detaljerade information om frågesportens prestanda, vilket möjliggör mer avancerade analyser och automatiserat beslutsfattande.
+The `GET /loResourceGrades` API has been enhanced to provide detailed quiz performance data, enabling more sophisticated analytics and automated decision-making.
 
-**Nyheter**
+**What's new**
 
-API-svaret innehåller nu ytterligare två fält:
+The API response now includes two additional fields:
 
-* **[!UICONTROL highestScore]**: Det bästa resultatet som en elev har uppnått under alla frågeformulärsförsök
-* **[!UICONTROL maxScore]**: Total möjlig poäng för quiz
+* **[!UICONTROL highestScore]**: The best score achieved by a learner across all quiz attempts
+* **[!UICONTROL maxScore]**: The total possible score for the quiz
 
-**Exempel på API-svar**
+**API response example**
 
 ```
 {
@@ -376,62 +1350,62 @@ API-svaret innehåller nu ytterligare två fält:
 }
 ```
 
-Som svar är **kurs:15067_30122_41715_1_3400468** ID:t för utbildningsobjektets resursgrad som informationen begärs för. Du kan hämta `learningObjectResourceGrad`e-id från API:t `GET /enrollments/{id}`.
+In response, **course:15067_30122_41715_1_3400468** is the ID of the Learning Object resource grade for which the information is being requested. The `learningObjectResourceGrad`e id can be obtained from the `GET /enrollments/{id}` API.  
 
-**Viktiga fördelar**
+**Key benefits**
 
-* Möjliggör detaljerad quiz-prestandaanalys för mätning av inlärningseffektivitet.
-* Stöder progressionsregler baserat på högsta möjliga resultat snarare än de senaste försöken.
-* Ger en fullständig bild av elevfrågeformulärets prestanda över tid.
+* Enables detailed quiz performance analysis for learning effectiveness measurement.
+* Supports progression rules based on highest achievement rather than most recent attempts.
+* Provides complete picture of learner quiz performance over time.
 
-**Så här fungerar API:t**
+**How the API works**
 
-1. En användare försöker utföra ett quiz flera gånger. Varje försök registreras.
-2. API:t ger både högsta uppnådda poäng och högsta möjliga poäng i quiz.
-3. Externa system kan använda dessa data för att utlösa automatiska åtgärder, till exempel att registrera användare i nya kurser baserat på deras bästa prestanda.
+1. A user attempts a quiz multiple times; each attempt is recorded.
+2. The API provides both the highest score achieved and the maximum possible score for the quiz.
+3. External systems can use this data to trigger automated actions, such as enrolling users in new courses based on their best performance.
 
-**Användningsfall**
+**Use cases**
 
-* För fjärradministrerade utbildningssystem krävs automatiska beslut vid registrering.
-* Plattformar för utbildningsanalys spårar mönster för elevprestationer.
-* Överensstämmelsesystem med prestandabaserade progressionskrav.
+* Headless learning systems require automated enrollment decisions.
+* Learning analytics platforms tracking learner achievement patterns.
+* Compliance systems with performance-based progression requirements.
 
-### Förbättringar av migrerings-API
+### Migration API enhancements
 
-**Översikt**
-Adobe Learning Manager stöder nu migrering av olika dataobjekt till ett konto via migreringsprocessen. Denna process kan initieras via både API:er och användargränssnittet. När en migrering misslyckas är fel tillgängliga för hämtning via gränssnittet. De här felen är användbara vid felsökning av migreringsfel och hantering av migreringskörningar.
+**Overview**
+Adobe Learning Manager now supports the migration of various data objects into an account via the migration process. This process can be initiated via both APIs and the User Interface. When a migration fails, errors are available for download via the interface. These errors are useful in debugging migration errors and managing the migration runs. 
 
-I den här versionen kommer felloggarna också att vara tillgängliga att hämta via API:erna för effektiv, programmatisk felspårning och felsökning.
+With this release, the error logs will also be available to download via the APIs for efficient, programmatic error tracking and debugging.
 
-**API-ändringar**
+**API changes**
 
-Det finns ett nytt migrerings-API, `runStatus`, som gör att integreringsadministratörer kan kontrollera statusen för migreringskörningar som utlösts via API:t. Detta är inte möjligt i tidigare versioner av Adobe Learning Manager.
+There is a new migration API, `runStatus`, which allows integration administrators to check the status of migration runs triggered via the API, something not possible in previous versions of Adobe Learning Manager. 
 
-Dessutom tillhandahåller `runStatus` API nu en direktlänk för att hämta felloggar (CSV) för slutförda körningar. Observera att länken endast är giltig i sju dagar, och loggarna sparas i en månad.
+Additionally, `runStatus` API now provides a direct link to download error logs (CSV) for completed runs. Note that the link is valid for seven days only, and the logs are retained for one month.
 
-API-svaret för `startRun` har uppdaterats för att inkludera migreringsprojektets ID, sprint-ID och sprint-körnings-ID, som krävs för att fråga den nya statusslutpunkten.
+The `startRun` API's response has been updated to include the migration project ID, sprint ID, and sprint run ID, which are required to query the new status endpoint. 
 
 #### runStatus API
 
-**Beskrivning**
+**Description**
 
-Hämtar status för en befintlig migreringskörning.
+Retrieves the status of an existing migration run.
 
-**Slutpunkt**
+**Endpoint**
 
 ```
 GET /bulkimport/runStatus
 ```
 
-**Parametrar**
+**Parameters**
 
-* **migrationProjectId**: (obligatoriskt). En unik identifierare för ett migreringsprojekt. Ett migreringsprojekt används för att överföra data och innehåll från ett befintligt system för hantering av inlärning (LMS) till Adobe Learning Manager. Varje migreringsprojekt kan bestå av flera sprintar, som är mindre enheter för migreringsuppgifter.
+* **migrationProjectId**: (Required). A unique identifier for a migration project. A migration project is used to transfer data and content from an existing Learning Management System (LMS) to Adobe Learning Manager. Each migration project can consist of multiple sprints, which are smaller units of migration tasks.
 
-* **sprintId**: (obligatoriskt). En unik identifierare för ett sprint inom ett migreringsprojekt. Ett språng är en delmängd migreringsuppgifter som omfattar specifika utbildningsobjekt (t.ex. kurser, moduler och elevposter) som ska migreras från ett befintligt LMS till Adobe Learning Manager. Varje sprint kan utföras oberoende av varandra, vilket möjliggör en stegvis migration.
+* **sprintId**: (Required). A unique identifier for a sprint within a migration project. A sprint is a subset of migration tasks that includes specific learning items (e.g., courses, modules, learner records) to be migrated from an existing LMS to Adobe Learning Manager. Each sprint can be executed independently, allowing for phased migration.
 
-* **sprintRunId**: (obligatoriskt). En unik identifierare som används för att spåra körningen av ett specifikt sprint inom ett migreringsprojekt. Det är kopplat till den faktiska migreringsprocessen för de objekt som definieras i en sprint. SprintRunId hjälper till att övervaka, felsöka och hantera migreringsjobbet.
+* **sprintRunId**: (Required). A unique identifier used to track the execution of a specific sprint within a migration project. It's associated with the actual migration process for the items defined in a sprint. The sprintRunId helps in monitoring, troubleshooting, and managing the migration job.
 
-**Svar**
+**Response**
 
 ```
 {
@@ -463,21 +1437,21 @@ GET /bulkimport/runStatus
 }
 ```
 
-#### startRun-API
+#### startRun API
 
-API-svaret `startRun` uppdaterades så att det inkluderade ytterligare tre fält - migrationProjectId, sprintId och sprintRunId. Dessa fält gör det möjligt för användare att spåra och fråga status för specifika migreringskörningar med det nya runStatus-API:et.
+The `startRun` API response was updated to include three additional fields- migrationProjectId, sprintId, and sprintRunId. These fields allow users to track and query the status of specific migration runs using the new runStatus API.
 
 ```
 curl -X GET --header 'Accept: text/html' 'https://learningmanager.adobe.com/primeapi/v2/bulkimport/runStatus?migrationProjectId=001&sprintId=10001&sprintRunId=7'
 ```
 
-Ger följande svar. Svaret innehåller:
+Produces the following response. The response contains:
 
 * migrationId
 * sprintId
 * sprintRunId
 
-**Svar**
+**Response**
 
 ```
 {
@@ -494,36 +1468,36 @@ Ger följande svar. Svaret innehåller:
 }
 ```
 
-### Ändringar i socialt API (användartagg, kommentarer och svar)
+### Social API changes (user tag, comments, and replies)
 
-**Översikt**
+**Overview**
 
-Adobe Learning Manager har nu stöd för @user taggning i Social Learning Boards. Det gör det möjligt för elever att nämna och meddela kollegor i inlägg, kommentarer och svar. Den här funktionen förbättrar samarbetet och innehållsidentifieringen på plattformen.
+Adobe Learning Manager now supports @user tagging functionality in Social Learning boards, enabling learners to mention and notify peers within posts, comments, and replies. This feature enhances collaboration and content discovery across the platform.
 
-Den här versionen introducerar nya API-funktioner för att stödja användaromnämnanden, däribland förbättrade slutpunkter för POST och GET samt en ny sökfunktion för taggade användare.
+This release introduces new API capabilities to support user mentions, including enhanced POST and GET endpoints, as well as a new search functionality for tagged users.
 
-**Översikt över API-ändringar**
+**API changes overview**
 
-* Uppdaterade POST-API:er för att skapa inlägg/kommentarer/svar med användaromnämnanden
-* API:er för GET har uppdaterats med användaromnämnandedata i svar
+* Updated POST APIs for creating posts/comments/replies with user mentions
+* Updated GET APIs with user mention data in responses
 
-**Format för användaromnämnanden**
+**Format of user mentions**
 
-En användare omnämns med formatet: @(användare:userId)
+A user is mentioned using the format: @(user:userId)
 
-#### Skapa inlägg med omnämnanden
+#### Create post with mentions
 
-**Slutpunkt**
+**Endpoint**
 
 ```
 POST /primeapi/v2/posts
 ```
 
-**Beskrivning**
+**Description**
 
-Skapa ett nytt inlägg om social utbildning med användaromnämnanden.
+Create a new social learning post with user mentions.
 
-**Text för begäran**
+**Request body**
 
 ```
 {
@@ -541,23 +1515,23 @@ Skapa ett nytt inlägg om social utbildning med användaromnämnanden.
 }
 ```
 
-**Svar**
+**Response**
 
-Standardsvar efter skapande med omnämnandedata som ingår i relationen _userMentions_.
+Standard post creation response with mention data included in the _userMentions_ relationship.
 
-#### Skapa kommentar med omnämnanden
+#### Create comment with mentions
 
-**Slutpunkt**
+**Endpoint**
 
 ```
 POST /primeapi/v2/comments
 ```
 
-**Beskrivning**
+**Description** 
 
-Lägg till en kommentar till ett inlägg med användaromnämnanden.
+Add a comment to a post with user mentions.
 
-**Text för begäran**
+**Request body**
 
 ```
 {
@@ -575,19 +1549,19 @@ Lägg till en kommentar till ett inlägg med användaromnämnanden.
 }
 ```
 
-#### Skapa svar med omnämnanden
+#### Create reply with mentions
 
-**Slutpunkt**
+**Endpoint**
 
 ```
 POST /primeapi/v2/replies
 ```
 
-**Beskrivning**
+**Description**
 
-Svara på en kommentar med användaromnämnanden.
+Reply to a comment with user mentions.
 
-**Text för begäran**
+**Request body**
 
 ```
 {
@@ -606,19 +1580,19 @@ Svara på en kommentar med användaromnämnanden.
 }
 ```
 
-#### Hämta inlägg med omnämnanden
+#### Retrieve posts with mentions
 
-**Slutpunkt**
+**Endpoint**
 
 ```
 GET /primeapi/v2/posts/{id}
 ```
 
-**Beskrivning**
+**Description**
 
-Hämta inläggsinformation, inklusive nämnda användare.
+Retrieve post details, including mentioned users.
 
-**Svar**
+**Response**
 
 ```
 {
@@ -706,26 +1680,26 @@ Hämta inläggsinformation, inklusive nämnda användare.
 }
 ```
 
-### Ändringar i socialt API (användarsökning)
+### Social API changes (user search)
 
-**Slutpunkt**
+**Endpoint**
 
 ```
 GET /primeapi/v2/users/search?q={searchTerm}&context=tagging
 ```
 
-**Beskrivning**
+**Description**
 
-Sök efter användare som är tillgängliga för taggning baserat på inställningarna för socialt omfång.
+Search for users available for tagging based on social scope settings.
 
-**Parametrar för förfrågan**
+**Request parameters**
 
 
-* q (obligatoriskt): Sökord (minst 3 tecken).
-* kontext: Ställ in som &quot;taggning&quot; för att få användare berättigade till omnämnanden.
-* boardId (valfritt): Tavlans-id för att filtrera användare baserat på åtkomstbehörigheter.
+* q (required): Search term (minimum 3 characters).
+* context: Set to "tagging" to get users eligible for mentions.
+* boardId (optional): Board ID to filter users based on access permissions.
 
-**Svar**
+**Response**
 
 ```
 {
@@ -745,112 +1719,112 @@ Sök efter användare som är tillgängliga för taggning baserat på inställni
 }
 ```
 
-### Riktlinjer för genomförandet
+### Implementation guidelines
 
-#### Teckengränser
+#### Character limits
 
-* Inlägg: 4 000 teckengräns gäller, där varje taggad användare minskar antalet tillgängliga tecken med ett fast belopp.
-* Kommentarer: Högst 1 000 tecken.
+* Posts: 4000-character limit applies, with each tagged user reducing available characters by a fixed amount.
+* Comments: 1000-character limit.
 
-#### Nämn validering
+#### Mention validation
 
-* Användare kan bara taggas med användarnamn eller e-postadress (inte UUID).
-* Interna användare kan inte tagga externa användare och vice versa.
-* Taggningstillgängligheten följer de befintliga inställningarna för socialt omfång.
-* Tavlans behörigheter avgör om du är berättigad till taggar (offentlig/privat).
+* Users can only be tagged by username or email (not UUID).
+* Internal users cannot tag external users and vice versa.
+* Tagging availability follows existing social scope settings.
+* Board permissions determine tagging eligibility (Public/Private).
 
-#### Meddelanden
+#### Notifications
 
-* Flera omnämnanden av samma användare i ett inlägg resulterar i ett enda meddelande.
-* Ursprunglig inläggsägare får endast meddelanden när de är specifikt taggade.
+* Multiple mentions of the same user in one post result in a single notification.
+* Original post owner receives notifications only when specifically tagged.
 
-#### Felhantering
+#### Error handling
 
-* Ogiltiga användar-ID:n i omnämnanden returnerar valideringsfel.
-* GDPR och soft-deleted-användare visas anonymt i taggat innehåll.
+* Invalid user IDs in mentions return validation errors.
+* GDPR and soft-deleted users appear anonymous in tagged content.
 
-### Språkbaserad elevstatus
+### Language-based learner progress
 
-För närvarande spåras elevens framsteg endast för det valda språkområdet, vilket orsakar betydande förluster av framsteg när man byter språk/språkinställningar i spelaren. Den här begränsningen skapar en dålig användarupplevelse när elever förlorar sina utbildningsframsteg när de utforskar innehåll på olika språk.
+Currently, learner progress is tracked only for the selected locale language, causing significant progress loss when switching languages/locales in the player. This limitation creates poor user experience where learners lose their learning progress when exploring content in different languages.
 
-**Aktuella problem**
+**Current issues**
 
-* **Förloppsåsidosättning**: Förloppet för varje modul i spelaren spåras på både användar- och modulnivå. Detta leder till en situation där en användares förlopp åsidosätts när hen växlar tillbaka till ett tidigare använt språk för samma modul.
-* **Förloppsåterställning**: Om en elev till exempel uppnår 75 % förlopp i Språkversion A (engelska) och sedan byter till Språkversion B (spanska), återställs förloppet till 0 % när hen återgår till Språkversion A, i stället för 75 %.
+* **Progress override**: The progress for each module in the player is tracked at both the user and module levels. This leads to a situation where a user's progress is overridden when they switch back to a previously used locale for the same module.
+* **Progress reset**: For instance, if a learner achieves 75% progress in Locale A (English) and then switches to Locale B (Spanish), upon returning to Locale A, their progress resets to 0% instead of resuming from 75%.
 
-För att åtgärda dessa begränsningar har API förbättrats så att det stöder språkspecifik framstegsspårning:
+To resolve these limitations, the API has been enhanced to support locale-specific progress tracking:
 
-* **Språkspecifik lagring**: När en elev byter språkversion (till exempel från språk A till språk B) i spelaren, sparas nu förloppsstatusen separat i systemet för varje språk i innehållet.
-* **Återupptagande av förloppet**: När användaren växlar tillbaka till ett tidigare använt språk (från språk B tillbaka till språk A), återupptas innehållet där det slutade på det språket.
-* **Oberoende framstegsspårning**: Varje språk bibehåller sitt eget framstegsläge, vilket gör att elever kan utforska innehåll på flera språk utan att förlora sina individuella framsteg på varje språk.
+* **Locale-specific storage**: When a learner switches locales (for example, from Locale A to Locale B) within the player, the system now saves the progress state separately for each locale of the content.
+* **Progress resumption**: When the user switches back to a previously used locale (from Locale B back to Locale A), the content resumes from where they left off in that specific locale.
+* **Independent progress tracking**: Each locale maintains its own state of progress, allowing learners to explore content in multiple languages without losing their individual progress in each language.
 
-#### API-ändringar
+#### API changes
 
-Följande API:er har förbättrats för att stödja den nya nationella parametern:
+The following APIs have been enhanced to support the new locale parameter:
 
 * GET Player State API
 * POST Player State API
 
 #### GET Player State API
 
-**Slutpunkt**
+**Endpoint**
 
 ```
 GET /primeapi/v2/users/{userId}/playerState
 ```
 
-**Beskrivning**
+**Description**
 
-Hämtar det aktuella läget för ett utbildningsobjekt för en specifik användare och språkområde.
+Retrieves the current state of a learning object for a specific user and locale.
 
-**Parametrar**
+**Parameters**
 
-| Parameter | Typ | Plats | Obligatorisk | Beskrivning |
+|Parameter |Type |Location |Required |Description |
 |---|---|---|---|---|
-| userId | Sträng | Bana | Ja | Unik identifierare för användaren |
-| loId | Sträng | Fråga | Ja | Identifierare för utbildningsobjekt i formatloggen:{id} |
-| loResourceId | Sträng | Fråga | Ja | Resursidentifierare för utbildningsobjekt i formatkurs:{loId_loInstanceId_moduleId_moduleVersion} |
-| csrf_token | Sträng | Fråga | Ja | CSRF-skyddstoken |
-| språkområde | Sträng | Fråga | Valfritt | Språkidentifierare för språkspecifikt förlopp (t.ex. &quot;en-US&quot;, &quot;es-ES&quot;) |
+|userId |String |Path |Yes |Unique identifier of the user |
+|loId |String |Query |Yes |Learning Object identifier in format lo:{id} |
+|loResourceId |String |Query |Yes |Learning Object resource identifier in format course:{loId_loInstanceId_moduleId_moduleVersion}|
+|csrf_token |String |Query |Yes |CSRF protection token |
+|locale |String |Query |Optional |Locale identifier for language-specific progress (e.g., "en-US", "es-ES") |
 
-**Exempelbegäran**
+**Example request**
 
 ```
 GET /primeapi/v2/users/12345/playerState?loId=lo:67890&loResourceId=course:67890_1_mod123_v2&csrf_token=abc123&locale=en-US
 ```
 
-**Svarsbeteende**
+**Response behavior**
 
-* Om parametern locale anges och det finns ett språkspecifikt tillstånd, returnerar API förloppet för det språkområdet.
-* Om parametern locale anges men det inte finns något språkspecifikt tillstånd, utför API en grundsökning för standardläget.
-* Om parametern locale utelämnas returnerar API standardläget (bibehåller bakåtkompatibilitet).
-* För fjärradministrerade begäranden där språkinställningen är null återgår API till standardlägessökningen.
+* If the locale parameter is provided and a locale-specific state exists, the API returns the progress for that locale.
+* If the locale parameter is provided but no locale-specific state exists, the API performs a fallback search for the default state.
+* If the locale parameter is omitted, the API returns the default state (maintains backward compatibility).
+* For headless requests where the locale is null, the API falls back to the default state lookup.
 
 #### POST Player State API
 
-**Slutpunkt**
+**Endpoint**
 
 POST /primeapi/v2/users/{userId}/playerState
 
-**Beskrivning**
+**Description**
 
-Uppdaterar eller skapar det aktuella läget för ett utbildningsobjekt för en specifik användare och språkområde.
+Updates or creates the current state of a learning object for a specific user and locale.
 
-**Parametrar**
+**Parameters**
 
-| Parameter | Typ | Plats | Obligatorisk | Beskrivning |
+|Parameter |Type |Location |Required |Description |
 |---|---|---|---|---|
-| userId | Sträng | Bana | Ja | Unik identifierare för användaren |
-| loId | Sträng | Fråga | Ja | Identifierare för utbildningsobjekt i formatloggen:{id} |
-| loResourceId | Sträng | Fråga | Ja | Resursidentifierare för utbildningsobjekt i formatkurs:{loId_loInstanceId_moduleId_moduleVersion} |
-| csrf_token | Sträng | Fråga | Ja | CSRF-skyddstoken |
-| språkområde | Sträng | Fråga | Valfritt | Språkidentifierare för language-sp |
+|userId |String |Path |Yes |Unique identifier of the user |
+|loId |String |Query |Yes |Learning Object identifier in format lo:{id} |
+|loResourceId |String |Query |Yes |Learning Object resource identifier in format course:{loId_loInstanceId_moduleId_moduleVersion} |
+|csrf_token |String |Query |Yes |CSRF protection token |
+|locale |String |Query |Optional |Locale identifier for language-sp|
 
-**Text för begäran**
+**Request body**
 
-Förfrågningstexten innehåller specifika data för utbildningsobjektets tillstånd.
+The request body contains the Learning Object state data specific to the locale.
 
-**Exempelbegäran**
+**Example request**
 
 ```
 POST /primeapi/v2/users/12345/playerState?loId=lo:67890&loResourceId=course:67890_1_mod123_v2&csrf_token=abc123&locale=en-US
@@ -866,762 +1840,762 @@ POST /primeapi/v2/users/12345/playerState?loId=lo:67890&loResourceId=course:6789
 }
 ```
 
-API:t skapar eller uppdaterar utbildningsobjektets tillstånd för det angivna språket.
+The API creates or updates the Learning Object state for the specified locale.
 
-## Go1-integreringsförbättringar
+## Go1 integration enhancements
 
-**Översikt**
+**Overview**
 
-Go1-integreringen har förbättrats så att du kan gå vidare med Go1-kurser för att skapa utbildningsprogram (LP) i Adobe Learning Manager. Denna uppdatering stödjer inkluderandet av Go1-kurser i återkommande certifieringar och introducerar en ny version av Go1-innehållsnavet som möjliggör effektivare kurskurser.
+Go1 integration is enhanced to allow direct curation of Go1 courses for creating Learning Programs (LP) within Adobe Learning Manager. This update supports the inclusion of Go1 courses in recurring certifications and introduces a new version of the Go1 content hub experience, enabling more efficient course curation.
 
-**Nyheter**
+**What's new**
 
-* Skapa och hantera spellistor direkt i Go1 med hjälp av AI-chattassistans eller manuellt val.
-* Inkludera Go1-kurser i återkommande certifieringscykler med automatisk återställning av förloppet.
-* Uppgraderat gränssnitt för innehållsidentifiering för förbättrad bläddring och kuratering av innehåll.
+* Create and manage playlists directly within Go1 using AI chat assistance or manual selection.
+* Include Go1 courses in recurring certification cycles with automatic progress reset.
+* Upgraded content discovery interface for improved browsing and content curation.
 
-**Viktiga fördelar**
+**Key benefits**
 
-* Skapande av AI-stödda spellistor snabbar upp gruppering och leverans av innehåll avsevärt.
-* Möjliggör användning av Go1-innehåll för återkommande krav på regelmässig utbildning.
-* Tydlig förhandsgransknings- och inköpsmodell stöder välgrundade investeringsbeslut för innehåll.
-* Förbättrade identifierings- och kurateringsverktyg för bättre innehållshantering.
+* AI-assisted playlist creation significantly speeds content grouping and delivery.
+* Enables use of Go1 content for recurring regulatory training requirements.
+* Clear preview-and-purchase model supports informed content investment decisions.
+* Improved discovery and curation tools for better content management.
 
-**Viktiga anteckningar**
+**Important notes**
 
-* Alla Go1-funktioner kräver en aktiv Go1-licens.
-* Det tidigare kostnadsfria Go1-innehållet kommer att avvecklas. Organisationer måste förhandsgranska och köpa nödvändiga innehållspaket.
-* Administratörer och författare kan skapa och hantera spellistor. Elever har endast visningsåtkomst.
+* All Go1 features require an active Go1 license.
+* Previous free Go1 content will be decommissioned. Organizations must preview and purchase required content bundles.
+* Administrators and authors can create and manage playlists; learners maintain view-only access.
 
-**Användningsfall**
+**Use cases**
 
-* Organisationer som behöver omfattande externa innehållsbibliotek för omfattande utbildningsprogram.
-* Efterlevnadsfokuserade utbildningsprogram som kräver regelbundna innehållsuppdateringar och leveranscykler.
-* Utbildningsteam försöker minska kostnaderna för kurering av innehåll genom AI-hjälp.
+* Organizations requiring extensive external content libraries for comprehensive training programs.
+* Compliance-focused training programs needing regular content updates and delivery cycles.
+* Learning teams are seeking to reduce content curation overhead through AI assistance.
 
-### Lägg till Go1-spellista till en utbildningsväg
+### Add Go1 playlist to a Learning Path
 
-Administratörer kan skapa en utbildningsväg som innehåller en Go1-spellista, så att eleverna får tillgång till valda kurser från tredje part som en del av utbildningen.
+Administrators can create a learning path that includes a Go1 playlist, so learners can access selected third-party courses as part of their training.
 
-Så här skapar du en utbildningsväg:
+To create a learning path:
 
-1. Logga in på Adobe Learning Manager som administratör.
-2. Välj **[!UICONTROL Learning Paths]** i den vänstra navigeringsrutan.
-3. Välj **[!UICONTROL Add]**.
+1. Log in to Adobe Learning Manager as an administrator.
+2. Select **[!UICONTROL Learning Paths]** in the left navigation pane. 
+3. Select **[!UICONTROL Add]**. 
 
    ![](assets/select-add-to-lp.png)
-   _Välj Lägg till i avsnittet Utbildningsvägar för att skapa och organisera nya strukturerade utbildningsprogram för dina elever_
+   _Select Add in the Learning Paths section to create and organize new structured training programs for your learners_
 
-4. Ange de obligatoriska uppgifterna och välj **[!UICONTROL Save]**. Mer information finns i den här [artikeln](/help/migrated/administrators/feature-summary/learning-paths.md).
-5. Välj **[!UICONTROL Add Go1 Courses]**.
+4. Type the required details and select **[!UICONTROL Save]**. See this [article](/help/migrated/administrators/feature-summary/learning-paths.md) for more information. 
+5. Select **[!UICONTROL Add Go1 Courses]**.
 
-   ![Alt-text](assets/select-go1-courses.png)
-   _Lägg till Go1-kurser i din spellista för kompetensutveckling hos säljingenjörer så att du kan utöka utbildningsalternativen med utvalt innehåll från tredje part_
+   ![alt text](assets/select-go1-courses.png)
+   _Add Go1 courses to your Sales Engineers Skill Development playlist to expand learning options with curated third-party content_
 
-6. Sök efter och välj **[!UICONTROL Library]** i **[!UICONTROL Create playlist]** och välj något av följande:
-a. **[!UICONTROL with AI]**: Skapa en spellista med hjälp av AI.
-b. **[!UICONTROL by myself]**: Skapa en spellista genom att manuellt lägga till kurser i den.
+6. In the **[!UICONTROL Library]**, search for and select **[!UICONTROL Create playlist]** and choose from one of the following:
+    a. **[!UICONTROL with AI]**: Create a playlist with the help of AI.
+    b. **[!UICONTROL by myself]**: Create a playlist by manually adding courses to it. 
 
-**Skapa en spellista med AI**
+**Create a playlist with AI**
 
-Administratörer kan skriva spelningslistans beskrivning i AI-dialogen. AI kommer att välja ut de relaterade kurserna och skapa en spellista baserat på kraven. AI genererar spellistor genom att tolka utbildningsmålet eller uppmaningen som tillhandahålls av användaren. När du skapar en spellista kan administratörer välja att strukturera innehåll &quot;med AI&quot; vilket gör att systemet kan använda stora språkmodeller för att förstå de angivna utbildningsmålen och innehållspreferenser som längd och typ. AI söker sedan i innehållsbiblioteket efter relevanta utbildningsobjekt som matchar dessa kriterier.
+Administrators can type the playlist description in the AI prompt. The AI will curate the related courses and create a playlist based on the requirements. AI generates playlists by interpreting the learning goal or prompt provided by the user. When creating a playlist, admins can select to curate content 'with AI' which allows the system to use large language models to understand the specified learning objectives and content preferences like duration and type. The AI then searches the content library for relevant learning objects that match these criteria.
 
-Skapa en spellista med AI:
+To create a playlist with AI:
 
-1. Välj **[!UICONTROL Create playlist]** och sedan **[!UICONTROL with AI]**.
-
+1. Select **[!UICONTROL Create playlist]** and then select **[!UICONTROL with AI]**.
+   
    ![](assets/select-by-AI-playlist.png)
-   _Skapa kurerade spellistor med AI, vilket möjliggör automatiserade kursrekommendationer som är anpassade efter elevens behov_
+   _Create curated playlists with AI, which enables automated course recommendations tailored to learner needs_
 
-2. Skriv en kort beskrivning av spellistan i textfältet **[!UICONTROL Enter your learning goal]**.
-3. Välj **[!UICONTROL Next]**.
-
+2. Type a short description about your playlist in the **[!UICONTROL Enter your learning goal]** text field.
+3. Select **[!UICONTROL Next]**. 
+   
    ![](assets/type-a-prompt.png)
-   _Skriv in ditt utbildningsmål för att skapa en anpassad spellista, så att Adobe Learning Manager kan rekommendera målinriktade kurser som är anpassade till dina elevers behov_
+   _Type your learning goal to create a custom playlist, helping Adobe Learning Manager recommend targeted courses tailored to your learners' needs_
 
-4. Välj kunskaperna i listan.
-
+4. Choose the skills from the list.
+   
    ![](assets/select-skills.png)
-   _Välj kompetenser från listan för att välja ut kurser för säljteknikern_
-5. Välj kurslängd och typ för din spellista.
-6. Välj **[!UICONTROL Generate playlist]**. Spellistan skapas med tio kurser och administratören kan använda den för att skapa en utbildningsväg.
-
+   _Choose the skills from the list to curate the courses for the Sales Engineer_
+5. Select the course duration and type for your playlist.
+6. Select **[!UICONTROL Generate playlist]**. The playlist is created with 10 courses, and administrators can use it to create a Learning Path.
+   
    ![](assets/created-playlist.png)
-   _Se över din utvalda spellista med kompetenshöjande säljtekniker i Adobe Learning Manager_
-7. Välj **[!UICONTROL Add to Library]**.
-8. Välj **Ja** i bekräftelsemeddelandet.
-9. Välj spelningslistan från **[!UICONTROL Select playlist to import prompt]**.
+   _Review your curated Sales Engineer Skills Enhancement Playlist in Adobe Learning Manager_
+7. Select **[!UICONTROL Add to Library]**.
+8. Select **Yes** in the confirmation prompt.
+9. Select the playlist from the **[!UICONTROL Select playlist to import prompt]**. 
 
    ![](assets/add-playlist-to-lp.png)
-   _Markera och importera spellistan Sales Engineer Skills Enhancement från biblioteket Go1 i Adobe Learning Manager_
+   _Select and import the Sales Engineer Skills Enhancement Playlist from the Go1 Library in Adobe Learning Manager_
 
-10. Välj **[!UICONTROL Add Playlists to Learning Path]** och sedan **[!UICONTROL Publish]**.
+10. Select **[!UICONTROL Add Playlists to Learning Path]** and then **[!UICONTROL Publish]**. 
 
-Kurserna i spellistan läggs till i utbildningsvägen. Administratörer kan sedan registrera elever som omedelbart kan börja ta kurserna.
+The courses in the playlist will be added to the Learning Path. Administrators can then enroll learners, who can immediately begin taking the courses.
 
-**Skapa en spellista manuellt**
+**Create a playlist manually**
 
-Välj manuellt de kurser som bäst motsvarar elevernas krav och välj ut ytterligare relevanta kurser.
+Manually select courses that best match learners' requirements and curate additional relevant courses.
 
-Så här skapar du en spellista manuellt:
+To create a playlist manually:
 
-1. Välj **[!UICONTROL Create playlist]** och sedan **[!UICONTROL by myself]**.
-
-   ![](assets/select-manual-playlist.png)
-   _Skapa en spellista manuellt som ger administratörer full kontroll och möjlighet att välja kurser baserat på specifika elevbehov_
-
-2. Ange titel och beskrivning för spellistan.
-
-   ![](assets/type-title-and-description.png)
-   _Lägg till en titel och en beskrivning i din spellista i Adobe Learning Manager för att tydligt definiera dess syfte och hjälpa elever att utvecklas mot riktade färdigheter_
-
-3. Välj **[!UICONTROL Create]**.
-4. Välj **[!UICONTROL Add item]** för att lägga till de relaterade kurserna.
-
-   ![](assets/add-items.png)
-   _Lägg till objekt i din spellista för kompetensutveckling för säljtekniker i Adobe Learning Manager för att välja ut målinriktade kurser_
-
-5. Sök efter och välj de kurser som krävs.
-
-Spellistan har skapats med relaterade kurser och administratörer kan använda den för att skapa en utbildningsväg.
-
-## Spara förlopp för spelarläge för språk
-
-**Översikt**
-
-Fluidic-spelaren sparar nu dina framsteg separat för varje språk i en modul. Det innebär att du kan växla mellan olika språk och fortsätta exakt där du slutade i varje språk, i stället för att förlora det du gjorde och börja om.
-
-**Viktiga fördelar**
-
-* Hoppa mellan språk och återuppta från din exakta position i varje språk.
-* Perfekt för elever som behöver ha tillgång till innehåll på flera språk under sin utbildningsresa.
-* Slutför modulen på valfritt språk samtidigt som du behåller förloppet på alla språk du har öppnat.
-
-**Användningsfall**
-
-* Globala organisationer med anställda som talar flera språk och som kan behöva hänvisa till innehåll på sitt modersmål och sin engelska.
-* Efterlevnadsutbildning där elever kan börja på ett språk men måste slutföra på ett annat för certifieringsändamål.
-* Tekniska utbildningsprogram där elever kan förstå begrepp bättre på sitt modersmål men behöver engelsk terminologi för sitt arbete.
-
-**Viktiga anteckningar**
-
-* Fluidic-spelarens språkinställning bibehålls inom en session. Om en elev byter språk och går över till en annan modul används det nya språket för efterföljande moduler, så länge spelaren är öppen.
-* Graderingen (slutförandestatus) spåras fortfarande på modulnivå, inte per språkområde. Det första språkområdet där kriteriet för slutförande uppfylls uppdaterar betyget för modulen. Om en elev slutför modulen på ett språk och sedan byter till ett annat, kommer eventuella ytterligare betygsuppdateringar att skrivas över från föregående betyg, men framstegen för varje språk bevaras fortfarande.
-
-## Stöd för import av anpassade roller vid stegvis import av användare
-
-Adobe Learning Manager stöder nu anpassade rollimporter i det befintliga arbetsflödet för användarimport i flera steg (vanlig fullständig användarimport + stegvis aktiverat flöde). Tack vare den här förbättringen kan filerna role.csv och user_role.csv laddas upp och bearbetas stegvis utan att kräva fullständig överföring av data varje gång.
-
-Tidigare kunde role.csv- och user_role.csv-filer bara överföras i fullständigt läge, vilket innebär att administratörerna måste inkludera alla rolldefinitioner och rolltilldelningar som lagts till tidigare i varje överföring. Med detta nya inkrementella stöd behöver bara nya eller ändrade rolldata laddas upp, vilket minskar omkostnaderna och förbättrar effektiviteten.
-
-**Nyheter**
-
-1. Stegvis stöd för anpassade roller och rolltilldelningar:
-
-   * role.csv och user_role.csv kan nu bearbetas stegvis i det stegvisa arbetsflödet med flera filer.
-   * Du behöver inte överföra alla befintliga roll- och användarrollsdata vid varje import.
-
-2. Förbättrad implementering av arbetsflöden i flera steg:
-
-   * Skapa separata mappar i FTP för varje uppladdad användarimportfil.
-   * Varje mapp innehåller:
-
-      * Användarens importfil - (File1.csv)
-      * Motsvarande roll- och rolltilldelningsfiler - (File1_role.csv, File1_user_role.csv)
-
-   user1.csv motsvarar till exempel user1_role.csv (anpassade roller) och user1_user_roles.csv (mappning av användarroll).
-
-   **Exempel på FTP-struktur före bearbetning:**
-
-   ```
-   import/user/internal/  
-        File1.csv  
-        File2.csv  
-       File3.csv  
+1. Select **[!UICONTROL Create playlist]** and then select **[!UICONTROL by myself]**.
    
-   UserRole/  
-       File1_role.csv  
-       File1_user_role.csv  
-       File2_role.csv  
-       File2_user_role.csv  
-       File3_role.csv  
-       File3_user_role.csv  
-   ```
+   ![](assets/select-manual-playlist.png)
+   _Manually create a playlist giving administrators full control to curate courses based on specific learner needs_
 
-3. Adobe Learning Manager stöder också upp till 20 inkrementella användar-CSV-filer och deras motsvarande anpassade roller CSV-filer, vilket gör det lämpligt för storskaliga åtgärder.
+2. Type the title and description of your playlist.
+ 
+   ![](assets/type-title-and-description.png)
+   _Add a title and description to your playlist in Adobe Learning Manager to clearly define its purpose and help guide learners toward targeted skill development_
 
-**Användningsfall**
+3. Select **[!UICONTROL Create]**. 
+4. Select **[!UICONTROL Add item]** to add the related courses. 
+   
+   ![](assets/add-items.png)
+   _Add items to your Sales Engineers Skill Development playlist in Adobe Learning Manager to curate targeted courses_
 
-* Globala företag hanterar regionala team genom att ladda upp flera inkrementella användarfiler för varje region (EU, Amerika, Asien), så att administratörer kan uppdatera användare och tilldela nya roller för varje region i ett enda arbetsflöde.
-* Stora företag automatiserar registrering och behörigheter genom att regelbundet hämta inkrementella användaruppdateringar från HR-system. Detta stöder sömlösa uppdateringar av användarprofiler och detaljerad rolltilldelning utan manuell åtgärd.
+5. Search and select the required courses. 
 
-### Nya kolumner har lagts till i CSV-filer
+The playlist has been created with related courses, and administrators can use it to create a learning path. 
 
-Tre nya kolumner har lagts till för att förbättra de data som samlas in i CSV-export/import med användare, roller och användarroller:
+## Save player state progress for languages
 
-* **Användarregistreringsstatus (user.csv)**: Anger användarens aktuella registreringsstatus.
-* **Rolltillstånd (role.csv)**: Anger aktuell status för roller i systemet.
-* **Användarrollens tillstånd (user_role.csv)**: Anger statusen för användarrollsassociationen.
+**Overview**
+
+The Fluidic Player now saves your progress separately for each language within a module. This means you can switch between languages and pick up exactly where you left off in each one, instead of losing your progress and starting over.
+
+**Key benefits**
+
+* Jump between languages and resume from your exact position in each one.
+* Perfect for learners who need to access content in multiple languages during their learning journey.
+* Complete the module in any language while maintaining progress in all languages you've accessed.
+
+**Use cases**
+
+* Global organizations with employees who speak multiple languages and may need to reference content in their native language and English.
+* Compliance training where learners might start in one language but need to complete in another for certification purposes.
+* Technical training programs where learners might understand concepts better in their native language but need English terminology for their work.
+
+**Important notes**
+
+* The Fluidic Player's language preference is retained within a session. If a learner changes the language and moves to another module, the new language is used for subsequent modules, as long as the player remains open.
+* The grade (completion status) is still tracked at the module level, not per locale. The first locale in which the completion criteria are met will update the grade for the module. If a learner completes the module in one language and then switches to another, any further grade updates will be overwritten from the previous grade, but progress for each locale is still preserved.
+
+## Custom roles import support in incremental user import
+
+Adobe Learning Manager now supports custom role imports in the existing multi-incremental user import workflow (regular full user import + incremental enabled flow). This enhancement allows role.csv and user_role.csv files to be uploaded and processed incrementally, without requiring full data uploads each time.
+
+Previously, role.csv and user_role.csv files could only be uploaded in full mode, meaning administrators had to include all previously added role definitions and assignments in every upload. With this new incremental support, only new or modified role data needs to be uploaded, reducing overheads and improving efficiency.
+
+**What's new**
+
+1. Incremental support for custom roles and role assignments:
+
+    * role.csv  and  user_role.csv can now be processed incrementally in the multi-file incremental workflow.
+    * No need to upload all existing role and user role data with every import.
+
+2. Enhanced multi-incremental workflow implementation:
+
+    * Create separate folders in FTP for each uploaded user import file.
+    * Each folder contains:
+
+        * The user import file- (File1.csv)
+        * Corresponding role and role assignment files- (File1_role.csv, File1_user_role.csv)
+
+    For example, user1.csv corresponds to user1_role.csv (custom roles) and user1_user_roles.csv (user-role mapping).
+
+    **Example FTP structure before processing:**
+
+    ```
+    import/user/internal/  
+         File1.csv  
+         File2.csv  
+        File3.csv  
+
+    UserRole/  
+        File1_role.csv  
+        File1_user_role.csv  
+        File2_role.csv  
+        File2_user_role.csv  
+        File3_role.csv  
+        File3_user_role.csv  
+    ```
+ 
+3. Adobe Learning Manager also supports up to 20 incremental user CSVs and their corresponding custom roles CSVs, making it suitable for large-scale operations.
+
+**Use cases**
+
+* Global companies manage regional teams by uploading multiple incremental user files for each region (EU, America, Asia), allowing administrators to update users and assign new roles for each region in a single workflow.
+* Large enterprises automate onboarding and permissions by regularly ingesting incremental user updates from HR systems. This supports seamless updates to user profiles and granular role assignments without manual intervention.
+
+### New columns added to CSV files
+
+Three new columns have been introduced to enhance the data captured in user, role, and user-role CSV exports/imports:
+
+* **User Registration State (user.csv)**: Indicates the current registration status of the user.
+* **Role State (role.csv)**: Indicates the current status of roles within the system.
+* **User Role State (user_role.csv)**: Indicates the status of the user-role association. 
 
 >[!NOTE]
 >
->Ovanstående CSV-ändringar gäller endast konton som använder inkrementella användare.
+>The above CSV changes apply only to the accounts that use incremental users.
 
-Ladda ned [CSV-exempelfilerna](assets/sample-csv-Incremnetal.zip) här.
+Download the [sample CSVs](assets/sample-csv-Incremnetal.zip) here. 
 
-## Återställ rekommendationer i Salesforce-programmet
+## Reset recommendations in Salesforce app
 
-**Översikt**
+**Overview**
 
-Tidigare kunde elever som använde Adobe Learning Manager Salesforce-appen bara välja roller och rekommendationspreferenser en gång. Om deras roll ändrades var de tvungna att öppna det inbyggda Adobe Learning Manager-programmet för att uppdatera sin profil och få relevanta kursrekommendationer. Detta gav utbildningsupplevelsen och bidrog till lägre engagemang i Salesforce-miljön.
+Previously, learners using the Adobe Learning Manager Salesforce app could only select roles and recommendation preferences once. If their role changed, they were required to access the native Adobe Learning Manager app to update their profile and receive relevant course recommendations. This made the learning experience and contributed to lower engagement within the Salesforce environment.
 
-**Nyheter**
+**What's new**
 
-Adobe Learning Manager har nu en **[!UICONTROL Reset Interests]**-knapp i Salesforce-appen. Elever kan nu återställa sina roller och inlärningsinställningar utan att behöva lämna Salesforce eller logga in i det inbyggda Adobe Learning Manager-programmet. Den här förbättringen effektiviserar tillgången till personligt utbildningsinnehåll och ser till att rekommendationerna förblir relevanta allteftersom användarnas roller utvecklas.
+Adobe Learning Manager now features a  **[!UICONTROL Reset Interests]** button within the Salesforce app. Learners can now reset their roles and learning preferences without needing to leave Salesforce or sign in into the native Adobe Learning Manager app. This enhancement streamlines access to personalized learning content, ensuring recommendations remain relevant as users' roles evolve.
 
-**Användningsfall**
+**Use cases**
 
-* Elever som ändrar jobbroller, team eller ansvarsområden kan snabbt återställa sina inställningar för att få uppdaterade och relevanta kursrekommendationer i alla Salesforce-program.
-* Genom att ta bort behovet av att byta till det inbyggda Adobe Learning Manager-programmet blir utbildningsresan smidigare och uppmuntrar till kontinuerligt engagemang och konsumtion av rekommenderat innehåll via Salesforce.
-* Administratörer drar nytta av att utbildningarna slutförs oftare och att användarroller och rekommenderat innehåll anpassas bättre utan extra stöd eller vägledning när de byter plattform.
+* Learners who change job roles, teams, or responsibilities can quickly reset their preferences to receive updated and relevant course recommendations all within the Salesforce app.
+* By removing the need to switch to the native Adobe Learning Manager app, the learning journey is smoother, encouraging ongoing engagement and consumption of recommended content through Salesforce.
+* Administrators benefit from higher rates of learning completion and better alignment between user roles and recommended content, without extra support or guidance on switching platforms.
 
-### Återställ intresse för Salesforce-programmet
+### Reset interest in the Salesforce app
 
-Så här återställer du intressen och rekommendationer från Salesforce-programmet:
+To reset the interests and recommendations from the Salesforce app:
 
-1. Logga in på Adobe Learning Manager-programmet för Salesforce som en elev.
-2. Välj alternativet **[!UICONTROL Reset Interests]** längst ned.
+1. Log in to Adobe Learning Manager app for Salesforce as a learner.
+2. Select **[!UICONTROL Reset Interests]** option at the bottom.
 
-Elevens rekommendation eller intresse återställs från Adobe Learning Manager Salesforce-appen.
+The learner's recommendation or interest will be reset from the Adobe Learning Manager Salesforce app. 
 
-## Skapa utbildningsportaler med Experience Builder
+## Create learning portals with Experience Builder
 
 >[!IMPORTANT]
 >
->Vi har nöjet att meddela att Experience Builder, det innovativa verktyget för att skapa anpassningsbara utbildningsportaler, kommer att vara tillgängligt efter oktober 2025-versionen av Adobe Learning Manager.
+>We are excited to announce that Experience Builder, the innovative tool for creating customizable learning portals, will be available following the October 2025 release of Adobe Learning Manager.
 >
->Håll utkik efter fler uppdateringar när vi närmar oss lanseringsdatumet. Vi ser fram emot att se hur du använder Experience Builder för att göra om dina utbildningsportaler.
+>Stay tuned for more updates as we approach the release date. We look forward to seeing how you use Experience Builder to transform your learning portals.
 >
->Kontakta din kundframgångschef om du har frågor eller vill ha mer information.
+>For any questions or additional information, contact your Customer Success Manager.
 
-**Introduktion**
+**Introduction**
 
-Experience Builder är ett no-code-/low-code-verktyg i Adobe Learning Manager som hjälper dig att skapa anpassade utbildningsportaler. Det gör att du kan designa varumärkta, användarvänliga utbildningsportaler utan att behöva tekniska färdigheter eller omfattande kodningskunskaper.
-Med Experience Builder kan du skapa nya sidor, menyer och widgetar som ger din målgrupp anpassade utbildningsupplevelser snabbt och enkelt. Med Experience Builder kan du snabbt skapa nya sidor, menyer och widgetar som ger din målgrupp personliga utbildningsupplevelser.
+Experience Builder is a no-code/low-code tool in Adobe Learning Manager that helps you create customized learning portals. It allows you to design branded, user-friendly learning portals without needing technical skills or extensive coding knowledge.
+With Experience Builder, you can create new pages, menus, and widgets to deliver personalized learning experiences for your audience quickly and easily. With Experience Builder, you can quickly create new pages, menus, and widgets to deliver personalized learning experiences for your audience.
 
-**Problembeskrivning**
+**Problem statement**
 
-Innan Experience Builder ställdes organisationer inför flera utmaningar:
+Before Experience Builder, organizations faced several challenges:
 
-1. **Begränsad anpassning**: Portaler har fasta designer med få alternativ som återspeglar ditt varumärke. Administratörer kunde bara göra grundläggande ändringar, som att ändra sidhuvuden, sidfötter eller färger, vilket begränsade möjligheten att skapa unika upplevelser.
-2. **Kostnad**: Det tog ofta 6 till 9 månader att slutföra arbetet med att skapa anpassade portaler och det tog lång tid för utvecklare att slutföra dem. Denna metod ökade den totala ägandekostnaden och försenade driftsättningen.
-3. **Allmänna upplevelser**: Alla såg samma innehåll, även om det inte var relevant för deras roll eller behov. Denna brist på personalisering minskade elevernas engagemang och tillfredsställelse.
-4. **Tekniska hinder**: Icke-tekniska administratörer har haft problem med att skapa eller uppdatera portaler eftersom de behövde kodningskunskap eller extern support.
+1. **Limited customization**: Portals had fixed designs with few options to reflect your brand. Administrators could only make basic changes, such as modifying headers, footers, or colors, which limited the ability to create unique experiences.
+2. **Cost**: Building custom portals required expensive developers and long timelines, often taking 6 to 9 months to complete. This approach increased the total cost of ownership and delayed deployment.
+3. **Generic experiences**: Everyone saw the same content, even if it wasn't relevant to their role or needs. This lack of personalization reduced learner engagement and satisfaction.
+4. **Technical barriers**: Non-technical administrators struggled to create or update portals because they needed coding knowledge or external support.
 
-Experience Builder löser dessa problem genom att tillhandahålla en enkel lösning utan koder eller med låg kod för att skapa personliga portaler med varumärke.
+Experience Builder solves these problems by providing a simple, no-code/low-code solution for creating personalized, branded portals.
 
-Det gör att administratörer kan utforma portaler som uppfyller deras organisations behov utan att förlita sig på teknisk expertis eller externa utvecklare.
+It allows administrators to design portals that meet their organization's needs without relying on technical expertise or external developers.
 
-**Viktiga fördelar**
+**Key benefits**
 
-**Enkel anpassning**
+**Easy customization**
 
-* Designa portaler som matchar ditt varumärke med anpassade sidhuvuden, sidfötter, logotyper och layouter.
-* Använd widgetar för att lägga till dynamiskt innehåll som kurser, kategorier och HTML-element.
-* Skapa sidor och menyer som är anpassade för en viss målgrupp och ser till att eleverna ser relevant innehåll.
+* Design portals that match your brand with custom headers, footers, logos, and layouts.
+* Use widgets to add dynamic content like courses, categories, and HTML elements.
+* Create pages and menus tailored to specific audiences, ensuring learners see relevant content.
 
-**Ingen kod/låg kod-lösning**
+**No-code/low-code solution**
 
-* Administratörer kan skapa och hantera portaler utan kodningskunskap, vilket gör dem tillgängliga för icke-tekniska användare.
-* Dra-och-släpp-funktioner gör det enklare att skapa sidor och menyer.
+* Administrators can create and manage portals without coding knowledge, making it accessible to non-technical users.
+* Drag-and-drop functionality simplifies the process of building pages and menus.
 
-**Personligt lärande**
+**Personalized learning**
 
-* Konfigurera sidor och menyer för att visa innehåll som är relevant för specifika användargrupper, t.ex. säljteam, designer eller tekniker.
-* Använd dolda sidor för att tillhandahålla exklusivt innehåll som endast är tillgängligt via direktlänkar.
+* Configure pages and menus to display content relevant to specific user groups, such as sales teams, designers, or engineers.
+* Use hidden pages to provide exclusive content accessible only through direct links.
 
-**Global räckvidd**
+**Global reach**
 
-* Skapa flerspråkiga sidor som stöd för elever runt om i världen.
-* Lokalisera innehåll för att tillgodose olika målgrupper och förbättra tillgängligheten.
+* Create multilingual pages to support learners around the world.
+* Localize content to cater to diverse audiences and improve accessibility.
 
-**Mobilanpassad**
+**Mobile-friendly**
 
-* Elever kan komma åt innehåll på vilken enhet som helst, inklusive telefoner och surfplattor.
-* Förhandsgranska sidor i både datorvyn och mobilvyn för att säkerställa en smidig upplevelse.
+* Learners can access content on any device, including phones and tablets.
+* Preview pages in both desktop and mobile views to ensure a smooth experience.
 
-**Verkliga användningsfall**
+**Real-world use cases**
 
-**Varumärkta portaler**
+**Branded portals**
 
-* Skapa en utbildningsportal som ser ut som ditt företags webbplats, med logotyper, färger och layouter.
-* Ett vårdföretag kan till exempel designa en portal som matchar företagets varumärke samtidigt som utbildningsmaterialet integreras.
+* Create a learning portal that looks like your company's website, complete with logos, colors, and layouts.
+* For example, a healthcare company can design a portal that matches its corporate branding while integrating learning content.
 
-**Rollbaserad utbildning**
+**Role-based learning**
 
-* Bygg sidor för specifika roller, som ingenjörer, säljteam eller designer.
-* Säljteamen kan till exempel se produktutbildning, medan teknikerna får tillgång till tekniska kurser.
+* Build pages for specific roles, like engineers, sales teams, or designers.
+* For instance, sales teams might see product training, while engineers access technical courses.
 
-**Produktutbildning**
+**Product training**
 
-* Skapa separata sidor för olika produkter, t.ex. Photoshop, Illustrator eller andra erbjudanden.
-* Varje sida kan innehålla widgetar som visar kurser, certifieringar och resurser som rör produkten.
+* Set up separate pages for different products, such as Photoshop, Illustrator, or other offerings.
+* Each page can include widgets displaying courses, certifications, and resources related to the product.
 
-**Utbildning av anställda och kunder**
+**Employee and customer training**
 
-* Använd portalen för att rekrytera nya medarbetare, utbilda externa partner eller utbilda kunder om dina produkter.
-* Ett programvaruföretag kan till exempel skapa en portal för självstudiekurser och felsökningsguider för kunder.
+* Use the portal for onboarding new employees, training external partners, or educating customers about your products.
+* For example, a software company can create a portal for customer tutorials and troubleshooting guides.
 
-**Lokaliserat innehåll**
+**Localized content**
 
-* Erbjud innehåll på flera språk för globala elever.
-* Ett multinationellt företag kan till exempel skapa sidor på engelska, spanska och franska för att tillgodose behoven hos företagets olika arbetsstyrka.
+* Offer content in multiple languages for global learners.
+* For instance, a multinational company can create pages in English, Spanish, and French to cater to its diverse workforce.
 
-### Byggstenar i Experience Builder
+### Building blocks of Experience Builder
 
-Experience Builders huvudkomponenter och byggstenar är strukturerade för att ge flexibilitet, användarvänlighet och riktade utbildningsupplevelser. Nedan visas en detaljerad uppdelning:
+The main components and building blocks of Experience Builder are structured to provide flexibility, ease of use, and targeted learning experiences. Below is a detailed breakdown:
 
-#### Sidor
+#### Pages
 
-Sidor är grunden för att bygga en utbildningsportal i Experience Builder. Administratörer kan skapa nya sidor som är skräddarsydda för specifika målgrupper eller syften. Dessutom kan administratörer:
+Pages are the foundation of building a learning portal in Experience Builder. Administrators can create new pages tailored to specific audiences or purposes. Additionally, administrators can:
 
-* Skapa anpassade sidor med flexibla layouter (rader och kolumner).
-* Lägg till widgetar för att fylla sidor med innehåll.
-* Hantera sidans livscykel med status Utkast och Publicerat.
-* Dölj sidor från menyer samtidigt som du håller dem tillgängliga via direktlänkar.
+* Create custom pages with flexible layouts (rows and columns).
+* Add widgets to populate pages with content.
+* Manage page lifecycle with draft and published states.
+* Hide pages from menus while keeping them accessible via direct links.
 
-En sida för säljutbildning kan till exempel innehålla widgetar med relevanta kurser, vitsord och en kalender med kommande sessioner.
+For example, a page for sales training might include widgets displaying relevant courses, testimonials, and a calendar of upcoming sessions.
 
-#### Menyer
+#### Menus
 
-Menyer ordnar sidor i navigerbara strukturer för elever. Administratörer kan:
+Menus organize pages into navigable structures for learners. Administrators can:
 
-* Skapa anpassade menyer för att gruppera sidor för specifika användargrupper.
-* Lägg till hierarki och ordning för att prioritera synlighet för specifika målgrupper.
-* Inkludera undermenyer för att gruppera relaterade sidor.
+* Create custom menus to group pages for specific user groups.
+* Add hierarchy and ordering to prioritize visibility for specific audiences.
+* Include submenus for grouping related pages.
 
-En meny med namnet Resurser kan till exempel innehålla sidor för e-böcker, videoklipp och vanliga frågor.
+For example, a menu called Resources might include pages for eBooks, videos, and FAQs.
 
-#### Widgetar
+#### Widgets
 
-Med widgetar kan administratörer lägga till dynamiskt innehåll och funktioner på sidor. Följande widgetar är tillgängliga:
+Widgets allow administrators to add dynamic content and functionality to pages. The following widgets are available:
 
-* Kalender
-* Kategorier
-* Status för efterlevnad
-* Kurser och banor
-* Innehållsruta
-* Spelifiering
+* Calendar
+* Categories
+* Compliance Status
+* Courses & Paths
+* Content Box
+* Gamification
 * HTML
 * Iframe
-* Mitt lärande
-* Socialt lärande
+* My Learning
+* Social Learning
 
-En sida kan till exempel innehålla widgeten Kurser och banor för att visa rekommenderade kurser och en kalenderwidget för kommande utbildningssessioner.
+For example, a page might include a Courses & Paths widget to display recommended courses and a Calendar widget for upcoming training sessions.
 
-#### Varumärkesverktyg
+#### Branding tools
 
-I Experience Builder finns verktyg för att anpassa portalens utseende. Administratörer kan:
+Experience Builder provides tools to customize the appearance of the portal. Administrators can:
 
-* Anpassa sidhuvuden, sidfötter och layouter så att de matchar företagets varumärke.
-* Använd CSS och JavaScript för avancerad formatering.
+* Customize headers, footers, and layouts to match corporate branding.
+* Use CSS and JavaScript for advanced styling.
 
-Ett sjukvårdsföretag kan till exempel använda varumärkesverktyg för att skapa en portal som matchar utseendet och känslan på företagets webbplats.
+For example, a healthcare company might use branding tools to create a portal that matches their corporate website's look and feel.
 
-### Kom igång med Experience Builder
+### Get started with Experience Builder
 
-Ett programvaruföretag vill bygga en utbildningsportal för sina kunder. På portalen finns sidor för olika produkter som Photoshop och Illustrator, ordnade i menyer. Det kommer att innehålla widgetar som visar kurser, certifieringar och kommande utbildningssessioner.
+A software company wants to build a training portal for its customers. The portal will have pages for different products like Photoshop and Illustrator, organized in menus. It will include widgets that show courses, certifications, and upcoming training sessions.
 
-#### Skapa en sida
+#### Create a page
 
-Så här skapar du en sida i Adobe Learning Manager:
+To create a page in Adobe Learning Manager:
 
-1. Logga in på Adobe Learning Manager som administratör.
-2. Välj **[!UICONTROL Branding]** i den vänstra navigeringsrutan.
-3. Välj **[!UICONTROL Custom Pages]**.
-4. Välj **[!UICONTROL Create page]**.
+1. Log in to Adobe Learning Manager as an administrator. 
+2. Select **[!UICONTROL Branding]** in the left navigation pane. 
+3. Select **[!UICONTROL Custom Pages]**.
+4. Select **[!UICONTROL Create page]**.
 
    ![](assets/select-create-page.png)
-   _Skärmen Anpassade sidor visar alternativet Skapa sida för att utforma nya anpassade utbildningsupplevelser_
+   _Custom Pages screen showing the Create page option to design new custom learning experiences_
 
-5. Ange **[!UICONTROL Page name]** (till exempel Photoshop-utbildning).
-6. Ange **[!UICONTROL Page description]** (till exempel Lär dig använda Photoshop effektivt).
-7. Välj en av följande sidtyper:
+5. Type the **[!UICONTROL Page name]** (for example, Photoshop training).
+6. Type the **[!UICONTROL Page description]** (for example, Learn how to use Photoshop effectively). 
+7. Select the page type from the following:
 
-   * **[!UICONTROL Build using ALM widgets]**: Administratören kan skapa en sida med hjälp av befintliga Adobe Learning Manager-widgetar.
-   * **[!UICONTROL External page]**: Administratören kan lägga till en URL för den externa sidan. Om du väljer sidtypen extern lägger du till URL-adressen i textfältet Sida-URL.
+    * **[!UICONTROL Build using ALM widgets]**: Administrator can create a page using the existing Adobe Learning Manager widgets.
+    * **[!UICONTROL External page]**: The administrator can add a URL for the external page. If you select the page type as external, add the URL in the Page URL text field.
 
-8. Välj **[!UICONTROL Change icon]** för att ändra sidans ikon.
-
+8. Select the **[!UICONTROL Change icon]** to change the page's icon.
+ 
    ![](assets/create-page-screen.png)
-   Skärmen _Skapa kurssida visar alternativ för att skriva sidnamn, beskrivning, typ och ikon för en anpassad elevsida_
-9. Välj **[!UICONTROL Add New Language]** för att lägga till sidans standardspråk.
-10. Välj **[!UICONTROL Save]**.
+   _Courses page creation screen displaying options to type the page name, description, type, and icon for a customized learner page_
+9. Select **[!UICONTROL Add New Language]** to add the default language for the page. 
+10. Select **[!UICONTROL Save]**. 
 
-Sidan har skapats och sparats som ett utkast i avsnittet Anpassade sidor. Administratörer kan redigera och designa utkast av sidor med hjälp av widgetarna.
+The page has been created and saved as a draft in the Custom Pages section. Administrators can edit and design the drafted pages using the widgets. 
 
-#### Designsida i Experience Builder
+#### Design page in Experience Builder
 
-Med Adobe Learning Manager kan administratörer utforma sidor som är anpassade efter deras behov med hjälp av anpassningsbara widgetar.
-Så här utformar du sidan i Experience Builder:
+Adobe Learning Manager enables administrators to design pages tailored to their requirements using customizable widgets.
+To design the page in Experience Builder:
 
-1. Logga in på Adobe Learning Manager som administratör.
-2. Välj **[!UICONTROL Branding]** i den vänstra navigeringsrutan.
-3. Välj **[!UICONTROL Custom Pages]** och välj sedan önskad sida.
-4. Välj **[!UICONTROL Page Design]**.
-5. Välj **[!UICONTROL Edit]**.
-
+1. Log in to Adobe Learning Manager as an administrator. 
+2. Select **[!UICONTROL Branding]** in the left navigation pane. 
+3. Select **[!UICONTROL Custom Pages]** and then select the required page. 
+4. Select **[!UICONTROL Page Design]**.  
+5. Select **[!UICONTROL Edit]**. 
+ 
    ![](assets/edit-the-page.png)
-   _I redigeringsläget kan administratörer utforma kurssidor genom att ordna avsnitt och lägga till widgetar på deras önskade språk_
+   _Edit mode allows administrators to design course pages by organizing sections and adding widgets in their preferred language_
 
-6. Välj alternativ i listrutan **[!UICONTROL Select section layout]**.
-7. Välj ett avsnitt från följande baserat på antalet och storleken på de widgetar som du vill lägga till i avsnittet:
+6. Choose the options from **[!UICONTROL Select section layout]** dropdown.
+7. Select a section from the following based on the number and size of the widgets you want to add in the section:
 
-   * **[!UICONTROL 1 column-Full section width]**: Innehållet sträcker sig över hela avsnittsbredden för maximalt utrymme.
-   * **[!UICONTROL 2 columns-1/2 section width each]**: Två lika breda kolumner delar upp avsnittet jämnt.
-   * **[!UICONTROL 2 columns-2/3 and 1/3 section width respectively]**: Huvudinnehållet tar två tredjedelar och sidoinnehållet en tredjedel.
-   * **[!UICONTROL 2 columns-1/3 and 2/3 section width respectively]**: Sidinnehållet tar en tredjedel och huvudinnehållet två tredjedelar.
-   * **[!UICONTROL 3 columns-1/3 section width each]**: Tre lika breda kolumner delar upp avsnittet i tredjedelar.
-
+    * **[!UICONTROL 1 column-Full section width]**: Content spans the entire section width for maximum space.
+    * **[!UICONTROL 2 columns-1/2 section width each]**: Two equal-width columns split the section evenly.
+    * **[!UICONTROL 2 columns-2/3 and 1/3 section width respectively]**: Main content takes two-thirds, side content one-third.
+    * **[!UICONTROL 2 columns-1/3 and 2/3 section width respectively]**: Side content takes one-third, main content two-thirds.
+    * **[!UICONTROL 3 columns-1/3 section width each]**: Three equal-width columns divide the section into thirds.
+ 
    ![](assets/select-section-layout.png)
-   _I dialogrutan för val av avsnittslayout kan administratörer välja widgetuppsättningar med en eller flera kolumner för anpassad siddesign_
+   _Section layout selection dialog allows administrators to choose single or multi-column widget arrangements for custom page design_
 
-8. Välj **[!UICONTROL Proceed]**.
-9. Välj **[!UICONTROL Add widget]**.
-
+8. Select **[!UICONTROL Proceed]**.
+9. Select **[!UICONTROL Add widget]**.
+ 
    ![](assets/select-add-widgets.png)
-   _På siddesignskärmen kan administratörer välja och lägga till widgetar för att anpassa kurssidorna_
+   _The page design screen allows administrators to select and add widgets to customize their course pages_
 
-10. Välj önskad widget och välj sedan **[!UICONTROL Proceed]**.
-11. Konfigurera widgeten och välj **[!UICONTROL Add widget]**. Lägg till och konfigurera widgetarna i det här [avsnittet](#add-and-configure-widgets).
-12. Välj **[!UICONTROL Save]** och välj bland följande alternativ:
+10. Choose the required widget and then select **[!UICONTROL Proceed]**. 
+11. Configure the widget and select **[!UICONTROL Add widget]**. See this [section](#add-and-configure-widgets) for adding and configuring the widgets.
+12. Select **[!UICONTROL Save]** and choose from the following options:
 
-   * **[!UICONTROL Save as Draft]**: Sidan sparas som ett utkast. Administratören kan redigera sidan senare.
-   * **[!UICONTROL Save & Publish]**: Sidan kommer att publiceras och administratören kan lägga till den här sidan i menyn.
+    * **[!UICONTROL Save as Draft]**: The page will be saved as a draft. The administrator can edit the page later.
+    * **[!UICONTROL Save & Publish]**: The page will be published, and the administrator can add this page to the Menu. 
+   
+   ![](assets/select-save-options.png)
+   _Save options allow administrators to choose between saving a page as a draft for future editing or publishing it for learner access_
 
-![](assets/select-save-options.png)
-_Med alternativen för att spara kan administratörer välja mellan att spara en sida som ett utkast för framtida redigering eller att publicera den för elevåtkomst_
+The page can be saved as a draft or published. Administrators can edit drafts before publishing and can also update and republish published pages.
 
-Sidan kan sparas som ett utkast eller publiceras. Administratörer kan redigera utkast före publicering och även uppdatera och publicera om publicerade sidor.
+#### Add and configure widgets
 
-#### Lägg till och konfigurera widgetar
+**Calendar widget**
 
-**Kalenderwidget**
+This widget visually presents courses and schedules in calendar format. It supports filters by catalog, enrollment status, location, product, and role. The responsive design adapts to various grid sizes.
 
-I den här widgeten visas kurser och scheman i kalenderformat. Det stöder filter efter katalog, registreringsstatus, plats, produkt och roll. Den responsiva designen anpassar sig till olika stödrasterstorlekar.
+To configure the Calendar widget:
 
-Så här konfigurerar du kalenderwidgeten:
-
-1. Följ steg 1-9 på [designsidan i Experience Builder](#design-page-in-experience-builder).
-2. Välj **[!UICONTROL Calendar]** och sedan **[!UICONTROL Proceed]**.
-
+1. Follow steps 1-9 from the [Design page in Experience Builder](#design-page-in-experience-builder). 
+2. Select **[!UICONTROL Calendar]** and then select **[!UICONTROL Proceed]**.
+ 
    ![](assets/select-calendar.png)
-   _Widgetmarkeringsskärmen som visar kalenderwidgetalternativet om du vill visa utbildningssessioner i en kalender_
+   _Widget selection screen highlighting the Calendar widget option to display training sessions in a calendar_
 
-3. Skriv **[!UICONTROL Widget title]** och **[!UICONTROL Widget description]**.
-
+3. Type a **[!UICONTROL Widget title]** and **[!UICONTROL Widget description]**.
+ 
    ![](assets/configure-calendar-widget.png)
-   _Anpassningsskärmen för kalenderwidgeten, där administratörer kan ange widgetens titel, beskrivning och välja kataloger_
+   _Calendar widget customization screen, where administrators can set the widget title, description, and select catalogs_
 
-4. Välj en katalog genom att söka efter dess kurser och utbildningsvägar i widgeten **[!UICONTROL Calendar]**.
-5. Välj **[!UICONTROL Add Widget]**.
+4. Select a catalog by searching to display its courses and learning paths within the **[!UICONTROL Calendar]** widget.
+5. Select **[!UICONTROL Add Widget]**.
 
-Kalenderwidgeten läggs till på sidan. Administratören kan lägga till andra widgetar och publicera sidan.
+The Calendar widget will be added to the page. Administrator can add other widgets and publish the page.
 
-**Kategoriwidget**
+**Categories widget**
 
-Widgeten visar kategorier (t.ex. roller och kataloger) som paneler, vilket leder till filtrerade vyer eller specifika sidor.
+This widget displays categories (e.g., roles, catalogs) as tiles, leading to filtered views or specific pages.
 
-Så här konfigurerar du widgeten Kategorier:
+To configure the Categories widget:
 
-1. Följ steg 1-9 på [designsidan i Experience Builder](#design-page-in-experience-builder).
-2. Välj **[!UICONTROL Categories]** och sedan **[!UICONTROL Proceed]**.
-
+1. Follow steps 1-9 from the [Design page in Experience Builder](#design-page-in-experience-builder).  
+2. Select **[!UICONTROL Categories]** and then select **[!UICONTROL Proceed]**. 
+ 
    ![](assets/select-categories-widget.png)
-   _Widgetmarkeringsskärmen som visar kategoriwidgetalternativet om du vill ordna utbildningsinnehåll efter katalog, produkt eller roll för enkel navigering_
+   _Widget selection screen highlighting the Categories widget option to organize learning content by catalog, product, or role for easy navigation_
 
-3. Välj de uppgifter som ska visas på kategorikorten:
+3. Select the details to display on the category cards:
 
-   * **[!UICONTROL Category Image]**
-   * **[!UICONTROL Category Description]**
+    * **[!UICONTROL Category Image]**
+    * **[!UICONTROL Category Description]**
 
-4. Skriv **[!UICONTROL Widget title]** och **[!UICONTROL Widget description]**.
-5. Sök efter och välj en katalog från **[!UICONTROL Category source]**.
-
+4. Type a **[!UICONTROL Widget title]** and **[!UICONTROL Widget description]**.
+5. Search for and choose a catalog from the **[!UICONTROL Category source]**.
+ 
    ![](assets/configure-calendar-widget.png)
-   _Konfigurera alternativ för kategoriwidgeten för att ange widgetens titel och beskrivning och välj kategorikällan_
+   _Configure Categories widget options to set widget title and description, and select the category source_
 
-6. Välj **[!UICONTROL Add Widget]**.
+6. Select **[!UICONTROL Add Widget]**.
 
-Kategoriwidgeten läggs till på sidan. Administratörer kan lägga till andra widgetar och publicera sidan.
+The Categories widget will be added to the page. Administrators can add other widgets and publish the page.
 
-**Efterlevnadswidget**
+**Compliance widget**
 
-Widgeten har stöd för filtrering som liknar en kalender, men fokuserar på efterlevnadsrelaterade utbildningsobjekt. Det gör att elever kan ändra eller ta bort filter för kompatibilitetsetiketter dynamiskt.
+This widget supports filtering similar to a calendar, but is focused on compliance-related learning objects. It allows learners to modify or remove compliance label filters dynamically.
 
-Så här konfigurerar du efterlevnadswidgeten:
+To configure the Compliance widget:
 
-1. Följ steg 1-9 på [designsidan i Experience Builder](#design-page-in-experience-builder).
-2. Välj **[!UICONTROL Compliance Status]** och sedan **[!UICONTROL Proceed]**.
-
+1. Follow steps 1-9 from the [Design page in Experience Builder](#design-page-in-experience-builder).  
+2. Select **[!UICONTROL Compliance Status]** and then select **[!UICONTROL Proceed]**.
+ 
    ![](assets/select-compliance-status.png)
-   _Widgetvalsskärmen som visar efterlevnadsstatuswidgeten som används för att visa elevregistreringar med deadlines och statusindikatorer_
+   _Widget selection screen highlighting the Compliance Status widget used to display learner enrollments with deadlines and status indicators_
 
-3. Skriv **[!UICONTROL Widget title]** och **[!UICONTROL Widget description]**.
-
+3. Type a **[!UICONTROL Widget title]** and **[!UICONTROL Widget description]**.
+ 
    ![](assets/configure-compliance.png)
-   _Widgetskärmen Efterlevnadsstatus, där administratörer kan ställa in widgetens titel och beskrivning för att visa registreringens deadlines och status för elever_
+   _Compliance Status widget screen, where administrators can set the widget title and description to display enrollment deadlines and status for learners_
 
-4. Välj **[!UICONTROL Add widget]**.
+4. Select **[!UICONTROL Add widget]**.
 
-Widgeten Efterlevnadsstatus kommer att läggas till på sidan. Administratörer kan lägga till andra widgetar och publicera sidan.
+The Compliance status widget will be added to the page. Administrators can add other widgets and publish the page.
 
-**Widget för kurser och banor**
+**Courses and paths widget**
 
-Den här widgeten visar ett band eller banor som kan anpassas för att visa olika detaljer.
+This widget displays a strip of course or path tiles, customizable to show different details. 
 
-Så här konfigurerar du widgeten Kurser och banor:
+To configure the Courses and Paths widget:
 
-1. Följ steg 1-9 på [designsidan i Experience Builder](#design-page-in-experience-builder).
-2. Välj **[!UICONTROL Courses & Paths]**.
-
+1. Follow steps 1-9 from the [Design page in Experience Builder](#design-page-in-experience-builder). 
+2. Select **[!UICONTROL Courses & Paths]**.
+ 
    ![](assets/select-course-path.png)
-   _Widgetmarkeringsskärmen som framhäver widgeten Kurser och banor för att visa kurser, utbildningsvägar, certifieringar och arbetsstöd som interaktiva kort för elever_
+   _Widget selection screen highlighting the Courses & Paths widget for displaying courses, learning paths, certifications, and job aids as interactive cards for learners_
 
-3. Välj **[!UICONTROL Proceed]**.
-4. Skriv **[!UICONTROL Widget title]** och **[!UICONTROL Widget description]**.
-5. Välj kataloger eller välj manuellt upp till 25 kurser att visa.
-
+3. Select **[!UICONTROL Proceed]**. 
+4. Type **[!UICONTROL Widget title]** and **[!UICONTROL Widget description]**. 
+5. Select the catalogs or manually choose up to 25 courses to display.
+    
    ![](assets/configure-course-paths.png)
-   _Widgeten Kurser och banor där administratörer anger widgetens titel, beskrivning och väljer kurser eller utbildningsvägar att visa som interaktiva kort_
+   _Courses & Paths widget where administrators set the widget title, description, and select courses or learning paths to display as interactive cards_
 
-6. Välj **[!UICONTROL Add widget]**.
+6. Select **[!UICONTROL Add widget]**. 
 
-Widgeten Kurser och banor läggs till på sidan. Administratörer kan lägga till andra widgetar och publicera sidan.
+The Courses & Paths widget will be added to the page. Administrators can add other widgets and publish the page.
 
-**Content Box-widgeten**
+**Content Box widget**
 
-Med den här widgeten kan du skapa avsnitt med titlar, beskrivningar, bilder och beskrivningar.
+This widget allows creating sections with titles, descriptions, images, and CTAs. 
 
-Så här konfigurerar du widgeten Innehållsruta:
+To configure Content Box widget:
 
-1. Följ steg 1-9 på [designsidan i Experience Builder](#design-page-in-experience-builder).
-2. Välj **[!UICONTROL Content Box]** och sedan **[!UICONTROL Proceed]**.
-
+1. Follow steps 1-9 from the [Design page in Experience Builder](#design-page-in-experience-builder).
+2. Select **[!UICONTROL Content Box]** and then select **[!UICONTROL Proceed]**. 
+ 
    ![](assets/select-content-box.png)
-   _Widgetmarkeringsskärmen som markerar rutan Innehåll för att visa anpassade bilder, text och åtgärdsknappar för att förbättra elevengagemanget_
+   _Widget selection screen highlighting the Content Box widget for displaying custom images, text, and action buttons to enhance learner engagement_
 
-3. Skriv **[!UICONTROL Title]** och **[!UICONTROL Description]**.
-4. Skriv texten i **[!UICONTROL Action button label]** och ange en länk.
-5. Välj något av alternativen för Bakgrundsfyllning:
+3. Type the **[!UICONTROL Title]** and **[!UICONTROL Description]**.
+4. Type the text into the **[!UICONTROL Action button label]** and provide a link. 
+5. Select any of the options for Background fill:
 
-   * **[!UICONTROL Color]**: Välj färg i färgväljaren eller skriv färgkoden i textfältet.
-   * **[!UICONTROL Image]**: Bläddra och överför en bild.
+    * **[!UICONTROL Color]**: Select the color from the color picker or type the color code in the text field.
+    * **[!UICONTROL Image]**: Browse and upload a picture.
 
-6. Justera rutans höjd med alternativet **[!UICONTROL Content box height]**.
-7. Markera alternativen för textformatering.
-
+6. Adjust the box height using the **[!UICONTROL Content box height]** option. 
+7. Select the text formatting options.
+ 
    ![](assets/configure-content-box.png)
-   _Anpassningsskärmen för innehållslådan, där administratörer kan ange en titel, beskrivning, åtgärdsknappsetikett och länk_
+   _Content Box widget customization screen, where administrators can enter a title, description, action button label, and link_
 
-8. Välj **[!UICONTROL Add widgets]**.
+8. Select **[!UICONTROL Add widgets]**. 
 
-Widgeten Innehållsruta läggs till på sidan. Administratörer kan lägga till andra widgetar och publicera sidan.
+The Content Box widget will be added to the page. Administrators can add other widgets and publish the page.
 
-**Spelifieringswidget**
+**Gamification widget**
 
-Denna widget visar spelifiering och poäng som elever tjänat in i ett leaderboardformat. Det har uppdaterats för Experience Builder med ett namn, en beskrivning och lokaliseringsanpassning.
+This widget shows gamification and points earned by learners in a leaderboard format. It has been updated for Experience Builder with a name, description, and localization customization.
 
-Så här konfigurerar du widgeten Spelifiering:
+To configure the Gamification widget:
 
-1. Följ steg 1-9 på [designsidan i Experience Builder](#design-page-in-experience-builder).
-2. Välj **[!UICONTROL Gamification]** och sedan **[!UICONTROL Proceed]**.
-
+1. Follow steps 1-9 from the [Design page in Experience Builder](#design-page-in-experience-builder).
+2. Select **[!UICONTROL Gamification]** and then select **[!UICONTROL Proceed]**. 
+ 
    ![](assets/select-gamification.png)
-   _Widgetmarkeringsskärmen som visar spelifieringswidgeten som används för att visa utbildningsaktiviteter och prestationer på resultatlistan_
+   _Widget selection screen highlighting the Gamification widget used to display learning activities and achievements on the leaderboard_
 
-3. Skriv **[!UICONTROL Widget title]** och **[!UICONTROL Widget description]**.
-4. Välj **[!UICONTROL Add widgets]**.
+3. Type the **[!UICONTROL Widget title]** and **[!UICONTROL Widget description]**. 
+4. Select **[!UICONTROL Add widgets]**. 
 
-Widgeten Spelifiering läggs till på sidan. Administratörer kan lägga till andra widgetar och publicera sidan.
+The Gamification widget will be added to the page. Administrators can add other widgets and publish the page.
 
-**HTML-widgeten**
+**HTML widget**
 
-Med den här widgeten kan anpassad HTML-, CSS- och JS-kod bäddas in, vilket ger flexibilitet för statiskt innehåll som vittnesmål.
+This widget allows custom HTML, CSS, and JS code to be embedded, providing flexibility for static content like testimonials. 
 
-Så här konfigurerar du HTML-widgeten:
+To configure the HTML widget:
 
-1. Följ steg 1-9 på [designsidan i Experience Builder](#design-page-in-experience-builder).
-2. Välj **[!UICONTROL HTML]** och sedan **[!UICONTROL Proceed]**.
-
+1. Follow steps 1-9 from the [Design page in Experience Builder](#design-page-in-experience-builder).
+2. Select **[!UICONTROL HTML]** and then select **[!UICONTROL Proceed]**. 
+ 
    ![](assets/select-html.png)
-   _Widgetmarkeringsskärmen som visar HTML-widgeten för att anpassa sidor med HTML, CSS och JavaScript-kod_
+   _Widget selection screen highlighting the HTML widget for customizing pages using HTML, CSS, and JavaScript code_
 
-3. Skriv koden **[!UICONTROL HTML]**, **[!UICONTROL CSS]** och **[!UICONTROL JavaScript]** i respektive fält.
-4. Välj **[!UICONTROL Add widget]**.
+3. Type your **[!UICONTROL HTML]**, **[!UICONTROL CSS]**, and **[!UICONTROL JavaScript]** code in the respective fields. 
+4. Select **[!UICONTROL Add widget]**. 
 
-HTML-widgeten läggs till på sidan. Administratörer kan lägga till andra widgetar och publicera sidan.
+The HTML widget will be added to the page. Administrators can add other widgets and publish the page.
 
-**IFrame-widget**
+**IFrame widget**
 
-Med den här widgeten kan du bädda in externa webbprogram eller webbsidor direkt på sidan. Innehåller alternativ för att namnge, beskriva och lokalisera iFrame-innehållet.
+This widget allows embedding external web applications or webpages directly within the page. Includes options to name, describe, and localize the iframe content.
 
-Så här konfigurerar du iframe-widgeten:
+To configure the Iframe widget:
 
-1. Följ steg 1-9 på [designsidan i Experience Builder](#design-page-in-experience-builder).
-2. Välj **[!UICONTROL Iframe]** och sedan **[!UICONTROL Proceed]**.
-
+1. Follow steps 1-9 from the [Design page in Experience Builder](#design-page-in-experience-builder).
+2. Select **[!UICONTROL Iframe]** and then select **[!UICONTROL Proceed]**. 
+ 
    ![](assets/select-iframe.png)
-   _Widgetmarkeringsskärmen som visar Iframe-widgeten för att bädda in externa program eller webbsidor i ett markerat avsnitt_
+   _Widget selection screen highlighting the Iframe widget for embedding external applications or web pages within a selected section_
 
-3. Skriv URL-adressen i alternativet **[!UICONTROL Page linked to Action button]**.
-4. Justera Iframe-höjden med alternativet **[!UICONTROL Iframe height]**.
-
+3. Type the URL in the **[!UICONTROL Page linked to Action button]** option.
+4. Adjust the Iframe height using the **[!UICONTROL Iframe height]** option.     
+ 
    ![](assets/configure-iframe.png)
-   _Anpassningsskärmen för Iframe-widgeten, där administratörer kan ange en sidadress och ange iframe-höjd för att bädda in externt innehåll_
+   _Iframe widget customization screen, where administrators can enter a page URL and specify iframe height to embed external content_
 
-5. Välj **[!UICONTROL Add widget]**.
+5. Select **[!UICONTROL Add widget]**. 
 
-Iframe-widgeten läggs till på sidan. Administratörer kan lägga till andra widgetar och publicera sidan.
+The Iframe widget will be added to the page. Administrators can add other widgets and publish the page.
 
-**Min utbildningswidget**
+**My Learning widget**
 
-Widgeten liknar widgeten Kurser och sökvägar, men filtrerar innehåll specifikt för varje elev och visar deras personliga uppsättning registrerade utbildningsobjekt.
+This widget is similar to the Courses and Paths widget, but filters content specifically for each learner, showing their personalized set of enrolled learning objects.
 
-Så här konfigurerar du widgeten Min utbildning:
+To configure the My Learning widget:
 
-1. Följ steg 1-9 på [designsidan i Experience Builder](#design-page-in-experience-builder).
-2. Välj **[!UICONTROL My Learning]** och sedan **[!UICONTROL Proceed]**.
-
+1. Follow steps 1-9 from the [Design page in Experience Builder](#design-page-in-experience-builder). 
+2. Select **[!UICONTROL My Learning]** and then select **[!UICONTROL Proceed]**. 
+ 
    ![](assets/select-my-learning.png)
-   _Widget-urvalsskärm som markerar widgeten Min utbildning som används för att visa elevens personliga lista över registrerade kurser_
+   _Widget selection screen, highlighting the My Learning widget used to display the learner's personalized list of enrolled courses_
 
-3. Skriv **[!UICONTROL Widget title]** och **[!UICONTROL Widget description]**.
-4. Välj **[!UICONTROL Add widget]**.
+3. Type the **[!UICONTROL Widget title]** and **[!UICONTROL Widget description]**.
+4. Select **[!UICONTROL Add widget]**.
 
-Min utbildningswidget läggs till på sidan. Administratörer kan lägga till andra widgetar och publicera sidan.
+My Learning widget will be added to the page. Administrators can add other widgets and publish the page.
 
-**Widget för social utbildning**
+**Social Learning widget**
 
-Widgeten möjliggör sociala samarbetsfunktioner som inlägg, kommentarer och användartaggning på plattformen. Det har förbättrats för Experience Builder med anpassningsalternativ, inklusive namn och lokalisering.
+This widget enables social collaboration functionalities such as posts, comments, and user tagging within the platform. It is enhanced for Experience Builder with customization options, including name and localization.
 
-Så här konfigurerar du widgeten Social utbildning:
+To configure the Social Learning widget:
 
-1. Följ steg 1-9 på [designsidan i Experience Builder](#design-page-in-experience-builder).
-2. Välj **[!UICONTROL Social Learning]** och sedan **[!UICONTROL Proceed]**.
+1. Follow steps 1-9 from the [Design page in Experience Builder](#design-page-in-experience-builder). 
+2. Select **[!UICONTROL Social Learning]** and then select **[!UICONTROL Proceed]**. 
+ 
+   ![](assets/select-social-learning.png) 
+   _Widget selection screen highlighting the Social Learning widget for displaying a posts to encourage collaboration and engagement_
 
-   ![](assets/select-social-learning.png)
-   _Widgetmarkeringsskärmen som visar widgeten Social utbildning för att visa inlägg som uppmuntrar till samarbete och engagemang_
+3. Type the **[!UICONTROL Widget title]** and **[!UICONTROL Widget description]**.
+4. Select **[!UICONTROL Add widget]**. 
 
-3. Skriv **[!UICONTROL Widget title]** och **[!UICONTROL Widget description]**.
-4. Välj **[!UICONTROL Add widget]**.
+The Social Learning widget will be added to the page. Administrators can add other widgets and publish the page.
 
-Widgeten Social utbildning kommer att läggas till på sidan. Administratörer kan lägga till andra widgetar och publicera sidan.
+#### Organize pages into a menu
 
-#### Ordna sidor i en meny
+Menus help organize and link pages in Experience Builder, making it easy for learners to navigate your learning portal. Administrators can create menus, add pages to them, and customize which menus are shown to specific audiences. 
 
-Menyer hjälper till att organisera och länka sidor i Experience Builder, vilket gör det enkelt för elever att navigera i utbildningsportalen. Administratörer kan skapa menyer, lägga till sidor och anpassa vilka menyer som visas för en viss målgrupp.
+**Create a menu**
 
-**Skapa en meny**
+To create a menu:
 
-Så här skapar du en meny:
-
-1. Logga in på Adobe Learning Manager som administratör.
-2. Välj **[!UICONTROL Branding]** i den vänstra navigeringsrutan.
-3. Välj **[!UICONTROL Menu]** och sedan **[!UICONTROL Create]**.
-
+1. Log in to Adobe Learning Manager as an administrator.
+2. Select **[!UICONTROL Branding]** in the left navigation pane.
+3. Select **[!UICONTROL Menu]** and then select **[!UICONTROL Create]**.
+ 
    ![](assets/select-create-menu.png)
-   _Menyskärmen visar alternativ för att visa, organisera och skapa anpassade menyer för olika elevgrupper_
+   _Menu screen showing options to view, organize, and create customized menus for different learner groups_
 
-4. Skriv **[!UICONTROL Menu name]** (till exempel Produktutbildning) och välj användargruppen i alternativet **[!UICONTROL Visible to]**.
-
+4. Type the **[!UICONTROL Menu name]** (for example, Product Training) and select the user group in the **[!UICONTROL Visible to]** option.
+   
    ![](assets/type-menu-name.png)
-   _Skärmen Skapa meny där administratörer kan ange ett menynamn för intern användning och ange användargrupper för att styra menysynligheten_
+   _Create menu screen, where administrators can enter a menu name for internal use and specify user groups to control menu visibility_
 
-5. Välj den anpassade sidan från alternativet **[!UICONTROL Select pages]**.
-
+5. Choose the custom page from the **[!UICONTROL Select pages]** option. 
+ 
    ![](assets/select-custom-pages.png)
-   _Skärmen Sidval visar alternativet att inkludera den anpassade sidan för användargrupper och anpassa menyordningen_
+   _Page selection screen, highlighting the option to include the custom page for user groups and customize the menu order_
 
-6. Välj **[!UICONTROL Preview menu]** för att visa menyn innan du sparar den.
-7. Välj **[!UICONTROL Save]**.
+6. Select **[!UICONTROL Preview menu]** to view the menu before saving it. 
+7. Select **[!UICONTROL Save]**.
 
-Den skapade menyn visas för de valda eleverna. De kan komma åt de anpassade sidorna via sitt elevgränssnitt.
-
+The created menu will be visible for the selected learners. They can access the custom pages through their Learner UI. 
+ 
 ![](assets/view-the-custom-pages.png)
-_Elevens användargränssnitt visar den anpassade sidan med utvalda utbildningsmoduler och enkel navigering från menyn på sidopanelen_
+_Learner UI displaying the custom page with featured training modules and easy navigation from the sidebar menu_
 
-#### Livscykel för sidan Hantera
+#### Manage pages lifecycle
 
-Administratörer kan använda avsnittet Anpassade sidor för att redigera, ta bort och duplicera sidorna.
+Administrators can use the Custom Pages section to edit, delete, and duplicate the pages.
 
-**Redigera sidan**
+**Edit the page**
 
-Så här redigerar du anpassade sidor:
+To edit the custom pages:
 
-1. Logga in på Adobe Learning Manager som administratör.
-2. Välj **[!UICONTROL Branding]** i den vänstra navigeringsrutan.
-3. Välj **[!UICONTROL Custom Pages]**.
-4. Välj den obligatoriska sidan och välj sedan **[!UICONTROL Edit]**.
-5. Välj **[!UICONTROL Save]**.
+1. Log in to Adobe Learning Manager as an administrator.
+2. Select **[!UICONTROL Branding]** in the left navigation pane.
+3. Select **[!UICONTROL Custom Pages]**.
+4. Select the required page and then select **[!UICONTROL Edit]**. 
+5. Select **[!UICONTROL Save]**.
 
-Sidan uppdateras med ändringarna.
+The page will be updated with the changes. 
 
 ![](assets/edit-the-page-custom.png)
-_Redigera den anpassade sidan så att administratörer kan uppdatera sidnamn, beskrivning och typ_
+_Edit the custom page, allowing administrators to update the page name, description, and type_
 
-**Ta bort sidan**
+**Delete the page**
 
-Så här tar du bort sidan:
+To delete the page:
 
-1. Logga in på Adobe Learning Manager som administratör.
-2. Välj **[!UICONTROL Branding]** i den vänstra navigeringsrutan.
-3. Välj **[!UICONTROL Custom Pages]**.
-4. Välj önskad sida.
-5. Välj **[!UICONTROL Action]** och sedan **[!UICONTROL Delete]**.
-
+1. Log in to Adobe Learning Manager as an administrator.
+2. Select **[!UICONTROL Branding]** in the left navigation pane.
+3. Select **[!UICONTROL Custom Pages]**.
+4. Select the required page.
+5. Select **[!UICONTROL Action]** and then select **[!UICONTROL Delete]**. 
+ 
 ![](assets/duplicate-the-page.png)
-_Skärmen Anpassade sidor visar alternativ för att ta bort anpassade sidor som har skapats för produktutbildning_
+_Custom Pages screen displaying options to delete custom pages created for product training_
 
-**Duplicera sidan**
+**Duplicate the page**
 
-Så duplicerar du sidan:
+To duplicate the page:
 
-1. Logga in på Adobe Learning Manager som administratör.
-2. Välj **[!UICONTROL Branding]** i den vänstra navigeringsrutan.
-3. Välj **[!UICONTROL Custom Pages]**.
-4. Välj önskad sida.
-5. Välj **[!UICONTROL Action]** och sedan **[!UICONTROL Duplicate]**.
-
+1. Log in to Adobe Learning Manager as an administrator.
+2. Select **[!UICONTROL Branding]** in the left navigation pane.
+3. Select **[!UICONTROL Custom Pages]**.
+4. Select the required page.
+5. Select **[!UICONTROL Action]** and then select **[!UICONTROL Duplicate]**. 
+ 
 ![](assets/duplicate-the-page.png)
-_Skärmen Anpassade sidor visar alternativ för att duplicera de anpassade sidorna som har skapats för produktutbildning_
+_Custom Pages screen displaying options to duplicate the custom pages created for product training_
 
-#### Förhandsvisa sidorna
+#### Preview the pages
 
-Så här förhandsgranskar du sidorna:
+To preview the pages:
 
-1. Logga in på Adobe Learning Manager som administratör.
-2. Välj **[!UICONTROL Branding]** i den vänstra navigeringsrutan.
-3. Välj **[!UICONTROL Custom Pages]**.
-4. Välj den obligatoriska sidan och välj sedan **[!UICONTROL Page Design]**
-5. Välj **[!UICONTROL Edit]** och välj sedan **[!UICONTROL Preview page]** för att visa portalens förhandsgranskning.
+1. Log in to Adobe Learning Manager as an administrator.
+2. Select **[!UICONTROL Branding]** in the left navigation pane.
+3. Select **[!UICONTROL Custom Pages]**.
+4. Select the required page and then select **[!UICONTROL Page Design]**
+5. Select **[!UICONTROL Edit]** and then select **[!UICONTROL Preview page]** to view the portal's preview. 
 
 ![](assets/preview-page.png)
-_Sidförhandsvisning med en anpassad sidlayout med en banderoll, utvalda kurser_
+_Page preview showing a custom page layout with a banner, featured courses_
 
-#### Lokalisera sidorna
+#### Localize the pages
 
-När en administratör lägger till flera språk på de anpassade sidorna lägger du till widgetinformationen för varje språk på motsvarande språkflik bredvid fliken för standardspråk.
+When an admin adds multiple languages to the custom pages, add the widget details for each language in the corresponding language tab next to the default language tab.
 
-![](assets/localize-pages.png)
-_Administratörer kan lägga till widgetinformation för ytterligare språk, till exempel franska, vid sidan av standardspråket_
+![](assets/localize-pages.png) 
+_Administrators can add widget details for additional languages, such as French, alongside the default language_
 
-#### Konfigurera dolda sidor
+#### Set up hidden pages
 
-Med alternativet Dölj sidor kan administratörer hålla elevens användargränssnitt rent genom att visa färre sidor. Administratörer kan dölja sidor från menyn så att eleverna inte ser dem i elevgränssnittet, men eleverna kan fortfarande nå dessa sidor på andra sätt. Katalogsidan kan t.ex. döljas på menyn, men nås via andra navigeringssökvägar.
-
+The hide pages option allows administrators to keep the Learner UI clean by showing fewer pages. Administrators can hide pages from the menu so learners don't see them in learner UI, but learners can still reach those pages in other ways. For example, the Catalog page can be hidden from the menu but accessed through other navigation paths.
+ 
 ![](assets/select-hidden-pages.png)
-_Skärmen Menykonfiguration visar dolda sidor som katalog, social utbildning, färdigheter och märken_
+_Menu configuration screen showing hidden pages such as Catalog, Social Learning, Skills, and Badges_ -->
 
 
 
@@ -1726,4 +2700,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/sv/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
