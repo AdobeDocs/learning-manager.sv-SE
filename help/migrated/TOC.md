@@ -2,9 +2,9 @@
 user-guide-title: Användarhandbok om Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation för Adobe Learning Manager
-source-git-commit: dd62feee5ad32588fd815c8b86f01935720860ce
+source-git-commit: c7552519ec78a8cec7b8142e5ba3b357694afd18
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '777'
 ht-degree: 8%
 
 ---
@@ -163,6 +163,7 @@ ht-degree: 8%
    * [Användarmeddelanden](learners/feature-summary/user-notifications.md)
    * [Meddelanden](learners/feature-summary/announcements.md)
    * [Väntelista och närvarohantering](learners/feature-summary/waitlist-attendance-management.md)
+   * [Elevens AI-assistent](learners/feature-summary/ai-buddy.md)
    * [AI-baserad sökning i Adobe Learning Manager](/help/migrated/learners/feature-summary/advanced-search.md)
    * [Learning Manager-app för Salesforce](learners/feature-summary/sfdc-app.md)
    * [Integrering med Adobe Connect](learners/feature-summary/adobeconnect-integration.md)
