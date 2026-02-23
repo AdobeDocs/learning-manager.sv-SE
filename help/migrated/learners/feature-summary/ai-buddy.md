@@ -2,17 +2,22 @@
 description: Elevens AI-assistent (beta) är en GenAI-driven chattföljeslagare i Adobe Learning Manager som hjälper elever att få snabba, korrekta svar från sitt tilldelade utbildningsinnehåll. Genom att använda naturliga språkfrågor kan elever omedelbart få fokuserade svar med tydliga citat, vilket gör det enkelt att hitta rätt information, verifiera källor och lära sig effektivt utan att söka igenom hela kurser.
 jcr-language: en_us
 title: Elev/AI-assistent (beta) i Adobe Learning Manager
-source-git-commit: c7552519ec78a8cec7b8142e5ba3b357694afd18
+exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
+source-git-commit: 0ef69eb5d95c4203a80cd5b4874b99855ebedcc4
 workflow-type: tm+mt
-source-wordcount: '2148'
+source-wordcount: '2146'
 ht-degree: 0%
 
 ---
 
-
 # Introduktion
 
 AI-assistenten (beta) för elever hjälper dem att snabbt hitta svar från det tilldelade utbildningsinnehållet utan att bläddra igenom hela kurser. Du kan ställa frågor på ett enkelt språk och få korrekta, fokuserade svar med källänkar till relevant kursinnehåll.
+
+>[!IMPORTANT]
+>
+>Elevens AI-assistent är för närvarande i betaversion och släpps genom en stegvis utrullning. Åtkomsten kan variera beroende på användare.
+
 
 ## Vad är AI-assistenten?
 
@@ -173,15 +178,13 @@ Elevens AI-assistent besvarar frågor med hjälp av endast utbildningsinnehålle
 
 * Assistenten använder innehåll från interna kataloger som administratören aktiverar för elevens AI-assistent.
 
-* Om du inte har tillgång till en kurs, arbetsstöd eller ett utbildningsobjekt använder assistenten det inte för att generera svar.
-
 * Assistenten respekterar din roll, ditt gruppmedlemskap och dina katalogbehörigheter när information hämtas.
 
 ### Vilket innehåll använder inte AI-assistenten?
 
 Elevens AI-assistent begränsar svaren till det utbildningsomfång som du har tilldelats.
 
-* Den använder inte innehåll från delade, förvärvade, externa eller andra icke-interna kataloger.
+* Den använder inte innehåll från standardkataloger, delade kataloger, förvärvade kataloger, externa kataloger eller andra icke-interna kataloger.
 
 * Det hämtar inte information från externa innehållsbibliotek som LinkedIn Learning eller Go1.
 
