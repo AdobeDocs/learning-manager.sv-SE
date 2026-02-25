@@ -3,25 +3,25 @@ description: Elevens AI-assistent (beta) är en GenAI-driven chattföljeslagare 
 jcr-language: en_us
 title: Elev/AI-assistent (beta) i Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 0ef69eb5d95c4203a80cd5b4874b99855ebedcc4
+source-git-commit: e009abe66258700cf28d3cf212a2d086689e179c
 workflow-type: tm+mt
-source-wordcount: '2146'
+source-wordcount: '2150'
 ht-degree: 0%
 
 ---
 
-# Introduktion
+# Elevassistent
 
-AI-assistenten (beta) för elever hjälper dem att snabbt hitta svar från det tilldelade utbildningsinnehållet utan att bläddra igenom hela kurser. Du kan ställa frågor på ett enkelt språk och få korrekta, fokuserade svar med källänkar till relevant kursinnehåll.
+Elevens AI-assistent (beta) för elever hjälper dem att snabbt hitta svar från det tilldelade utbildningsinnehållet utan att bläddra igenom hela kurser. Du kan ställa frågor på ett enkelt språk och få korrekta, fokuserade svar med källänkar till relevant kursinnehåll.
 
 >[!IMPORTANT]
 >
 >Elevens AI-assistent är för närvarande i betaversion och släpps genom en stegvis utrullning. Åtkomsten kan variera beroende på användare.
 
 
-## Vad är AI-assistenten?
+## Vad är Elevens AI-assistent?
 
-AI Assistant är en GenAI-driven chattföljeslagare i Adobe Learning Manager som levererar snabba, exakta svar på elevfrågor med hjälp av det betrodda utbildningsinnehåll som finns tillgängligt för dem i Adobe Learning Manager. Det innehåller också citat, så att eleverna alltid vet källan till informationen.
+Elevens AI-assistent är en GenAI-driven chattföljeslagare i Adobe Learning Manager som levererar snabba, korrekta svar på elevfrågor med hjälp av det betrodda utbildningsinnehåll som är tillgängligt för dem i Adobe Learning Manager. Det innehåller också citat, så att eleverna alltid vet källan till informationen.
 
 ## Varför använda den?
 
