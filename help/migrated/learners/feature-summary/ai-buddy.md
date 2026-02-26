@@ -1,11 +1,11 @@
 ---
-description: AI Assistant (beta) för elever är en GenAI-driven chattföljeslagare i Adobe Learning Manager som hjälper elever att få snabba, korrekta svar från sitt tilldelade utbildningsinnehåll. Genom att använda naturliga språkfrågor kan elever omedelbart få fokuserade svar med tydliga citat, vilket gör det enkelt att hitta rätt information, verifiera källor och lära sig effektivt utan att söka igenom hela kurser.
+description: AI-assistenten (beta) för elever är en GenAI-driven chattföljeslagare i Adobe Learning Manager som hjälper elever att få snabba, korrekta svar från sitt tilldelade utbildningsinnehåll. Genom att använda naturliga språkfrågor kan elever omedelbart få fokuserade svar med tydliga citat, vilket gör det enkelt att hitta rätt information, verifiera källor och lära sig effektivt utan att söka igenom hela kurser.
 jcr-language: en_us
-title: AI-assistent (beta) för elever i Adobe Learning Manager
+title: AI-assistent för elever i Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 3534061465070cc98747c8273e1a005707e5a22b
+source-git-commit: 64765bdd9f364267f7c7f5d23a03cc576b875be3
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '2008'
 ht-degree: 0%
 
 ---
@@ -49,12 +49,12 @@ AI Assistant är en GenAI-driven chattföljeslagare i Adobe Learning Manager som
 
 ## Vilka typer av innehåll stöder AI Assistant
 
-AI-assistenten hämtar information från utbildningsinnehåll som du har tilldelats, inklusive:
+AI-assistenten hämtar information från utbildningsinnehåll som tilldelats dig, inklusive:
 
 * **Dokument:** PDF, Word, PowerPoint, Excel, HTML
 * **Media:** Ljud (mp3, wav, m4a), video (mp4, mov, wmv)
 * **Interaktivt innehåll:** SCORM 1.2, SCORM 2004
-* **Objekttyper för lärande:** Kurser, utbildningsvägar, certifieringar, jobbhjälpmedel
+* **Typer av utbildningsobjekt:** Kurser, utbildningsvägar, certifieringar, arbetsstöd
 
 Adobe transkriberar utbildningsinnehåll på ett säkert sätt med hjälp av betrodda externa bearbetningstjänster som tillhandahålls i Adobe privata VPC-miljöer.
 
@@ -76,12 +76,12 @@ Om en elev inte har tillgång till en kurs eller ett arbetsstöd kommer AI-assis
 
 ### Teknisk elev
 
-Sarah är en försäljningsingenjör som lär sig mer om grafikkort. Hon behöver snabbt förstå de tekniska specifikationerna och fördelarna för att svara på kundfrågor säkert.
+Sarah är en försäljningsingenjör som lär sig mer om grafikkort. Hon behöver snabbt förstå de tekniska specifikationerna och fördelarna för att kunna svara på kundernas frågor med tillförsikt.
 
 AI Assistant hjälper Sarah med:
 
 * Tydlig, teknisk förklaring av komplex GPU-arkitektur
-* Förstå olika grafikkort och deras skillnader
+* Fördjupa förståelsen för olika grafikkort och deras olikheter
 * Förklaring av exempel så att Sarah kan relatera funktioner till verkliga användningsfall
 
 ### Kundsupport
@@ -147,11 +147,11 @@ Snabb anpassning hanteras på kontonivå och kan inte konfigureras direkt i Adob
 
 ## Administratörskonfiguration - aktivera AI-assistenten för elever
 
-![AI-aktiverad lärarassistent](assets/learner-ai-assistant-new.png)
+![AI-aktiverad elevassistent](assets/learner-ai-assistant-new.png)
 
-Administratörer väljer vilka användargrupper och interna kataloger som har åtkomst till funktionen AI Assistant. De bör se till att de tilldelade katalogerna endast innehåller det utbildningsinnehåll som är lämpligt att hitta med hjälp av AI-svar och -citat, och att katalogerna är Default, Internal, not Shared, Acquired eller External.
+Administratörer väljer vilka användargrupper och interna kataloger som får åtkomst till AI Assistant-funktionen. De bör säkerställa att de tilldelade katalogerna endast innehåller det utbildningsinnehåll som är lämpligt att visas genom AI-svar och -citat, och att dessa kataloger är Default, Internal, not Shared, Acquired eller External.
 
-Innan du konfigurerar AI-assistenten måste du bekräfta att du har administratörsbehörighet och identifierat vilka användargrupper och -kataloger som ska ha tillgång till funktionen.
+Innan du konfigurerar AI Assistant måste du bekräfta att du har administratörsuppgifter och har identifierat vilka användargrupper och kataloger som ska ha tillgång till funktionen.
 
 ### Konfigurera åtkomst till AI Assistant
 
@@ -178,15 +178,15 @@ Så här aktiverar du elevens AI-assistent:
 
 >[!IMPORTANT]
 >
->Endast interna kataloger stöds av AI-assistenten. Om en delad, förvärvad, extern eller annan icke-intern katalog väljs kommer dess innehåll inte att visas av AI-assistenten, även om katalogen visas i listan över berättigade kataloger.
+>AI-assistenten stöder bara interna kataloger. Om en delad, förvärvad, extern eller annan icke-intern katalog väljs kommer dess innehåll inte att visas av AI-assistenten, även om katalogen visas i listan över berättigade kataloger.
 
-## Studiehandbok - Starta AI Assistant
+## Elevguide - Starta AI-assistenten
 
 ### Starta AI-assistenten
 
 Så här startar du AI-assistenten:
 
-1. Logga in på Adobe Learning Manager som studerande.
+1. Logga in på Adobe Learning Manager som elev.
 
 2. Välj **Fråga AI-assistenten** på startsidan.
    ![Elevens startsida visar Be AI-assistenten att välja och öppna Elevens AI-assistentpanel](assets/ask-ai-assistant.png)
@@ -284,13 +284,13 @@ Problem: Eleven har tillgång till elevassistenten men får svar av typen &quot;
 
 * Uppmuntra elever att ställa mer specifika frågor
 * Granska och förbättra kursbeskrivningar och metadata
-* Se till att innehållet har tydliga rubriker och struktur
+* Se till att innehållet har tydliga rubriker och strukturer
 * Granska den detaljerade användningsrapporten för att identifiera mönster
-* Överväg att skapa jobbhjälpmedel för vanliga frågor
+* Överväg att skapa arbetsstöd för vanliga frågor
 
-### Scenario 3: Frågor utanför tillämpningsområdet
+### Scenario 3: Frågor som inte omfattas
 
-**Problem**: Eleverna ställer frågor som inte har med utbildningsinnehåll att göra.
+**Problem**: Eleven ställer frågor som inte har med utbildningsinnehåll att göra.
 
 **Exempel**:
 
