@@ -1,11 +1,11 @@
 ---
-user-guide-title: Användarhandbok om Adobe Learning Manager
+user-guide-title: Användarhandbok för Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation för Adobe Learning Manager
-source-git-commit: 3534061465070cc98747c8273e1a005707e5a22b
+source-git-commit: 922e6bed551baca8ef0e9f6b8124fb26fcce97e6
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 8%
+source-wordcount: '784'
+ht-degree: 6%
 
 ---
 
@@ -25,7 +25,8 @@ ht-degree: 8%
    * [Versionsinformation](release-note/release-notes.md)
    * [Systemkrav](system-requirements.md)
    * [Adobe Learning Manager-app för Microsoft Teams](adobe-learning-manager-app-microsoft-teams.md)
-   * [Learning Manager-kompatibilitet till GDPR](kb/prime-gdpr.md)
+   * [Adobe Learning Manager-efterlevnad av GDPR](kb/prime-gdpr.md)
+  <!-- * [Adobe Learning Manager administrative account lifecyle](/help/migrated/alm-administrative-lifecycle.md) -->
    * [Tillgänglighet i Learning Manager](accessibility-learning-manager.md)
    * [Stöd för anpassad domän](custom-domain.md)
    * [Övergång från FTP-hanteraren i Adobe](transition-from-ftp-manager.md)
@@ -163,7 +164,7 @@ ht-degree: 8%
    * [Användarmeddelanden](learners/feature-summary/user-notifications.md)
    * [Meddelanden](learners/feature-summary/announcements.md)
    * [Väntelista och närvarohantering](learners/feature-summary/waitlist-attendance-management.md)
-   * [AI-assistent för elever](learners/feature-summary/ai-buddy.md)
+   * [AI-assistent för elever](learners/feature-summary/learner-ai-assistant.md)
    * [AI-baserad sökning i Adobe Learning Manager](/help/migrated/learners/feature-summary/advanced-search.md)
    * [Learning Manager-app för Salesforce](learners/feature-summary/sfdc-app.md)
    * [Integrering med Adobe Connect](learners/feature-summary/adobeconnect-integration.md)
