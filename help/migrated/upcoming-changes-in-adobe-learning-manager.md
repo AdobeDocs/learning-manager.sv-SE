@@ -2,9 +2,9 @@
 title: Nyheter i Adobe Learning Manager-versionen från april 2026
 description: Läs om de nya funktionerna, förbättringarna och viktiga uppdateringar i Adobe Learning Manager i april 2026-versionen.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: bff4227db5cb1d419d66c59688989de1406b0458
+source-git-commit: 4f97f09df89e2fc38f013ce817f6d0fee38773d0
 workflow-type: tm+mt
-source-wordcount: '7458'
+source-wordcount: '8124'
 ht-degree: 0%
 
 ---
@@ -181,7 +181,7 @@ Genom att knyta möten till individuella instruktörskonton Zooma:
 
 * Varje instruktör kan arbeta inom sina egna gränser för zoomlicenser.
 
-* Organisationer kan använda sin befintliga zoomallokeringsmodell (ett konto per tränare, per affärsenhet osv.) samtidigt som de integrerar helt med Adobe Learning Manager.
+* Organisationer kan använda sin befintliga modell för zoomtilldelning (ett konto per utbildare, per affärsenhet osv.) samtidigt som den är fullt integrerad med Adobe Learning Manager.
 
 * Det undviker flaskhalsen med en enda punkt vid användning av en delad zoomanvändare för superadministratörer för alla sessioner.
 
@@ -564,7 +564,7 @@ Förbättringen introducerar flerspråkigt stöd för checklistefrågor, vilket 
 
 I Adobe Learning Manager idag:
 
-* Alla moduler som riktar sig till elever (SCORM, PDF, HTML osv.) kan finnas på flera innehållsspråk så att eleverna kan välja vilket språk de föredrar.
+* Alla moduler som riktar sig till elever (SCORM, PDF, HTML osv.) kan erbjudas på flera innehållsspråk så att eleverna kan välja vilket språk de vill använda.
 
 * I en checklistmodul utvärderar granskare (instruktörer/chefer) elever baserat på de frågor som definierats i checklistan.
 
@@ -839,7 +839,7 @@ Den här förbättringen förbättrar upplevelsen av att spela upp Adobe Captiva
 
 * För icke-videobilder:
 
-   * Visa sidnavigeringskontroller (nästa/föregående bild osv.) i stället för en icke-fungerande tidsrad.
+   * Visa reglage för bildnavigering (nästa/föregående bild osv.) i stället för en icke-fungerande tidsstapel.
 
       * På så sätt undviker du att visa irrelevanta eller icke-fungerande kontroller på vissa bildtyper.
 
@@ -936,7 +936,7 @@ Inaktiv tid subtraheras, vilket säkerställer att endast verklig engagemangstid
 | **Captivate** | Bildbaserad tidsinställning | Det går inte att identifiera inaktivitet |
 | **xAPI** | Fliken är aktiv | Inaktiv flik |
 | **HTML** | Spelarens öppningstid med en flik aktiv | Inaktiv flik |
-| **LTI Producer/Consumer** | Om LTI-innehåll spelas i ALM:s spelare (dvs. ALM konsumerar LTI-innehåll som finns på ett annat LMS som agerar som producent) gäller denna tidsödande logik.<br><br>Men om innehållet spelas upp utanför LMS (det vill säga om innehållet finns i ALM, är ALM producenten, men uppspelningen sker i en extern spelare) gäller inte den här delen av tidsberäkningslogiken.  <br>**Obs!**: LTI Consumer stöds inte i Adobe Learning Manager. | Inaktiv flik |
+| **LTI Producer/Consumer** | Om LTI-innehåll spelas upp i ALM:s spelare (dvs. ALM förbrukar LTI-innehåll som finns på ett annat LMS som fungerar som producent) gäller denna tidsödande logik.<br><br>Om innehållet spelas upp utanför LMS:en (dvs. innehållet finns i ALM, då är ALM producent, men uppspelningen sker i en extern spelare), så gäller inte denna del av tidsberäkningslogiken gälla.  <br>**Obs!**: LTI Consumer stöds inte i Adobe Learning Manager. | Inaktiv flik |
 
 **Anteckning**:
 
@@ -1012,9 +1012,66 @@ Detta är förväntat där inaktiv tid hade tidigare uppblåsta resultat. Anteck
 
 Ingen, ändringen sker automatiskt.
 
+## Uppdatering av rapporter om utbildningsbevis för administratörer
 
+Vi uppdaterar LT-rapporterna (Learning Transcript) för administratörer för att bättre stödja checklistebaserade utvärderingar och granskarfeedback.
 
+## Vad förändras?
 
+### &#x200B;1. Kolumnnamnändring i Admin Learning-betygsutdrag
+
+Den befintliga kolumnen **Skicka kommentar** i Admin Learning
+Transkriberingen kommer att
+
+1. **Namnet har ändrats till:** `Reviewer's remarks`
+
+### Data som visas i den här kolumnen:
+
+* **För inlämningsmoduler:**
+Kolumnen fortsätter att visa inskickningskommentaren (ingen beteendeförändring).
+
+* **För checklistmoduler:**
+Kolumnen visar nu utvärderingskommentaren (granskarens kommentarer).
+
+Den här ändringen gäller alla Admin LT-källor:
+
+* LT har hämtats från administratörsgränssnittet
+* LT som erhållits via jobb-API
+* LT genererad via kopplingar
+
+Efter denna ändring kommer samma kolumn att innehålla: - Skicka kommentarer för inlämningsmoduler
+
+* Utvärderingskommentarer för checklistemoduler
+
+Under det nya rubriknamnet **Granskarens kommentarer**.
+
+### &#x200B;2. Ny kolumn i anslutningsbaserad export av utbildningstranskriberingar
+
+För anslutningsexporterade utbildningsutskrifter:
+
+* En ny kolumn med namnet **Granskarens kommentarer** läggs till i slutet av rapporten.
+* Den här kolumnen innehåller granskarens kommentarer, anpassade till det beteende som beskrivs ovan:
+   * Synpunkter på inlämningen av moduler
+   * Utvärderingskommentarer för checklistemoduler
+
+## Inverkan på befintliga integreringar och automatiseringar
+
+Läs igenom följande scenarier om du använder rapporter om utbildningstranskribering i anpassade integreringar, automatiseringar eller externa rapporteringsverktyg:
+
+| Scenario | Påverkan | Åtgärd som krävs |
+|----------|--------|----------------|
+| Du identifierar fält i Admin LT efter kolumnnamn (t.ex. &quot;Skicka kommentar&quot;) | Kolumnrubriken ändras till Granskarens kommentarer. | Ja. Uppdatera eventuella mappningar eller logik som refererar till kommentaren för inlämning för att använda granskarens kommentarer. |
+| Du identifierar fält i Admin LT endast efter kolumnposition (indexbaserat) | Placeringen av den här kolumnen förblir densamma i Admin LT. | Vanligtvis ingen åtgärd. Om din logik inte är beroende av rubriktexten behövs ingen ändring för Admin LT. Ändra bara kolumnnamnet om kolumnen &quot;Skicka kommentarer&quot; används nu. |
+| Du använder LT som exporterats av anslutningen och förlitar dig på ett fast kolumnantal eller en specifik position för sista kolumnen | En ny kolumn läggs till i slutet av rapporten. | Ja. Justera parsnings- eller valideringslogiken för att ta hänsyn till en extra kolumn i slutet av filen. |
+| Du använder LT som exporterats av anslutningen och mappar efter kolumnnamn | En ny kolumn Granskarens kommentarer kommer att bli tillgängliga. | Valfritt. Ingen ändring krävs om du inte vill använda den nya kommentarsinformationen för granskare/checklista. |
+
+**Vad du bör göra**
+
+* Granska alla skript, ETL-jobb, instrumentpaneler eller integreringar som förbrukar rapporter från Admin Learning-betygsutdrag.
+* Om du refererar till det gamla kolumnnamnet _Skicka kommentar_, uppdaterar du konfigurationen eller koden för att använda det nya kolumnnamnet Granskarens kommentarer.
+* Om du använder anslutningsbaserade LT-exporter och antar ett fast antal kolumner eller en fast sista kolumn, uppdaterar du logiken så att en ytterligare kolumn hanteras i slutet av exporten.
+
+Om din nuvarande implementering enbart bygger på kolumnpositioner i Admin LT och inte valideras eller är beroende av kolumnrubriktexten behövs ingen ändring för själva Admin LT. Det är bara anslutningsexporter som behöver uppmärksammas när du är beroende av en fast layout.
 
 
 
@@ -2710,4 +2767,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/sv/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
