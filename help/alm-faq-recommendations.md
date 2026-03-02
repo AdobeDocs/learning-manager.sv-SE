@@ -94,7 +94,7 @@ Adobe Learning Manager stöder export av säkerhetsrelevanta konfigurationsdata 
 
 * ALM Jobs API stöder generering på begäran av användarrapporter (inklusive rolltilldelningar) i CSV-format. Dessa kan schemaläggas och förbrukas av externa kompatibilitetsverktyg eller SIEM-verktyg.
 
-Mer information finns i [Användarhandboken för programutvecklare](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual) för Adobe Learning Manager.
+Mer information finns i [Användarhandboken för programutvecklare](https://experienceleague.adobe.com/sv/docs/learning-manager/using/integration/developer-manual) för Adobe Learning Manager.
 
 ## Tillhandahåller Adobe Learning Manager ett API där säkerhetsinställningarna kan visas och justeras programmatiskt?
 
