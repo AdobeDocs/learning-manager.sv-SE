@@ -27,7 +27,7 @@ I tabellen nedan mappas FedRAMP-kontonivåer till de specifika roller som använ
 
 Adobe Learning Manager använder en rollbaserad åtkomstkontrollmodell (RBAC) för att hantera administratörsåtkomst. Administrativa roller tilldelas endast av auktoriserade administratörer.
 
-Mer information finns i [Anpassade roller i Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)
+Mer information finns i [Anpassade roller i Adobe Learning Manager](https://experienceleague.adobe.com/sv/docs/learning-manager/using/admin/custom-role)
 
 ## Identitetstyper och rekommenderad autentisering
 
@@ -41,12 +41,12 @@ Adobe Admin Console stöder tre identitetstyper för administratörskonton. Vale
 
 Mer information finns här:
 
-* [Identitetstyper](https://helpx.adobe.com/enterprise/using/admin-console.html)
-* [Säker användarautentisering och lösenord](https://helpx.adobe.com/enterprise/using/authentication-settings.html)
+* [Identitetstyper](https://helpx.adobe.com/se/enterprise/using/admin-console.html)
+* [Säker användarautentisering och lösenord](https://helpx.adobe.com/se/enterprise/using/authentication-settings.html)
 
 ## Rolltilldelning och åtkomstkontroll
 
-Åtkomsten till administratörskonton i Adobe Learning Manager styrs genom uttrycklig [rolltilldelning](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups) av en befintlig administratör. Säker administrativ åtkomst kännetecknas av följande:
+Åtkomsten till administratörskonton i Adobe Learning Manager styrs genom uttrycklig [rolltilldelning](https://experienceleague.adobe.com/sv/docs/learning-manager/using/admin/user-management/add-users-user-groups) av en befintlig administratör. Säker administrativ åtkomst kännetecknas av följande:
 
 * Administrativa roller tilldelas endast av auktoriserade administratörer.
 * Åtkomsten är rollbaserad och omfattas enligt tilldelade behörigheter.
@@ -69,12 +69,12 @@ För att upprätthålla 2FA i Adobe Admin Console:
 >
 >Adobe rekommenderar att du tillämpar 2FA och inte lämnar det valfritt för användare. Det kan ta upp till 24 timmar att tillämpa 2FA. För Federated ID-användare: framtvinga MFA hos identitetsleverantören.
 
-Mer information finns i [Säker användarautentisering](https://helpx.adobe.com/enterprise/using/authentication-settings.html).
+Mer information finns i [Säker användarautentisering](https://helpx.adobe.com/se/enterprise/using/authentication-settings.html).
 
 
 ## Logga in som administratör
 
-ALM [Administratörer](https://experienceleague.adobe.com/en/docs/learning-manager/using/get-started/getting-started-admin) loggar in direkt på ALM-plattformen med organisationsuppgifter som hanteras via Admin Console.
+ALM [Administratörer](https://experienceleague.adobe.com/sv/docs/learning-manager/using/get-started/getting-started-admin) loggar in direkt på ALM-plattformen med organisationsuppgifter som hanteras via Admin Console.
 
 ### Tilldela en administratörsroll
 
@@ -89,7 +89,7 @@ Tilldela administratörsrollen i ALM:
 
 Med anpassade administrativa roller kan kunder delegera administrativa uppgifter samtidigt som de har centraliserad kontroll över behörigheter på kontonivå. Anpassade administratörer kan omfattas av specifika användargrupper eller kataloger.
 
-Mer information finns i [Lägga till användare och användargrupper](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups).
+Mer information finns i [Lägga till användare och användargrupper](https://experienceleague.adobe.com/sv/docs/learning-manager/using/admin/user-management/add-users-user-groups).
 
 ## Konfigurera inloggningsmetoder och SSO
 
@@ -100,7 +100,7 @@ ALM-administratörer styr vilka inloggningsmetoder som är tillgängliga för al
 
 Adobe rekommenderar att du använder Federated ID/SAML 2.0 SSO som inloggningsmetod för alla interna användare. Detta säkerställer att autentiseringen styrs helt av organisationens identitetsleverantör, vilket möjliggör centraliserad MFA-tillämpning och omedelbar kontoåterkallning vid användarens avgång.
 
-Mer information finns i [Inställningar](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/settings).
+Mer information finns i [Inställningar](https://experienceleague.adobe.com/sv/docs/learning-manager/using/admin/settings).
 
 ## Rekommenderade säkra standardvärden för etablering
 
@@ -140,7 +140,7 @@ Administrationskonton används för att utföra dagliga operativa uppgifter, dä
 
 Administratörer förväntas följa organisationens interna åtkomstkontroll och ändra hanteringsprinciper när de utför administrativa åtgärder.
 
-Se [Vanliga frågor för Adobe Learning Manager-administratörer](https://experienceleague.adobe.com/en/docs/learning-manager/using/faq/frequently-asked-questions-for-administrators)
+Se [Vanliga frågor för Adobe Learning Manager-administratörer](https://experienceleague.adobe.com/sv/docs/learning-manager/using/faq/frequently-asked-questions-for-administrators)
 
 
 ### Rollhierarki och delegering
@@ -161,7 +161,7 @@ Följande praxis bör följas av organisationer som löpande driver ALM-administ
 * **Lägsta stående åtkomst**: Undvik att använda administratörskonton på högsta nivån för rutinuppgifter. Reservera fullständig administratörsåtkomst för uppgifter som kräver det.
 * **Sessionssäkerhet**: Konfigurera Maximal sessionslängd och Maximal inaktiv tid i Admin Console > Inställningar > Avancerade inställningar för att begränsa exponeringen från obevakade sessioner.
 
-Se [Översikt av Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) för mer information.
+Se [Översikt av Admin Console](https://helpx.adobe.com/se/enterprise/using/admin-console.html) för mer information.
 
 ### Hantera användarkonton under administratörskontroll
 
@@ -174,8 +174,8 @@ ALM-administratörer hanterar interna och externa användarkonton. Verksamhet av
 
 Mer information finns här:
 
-* [Lägga till användare och användargrupper](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups)
-* [Rensa användare](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/purge-users)
+* [Lägga till användare och användargrupper](https://experienceleague.adobe.com/sv/docs/learning-manager/using/admin/user-management/add-users-user-groups)
+* [Rensa användare](https://experienceleague.adobe.com/sv/docs/learning-manager/using/admin/purge-users)
 
 ## Avveckling av förvaltningskonton
 
@@ -203,8 +203,8 @@ När en systemadministratör lämnar organisationen eller ändrar roller måste 
 
 Mer information finns här:
 
-* [Skapa, uppdatera eller ta bort användarkonton i Admin Console](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)
-* [Lämna ett konto som organisationen äger](https://helpx.adobe.com/enterprise/using/leave-organization.html)
+* [Skapa, uppdatera eller ta bort användarkonton i Admin Console](https://helpx.adobe.com/se/enterprise/using/manage-users-individually.html)
+* [Lämna ett konto som organisationen äger](https://helpx.adobe.com/se/enterprise/using/leave-organization.html)
 
 ### Ta bort ALM-administratörsrollen
 
@@ -217,7 +217,7 @@ Så här återkallar du ALM-administratörsåtkomst utan att ta bort användaren
 
 Användaren återgår till elevrollen. Deras utbildningshistorik och kursregistreringar bevaras.
 
-Mer information finns i [Lägga till användar- och användargrupper](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups).
+Mer information finns i [Lägga till användar- och användargrupper](https://experienceleague.adobe.com/sv/docs/learning-manager/using/admin/user-management/add-users-user-groups).
 
 ### Ta bort och ta bort användare
 
@@ -226,7 +226,7 @@ När en användare lämnar organisationen helt och deras konto bör tas bort fr�
 * Ta bort användaren: Användare > Intern > välj användare > Åtgärder > Ta bort användare. Detta inaktiverar kontot och tar bort aktiv åtkomst.
 * Rensa användaren: Efter borttagningen går du till Användare > Användarrensning, väljer borttagningsmånaden, markerar användaren och väljer Åtgärder > Rensa användare. Om du rensar permanent tas alla användarposter bort.
 
-Mer information finns i [Rensa användare](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/purge-users).
+Mer information finns i [Rensa användare](https://experienceleague.adobe.com/sv/docs/learning-manager/using/admin/purge-users).
 
 
 ## Säkerhet och delat ansvar
@@ -236,7 +236,7 @@ Adobe Learning Manager fungerar enligt en modell med delat ansvar:
 * Adobe ansvarar för att säkra den underliggande ALM-plattformen och ALM-infrastrukturen.
 * Kunderna ansvarar för hantering av administrativ åtkomst, rolltilldelningar och aktiviteter under användarlivscykeln inom sina ALM-konton.
 
-Mer information om Adobe Learning Manager säkerhetsrutiner finns i [Adobe Learning Manager säkerhetsöversikt (PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf)
+Mer information om Adobe Learning Manager säkerhetsrutiner finns i [Adobe Learning Manager säkerhetsöversikt (PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf?lang=sv-SE)
 
 ## Dokumentunderhåll
 
