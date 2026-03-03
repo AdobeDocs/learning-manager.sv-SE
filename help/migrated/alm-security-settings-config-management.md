@@ -1,14 +1,14 @@
 ---
-title: Adobe Learning Manager - Säkerhetsinställningar och konfigurationshantering
+title: Adobe Learning Manager - säkerhetsinställningar och konfigurationshantering
 description: I det här dokumentet beskrivs Adobe Learning Manager administratörskontotyper, säkerhetsrelaterade inställningar, rekommenderade säkra standardinställningar, API-funktioner, exportfunktioner, konfigurationsjämförelsemetoder, publiceringsrutiner och versionshistorik. Den ger detaljerad vägledning om hur behöriga konton fungerar, deras säkerhetskonsekvenser och hur konfigurationshantering stöds på plattformen.
 jcr-language: en-us
-source-git-commit: 579573cbc1baaea2ac8e6ebf17f32c46624ea798
+exl-id: a2e34104-c417-407f-af85-9f3f4b2a9fcb
+source-git-commit: 84d74761c95ac670a93d65a844caebd42e4e4d41
 workflow-type: tm+mt
 source-wordcount: '1940'
 ht-degree: 0%
 
 ---
-
 
 # Introduktion
 
@@ -35,10 +35,10 @@ Adobe Learning Manager två privilegierade kontotyper - Anpassad administratör 
 
 **Referenser**:
 
-* [Anpassade roller | Adobe Learning Manager](https://experienceleague.adobe.com/sv/docs/learning-manager/using/admin/custom-role)
-* [Hantera anpassade roller via CSV | Adobe Learning Manager](https://experienceleague.adobe.com/sv/docs/learning-manager/using/integration/configure-role-csv-files)
-* [Användarhandbok för programutvecklare | Adobe Learning Manager][https://experienceleague.adobe.com/sv/docs/learning-manager/using/integration/developer-manual]
-* [Adobe Learning Manager-anslutningar](https://experienceleague.adobe.com/sv/docs/learning-manager/using/integration/connectors)
+* [Anpassade roller | Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)
+* [Hantera anpassade roller via CSV | Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/configure-role-csv-files)
+* [Användarhandbok för programutvecklare | Adobe Learning Manager][https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual]
+* [Adobe Learning Manager-anslutningar](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors)
 
 +++
 
@@ -69,9 +69,9 @@ Adobe Learning Manager-dokument som är specifika rekommenderade säkra standard
 
 **Referenser**:
 
-* [Inställningar | Adobe Learning Manager](https://experienceleague.adobe.com/sv/docs/learning-manager/using/admin/custom-role)
-* [Säker användarautentisering och lösenord | Adobe Admin Console](https://helpx.adobe.com/se/enterprise/using/authentication-settings.html)
-* [Anpassade roller | Adobe Learning Manager](https://experienceleague.adobe.com/sv/docs/learning-manager/using/admin/custom-role)
+* [Inställningar | Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)
+* [Säker användarautentisering och lösenord | Adobe Admin Console](https://helpx.adobe.com/enterprise/using/authentication-settings.html)
+* [Anpassade roller | Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)
 
 +++
 
@@ -95,7 +95,7 @@ Det finns ingen särskild jämförelsetavla i Adobe Learning Manager där aktuel
 
 **Referens**
 
-* [Användarhandbok för programutvecklare | Adobe Learning Manager](https://experienceleague.adobe.com/sv/docs/learning-manager/using/integration/developer-manual)
+* [Användarhandbok för programutvecklare | Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual)
 
 +++
 
@@ -122,7 +122,7 @@ Adobe Learning Manager stöder export av säkerhetsrelevanta konfigurationsdata 
 
 **Referens**
 
-* [Användarhandbok för programutvecklare | Adobe Learning Manager](https://experienceleague.adobe.com/sv/docs/learning-manager/using/integration/developer-manual)
+* [Användarhandbok för programutvecklare | Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual)
 
 +++
 
@@ -156,7 +156,7 @@ Adobe Learning Manager publicerar för närvarande inte sin handbok för säker 
 
 Det finns ingen offentligt tillgänglig OSCAL-komponentdefinition, YAML-baslinje eller JSON-principfil som kodar de rekommenderade säkra standardinställningarna för Adobe Learning Manager.
 
-Kunder som behöver en automatisk jämförelse av aktuella inställningar mot rekommenderade baslinjer bör använda [ALM REST API](https://experienceleague.adobe.com/sv/docs/learning-manager/using/integration/developer-manual) för att hämta aktuella konfigurationsdata i JSON-format.
+Kunder som behöver en automatisk jämförelse av aktuella inställningar mot rekommenderade baslinjer bör använda [ALM REST API](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual) för att hämta aktuella konfigurationsdata i JSON-format.
 
 +++
 
@@ -189,9 +189,8 @@ Adobe Learning Manager har en offentlig, detaljerad versionshistorik för varje 
 
 **Referenser**:
 
-* [Versionsinformation om Adobe Learning Manager](https://experienceleague.adobe.com/sv/docs/learning-manager/using/introduction/release-notes)
-* [Nyheter i Adobe Learning Manager](https://experienceleague.adobe.com/sv/docs/learning-manager/using/introduction/whats-new-july-2024)
-* [API-borttagningar i Adobe Learning Manager](https://experienceleague.adobe.com/sv/docs/learning-manager/using/introduction/api-deprecations-list)
+* [Versionsinformation om Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes)
+* [Nyheter i Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/whats-new-july-2024)
+* [API-borttagningar i Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/api-deprecations-list)
 
 +++
-

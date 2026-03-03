@@ -2,13 +2,13 @@
 title: Adobe Learning Manager - handbok för säker administration
 description: I den här handboken beskrivs säkerhetsinställningar, roller och bästa praxis för hantering av administratörssäkerhet och åtkomstkontroll i Adobe Learning Manager för att säkerställa efterlevnad och säkerhet.
 jcr-language: en-us
-source-git-commit: 76a231b5d178a43a2e217d442481e6fd77f12390
+exl-id: 67dd9334-9718-4b2a-841e-5d8bd5c42714
+source-git-commit: 5682c45a4e5789a3eede53faf7cb257cd9685759
 workflow-type: tm+mt
 source-wordcount: '2354'
 ht-degree: 0%
 
 ---
-
 
 # Administrativa säkerhetsinställningar och säkerhetskonsekvenser
 
@@ -51,7 +51,7 @@ Administratören styr den autentiseringsmetod som används för alla interna och
 >
 >Om inloggningsmetoden är inställd på Adobe ID för interna användare förlorar organisationen möjligheten att framtvinga multifaktorautentisering, kontrollera lösenordskomplexiteten eller omedelbart återkalla åtkomsten när en användare lämnar organisationen. Detta ökar avsevärt risken för obehörig åtkomst.
 
-Mer information finns i [Anpassade roller](https://experienceleague.adobe.com/sv/docs/learning-manager/using/admin/custom-role).
+Mer information finns i [Anpassade roller](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role).
 
 ### Multifaktorautentisering (MFA)
 
@@ -168,9 +168,8 @@ Administrationsinställningarna i Adobe Learning Manager kan konfigureras av kun
 
 Mer information om Adobe Learning Manager säkerhetsrutiner finns i:
 
-**Referens:** [Adobe Learning Manager-säkerhetsöversikt (PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf?lang=sv-SE)
+**Referens:** [Adobe Learning Manager-säkerhetsöversikt (PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf)
 
 ## Dokumentunderhåll
 
 Det här dokumentet kan uppdateras regelbundet för att återspegla ändringar i Adobe Learning Manager-funktioner eller säkerhetsvägledning. Versionen och det senast uppdaterade datumet sparas i dokumentets metadata och i FedRAMP-auktoriseringspaketet. Användare bör läsa den offentligt tillgängliga versionen på Adobe Experience League för att säkerställa att de använder de senaste riktlinjerna.
-
