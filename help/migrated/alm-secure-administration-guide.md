@@ -51,7 +51,7 @@ Administratören styr den autentiseringsmetod som används för alla interna och
 >
 >Om inloggningsmetoden är inställd på Adobe ID för interna användare förlorar organisationen möjligheten att framtvinga multifaktorautentisering, kontrollera lösenordskomplexiteten eller omedelbart återkalla åtkomsten när en användare lämnar organisationen. Detta ökar avsevärt risken för obehörig åtkomst.
 
-Mer information finns i [Anpassade roller](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role).
+Mer information finns i [Anpassade roller](https://experienceleague.adobe.com/sv/docs/learning-manager/using/admin/custom-role).
 
 ### Multifaktorautentisering (MFA)
 
@@ -168,7 +168,7 @@ Administrationsinställningarna i Adobe Learning Manager kan konfigureras av kun
 
 Mer information om Adobe Learning Manager säkerhetsrutiner finns i:
 
-**Referens:** [Adobe Learning Manager-säkerhetsöversikt (PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf)
+**Referens:** [Adobe Learning Manager-säkerhetsöversikt (PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf?lang=sv-SE)
 
 ## Dokumentunderhåll
 
