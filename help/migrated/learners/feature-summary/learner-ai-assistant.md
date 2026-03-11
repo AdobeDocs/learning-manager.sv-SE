@@ -3,9 +3,9 @@ description: AI-assistenten (beta) för elever är en GenAI-driven chattföljesl
 jcr-language: en_us
 title: AI-assistent för elever i Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 922e6bed551baca8ef0e9f6b8124fb26fcce97e6
+source-git-commit: 583074cf56b7c468d0027ea6bb4ed500f57e5421
 workflow-type: tm+mt
-source-wordcount: '1995'
+source-wordcount: '1872'
 ht-degree: 0%
 
 ---
@@ -21,58 +21,60 @@ AI-assistenten (beta) för elever hjälper dem att snabbt hitta svar från det t
 
 ## Vad är AI-assistenten för elever
 
-AI Assistant är en GenAI-driven chattföljeslagare i Adobe Learning Manager som levererar snabba, korrekta svar på elevfrågor med hjälp av det betrodda utbildningsinnehåll som finns tillgängligt för dem i Adobe Learning Manager. Det innehåller också citat, så att eleverna alltid vet källan till informationen.
+AI Assistant är en generativ AI-driven chattföljeslagare i Adobe Learning Manager som levererar snabba, exakta svar med hjälp av ditt betrodda utbildningsinnehåll. Det innehåller citat så att du alltid vet källan till informationen.
 
-### AI-assistentens viktigaste funktioner
+### Funktioner
 
-1. Intelligent frågesvar
-   * Samtal med enkeltur och flersväng
-   * Naturlig språkförståelse på engelska
-   * Svar från kurser, certifieringar, utbildningsvägar och arbetsstöd
-   * Smarta klarlägganden av frågor när frågorna är tvetydiga
-   * Drivs av Azure Open AI LLM-funktioner för att generera svar
-2. Innehållskällor och citat
-   * Hämtar svar från tillgängliga resurser i kataloger som stöds.
-   * Tillhandahåller citat med direkta länkar till källmaterial
-   * Stöder alla ALM-innehållsformat statiska och interaktiva: PDF, DOCX, PPTX, XLSX, Audio (mp3, wav, m4a), Video (mp4, mov, wmv), HTML, SCORM 2004, SCORM 1.2
-3. Användarupplevelse
-   * Gränssnitt för sidopanel från alla elevsidor
-   * Responsiv design som anpassar sig till innehållsområdet
-   * Chatthistorik bibehållen i webbläsarsessionen
-   * Rensa platta vid ny inloggning eller siduppdatering
-   * Lärare eller handledarton: vänlig, tydlig och pedagogiskt sund
-4. Administratörskontroller
-   * Aktivera eller inaktivera funktionen på kontonivå
-   * Kontrollera åtkomst för användargrupper
-   * Välj vilka kataloger som ska ingå i AI-svar
-   * Krav på godkännande av användningsvillkor för att följa Adobes AI-riktlinjer
+- **Intelligent frågesvar**
+   - Samtal med enkeltur och flersväng
+   - Naturlig språkförståelse på engelska
+   - Svar från kurser, certifieringar, utbildningsvägar och arbetsstöd
+   - Smarta klarlägganden av frågor när frågorna är tvetydiga
 
-## Vilka typer av innehåll stöder AI Assistant
+- **Innehållskällor och citat**
+   - Hämtar svar från tillgängliga resurser i kataloger som stöds
+   - Tillhandahåller citat med direkta länkar till källmaterial
+   - Stöder alla Learning Manager-innehållsformat (statiska och interaktiva): PDF, DOCX, PPTX, XLSX, ljud (MP3, WAV, M4A), video (MP4, MOV, WMV), HTML, SCORM 2004 och SCORM 1.2
+
+- **Användarupplevelse**
+   - Gränssnitt för sidopanel från alla elevsidor
+   - Responsiv design som anpassar sig till innehållsområdet
+   - Chatthistorik bibehållen i webbläsarsessionen
+   - Rensa platta vid ny inloggning eller siduppdatering
+   - Vänlig, tydlig och pedagogiskt sund ton
+
+- **Administratörskontroller**
+   - Aktivera eller inaktivera funktionen på kontonivån
+   - Kontrollera åtkomst för användargrupper
+   - Välj vilka kataloger som ska ingå i AI-svar
+   - Godkännandekrav för användningsvillkor enligt Adobe AI-riktlinjer
+
+## Innehållstyper som stöds
 
 AI-assistenten hämtar information från utbildningsinnehåll som tilldelats dig, inklusive:
 
-* **Dokument:** PDF, Word, PowerPoint, Excel, HTML
-* **Media:** Ljud (mp3, wav, m4a), video (mp4, mov, wmv)
-* **Interaktivt innehåll:** SCORM 1.2, SCORM 2004
-* **Typer av utbildningsobjekt:** Kurser, utbildningsvägar, certifieringar, arbetsstöd
+- **Dokument:** PDF, Word, PowerPoint, Excel, HTML
+- **Media:** Ljud (MP3, WAV, M4A), video (MP4, MOV, WMV)
+- **Interaktivt innehåll:** SCORM 1.2, SCORM 2004
+- **Typer av utbildningsobjekt:** Kurser, utbildningsvägar, certifieringar, arbetsstöd
 
-Adobe transkriberar utbildningsinnehåll på ett säkert sätt med hjälp av betrodda externa bearbetningstjänster som tillhandahålls i Adobe privata VPC-miljöer.
+Adobe behandlar ditt utbildningsinnehåll på ett säkert sätt med hjälp av betrodda tjänster.
 
 ### Begränsningar för kataloger och innehållskällor
 
-Elevens AI-assistent använder bara innehåll från **interna kataloger** som uttryckligen har konfigurerats av administratörer.
+AI-assistenten använder bara innehåll från **interna** kataloger som uttryckligen har konfigurerats av administratörer.
 
-Följande innehållskällor stöds **inte** i den aktuella versionen:
+Följande innehållskällor stöds inte i den aktuella versionen:
 
-* Delade kataloger
-* Förvärvade kataloger
-* Externa kataloger
-* Standardkataloger
-* Innehållsbibliotek från tredje part (t.ex. LinkedIn Learning eller Go1)
+- **Delade** kataloger
+- **Förvärvade** kataloger
+- **Externa** kataloger
+- **Standardkataloger**
+- Innehållsbibliotek från tredje part (t.ex. LinkedIn Learning eller Go1)
 
-Om en elev inte har tillgång till en kurs eller ett arbetsstöd kommer AI-assistenten inte att samla in information från det innehållet, och citeringslänkar kommer inte att vara tillgängliga.
+Om du inte har tillgång till en kurs eller ett arbetsstöd kommer AI-assistenten inte att hitta information från det innehållet, och citationslänkar kommer inte att vara tillgängliga.
 
-## Användningsfall för AI-assistent
+## Användningsfall
 
 ### Teknisk elev
 
@@ -80,9 +82,9 @@ Sarah är en försäljningsingenjör som lär sig mer om grafikkort. Hon behöve
 
 AI Assistant hjälper Sarah med:
 
-* Tydlig, teknisk förklaring av komplex GPU-arkitektur
-* Fördjupa förståelsen för olika grafikkort och deras olikheter
-* Förklaring av exempel så att Sarah kan relatera funktioner till verkliga användningsfall
+- Tydlig, teknisk förklaring av komplex GPU-arkitektur
+- Fördjupa förståelsen för olika grafikkort och deras olikheter
+- Förklaring av exempel så att Sarah kan relatera funktioner till verkliga användningsfall
 
 ### Kundsupport
 
@@ -90,9 +92,9 @@ Marcus är supportspecialist på ett partnerföretag. Han behöver snabba svar o
 
 AI Assistant hjälper Marcus med:
 
-* Hitta relevant supportinnehåll för vanliga kundfrågor
-* Ställa frågor som klargör när det ursprungliga svaret inte är tillräckligt specifikt
-* Hitta rekommendationer för relaterade felsökningskurser för att förbättra sina färdigheter
+- Hitta relevant supportinnehåll för vanliga kundfrågor
+- Ställa frågor som klargör när det ursprungliga svaret inte är tillräckligt specifikt
+- Hitta rekommendationer för relaterade felsökningskurser för att förbättra sina färdigheter
 
 ### Ny medarbetarintroduktion
 
@@ -100,58 +102,55 @@ Jennifer har precis gått med i företaget och är överväldigad av mängden ut
 
 AI Assistant hjälper Jennifer med:
 
-* Få stegvisa anvisningar om att skicka in utgiftsrapporter
-* Upptäck kurser om företagspolicyer utan att bläddra i hela katalogen
-* Fäst henne vid rätt avsnitt av en kurs utan att göra henne titta på timmar av video
+- Få stegvisa anvisningar om att skicka in utgiftsrapporter
+- Upptäck kurser om företagspolicyer utan att bläddra i hela katalogen
+- Fäst henne vid rätt avsnitt av en kurs utan att göra henne titta på timmar av video
 
-## Hur använder AI-assistenten innehåll
+## Hur AI-assistenten använder innehåll
 
-AI-assistenten hjälper dig att snabbt hitta korrekta svar medan du lär dig. Om du vill använda det på ett effektivt sätt bör du förstå vilket innehåll assistenten använder, vad den inte använder och hur den genererar svar.
+AI-assistenten hittar korrekta svar från ditt utbildningsinnehåll. Så här fungerar det.
 
-### Vilket innehåll använder AI Assistant
+### Vilket innehåll använder AI-assistenten
 
-AI-assistenten besvarar frågor med enbart det utbildningsinnehåll som aktiverats av kontoadministratören. Innehållet från katalogen indexeras.
+AI-assistenten besvarar frågor med enbart det utbildningsinnehåll som aktiverats av kontoadministratören. Innehåll från de valda katalogerna indexeras.
 
-AI-assistenten analyserar ditt tilldelade utbildningsinnehåll för att generera fokuserade och sammanhangsberoende svar.
+AI-assistenten analyserar ditt tilldelade utbildningsinnehåll för att generera fokuserade, sammanhangsberoende svar:
 
-* Varje svar innehåller citat som refererar till det ursprungliga källinnehållet.
-* Du kan välja ett citat för att komma direkt till den aktuella kursen, modulen eller dokumentet.
-* Citat hjälper dig att verifiera information och utforska ytterligare sammanhang när det behövs.
+- Varje svar innehåller citat som refererar till det ursprungliga källinnehållet.
+- Du kan välja ett citat för att komma direkt till den aktuella kursen, modulen eller dokumentet.
+- Citat hjälper dig att verifiera information och utforska ytterligare sammanhang när det behövs.
 
 ### Strömmande svar
 
-Ett strömmande svar innebär att AI-assistenten levererar svaret progressivt när det genereras, så att användarna kan börja läsa svaret direkt utan att vänta på att hela svaret ska läsas in.
+AI-assistenten levererar svaren progressivt allteftersom de genereras, så att du kan börja läsa direkt utan att vänta på att hela svaret läses in.
 
 ### Citat och källgenomskinlighet
 
 Varje AI Assistant-svar innehåller citat som länkar direkt till den ursprungliga kursen, modulen eller utbildningsobjektet. Med citat kan du:
 
-* Välj ett infogat citattecken för att gå till det exakta refererade avsnittet
-* Öppna den fullständiga källistan genom att välja Visa källor längst ned i svaret
-* Verifiera information och utforska ytterligare sammanhang från den auktoritativa källan
+- Välj ett infogat citattecken om du vill gå till det exakta avsnittet som refereras.
+- Öppna den fullständiga källistan genom att välja **Visa källor** längst ned i svaret.
+- Verifiera information och utforska ytterligare sammanhang från den auktoritativa källan.
 
->[!IMPORTANT]
->
->AI-assistenten ger svar baserat på innehåll som aktiverats av administratören, men om en användare saknar åtkomst till ett refererat objekt kommer hen att se meddelandet &quot;stöds inte&quot; när objektet öppnas.
+> **VIKTIGT**
+> AI Assistant ger svar baserat på innehåll som aktiverats av administratören. Om du inte har tillgång till ett refererat objekt visas meddelandet &quot;stöds inte&quot; när du försöker öppna det.
 
 
 ## Inbyggda uppmaningar
 
-AI-assistenten innehåller inbyggda uppmaningar som hjälper elever att snabbt komma igång med vanliga frågor och scenarier. Dessa uppmaningar vägleder elever om hur de interagerar med assistenten och visar vilka typer av frågor de kan ställa.
+AI-assistenten innehåller inbyggda uppmaningar som hjälper dig att snabbt komma igång med vanliga frågor och scenarier. De här anvisningarna visar hur du interagerar med assistenten och visar vilka typer av frågor du kan ställa.
 
 ![Inbyggda uppmaningar tillhandahålls av elevassistenten](assets/built-in-prompt-new.png)
 
-Inbyggda uppmaningar är anpassningsbara per konto. Organisationer kan skräddarsy dem för att återspegla deras utbildningsmål, elevroller, terminologi eller specifika användningsfall. Administratörer kan arbeta med sin CSM (Customer Success Manager) för att konfigurera eller uppdatera inbyggda uppmaningar.
+Organisationer kan anpassa inbyggda uppmaningar som återspeglar deras utbildningsmål, roller, terminologi eller specifika användningsfall. Administratörer kan arbeta med sina Customer Success Manager för att konfigurera eller uppdatera inbyggda uppmaningar. I den aktuella versionen kan du inte anpassa uppmaningar direkt i Adobe Learning Manager-gränssnittet.
 
-Snabb anpassning hanteras på kontonivå och kan inte konfigureras direkt i Adobe Learning Manager-användargränssnittet i den aktuella versionen.
-
-## Administratörskonfiguration - aktivera AI-assistenten för elever
+## Konfigurera AI-assistenten (administratörer)
 
 ![AI-aktiverad elevassistent](assets/learner-ai-assistant-new.png)
 
-Administratörer väljer vilka användargrupper och interna kataloger som får åtkomst till AI Assistant-funktionen. De bör säkerställa att de tilldelade katalogerna endast innehåller det utbildningsinnehåll som är lämpligt att visas genom AI-svar och -citat, och att dessa kataloger är Default, Internal, not Shared, Acquired eller External.
+Administratörer väljer vilka användargrupper och **interna** kataloger som ska ha åtkomst till AI Assistant-funktionen. Se till att katalogerna du tilldelar endast innehåller utbildningsinnehåll som är lämpligt för AI-svar och -citat och att katalogerna är **interna** (inte **delade**, **förvärvade** eller **externa**).
 
-Innan du konfigurerar AI Assistant måste du bekräfta att du har administratörsuppgifter och har identifierat vilka användargrupper och kataloger som ska ha tillgång till funktionen.
+Innan du konfigurerar AI Assistant måste du bekräfta att du har administratörsuppgifter och har identifierat vilka användargrupper och kataloger som ska ha åtkomst.
 
 ### Konfigurera åtkomst till AI Assistant
 
@@ -178,11 +177,9 @@ Så här aktiverar du elevens AI-assistent:
 
 >[!IMPORTANT]
 >
->AI-assistenten stöder bara interna kataloger. Om en delad, förvärvad, extern eller annan icke-intern katalog väljs kommer dess innehåll inte att visas av AI-assistenten, även om katalogen visas i listan över berättigade kataloger.
+>Endast **interna** kataloger stöds. Om en **delad**, **förvärvad**, **extern** eller annan icke-intern katalog väljs, kommer dess innehåll inte att visas av AI-assistenten, även om den visas i listan **Kataloger som är berättigade**.
 
-## Elevguide - Starta AI-assistenten
-
-### Starta AI-assistenten
+## Starta AI-assistenten (elever)
 
 Så här startar du AI-assistenten:
 
@@ -205,94 +202,89 @@ Så här startar du AI-assistenten:
 
 Du kan:
 
-* Välj citatnumret infogat för att gå till det exakta refererade avsnittet
-* Öppna den fullständiga listan över källor genom att välja **Visa källor** längst ned i svaret
+- Välj citatnumret infogat för att gå till det exakta refererade avsnittet
+- Öppna den fullständiga listan över källor genom att välja **Visa källor** längst ned i svaret
 
 ![Visa källor i svaret](assets/show-sources-latest.png)
 
 AI Assistant innehåller citat med varje svar för att visa var informationen kommer ifrån. Varje citat länkar direkt till den ursprungliga kursen, modulen eller utbildningsobjektet som användes för att generera svaret.
 
-Du kan välja vilken hänvisning som helst för att öppna den faktiska kurssidan i Adobe Learning Manager och granska hela innehållet i dess sammanhang. Citat hjälper dig att verifiera information, utforska ytterligare detaljer och fortsätta lära dig från den auktoritativa källan.
+Du kan markera valfritt citat för att öppna kurssidan i Adobe Learning Manager och granska hela innehållet i dess sammanhang. Citat hjälper dig att verifiera information, utforska ytterligare detaljer och fortsätta lära dig från den auktoritativa källan.
 
 ## Åtkomst till AI-assistenten via sökning
 
-Du kan också starta AI-assistenten direkt från sökfältet. Skriv din fråga i sökfältet och välj sedan **Fråga AI-assistenten** bland alternativen som visas för att få svar från ditt tilldelade utbildningsinnehåll. Han tilldelade utbildningsinnehållet.
+Du kan också starta AI-assistenten direkt från sökfältet. Skriv frågan i sökfältet och välj sedan **Fråga AI-assistenten** bland alternativen som visas.
 
 ![Gå till elevassistenten från sökfältet](assets/learner-assistant-search-new.png)
 
+## Ge feedback på AI-assistentens svar
 
-## Ge feedback på elevens AI-assistentens svar
-
-Din feedback på svaren som genereras av elevens AI-assistent (beta) hjälper till att förbättra dess noggrannhet, relevans och övergripande prestanda.
+Din feedback på svaren som genereras av AI-assistenten (beta) hjälper till att förbättra dess noggrannhet, relevans och övergripande prestanda.
 
 ### Gilla eller ogilla ett svar
 
-* Välj **Tummen upp**, välj det som var till hjälp i svaret, lägg till kommentarer och välj sedan **Skicka**.
+- Välj **Tummen upp**, välj det som var till hjälp i svaret, lägg till kommentarer och välj sedan **Skicka**.
+- Välj **Tummen ner**, välj anledningen till att svaret inte var till hjälp, lägg till kommentarer och välj sedan **Skicka**.
 
-<!-- ![Select Thumbs Up to upvote a response](assets/la-feedback.png) -->
+## Börja chatta
 
-* Välj **Tummen ner**, välj anledningen till att svaret inte var till hjälp, lägg till kommentarer och välj sedan **Skicka**.
+Genom att starta en ny chatt kan du börja en ny konversation, rensa tidigare sammanhang så att assistenten kan fokusera på det nya ämnet utan att referera till tidigare interaktioner.
 
-## Starta en ny chatt i AI Assistant
-
-Genom att starta en ny chatt kan användaren starta en ny konversation, rensa tidigare sammanhang så att assistenten kan fokusera på det nya ämnet utan att referera till tidigare interaktioner. Det är viktigt när du byter ämne eller söker svar som inte har med tidigare frågor att göra.
-
-Rensa den aktuella konversationen och starta en ny chatt när som helst.
-
-Välj **Ny chatt** på AI Assistant-skärmen och välj sedan **Ja**.
+Om du vill rensa den aktuella konversationen och börja om väljer du **Ny chatt** på skärmen AI-assistent och väljer sedan **Ja**.
 
 ![Starta en ny chatt i elevassistenten](assets/start-new-chat.png)
 
 AI-assistenten ger elever snabba, sammanhangsberoende svar, stöder flera innehållstyper och erbjuder infogade citat för genomskinlighet. Administratörer kan kontrollera åtkomsten, vilket säkerställer att AI-assistenten är anpassad till organisationens behov och förbättrar utbildningsupplevelsen.
 
 
-## Felsökning
+## Felsöka problem med AI-assistenten
 
->[!NOTE]
->
->När du har konfigurerat en ny katalog kan du vänta 4-5 timmar tills innehållet är indexerat och tillgängligt för AI Assistant-svar.
+> **ANTECKNING**
+> När du har konfigurerat en ny katalog kan du vänta 4-5 timmar tills innehållet är indexerat och tillgängligt för AI Assistant-svar.
 
-### Scenario 1: Ingen åtkomst till innehåll
+### Ingen åtkomst till innehåll
 
-Problem: Eleven har tillgång till elevassistenten men får svar av typen &quot;Jag har inget svar på den här frågan&quot;.
+**Problem:** En elev har åtkomst till AI-assistenten men får svaret &quot;Jag har inget svar på den här frågan&quot;.
 
-**Möjliga orsaker**
+**Möjliga orsaker:**
 
-* Elevens kataloger ingår inte när AI-assistenten konfigureras
-* Innehåll som är relaterat till frågan finns inte i utvalda kataloger eller så är katalogerna tomma
-* Eleven har inte synlighet för relevant innehåll
+- Elevens kataloger ingår inte i AI Assistant-konfigurationen.
+- Innehåll relaterat till frågan finns inte i de valda katalogerna eller så är katalogerna tomma.
+- Eleven har inte synlighet för det relevanta innehållet.
 
-**Lösning**
+**Lösning:**
 
-* Verifiera elevens katalogåtkomst
-* Kontrollera vilka kataloger som är aktiverade i inställningarna för elevassistenten
-* Se till att det finns relevant innehåll i dessa kataloger
-* vänta ett par timmar efter att nytt innehåll har lagts till innan det indexeras
+- Kontrollera elevens katalogåtkomst.
+- Kontrollera vilka kataloger som är aktiverade i AI Assistant-inställningarna.
+- Se till att det finns relevant innehåll i dessa kataloger.
+- Vänta några timmar efter att du har lagt till nytt innehåll innan du indexerar det.
 
-### Scenario 2: Irrelevanta eller dåliga svar
+### Irrelevanta svar eller svar av dålig kvalitet
 
-**Problem**: AI-assistenten ger svar som inte matchar frågan eller har låg kvalitet.
+**Problem:** AI-assistenten ger svar som inte matchar frågan eller har låg kvalitet.
 
-**Möjliga orsaker**
+**Möjliga orsaker:**
 
-* Frågan är för bred eller tvetydig
-* Relevant innehåll har dåliga metadata (beskrivningar, taggar)
-* Innehållsstrukturen gör det svårt att extrahera information
+- Frågan är för bred eller tvetydig.
+- Relevant innehåll har dåliga metadata (beskrivningar, taggar).
+- Innehållsstrukturen gör det svårt att extrahera information.
 
-**Lösning**
+**Lösning:**
 
-* Uppmuntra elever att ställa mer specifika frågor
-* Granska och förbättra kursbeskrivningar och metadata
-* Se till att innehållet har tydliga rubriker och strukturer
-* Granska den detaljerade användningsrapporten för att identifiera mönster
-* Överväg att skapa arbetsstöd för vanliga frågor
+- Uppmuntra elever att ställa mer specifika frågor.
+- Granska och förbättra kursbeskrivningar och metadata.
+- Se till att innehållet har tydliga rubriker och strukturer.
+- Granska den detaljerade användningsrapporten för att identifiera mönster.
+- Överväg att skapa arbetsstöd för vanliga frågor.
 
-### Scenario 3: Frågor som inte omfattas
+### Frågor som inte omfattas
 
-**Problem**: Eleven ställer frågor som inte har med utbildningsinnehåll att göra.
+**Problem:** En elev ställer frågor som inte har med utbildningsinnehåll att göra.
 
-**Exempel**:
+**Exempel:**
 
-* Allmänna kunskapsfrågor (&quot;Vem är president?&quot;)
-* Personliga åsikter (&quot;Vad tycker du om X?&quot;)
-* Olämpligt innehåll
+- Allmänna kunskapsfrågor (&quot;Vem är presidenten?&quot;)
+- Personliga åsikter (&quot;Vad tycker du om X?&quot;)
+- Olämpligt innehåll
+
+AI-assistenten är utformad för att svara på frågor som endast baseras på tilldelat utbildningsinnehåll och svarar inte på frågor som inte omfattas.
