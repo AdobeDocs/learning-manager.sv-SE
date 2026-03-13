@@ -2,7 +2,7 @@
 title: Nyheter i Adobe Learning Manager-versionen från april 2026
 description: Läs om de nya funktionerna, förbättringarna och viktiga uppdateringar i Adobe Learning Manager i april 2026-versionen.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 1cbdd4ca217ecc760e942e99303ca7841a20c5b6
+source-git-commit: 78b345adf3fb39cdfa728ff4a788be1b36fff906
 workflow-type: tm+mt
 source-wordcount: '20211'
 ht-degree: 0%
@@ -1511,38 +1511,38 @@ Använd widgeten **Kategorier** för att hjälpa besökare att navigera till rek
 
 Du kan konfigurera plattor som representerar ett segment, till exempel:
 
-* &quot;For administrators&quot;
-* &quot;For sales teams&quot;
-* &quot;For partners&quot;
-* &quot;By product line&quot;
+* &quot;För administratörer&quot;
+* &quot;För säljteam&quot;
+* &quot;För partner&quot;
+* &quot;Efter produktlinje&quot;
 
-Each tile can link either to:
+Varje ruta kan länka antingen till:
 
-* A filtered catalog page (for example, the catalog filtered by certain products or labels).
-* A dedicated non-logged-in page that uses Courses and paths preconfigured for that segment.
+* En filtrerad katalogsida (t.ex. den katalog som filtreras av vissa produkter eller etiketter).
+* En dedikerad icke-inloggad sida som använder kurser och sökvägar som är förkonfigurerade för det segmentet.
 
-This gives you a &quot;recommended paths by segment&quot; experience without personalization.
+Detta ger dig en upplevelse av &quot;rekommenderade banor efter segment&quot; utan anpassning.
 
-### Building segment-based recommendations
+### Skapa segmentbaserade rekommendationer
 
-Because non-logged-in visitors have no ALM profile yet, it is useful to design recommendations **by segment** and let visitors self-select.
+Eftersom icke-inloggade besökare ännu inte har någon ALM-profil är det bra att utforma rekommendationer **efter segment** och låta besökarna välja själva.
 
-1. Use a **non-logged-in home page** that briefly explains who your academy is for and shows a small number of segment entry points (for example, &quot;Developers&quot;, &quot;Marketers&quot;, &quot;Partners&quot;, &quot;New employees&quot;). This can be done with a Categories widget or a simple Content box or HTML section with buttons.
-2. For each segment, create a **dedicated non-logged-in page** in Experience Builder. On that page use one or more Courses and paths widgets configured with filters that represent what is &quot;recommended&quot; for that group. For example, for &quot;Developers&quot; you might filter on:
-   1. Catalog = &quot;Public Training&quot;
-   2. Product = &quot;Adobe Experience Manager&quot;
-   3. Tags = &quot;Developer fundamentals&quot;
-3. Use those segment pages as the destination of your marketing campaigns and as the target of the tiles on the non-logged-in home page.
+1. Använd en **icke-inloggad startsida** som kortfattat förklarar vem din akademi är till för och visar ett litet antal ingångspunkter för segment (t.ex. &quot;Utvecklare&quot;, &quot;Marknadsförare&quot;, &quot;Partner&quot;, &quot;Nya anställda&quot;). Detta kan du göra med en Kategorier-widget eller en enkel innehållsruta eller ett HTML-avsnitt med knappar.
+2. Skapa en **dedikerad, ej inloggad sida** i Experience Builder för varje segment. På den sidan använder du en eller flera kurser och sökvägar som har konfigurerats med filter som representerar vad som &quot;rekommenderas&quot; för den gruppen. För &quot;Utvecklare&quot; kan du till exempel filtrera på:
+   1. KATALOG = &quot;OFFENTLIG UTBILDNING&quot;
+   2. Produkt = &quot;Adobe Experience Manager&quot;
+   3. Taggar = &quot;Grundläggande för utvecklare&quot;
+3. Använd de här segmentsidorna som mål för dina marknadsföringskampanjer och som mål för panelerna på den icke-inloggade startsidan.
 
-Visitors perceive that they are seeing recommendations tailored to their situation, even though the logic is defined at design time via metadata.
+Besökare uppfattar att de ser rekommendationer som är skräddarsydda efter deras situation, även om logiken definieras i designläge via metadata.
 
-### Transitioning from non-logged-in to personalized recommendations
+### Övergå från icke-inloggade till personliga rekommendationer
 
-Non-logged-in recommendations are mainly about **discoverability** and **conversion**. Once visitors decide to enroll or start training, they will log in and become full learners with a profile and history.
+Rekommendationer som inte är inloggade handlar främst om **upptäckbarhet** och **konvertering**. När besökarna bestämmer sig för att registrera sig eller påbörja utbildningen kommer de att logga in och bli fullvärdiga elever med en profil och historik.
 
-The usual flow is:
+Det vanliga flödet är:
 
-1. A visitor discovers content through your non-logged-in recommendation sections (home recommendations, segment landing pages, featured rows).
+1. En besökare upptäcker innehåll via de rekommenderade avsnitten som inte är inloggade (hemrekommendationer, landningssidor för segment, utvalda rader).
 2. De klickar i en kurs- eller banöversikt och väljer att registrera sig eller börja.
 3. ALM uppmanar dem att registrera sig eller logga in.
 4. När de har loggat in tar den inloggade standardupplevelsen över, bland annat:
@@ -2458,3 +2458,4 @@ Systemet skiljer mellan faktisk slutföring och alternerande slutförande så at
 * Om relationen mellan källa och mål tas bort eller ändras kan ALM ta bort eller justera de alternativa slutförandena utan att röra äkta slutföranden, förutsatt att retroaktiva slutföranden är aktiverade för kontot.
 
 Alternativa avslut är utformade så att de inte stör den faktiska elevaktiviteten på målutbildningen. De fungerar som ett överlägg som kan revideras om relationerna förändras.
+
