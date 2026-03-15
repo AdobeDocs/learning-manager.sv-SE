@@ -1,46 +1,46 @@
 ---
-description: AI-assistenten (beta) för elever är en GenAI-driven chattföljeslagare i Adobe Learning Manager som hjälper elever att få snabba, korrekta svar från sitt tilldelade utbildningsinnehåll. Genom att använda naturliga språkfrågor kan elever omedelbart få fokuserade svar med tydliga citat, vilket gör det enkelt att hitta rätt information, verifiera källor och lära sig effektivt utan att söka igenom hela kurser.
+description: Få snabba och korrekta svar på ditt kursmaterial med AI Assistant i Adobe Learning Manager.
 jcr-language: en_us
-title: AI-assistent för elever i Adobe Learning Manager
+title: AI Assistant för studerande i Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 583074cf56b7c468d0027ea6bb4ed500f57e5421
+source-git-commit: 764e80ceab56ac293db548ea284e4bfb5307193b
 workflow-type: tm+mt
-source-wordcount: '1872'
+source-wordcount: '1829'
 ht-degree: 0%
 
 ---
 
-# AI-assistent för elever
+# AI Assistant för studerande
 
-AI-assistenten (beta) för elever hjälper dem att snabbt hitta svar från det tilldelade utbildningsinnehållet utan att bläddra igenom hela kurser. Du kan ställa frågor på ett enkelt språk och få korrekta, fokuserade svar med källänkar till relevant kursinnehåll.
+Med AI Assistant (Beta) för studerande kan de snabbt hitta svar från det tilldelade kursmaterialet utan att behöva gå igenom hela kurser. Du kan ställa frågor på ett enkelt språk och få korrekta, fokuserade svar med källlänkar till aktuellt kursinnehåll.
 
 >[!IMPORTANT]
 >
->AI Assistant för elever är för närvarande tillgänglig som en betafunktion. Funktioner, scenarier som stöds och begränsningar kan ändras allt eftersom funktionen utvecklas.
+>AI Assistant för studerande finns för närvarande som betafunktion. Funktioner, scenarier och begränsningar som stöds kan ändras allt eftersom funktionen utvecklas.
 
 
-## Vad är AI-assistenten för elever
+## Vad är AI-assistenten för studerande?
 
-AI Assistant är en generativ AI-driven chattföljeslagare i Adobe Learning Manager som levererar snabba, exakta svar med hjälp av ditt betrodda utbildningsinnehåll. Det innehåller citat så att du alltid vet källan till informationen.
+AI Assistant är en generativ AI-driven chattpartner i Adobe Learning Manager som ger snabba och korrekta svar med hjälp av ditt betrodda utbildningsmaterial. Det innehåller citat så att du alltid vet källan till informationen.
 
 ### Funktioner
 
 - **Intelligent frågesvar**
-   - Samtal med enkeltur och flersväng
+   - Samtal med en eller flera omgångar
    - Naturlig språkförståelse på engelska
-   - Svar från kurser, certifieringar, utbildningsvägar och arbetsstöd
-   - Smarta klarlägganden av frågor när frågorna är tvetydiga
+   - Svar från kurser, certifieringar, utbildningsvägar och jobbhjälpmedel
+   - Smarta klargörandefrågor när frågor är tvetydiga
 
 - **Innehållskällor och citat**
    - Hämtar svar från tillgängliga resurser i kataloger som stöds
-   - Tillhandahåller citat med direkta länkar till källmaterial
+   - Ger citat med direktlänkar till källmaterial
    - Stöder alla Learning Manager-innehållsformat (statiska och interaktiva): PDF, DOCX, PPTX, XLSX, ljud (MP3, WAV, M4A), video (MP4, MOV, WMV), HTML, SCORM 2004 och SCORM 1.2
 
 - **Användarupplevelse**
-   - Gränssnitt för sidopanel från alla elevsidor
+   - Gränssnitt för sidpanelen som är tillgängliga från alla kunskapssidor
    - Responsiv design som anpassar sig till innehållsområdet
-   - Chatthistorik bibehållen i webbläsarsessionen
-   - Rensa platta vid ny inloggning eller siduppdatering
+   - Chatthistorik i webbläsarsessionen
+   - Rensa plattformen vid ny inloggning eller uppdatering av sidor
    - Vänlig, tydlig och pedagogiskt sund ton
 
 - **Administratörskontroller**
