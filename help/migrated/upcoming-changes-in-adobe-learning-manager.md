@@ -1554,9 +1554,9 @@ Med andra ord hjälper de inloggade rekommendationerna dem att bestämma vad de 
 
 ### Hur arbetsstöd kan användas i den nya, icke-inloggade Experience Builder
 
-I **användargränssnittet** deltar arbetsstöd i icke-inloggade upplevelser främst genom widgetar som kan visa utbildningsobjekt:
+I **användargränssnittet** deltar arbetsstöd i icke-inloggade upplevelser främst genom widgetarna som kan visa utbildningsobjekt:
 
-1. **Widget för kurser och banor**
+1. **Widgeten Kurser och banor**
 Denna widget kan visa flera LO-typer, inklusive arbetsstöd. På sidor som inte är inloggade kan du konfigurera den för att:
    1. Inkludera eller exkludera arbetsstöd uttryckligen.
    2. Filtrera jobbhjälp efter katalog, produkt, roll, etiketter, taggar och andra metadata.
@@ -1565,11 +1565,11 @@ Denna widget kan visa flera LO-typer, inklusive arbetsstöd. På sidor som inte 
 På en offentlig landningssida kan du till exempel konfigurera en remsa med titeln &quot;Användbara resurser&quot; som endast visar arbetsstöd och en annan remsa med titeln &quot;Rekommenderade kurser&quot; som visar kurser och vägar.
 
 1. **Katalogsida och sökning**
-De icke-inloggade **katalogytorna** och **sökytorna** använder det offentliga sökindexet (matas av anslutningen för utbildningsdataåtkomst). Indexet stöder nu arbetsstöd korrekt, så:
+Ytorna för de **kataloger** och **sökningar** som inte är inloggade använder det offentliga sökindexet (matas av anslutningen för utbildningsdataåtkomst). Indexet stöder nu arbetsstöd korrekt, så:
    1. Sökresultat som inte är inloggade kan innehålla arbetsstöd.
    2. Icke-inloggade katalogfilter (efter typ, produkt, taggar osv.) kan innehålla arbetsstöd så länge din kontokonfiguration och dina widgetar är inställda för att visa dem.
 2. **LO-översiktssidor**
-När en besökare klickar på ett arbetsstöd från någon av widgetarna eller från katalogen visas en **LO-översiktssida** för det arbetsstödet i icke-inloggat läge. Därifrån kan de läsa dess beskrivning och metadata. Faktisk nedladdning eller konsumtion kräver vanligtvis fortfarande inloggning, men förekomst och upptäckbarhet av själva arbetsstödet hanteras av den icke-inloggade upplevelsen.
+När en besökare klickar på ett arbetsstöd från någon widget eller från katalogen går de till en **LO-översiktssida** för det arbetsstödet i icke-inloggat läge. Därifrån kan de läsa dess beskrivning och metadata. Faktisk nedladdning eller konsumtion kräver vanligtvis fortfarande inloggning, men förekomst och upptäckbarhet av själva arbetsstödet hanteras av den icke-inloggade upplevelsen.
 
 ### Så här visas arbetsstöd via API:er som inte är inloggade
 
@@ -1635,7 +1635,7 @@ Tidigare stöddes endast en innehållsfil per arbetsstöd i ALM, även om namnet
 
 ### Användningsfall
 
-* **Global personalhantering**: Ta fram säkerhetshandböcker, processguider eller referensdokument på flera språk till en mängd olika medarbetare.
+* **Global personalanpassning**: Ta fram säkerhetsmanualer, processguider eller referensdokument på flera språk till en mängd olika personer.
 * **Regelefterlevnad**: Se till att alla anställda får samma efterlevnadsdokumentation på sitt modersmål.
 * **Konsekvent introduktion**: Ange checklistor för nybörjare eller vanliga frågor på lokala språk för nyanställda över hela världen.
 * **Minskad duplicering**: Hantera alla språkversioner av ett arbetsstöd i en enda post, vilket förenklar uppdateringar och rapportering.
@@ -2286,7 +2286,7 @@ Nyttolasten för en webhook för alternativ slutförande innehåller följande n
   Härledd från slutförandedatumet för källkursen.
 
 * **Relationstyp**\
-  Anger om relationen är **motsvarande** eller **alternativ**.
+  Anger om relationen är **likvärdig** eller **alternativ**.
 
 I retroaktiva slutförandescenarier indikerar webhook-händelser att en befintlig alternativ slutföring har återkallats.
 
