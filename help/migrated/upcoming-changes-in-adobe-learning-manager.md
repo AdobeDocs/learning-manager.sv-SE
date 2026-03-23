@@ -2,9 +2,9 @@
 title: Nyheter i Adobe Learning Manager-versionen från april 2026
 description: Läs om de nya funktionerna, förbättringarna och viktiga uppdateringar i Adobe Learning Manager i april 2026-versionen.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 78b345adf3fb39cdfa728ff4a788be1b36fff906
+source-git-commit: 47d49f4bbb81db88635b2c115768e15a3818e153
 workflow-type: tm+mt
-source-wordcount: '20211'
+source-wordcount: '20175'
 ht-degree: 0%
 
 ---
@@ -1730,6 +1730,7 @@ Stöd för flerspråkiga videotextspår (VTT) i Adobe Learning Manager gör det 
 
 ### Viktiga funktioner
 
+* **Automatisk VTT-generering:** Överför en video- eller ljudfil och generera VTT-bildtexter automatiskt på originalspråket.
 * **Flerspråkig översättning:** Översätt bildtexter till något av de 39 icke-engelska språk som stöds.
 * **Granska och redigera i appen:** Granska, redigera och hämta VTT-filer före publicering.
 * **Meddelanden:** Ta emot meddelanden i appen när genereringen och översättningen av VTT är slutförd.
@@ -1737,9 +1738,9 @@ Stöd för flerspråkiga videotextspår (VTT) i Adobe Learning Manager gör det 
 
 ### Ladda upp innehåll och generera VTT
 
-1. Gå till innehållsbiblioteket och välj **Lägg till > Innehåll**.
+1. Gå till innehållsbiblioteket och välj **Lägg till innehåll**.
 2. Överför MP3- eller MP4-filen.
-3. I dialogrutan för överföring väljer du alternativet att **Generera översättningar**.
+3. I dialogrutan för överföring väljer du alternativet att **generera översättning**.
 4. Välj det ursprungliga innehållsspråket (filens språk används som standard).
 5. Välj ytterligare målspråk för översättning (upp till 39 stöds).
 6. Välj **Spara**. Systemet börjar skapa och översätta VTT-filer.
@@ -1954,10 +1955,7 @@ Med den här funktionen kan granskare lägga till kommentarer eller feedback und
 
 ## Avancerade sökförbättringar
 
-Sökresultaten i Avancerad sökning är nu mer exakta och relevanta. Exakta nyckelordsmatchningar rankas högre över både sökning i innehåll och metadata, vilket gör det lättare för elever att hitta exakt det de söker efter.
-
-Elever kan nu också se registrerade utbildningsobjekt i sökresultat, även om de inte ingår i en tillgänglig katalog, vilket säkerställer att inget relevant innehåll missas. Dessutom har rangordningen av arbetsstöd förbättrats både för avancerad sökning och sökning i innehåll, och de mest relevanta resurserna hittas snabbare.
-
+Den här utgåvan innehåller förbättringar av sökning i innehåll genom att visa kurser med innehåll som matchar fråga högre upp i rang. Arbetsstöd ingår nu också i avancerad sökrankning.
 
 ## Motsvarigheter och alternativ
 
@@ -2458,4 +2456,3 @@ Systemet skiljer mellan faktisk slutföring och alternerande slutförande så at
 * Om relationen mellan källa och mål tas bort eller ändras kan ALM ta bort eller justera de alternativa slutförandena utan att röra äkta slutföranden, förutsatt att retroaktiva slutföranden är aktiverade för kontot.
 
 Alternativa avslut är utformade så att de inte stör den faktiska elevaktiviteten på målutbildningen. De fungerar som ett överlägg som kan revideras om relationerna förändras.
-
