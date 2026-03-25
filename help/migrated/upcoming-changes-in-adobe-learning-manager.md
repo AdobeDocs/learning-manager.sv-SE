@@ -2,9 +2,9 @@
 title: Nyheter i Adobe Learning Manager-versionen från april 2026
 description: Läs om de nya funktionerna, förbättringarna och viktiga uppdateringar i Adobe Learning Manager i april 2026-versionen.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 47d49f4bbb81db88635b2c115768e15a3818e153
+source-git-commit: f2f27ac33c1d1e556bd0c9b6aefd66f930a225c6
 workflow-type: tm+mt
-source-wordcount: '20175'
+source-wordcount: '20997'
 ht-degree: 0%
 
 ---
@@ -1554,9 +1554,9 @@ Med andra ord hjälper de inloggade rekommendationerna dem att bestämma vad de 
 
 ### Hur arbetsstöd kan användas i den nya, icke-inloggade Experience Builder
 
-I **användargränssnittet** deltar arbetsstöd i icke-inloggade upplevelser främst genom widgetarna som kan visa utbildningsobjekt:
+I **användargränssnittet** deltar arbetsstöd i icke-inloggade upplevelser främst genom widgetar som kan visa utbildningsobjekt:
 
-1. **Widgeten Kurser och banor**
+1. **Widget för kurser och banor**
 Denna widget kan visa flera LO-typer, inklusive arbetsstöd. På sidor som inte är inloggade kan du konfigurera den för att:
    1. Inkludera eller exkludera arbetsstöd uttryckligen.
    2. Filtrera jobbhjälp efter katalog, produkt, roll, etiketter, taggar och andra metadata.
@@ -1565,11 +1565,11 @@ Denna widget kan visa flera LO-typer, inklusive arbetsstöd. På sidor som inte 
 På en offentlig landningssida kan du till exempel konfigurera en remsa med titeln &quot;Användbara resurser&quot; som endast visar arbetsstöd och en annan remsa med titeln &quot;Rekommenderade kurser&quot; som visar kurser och vägar.
 
 1. **Katalogsida och sökning**
-Ytorna för de **kataloger** och **sökningar** som inte är inloggade använder det offentliga sökindexet (matas av anslutningen för utbildningsdataåtkomst). Indexet stöder nu arbetsstöd korrekt, så:
+De icke-inloggade **katalogytorna** och **sökytorna** använder det offentliga sökindexet (matas av anslutningen för utbildningsdataåtkomst). Indexet stöder nu arbetsstöd korrekt, så:
    1. Sökresultat som inte är inloggade kan innehålla arbetsstöd.
    2. Icke-inloggade katalogfilter (efter typ, produkt, taggar osv.) kan innehålla arbetsstöd så länge din kontokonfiguration och dina widgetar är inställda för att visa dem.
 2. **LO-översiktssidor**
-När en besökare klickar på ett arbetsstöd från någon widget eller från katalogen går de till en **LO-översiktssida** för det arbetsstödet i icke-inloggat läge. Därifrån kan de läsa dess beskrivning och metadata. Faktisk nedladdning eller konsumtion kräver vanligtvis fortfarande inloggning, men förekomst och upptäckbarhet av själva arbetsstödet hanteras av den icke-inloggade upplevelsen.
+När en besökare klickar på ett arbetsstöd från någon av widgetarna eller från katalogen visas en **LO-översiktssida** för det arbetsstödet i icke-inloggat läge. Därifrån kan de läsa dess beskrivning och metadata. Faktisk nedladdning eller konsumtion kräver vanligtvis fortfarande inloggning, men förekomst och upptäckbarhet av själva arbetsstödet hanteras av den icke-inloggade upplevelsen.
 
 ### Så här visas arbetsstöd via API:er som inte är inloggade
 
@@ -1635,7 +1635,7 @@ Tidigare stöddes endast en innehållsfil per arbetsstöd i ALM, även om namnet
 
 ### Användningsfall
 
-* **Global personalanpassning**: Ta fram säkerhetsmanualer, processguider eller referensdokument på flera språk till en mängd olika personer.
+* **Global personalhantering**: Ta fram säkerhetshandböcker, processguider eller referensdokument på flera språk till en mängd olika medarbetare.
 * **Regelefterlevnad**: Se till att alla anställda får samma efterlevnadsdokumentation på sitt modersmål.
 * **Konsekvent introduktion**: Ange checklistor för nybörjare eller vanliga frågor på lokala språk för nyanställda över hela världen.
 * **Minskad duplicering**: Hantera alla språkversioner av ett arbetsstöd i en enda post, vilket förenklar uppdateringar och rapportering.
@@ -2286,7 +2286,7 @@ Nyttolasten för en webhook för alternativ slutförande innehåller följande n
   Härledd från slutförandedatumet för källkursen.
 
 * **Relationstyp**\
-  Anger om relationen är **likvärdig** eller **alternativ**.
+  Anger om relationen är **motsvarande** eller **alternativ**.
 
 I retroaktiva slutförandescenarier indikerar webhook-händelser att en befintlig alternativ slutföring har återkallats.
 
@@ -2456,3 +2456,91 @@ Systemet skiljer mellan faktisk slutföring och alternerande slutförande så at
 * Om relationen mellan källa och mål tas bort eller ändras kan ALM ta bort eller justera de alternativa slutförandena utan att röra äkta slutföranden, förutsatt att retroaktiva slutföranden är aktiverade för kontot.
 
 Alternativa avslut är utformade så att de inte stör den faktiska elevaktiviteten på målutbildningen. De fungerar som ett överlägg som kan revideras om relationerna förändras.
+
+## Ändringar i rapporten Utbildningsutskrifter i den här versionen
+
+### Kolumnen Slutförandemetod
+
+Kolumnen Slutförandemetod anger hur varje post i administratörens elevbetygsutdrag har slutförts.
+
+Värden:
+
+* Direkt (för direkt slutförande)
+* Alternativ (för slutföranden som uppnås via alternativa relationer)
+* Alternativet har återkallats (när alla alternativa slutföranden återkallas på grund av retroaktiv ofullständighet och relationsborttagning)
+
+>[!NOTE]
+>
+>Den här kolumnen är inte synlig i elevens LT. Den är bara tillgänglig i admin LT för rapporterings- och spårningsändamål.
+
+#### Påverkan
+
+Möjliggör tydliga granskningsspår, efterlevnadsspårning och genomskinlighet för administratörer angående hur en kurs har slutförts.
+
+### Alternativ spårning vid slutförande i elevens betygsutdrag
+
+Alternativa slutföranden gör det möjligt för elever att få tillgodoräkna sig slutförande för en målkurs eller utbildningsväg när de har slutfört en motsvarande källkurs eller kurs, baserat på etablerade relationer.
+
+I elevens betygsutdrag (LT) påverkar alternativa slutföranden tre befintliga kolumner: status, slutförandedatum och slutförandekälla:
+
+* **Status**: Statusen kan slutföras även om eleven inte har slutfört målkursen/målsökvägen direkt på grund av att kursen har slutförts alternativt. Andra statusar (Inte påbörjat, Pågår, Avregistrerad) påverkas inte av alternativa tecken. Endast Slutfört påverkas av alternativ.
+* **Slutförandedatum**: Slutförandedatum för en alternativ slutförande ärvs från källkursen/sökvägen som utlöste den alternativa slutförandet. Om eleven senare slutför målet direkt uppdateras datumet för att återspegla det direkta slutförandet.
+* **Källa för slutförande**: Den här kolumnen innehåller utbildnings-ID för de källkurser eller sökvägar som tillhandahöll det alternativa slutförandet. Om flera källor är aktiva listas alla relevanta ID:n. Om källor återkallas (med retroaktiv inslutförande aktiverat) finns endast aktiva källor kvar. Kolumnen Slutförandekälla visar alla aktiva ID för källutbildning (avgränsade med kommatecken) och om det finns flera källor används det tidigaste slutförandedatumet.
+
+#### Påverkan
+
+Alternativa slutföranden minskar den manuella avstämningen, automatiserar framstegsspårning i utbildningsvägar och certifieringar och stöder kompatibilitetskrav.
+
+>[!NOTE]
+>
+>Elevens betygsutdrag visar inte kolumnen Slutförandemetod. Det här är bara tillgängligt i admin LT.
+
+### Logik för slutförandedatum för alternativ
+
+Kolumnen Slutförandedatum i Elevens betygsutdrag (LT) är ett befintligt fält som används för att registrera när en elev slutför en kurs eller utbildningsväg, antingen direkt eller på annat sätt. Vid alternativa slutföranden ärvs slutförandedatumet från den källkurs eller sökväg som utlöste den alternativa slutförandet. Detta innebär att datumet återspeglar när eleven slutförde källan, inte målet.
+
+Om en elev senare slutför målkursen eller målsökvägen direkt, uppdateras slutförandedatumet till direkt slutförandedatum och åsidosätter det föregående alternativa slutförandedatumet.
+
+Ingen ny kolumn har lagts till för alternativa slutförandedatum. Den befintliga kolumnen Slutförandedatum används för både direkta och alternativa slutföranden. I fall där flera källor kan ge alternativ slutförande för ett mål används det tidigaste aktiva alternativa slutförandedatumet bland källorna. Om en källa återkallas (med retroaktiv inslutförande aktiverat) uppdateras slutförandedatumet till nästa tidigaste aktiva källa eller rensas om inga aktiva källor finns kvar.
+
+#### Påverkan
+
+Logiken om slutförandedatum garanterar korrekt historisk spårning och konsekvens i rapporteringen, särskilt när alternativa slutföranden återkallas eller uppdateras.
+
+### Återkallade alternativa slutföranden
+
+Återkallade alternativa slutföranden inträffar när en elevs alternativa slutförande för en målkurs eller utbildningsväg tas bort på grund av återkallande av alla källrelationer, förutsatt att retroaktiv slutförande är aktiverat på kontot.
+
+#### Utlösarvillkor
+
+* Retroaktiv inslutförande måste vara aktiverat för kontot, annars återkallas inte alternativa slutföranden när källrelationer tas bort.
+* Återkallande sker endast när alla aktiva källrelationer för ett mål har tagits bort. Om minst en källa finns kvar, kvarstår den alternativa slutföringen och den slutförda källkolumnen uppdateras för att endast återspegla de återstående aktiva källorna.
+
+#### Påverkan
+
+* Status: Om alla alternativa slutföranden återkallas och inget slutförande sker uppdateras statusen (t.ex. från Slutfört till Inte påbörjat eller Pågår, beroende på vad som är tillämpligt).
+* Slutförandedatum: Slutförandedatumet rensas om inga aktiva källor finns kvar och eleven inte har slutfört målet direkt.
+* Slutförandekälla: Kolumnen Slutför källa uppdateras för att ta bort de återkallade källorna. Om alla återkallas rensas den.
+
+Om eleven har ett direkt slutförande påverkar inte återkallande av alternativ elevens slutförda status eller slutförandedatum.
+
+**Anteckning**:
+
+1. Om flera källor har tillhandahållit alternativ slutförande och endast vissa återkallas, återspeglar LT de återstående aktiva källorna och deras tidigaste slutförandedatum.
+2. Om alla källor återkallas och det inte finns något direkt slutförande, förlorar eleven slutförandestatus för målet.
+
+### Förbättrad rapportering för granskningskommentarer
+
+Granskningskommentarer från checklistmoduler ingår nu i LT-rapporten under en ny kolumn Granskarens kommentarer.
+
+#### Påverkan
+
+Elever och administratörer kan se konsoliderad feedback, förbättra genomskinligheten och stödja prestandautvärdering.
+
+### Förbättrad beräkning av inlärningstid
+
+I LT-rapporten används nu en förfinad logik för att skilja mellan aktiv och inaktiv tid som spenderas på utbildningsmoduler, baserat på användaraktivitet och flikfokus.
+
+#### Påverkan
+
+Ger mer exakt mätning av utbildningsengagemang, stöd för efterlevnad och analys.
