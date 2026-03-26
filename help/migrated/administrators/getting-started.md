@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Riktlinjer för bästa metoder för att konfigurera Learning Manager
 contentowner: jayakarr
 preview: true
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: d9ebd4dc2e20028dd795a26e790d1afe4c8dadf7
 workflow-type: tm+mt
-source-wordcount: '3384'
+source-wordcount: '3399'
 ht-degree: 0%
 
 ---
@@ -199,7 +199,7 @@ Automatisera elevernas registrering till utbildningsobjekt med hjälp av utbildn
 
 #### Utbildningsplaner (baserat på utlösare) {#learningplansbasedontriggers}
 
-Du kan använda utbildningsplaner för att automatiskt tilldela kurser, utbildningsprogram eller certifieringar till elever baserat på förekomsten av vissa händelser. Exempel:
+Du kan använda utbildningsplaner för att automatiskt tilldela kurser, utbildningsprogram eller certifieringar till elever baserat på förekomsten av vissa händelser. Till exempel,
 
 * Ny användare läggs till
 * Användare ändrar användargrupp
