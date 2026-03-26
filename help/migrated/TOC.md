@@ -2,7 +2,7 @@
 user-guide-title: Användarhandbok för Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation för Adobe Learning Manager
-source-git-commit: 5682c45a4e5789a3eede53faf7cb257cd9685759
+source-git-commit: 8f9a2f192d778e282c34e874e56ddb7c6875f8bc
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 6%
@@ -36,8 +36,7 @@ ht-degree: 6%
    * [Språk som stöds i Adobe Learning Manager](/help/migrated/languages-supported.md)
    * [Borttagningar och ändringar av API i Adobe Learning Manager](api-deprecations-list.md)
    * [RECOMMENDATIONS i ADOBE LEARNING MANAGER](recommendations-adobe-learning-manager.md)
-   * [Vitmärkning i Adobe Learning Manager](white-label.md)
-   * [API-dokumentation för inbäddad Player-interaktion](/help/migrated/embedded-player-interaction.md)
+   * [Märkning i Adobe Learning Manager](white-label.md)
 * Kom igång {#get-started}
    * [Komma igång som administratör](administrators/feature-summary/getting-started-admin.md)
    * [Komma igång som författare](authors/feature-summary/getting-started-author.md)
@@ -135,6 +134,7 @@ ht-degree: 6%
    * [Learning Manager-app för Salesforce](integration-admin/feature-summary/sfdc-app.md)
    * [Inställningar](integration-admin/feature-summary/settings.md)
    * [Hantera anpassade roller via CSV-filer](integration-admin/feature-summary/configure-role-csv-files.md)
+   * [API-dokumentation för inbäddad Player-interaktion](/help/migrated/embedded-player-interaction.md)
 * Författare {#authors}
    * [Användarinloggning](authors/feature-summary/user-login.md)
    * [Innehållsbibliotek](authors/feature-summary/content-library.md)
