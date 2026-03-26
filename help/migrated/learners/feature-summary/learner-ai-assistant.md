@@ -1,51 +1,50 @@
 ---
-description: Få snabba och korrekta svar på ditt kursmaterial med AI Assistant i Adobe Learning Manager.
+description: Få snabba, exakta svar från ditt utbildningsinnehåll med AI Assistant i Adobe Learning Manager.
 jcr-language: en_us
-title: AI Assistant för studerande i Adobe Learning Manager
+title: AI-assistent för elever i Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 764e80ceab56ac293db548ea284e4bfb5307193b
+source-git-commit: 3c26038aa12f4890a1627db07f5bff64efbd79b7
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1793'
 ht-degree: 0%
 
 ---
 
-# AI Assistant för studerande
+# AI-assistent för elever
 
-Med AI Assistant (Beta) för studerande kan de snabbt hitta svar från det tilldelade kursmaterialet utan att behöva gå igenom hela kurser. Du kan ställa frågor på ett enkelt språk och få korrekta, fokuserade svar med källlänkar till aktuellt kursinnehåll.
+AI-assistenten (beta) för elever hjälper dem att snabbt hitta svar från det tilldelade utbildningsinnehållet utan att bläddra igenom hela kurser. Du kan ställa frågor på ett enkelt språk och få korrekta, fokuserade svar med källänkar till relevant kursinnehåll.
 
 >[!IMPORTANT]
 >
->AI Assistant för studerande finns för närvarande som betafunktion. Funktioner, scenarier och begränsningar som stöds kan ändras allt eftersom funktionen utvecklas.
+>AI Assistant för elever är för närvarande tillgänglig som en betafunktion. Funktioner, scenarier som stöds och begränsningar kan ändras allt eftersom funktionen utvecklas.
 
 
-## Vad är AI-assistenten för studerande?
+## Vad är AI-assistenten för elever
 
-AI Assistant är en generativ AI-driven chattpartner i Adobe Learning Manager som ger snabba och korrekta svar med hjälp av ditt betrodda utbildningsmaterial. Det innehåller citat så att du alltid vet källan till informationen.
+AI Assistant är en generativ AI-driven chattföljeslagare i Adobe Learning Manager som levererar snabba, exakta svar med hjälp av ditt betrodda utbildningsinnehåll. Det innehåller citat så att du alltid vet källan till informationen.
 
 ### Funktioner
 
 - **Intelligent frågesvar**
-   - Samtal med en eller flera omgångar
+   - Samtal med enkeltur och flersväng
    - Naturlig språkförståelse på engelska
-   - Svar från kurser, certifieringar, utbildningsvägar och jobbhjälpmedel
-   - Smarta klargörandefrågor när frågor är tvetydiga
+   - Svar från kurser, certifieringar, utbildningsvägar och arbetsstöd
+   - Smarta klarlägganden av frågor när frågorna är tvetydiga
 
 - **Innehållskällor och citat**
    - Hämtar svar från tillgängliga resurser i kataloger som stöds
-   - Ger citat med direktlänkar till källmaterial
+   - Tillhandahåller citat med direkta länkar till källmaterial
    - Stöder alla Learning Manager-innehållsformat (statiska och interaktiva): PDF, DOCX, PPTX, XLSX, ljud (MP3, WAV, M4A), video (MP4, MOV, WMV), HTML, SCORM 2004 och SCORM 1.2
 
 - **Användarupplevelse**
-   - Gränssnitt för sidpanelen som är tillgängliga från alla kunskapssidor
+   - Gränssnitt för sidopanel från alla elevsidor
    - Responsiv design som anpassar sig till innehållsområdet
-   - Chatthistorik i webbläsarsessionen
-   - Rensa plattformen vid ny inloggning eller uppdatering av sidor
+   - Chatthistorik bibehållen i webbläsarsessionen
+   - Rensa platta vid ny inloggning eller siduppdatering
    - Vänlig, tydlig och pedagogiskt sund ton
 
 - **Administratörskontroller**
    - Aktivera eller inaktivera funktionen på kontonivån
-   - Kontrollera åtkomst för användargrupper
    - Välj vilka kataloger som ska ingå i AI-svar
    - Godkännandekrav för användningsvillkor enligt Adobe AI-riktlinjer
 
@@ -148,32 +147,30 @@ Organisationer kan anpassa inbyggda uppmaningar som återspeglar deras utbildnin
 
 ![AI-aktiverad elevassistent](assets/learner-ai-assistant-new.png)
 
-Administratörer väljer vilka användargrupper och **interna** kataloger som ska ha åtkomst till AI Assistant-funktionen. Se till att katalogerna du tilldelar endast innehåller utbildningsinnehåll som är lämpligt för AI-svar och -citat och att katalogerna är **interna** (inte **delade**, **förvärvade** eller **externa**).
+Administratörer väljer vilka **interna** kataloger som kan komma åt funktionen AI Assistant. Se till att katalogerna du tilldelar endast innehåller utbildningsinnehåll som är lämpligt för AI-svar och -citat och att katalogerna är **interna** (inte **delade**, **förvärvade** eller **externa**).
 
-Innan du konfigurerar AI Assistant måste du bekräfta att du har administratörsuppgifter och har identifierat vilka användargrupper och kataloger som ska ha åtkomst.
+Innan du konfigurerar AI Assistant måste du bekräfta att du har administratörsuppgifter och har identifierade kataloger som ska ha åtkomst.
 
 ### Konfigurera åtkomst till AI Assistant
 
 Så här aktiverar du elevens AI-assistent:
 
-1. Logga in på Adobe Learning Manager som administratör.
+&#x200B;1. Logga in på Adobe Learning Manager som administratör.
 
-2. Välj **Inställningar** på startsidan.
-   ![Administratörskonsol med alternativet Inställningar i den vänstra rutan](assets/settings-menu.png)
+2.Välj **Inställningar** på startsidan.
+![Administratörskonsol med alternativet Inställningar i den vänstra rutan](assets/settings-menu.png)
 
-3. Välj **Elevens AI-assistent (beta)** på menyn **Inställningar**.
-   ![Administratörskonsolen visar alternativet Elevens AI-assistent i den vänstra rutan](assets/learner-assistant-ai-beta.png)
+&#x200B;3. Välj **Elevens AI-assistent (beta)** på menyn **Inställningar**.
+![Administratörskonsolen visar alternativet Elevens AI-assistent i den vänstra rutan](assets/learner-assistant-ai-beta.png)
 
-4. Välj växlingsfunktionen för att aktivera **elevens AI-assistent (beta)**.
-   ![Administratörskonsolen visar växlingsknappen aktiverad för elevens AI-assistent](assets/learner-assistant-toggle.png)
+&#x200B;4. Välj växlingskontrollen för att aktivera **elevens AI-assistent (beta)**.
+<!--![Administrators console displays the toggle enabled for Learner AI Assistant](assets/learner-assistant-toggle.png)-->
+<!--5. Select one or more user groups from the **Eligible user groups** option.-->
+<!--5. Select **Save** to apply the user group settings.-->
 
-5. Välj en eller flera användargrupper från alternativet **Kvalificerade användargrupper**.
+&#x200B;5. Välj en eller flera kataloger från alternativet **Kataloger som kan väljas**.
 
-6. Välj **Spara** för att tillämpa inställningarna för användargruppen.
-
-7. Välj en eller flera kataloger från alternativet **Kataloger som är berättigade**.
-
-8. Välj **Spara** för att tillämpa kataloginställningarna.
+6.Välj **Spara** för att tillämpa kataloginställningarna.
 
 >[!IMPORTANT]
 >
