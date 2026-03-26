@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: API-dokumentation för inbäddad Player-interaktion
-description: Lär dig mer om olika API:er för att lyssna på händelser och utlösa åtgärder i den inbäddade spelaren
+description: Lär dig mer om olika API:er för att lyssna på händelser och utlösa åtgärder i den inbäddade spelaren i Adobe Learning Manager
 contentowner: chandrum
 exl-id: 4734ecc1-cc8a-40b0-8997-32a31ec661ec
-source-git-commit: 3d183dc40e4d1962d25160b74d8cf6cfa26e3171
+source-git-commit: 06fdb3aa12af664ba87bbb26b9926991763e3ce9
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '849'
 ht-degree: 8%
 
 ---
@@ -402,7 +402,7 @@ Biblioteket cpPlayerLib består av följande funktioner:
 </tr>
 <tr>
 <td>Exempelkod</td>
-<td>playerObj.seek(50)</td>
+<td>playerObj.search(50)</td>
 </tr>
 </tbody>
 </table>
