@@ -2,9 +2,9 @@
 title: Nyheter i Adobe Learning Manager-versionen från april 2026
 description: Läs om de nya funktionerna, förbättringarna och viktiga uppdateringar i Adobe Learning Manager i april 2026-versionen.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: f2f27ac33c1d1e556bd0c9b6aefd66f930a225c6
+source-git-commit: ea8f2d8d4013815c66bdc68351ceceecf41fa3d1
 workflow-type: tm+mt
-source-wordcount: '20997'
+source-wordcount: '20223'
 ht-degree: 0%
 
 ---
@@ -366,78 +366,6 @@ Genom att ha förfallodatum i LO API kan Experience Builder:
 
 * Skapa &quot;Sista chansen att slutföra&quot;-kampanjer.
 
-## Flerspråkigt stöd för arbetsstöd
-
-### Översikt
-
-Förbättringen utvidgar Adobe Learning Manager lokaliseringsmodell till arbetsstöd, vilket gör att författare kan bifoga olika innehållsfiler per språk till ett enda arbetsstöd. I stället för att skapa separata arbetsstöd för varje språk kan författare nu hantera alla lokaliserade versioner som ett logiskt arbetsstöd.
-
-### Nyheter
-
-#### Uppladdning av språkspecifikt innehåll för arbetsstöd
-
-Författare kan bifoga olika filer per språk som stöds till ett enda arbetsstöd, som kurser och andra LO:er.
-
-Upplevelsen att skapa/redigera arbetsstöd har nu stöd för:
-
-* Välja ett språk.
-
-* Överför den språkspecifika filen för det språket i samma arbetsstödsentitet.
-
-#### Konsekvent språkhantering i spelare- och elevgränssnittet
-
-Fluidic-spelaren har uppdaterats så att när en elev öppnar arbetsstöd visas den innehållsvariant som motsvarar elevens språk (om tillgänglig).
-
-Administratörer och författare kan visa arbetsstöd som enskilda objekt med språkvarianter, i stället för som separata objekt per språk.
-
-### Viktiga fördelar
-
-#### Arbetsstöd för alla språk
-
-Författare kan undvika att skapa separata arbetsstöd per språk.
-
-Alla språkvarianter av samma arbetsstöd (till exempel en procedur, SOP, checklista PDF eller referensguide) kan hanteras på ett enda ställe.
-
-#### Bättre erfarenheter för globala elever
-
-Eleverna ser arbetsstödet automatiskt på det språk de föredrar, vilket innebär att det finns
-
-* Mindre förvirring om vilken version som ska öppnas.
-
-* Mindre risk för att komma åt inaktuella eller föråldrade kopior.
-
-Detta är särskilt användbart i flerspråkiga organisationer där samma process eller produktdokumentation måste finnas tillgänglig på flera språk.
-
-### Användningsfall
-
-#### Global lansering av referensinnehåll
-
-Ett företag måste tillhandahålla arbetsstöd på flera språk till elever över hela världen, t.ex.
-
-* Referensblad för produkter.
-
-* Bearbeta checklistor.
-
-* Stöd för spelböcker
-
-I stället för att skapa separata arbetsstöd som &quot;Product Quick Start - EN&quot;, &quot;Product Quick Start - DE&quot;, &quot;Product Quick Start - JP&quot; etc., kan de skapa ett arbetsstöd, bifoga lokaliserade filer för varje språk och låta ALM leverera rätt version till varje elev baserat på språkinställningar.
-
-#### Kund- eller partnerinriktad dokumentation för flera marknader
-
-För kund- och partnerskolor kan arbetsstöd omfatta följande:
-
-* Produktfuskpapper
-
-* Integreringsguider
-
-* Stödarbetsflöden
-
-Med flerspråkigt arbetsstöd:
-
-* Varje partner ser den lokaliserade versionen utan att tvingas välja mellan språkspecifika poster.
-
-* Marknadsförings- och aktiveringsteam kan hantera ett arbetsstöd per ämne på alla platser.
-
 ## Ange begränsning för modulens starttid
 
 ### Översikt
@@ -560,60 +488,6 @@ Detta möjliggör analys av övergripande prestanda och frågespecifika prestand
 * **Iakttagelser av säkerhet och regelefterlevnad**: Inom hälso- och sjukvård, tillverkning eller fältservice kan viktiga säkerhetssteg ges högre maxpoäng, vilket säkerställer att om en säkerhetskritisk åtgärd saknas får det större effekt på totalpoängen än om ett mindre steg i proceduren saknas.
 
 * **Coaching och kalibrering**: Med max och uppnådda poäng per fråga i rapporten kan chefer se exakt var eleverna underpresterar och kalibrera instruktörer om hur de poängsätter konsekvent.
-
-## Flerspråkigt stöd för checklistefrågor
-
-### Översikt
-
-Förbättringen introducerar flerspråkigt stöd för checklistefrågor, vilket gör det möjligt för granskare att utvärdera och poängsätta checklistor på det språk de föredrar. Den här funktionen är särskilt användbar i flerspråkiga regioner och globala distributioner, eftersom den gör det möjligt för författare att skapa lokaliserade frågor om checklistor för varje innehållsspråk som stöds samtidigt som en enda checklistmodul och en konsekvent utvärderingsprocess upprätthålls.
-
-I Adobe Learning Manager idag:
-
-* Alla moduler som riktar sig till elever (SCORM, PDF, HTML osv.) kan erbjudas på flera innehållsspråk så att eleverna kan välja vilket språk de vill använda.
-
-* I en checklistmodul utvärderar granskare (instruktörer/chefer) elever baserat på de frågor som definierats i checklistan.
-
-### Nyheter
-
-**Redigering**
-
-* Författare kan nu lägga till checklistefrågor på alla språk som valts på kursnivån.
-
-* För varje checklista:
-
-   * Författaren förväntas tillhandahålla motsvarande frågetext på varje innehållsspråk där kursen finns.
-
-   * Frågeställaren ansvarar för att frågorna har en enhetlig innebörd på alla språk.
-
-**Granska upplevelsen**
-
-* Granskarna ser checklistefrågor och utvärderingsgränssnittet på sitt valda innehållsspråk.
-
-* När en fråga utvärderas på ett språk:
-
-   * Utvärderingen (poäng, ja/nej, status) är logiskt sett densamma för alla språk. Det är en enda checklista med flerspråkiga vyer, inte separata checklistor per språk.
-
-**Rapportering**
-
-Checklisterapporten visar frågetexten på användarens innehållsspråk:
-
-* En administratör eller granskare som kör rapporten på varje språk ser de lokaliserade frågenamnen för det språket.
-
-* De bakomliggande svaren och poängen förblir desamma; endast frågeetiketter översätts.
-
-### Viktiga fördelar
-
-* **Bättre granskarupplevelse**: Granskarna kan arbeta helt på sitt eget språk, läsa frågor och spela in utvärderingar utan språkbarriärer.
-
-* **Anpassning av regler och policy**: I regioner med krav på språklig jämlikhet (till exempel nederländska/franska i Belgien) kan checklistor nu uppfylla samma standarder som andra utbildningsmaterial, vilket minskar risken för efterlevnad.
-
-* **Konsekvent utvärderingslogik**: Även om texten är lokaliserad delas utvärdering och poäng mellan alla språk, vilket säkerställer att resultaten är jämförbara och centralt hanterade.
-
-### Användningsfall
-
-* Franchise för flera länder som arbetar på flera språk kan distribuera en enda kurs och checklista samtidigt som du kan erbjuda lokala granskningsupplevelser i varje område.
-
-* Alla globala företag med lokala instruktörer (t.ex. EMEA, LATAM eller APAC) kan låta granskarna arbeta på sitt lokala språk samtidigt som de delar samma globala checklistedesign och rapportering.
 
 ## Checklista med kommentarsfunktion för granskare
 
