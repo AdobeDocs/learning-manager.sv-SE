@@ -2,10 +2,10 @@
 user-guide-title: Användarhandbok för Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation för Adobe Learning Manager
-source-git-commit: 8f9a2f192d778e282c34e874e56ddb7c6875f8bc
+source-git-commit: decdeed5958f690a12094d3d6eb3cea51e2d3486
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 6%
+source-wordcount: '850'
+ht-degree: 5%
 
 ---
 
@@ -130,17 +130,24 @@ ht-degree: 6%
       * [ALM-referenspaket för AEM Sites](/help/migrated/adobe-learning-manager-integration-aem.md)
       * [Integrera Learning Manager med AEM](integrate-aem-learning-manager.md)
    * [Installera Salesforce-paket i Learning Manager](integration-admin/feature-summary/install-salesforce-package.md)
+   * [Distributionshandbok](#deployment-guide)
+      * [Introduktion](/help/migrated/deployment-guide/introduction.md)
+      * [Anslutningar från tredje part](/help/migrated/deployment-guide/third-party-connectors.md)
+      * [Användarmigrering](/help/migrated/deployment-guide/user-migration.md)
+      * [Användarinställningar](/help/migrated/deployment-guide/user-setup.md)
    * [Installera Microsoft Teams-anslutning](integration-admin/feature-summary/install-microsoft-teams-connector.md)
    * [Learning Manager-app för Salesforce](integration-admin/feature-summary/sfdc-app.md)
    * [Inställningar](integration-admin/feature-summary/settings.md)
    * [Hantera anpassade roller via CSV-filer](integration-admin/feature-summary/configure-role-csv-files.md)
    * [API-dokumentation för inbäddad Player-interaktion](/help/migrated/embedded-player-interaction.md)
+   * [Fluidic-spelare](/help/migrated/integration-admin/feature-summary/fluidic-player.md)
 * Författare {#authors}
    * [Användarinloggning](authors/feature-summary/user-login.md)
    * [Innehållsbibliotek](authors/feature-summary/content-library.md)
    * [Skapa, ändra och publicera kurser](authors/feature-summary/courses.md)
    * [Kataloger](authors/feature-summary/catalogs.md)
    * [Arbetsstöd](authors/feature-summary/job-aids.md)
+   * [Användare av iPad- och Android-surfplattor](authors/feature-summary/ipad-android-tablet-users.md)
    * [Integrering med Adobe Connect](authors/feature-summary/adobeconnect-integration.md)
    * [Lägg till utbildningsobjekt på olika språk](authors/feature-summary/add-new-language-learning-objects.md)
    * [Användarmeddelanden](authors/feature-summary/user-notifications.md)
@@ -201,7 +208,12 @@ ht-degree: 6%
    * [Det går inte att överföra en CSV-fil](kb/unable-to-upload-csv.md)
    * [Generera en HAR-fil](kb/generate-har-file.md)
    * [Automatiska popup-fönster för L1-feedback visas inte](kb/l1-feedback-auto-popup-does-not-appear.md)
+   * [Integrering med Outlook](kb/integration-to-outlook.md)
    * [Det går inte att visa vissa kurser under katalogen när en certifiering skapas](kb/unable-to-view-certain-courses.md)
+   * [SSO-autentisering i Adobe Learning Manager](kb/sso-authentication-for-learning-manager.md)
+   * [Fel vid ändrad malllänk](kb/modified-template-link-error.md)
+   * [Standardtilldelning av instruktörsroller](kb/default-allocation-instructor-roles.md)
+   * [Anpassa temat i AEM med Adobe Learning Manager](kb/customize-theme-aem.md)
    * [Det går inte att visa vissa kurser under katalogen när ett utbildningsprogram skapas](kb/unable-view-course-catalog.md)
    * [Felsöka problem med Salesforce-integrering (SFDC) med Adobe Learning Manager](kb/troubleshoot-sfdc-integration-issues.md)
    * [Problem med att ta ett utbildningsprogram ur bruk](kb/issues-retiring-learning-program.md)

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Inbäddad fluidic-spelare
 contentowner: dvenkate
 preview: true
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+source-git-commit: decdeed5958f690a12094d3d6eb3cea51e2d3486
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1655'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Läs den här artikeln och lär dig bädda in fluidic-spelaren i ett anpassat pr
 
 Företag kan nu ge sina elever en anpassad upplevelse även utanför Learning Manager. Med det offentliga API:t kan du hämta all information som rör utbildningsobjekt, elevregistreringar och utbildningsframsteg och visa dem på din webbplats. Vad som är viktigare är att du även kan bädda in fluidic-spelaren i Learning Manager på din webbplats, så att eleven kan konsumera innehållet direkt på webbplatsen. Fluidic-spelaren ger dig möjlighet att spela upp allt innehåll som Learning Manager stöder. När den är inbäddad på din egen webbplats har den exakt samma funktioner som när den används i Learning Manager.
 
-**Spela upp valfritt e-utbildningsinnehåll[&#128279;](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
+**Spela upp valfritt e-utbildningsinnehåll[](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
 
 Fluidic-spelaren spelar upp praktiskt taget alla typer av eLearning-innehåll på samma konsekventa och intuitiva sätt utan att det krävs plugin-program eller nedladdningar. Eleven kan starta innehållet och oavsett innehållets filtyp börjar uppspelningen.
 
@@ -31,7 +31,7 @@ Mer information om fluidic-spelare finns i [Fluidic-spelare](../../learners/feat
 
 Här är några exempel på var du kan använda den inbäddade fluidic-spelaren.
 
-* Du kan använda den inbäddade fluidic-spelaren på din **&#x200B; &#x200B;**&#x200B;webbplats för att lista de registrerade kurser för din anställda och även ge en länk för att starta en utbildning på samma sida. Det innebär att eleverna kan delta i utbildningar på intranätwebbplatsen.
+* Du kan använda den inbäddade fluidic-spelaren på din** **webbplats för att lista de registrerade kurser för din anställda och även ge en länk för att starta en utbildning på samma sida. Det innebär att eleverna kan delta i utbildningar på intranätwebbplatsen.
 
 * Om du bedriver utbildningsverksamhet kanske du har en webbplats där dina kunder köper kurser. Du kan integrera den inbäddade spelaren med samma webbplats så att dina kunder kan konsumera innehållet de köper på din webbplats.
 
@@ -43,7 +43,7 @@ Att skapa ett anpassat program för att bädda in fluidic-spelare på din webbpl
 1. Hämta åtkomsttoken.
 1. Använd åtkomsttoken för att hämta resurser från Learning Manager med offentligt API.
 
-### 1. Skapa ett program i integrationsadministratören {#1createanapplicationinintegrationadmin}
+### &#x200B;1. Skapa ett program i integrationsadministratören {#createanapplicationinintegrationadmin}
 
 Det här steget krävs för att skapa ett program-/klient-ID och en program-/klienthemlighet som används för att hämta uppdateringstoken och åtkomsttoken. Mer information om hur du skapar ett program finns i [Programutvecklingsprocess.](developer-manual.md#main-pars_header_994876235)
 
@@ -54,7 +54,7 @@ Det här steget krävs för att skapa ett program-/klient-ID och en program-/kli
 1. Om det anpassade programmet måste delas över flera konton väljer du **[!UICONTROL No]** i alternativfältet **[!UICONTROL For this account only?]**
 1. Klicka på **[!UICONTROL Save]** om du vill spara programmet och generera ditt program-ID och din hemlighet.
 
-### 2. Hämtar åtkomsttoken {#2retrievingaccesstoken}
+### &#x200B;2. Hämtar åtkomsttoken {#retrievingaccesstoken}
 
 Eftersom Learning Manager använder OAUTH2.0. krävs åtkomsttoken för att hämta resurser med hjälp av offentligt API. Åtkomsttoken kan hämtas med hjälp av uppdateringstoken, klient-ID eller klienthemlighet.
 
@@ -76,10 +76,10 @@ client_id= <application_id>
 ```
 
 Här är **[!UICONTROL client id]** det program-id som erhölls i steg 1.
-**[!UICONTROL redirect_url]** är redirect_url angivet i steg 1.
-**[!UICONTROL state]** är dummydata som vi måste filtrera omdirigerings-URL utifrån för att få OAuth-kod. Omfattningen är elevens omfattning som anges i steg 1.
-**[!UICONTROL response_typ]**&#x200B;e är alltid &quot;CODE&quot;.\
-**[!UICONTROL account]**&#x200B;är ett valfritt fält\
+**[!UICONTROL redirect_url]** är redirect_url i steg 1.
+**[!UICONTROL state]** är några dummydata baserat på vilka vi måste filtrera omdirigerings-URL för att få OAuth-kod. Omfattningen är elevens omfattning som anges i steg 1.
+**[!UICONTROL response_typ]**e är alltid &quot;CODE&quot;.\
+**[!UICONTROL account]**är ett valfritt fält\
 **[!UICONTROL email]** är ett valfritt fält\
 &#42; Om både konto-ID och e-postadress anges tillåter ovanstående URL användaren att logga in på samma konto. Det här slutpunktsexemplet visas i filen index.html i exempelprogrammet.
 
@@ -91,11 +91,11 @@ När OAuth-koden har tagits emot kan uppdateringstoken hämtas med hjälp av den
 
 Som svar på din förfrågan om inlägg får du följande:
 
-i. refresh_token\
+i) refresh_token\
 ii) access_token\
 iii) user_id\
 iv) expires_in\
-v. user_role\
+v) användarroll\
 vi) account_id
 
 **2.2 Hämtar åtkomsttoken från uppdateringstoken**
@@ -105,14 +105,14 @@ Om du vill hämta din åtkomsttoken skickar du en ny begäran med din refresh_to
 **https://learningmanager.adobe.com/oauth/token/refresh**
 
 Som svar på din förfrågan om inlägg får du följande:\
-i. refresh_token\
+i) refresh_token\
 ii) access_token\
 iii) user_id\
 iv) expires_in\
-v. user_role\
+v) användarroll\
 vi) account_id
 
-### 3. Hämta resurser med offentligt API {#3retrieveresourcesusingpublicapi}
+### &#x200B;3. Hämta resurser med offentligt API {#retrieveresourcesusingpublicapi}
 
 I det tredje steget måste du använda åtkomsttoken för att hämta resurser från Learning Manager med hjälp av offentligt API.  Åtkomsttoken krävs för att genomföra ett offentligt API-anrop och måste läggas till i rubriken enligt exemplet i exempelprogrammet.
 
@@ -183,7 +183,7 @@ Detta är en insats som måste göras av någon i ditt IT-team eller en extern k
 
    Du kan få din token genom att konfigurera din inbäddade fluidic-spelare i din integrationsadministratör. Du kan få din autentiseringstoken som du kan använda som din åtkomsttoken.
 
-   Exempel på skapad URL; https://learningmanager.adobe.com/app/player?lo_id=&quot;+lo_id+&quot;&access_token=&quot;+accToken
+   Exempel på skapad URL; `https://learningmanager.adobe.com/app/player?lo_id="+lo_id+"&access_token="+accToken`
 
    Här, lo_id kommer att vara ID för kursen, utbildningsprogram, certifiering och arbetsstöd.
 
