@@ -2,9 +2,9 @@
 title: Nyheter i Adobe Learning Manager-versionen från april 2026
 description: Läs om de nya funktionerna, förbättringarna och viktiga uppdateringar i Adobe Learning Manager i april 2026-versionen.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: ea8f2d8d4013815c66bdc68351ceceecf41fa3d1
+source-git-commit: 33f503b69b979bfa962387388b453492a44cac5d
 workflow-type: tm+mt
-source-wordcount: '20223'
+source-wordcount: '20354'
 ht-degree: 0%
 
 ---
@@ -1442,7 +1442,7 @@ På en offentlig landningssida kan du till exempel konfigurera en remsa med tite
 De icke-inloggade **katalogytorna** och **sökytorna** använder det offentliga sökindexet (matas av anslutningen för utbildningsdataåtkomst). Indexet stöder nu arbetsstöd korrekt, så:
    1. Sökresultat som inte är inloggade kan innehålla arbetsstöd.
    2. Icke-inloggade katalogfilter (efter typ, produkt, taggar osv.) kan innehålla arbetsstöd så länge din kontokonfiguration och dina widgetar är inställda för att visa dem.
-2. **LO-översiktssidor**
+2. **LO - översiktssidor**
 När en besökare klickar på ett arbetsstöd från någon av widgetarna eller från katalogen visas en **LO-översiktssida** för det arbetsstödet i icke-inloggat läge. Därifrån kan de läsa dess beskrivning och metadata. Faktisk nedladdning eller konsumtion kräver vanligtvis fortfarande inloggning, men förekomst och upptäckbarhet av själva arbetsstödet hanteras av den icke-inloggade upplevelsen.
 
 ### Så här visas arbetsstöd via API:er som inte är inloggade
@@ -2405,11 +2405,27 @@ Om eleven har ett direkt slutförande påverkar inte återkallande av alternativ
 
 ### Förbättrad rapportering för granskningskommentarer
 
-Granskningskommentarer från checklistmoduler ingår nu i LT-rapporten under en ny kolumn Granskarens kommentarer.
+Granskningskommentarer från checklistmoduler ingår nu i Elevens betygsutdrag (LT) under en kolumn med nytt namn: **Granskarens kommentarer** (tidigare Inlämningskommentar).
 
 #### Påverkan
 
-Elever och administratörer kan se konsoliderad feedback, förbättra genomskinligheten och stödja prestandautvärdering.
+Elever och administratörer kan visa konsoliderad, tydligt märkt granskarfeedback i LT-exporter (UI, Job API och kopplingar), förbättra genomskinlighet, granskningsbarhet och stödja mer exakt prestandautvärdering och coachning.
+
+#### Vad har förändrats
+
+**Kolumner har bytt namn**
+
+| Område | Gammalt kolumnnamn | Nytt kolumnnamn | Anteckningar |
+| --------------------------- | ------------------ | ------------------ | --------------------------------------------------------- |
+| Elevens betygsutdrag (admin) | Kommentar till ansökan | Granskarens anmärkningar | Gäller alla Admin LT-källor: UI, Job API, kopplingar, i aktuella fall. |
+
+Den här ändringen gäller på samma sätt för alla Admin LT-källor (gränssnittsexporter, jobb API-rapporter och anslutningsbaserade exporter, i tillämpliga fall). LT som exporteras av anslutaren visar Granskarens kommentarer som en dedikerad kolumn i slutet (för anslutningar som inte tidigare visade Inlämningskommentar), vilket säkerställer att integreringar nedströms kan skilja granskarens feedback från andra kommentarer.
+
+>[!NOTE]
+>
+>För elevtranskriberingar för elever har kolumnen som tidigare var märkt &quot;Skicka kommentar&quot; nu bytt namn till &quot;Granskarens kommentarer&quot; och fyllts i med granskarens kommentar när den är aktiverad.
+
+
 
 ### Förbättrad beräkning av inlärningstid
 
