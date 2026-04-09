@@ -3,9 +3,9 @@ title: Nyheter i den här versionen (april 2023)
 description: Läs om de nya funktionerna och förbättringarna i Adobe Learning Manager
 hidefromtoc: true
 exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
 workflow-type: tm+mt
-source-wordcount: '3201'
+source-wordcount: '3230'
 ht-degree: 0%
 
 ---
@@ -225,7 +225,7 @@ _Byt instans från elevsidan_
 
 En administratör kan byta instans för elever. Välj en kurs från Admin Console, gå till avsnittet **[!UICONTROL Learners]**, välj en användare och välj knappen **[!UICONTROL Action]**. Välj sedan **[!UICONTROL Switch Instance]** och välj önskad instans.
 
-![Alt-text](assets/switch-instance-admin.png)
+![alt-text](assets/switch-instance-admin.png)
 _Byt instans från Admin Console_
 
 ![byt instans välj](assets/switch-instances-select.png)
@@ -432,8 +432,7 @@ Följande attribut ska läggas till:
 | Beskrivning | Ny parameter/nytt svar | Slutpunkt |
 |--- |--- |--- |
 | Lista alla städer | filter.cityName=true/false | GET /primeapi/v2/data |
-| Sök efter och filtrera städer | filter.cityName=city_name<br>Stöder även en kommaavgränsad lista med städer |
-| GET /primeapi/v2/search |
+| Sök efter och filtrera städer | filter.cityName=city_name<br>Stöder även en kommaavgränsad lista med städer | GET /primeapi/v2/search |
 | Information om returrum | include=room | GET /primeapi/v2/users/`<id>`/calendar |
 | Utbildningsobjekt för att filtrera städer | filter.cityName=city_name <br> har också stöd för en kommaavgränsad lista med städer. | GET /primeapi/v2/learningObjects |
 | Lägg till stadspanel | Svaret innehåller ett nytt attribut, filterPanelSetting=true/false. | GET /primeapi/v2/account |

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Rapporter
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 03484f1c95f7dbf1e06b7cb9559b1a6b012759c1
+source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
 workflow-type: tm+mt
-source-wordcount: '7222'
+source-wordcount: '7304'
 ht-degree: 2%
 
 ---
@@ -191,7 +191,7 @@ Utbildningsrapporten har ytterligare två kolumner:
 
 >[!INFO]
 >
->I den här utbildningen får du lära dig hur du genererar kontrollpanelsrapporter från databasen.<br><br>[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318854)</br></br>
+>I den här utbildningen får du lära dig hur du genererar kontrollpanelsrapporter från databasen.<br><br>[![Knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318854)</br></br>
 
 
 Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
@@ -275,7 +275,7 @@ Skapa en anpassad kompatibilitetsetikett genom att följa dessa steg:
 Gör så här för att skapa och dela en efterlevnadstavla:
 
 1. Gå till **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**.
-1. Välj **[!UICONTROL Compliance Dashboard]** i avsnittet **[!UICONTROL Shared with Managers]**.
+1. Välj **[!UICONTROL Shared with Managers]** i avsnittet **[!UICONTROL Compliance Dashboard]**.
 1. Välj **[!UICONTROL Share dashboard]** och välj de skapade etiketterna i listrutan **[!UICONTROL Select Compliance Label]**.
 
 
@@ -443,7 +443,7 @@ Du som är administratör kan hämta rapporter för kurser. Gör så här:
 
 >[!INFO]
 >
->I den här utbildningen får du lära dig hur du exporterar kursrapporter och konfigurerar e-postprenumerationer för rapporterna.<br><br>[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904)</br></br>
+>I den här utbildningen får du lära dig hur du exporterar kursrapporter och konfigurerar e-postprenumerationer för de här rapporterna.<br><br>[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904)</br></br>
 
 
 Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
@@ -911,12 +911,12 @@ Du kan få dina favoritrapporter via e-post genom att prenumerera på dem.
 
 >[!INFO]
 >
->I den här utbildningen får du lära dig konfigurera e-postprenumerationer för rapporter från instrumentpanelen.<br><br>[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318927)</br></br>
+>I den här utbildningen får du lära dig hur du konfigurerar e-postprenumerationer för instrumentpanelsrapporter.<br><br>[![Knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318927)</br></br>
 
 
 Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
 
-Klicka på fliken **[!UICONTROL Reports]** på sidan **[!UICONTROL Subscription]**. Sidan Rapportprenumeration visas.
+Klicka på fliken **[!UICONTROL Subscription]** på sidan **[!UICONTROL Reports]**. Sidan Rapportprenumeration visas.
 
 Du väljer rapportnamnet i listrutan genom att börja skriva rapportnamnet i fältet Rapporter. Välj hur ofta du vill skicka e-post i listrutan. Du kan lägga till e-postmeddelandets ämne och ange ett alternativt e-post-ID.
 
@@ -1014,7 +1014,7 @@ Det exporterade kalkylbladet med kontrollpanelsrapporter innehåller detaljerad 
    *Axlar för rapporter*
 
 1. Välj de sekundära **[!UICONTROL Y-axis]** kriterierna/intervallet för din rapport från rullgardinsmenyn. Om du till exempel har ett registreringsalternativ för utbildningsprogram väljer du ett eller flera tillstånd i listrutan Tillstånd. Sekundära områdesdata representeras i form av linjediagram.
-1. Markera X&#x200B;**-axel**-kriterierna för rapporten i listrutan. Om x-axeln väljs som datum, finns det ett alternativ för att gruppera x-axelkriteriet efter dag, månad, kvartal och år.
+1. Markera X**-axel**-kriterierna för rapporten i listrutan. Om x-axeln väljs som datum, finns det ett alternativ för att gruppera x-axelkriteriet efter dag, månad, kvartal och år.
 1. Välj önskat alternativ i listrutan i avsnittet Tidsrymd. Du kan välja bland följande alternativ:
 
    * Senaste månaden

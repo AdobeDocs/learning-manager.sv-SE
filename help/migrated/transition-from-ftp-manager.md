@@ -2,9 +2,9 @@
 title: Övergång från FTP-hanteraren i Adobe
 description: Adobe Learning Manager stöder en ny anslutning med AWS Transfer-familjens SFTP-protokoll. Du kan ersätta en FTP-klient med öppen källkod med Adobe FTP Manager.
 exl-id: c5674e61-9e3d-45e5-9f3c-e0aa15ec2dac
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -26,12 +26,12 @@ Vissa FTP-klienter som rekommenderas av AWS visas [här](https://docs.aws.amazon
 
 Du måste konfigurera den nya AWS-baserade FTP-anslutningen i integrationsadministratören.
 
-![anslutningsbild](assets/alm-ftp.png)
+![Anslutningsbild](assets/alm-ftp.png)
 *Välj FTP-alternativ*
 
 När du har anslutit kan du se sidan Anslutningsinformation.
 
-![sidan med anslutningsinformation](assets/connection-name.png)
+Sidan ![Anslut detaljer](assets/connection-name.png)
 *Visa sidan med anslutningsinformation*
 
 Det finns tre autentiseringsalternativ:
@@ -83,7 +83,7 @@ Skapa anslutningen på en FTP-klient (rekommenderas i avsnittet tidigare) med de
 
 1. Anslut till ny ALM FTP-anslutning. Klicka på Anslut.
 
-   ![Anslut bild](assets/connect-client.png)
+   ![anslut bild](assets/connect-client.png)
    *Anslut till ny ALM FTP-anslutning*
 
 1. Om du vill ansluta via grundläggande autentisering via lösenord anger du domännamnet, FTP-användarnamnet och konfigurerar lösenordet som matchar kriterierna för lösenordsvalidering. Klicka på Anslut. Den nya FTP-anslutningen skapas och kan nås via valfri SFTP-klient.
@@ -151,7 +151,7 @@ Klistra in din offentliga nyckel i textrutan för att använda befintliga SSH-ny
 
 Klicka på knappen **[!UICONTROL Generate SSH Key]** för att generera nya SSH-nycklar. Den privata nyckeln hämtas. Klicka på **[!UICONTROL Connect/Save]**.
 
-![Generera ssh-nyckel](assets/ssh-key.png)
+![generera ssh-nyckel](assets/ssh-key.png)
 *Generera SSH-nyckel*
 
 Mappa detaljerna. Välj inloggningstyp som nyckelfil. Välj filen med den privata nyckeln.

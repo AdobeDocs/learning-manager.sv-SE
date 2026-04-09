@@ -2,13 +2,13 @@
 description: Elevens betygsutdrag i Adobe Learning Manager (ALM) ger administratörer möjlighet att övervaka elevens framsteg inom kurser, moduler, utbildningsvägar och certifieringar. Den stöder resultatutvärderingar, efterlevnadsövervakning, revisioner och extern rapportering. Rapporten ger en fullständig sammanfattning av en elevs engagemang och resultat.
 jcr-language: en_us
 title: Elevens betygsutdrag i Adobe Learning Manager
-source-git-commit: ab60b3fddb4fbf405d0ec6d32bd6c06e60b14a06
+exl-id: f88ad02c-6d36-41e7-9d83-0ebc70d98d63
+source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
 workflow-type: tm+mt
-source-wordcount: '4770'
+source-wordcount: '4835'
 ht-degree: 4%
 
 ---
-
 
 # Elevens betygsutdrag i Adobe Learning Manager
 
@@ -114,7 +114,7 @@ Följande kolumner identifierar eleven.
 | Namn | Elevens namn. |
 | E-post | Elevens e-postadress. |
 | Adobe ID | Det här fältet fylls bara i när användare loggar in med sina Adobe ID. Om de har tillgång till Adobe Learning Manager via en organisationsdefinierad [enkel inloggning (SSO)](/help/migrated/administrators/feature-summary/multiple-sso-logins.md) är Adobe ID-fältet tomt. |
-| Unikt användar-ID | Unikt användar-ID är ett externt ID som genereras av konton om de inte har e-post-ID:n för alla användare, eller unika e-post-ID:n för alla användare.  <br>Fältet unikt användar-ID är ett valfritt fält som kan aktiveras för ett konto. Huvudsyftet med fältet är att tillåta konton att tagga varje användare med ett unikt ID för att spåra dem, uppdatera användarposter via API:er, granska eller synkronisera data i automatiserade arbetsflöden. Varje användare taggas via CSV-import av användare.Adobe Learning Manager </br><br>Om ett konto har valt Unikt användar-ID anges kolumnen i rapporterna, till exempel elevens betygsutdrag.</br> |
+| Unikt användar-ID | Unikt användar-ID är ett externt ID som genereras av konton om de inte har e-post-ID:n för alla användare, eller unika e-post-ID:n för alla användare.  <br>Fältet unikt användar-ID är ett valfritt fält som kan aktiveras för ett konto. Huvudsyftet med fältet är att tillåta konton att tagga varje användare med ett unikt ID för att spåra dem, uppdatera användarposter via API:er, granska eller synkronisera data i automatiserade arbetsflöden. Varje användare taggas via CSV-import av användare.</br><br>Om ett konto har valt Unikt användar-ID anges kolumnen i rapporterna, till exempel elevens betygsutdrag.</br> |
 
 **Registreringsrelaterad information**
 
@@ -135,11 +135,11 @@ Följande kolumner visar aktivitet, förlopp eller försök.
 | Gradering | Anger om eleven lyckats. &quot;Godkänt&quot;, om användaren har uppfyllt kriterierna för detta, annars &quot;Misslyckat&quot;. |
 | Quizpoäng | Den senaste quiz-poängen som erhållits av eleven. Kan vara tomt om eleven inte har försökt genomföra frågeformuläret eller innehållet inte har något quiz eller om administratören/instruktören inte har tilldelat någon poäng. Kolumnen används för att registrera poängen från det senaste försöket i ett quiz. Om en användare till exempel gör flera försök (till exempel får 10, 50 och 30 poäng på tre försök) kommer kolumnen Quiz_score att visa poängen från det senaste försöket, som är 30. Anta att ett quiz har en högsta poäng på 100 och att en användare gör tre försök med poängen 30, 60 och 90. I kolumnen Quiz_score visas 90 (den senaste poängen), medan poängen för Highest_Quiz_score visar 90 (den bästa poängen för alla försök) och Quiz_score_max förblir 100 (den högsta möjliga poängen). |
 | Quiz_score_max | De senaste maximala quiz-poängen som är möjliga för modulen. Det kan vara tomt om eleven inte har försökt utföra quiz eller om innehållet inte har några quiz. Kolumnen Quiz_score_max representerar det högsta möjliga poängvärdet som kan uppnås för ett visst quiz eller en viss modul. Eftersom Quiz_score_max förblir konstant är det användbart i rapporter att visa den totala uppnåeliga poängen för ett quiz eller en modul, oavsett användarens prestanda. |
-| Högsta quizpoäng | Kolumnen Highest_Quiz_score representerar det högsta poäng som en användare får för alla försök i ett visst quiz. Om en användare till exempel gör tre försök med poängen 10, 20 och 15 kommer poängen för Highest_Quiz_score att visa 20, eftersom det är den högsta poängen som uppnås. |
+| Högsta quiz-poäng | Kolumnen Highest_Quiz_score representerar det högsta poäng som en användare får för alla försök i ett visst quiz. Om en användare till exempel gör tre försök med poängen 10, 20 och 15 kommer poängen för Highest_Quiz_score att visa 20, eftersom det är den högsta poängen som uppnås. |
 | Highest_Quiz_score_max | Högsta möjliga quiz-poäng för modulen. Det kan vara tomt om eleven inte har försökt utföra quiz eller om innehållet inte har några quiz. Högsta möjliga poäng som associeras med det högsta quiz-poängförsöket som en elev gjort vid flera försök. Det är inte den högsta poäng som eleven har uppnått. Istället ger den maximala poäng som var möjlig i försöket där eleven gjorde sitt högsta. |
 | Antal gjorda försök | Det totala antalet försök som har gjorts av eleven hittills för denna modul. |
 | Max antal tillåtna försök | Det maximala antalet försök som tillåts för eleven att konsumera modulen. |
-| Kommentarer till ansökan | Kommentarer från en elevs chef efter att denne har slutfört ett utbildningsobjekt.<br>Data för inskickade kommentarer från instruktören ingår i modulen för inskickade filer. Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager.</a></br> |
+| Kommentarer till ansökan | Kommentarer från en elevs chef efter att denne har slutfört ett utbildningsobjekt.<br>Data för att skicka in kommentarer från instruktören ingår i modulen för inlämning av filer. Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager.</a></br> |
 | Källa för slutförande | Avser ursprunget eller metoden genom vilken en elevs slutförande av en kurs, utbildningsväg eller certifiering registreras. Det hjälper administratörer att förstå hur slutförandet uppnåddes eller loggades i systemet. Kolumnen anger om slutförandet har rapporterats av dig själv eller underlättats av en viss roll eller konfiguration. Obs! När en elev markeras som närvarat automatiskt vid VC-anslutningsarbetsflöden kommer källan att visa &quot;SELF, &lt;elevs_e-postadress>&quot;. |
 | Kommentar kring slutförande | Administratörens kommentarer när denne markerar en elev som slutförd efter att denne har slutfört en kurs, certifiering eller utbildningsväg. Administratören kan lägga till slutförandekommentarer för en eller flera elever. |
 
@@ -151,7 +151,7 @@ Dessa avser kurser, moduler, utbildningsvägar, certifieringar och så vidare.
 |---|---|
 | Namn på utbildningsplan | Utbildningsplanens titel. |
 | LP/Certifiering/Kurs | Utbildningsobjektets titel. |
-| Typ | Typen av utbildningsobjekt som användaren var registrerad för. Exempel:<ul><li>Utbildningsväg</li><li>Certifiering</li><li>Kurs</li></ul> |
+| Typ | Typen av utbildningsobjekt som användaren var registrerad för. Till exempel,<ul><li>Utbildningsväg</li><li>Certifiering</li><li>Kurs</li></ul> |
 | Inbäddad väg | En inbäddad bana är en typ av utbildningsväg som ingår i en annan kurs eller utbildningsväg. Fältet anger att en elev slutför utbildningsvägen som en del av en annan utbildningsväg i stället för som en fristående uppgift. |
 | Kurs | Namnet på kursen där användaren är registrerad. När den är tom representerar raden antingen en certifierings- eller utbildningsväg. <br><b>Obs!</b> Även om utbildningsvägar och utbildningar består av enskilda kurser eller kapslade utbildningsvägar, behåller varje komponent sin egen oberoende post. Detta säkerställer att framsteg, slutförande och rapporteringsdata spåras separat för både det överordnade och det underordnade elementet.</br> |
 | LO unikt ID | Det här är en valfri, administratörstilldelad identifierare för ett utbildningsobjekt (kurs, certifiering eller utbildningsväg) i Adobe Learning Manager. Det används främst av organisationer som har sina egna externa system-id för utbildningsinnehåll och som vill mappa dessa id till ALM-utbildningsobjekt för integrerings- eller rapporteringsändamål. Det LO-unika ID:t finns bara om kontot har aktiverat den här funktionen och författaren har tilldelat ett ID under skapandet av LO. Obs! Utbildnings-ID:t finns alltid och identifierar varje utbildningsobjekt i ALM på ett unikt sätt. LO-unikt ID är avsett för mappning mellan system och krävs inte för ALM-standardåtgärder. |
@@ -182,7 +182,7 @@ Dessa avser kurser, moduler, utbildningsvägar, certifieringar och så vidare.
 | Fält | Beskrivning |
 |---|---|
 | Utbildnings-ID | En systemgenererad unik identifierare som tilldelas varje utbildningsobjekt (kurs, certifiering eller utbildningsväg). Utbildnings-ID:et är detsamma för alla elever och alla registreringar av detta utbildningsobjekt. Det används för att identifiera själva innehållet, inte enskilda elevregistreringar. |
-| Varaktighet för utbildning eller modul (min) | I den här kolumnen visas förväntad varaktighet (i minuter) för en kurs, modul eller utbildningsaktivitet enligt definitionen när kursen skapades. Det är inte den faktiska tid en elev tillbringar, utan den konfigurerade/tilldelade varaktigheten som representerar hur lång utbildningen förväntas ta.  Den här kolumnen visar den totala varaktigheten (i minuter) för det tilldelade utbildningsobjektet, som kan vara antingen en utbildningsväg eller en enskild kurs. <br><b>Varaktighet för utbildningsväg:</b> Om utbildningsobjektet är en utbildningsväg beräknas varaktigheten som summan av varaktigheterna för alla kurser i utbildningsvägen.</br><br>Exempel: Om kurs 1 = 50 min och kurs 2 = 60 min, gäller längden på utbildningsvägen = 110 min.</br><br><b>Enskild kurslängd:</b>Om utbildningsobjektet är en enskild kurs (inte en del av en utbildningsväg) återspeglar varaktigheten den tid som krävs för enbart den kursen.</br> |
+| Varaktighet för utbildning eller modul (min) | I den här kolumnen visas förväntad varaktighet (i minuter) för en kurs, modul eller utbildningsaktivitet enligt definitionen när kursen skapades. Det är inte den faktiska tid en elev tillbringar, utan den konfigurerade/tilldelade varaktigheten som representerar hur lång utbildningen förväntas ta.  Den här kolumnen visar den totala varaktigheten (i minuter) för det tilldelade utbildningsobjektet, som kan vara antingen en utbildningsväg eller en enskild kurs. <br><b>Varaktighet för utbildningsväg:</b> Om utbildningsobjektet är en utbildningsväg beräknas dess längd som summan av varaktigheterna för alla kurser i utbildningsvägen.</br><br>Exempel: Om kurs 1 = 50 min och kurs 2 = 60 min, beräknas längden på utbildningsvägen = 110 min.</br><br><b>Enskild kurslängd:</b>Om utbildningsobjektet är en enskild kurs (inte en del av en utbildningsväg) återspeglar varaktigheten den tid som krävs för enbart den kursen.</br> |
 | Embedded_Course_ID | Kolumnen fylls i när raden representerar en utbildningsväg eller själva certifieringen. Den visar id:n för de enskilda kurser som är inbäddade i utbildningsvägen eller certifieringen. Det fylls inte i när raden i sig är en kurs eftersom det inte finns några inbäddade objekt. |
 | Inbäddat väg-ID | Kolumnen identifierar det unika id:t för inbäddade utbildningsvägar. Det hjälper dig att hålla koll på kurser inom utbildningsvägar och ger dig insyn i den hierarkiska strukturen för utbildningsvägar. |
 | Avregistreringsdatum (tidszonen UTC) | Datum då eleven avregistrerat sig för typen av utbildningsobjekt. |
@@ -264,7 +264,7 @@ Håll koll på elever som har kommande inlämningsdatum för viktiga kurser, utb
 
 | Kolumn | Beskrivning |
 |---|---|
-| Efter | Representerar antalet elever som uppnådde en kompetens före en angiven period (i dagar), efter vilken kompetensen anses vara föråldrad eller kräver uppdatering. Användbart för att identifiera elever med uppnådda eller utgångna kompetenser.<br>Mer information finns i <a href="https://experienceleague.adobe.com/sv/docs/learning-manager/using/admin/skills-levels"> kunskapsnivåer</a>. |
+| Efter | Representerar antalet elever som uppnådde en kompetens före en angiven period (i dagar), efter vilken kompetensen anses vara föråldrad eller kräver uppdatering. Användbart för att identifiera elever med uppnådda eller utgångna kompetenser.<br>Mer information finns i <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels"> kunskapsnivåer</a>. |
 | Namn | Fullständigt namn på den elev som kompetensen är tilldelad. |
 | Chefens namn | Namn på elevens rapportansvarige. |
 | Radetiketter | Det specifika kunskapsnamnet som har tilldelats elever som visas på den här raden. Används som en grupperingsrubrik för att sammanfatta data om elevens kompetens under varje kompetenskategori. |
@@ -332,9 +332,3 @@ Detta garanterar att anpassade administratörer med ett omfång endast visar ele
 Elevens betygsrapport kan nås via administratörsgränssnittet [FTP, Box, jobb-API eller Power BI](/help/migrated/integration-admin/feature-summary/connectors.md). Det ingår inte i de samlade rapporterna från Salesforce, Power BI och Marketo Engage.
 
 Enhetliga rapporter som hämtas från Salesforce, Marketo Engage och Power BI innehåller färre kolumner än elevens betygsutdrag.
-
-
-
-
-
-

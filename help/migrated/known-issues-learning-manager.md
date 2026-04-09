@@ -1,12 +1,13 @@
 ---
 jcr-language: en_us
 title: Kända problem i Learning Manager
+description: Här följer en sammanställning av kända fel för varje uppdatering av Learning Manager. Listan är kumulativ och innehåller kända fel från tidigare uppdateringar.
 contentowner: saghosh
 preview: true
-source-git-commit: 6f9bac5e4a434c4073409d2f7e78645deabc6685
+source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 2%
+source-wordcount: '253'
+ht-degree: 1%
 
 ---
 

@@ -1,12 +1,13 @@
 ---
 jcr-language: en_us
 title: API-hastighetsbegränsningar i Learning Manager
+description: Adobe Learning Manager har en omfattande uppsättning REST API som hjälper kunder att skapa program som är integrerade med Learning Manager och till och med anpassade användarupplevelser och tillägg till arbetsflöden som hjälper deras företag.
 contentowner: saghosh
 preview: true
-source-git-commit: 544c695a77c21dd9162b9b943b6119d27aa373dc
+source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
 workflow-type: tm+mt
-source-wordcount: '1757'
-ht-degree: 0%
+source-wordcount: '1801'
+ht-degree: 1%
 
 ---
 
@@ -110,7 +111,7 @@ Du kan enkelt testa det här genom att trycka på den här slutpunkten med hasti
 
 För att göra det enkelt för dig kan kolla in detta exempel JavaScript kod som illustrerar detta. Klicka på den här [fiolen](https://jsfiddle.net/ACAPJS/9yv8zcmL/) och se hur koden fungerar.
 
-Det här programmet kräver att du anger en programtoken för elevroll för ditt konto. Se [Användarhandboken för programutvecklare](https://captivateLearning Manager.adobe.com/docs/Learning Managerapi/v2/) för information om API-token och du kan använda Token Helper i avsnittet med utvecklarresurser i programmet Learning Manager Integration Admin för att generera token.
+Det här programmet kräver att du anger en programtoken för elevroll för ditt konto. Se [Användarhandboken för programutvecklare]&#x200B;(https://captivateLearning Manager.adobe.com/docs/Learning Managerapi/v2/) för information om API-token och du kan använda Token Helper i avsnittet med utvecklarresurser i programmet Learning Manager Integration Admin för att generera token.
 
 Det här programmet gör 10 anrop till dummy API i en slinga, på en gång. Eftersom hastighetsgränsen är (5, 2) för dummy API, kommer hastighetsgränsen att överskridas efter de första 5+2 anropen som tas emot av Learning Manager, och du kommer att se ett framgångsrikt svar för dem.
 
@@ -147,7 +148,7 @@ Följande tabell visar gränserna för de olika V2-slutpunkterna. För närvaran
   </tr> 
   <tr> 
    <td><p>DELETE</p></td> 
-   <td><p>25, 10) <br></p></td> 
+   <td><p>(25, 10) <br></p></td> 
    <td><p>(20, 10)<br></p></td> 
   </tr> 
   <tr> 
