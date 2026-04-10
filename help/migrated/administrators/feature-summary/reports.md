@@ -4,14 +4,14 @@ jcr-language: en_us
 title: Rapporter
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
+source-git-commit: 5736ea0340336ae7aa8b6ec9da4676610e21d544
 workflow-type: tm+mt
 source-wordcount: '7304'
 ht-degree: 2%
 
 ---
 
-# Rapporter
+# Rapporter {#reports}
 
 Läs mer om de rapporter som är kopplade till administratörsrollen i Learning Manager-programmet.
 
@@ -1014,7 +1014,7 @@ Det exporterade kalkylbladet med kontrollpanelsrapporter innehåller detaljerad 
    *Axlar för rapporter*
 
 1. Välj de sekundära **[!UICONTROL Y-axis]** kriterierna/intervallet för din rapport från rullgardinsmenyn. Om du till exempel har ett registreringsalternativ för utbildningsprogram väljer du ett eller flera tillstånd i listrutan Tillstånd. Sekundära områdesdata representeras i form av linjediagram.
-1. Markera X&#x200B;**-axel**-kriterierna för rapporten i listrutan. Om x-axeln väljs som datum, finns det ett alternativ för att gruppera x-axelkriteriet efter dag, månad, kvartal och år.
+1. Markera X**-axel**-kriterierna för rapporten i listrutan. Om x-axeln väljs som datum, finns det ett alternativ för att gruppera x-axelkriteriet efter dag, månad, kvartal och år.
 1. Välj önskat alternativ i listrutan i avsnittet Tidsrymd. Du kan välja bland följande alternativ:
 
    * Senaste månaden
