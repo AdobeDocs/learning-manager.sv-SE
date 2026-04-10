@@ -4,9 +4,9 @@ title: Komma igång som elev
 description: Använd Kom igång -sidan för att gå igenom de viktigaste utbildningsvägarna i Adobe Learning Manager.
 contentowner: manochan
 exl-id: e8f8dced-0772-415f-8021-6c1b63fec7a0
-source-git-commit: bd050c0b0cf2bb7da66d0f2ce3af1cf0d8be4f64
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '675'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,8 @@ Du kan komma åt Learning Manager-appen offline på iPad och Android-surfplattor
 
 1. När du är online visas en uppmaning i ett fält högst upp i appen om att kontrollera om du vill synka innehållet online. Tryck på det rödfärgade fältet om svaret är ja. Ett grönt färgat fält visar att innehållet är synkroniserat med onlineappen.
 
-<!--### Track device storage
+<!--
+### Track device storage
 
 You can monitor your device storage periodically.
 
@@ -86,4 +87,5 @@ An app storage information dialog appears as shown below.
 
 ![](assets/device-storage-detailed-e1439211162955.png)
 
-Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap X icon adjacent to each course name.-->
+Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap X icon adjacent to each course name.
+-->

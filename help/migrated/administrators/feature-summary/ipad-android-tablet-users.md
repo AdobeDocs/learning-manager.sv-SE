@@ -4,9 +4,9 @@ title: Användare av iPad- och Android-surfplattor
 description: Inställningar för användare med iPad- och Android-surfplattor
 contentowner: manochan
 exl-id: 19abe9d6-b48e-4027-bb72-95d7c767c1ec
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,8 @@ Du kan få tillgång till Learning Manager-appen offline i iPad och Google Nexus
 
 1. När du är online visas en uppmaning i ett fält högst upp i appen om att kontrollera om du vill synka innehållet online. Tryck på det rödfärgade fältet om svaret är ja. Ett grönt färgat fält visar att innehållet är synkroniserat med onlineappen.
 
-<!--## Track device storage {#trackdevicestorage}
+<!--
+## Track device storage {#trackdevicestorage}
 
 You can monitor your device storage periodically.
 
@@ -46,4 +47,5 @@ An app storage information dialog appears as shown below.
 
 ![](assets/app-storage.png)
 
-Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap X icon adjacent to each course name.-->
+Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap X icon adjacent to each course name.
+-->

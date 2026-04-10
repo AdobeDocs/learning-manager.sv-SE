@@ -2,9 +2,9 @@
 title: Nyheter i den här versionen
 description: Läs om de nya funktionerna och förbättringarna i november 2023-versionen av Adobe Learning Manager.
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: 574750144d77e8362968db9404ecf7bd2f18ccc9
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '2348'
+source-wordcount: '2367'
 ht-degree: 1%
 
 ---
@@ -206,11 +206,13 @@ En anpassad administratör kan komma åt följande rapporter enligt det definier
     </tbody>
 </table>
 
-<!--| Report | Available | Scope |
+<!--
+| Report | Available | Scope |
 |--- |--- |
 | Content Audit Trail | Yes | Full Catalog |
 | User Audit Trail | Yes | Full User |
-|Login Access | Yes | Full User |-->
+|Login Access | Yes | Full User |
+-->
 
 ## Förbättrad anslutningsintegrering
 

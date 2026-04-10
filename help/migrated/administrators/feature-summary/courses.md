@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Skapa kursinstanser och utbildningsvägar
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 40cd12c186463517b20017229e44b6864056dedf
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '5635'
+source-wordcount: '5701'
 ht-degree: 1%
 
 ---
@@ -80,7 +80,7 @@ Om du vill skapa en instans
 
 >[!INFO]
 >
->I den här utbildningen får du lära dig redigera instansinformation och instansegenskaper.<br><br>[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
+>I den här utbildningen får du lära dig hur du redigerar instansinformation och instansegenskaper.<br><br>[![knapp](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
 
 Skriv till <almacademy@adobe.com> om du inte kan starta utbildningen.
 
@@ -592,8 +592,8 @@ Administratörer kan ange standardmärken, inställningar för spelifiering och 
 * **[!UICONTROL Badge]**: Välj standardmärken i listrutan.
 * **[!UICONTROL Gamification]**: Konfigurera inställningar för spelifiering, inklusive poäng för slutförande, tidig slutförande och slutförande. Administratörer har möjlighet att välja inställningar på kontonivå eller anpassa spelifieringspunkterna för den här instansen.
 * **[!UICONTROL L1 Reaction Feedback]**: Aktivera fördefinierade frågor för elevfeedback efter slutförande av kursen, med alternativ för att göra frågor obligatoriska.
-***[!UICONTROL &#x200B; L3 Behaviour Change Feedback]**: Aktivera feedbackfrågor för elevens chef när kursen har slutförts.
-***[!UICONTROL &#x200B; Reminder Settings]**: Ställ in och hantera påminnelser om deadlines med alternativ för eskalering.
+***[!UICONTROL  L3 Behaviour Change Feedback]**: Aktivera feedbackfrågor för elevens chef när kursen har slutförts.
+***[!UICONTROL  Reminder Settings]**: Ställ in och hantera påminnelser om deadlines med alternativ för eskalering.
 
 ### Ange eskaleringsnivå {#escalation}
 
@@ -726,7 +726,7 @@ Dialogrutan Sammanfattning visas med antalet användare från inkluderingsuppsä
 
 ### Lägg till kommentarer när du registrerar elever {#enroll-comments}
 
-<!---![](assets/enroll-learners-dialog.png)-->
+<!--![](assets/enroll-learners-dialog.png)-->
 
 Som administratör eller chef kan du lägga till kommentarer när du registrerar elever för en kurs. Du kan nämna ytterligare information om kohorten av användare som registreras. Dessa data exporteras i kursrapporter.
 

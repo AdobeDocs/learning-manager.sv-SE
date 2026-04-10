@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Manager-datorprogram
 contentowner: kuppan
 exl-id: 3012ab23-e326-4e7c-b450-e33c046fd656
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '1672'
 ht-degree: 0%
 
 ---
@@ -91,8 +91,10 @@ Så här tar du en skärmbild:
 1. Klicka på skärmbildikonen från startsidan för Learning Manager-datorprogrammet.
 1. Om du bara vill hämta en del av skärmen klickar du på ikonen för att klippa ut en del av skärmen. Om du vill fånga hela skärmen klickar du på hela bildskärmsikonen.
 
-   <!--![](assets/capture-screenshot.png)
-   *Capture a screenshot*-->
+   <!--
+   ![](assets/capture-screenshot.png)
+   *Capture a screenshot*
+   -->
 
 1. Lägg till kommentarer i innehållet för att hjälpa andra elever att förstå och behålla presentationen eller det statiska innehållet bättre.
 1. [Klicka här](adobe-learning-manager-app-for-desktop.md#Editing) om du vill redigera skärmbilden och publicera en skärmbild [klicka här](adobe-learning-manager-app-for-desktop.md#Publishing).
@@ -197,7 +199,7 @@ Om du vill redigera eller ta bort en fil från galleriet klickar du på de tre p
 
 Meddelanden i Learning Manager visas i meddelandefönstret oavsett om eleven är inloggad på webbprogrammet Learning Manager. Meddelanden innehåller inlägg eller tavlor som användare har skapat, följer eller har deltagit i. Om du klickar på meddelandet dirigeras användaren till webbplatsen för Learning Manager Social Learning.
 
-Stäng av ljudet genom att klicka på **[!UICONTROL Profile menu*]* > &#x200B;** [!UICONTROL Settings] > **[!UICONTROL Mute notifications]**.
+Stäng av ljudet genom att klicka på **[!UICONTROL Profile menu*]* > **[!UICONTROL Settings] > **[!UICONTROL Mute notifications]**.
 
 ## Inställningar i Adobe Learning Manager-datorprogrammet {#settingsinadobecaptivateprimedesktopapplication}
 

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Spelifiering
 contentowner: manochan
 exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
-source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,11 @@ I Adobe Learning Manager finns en funktion som kallas spelifiering som är utfor
 
 Som standard är vissa exempelspelifieringspunkter och data tillgängliga för användare för att förstå mönstret. Du kan ändra punkterna på motsvarande sätt.
 
-<!--A sample illustration is provided below that shows all the tasks and points.
+<!--
+A sample illustration is provided below that shows all the tasks and points.
 
-![](assets/gamification-feb12-e1439214291423.png)-->
+![](assets/gamification-feb12-e1439214291423.png)
+-->
 
 ## Spelifieringsinställningar {#gamificationsettings}
 

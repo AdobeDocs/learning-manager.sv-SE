@@ -3,9 +3,9 @@ description: Referenshandbok för integreringsadministratörer som vill migrera 
 jcr-language: en_us
 title: Migreringshandbok
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: a620f70fbdfc01eb089c70586a548288c8b8290b
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '4587'
+source-wordcount: '4623'
 ht-degree: 1%
 
 ---
@@ -157,7 +157,7 @@ Nedan hittar du specifikationerna för CSV-standardfiler som du kan använda fö
    <td>
     <p>3</p></td>
    <td>
-    <p>course.xlsx</p></td>
+    <p>Course.xlsx</p></td>
    <td>
     <p>Metadata för course.csv</p></td>
    <td>
@@ -205,7 +205,7 @@ Nedan hittar du specifikationerna för CSV-standardfiler som du kan använda fö
    <td>
     <p>8</p></td>
    <td>
-    <p>skill.xlsx</p></td>
+    <p>skills.xlsx</p></td>
    <td>
     <p>Metadata för skills.csv</p></td>
    <td> </td>
@@ -435,9 +435,11 @@ Det är mycket viktigt att du planerar ditt migreringsprojekt. Vi rekommenderar 
 
 <!--**Create FTP account**-->
 
-<!--Click **[!UICONTROL Request for CSV FTP folder]**. A pop-up dialog appears prompting you to enter your e-mail id. Go through online instructions and create an FTP account. As soon as you create your account, you can view your migration project and sprint project folders in FTP. 
+<!--
+Click **[!UICONTROL Request for CSV FTP folder]**. A pop-up dialog appears prompting you to enter your e-mail id. Go through online instructions and create an FTP account. As soon as you create your account, you can view your migration project and sprint project folders in FTP. 
 
-A sample snapshot of project files and folder of FTP is shown below for your reference. -->
+A sample snapshot of project files and folder of FTP is shown below for your reference. 
+-->
 
 <!--![](assets/exavault-migration-upload-folders.png)-->
 

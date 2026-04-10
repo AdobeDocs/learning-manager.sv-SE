@@ -4,9 +4,9 @@ title: Användarhandbok för programutvecklare
 description: Lär dig hur du integrerar och anpassar program med RESTful API:er, som täcker viktiga ämnen som autentisering med OAuth 2.0, scenarier för API-användning och datamodeller. Förbättra dina företagsapplikationer med funktioner som kursskapande, spårning av elevframsteg, kompetensmappning, certifiering, spelifiering och mycket mer. Den här guiden innehåller stegvisa instruktioner och verkliga exempel som hjälper utvecklare att skapa sömlösa och effektiva arbetsflöden. Perfekt för utvecklare som vill utnyttja Adobe Learning Manager kapacitet för att skapa elevcentrerade program.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 334fb7dcc73e21679d3f95d36456da4e33226773
+source-git-commit: fe3070cbbeb1eac84e13fbed0262797064480aea
 workflow-type: tm+mt
-source-wordcount: '4481'
+source-wordcount: '4544'
 ht-degree: 0%
 
 ---
@@ -282,14 +282,14 @@ Lägg till parametern include i API-URL:en och ange de relaterade entiteterna so
 |---|---|
 | instanser | Returnerar alla instanser av utbildningsobjektet |
 | registrering | Returnerar registreringsinformation för användaren |
-| instances.loResources.resources | Hämtar moduler och resurser inuti en instans |
+| instance.loResources.resources | Hämtar moduler och resurser inuti en instans |
 | additionalResources | Returnerar tillhörande tilläggsresurser |
-| skills.skillLevel.badge | Hämtar kunskapsnivåer och tillhörande utmärkelsetecken |
+| skills.skillsLevel.badge | Hämtar kunskapsnivåer och tillhörande utmärkelsetecken |
 | förutsättningarLO | Inkluderar nödvändiga utbildningsobjekt |
 | subLO | Hämtar underutbildningsobjekt (används i LP-nummer eller certifieringar) |
-| subLOs.enrollment | Registrering för underutbildningsobjekt |
-| instances.badge | Utmärkelsetecken har tilldelats för slutförande av en kursinstans |
-| subLOs.subLOs.instances.loResources.resources | Djup kapslade resurser i en sub-sub-LO-instans |
+| subLO.registrering | Registrering för underutbildningsobjekt |
+| instance.badge | Utmärkelsetecken har tilldelats för slutförande av en kursinstans |
+| subLOs.subLOs.instance.loResources.resources | Djup kapslade resurser i en sub-sub-LO-instans |
 
 **Exempel 1**
 
@@ -410,10 +410,10 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
     <p style="text-align: left;"><b>Kurs</b></p></td>
   </tr>
   <tr>
-  <td><br>subLOs.prerequisiteLOs.enrollment</br><br>subLOs.subLOs.prerequisiteLOs.enrollment</br><br>subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.instances.loResources.resources.room</br><br>subLOs.instances.loResources.resources.room</br><br>subLOs.supplementaryResources</br><br>subLOs.enrollment</br><br>SubLOs.enrollment.loInstance.loResources.resources</br><br>subLOs.supplementaryLOs.instances.loResources.resources</br>
+  <td><br>subLOs.equimLOs.enrollment</br><br>subLOs.subLOs.equimLOs.enrollmentLOs.loResourceGrades</br><br>subLOs.subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.instance.loResources.resources.room</br><br>subLOs.instance.loResources.room</br><br>subLOs.additionalResources</br><br>subLOs.enrollment</br><br>SubLOs.enrollment.loInstance.loResources.resources</br><br>subLOs.additionalLOS s.instance.loResources.resources</br><br></br>
   </td>
   <td>
-  <br>instance.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>equimLOs</br><br>authors</br><br>instance.loResources.resources</br><br>additionalLOs.instance.loResources.resources</br><br>additionalResources</br><br>instance.badge</br><br>skills.skillsLevel.badge</br><br>skills skillLevel.skills</br><br>instance.loResources.resources.room</br><br>equimLOs.enrollment</br><br>enrollment.loResourceGrades</br>
+  <br>instance.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>equimLOs</br><br>authors</br><br>instance.loResources.resources</br><br>additionalLOs.instance.loResources.resources</br><br>additionalResources</br><br>instance.badge</br><br>skills.skillsLevel.badge</br><br>skills skillsLevel.skills</br><br>instance.loResources.resources.room</br><br>equimLOs.enrollment</br><br>enrollment.loResourceGrades</br>
   </td>
   </tr>
   </table>
@@ -991,7 +991,7 @@ internalUserID, userEmail, customerDefiniedUniqueUserId, name, managerEmail, use
 
 Slutpunkten POST/användare hjälper dig att skapa en användare med hjälp av fjärradministrerat läge. Skapa användare med detaljerad information, som registreringsprocessen i det inbyggda användargränssnittet i Adobe Learning Manager.
 
-Exempel:
+Till exempel,
 
 ```
 POST https://learningmanager.adobe.com/primeapi/v2/users
@@ -1224,7 +1224,7 @@ Exempel på nödvändig nyttolast:
    GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/course:1171899?include=instances.loResources
    ```
 
-   b. Lista allt innehåll i modulerna.
+   b) Lista allt innehåll i modulerna.
 
    ```
    GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/course:1171899?include=instances.loResources.resources
@@ -1332,7 +1332,8 @@ När du arbetar med Adobe Learning Manager (Adobe Learning Manager) API:er kan u
 
 
 
-<!--# Application developer manual
+<!--
+# Application developer manual
 
 >[!NOTE]
 >

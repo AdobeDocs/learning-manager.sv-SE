@@ -4,9 +4,9 @@ title: Okta Active Directory-integrering med Adobe Learning Manager
 description: Okta Active Directory-integrering med Adobe Learning Manager
 contentowner: nluke
 exl-id: 6d7711a9-7a7f-49b7-8948-9a42407463b3
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -136,4 +136,5 @@ Utför stegen som nämns i artikeln nedan om du vill konfigurera enkel inloggnin
 article not in TOC
 
 [SSO Authentication](/help/migrated/kb/sso-authentication-for-learning-manager.md)
+
 -->

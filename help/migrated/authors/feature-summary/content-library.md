@@ -3,9 +3,9 @@ description: Lär dig skapa innehåll som följer kurser i din egen takt.
 jcr-language: en_us
 title: Innehållsbibliotek
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 8780f8bf0c56d27c1acdaff018544ecc0c21ea23
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '4479'
+source-wordcount: '4523'
 ht-degree: 0%
 
 ---
@@ -150,7 +150,7 @@ Författare kan lägga till HTML5-innehåll som en .zip-fil i innehåll de själ
 Följ de här stegen om du vill lägga till HTML-filtypen (.zip) i innehållsbiblioteket.
 
 1. I skaparappen väljer du **[!UICONTROL Create Content]** på startsidan.
-1. Välj **[!UICONTROL Content Library]** > **[!UICONTROL Add]** på skärmen **[!UICONTROL Content]**.
+1. Välj **[!UICONTROL Add]** > **[!UICONTROL Content]** på skärmen **[!UICONTROL Content Library]**.
 1. Ange innehållets namn och beskrivning.
 1. Markera alternativet **[!UICONTROL Add Content File]** och bläddra sedan och markera HTML-filerna (packas som en mapp).
 1. När innehållet har lagts till kan du visa innehållet i avsnittet **[!UICONTROL Content Library]**.
@@ -222,7 +222,7 @@ Innehållsbiblioteket underhåller också versioner av det överförda innehåll
    >
    >   En VTT-fil stöder ett språk. Om du vill använda flera språk överför du flera videofiler för varje innehållsspråk och överför sedan deras respektive VTT-fil för varje videofil.
 
-   Adobe Learning Manager Du som är författare uppmanas att ange en ny vtt-fil varje gång du ändrar innehåll, video eller ljud.
+   Du som är författare uppmanas att ange en ny vtt-fil varje gång du ändrar innehåll, video eller ljud.
 
    När du har lagt till detta innehåll i en kurs och när du förhandsgranskar kursen som elev kan du se bildtexterna på videon.
 
@@ -659,5 +659,5 @@ I Adobe Learning Manager underhåller innehållsbiblioteket även versioner av d
 +++Hur redigerar jag detaljerna för en kurs på ett annat språk?
 När du har lagt till ett språk/språk som beskrivs i ett tidigare avsnitt klickar du på varje språkflik och lägger sedan till/redigerar kursinformationen.
 
-&lt;!—![](assets/edit-course-language.png)—>
+<!--![](assets/edit-course-language.png)-->
 +++

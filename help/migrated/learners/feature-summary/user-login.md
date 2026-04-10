@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Logga in
 contentowner: manochan
 exl-id: f553bfa1-29f0-420f-abde-e1f65612b182
-source-git-commit: 291d32a92e4adc44b2da71d980b2ae7261a189a0
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,7 @@ Följ de här stegen för att skapa ditt konto med URL:en från välkomstmeddela
 
    <!--
    If you do not have an Adobe ID, [click here](../../../manage-account.md) to learn how to create an Adobe ID.
+   
    -->
 
 1. Ange din information i fälten Aktiva för att slutföra din profil.

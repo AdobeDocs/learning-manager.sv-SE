@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Skapa, ändra och publicera kurser
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '7384'
+source-wordcount: '7476'
 ht-degree: 0%
 
 ---
@@ -495,7 +495,7 @@ Författare kan lägga till HTML-länkar i aktivitetsmodulen och ange slutföran
 1. I skaparappen väljer du **[!UICONTROL Create Courses]** på startsidan.
 1. Välj **[!UICONTROL Add]** från skärmen **[!UICONTROL Course Catalog]**
 1. Skriv namnet på och beskrivningen av kursen.
-1. Välj **[!UICONTROL Module]** > **[!UICONTROL Add Module]** i alternativet **[!UICONTROL Activity Module]**.
+1. Välj **[!UICONTROL Add Module]** > **[!UICONTROL Activity Module]** i alternativet **[!UICONTROL Module]**.
 1. Skriv namn och beskrivning i uppmaningen **[!UICONTROL Activity Module]**.
 1. Välj **[!UICONTROL Type]** som **[!UICONTROL External URL]**.
 1. Välj något av följande alternativ från alternativet **[!UICONTROL Completion Criteria]**.
@@ -632,7 +632,7 @@ Så här tillåter du att instruktörer markerar elevens framgång:
 6. Ange nödvändiga uppgifter och välj datum.
 7. Välj alternativet **[!UICONTROL Allow Instructor to mark success]**.
 
-   ![Tillåt instruktör att markera framsteg? kryssrutan är markerad, vilket gör att författare kan låta instruktörer registrera elevens framgångsstatus för en modul](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
+   ![Tillåt instruktör att markera framsteg? är markerad, vilket gör att författare kan låta instruktörer registrera elevens framgångsstatus för en modul](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
    _Skärmen Sessionsdetaljer med alternativet Tillåt instruktör att markera slutförda aktiviteter markerat för klassrums- eller virtuella klassrumsmoduler_
 
 8. Välj **[!UICONTROL Done]**.
@@ -831,8 +831,10 @@ En beständig URL har alltid åtgärdats. Men för användare som inte har Conne
 
 Du kan nu ändra URL:en till det beständiga rummet på sidan **Kursinstans**.
 
-<!--| ![](assets/persistentroomdropdown.png) | ![](assets/courseinstancepage-persistentroom.png) |
-|---|---|-->
+<!--
+| ![](assets/persistentroomdropdown.png) | ![](assets/courseinstancepage-persistentroom.png) |
+|---|---|
+-->
 
 ## Avregistrera elever från en kurs {#unenrolllearnersfromacourse}
 
@@ -855,7 +857,7 @@ Du kan även publicera kursmodulerna till Learning Manager från Adobe Captivate
 1. Logga in med autentiseringsuppgifterna för Adobe. Klicka på **[!UICONTROL Create Account]** om du inte har något Adobe-ID. Efter auktoriseringen dirigeras du till modulpubliceringssidan.
 1. Ange all grundläggande information om modulen och klicka på Publish.
 
-Du kan se den publicerade modulen på sidan Learning Manager-moduler. Mer information finns i [Publish-projekt till Adobe Learning Manager](https://helpx.adobe.com/se/captivate/classic/publish-project-to-captivate-prime.html).
+Du kan se den publicerade modulen på sidan Learning Manager-moduler. Mer information finns i [Publish-projekt till Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Kurseffektivitet {#courseeffectiveness}
 

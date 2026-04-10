@@ -4,9 +4,9 @@ title: Anpassa elevens startsida
 description: En administratör kan anpassa elevens startsida och göra den mer modern, innehållsdriven och anpassad för en elev.
 contentowner: saghosh
 exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1159'
 ht-degree: 0%
 
 ---
@@ -165,24 +165,28 @@ För befintliga konton är alternativet **Immersive** **OFF**. Det har aktiverat
       <p>För det andra kan administratören också avgöra om rekommendationerna börjar gälla omedelbart eller vid ett visst datum.</p></li>
     </ul></td>
   </tr>
-  <!--<tr>
+  <!--
+  <tr>
    <td>
     <p>Recommendation based on area of interest</p></td>
    <td>
     <p>Displays Learning Objects based on the learner's chosen area of interest. The recommendation is driven by a Machine Learning algorithm.</p></td>
-  </tr>-->
+  </tr>
+  -->
   <tr>
    <td>
     <p>Bläddra efter katalog<br></p></td>
    <td>
     <p>Visar kataloger som paneler på startsidan. </p></td>
   </tr>
-  <!--<tr>
+  <!--
+  <tr>
    <td>
     <p>Recommendation based on peer activity<br></p></td>
    <td>
     <p>Displays training based on what a learner's peers are taking. This is again driven by a Machine Learning algorithm.</p></td>
-  </tr>-->
+  </tr>
+  -->
  </tbody>
 </table>
 

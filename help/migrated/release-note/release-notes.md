@@ -4,24 +4,26 @@ jcr-language: en_us
 title: Versionsinformation om Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 093092c826b014c2d582c6cc32da08464403a1bf
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '27743'
+source-wordcount: '28038'
 ht-degree: 0%
 
 ---
 
 # Versionsinformation om Adobe Learning Manager
 
-<!--<table>
+<!--
+<table>
  <tbody>
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/se/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
-</table>-->
+</table>
+-->
 
 +++Uppdatering 103: Adobe Learning Manager november 2025-utgåvan
 
@@ -158,8 +160,10 @@ När en administratör klickar på **[!UICONTROL Update]** kan hen välja mellan
 | Tillämpa uppdatering på elever ännu i början | Uppdatera endast elever som inte har startat: Tillämpa endast innehållsuppdatering för elever som inte har startat |
 | Pågående elever får uppdatering efter slutförande | Uppdatera alla elever så småningom: Uppdatera innehållet för alla elever så småningom |
 
-<!--![](assets/version-control-options.png)
-_Content update options_-->
+<!--
+![](assets/version-control-options.png)
+_Content update options_
+-->
 
 Mer information om innehållsbiblioteket finns i den här [artikeln](/help/migrated/authors/feature-summary/content-library.md#content-version-control-for-learners-who-have-completed-a-course).
 
@@ -183,7 +187,7 @@ Läs den här [artikeln](/help/migrated/learners/feature-summary/fluidic-player.
 
 * Ett problem har korrigerats där elever som hade slutfört en kurs såg en vit skärm när de gjorde ett nytt besök efter att innehållsmodulen hade uppdaterats till en ny version.
 
-Mer information om kommande ändringar av Adobe Learning Manager finns i den här [artikeln](https://experienceleague.adobe.com/sv/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Mer information om kommande ändringar av Adobe Learning Manager finns i den här [artikeln](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -210,7 +214,7 @@ Tidigare visade aktivitetsmoduler med externa länkar som migrerats med API:er (
 
 ## Sorteringsfunktioner i elevappen
 
-Sorteringsfunktionen i elevappen ger personliga kursrekommendationer baserat på innehåll och gränssnittsspråk.  Den här förbättringen förenklar processen för elever att hitta kurser på deras önskade språk och använda mer intelligenta sorteringsalternativ.
+Sorteringsfunktionen i elevappen ger personliga kursrekommendationer baserat på innehåll och gränssnittsspråk. Den här förbättringen förenklar processen för elever att hitta kurser på deras önskade språk och använda mer intelligenta sorteringsalternativ.
 
 Läs den här [artikeln](/help/migrated/learners/feature-summary/catalogs.md#sorting-functionality-in-the-learner-app) om du vill ha mer information.
 
@@ -768,6 +772,7 @@ Utgivningsdatum: 15 januari 2022
 
 <!--
 For more information, see What's new in the [**January 2022 release of Adobe Learning Manager**](../whats-new.md).
+
 -->
 
 ### Fel som är åtgärdade i den här versionen
@@ -1662,7 +1667,7 @@ I den här uppdateringen kan en elev ladda upp tillgångar som bevis på slutfö
 
 En elev kan öppna ett externt certifikat och överföra mediefiler som pdf, text eller bildfiler.
 
-Mer information finns i [***Överför resurser i det externa certifikatet***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Mer information finns i [***Överför resurser i det externa certifikatet***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problem som har åtgärdats i den här versionen {#issuesfixedinthisrelease}
 
@@ -2040,7 +2045,7 @@ Utgivningsdatum: 20 juni 2019
 
 **Automatiskt urval av innehåll**
 
-Med social utbildning kan innehåll som publiceras av elever kurateras på två sätt, nämligen - **Inget kurateringsverktyg** och **Manuell kuratering**. I den här versionen förbättrar Adobe Learning Manager social utbildning genom att tillhandahålla AI-aktiverade funktioner för automatisk kurering. När innehållet har publicerats analyseras det för att identifiera om det tillhör den kompetens som det har publicerats för. Baserat på konfidenspoängen antingen läggs innehållet upp live eller skickas för manuell kuratering. Mer information finns i *[**&#x200B; Automatisk kuratering &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+Med social utbildning kan innehåll som publiceras av elever kurateras på två sätt, nämligen - **Inget kurateringsverktyg** och **Manuell kuratering**. I den här versionen förbättrar Adobe Learning Manager social utbildning genom att tillhandahålla AI-aktiverade funktioner för automatisk kurering. När innehållet har publicerats analyseras det för att identifiera om det tillhör den kompetens som det har publicerats för. Baserat på konfidenspoängen antingen läggs innehållet upp live eller skickas för manuell kuratering. Mer information finns i *[** Automatisk kuratering **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mappa kompetens med kompetensdomäner**
 
@@ -2120,9 +2125,11 @@ Utgivningsdatum: 26 april 2019
 
 * **Skanna QR-koden för att registrera dig:** QR-kodfunktionerna har förbättrats. Förutom att stödja närvaromärkning med QR-kod kan du nu även registrera dig för en kurs och slutföra en kurs med QR-kod.
 
-För att registrera dig till en kurs och slutföra kursen kan du skanna en QR-kod som din administratör har tillhandahållit. Mer information om hur du skannar QR-koder i webbversionen av Learning Manager finns i [***Skanna QR-kod***](<https://helpx.adobe.com/captivate-Learning>Manager/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse).
+  För att registrera dig till en kurs och slutföra kursen kan du skanna en QR-kod som din administratör har tillhandahållit. <!-- For more information on scanning QR codes in the web version of Learning Manager, see  [***Scan QR code***](https://helpx.adobe.com/captivate-Learning>Manager/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse) -->.
 
-* **Flera försök till kurs:** Med Learning Manager-appen kan eleven delta i kurser med flera försök aktiverade. Mer information om att konfigurera flera försök finns i [***Flera försök***](<https://helpx.adobe.com/captivate-Learning>Manager/authors/feature-summary/courses.html#Multiattempts).
+* **Flera försök till kurs:** Med Learning Manager-appen kan eleven delta i kurser med flera försök aktiverade. <!-- For more information on setting up multiple attempts, see  [***Multiple attempts***](<https://helpx.adobe.com/captivate-Learning>Manager/authors/feature-summary/courses.html#Multiattempts). -->
+
+<!-- NOTE TO AUTHORS: Above URLs are 404s -->
 
 +++
 
@@ -2664,7 +2671,7 @@ Utgivningsdatum: 6 december 2016.
 
 ### Förbättring {#enhancement}
 
-Som en del av den här uppdateringen tillhandahåller Learning Manager slutpunkten [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>ManagerAPI/v1/#!/user/patch_users_id) för att uppdatera användare i ett program. Du kan komma åt den här API-slutpunkten i administratörsrollen. Med **&#x200B;**&#x200B;här slutpunkten kan du uppdatera följande information om Learning Manager-användare:
+Som en del av den här uppdateringen tillhandahåller Learning Manager en slutpunkt <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> för att uppdatera användare i ett program. Du kan komma åt den här API-slutpunkten i administratörsrollen. Med **** här slutpunkten kan du uppdatera följande information om Learning Manager-användare:
 
 * Namn
 * E-post
@@ -2873,7 +2880,7 @@ När en administratör använder en underdomän som redan används av ett annat 
 * När en användare med auktoriseringsbehörighet för elevomfattning försöker lägga till användare visades ett allmänt felmeddelande. Problemet har åtgärdats och ett meddelande om obehörig åtkomst visas för eleven nu.
 * När en användare försöker ta bort en sista befintlig användare i en användargrupp visas ett felmeddelande om 204 för användaren. Problemet åtgärdas nu genom att ett relevant felmeddelande visas till användaren om att gruppen ska ha minst en användare.
 * Utrymmet, om det finns i början av namnet, trimmades medan användarnamnet visades i GET/users API. Det här är fixat nu.
-* Utkastkurserna returnerades också som svar när Administratören försöker hämta alla kurser. Dessa utkast till kurser är tänkta att vara privata för författaren. Problemet är åtgärdat. Kursutkast återkommer inte nu.
+* Utkastkurserna returnerades också som svar när administratören försöker hämta alla kurser.Dessa utkast till kurser är tänkta att vara privata för författaren. Problemet är åtgärdat. Kursutkast återkommer inte nu.
 
 **Integrering med Adobe Connect**
 
@@ -3108,7 +3115,7 @@ När externa elever besöker registreringssidan med hjälp av en extern profil-U
 **Förhandsgranska och publicera kurser**
 
 * När du i författarrollen förhandsgranskar en kurs som laddats upp från Captivate som ett SCORM+SWF-innehåll med variabeln `code $$cpQuizInfoStudentName$$`, visas ett null-värde för variabeln. Problemet har åtgärdats.
-* När en presentatörskurs med titel som innehåller apostrof (&#39;) publiceras och visas i Learning Manager, brukade frågetecken (???) visas i innehållsförteckningen. Problemet har åtgärdats.
+* När en Presenter-kurs med titel som innehåller apostrof (&#39;) publiceras och visas i Learning Manager, blir det frågetecken (???) tidigare visades i innehållsförteckningen. Problemet har åtgärdats.
 
 **Certifieringar**
 
@@ -3174,7 +3181,7 @@ Export av registreringsdata misslyckas om en av de registrerade eleverna tas bor
 
 **E-postmallar**
 
-* Ordet **partners,** som användes för att representera externa grupper,**&#x200B;** tas bort **&#x200B;**&#x200B;från brödtext och titel för e-postmallar. Externa grupper kallas inte nödvändigtvis partner.\
+* Ordet **partners,** som användes för att representera externa grupper,**** tas bort **** från brödtext och titel för e-postmallar. Externa grupper kallas inte nödvändigtvis partner.\
   **Obs!** Den uppdaterade mallen visas inte om standardmallen redan har ändrats. Om du vill visa den uppdaterade mallen klickar du på **Återgå till original** i dialogrutan **Mallförhandsvisning**.
 
 * Det går inte att klicka på URL:en i e-postmeddelandet som mottas av administratörer när **Profilen har skapats (självregistrering)** och **Profilen har skapats (externa/partners)** e-postmallar har redigerats. Problemet har åtgärdats.

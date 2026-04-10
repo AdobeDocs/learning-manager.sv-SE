@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Anslutningar för Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 795f465a0a2a96a8f1b5bc8b120736c25b412303
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '15546'
+source-wordcount: '15714'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,7 @@ Läs vidare för att lära dig hur du konfigurerar och använder var och en av d
 >
 >* Learner Transcripts
 >* xAPI
+
 -->
 
 >[!NOTE]
@@ -202,7 +203,7 @@ Om du vill installera paketet måste du först ta bort det befintliga paketet i 
 >Adobe Learning Manager-programmet stöds bara i Salesforce Lightning-vyn.
 
 1. Starta [URL till Learning Manager-paketet](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WOQ).
-1. Klicka på **på sidan** Inloggning **[!UICONTROL Use Custom Domain]**.
+1. Klicka på **[!UICONTROL Use Custom Domain]** på sidan **Inloggning**.
 1. Ange paketets URL och klicka på **[!UICONTROL Continue]**. Alternativet Installera endast för administratörer måste vara markerat på installationssidan. Ändra inte det här alternativet.
 1. Klicka på **[!UICONTROL Install]**. Klicka på **[!UICONTROL Done]** när paketet har installerats. Du kommer till sidan Installerade paket där du kan se det installerade Adobe Learning Manager-paketet.
 1. Gå till Appstartaren (bredvid Konfiguration) och sök efter Adobe Learning Manager.
@@ -403,7 +404,8 @@ När du är ansluten ser du fjärrfilerna på höger sida och dina lokala filer 
 >
 >Undvik att ändra viktiga filer på servern när du överför filer.
 
-<!--1. A dialog appears prompting you to enter the email id. Provide the email id of the person responsible for managing the Learning Manager FTP account for the organization. Click **[!UICONTROL Connect]** after providing the email id. 
+<!--
+1. A dialog appears prompting you to enter the email id. Provide the email id of the person responsible for managing the Learning Manager FTP account for the organization. Click **[!UICONTROL Connect]** after providing the email id. 
 1. Learning Manager sends you an email prompting the user to reset the password before accessing the FTP for the first time. The user must reset the password and use it for accessing the Learning Manager FTP account.
 
    >[!NOTE]
@@ -420,7 +422,8 @@ När du är ansluten ser du fjärrfilerna på höger sida och dina lokala filer 
    * Export Learner Transcripts - OnDemand
 
    ![](assets/ftp-connector-dashboard.png)
-   *Export options*-->
+   *Export options*
+-->
 
 ### Importera {#import}
 
@@ -526,7 +529,8 @@ Med importalternativen för xAPI kan du schemalägga import av xAPI-satser från
 
 +++
 
-<!--### Export
+<!--
+### Export
 
 +++Skills
 
@@ -570,7 +574,8 @@ To open the Export folder where the exported files are placed in your FTP locati
 
 The auto-exported files are present in the location **Home/export/&#42;FTP_location&#42;**
 
-The auto-exported files are available with the title, **learner_transcript_&#42;date from&#42;_to_&#42;date to&#42;.csv**-->
+The auto-exported files are available with the title, **learner_transcript_&#42;date from&#42;_to_&#42;date to&#42;.csv**
+-->
 
 ### Stöd för manuella csv-fält {#support-for-manual-csv-fields}
 
@@ -663,9 +668,11 @@ GetAbstract-kopplingen används av företagskunder på getAbstract.com, som vill
 
 1. Om du konfigurerar getAbstract-anslutningen för första gången klickar du på Anslut.
 
-   <!--Configure the Exavault FTP account before you configure this connector.
+   <!--
+Konfigurera Exavault FTP-kontot innan du konfigurerar denna anslutning.
 
-   Ensure that you share this FTP credentials with your content provider to access the feeds.-->
+Dela FTP-uppgifterna med din innehållsleverantör så att du får åtkomst till dem.
+-->
 
 1. Ange ett namn för anslutningen i fältet Anslutningsnamn.
 
@@ -725,9 +732,11 @@ Harvard ManageMentor används av företagskunder på Harvard ManageMentor, som v
 
 1. Om du konfigurerar Harvard ManageMentor-anslutningen för första gången klickar du på Anslut.
 
-   <!--Configure the Exavault FTP account before you configure this connector.
+   <!--
+Konfigurera Exavault FTP-kontot innan du konfigurerar denna anslutning.
 
-   Ensure that you share this FTP credentials with your content provider to access the feeds.-->
+Dela FTP-uppgifterna med din innehållsleverantör så att du får åtkomst till dem.
+-->
 
 1. I fältet Anslutningsnamn anger du ett namn för din anslutning. Klicka på Anslut för att spara anslutningen.
 1. Om du redan har upprättat en anslutning, klicka på Harvard ManageMentor > Manage Connections på startsidan. Klicka på anslutningen som du vill redigera den befintliga konfigurationen för.
@@ -813,7 +822,7 @@ Administratören kan konfigurera schemaläggningsuppgifter enligt organisationen
 >
 >Be Workday-administratören för din organisation att skapa en ISU (Integration System User) med de behörigheter som definieras i dokumentet ISU_Permissions. Hämta en kopia via länken nedan.
 
-[Ladda ned en kopia av ISU-säkerhet (Integration System User).](assets/isu-permissions-v1.pdf) Lär dig mer om hur du integrerar Workday-anslutning med Learning Manager.
+[Hämta en kopia av ISU-säkerhet (Integration System User).](assets/isu-permissions-v1.pdf) Lär dig hur du integrerar Workday-anslutning med Learning Manager.
 
 1. Håll muspekaren över panelen Workday på Learning Manager-startsidan. En meny visas. Klicka på **[!UICONTROL Connect]** objekt i menyn.
 
@@ -1035,9 +1044,11 @@ För att konfigurera   miniOrange   kontakta Learning Manager CSM-teamet.
 
 1. Du får en avisering när importen är klar. Klicka på **[!UICONTROL Users > Import log.]** om du vill visa eller redigera importloggen
 
-<!-- #### Delete a connection {#deleteaconnection}
+<!--
+ #### Delete a connection {#deleteaconnection}
 
-To delete an established  miniOrange  connection, follow these steps. -->
+To delete an established  miniOrange  connection, follow these steps. 
+-->
 
 ## Zoomkoppling {#zoom-connector}
 
@@ -1047,24 +1058,30 @@ Följ de här stegen för att konfigurera och använda anslutningen.
 
 1. På startsidan för Learning Manager håller du pekaren över zoomminiatyrbilden. En meny visas. Klicka på alternativet **[!UICONTROL Connect]** på menyn.
 
-   <!-- ![](assets/connectors.png)
+   <!--
+![](assets/connectors.png)
 
-   *Zoom connector tile* -->
+*Zoomkopplarpanel*
+-->
 
 1. Sidan Zoomkoppling öppnas. Ange information om kontot i respektive fält för att integrera och synkronisera användarflödet. Du kan få information från administratören för ditt anslutningskonto.
 
-   <!-- ![](assets/bluejeans-connecotrpage.png)
-   *Connect to BlueJeans/ Zoom* -->
+   <!--
+![](assets/bluejeans-connecotrpage.png)
+*Anslut till BlueJeans/ Zoom*
+-->
 
-   >[!NOTE]
-   >
-   >Elever som aktiverar kopplingen ska använda samma e-post-ID som används för ditt konto för Learning Manager för att möjliggöra återkoppling av användare till Learning Manager.
+>[!NOTE]
+>
+>Elever som aktiverar kopplingen ska använda samma e-post-ID som används för ditt konto för Learning Manager för att möjliggöra återkoppling av användare till Learning Manager.
 
 1. När anslutningen upprättats kan du som författare skapa en VC-kurs med Zoom som konferenssystem.
 
-   <!-- ![](assets/vc.jpg)
-   
-   *Create a VC course* -->
+   <!--
+![](assets/vc.jpg)
+
+*Skapa en VC-kurs*
+-->
 
 1. Administratörer, chefer och elever kan registrera elever för kursen som skapats. Vid registreringen får eleven ett e-postmeddelande. Eleven kan logga in på sitt Learning Manager-konto för att visa programinformationen och ta kursen.
 1. När kursen är slutförd skickas slutrapporten till Learning Manager. Administratören kan se slutföranderapporten för att kontrollera elevernas närvaro och poäng.
@@ -1313,10 +1330,12 @@ LinkedIn Learning Connector används av företagskunder på LinkedIn.com som vil
 1. Klicka på [!UICONTROL LinkedIn Learning] på kontrollpanelen Integreringsadministratör. Alternativen Komma igång, Anslut och Hantera anslutningar visas.
 1. Klicka på [!UICONTROL Connect] om du konfigurerar LinkedIn Learning-anslutningen för första gången.
 
-   <!--Configure the Exavault FTP account before you configure this connector.
+   <!--
+Konfigurera Exavault FTP-kontot innan du konfigurerar denna anslutning.
 
-   ![](assets/configure.jpg)
-   *Configure connection*-->
+![](assets/configure.jpg)
+*Konfigurera anslutning*
+-->
 
 1. Ange ett namn på anslutningen på anslutningssidan. Ange appnyckeln och den hemliga nyckeln för din anslutning.
 
@@ -1409,7 +1428,7 @@ Du kan använda integrering med den här anslutningen för att dra nytta av dina
 
 ### Konfigurera anslutningen {#configuring-the-connector}
 
-Om du vill konfigurera anslutningen håller du pekaren över panelen **[!UICONTROL Connectors]** på sidan **[!UICONTROL Power BI]** och klickar på **[!UICONTROL Connect]**. Power BI-sidan öppnas. Om du vill upprätta en anslutning anger du App Client ID, App Client Secret, Klientorganisationens namn och Workspace ID (valfritt). Följ de här stegen för att erhålla dessa inloggningsuppgifter.
+Om du vill konfigurera anslutningen håller du pekaren över panelen **[!UICONTROL Power BI]** på sidan **[!UICONTROL Connectors]** och klickar på **[!UICONTROL Connect]**. Power BI-sidan öppnas. Om du vill upprätta en anslutning anger du App Client ID, App Client Secret, Klientorganisationens namn och Workspace ID (valfritt). Följ de här stegen för att erhålla dessa inloggningsuppgifter.
 
 ![](assets/power-bi-configurepage.png)
 
@@ -1419,7 +1438,7 @@ Om du vill konfigurera anslutningen håller du pekaren över panelen **[!UICONTR
 1. Klicka på **[!UICONTROL Embed for your organization]** och logga in på ditt Microsoft-konto.
 1. Ange programmets namn.
 1. I avsnittet Apptyp väljer du alternativet Webbapp på serversidan.
-1. Välj alternativet **[!UICONTROL Redirect URL]** Använd en anpassad URL **i avsnittet** (välj detta om du känner till målprogrammets URL). Ange följande URL:
+1. Välj alternativet **Använd en anpassad URL** i avsnittet **[!UICONTROL Redirect URL]** (välj detta om du känner till målprogrammets URL). Ange följande URL:
 
    `https://learningmanager.adobe.com/ctr/app/azure/_callback` (uppdatera domänen baserat på miljön)
 
@@ -1558,14 +1577,16 @@ Det gör att användare kan ladda ner de här mallarna och använda dem i Power 
 
 [**Hämta mallarna**](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:842bb6a2-cd7d-4c3d-b968-da38bc1cc18a)
 
-<!--<table> 
+<!--
+<table> 
  <tbody>
   <tr> 
    <td><img src="assets/download.png"></td> 
    <td><p> </p> <p><a disablelinktracking="false" href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:842bb6a2-cd7d-4c3d-b968-da38bc1cc18a"><strong><em>Download the templates</em></strong></a></p></td> 
   </tr> 
  </tbody>
-</table>-->
+</table>
+-->
 
 Du kan även hämta mallarna manuellt via länken ovan. Använd mallarna och anpassa dina rapporter därefter.
 
@@ -2003,7 +2024,8 @@ Exportera data från Learning Manager-händelser till en Marketo Engage-instans.
 * Egenregistrering
 * Färdighet
 
-<!--## BlueJeans Events {#bj-events}
+<!--
+## BlueJeans Events {#bj-events}
 
 BlueJeans Events connector connects Learning Manager and BlueJeans systems to automate data synchronization. Using this connector, you can:
 
@@ -2052,11 +2074,12 @@ The Author, in the Author app, then selects an event from the list of available 
 
 >[!NOTE]
 >
->We've added a caching mechanism that improves the overall user experience. It is applicable when you select additional event creators. In this mode, the events are fetched the first time when an author searches for an event. The cache persists for 30 mins so that authors know how long they must wait to fetch the new events.-->
+>We've added a caching mechanism that improves the overall user experience. It is applicable when you select additional event creators. In this mode, the events are fetched the first time when an author searches for an event. The cache persists for 30 mins so that authors know how long they must wait to fetch the new events.
+-->
 
 ## Microsoft Teams Connector {#microsoft-teams-connector}
 
-Microsoft® Teams® är en beständig chattbaserad samarbetsplattform som stöder dokumentdelning, onlinemöten och andra funktioner för affärskommunikation.
+® Teams® är en beständig chattbaserad samarbetsplattform som stöder dokumentdelning, onlinemöten och andra funktioner för affärskommunikation.
 
 Adobe Learning Manager använder en virtuell klassrumskontakt som kan användas för att integrera Microsoft Teams-möten i Learning Manager.
 
@@ -2106,7 +2129,7 @@ Ange anslutningsnamn och domännamn
 1. Välj **[!UICONTROL Type of interface]** bland följande alternativ:
 
    * **[!UICONTROL Native Learning Manager]**: Det här är standarderbjudandet som endast är tillgängligt för det inbyggda gränssnittet.
-   * **[!UICONTROL &#x200B; Headless interfaces]**: Det här är premiumerbjudandet som exponerar API:er för att skapa en icke-inloggad upplevelse.
+   * **[!UICONTROL  Headless interfaces]**: Det här är premiumerbjudandet som exponerar API:er för att skapa en icke-inloggad upplevelse.
 
    ![](assets/types-of-interface.png)
 Typer av gränssnitt
@@ -2200,7 +2223,7 @@ Förutom att initiera ett köp samlar kopplingen också in köpeinformation frå
 
 1. Åsidosättningsgräns via anpassad modul. Det här är ett valfritt steg, men rekommenderas starkt för stora datauppsättningar.
 1. Aktivera alla asynkrona API:er på sidan. Eftersom det kan finnas mycket data, sker exporten asynkront. API:erna från Adobe Commerce kallas för att begära att nyttolast skickas. Begäran skickar meddelanden till en kö och det finns en konsument till den här kön, som bearbetar meddelandena och skapar produkter på handelssidan. Adobe Commerce tillhandahåller inte den här asynkrona bearbetningen som standard. Därför måste du aktivera det här alternativet.
-1. Lägg till en länk för att gå tillbaka till ALM på sidan för genomförda betalningar. Denna retur-URL måste konfigureras i Adobe Commerce. Den URL som ska användas för länken. - `https://learningmanager.adobe.com/app/learner#/postPayment`
+1. Lägg till en länk för att gå tillbaka till ALM på sidan för genomförda betalningar. Denna retur-URL måste konfigureras i Adobe Commerce. Den URL som ska användas för länken. -  `https://learningmanager.adobe.com/app/learner#/postPayment`
 1. Ändra indexering från &quot;Vid sparande&quot; till &quot;Schemalagt&quot;.  Mer information finns i [kB](https://support.magento.com/hc/en-us/articles/360040227191).
 1. Använd följande korrigeringsfiler. Mer information finns i [Använda korrigeringar](https://devdocs.magento.com/cloud/project/project-patch.html).
 1. Konfigurera snabbt.  Snabbt krävs för Adobe Commerce på molninfrastruktur och används i mellanlagrings- och produktionsmiljöer. Mer information finns i [Snabbkonfiguration](https://devdocs.magento.com/cloud/cdn/configure-fastly.html).
@@ -2235,7 +2258,7 @@ När en författare har angett priserna för olika kurser, utbildningsvägar ell
 
 >[!NOTE]
 >
->I mars 2024-versionen av Adobe Learning Manager har vi infört stöd för [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=sv-SE).
+>I mars 2024-versionen av Adobe Learning Manager har vi infört stöd för [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
 
 
 1. Klicka på **[!UICONTROL Export Training Metadata]** > **[!UICONTROL On Demand]**.

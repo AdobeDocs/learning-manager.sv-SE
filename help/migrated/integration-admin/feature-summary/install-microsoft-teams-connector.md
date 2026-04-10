@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Installera Microsoft Teams-anslutning i Adobe Learning Manager
 contentowner: saghosh
 exl-id: 68092187-ac69-4727-a3dc-f3047a1e164d
-source-git-commit: 6192559436074c3270644850b202589961e7b81b
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1168'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Mer information finns i [Roller i ett teammöte - Microsoft](https://support.mic
 
 Du kan använda Microsoft Teams-anslutning om du har Office 365 E3 eller Office 365 E5. Det rekommenderade alternativet är Office 365 E5.
 
-* Gå till sidan [Microsoft-planer](https://www.microsoft.com/en-in/microsoft-365/enterprise/compare-office-365-plans?&ef_id=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&OCID=AID2100137_SEM_CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&lnkd=Google_O365SMB_Brand&gclid=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE). På webbsidan kan du antingen köpa E3- eller E5-konto eller klicka på Prova gratis.
+* Gå till sidan [Microsoft-planer](https://www.microsoft.com/en-in/microsoft-365/enterprise/compare-office-365-plans?&ef_id=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&OCID=AID2100137_SEM_CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqc Wc0xoC9RcQAvD_BwE:G:s&lnkd=Google_O365SMB_Brand&gclid=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ coQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE). På webbsidan kan du antingen köpa E3- eller E5-konto eller klicka på Prova gratis.
 * Ange den information som krävs och skapa ett konto.
 
 >[!NOTE]
@@ -94,12 +94,12 @@ Observera klientsekretessen, som kommer att användas ytterligare under integrer
 1. Klicka på **[!UICONTROL Add a permission]**.
 1. Välj **[!UICONTROL Microsoft Graph]** > **[!UICONTROL Application permissions]** och lägg till följande behörigheter:
 
-   1. Chat.Read.All
-   1. Directory.Read.All
+   1. chat.read.all
+   1. Directory.read.all
    1. OnlineMeetingArtifact.Read.All
    1. OnlineMeetings.Read.All
    1. OnlineMeetings.ReadWrite.All
-   1. User.Read.All
+   1. user.read.all
    1. OnlineMeetingRecording.Read.All
 
 1. Klicka på **[!UICONTROL Grant admin access for Adobe]**.
@@ -154,7 +154,8 @@ Detta gör det möjligt för kontakten att få tillgång till Microsoft Teams on
 1. Klicka på **[!UICONTROL Manage Product Licenses]**.
 1. Aktivera licens för Office 365 E5 utan ljudkonferenser.
 
-<!--## Record a session
+<!--
+## Record a session
 
 The API used for recording a session is a protected API. To access the API, you must request access from Microsoft. For more information, see this  [document](https://docs.microsoft.com/en-us/graph/teams-protected-apis).
 
@@ -164,7 +165,8 @@ In the document,
 
 For learners, the recording URL is displayed on the VC course overview page.
 
-After 30 minutes of completing a course, the attendance for the learner gets marked. -->
+After 30 minutes of completing a course, the attendance for the learner gets marked. 
+-->
 
 ## Vanliga frågor
 
@@ -174,19 +176,19 @@ I [dokumentationen](https://support.microsoft.com/en-us/office/roles-in-a-teams-
 
 +++
 
-+++Bör en organisatör vara registrerad användare i både Learning Manager och Microsoft Teams?
++++Bör en organisatör vara registrerad användare i både Learning Manager och Microsoft Teams? 
 
 Ja, arrangören bör också vara en del av både Learning Manager och Microsoft Teams. Dessutom måste organisatören vara en del av samma Microsoft-klient som är konfigurerad i integrationsadministratörsappen.
 
 +++
 
-+++Ska en presentatör vara registrerad användare i både Learning Manager och Microsoft Teams?
++++Bör en presentatör vara registrerad användare i både Learning Manager och Microsoft Teams? 
 
 Ja, presentatören bör också ingå i både Learning Manager och Microsoft Teams. Presentatören måste ha ett Azure Active Directory-ID (kan vara en del av samma klientorganisation som organisatören eller en del av en annan klientorganisation). Dessutom kan även anonyma användare (användare som bara loggar in med användarnamnet och inte en del av Active Directory) göras till presentatörer av organisatören/befintliga presentatörer under mötet.
 
 +++
 
-+++Microsoft Teams har möten, webbseminarier och liveevenemang. Vilken stöder Teams-anslutningen?
++++Microsoft Teams har möten, webbseminarier och liveevenemang. Vilken stöder Teams-anslutningen? 
 
 För närvarande stöder Teams-anslutningen bara Meetings i Microsoft Teams. Mer information finns i det här [dokumentet](https://docs.microsoft.com/en-us/microsoftteams/quick-start-meetings-live-events).
 

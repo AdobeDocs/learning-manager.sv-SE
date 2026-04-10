@@ -2,9 +2,9 @@
 title: RECOMMENDATIONS i ADOBE LEARNING MANAGER
 description: Kärnan i rekommendationsmotorn drivs av Learning Managers nya kursrankningsalgoritm. Algoritmen använder 50 miljoner datapunkter och fem års aggregerade utbildningsdata för miljontals användare för att rangordna kurser baserat på deras sannolikhet för registrering. Denna rankning säkerställer att de flesta registrerbara kurser visas i förväg för eleverna.
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1466'
 ht-degree: 2%
 
 ---
@@ -64,8 +64,10 @@ Administratörer får ett guidat arbetsflöde i Learning Manager för att optima
 
 1. Klicka på **[!UICONTROL Proceed]** för att uppgradera till det nya rekommendationssystemet.
 
-   <!--![Proceed to the new system](assets/image521152.png)
-   *Select the Proceed button*-->
+   <!--
+   ![Proceed to the new system](assets/image521152.png)
+   *Select the Proceed button*
+   -->
 
 1. Skapa rekommendationsparametrar för Produkter och Roller.
 
@@ -114,14 +116,14 @@ Som en del av dataförberedelseövningen tillhandahåller vi två CSV-mallar:
 
 **RecUser.csv**
 
-* Användar-id
+* Användar-ID
 * Produkter
 * Roller
 * Nivåer (Nybörjare, Mellannivå eller Avancerad)
 
 Nedan följer ett exempel på poster i CSV-filen:
 
-| Användar-id | Produkter | Roller | Nivåer |
+| Användar-ID | Produkter | Roller | Nivåer |
 |--- |--- |--- |--- |
 | 123 | Datavetenskap | Analytiker | Analytiker: Medelkunniga |
 | 456 | Aerospace Engg | Tekniker | Tekniker: Avancerat |
@@ -151,7 +153,7 @@ Fyll i dessa CSV-filer och kontakta ditt kundframgångsteam för att hämta form
 När båda CSV-filerna har överförts klickar du på Go live. Detta kommer att göra det nya rekommendationssystemet synligt för eleverna.
 
 ![live](assets/computerdescription-automatically.png)
-*Publicera rekommendationerna*
+*Se till att rekommendationerna blir tillgängliga*
 
 Rekommendationssystemet är nu tillgängligt för dina elever.
 
@@ -177,7 +179,7 @@ Administratörer kan ta bort en parameter genom att klicka på ikonen med tre pu
 
 På inställningssidan för en kurs visas rekommendationerna för Produkter och Roller. Elever kommer att rekommenderas denna kurs om de har uttryckt intresse för dessa Produkter och Roller.
 
-![ställer in bild](assets/course-settings-image.png)
+![ställa in bild](assets/course-settings-image.png)
 *Sidan med kursinställningar*
 
 ## Elevvy
@@ -231,7 +233,7 @@ En elev kan se följande strimlor i appen:
 
 ### Kort på min utbildningsremsa
 
-![kort för utbildningsremsa](assets/image770606.png)
+![utbildningsremsa](assets/image770606.png)
 *Kort på utbildningsremsa*
 
 Varje kort har Gradering, Kortbild, Titel, Kompetens, Publiceringsdatum, Författare, Varaktighet, Förloppsindikator och knappen Fortsätt eller Utforska.

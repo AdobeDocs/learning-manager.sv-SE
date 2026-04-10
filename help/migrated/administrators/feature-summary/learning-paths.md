@@ -4,9 +4,9 @@ title: Utbildningsvägar
 description: Skapa utbildningsplaner för administratörer i Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1407'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Utbildningsvägar gör att du enkelt och problemfritt kan få ett utbildningspro
 
 I Learning Manager, i Admin-appen, klickar du på **[!UICONTROL Learning Path]** i den vänstra panelen.
 
-Klicka på **[!UICONTROL Learning Path]** på sidan **[!UICONTROL Add]**. Ange uppgifterna.
+Klicka på **[!UICONTROL Add]** på sidan **[!UICONTROL Learning Path]**. Ange uppgifterna.
 
 ![](assets/add-learning-path.png)
 
@@ -171,13 +171,14 @@ Följ stegen nedan:
 
 Observera att den befintliga funktionen i utbildningsprogrammen kommer att döpas om till Utbildningsväg omedelbart efter lanseringen. Om du vill fortsätta att kalla det för utbildningsprogram rekommenderar vi att du använder funktionen Terminologier för att tillämpa önskad terminologi. På så sätt kan du konsumera för att använda ordet Utbildningsprogram.
 
-Utbildningsvägar ger dig en mängd funktioner. Vissa av dem är tillgängliga omedelbart efter versionen. Administratörer/författare kan börja använda dem. Utökade funktioner som &quot;Avsnitt&quot;, &quot;lägga till utbildningsväg i en annan sökväg&quot; osv. är avaktiverade och kan aktiveras genom att markera kryssrutan nedan.
+Utbildningsvägar ger dig en mängd funktioner. Vissa av dem är tillgängliga omedelbart efter versionen. Administratörer/författare kan börja använda dem. Utökade funktioner som &quot;Avsnitt&quot;, &quot;lägga till utbildningsväg i en annan sökväg&quot; osv. är inaktiverade och kan aktiveras genom att markera kryssrutan som nämns nedan.
 
 Elever kan fortsätta att använda utbildningsprogram (som nu kallas utbildningsvägar) och författare/administratörer kan fortsätta att skapa dem också. För att dra nytta av de utökade funktionerna i utbildningsvägen som nämns ovan ska administratören aktivera inställningen enligt nedan. När den har aktiverats blir alla nya utökade funktioner i utbildningsvägen tillgängliga.
 
 Sidan **[!UICONTROL Settings]** > **[!UICONTROL General]** har ett nytt alternativ för att aktivera utbildningsvägar. Om det här alternativet är aktiverat kan du lägga till kurser och utbildningsprogram på en utbildningsväg. Du kan inte ändra alternativet när det har aktiverats.
 
-<!-- ## Other Learning Path-related details 
+<!--
+ ## Other Learning Path-related details 
 
 ### Learning Path option is disabled/unchecked in Admin Settings
 
@@ -249,4 +250,5 @@ Sidan **[!UICONTROL Settings]** > **[!UICONTROL General]** har ett nytt alternat
 
 **Reporting**
 
-* Same changes as that of Reporting stated above. -->
+* Same changes as that of Reporting stated above. 
+-->

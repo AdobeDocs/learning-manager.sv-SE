@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Elevapp för mobiler och surfplattor
 contentowner: manochan
 exl-id: 94c2b54c-a5e2-4262-bc3c-bd21d52e1f09
-source-git-commit: de57d96488851c31c380b34672767a803379842e
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '2702'
+source-wordcount: '2714'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,7 @@ Learning Manager uppmanar eleven att ge feedback om sin upplevelse av mobilappen
 <!--
 | ![](assets/image013.png) | ![](assets/image014.png)|
 |---|---|
+
 -->
 
 Befintliga användare bör se feedback-popup när de stänger spelaren för första gången efter att ha uppdaterat appen till den senaste versionen.
@@ -88,6 +89,7 @@ Det responsiva användargränssnittsstödet för mobilwebben är endast tillgän
   </tr>
  </tbody>
 </table>
+
 -->
 
 ## Uppmaning att hämta i ALM på webben
@@ -494,7 +496,7 @@ Klicka på **Överför fil** för att överföra filen.
 
 ## Godkännande eller avvisande av ansökan {#approvalorrejectionofsubmission}
 
-När du har överfört filen ändras statusen till **Väntar på godkännande.**. Instruktören visar sedan listan med [väntande bidrag](/help/migrated/instructors/feature-summary/learners.md) och godkänner eller avvisar inskickningen via webbappen för instruktörer.
+När du har överfört filen ändras statusen till **Väntar på godkännande.**. Instruktören visar sedan listan med [väntande bidrag](/help/migrated/instructors/feature-summary/learners.md) och godkänner eller avvisar överföringen via webbappen för instruktörer.
 
 När instruktören godkänner överföringen ändras statusen i elevmobilappen till **Godkänd**.
 
@@ -540,7 +542,8 @@ Användaren kan växla tillbaka till onlineläge genom att klicka på knappen **
 
 Elever kan nu lägga till flera kurser, utbildningsvägar eller certifieringar i vagnen och köpa dem tillsammans. Visa [Flerartikelvagn i ALM](/help/migrated/learners/feature-summary/multi-item-cart.md)
 
-<!--## Track device storage {#trackdevicestorage}
+<!--
+## Track device storage {#trackdevicestorage}
 
 You can monitor your device storage periodically.
 
@@ -552,4 +555,5 @@ An app storage information dialog appears as shown below.
 
 ![](assets/app-storage.png)
 
-Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap delete icon adjacent to each course name.-->
+Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap delete icon adjacent to each course name.
+-->

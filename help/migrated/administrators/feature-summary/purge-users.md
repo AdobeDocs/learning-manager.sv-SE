@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Rensa användare
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1115'
 ht-degree: 1%
 
 ---
@@ -27,13 +27,15 @@ Använd funktionen Rensa användare för att ta bort användarens personliga ide
 * När du rensar en användare i Learning Manager tas användaren inte bort från externa program (system från tredje part eller andra program som du har skrivit). Kontakta externa programägare för att få användarna borttagna från sådana program.
 * Om en rensad användare hänvisas till i konfigurationsinställningarna för en anslutning inaktiveras anslutningen. Anslutningen måste konfigureras om av administratören för att kunna återupptas.
 
-<!---### Manage users
+<!--
+### Manage users
 
 In this training, you will learn how to assign and remove roles, send a welcome email, and delete and purge users. 
 
 [![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=4X3B8VJ2&mv=display&mv2=display#/course/7555586)
 
-If you're unable to launch the training, write to <almacademy@adobe.com>.-->
+If you're unable to launch the training, write to <almacademy@adobe.com>.
+-->
 
 ## Så här rensar du användare
 
@@ -63,7 +65,7 @@ Gör så här för att rensa användare:
 
 >[!NOTE]
 >
->När den borttagna användaren har lagts tillbaka i systemet behålls inte de tidigare rollerna (t.ex. Administratör, Chef, Författare, Instruktör etc.). De läggs till med elevrollen.
+>När den borttagna användaren har lagts tillbaka i systemet, de tidigare rollerna (t.ex. Administratör, Chef, Författare, Instruktör osv.) kommer inte att behållas.De läggs till med elevrollen.
 
 ## Massrensning av användare
 

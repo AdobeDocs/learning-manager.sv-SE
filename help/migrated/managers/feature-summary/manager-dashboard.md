@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Kontrollpanel för chef
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
-source-git-commit: fc10dcbedf1e91ccff2e0ccbcedb9bf6bbb89c67
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1438'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -139,7 +139,8 @@ På så sätt kan du följa teamets allmänna utbildningsframsteg.
 ![](assets/download-report.png)
 _Hämta rapporter_
 
-<!--On this dashboard, managers can also view the learners who are compliant, in a safe deadline, approaching deadline, and non-compliant for a selected learning object. 
+<!--
+On this dashboard, managers can also view the learners who are compliant, in a safe deadline, approaching deadline, and non-compliant for a selected learning object. 
 
 Learning Objects with completion deadlines can be configured in compliance dashboard for tracking. 
 
@@ -197,7 +198,8 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
 ![](assets/cs-send-email-andexport.png)
 
-*Export and email data*-->
+*Export and email data*
+-->
 
 ## Teamfärdigheter {#teamskills}
 
@@ -232,7 +234,7 @@ Gör så här för att prognostisera slutförandet av teamet i procent för en k
 
    *Välj länken Konfigurera hyperlänk*
 
-1. I dialogrutan Konfigurera anger du ett procentvärde i fältet **Målslutförande %** för kompetensen du vill konfigurera och datumet då du vill uppnå målslutförandet % i fältet **Måldatum**.**&#x200B;**
+1. I dialogrutan Konfigurera anger du ett procentvärde i fältet **Målslutförande %** för kompetensen du vill konfigurera och datumet då du vill uppnå målslutförandet % i fältet **Måldatum**.****
 
    ![](assets/configure-tracker.png)
 
