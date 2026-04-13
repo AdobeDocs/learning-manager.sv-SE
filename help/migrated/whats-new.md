@@ -2,19 +2,19 @@
 description: Läs om de nya funktionerna och förbättringarna, inklusive API- och webhookändringar, i april 2026-versionen av Adobe Learning Manager
 jcr-language: en_us
 title: Nyheter i Adobe Learning Manager-versionen från april 2026
-source-git-commit: f4ff53bf053b2c8c756961af990505d23ab22db3
+exl-id: da46f186-3ff3-422a-af49-31c7405fd584
+source-git-commit: 971a9c79fc2b831b990e30a44a2eeab5d5c5ce63
 workflow-type: tm+mt
 source-wordcount: '1768'
 ht-degree: 0%
 
 ---
 
-
 # Nyheter i Adobe Learning Manager-versionen från april 2026
 
 **För elever:** Fluidic-spelaren visar nu nästa modulnamn och en knapp för att avsluta. Spelarens språk kan ställas in via LTI för en konsekvent upplevelse på olika plattformar. Den anpassade parameterns namn är &quot;locale&quot; och den accepterar språkkoden. Till exempel locale=fr-FR. Captivate-innehåll innehåller en enhetlig innehållsförteckning, slutförandeskalor på bildnivå och tillförlitliga anteckningsexporter. Flerspråksstöd finns tillgängligt för arbetsstöd, checklistefrågor och videotextspår (VTT). AI-assistenten hjälper elever att få svar inom utbildningsupplevelsen.
 
-**För administratörer och författare:** Zoom Connector stöder flera samtidiga VILT-sessioner. Delade kurser i kollegiala konton visar den verkliga författaren istället för &quot;Extern författare&quot;. Administratörer kan begränsa när moduler kan startas. Förfallodatum för utbildningsobjekt visas i elevens API:er. Checklistmoduler har stöd för viktad poäng, flerspråkig frågetext och valfria granskningskommentarer. Anpassade certifikat har en dra och släpp-redigerare med dynamiska fält och AI-genererade bakgrunder. Med den icke inloggade Experience Builder kan du skapa offentliga utbildningssidor utan att behöva logga in.
+**För administratörer och författare:** Zoom-kopplingen stöder flera samtidiga VILT-sessioner. Delade kurser i kollegiala konton visar den verkliga författaren istället för &quot;Extern författare&quot;. Administratörer kan begränsa när moduler kan startas. Förfallodatum för utbildningsobjekt visas i elevens API:er. Checklistmoduler har stöd för viktad poäng, flerspråkig frågetext och valfria granskningskommentarer. Anpassade certifikat har en dra och släpp-redigerare med dynamiska fält och AI-genererade bakgrunder. Med den icke inloggade Experience Builder kan du skapa offentliga utbildningssidor utan att behöva logga in.
 
 **För instruktörer:** Generera QR-koder för instansregistrering och sessionsnärvaro. Lägg till kommentarer eller feedback under utvärderingen av checklistan.
 
