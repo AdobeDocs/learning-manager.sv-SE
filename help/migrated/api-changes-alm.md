@@ -458,7 +458,7 @@ Du bör behandla den äldre kolumnen för ordningsföljd som borttagen eller ign
 - Den centrala mappningen som krävs kvarstår:
    - Utbildningsprogram-id ↔ kurs-id (och alla andra fortfarande dokumenterade kolumner som id, learningProgramId, courseId och datum).
 
-Använd alltid de senaste [_CSV-specifikationerna_](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual) från ditt Learning Manager-konto (via csv_fications.zip) för att bekräfta den aktuella rubrikuppsättningen och kraven.
+Använd alltid de senaste [_CSV-specifikationerna_](https://experienceleague.adobe.com/sv/docs/learning-manager/using/integration/migration-manual) från ditt Learning Manager-konto (via csv_fications.zip) för att bekräfta den aktuella rubrikuppsättningen och kraven.
 
 ## timeZoneCode i kursinstanser
 
