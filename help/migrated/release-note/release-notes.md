@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Versionsinformation om Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
 workflow-type: tm+mt
-source-wordcount: '28038'
+source-wordcount: '29333'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,122 @@ ht-degree: 0%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/se/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
 -->
+
++++Uppdatering 105: April 2026-versionen av Adobe Learning Manager
+
+Utgivningsdatum: 11 april 2026
+
+## Nyheter och ändringar
+
+April 2026-versionen av Adobe Learning Manager innehåller förbättringar för elevupplevelse, administration, innehållsredigering och rapportering. Flera funktioner är för närvarande i betaversion och kan komma att ändras.
+
+**Förbättringar av elevupplevelsen**
+
+* Förbättrad navigering till Fluidic-spelaren med tydlig märkning för nästa modul och en särskild avslutningsåtgärd för bättre kursflöde.
+* Flerspråksstöd har utökats till arbetsstöd, checklistor och videobeskrivningar.
+* AI-assistenten integreras i utbildningsupplevelsen för att ge sammanhangsberoende hjälp.
+* Förbättrat Captivate-innehåll med enhetlig innehållsförteckning, slutförandeindikatorer och förbättrad anteckningsexport.
+* Stöd för inställning av spelarspråk via LTI för konsekvent plattformsöverskridande upplevelse.
+
+**Uppdateringar av administratörer och författare**
+
+* Zoom Connector stöder nu flera samtidiga virtuella sessioner, vilket förbättrar schemaläggningseffektiviteten.
+* Möjlighet att begränsa tidpunkten för modulstart och förbättrad synlighet för utbildningsobjekt via API:er.
+* Checklistmoduler som har förbättrats med viktade poäng, flerspråkigt stöd och alternativ för granskarfeedback.
+* Anpassade certifikat har uppgraderats med en dra och släpp-redigerare, dynamiska fält och AI-genererade bakgrunder.
+* Vi presenterar en icke-inloggad Experience Builder för att skapa offentliga utbildningssidor.
+* Delade kurser visar nu den ursprungliga skaparen korrekt.
+
+**Instruktörsfunktioner**
+
+* QR-kodgenerering för sessionsregistrering och närvarospårning.
+* Möjlighet att lämna kommentarer och feedback under utvärderingar av checklistor.
+
+**Förbättringar av rapporter och analyser**
+
+* SCORM-rapportering har förbättrats så att flera quiz-försök kan samlas in.
+* Mer exakta beräkningar av inlärningstid i elevens betygsutdrag.
+* Uppdateringar av transkriptionsrapporter för administratörer.
+* Förbättrad avancerad sökfunktionalitet.
+
+**Motsvarigheter och alternativ**
+
+* Förbättringar av motsvarigheter och alternativ förbättrar flexibiliteten i utbildningsvägar genom att möjliggöra mer exakt ersättning och kartläggning av kurser.
+
+**Nyckeleffekt**
+Uppdateringarna förbättrar användbarhet, skalbarhet och automatisering, med fokus på AI-assisterad inlärning, flerspråkig support, effektiviserad virtuell utbildningshantering och exaktare rapportering.
+
+Mer information finns i [Nyheter och ändringar i april 2026-versionen av Adobe Learning Manager](/help/migrated/whats-new.md).
+
+## Fel som är åtgärdade i den här versionen
+
+**Avancerad sökning:** Avancerad sökning respekterade inte LO-åtkomst baserat på användarregistrering när katalogåtkomst saknades. Avancerad sökning tillämpar nu samma registreringsbaserade åtkomstkontroller som lexikal sökning, vilket ger registrerade användare åtkomst till LO utan katalogåtkomst.
+
+**Adobe Experience Manager:** Katalogwidgetrubriken bevarade inte den markerade katalogen och öppnade katalogsidan med alla utbildningsobjekt istället för den filtrerade katalogen. När du klickar på en katalogwidget öppnas nu katalogsidan med motsvarande katalog förmarkerad och utbildningsobjekt korrekt filtrerade i den katalogen.
+
+**Enhetsapp för mobil:** Elever på mobilen kunde slutföra alla objekt i den första delen av en beställd utbildningsväg, men den andra delen låstes inte upp ens efter att utbildningen slutförts. När alla objekt i ett avsnitt har slutförts på mobilen låses nästa avsnitt i en beställd utbildningsväg upp korrekt för eleven.
+
+**LMS-migrering:** När en kursinstans som skapats via migreringen hade ett alfanumeriskt instans-ID skapades en ny session i stället för att den befintliga sessionen uppdaterades när migreringen kördes om för att uppdatera en VC-session. Migreringen uppdaterar nu befintliga VC-sessioner för kursinstanser med alfanumeriska ID:n på ett korrekt sätt i stället för att skapa dubblettsessioner.
+
+**Kursens längd:** För VILT-kurser togs längden på kursnivån alltid från en statisk LO_DURATION på standardinstansen, som blev 0 när sessioner togs bort och inte räknades om från de faktiska instansmodulerna. VILT-kursens varaktighet återspeglar nu de faktiska instansmodulerna i stället för att enbart förlita sig på ett inaktuellt LO_DURATION-värde eller noll från standardinstansen.
+
+**Anslutningar:** Eftersom styrenheten för Ember-moduldetaljer återanvändes i moduler uppdaterades inte vcHostingSystem konsekvent, vilket orsakade blandat VC/F2F-beteende och rensade instruktör-ID:n felaktigt endast baserat på vcHostingSystem. Modulhantering håller nu vcHostingSystem konsekvent och rensar bara instruktör-ID:n för verkliga VC-sessioner, så instruktörer uppdateras korrekt för konverterade F2F-sessioner.
+
+**LMS-migrering:** CSV-kolumnen för LearningProgramCourse för kursordningen har inte respekterats av servern, vilket innebär att kursordningen i LP-sektionerna ignorerades även om orderEnforced var true. Den oanvända CSV-kolumnen för kursordningen har tagits bort för att matcha serverdelsbeteendet och undvika att antyda en beställning via CSV som inte stöds.
+
+**Prestanda:** Ett automatiseringsarbetsflöde i AWS skickade upprepade felkodade hämtningsbegäranden (med ett okodat utrymme) till Akamai CMS HTTP API, vilket orsakade utbrott på 500 fel och mycket ogiltig trafik. Det automatiska arbetsflödet kodar nu utrymmen i hämtnings-URL:en korrekt via URL, vilket förhindrar ogiltiga förfrågningar och eliminerar de associerade 500 felstegen.
+
+**Registrering och avregistrering:** I vissa administrationsregistreringsflöden för utbildningsprogram, certifieringar och kurser registrerades registreringskällan felaktigt som SELF_ENROLL i stället för ADMIN_ENROLL. Administratörsdrivna registreringar lagras nu konsekvent med källans ADMIN_ENROLL i de berörda flödena.
+
+**Registrering och avregistrering:** För tröskelbaserade registreringar i en återkommande certifikatkedja registrerades elever i en senare upprepning även om de inte hade slutfört den tidigare upprepningen. Tröskelbaserad registrering respekterar nu upprepningskedjan, och elever registreras inte i en senare certifiering om de inte har slutfört den nödvändiga tidigare upprepningen.
+
+**Administratörsinställningar:** Administratörer kunde inte lägga till ett kollegialt konto vars underdomän började med ett nummer på grund av en valideringsregel som kräver att underdomänen börjar med en bokstav. Kollegiala konton med underdomäner som börjar med ett nummer accepteras nu, förutsatt att de i övrigt uppfyller de tillåtna teckenreglerna.
+
+**Kurs - quizpoäng:** Efter en administratörs återställning av frågeformulärsmodulen vid fjärradministration visade spelaren ett felaktigt värde på totalt 12 frågor i stället för de tre faktiska frågorna. Vid start utan huvud visar quiz-spelaren nu det korrekta totala antalet frågor efter en modulåterställning.
+
+**Författare:** När en innehållsgrupp uppdaterades från SCORM till CAPI uppdaterades inte rapporteringsinformationen och slutförandevillkoren, vilket innebar att innehållsgruppen inte slutfördes. Om du uppdaterar en innehållsgrupp från SCORM till CAPI uppdateras nu rapporteringsinformationen korrekt och lämpliga slutförandekriterier för innehållsgruppen anges.
+
+**Enhetsapp för mobil:** Nedladdningsbara resurser som öppnas i en ny flik via target=&quot;_blank&quot; hämtades inte när de trycktes i Captivate Prime-mobilappen. Om du trycker på en nedladdningsbar resurs i mobilappen initieras nu nedladdningen korrekt även när innehållet använder länkar target=&quot;_blank&quot;.
+
+**RTF-redigeraren:** Radbrytningar i RTF-beskrivningar togs bort i författarvyn efter publicering, även om eleverna fortfarande såg radbrytningarna. Beskrivningar av RTF LO behåller och visar nu radbrytningar korrekt i både författar- och elevvyer.
+
+## Känt problem/per design
+
+### Versionsbeteende för Second Nature-resurser
+
+Adobe Learning Manager (ALM) ökar inte versionen av Second Nature (SN)-resurser under redigeringsscenarier. Detta beteende återspeglar hur ALM hanterar uppdateringar av SN-innehåll snarare än ett författarval.
+
+Andra naturen stöder inte versionshantering i sitt källsystem. När en författare uppdaterar scenariodata i SN-portalen refererar ALM-resurser och deras associerade utbildningsobjekt (LO:er) automatiskt till det uppdaterade innehållet utan att skapa en ny version.
+
+Som jämförelse har ALM stöd för versionskontroll för filbaserade och LTI-baserade resurser, där författare kan ersätta filer eller uppdatera startlänkar. Eftersom dessa kontroller inte är tillgängliga för SN-integreringar stöder ALM inte versionstötning för Second Nature-innehåll.
+
+
++++
+
+
++++Uppdatering 104: AI-assistent för elever i Adobe Learning Manager
+
+Utgivningsdatum: 2 mars 2026
+
+## AI-assistent för elever
+
+Ett GenAI-drivet konversationsverktyg som är utformat för att hjälpa dina elever att hitta svar, resurser och relevanta kurser direkt med hjälp av naturliga språkfrågor.
+
+**Viktiga höjdpunkter**
+
+* Använder Retrieval-Augmented Generation (RAG) för att intelligent söka igenom kursinnehåll, arbetsstöd och utbildningsmaterial för att leverera korrekta och kontextuella svar.
+* Förstår sammanhang, behåller tidigare interaktioner och tillhandahåller citatbaserade svar som grundläggande källa till sanning, dessa kan konsumeras senare efter behov.
+* Ger elever möjlighet att begära personliga skript, samtalspunkter och sammanfattningar som är anpassade till deras individuella inlärningsbehov.
+* Söker i alla innehållsformat som stöds, bland annat PDF, DOCX, PPTX, Audio, Videos och SCORM 1.2 och 2004.
+
+Visa [AI-assistent för elever](/help/migrated/learners/feature-summary/learner-ai-assistant.md) för mer information.
+
++++
 
 +++Uppdatering 103: Adobe Learning Manager november 2025-utgåvan
 
@@ -187,7 +298,7 @@ Läs den här [artikeln](/help/migrated/learners/feature-summary/fluidic-player.
 
 * Ett problem har korrigerats där elever som hade slutfört en kurs såg en vit skärm när de gjorde ett nytt besök efter att innehållsmodulen hade uppdaterats till en ny version.
 
-Mer information om kommande ändringar av Adobe Learning Manager finns i den här [artikeln](https://experienceleague.adobe.com/sv/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Mer information om kommande ändringar av Adobe Learning Manager finns i den här [artikeln](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -1667,7 +1778,7 @@ I den här uppdateringen kan en elev ladda upp tillgångar som bevis på slutfö
 
 En elev kan öppna ett externt certifikat och överföra mediefiler som pdf, text eller bildfiler.
 
-Mer information finns i [***Överför resurser i det externa certifikatet***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Mer information finns i [***Överför resurser i det externa certifikatet***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problem som har åtgärdats i den här versionen {#issuesfixedinthisrelease}
 
@@ -2045,7 +2156,7 @@ Utgivningsdatum: 20 juni 2019
 
 **Automatiskt urval av innehåll**
 
-Med social utbildning kan innehåll som publiceras av elever kurateras på två sätt, nämligen - **Inget kurateringsverktyg** och **Manuell kuratering**. I den här versionen förbättrar Adobe Learning Manager social utbildning genom att tillhandahålla AI-aktiverade funktioner för automatisk kurering. När innehållet har publicerats analyseras det för att identifiera om det tillhör den kompetens som det har publicerats för. Baserat på konfidenspoängen antingen läggs innehållet upp live eller skickas för manuell kuratering. Mer information finns i *[**&#x200B; Automatisk kuratering &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+Med social utbildning kan innehåll som publiceras av elever kurateras på två sätt, nämligen - **Inget kurateringsverktyg** och **Manuell kuratering**. I den här versionen förbättrar Adobe Learning Manager social utbildning genom att tillhandahålla AI-aktiverade funktioner för automatisk kurering. När innehållet har publicerats analyseras det för att identifiera om det tillhör den kompetens som det har publicerats för. Baserat på konfidenspoängen antingen läggs innehållet upp live eller skickas för manuell kuratering. Mer information finns i *[** Automatisk kuratering **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mappa kompetens med kompetensdomäner**
 
@@ -2671,7 +2782,7 @@ Utgivningsdatum: 6 december 2016.
 
 ### Förbättring {#enhancement}
 
-Som en del av den här uppdateringen tillhandahåller Learning Manager en slutpunkt <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> för att uppdatera användare i ett program. Du kan komma åt den här API-slutpunkten i administratörsrollen. Med **&#x200B;**&#x200B;här slutpunkten kan du uppdatera följande information om Learning Manager-användare:
+Som en del av den här uppdateringen tillhandahåller Learning Manager en slutpunkt <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> för att uppdatera användare i ett program. Du kan komma åt den här API-slutpunkten i administratörsrollen. Med **** här slutpunkten kan du uppdatera följande information om Learning Manager-användare:
 
 * Namn
 * E-post
@@ -3181,7 +3292,7 @@ Export av registreringsdata misslyckas om en av de registrerade eleverna tas bor
 
 **E-postmallar**
 
-* Ordet **partners,** som användes för att representera externa grupper,**&#x200B;** tas bort **&#x200B;**&#x200B;från brödtext och titel för e-postmallar. Externa grupper kallas inte nödvändigtvis partner.\
+* Ordet **partners,** som användes för att representera externa grupper,**** tas bort **** från brödtext och titel för e-postmallar. Externa grupper kallas inte nödvändigtvis partner.\
   **Obs!** Den uppdaterade mallen visas inte om standardmallen redan har ändrats. Om du vill visa den uppdaterade mallen klickar du på **Återgå till original** i dialogrutan **Mallförhandsvisning**.
 
 * Det går inte att klicka på URL:en i e-postmeddelandet som mottas av administratörer när **Profilen har skapats (självregistrering)** och **Profilen har skapats (externa/partners)** e-postmallar har redigerats. Problemet har åtgärdats.

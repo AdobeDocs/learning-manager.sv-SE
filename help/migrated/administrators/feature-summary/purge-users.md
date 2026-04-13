@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Rensa användare
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1429'
 ht-degree: 1%
 
 ---
@@ -234,6 +234,49 @@ Du kan sortera de filtrerade användarna efter deras **[!UICONTROL Unique User I
 </table>
 
 +++
+
+### Rensa borttagna användare automatiskt{#auto-purge}
+
+Raderingen av borttagna användare automatiskt är en funktion som rensar data för användare som redan har raderats i ALM. Rensning sker efter en konfigurerbar lagringsperiod, med fokus på gruppåtgärder så att stora kundkonton kan hanteras effektivt utan att försämra prestanda.
+
+Flödet för massborttagning kan bearbeta upp till 10 000 användare per grupp. Funktionen är placerad som en bakgrundstjänst med fokus på tillförlitlighet för borttagning av stora volymer.
+
+Som administratör kan du ange under vilken tid rensade användare kan tas bort. Visa [Administratörsinställningar](/help/migrated/administrators/feature-summary/settings.md) om du vill ha mer information.
+
+#### Vad den gör:
+
+* Ange konfigurerbar automatisk rensning för borttagna användare på kontonivå
+* Se till att användarna rensas inom 24 timmar när de uppfyller rensningskriterierna
+* Stöd massborttagning av upp till 10 000 användare per dag** utan att försämra systemprestanda
+* Upprätthåll systemets allmänna svarstid och databasens tillstånd medan dessa åtgärder körs
+* Upprätthåll automatiserad datalagringshantering för att upprätthålla GDPR-åtaganden
+
+#### Vad det inte gör:
+
+* Flödet för massborttagning körs endast som ett schemalagt cron-jobb (inte på begäran per begäran)
+
+### Aktivera alternativet Automatisk tömning
+
+1. Logga in i Adobe Learning Manager som administratör.
+2. Gå till avsnittet **Konfigurera** > avsnittet **Inställningar** > avsnittet **Grundläggande** > **Allmänt**.
+3. Bläddra nedåt på sidan till **Töm borttagna användare automatiskt**.
+   ![](assets/auto-purge1.png)
+   *Alternativ för automatisk tömning*
+   >[!NOTE]
+   >
+   >Om **Automatisk rensning av borttagna användare** inte är aktiverat visas följande meddelande i avsnittet: **Inte konfigurerat** längst ned i avsnittet.
+4. Välj **Redigera**.
+5. Markera kryssrutan **Aktivera**.
+6. Ange hur länge rensningen ska börja gälla.
+   >[!NOTE]
+   >
+   >Minimivärdet bör vara ett år. Du kan också öka den med 1. Du kan dock inte ange ett värde som 1,5 år eller 2,5 år. Kontakta vår kundsupport om du behöver ett anpassat värde som varaktighet.
+7. Välj **Spara**. ALM visar ett detaljerat bekräftelsemeddelande.
+   ![](assets/auto-purge2.png)
+   *Aktivera och ange varaktigheten*
+8. Välj **Ja** för att bekräfta och spara inställningen.
+   ![](assets/auto-purge3.png)
+   *Bekräftelsemeddelande*
 
 ## Vanliga frågor {#frequentlyaskedquestions}
 

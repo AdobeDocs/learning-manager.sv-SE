@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Skapa, ändra och publicera kurser
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
 workflow-type: tm+mt
-source-wordcount: '7476'
+source-wordcount: '8685'
 ht-degree: 0%
 
 ---
@@ -531,7 +531,9 @@ Utvärdering är en viktig aspekt av alla system för hantering av inlärning. U
 
 Man kan tänka sig butiksanställda eller lagerarbetare som genomgår en utvärdering för de uppgifter de förväntas utföra på daglig basis. Det kan vara de steg som utförs för att reparera en kaffemaskin eller de steg som krävs för att packa ett material. Instruktörer kan utvärdera anställda för sådana uppgifter på grundval av en checklista och utvärdera dem som godkända eller underkända i utvärderingsaktiviteten.
 
-### Skapa en checklista {#createachecklist}
+Du kan skapa en checklista på flera språk.
+
+### Skapa en checklista på flera språk {#createachecklist}
 
 Det är bara en författare som kan skapa en checklista. En checklista är en typ av aktivitetsmodul. När du konfigurerar en aktivitetsmodul kan du som författare välja en aktivitet som **Checklista**, som visas nedan:
 
@@ -539,9 +541,26 @@ Det är bara en författare som kan skapa en checklista. En checklista är en ty
 
 *Skapa en checklista*
 
-När du har valt alternativet **Checklista** visas ytterligare några alternativ.
+1. När du har valt alternativet **Checklista** visas ytterligare några alternativ.
 
-**Checklistetyp:** Välj ett alternativ, **Ja/nej** eller **1-5**. Om du väljer Ja/Nej innehåller checklistan frågor som bara kan besvaras med Ja eller Nej. Om du väljer 1-5 kan du se en Likertchecklista, där du kan betygsätta en fråga på en femgradig skala.
+2. **Checklistetyp:** Välj ett alternativ, **Ja/nej** eller **1-5**. Om du väljer Ja/Nej innehåller checklistan frågor som bara kan besvaras med Ja eller Nej. Om du väljer 1-5 kan du se en Likertchecklista, där du kan betygsätta en fråga på en femgradig skala.
+
+3. Välj **Konfigurera**. Fönstret Checklista visas.
+4. Ange valfritt antal frågor. Du kan även skriva samma frågor på de andra språken.
+
+   ![](assets/multi-lang-support-for-checklists2.png)
+   *Det finns fler språk*
+
+   ![](assets/multi-lang-support-for-checklists3.png)
+   *Frågor anges till exempel också på franska*
+
+   >[!NOTE]
+   >
+   >ALM översätter inte frågorna automatiskt på dessa ytterligare språk. Du måste översätta frågorna till respektive språk.
+
+5. Välj **Spara**. Frågorna sparas på alla språk.
+6. Välj alla andra relevanta alternativ och välj **Lägg till**. Checklistan skapas på alla språk som kursen finns tillgänglig på.
+
 
 **Kriterier för godkänt:**
 
@@ -573,6 +592,8 @@ Nu lägger du till checklistefrågorna. Klicka på **[!UICONTROL Add]**. Du kan 
 *Lägg till checklistefrågor*
 
 Klicka på **[!UICONTROL Add more]** om du vill lägga till fler frågor.
+
+
 
 Spara ändringarna, lägg till modulen och publicera kursen.
 
@@ -617,6 +638,218 @@ Ange följande information på den här sidan:
    *Tilldela en instruktörsroll till en användare*
 
 1. Klicka på **[!UICONTROL Republish]** om du vill återpublicera kursen med uppdateringarna.
+
+### Checklista med kommentarer
+
+
+Med checklista för kommentarer kan författare aktivera **sammanhangsbaserad feedback** under checklistebaserade utvärderingar.\
+När det här alternativet är aktiverat kan granskare (instruktörer eller chefer) lägga till kommentarer som förklarar utvärderingsresultat utöver poäng eller status godkänt/underkänt.
+
+Den här funktionen omvandlar checklistor från ett rent utvärderingsverktyg till en **feedback-driven inlärningsmekanism**, vilket förbättrar elevens förståelse, genomskinlighet och uppföljningsåtgärder.
+
+Med detta kan författare:
+
+* Aktivera granskningskommentarer på checklistor
+* Styr om kommentarer är synliga för elever
+* Kontrollera om granskarens namn visas för elever
+* Se till att granskarens kommentarer samlas i elevutskrifter och rapporter
+
+#### Användningsfall
+
+#### Utvärderingar av prestanda
+
+Ge tydlig återkoppling om observerade styrkor, luckor och förbättringsområden under verkliga eller rollbaserade bedömningar.
+
+#### Instruktörsledd utbildning och VILT-utbildning
+
+Låt instruktörer förklara varför en elev klarade eller underkändes i en checklistebaserad utvärdering.
+
+#### Scenarier för regelefterlevnad och revision
+
+Upprätthåll en verifierbar testversion som förklarar utvärderingsbeslut i checklistan.
+
+#### Miljöer med flera granskare
+
+Hjälp elever att identifiera vilka som utvärderade dem och följ upp för förtydliganden.
+
+#### Aktivera checklista för kommentarer
+
+1. Öppna en befintlig kurs eller skapa en ny kurs.
+2. Lägg till en checklistmodul eller öppna en befintlig checklistmodul för redigering.
+3. I konfigurationspanelen för checklistan:
+   1. Välj **Granskningskommentarer**. När du granskar checklistan kan granskarna lägga till kommentarer eller feedback. Den här inställningen kan inte ändras efter att den har publicerats.
+   2. (Valfritt) Välj **Visa granskarens namn till eleven**. Detta gör att eleverna kan visa namnet på den granskare som har granskat checklistmodulen.
+4. Spara konfigurationen av checklistan.
+5. Publish kursen för att göra checklistan tillgänglig för utvärderingar.
+
+Checklistan har nu stöd för granskarens kommentarer under elevutvärderingen.
+
+#### Vad som händer under utvärderingen
+
+Även om författare inte utför utvärderingar är det bra att förstå hur konfigurationen används:
+
+* Granskare ser ett **kommentarsfält** när de utvärderar elever
+* Granskarna kan lägga till sammanhangsberoende kommentarer när de skickas
+* Om detta är aktiverat:
+   * Elever ser granskningskommentarer
+   * Elever ser granskarens namn
+
+#### Elevupplevelse (när den är aktiverad)
+
+* När elever öppnar en slutförd checklista:
+* De ser checklisteresultatet (godkänt/underkänt eller poäng)
+* De ser granskningskommentarer (om de är aktiverade)
+* Granskarens namn visas (om det är aktiverat)
+
+Detta hjälper elever att tydligt förstå utvärderingsresultat och nästa steg.
+
+#### Viktiga anteckningar för författare
+
+* Checklistkommentarer är **valfria** och måste uttryckligen aktiveras
+* Synligheten för kommentarer och granskaridentitet är **helt författarstyrd**
+* Fungerar med:
+   * En eller flera granskare
+   * Poängbaserade, ja/nej och skalanpassade checklistor
+* Ingen påverkan på befintliga checklistor om de inte uppdateras av författaren
+
+### Skapa en flerspråkig checklista
+
+Med flerspråkigt stöd för checklistor kan författare skapa **en enda checklistmodul med frågor på flera språk**.\
+När det här alternativet är aktiverat ser granskarna automatiskt checklistefrågor på sitt **valda innehållsspråk**, vilket garanterar konsekventa och lokaliserade utvärderingar i alla globala team.
+
+Det gör att du inte behöver skapa och hantera **separata checklistor per språk**, vilket minskar dubbletter och förenklar kursunderhåll.
+
+Med stöd för checklistor på flera språk kan författare:
+
+* Lägg till checklistefrågor på flera språk i samma checklista
+* Underhåll språkparitet i alla checklistefrågor
+* Se till att granskarna ser checklistefrågor som automatiskt är lokaliserade till deras innehållsspråk
+* Hämta checklisterapporter på det valda språket
+
+#### Användningsfall
+
+#### Globala utvärderingar av personal
+
+Gör det möjligt för chefer och instruktörer i olika regioner att utvärdera elever med hjälp av lokaliserade frågor i checklistan.
+
+#### Standardiserade bedömningar i olika regioner
+
+Upprätthåll en enda utvärderingsstruktur och samtidigt stödja flera språk för olika geografiska områden.
+
+#### Efterlevnad och operativ utbildning
+
+Se till att utvärderarna tydligt förstår checklistekriterierna på sitt modersmål, vilket minskar antalet tolkningsfel.
+
+#### Reducerad innehållsduplicering
+
+Undvik att skapa och underhålla flera checklistmoduler för olika språk.
+
+#### Skapa en checklista för flera språk
+
+1. Öppna en befintlig kurs eller skapa en ny kurs.
+2. Lägg till en checklistmodul.
+3. Lägg till de **innehållsspråk** som behövs i kursinställningarna (till exempel engelska, franska, tyska).
+4. Spara kurskonfigurationen.
+
+#### Så konfigurerar du checklistefrågor på flera språk
+
+1. Öppna konfigurationen av modulen checklista.
+2. Gå till avsnittet **Konfigurera frågor**.
+3. Använd **språkflikarna** om du vill växla mellan tillgängliga språk.
+4. För varje språk:
+   * Lägg till den översatta versionen av varje checklistefråga
+   * Upprätthåll motsvarande innebörd och utvärderingsmetod på olika språk
+5. Definiera checklistekriterier (Ja/Nej, skalningsbaserade eller poängbaserade) efter behov.
+
+Varje språkversion motsvarar samma checklista, inte en separat modul.
+
+Spara konfigurationen av checklistan och publicera kursen. Checklistan är nu tillgänglig på alla konfigurerade språk.
+
+#### Granskarens upplevelse
+
+* Granskare ser checklistefrågor på **sitt valda innehållsspråk**
+* Ingen manuell språkinställning krävs under utvärderingen
+* Om en granskare ändrar sitt innehållsspråk anpassas frågorna automatiskt
+
+### Tilldela vikter till checklistefrågor
+
+Med viktning av checklistefrågor kan författare skapa **poängbaserade checklistor** där enskilda checklistefrågor kan innehålla **olika maximala poäng**.
+
+I stället för att behandla alla checklisteobjekt lika kan författare definiera viktade frågor och ange en **lägsta total poäng** som krävs för att en elev ska få godkänt.
+
+Den här funktionen möjliggör exaktare och mer flexibla utvärderingar, särskilt för **prestandabaserad, bedömningsdriven och efterlevnadsorienterad utbildning**.
+
+Med viktning av frågor i checklistan kan författare:
+
+* Skapa en **poängbaserad checklistetyp**
+* Tilldela olika **maxpoäng** till enskilda checklistefrågor
+* Definiera en **lägsta totalpoäng** som krävs för att checklistan ska godkännas
+* Använd en utökad poängskala (konfigurerbart område upp till 10)
+* Visa uppnådda poäng jämfört med maximala poäng i rapporter
+
+#### Användningsfall
+
+#### Instruktörsledda bedömningar
+
+Utvärdera elever med hjälp av detaljerade poängkriterier snarare än enkla ja/nej-resultat.
+
+#### SOP och operativ utbildning
+
+Lägg större vikt vid kritiska steg och mindre tunga uppgifter.
+
+#### Efterlevnad och beredskap för certifiering
+
+Se till att eleverna når upp till en fastställd lägsta kompetenströskel innan de godkänns.
+
+#### Prestandatest
+
+Stödja strukturerade utvärderingar där partiellt slutförande fortfarande bidrar till övergripande poängsättning.
+
+#### Så här skapar du en viktad checklista
+
+1. Öppna en befintlig kurs eller skapa en ny kurs.
+2. Lägg till en checklistmodul eller öppna en befintlig checklistmodul för redigering.
+3. Välj checklistetyp **Anpassad poäng** i konfigurationspanelen.
+4. Detta möjliggör poängberäkning per fråga och total poängberäkning.
+5. Lägg till checklistefrågor efter behov.
+6. För varje fråga:
+   * Definiera **högsta poäng** (till exempel 5, 10, 20)
+7. Se till att frågetecknen återspeglar deras relativa betydelse.
+
+Olika frågor kan ha olika maxpoäng i samma checklista.
+
+#### Definiera kriterier för godkännande
+
+1. Ange det **lägsta totala poängvärdet** som krävs för att checklistan ska godkännas. Systemet beräknar den totala möjliga poängen automatiskt baserat på frågeviktningen.
+2. Spara konfigurationen av checklistan och publicera kursen.
+
+Checklistan aktiveras nu med viktad poäng för instruktörsutvärderingar.
+
+#### Granskarens upplevelse
+
+* Granskarna ser varje checklistefråga med dess **högsta poäng**
+* Granskarna tilldelar poäng per fråga under utvärderingen
+* Systemet beräknar:
+   * Totalt uppnådd poäng
+   * Status för godkänt eller icke godkänt baserat på definierade kriterier
+
+#### Elevens upplevelse
+
+* Elever ser checklista för slutförandestatus (godkänt/underkänt)
+* Om detta är aktiverat kan elever också se:
+   * Granskningskommentarer
+   * Granskarens namn
+* Poängsättningslogik tillämpas konsekvent i alla utvärderingar
+
+#### Anteckningar för författare
+
+* Vägda checklistor passar bäst för **formella utvärderingar**
+* För att undvika snedvridna resultat bör frågetecknen kalibreras noggrant
+* Fungerar med:
+   * En eller flera granskare
+   * Granskningskommentarer (om detta är aktiverat)
+* Befintliga checklistor påverkas inte om de inte uttryckligen uppdateras
+
 
 ### Tillåt att instruktörer markerar framsteg
 
@@ -857,7 +1090,7 @@ Du kan även publicera kursmodulerna till Learning Manager från Adobe Captivate
 1. Logga in med autentiseringsuppgifterna för Adobe. Klicka på **[!UICONTROL Create Account]** om du inte har något Adobe-ID. Efter auktoriseringen dirigeras du till modulpubliceringssidan.
 1. Ange all grundläggande information om modulen och klicka på Publish.
 
-Du kan se den publicerade modulen på sidan Learning Manager-moduler. Mer information finns i [Publish-projekt till Adobe Learning Manager](https://helpx.adobe.com/se/captivate/classic/publish-project-to-captivate-prime.html).
+Du kan se den publicerade modulen på sidan Learning Manager-moduler. Mer information finns i [Publish-projekt till Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Kurseffektivitet {#courseeffectiveness}
 

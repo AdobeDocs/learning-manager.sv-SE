@@ -4,9 +4,9 @@ title: Webhooks
 description: Läs mer om webbhookar som du kan skicka realtidsinformation om, till exempel kursregistrering, skapande av kurser och annan information till en specifik URL
 contentowner: chandrum
 exl-id: 472aaf2b-9c2f-4f43-a791-2b2d81e69471
-source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
+source-git-commit: 3b35c16d74c83329cee24ee9ad007a53ccbd8cf3
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '1602'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,7 @@ Med API:er i realtid kan program direkt utbyta data när en händelse inträffar
 ## Webhook-händelser
 
 Webhook-händelser är specifika åtgärder som sker i ett system som automatiskt skickar data till en avlyssnar-URL. När en elev till exempel registrerar sig för en kurs utlöses en webhook-händelse och skickar registreringsinformationen till lyssnarens URL.
+
 Webhook-händelser delas in i två kategorier:
 
 * **Realtidshändelser**: Händelser bearbetas och skickas i realtid till ett mål-URL
@@ -122,3 +123,304 @@ Gör så här för att ta webhookarna ur bruk:
 
 ![](assets/retire-webhook.png)
 _Ta webhooken ur bruk_
+
+## Webhooks för alternativa tecken {#webhooks-for-alternates}
+
+ALM tillhandahåller dedikerade webhook-händelser för alternativa slutföranden för att stödja automatisering, integrationer och synkronisering med externa system.
+
+Dessa händelser gör det möjligt för externa konsumenter att på ett tillförlitligt sätt skilja mellan direkta slutföranden och slutföranden som beviljas genom alternativa relationer.
+
+### Översikt
+
+När en elev slutför en kurs via ett alternativt system eller en relation, utlöser ALM en webhook-händelse som är separat från standardwebhooken för slutförande av kurs. Detta garanterar att integreringar kan svara olika på olika kompletteringar där så behövs.
+
+Webhook-händelser utlöses också när retroaktiv slutföring eller retroaktiv inslutförande sker, vilket omfattar historiska uppdateringar samt relationsändringar.
+
+### Beteende för webhook-händelse
+
+* En distinkt webhook-händelse utlöses när en elev får statusen Slutförd via Alternativ status för en målkurs.
+* Händelsen genereras när eleven slutför en konfigurerad källkurs som uppfyller målet genom en alternativ relation.
+* Denna webhook utlöses inte för slutförande av direktkurs.
+* När retroaktiv slutförande eller retroaktiv inslutförande är aktiverat, genereras webhook-händelser för varje berörd elev och målkurs.
+
+### Information om nyttolast för webhook
+
+Nyttolasten för en webhook för alternativ slutförande innehåller följande nyckelattribut:
+
+* **Elevens ID**
+Identifierar den elev som fick det alternativa slutförandet.
+* **Källkurs**
+Kursen eller utbildningsvägen som eleven slutförde direkt.
+* **Målkurs**
+Kursen som markerats som slutförd via den alternativa relationen.
+* **Metoden Slutförande**
+Anger att slutförandemetoden är en alternativ metod.
+* **Slutförandedatum**
+Härledd från slutförandedatumet för källkursen.
+* **Relationstyp**
+Anger om relationen är alternativ.
+
+I retroaktiva slutförandescenarier indikerar webhook-händelser att en befintlig alternativ slutföring har återkallats.
+
+### Integreringsöverväganden
+
+Externa system kan använda dessa webhook-händelser för att:
+
+* Uppdatera elevposter
+* Synkronisera slutförandestatus
+* Utlösa meddelanden eller underordnade arbetsflöden
+* Underhåll granskningsspår för efterlevnadssyften
+
+Webhook-användare bör uttryckligen skilja mellan direkta och alternativa slutföranden.
+
+Alternativa slutföranden ger inte färdigheter, utmärkelsetecken och spelifieringsersättningar. Återkoppling bör hanteras på motsvarande sätt i systemen nedströms.
+
+## Webhookar för anpassningsbara utbildningsvägar
+
+### Introduktion
+
+I Adobe Learning Manager finns **webhook-händelser** som meddelar externa system när slutförandestatusen för ett **utbildningsväg (utbildningsprogram)** uppdateras. Detta gör det möjligt för dig att synkronisera nedströmssystem (till exempel HR-, rapporterings- eller analysplattformar) när en elevs slutförandepost återställs eller beräknas om.
+
+Det finns två nya typer av webhook-händelser:
+
+**LEARNING_PATH_COMPLETION_ROLLBACK** - Utlöses när en **elev** uppdaterar slutförandestatusen för en utbildningsväg för sig själv.
+
+**LEARNING_PATH_COMPLETION_ROLLBACK_BATCH** - Utlöses när en **administratör** uppdaterar slutförandestatusen för en utbildningsväg för **en eller flera elever** (till exempel via gruppåtgärder).
+
+Dessa händelser använder en **gemensam nyttolaststruktur** och kan förbrukas av din webhook-slutpunkt för att uppdatera eller bearbeta slutförandedata på din sida.
+
+### Gemensam nyttolaststruktur
+
+Varje webhook-begäran innehåller följande struktur på översta nivån:
+
+```
+{
+  "accountId": 69735,
+  "events": [
+    {
+      "eventId": "757b9d58-048c-4ae2-9fff-35f9def7ef29",
+      "eventName": "LEARNING_PATH_COMPLETION_ROLLBACK",
+      "timestamp": "2026-01-20T05:48:10.000Z",
+      "eventInfo": "1768888090000-197513-137581-0",
+      "data": {
+        "userId": 13446697,
+        "loId": "learningProgram:157165",
+        "loInstanceId": "learningProgram:157165_148769",
+        "loType": "learningProgram",
+        "enrollmentSource": "SELF_ENROLL",
+        "dateEnrolled": "2026-01-20T05:44:05.000Z"
+      }
+    }
+  ]
+}
+```
+
+**Samma struktur** används för båda händelsetyperna. Endast eventName och värdena inuti data (till exempel userId, loId, enrollmentSource) skiljer sig åt.
+
+#### Exempel: Elevinitierad uppdatering
+
+När en elev uppdaterar slutförandestatusen för sin egen utbildningsväg skickar webhooken en LEARNING_PATH_COMPLETION_ROLLBACK-händelse:
+
+```
+{
+  "accountId": 69735,
+  "events": [
+    {
+      "eventId": "757b9d58-048c-4ae2-9fff-35f9def7ef29",
+      "eventName": "LEARNING_PATH_COMPLETION_ROLLBACK",
+      "timestamp": "2026-01-20T05:48:10.000Z",
+      "eventInfo": "1768888090000-197513-137581-0",
+      "data": {
+        "userId": 13446697,
+        "loId": "learningProgram:157165",
+        "loInstanceId": "learningProgram:157165_148769",
+        "loType": "learningProgram",
+        "enrollmentSource": "SELF_ENROLL",
+        "dateEnrolled": "2026-01-20T05:44:05.000Z"
+      }
+    }
+  ]
+}
+```
+
+Använd den här händelsen för att **beräkna om eller återställa data för elevens slutförande** i dina externa system när eleven uttryckligen begär en uppdatering.
+
+#### Exempel: Gruppuppdatering av administratören
+
+När en administratör utför en uppdatering av slutförandet för en eller flera elever (till exempel korrigerar historiska slutföranden för en grupp), genererar webhooken en LEARNING_PATH_COMPLETION_ROLLBACK_BATCH-händelse:
+
+```
+{
+  "accountId": 69735,
+  "events": [
+    {
+      "eventId": "757b9d58-048c-4ae2-9fff-35f9def7ef29",
+      "eventName": "LEARNING_PATH_COMPLETION_ROLLBACK_BATCH",
+      "timestamp": "2026-01-20T05:48:10.000Z",
+      "eventInfo": "1768888090000-197513-137581-0",
+      "data": {
+        "userId": 13446698,
+        "loId": "learningProgram:157166",
+        "loInstanceId": "learningProgram:157166_148770",
+        "loType": "learningProgram",
+        "enrollmentSource": "ADMIN_ENROLL",
+        "dateEnrolled": "2026-01-21T05:44:05.000Z"
+      }
+    }
+  ]
+}
+```
+
+I gruppåtgärder kan din webhook-slutpunkt ta emot **flera händelseobjekt i en enda begäran**, en per elev vars slutförande har uppdaterats. Integreringen bör upprepa över händelsematrisen och bearbeta varje händelse oberoende av varandra.
+
+### Så här använder du dessa händelser i integreringar
+
+Du kan använda dessa webhook-händelser för att:
+
+**Synkronisera slutförandeposter** med externa LMS/LRS-, HR- eller rapporteringssystem när en slutföring återställs eller beräknas om.
+
+**Utlös underordnade arbetsflöden**, till exempel återtilldelningar, meddelanden eller omberäkning av certifieringar och utmärkelsetecken.
+
+**Underhåll granskningsspår** genom att logga eventId, tidsstämpel och eventInfo tillsammans med elever- och utbildningsvägsidentifierare.
+
+Din webhook-hanterare bör åtminstone:
+
+Validera nyttolasten och parsa händelserna [].
+Använd eventName för att avgöra om ändringen var **elevinitierad** eller **admin/batchinitierad**.
+
+Använd userId, loId och loInstanceId för att hitta och uppdatera motsvarande post i systemet.
+Utnyttja eventId för att förhindra dubblettbearbetning om samma händelse levereras mer än en gång.
+
+## Webhookar för att lägga till och ta bort medlemskap i användargrupper
+
+Två nya händelsetyper för webhookar har den slutliga statusen:
+
+* SVAR:ASYNCAPI_USERGROUP_USER_ADDED
+* SVAR:ASYNCAPI_USERGROUP_USER_REMOVED
+
+### Exempel på nyttolast
+
+```
+{
+  "accountId": 69735,
+  "events": [
+    {
+      "eventId": "cd2972c8-cb15-47a0-a23f-e4a16cb720f5",
+      "eventName": "RESPONSE:ASYNCAPI_USERGROUP_USER_REMOVED",
+      "timestamp": "2026-03-18T13:38:12.000Z",
+      "eventInfo": "cd2972c8-cb15-47a0-a23f-e4a16cb720f5",
+      "data": {
+        "status": "SUCCESS",
+        "request": {
+          "metadata": { "event_id": "cd2972c8-cb15-47a0-a23f-e4a16cb720f5" },
+          "data": [ { "type": "user", "id": "13446641" } ]
+        }
+      }
+    }
+  ]
+}
+```
+
+### Viktiga element
+
+* `accountId` identifierar ALM-kontot.
+* `events` är en array med händelseobjekt.
+* `eventId` matchar den ursprungliga identifieraren för asynkron begäran.
+* `eventName` indikerar åtgärden lägg till eller ta bort.
+* `timestamp` visar slutförandetid.
+* `data.status` rapporterar för närvarande om lyckade batchar.
+* `data.request` innehåller exakt den begäran du skickade.
+
+Integreringen bör främst kopplas från `eventId` (eller `metadata.event_id`) och `status`.
+
+### Exempel
+
+#### Lägga till användare asynkront
+
+**Steg 1. Utför det asynkrona anropet**
+
+POST /primeapi/v2/async/userGroups/12345/users
+
+```
+{
+  "metadata": {
+    "event_id": "sync-2026-03-30T10:15:00Z-ug-12345",
+    "sourceSystem": "HRIS",
+    "batchId": "hr_2026_03_30_0001"
+  },
+  "data": [
+    { "type": "user", "id": "11101219" },
+    { "type": "user", "id": "11101220" }
+  ]
+}
+```
+
+**Steg 2. Läs det omedelbara svaret**
+
+```
+{ "event_id": "sync-2026-03-30T10:15:00Z-ug-12345" }
+```
+
+Du kan nu markera det här jobbet som inskickat i systemet.
+
+**Steg 3. Hantera webhooken**
+
+Exempel på återanrop för webhook:
+
+```
+{
+  "accountId": 69735,
+  "events": [
+    {
+      "eventId": "sync-2026-03-30T10:15:00Z-ug-12345",
+      "eventName": "RESPONSE:ASYNCAPI_USERGROUP_USER_ADDED",
+      "timestamp": "2026-03-30T10:15:43.000Z",
+      "data": {
+        "status": "SUCCESS",
+        "request": {
+          "metadata": {
+            "event_id": "sync-2026-03-30T10:15:00Z-ug-12345",
+            "sourceSystem": "HRIS",
+            "batchId": "hr_2026_03_30_0001"
+          },
+          "data": [
+            { "type": "user", "id": "11101219" },
+            { "type": "user", "id": "11101220" }
+          ]
+        }
+      }
+    }
+  ]
+}
+```
+
+En typisk konsument
+
+* Identifiera det interna jobbet.
+* Verifiera medlemskap med GET /userGroups/{id}/users som tillval.
+* Markera jobbet som slutfört.
+
+#### Ta bort användare asynkront
+
+Borttagningen är symmetrisk, med hjälp av DELETE med samma kroppsstruktur.
+
+```
+{
+  "metadata": {
+    "event_id": "sync-2026-03-30T11:00:00Z-ug-12345",
+    "sourceSystem": "HRIS",
+    "batchId": "hr_2026_03_30_0002"
+  },
+  "data": [ { "type": "user", "id": "11101219" } ]
+}
+```
+
+Omedelbart svar:
+
+```
+{ "event_id": "sync-2026-03-30T11:00:00Z-ug-12345" }
+```
+
+Senare kommer en webhook för SVAR :ASYNCAPI_USERGROUP_USER_REMOVED med samma eventId.
+
+Mer information finns i [Asynkront offentligt API för medlemskap i användargrupper](/help/migrated/api-changes-alm.md#asynchronous-public-apis-for-user-group-membership).

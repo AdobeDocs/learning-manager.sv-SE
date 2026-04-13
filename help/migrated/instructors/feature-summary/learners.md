@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Hantera elever för din session
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
+source-git-commit: 890315af5dc413c859315dc12d5d9618f67afc8e
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 2%
+source-wordcount: '1864'
+ht-degree: 1%
 
 ---
 
@@ -83,6 +83,99 @@ Du kan visa antalet bekräftade elever som deltar i sessionen, deras namn, delta
 
    ![](assets/markattendance.png)
    *Markera elevnärvaro*
+
+### Hämta QR-koder för registrering och närvaro för elever
+
+Instruktörer kan ladda ned QR-koder för sina tilldelade sessioner så att elever kan registrera sig för en kursinstans och markera närvaro eller slutförande genom att skanna QR-koden.
+
+Det gör det möjligt för instruktörer att hantera deltagande i sessioner oberoende av varandra utan att behöva hjälp av administratören.
+
+Följande steg är lämpliga för båda:
+
+* Fysiska klassrumssessioner
+* Onlineklassrumssessioner
+
+Under en fysisk klassrumssession måste du som instruktör generera rätt QR-kod och klistra in den i klassrummet (eller skicka runt den) där eleverna deltar i sessionen så att de kan skanna QR-koden och markera sin registrering eller närvaro eller båda beroende på QR-koden.
+
+Under en onlineklassrumssession kan du som instruktör skicka den genererade QR-koden via e-post, ett meddelandesystem eller på annat sätt så att eleverna kan skanna QR-koden och markera sin registrering eller närvaro eller båda beroende på QR-koden.
+
+
+#### Hämta QR-koder för en session
+
+1. Logga in på Adobe Learning Manager med rollen **instruktör**.
+2. Gå till **instrumentpanelen för instruktörer**.
+3. Öppna relevant **kursinstans**.
+4. Välj fliken **Sessioner**.
+5. Välj en session som är tilldelad dig.
+6. Välj **QR-kod för session**.
+   ![](assets/instructor-QR-code.png)
+
+Du kan hämta följande QR-koder:
+
+* **QR-kod för registrering** - gör det möjligt för elever att registrera sig för kursinstansen
+* **Närvarokod QR** - markerar närvaro för sessionen
+* **Registrering + närvarokod QR** - registrerar elever och markerar närvaro i en enda skanning
+
+QR-koden hämtas som en PDF och kan delas digitalt eller visas under sessionen.
+
+#### Vad händer när elever skannar QR-koden
+
+* Elever skannar QR-koden med en mobil enhet.
+* Adobe Learning Manager validerar eleven och sessionen.
+* Baserat på QR-kodtyp:
+   * Elever är registrerade i kursinstansen eller
+   * Närvaro och slutförande registreras för sessionen
+
+Alla uppdateringar återspeglas automatiskt i elevregister, utskrifter och rapporter.
+
+#### Anteckningar
+
+* QR-koder är bara tillgängliga för instruktörer som har tilldelats till sessionen.
+* Regler för registrering, närvaro och slutförande som konfigurerats för kursen och sessionen fortsätter att gälla.
+* Befintliga arbetsflöden för elevframsteg och rapportering förblir oförändrade.
+
+#### Användningsfall
+
+* Organisationer som kör stora volymer sessioner på plats (till exempel produktutbildning för proffs) kan göra det möjligt för instruktörer att skriva ut sessionsspecifika QR-koder som registrerar och markerar närvaro med en skanning.
+
+* Inom detaljhandels-, tillverknings- och hälsovårdsutbildning, där elever ofta deltar i sessioner direkt från golvet eller utan förregistrering, kan en QR-kod (&quot;Enroll + Attendance&quot;) läggas vid dörren. Detta gör det möjligt för elever att själva betjäna sin registrering och närvaro via sina telefoner.
+
+* Utbildningshändelser för partners eller kunder gör att utbildaren på plats enkelt kan anpassa sig till förändringar i rummet, ytterligare sessioner eller extra deltagare utan att behöva rådfråga administratören om nya QR-koder.
+
+### Kalenderinbjudningar
+
+* När en elev eller instruktör är registrerad i en klassrums- eller virtuell klassrumssession skickar Learning Manager en kalenderinbjudan (ICS-fil).
+* Kalenderinbjudan omfattar:
+   * Sessionens datum och tid
+   * Sessionsdetaljer
+   * **Direktsessionskopplingslänk** i kalenderbeskrivningen
+
+Deltagarna kan öppna kalenderhändelsen och ansluta till sessionen direkt från sin kalender.
+
+#### Ansluta till en session från Gmail
+
+1. Öppna **Google Calendar**.
+2. Välj sessionshändelsen.
+3. Om du vill ha information om händelsen klickar du på länken **Anslut till session**.
+4. Sessionen öppnas direkt i Adobe Learning Manager eller i det konfigurerade virtuella klassrumsverktyget.
+
+Du behöver inte öppna det ursprungliga e-postmeddelandet för att komma åt sessionslänken.
+
+#### Anslut till en session från andra kalenderklienter
+
+Sessionslänken ingår i kalenderns händelsetext och är tillgänglig från:
+
+* Microsoft Outlook
+* Apple Calendar
+* Andra kalenderprogram som stöder ICS-filer
+
+#### Anteckningar
+
+* Kalenderinbjudningar genereras automatiskt av Learning Manager.
+* Tidszoninformationen i kalenderinbjudan justeras baserat på elevens valda tidszon.
+* Den här förbättringen gäller nya inbjudningar till kalendern.
+* Administratörer eller instruktörer behöver inte göra någon ytterligare konfiguration.
+
 
 ## Markera som slutförd för elever
 

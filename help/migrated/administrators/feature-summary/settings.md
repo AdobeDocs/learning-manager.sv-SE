@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Inställningar
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: 8ccf5a9b0f9f928f7489ca5fec2a18e0ba43e2c1
+source-git-commit: 2265b277aa58ab9273de704e9f79ed28fdcd64a4
 workflow-type: tm+mt
-source-wordcount: '3654'
+source-wordcount: '3931'
 ht-degree: 1%
 
 ---
@@ -121,8 +121,13 @@ Aktivera eller inaktivera följande inställningar:
   </tr>
   <tr>
    <td>Synlighet för kompetenser/taggar</td>
-   <td>Visa alla kompetenser och taggar för elever. Du kan antingen visa alla färdigheter och taggar, visa kompetenser och taggar som är tilldelade eller de som ingår i katalogerna som är synliga för eleven.</td>
-  </tr>
+   <td>Visa alla kompetenser och taggar för elever. Du kan antingen visa alla färdigheter och taggar, visa kompetenser och taggar som är tilldelade eller de som ingår i katalogerna som är synliga för eleven.
+   <p><b>Viktig elevassistent och katalogsynlighet</b></p>
+   <p>Om ditt konto använder elevassistenten, kom ihåg att katalogerna som valts som innehållskällor för assistenten inte omfattas av katalogsynlighet per elev. Assistenten kan använda innehåll från de konfigurerade katalogerna även när vissa utbildningar inte är synliga för en viss elev i katalogvyn.</p>
+   <p>Adobe rekommenderar att du endast väljer kataloger med innehåll som du kan exponera (i sammanfattad eller förklarad form) för alla elever som har åtkomst till elevassistenten. </p>
+   </td>
+
+</tr>
   <tr>
    <td>Unika ID för utbildningsobjekt</td>
    <td>Om detta är aktiverat kan en administratör eller författare lägga till ett unikt ID för varje utbildningsobjekt.</td>
@@ -163,6 +168,11 @@ Aktivera eller inaktivera följande inställningar:
    <td><a id="autodelete"></a>Ta bort interna användare automatiskt</td>
    <td>Om det här alternativet är aktiverat raderas interna användare automatiskt om de inte har tillgång till systemet på ett visst antal dagar. Den här funktionen gäller användare som bara har rollen <b>Elev</b>. Användarna måste kontakta administratören för att återställa åtkomsten.<br></td>
   </tr>
+  <tr>
+   <td height="20">Ta bort rensade användare automatiskt</td>
+   <td>Om det här alternativet är aktiverat raderas interna användare automatiskt om de inte har tillgång till systemet på ett visst antal dagar. Den här funktionen gäller användare som bara har rollen Elev. Användarna måste kontakta administratören för att återställa åtkomsten. När du har aktiverat alternativet kan du ange efter hur många år rensade användare ska tas bort permanent från ALM.</td>
+  </tr>
+  <tr>
   <tr>
    <td>Visa katalogetiketter</td>
    <td>Om detta är aktiverat kan administratörer och författare ange katalogetiketter och värden och länka dem till utbildningsobjekt. Om du väljer det här alternativet kan författare även lägga till kurser, utbildningsvägar, certifieringar eller arbetsstöd i katalogerna.</td>
@@ -291,8 +301,13 @@ Aktivera eller inaktivera följande inställningar:
   </tr>
   <tr>
    <td height="20">Visa kataloglista</td>
-   <td>Om detta är aktiverat kan elever se en lista över alla kataloger som är tillgängliga för dem. Elever kan använda detta för att förfina hur utbildningsobjekten visas.</td>
-  </tr>
+   <td>Om detta är aktiverat kan elever se en lista över alla kataloger som är tillgängliga för dem. Elever kan använda detta för att förfina hur utbildningsobjekten visas.
+   <p><b>Viktig elevassistent och katalogsynlighet</b></p>
+   <p>Om ditt konto använder elevassistenten, kom ihåg att katalogerna som valts som innehållskällor för assistenten inte omfattas av katalogsynlighet per elev. Assistenten kan använda innehåll från de konfigurerade katalogerna även när vissa utbildningar inte är synliga för en viss elev i katalogvyn.</p>
+   <p>Adobe rekommenderar att du endast väljer kataloger med innehåll som du kan exponera (i sammanfattad eller förklarad form) för alla elever som har åtkomst till elevassistenten. </p>
+   </td>
+
+</tr>
   <tr>
    <td height="20">Produktterminologi</td>
    <td>Learning Manager har en standardterminologi som används i hela produkten. Ändra terminologin så att den passar organisationens behov.</td>
@@ -305,11 +320,6 @@ Aktivera eller inaktivera följande inställningar:
    <td height="20">Registrera användare automatiskt</td>
    <td>Om det här alternativet är aktiverat registreras nyligen importerade användare automatiskt. Användare måste som standard registreras manuellt innan de kan börja använda Learning Manager.</td>
   </tr>
-  <tr>
-   <td height="20">Ta bort interna användare automatiskt</td>
-   <td>Om det här alternativet är aktiverat raderas interna användare automatiskt om de inte har tillgång till systemet på ett visst antal dagar. Den här funktionen gäller användare som bara har rollen Elev. Användarna måste kontakta administratören för att återställa åtkomsten.</td>
-  </tr>
-  <tr>
    <td height="20">Visa katalogetiketter</td>
    <td>Om detta är aktiverat kan administratörer och författare ange katalogetiketter och värden och länka dem till utbildningsobjekt.</td>
   </tr>
@@ -357,7 +367,7 @@ Aktivera eller inaktivera följande inställningar:
    <td height="19">Så här anpassar du länkarna i sidfoten:</td>
   </tr>
   <tr>
-   <td height="19">1. Klicka på Lägg till fler, ange namn och webbadress eller e-post-id i de angivna fälten. Ange http:// eller https:// som prefix för URL:en.</td>
+   <td height="19">1. Klicka på Lägg till fler, ange namn och URL-adress eller e-post-ID i de angivna fälten. Ange http:// eller https:// som prefix för URL:en.</td>
   </tr>
   <tr>
    <td height="19">2. Om du vill låta ändringen överlappa alla språk klickar du på Replikera. Detta säkerställer att alla språk får namnet och URL-adressen.</td>
@@ -439,6 +449,15 @@ Aktivera eller inaktivera följande inställningar:
     <td>
       <p>Om det här alternativet är aktiverat kan du välja en extern källa för att importera kompetenser. Kunskaperna för befintliga utbildningsresurser importeras till databasen för kompetenser en gång under den första körningen. För all efterföljande import av utbildningsresurser importeras kunskaperna till kunskapsdatabasen endast för nyligen importerade objekt.
       När alternativet har aktiverats går åtgärden inte att ångra. Du kan inte inaktivera eller byta till en annan källa senare.
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>Alternativa kurser/banor</p>
+    </td>
+    <td>
+      <p>När elever har slutfört en kurs/bana kan en annan specificerad uppsättning kurser/vägar markeras som slutförda via alternativ. Elever registreras inte automatiskt till kurser/sökvägar som markerats som slutförda via alternativ och får endast tillskrivningar, utmärkelsetecken och poäng för den kurs/sökväg som de faktiskt har slutfört. De tillgängliga alternativen är - Retroaktiva slutföranden aktiverade och Retroaktiva inslutföranden aktiverade.
       </p>
     </td>
   </tr>
@@ -563,7 +582,7 @@ Lägg till följande:
 
 Du kan även lägga till platsen med hjälp av en CSV-fil. CSV-filen måste innehålla fälten:
 
-* name
+* namn
 * information
 * url
 * seatlimit
@@ -592,5 +611,5 @@ Mer information finns i avsnittet om [mappen Innehåll](settings.md#content-fold
 
 +++Hur lägger man till räkenskapsår för kontot?
 
-Klicka på **[!UICONTROL Settings]** i **[!UICONTROL Basic Info]** > **[!UICONTROL Change]**. Välj månad i listrutan **[!UICONTROL Financial year starts from]**.
+Klicka på **[!UICONTROL Change]** i **[!UICONTROL Settings]** > **[!UICONTROL Basic Info]**. Välj månad i listrutan **[!UICONTROL Financial year starts from]**.
 +++

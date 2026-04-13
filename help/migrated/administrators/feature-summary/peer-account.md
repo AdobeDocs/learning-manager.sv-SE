@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Kollegiala konton
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
+source-git-commit: 2604dc206de5f6e883c1073880348b2ab97b01c6
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '886'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Learning Manager erbjuder möjligheten att dela köpta platser med hjälp av fun
 >
 >Om du vill hitta underdomänen för ett annat konto kontrollerar du kontots URL. Underdomänen visas före huvuddomänen och hjälper till att identifiera det specifika kontot.
 >
->Exempel:
+>Till exempel:
 >
 >I URL:en [https://www.learningmanager.com/accountname](https://www.learningmanager.com/accountname) är underdomänen **kontonamn**.
 >
@@ -99,6 +99,38 @@ Administratören kan visa användarrapporten för det kollegiala kontot. Den öv
 *Visa användarrapport för kollegialt konto*
 
 Klicka på **[!UICONTROL Download]** för att hämta rapporterna för kollegiala konton.
+
+## Visning av författarnamn för delade kurser (inklusive tidigare förvärvade kurser)
+
+I Adobe Learning Manager visas **originalförfattarens namn** för kurser som delas eller förvärvas via kollegiala konton.
+
+Tidigare visades kurser som förvärvats från kollegiala konton ofta med författarnamnet som **extern författare**. Detta har förbättrats för att förbättra innehållstillskrivning och tydlighet.
+
+### Så här fungerar det
+
+* När en kurs delas från ett kollegialt konto, matchas nu Learning Manager och visar det **faktiska författarnamnet** från källkontot.
+* Detta beteende gäller:
+   * Kurser som nyligen delats
+   * Kurser som förvärvades innan denna förbättring introducerades
+
+### Retroaktivt beteende
+
+Den här förbättringen tillämpas **retroaktivt**.\
+Kurser som redan har hämtats från kollegiala konton före den här ändringen visar automatiskt rätt författarnamn.
+
+Administratörer eller författare behöver inte göra något:
+
+* Du behöver inte dela kursen igen
+* Du behöver inte publicera eller redigera kursen på nytt
+* Befintliga registreringar och framsteg för elever ändras inte
+
+### Vad som inte ändras
+
+* Ägarskap och behörigheter för kursen förblir desamma
+* Endast det **visade författarnamnet** uppdateras
+* Rapportering, registreringar och kursstruktur påverkas inte
+
+Detta säkerställer konsekvent och korrekt tillskrivning av författare i allt delat innehåll, inklusive historiska kurser som förvärvats via kollegiala konton.
 
 ## Vanliga frågor {#frequentlyaskedquestions}
 

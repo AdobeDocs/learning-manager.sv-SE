@@ -3,9 +3,9 @@ description: Lär dig skapa innehåll som följer kurser i din egen takt.
 jcr-language: en_us
 title: Innehållsbibliotek
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
 workflow-type: tm+mt
-source-wordcount: '4523'
+source-wordcount: '5224'
 ht-degree: 0%
 
 ---
@@ -43,9 +43,21 @@ Tabellen nedan visar vilken typ av interaktiva och statiska filtyper som du kan 
      <li>SCORM 1.2</li>
      <li>SCORM 2004</li>
      <li>AICC</li>
-     <li>TinCan</li>
+     <li>xAPI</li>
     </ul>
-    <p></p></td>
+    <p><b>Viktigt: Elevassistent och SCORM-baserade bedömningar</b></p>
+    <p>Om ditt konto har elevassistenten aktiverad och du överför SCORM-/xAPI-paket till kataloger som är konfigurerade som elevassistentens innehållskällor, var medveten om följande:</p>
+    <ul>
+      <li>Elever kan använda Elevassistent för att ställa frågor om innehållet i dessa paket.</li>
+      <li>Assistenten kan generera förklaringar eller sammanfattningar som effektivt avslöjar svar på frågefrågor som är inbäddade i SCORM-kursen (till exempel genom att upprepa feedback eller förklara det "korrekta" alternativet).</li>
+   </ul>
+   <p>Adobe rekommenderar följande för höga insatser eller framtagna bedömningar (t.ex. efterlevnads- eller certifieringsprov):</p>
+   <ul>
+      <li>Att hålla bedömningsmässigt tungt SCORM-innehåll i kataloger som inte är konfigurerade som källor för elevassistenten.</li>
+      <li>Att utforma bedömningar så att bara omformulera utbildningsmaterialet inte bagatelliserar de rätta svaren.</li>
+   </ul>
+   <p>Detta beteende är förväntat: Adobe Learning Manager hindrar inte Elevassistent från att förklara innehåll som finns i kataloger som du uttryckligen markerar som AI-källor.</p>
+    </td>
    <td>
     <p>komprimera</p></td>
   </tr>
@@ -250,6 +262,77 @@ Om ett säljarkonto delar en katalog som innehåller kurserna och kurserna inneh
 Modulpropageringen ska fungera korrekt från säljare till inköpskonto. Detta kan inkludera - redigera/ta bort/lägga till vtt-filen i modulen.
 
 När du har överfört innehållet kan du se ett meddelande genom att klicka på klockikonen överst till höger på sidan. Varje gång du ändrar ett innehåll och överför det på nytt visas ett meddelande. Om du gör ändringarna får du bara meddelandet, inte andra författare.
+
+### Stöd för flerspråkig VTT
+
+Stöd för flerspråkiga videotextspår (VTT) i Adobe Learning Manager gör det möjligt för författare att tillhandahålla undertexter och bildtexter för video- och ljudinnehåll på flera språk. Den här funktionen effektiviserar lokaliseringen, gör utbildningen tillgänglig för en global publik och ser till att tillgänglighetskrav uppfylls. Författare kan automatiskt generera, översätta, granska och redigera VTT-filer direkt inom plattformen.
+
+#### Användningsfall
+
+* Global utbildning: Leverera videoinnehåll med undertextning på flera språk så att det når internationella elever.
+* Tillgänglighetsefterlevnad: Skriv bildtexter på önskat språk för hörselskadade användare.
+* Snabbare lokalisering: Minska den manuella ansträngningen och påskynda innehållets lansering genom att automatiskt generera och översätta VTT-filer.
+* Konsekvent upplevelse: Se till att alla elever får samma information oavsett språk.
+
+#### Viktiga funktioner
+
+* Automatisk VTT-generering: Överför en video- eller ljudfil och generera VTT-bildtexter automatiskt på originalspråket.
+* Flerspråkig översättning: Översätt bildtexter till något av de 39 icke-engelska språk som stöds.
+* Granskning och redigering i appen: Granska, redigera och hämta VTT-filer före publicering.
+* Meddelanden: Ta emot meddelanden i appen när genereringen och översättningen av VTT är slutförd.
+* Smidig publicering: Publish har slutfört bildtexter som eleverna får tillgång till på sitt valda språk.
+
+#### Ladda upp innehåll och generera VTT
+
+1. Gå till innehållsbiblioteket och välj [!UICONTROL Add Content].
+2. Överför MP3- eller MP4-filen.
+3. I dialogrutan för överföring väljer du alternativet att **generera översättning**.
+4. Välj det ursprungliga innehållsspråket (filens språk används som standard).
+5. Välj ytterligare målspråk för översättning (upp till 39 stöds).
+6. Välj [!UICONTROL Save]. Systemet börjar skapa och översätta VTT-filer.
+
+#### Övervaka förloppet
+
+1. När du har sparat visas den nya innehållsposten i innehållsbiblioteket.
+2. En förloppsindikator visar status för generering och översättning av VTT.
+3. Du får ett meddelande i programmet när processen har slutförts.
+
+#### Granska och redigera VTT-filer
+
+1. Öppna innehållet i läget **Redigera** i innehållsbiblioteket.
+2. Välj granskningslänken bredvid VTT-filen för varje språk.
+3. Ett popup-fönster visar bildtexterna för det språket.
+4. Redigera bildtexter direkt i popup-fönstret eller hämta VTT-filen för offlineredigering.
+5. När du har gjort ändringar överför eller klistrar du in den ändrade bildtexten i popup-fönstret igen.
+6. Spara ändringarna.
+
+#### Publish-bildtexter
+
+1. När du är nöjd med alla språkbeskrivningar publicerar du innehållet.
+2. Elever ser undertextningsalternativ på alla publicerade språk när de tittar på videon.
+
+#### Ytterligare information
+
+* Språk som stöds: Alla 39 icke-engelska språk stöds av Adobe Learning Manager.
+* Meddelanden: Författarna meddelas när genereringen och översättningen av VTT är klar.
+* Redigeringsflexibilitet: Bildtexter kan redigeras i appen eller offline och överföras på nytt.
+* Skalbarhet: Utformad för lokaliserings- och tillgänglighetsbehov i företagsklass.
+* Du behöver inte göra någon manuell VTT-överföring: Systemet kan generera VTT-filer från grunden med hjälp av den uppladdade videon/ljudet.
+
+#### Bästa praxis
+
+* Granska alltid automatiskt genererade bildtexter för noggrannhet före publicering.
+* Tillhandahåll översättningar för alla större elevgrupper för att maximera tillgängligheten.
+* Använd meddelandesystemet för att hålla dig uppdaterad om bearbetningsstatus.
+* Uppdatera bildtexter regelbundet om videoinnehållet ändras.
+
+#### Felsökning
+
+* Om VTT-genereringen misslyckas kontrollerar du att filen har ett format som stöds (MP3/MP4).
+* Kontrollera att de saknade språken stöds och är markerade under överföringen.
+* Om bildtexterna inte är synkroniserade kan du justera tidsinställningen med redigeraren i appen.
+* Stöd för flerspråkig VTT gör att du kan erbjuda lättillgängliga, lokaliserade videoupplevelser effektivt. Genom att använda automatisk generering, översättning och redigering i appen kan du se till att innehållet når och stöder alla elever, oavsett språk.
+
 
 ## Skapa ett quiz {#createaquiz}
 

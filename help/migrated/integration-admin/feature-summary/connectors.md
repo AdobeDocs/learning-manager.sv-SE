@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Anslutningar för Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 03ac3f985aa523e494e05393ee8fa478faf35646
 workflow-type: tm+mt
 source-wordcount: '15714'
 ht-degree: 0%
@@ -146,9 +146,9 @@ Så här skapar du objekten:
 
 1. Hämta och installera paket för att skapa anpassade objekt.
 
-   * [Paket 1](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LSlL)
-   * [Paket 2](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FtK9)
-   * [Paket 3](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FtKE)
+   * [Paket 1](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciS)
+   * [Paket 2](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciX)
+   * [Paket 3](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000Hcic)
 
 1. Byt namn på namnen på de anpassade objekten i Salesforce.
 1. Markera händelserna och klicka på **[!UICONTROL Save]**.
@@ -2129,7 +2129,7 @@ Ange anslutningsnamn och domännamn
 1. Välj **[!UICONTROL Type of interface]** bland följande alternativ:
 
    * **[!UICONTROL Native Learning Manager]**: Det här är standarderbjudandet som endast är tillgängligt för det inbyggda gränssnittet.
-   * **[!UICONTROL &#x200B; Headless interfaces]**: Det här är premiumerbjudandet som exponerar API:er för att skapa en icke-inloggad upplevelse.
+   * **[!UICONTROL  Headless interfaces]**: Det här är premiumerbjudandet som exponerar API:er för att skapa en icke-inloggad upplevelse.
 
    ![](assets/types-of-interface.png)
 Typer av gränssnitt
@@ -2258,7 +2258,7 @@ När en författare har angett priserna för olika kurser, utbildningsvägar ell
 
 >[!NOTE]
 >
->I mars 2024-versionen av Adobe Learning Manager har vi infört stöd för [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=sv-SE).
+>I mars 2024-versionen av Adobe Learning Manager har vi infört stöd för [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
 
 
 1. Klicka på **[!UICONTROL Export Training Metadata]** > **[!UICONTROL On Demand]**.

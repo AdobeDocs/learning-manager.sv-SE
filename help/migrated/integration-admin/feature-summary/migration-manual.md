@@ -3,9 +3,9 @@ description: Referenshandbok för integreringsadministratörer som vill migrera 
 jcr-language: en_us
 title: Migreringshandbok
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
 workflow-type: tm+mt
-source-wordcount: '4623'
+source-wordcount: '5309'
 ht-degree: 1%
 
 ---
@@ -479,6 +479,127 @@ När du har loggat in på FTP- och Box-servrarna och överfört innehållet, vis
 
 *CSV-platser i Box-kontot*
 
+## Migrering för alternativa tecken och motsvarande
+
+### Översikt
+
+I det här avsnittet beskrivs den CSV-baserade datamodellen och migreringsbeteendet för att införa ekvivalens för utbildningsobjekt (LO) i systemet.
+
+### Befintliga CSV-filer (kontext)
+
+Dessa CSV-filer finns redan i plattformen och tillhandahåller det primära utbildningsobjektet, modulen och kontexten för slutförande (icke-uttömmande lista):
+
+* user_course_grade.csv
+* modulering
+* module.csv
+* course.csv
+* course_module.csv
+
+Dessa filer fortsätter att användas som de är och ändras inte av den nya ekvivalensfunktionen, men de utgör de underliggande data på vilka ekvivalensen kommer att fungera.
+
+### Nya CSV-filer för alternativa tecken
+
+Två nya CSV-filer introduceras för att stödja alternativa LO-relationer och relaterade användarslutföranden.
+
+#### &#x200B;1. equivalence_relations.csv
+
+Definierar ekvivalensmappningar mellan käll- och målutbildningsobjekt (LO:er), som kan vara antingen kurser eller utbildningsvägar (LP:er).
+
+**Schema:**
+
+* sourceId
+* sourceloType (kurs/LP)
+* targetId
+* targetLotype (kurs/LP)
+* dateCreated
+* relationshipStatus (ACTIVE/DELETE)
+* dateModified
+
+**Syfte:**
+
+* Representerar ett ekvivalensförhållande mellan två LO.
+* relationshipStatus styr om relationen är aktiv eller borttagen.
+* dateCreated och dateModified stöder granskning.
+
+#### equivalence_user_completion.csv
+
+Samlar in information om slutförande på användarnivå för likvärdiga LO:er, i linje med de relationer som definieras i equivalence_relations.csv.
+
+**Schema:**
+
+* userId
+* sourceId
+* sourceloType (kurs/LP)
+* targetId
+* targetLotype (kurs/LP)
+* dateCompleted
+
+**Syfte:**
+
+* Anger uttryckligen vilka **mål-LO-slutföranden** som ska härledas för en användare baserat på ekvivalensrelationen och befintlig LO-slutförande för källan.
+* Fungerar som **auktoritativ källa** för användarslutföranden som är knutna till migrerade motsvarighetsdata.
+
+### Migreringsregler och beteendesemantik
+
+#### &#x200B;1. Inget stöd för eftermontering av nya motsvarigheter till CSV-filer
+
+* Alla uppgifter som rör ekvivalens måste överföras via migrering.
+* Systemet stöder inte scenarier där:
+   * LO-data (kurser/LP) skapades via UI, och
+   * Likvärdighetsrelationer importeras senare endast via CSV.
+
+Detta innebär följande:
+
+* Mönstret som stöds är: LO-definitioner och deras ekvivalensförhållanden hanteras som en del av ett sammanhängande migrationsflöde.
+* Hybridflöden där UI-skapade LO:er eftermonteras med CSV-ekvivalens stöds inte.
+
+#### &#x200B;2. Inga retroaktiva slutföranden/inslutföranden från migrerade relationer
+
+När en ekvivalensrelation introduceras via migrering (dvs. via equivalence_relations.csv):
+
+* Systemet kommer inte att utföra retroaktiva beräkningar av slutförande eller slutförande som enbart baseras på detta förhållande.
+* I stället måste alla obligatoriska data för slutförande av användare uttryckligen tillhandahållas via equivalence_user_completion.csv.
+
+**Konsekvens:**
+
+* equivalence_user_completion.csv är den enda sanningskällan för alla slutföranden som bör erkännas vid migreringen som ett resultat av ekvivalens.
+* Plattformen kommer inte att försöka härleda eller återfylla dessa slutföranden från befintliga kursförlopp.
+
+#### &#x200B;3. Beteende för nya slutföranden efter migrering
+
+Om:
+
+* En ekvivalensrelation skapades via migrering och
+* En elev slutför senare LO-källan (efter migrering)
+
+sedan:
+
+* Systemet kommer att utlösa alternativa slutföranden för mål-LO, dvs ekvivalensen fungerar normalt i framtiden för nya källslutföranden.
+
+**Nyckelskillnad:**
+
+* **Vid migrering:** slutföranden måste ske via equivalence_user_completion.csv.
+* **Efter migrering:** intern körningslogik hanterar alternativa slutföranden när en LO för källa nyligen har slutförts.
+
+#### &#x200B;4. Inverkan på utbildningsobjekt för högre ordning
+
+Alternativa slutföranden som kommer in via CSV (dvs. via equivalence_user_completion.csv) utlöser omberäkning av högre order LO:er.
+
+LO:er för högre ordning kan omfatta:
+
+* Utbildningsvägar
+
+**Teknisk konsekvens:**
+
+* Inhämtning av equivalence_user_completion.csv är inte en &quot;tyst&quot; åtgärd: den initierar samma omberäknings-/sammanslagningslogik som skulle utlösas av normala körningsslutföranden.
+* System som integrerar eller schemalägger denna migrering måste planera för belastningen och tidpunkten för omberäkningar.
+
+## Webhooks för alternativa tecken
+
+När en elev slutför en kurs genom en alternativ registrering eller via en relation genererar Adobe Learning Manager en dedikerad webhook-händelse som skiljer sig från standardwebhooken för slutförande av kurs, vilket gör att integreringarna kan tillämpa olika hanteringslogik för alternativa slutföranden. Webhook-händelser genereras också för retroaktiv slutföring och retroaktiv slutförande, vilket omfattar historiska ändringar av kursstatus, inklusive de som drivs av uppdateringar av relationer, så att externa system förblir synkroniserade med elevens aktuella slutförandestatus.
+
+Mer information om webbhookar för alternativ finns i [Webhookar för alternativ](/help/migrated/integration-admin/feature-summary/webhooks.md#webhooks-for-alternates)
+
 ## Förfarande för migrering av data och innehåll {#dataandcontentmigrationprocedure}
 
 Proceduren för att migrera dina Enterprise LMS-data och -innehåll till Learning Manager beskrivs nedan:
@@ -789,3 +910,9 @@ Mer information om det här avsnittet finns i följande hjälpinnehåll:
 
 * [Vanliga frågor om överföring av CSV-filer](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users/)
 * [Funktionshjälp för att lägga till användare](/help/migrated/administrators/feature-summary/add-users-user-groups.md)
+
+## API-ändringar
+
+April 2026-versionen av Adobe Learning Manager innehåller riktade förbättringar av det offentliga API:t i fråga om alternativ och motsvarigheter, innehållsåtkomst i tidsfönster, innehållsdrivna frågeformulärsförsök, icke-inloggade elevupplevelser och arbetsstödshantering. Dessa uppdateringar är utformade för att i stor utsträckning förbli bakåtkompatibla, samtidigt som de möjliggör mer exakta och utbyggbara integreringsmönster.
+
+Visa [API-ändringar](/help/migrated/api-changes-alm.md) för API-ändringar.

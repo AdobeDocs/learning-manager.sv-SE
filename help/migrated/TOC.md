@@ -2,10 +2,10 @@
 user-guide-title: Användarhandbok för Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation för Adobe Learning Manager
-source-git-commit: ac4432a2fda4be4ffde5e58c0f44e623b55703b5
+source-git-commit: 03ac3f985aa523e494e05393ee8fa478faf35646
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 5%
+source-wordcount: '900'
+ht-degree: 6%
 
 ---
 
@@ -14,7 +14,8 @@ ht-degree: 5%
 
 * [Användarhandbok för Learning Manager](user-guide.md)
 * Introduktion {#introduction}
-   * [Sammanfattning av nya funktioner oktober 2025](/help/migrated/whats-new.md)
+   * [Sammanfattning av nya funktioner april 2026](/help/migrated/whats-new.md)
+   * [Sammanfattning av nya funktioner oktober 2025](/help/migrated/whats-new-october-2025.md)
    * [Sammanfattning av nya funktioner maj 2025](/help/migrated/whats-new-may-2025.md)
    * [Sammanfattning av nya funktioner i november 2024](/help/migrated/whats-new-nov-24.md)
    * [Sammanfattning av nya funktioner juli 2024](whats-new-july-2024.md)
@@ -38,6 +39,7 @@ ht-degree: 5%
    * [RECOMMENDATIONS i ADOBE LEARNING MANAGER](recommendations-adobe-learning-manager.md)
    * [Märkning i Adobe Learning Manager](white-label.md)
 * Kom igång {#get-started}
+   * [Logga in på Adobe Learning Manager med OpenID Connect](/help/migrated/oidc.md)
    * [Komma igång som administratör](administrators/feature-summary/getting-started-admin.md)
    * [Komma igång som författare](authors/feature-summary/getting-started-author.md)
    * [Komma igång som elev](learners/feature-summary/getting-started-learner.md)
@@ -48,10 +50,11 @@ ht-degree: 5%
    * [Användarinloggning](administrators/feature-summary/user-login.md)
    * Hantering av användare {#user-management}
       * [Lägga till användare i Adobe Learning Manager](administrators/feature-summary/add-users-user-groups.md)
-      * [Användargrupp i Adobe Learning Manager](/help/migrated/administrators/feature-summary/user-group.md)
+      * [Användargrupper i Adobe Learning Manager](/help/migrated/administrators/feature-summary/user-group.md)
       * [Aktiva fält](/help/migrated/administrators/feature-summary/active-fields.md)
    * [Lägg till klassrumsplatser](administrators/feature-summary/classroom.md)
    * [Skapa kursinstanser och utbildningsvägar](administrators/feature-summary/courses.md)
+   * [Kontroll av modulåtkomsttid](/help/migrated/administrators/feature-summary/module-access-time-control.md)
    * Experience Builder i Adobe Learning Manager {#experience-builder}
       * [Översikt](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
       * [Kärnkomponenter i Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
@@ -68,6 +71,12 @@ ht-degree: 5%
          * [Översikt](/help/migrated/administrators/feature-summary/experience-builder/customization-overview.md)
          * [Anpassa Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/customization-experience-builder.md)
       * [Riktlinjer och begränsningar för Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/experience-builder-guidelines.md)
+      * [Upplevelser som inte är inloggade i Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-experience.md)
+   * Inställningar {#settings}
+      * [Översikt](/help/migrated/administrators/feature-summary/settings/settings-overview.md)
+      * [Grundläggande inställningar](/help/migrated/administrators/feature-summary/settings/basic-settings.md)
+      * [Integreringsinställningar](/help/migrated/administrators/feature-summary/settings/integration-settings.md)
+      * [Avancerade inställningar](/help/migrated/administrators/feature-summary/settings/advanced-settings.md)
    * Content Marketplace {#content-marketplace}
       * [Content Marketplace](administrators/feature-summary/content-marketplace.md)
       * [Kurera Go1-kurser till utbildningsvägen](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
@@ -75,10 +84,12 @@ ht-degree: 5%
    * [Rapporter](administrators/feature-summary/reports.md)
    * [Tavla för slutförda grupper](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [Utbildningsvägar](administrators/feature-summary/learning-paths.md)
+   * [Alternativ och likvärdighet](/help/migrated/administrators/feature-summary/alternates-equivalence.md)
    * [Utbildningsplaner](administrators/feature-summary/learning-plans.md)
    * [Hantera order och fakturering för Learning Manager](administrators/feature-summary/billing-management.md)
    * [Arbetsstöd](administrators/feature-summary/job-aids.md)
    * [Certifieringar](administrators/feature-summary/certifications.md)
+   * [Skapa och anpassa ett certifikat](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
    * [Kataloger](administrators/feature-summary/catalogs.md)
    * [Uppträd som elev och chef](administrators/feature-summary/impersonation-learner-manager.md)
    * [Flera SSO-inloggningar](administrators/feature-summary/multiple-sso-logins.md)
@@ -92,6 +103,7 @@ ht-degree: 5%
    * [Utmärkelsetecken](administrators/feature-summary/badges.md)
    * [Färgteman](administrators/feature-summary/themes.md)
    * [Elevens betygsutdrag](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)
+   * [Ändringar i elevens betygsutdrag](/help/migrated/administrators/feature-summary/reports/changes-in-learner-transcript.md)
    * [Feedbackrapport](/help/migrated/administrators/feature-summary/reports/feedback-report.md)
    * [Väntelista och närvarohantering](administrators/feature-summary/waitlist-attendance-management.md)
    * [Fluidic-spelare](administrators/feature-summary/fluidic-player.md)
@@ -132,7 +144,6 @@ ht-degree: 5%
    * [Installera Salesforce-paket i Learning Manager](integration-admin/feature-summary/install-salesforce-package.md)
    * Distributionshandbok {#deployment-guide}
       * [Introduktion](/help/migrated/deployment-guide/introduction.md)
-      * [Anslutningar från tredje part](/help/migrated/deployment-guide/third-party-connectors.md)
       * [Användarmigrering](/help/migrated/deployment-guide/user-migration.md)
       * [Användarinställningar](/help/migrated/deployment-guide/user-setup.md)
    * [Installera Microsoft Teams-anslutning](integration-admin/feature-summary/install-microsoft-teams-connector.md)
@@ -202,6 +213,8 @@ ht-degree: 5%
    * [Meddelanden om nya Experience League](/help/migrated/new-experience-league-announcement.md)
    * [Så här skickar du ett supportärende på Experience League](/help/migrated/how-to-submit-support-ticket.md)
    * [Skapa ett testkonto i Adobe Learning Manager](/help/migrated/create-trial-account.md)
+* API-ändringar {#api-changes}
+   * [API-ändringar i aprilversionen](/help/migrated/api-changes-alm.md)
 * Kunskapsbas {#knowledge-base}
    * [Kan inte logga in på Learning Manager](kb/unable-log-in-learning-manager.md)
    * [Utbildningssammanfattning visar inte aktuella data](kb/learning-summary-not-display-data.md)
