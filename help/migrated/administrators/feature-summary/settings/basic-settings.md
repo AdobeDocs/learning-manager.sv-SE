@@ -109,7 +109,7 @@ Du kan maximera svarsfrekvensen genom att konfigurera automatiska påminnelser. 
 b) **[!UICONTROL Recurrence]**: Välj hur ofta påminnelsen ska visas (till exempel Varje vecka).
 c) **[!UICONTROL For]**: Ange den totala varaktigheten (i veckor) som påminnelserna ska skickas för (till exempel fyra veckor).
 
-3. **[!UICONTROL  Save the reminder]**: Välj den blå bockikonen för att spara den nya påminnelsekonfigurationen. Du kan upprepa den här processen om du vill lägga till fler påminnelser vid behov.
+3. **[!UICONTROL &#x200B; Save the reminder]**: Välj den blå bockikonen för att spara den nya påminnelsekonfigurationen. Du kan upprepa den här processen om du vill lägga till fler påminnelser vid behov.
 
    ![Alt-text](../settings/assets/Picture7.png)
 

@@ -254,8 +254,8 @@ Om du vill använda bilder från Firefly måste din Adobe Learning Manager-insta
 8. I listrutan väljer du ett standardspråk.
 9. Välj **Skapa**. Om du valde den tomma mallen visas en tom arbetsyta under certifikatnamnet.
 10. Lägg till element: **Text**, **Bild**, **Dynamiskt värde** och **Certifikatbakgrund**.
-   ![Skapa ett anpassat certifikat](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
-   *Lägg till element i certifikatet*
+    ![Skapa ett anpassat certifikat](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
+    *Lägg till element i certifikatet*
 
 11. För **text** lägger du till innehåll under **Förformaterad text** eller **Textmallar** eller lägger till anpassad text. Texten visas på arbetsytan. När text är markerad visas formateringsalternativen ovanför arbetsytan. Om du vill ta bort innehåll som du inte vill ta bort väljer du ikonen **Ta bort** i arbetsytans övre högra hörn.
 12. Om du vill lägga till bilder väljer du **Bild** bredvid **Lägg till element**. Överför bilder från datorn eller välj bilder från kategorilistorna.
@@ -263,12 +263,12 @@ Om du vill använda bilder från Firefly måste din Adobe Learning Manager-insta
 14. Välj **Certifikatbakgrund** för att använda färger eller bilder. Om du vill skapa bilder med Adobe Firefly väljer du **Generera bild**.
 15. Beskriv vad du vill (upp till 100 tecken) i promptfältet och välj **Generera**. Fyra bildalternativ visas baserat på ditt ledord.
 16. Markera den bild du vill använda. Den används som certifikatbakgrund.
-   ![Skapa ett anpassat certifikat](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
-   *Lägg till en bild i certifikatet*
+    ![Skapa ett anpassat certifikat](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
+    *Lägg till en bild i certifikatet*
 
 17. Välj **Förhandsgranska** om du vill granska certifikatet innan du publicerar det. På så sätt kan du förstå hur certifikatet ser ut.
-   ![Skapa ett anpassat certifikat](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
-   *Förhandsgranska certifikatet*
+    ![Skapa ett anpassat certifikat](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
+    *Förhandsgranska certifikatet*
 
 18. I förhandsgranskningen kan du spara på Google Drive, hämta, skriva ut eller använda andra alternativ som anteckningar eller dokumentegenskaper.
 19. Klicka på **Spara som utkast** om du vill fortsätta senare eller välj **Publish** om du vill publicera certifikatet. Efter publicering kan elever hämta certifikatet när de når den konfigurerade milstolpen.
