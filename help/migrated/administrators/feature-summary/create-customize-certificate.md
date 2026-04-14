@@ -2,13 +2,13 @@
 title: Skapa och anpassa ett certifikat
 description: Med anpassade certifikat i Adobe Learning Manager (ALM) kan administratörer och författare designa, hantera och utfärda anpassade certifikat för elever.
 jcr-language: en-us
-source-git-commit: c012fdc19d3695add97661e290db19a90771748f
+exl-id: 99e20f00-9f8f-477f-9416-24636ed23b87
+source-git-commit: 13fbdb95129ba7612e8e42d3da88ef3c6784e729
 workflow-type: tm+mt
-source-wordcount: '2630'
+source-wordcount: '2628'
 ht-degree: 0%
 
 ---
-
 
 # Anpassade certifikat i Adobe Learning Manager
 
@@ -25,7 +25,9 @@ Administratörer kan:
 
 Certifieringsprocessen följer den befintliga modellen för utmärkelsetecken och prestationer i Learning Manager, så elevbeteendet förblir bekant medan administratörer och supportteam lägger mindre tid på certifikatsåtgärder.
 
-**Obs!** Certifikatfunktioner som använder generativ AI omfattas av kvoter. Gränsen är 10 000 förfrågningar per användare.
+>[!NOTE]
+>
+>Certifikatfunktioner som använder generativ AI omfattas av kvoter. Gränsen är 10 000 förfrågningar per kund.
 
 ## Viktiga funktioner i anpassad certifiering
 
@@ -254,8 +256,8 @@ Om du vill använda bilder från Firefly måste din Adobe Learning Manager-insta
 8. I listrutan väljer du ett standardspråk.
 9. Välj **Skapa**. Om du valde den tomma mallen visas en tom arbetsyta under certifikatnamnet.
 10. Lägg till element: **Text**, **Bild**, **Dynamiskt värde** och **Certifikatbakgrund**.
-    ![Skapa ett anpassat certifikat](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
-    *Lägg till element i certifikatet*
+   ![Skapa ett anpassat certifikat](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
+   *Lägg till element i certifikatet*
 
 11. För **text** lägger du till innehåll under **Förformaterad text** eller **Textmallar** eller lägger till anpassad text. Texten visas på arbetsytan. När text är markerad visas formateringsalternativen ovanför arbetsytan. Om du vill ta bort innehåll som du inte vill ta bort väljer du ikonen **Ta bort** i arbetsytans övre högra hörn.
 12. Om du vill lägga till bilder väljer du **Bild** bredvid **Lägg till element**. Överför bilder från datorn eller välj bilder från kategorilistorna.
@@ -263,12 +265,12 @@ Om du vill använda bilder från Firefly måste din Adobe Learning Manager-insta
 14. Välj **Certifikatbakgrund** för att använda färger eller bilder. Om du vill skapa bilder med Adobe Firefly väljer du **Generera bild**.
 15. Beskriv vad du vill (upp till 100 tecken) i promptfältet och välj **Generera**. Fyra bildalternativ visas baserat på ditt ledord.
 16. Markera den bild du vill använda. Den används som certifikatbakgrund.
-    ![Skapa ett anpassat certifikat](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
-    *Lägg till en bild i certifikatet*
+   ![Skapa ett anpassat certifikat](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
+   *Lägg till en bild i certifikatet*
 
 17. Välj **Förhandsgranska** om du vill granska certifikatet innan du publicerar det. På så sätt kan du förstå hur certifikatet ser ut.
-    ![Skapa ett anpassat certifikat](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
-    *Förhandsgranska certifikatet*
+   ![Skapa ett anpassat certifikat](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
+   *Förhandsgranska certifikatet*
 
 18. I förhandsgranskningen kan du spara på Google Drive, hämta, skriva ut eller använda andra alternativ som anteckningar eller dokumentegenskaper.
 19. Klicka på **Spara som utkast** om du vill fortsätta senare eller välj **Publish** om du vill publicera certifikatet. Efter publicering kan elever hämta certifikatet när de når den konfigurerade milstolpen.
@@ -330,7 +332,9 @@ Du kan byta namn på ett certifikat utan att klona det.
 
 Det går inte att ångra borttagning av ett certifikat. Fortsätt bara om du är säker.
 
-**Obs!** Du kan inte ta bort ett certifikat som är kopplat till ett utbildningsobjekt eller en utbildningsinstans.
+>[!NOTE]
+>
+>Du kan inte ta bort ett certifikat som är kopplat till ett utbildningsobjekt eller en utbildningsinstans.
 
 1. I avsnittet **Konfigurera** väljer du **Prestationer**. Sidan **Märken** öppnas.
 2. Välj **Certifikat** i den vänstra navigeringspanelen. Sidan **Certifikat** öppnas.
