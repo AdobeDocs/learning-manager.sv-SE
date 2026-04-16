@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Så här skickar du in ett supportärende i Experience League
 description: Lär dig skicka en supportförfrågan på Experience League
 exl-id: ff216f75-3441-4194-b254-0bf6c9fda518
-source-git-commit: 5cf246440f56dfa4ffd23edcfdc7c1190ad89c42
+source-git-commit: aa9bf441507251c536cb6ee550fee0177e69cf6e
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Processen för att skicka in Adobe Learning Manager supportärenden är nu direk
 
 Observera att det bara är auktoriserade supportkontakter som kan skicka in ett supportärende. Fortsätt att skicka dina supportärenden till Adobe Learning Manager via e-post fram till 11 maj 2025 för dina supportfrågor. Efter detta datum kan du skicka dina supportärenden via Experience League supportportal enligt beskrivningen nedan, utöver den e-postkanal som redan finns.
 
-1. Gå till supportportalen på webbplatsen **[!UICONTROL Experience League]** och välj fliken **[!UICONTROL Support]** högst upp på sidan. Du kan också gå till [direktlänken](https://experienceleague.adobe.com/home?lang=sv-SE#support).
+1. Gå till supportportalen på webbplatsen **[!UICONTROL Experience League]** och välj fliken **[!UICONTROL Support]** högst upp på sidan. Du kan också gå till [direktlänken](https://experienceleague.adobe.com/home#support).
 
    ![](assets/support.png)
    _Hemsida för support_
@@ -43,7 +43,7 @@ Observera att det bara är auktoriserade supportkontakter som kan skicka in ett 
    ![](assets/ticket-form.png)
    _Biljettformulär_
 
-4. När du klickar på **[!UICONTROL Submit case]** omdirigeras du till sidan **[!UICONTROL My cases]**, där du kan se alla ärenden som din organisation har skickat in. Du kan också navigera till den här sidan genom att klicka på knappen **[!UICONTROL My cases]** på menyn i sidopanelen. På den här sidan kan du visa alla dina öppna och stängda supportärenden. Med hjälp av alternativen överst på sidan kan du filtrera efter ärendestatus (öppen eller stängd) eller efter Experience Cloud. Du kan också använda sökfältet för att söka efter nyckelord som gäller dina supportfrågor.
+4. När du klickar på **[!UICONTROL Submit case]** omdirigeras du till sidan **[!UICONTROL My cases]**, där du kan se alla ärenden som din organisation har skickat in. Du kan också navigera till den här sidan genom att klicka på knappen **[!UICONTROL My cases]** på menyn i sidopanelen. På den här sidan kan du visa alla dina öppna och stängda supportärenden. Med alternativen överst på sidan kan du filtrera efter ärendestatus (öppen eller stängd) eller efter Adobe CX Enterprise-lösning. Du kan också använda sökfältet för att söka efter nyckelord som gäller dina supportfrågor.
 
    ![](assets/open-cases.png)
    _Öppna ärenden_

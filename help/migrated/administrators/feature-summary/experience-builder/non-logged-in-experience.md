@@ -3,15 +3,17 @@ description: Förklarar hur Experience Builder kan publicera offentliga utbildni
 jcr-language: en_us
 title: Konfigurera och hantera sidor som inte är inloggade i Experience Builder
 exl-id: e4685cab-08ca-4b6b-93f4-a9eecf382dc4
-source-git-commit: ef6f7a9acd27b7fb4c08fe9a8b366d628d199050
+source-git-commit: 2f9e931523da6e3e1ed2cf60f1ad05f5caf3cc1b
 workflow-type: tm+mt
-source-wordcount: '6049'
+source-wordcount: '6056'
 ht-degree: 0%
 
 ---
 
 
-# Introduktion
+# Upplevelser som inte är inloggade i Experience Builder
+
+## Introduktion
 
 Med den icke-inloggade upplevelsen i Experience Builder kan organisationer visa sitt utbildningsinnehåll och sina portalsidor för alla besökare, inklusive dem som inte har loggat in. Den här funktionen är utformad för att locka, informera och engagera blivande elever genom att erbjuda en smidig och varumärkt förhandsvisning av dina utbildningserbjudanden innan de måste logga in eller registrera sig.
 
@@ -29,7 +31,7 @@ Varumärkning och lokalisering stöds fullt ut, vilket gör att du kan anpassa s
 
 Med den icke-inloggade upplevelsen i Experience Builder kan organisationer visa upp sitt utbildningsinnehåll och sina portalsidor för vem som helst utan att användarna behöver logga in. Detta hjälper till att locka, informera och engagera potentiella elever genom att tillhandahålla en förhandsvisning av tillgänglig utbildning och resurser innan registrering eller autentisering behövs.
 
-## Verkliga användningsfall vid icke-inloggad användning
+## Verkliga användningsfall där ingen är inloggad
 
 - **Marknadsföring och utåtriktad verksamhet**: Organisationer kan marknadsföra sina utbildningsprogram till externa målgrupper, t.ex. potentiella kunder, partner eller arbetssökande, genom att göra kurskataloger och programinformation offentligt tillgängliga.
 - **Undersökning före registrering**: Elever kan bläddra bland tillgängliga kurser, visa översikter och utforska kategorier innan de bestämmer sig för att registrera sig eller logga in, vilket hjälper dem att fatta informerade beslut om registrering.
