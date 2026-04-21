@@ -2,13 +2,13 @@
 description: Läs mer om elevens betygsutdrag
 jcr-language: en_us
 title: Ändringar i elevens betygsutdrag
-source-git-commit: cd0737061029e75953fa23cf3d12409b1407772a
+exl-id: 295c4e1f-c3c7-4f97-83c3-1234f3d47546
+source-git-commit: 048e550320932b683cf6bbcdc0b4d0fdf4e84905
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
-
 
 # Ändringar av elevens betygsutdrag i aprilutgåvan
 
@@ -80,9 +80,11 @@ Om eleven har ett direkt slutförande påverkar inte återkallande av alternativ
 
 ## Förbättrad rapportering för granskningskommentarer
 
-Granskningskommentarer från checklistmoduler ingår nu i elevens betygsrapport under en kolumn med nytt namn, **Granskarens kommentarer**.
+Den här ändringen gäller på samma sätt för alla Admin LT-källor (UI-export, jobb API-rapporter och kopplingar i tillämpliga fall). LT som exporteras av anslutaren visar Granskarens kommentarer som en dedikerad kolumn i slutet (för anslutningar som inte tidigare visade Inlämningskommentar), vilket säkerställer att integreringar nedströms kan skilja granskarens feedback från andra kommentarer.
 
-**Effekt**: Gör det möjligt för elever och administratörer att visa konsoliderad feedback, förbättra transparensen och stödja prestandautvärdering.
+>[!NOTE]
+>
+>För elevens betygsutdrag för elever har kolumnen som tidigare hette **Skicka kommentar** bytt namn till **Granskarens kommentarer** och fylls i med granskarens kommentar när den är aktiverad.
 
 ## Förbättrad beräkning av inlärningstid
 
