@@ -3,9 +3,9 @@ description: Läs mer om elevens betygsutdrag
 jcr-language: en_us
 title: Ändringar i elevens betygsutdrag
 exl-id: 295c4e1f-c3c7-4f97-83c3-1234f3d47546
-source-git-commit: 048e550320932b683cf6bbcdc0b4d0fdf4e84905
+source-git-commit: 1f0d3af950429042b21606648b53b7a7dfaaa851
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,15 @@ Om eleven har ett direkt slutförande påverkar inte återkallande av alternativ
 
 ## Förbättrad rapportering för granskningskommentarer
 
+Granskningskommentarer från checklistmoduler ingår nu i elevens betygsrapport under en kolumn med nytt namn som heter **Granskarens kommentarer.**
+
+| Område | Gammalt kolumnnamn | Nytt kolumnnamn | Anteckningar |
+|------|-----------------|-----------------|-------|
+| Elevens betygsutdrag (admin) | Kommentar till ansökan | Granskarens anmärkningar | Gäller alla Admin LT-källor: UI, Job API, kopplingar. |
+
 Den här ändringen gäller på samma sätt för alla Admin LT-källor (UI-export, jobb API-rapporter och kopplingar i tillämpliga fall). LT som exporteras av anslutaren visar Granskarens kommentarer som en dedikerad kolumn i slutet (för anslutningar som inte tidigare visade Inlämningskommentar), vilket säkerställer att integreringar nedströms kan skilja granskarens feedback från andra kommentarer.
+
+**Effekt:** Gör det möjligt för elever och administratörer att visa konsoliderad feedback, förbättra transparensen och stödja prestandautvärdering.
 
 >[!NOTE]
 >
