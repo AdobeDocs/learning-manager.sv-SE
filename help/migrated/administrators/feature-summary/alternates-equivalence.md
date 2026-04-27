@@ -2,13 +2,13 @@
 title: Motsvarigheter och suppleanter i Adobe Learning Manager
 description: Leverera en friktionsfri utbildningsupplevelse och ta bort överflödig utbildning med motsvarigheter och alternativ i ALM. Med den här nya funktionen kan administratörer konfigurera enkelriktade (alternativa) eller dubbelriktade (motsvarande) regler, där slutförande av en utbildning automatiskt ger alternativt slutförande av en annan
 jcr-language: en-us
-source-git-commit: e70a3b5a5d1080dc4b3a56aa726c717120c6bfa3
+exl-id: 6bdd6ba7-e5a6-462a-8385-66b955ef25fc
+source-git-commit: 4a4c42968caf6c0c8265014d99a2211da4c1cbb9
 workflow-type: tm+mt
 source-wordcount: '3457'
 ht-degree: 0%
 
 ---
-
 
 # Suppleanter och motsvarande
 
@@ -123,7 +123,8 @@ Filtret för slutförandemetod är tillgängligt i elevvyer. Till exempel:
 
 Dessa synpunkter visar tydligt vilka utbildningar som fullgjorts direkt och vilka som fullgjorts genom suppleanter.
 
-<!--## Configure equivalent courses (complete each other)
+<!--
+## Configure equivalent courses (complete each other)
 
 Use this workflow to define courses that are **equal in value**, where completing either course should automatically complete the other.
 
@@ -213,7 +214,8 @@ ALM:
 
 1. Identifies impacted alternate completions.
 2. Revokes previously applied alternate or equivalent completions.
-3. Updates transcript entries to **Alternate (Revoked)**.-->
+3. Updates transcript entries to **Alternate (Revoked)**.
+-->
 
 ### Heltäckande flöde
 
