@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # ARKIVERAT
 
-Den här rapporten har migrerats till <https://github.com/Adobe-Enterprise-Docs/learning-manager.en>.
+Den här rapporten har migrerats till <https://github.com/Adobe-Enterprise-Docs/learning-manager.sv-SE>.
